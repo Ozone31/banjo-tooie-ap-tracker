@@ -1,0 +1,74 @@
+{
+    "movesmagic_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "rows": [
+                            [
+                                "eggaim",
+                                "bblaster",
+                                "ggrab",
+                                "bdrill",
+                                "bbayonet",
+                                "splitup",
+                                "aireaim",
+                                "auqaim",
+                                "ttorp"
+                            ],
+                            [
+                                "springb",
+                                "clawbts",
+                                "fswim",
+                                "dair",
+                                "bbash",
+                                "homingeggs",
+                                "shpack",
+                                "snpack",
+                                "taxpack"
+                            ],
+                            [
+                                "packwh",
+                                "sapack",
+                                "wwhack",
+                                "glide",
+                                "lspring",
+                                "hatch"
+                            ],
+                            [
+                                "feggs",
+                                "geggs",
+                                "ceggs",
+                                "ieggs"
+                            ],
+                            [
+                                "dive",
+                                "fpad",
+                                "fflip",
+                                "eggshoot",
+                                "roll"
+                            ],
+                            [
+                                "ttrot",
+                                "tjump",
+                                "climb",
+                                "flutter",
+                                "wwing"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,132 @@
+{
+    "tabbed_maps": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Overview",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "overview"
+                    ]
+                }
+            },
+            {
+                "title": "Isle O' Hags",
+                "content": {
+                    "type": "tabbed",
+                  "tabs": [
+                    {
+                      "title": "Spiral Mountain",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "sm"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Jinjo Village",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "jv"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Wooded Hollow",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "wh"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Plateau",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "pl"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Pine Grove",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "pg"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Cliff Top",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "ct"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Wasteland",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "wl"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Quagmire",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "qm"
+                        ]
+                      }
+                    }
+                  ]
+                }
+            },
+            {
+                "title": "Mayahem Temple",
+                "content": {
+                    "type": "tabbed",
+                  "tabs": [
+                    {
+                      "title": "Main Area",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "mt1"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Prison Compound",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "mt2"
+                        ]
+                      }
+                    }
+                    ,
+                    {
+                      "title": "Jade Snake Grove",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "mt3"
+                        ]
+                      }
+                    }
+                  ]
+                }
+            }
+        ]
+    }
+}

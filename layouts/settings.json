@@ -1,0 +1,50 @@
+{
+  "setting_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "2, 2",
+            "item_h_alignment": "center",
+            "h_alignment": "left",
+            "rows": [
+              [
+                "randomizemoves",
+                "randomizebkmoves",
+                "randomizejinjos",
+                "randomizecheato",
+                "randomizehoneycomb"
+              ],
+              [
+                "randomizetrebleclef",
+                "randomizeglowbos",
+                "speedupmini",
+                "cheatorewards",
+                "honeybrewards"
+              ],
+              [
+                "randomizedoubloons",
+                "randomizestations",
+                "randomizechuffy",
+                "randomizenotes",
+                "randomizestopnswop"
+              ],
+              [
+                "randomizeworlds",
+                "logictype",
+                "goal"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

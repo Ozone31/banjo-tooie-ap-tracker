@@ -1,0 +1,27 @@
+﻿//sets the layout for the broadcast view
+{
+    "tracker_broadcast": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "h_alignment": "left",
+            "item_margin": "1,2",
+            "rows": [
+              [ "jiggy", "note", "treble", "honey", "pages", "doubloon", "chuffy", "mumbotoken", "ikey", "bmegg", "pmegg" ],
+              [ "wjinjo", "ojinjo", "yjinjo", "brjinjo", "gjinjo", "rjinjo", "bljinjo", "pjinjo", "bkjinjo" ],
+              [ "eggaim", "bblaster", "ggrab", "bdrill", "bbayonet", "splitup", "aireaim", "auqaim", "ttorp", "springb", "clawbts", "fswim" ],
+              [ "dair", "bbash", "homingeggs", "shpack", "snpack", "taxpack", "packwh", "sapack", "wwhack", "glide", "lspring", "hatch" ],
+              [ "feggs", "geggs", "ceggs", "ieggs" ],
+              [ "dive",  "fpad", "fflip", "eggshoot", "roll", "ttrot", "tjump", "climb", "flutter", "wwing"],
+              [ "mumbomt", "mumbogm", "mumboww", "mumbojr", "mumbotd", "mumbogi", "mumbohp", "mumbocc", "mumboih" ],
+              [ "humbamt", "humbagm", "humbaww", "humbajr", "humbatd", "humbagi", "humbahp", "humbacc", "humbaih" ],
+              [ "mta", "gga", "wwa", "jra", "tda", "gia", "hfa", "cca", "cka" ],
+              [ "trainswih", "trainswtd", "trainswgi", "trainswhp1", "trainswhp2", "trainswww" ]
+            ]
+          }
+        ]
+    }
+}
