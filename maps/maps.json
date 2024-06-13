@@ -1,0 +1,74 @@
+[
+    {
+        "name": "overview",
+        "location_size": 35,
+        "location_border_thickness": 2,
+        "img": "images/maps/overview.png"
+    },
+    {
+        "name": "sm",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/spiralmountain.png"
+    },
+    {
+        "name": "jv",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/jinjovillage.png"
+    },
+    {
+        "name": "wh",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/woodedhollow.png"
+    },
+    {
+        "name": "pl",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/plateau.png"
+    },
+    {
+        "name": "pg",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/pinegrove.png"
+    },
+    {
+        "name": "ct",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/clifftop.png"
+    },
+    {
+        "name": "wl",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/wasteland.png"
+    },
+    {
+        "name": "qm",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/quagmire.png"
+    },
+    {
+        "name": "mt1",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/mayahemtemple_1.png"
+    },
+    {
+        "name": "mt2",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/mayahemtemple_2.png"
+    },
+    {
+        "name": "mt3",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/mayahemtemple_3.png"
+    }
+]
