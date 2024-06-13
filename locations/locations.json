@@ -3060,7 +3060,7 @@
           {
             "name": "CCL: Mingy Jongo Mumbo Token",
             "visibility_rules": [ "goal_boss", "goal_wwing" ],
-            "access_rules": [ "$ccl_access" ]
+            "access_rules": [ "$ccl_access, $hasMobileAttack, $cclStarterPack" ]
           },
           {
             "name": "CCL: Pot O' Gold Mumbo Token",
@@ -3075,12 +3075,17 @@
           {
             "name": "CCL: Trash Can Mumbo Token",
             "visibility_rules": [ "goal_minigame", "goal_wwing" ],
-            "access_rules": [ "$ccl_access, $cc_jiggy8" ]
+            "access_rules": [
+              "logictype_b, $ccl_access, $cclStarterPack, splitup, wwhack, fpad",
+              "logictype_n, $ccl_access, $cclStarterPack, splitup, wwhack, fpad", "logictype_n, $ccl_access, $cclStarterPack, splitup, $canShootLinearEgg, fpad",
+              "logictype_a, $ccl_access, $cclStarterPack, splitup, wwhack, fpad", "logictype_a, $ccl_access, $cclStarterPack, splitup, $canShootLinearEgg, fpad",
+              "logictype_g, $ccl_access, $cclStarterPack, splitup, wwhack, fpad", "logictype_g, $ccl_access, $cclStarterPack, splitup, $canShootLinearEgg, fpad"
+            ]
           },
           {
             "name": "CCL: Canary Mary Mumbo Token",
             "visibility_rules": [ "goal_minigame", "goal_wwing" ],
-            "access_rules": [ "$ccl_access, $cc_jiggy4" ]
+            "access_rules": [ "$ccl_access, $canary_mary_free, $ggm_access" ]
           }
         ],
         "map_locations": [
