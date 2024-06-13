@@ -1,0 +1,14 @@
+﻿{
+    "name": "Banjo-Tooie",
+    "game_name": "Banjo-Tooie",
+    "package_version": "0.1.0",
+    "package_uid": "ap_banjotooie",
+    "author": "Ozone",
+    "variants": {
+        "standard": {
+            "display_name": "Map Tracker",
+            "flags": ["ap"]
+        }
+    },
+    "versions_url": ""
+}
