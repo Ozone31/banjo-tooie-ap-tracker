@@ -315,11 +315,11 @@ function cclStarterPack()
 end
 
 function notes_ccl_high()
-    return cclStarterPack() and has("fpad")
+    return cclStarterPack() and has("fpad") or has("humbacc")
 end
 
 function notes_ccl_low()
-    return cclStarterPack()
+    return cclStarterPack() or has("humbacc")
 end
 
 function mumboCCL()
@@ -363,7 +363,9 @@ end
 -- Area Access
 
 function plateau_access()
-    if logictype.CurrentStage <= 1 then
+    if first_level == "Glitter Gulch Mine" then
+        return true
+    elseif logictype.CurrentStage <= 1 then
         return has("ggrab") or (has("mta") and billDrill() and has("mumbomt"))
     else
         return true
@@ -379,7 +381,9 @@ function plateauTop()
 end
 
 function pinegrove_access(fromTrain)
-    if logictype.CurrentStage == 0 then
+    if first_level == "Witchyworld" then
+        return true
+    elseif logictype.CurrentStage == 0 then
         return canShootEggs("feggs") and plateau_access() and has("eggaim")
     else
         if fromTrain then
@@ -391,7 +395,9 @@ function pinegrove_access(fromTrain)
 end
 
 function clifftop_access(fromTrain)
-    if logictype.CurrentStage <= 0 then
+    if first_level == "Jolly Roger's Lagoon - Town Center" or first_level == "Hailfire Peaks" or first_level == "Outside Grunty's Industries" then
+        return true
+    elseif logictype.CurrentStage <= 0 then
         return has("splitup") and plateau_access()
     else
         if fromTrain then
@@ -403,7 +409,9 @@ function clifftop_access(fromTrain)
 end
 
 function wasteland_access(fromTrain)
-    if logictype.CurrentStage == 0 then
+    if first_level == "Terrydactyland" or first_level == "Cloud Cuckooland" then
+        return true
+    elseif logictype.CurrentStage == 0 then
         return pinegrove_access() and has("ttorp")
     else
         if fromTrain then
@@ -452,11 +460,25 @@ end
 
 function ggm_access()
     if logictype.CurrentStage == 0 then
-        return (has("gga") and has("ggrab")) or dilberta_free()
-    elseif logictype.CurrentStage <= 2 then
-        return (has("gga") and has("ggrab")) or dilberta_free() or (jrl_access() and can_reach_atlantis() and has("ttorp") and has("ieggs") and has("auqaim"))
+        return (WH_to_PL() and PL_to_GGM()) or dilberta_free() and has("mta")
     else
-        return true
+        return (WH_to_PL() and PL_to_GGM()) or dilberta_free() and has("mta") or (jrl_access() and can_reach_atlantis() and has("ttorp") and has("ieggs") and has("auqaim"))
+    end
+end
+
+function WH_to_PL()
+    if logictype.CurrentStage <= 1 then
+        return canReachSlightlyElevatedLedge()
+    else
+        return canReachSlightlyElevatedLedge() or (has("fflip") and has("bbust"))
+    end
+end
+
+function PL_to_GGM()
+    if logictype.CurrentStage <= 2 then
+        return has("gga")
+    else
+        return has("gga") or (has("bbust") and (has("fflip") or has("tjump") or (has("ttrot") and (has("flutter") or has("arat")))))
     end
 end
 
@@ -702,13 +724,13 @@ end
 
 function td_jiggy8()
     if logictype.CurrentStage == 0 then
-        return canShootEggs("ieggs") and has("springb") and longJump()
+        return canShootEggs("ieggs") and has("springb") and longJump() and (has("tjump") or has("ttrot"))
     elseif logictype.CurrentStage == 1 then
-        return has("springb") and ((has("splitup") and (has("wwhack") or has("glide"))) or canShootEggs("ieggs")) and longJump()
+        return has("springb") and ((has("splitup") and (has("wwhack") or has("glide"))) or canShootEggs("ieggs")) and longJump() and (has("tjump") or has("ttrot"))
     elseif logictype.CurrentStage == 2 then
-        return has("springb") and longJump()
+        return has("springb") and longJump() and (has("tjump") or has("ttrot"))
     else
-        return (has("springb") or (has("fpad") and (has("bbomb") or clockworkWarp()))) and longJump()
+        return (has("springb") or (has("fpad") and (has("bbomb") or clockworkWarp()))) and longJump() and (has("tjump") or has("ttrot"))
     end
 end
 
