@@ -70,5 +70,29 @@
         "location_size": 12,
         "location_border_thickness": 2,
         "img": "images/maps/mayahemtemple_3.png"
+    },
+    {
+        "name": "ggm1",
+        "location_size": 10,
+        "location_border_thickness": 2,
+        "img": "images/maps/ggm_1.png"
+    },
+    {
+        "name": "ggm2",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/ggm_2.png"
+    },
+    {
+        "name": "ggm3",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/ggm_3.png"
+    },
+    {
+        "name": "ggm4",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/ggm_4.png"
     }
 ]
