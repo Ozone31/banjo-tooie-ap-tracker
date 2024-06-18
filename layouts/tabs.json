@@ -126,6 +126,51 @@
                     }
                   ]
                 }
+            },
+            ,
+            {
+                "title": "Glitter Gulch Mine",
+                "content": {
+                    "type": "tabbed",
+                  "tabs": [
+                    {
+                      "title": "Main Area",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "ggm1"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Gloomy Caverns",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "ggm2"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Waterfall Cavern",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "ggm3"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Water Storage",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "ggm4"
+                        ]
+                      }
+                    }
+                  ]
+                }
             }
         ]
     }
