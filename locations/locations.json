@@ -5238,5 +5238,685 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Witchyworld - Main Area",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "children": [
+      {
+        "name": "WW: Mrs. Boggy Jiggy",
+        "sections": [
+          {
+            "ref": "Overworld/Witchyworld - Jiggies/WW: Mrs. Boggy Jiggy",
+            "name": "Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 175,
+            "y": 285
+          }
+        ]
+      },
+      {
+        "name": "WW: Cactus of Strength Jiggy",
+        "sections": [
+          {
+            "ref": "Overworld/Witchyworld - Jiggies/WW: Cactus of Strength Jiggy",
+            "name": "Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 320,
+            "y": 560
+          }
+        ]
+      },
+      {
+        "name": "WW: Cactus of Strength Jinjo",
+        "sections": [
+          {
+            "ref": "Overworld/Witchyworld/WW: Cactus of Strength Jinjo",
+            "name": "Jinjo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 350,
+            "y": 630
+          }
+        ]
+      },
+      {
+        "name": "WW: Big Top Jinjo",
+        "sections": [
+          {
+            "ref": "Overworld/Witchyworld/WW: Big Top Jinjo",
+            "name": "Jinjo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 417,
+            "y": 322
+          }
+        ]
+      },
+      {
+        "name": "WW: Dodgem Dome Jinjo",
+        "sections": [
+          {
+            "ref": "Overworld/Witchyworld/WW: Dodgem Dome Jinjo",
+            "name": "Jinjo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 190,
+            "y": 80
+          }
+        ]
+      },
+      {
+        "name": "WW: Van Door Jinjo",
+        "sections": [
+          {
+            "ref": "Overworld/Witchyworld/WW: Van Door Jinjo",
+            "name": "Jinjo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 77,
+            "y": 500
+          }
+        ]
+      },
+      {
+        "name": "WW: Space Zone Honeycomb",
+        "sections": [
+          {
+            "ref": "Overworld/Witchyworld/WW: Space Zone Honeycomb",
+            "name": "Honeycomb"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 425,
+            "y": 35
+          }
+        ]
+      },
+      {
+        "name": "WW: Wumba's Glowbo",
+        "sections": [
+          {
+            "ref": "Overworld/Witchyworld/WW: Wumba's Glowbo",
+            "name": "Glowbo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 545,
+            "y": 608
+          }
+        ]
+      },
+      {
+        "name": "WW: Split Up Silo",
+        "sections": [
+          {
+            "ref": "Overworld/Witchyworld/WW: Split Up Silo",
+            "name": "Silo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 465,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "WW: Airborne Egg Aiming Silo",
+        "sections": [
+          {
+            "ref": "Overworld/Witchyworld/WW: Airborne Egg Aiming Silo",
+            "name": "Silo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 250,
+            "y": 50
+          }
+        ]
+      },
+      {
+        "name": "WW: Treble Clef",
+        "sections": [
+          {
+            "ref": "Overworld/Witchyworld - Notes/WW: Treble Clef",
+            "name": "Treble Clef"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 495,
+            "y": 95
+          }
+        ]
+      },
+      {
+        "name": "WW: Dive of Death Jiggy",
+        "sections": [
+          {
+            "ref": "Overworld/Witchyworld - Jiggies/WW: Dive of Death Jiggy",
+            "name": "Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 680,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Big Top Interior",
+        "sections": [
+          {
+            "ref": "Overworld/Witchyworld - Jiggies/WW: Mr. Patch Jiggy",
+            "name": "Mr. Patch Jiggy"
+          },
+          {
+            "ref": "Overworld/Witchyworld/WW: Mr. Patch Mumbo Token",
+            "name": "Mr. Patch Mumbo Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 380,
+            "y": 358
+          }
+        ]
+      },
+      {
+        "name": "Saucer of Peril",
+        "sections": [
+          {
+            "ref": "Overworld/Witchyworld - Jiggies/WW: Saucer of Peril Jiggy",
+            "name": "Jiggy"
+          },
+          {
+            "ref": "Overworld/Witchyworld/WW: Saucer of Peril Cheato Page",
+            "name": "Cheato Page"
+          },
+          {
+            "ref": "Overworld/Witchyworld/WW: Saucer of Peril Mumbo Token",
+            "name": "Mumbo Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 520,
+            "y": 90
+          }
+        ]
+      },
+      {
+        "name": "Star Spinner",
+        "sections": [
+          {
+            "ref": "Overworld/Witchyworld - Jiggies/WW: Star Spinner Jiggy",
+            "name": "Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 420,
+            "y": 80
+          }
+        ]
+      },
+      {
+        "name": "Dodgem Dome",
+        "sections": [
+          {
+            "ref": "Overworld/Witchyworld - Jiggies/WW: Dodgem Dome Jiggy",
+            "name": "Jiggy"
+          },
+          {
+            "ref": "Overworld/Witchyworld/WW: Dodgem Dome Mumbo Token",
+            "name": "Mumbo Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 245,
+            "y": 90
+          }
+        ]
+      },
+      {
+        "name": "Train Station (Witchyworld)",
+        "sections": [
+          {
+            "ref": "Overworld/Witchyworld/WW: Train Switch",
+            "name": "Train Switch"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 700,
+            "y": 420
+          }
+        ]
+      },
+      {
+        "name": "WW: Around the Tent (1) Note",
+        "sections": [
+          {
+            "ref": "Overworld/Witchyworld - Notes/WW: Around the Tent (1) Note",
+            "name": "Note"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 312,
+            "y": 358
+          }
+        ]
+      },
+      {
+        "name": "WW: Around the Tent (8) Note",
+        "sections": [
+          {
+            "ref": "Overworld/Witchyworld - Notes/WW: Around the Tent (8) Note",
+            "name": "Note"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 330,
+            "y": 470
+          }
+        ]
+      },
+      {
+        "name": "WW: Around the Tent (7) Note",
+        "sections": [
+          {
+            "ref": "Overworld/Witchyworld - Notes/WW: Around the Tent (7) Note",
+            "name": "Note"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 418,
+            "y": 505
+          }
+        ]
+      },
+      {
+        "name": "WW: Around the Tent (6) Note",
+        "sections": [
+          {
+            "ref": "Overworld/Witchyworld - Notes/WW: Around the Tent (6) Note",
+            "name": "Note"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 498,
+            "y": 470
+          }
+        ]
+      },
+      {
+        "name": "WW: Around the Tent (5) Note",
+        "sections": [
+          {
+            "ref": "Overworld/Witchyworld - Notes/WW: Around the Tent (5) Note",
+            "name": "Note"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 520,
+            "y": 358
+          }
+        ]
+      },
+      {
+        "name": "WW: Around the Tent (4) Note",
+        "sections": [
+          {
+            "ref": "Overworld/Witchyworld - Notes/WW: Around the Tent (4) Note",
+            "name": "Note"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 498,
+            "y": 250
+          }
+        ]
+      },
+      {
+        "name": "WW: Around the Tent (3) Note",
+        "sections": [
+          {
+            "ref": "Overworld/Witchyworld - Notes/WW: Around the Tent (3) Note",
+            "name": "Note"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 418,
+            "y": 208
+          }
+        ]
+      },
+      {
+        "name": "WW: Around the Tent (2) Note",
+        "sections": [
+          {
+            "ref": "Overworld/Witchyworld - Notes/WW: Around the Tent (2) Note",
+            "name": "Note"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 330,
+            "y": 250
+          }
+        ]
+      },
+      {
+        "name": "WW: Dive of Death Notes",
+        "sections": [
+          {
+            "ref": "Overworld/Witchyworld - Notes/WW: Dive of Death (1) Note",
+            "name": "Note 1"
+          },
+          {
+            "ref": "Overworld/Witchyworld - Notes/WW: Dive of Death (2) Note",
+            "name": "Note 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 633,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "WW: Area 51 Gate Notes",
+        "sections": [
+          {
+            "ref": "Overworld/Witchyworld - Notes/WW: Area 51 Gate (1) Note",
+            "name": "Note 1"
+          },
+          {
+            "ref": "Overworld/Witchyworld - Notes/WW: Area 51 Gate (2) Note",
+            "name": "Note 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 160,
+            "y": 420
+          }
+        ]
+      },
+      {
+        "name": "WW: Crazy Castle Entrance Notes",
+        "sections": [
+          {
+            "ref": "Overworld/Witchyworld - Notes/WW: Crazy Castle Entrance (1) Note",
+            "name": "Note 1"
+          },
+          {
+            "ref": "Overworld/Witchyworld - Notes/WW: Crazy Castle Entrance (2) Note",
+            "name": "Note 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 414,
+            "y": 650
+          }
+        ]
+      },
+      {
+        "name": "WW: Outside Dodgem Dome Notes",
+        "sections": [
+          {
+            "ref": "Overworld/Witchyworld - Notes/WW: Outside Dodgem Dome (1) Note",
+            "name": "Note 1"
+          },
+          {
+            "ref": "Overworld/Witchyworld - Notes/WW: Outside Dodgem Dome (2) Note",
+            "name": "Note 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 270,
+            "y": 90
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Witchyworld - Crazy Castle Stockade",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "children": [
+      {
+        "name": "WW: Pack Whack Silo",
+        "sections": [
+          {
+            "ref": "Overworld/Witchyworld/WW: Pack Whack Silo",
+            "name": "Silo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww2",
+            "x": 58,
+            "y": 315
+          }
+        ]
+      },
+      {
+        "name": "WW: Crazy Castle Honeycomb",
+        "sections": [
+          {
+            "ref": "Overworld/Witchyworld/WW: Crazy Castle Honeycomb",
+            "name": "Honeycomb"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww2",
+            "x": 310,
+            "y": 50
+          }
+        ]
+      },
+      {
+        "name": "Crazy Castle",
+        "sections": [
+          {
+            "ref": "Overworld/Witchyworld - Jiggies/WW: Hoop Hurry Jiggy",
+            "name": "Hoop Hurry Jiggy"
+          },
+          {
+            "ref": "Overworld/Witchyworld/WW: Hoop Hurry Mumbo Token",
+            "name": "Hoop Hurry Mumbo Token"
+          },
+          {
+            "ref": "Overworld/Witchyworld - Jiggies/WW: Balloon Burst Jiggy",
+            "name": "Balloon Burst Jiggy"
+          },
+          {
+            "ref": "Overworld/Witchyworld/WW: Balloon Burst Mumbo Token",
+            "name": "Balloon Burst Mumbo Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww2",
+            "x": 317,
+            "y": 308
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Witchyworld - The Haunted Cavern",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "children": [
+      {
+        "name": "Cave of Horrors",
+        "sections": [
+          {
+            "ref": "Overworld/Witchyworld/WW: Cave of Horrors Jinjo",
+            "name": "Jinjo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww3",
+            "x": 348,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "WW: The Haunted Cavern Cheato Page",
+        "sections": [
+          {
+            "ref": "Overworld/Witchyworld/WW: The Haunted Cavern Cheato Page",
+            "name": "Cheato Page"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww3",
+            "x": 140,
+            "y": 560
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Witchyworld - The Inferno",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "children": [
+      {
+        "name": "WW: The Inferno Glowbo",
+        "sections": [
+          {
+            "ref": "Overworld/Witchyworld/WW: The Inferno Glowbo",
+            "name": "Glowbo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww4",
+            "x": 180,
+            "y": 90
+          }
+        ]
+      },
+      {
+        "name": "WW: The Inferno Cheato Page",
+        "sections": [
+          {
+            "ref": "Overworld/Witchyworld/WW: The Inferno Cheato Page",
+            "name": "Cheato Page"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww4",
+            "x": 37,
+            "y": 447
+          }
+        ]
+      },
+      {
+        "name": "Mumbo's Skull",
+        "sections": [
+          {
+            "ref": "Overworld/Witchyworld/WW: Mumbo Skull Honeycomb",
+            "name": "Honeycomb"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww4",
+            "x": 540,
+            "y": 100
+          }
+        ]
+      },
+      {
+        "name": "WW: The Inferno Jiggy",
+        "sections": [
+          {
+            "ref": "Overworld/Witchyworld - Jiggies/WW: The Inferno Jiggy",
+            "name": "Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww4",
+            "x": 323,
+            "y": 342
+          }
+        ]
+      }
+    ]
   }
 ]
