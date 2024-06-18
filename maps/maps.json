@@ -94,5 +94,29 @@
         "location_size": 12,
         "location_border_thickness": 2,
         "img": "images/maps/ggm_4.png"
+    },
+    {
+        "name": "ww1",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/witchyworld_1.png"
+    },
+    {
+        "name": "ww2",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/witchyworld_2.png"
+    },
+    {
+        "name": "ww3",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/witchyworld_3.png"
+    },
+    {
+        "name": "ww4",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/witchyworld_4.png"
     }
 ]
