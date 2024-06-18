@@ -127,7 +127,6 @@
                   ]
                 }
             },
-            ,
             {
                 "title": "Glitter Gulch Mine",
                 "content": {
@@ -171,7 +170,51 @@
                     }
                   ]
                 }
-            }
+            },
+            {
+              "title": "Witchyworld",
+              "content": {
+                  "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Main Area",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ww1"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Crazy Castle Stockade",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ww2"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "The Haunted Cavern",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ww3"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "The Inferno",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ww4"
+                      ]
+                    }
+                  }
+                ]
+              }
+          }
         ]
     }
 }
