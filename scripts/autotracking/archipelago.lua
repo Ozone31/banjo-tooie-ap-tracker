@@ -261,6 +261,17 @@ function onClear(slot_data)
         end
     end
 
+    if slot_data['bk_moves'] ~= 0 and slot_data['worlds'] == "true" then
+        local j = 100
+        for k,v in pairs(slot_data.world_order) do
+            if v < 4 and v < j then
+                j = v
+                first_level = k
+            end
+        end
+        return first_level
+    end
+
     --print(dump_table(slot_data))
 
     if PLAYER_ID>-1 then
