@@ -459,10 +459,14 @@ function prison_compound_open()
 end
 
 function ggm_access()
-    if logictype.CurrentStage == 0 then
-        return (WH_to_PL() and PL_to_GGM()) or dilberta_free() and has("mta")
+    if plateau_access() == true and has("gga") == true then
+        return true
     else
-        return (WH_to_PL() and PL_to_GGM()) or dilberta_free() and has("mta") or (jrl_access() and can_reach_atlantis() and has("ttorp") and has("ieggs") and has("auqaim"))
+        if logictype.CurrentStage == 0 then
+            return (WH_to_PL() and PL_to_GGM()) or dilberta_free() and has("mta")
+        else
+            return (WH_to_PL() and PL_to_GGM()) or dilberta_free() and has("mta") or (jrl_access() and can_reach_atlantis() and has("ttorp") and has("ieggs") and has("auqaim"))
+        end
     end
 end
 
