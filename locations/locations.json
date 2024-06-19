@@ -90,10 +90,10 @@
           {
             "name": "IoH: Treble Clef",
             "access_rules": [ 
-              "logictype_b, ggrab", 
-              "logictype_n, ggrab", 
-              "logictype_a", 
-              "logictype_g" 
+              "logictype_b, ggrab, fflip", 
+              "logictype_n, ggrab, fflip", 
+              "logictype_a, ggrab, fflip", "logictype_a, bbust, fflip", "logictype_a, $clockwork_shot", 
+              "logictype_g, ggrab, fflip", "logictype_g, bbust, fflip", "logictype_g, $clockwork_shot"
             ]
           },
           {
@@ -5914,6 +5914,93 @@
             "map": "ww4",
             "x": 323,
             "y": 342
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Jolly Roger's Lagoon - Main Area",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "children": [
+      {
+        "name": "JRL: Waste Pipe Honeycomb",
+        "sections": [
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon/JRL: Waste Pipe Honeycomb",
+            "name": "Honeycomb"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 770,
+            "y": 370
+          }
+        ]
+      },
+      {
+        "name": "Wing Whack Silo",
+        "sections": [
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon/JRL: Wing Whack Silo",
+            "name": "Silo"
+          },
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Silo 1 Doubloon",
+            "name": "Doubloon 1"
+          },
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Silo 2 Doubloon",
+            "name": "Doubloon 2"
+          },
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Silo 3 Doubloon",
+            "name": "Doubloon 3"
+          },
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Silo 4 Doubloon",
+            "name": "Doubloon 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 225,
+            "y": 220
+          }
+        ]
+      },
+      {
+        "name": "Lagoon Alcove",
+        "sections": [
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon/JRL: Lagoon Alcove Jinjo",
+            "name": "Jinjo"
+          },
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Near Alcove Jinjo 1 Doubloon",
+            "name": "Doubloon 1"
+          },
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Near Alcove Jinjo 2 Doubloon",
+            "name": "Doubloon 2"
+          },
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Near Alcove Jinjo 3 Doubloon",
+            "name": "Doubloon 3"
+          },
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Near Alcove Jinjo 4 Doubloon",
+            "name": "Doubloon 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 477,
+            "y": 50
           }
         ]
       }
