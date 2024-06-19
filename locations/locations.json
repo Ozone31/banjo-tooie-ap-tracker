@@ -5941,6 +5941,258 @@
         ]
       },
       {
+        "name": "JRL: Outside Pawno's Note",
+        "sections": [
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Notes/JRL: Outside Pawno's Note",
+            "name": "Note"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 423,
+            "y": 500
+          }
+        ]
+      },
+      {
+        "name": "JRL: Outside Jolly's Note",
+        "sections": [
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Notes/JRL: Outside Jolly's Note",
+            "name": "Note"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 580,
+            "y": 440
+          }
+        ]
+      },
+      {
+        "name": "JRL: Outside Blubber's Note",
+        "sections": [
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Notes/JRL: Outside Blubber's Note",
+            "name": "Note"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 370,
+            "y": 285
+          }
+        ]
+      },
+      {
+        "name": "JRL: Pig Pool Jiggy",
+        "sections": [
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Jiggies/JRL: Pig Pool Jiggy",
+            "name": "Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 650,
+            "y": 300
+          }
+        ]
+      },
+      {
+        "name": "JRL: Tiptup Jiggy",
+        "sections": [
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Jiggies/JRL: Tiptup Jiggy",
+            "name": "Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 55,
+            "y": 400
+          }
+        ]
+      },
+      {
+        "name": "JRL: Underground 2 Doubloon",
+        "sections": [
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Underground 2 Doubloon",
+            "name": "Doubloon"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 420,
+            "y": 448
+          }
+        ]
+      },
+      {
+        "name": "JRL: Underground 1 Doubloon",
+        "sections": [
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Underground 1 Doubloon",
+            "name": "Doubloon"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 548,
+            "y": 475
+          }
+        ]
+      },
+      {
+        "name": "JRL: Underground 3 Doubloon",
+        "sections": [
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Underground 3 Doubloon",
+            "name": "Doubloon"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 538,
+            "y": 385
+          }
+        ]
+      },
+      {
+        "name": "JRL: Town Center Pole 6 Doubloon",
+        "sections": [
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Town Center Pole 6 Doubloon",
+            "name": "Doubloon"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 391,
+            "y": 250
+          }
+        ]
+      },
+      {
+        "name": "JRL: Town Center Pole 5 Doubloon",
+        "sections": [
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Town Center Pole 5 Doubloon",
+            "name": "Doubloon"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 435,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "JRL: Town Center Pole 4 Doubloon",
+        "sections": [
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Town Center Pole 4 Doubloon",
+            "name": "Doubloon"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 530,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "JRL: Town Center Pole 3 Doubloon",
+        "sections": [
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Town Center Pole 3 Doubloon",
+            "name": "Doubloon"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 580,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "JRL: Town Center Pole 2 Doubloon",
+        "sections": [
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Town Center Pole 2 Doubloon",
+            "name": "Doubloon"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 627,
+            "y": 250
+          }
+        ]
+      },
+      {
+        "name": "JRL: Town Center Pole 1 Doubloon",
+        "sections": [
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Town Center Pole 1 Doubloon",
+            "name": "Doubloon"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 630,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Toxic Pool",
+        "sections": [
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Toxic Pool 1 Doubloon",
+            "name": "Doubloon 1"
+          },
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Toxic Pool 2 Doubloon",
+            "name": "Doubloon 2"
+          },
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Toxic Pool 3 Doubloon",
+            "name": "Doubloon 3"
+          },
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Toxic Pool 4 Doubloon",
+            "name": "Doubloon 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 718,
+            "y": 322
+          }
+        ]
+      },
+      {
         "name": "Wing Whack Silo",
         "sections": [
           {
@@ -5973,6 +6225,30 @@
         ]
       },
       {
+        "name": "Alcove",
+        "sections": [
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Alcove 1 Doubloon",
+            "name": "Doubloon 1"
+          },
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Alcove 2 Doubloon",
+            "name": "Doubloon 2"
+          },
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Alcove 3 Doubloon",
+            "name": "Doubloon 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 365,
+            "y": 390
+          }
+        ]
+      },
+      {
         "name": "Lagoon Alcove",
         "sections": [
           {
@@ -6001,6 +6277,365 @@
             "map": "jrl1",
             "x": 477,
             "y": 50
+          }
+        ]
+      },
+      {
+        "name": "Mumbo's Skull",
+        "sections": [
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Mumbo Skull 1 Doubloon",
+            "name": "Doubloon 1"
+          },
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Mumbo Skull 2 Doubloon",
+            "name": "Doubloon 2"
+          },
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Mumbo Skull 3 Doubloon",
+            "name": "Doubloon 3"
+          },
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Mumbo Skull 4 Doubloon",
+            "name": "Doubloon 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 320,
+            "y": 450
+          }
+        ]
+      },
+      {
+        "name": "Jolly's",
+        "sections": [
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon/JRL: Sub-Aqua Egg Aiming Silo",
+            "name": "Sub-Aqua Egg Aiming Silo"
+          },
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Notes/JRL: Jolly's (1) Note",
+            "name": "Note 1"
+          },
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Notes/JRL: Jolly's (2) Note",
+            "name": "Note 2"
+          },
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Notes/JRL: Jolly's (3) Note",
+            "name": "Note 3"
+          },
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Captain Blackeye 1 Doubloon",
+            "name": "Doubloon 1"
+          },
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Captain Blackeye 2 Doubloon",
+            "name": "Doubloon 2"
+          },
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Jiggies/JRL: Merry Maggie Jiggy",
+            "name": "Merry Maggie Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 615,
+            "y": 440
+          }
+        ]
+      },
+      {
+        "name": "Pawno's Emporium",
+        "sections": [
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon/JRL: Pawno's Emporium Glowbo",
+            "name": "Glowbo"
+          },
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Notes/JRL: Pawno's Emporium (1) Note",
+            "name": "Note 1"
+          },
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Notes/JRL: Pawno's Emporium (1) Note",
+            "name": "Note 2"
+          },
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Notes/JRL: Pawno's Emporium (1) Note",
+            "name": "Note 3"
+          },
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Jiggies/JRL: Pawno Jiggy",
+            "name": "Jiggy"
+          },
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon/JRL: Pawno's Cheato Page",
+            "name": "Cheato Page"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 410,
+            "y": 530
+          }
+        ]
+      },
+      {
+        "name": "Blubber's Waveracer Hire",
+        "sections": [
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon/JRL: Blubber Jinjo",
+            "name": "Jinjo"
+          },
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Notes/JRL: Blubber's Hire (1) Note",
+            "name": "Note 1"
+          },
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Notes/JRL: Blubber's Hire (2) Note",
+            "name": "Note 2"
+          },
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Notes/JRL: Blubber's Hire (3) Note",
+            "name": "Note 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 345,
+            "y": 295
+          }
+        ]
+      },
+      {
+        "name": "Underwater/Smuggler's Cavern",
+        "sections": [
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Jiggies/JRL: UFO Jiggy",
+            "name": "UFO Jiggy"
+          },
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Notes/JRL: Blubbul (1) Note",
+            "name": "Blubbul Note 1"
+          },
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Notes/JRL: Blubbul (2) Note",
+            "name": "Blubbul Note 2"
+          },
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Jiggies/JRL: Smuggler's Cavern Jiggy",
+            "name": "Smuggler's Cavern Jiggy"
+          },
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon/JRL: Seemee Cheato Page",
+            "name": "Seemee Cheato Page"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 462,
+            "y": 180
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Jolly Roger's Lagoon - Atlantis",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "children": [
+      {
+        "name": "JRL: Treble Clef",
+        "sections": [
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Notes/JRL: Treble Clef",
+            "name": "Treble Clef"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl2",
+            "x": 210,
+            "y": 275
+          }
+        ]
+      },
+      {
+        "name": "JRL: Sunken Ship Jinjo",
+        "sections": [
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon/JRL: Sunken Ship Jinjo",
+            "name": "Jinjo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl2",
+            "x": 73,
+            "y": 343
+          }
+        ]
+      },
+      {
+        "name": "JRL: Atlantis Honeycomb",
+        "sections": [
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon/JRL: Atlantis Honeycomb",
+            "name": "Honeycomb"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl2",
+            "x": 416,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "JRL: Seemee Jiggy (Moves Around)",
+        "sections": [
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Jiggies/JRL: Seemee Jiggy",
+            "name": "Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl2",
+            "x": 275,
+            "y": 255
+          }
+        ]
+      },
+      {
+        "name": "JRL: Under Wumba's Wigwam Glowbo",
+        "sections": [
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon/JRL: Under Wumba's Wigwam Glowbo",
+            "name": "Glowbo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl2",
+            "x": 880,
+            "y": 295
+          }
+        ]
+      },
+      {
+        "name": "Electric Eel's Lair Entrance Notes",
+        "sections": [
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Notes/JRL: Electric Eel's Lair Entrance (1) Note",
+            "name": "Note 1"
+          },
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Notes/JRL: Electric Eel's Lair Entrance (2) Note",
+            "name": "Note 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl2",
+            "x": 470,
+            "y": 255
+          }
+        ]
+      },
+      {
+        "name": "Electric Eel's Lair",
+        "sections": [
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon/JRL: Talon Torpedo Silo",
+            "name": "Talon Torpedo Silo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl2",
+            "x": 490,
+            "y": 240
+          }
+        ]
+      },
+      {
+        "name": "Temple of the Fishes",
+        "sections": [
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Jiggies/JRL: Chris P. Bacon Jiggy",
+            "name": "Chris P. Bacon Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl2",
+            "x": 325,
+            "y": 170
+          }
+        ]
+      },
+      {
+        "name": "Ancient Swimming Baths",
+        "sections": [
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon/JRL: Ancient Swimming Baths Cheato Page",
+            "name": "Cheato Page"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl2",
+            "x": 220,
+            "y": 385
+          }
+        ]
+      },
+      {
+        "name": "Seaweed Sanctum/Sea Bottom/Inside the Big Fish",
+        "sections": [
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon/JRL: Seaweed Sanctum Jinjo",
+            "name": "Seaweed Sanctum Jinjo"
+          },
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon/JRL: Seemee Honeycomb",
+            "name": "Seemee Honeycomb"
+          },
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon/JRL: Big Fish Jinjo",
+            "name": "Big Fish Jinjo"
+          },
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Jiggies/JRL: Mini-Sub Challenge Jiggy",
+            "name": "Mini-Sub Challenge Jiggy"
+          },
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon/JRL: Mini-Sub Challenge Mumbo Token",
+            "name": "Mini-Sub Challenge Mumbo Token"
+          },
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon - Jiggies/JRL: Woo Fak Fak Jiggy",
+            "name": "Woo Fak Fak Jiggy"
+          },
+          {
+            "ref": "Overworld/Jolly Roger's Lagoon/JRL: Woo Fak Fak Mumbo Token",
+            "name": "Woo Fak Fak Mumbo Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl2",
+            "x": 460,
+            "y": 395
           }
         ]
       }
