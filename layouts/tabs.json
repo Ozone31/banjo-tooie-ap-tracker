@@ -214,7 +214,33 @@
                   }
                 ]
               }
-          }
+          },
+          {
+            "title": "Jolly Roger's Lagoon",
+            "content": {
+                "type": "tabbed",
+              "tabs": [
+                {
+                  "title": "Main Area",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "jrl1"
+                    ]
+                  }
+                },
+                {
+                  "title": "Atlantis",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "jrl2"
+                    ]
+                  }
+                }
+              ]
+            }
+        }
         ]
     }
 }
