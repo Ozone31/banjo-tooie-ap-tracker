@@ -118,5 +118,17 @@
         "location_size": 12,
         "location_border_thickness": 2,
         "img": "images/maps/witchyworld_4.png"
+    },
+    {
+        "name": "jrl1",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/jrl_1.png"
+    },
+    {
+        "name": "jrl2",
+        "location_size": 10,
+        "location_border_thickness": 2,
+        "img": "images/maps/jrl_2.png"
     }
 ]
