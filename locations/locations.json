@@ -2730,7 +2730,7 @@
           },
           {
             "name": "HFP: Icicle Grotto Cheato Page",
-            "access_rules": [ "$hfp_access, climb, ceggs", "$hfp_access, splitup, shpack" ]
+            "access_rules": [ "$hfp_access, climb, ceggs", "$hfp_access, climb, splitup, shpack" ]
           },
           {
             "name": "HFP: Icy Side Pillar Cheato Page",
