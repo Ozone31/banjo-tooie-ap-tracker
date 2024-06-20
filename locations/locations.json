@@ -1088,8 +1088,8 @@
             "access_rules": [
               "logictype_b, $ww_access, ttrot",
               "logictype_n, $ww_access, ttrot", "logictype_n, $ww_access, $humbaWW", "logictype_n, $ww_access, splitup",
-              "logictype_a, $ww_access, ttrot", "logictype_a, $ww_access, $humbaWW", "logictype_a, $ww_access, $clockwork_shot", "logictype_a, $ww_access, ggrab, climb, fflip", "logictype_a, $ww_access, bbust, climb, fflip",
-              "logictype_g, $ww_access, ttrot", "logictype_g, $ww_access, $humbaWW", "logictype_g, $ww_access, $clockwork_shot", "logictype_g, $ww_access, ggrab, climb, fflip", "logictype_g, $ww_access, bbust, climb, fflip", "logictype_g, $ww_access, $glitchedInfernoAccess, ttrain"
+              "logictype_a, $ww_access, ttrot", "logictype_a, $ww_access, $humbaWW", "logictype_a, $ww_access, $clockwork_shot", "logictype_n, $ww_access, splitup", "logictype_a, $ww_access, ggrab, climb, fflip", "logictype_a, $ww_access, bbust, climb, fflip",
+              "logictype_g, $ww_access, ttrot", "logictype_g, $ww_access, $humbaWW", "logictype_g, $ww_access, $clockwork_shot", "logictype_n, $ww_access, splitup", "logictype_g, $ww_access, ggrab, climb, fflip", "logictype_g, $ww_access, bbust, climb, fflip", "logictype_g, $ww_access, $glitchedInfernoAccess, ttrain"
             ]
           },
           {
