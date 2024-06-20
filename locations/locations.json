@@ -6640,5 +6640,635 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Terrydactyland - Main Area",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "children": [
+      {
+        "name": "TDL: Train Switch",
+        "sections": [
+          {
+            "ref": "Overworld/Terrydactyland/TDL: Train Switch",
+            "name": "Train Switch"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 337,
+            "y": 155
+          }
+        ]
+      },
+      {
+        "name": "TDL: Boulder Cheato Page",
+        "sections": [
+          {
+            "ref": "Overworld/Terrydactyland/TDL: Boulder Cheato Page",
+            "name": "Cheato Page"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 60,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "TDL: Springy Step Shoes Silo",
+        "sections": [
+          {
+            "ref": "Overworld/Terrydactyland/TDL: Springy Step Shoes Silo",
+            "name": "Silo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 380,
+            "y": 567
+          }
+        ]
+      },
+      {
+        "name": "TDL: Train Station Notes",
+        "sections": [
+          {
+            "ref": "Overworld/Terrydactyland - Notes/TDL: Train Station Right Note",
+            "name": "Right Note"
+          },
+          {
+            "ref": "Overworld/Terrydactyland - Notes/TDL: Train Station Middle Note",
+            "name": "Middle Note"
+          },
+          {
+            "ref": "Overworld/Terrydactyland - Notes/TDL: Train Station Left Note",
+            "name": "Left Note"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 410,
+            "y": 560
+          }
+        ]
+      },
+      {
+        "name": "TDL: Entrance Jinjo",
+        "sections": [
+          {
+            "ref": "Overworld/Terrydactyland/TDL: Entrance Jinjo",
+            "name": "Jinjo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 345,
+            "y": 510
+          }
+        ]
+      },
+      {
+        "name": "TDL: Lakeside Notes",
+        "sections": [
+          {
+            "ref": "Overworld/Terrydactyland - Notes/TDL: Lakeside (1) Note",
+            "name": "Note 1"
+          },
+          {
+            "ref": "Overworld/Terrydactyland - Notes/TDL: Lakeside (2) Note",
+            "name": "Note 2"
+          },
+          {
+            "ref": "Overworld/Terrydactyland - Notes/TDL: Lakeside (3) Note",
+            "name": "Note 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 260,
+            "y": 530
+          }
+        ]
+      },
+      {
+        "name": "TDL: Zig-Zag Path Notes",
+        "sections": [
+          {
+            "ref": "Overworld/Terrydactyland - Notes/TDL: Zig-Zag Path (1) Note",
+            "name": "Note 1"
+          },
+          {
+            "ref": "Overworld/Terrydactyland - Notes/TDL: Zig-Zag Path (2) Note",
+            "name": "Note 2"
+          },
+          {
+            "ref": "Overworld/Terrydactyland - Notes/TDL: Zig-Zag Path (3) Note",
+            "name": "Note 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 380,
+            "y": 522
+          }
+        ]
+      },
+      {
+        "name": "TDL: Talon Torpedo Jinjo",
+        "sections": [
+          {
+            "ref": "Overworld/Terrydactyland/TDL: Talon Torpedo Jinjo",
+            "name": "Jinjo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 170,
+            "y": 485
+          }
+        ]
+      },
+      {
+        "name": "TDL: Code of the Dinosaurs Jiggy",
+        "sections": [
+          {
+            "ref": "Overworld/Terrydactyland - Jiggies/TDL: Code of the Dinosaurs Jiggy",
+            "name": "Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 287,
+            "y": 485
+          }
+        ]
+      },
+      {
+        "name": "TDL: Roar Cage Path  Notes",
+        "sections": [
+          {
+            "ref": "Overworld/Terrydactyland - Notes/TDL: Roar Cage Path (1) Note",
+            "name": "Note 1"
+          },
+          {
+            "ref": "Overworld/Terrydactyland - Notes/TDL: Roar Cage Path (2) Note",
+            "name": "Note 2"
+          },
+          {
+            "ref": "Overworld/Terrydactyland - Notes/TDL: Roar Cage Path (3) Note",
+            "name": "Note 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 245,
+            "y": 470
+          }
+        ]
+      },
+      {
+        "name": "TDL: Beside Rocknut Jinjo",
+        "sections": [
+          {
+            "ref": "Overworld/Terrydactyland/TDL: Beside Rocknut Jinjo",
+            "name": "Jinjo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 610,
+            "y": 435
+          }
+        ]
+      },
+      {
+        "name": "TDL: Lakeside Honeycomb",
+        "sections": [
+          {
+            "ref": "Overworld/Terrydactyland/TDL: Lakeside Honeycomb",
+            "name": "Honeycomb"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 182,
+            "y": 530
+          }
+        ]
+      },
+      {
+        "name": "TDL: Behind Mumbo's Skull Glowbo",
+        "sections": [
+          {
+            "ref": "Overworld/Terrydactyland/TDL: Behind Mumbo's Skull Glowbo",
+            "name": "Glowbo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 20,
+            "y": 250
+          }
+        ]
+      },
+      {
+        "name": "TDL: Treble Clef",
+        "sections": [
+          {
+            "ref": "Overworld/Terrydactyland - Notes/TDL: Treble Clef",
+            "name": "Treble Clef"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 192,
+            "y": 243
+          }
+        ]
+      },
+      {
+        "name": "TDL: Dippy's Pool Cheato Page",
+        "sections": [
+          {
+            "ref": "Overworld/Terrydactyland/TDL: Dippy's Pool Cheato Page",
+            "name": "Cheato Page"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 337,
+            "y": 130
+          }
+        ]
+      },
+      {
+        "name": "TDL: Dippy Jiggy",
+        "sections": [
+          {
+            "ref": "Overworld/Terrydactyland - Jiggies/TDL: Dippy Jiggy",
+            "name": "Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 337,
+            "y": 20
+          }
+        ]
+      },
+      {
+        "name": "TDL: Big T. Rex Jinjo",
+        "sections": [
+          {
+            "ref": "Overworld/Terrydactyland/TDL: Big T. Rex Jinjo",
+            "name": "Jinjo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 423,
+            "y": 164
+          }
+        ]
+      },
+      {
+        "name": "Styracosaurus Family Cave",
+        "sections": [
+          {
+            "ref": "Overworld/Terrydactyland/TDL: Styracosaurus Cave Honeycomb",
+            "name": "Styracosaurus Cave Honeycomb"
+          },
+          {
+            "ref": "Overworld/Terrydactyland - Jiggies/TDL: Scrotty Jiggy",
+            "name": "Scrotty Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 455,
+            "y": 415
+          }
+        ]
+      },
+      {
+        "name": "TDL: Unga Bunga Cave Entrance Glowbo",
+        "sections": [
+          {
+            "ref": "Overworld/Terrydactyland/TDL: Unga Bunga Cave Entrance Glowbo",
+            "name": "Glowbo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 435,
+            "y": 415
+          }
+        ]
+      },
+      {
+        "name": "TDL: Rocknut Tribe Jiggy (Defeat 5 Around the Map)",
+        "sections": [
+          {
+            "ref": "Overworld/Terrydactyland - Jiggies/TDL: Rocknut Tribe Jiggy",
+            "name": "Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 340,
+            "y": 410
+          }
+        ]
+      },
+      {
+        "name": "TDL: Oogle Boogles' Cave",
+        "sections": [
+          {
+            "ref": "Overworld/Terrydactyland - Jiggies/TDL: Oogle Boogle Tribe Jiggy",
+            "name": "Oogle Boogle Tribe Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 515,
+            "y": 550
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Terrydactyland - Inside the Mountain",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "children": [
+      {
+        "name": "TDL: Inside the Mountain Cheato Page",
+        "sections": [
+          {
+            "ref": "Overworld/Terrydactyland/TDL: Inside the Mountain Cheato Page",
+            "name": "Cheato Page"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl2",
+            "x": 55,
+            "y": 425
+          }
+        ]
+      },
+      {
+        "name": "Chompas Belly",
+        "sections": [
+          {
+            "ref": "Overworld/Terrydactyland - Jiggies/TDL: Chompas Belly Jiggy",
+            "name": "Jiggy"
+          },
+          {
+            "ref": "Overworld/Terrydactyland/TDL: Chompas Belly Mumbo Token",
+            "name": "Mumbo Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl2",
+            "x": 251,
+            "y": 286
+          }
+        ]
+      },
+      {
+        "name": "TDL: Under Terry's Nest Jiggy",
+        "sections": [
+          {
+            "ref": "Overworld/Terrydactyland - Jiggies/TDL: Under Terry's Nest Jiggy",
+            "name": "Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl2",
+            "x": 400,
+            "y": 286
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Terrydactyland - Unga Bungas' Cave",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "children": [
+      {
+        "name": "TDL: Hatch Silo",
+        "sections": [
+          {
+            "ref": "Overworld/Terrydactyland/TDL: Hatch Silo",
+            "name": "Silo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl3",
+            "x": 183,
+            "y": 350
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Terrydactyland - River Passage",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "children": [
+      {
+        "name": "TDL: River Passage Honeycomb",
+        "sections": [
+          {
+            "ref": "Overworld/Terrydactyland/TDL: River Passage Honeycomb",
+            "name": "Honeycomb"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl4",
+            "x": 0,
+            "y": 162
+          }
+        ]
+      },
+      {
+        "name": "TDL: Taxi Pack Silo",
+        "sections": [
+          {
+            "ref": "Overworld/Terrydactyland/TDL: Taxi Pack Silo",
+            "name": "Silo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl4",
+            "x": 475,
+            "y": 235
+          }
+        ]
+      },
+      {
+        "name": "River Passage Notes",
+        "sections": [
+          {
+            "ref": "Overworld/Terrydactyland - Notes/TDL: River Passage (1) Note",
+            "name": "Note 1"
+          },
+          {
+            "ref": "Overworld/Terrydactyland - Notes/TDL: River Passage (2) Note",
+            "name": "Note 2"
+          },
+          {
+            "ref": "Overworld/Terrydactyland - Notes/TDL: River Passage (3) Note",
+            "name": "Note 3"
+          },
+          {
+            "ref": "Overworld/Terrydactyland - Notes/TDL: River Passage (4) Note",
+            "name": "Note 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl4",
+            "x": 500,
+            "y": 145
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Terrydactyland - Terry's Nest",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "children": [
+      {
+        "name": "Terry",
+        "sections": [
+          {
+            "ref": "Overworld/Terrydactyland - Jiggies/TDL: Terry Jiggy",
+            "name": "Terry Jiggy"
+          },
+          {
+            "ref": "Overworld/Terrydactyland/TDL: Terry Mumbo Token",
+            "name": "Terry Mumbo Token"
+          },
+          {
+            "ref": "Overworld/Terrydactyland - Jiggies/TDL: Terry's Kids Jiggy",
+            "name": "Terry's Kids Jiggy (Hatch Eggs Around Map)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl5",
+            "x": 500,
+            "y": 125
+          }
+        ]
+      },
+      {
+        "name": "TDL: Under Terry's Nest Jiggy",
+        "sections": [
+          {
+            "ref": "Overworld/Terrydactyland - Jiggies/TDL: Under Terry's Nest Jiggy",
+            "name": "Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl5",
+            "x": 330,
+            "y": 350
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Terrydactyland - Stomping Plains",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "children": [
+      {
+        "name": "TDL: Stomping Plains Jiggy",
+        "sections": [
+          {
+            "ref": "Overworld/Terrydactyland - Jiggies/TDL: Stomping Plains Jiggy",
+            "name": "TDL Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl6",
+            "x": 75,
+            "y": 290
+          }
+        ]
+      },
+      {
+        "name": "TDL: Stomping Plains Jinjo",
+        "sections": [
+          {
+            "ref": "Overworld/Terrydactyland/TDL: Stomping Plains Jinjo",
+            "name": "Jinjo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl6",
+            "x": 100,
+            "y": 450
+          }
+        ]
+      },
+      {
+        "name": "HFP: Stomping Plains Jiggy",
+        "sections": [
+          {
+            "ref": "Overworld/Hailfire Peaks - Jiggies/HFP: Stomping Plains Jiggy",
+            "name": "HFP Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl6",
+            "x": 10,
+            "y": 380
+          }
+        ]
+      }
+    ]
   }
 ]

@@ -240,7 +240,69 @@
                 }
               ]
             }
+        },
+        {
+          "title": "Terrydactyland",
+          "content": {
+              "type": "tabbed",
+            "tabs": [
+              {
+                "title": "Main Area",
+                "content": {
+                  "type": "map",
+                  "maps": [
+                    "tdl1"
+                  ]
+                }
+              },
+              {
+                "title": "Inside the Mountain",
+                "content": {
+                  "type": "map",
+                  "maps": [
+                    "tdl2"
+                  ]
+                }
+              },
+              {
+                "title": "Unga Bungas' Cave",
+                "content": {
+                  "type": "map",
+                  "maps": [
+                    "tdl3"
+                  ]
+                }
+              },
+              {
+                "title": "River Passage",
+                "content": {
+                  "type": "map",
+                  "maps": [
+                    "tdl4"
+                  ]
+                }
+              },
+              {
+                "title": "Terry's Nest",
+                "content": {
+                  "type": "map",
+                  "maps": [
+                    "tdl5"
+                  ]
+                }
+              },
+              {
+                "title": "Stomping Plains",
+                "content": {
+                  "type": "map",
+                  "maps": [
+                    "tdl6"
+                  ]
+                }
+              }
+            ]
+          }
         }
-        ]
+      ]
     }
-}
+  }

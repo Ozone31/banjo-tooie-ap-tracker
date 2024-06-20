@@ -130,5 +130,41 @@
         "location_size": 10,
         "location_border_thickness": 2,
         "img": "images/maps/jrl_2.png"
+    },
+    {
+        "name": "tdl1",
+        "location_size": 10,
+        "location_border_thickness": 2,
+        "img": "images/maps/tdl_1.png"
+    },
+    {
+        "name": "tdl2",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/tdl_2.png"
+    },
+    {
+        "name": "tdl3",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/tdl_3.png"
+    },
+    {
+        "name": "tdl4",
+        "location_size": 10,
+        "location_border_thickness": 2,
+        "img": "images/maps/tdl_4.png"
+    },
+    {
+        "name": "tdl5",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/tdl_5.png"
+    },
+    {
+        "name": "tdl6",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/tdl_6.png"
     }
 ]
