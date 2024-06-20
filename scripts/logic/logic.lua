@@ -202,6 +202,14 @@ function can_reach_saucer()
     return (ww_access() and longJumpToGripGrab() and has("fflip") and has("climb")) or (ggm_access() and canDoSmallElevation())
 end
 
+function can_dive_in_JRL()
+    if logictype.CurrentStage == 0 then
+        return has("mumbojr") and has("dive")
+    else
+        return has("dive")
+    end
+end
+
 function long_swim()
     if logictype.CurrentStage == 0 then
         return has("mumbojr") and has("dive")
@@ -412,12 +420,12 @@ function wasteland_access(fromTrain)
     if first_level == "Terrydactyland" or first_level == "Cloud Cuckooland" then
         return true
     elseif logictype.CurrentStage == 0 then
-        return pinegrove_access() and has("ttorp")
+        return pinegrove_access() and has("dive") and has("ttorp")
     else
         if fromTrain then
-            return pinegrove_access(fromTrain) and has("ttorp")
+            return pinegrove_access(fromTrain) and has("dive") and has("ttorp")
         else
-            return (pinegrove_access(fromTrain) and has("ttorp")) or train_TDL() or (can_leave_GI_from_inside() and has("gia"))
+            return (pinegrove_access(fromTrain) and has("dive") and has("ttorp")) or train_TDL() or (can_leave_GI_from_inside() and has("gia"))
         end
     end
 end
