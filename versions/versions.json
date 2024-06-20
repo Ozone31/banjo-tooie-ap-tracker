@@ -1,0 +1,13 @@
+{
+	"versions": [
+		{
+			"package_version": "0.1.4",
+			"download_url": "https://github.com/Ozone31/banjo-tooie-ap-tracker/archive/refs/tags/v0.1.4.zip",
+			"sha256": "A48BF73F97E6588B63718337138D55500D44EA81FD9E9A92B04DF93368CE31EC",
+			"changelog": [
+				"Fixed Jinjo Village Treble Clef logic",
+				"Jolly Roger's Lagoon detailed maps added"
+			]
+		}
+	]
+}
