@@ -50,9 +50,9 @@ end
 
 function has_explosives()
     if logictype.CurrentStage == 0 then
-        return has("geggs")
+        return canShootEggs("geggs")
     else
-        return has("geggs") or has("ceggs")
+        return canShootEggs("geggs") or canShootEggs("ceggs")
     end
 end
 
