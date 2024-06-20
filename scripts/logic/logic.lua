@@ -310,6 +310,14 @@ function mumboGI()
     end
 end
 
+function QM_to_WL()
+    if logictype.CurrentStage == 0 then
+        return has("ggrab") and has("fflip")
+    else
+        return (has("ggrab") or has("bbust")) and has("fflip")
+    end
+end
+
 function iceCube()
     return hasGroundAttack()
 end
@@ -425,7 +433,7 @@ function wasteland_access(fromTrain)
         if fromTrain then
             return pinegrove_access(fromTrain) and has("dive") and has("ttorp")
         else
-            return (pinegrove_access(fromTrain) and has("dive") and has("ttorp")) or train_TDL() or (can_leave_GI_from_inside() and has("gia"))
+            return (pinegrove_access(fromTrain) and has("dive") and has("ttorp")) or train_TDL() or (can_leave_GI_from_inside() and has("gia") and QM_to_WL())
         end
     end
 end
