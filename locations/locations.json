@@ -1456,28 +1456,28 @@
           {
             "name": "JRL: Big Fish Jinjo",
             "access_rules": [
-              "logictype_b, $jrl_access, $can_reach_atlantis",
-              "logictype_n, $jrl_access, $can_reach_atlantis",
-              "logictype_a, $jrl_access, auqaim, $hasLinearEgg",
-              "logictype_g, $jrl_access, auqaim, $hasLinearEgg"
+              "logictype_b, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis",
+              "logictype_n, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis",
+              "logictype_a, $jrl_access, $can_dive_in_JRL, auqaim, $hasLinearEgg",
+              "logictype_g, $jrl_access, $can_dive_in_JRL, auqaim, $hasLinearEgg"
             ]
           },
           {
             "name": "JRL: Seaweed Sanctum Jinjo",
             "access_rules": [
-              "logictype_b, $jrl_access, $can_reach_atlantis, ggrab, fflip",
-              "logictype_n, $jrl_access, $can_reach_atlantis, ggrab, fflip",
-              "logictype_a, $jrl_access, ggrab, fflip", "logictype_a, $jrl_access, bbust, fflip", "logictype_a, $jrl_access, $clockwork_shot",
-              "logictype_g, $jrl_access, ggrab, fflip", "logictype_g, $jrl_access, bbust, fflip", "logictype_g, $jrl_access, $clockwork_shot"
+              "logictype_b, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, ggrab, fflip",
+              "logictype_n, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, ggrab, fflip",
+              "logictype_a, $jrl_access, $can_dive_in_JRL, ggrab, fflip", "logictype_a, $jrl_access, $can_dive_in_JRL, bbust, fflip", "logictype_a, $jrl_access, $can_dive_in_JRL, $clockwork_shot",
+              "logictype_g, $jrl_access, $can_dive_in_JRL, ggrab, fflip", "logictype_g, $jrl_access, $can_dive_in_JRL, bbust, fflip", "logictype_g, $jrl_access, $can_dive_in_JRL, $clockwork_shot"
             ]
           },
           {
             "name": "JRL: Sunken Ship Jinjo",
             "access_rules": [
-              "logictype_b, $jrl_access, $can_reach_atlantis",
-              "logictype_n, $jrl_access, $can_reach_atlantis",
-              "logictype_a, $jrl_access, humbajr", "logictype_a, $jrl_access, auqaim", "logictype_a, $jrl_access, ttorp",
-              "logictype_g, $jrl_access, humbajr", "logictype_g, $jrl_access, auqaim", "logictype_g, $jrl_access, ttorp"
+              "logictype_b, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis",
+              "logictype_n, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis",
+              "logictype_a, $jrl_access, $can_dive_in_JRL, humbajr", "logictype_a, $jrl_access, $can_dive_in_JRL, auqaim", "logictype_a, $jrl_access, $can_dive_in_JRL, ttorp",
+              "logictype_g, $jrl_access, $can_dive_in_JRL, humbajr", "logictype_g, $jrl_access, $can_dive_in_JRL, auqaim", "logictype_g, $jrl_access, $can_dive_in_JRL, ttorp"
             ]
           },
           {
@@ -1492,28 +1492,28 @@
           {
             "name": "JRL: Under Wumba's Wigwam Glowbo",
             "access_rules": [
-              "logictype_b, $jrl_access, $can_reach_atlantis",
-              "logictype_n, $jrl_access, $can_reach_atlantis",
-              "logictype_a, $jrl_access",
-              "logictype_g, $jrl_access"
+              "logictype_b, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis",
+              "logictype_n, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis",
+              "logictype_a, $jrl_access, $can_dive_in_JRL",
+              "logictype_g, $jrl_access, $can_dive_in_JRL"
             ]
           },
           {
             "name": "JRL: Seemee Honeycomb",
             "access_rules": [
-              "logictype_b, $jrl_access, $can_reach_atlantis, ttorp",
-              "logictype_n, $jrl_access, $can_reach_atlantis, ttorp",
-              "logictype_a, $jrl_access, ttorp",
-              "logictype_g, $jrl_access, ttorp"
+              "logictype_b, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, ttorp",
+              "logictype_n, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, ttorp",
+              "logictype_a, $jrl_access, $can_dive_in_JRL, ttorp",
+              "logictype_g, $jrl_access, $can_dive_in_JRL, ttorp"
             ]
           },
           {
             "name": "JRL: Atlantis Honeycomb",
             "access_rules": [
-              "logictype_b, $jrl_access, $can_reach_atlantis",
-              "logictype_n, $jrl_access, $can_reach_atlantis",
-              "logictype_a, $jrl_access",
-              "logictype_g, $jrl_access"
+              "logictype_b, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis",
+              "logictype_n, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis",
+              "logictype_a, $jrl_access, $can_dive_in_JRL",
+              "logictype_g, $jrl_access, $can_dive_in_JRL"
             ]
           },
           {
@@ -1536,15 +1536,15 @@
           },
           {
             "name": "JRL: Seemee Cheato Page",
-            "access_rules": [ "$jrl_access, ttorp" ]
+            "access_rules": [ "$jrl_access, $can_dive_in_JRL, ttorp" ]
           },
           {
             "name": "JRL: Ancient Swimming Baths Cheato Page",
             "access_rules": [
-              "logictype_b, $jrl_access, $can_reach_atlantis, ttorp, splitup, glide, tjump",
-              "logictype_n, $jrl_access, $can_reach_atlantis, ttorp, splitup, glide, tjump", "logictype_n, $jrl_access, $can_reach_atlantis, ttorp, splitup, lspring", "logictype_n, $jrl_access, $can_reach_atlantis, ttorp, splitup, packwh, ggrab",
-              "logictype_a, $jrl_access, ttorp, splitup, glide, tjump", "logictype_a, $jrl_access, ttorp, splitup, lspring", "logictype_a, $jrl_access, ttorp, splitup, wwhack", "logictype_a, $jrl_access, ttorp, splitup, packwh, ggrab",
-              "logictype_g, $jrl_access, ttorp, splitup, glide, tjump", "logictype_g, $jrl_access, ttorp, splitup, lspring", "logictype_g, $jrl_access, ttorp, splitup, wwing, tjump", "logictype_g, $jrl_access, ttorp, tjump, splitup, packwh, ggrab"
+              "logictype_b, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, ttorp, splitup, glide, tjump",
+              "logictype_n, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, ttorp, splitup, glide, tjump", "logictype_n, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, ttorp, splitup, lspring", "logictype_n, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, ttorp, splitup, packwh, ggrab",
+              "logictype_a, $jrl_access, $can_dive_in_JRL, ttorp, splitup, glide, tjump", "logictype_a, $jrl_access, $can_dive_in_JRL, ttorp, splitup, lspring", "logictype_a, $jrl_access, $can_dive_in_JRL, ttorp, splitup, wwhack", "logictype_a, $jrl_access, $can_dive_in_JRL, ttorp, splitup, packwh, ggrab",
+              "logictype_g, $jrl_access, $can_dive_in_JRL, ttorp, splitup, glide, tjump", "logictype_g, $jrl_access, $can_dive_in_JRL, ttorp, splitup, lspring", "logictype_g, $jrl_access, $can_dive_in_JRL, ttorp, splitup, wwing, tjump", "logictype_g, $jrl_access, $can_dive_in_JRL, ttorp, tjump, splitup, packwh, ggrab"
             ]
           },
           {
@@ -1553,7 +1553,7 @@
           },
           {
             "name": "JRL: Talon Torpedo Silo",
-            "access_rules": [ "$jrl_access, $can_reach_atlantis, ggrab, tjump, $notecount|290" ]
+            "access_rules": [ "$jrl_access, $can_dive_in_JRL, $can_reach_atlantis, ggrab, tjump, $notecount|290" ]
           },
           {
             "name": "JRL: Sub-Aqua Egg Aiming Silo",
@@ -1563,16 +1563,16 @@
             "name": "JRL: Woo Fak Fak Mumbo Token",
             "visibility_rules": [ "goal_boss", "goal_wwing" ],
             "access_rules": [
-              "logictype_b, $jrl_access, $can_reach_atlantis, geggs",
-              "logictype_n, $jrl_access, $can_reach_atlantis, geggs, humbajr", "logictype_n, $jrl_access, $can_reach_atlantis, geggs, mumbojr",
-              "logictype_a, $jrl_access, $can_reach_atlantis, geggs, auqaim, ttorp, dair", "logictype_a, $jrl_access, $can_reach_atlantis, geggs, auqaim, mumbojr", "logictype_a, $jrl_access, $can_reach_atlantis, geggs, auqaim, humbajr",
-              "logictype_g, $jrl_access, $can_reach_atlantis, geggs, auqaim, ttorp, dair", "logictype_g, $jrl_access, $can_reach_atlantis, geggs, auqaim, mumbojr", "logictype_g, $jrl_access, $can_reach_atlantis, geggs, auqaim, humbajr"
+              "logictype_b, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, geggs",
+              "logictype_n, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, geggs, humbajr", "logictype_n, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, geggs, mumbojr",
+              "logictype_a, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, geggs, auqaim, ttorp, dair", "logictype_a, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, geggs, auqaim, mumbojr", "logictype_a, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, geggs, auqaim, humbajr",
+              "logictype_g, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, geggs, auqaim, ttorp, dair", "logictype_g, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, geggs, auqaim, mumbojr", "logictype_g, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, geggs, auqaim, humbajr"
             ]
           },
           {
             "name": "JRL: Mini-Sub Challenge Mumbo Token",
             "visibility_rules": [ "goal_minigame", "goal_wwing" ],
-            "access_rules": [ "$jrl_access, humbajr" ]
+            "access_rules": [ "$jrl_access, $can_dive_in_JRL, humbajr" ]
           }
         ],
         "map_locations": [
@@ -1588,7 +1588,7 @@
         "sections": [
           {
             "name": "JRL: Mini-Sub Challenge Jiggy",
-            "access_rules": [ "$jrl_access, humbajr" ]
+            "access_rules": [ "$jrl_access, $can_dive_in_JRL, humbajr" ]
           },
           {
             "name": "JRL: Tiptup Jiggy",
@@ -1597,10 +1597,10 @@
           {
             "name": "JRL: Chris P. Bacon Jiggy",
             "access_rules": [
-              "logictype_b, $jrl_access, $can_reach_atlantis",
-              "logictype_n, $jrl_access, $can_reach_atlantis",
-              "logictype_a, $jrl_access, auqaim, $hasLinearEgg", "logictype_a, $jrl_access, humbajr, eggaim, $hasLinearEgg",
-              "logictype_g, $jrl_access, auqaim, $hasLinearEgg", "logictype_g, $jrl_access, humbajr, eggaim, $hasLinearEgg"
+              "logictype_b, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis",
+              "logictype_n, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis",
+              "logictype_a, $jrl_access, $can_dive_in_JRL, auqaim, $hasLinearEgg", "logictype_a, $jrl_access, $can_dive_in_JRL, humbajr, eggaim, $hasLinearEgg",
+              "logictype_g, $jrl_access, $can_dive_in_JRL, auqaim, $hasLinearEgg", "logictype_g, $jrl_access, $can_dive_in_JRL, humbajr, eggaim, $hasLinearEgg"
             ]
           },
           {
@@ -1624,28 +1624,28 @@
           {
             "name": "JRL: Merry Maggie Jiggy",
             "access_rules": [
-              "logictype_b, $jrl_access, $can_reach_atlantis",
-              "logictype_n, $jrl_access, $can_reach_atlantis",
-              "logictype_a, $jrl_access, auqaim, $hasLinearEgg",
-              "logictype_g, $jrl_access, auqaim, $hasLinearEgg"
+              "logictype_b, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis",
+              "logictype_n, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis",
+              "logictype_a, $jrl_access, $can_dive_in_JRL, auqaim, $hasLinearEgg",
+              "logictype_g, $jrl_access, $can_dive_in_JRL, auqaim, $hasLinearEgg"
             ]
           },
           {
             "name": "JRL: Woo Fak Fak Jiggy",
             "access_rules": [
-              "logictype_b, $jrl_access, $can_reach_atlantis, geggs",
-              "logictype_n, $jrl_access, $can_reach_atlantis, geggs, humbajr", "logictype_n, $jrl_access, $can_reach_atlantis, geggs, mumbojr",
-              "logictype_a, $jrl_access, $can_reach_atlantis, geggs, auqaim, ttorp, dair", "logictype_a, $jrl_access, $can_reach_atlantis, geggs, auqaim, mumbojr", "logictype_a, $jrl_access, $can_reach_atlantis, geggs, auqaim, humbajr",
-              "logictype_g, $jrl_access, $can_reach_atlantis, geggs, auqaim, ttorp, dair", "logictype_g, $jrl_access, $can_reach_atlantis, geggs, auqaim, mumbojr", "logictype_g, $jrl_access, $can_reach_atlantis, geggs, auqaim, humbajr"
+              "logictype_b, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, geggs",
+              "logictype_n, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, geggs, humbajr", "logictype_n, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, geggs, mumbojr",
+              "logictype_a, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, geggs, auqaim, ttorp, dair", "logictype_a, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, geggs, auqaim, mumbojr", "logictype_a, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, geggs, auqaim, humbajr",
+              "logictype_g, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, geggs, auqaim, ttorp, dair", "logictype_g, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, geggs, auqaim, mumbojr", "logictype_g, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, geggs, auqaim, humbajr"
             ]
           },
           {
             "name": "JRL: Seemee Jiggy",
             "access_rules": [
-              "logictype_b, $jrl_access, $can_reach_atlantis, ttorp",
-              "logictype_n, $jrl_access, $can_reach_atlantis, ttorp",
-              "logictype_a, $jrl_access, ttorp",
-              "logictype_g, $jrl_access, ttorp"
+              "logictype_b, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, ttorp",
+              "logictype_n, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, ttorp",
+              "logictype_a, $jrl_access, $can_dive_in_JRL, ttorp",
+              "logictype_g, $jrl_access, $can_dive_in_JRL, ttorp"
             ]
           },
           {
@@ -1659,7 +1659,7 @@
           },
           {
             "name": "JRL: UFO Jiggy",
-            "access_rules": [ "$jrl_access, $jr_jiggy10" ]
+            "access_rules": [ "$jrl_access, $can_dive_in_JRL, $jr_jiggy10" ]
           }
         ],
         "map_locations": [
@@ -1676,10 +1676,10 @@
           {
             "name": "JRL: Treble Clef",
             "access_rules": [
-              "logictype_b, $jrl_access, $can_reach_atlantis",
-              "logictype_n, $jrl_access, $can_reach_atlantis",
-              "logictype_a, $jrl_access, auqaim", "logictype_a, $jrl_access, ttorp", "logictype_a, $jrl_access, humbajr",
-              "logictype_g, $jrl_access, auqaim", "logictype_g, $jrl_access, ttorp", "logictype_g, $jrl_access, humbajr"
+              "logictype_b, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis",
+              "logictype_n, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis",
+              "logictype_a, $jrl_access, $can_dive_in_JRL, auqaim", "logictype_a, $jrl_access, $can_dive_in_JRL, ttorp", "logictype_a, $jrl_access, $can_dive_in_JRL, humbajr",
+              "logictype_g, $jrl_access, $can_dive_in_JRL, auqaim", "logictype_g, $jrl_access, $can_dive_in_JRL, ttorp", "logictype_g, $jrl_access, $can_dive_in_JRL, humbajr"
             ]
           },
           {
@@ -1697,37 +1697,37 @@
           {
             "name": "JRL: Blubbul (1) Note",
             "access_rules": [
-              "logictype_b, $jrl_access, mumbojr, auqaim", "logictype_b, $jrl_access, mumbojr, ttorp",
-              "logictype_n, $jrl_access, auqaim", "logictype_n, $jrl_access, ttorp",
-              "logictype_a, $jrl_access, auqaim", "logictype_a, $jrl_access, ttorp",
-              "logictype_g, $jrl_access, auqaim", "logictype_g, $jrl_access, ttorp"
+              "logictype_b, $jrl_access, $can_dive_in_JRL, mumbojr, auqaim", "logictype_b, $jrl_access, $can_dive_in_JRL, mumbojr, ttorp",
+              "logictype_n, $jrl_access, $can_dive_in_JRL, auqaim", "logictype_n, $jrl_access, $can_dive_in_JRL, ttorp",
+              "logictype_a, $jrl_access, $can_dive_in_JRL, auqaim", "logictype_a, $jrl_access, $can_dive_in_JRL, ttorp",
+              "logictype_g, $jrl_access, $can_dive_in_JRL, auqaim", "logictype_g, $jrl_access, $can_dive_in_JRL, ttorp"
             ]
           },
           {
             "name": "JRL: Blubbul (2) Note",
             "access_rules": [
-              "logictype_b, $jrl_access, mumbojr, auqaim", "logictype_b, $jrl_access, mumbojr, ttorp",
-              "logictype_n, $jrl_access, auqaim", "logictype_n, $jrl_access, ttorp",
-              "logictype_a, $jrl_access, auqaim", "logictype_a, $jrl_access, ttorp",
-              "logictype_g, $jrl_access, auqaim", "logictype_g, $jrl_access, ttorp"
+              "logictype_b, $jrl_access, $can_dive_in_JRL, mumbojr, auqaim", "logictype_b, $jrl_access, $can_dive_in_JRL, mumbojr, ttorp",
+              "logictype_n, $jrl_access, $can_dive_in_JRL,, auqaim", "logictype_n, $jrl_access, $can_dive_in_JRL, ttorp",
+              "logictype_a, $jrl_access, $can_dive_in_JRL, auqaim", "logictype_a, $jrl_access, $can_dive_in_JRL, ttorp",
+              "logictype_g, $jrl_access, $can_dive_in_JRL, auqaim", "logictype_g, $jrl_access, $can_dive_in_JRL, ttorp"
             ]
           },
           {
             "name": "JRL: Electric Eel's Lair Entrance (1) Note",
             "access_rules": [
-              "logictype_b, $jrl_access, $can_reach_atlantis",
-              "logictype_n, $jrl_access, $can_reach_atlantis",
-              "logictype_a, $jrl_access",
-              "logictype_g, $jrl_access"
+              "logictype_b, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis",
+              "logictype_n, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis",
+              "logictype_a, $jrl_access, $can_dive_in_JRL",
+              "logictype_g, $jrl_access, $can_dive_in_JRL"
             ]
           },
           {
             "name": "JRL: Electric Eel's Lair Entrance (2) Note",
             "access_rules": [
-              "logictype_b, $jrl_access, $can_reach_atlantis",
-              "logictype_n, $jrl_access, $can_reach_atlantis",
-              "logictype_a, $jrl_access",
-              "logictype_g, $jrl_access"
+              "logictype_b, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis",
+              "logictype_n, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis",
+              "logictype_a, $jrl_access, $can_dive_in_JRL",
+              "logictype_g, $jrl_access, $can_dive_in_JRL"
             ]
           },
           {
@@ -2283,10 +2283,10 @@
           {
             "name": "GI: Waste Disposal Plant Jinjo",
             "access_rules": [
-              "logictype_b, $jrl_access, $can_reach_atlantis, ttorp",
-              "logictype_n, $jrl_access, $can_reach_atlantis, ttorp",
-              "logictype_a, $jrl_access, $canShootEggs|ieggs, auqaim, ttorp",
-              "logictype_g, $jrl_access, $canShootEggs|ieggs, auqaim, ttorp"
+              "logictype_b, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, ttorp",
+              "logictype_n, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, ttorp",
+              "logictype_a, $jrl_access, $can_dive_in_JRL, $canShootEggs|ieggs, auqaim, ttorp",
+              "logictype_g, $jrl_access, $can_dive_in_JRL, $canShootEggs|ieggs, auqaim, ttorp"
             ]
           },
           {
