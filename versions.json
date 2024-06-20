@@ -1,6 +1,18 @@
 {
 	"versions": [
 		{
+			"package_version": "0.1.5",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.1.5",
+			"sha256": "9D2F1D149A7C2BD2E6A91CB420B29AD3D4738F9106DCE930F712AABEE040F1AB",
+			"changelog": [
+				"Corrected Advanced and Glitched logic for Big Top Jinjo",
+				"Corrected logic that explosive checks make sure you can shoot eggs along with having the right egg types",
+				"Added dive requirement to underwater locations in JRL and access to the Wasteland",
+				"Added auto-updating to the tracker when new pack versions are released",
+				"Terrydactyland detailed maps added"
+			]
+		},
+		{
 			"package_version": "0.1.4",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.1.4",
 			"sha256": "A48BF73F97E6588B63718337138D55500D44EA81FD9E9A92B04DF93368CE31EC",
@@ -9,7 +21,7 @@
 				"Jolly Roger's Lagoon detailed maps added"
 			]
 		},
-        {
+		 {
 			"package_version": "0.1.3",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.1.3",
 			"sha256": "F60FA5D1374A0BC3FD52E3D12F6CB6E1F74665985C5AF28AD10D0002344EF291",
