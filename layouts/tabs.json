@@ -399,6 +399,32 @@
               }
             ]
           }
+        },
+        {
+          "title": "Cloud Cuckooland",
+          "content": {
+              "type": "tabbed",
+            "tabs": [
+              {
+                "title": "Outside",
+                "content": {
+                  "type": "map",
+                  "maps": [
+                    "ccl1"
+                  ]
+                }
+              },
+              {
+                "title": "Central Cavern",
+                "content": {
+                  "type": "map",
+                  "maps": [
+                    "ccl2"
+                  ]
+                }
+              }
+            ]
+          }
         }
       ]
     }

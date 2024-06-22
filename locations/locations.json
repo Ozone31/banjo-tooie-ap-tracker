@@ -3049,7 +3049,7 @@
               "logictype_b, $ccl_access, fpad",
               "logictype_n, $ccl_access, fpad", "logictype_n, $ccl_access, splitup, wwhack", "logictype_n, $ccl_access, splitup, glide",
               "logictype_a, $ccl_access, fpad", "logictype_a, $ccl_access, splitup, wwhack", "logictype_a, $ccl_access, splitup, glide",
-              "logictype_g, $ccl_access, fpad", "logictype_g, $ccl_access, splitup, wwhack", "logictype_g, $ccl_access, splitup, glide",
+              "logictype_g, $ccl_access, fpad", "logictype_g, $ccl_access, splitup, wwhack", "logictype_g, $ccl_access, splitup, glide"
             ]
           },
           {
@@ -8522,6 +8522,576 @@
             "map": "hfp2",
             "x": 203,
             "y": 268
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cloud Cuckooland - Outside",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "children": [
+      {
+        "name": "CCL: Dirt Patch Honeycomb",
+        "sections": [
+          {
+            "ref": "Overworld/Cloud Cuckooland/CCL: Dirt Patch Honeycomb",
+            "name": "Honeycomb"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl1",
+            "x": 350,
+            "y": 483
+          }
+        ]
+      },
+      {
+        "name": "Wumba's Wigwam",
+        "sections": [
+          {
+            "ref": "Overworld/Cloud Cuckooland/CCL: Wumba Jinjo",
+            "name": "Jinjo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl1",
+            "x": 73,
+            "y": 436
+          }
+        ]
+      },
+      {
+        "name": "CCL: Pot O' Gold Honeycomb (Behind)",
+        "sections": [
+          {
+            "ref": "Overworld/Cloud Cuckooland/CCL: Pot O' Gold Honeycomb",
+            "name": "Honeycomb"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl1",
+            "x": 580,
+            "y": 100
+          }
+        ]
+      },
+      {
+        "name": "CCL: Trash Can Honeycomb (On Top)",
+        "sections": [
+          {
+            "ref": "Overworld/Cloud Cuckooland/CCL: Trash Can Honeycomb",
+            "name": "Honeycomb"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl1",
+            "x": 45,
+            "y": 230
+          }
+        ]
+      },
+      {
+        "name": "CCL: Green Pool Glowbo",
+        "sections": [
+          {
+            "ref": "Overworld/Cloud Cuckooland/CCL: Green Pool Glowbo",
+            "name": "Glowbo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl1",
+            "x": 240,
+            "y": 430
+          }
+        ]
+      },
+      {
+        "name": "CCL: Jiggium Plant Jiggy (All Around Map)",
+        "sections": [
+          {
+            "ref": "Overworld/Cloud Cuckooland - Jiggies/CCL: Jiggium Plant Jiggy",
+            "name": "Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl1",
+            "x": 30,
+            "y": 30
+          }
+        ]
+      },
+      {
+        "name": "CCL: Jelly Castle Jiggy",
+        "sections": [
+          {
+            "ref": "Overworld/Cloud Cuckooland - Jiggies/CCL: Jelly Castle Jiggy",
+            "name": "Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl1",
+            "x": 523,
+            "y": 517
+          }
+        ]
+      },
+      {
+        "name": "CCL: Mr Fit Jiggy",
+        "sections": [
+          {
+            "ref": "Overworld/Cloud Cuckooland - Jiggies/CCL: Mr Fit Jiggy",
+            "name": "Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl1",
+            "x": 345,
+            "y": 640
+          }
+        ]
+      },
+      {
+        "name": "Inside the Trash Can",
+        "sections": [
+          {
+            "ref": "Overworld/Cloud Cuckooland/CCL: Trash Can Jinjo",
+            "name": "Jinjo"
+          },
+          {
+            "ref": "Overworld/Cloud Cuckooland - Jiggies/CCL: Trash Can Jiggy",
+            "name": "Jiggy"
+          },
+          {
+            "ref": "Overworld/Cloud Cuckooland/CCL: Trash Can Mumbo Token",
+            "name": "Mumbo Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl1",
+            "x": 95,
+            "y": 255
+          }
+        ]
+      },
+      {
+        "name": "Inside the Pot O' Gold",
+        "sections": [
+          {
+            "ref": "Overworld/Cloud Cuckooland/CCL: Pot O' Gold Cheato Page",
+            "name": "Cheato Page"
+          },
+          {
+            "ref": "Overworld/Cloud Cuckooland - Jiggies/CCL: Pot O' Gold Jiggy",
+            "name": "Jiggy"
+          },
+          {
+            "ref": "Overworld/Cloud Cuckooland/CCL: Pot O' Gold Mumbo Token",
+            "name": "Mumbo Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl1",
+            "x": 537,
+            "y": 150
+          }
+        ]
+      },
+      {
+        "name": "Inside the Cheese Wedge",
+        "sections": [
+          {
+            "ref": "Overworld/Cloud Cuckooland/CCL: Cheese Wedge Jinjo",
+            "name": "Jinjo"
+          },
+          {
+            "ref": "Overworld/Cloud Cuckooland - Jiggies/CCL: Cheese Wedge Jiggy",
+            "name": "Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl1",
+            "x": 695,
+            "y": 315
+          }
+        ]
+      },
+      {
+        "name": "Mumbo's Skull",
+        "sections": [
+          {
+            "ref": "Overworld/Cloud Cuckooland/CCL: Fake Mumbo Skull Jinjo",
+            "name": "Fake Mumbo Skull Jinjo"
+          },
+          {
+            "ref": "Overworld/Cloud Cuckooland - Jiggies/CCL: Mingy Jongo Jiggy",
+            "name": "Mingy Jongo Jiggy"
+          },
+          {
+            "ref": "Overworld/Cloud Cuckooland/CCL: Mingy Jongo Mumbo Token",
+            "name": "Mingy Jongo Mumbo Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl1",
+            "x": 470,
+            "y": 460
+          }
+        ]
+      },
+      {
+        "name": "Zubbas' Nest",
+        "sections": [
+          {
+            "ref": "Overworld/Cloud Cuckooland/CCL: Zubbas Cheato Page",
+            "name": "Cheato Page"
+          },
+          {
+            "ref": "Overworld/Cloud Cuckooland - Jiggies/CCL: Zubbas Jiggy",
+            "name": "Jiggy"
+          },
+          {
+            "ref": "Overworld/Cloud Cuckooland/CCL: Zubbas Mumbo Token",
+            "name": "Mumbo Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl1",
+            "x": 345,
+            "y": 370
+          }
+        ]
+      },
+      {
+        "name": "Canary Mary (Purple Platform)",
+        "sections": [
+          {
+            "ref": "Overworld/Cloud Cuckooland - Jiggies/CCL: Canary Mary Jiggy",
+            "name": "Jiggy"
+          },
+          {
+            "ref": "Overworld/Cloud Cuckooland/CCL: Canary Mary Cheato Page",
+            "name": "Cheato Page"
+          },
+          {
+            "ref": "Overworld/Cloud Cuckooland/CCL: Canary Mary Mumbo Token",
+            "name": "Mumbo Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl1",
+            "x": 100,
+            "y": 470
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cloud Cuckooland - Central Cavern",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "children": [
+      {
+        "name": "CCL: Central Cavern Jinjo",
+        "sections": [
+          {
+            "ref": "Overworld/Cloud Cuckooland/CCL: Central Cavern Jinjo",
+            "name": "Jinjo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl2",
+            "x": 375,
+            "y": 500
+          }
+        ]
+      },
+      {
+        "name": "CCL: Central Cavern Glowbo",
+        "sections": [
+          {
+            "ref": "Overworld/Cloud Cuckooland/CCL: Central Cavern Glowbo",
+            "name": "Glowbo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl2",
+            "x": 412,
+            "y": 170
+          }
+        ]
+      },
+      {
+        "name": "Sack Pack Silo",
+        "sections": [
+          {
+            "ref": "Overworld/Cloud Cuckooland/CCL: Sack Pack Silo",
+            "name": "Silo"
+          },
+          {
+            "ref": "Overworld/Cloud Cuckooland - Notes/CCL: Sack Pack Silo (1) Note",
+            "name": "Note 1"
+          },
+          {
+            "ref": "Overworld/Cloud Cuckooland - Notes/CCL: Sack Pack Silo (2) Note",
+            "name": "Note 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl2",
+            "x": 305,
+            "y": 487
+          }
+        ]
+      },
+      {
+        "name": "CCL: Superstash Jiggy",
+        "sections": [
+          {
+            "ref": "Overworld/Cloud Cuckooland - Jiggies/CCL: Superstash Jiggy",
+            "name": "Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl2",
+            "x": 112,
+            "y": 230
+          }
+        ]
+      },
+      {
+        "name": "CCL: Main Entrance Note",
+        "sections": [
+          {
+            "ref": "Overworld/Cloud Cuckooland - Notes/CCL: Main Entrance Note",
+            "name": "Note"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl2",
+            "x": 295,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "CCL: Blue Skull Exit Note",
+        "sections": [
+          {
+            "ref": "Overworld/Cloud Cuckooland - Notes/CCL: Blue Skull Exit Note",
+            "name": "Note"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl2",
+            "x": 395,
+            "y": 480
+          }
+        ]
+      },
+      {
+        "name": "CCL: Glowbo Pool Note",
+        "sections": [
+          {
+            "ref": "Overworld/Cloud Cuckooland - Notes/CCL: Glowbo Pool Note",
+            "name": "Note"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl2",
+            "x": 70,
+            "y": 415
+          }
+        ]
+      },
+      {
+        "name": "CCL: Dippy Pool Note",
+        "sections": [
+          {
+            "ref": "Overworld/Cloud Cuckooland - Notes/CCL: Dippy Pool Note",
+            "name": "Note"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl2",
+            "x": 610,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "CCL: Mr. Fit Footrace Track Note",
+        "sections": [
+          {
+            "ref": "Overworld/Cloud Cuckooland - Notes/CCL: Mr. Fit Footrace Track Note",
+            "name": "Note"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl2",
+            "x": 437,
+            "y": 43
+          }
+        ]
+      },
+      {
+        "name": "CCL: Mr. Fit Sack Race Exit Note",
+        "sections": [
+          {
+            "ref": "Overworld/Cloud Cuckooland - Notes/CCL: Mr. Fit Sack Race Exit Note",
+            "name": "Note"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl2",
+            "x": 65,
+            "y": 114
+          }
+        ]
+      },
+      {
+        "name": "CCL: Pot o' Gold Exit Note",
+        "sections": [
+          {
+            "ref": "Overworld/Cloud Cuckooland - Notes/CCL: Pot o' Gold Exit Note",
+            "name": "Note"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl2",
+            "x": 514,
+            "y": 300
+          }
+        ]
+      },
+      {
+        "name": "CCL: Cheese Wedge Exit Note",
+        "sections": [
+          {
+            "ref": "Overworld/Cloud Cuckooland - Notes/CCL: Cheese Wedge Exit Note",
+            "name": "Note"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl2",
+            "x": 565,
+            "y": 380
+          }
+        ]
+      },
+      {
+        "name": "CCL: Red Skull Exit Note",
+        "sections": [
+          {
+            "ref": "Overworld/Cloud Cuckooland - Notes/CCL: Red Skull Exit Note",
+            "name": "Note"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl2",
+            "x": 295,
+            "y": 145
+          }
+        ]
+      },
+      {
+        "name": "CCL: Top Entrance Note",
+        "sections": [
+          {
+            "ref": "Overworld/Cloud Cuckooland - Notes/CCL: Top Entrance Note",
+            "name": "Note"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl2",
+            "x": 111,
+            "y": 330
+          }
+        ]
+      },
+      {
+        "name": "CCL: Treble Clef (Top Path)",
+        "sections": [
+          {
+            "ref": "Overworld/Cloud Cuckooland - Notes/CCL: Treble Clef",
+            "name": "Treble Clef"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl2",
+            "x": 412,
+            "y": 318
+          }
+        ]
+      },
+      {
+        "name": "CCL: Top Superstash Switch Note",
+        "sections": [
+          {
+            "ref": "Overworld/Cloud Cuckooland - Notes/CCL: Top Superstash Switch Note",
+            "name": "Note"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl2",
+            "x": 630,
+            "y": 235
+          }
+        ]
+      },
+      {
+        "name": "Central Notes",
+        "sections": [
+          {
+            "ref": "Overworld/Cloud Cuckooland - Notes/CCL: Central (1) Note",
+            "name": "Note 1"
+          },
+          {
+            "ref": "Overworld/Cloud Cuckooland - Notes/CCL: Central (2) Note",
+            "name": "Note 2"
+          },
+          {
+            "ref": "Overworld/Cloud Cuckooland - Notes/CCL: Central (3) Note",
+            "name": "Note 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl2",
+            "x": 357,
+            "y": 325
           }
         ]
       }

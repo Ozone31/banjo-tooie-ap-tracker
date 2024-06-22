@@ -220,5 +220,17 @@
         "location_size": 10,
         "location_border_thickness": 2,
         "img": "images/maps/hfp_2.png"
+    },
+    {
+        "name": "ccl1",
+        "location_size": 10,
+        "location_border_thickness": 2,
+        "img": "images/maps/ccl_1.png"
+    },
+    {
+        "name": "ccl2",
+        "location_size": 10,
+        "location_border_thickness": 2,
+        "img": "images/maps/ccl_2.png"
     }
 ]
