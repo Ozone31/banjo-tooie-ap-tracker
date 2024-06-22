@@ -1,6 +1,19 @@
 {
 	"versions": [
 		{
+			"package_version": "0.2.0",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.2.0",
+			"sha256": "CBA311EC2047139861BAF72D285226554067966B7F74200B2A8F2713C23126BA",
+			"changelog": [
+				"Removed slash from A/C note locations in Grunty's Industries in tracker so it tracks properly. (You will still need the slash to hint_location these)",
+				"Fixed an issue with the logic for WW: The Inferno Jiggy location",
+				"Updated logic to match v1.8.3 of the randomizer",
+				"Added the code to get to Dilberta on the Prison Compound map in Mayahem Temple",
+				"Added the Code of the Dinosaurs solution to the Terrydactyland main area map",
+				"Added Grunty's Industries, Hailfire Peaks, and Cloud Cuckooland detailed maps. All maps are now implemented!"
+			]
+		},
+		{
 			"package_version": "0.1.5",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.1.5",
 			"sha256": "9D2F1D149A7C2BD2E6A91CB420B29AD3D4738F9106DCE930F712AABEE040F1AB",
