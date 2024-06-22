@@ -242,11 +242,18 @@ end
 
 function can_beat_terry()
     if logictype.CurrentStage <= 1 then
-        return has("eggaim") and canShootLinearEgg() and has("springb")
-    elseif logictype.CurrentStage == 2 then
-        return has("springb") and canShootLinearEgg() and (has("fflip") or has("eggaim"))
+        return has("eggaim") and canShootLinearEgg() and tdl_top()
     else
-        return canShootEggs() and (has("fflip") or has("eggaim")) and (has("springb") or (has("fpad") and (has("bbomb") or has("eggaim") and has("eggshoot") and has("geggs") and has("ceggs"))))
+        return tdl_top() and canShootLinearEgg() and (has("fflip") or has("eggaim"))
+end
+
+function tdl_top()
+    if logictype.CurrentStage <= 1 then
+        return has("springb")
+    elseif logictype.CurrentStage == 2 then
+        return has("springb") or has("splitup") and has("lspring") and has("glide")
+    else
+        return has("springb") or has("splitup") and has("lspring") and has("glide") or (has("fpad") and (has("bbomb") or clockworkWarp()))
     end
 end
 
@@ -260,9 +267,9 @@ end
 
 function humbaTDL()
     if logictype.CurrentStage <= 1 then
-        return (canDoSmallElevation() or TDLFlightPad()) and has("humbatd")
+        return canDoSmallElevation() and has("humbatd")
     else
-        return has("humbatd") and (canDoSmallElevation() or TDLFlightPad() or clockwork_shot())
+        return has("humbatd")
     end
 end
 
@@ -282,7 +289,7 @@ function extremelyLongJump()
     if logictype.CurrentStage <= 1 then
         return false
     else
-        return has("ttrot") and has("flutter") and has("bbust")
+        return has("ttrot") and (has("flutter") or has("arat")) and has("bbust")
     end
 end
 
@@ -322,6 +329,10 @@ function iceCube()
     return hasGroundAttack()
 end
 
+function iceCubeKazooie()
+    return has("splitup") and (has_explosives() or canShootEggs("feggs") or canShootEggs("begg") or has("wwhack"))
+end
+
 function cclStarterPack()
     if logictype.CurrentStage <= 1 then
         return (has("fpad") and hasGroundAttack()) or canDoSmallElevation() or has("ggrab")
@@ -331,11 +342,11 @@ function cclStarterPack()
 end
 
 function notes_ccl_high()
-    return cclStarterPack() and has("fpad") or has("humbacc")
+    return has("fpad") or has("humbacc")
 end
 
 function notes_ccl_low()
-    return cclStarterPack() or has("humbacc")
+    return true
 end
 
 function mumboCCL()
@@ -624,9 +635,9 @@ end
 
 function F2_to_F3()
     if logictype.CurrentStage == 0 then
-        return (has("fflip") and has("ggrab") and has("clawbs")) or has("humbagi")
+        return (has("fflip") and has("ggrab") and has("clawbs") and has("climb")) or has("humbagi")
     else
-        return ((has("fflip") and has("ggrab") or veryLongJump()) and has("clawbts")) or has("humbagi") or (has("splitup") and has("lspring"))
+        return ((has("fflip") and has("ggrab") or veryLongJump()) and has("clawbts") and has("climb")) or has("humbagi") or (has("splitup") and has("lspring"))
     end
 end
 
@@ -696,7 +707,7 @@ function mt_jiggy4()
     elseif logictype.CurrentStage == 1 then
         return (canShootEggs("begg") or canShootEggs("feggs") or canShootEggs("geggs") or canShootEggs("ceggs")) and (has("eggaim") or (MT_flight_pad() and has("aireaim")))
     else
-        return (canShootEggs("begg") or canShootEggs("feggs") or canShootEggs("geggs") or canShootEggs("ceggs")) and ((has("fflip") and has("bbust")) or has("eggaim") or (MT_flight_pad() and has("aireaim")))
+        return (canShootEggs("begg") or canShootEggs("feggs") or canShootEggs("geggs") or canShootEggs("ceggs")) and (has("eggaim") or (MT_flight_pad() and has("aireaim"))) or (has("fflip") and has("bbust"))
     end
 end
 
@@ -705,6 +716,16 @@ function mt_jiggy5()
         return has("eggaim") and (has("fflip") or canReachSlightlyElevatedLedge()) and ((has("ggrab") and springPad() and has("fflip")) or MT_flight_pad())
     else
         return (has("fflip") or canReachSlightlyElevatedLedge()) and ((has("ggrab") and springPad() and canShootLinearEgg() and has("eggaim")) or (MT_flight_pad() and canShootLinearEgg()))
+    end
+end
+
+function mt_jiggy8()
+    if logictype.CurrentStage == 0 then
+        return billDrill() and (has("dive") or canReachSlightlyElevatedLedge()) and canDoSmallElevation() and prison_compound_open()
+    elseif logictype.CurrentStage == 1 then
+        return billDrill() and canDoSmallElevation() and prison_compound_open() and (has("dive") or canReachSlightlyElevatedLedge() or has("bbust"))
+    else
+        return prison_compound_open() and ((billDrill() and canDoSmallElevation()) or extremelyLongJump()) and (has("dive") or canReachSlightlyElevatedLedge() or has("bbust"))
     end
 end
 
@@ -739,18 +760,18 @@ end
 -- Terrydactyl Land
 
 function td_jiggy2()
-    return has("ttorp") and ccl_access() and cclStarterPack() and has("dive")
+    return has("ttorp") and ccl_access() and has("dive")
 end
 
 function td_jiggy8()
     if logictype.CurrentStage == 0 then
-        return canShootEggs("ieggs") and has("springb") and longJump() and (has("tjump") or has("ttrot"))
+        return canShootEggs("ieggs") and tdl_top() and longJump() and has("ttrot")
     elseif logictype.CurrentStage == 1 then
-        return has("springb") and ((has("splitup") and (has("wwhack") or has("glide"))) or canShootEggs("ieggs")) and longJump() and (has("tjump") or has("ttrot"))
+        return tdl_top() and ((has("splitup") and (has("wwhack") or has("glide"))) or canShootEggs("ieggs")) and longJump() and has("ttrot")
     elseif logictype.CurrentStage == 2 then
-        return has("springb") and longJump() and (has("tjump") or has("ttrot"))
+        return tdl_top() and longJump() and (has("tjump") or has("ttrot"))
     else
-        return (has("springb") or (has("fpad") and (has("bbomb") or clockworkWarp()))) and longJump() and (has("tjump") or has("ttrot"))
+        return tdl_top() and (has("tjump") or has("ttrot"))
     end
 end
 
@@ -758,24 +779,24 @@ end
 
 function cc_jiggy2()
     if logictype.CurrentStage == 0 then
-        return cclStarterPack() and has("springb") and has("splitup") and has("sapack") and grow_beanstalk() and can_use_floatus() and has("climb") and has("ttrain")
+        return has("springb") and has("splitup") and has("sapack") and grow_beanstalk() and can_use_floatus() and has("climb") and has("ttrain")
     elseif logictype.CurrentStage == 1 then
-        return cclStarterPack() and (has("springb") or has("fpad")) and has("splitup") and has("sapack") and grow_beanstalk() and can_use_floatus() and has("climb") and (has("ttrain") or has("humbacc"))
+        return (has("springb") or has("fpad")) and has("splitup") and has("sapack") and grow_beanstalk() and can_use_floatus() and has("climb") and (has("ttrain") or has("humbacc"))
     elseif logictype.CurrentStage == 1 then
-        return cclStarterPack() and (has("springb") or has("fpad")) and has("splitup") and has("sapack") and grow_beanstalk() and (can_use_floatus() or has("packwh")) and has("climb") and (has("ttrain") or has("humbacc"))
+        return (has("springb") or has("fpad")) and has("splitup") and has("sapack") and grow_beanstalk() and (can_use_floatus() or has("packwh")) and has("climb") and (has("ttrain") or has("humbacc"))
     else
-        return cclStarterPack() and (has("springb") or has("fpad")) and has("splitup") and has("sapack") and grow_beanstalk() and (can_use_floatus() or has("packwh")) and has("climb") and (has("ttrain") or has("humbacc") or canShootEggs("ceggs"))
+        return (has("springb") or has("fpad")) and has("splitup") and has("sapack") and grow_beanstalk() and (can_use_floatus() or has("packwh")) and has("climb") and (has("ttrain") or has("humbacc") or canShootEggs("ceggs"))
     end
 end
 
 function cc_jiggy3()
     if logictype.CurrentStage <= 1 then
         return (
-            cclStarterPack() and has("begg") and canShootEggs("feggs") and canShootEggs("geggs") and canShootEggs("ieggs") and billDrill() and mumboCCL()
+            has("begg") and canShootEggs("feggs") and canShootEggs("geggs") and canShootEggs("ieggs") and billDrill() and mumboCCL()
         )
     else
         return (
-            cclStarterPack() and has("begg") and canShootEggs("feggs") and canShootEggs("geggs") and canShootEggs("ieggs") and ((has("bdrill") and mumboCCL()) or has("splitup"))
+            has("begg") and canShootEggs("feggs") and canShootEggs("geggs") and canShootEggs("ieggs") and ((has("bdrill") and mumboCCL()) or has("splitup"))
         )
     end
 end

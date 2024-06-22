@@ -302,6 +302,103 @@
               }
             ]
           }
+        },
+        {
+          "title": "Grunty's Industries",
+          "content": {
+              "type": "tabbed",
+            "tabs": [
+              {
+                "title": "Outside",
+                "content": {
+                  "type": "map",
+                  "maps": [
+                    "gi1"
+                  ]
+                }
+              },
+              {
+                "title": "Floor 1",
+                "content": {
+                  "type": "map",
+                  "maps": [
+                    "gi2"
+                  ]
+                }
+              },
+              {
+                "title": "Floor 2",
+                "content": {
+                  "type": "map",
+                  "maps": [
+                    "gi3"
+                  ]
+                }
+              },
+              {
+                "title": "Floor 3",
+                "content": {
+                  "type": "map",
+                  "maps": [
+                    "gi4"
+                  ]
+                }
+              },
+              {
+                "title": "Floor 4",
+                "content": {
+                  "type": "map",
+                  "maps": [
+                    "gi7"
+                  ]
+                }
+              },
+              {
+                "title": "Floor 5",
+                "content": {
+                  "type": "map",
+                  "maps": [
+                    "gi6"
+                  ]
+                }
+              },
+              {
+                "title": "Waste Disposal Plant",
+                "content": {
+                  "type": "map",
+                  "maps": [
+                    "gi5"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "title": "Hailfire Peaks",
+          "content": {
+              "type": "tabbed",
+            "tabs": [
+              {
+                "title": "Lava Side",
+                "content": {
+                  "type": "map",
+                  "maps": [
+                    "hfp1"
+                  ]
+                }
+              },
+              {
+                "title": "Icy Side",
+                "content": {
+                  "type": "map",
+                  "maps": [
+                    "hfp2"
+                  ]
+                }
+              }
+            ]
+          }
         }
       ]
     }

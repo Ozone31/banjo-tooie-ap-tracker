@@ -247,18 +247,18 @@
             "name": "IoH: Plateau GGM Sign (1) Note",
             "access_rules": [ 
               "logictype_b, $plateau_access, ggrab, fflip",
-              "logictype_n, $plateau_access, ggrab, fflip", "logictype_n, $plateau_access, bbust, fflip",
-              "logictype_a, $plateau_access, ggrab, fflip", "logictype_a, $plateau_access, bbust, fflip", "logictype_a, $plateau_access, $clockwork_shot",
-              "logictype_g, $plateau_access, ggrab, fflip", "logictype_g, $plateau_access, bbust, fflip", "logictype_g, $plateau_access, $clockwork_shot"
+              "logictype_n, $plateau_access, ggrab, fflip", "logictype_n, $plateau_access, bbust, fflip", "logictype_n, $plateau_access, splitup, lspring",
+              "logictype_a, $plateau_access, ggrab, fflip", "logictype_a, $plateau_access, bbust, fflip", "logictype_a, $plateau_access, splitup, lspring", "logictype_a, $plateau_access, $clockwork_shot",
+              "logictype_g, $plateau_access, ggrab, fflip", "logictype_g, $plateau_access, bbust, fflip", "logictype_g, $plateau_access, splitup, lspring", "logictype_g, $plateau_access, $clockwork_shot"
              ]
           },
           {
             "name": "IoH: Plateau GGM Sign (2) Note",
             "access_rules": [ 
               "logictype_b, $plateau_access, ggrab, fflip",
-              "logictype_n, $plateau_access, ggrab, fflip", "logictype_n, $plateau_access, bbust, fflip",
-              "logictype_a, $plateau_access, ggrab, fflip", "logictype_a, $plateau_access, bbust, fflip", "logictype_a, $plateau_access, $clockwork_shot",
-              "logictype_g, $plateau_access, ggrab, fflip", "logictype_g, $plateau_access, bbust, fflip", "logictype_g, $plateau_access, $clockwork_shot"
+              "logictype_n, $plateau_access, ggrab, fflip", "logictype_n, $plateau_access, bbust, fflip", "logictype_n, $plateau_access, splitup, lspring",
+              "logictype_a, $plateau_access, ggrab, fflip", "logictype_a, $plateau_access, bbust, fflip", "logictype_a, $plateau_access, splitup, lspring", "logictype_a, $plateau_access, $clockwork_shot",
+              "logictype_g, $plateau_access, ggrab, fflip", "logictype_g, $plateau_access, bbust, fflip", "logictype_g, $plateau_access, splitup, lspring", "logictype_g, $plateau_access, $clockwork_shot"
              ]
           },
           {
@@ -632,7 +632,7 @@
           {
             "name": "MT: Pillars Jiggy",
             "access_rules": [ 
-              "$mt_access, $billDrill, dive, $canDoSmallElevation, $prison_compound_open", "$mt_access, $billDrill, $canReachSlightlyElevatedLedge, $canDoSmallElevation, $prison_compound_open" 
+              "$mt_access, $mt_jiggy8" 
             ]
           },
           {
@@ -1303,10 +1303,10 @@
           {
             "name": "WW: The Inferno Jiggy",
             "access_rules": [
-              "logictype_b, $ww_access, $humbaWW, splitup",
-              "logictype_n, $ww_access, $humbaWW, splitup", "logictype_n, $ww_access, $humbaWW, fflip, ttrot", "logictype_n, $ww_access, $humbaWW, fflip, ttrain",
+              "logictype_b, $ww_access, $humbaWW, splitup, tjump",
+              "logictype_n, $ww_access, $humbaWW, splitup, tjump", "logictype_n, $ww_access, $humbaWW, splitup, lspring", "logictype_n, $ww_access, $humbaWW, fflip, ttrot", "logictype_n, $ww_access, $humbaWW, fflip, ttrain",
               "logictype_a, $ww_access, $humbaWW",
-              "logictype_g, $ww_access, $humbaWW", "logictype_g, $ww_access, $glitchedInfernoAccess, splitup", "logictype_n, $ww_access, $glitchedInfernoAccess, fflip, ttrot", "logictype_n, $ww_access, $glitchedInfernoAccess, fflip, ttrain"
+              "logictype_g, $ww_access, $humbaWW", "logictype_g, $ww_access, $glitchedInfernoAccess, splitup, tjump", "logictype_g, $ww_access, $glitchedInfernoAccess, splitup, lspring", "logictype_g, $ww_access, $glitchedInfernoAccess, fflip, ttrot", "logictype_g, $ww_access, $glitchedInfernoAccess, fflip, ttrain"
             ]
           },
           {
@@ -1375,18 +1375,18 @@
             "name": "WW: Area 51 Gate (1) Note",
             "access_rules": [
               "logictype_b, $ww_access, $has_explosives, $springPad",
-              "logictype_n, $ww_access, $has_explosives, $springPad",
-              "logictype_a, $ww_access, $has_explosives, $springPad", "logictype_a, $ww_access, splitup, $springPad", "logictype_a, $ww_access, $clockwork_shot",
-              "logictype_g, $ww_access, $has_explosives, $springPad", "logictype_g, $ww_access, splitup, $springPad", "logictype_g, $ww_access, $clockwork_shot"
+              "logictype_n, $ww_access, $has_explosives, $springPad", "logictype_n, $ww_access, splitup, lspring",
+              "logictype_a, $ww_access, $has_explosives, $springPad", "logictype_a, $ww_access, splitup, $springPad", "logictype_a, $ww_access, splitup, lspring", "logictype_a, $ww_access, $clockwork_shot",
+              "logictype_g, $ww_access, $has_explosives, $springPad", "logictype_g, $ww_access, splitup, $springPad", "logictype_g, $ww_access, splitup, lspring", "logictype_g, $ww_access, $clockwork_shot"
             ]
           },
           {
             "name": "WW: Area 51 Gate (2) Note",
             "access_rules": [
               "logictype_b, $ww_access, $has_explosives, $springPad",
-              "logictype_n, $ww_access, $has_explosives, $springPad",
-              "logictype_a, $ww_access, $has_explosives, $springPad", "logictype_a, $ww_access, splitup, $springPad", "logictype_a, $ww_access, $clockwork_shot",
-              "logictype_g, $ww_access, $has_explosives, $springPad", "logictype_g, $ww_access, splitup, $springPad", "logictype_g, $ww_access, $clockwork_shot"
+              "logictype_n, $ww_access, $has_explosives, $springPad", "logictype_n, $ww_access, splitup, lspring",
+              "logictype_a, $ww_access, $has_explosives, $springPad", "logictype_a, $ww_access, splitup, $springPad", "logictype_a, $ww_access, splitup, lspring", "logictype_a, $ww_access, $clockwork_shot",
+              "logictype_g, $ww_access, $has_explosives, $springPad", "logictype_g, $ww_access, splitup, $springPad", "logictype_g, $ww_access, splitup, lspring", "logictype_g, $ww_access, $clockwork_shot"
             ]
           },
           {
@@ -1773,27 +1773,27 @@
             "name": "JRL: Jolly's (1) Note",
             "access_rules": [
               "logictype_b, $jrl_access, ttrot", "logictype_b, $jrl_access, tjump, ggrab", "logictype_b, $jrl_access, fflip",
-              "logictype_n, $jrl_access, $canDoSmallElevation",
-              "logictype_a, $jrl_access, $canDoSmallElevation", "logictype_a, $jrl_access, $clockwork_shot",
-              "logictype_g, $jrl_access, $canDoSmallElevation", "logictype_g, $jrl_access, $clockwork_shot"
+              "logictype_n, $jrl_access, $canDoSmallElevation", "logictype_n, $jrl_access, $longJump",
+              "logictype_a, $jrl_access, $canDoSmallElevation", "logictype_a, $jrl_access, $longJump", "logictype_a, $jrl_access, $clockwork_shot",
+              "logictype_g, $jrl_access, $canDoSmallElevation", "logictype_g, $jrl_access, $longJump", "logictype_g, $jrl_access, $clockwork_shot"
             ]
           },
           {
             "name": "JRL: Jolly's (2) Note",
             "access_rules": [
               "logictype_b, $jrl_access, ttrot", "logictype_b, $jrl_access, tjump, ggrab", "logictype_b, $jrl_access, fflip",
-              "logictype_n, $jrl_access, $canDoSmallElevation",
-              "logictype_a, $jrl_access, $canDoSmallElevation", "logictype_a, $jrl_access, $clockwork_shot",
-              "logictype_g, $jrl_access, $canDoSmallElevation", "logictype_g, $jrl_access, $clockwork_shot"
+              "logictype_n, $jrl_access, $canDoSmallElevation", "logictype_n, $jrl_access, $longJump",
+              "logictype_a, $jrl_access, $canDoSmallElevation", "logictype_a, $jrl_access, $longJump", "logictype_a, $jrl_access, $clockwork_shot",
+              "logictype_g, $jrl_access, $canDoSmallElevation", "logictype_g, $jrl_access, $longJump", "logictype_g, $jrl_access, $clockwork_shot"
             ]
           },
           {
             "name": "JRL: Jolly's (3) Note",
             "access_rules": [
               "logictype_b, $jrl_access, ttrot", "logictype_b, $jrl_access, tjump, ggrab", "logictype_b, $jrl_access, fflip",
-              "logictype_n, $jrl_access, $canDoSmallElevation",
-              "logictype_a, $jrl_access, $canDoSmallElevation", "logictype_a, $jrl_access, $clockwork_shot",
-              "logictype_g, $jrl_access, $canDoSmallElevation", "logictype_g, $jrl_access, $clockwork_shot"
+              "logictype_n, $jrl_access, $canDoSmallElevation", "logictype_n, $jrl_access, $longJump",
+              "logictype_a, $jrl_access, $canDoSmallElevation", "logictype_a, $jrl_access, $longJump", "logictype_a, $jrl_access, $clockwork_shot",
+              "logictype_g, $jrl_access, $canDoSmallElevation", "logictype_g, $jrl_access, $longJump", "logictype_g, $jrl_access, $clockwork_shot"
             ]
           }
         ],
@@ -1962,7 +1962,7 @@
           {
             "name": "TDL: Entrance Jinjo",
             "access_rules": [
-              "logictype_b, $tdl_access, $TDLFlightPad, bbomb", "logictype_b, $tdl_access, $canShootEggs|geggs, eggaim",
+              "logictype_b, $tdl_access, $TDLFlightPad, bbomb", "logictype_b, $tdl_access, $TDLFlightPad, $canShootEggs|geggs, eggaim",
               "logictype_n, $tdl_access, $TDLFlightPad, bbomb", "logictype_n, $tdl_access, $canShootEggs|geggs, eggaim", "logictype_n, $tdl_access, $canShootEggs|geggs, $longJump", "logictype_n, $tdl_access, $canShootEggs|geggs, $TDLFlightPad",
               "logictype_a, $tdl_access, $TDLFlightPad, bbomb", "logictype_a, $tdl_access, $canShootEggs|geggs, eggaim", "logictype_a, $tdl_access, $canShootEggs|geggs, $longJump", "logictype_a, $tdl_access, $canShootEggs|geggs, $TDLFlightPad",
               "logictype_g, $tdl_access, $TDLFlightPad, bbomb", "logictype_g, $tdl_access, $canShootEggs|geggs, eggaim", "logictype_g, $tdl_access, $canShootEggs|geggs, $longJump", "logictype_g, $tdl_access, $canShootEggs|geggs, $TDLFlightPad"
@@ -2020,10 +2020,10 @@
           {
             "name": "TDL: Styracosaurus Cave Honeycomb",
             "access_rules": [
-              "logictype_b, $tdl_access, bdrill, splitup, $springPad",
-              "logictype_n, $tdl_access, bdrill, splitup, $springPad",
-              "logictype_a, $tdl_access, bdrill, splitup, $springPad", "logictype_a, $tdl_access, splitup, lspring, wwhack, glide", "logictype_a, $tdl_access, $clockwork_shot",
-              "logictype_g, $tdl_access, bdrill, splitup, $springPad", "logictype_g, $tdl_access, splitup, lspring, wwhack, glide", "logictype_g, $tdl_access, $clockwork_shot"
+              "logictype_b, $tdl_access, $billDrill, splitup, $springPad",
+              "logictype_n, $tdl_access, $billDrilll, splitup, $springPad",
+              "logictype_a, $tdl_access, $billDrill, splitup, $springPad", "logictype_a, $tdl_access, splitup, lspring, wwhack, glide", "logictype_a, $tdl_access, $clockwork_shot",
+              "logictype_g, $tdl_access, $billDrill, splitup, $springPad", "logictype_g, $tdl_access, splitup, lspring, wwhack, glide", "logictype_g, $tdl_access, $clockwork_shot"
             ]
           },
           {
@@ -2107,7 +2107,12 @@
         "sections": [
           {
             "name": "TDL: Under Terry's Nest Jiggy",
-            "access_rules": [ "$tdl_access, $can_beat_terry, $has_explosives", "$tdl_access, $can_beat_terry, $billDrill" ]
+            "access_rules": [
+              "logictype_b, $tdl_access, $can_beat_terry, $has_explosives", "logictype_b, $tdl_access, $can_beat_terry, $billDrill",
+              "logictype_n, $tdl_access, $can_beat_terry, $has_explosives", "logictype_n, $tdl_access, $can_beat_terry, $billDrill",
+              "logictype_a, $tdl_access, $can_beat_terry, $has_explosives", "logictype_a, $tdl_access, $can_beat_terry, $billDrill", "logictype_a, $tdl_access, $tdl_top, $clockwork_shot",
+              "logictype_g, $tdl_access, $can_beat_terry, $has_explosives", "logictype_g, $tdl_access, $can_beat_terry, $billDrill", "logictype_g, $tdl_access, $tdl_top, $clockwork_shot"
+            ]
           },
           {
             "name": "TDL: Dippy Jiggy",
@@ -2193,7 +2198,7 @@
           },
           {
             "name": "TDL: Train Station Right Note",
-            "access_rules": [ "$tdl_access, $canDoSmallElevation" ]
+            "access_rules": [ "$tdl_access, $canDoSmallElevation", "$tdl_access, $humbaTDL" ]
           },
           {
             "name": "TDL: Train Station Middle Note",
@@ -2229,15 +2234,15 @@
           },
           {
             "name": "TDL: Roar Cage Path (1) Note",
-            "access_rules": [ "$tdl_access, $longJump", "$tdl_access, springb", "$tdl_access, $TDLFlightPad" ]
+            "access_rules": [ "$tdl_access, $longJump", "$tdl_access, springb", "$tdl_access, $TDLFlightPad", "$tdl_access, $humbaTDL" ]
           },
           {
             "name": "TDL: Roar Cage Path (2) Note",
-            "access_rules": [ "$tdl_access, $longJump", "$tdl_access, springb", "$tdl_access, $TDLFlightPad" ]
+            "access_rules": [ "$tdl_access, $longJump", "$tdl_access, springb", "$tdl_access, $TDLFlightPad", "$tdl_access, $humbaTDL" ]
           },
           {
             "name": "TDL: Roar Cage Path (3) Note",
-            "access_rules": [ "$tdl_access, $longJump", "$tdl_access, springb", "$tdl_access, $TDLFlightPad" ]
+            "access_rules": [ "$tdl_access, $longJump", "$tdl_access, springb", "$tdl_access, $TDLFlightPad", "$tdl_access, $humbaTDL" ]
           },
           {
             "name": "TDL: River Passage (1) Note",
@@ -2536,19 +2541,19 @@
             "access_rules": [ "$gi_access, $canDoSmallElevation" ]
           },
           {
-            "name": "GI: Floor 1 on A/C Unit (1) Note",
+            "name": "GI: Floor 1 on AC Unit (1) Note",
             "access_rules": [
-              "logictype_b, $gi_access, ggrab",
-              "logictype_n, $gi_access, ggrab",
+              "logictype_b, $gi_access, ggrab, climb, fflip",
+              "logictype_n, $gi_access, ggrab, climb, fflip",
               "logictype_a, $gi_access, $can_access_gi_fl1_2fl2", "logictype_a, $gi_access, ggrab", "logictype_a, $gi_access, splitup, packwh", "logictype_a, $gi_access, splitup, lspring", "logictype_a, $gi_access, $clockwork_shot",
               "logictype_g, $gi_access, $can_access_gi_fl1_2fl2", "logictype_g, $gi_access, ggrab", "logictype_g, $gi_access, splitup, packwh", "logictype_g, $gi_access, splitup, lspring", "logictype_g, $gi_access, $clockwork_shot" 
             ]
           },
           {
-            "name": "GI: Floor 1 on A/C Unit (2) Note",
+            "name": "GI: Floor 1 on AC Unit (2) Note",
             "access_rules": [
-              "logictype_b, $gi_access, ggrab",
-              "logictype_n, $gi_access, ggrab",
+              "logictype_b, $gi_access, ggrab, climb, fflip",
+              "logictype_n, $gi_access, ggrab, climb, fflip",
               "logictype_a, $gi_access, $can_access_gi_fl1_2fl2", "logictype_a, $gi_access, ggrab", "logictype_a, $gi_access, splitup, packwh", "logictype_a, $gi_access, splitup, lspring", "logictype_a, $gi_access, $clockwork_shot",
               "logictype_g, $gi_access, $can_access_gi_fl1_2fl2", "logictype_g, $gi_access, ggrab", "logictype_g, $gi_access, splitup, packwh", "logictype_g, $gi_access, splitup, lspring", "logictype_g, $gi_access, $clockwork_shot" 
             ]
@@ -2671,17 +2676,17 @@
             "access_rules": [
               "logictype_b, $hfp_access, splitup, glide, geggs, eggaim",
               "logictype_n, $hfp_access, splitup, glide", "logictype_n, $hfp_access, splitup, lspring, wwhack",
-              "logictype_a, $hfp_access, splitup, glide", "logictype_a, $hfp_access, splitup, lspring, wwhack", "logictype_a, $hfp_access, $clockwork_shot",
-              "logictype_g, $hfp_access, splitup, glide", "logictype_g, $hfp_access, splitup, lspring, wwhack", "logictype_g, $hfp_access, $clockwork_shot"
+              "logictype_a, $hfp_access, splitup, glide", "logictype_a, $hfp_access, splitup, lspring", "logictype_a, $hfp_access, $clockwork_shot, tjump, splitup", "logictype_a, $hfp_access, $clockwork_shot, tjump, ttrot",
+              "logictype_g, $hfp_access, splitup, glide", "logictype_g, $hfp_access, splitup, lspring", "logictype_g, $hfp_access, $clockwork_shot, tjump, splitup", "logictype_g, $hfp_access, $clockwork_shot, tjump, ttrot"
             ]
           },
           {
             "name": "HFP: Mildred Ice Cube Jinjo",
             "access_rules": [
               "logictype_b, $hfp_access, $canShootEggs|feggs", "logictype_b, $hfp_access, $has_explosives", "logictype_b, $hfp_access, $billDrill",
-              "logictype_n, $hfp_access, $canShootEggs|feggs", "logictype_n, $hfp_access, $has_explosives", "logictype_n, $hfp_access, $billDrill", "logictype_n, $hfp_access, mumbohp",
-              "logictype_a, $hfp_access, $canShootEggs|feggs", "logictype_a, $hfp_access, $has_explosives", "logictype_a, $hfp_access, $billDrill", "logictype_a, $hfp_access, mumbohp",
-              "logictype_g, $hfp_access, $canShootEggs|feggs", "logictype_g, $hfp_access, $has_explosives", "logictype_g, $hfp_access, $billDrill", "logictype_g, $hfp_access, mumbohp"
+              "logictype_n, $hfp_access, $canDoSmallElevation, $canShootEggs|feggs", "logictype_n, $hfp_access, $canDoSmallElevation, $has_explosives", "logictype_n, $hfp_access, $canDoSmallElevation, $billDrill", "logictype_n, $hfp_access, mumbohp, tjump", "logictype_n, $hfp_access, splitup, lspring, $canShootEggs|feggs", "logictype_n, $hfp_access, splitup, lspring, $has_explosives",
+              "logictype_a, $hfp_access, $canDoSmallElevation, $canShootEggs|feggs", "logictype_a, $hfp_access, $canDoSmallElevation, $has_explosives", "logictype_a, $hfp_access, $canDoSmallElevation, $billDrill", "logictype_a, $hfp_access, mumbohp, tjump", "logictype_a, $hfp_access, splitup, lspring, $canShootEggs|feggs", "logictype_a, $hfp_access, splitup, lspring, $has_explosives", "logictype_a, $hfp_access, $clockwork_shot",
+              "logictype_g, $hfp_access, $canDoSmallElevation, $canShootEggs|feggs", "logictype_g, $hfp_access, $canDoSmallElevation, $has_explosives", "logictype_g, $hfp_access, $canDoSmallElevation, $billDrill", "logictype_g, $hfp_access, mumbohp, tjump", "logictype_g, $hfp_access, splitup, lspring, $canShootEggs|feggs", "logictype_g, $hfp_access, splitup, lspring, $has_explosives", "logictype_g, $hfp_access, $clockwork_shot"
             ]
           },
           {
@@ -2696,27 +2701,27 @@
             "name": "HFP: Inside the Volcano Honeycomb",
             "access_rules": [
               "logictype_b, $hfp_access, splitup, tjump, wwhack", "logictype_b, $hfp_access, splitup, tjump, glide", "logictype_b, $hfp_access, splitup, lspring", "logictype_b, $hfp_access, $hfpTop, geggs, eggaim",
-              "logictype_n, $hfp_access, splitup, tjump, wwhack", "logictype_n, $hfp_access, splitup, tjump, glide", "logictype_n, $hfp_access, splitup, lspring", "logictype_n, $hfp_access, $hfpTop, geggs, eggaim, springPad",
-              "logictype_a, $hfp_access, splitup, tjump, wwhack", "logictype_a, $hfp_access, splitup, tjump, glide", "logictype_a, $hfp_access, splitup, lspring", "logictype_a, $hfp_access, $hfpTop, geggs, eggaim, springPad", "logictype_a, $hfp_access, $extremelyLongJump", "logictype_a, $hfp_access, $hfpTop, $clockwork_shot",
-              "logictype_g, $hfp_access, splitup, tjump, wwhack", "logictype_g, $hfp_access, splitup, tjump, glide", "logictype_g, $hfp_access, splitup, lspring", "logictype_g, $hfp_access, $hfpTop, geggs, eggaim, springPad", "logictype_g, $hfp_access, $extremelyLongJump", "logictype_g, $hfp_access, $hfpTop, $clockwork_shot"
+              "logictype_n, $hfp_access, splitup, tjump", "logictype_n, $hfp_access, splitup, wwhack", "logictype_n, $hfp_access, splitup, glide", "logictype_n, $hfp_access, splitup, lspring", "logictype_n, $hfp_access, $hfpTop, geggs, eggaim, springPad",
+              "logictype_a, $hfp_access, splitup, tjump", "logictype_a, $hfp_access, splitup, wwhack", "logictype_a, $hfp_access, splitup, glide", "logictype_a, $hfp_access, splitup, lspring", "logictype_a, $hfp_access, $hfpTop, geggs, eggaim, springPad", "logictype_a, $hfp_access, $extremelyLongJump", "logictype_a, $hfp_access, $hfpTop, $clockwork_shot",
+              "logictype_g, $hfp_access, splitup, tjump", "logictype_g, $hfp_access, splitup, wwhack", "logictype_g, $hfp_access, splitup, glide", "logictype_g, $hfp_access, splitup, lspring", "logictype_g, $hfp_access, $hfpTop, geggs, eggaim, springPad", "logictype_g, $hfp_access, $extremelyLongJump", "logictype_g, $hfp_access, $hfpTop, $clockwork_shot"
             ]
           },
           {
             "name": "HFP: Train Station Honeycomb",
             "access_rules": [
-              "logictype_b, $hfp_access, $canReachSlightlyElevatedLedge",
-              "logictype_n, $hfp_access, $canReachSlightlyElevatedLedge", "logictype_n, $hfp_access, splitup, lspring", "logictype_n, $hfp_access, splitup, glide",
-              "logictype_a, $hfp_access, $canReachSlightlyElevatedLedge", "logictype_a, $hfp_access, splitup, lspring", "logictype_a, $hfp_access, splitup, glide", "logictype_a, $hfp_access, $clockwork_shot",
-              "logictype_g, $hfp_access, $canReachSlightlyElevatedLedge", "logictype_g, $hfp_access, splitup, lspring", "logictype_g, $hfp_access, splitup, glide", "logictype_g, $hfp_access, $clockwork_shot"
+              "logictype_b, $hfp_access, ggrab, ttrot, flutter", "logictype_b, $hfp_access, ggrab, tjump, flutter", "logictype_b, $hfp_access, ggrab, ttrot, arat", "logictype_b, $hfp_access, ggrab, tjump, arat",
+              "logictype_n, $hfp_access, ggrab, ttrot, flutter", "logictype_n, $hfp_access, ggrab, tjump, flutter", "logictype_n, $hfp_access, ggrab, ttrot, arat", "logictype_n, $hfp_access, ggrab, tjump, arat", "logictype_n, $hfp_access, splitup, lspring",
+              "logictype_a, $hfp_access, ggrab, ttrot, flutter", "logictype_a, $hfp_access, ggrab, tjump, flutter", "logictype_a, $hfp_access, ggrab, ttrot, arat", "logictype_a, $hfp_access, ggrab, tjump, arat", "logictype_a, $hfp_access, splitup, lspring", "logictype_a, $hfp_access, $clockwork_shot, $hfpTop",
+              "logictype_g, $hfp_access, ggrab, ttrot, flutter", "logictype_g, $hfp_access, ggrab, tjump, flutter", "logictype_g, $hfp_access, ggrab, ttrot, arat", "logictype_g, $hfp_access, ggrab, tjump, arat", "logictype_g, $hfp_access, splitup, lspring", "logictype_g, $hfp_access, $clockwork_shot, $hfpTop"
             ]
           },
           {
             "name": "HFP: Lava Side Honeycomb",
             "access_rules": [
               "logictype_b, $hfp_access, ggrab, fflip",
-              "logictype_n, $hfp_access, ggrab, fflip", "logictype_n, $hfp_access, fpad",
-              "logictype_a, $hfp_access, ggrab, fflip", "logictype_a, $hfp_access, fpad", "logictype_a, $hfp_access, $hfpTop, $clockwork_shot",
-              "logictype_g, $hfp_access, ggrab, fflip", "logictype_g, $hfp_access, fpad", "logictype_g, $hfp_access, $hfpTop, $clockwork_shot"
+              "logictype_n, $hfp_access, ggrab, fflip", "logictype_n, $hfp_access, fpad", "logictype_n, $hfp_access, splitup, lspring, wwhack", "logictype_n, $hfp_access, splitup, lspring, glide",
+              "logictype_a, $hfp_access, ggrab, fflip", "logictype_a, $hfp_access, fpad", "logictype_a, $hfp_access, splitup, lspring, wwhack", "logictype_a, $hfp_access, splitup, lspring, glide", "logictype_a, $hfp_access, $hfpTop, $clockwork_shot",
+              "logictype_g, $hfp_access, ggrab, fflip", "logictype_g, $hfp_access, fpad", "logictype_g, $hfp_access, splitup, lspring, wwhack", "logictype_g, $hfp_access, splitup, lspring, glide", "logictype_g, $hfp_access, $hfpTop, $clockwork_shot"
             ]
           },
           {
@@ -2747,15 +2752,20 @@
           },
           {
             "name": "HFP: Glide Silo",
-            "access_rules": [ "$hfp_access, splitup, tjump, wwhack, $notecount|660", "$hfp_access, splitup, tjump, glide, $notecount|660" ]
+            "access_rules": [
+              "logictype_b, $hfp_access, splitup, tjump, wwhack, $notecount|660", "logictype_b, $hfp_access, splitup, tjump, glide, $notecount|660", "logictype_b, $hfp_access, splitup, lspring, $notecount|660",
+              "logictype_n, $hfp_access, splitup, tjump, $notecount|660", "logictype_n, $hfp_access, splitup, wwhack, $notecount|660", "logictype_n, $hfp_access, splitup, glide, $notecount|660", "logictype_n, $hfp_access, splitup, lspring, $notecount|660",
+              "logictype_a, $hfp_access, splitup, tjump, $notecount|660", "logictype_a, $hfp_access, splitup, wwhack, $notecount|660", "logictype_a, $hfp_access, splitup, glide, $notecount|660", "logictype_a, $hfp_access, splitup, lspring, $notecount|660",
+              "logictype_g, $hfp_access, splitup, tjump, $notecount|660", "logictype_g, $hfp_access, splitup, wwhack, $notecount|660", "logictype_g, $hfp_access, splitup, glide, $notecount|660", "logictype_g, $hfp_access, splitup, lspring, $notecount|660"
+            ]
           },
           {
             "name": "HFP: Lava Side Train Switch",
             "access_rules": [
-              "logictype_b, $hfp_access, ggrab",
-              "logictype_n, $hfp_access",
-              "logictype_a, $hfp_access",
-              "logictype_g, $hfp_access"
+              "logictype_b, $hfp_access, ggrab, tjump", "logictype_b, $hfp_access, ggrab, ttrot, flutter", "logictype_b, $hfp_access, ggrab, ttrot, arat",
+              "logictype_n, $hfp_access, ggrab, tjump", "logictype_n, $hfp_access, ggrab, ttrot, flutter", "logictype_n, $hfp_access, ggrab, ttrot, arat", "logictype_n, $hfp_access, fpad",
+              "logictype_a, $hfp_access, ggrab, tjump", "logictype_a, $hfp_access, ggrab, ttrot, flutter", "logictype_a, $hfp_access, ggrab, ttrot, arat", "logictype_a, $hfp_access, fpad",
+              "logictype_g, $hfp_access, ggrab, tjump", "logictype_g, $hfp_access, ggrab, ttrot, flutter", "logictype_g, $hfp_access, ggrab, ttrot, arat", "logictype_g, $hfp_access, fpad"
             ]
           },
           {
@@ -2768,8 +2778,8 @@
             "access_rules": [
               "logictype_b, $hfp_access, $canShootEggs|feggs, $canShootEggs|ieggs, clawbts, fpad",
               "logictype_n, $hfp_access, $canShootEggs|feggs, $canShootEggs|ieggs, clawbts, fpad",
-              "logictype_a, $hfp_access, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, clawbts", "logictype_a, $hfp_access, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, splitup, packwh, tjump, flutter", "logictype_a, $hfp_access, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, splitup, packwh, tjump, bbust",
-              "logictype_g, $hfp_access, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, clawbts", "logictype_g, $hfp_access, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, splitup, packwh, tjump, flutter", "logictype_g, $hfp_access, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, splitup, packwh, tjump, bbust"
+              "logictype_a, $hfp_access, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, clawbts", "logictype_a, $hfp_access, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, splitup, packwh, tjump, flutter, ttrot", "logictype_a, $hfp_access, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, splitup, packwh, tjump, flutter, fflip",
+              "logictype_g, $hfp_access, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, clawbts", "logictype_g, $hfp_access, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, splitup, packwh, tjump, flutter, ttrot", "logictype_g, $hfp_access, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, splitup, packwh, tjump, flutter, fflip"
             ]
           },
           {
@@ -2799,13 +2809,13 @@
             "access_rules": [
               "logictype_b, $hfp_access, $canShootEggs|feggs, $canShootEggs|ieggs, clawbts, fpad",
               "logictype_n, $hfp_access, $canShootEggs|feggs, $canShootEggs|ieggs, clawbts, fpad",
-              "logictype_a, $hfp_access, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, clawbts", "logictype_a, $hfp_access, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, splitup, packwh, tjump, flutter", "logictype_a, $hfp_access, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, splitup, packwh, tjump, bbust",
-              "logictype_g, $hfp_access, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, clawbts", "logictype_g, $hfp_access, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, splitup, packwh, tjump, flutter", "logictype_g, $hfp_access, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, splitup, packwh, tjump, bbust"
+              "logictype_a, $hfp_access, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, clawbts", "logictype_a, $hfp_access, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, splitup, packwh, tjump, flutter, ttrot", "logictype_a, $hfp_access, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, splitup, packwh, tjump, flutter, fflip",
+              "logictype_g, $hfp_access, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, clawbts", "logictype_g, $hfp_access, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, splitup, packwh, tjump, flutter, ttrot", "logictype_g, $hfp_access, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, splitup, packwh, tjump, flutter, fflip"
             ]
           },
           {
             "name": "HFP: Inside the Volcano Jiggy",
-            "access_rules": [ "$hfp_access" ]
+            "access_rules": [ "$hfp_access, $hfpTop" ]
           },
           {
             "name": "HFP: Sabreman Jiggy",
@@ -2822,7 +2832,7 @@
               "logictype_b, $hfp_access, $hfpTop, splitup, shpack, $canDoSmallElevation",
               "logictype_n, $hfp_access, $hfpTop, splitup, shpack, $canDoSmallElevation",
               "logictype_a, $hfp_access, $hfpTop, splitup, shpack, $canDoSmallElevation",
-              "logictype_g, $hfp_access, $hfpTop, $canDoSmallElevation, splitup, shpack", "logictype_g, $hfp_access, $hfpTop, $canDoSmallElevation, ceggs, eggshoot", "logictype_g, $hfp_access, $hfpTop, $canDoSmallElevation, splitup, lspring"
+              "logictype_g, $hfp_access, $hfpTop, splitup, shpack", "logictype_g, $hfp_access, $hfpTop, ceggs, eggshoot, ttrot", "logictype_g, $hfp_access, $hfpTop, ceggs, eggshoot, fflip", "logictype_g, $hfp_access, $hfpTop, splitup, lspring"
             ]
           },
           {
@@ -2846,8 +2856,8 @@
           {
             "name": "HFP: Stomping Plains Jiggy",
             "access_rules": [
-              "logictype_b, $tdl_access, $td_jiggy8, splitup, snpack",
-              "logictype_n, $tdl_access, $td_jiggy8, splitup, snpack",
+              "logictype_b, $tdl_access, $td_jiggy8, splitup, snpack, tjump, ttrot",
+              "logictype_n, $tdl_access, $td_jiggy8, splitup, snpack, tjump, ttrot",
               "logictype_a, $tdl_access, $td_jiggy8, splitup",
               "logictype_g, $tdl_access, $td_jiggy8, splitup, tjump", "logictype_g, $tdl_access, $td_jiggy8, $hfp_access, cegs, eggaim"
             ]
@@ -2894,10 +2904,10 @@
           {
             "name": "HFP: Treble Clef",
             "access_rules": [
-              "logictype_b, $hfp_access, splitup, tjump, wwhack", "logictype_b, $hfp_access, splitup, tjump, glide", "logictype_b, $hfp_access, splitup, lspring", "logictype_b, $hfp_access, $hfpTop, geggs, eggaim, $springPad",
-              "logictype_n, $hfp_access, splitup, tjump, wwhack", "logictype_n, $hfp_access, splitup, tjump, glide", "logictype_n, $hfp_access, splitup, lspring", "logictype_n, $hfp_access, $hfpTop, geggs, eggaim, $springPad",
-              "logictype_a, $hfp_access, splitup, tjump, wwhack", "logictype_a, $hfp_access, splitup, tjump, glide", "logictype_a, $hfp_access, splitup, lspring", "logictype_a, $hfp_access, $hfpTop, geggs, eggaim, $springPad", "logictype_a, $hfp_access, $extremelyLongJump, $clockwork_shot",
-              "logictype_g, $hfp_access, splitup, tjump, wwhack", "logictype_g, $hfp_access, splitup, tjump, glide", "logictype_g, $hfp_access, splitup, lspring", "logictype_g, $hfp_access, $hfpTop, geggs, eggaim, $springPad", "logictype_g, $hfp_access, $extremelyLongJump, $clockwork_shot"
+              "logictype_b, $hfp_access, splitup, $iceCubeKazooie, tjump, wwhack", "logictype_b, $hfp_access, splitup, $iceCubeKazooie, tjump, glide", "logictype_b, $hfp_access, splitup, $iceCubeKazooie, lspring", "logictype_b, $hfp_access, $hfpTop, geggs, eggaim, $springPad", 
+              "logictype_n, $hfp_access, splitup, $iceCubeKazooie, tjump", "logictype_n, $hfp_access, splitup, $iceCubeKazooie, wwhack", "logictype_n, $hfp_access, splitup, $iceCubeKazooie, glide", "logictype_n, $hfp_access, splitup, $iceCubeKazooie, lspring", "logictype_n, $hfp_access, $hfpTop, geggs, eggaim, $springPad",
+              "logictype_a, $hfp_access, splitup, $iceCubeKazooie, tjump", "logictype_a, $hfp_access, splitup, $iceCubeKazooie, wwhack", "logictype_a, $hfp_access, splitup, $iceCubeKazooie, glide", "logictype_a, $hfp_access, splitup, $iceCubeKazooie, lspring", "logictype_a, $hfp_access, $hfpTop, geggs, eggaim, $springPad", "logictype_a, $hfp_access, $hfpTop, ceggs, eggaim, $springPad", "logictype_a, $hfp_access, $extremelyLongJump, $clockwork_shot",
+              "logictype_g, $hfp_access, splitup, $iceCubeKazooie, tjump", "logictype_g, $hfp_access, splitup, $iceCubeKazooie, wwhack", "logictype_g, $hfp_access, splitup, $iceCubeKazooie, glide", "logictype_g, $hfp_access, splitup, $iceCubeKazooie, lspring", "logictype_g, $hfp_access, $hfpTop, geggs, eggaim, $springPad", "logictype_g, $hfp_access, $hfpTop, ceggs, eggaim, $springPad", "logictype_g, $hfp_access, $extremelyLongJump, $clockwork_shot"
             ]
           },
           {
@@ -2910,11 +2920,11 @@
           },
           {
             "name": "HFP: Path to Mumbo's Skull (1) Note",
-            "access_rules": [ "$hfp_access, $hfpTop" ]
+            "access_rules": [ "$hfp_access" ]
           },
           {
             "name": "HFP: Path to Mumbo's Skull (2) Note",
-            "access_rules": [ "$hfp_access, $hfpTop" ]
+            "access_rules": [ "$hfp_access" ]
           },
           {
             "name": "HFP: Lava Side: Top Path (1) Note",
@@ -2989,37 +2999,37 @@
           {
             "name": "CCL: Trash Can Jinjo",
             "access_rules": [
-              "logictype_b, $ccl_access, $cclStarterPack, splitup, shpack, climb",
-              "logictype_n, $ccl_access, $cclStarterPack, splitup, shpack, climb", "logictype_n, $ccl_access, $cclStarterPack, splitup, lspring",
-              "logictype_a, $ccl_access, $cclStarterPack, splitup, shpack, climb", "logictype_a, $ccl_access, $cclStarterPack, splitup, lspring", "logictype_a, $ccl_access, $cclStarterPack, splitup, glide", "logictype_a, $ccl_access, $cclStarterPack, splitup, $clockwork_shot",
-              "logictype_g, $ccl_access, $cclStarterPack, splitup, shpack, climb", "logictype_g, $ccl_access, $cclStarterPack, splitup, lspring", "logictype_g, $ccl_access, $cclStarterPack, splitup, glide", "logictype_g, $ccl_access, $cclStarterPack, splitup, $clockwork_shot"
+              "logictype_b, $ccl_access, splitup, shpack, climb",
+              "logictype_n, $ccl_access, splitup, shpack, climb", "logictype_n, $ccl_access, splitup, lspring",
+              "logictype_a, $ccl_access, splitup, shpack, climb", "logictype_a, $ccl_access, splitup, lspring", "logictype_a, $ccl_access, splitup, glide", "logictype_a, $ccl_access, splitup, $clockwork_shot",
+              "logictype_g, $ccl_access, splitup, shpack, climb", "logictype_g, $ccl_access, splitup, lspring", "logictype_g, $ccl_access, splitup, glide", "logictype_g, $ccl_access, splitup, $clockwork_shot"
             ]
           },
           {
             "name": "CCL: Cheese Wedge Jinjo",
             "access_rules": [
-              "logictype_b, $ccl_access, $cclStarterPack, fpad, splitup, sapack, $grow_beanstalk, $can_use_floatus",
-              "logictype_n, $ccl_access, $cclStarterPack, fpad, splitup, sapack, $grow_beanstalk, $can_use_floatus", "logictype_n, $ccl_access, $cclStarterPack, fpad, splitup, lspring",
-              "logictype_a, $ccl_access, $cclStarterPack, fpad, splitup, sapack, $grow_beanstalk, $can_use_floatus", "logictype_a, $ccl_access, $cclStarterPack, fpad, $clockwork_shot", "logictype_a, $ccl_access, $cclStarterPack, fpad, splitup, lspring",
-              "logictype_g, $ccl_access, $cclStarterPack, fpad, splitup, sapack, $grow_beanstalk, $can_use_floatus", "logictype_g, $ccl_access, $cclStarterPack, fpad, $clockwork_shot", "logictype_g, $ccl_access, $cclStarterPack, fpad, splitup, lspring"
+              "logictype_b, $ccl_access, fpad, splitup, sapack, $grow_beanstalk, $can_use_floatus",
+              "logictype_n, $ccl_access, fpad, splitup, sapack, $grow_beanstalk, $can_use_floatus", "logictype_n, $ccl_access, fpad, splitup, lspring",
+              "logictype_a, $ccl_access, fpad, splitup, sapack, $grow_beanstalk, $can_use_floatus", "logictype_a, $ccl_access, fpad, $clockwork_shot", "logictype_a, $ccl_access, fpad, splitup, lspring",
+              "logictype_g, $ccl_access, fpad, splitup, sapack, $grow_beanstalk, $can_use_floatus", "logictype_g, $ccl_access, fpad, $clockwork_shot", "logictype_g, $ccl_access, fpad, splitup, lspring"
             ]
           },
           {
             "name": "CCL: Central Cavern Jinjo",
             "access_rules": [
-              "logictype_b, $ccl_access, $cclStarterPack, splitup",
-              "logictype_n, $ccl_access, $cclStarterPack, splitup", "logictype_n, $ccl_access, $cclStarterPack, springb, $billDrill",
-              "logictype_a, $ccl_access, $cclStarterPack, splitup", "logictype_a, $ccl_access, $cclStarterPack, $clockwork_shot", "logictype_a, $ccl_access, $cclStarterPack, springb, $billDrill",
-              "logictype_g, $ccl_access, $cclStarterPack, splitup", "logictype_g, $ccl_access, $cclStarterPack, $clockwork_shot", "logictype_g, $ccl_access, $cclStarterPack, springb, $billDrill"
+              "logictype_b, $ccl_access, splitup, $springPad",
+              "logictype_n, $ccl_access, splitup, $springPad", "logictype_n, $ccl_access, springb, $billDrill",
+              "logictype_a, $ccl_access, splitup, $springPad", "logictype_a, $ccl_access, $clockwork_shot", "logictype_a, $ccl_access, springb, $billDrill",
+              "logictype_g, $ccl_access, splitup, $springPad", "logictype_g, $ccl_access, $clockwork_shot", "logictype_g, $ccl_access, springb, $billDrill"
             ]
           },
           {
             "name": "CCL: Fake Mumbo Skull Jinjo",
-            "access_rules": [ "$ccl_access, $cclStarterPack" ]
+            "access_rules": [ "$ccl_access" ]
           },
           {
             "name": "CCL: Wumba Jinjo",
-            "access_rules": [ "$ccl_access, climb" ]
+            "access_rules": [ "$ccl_access, climb", "$ccl_access, humbacc" ]
           },
           {
             "name": "CCL: Green Pool Glowbo",
@@ -3035,11 +3045,21 @@
           },
           {
             "name": "CCL: Trash Can Honeycomb",
-            "access_rules": [ "$ccl_access, $cclStarterPack, fpad" ]
+            "access_rules": [
+              "logictype_b, $ccl_access, fpad",
+              "logictype_n, $ccl_access, fpad", "logictype_n, $ccl_access, splitup, wwhack", "logictype_n, $ccl_access, splitup, glide",
+              "logictype_a, $ccl_access, fpad", "logictype_a, $ccl_access, splitup, wwhack", "logictype_a, $ccl_access, splitup, glide",
+              "logictype_g, $ccl_access, fpad", "logictype_g, $ccl_access, splitup, wwhack", "logictype_g, $ccl_access, splitup, glide",
+            ]
           },
           {
             "name": "CCL: Pot O' Gold Honeycomb",
-            "access_rules": [ "$ccl_access, $cclStarterPack, fpad" ]
+            "access_rules": [
+              "logictype_b, $ccl_access, fpad",
+              "logictype_n, $ccl_access, fpad", "logictype_n, $ccl_access, splitup, glide",
+              "logictype_a, $ccl_access, fpad", "logictype_a, $ccl_access, splitup, glide",
+              "logictype_g, $ccl_access, fpad", "logictype_g, $ccl_access, splitup, glide"
+            ]
           },
           {
             "name": "CCL: Canary Mary Cheato Page",
@@ -3055,7 +3075,7 @@
           },
           {
             "name": "CCL: Sack Pack Silo",
-            "access_rules": [ "$ccl_access, $cclStarterPack, splitup, shpack, $notecount|765" ]
+            "access_rules": [ "$ccl_access, splitup, shpack, $notecount|765" ]
           },
           {
             "name": "CCL: Mingy Jongo Mumbo Token",
@@ -3101,7 +3121,12 @@
         "sections": [
           {
             "name": "CCL: Mingy Jongo Jiggy",
-            "access_rules": [ "$ccl_access, $hasMobileAttack, $cclStarterPack" ]
+            "access_rules": [
+              "logictype_b, $ccl_access, $hasMobileAttack, ttrot",
+              "logictype_n, $ccl_access, $hasMobileAttack",
+              "logictype_a, $ccl_access, $hasMobileAttack",
+              "logictype_g, $ccl_access, $hasMobileAttack"
+            ]
           },
           {
             "name": "CCL: Mr Fit Jiggy",
@@ -3126,19 +3151,19 @@
           {
             "name": "CCL: Cheese Wedge Jiggy",
             "access_rules": [
-              "logictype_b, $ccl_access, $cclStarterPack, splitup, sapack, $grow_beanstalk, $can_use_floatus, shpack",
-              "logictype_n, $ccl_access, $cclStarterPack, splitup, sapack, $grow_beanstalk, $can_use_floatus, shpack",
-              "logictype_a, $ccl_access, $cclStarterPack, splitup, sapack, $grow_beanstalk, $can_use_floatus, shpack",
-              "logictype_g, $ccl_access, $cclStarterPack, splitup, sapack, $grow_beanstalk, $can_use_floatus, shpack", "logictype_g, $ccl_access, $cclStarterPack, ttrot, fflip, bbust", "logictype_g, $ccl_access, $cclStarterPack, $clockworkWarp, fflip, bbust"
+              "logictype_b, $ccl_access, splitup, sapack, $grow_beanstalk, $can_use_floatus, shpack",
+              "logictype_n, $ccl_access, splitup, sapack, $grow_beanstalk, $can_use_floatus, shpack",
+              "logictype_a, $ccl_access, splitup, sapack, $grow_beanstalk, $can_use_floatus, shpack",
+              "logictype_g, $ccl_access, splitup, sapack, $grow_beanstalk, $can_use_floatus, shpack", "logictype_g, $ccl_access, ttrot, fflip, bbust", "logictype_g, $ccl_access, $cclStarterPack, $clockworkWarp, fflip, bbust"
             ]
           },
           {
             "name": "CCL: Trash Can Jiggy",
             "access_rules": [
-              "logictype_b, $ccl_access, $cclStarterPack, splitup, wwhack, fpad",
-              "logictype_n, $ccl_access, $cclStarterPack, splitup, wwhack, fpad", "logictype_n, $ccl_access, $cclStarterPack, splitup, $canShootLinearEgg, fpad",
-              "logictype_a, $ccl_access, $cclStarterPack, splitup, wwhack, fpad", "logictype_a, $ccl_access, $cclStarterPack, splitup, $canShootLinearEgg, fpad",
-              "logictype_g, $ccl_access, $cclStarterPack, splitup, wwhack, fpad", "logictype_g, $ccl_access, $cclStarterPack, splitup, $canShootLinearEgg, fpad"
+              "logictype_b, $ccl_access, splitup, wwhack, fpad",
+              "logictype_n, $ccl_access, splitup, wwhack, fpad", "logictype_n, $ccl_access, splitup, $canShootLinearEgg, fpad",
+              "logictype_a, $ccl_access, splitup, wwhack, fpad", "logictype_a, $ccl_access, splitup, $canShootLinearEgg, fpad",
+              "logictype_g, $ccl_access, splitup, wwhack, fpad", "logictype_g, $ccl_access, splitup, $canShootLinearEgg, fpad"
             ]
           },
           {
@@ -3147,7 +3172,7 @@
               "logictype_b, $ccl_access, $canShootEggs|ceggs, ggrab, fpad, fflip",
               "logictype_n, $ccl_access, $canShootEggs|ceggs, fpad, fflip, ggrab", "logictype_n, $ccl_access, $canShootEggs|ceggs, fpad, fflip, $veryLongJump",
               "logictype_a, $ccl_access, $canShootEggs|ceggs, fpad, fflip, ggrab", "logictype_a, $ccl_access, $canShootEggs|ceggs, fpad, fflip, $veryLongJump",
-              "logictype_g, $ccl_access, $cclStarterPack, $canShootEggs|ceggs"
+              "logictype_g, $ccl_access, $canShootEggs|ceggs"
             ]
           },
           {
@@ -3181,19 +3206,19 @@
           {
             "name": "CCL: Sack Pack Silo (1) Note",
             "access_rules": [
-              "logictype_b, $ccl_access, $cclStarterPack, splitup, shpack",
-              "logictype_n, $ccl_access, $cclStarterPack, splitup, shpack", "logictype_n, $ccl_access, $canShootEggs|ceggs",
-              "logictype_a, $ccl_access, $cclStarterPack, splitup, shpack", "logictype_a, $ccl_access, $canShootEggs|ceggs",
-              "logictype_g, $ccl_access, $cclStarterPack, splitup, shpack", "logictype_g, $ccl_access, $canShootEggs|ceggs"
+              "logictype_b, $ccl_access, splitup, shpack",
+              "logictype_n, $ccl_access, splitup, shpack", "logictype_n, $ccl_access, $canShootEggs|ceggs",
+              "logictype_a, $ccl_access, splitup, shpack", "logictype_a, $ccl_access, $canShootEggs|ceggs",
+              "logictype_g, $ccl_access, splitup, shpack", "logictype_g, $ccl_access, $canShootEggs|ceggs"
             ]
           },
           {
             "name": "CCL: Sack Pack Silo (2) Note",
             "access_rules": [
-              "logictype_b, $ccl_access, $cclStarterPack, splitup, shpack",
-              "logictype_n, $ccl_access, $cclStarterPack, splitup, shpack", "logictype_n, $ccl_access, $canShootEggs|ceggs",
-              "logictype_a, $ccl_access, $cclStarterPack, splitup, shpack", "logictype_a, $ccl_access, $canShootEggs|ceggs",
-              "logictype_g, $ccl_access, $cclStarterPack, splitup, shpack", "logictype_g, $ccl_access, $canShootEggs|ceggs"
+              "logictype_b, $ccl_access, splitup, shpack",
+              "logictype_n, $ccl_access, splitup, shpack", "logictype_n, $ccl_access, $canShootEggs|ceggs",
+              "logictype_a, $ccl_access, splitup, shpack", "logictype_a, $ccl_access, $canShootEggs|ceggs",
+              "logictype_g, $ccl_access, splitup, shpack", "logictype_g, $ccl_access, $canShootEggs|ceggs"
             ]
           },
           {
@@ -3206,7 +3231,7 @@
           },
           {
             "name": "CCL: Dippy Pool Note",
-            "access_rules": [ "$ccl_access, $cclStarterPack, dive" ]
+            "access_rules": [ "$ccl_access, dive" ]
           },
           {
             "name": "CCL: Mr. Fit Footrace Track Note",
@@ -7266,6 +7291,1237 @@
             "map": "tdl6",
             "x": 10,
             "y": 380
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Grunty's Industries - Outside",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "children": [
+      {
+        "name": "GI: Treble Clef",
+        "sections": [
+          {
+            "ref": "Overworld/Grunty's Industries - Notes/GI: Treble Clef",
+            "name": "Treble Clef"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi1",
+            "x": 190,
+            "y": 420
+          }
+        ]
+      },
+      {
+        "name": "GI: Train Switch",
+        "sections": [
+          {
+            "ref": "Overworld/Grunty's Industries/GI: Train Switch",
+            "name": "Train Switch"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi1",
+            "x": 400,
+            "y": 463
+          }
+        ]
+      },
+      {
+        "name": "GI: Chimney Honeycomb",
+        "sections": [
+          {
+            "ref": "Overworld/Grunty's Industries/GI: Chimney Honeycomb",
+            "name": "Honeycomb"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi1",
+            "x": 227,
+            "y": 362
+          }
+        ]
+      },
+      {
+        "name": "GI: Outside Jinjo",
+        "sections": [
+          {
+            "ref": "Overworld/Grunty's Industries/GI: Outside Jinjo",
+            "name": "Honeycomb"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi1",
+            "x": 405,
+            "y": 145
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Grunty's Industries - Floor 1",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "children": [
+      {
+        "name": "GI: Claw Clamber Boots Silo",
+        "sections": [
+          {
+            "ref": "Overworld/Grunty's Industries/GI: Claw Clamber Boots Silo",
+            "name": "Silo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi2",
+            "x": 272,
+            "y": 347
+          }
+        ]
+      },
+      {
+        "name": "GI: Floor 1 Guarded Jiggy",
+        "sections": [
+          {
+            "ref": "Overworld/Grunty's Industries - Jiggies/GI: Floor 1 Guarded Jiggy",
+            "name": "Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi2",
+            "x": 281,
+            "y": 252
+          }
+        ]
+      },
+      {
+        "name": "Trash Compactor",
+        "sections": [
+          {
+            "ref": "Overworld/Grunty's Industries - Jiggies/GI: Trash Compactor Jiggy",
+            "name": "Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi2",
+            "x": 160,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Workers' Quarters",
+        "sections": [
+          {
+            "ref": "Overworld/Grunty's Industries/GI: Loggo Cheato Page",
+            "name": "Loggo Cheato Page"
+          },
+          {
+            "ref": "Overworld/Grunty's Industries - Jiggies/GI: Skivvy Workers Jiggy",
+            "name": "Skivvy Workers Jiggy (All Around the Map)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi2",
+            "x": 285,
+            "y": 65
+          }
+        ]
+      },
+      {
+        "name": "Floor 1 on AC Unit Notes",
+        "sections": [
+          {
+            "ref": "Overworld/Grunty's Industries - Notes/GI: Floor 1 on AC Unit (1) Note",
+            "name": "Note 1"
+          },
+          {
+            "ref": "Overworld/Grunty's Industries - Notes/GI: Floor 1 on AC Unit (2) Note",
+            "name": "Note 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi2",
+            "x": 455,
+            "y": 303
+          }
+        ]
+      },
+      {
+        "name": "Train Station (Grunty Industries)",
+        "sections": [
+          {
+            "ref": "Overworld/Grunty's Industries/GI: Train Station Honeycomb",
+            "name": "Honeycomb"
+          },
+          {
+            "ref": "Overworld/Grunty's Industries - Notes/GI: Train Station (1) Note",
+            "name": "Note 1"
+          },
+          {
+            "ref": "Overworld/Grunty's Industries - Notes/GI: Train Station (2) Note",
+            "name": "Note 2"
+          },
+          {
+            "ref": "Overworld/Grunty's Industries - Notes/GI: Train Station (3) Note",
+            "name": "Note 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi2",
+            "x": 430,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Air Conditioning Plant/Repair Depot",
+        "sections": [
+          {
+            "ref": "Overworld/Grunty's Industries - Notes/GI: Floor 1: Air Conditioning Plant (1) Note",
+            "name": "Air Conditioning Plant Note 1"
+          },
+          {
+            "ref": "Overworld/Grunty's Industries - Notes/GI: Floor 1: Air Conditioning Plant (1) Note",
+            "name": "Air Conditioning Plant Note 2"
+          },
+          {
+            "ref": "Overworld/Grunty's Industries/GI: Repair Depot Cheato Page",
+            "name": "Repair Depot Cheato Page"
+          },
+          {
+            "ref": "Overworld/Grunty's Industries - Jiggies/GI: Weldar Jiggy",
+            "name": "Weldar Jiggy"
+          },
+          {
+            "ref": "Overworld/Grunty's Industries/GI: Weldar Mumbo Token",
+            "name": "Weldar Mumbo Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi2",
+            "x": 125,
+            "y": 280
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Grunty's Industries - Floor 2",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "children": [
+      {
+        "name": "GI: Floor 2 Glowbo",
+        "sections": [
+          {
+            "ref": "Overworld/Grunty's Industries/GI: Floor 2 Glowbo",
+            "name": "Glowbo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi3",
+            "x": 385,
+            "y": 485
+          }
+        ]
+      },
+      {
+        "name": "Box Room Notes",
+        "sections": [
+          {
+            "ref": "Overworld/Grunty's Industries - Notes/GI: Floor 2: Box Room (1) Note",
+            "name": "Note 1"
+          },
+          {
+            "ref": "Overworld/Grunty's Industries - Notes/GI: Floor 2: Box Room (2) Note",
+            "name": "Note 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi3",
+            "x": 385,
+            "y": 250
+          }
+        ]
+      },
+      {
+        "name": "GI: Leg Spring Silo",
+        "sections": [
+          {
+            "ref": "Overworld/Grunty's Industries/GI: Leg Spring Silo",
+            "name": "Silo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi3",
+            "x": 475,
+            "y": 100
+          }
+        ]
+      },
+      {
+        "name": "GI: Leg Spring Jinjo",
+        "sections": [
+          {
+            "ref": "Overworld/Grunty's Industries/GI: Leg Spring Jinjo",
+            "name": "Leg Spring Jinjo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi3",
+            "x": 625,
+            "y": 30
+          }
+        ]
+      },
+      {
+        "name": "GI: Floor 2 Window Cheato Page",
+        "sections": [
+          {
+            "ref": "Overworld/Grunty's Industries/GI: Floor 2 Window Cheato Page",
+            "name": "Cheato Page"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi3",
+            "x": 735,
+            "y": 125
+          }
+        ]
+      },
+      {
+        "name": "Leg Spring Room Notes",
+        "sections": [
+          {
+            "ref": "Overworld/Grunty's Industries - Notes/GI: Floor 2: Leg Spring Room (1) Note",
+            "name": "Note 1"
+          },
+          {
+            "ref": "Overworld/Grunty's Industries - Notes/GI: Floor 2: Leg Spring Room (2) Note",
+            "name": "Note 2"
+          },
+          {
+            "ref": "Overworld/Grunty's Industries - Notes/GI: Floor 2: Leg Spring Room (3) Note",
+            "name": "Note 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi3",
+            "x": 630,
+            "y": 125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Grunty's Industries - Floor 3",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "children": [
+      {
+        "name": "GI: Floor 3 Glowbo",
+        "sections": [
+          {
+            "ref": "Overworld/Grunty's Industries/GI: Floor 3 Glowbo",
+            "name": "Glowbo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi4",
+            "x": 444,
+            "y": 465
+          }
+        ]
+      },
+      {
+        "name": "GI: Floor 3 Honeycomb",
+        "sections": [
+          {
+            "ref": "Overworld/Grunty's Industries/GI: Floor 3 Honeycomb",
+            "name": "Honeycomb"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi4",
+            "x": 452,
+            "y": 185
+          }
+        ]
+      },
+      {
+        "name": "Floor 3 Notes",
+        "sections": [
+          {
+            "ref": "Overworld/Grunty's Industries - Notes/GI: Floor 3 (1) Note",
+            "name": "Note 1"
+          },
+          {
+            "ref": "Overworld/Grunty's Industries - Notes/GI: Floor 3 (2) Note",
+            "name": "Note 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi4",
+            "x": 302,
+            "y": 165
+          }
+        ]
+      },
+      {
+        "name": "Boiler Plant/Packing Room",
+        "sections": [
+          {
+            "ref": "Overworld/Grunty's Industries/GI: Boiler Plant Jinjo",
+            "name": "Boiler Plant Jinjo"
+          },
+          {
+            "ref": "Overworld/Grunty's Industries - Jiggies/GI: Twinkly Packing Jiggy",
+            "name": "Twinkly Packing Jiggy"
+          },
+          {
+            "ref": "Overworld/Grunty's Industries/GI: Twinkly Packing Mumbo Token",
+            "name": "Twinkly Packing Mumbo Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi4",
+            "x": 470,
+            "y": 355
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Grunty's Industries - Floor 4",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "children": [
+      {
+        "name": "Quality Control",
+        "sections": [
+          {
+            "ref": "Overworld/Grunty's Industries - Jiggies/GI: Quality Control Jiggy",
+            "name": "Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi7",
+            "x": 540,
+            "y": 375
+          }
+        ]
+      },
+      {
+        "name": "Clinkers Cavern",
+        "sections": [
+          {
+            "ref": "Overworld/Grunty's Industries - Jiggies/GI: Clinker's Cavern Jiggy",
+            "name": "Jiggy"
+          },
+          {
+            "ref": "Overworld/Grunty's Industries/GI: Clinker's Cavern Mumbo Token",
+            "name": "Mumbo Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi7",
+            "x": 195,
+            "y": 212
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Grunty's Industries - Floor 5",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "children": [
+      {
+        "name": "GI: Floor 5 Jinjo",
+        "sections": [
+          {
+            "ref": "Overworld/Grunty's Industries/GI: Floor 5 Jinjo",
+            "name": "Jinjo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi6",
+            "x": 355,
+            "y": 365
+          }
+        ]
+      },
+      {
+        "name": "GI: Floor 5 Jiggy",
+        "sections": [
+          {
+            "ref": "Overworld/Grunty's Industries - Jiggies/GI: Floor 5 Jiggy",
+            "name": "Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi6",
+            "x": 183,
+            "y": 110
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Grunty's Industries - Waste Disposal Plant",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "children": [
+      {
+        "name": "GI: Snooze Pack Silo",
+        "sections": [
+          {
+            "ref": "Overworld/Grunty's Industries/GI: Snooze Pack Silo",
+            "name": "Silo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi5",
+            "x": 665,
+            "y": 169
+          }
+        ]
+      },
+      {
+        "name": "GI: Snooze Pack Silo",
+        "sections": [
+          {
+            "ref": "Overworld/Grunty's Industries/GI: Snooze Pack Silo",
+            "name": "Silo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi5",
+            "x": 665,
+            "y": 169
+          }
+        ]
+      },
+      {
+        "name": "GI: Waste Disposal Plant Jinjo (Access from JRL)",
+        "sections": [
+          {
+            "ref": "Overworld/Grunty's Industries/GI: Waste Disposal Plant Jinjo",
+            "name": "Jinjo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi5",
+            "x": 640,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "GI: Waste Disposal Plant Box Jiggy",
+        "sections": [
+          {
+            "ref": "Overworld/Grunty's Industries - Jiggies/GI: Waste Disposal Plant Box Jiggy",
+            "name": "Waste Disposal Plant Box Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi5",
+            "x": 270,
+            "y": 169
+          }
+        ]
+      },
+      {
+        "name": "GI: Underwater Waste Disposal Plant Jiggy",
+        "sections": [
+          {
+            "ref": "Overworld/Grunty's Industries - Jiggies/GI: Underwater Waste Disposal Plant Jiggy",
+            "name": "Underwater Waste Disposal Plant Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi5",
+            "x": 372,
+            "y": 260
+          }
+        ]
+      },
+      {
+        "name": "Waste Disposal Plant Notes",
+        "sections": [
+          {
+            "ref": "Overworld/Grunty's Industries - Notes/GI: Floor 1: Waste Disposal Plant (1) Note",
+            "name": "Note 1"
+          },
+          {
+            "ref": "Overworld/Grunty's Industries - Notes/GI: Floor 1: Waste Disposal Plant (2) Note",
+            "name": "Note 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi5",
+            "x": 480,
+            "y": 169
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hailfire Peaks - Lava Side",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "children": [
+      {
+        "name": "HFP: Lava Waterfall Jinjo",
+        "sections": [
+          {
+            "ref": "Overworld/Hailfire Peaks/HFP: Lava Waterfall Jinjo",
+            "name": "Jinjo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp1",
+            "x": 690,
+            "y": 450
+          }
+        ]
+      },
+      {
+        "name": "HFP: Lava Side Train Switch",
+        "sections": [
+          {
+            "ref": "Overworld/Hailfire Peaks/HFP: Lava Side Train Switch",
+            "name": "Train Switch"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp1",
+            "x": 650,
+            "y": 362
+          }
+        ]
+      },
+      {
+        "name": "HFP: Shack Pack Silo",
+        "sections": [
+          {
+            "ref": "Overworld/Hailfire Peaks/HFP: Shack Pack Silo",
+            "name": "Silo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp1",
+            "x": 535,
+            "y": 320
+          }
+        ]
+      },
+      {
+        "name": "HFP: Lava Side Honeycomb",
+        "sections": [
+          {
+            "ref": "Overworld/Hailfire Peaks/HFP: Lava Side Honeycomb",
+            "name": "Honeycomb"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp1",
+            "x": 125,
+            "y": 33
+          }
+        ]
+      },
+      {
+        "name": "HFP: Boiling Hot Pool Jinjo",
+        "sections": [
+          {
+            "ref": "Overworld/Hailfire Peaks/HFP: Boiling Hot Pool Jinjo",
+            "name": "Jinjo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp1",
+            "x": 127,
+            "y": 80
+          }
+        ]
+      },
+      {
+        "name": "HFP: Lava Side Glowbo",
+        "sections": [
+          {
+            "ref": "Overworld/Hailfire Peaks/HFP: Lava Side Glowbo",
+            "name": "Glowbo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp1",
+            "x": 135,
+            "y": 270
+          }
+        ]
+      },
+      {
+        "name": "HFP: Colosseum Split-Up Jiggy",
+        "sections": [
+          {
+            "ref": "Overworld/Hailfire Peaks - Jiggies/HFP: Colosseum Split-Up Jiggy",
+            "name": "Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp1",
+            "x": 595,
+            "y": 335
+          }
+        ]
+      },
+      {
+        "name": "Dragon Brothers (Chilli Billi)",
+        "sections": [
+          {
+            "ref": "Overworld/Hailfire Peaks - Jiggies/HFP: Dragon Brothers Jiggy",
+            "name": "Jiggy"
+          },
+          {
+            "ref": "Overworld/Hailfire Peaks/HFP: Dragon Brothers Mumbo Token",
+            "name": "Mumbo Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp1",
+            "x": 370,
+            "y": 70
+          }
+        ]
+      },
+      {
+        "name": "Colosseum Kickball Stadium",
+        "sections": [
+          {
+            "ref": "Overworld/Hailfire Peaks/HFP: Colosseum Cheato Page",
+            "name": "Colosseum Cheato Page"
+          },
+          {
+            "ref": "Overworld/Hailfire Peaks - Jiggies/HFP: Kickball Jiggy",
+            "name": "Kickball Jiggy"
+          },
+          {
+            "ref": "Overworld/Hailfire Peaks/HFP: Kickball Mumbo Token",
+            "name": "Kickball Mumbo Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp1",
+            "x": 630,
+            "y": 377
+          }
+        ]
+      },
+      {
+        "name": "Lava Train Station",
+        "sections": [
+          {
+            "ref": "Overworld/Hailfire Peaks/HFP: Train Station Honeycomb",
+            "name": "Train Station Honeycomb"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp1",
+            "x": 625,
+            "y": 217
+          }
+        ]
+      },
+      {
+        "name": "Inside the Volcano",
+        "sections": [
+          {
+            "ref": "Overworld/Hailfire Peaks - Jiggies/HFP: Inside the Volcano Jiggy",
+            "name": "Jiggy"
+          },
+          {
+            "ref": "Overworld/Hailfire Peaks/HFP: Inside the Volcano Honeycomb",
+            "name": "Honeycomb"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp1",
+            "x": 417,
+            "y": 190
+          }
+        ]
+      },
+      {
+        "name": "Near Ladder Notes",
+        "sections": [
+          {
+            "ref": "Overworld/Hailfire Peaks - Notes/HFP: Lava Side: Near Ladder (1) Note",
+            "name": "Note 1"
+          },
+          {
+            "ref": "Overworld/Hailfire Peaks - Notes/HFP: Lava Side: Near Ladder (2) Note",
+            "name": "Note 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp1",
+            "x": 460,
+            "y": 310
+          }
+        ]
+      },
+      {
+        "name": "Path to Shack Pack Notes",
+        "sections": [
+          {
+            "ref": "Overworld/Hailfire Peaks - Notes/HFP: Path to Shack Pack (1) Note",
+            "name": "Note 1"
+          },
+          {
+            "ref": "Overworld/Hailfire Peaks - Notes/HFP: Path to Shack Pack (2) Note",
+            "name": "Note 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp1",
+            "x": 480,
+            "y": 260
+          }
+        ]
+      },
+      {
+        "name": "Path to Mumbo's Skull Notes",
+        "sections": [
+          {
+            "ref": "Overworld/Hailfire Peaks - Notes/HFP: Path to Mumbo's Skull (1) Note",
+            "name": "Note 1"
+          },
+          {
+            "ref": "Overworld/Hailfire Peaks - Notes/HFP: Path to Mumbo's Skull (2) Note",
+            "name": "Note 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp1",
+            "x": 210,
+            "y": 300
+          }
+        ]
+      },
+      {
+        "name": "Top Path Notes",
+        "sections": [
+          {
+            "ref": "Overworld/Hailfire Peaks - Notes/HFP: Lava Side: Top Path (1) Note",
+            "name": "Note 1"
+          },
+          {
+            "ref": "Overworld/Hailfire Peaks - Notes/HFP: Lava Side: Top Path (2) Note",
+            "name": "Note 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp1",
+            "x": 380,
+            "y": 165
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hailfire Peaks - Icy Side",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "children": [
+      {
+        "name": "HFP: Icy Side Train Switch",
+        "sections": [
+          {
+            "ref": "Overworld/Hailfire Peaks/HFP: Icy Side Train Switch",
+            "name": "Train Switch"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 280,
+            "y": 370
+          }
+        ]
+      },
+      {
+        "name": "HFP: Mildred Ice Cube Jinjo",
+        "sections": [
+          {
+            "ref": "Overworld/Hailfire Peaks/HFP: Mildred Ice Cube Jinjo",
+            "name": "Jinjo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 75,
+            "y": 447
+          }
+        ]
+      },
+      {
+        "name": "HFP: Windy Hole Jinjo",
+        "sections": [
+          {
+            "ref": "Overworld/Hailfire Peaks/HFP: Windy Hole Jinjo",
+            "name": "Jinjo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 202,
+            "y": 115
+          }
+        ]
+      },
+      {
+        "name": "HFP: Glide Silo",
+        "sections": [
+          {
+            "ref": "Overworld/Hailfire Peaks/HFP: Glide Silo",
+            "name": "Silo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 208,
+            "y": 60
+          }
+        ]
+      },
+      {
+        "name": "HFP: Icy Side Pillar Cheato Page",
+        "sections": [
+          {
+            "ref": "Overworld/Hailfire Peaks/HFP: Icy Side Pillar Cheato Page",
+            "name": "Cheato Page"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 135,
+            "y": 175
+          }
+        ]
+      },
+      {
+        "name": "HFP: Icy Side Glowbo",
+        "sections": [
+          {
+            "ref": "Overworld/Hailfire Peaks/HFP: Icy Side Glowbo",
+            "name": "Glowbo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 512,
+            "y": 540
+          }
+        ]
+      },
+      {
+        "name": "HFP: Mega Glowbo (Access from GGM)",
+        "sections": [
+          {
+            "ref": "Overworld/Glitter Gulch Mine/HFP: Mega Glowbo",
+            "name": "Mega Glowbo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 75,
+            "y": 563
+          }
+        ]
+      },
+      {
+        "name": "HFP: Sabreman Jiggy",
+        "sections": [
+          {
+            "ref": "Overworld/Hailfire Peaks - Jiggies/HFP: Sabreman Jiggy",
+            "name": "Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 125,
+            "y": 570
+          }
+        ]
+      },
+      {
+        "name": "HFP: Boggy Jiggy",
+        "sections": [
+          {
+            "ref": "Overworld/Hailfire Peaks - Jiggies/HFP: Boggy Jiggy",
+            "name": "Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 105,
+            "y": 482
+          }
+        ]
+      },
+      {
+        "name": "HFP: Icy Side Station Jiggy",
+        "sections": [
+          {
+            "ref": "Overworld/Hailfire Peaks - Jiggies/HFP: Icy Side Station Jiggy",
+            "name": "Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 127,
+            "y": 460
+          }
+        ]
+      },
+      {
+        "name": "HFP: Oil Drill Jiggy",
+        "sections": [
+          {
+            "ref": "Overworld/Hailfire Peaks - Jiggies/HFP: Oil Drill Jiggy",
+            "name": "Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 553,
+            "y": 175
+          }
+        ]
+      },
+      {
+        "name": "HFP: Aliens Jiggy",
+        "sections": [
+          {
+            "ref": "Overworld/Hailfire Peaks - Jiggies/HFP: Aliens Jiggy",
+            "name": "Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 352,
+            "y": 422
+          }
+        ]
+      },
+      {
+        "name": "Dragon Brothers (Chilly Willy)",
+        "sections": [
+          {
+            "ref": "Overworld/Hailfire Peaks - Jiggies/HFP: Dragon Brothers Jiggy",
+            "name": "Jiggy"
+          },
+          {
+            "ref": "Overworld/Hailfire Peaks/HFP: Dragon Brothers Mumbo Token",
+            "name": "Mumbo Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 345,
+            "y": 65
+          }
+        ]
+      },
+      {
+        "name": "HFP: Stomping Plains Jiggy (Access from TDL)",
+        "sections": [
+          {
+            "ref": "Overworld/Hailfire Peaks - Jiggies/HFP: Stomping Plains Jiggy",
+            "name": "Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 355,
+            "y": 100
+          }
+        ]
+      },
+      {
+        "name": "Icicle Grotto",
+        "sections": [
+          {
+            "ref": "Overworld/Hailfire Peaks - Notes/HFP: Treble Clef",
+            "name": "Treble Clef"
+          },
+          {
+            "ref": "Overworld/Hailfire Peaks/HFP: Icicle Grotto Jinjo",
+            "name": "Jinjo"
+          },
+          {
+            "ref": "Overworld/Hailfire Peaks/HFP: Icicle Grotto Cheato Page",
+            "name": "Cheato Page"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 403,
+            "y": 95
+          }
+        ]
+      },
+      {
+        "name": "Lower Icy Side Warp Pad Notes",
+        "sections": [
+          {
+            "ref": "Overworld/Hailfire Peaks - Notes/HFP: Lower Icy Side Warp Pad (1) Note",
+            "name": "Note 1"
+          },
+          {
+            "ref": "Overworld/Hailfire Peaks - Notes/HFP: Lower Icy Side Warp Pad (2) Note",
+            "name": "Note 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 308,
+            "y": 463
+          }
+        ]
+      },
+      {
+        "name": "Boggy's Igloo Notes",
+        "sections": [
+          {
+            "ref": "Overworld/Hailfire Peaks - Notes/HFP: Boggy's Igloo (1) Note",
+            "name": "Note 1"
+          },
+          {
+            "ref": "Overworld/Hailfire Peaks - Notes/HFP: Boggy's Igloo (2) Note",
+            "name": "Note 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 80,
+            "y": 400
+          }
+        ]
+      },
+      {
+        "name": "Oil Drill Notes",
+        "sections": [
+          {
+            "ref": "Overworld/Hailfire Peaks - Notes/HFP: Oil Drill (1) Note",
+            "name": "Note 1"
+          },
+          {
+            "ref": "Overworld/Hailfire Peaks - Notes/HFP: Oil Drill (2) Note",
+            "name": "Note 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 400,
+            "y": 225
+          }
+        ]
+      },
+      {
+        "name": "Upper Icy Side Warp Pad Notes",
+        "sections": [
+          {
+            "ref": "Overworld/Hailfire Peaks - Notes/HFP: Upper Icy Side Warp Pad (1) Note",
+            "name": "Note 1"
+          },
+          {
+            "ref": "Overworld/Hailfire Peaks - Notes/HFP: Upper Icy Side Warp Pad (2) Note",
+            "name": "Note 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 203,
+            "y": 268
           }
         ]
       }
