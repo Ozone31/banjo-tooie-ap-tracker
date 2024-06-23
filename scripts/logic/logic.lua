@@ -245,6 +245,7 @@ function can_beat_terry()
         return has("eggaim") and canShootLinearEgg() and tdl_top()
     else
         return tdl_top() and canShootLinearEgg() and (has("fflip") or has("eggaim"))
+    end
 end
 
 function tdl_top()
