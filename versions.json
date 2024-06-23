@@ -1,6 +1,14 @@
 {
 	"versions": [
 		{
+			"package_version": "0.2.1",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.2.1",
+			"sha256": "9A4DC51D585989E5BF06C1699A7E7940FE418EA72AADCCCCD80D7E461C952746",
+			"changelog": [
+				"Fixed error in beating Terry logic that broke most of the other logic"
+			]
+		},
+		{
 			"package_version": "0.2.0",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.2.0",
 			"sha256": "CBA311EC2047139861BAF72D285226554067966B7F74200B2A8F2713C23126BA",
