@@ -1,6 +1,14 @@
 {
 	"versions": [
 		{
+			"package_version": "0.2.2",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.2.2",
+			"sha256": "11A842FB39DFC2ADE8FA6EE5F966FF96F77E40B608657875AA6E277D0EDDB1D5",
+			"changelog": [
+				"Logic updated to match v1.9-beta of the randomizer"
+			]
+		},
+		{
 			"package_version": "0.2.1",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.2.1",
 			"sha256": "9A4DC51D585989E5BF06C1699A7E7940FE418EA72AADCCCCD80D7E461C952746",
