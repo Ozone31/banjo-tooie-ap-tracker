@@ -210,6 +210,10 @@ function can_dive_in_JRL()
     end
 end
 
+function humbaJRL()
+    return can_dive_in_JRL() and can_reach_atlantis() and has("humbajr")
+end
+
 function long_swim()
     if logictype.CurrentStage == 0 then
         return has("mumbojr") and has("dive")
@@ -303,7 +307,7 @@ function can_use_battery()
 end
 
 function can_beat_weldar()
-    return can_use_battery() and mumboGI() and has("humbagi") and canShootEggs("geggs") and billDrill()
+    return can_use_battery() and mumboGI() and has("humbagi") and canShootEggs("geggs") and billDrill() and has("climb")
 end
 
 function breegullBash()
@@ -622,7 +626,7 @@ function F1_to_F3()
     if logictype.CurrentStage <= 2 then
         return false
     else
-        return has("bbash") and has("climb")
+        return (breegullBash() and has("climb")) or has("climb") and has_explosives() and has("eggaim") and (has("springb") or has("fflip") and has("ggrab") or has("splitup") and roof_access())
     end
 end
 
@@ -638,7 +642,7 @@ function F2_to_F3()
     if logictype.CurrentStage == 0 then
         return (has("fflip") and has("ggrab") and has("clawbs") and has("climb")) or has("humbagi")
     else
-        return ((has("fflip") and has("ggrab") or veryLongJump()) and has("clawbts") and has("climb")) or has("humbagi") or (has("splitup") and has("lspring"))
+        return ((has("fflip") and has("ggrab") or veryLongJump()) and has("clawbts") and (has("climb") or (has("geggs") and has("eggshoot") and has("fflip") and has("bbust")))) or has("humbgi") or (has("splitup") and has("lspring"))
     end
 end
 
@@ -689,6 +693,14 @@ function HFP_to_MT()
         return has_explosives()
     else
         return has_explosives() or has("mumbohp")
+    end
+end
+
+function HFP_to_JRL()
+    if logictype.CurrentStage <= 2 then
+        return HFP_hot_water_cooled()
+    else
+        return HFP_hot_water_cooled() or (has("ggrab") and has("flutter") and has("grat") and has("tjump"))
     end
 end
 

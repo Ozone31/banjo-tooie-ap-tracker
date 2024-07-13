@@ -353,9 +353,9 @@
           {
             "name": "IoH: Cliff Top Jinjo",
             "access_rules": [ 
-              "logictype_b, $clifftop_access, clawbts, climb",
-              "logictype_n, $clifftop_access, clawbts, climb",
-              "logictype_a, $clifftop_access, clawbts, climb", "logictype_a, $clifftop_access, $clockwork_shot",
+              "logictype_b, $clifftop_access, clawbts",
+              "logictype_n, $clifftop_access, clawbts",
+              "logictype_a, $clifftop_access, clawbts", "logictype_a, $clifftop_access, $clockwork_shot",
               "logictype_g, $clifftop_access, clawbts, climb", "logictype_g, $clifftop_access, $clockwork_shot"
             ]
           },
@@ -530,8 +530,8 @@
             "access_rules": [ 
               "logictype_b, $mt_access, eggaim, ggrab, $springPad, fflip", "logictype_b, $mt_access, eggaim, $MT_flight_pad",
               "logictype_n, $mt_access, ggrab, $springPad, fflip, $canShootLinearEgg, eggaim", "logictype_n, $mt_access, $MT_flight_pad",
-              "logictype_a, $mt_access, ggrab, $springPad, fflip, $canShootLinearEgg, eggaim", "logictype_a, $mt_access, $MT_flight_pad",
-              "logictype_g, $mt_access, ggrab, $springPad, fflip, $canShootLinearEgg, eggaim", "logictype_g, $mt_access, $MT_flight_pad"
+              "logictype_a, $mt_access, ggrab, $springPad, fflip, $canShootLinearEgg, eggaim", "logictype_a, $mt_access, $MT_flight_pad", "logictype_a, $mt_access, $clockwork_shot",
+              "logictype_g, $mt_access, ggrab, $springPad, fflip, $canShootLinearEgg, eggaim", "logictype_g, $mt_access, $MT_flight_pad", "logictype_g, $mt_access, $clockwork_shot"
             ]
           },
           {
@@ -778,9 +778,9 @@
             "name": "HFP: Mega Glowbo",
             "access_rules": [ 
               "logictype_b, $ggm_access, ttorp, ikey, dive, tjump",
-              "logictype_n, $ggm_access, ttorp, ikey, dive, tjump",
-              "logictype_a, $ggm_access, ttorp, ikey, dive, tjump", "logictype_a, $ggm_access, ttorp, ikey, dive, $clockwork_shot",
-              "logictype_g, $ggm_access, ttorp, ikey, dive, tjump", "logictype_g, $ggm_access, ttorp, ikey, dive, $clockwork_shot"
+              "logictype_n, $ggm_access, ttorp, ikey, dive, tjump", "logictype_n, $ggm_access, ttorp, ikey, dive, bbust",
+              "logictype_a, $ggm_access, ttorp, ikey, dive, tjump", "logictype_a, $ggm_access, ttorp, ikey, dive, bbust", "logictype_a, $ggm_access, ttorp, ikey, dive, $clockwork_shot",
+              "logictype_g, $ggm_access, ttorp, ikey, dive, tjump", "logictype_g, $ggm_access, ttorp, ikey, dive, bbust", "logictype_g, $ggm_access, ttorp, ikey, dive, $clockwork_shot"
             ]
           },
           {
@@ -819,7 +819,7 @@
               "logictype_b, $ggm_access, ggrab, fflip, dive, climb",
               "logictype_n, $ggm_access, ggrab, fflip, dive, climb", "logictype_n, $ggm_access, bbust, fflip, dive, climb",
               "logictype_a, $ggm_access, ggrab, fflip, dive, climb", "logictype_a, $ggm_access, bbust, fflip, dive, climb",
-              "logictype_g, $ggm_access, ggrab, fflip, dive, climb", "logictype_g, $ggm_access, bbust, fflip, dive, climb"
+              "logictype_g, $ggm_access, ggrab, fflip, dive, climb", "logictype_g, $ggm_access, bbust, fflip, dive, climb", "logictype_g, $ggm_access, splitup, lspring, glide"
             ]
           },
           {
@@ -911,8 +911,8 @@
           {
             "name": "GGM: Power Hut Basement Jiggy",
             "access_rules": [ 
-              "logictype_b, $ggm_access, $GM_boulders, splitup",
-              "logictype_n, $ggm_access, $GM_boulders, splitup", "logictype_n, $ggm_access, $GM_boulders, $has_fire", "logictype_n, $ggm_access, $GM_boulders, $billDrill",
+              "logictype_b, $ggm_access, $GM_boulders, splitup, climb",
+              "logictype_n, $ggm_access, $GM_boulders, splitup, climb", "logictype_n, $ggm_access, $GM_boulders, $has_fire", "logictype_n, $ggm_access, $GM_boulders, $billDrill",
               "logictype_a, $ggm_access, $GM_boulders",
               "logictype_g, $ggm_access, $GM_boulders"
             ]
@@ -1150,9 +1150,9 @@
             "name": "WW: Space Zone Honeycomb",
             "access_rules": [
               "logictype_b, $ww_access, ggrab, climb, fflip",
-              "logictype_n, $ww_access, ggrab, climb, fflip",
-              "logictype_a, $ww_access, ggrab, climb, fflip", "logictype_a, $ww_access, bbust, climb, fflip",
-              "logictype_g, $ww_access, ggrab, climb, fflip", "logictype_g, $ww_access, bbust, climb, fflip", "logictype_g, $clockwork_shot, $ggm_access, $ggm_to_ww"
+              "logictype_n, $ww_access, ggrab, climb, fflip", "logictype_n, $ww_access, splitup, lspring, glide",
+              "logictype_a, $ww_access, ggrab, climb, fflip", "logictype_a, $ww_access, bbust, climb, fflip", "logictype_a, $ww_access, splitup, lspring, glide",
+              "logictype_g, $ww_access, ggrab, climb, fflip", "logictype_g, $ww_access, bbust, climb, fflip", "logictype_g, $clockwork_shot, $ggm_access, $ggm_to_ww", "logictype_g, $ww_access, splitup, lspring, glide"
             ]
           },
           {
@@ -1313,9 +1313,9 @@
             "name": "WW: Cactus of Strength Jiggy",
             "access_rules": [
               "logictype_b, $ww_access, $billDrill, $canShootEggs|geggs, bbust, climb",
-              "logictype_n, $ww_access, $billDrill, $canShootEggs|geggs, bbust, climb",
-              "logictype_a, $ww_access, $billDrill, $canShootEggs|geggs, bbust, climb", "logictype_a, $ww_access, $billDrill, $canShootEggs|geggs, bbust, $clockwork_shot",
-              "logictype_g, $ww_access, $billDrill, $canShootEggs|geggs, bbust, climb", "logictype_g, $ww_access, $billDrill, $canShootEggs|geggs, bbust, $clockwork_shot"
+              "logictype_n, $ww_access, $billDrill, $canShootEggs|geggs, bbust, climb", "logictype_n, $ww_access, $billDrill, $canShootEggs|geggs, bbust, splitup, lspring, glide",
+              "logictype_a, $ww_access, $billDrill, $canShootEggs|geggs, bbust, climb", "logictype_a, $ww_access, $billDrill, $canShootEggs|geggs, bbust, $clockwork_shot", "logictype_a, $ww_access, $billDrill, $canShootEggs|geggs, bbust, splitup, lspring, glide",
+              "logictype_g, $ww_access, $billDrill, $canShootEggs|geggs, bbust, climb", "logictype_g, $ww_access, $billDrill, $canShootEggs|geggs, bbust, $clockwork_shot", "logictype_g, $ww_access, $billDrill, $canShootEggs|geggs, bbust, splitup, lspring, glide"
             ]
           }
         ],
@@ -1696,21 +1696,11 @@
           },
           {
             "name": "JRL: Blubbul (1) Note",
-            "access_rules": [
-              "logictype_b, $jrl_access, $can_dive_in_JRL, mumbojr, auqaim", "logictype_b, $jrl_access, $can_dive_in_JRL, mumbojr, ttorp",
-              "logictype_n, $jrl_access, $can_dive_in_JRL, auqaim", "logictype_n, $jrl_access, $can_dive_in_JRL, ttorp",
-              "logictype_a, $jrl_access, $can_dive_in_JRL, auqaim", "logictype_a, $jrl_access, $can_dive_in_JRL, ttorp",
-              "logictype_g, $jrl_access, $can_dive_in_JRL, auqaim", "logictype_g, $jrl_access, $can_dive_in_JRL, ttorp"
-            ]
+            "access_rules": [ "$jrl_access, $can_dive_in_JRL, auqaim", "$jrl_access, $can_dive_in_JRL, ttorp", "$jrl_access, $can_dive_in_JRL, $humbaJRL" ]
           },
           {
             "name": "JRL: Blubbul (2) Note",
-            "access_rules": [
-              "logictype_b, $jrl_access, $can_dive_in_JRL, mumbojr, auqaim", "logictype_b, $jrl_access, $can_dive_in_JRL, mumbojr, ttorp",
-              "logictype_n, $jrl_access, $can_dive_in_JRL,, auqaim", "logictype_n, $jrl_access, $can_dive_in_JRL, ttorp",
-              "logictype_a, $jrl_access, $can_dive_in_JRL, auqaim", "logictype_a, $jrl_access, $can_dive_in_JRL, ttorp",
-              "logictype_g, $jrl_access, $can_dive_in_JRL, auqaim", "logictype_g, $jrl_access, $can_dive_in_JRL, ttorp"
-            ]
+            "access_rules": [ "$jrl_access, $can_dive_in_JRL, auqaim", "$jrl_access, $can_dive_in_JRL, ttorp", "$jrl_access, $can_dive_in_JRL, $humbaJRL" ]
           },
           {
             "name": "JRL: Electric Eel's Lair Entrance (1) Note",
@@ -1850,19 +1840,39 @@
           },
           {
             "name": "JRL: Toxic Pool 1 Doubloon",
-            "access_rules": [ "$jrl_access, dive" ]
+            "access_rules": [
+              "logictype_b, $jrl_access, dive",
+              "logictype_n, $jrl_access, dive", "logictype_n, $jrl_access, shpack",
+              "logictype_a, $jrl_access, dive", "logictype_a, $jrl_access, shpack",
+              "logictype_g, $jrl_access, dive", "logictype_g, $jrl_access, shpack"
+            ]
           },
           {
             "name": "JRL: Toxic Pool 2 Doubloon",
-            "access_rules": [ "$jrl_access, dive" ]
+            "access_rules": [
+              "logictype_b, $jrl_access, dive",
+              "logictype_n, $jrl_access, dive", "logictype_n, $jrl_access, shpack",
+              "logictype_a, $jrl_access, dive", "logictype_a, $jrl_access, shpack",
+              "logictype_g, $jrl_access, dive", "logictype_g, $jrl_access, shpack"
+            ]
           },
           {
             "name": "JRL: Toxic Pool 3 Doubloon",
-            "access_rules": [ "$jrl_access, dive" ]
+            "access_rules": [
+              "logictype_b, $jrl_access, dive",
+              "logictype_n, $jrl_access, dive", "logictype_n, $jrl_access, shpack",
+              "logictype_a, $jrl_access, dive", "logictype_a, $jrl_access, shpack",
+              "logictype_g, $jrl_access, dive", "logictype_g, $jrl_access, shpack"
+            ]
           },
           {
             "name": "JRL: Toxic Pool 4 Doubloon",
-            "access_rules": [ "$jrl_access, dive" ]
+            "access_rules": [
+              "logictype_b, $jrl_access, dive",
+              "logictype_n, $jrl_access, dive", "logictype_n, $jrl_access, shpack",
+              "logictype_a, $jrl_access, dive", "logictype_a, $jrl_access, shpack",
+              "logictype_g, $jrl_access, dive", "logictype_g, $jrl_access, shpack"
+            ]
           },
           {
             "name": "JRL: Mumbo Skull 1 Doubloon",
@@ -1929,19 +1939,39 @@
           },
           {
             "name": "JRL: Near Alcove Jinjo 1 Doubloon",
-            "access_rules": [ "$jrl_access, dive" ]
+            "access_rules": [
+              "logictype_b, $jrl_access, dive",
+              "logictype_n, $jrl_access, dive", "logictype_n, $jrl_access, shpack",
+              "logictype_a, $jrl_access, dive", "logictype_a, $jrl_access, shpack",
+              "logictype_g, $jrl_access, dive", "logictype_g, $jrl_access, shpack"
+            ]
           },
           {
             "name": "JRL: Near Alcove Jinjo 2 Doubloon",
-            "access_rules": [ "$jrl_access, dive" ]
+            "access_rules": [
+              "logictype_b, $jrl_access, dive",
+              "logictype_n, $jrl_access, dive", "logictype_n, $jrl_access, shpack",
+              "logictype_a, $jrl_access, dive", "logictype_a, $jrl_access, shpack",
+              "logictype_g, $jrl_access, dive", "logictype_g, $jrl_access, shpack"
+            ]
           },
           {
             "name": "JRL: Near Alcove Jinjo 3 Doubloon",
-            "access_rules": [ "$jrl_access, dive" ]
+            "access_rules": [
+              "logictype_b, $jrl_access, dive",
+              "logictype_n, $jrl_access, dive", "logictype_n, $jrl_access, shpack",
+              "logictype_a, $jrl_access, dive", "logictype_a, $jrl_access, shpack",
+              "logictype_g, $jrl_access, dive", "logictype_g, $jrl_access, shpack"
+            ]
           },
           {
             "name": "JRL: Near Alcove Jinjo 4 Doubloon",
-            "access_rules": [ "$jrl_access, dive" ]
+            "access_rules": [
+              "logictype_b, $jrl_access, dive",
+              "logictype_n, $jrl_access, dive", "logictype_n, $jrl_access, shpack",
+              "logictype_a, $jrl_access, dive", "logictype_a, $jrl_access, shpack",
+              "logictype_g, $jrl_access, dive", "logictype_g, $jrl_access, shpack"
+            ]
           }
         ],
         "map_locations": [
@@ -2031,8 +2061,8 @@
             "access_rules": [
               "logictype_b, $tdl_access, ttrot",
               "logictype_n, $tdl_access, ttrot",
-              "logictype_a, $tdl_access, ttrot", "logictype_a, $tdl_access, $clockwork_shot",
-              "logictype_g, $tdl_access, ttrot", "logictype_g, $tdl_access, $clockwork_shot"
+              "logictype_a, $tdl_access, ttrot", "logictype_a, $tdl_access, $clockwork_shot", "logictype_a, $tdl_access, $humbaTDL",
+              "logictype_g, $tdl_access, ttrot", "logictype_g, $tdl_access, $clockwork_shot", "logictype_g, $tdl_access, $humbaTDL"
             ]
           },
           {
@@ -2068,7 +2098,12 @@
           },
           {
             "name": "TDL: Taxi Pack Silo",
-            "access_rules": [ "$tdl_access, $notecount|405, splitup, tjump, ggrab", "$tdl_access, $notecount|405, splitup, tjump, sapack" ]
+            "access_rules": [
+              "logictype_b, $tdl_access, $notecount|405, splitup, tjump, ggrab", "logictype_b, $tdl_access, $notecount|405, splitup, tjump, sapack",
+              "logictype_n, $tdl_access, $notecount|405, splitup, tjump, ggrab", "logictype_n, $tdl_access, $notecount|405, splitup, tjump, packwh", "logictype_n, $tdl_access, $notecount|405, splitup, packwh, ggrab", "logictype_n, $tdl_access, $notecount|405, splitup, tjump, sapack",
+              "logictype_a, $tdl_access, $notecount|405, splitup, tjump, ggrab", "logictype_a, $tdl_access, $notecount|405, splitup, tjump, packwh", "logictype_a, $tdl_access, $notecount|405, splitup, packwh, ggrab", "logictype_a, $tdl_access, $notecount|405, splitup, tjump, sapack",
+              "logictype_g, $tdl_access, $notecount|405, splitup, tjump, ggrab", "logictype_g, $tdl_access, $notecount|405, splitup, tjump, packwh", "logictype_g, $tdl_access, $notecount|405, splitup, packwh, ggrab", "logictype_g, $tdl_access, $notecount|405, splitup, tjump, sapack"
+            ]
           },
           {
             "name": "TDL: Hatch Silo",
@@ -2121,7 +2156,7 @@
           {
             "name": "TDL: Scrotty Jiggy",
             "access_rules": [
-              "logictype_b, $tdl_access, $canShootEggs|geggs, $can_beat_king_coal, trainswww, trainswih, trainswtd, splitup, taxpack, mumboih, $billDrill, $mumboTDL, eggaim, ttrot",
+              "logictype_b, $tdl_access, $canShootEggs|geggs, $can_beat_king_coal, trainswww, trainswih, trainswtd, splitup, taxpack, mumboih, $billDrill, $mumboTDL, eggaim, ttrot, tjump",
               "logictype_n, $tdl_access, $canShootEggs|geggs, $can_beat_king_coal, trainswww, trainswih, trainswtd, splitup, taxpack, mumboih, $billDrill, $mumboTDL, eggaim, ttrot",
               "logictype_a, $tdl_access, $canShootEggs|geggs, $can_beat_king_coal, trainswww, trainswih, trainswtd, splitup, taxpack, mumboih, $billDrill, $mumboTDL",
               "logictype_g, $tdl_access, $canShootEggs|geggs, $can_beat_king_coal, trainswww, trainswih, trainswtd, splitup, taxpack, mumboih, $billDrill, $mumboTDL"
@@ -2143,7 +2178,7 @@
           {
             "name": "TDL: Chompas Belly Jiggy",
             "access_rules": [
-              "logictype_b, $tdl_access, bblaster, tjump, fpad", "logictype_b, $tdl_access, bblaster, ggrab, fpad", "logictype_b, $tdl_access, bblaster, eggaim, $has_explosives",
+              "logictype_b, $tdl_access, bblaster, tjump, fpad", "logictype_b, $tdl_access, bblaster, ggrab, fpad", "logictype_b, $tdl_access, bblaster, eggaim, $has_explosives, springb",
               "logictype_n, $tdl_access, bblaster, tjump, fpad", "logictype_n, $tdl_access, bblaster, ggrab, fpad", "logictype_n, $tdl_access, bblaster, eggaim, $has_explosives, springb", "logictype_n, $tdl_access, bblaster, springb, $veryLongJump",
               "logictype_a, $tdl_access, bblaster, tjump, fpad", "logictype_a, $tdl_access, bblaster, ggrab, fpad", "logictype_a, $tdl_access, bblaster, eggaim, $has_explosives, springb", "logictype_a, $tdl_access, bblaster, springb, $veryLongJump",
               "logictype_g, $tdl_access, bblaster, tjump, fpad", "logictype_g, $tdl_access, bblaster, ggrab, fpad", "logictype_g, $tdl_access, bblaster, eggaim, $has_explosives, springb", "logictype_g, $tdl_access, bblaster, springb, $veryLongJump"
@@ -2160,7 +2195,7 @@
           {
             "name": "TDL: Rocknut Tribe Jiggy",
             "access_rules": [
-              "logictype_b, $tdl_access, eggaim, ceggs, $longJump",
+              "logictype_b, $tdl_access, eggaim, ceggs, $longJump, tjump",
               "logictype_n, $tdl_access, eggaim, ceggs, $longJump",
               "logictype_a, $tdl_access, $canShootEggs|ceggs, eggaim, $longJump", "logictype_a, $tdl_access, $canShootEggs|ceggs, $veryLongJump",
               "logictype_g, $tdl_access, $canShootEggs|ceggs, eggaim, $longJump", "logictype_g, $tdl_access, $canShootEggs|ceggs, $veryLongJump"
@@ -2246,19 +2281,39 @@
           },
           {
             "name": "TDL: River Passage (1) Note",
-            "access_rules": [ "$tdl_access, dive" ]
+            "access_rules": [
+              "logictype_b, $tdl_access, dive",
+              "logictype_n, $tdl_access, dive", "logictype_n, $tdl_access, $humbaTDL",
+              "logictype_a, $tdl_access, dive", "logictype_a, $tdl_access, $humbaTDL",
+              "logictype_g, $tdl_access, dive", "logictype_g, $tdl_access, $humbaTDL"
+            ]
           },
           {
             "name": "TDL: River Passage (2) Note",
-            "access_rules": [ "$tdl_access, dive" ]
+            "access_rules": [
+              "logictype_b, $tdl_access, dive",
+              "logictype_n, $tdl_access, dive", "logictype_n, $tdl_access, $humbaTDL",
+              "logictype_a, $tdl_access, dive", "logictype_a, $tdl_access, $humbaTDL",
+              "logictype_g, $tdl_access, dive", "logictype_g, $tdl_access, $humbaTDL"
+            ]
           },
           {
             "name": "TDL: River Passage (3) Note",
-            "access_rules": [ "$tdl_access, dive" ]
+            "access_rules": [
+              "logictype_b, $tdl_access, dive",
+              "logictype_n, $tdl_access, dive", "logictype_n, $tdl_access, $humbaTDL",
+              "logictype_a, $tdl_access, dive", "logictype_a, $tdl_access, $humbaTDL",
+              "logictype_g, $tdl_access, dive", "logictype_g, $tdl_access, $humbaTDL"
+            ]
           },
           {
             "name": "TDL: River Passage (4) Note",
-            "access_rules": [ "$tdl_access, dive" ]
+            "access_rules": [
+              "logictype_b, $tdl_access, dive",
+              "logictype_n, $tdl_access, dive", "logictype_n, $tdl_access, $humbaTDL",
+              "logictype_a, $tdl_access, dive", "logictype_a, $tdl_access, $humbaTDL",
+              "logictype_g, $tdl_access, dive", "logictype_g, $tdl_access, $humbaTDL"
+            ]
           }
         ],
         "map_locations": [
@@ -2428,7 +2483,7 @@
               "logictype_b, $gi_floor3_access, $can_beat_weldar, splitup, shpack",
               "logictype_n, $gi_floor3_access, $can_beat_weldar, splitup, shpack",
               "logictype_a, $gi_floor3_access, $can_beat_weldar, splitup, shpack",
-              "logictype_g, $gi_floor3_access, $can_beat_weldar, splitup, shpack", "logictype_g, $gi_floor3_access, $can_use_battery, climb, fflip, ttorp, dive, wwing", "logictype_g, $gi_floor3_access, $can_use_battery, splitup, shpack, climb", "logictype_g, $gi_floor3_access, $can_use_battery, splitup, shpack, tjump"
+              "logictype_g, $gi_floor3_access, $can_beat_weldar, splitup, shpack", "logictype_g, $gi_floor3_access, $can_beat_weldar, splitup, lspring", "logictype_g, $gi_floor3_access, $can_use_battery, climb, fflip, ttorp, dive, wwing", "logictype_g, $gi_floor3_access, $can_use_battery, splitup, shpack, climb, ggrab"
             ]
           },
           {
@@ -2522,10 +2577,10 @@
           {
             "name": "GI: Treble Clef",
             "access_rules": [
-              "logictype_b, $gi_floor2_access, splitup",
-              "logictype_n, $gi_floor2_access",
-              "logictype_a, $gi_floor2_access",
-              "logictype_g, $gi_floor2_access"
+              "logictype_b, $gi_access, splitup, clawbts",
+              "logictype_n, $gi_access, splitup, clawbts", "logictype_n, $gi_access, splitup, lspring, glide, wwhack", "logictype_n, $gi_access, splitup, lspring, glide, eggaim",
+              "logictype_a, $gi_access, splitup, clawbts", "logictype_a, $gi_access, splitup, $clockwork_shot", "logictype_a, $gi_access, splitup, lspring, glide, wwhack", "logictype_a, $gi_access, splitup, lspring, glide, eggaim",
+              "logictype_g, $gi_access, splitup, clawbts", "logictype_g, $gi_access, splitup, $clockwork_shot", "logictype_g, $gi_access, splitup, lspring, glide, wwhack", "logictype_g, $gi_access, splitup, lspring, glide, eggaim"
             ]
           },
           {
@@ -2563,8 +2618,8 @@
             "access_rules": [
               "logictype_b, $gi_floor2_access, climb", "logictype_b, $gi_floor2_access, $has_explosives, $canDoSmallElevation",
               "logictype_n, $gi_floor2_access, climb", "logictype_n, $gi_floor2_access, $has_explosives, $canDoSmallElevation",
-              "logictype_a, $gi_floor2_access, climb", "logictype_a, $gi_floor2_access, $has_explosives, $canDoSmallElevation", "logictype_a, $gi_floor2_access, $clockwork_shot",
-              "logictype_g, $gi_floor2_access, climb", "logictype_g, $gi_floor2_access, $has_explosives, $canDoSmallElevation", "logictype_g, $gi_floor2_access, $clockwork_shot"
+              "logictype_a, $gi_floor2_access, climb", "logictype_a, $gi_floor2_access, $has_explosives, $canDoSmallElevation", "logictype_a, $gi_floor2_access, $clockwork_shot", "logictype_a, $gi_floor2_access, clawbts, $extremelyLongJump",
+              "logictype_g, $gi_floor2_access, climb", "logictype_g, $gi_floor2_access, $has_explosives, $canDoSmallElevation", "logictype_g, $gi_floor2_access, $clockwork_shot", "logictype_g, $gi_floor2_access, clawbts, $extremelyLongJump"
             ]
           },
           {
@@ -2572,8 +2627,8 @@
             "access_rules": [
               "logictype_b, $gi_floor2_access, climb", "logictype_b, $gi_floor2_access, $has_explosives, $canDoSmallElevation",
               "logictype_n, $gi_floor2_access, climb", "logictype_n, $gi_floor2_access, $has_explosives, $canDoSmallElevation",
-              "logictype_a, $gi_floor2_access, climb", "logictype_a, $gi_floor2_access, $has_explosives, $canDoSmallElevation", "logictype_a, $gi_floor2_access, $clockwork_shot",
-              "logictype_g, $gi_floor2_access, climb", "logictype_g, $gi_floor2_access, $has_explosives, $canDoSmallElevation", "logictype_g, $gi_floor2_access, $clockwork_shot"
+              "logictype_a, $gi_floor2_access, climb", "logictype_a, $gi_floor2_access, $has_explosives, $canDoSmallElevation", "logictype_a, $gi_floor2_access, $clockwork_shot", "logictype_a, $gi_floor2_access, clawbts, $extremelyLongJump",
+              "logictype_g, $gi_floor2_access, climb", "logictype_g, $gi_floor2_access, $has_explosives, $canDoSmallElevation", "logictype_g, $gi_floor2_access, $clockwork_shot", "logictype_g, $gi_floor2_access, clawbts, $extremelyLongJump"
             ]
           },
           {
@@ -2581,8 +2636,8 @@
             "access_rules": [
               "logictype_b, $gi_floor2_access, climb", "logictype_b, $gi_floor2_access, $has_explosives, $canDoSmallElevation",
               "logictype_n, $gi_floor2_access, climb", "logictype_n, $gi_floor2_access, $has_explosives, $canDoSmallElevation",
-              "logictype_a, $gi_floor2_access, climb", "logictype_a, $gi_floor2_access, $has_explosives, $canDoSmallElevation", "logictype_a, $gi_floor2_access, $clockwork_shot",
-              "logictype_g, $gi_floor2_access, climb", "logictype_g, $gi_floor2_access, $has_explosives, $canDoSmallElevation", "logictype_g, $gi_floor2_access, $clockwork_shot"
+              "logictype_a, $gi_floor2_access, climb", "logictype_a, $gi_floor2_access, $has_explosives, $canDoSmallElevation", "logictype_a, $gi_floor2_access, $clockwork_shot", "logictype_a, $gi_floor2_access, clawbts, $extremelyLongJump",
+              "logictype_g, $gi_floor2_access, climb", "logictype_g, $gi_floor2_access, $has_explosives, $canDoSmallElevation", "logictype_g, $gi_floor2_access, $clockwork_shot", "logictype_g, $gi_floor2_access, clawbts, $extremelyLongJump"
             ]
           },
           {
@@ -2735,7 +2790,12 @@
           },
           {
             "name": "HFP: Icicle Grotto Cheato Page",
-            "access_rules": [ "$hfp_access, climb, ceggs", "$hfp_access, climb, splitup, shpack" ]
+            "access_rules": [
+              "logictype_b, $hfp_access, climb, ceggs", "logictype_b, $hfp_access, climb, splitup, shpack",
+              "logictype_n, $hfp_access, climb, splitup, shpack", "logictype_n, $hfp_access, lspring, $canShootEggs|ceggs", "logictype_n, $hfp_access, climb, $canShootEggs|ceggs",
+              "logictype_a, $hfp_access, $hfpTop, climb, splitup, shpack", "logictype_a, $hfp_access, $hfpTop, lspring, $canShootEggs|ceggs", "logictype_a, $hfp_access, $hfpTop, climb, $canShootEggs|ceggs",
+              "logictype_g, $hfp_access, $hfpTop, climb, splitup, shpack", "logictype_g, $hfp_access, $hfpTop, lspring, $canShootEggs|ceggs", "logictype_g, $hfp_access, $hfpTop, climb, $canShootEggs|ceggs", "logictype_g, $hfp_access, ttrot, $canShootEggs|ceggs, eggaim", "logictype_g, $hfp_access, splitup, $canShootEggs|ceggs, eggaim"
+            ]
           },
           {
             "name": "HFP: Icy Side Pillar Cheato Page",
@@ -2807,10 +2867,10 @@
           {
             "name": "HFP: Dragon Brothers Jiggy",
             "access_rules": [
-              "logictype_b, $hfp_access, $canShootEggs|feggs, $canShootEggs|ieggs, clawbts, fpad",
-              "logictype_n, $hfp_access, $canShootEggs|feggs, $canShootEggs|ieggs, clawbts, fpad",
-              "logictype_a, $hfp_access, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, clawbts", "logictype_a, $hfp_access, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, splitup, packwh, tjump, flutter, ttrot", "logictype_a, $hfp_access, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, splitup, packwh, tjump, flutter, fflip",
-              "logictype_g, $hfp_access, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, clawbts", "logictype_g, $hfp_access, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, splitup, packwh, tjump, flutter, ttrot", "logictype_g, $hfp_access, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, splitup, packwh, tjump, flutter, fflip"
+              "logictype_b, $hfp_access, $canShootEggs|feggs, $canShootEggs|ieggs, clawbts, fpad, eggshoot",
+              "logictype_n, $hfp_access, $canShootEggs|feggs, $canShootEggs|ieggs, clawbts, fpad, eggshoot",
+              "logictype_a, $hfp_access, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, eggshoot, clawbts", "logictype_a, $hfp_access, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, eggshoot, splitup, packwh, tjump, flutter, ttrot", "logictype_a, $hfp_access, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, eggshoot, splitup, packwh, tjump, flutter, fflip",
+              "logictype_g, $hfp_access, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, eggshoot, clawbts", "logictype_g, $hfp_access, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, eggshoot, splitup, packwh, tjump, flutter, ttrot", "logictype_g, $hfp_access, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, eggshoot, splitup, packwh, tjump, flutter, fflip"
             ]
           },
           {
@@ -3018,9 +3078,9 @@
             "name": "CCL: Central Cavern Jinjo",
             "access_rules": [
               "logictype_b, $ccl_access, splitup, $springPad",
-              "logictype_n, $ccl_access, splitup, $springPad", "logictype_n, $ccl_access, springb, $billDrill",
-              "logictype_a, $ccl_access, splitup, $springPad", "logictype_a, $ccl_access, $clockwork_shot", "logictype_a, $ccl_access, springb, $billDrill",
-              "logictype_g, $ccl_access, splitup, $springPad", "logictype_g, $ccl_access, $clockwork_shot", "logictype_g, $ccl_access, springb, $billDrill"
+              "logictype_n, $ccl_access, splitup, $springPad", "logictype_n, $ccl_access, springb, $billDrill", "logictype_n, $ccl_access, splitup, lspring",
+              "logictype_a, $ccl_access, splitup, $springPad", "logictype_a, $ccl_access, $clockwork_shot", "logictype_a, $ccl_access, springb, $billDrill", "logictype_a, $ccl_access, splitup, lspring",
+              "logictype_g, $ccl_access, splitup, $springPad", "logictype_g, $ccl_access, $clockwork_shot", "logictype_g, $ccl_access, springb, $billDrill", "logictype_g, $ccl_access, splitup, lspring"
             ]
           },
           {
@@ -3033,7 +3093,12 @@
           },
           {
             "name": "CCL: Green Pool Glowbo",
-            "access_rules": [ "$ccl_access, dive" ]
+            "access_rules": [
+              "logictype_b, $ccl_access, dive",
+              "logictype_n, $ccl_access, dive",
+              "logictype_a, $ccl_access",
+              "logictype_g, $ccl_access"
+            ]
           },
           {
             "name": "CCL: Central Cavern Glowbo",
@@ -3161,9 +3226,9 @@
             "name": "CCL: Trash Can Jiggy",
             "access_rules": [
               "logictype_b, $ccl_access, splitup, wwhack, fpad",
-              "logictype_n, $ccl_access, splitup, wwhack, fpad", "logictype_n, $ccl_access, splitup, $canShootLinearEgg, fpad",
-              "logictype_a, $ccl_access, splitup, wwhack, fpad", "logictype_a, $ccl_access, splitup, $canShootLinearEgg, fpad",
-              "logictype_g, $ccl_access, splitup, wwhack, fpad", "logictype_g, $ccl_access, splitup, $canShootLinearEgg, fpad"
+              "logictype_n, $ccl_access, splitup, wwhack", "logictype_n, $ccl_access, splitup, $canShootLinearEgg",
+              "logictype_a, $ccl_access, splitup, wwhack", "logictype_a, $ccl_access, splitup, $canShootLinearEgg",
+              "logictype_g, $ccl_access, splitup, wwhack", "logictype_g, $ccl_access, splitup, $canShootLinearEgg"
             ]
           },
           {
@@ -3255,7 +3320,12 @@
           },
           {
             "name": "CCL: Glowbo Pool Note",
-            "access_rules": [ "$ccl_access, dive" ]
+            "access_rules": [ 
+              "logictype_b, $ccl_access, dive",
+              "logictype_n, $ccl_access, dive",
+              "logictype_a, $ccl_access",
+              "logictype_g, $ccl_access"
+            ]
           },
           {
             "name": "CCL: Central (1) Note",
