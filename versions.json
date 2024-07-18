@@ -1,6 +1,15 @@
 {
 	"versions": [
 		{
+			"package_version": "0.2.3",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.2.3",
+			"sha256": "DAEE831FA5AD5E60A3F3776E794BC0B1E69B28AB3D869BE65241459C3A8FDCB1",
+			"changelog": [
+				"Fixed autotracking for Breegull Bash, Homing Eggs, and Mumbo Tokens",
+				"Added Roysten Rewards to SM map"
+			]
+		},
+		{
 			"package_version": "0.2.2",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.2.2",
 			"sha256": "08D25531D6E89BFDD0BAE2B4931292992CD14D2D12FEE5352E346691497890B3",
