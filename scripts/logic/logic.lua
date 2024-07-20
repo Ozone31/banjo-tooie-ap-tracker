@@ -398,7 +398,7 @@ function plateau_access()
     if first_level == "Glitter Gulch Mine" then
         return true
     elseif logictype.CurrentStage <= 1 then
-        return has("ggrab") or (has("mta") and billDrill() and has("mumbomt"))
+        return has("ggrab") or (has("mta") and billDrill() and has("mumbomt")) or pinegrove_access() or clifftop_access()
     else
         return true
     end
@@ -416,12 +416,12 @@ function pinegrove_access(fromTrain)
     if first_level == "Witchyworld" then
         return true
     elseif logictype.CurrentStage == 0 then
-        return canShootEggs("feggs") and plateau_access() and has("eggaim")
+        return (canShootEggs("feggs") and plateau_access() and has("eggaim")) or (wasteland_access() and has("dive"))
     else
         if fromTrain then
-            return canShootEggs("feggs") and plateau_access()
+            return (canShootEggs("feggs") and plateau_access()) or (wasteland_access() and has("dive"))
         else
-            return (canShootEggs("feggs") and plateau_access()) or (train_WW() and has("wwa")) or (train_TDL() and has("ttorp"))
+            return (canShootEggs("feggs") and plateau_access()) or (train_WW() and has("wwa")) or (train_TDL() and has("ttorp")) or (wasteland_access() and has("dive"))
         end
     end
 end
