@@ -1,6 +1,14 @@
 {
 	"versions": [
 		{
+			"package_version": "0.2.4",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.2.4",
+			"sha256": "3C451768F278A270CA1BAFB7A5765DB21C5900DC57C95B2C815378BBD4C27681",
+			"changelog": [
+				"Added some logic for traveling backwards in IOH when worlds are randomized"
+			]
+		},
+		{
 			"package_version": "0.2.3",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.2.3",
 			"sha256": "DAEE831FA5AD5E60A3F3776E794BC0B1E69B28AB3D869BE65241459C3A8FDCB1",
