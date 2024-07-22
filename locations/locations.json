@@ -2051,7 +2051,7 @@
             "name": "TDL: Styracosaurus Cave Honeycomb",
             "access_rules": [
               "logictype_b, $tdl_access, $billDrill, splitup, $springPad",
-              "logictype_n, $tdl_access, $billDrilll, splitup, $springPad",
+              "logictype_n, $tdl_access, $billDrill, splitup, $springPad",
               "logictype_a, $tdl_access, $billDrill, splitup, $springPad", "logictype_a, $tdl_access, splitup, lspring, wwhack, glide", "logictype_a, $tdl_access, $clockwork_shot",
               "logictype_g, $tdl_access, $billDrill, splitup, $springPad", "logictype_g, $tdl_access, splitup, lspring, wwhack, glide", "logictype_g, $tdl_access, $clockwork_shot"
             ]

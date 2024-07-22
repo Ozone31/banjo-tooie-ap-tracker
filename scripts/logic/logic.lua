@@ -373,32 +373,34 @@ end
 -- Train Logic
 
 function train_WW()
-    return has("chuffy") and has("trainswww") and ((has("trainswtd") and tdl_access()) or (clifftop_access() and has("trainswih")) or (hfp_access() and has("trainswhp1")) or (can_beat_king_coal() and ggm_access()) or (gi_outside_access() and has("trainswgi") and has("clawbts")))
+    return can_beat_king_coal() and has("trainswww")
 end
 
 function train_TDL()
-    return has("chuffy") and has("trainswtd") and ((has("trainswww") and ww_access()) or (clifftop_access() and has("trainswih")) or (hfp_access() and has("trainswhp1")) or (can_beat_king_coal() and ggm_access()) or (gi_outside_access() and has("trainswgi") and has("clawbts")))
+    return can_beat_king_coal() and has("trainswtd")
 end
 
 function train_HFP()
-    return has("chuffy") and has("trainswhp1") and ((has("trainswww") and ww_access()) or (clifftop_access() and has("trainswih")) or (has("trainswtd") and tdl_access()) or (can_beat_king_coal() and ggm_access()) or (gi_outside_access() and has("trainswgi") and has("clawbts")))
+    return can_beat_king_coal() and has("trainswhp1")
 end
 
 function train_CT()
-    return has("chuffy") and has("trainswih") and ((has("trainswww") and ww_access()) or (has("trainswtd") and tdl_access()) or (can_beat_king_coal() and ggm_access()) or (gi_outside_access() and has("trainswgi") and has("clawbts")))
+    return can_beat_king_coal() and has("trainswih")
 end
 
 function train_GI()
-    return has("chuffy") and has("trainswgi") and ((has("trainswww") and ww_access()) or (clifftop_access() and has("trainswih")) or (hfp_access() and has("trainswhp1")) or (can_beat_king_coal() and ggm_access()) or (has("trainswtd") and tdl_access()))
+    return can_beat_king_coal() and has("trainswgi")
 end
 
 -- Area Access
 
 function plateau_access()
-    if first_level == "Glitter Gulch Mine" then
+    if first_level == "Glitter Gulch Mine" or first_level == "Witchyworld" or first_level == "Jolly Roger's Lagoon - Town Center" or first_level == "Hailfire Peaks" or first_level == "Outside Grunty's Industries" then
         return true
+    elseif first_level == "Terrydactyland" or first_level == "Cloud Cuckooland" then
+        return has("dive")
     elseif logictype.CurrentStage <= 1 then
-        return has("ggrab") or (has("mta") and billDrill() and has("mumbomt")) or pinegrove_access() or clifftop_access()
+        return has("ggrab") or (has("mta") and billDrill() and has("mumbomt"))
     else
         return true
     end
@@ -415,13 +417,15 @@ end
 function pinegrove_access(fromTrain)
     if first_level == "Witchyworld" then
         return true
+    elseif first_level == "Terrydactyland" or first_level == "Cloud Cuckooland" then
+        return has("dive")
     elseif logictype.CurrentStage == 0 then
-        return (canShootEggs("feggs") and plateau_access() and has("eggaim")) or (wasteland_access() and has("dive"))
+        return (canShootEggs("feggs") and plateau_access() and has("eggaim"))
     else
         if fromTrain then
-            return (canShootEggs("feggs") and plateau_access()) or (wasteland_access() and has("dive"))
+            return (canShootEggs("feggs") and plateau_access())
         else
-            return (canShootEggs("feggs") and plateau_access()) or (train_WW() and has("wwa")) or (train_TDL() and has("ttorp")) or (wasteland_access() and has("dive"))
+            return (canShootEggs("feggs") and plateau_access()) or ((train_WW() and has("wwa")) or (train_TDL() and has("ttorp")) and (ggm_access() or (clifftop_access() and train_CT()) or (gi_access() and train_GI()) or (hfp_access() and train_HFP())))
         end
     end
 end
@@ -435,7 +439,7 @@ function clifftop_access(fromTrain)
         if fromTrain then
             return has("splitup") and plateau_access()
         else
-            return (has("splitup") and plateau_access()) or train_CT()
+            return (has("splitup") and plateau_access()) or (train_CT() and (ggm_access() or (ww_access() and train_WW()) or (gi_access() and train_GI()) or (hfp_access() and train_HFP()) or (wasteland_access() and train_TDL())))
         end
     end
 end
@@ -449,7 +453,7 @@ function wasteland_access(fromTrain)
         if fromTrain then
             return pinegrove_access(fromTrain) and has("dive") and has("ttorp")
         else
-            return (pinegrove_access(fromTrain) and has("dive") and has("ttorp")) or train_TDL() or (can_leave_GI_from_inside() and has("gia") and QM_to_WL())
+            return (pinegrove_access(fromTrain) and has("dive") and has("ttorp")) or (can_leave_GI_from_inside() and has("gia") and QM_to_WL()) or (train_TDL() and (ggm_access() or (clifftop_access() and train_CT()) or (ww_access() and train_WW()) or (gi_access() and train_GI()) or (hfp_access() and train_HFP())))
         end
     end
 end
@@ -525,7 +529,7 @@ function ww_access(fromTrain)
         if fromTrain then
             return (has("wwa") and pinegrove_access(fromTrain)) or (tdl_access("True") and has("mumbotd") and has("humbatd"))
         else
-            return (has("wwa") and pinegrove_access(fromTrain)) or train_WW() or (tdl_access("True") and has("mumbotd") and has("humbatd"))
+            return (has("wwa") and pinegrove_access(fromTrain)) or (tdl_access("True") and has("mumbotd") and has("humbatd")) or (train_WW() and (ggm_access() or (clifftop_access() and train_CT()) or (gi_access() and train_GI()) or (hfp_access() and train_HFP()) or (wasteland_access() and train_TDL())))
         end
     end
 end
