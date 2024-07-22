@@ -1,6 +1,14 @@
 {
 	"versions": [
 		{
+			"package_version": "0.2.5",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.2.5",
+			"sha256": "4A7894D0AFFDB7281D1DCCB872480E0FF329FA00DEF8B12AA6AC6963D7623633",
+			"changelog": [
+				"Re-wrote train logic to hopefully work correctly and not cause a crash when worlds are randomized"
+			]
+		},
+		{
 			"package_version": "0.2.4",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.2.4",
 			"sha256": "3C451768F278A270CA1BAFB7A5765DB21C5900DC57C95B2C815378BBD4C27681",
