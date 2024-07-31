@@ -1,6 +1,15 @@
 {
 	"versions": [
 		{
+			"package_version": "0.2.6",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.2.6",
+			"sha256": "9AC2CE8AC90BB42AC08480BD921F546509E07A90A5873704EDB8D6E1B0AF17A8",
+			"changelog": [
+				"Hopefully fixed logic to use the train to get access to GGM when Chuffy is randomized",
+				"Fixed access logic to JRL"
+			]
+		},
+		{
 			"package_version": "0.2.5",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.2.5",
 			"sha256": "4A7894D0AFFDB7281D1DCCB872480E0FF329FA00DEF8B12AA6AC6963D7623633",
