@@ -499,9 +499,9 @@ function ggm_access()
         return true
     else
         if logictype.CurrentStage == 0 then
-            return (WH_to_PL() and PL_to_GGM()) or dilberta_free() and has("mta")
+            return (WH_to_PL() and PL_to_GGM()) or dilberta_free() and has("mta") or ((clifftop_access() and train_CT()) or (gi_access() and train_GI()) or (hfp_access() and train_HFP()) or (tdl_access() and train_TDL()) or (ww_access() and train_WW()))
         else
-            return (WH_to_PL() and PL_to_GGM()) or dilberta_free() and has("mta") or (jrl_access() and can_reach_atlantis() and has("ttorp") and has("ieggs") and has("auqaim"))
+            return (WH_to_PL() and PL_to_GGM()) or dilberta_free() and has("mta") or (jrl_access() and can_reach_atlantis() and has("ttorp") and has("ieggs") and has("auqaim"))  or ((clifftop_access() and train_CT()) or (gi_access() and train_GI()) or (hfp_access() and train_HFP()) or (tdl_access() and train_TDL()) or (ww_access() and train_WW()))
         end
     end
 end
@@ -541,10 +541,10 @@ function glitchedInfernoAccess()
 end
 
 function jrl_access()
-    if logictype.CurrentStage == 0 then
-        return clifftop_access() and has("jra")
+    if logictype.CurrentStage <= 0 then
+        return clifftop_access() and has("jra") or (hfp_access() and HFP_hot_water_cooled())
     else
-        return clifftop_access() and has("jra") or (hfp_access() and ccl_access() and has("splitup"))
+        return clifftop_access() and has("jra") or (hfp_access() and (HFP_hot_water_cooled() or (has("ggrab") and has("flutter") and has("grat") and has("tjump"))))
     end
 end
 
