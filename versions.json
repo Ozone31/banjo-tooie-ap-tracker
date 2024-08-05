@@ -1,6 +1,14 @@
 {
 	"versions": [
 		{
+			"package_version": "0.2.8",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.2.8",
+			"sha256": "E0CF99A9BFACAEC07BA173E12E63095A1AD21A15538FF4356CF229C85CC36B1E",
+			"changelog": [
+				"Fixed syntax error with new logic introduced in v0.2.7"
+			]
+		},
+		{
 			"package_version": "0.2.7",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.2.7",
 			"sha256": "2E3C0036E184C6BA944EECBC0CA75A23BCE2A8E36747B3BE5553A0F12B3D2422",
