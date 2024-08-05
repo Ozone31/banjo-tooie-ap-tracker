@@ -553,11 +553,18 @@ function tdl_access(fromTrain)
         return wasteland_access() and has("tda")
     else
         if fromTrain then
-            return wasteland_access(fromTrain) and has("tda")
+            return (wasteland_access(fromTrain) and has("tda")) or (has("mta") and mt_jiggy5() and hatch_to_TDL())
         else
-            return (wasteland_access(fromTrain) and has("tda")) or train_TDL()
+            return (wasteland_access(fromTrain) and has("tda")) or train_TDL() or (has("mta") and mt_jiggy5() and hatch_to_TDL())
         end
     end
+end
+
+function hatch_to_TDL()
+    if logictype.CurrentStage <= 2 then
+        return false
+    else
+        return has("ceggs") and has("eggaim")
 end
 
 function gi_access()
