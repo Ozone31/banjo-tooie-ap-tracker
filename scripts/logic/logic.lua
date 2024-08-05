@@ -565,6 +565,7 @@ function hatch_to_TDL()
         return false
     else
         return has("ceggs") and has("eggaim")
+    end
 end
 
 function gi_access()
@@ -576,7 +577,7 @@ function gi_floor2_access()
         return gi_access() and can_access_gi_fl1_2fl2()
     else
         return (gi_access() and can_access_gi_fl1_2fl2()) or ((gi_outside_access() or can_leave_GI_from_inside()) and (outside_gi_to_floor2() or (outside_gi_to_floor3() and F3_to_F2())))
-    end 
+    end
 end
 
 function gi_floor3_access()
