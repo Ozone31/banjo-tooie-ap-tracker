@@ -3,7 +3,7 @@
 		{
 			"package_version": "0.2.7",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.2.7",
-			"sha256": "3EF3F0ECE1A86FED075D668E70F3F7F856657A473C02D36C6627E9E47BD788C1",
+			"sha256": "2E3C0036E184C6BA944EECBC0CA75A23BCE2A8E36747B3BE5553A0F12B3D2422",
 			"changelog": [
 				"Fixed logic for the Hatch Silo so it takes into account reaching it from Mayahem Temple",
 				"Updated TDL access on Glitched logic going from Mayahem Temple"
