@@ -2107,7 +2107,7 @@
           },
           {
             "name": "TDL: Hatch Silo",
-            "access_rules": [ "$tdl_access, splitup, $notecount|420", "$mt_access, $mt_jiggy5, splitup, $notecount|420" ]
+            "access_rules": [ "$tdl_access, $longJump, splitup, $notecount|420", "$mt_access, $mt_jiggy5, splitup, $notecount|420" ]
           },
           {
             "name": "TDL: Train Switch",
