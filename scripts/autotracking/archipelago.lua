@@ -237,7 +237,14 @@ function onClear(slot_data)
         local obj = Tracker:FindObjectForCode("randomizebkmoves")
         local stage = slot_data['bk_moves']
         if stage then
-            obj.CurrentStage = stage
+            if obj.CurrentStage == stage then
+                -- we need to manually call toggleBKMoves
+                -- because onClear will reset the bk moves to off via item mappings
+                -- and "randomizebkmoves" change does not change
+                toggleBKMoves()
+            else
+                obj.CurrentStage = stage
+            end
         end
     end
 
