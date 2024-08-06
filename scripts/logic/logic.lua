@@ -404,9 +404,9 @@ function plateau_access()
             return has("ttorp")
         end
     elseif logictype.CurrentStage <= 1 then
-        return (canReachSlightlyElevatedLedge() or (has("mta") and billDrill() and has("mumbomt"))) or (train_WW() or (train_TDL() and has("ttorp")) and (ggm_access() or (clifftop_access() and train_CT()) or (gi_access() and train_GI()) or (hfp_access() and train_HFP()))) or (train_CT() and (ggm_access() or (ww_access() and train_WW()) or (gi_access() and train_GI()) or (hfp_access() and train_HFP()) or (wasteland_access() and train_TDL())))
+        return (canReachSlightlyElevatedLedge() or (has("mta") and billDrill() and has("mumbomt"))) or (train_WW() or (train_TDL() and has("ttorp")) and ((clifftop_access() and train_CT()) or (gi_access() and train_GI()) or (hfp_access() and train_HFP()))) or (train_CT() and ((ww_access() and train_WW()) or (gi_access() and train_GI()) or (hfp_access() and train_HFP()) or (wasteland_access() and train_TDL())))
     else
-        return canReachSlightlyElevatedLedge() or (has("fflip") and has("bbust")) or (train_WW() or (train_TDL() and has("ttorp")) and (ggm_access() or (clifftop_access() and train_CT()) or (gi_access() and train_GI()) or (hfp_access() and train_HFP()))) or (train_CT() and (ggm_access() or (ww_access() and train_WW()) or (gi_access() and train_GI()) or (hfp_access() and train_HFP()) or (wasteland_access() and train_TDL())))
+        return canReachSlightlyElevatedLedge() or (has("fflip") and has("bbust")) or (train_WW() or (train_TDL() and has("ttorp")) and ((clifftop_access() and train_CT()) or (gi_access() and train_GI()) or (hfp_access() and train_HFP()))) or (train_CT() and ((ww_access() and train_WW()) or (gi_access() and train_GI()) or (hfp_access() and train_HFP()) or (wasteland_access() and train_TDL())))
     end
 end
 
