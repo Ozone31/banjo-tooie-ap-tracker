@@ -577,7 +577,11 @@ function hatch_to_TDL()
 end
 
 function gi_access()
-    return (can_beat_king_coal() and has("trainswgi")) or (has("clawbts") and gi_outside_access())
+    if logictype.CurrentStage <= 2 then
+        return can_beat_king_coal() and has("trainswgi")
+    else
+        return has("ceggs") and has("eggaim")
+    end
 end
 
 function gi_floor2_access()
