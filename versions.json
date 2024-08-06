@@ -3,11 +3,12 @@
 		{
 			"package_version": "0.3.0",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.3.0",
-			"sha256": "2D00CA7C254D4B7C553C0DE897E90D1D8462EE4FE9894CE70EA05F18AA4979D5",
+			"sha256": "061FA621BAC743ABD7CC91AAF7FEABBF8FD2AEB936FA94F4ABFF1F0DA37904BB",
 			"changelog": [
 				"Adjusted logic for Wasteland to Pine Grove",
 				"Train logic adjustments for Plateau access when coming from Pine Grove or Wasteland",
-				"Fixed GI access logic"
+				"Fixed GI access logic",
+				"Fixed Water Storage Jinjo logic"
 			]
 		},
 		{
