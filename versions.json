@@ -1,6 +1,15 @@
 {
 	"versions": [
 		{
+			"package_version": "0.3.0",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.3.0",
+			"sha256": "1AE0DD9DE89CD577B0B0A67F7125977ACE21A9291A21ECEA00F6DA4F43549727",
+			"changelog": [
+				"Adjusted logic for Wasteland to Pine Grove",
+				"Train logic adjustments for Plateau access when coming from Pine Grove or Wasteland"
+			]
+		},
+		{
 			"package_version": "0.2.9",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.2.9",
 			"sha256": "65C3D5939F7CAC3709E5523D0C3C9DC4DC1DB0F4E8D9B3C3B3890EC80B96EC53",
