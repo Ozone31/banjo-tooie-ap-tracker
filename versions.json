@@ -3,7 +3,7 @@
 		{
 			"package_version": "0.3.1",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.3.1",
-			"sha256": "EF2B58558FFF19F9C56FF76D4656C8E093BD9A4E8461D57476C1EC735072557B",
+			"sha256": "5BE1E5E6815E2537FDD95AA61B3F577FE7C2A0BFA292BABB69DAE9390F01A37C",
 			"changelog": [
 				"Fixed BK move randomization not consistently working properly when connecting to AP (thanks to Cyb3RGER for this change)"
 			]
