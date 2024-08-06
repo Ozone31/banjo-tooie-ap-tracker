@@ -155,11 +155,7 @@ function can_access_water_storage_jinjo_from_GGM()
 end
 
 function can_access_water_storage_jinjo_from_JRL()
-    if logictype.CurrentStage <= 1 then
-        return has("ttorp")
-    else
-        return can_reach_atlantis() and has("ieggs") and has("augaim") and has("ttrop")
-    end
+    return can_reach_atlantis() and can_dive_in_JRL() and has("ttorp")
 end
 
 function humbaWW()
