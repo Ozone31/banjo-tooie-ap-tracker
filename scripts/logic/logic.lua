@@ -400,9 +400,9 @@ function plateau_access()
     elseif first_level == "Terrydactyland" or first_level == "Cloud Cuckooland" then
         return has("dive")
     elseif logictype.CurrentStage <= 1 then
-        return has("ggrab") or (has("mta") and billDrill() and has("mumbomt"))
+        return canReachSlightlyElevatedLedge() or (has("mta") and billDrill() and has("mumbomt"))
     else
-        return true
+        return canReachSlightlyElevatedLedge() or (has("fflip") and has("bbust"))
     end
 end
 
