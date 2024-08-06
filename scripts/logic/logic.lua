@@ -398,19 +398,23 @@ function plateau_access()
     if first_level == "Glitter Gulch Mine" or first_level == "Witchyworld" or first_level == "Jolly Roger's Lagoon - Town Center" or first_level == "Hailfire Peaks" or first_level == "Outside Grunty's Industries" then
         return true
     elseif first_level == "Terrydactyland" or first_level == "Cloud Cuckooland" then
-        return has("dive")
+        if logictype.CurrentStage == 0 then
+            return has("dive") and has("ttorp")
+        else
+            return has("ttorp")
+        end
     elseif logictype.CurrentStage <= 1 then
-        return canReachSlightlyElevatedLedge() or (has("mta") and billDrill() and has("mumbomt"))
+        return (canReachSlightlyElevatedLedge() or (has("mta") and billDrill() and has("mumbomt"))) or (train_WW() or (train_TDL() and has("ttorp")) and (ggm_access() or (clifftop_access() and train_CT()) or (gi_access() and train_GI()) or (hfp_access() and train_HFP()))) or (train_CT() and (ggm_access() or (ww_access() and train_WW()) or (gi_access() and train_GI()) or (hfp_access() and train_HFP()) or (wasteland_access() and train_TDL())))
     else
-        return canReachSlightlyElevatedLedge() or (has("fflip") and has("bbust"))
+        return canReachSlightlyElevatedLedge() or (has("fflip") and has("bbust")) or (train_WW() or (train_TDL() and has("ttorp")) and (ggm_access() or (clifftop_access() and train_CT()) or (gi_access() and train_GI()) or (hfp_access() and train_HFP()))) or (train_CT() and (ggm_access() or (ww_access() and train_WW()) or (gi_access() and train_GI()) or (hfp_access() and train_HFP()) or (wasteland_access() and train_TDL())))
     end
 end
 
 function plateauTop()
     if logictype.CurrentStage <= 1 then
-        return has("ttrot") or has("splitup")
+        return (has("ttrot") or has("splitup")) and plateau_access()
     else
-        return has("ttrot") or has("splitup") or clockwork_shot()
+        return (has("ttrot") or has("splitup") or clockwork_shot()) and plateau_access()
     end
 end
 
@@ -418,14 +422,18 @@ function pinegrove_access(fromTrain)
     if first_level == "Witchyworld" then
         return true
     elseif first_level == "Terrydactyland" or first_level == "Cloud Cuckooland" then
-        return has("dive")
+        if logictype.CurrentStage == 0 then
+            return has("dive") and has("ttorp")
+        else
+            return has("ttorp")
+        end
     elseif logictype.CurrentStage == 0 then
         return (canShootEggs("feggs") and plateau_access() and has("eggaim"))
     else
         if fromTrain then
             return (canShootEggs("feggs") and plateau_access())
         else
-            return (canShootEggs("feggs") and plateau_access()) or ((train_WW() and has("wwa")) or (train_TDL() and has("ttorp")) and (ggm_access() or (clifftop_access() and train_CT()) or (gi_access() and train_GI()) or (hfp_access() and train_HFP())))
+            return (canShootEggs("feggs") and plateau_access()) or (train_WW() or (train_TDL() and has("ttorp")) and (ggm_access() or (clifftop_access() and train_CT()) or (gi_access() and train_GI()) or (hfp_access() and train_HFP())))
         end
     end
 end
