@@ -4,6 +4,7 @@
     "name": "Jiggies",
     "type": "consumable",
     "max_quantity": 90,
+    "overlay_background": "#000000",
     "img": "/images/items/jiggy.png",
     "codes": "jiggy"
   },
@@ -12,6 +13,7 @@
     "type": "consumable",
     "increment": 5,
     "max_quantity": 720,
+    "overlay_background": "#000000",
     "img": "/images/items/notes.png",
     "codes": "note"
   },
@@ -20,6 +22,7 @@
     "type": "consumable",
     "increment": 20,
     "max_quantity": 180,
+    "overlay_background": "#000000",
     "img": "/images/items/treble.png",
     "codes": "treble"
   },
@@ -27,6 +30,7 @@
     "name": "Empty Honeycombs",
     "type": "consumable",
     "max_quantity": 25,
+    "overlay_background": "#000000",
     "img": "/images/items/honey.png",
     "codes": "honey"
   },
@@ -34,6 +38,7 @@
     "name": "Cheato Pages",
     "type": "consumable",
     "max_quantity": 25,
+    "overlay_background": "#000000",
     "img": "/images/items/pages.png",
     "codes": "pages"
   },
@@ -41,6 +46,7 @@
     "name": "Doubloons",
     "type": "consumable",
     "max_quantity": 30,
+    "overlay_background": "#000000",
     "img": "/images/items/doubloon.png",
     "codes": "doubloon"
   },
@@ -72,6 +78,7 @@
     "name": "Mumbo Token",
     "type": "consumable",
     "max_quantity": 32,
+    "overlay_background": "#000000",
     "img": "/images/items/mumbotoken.png",
     "codes": "mumbotoken"
   },
@@ -81,6 +88,7 @@
     "name": "White Jinjo",
     "type": "consumable",
     "max_quantity": 1,
+    "overlay_background": "#000000",
     "img": "/images/items/jinjo_w.png",
     "codes": "wjinjo"
   },
@@ -88,6 +96,7 @@
     "name": "Orange Jinjos",
     "type": "consumable",
     "max_quantity": 2,
+    "overlay_background": "#000000",
     "img": "/images/items/jinjo_o.png",
     "codes": "ojinjo"
   },
@@ -95,6 +104,7 @@
     "name": "Yellow Jinjos",
     "type": "consumable",
     "max_quantity": 3,
+    "overlay_background": "#000000",
     "img": "/images/items/jinjo_y.png",
     "codes": "yjinjo"
   },
@@ -102,6 +112,7 @@
     "name": "Brown Jinjos",
     "type": "consumable",
     "max_quantity": 4,
+    "overlay_background": "#000000",
     "img": "/images/items/jinjo_br.png",
     "codes": "brjinjo"
   },
@@ -109,6 +120,7 @@
     "name": "Green Jinjos",
     "type": "consumable",
     "max_quantity": 5,
+    "overlay_background": "#000000",
     "img": "/images/items/jinjo_g.png",
     "codes": "gjinjo"
   },
@@ -116,6 +128,7 @@
     "name": "Red Jinjos",
     "type": "consumable",
     "max_quantity": 6,
+    "overlay_background": "#000000",
     "img": "/images/items/jinjo_r.png",
     "codes": "rjinjo"
   },
@@ -123,6 +136,7 @@
     "name": "Blue Jinjos",
     "type": "consumable",
     "max_quantity": 7,
+    "overlay_background": "#000000",
     "img": "/images/items/jinjo_bl.png",
     "codes": "bljinjo"
   },
@@ -130,6 +144,7 @@
     "name": "Purple Jinjos",
     "type": "consumable",
     "max_quantity": 8,
+    "overlay_background": "#000000",
     "img": "/images/items/jinjo_p.png",
     "codes": "pjinjo"
   },
@@ -137,6 +152,7 @@
     "name": "Black Jinjos",
     "type": "consumable",
     "max_quantity": 9,
+    "overlay_background": "#000000",
     "img": "/images/items/jinjo_bk.png",
     "codes": "bkjinjo"
   },

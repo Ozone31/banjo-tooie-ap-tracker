@@ -3,23 +3,42 @@
     "tracker_broadcast": {
         "type": "array",
         "orientation": "vertical",
-        "margin": "0,0",
+        "h_alignment": "center",
+        "margin": "5,5",
+        "background": "#212121",
         "content": [
           {
             "type": "itemgrid",
             "h_alignment": "left",
+            "margin": "0,0",
+            "item_margin": "1,2",
+            "rows": [
+              [ "ggrab", "bdrill","bbash", "bblaster", "bbayonet", "dive", "fswim", "ttorp", "dair", "splitup"],
+              [  "ttrot", "tjump", "roll", "climb", "fflip", "flutter", "wwing", "springb", "clawbts","fpad"],
+              [ "eggshoot", "eggaim","aireaim", "auqaim","homingeggs", "", "feggs", "geggs", "ieggs", "ceggs", ],
+              [ "packwh", "taxpack", "snpack", "shpack", "sapack", "", "wwhack", "hatch", "lspring", "glide"],
+            ]
+          },
+          {
+            "type": "itemgrid",
+            "h_alignment": "left",
+            "margin": "0,6",
             "item_margin": "1,2",
             "rows": [
               [ "jiggy", "note", "treble", "honey", "pages", "doubloon", "mumbotoken", "ikey", "bmegg", "pmegg" ],
-              [ "wjinjo", "ojinjo", "yjinjo", "brjinjo", "gjinjo", "rjinjo", "bljinjo", "pjinjo", "bkjinjo" ],
-              [ "eggaim", "bblaster", "ggrab", "bdrill", "bbayonet", "splitup", "aireaim", "auqaim", "ttorp", "springb", "clawbts", "fswim" ],
-              [ "dair", "bbash", "homingeggs", "shpack", "snpack", "taxpack", "packwh", "sapack", "wwhack", "glide", "lspring", "hatch" ],
-              [ "feggs", "geggs", "ceggs", "ieggs" ],
-              [ "dive",  "fpad", "fflip", "eggshoot", "roll", "ttrot", "tjump", "climb", "flutter", "wwing"],
+              [ "wjinjo", "ojinjo", "yjinjo", "brjinjo", "gjinjo", "rjinjo", "bljinjo", "pjinjo", "bkjinjo" ]
+            ]
+          },
+          {
+            "type": "itemgrid",
+            "h_alignment": "left",
+            "margin": "0,0",
+            "item_margin": "1,2",
+            "rows": [,
+              [ "mta", "gga", "wwa", "jra", "tda", "gia", "hfa", "cca", "cka" ],
               [ "mumbomt", "mumbogm", "mumboww", "mumbojr", "mumbotd", "mumbogi", "mumbohp", "mumbocc", "mumboih" ],
               [ "humbamt", "humbagm", "humbaww", "humbajr", "humbatd", "humbagi", "humbahp", "humbacc", "humbaih" ],
-              [ "mta", "gga", "wwa", "jra", "tda", "gia", "hfa", "cca", "cka" ],
-              [ "", "chuffy", "trainswww", "trainswih", "trainswtd", "trainswgi", "trainswhp1", "trainswhp2" ]
+              [ "", "chuffy", "trainswww", "trainswtd", "trainswgi", "trainswhp1", "trainswhp2", "trainswih" ]
             ]
           }
         ]
