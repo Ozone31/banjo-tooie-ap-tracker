@@ -32,12 +32,12 @@
                                 "fswim",
                                 "dair",
                                 "bbash",
-                                "homingeggs",
-                                "shpack",
-                                "snpack",
-                                "taxpack"
+                                "homingeggs"
                             ],
                             [
+                                "shpack",
+                                "snpack",
+                                "taxpack",
                                 "packwh",
                                 "sapack",
                                 "wwhack",

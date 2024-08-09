@@ -36,7 +36,7 @@
                         },
                         {
                             "type": "group",
-                            "header": "Worlds, Train Stations, & Magic",
+                            "header": "Worlds, Magic, & Train Stations",
                             "dock": "left",
                             "margin": "0,0,3,0",
                             "content": {
