@@ -4669,6 +4669,66 @@
             "y": 455
           }
         ]
+      },
+      {
+        "name": "Jade Snake Grove",
+        "sections": [
+          {
+            "ref": "Overworld/Mayahem Temple/MT: Jade Snake Grove Jinjo",
+            "name": "Jinjo"
+          },
+          {
+            "ref": "Overworld/Mayahem Temple/MT: Jade Snake Grove Glowbo",
+            "name": "Glowbo"
+          },
+          {
+            "ref": "Overworld/Mayahem Temple/MT: Jade Snake Grove Cheato Page",
+            "name": "Cheato Page"
+          },
+          {
+            "ref": "Overworld/Mayahem Temple/MT: Grip Grab Silo",
+            "name": "Grip Grab Silo"
+          },
+          {
+            "ref": "Overworld/Mayahem Temple - Jiggies/MT: Golden Goliath Jiggy",
+            "name": "Golden Goliath Jiggy"
+          },
+          {
+            "ref": "Overworld/Mayahem Temple - Jiggies/MT: Ssslumber Jiggy",
+            "name": "Ssslumber Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt1",
+            "x": 40,
+            "y": 515
+          }
+        ]
+      },
+      {
+        "name": "Prison Compound",
+        "sections": [
+          {
+            "ref": "Overworld/Mayahem Temple/MT: Prison Compound Cheato Page",
+            "name": "Cheato Page"
+          },
+          {
+            "ref": "Overworld/Mayahem Temple - Jiggies/MT: Prison Compound Quicksand Jiggy",
+            "name": "Quicksand Jiggy"
+          },
+          {
+            "ref": "Overworld/Mayahem Temple - Jiggies/MT: Pillars Jiggy",
+            "name": "Pillars Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt1",
+            "x": 493,
+            "y": 160
+          }
+        ]
       }
     ]
   },
