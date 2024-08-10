@@ -545,11 +545,7 @@ function glitchedInfernoAccess()
 end
 
 function jrl_access()
-    if logictype.CurrentStage <= 0 then
-        return clifftop_access() and has("jra") or (hfp_access() and HFP_hot_water_cooled())
-    else
-        return clifftop_access() and has("jra") or (hfp_access() and (HFP_hot_water_cooled() or (has("ggrab") and has("flutter") and has("grat") and has("tjump"))))
-    end
+    return clifftop_access() and has("jra") or (hfp_access() and HFP_to_JRL())
 end
 
 function tdl_access(fromTrain)
