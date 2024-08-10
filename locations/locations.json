@@ -7202,7 +7202,7 @@
         ]
       },
       {
-        "name": "TDL: Roar Cage Path  Notes",
+        "name": "TDL: Roar Cage Path Notes",
         "sections": [
           {
             "ref": "Overworld/Terrydactyland - Notes/TDL: Roar Cage Path (1) Note",
@@ -7220,8 +7220,8 @@
         "map_locations": [
           {
             "map": "tdl1",
-            "x": 245,
-            "y": 470
+            "x": 230,
+            "y": 500
           }
         ]
       },
@@ -7404,7 +7404,135 @@
             "y": 550
           }
         ]
-      }
+      },
+      {
+        "name": "Stomping Plains",
+        "sections": [
+          {
+            "ref": "Overworld/Terrydactyland/TDL: Stomping Plains Jinjo",
+            "name": "Jinjo"
+          },
+          {
+            "ref": "Overworld/Terrydactyland - Jiggies/TDL: Stomping Plains Jiggy",
+            "name": "TDL Jiggy"
+          },
+          {
+            "ref": "Overworld/Hailfire Peaks - Jiggies/HFP: Stomping Plains Jiggy",
+            "name": "HFP Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 45,
+            "y": 455
+          }
+        ]
+      },
+      {
+        "name": "Terry's Nest",
+        "sections": [
+          {
+            "ref": "Overworld/Terrydactyland - Jiggies/TDL: Terry Jiggy",
+            "name": "Terry Jiggy"
+          },
+          {
+            "ref": "Overworld/Terrydactyland/TDL: Terry Mumbo Token",
+            "name": "Terry Mumbo Token"
+          },
+          {
+            "ref": "Overworld/Terrydactyland - Jiggies/TDL: Terry's Kids Jiggy",
+            "name": "Terry's Kids Jiggy (Hatch Eggs Around Map)"
+          },
+          {
+            "ref": "Overworld/Terrydactyland - Jiggies/TDL: Under Terry's Nest Jiggy",
+            "name": "Under Terry's Nest Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 245,
+            "y": 480
+          }
+        ]
+      },
+      {
+        "name": "Inside the Mountain",
+        "sections": [
+          {
+            "ref": "Overworld/Terrydactyland/TDL: Inside the Mountain Cheato Page",
+            "name": "Cheato Page"
+          },
+          {
+            "ref": "Overworld/Terrydactyland - Jiggies/TDL: Chompas Belly Jiggy",
+            "name": "Chompas Belly Jiggy"
+          },
+          {
+            "ref": "Overworld/Terrydactyland/TDL: Chompas Belly Mumbo Token",
+            "name": "Chompas Belly Mumbo Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 340,
+            "y": 424
+          }
+        ]
+      },
+      {
+        "name": "River Passage (Climb Up Waterfall)",
+        "sections": [
+          {
+            "ref": "Overworld/Terrydactyland/TDL: River Passage Honeycomb",
+            "name": "Honeycomb"
+          },
+          {
+            "ref": "Overworld/Terrydactyland/TDL: Taxi Pack Silo",
+            "name": "Taxi Pack Silo"
+          },
+          {
+            "ref": "Overworld/Terrydactyland - Notes/TDL: River Passage (1) Note",
+            "name": "Note 1"
+          },
+          {
+            "ref": "Overworld/Terrydactyland - Notes/TDL: River Passage (2) Note",
+            "name": "Note 2"
+          },
+          {
+            "ref": "Overworld/Terrydactyland - Notes/TDL: River Passage (3) Note",
+            "name": "Note 3"
+          },
+          {
+            "ref": "Overworld/Terrydactyland - Notes/TDL: River Passage (4) Note",
+            "name": "Note 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 250,
+            "y": 460
+          }
+        ]
+      },
+      {
+        "name": "Unga Bunga's Cave",
+        "sections": [
+          {
+            "ref": "Overworld/Terrydactyland/TDL: Hatch Silo",
+            "name": "Hatch Silo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 422,
+            "y": 488
+          }
+        ]
+      },
     ]
   },
   {
