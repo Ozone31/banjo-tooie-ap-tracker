@@ -5246,6 +5246,90 @@
             "y": 405
           }
         ]
+      },
+      {
+        "name": "Water Storage",
+        "sections": [
+          {
+            "ref": "Overworld/Glitter Gulch Mine/GGM: Water Storage Jinjo",
+            "name": "Jinjo"
+          },
+          {
+            "ref": "Overworld/Glitter Gulch Mine/GGM: Water Storage Cheato Page",
+            "name": "Cheato Page"
+          },
+          {
+            "ref": "Overworld/Glitter Gulch Mine - Notes/GGM: Treble Clef",
+            "name": "Treble Clef"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ggm1",
+            "x": 440,
+            "y": 100
+          }
+        ]
+      },
+      {
+        "name": "Waterfall Cavern",
+        "sections": [
+          {
+            "ref": "Overworld/Glitter Gulch Mine - Jiggies/GGM: Waterfall Cavern Jiggy",
+            "name": "Jiggy"
+          },
+          {
+            "ref": "Overworld/Glitter Gulch Mine/HFP: Mega Glowbo",
+            "name": "Mega Glowbo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ggm1",
+            "x": 520,
+            "y": 80
+          }
+        ]
+      },
+      {
+        "name": "Gloomy Caverns",
+        "sections": [
+          {
+            "ref": "Overworld/Glitter Gulch Mine/GGM: Jail Jinjo",
+            "name": "Jail Jinjo"
+          },
+          {
+            "ref": "Overworld/Glitter Gulch Mine - Jiggies/GGM: Power Hut Basement Jiggy",
+            "name": "Power Hut Basement Jiggy"
+          },
+          {
+            "ref": "Overworld/Glitter Gulch Mine - Jiggies/GGM: Generator Cavern Jiggy",
+            "name": "Generator Cavern Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ggm1",
+            "x": 800,
+            "y": 254
+          }
+        ]
+      },
+      {
+        "name": "Flooded Caves",
+        "sections": [
+          {
+            "ref": "Overworld/Glitter Gulch Mine - Jiggies/GGM: Flooded Caves Jiggy",
+            "name": "Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ggm1",
+            "x": 485,
+            "y": 255
+          }
+        ]
       }
     ]
   },
@@ -5356,6 +5440,30 @@
             "y": 186
           }
         ]
+      },
+      {
+        "name": "Water Storage",
+        "sections": [
+          {
+            "ref": "Overworld/Glitter Gulch Mine/GGM: Water Storage Jinjo",
+            "name": "Jinjo"
+          },
+          {
+            "ref": "Overworld/Glitter Gulch Mine/GGM: Water Storage Cheato Page",
+            "name": "Cheato Page"
+          },
+          {
+            "ref": "Overworld/Glitter Gulch Mine - Notes/GGM: Treble Clef",
+            "name": "Treble Clef"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ggm3",
+            "x": 293,
+            "y": 55
+          }
+        ]
       }
     ]
   },
@@ -5409,6 +5517,26 @@
             "map": "ggm4",
             "x": 400,
             "y": 60
+          }
+        ]
+      },
+      {
+        "name": "Waterfall Cavern",
+        "sections": [
+          {
+            "ref": "Overworld/Glitter Gulch Mine - Jiggies/GGM: Waterfall Cavern Jiggy",
+            "name": "Jiggy"
+          },
+          {
+            "ref": "Overworld/Glitter Gulch Mine/HFP: Mega Glowbo",
+            "name": "Mega Glowbo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ggm4",
+            "x": 792,
+            "y": 295
           }
         ]
       }
