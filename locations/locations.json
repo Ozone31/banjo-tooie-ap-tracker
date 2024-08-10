@@ -6019,7 +6019,7 @@
           {
             "map": "ww1",
             "x": 414,
-            "y": 650
+            "y": 645
           }
         ]
       },
@@ -6040,6 +6040,90 @@
             "map": "ww1",
             "x": 270,
             "y": 90
+          }
+        ]
+      },
+      {
+        "name": "Crazy Castle Stockade",
+        "sections": [
+          {
+            "ref": "Overworld/Witchyworld/WW: Crazy Castle Honeycomb",
+            "name": "Honeycomb"
+          },
+          {
+            "ref": "Overworld/Witchyworld/WW: Pack Whack Silo",
+            "name": "Pack Whack Silo"
+          },
+          {
+            "ref": "Overworld/Witchyworld - Jiggies/WW: Hoop Hurry Jiggy",
+            "name": "Hoop Hurry Jiggy"
+          },
+          {
+            "ref": "Overworld/Witchyworld/WW: Hoop Hurry Mumbo Token",
+            "name": "Hoop Hurry Mumbo Token"
+          },
+          {
+            "ref": "Overworld/Witchyworld - Jiggies/WW: Balloon Burst Jiggy",
+            "name": "Balloon Burst Jiggy"
+          },
+          {
+            "ref": "Overworld/Witchyworld/WW: Balloon Burst Mumbo Token",
+            "name": "Balloon Burst Mumbo Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 414,
+            "y": 660
+          }
+        ]
+      },
+      {
+        "name": "The Inferno",
+        "sections": [
+          {
+            "ref": "Overworld/Witchyworld/WW: The Inferno Glowbo",
+            "name": "Glowbo"
+          },
+          {
+            "ref": "Overworld/Witchyworld/WW: The Inferno Cheato Page",
+            "name": "Cheato Page"
+          },
+          {
+            "ref": "Overworld/Witchyworld/WW: Mumbo Skull Honeycomb",
+            "name": "Mumbo Skull Honeycomb"
+          },
+          {
+            "ref": "Overworld/Witchyworld - Jiggies/WW: The Inferno Jiggy",
+            "name": "Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 730,
+            "y": 364
+          }
+        ]
+      },
+      {
+        "name": "The Haunted Cavern",
+        "sections": [
+          {
+            "ref": "Overworld/Witchyworld/WW: Cave of Horrors Jinjo",
+            "name": "Cave of Horrors Jinjo"
+          },
+          {
+            "ref": "Overworld/Witchyworld/WW: The Haunted Cavern Cheato Page",
+            "name": "Cheato Page"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 700,
+            "y": 300
           }
         ]
       }
