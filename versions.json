@@ -1,6 +1,15 @@
 {
 	"versions": [
 		{
+			"package_version": "0.3.4",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.3.4",
+			"sha256": "3AAAE14292A11B8936ED892F32CA705E50234E16EF1B24AA6999186FAA1A289E",
+			"changelog": [
+				"Fixed JRL access logic",
+				"Added subarea/connecting area checks to several of the world maps for easier navigation"
+			]
+		},
+		{
 			"package_version": "0.3.3",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.3.3",
 			"sha256": "E55C4E3F843DD6C721B6D82A1E244693E34B8904D69233BD6364BCE762DB36C3",
