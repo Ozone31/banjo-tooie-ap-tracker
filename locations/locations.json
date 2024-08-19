@@ -1572,7 +1572,7 @@
           {
             "name": "JRL: Mini-Sub Challenge Mumbo Token",
             "visibility_rules": [ "goal_minigame", "goal_wwing" ],
-            "access_rules": [ "$jrl_access, $can_dive_in_JRL, humbajr" ]
+            "access_rules": [ "$jrl_access, $can_dive_in_JRL, $can_reach_atlantis, humbajr" ]
           }
         ],
         "map_locations": [
@@ -1588,7 +1588,7 @@
         "sections": [
           {
             "name": "JRL: Mini-Sub Challenge Jiggy",
-            "access_rules": [ "$jrl_access, $can_dive_in_JRL, humbajr" ]
+            "access_rules": [ "$jrl_access, $can_dive_in_JRL, $can_reach_atlantis, humbajr" ]
           },
           {
             "name": "JRL: Tiptup Jiggy",
