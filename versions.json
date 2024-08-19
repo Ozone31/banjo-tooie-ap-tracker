@@ -1,6 +1,14 @@
 {
 	"versions": [
 		{
+			"package_version": "0.3.5",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.3.5",
+			"sha256": "9CE3EB1CA7FDFA19D1527807468955DCA3A417671C936CAD570D3D1820C4FBD4",
+			"changelog": [
+				"Fixed Mini-Sub Challenge logic to account for Atlantis access"
+			]
+		},
+		{
 			"package_version": "0.3.4",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.3.4",
 			"sha256": "3AAAE14292A11B8936ED892F32CA705E50234E16EF1B24AA6999186FAA1A289E",
