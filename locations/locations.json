@@ -8,68 +8,48 @@
         "name": "Spiral Mountain",
         "sections": [
           {
-            "name": "SM: Cheato Page",
-            "access_rules": [ 
-              "logictype_b, $springPad", "logictype_b, fpad",
-              "logictype_n, $springPad", "logictype_n, fpad",
-              "logictype_a, $springPad", "logictype_a, fpad", "logictype_a, $clockwork_shot",
-              "logictype_g, $springPad", "logictype_g, fpad", "logictype_g, $clockwork_shot"
-             ]
+            "ref": "Spiral Mountain/SM: Cheato Page/Cheato Page",
+            "name": "SM: Cheato Page"
           },
           {
-            "name": "SM: Jinjo",
-            "access_rules": [ "ttorp, dive" ]
+            "ref": "Spiral Mountain/SM: Jinjo/Jinjo",
+            "name": "SM: Jinjo"
           },
           {
-            "name": "SM: Roysten Reward 1",
-            "access_rules": [ "$billDrill" ]
+            "ref": "Spiral Mountain/SM: Roysten Rewards/Reward 1",
+            "name": "SM: Roysten Reward 1"
           },
           {
-            "name": "SM: Roysten Reward 2",
-            "access_rules": [ "$billDrill" ]
+            "ref": "Spiral Mountain/SM: Roysten Rewards/Reward 2",
+            "name": "SM: Roysten Reward 2"
           },
           {
-            "name": "SM: Pink Mystery Egg",
-            "access_rules": [ 
-              "logictype_b, $canShootEggs|geggs, fpad", "logictype_b, aireaim, geggs, fpad", 
-              "logictype_n, $canShootEggs|geggs, fpad", "logictype_n, aireaim, geggs, fpad", 
-              "logictype_a, $canShootEggs|geggs, fpad", "logictype_a, aireaim, geggs, fpad", 
-              "logictype_g, $has_explosives, fpad", "logictype_g, aireaim, geggs, fpad"
-          ]
+            "ref": "Spiral Mountain/SM: Pink Mystery Egg/Pink Mystery Egg",
+            "name": "SM: Pink Mystery Egg"
           },
           {
-            "name": "SM: Blue Mystery Egg",
-            "access_rules": [ 
-              "logictype_b, ggrab, fflip, fpad, tjump", 
-              "logictype_n, ggrab, fflip, fpad, tjump", "logictype_n, ggrab, fflip, fpad, bbust", 
-              "logictype_a, ggrab, fflip, fpad, tjump", "logictype_a, ggrab, fflip, fpad, bbust", "logictype_a, $clockwork_shot, fpad", 
-              "logictype_g, ggrab, fflip, fpad, tjump", "logictype_g, ggrab, fflip, fpad, bbust", "logictype_g, $clockwork_shot, fpad"
-            ]
+            "ref": "Spiral Mountain/SM: Blue Mystery Egg/Blue Mystery Egg",
+            "name": "SM: Blue Mystery Egg"
           },
           {
-            "name": "SM: Cheato Reward 1",
-            "visibility_rules": [ "cheatorewards_on" ],
-            "access_rules": [ "fpad, $has|pages|5", "fflip, climb, $has|pages|5" ]
+            "ref": "Spiral Mountain/SM: Cheato Rewards/Reward 1",
+            "name": "SM: Cheato Reward 1"
           },
           {
-            "name": "SM: Cheato Reward 2",
-            "visibility_rules": [ "cheatorewards_on" ],
-            "access_rules": [ "fpad, $has|pages|10", "fflip, climb, $has|pages|10" ]
+            "ref": "Spiral Mountain/SM: Cheato Rewards/Reward 2",
+            "name": "SM: Cheato Reward 2"
           },
           {
-            "name": "SM: Cheato Reward 3",
-            "visibility_rules": [ "cheatorewards_on" ],
-            "access_rules": [ "fpad, $has|pages|15", "fflip, climb, $has|pages|15" ]
+            "ref": "Spiral Mountain/SM: Cheato Rewards/Reward 3",
+            "name": "SM: Cheato Reward 3"
           },
           {
-            "name": "SM: Cheato Reward 4",
-            "visibility_rules": [ "cheatorewards_on" ],
-            "access_rules": [ "fpad, $has|pages|20", "fflip, climb, $has|pages|20" ]
+            "ref": "Spiral Mountain/SM: Cheato Rewards/Reward 4",
+            "name": "SM: Cheato Reward 4"
           },
           {
-            "name": "SM: Cheato Reward 5",
-            "visibility_rules": [ "cheatorewards_on" ],
-            "access_rules": [ "fpad, $has|pages|25", "fflip, climb, $has|pages|25" ]
+            "ref": "Spiral Mountain/SM: Cheato Rewards/Reward 5",
+            "name": "SM: Cheato Reward 5"
           }
         ],
         "map_locations": [
@@ -3381,8 +3361,13 @@
         "name": "SM: Cheato Page",
         "sections": [
           {
-            "ref": "Overworld/Spiral Mountain/SM: Cheato Page",
-            "name": "Cheato Page"
+            "name": "Cheato Page",
+            "access_rules": [ 
+              "logictype_b, $springPad", "logictype_b, fpad",
+              "logictype_n, $springPad", "logictype_n, fpad",
+              "logictype_a, $springPad", "logictype_a, fpad", "logictype_a, $clockwork_shot",
+              "logictype_g, $springPad", "logictype_g, fpad", "logictype_g, $clockwork_shot"
+             ]
           }
         ],
         "map_locations": [
@@ -3397,8 +3382,8 @@
         "name": "SM: Jinjo",
         "sections": [
           {
-            "ref": "Overworld/Spiral Mountain/SM: Jinjo",
-            "name": "Jinjo"
+            "name": "Jinjo",
+            "access_rules": [ "ttorp, dive" ]
           }
         ],
         "map_locations": [
@@ -3413,8 +3398,13 @@
         "name": "SM: Pink Mystery Egg",
         "sections": [
           {
-            "ref": "Overworld/Spiral Mountain/SM: Pink Mystery Egg",
-            "name": "Pink Mystery Egg"
+            "name": "Pink Mystery Egg",
+            "access_rules": [ 
+              "logictype_b, $canShootEggs|geggs, fpad", "logictype_b, aireaim, geggs, fpad", 
+              "logictype_n, $canShootEggs|geggs, fpad", "logictype_n, aireaim, geggs, fpad", 
+              "logictype_a, $canShootEggs|geggs, fpad", "logictype_a, aireaim, geggs, fpad", 
+              "logictype_g, $has_explosives, fpad", "logictype_g, aireaim, geggs, fpad"
+          ]
           }
         ],
         "map_locations": [
@@ -3429,8 +3419,13 @@
         "name": "SM: Blue Mystery Egg",
         "sections": [
           {
-            "ref": "Overworld/Spiral Mountain/SM: Blue Mystery Egg",
-            "name": "Blue Mystery Egg"
+            "name": "Blue Mystery Egg",
+            "access_rules": [ 
+              "logictype_b, ggrab, fflip, fpad, tjump", 
+              "logictype_n, ggrab, fflip, fpad, tjump", "logictype_n, ggrab, fflip, fpad, bbust", 
+              "logictype_a, ggrab, fflip, fpad, tjump", "logictype_a, ggrab, fflip, fpad, bbust", "logictype_a, $clockwork_shot, fpad", 
+              "logictype_g, ggrab, fflip, fpad, tjump", "logictype_g, ggrab, fflip, fpad, bbust", "logictype_g, $clockwork_shot, fpad"
+            ]
           }
         ],
         "map_locations": [
@@ -3443,13 +3438,12 @@
       },
       {
         "name": "SM: Roysten Rewards",
+        "access_rules": [ "$billDrill" ],
         "sections": [
           {
-            "ref": "Overworld/Spiral Mountain/SM: Roysten Reward 1",
             "name": "Reward 1"
           },
           {
-            "ref": "Overworld/Spiral Mountain/SM: Roysten Reward 2",
             "name": "Reward 2"
           }
         ],
@@ -3463,26 +3457,28 @@
       },
       {
         "name": "SM: Cheato Rewards",
+        "access_rules": [ "fpad", "fflip, climb" ],
+        "visibility_rules": [ "cheatorewards_on" ],
         "sections": [
           {
-            "ref": "Overworld/Spiral Mountain/SM: Cheato Reward 1",
-            "name": "Reward 1"
+            "name": "Reward 1",
+            "access_rules": [ "$has|pages|5" ]
           },
           {
-            "ref": "Overworld/Spiral Mountain/SM: Cheato Reward 2",
-            "name": "Reward 2"
+            "name": "Reward 2",
+            "access_rules": [ "$has|pages|10" ]
           },
           {
-            "ref": "Overworld/Spiral Mountain/SM: Cheato Reward 3",
-            "name": "Reward 3"
+            "name": "Reward 3",
+            "access_rules": [ "$has|pages|15" ]
           },
           {
-            "ref": "Overworld/Spiral Mountain/SM: Cheato Reward 4",
-            "name": "Reward 4"
+            "name": "Reward 4",
+            "access_rules": [ "$has|pages|20" ]
           },
           {
-            "ref": "Overworld/Spiral Mountain/SM: Cheato Reward 5",
-            "name": "Reward 5"
+            "name": "Reward 5",
+            "access_rules": [ "$has|pages|25" ]
           }
         ],
         "map_locations": [
