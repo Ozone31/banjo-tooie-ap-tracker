@@ -390,6 +390,38 @@ end
 
 -- Area Access
 
+function plateau_start()
+    if first_level == "Glitter Gulch Mine" or first_level == "Witchyworld" or first_level == "Jolly Roger's Lagoon - Town Center" or first_level == "Hailfire Peaks" or first_level == "Outside Grunty's Industries" then
+        return true
+    else
+        return false
+    end
+end
+
+function pinegrove_start()
+    if first_level == "Witchyworld" then
+        return true
+    else
+        return false
+    end
+end
+
+function clifftop_start()
+    if first_level == "Jolly Roger's Lagoon - Town Center" or first_level == "Hailfire Peaks" or first_level == "Outside Grunty's Industries" then
+        return true
+    else
+        return false
+    end
+end
+
+function wasteland_start()
+    if first_level == "Terrydactyland" or first_level == "Cloud Cuckooland" then
+        return true
+    else
+        return false
+    end
+end
+
 function plateau_access()
     if first_level == "Glitter Gulch Mine" or first_level == "Witchyworld" or first_level == "Jolly Roger's Lagoon - Town Center" or first_level == "Hailfire Peaks" or first_level == "Outside Grunty's Industries" then
         return true
@@ -408,9 +440,9 @@ end
 
 function plateauTop()
     if logictype.CurrentStage <= 1 then
-        return (has("ttrot") or has("splitup")) and plateau_access()
+        return has("ttrot") or has("splitup")
     else
-        return (has("ttrot") or has("splitup") or clockwork_shot()) and plateau_access()
+        return has("ttrot") or has("splitup") or clockwork_shot()
     end
 end
 
@@ -523,6 +555,24 @@ function PL_to_GGM()
         return has("gga")
     else
         return has("gga") or (has("bbust") and (has("fflip") or has("tjump") or (has("ttrot") and (has("flutter") or has("arat")))))
+    end
+end
+
+function WL_to_PGU()
+    if logictype.CurrentStage == 0 then
+        return has("ttorp") and has("dive")
+    elseif logictype.CurrentStage <= 2 then
+        return has("ttorp")
+    else
+        return true
+    end
+end
+
+function GGM_to_PL()
+    if logictype.CurrentStage == 0 then
+        return has("gga") and has("climb")
+    else
+        return has("climb")
     end
 end
 

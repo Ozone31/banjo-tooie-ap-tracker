@@ -160,20 +160,20 @@
         "name": "Isle O Hags - Wooded Hollow",
         "sections": [
           {
-            "name": "IoH: Wooded Hollow Jinjo",
-            "access_rules": [ "" ]
+            "ref": "Wooded Hollow/IoH: Wooded Hollow Jinjo/Jinjo",
+            "name": "IoH: Wooded Hollow Jinjo"
           },
           {
-            "name": "IoH: Yellow Mystery Egg Hatched",
-            "access_rules": [ "$has_explosives, splitup, hatch", "$billDrill, splitup, hatch" ]
+            "ref": "Wooded Hollow/Heggy's Egg Shed/Yellow Mystery Egg Hatched",
+            "name": "IoH: Yellow Mystery Egg Hatched"
           },
           {
-            "name": "IoH: Pink Mystery Egg Hatched",
-            "access_rules": [ "pmegg" ]
+            "ref": "Wooded Hollow/Heggy's Egg Shed/Pink Mystery Egg Hatched",
+            "name": "IoH: Pink Mystery Egg Hatched"
           },
           {
-            "name": "IoH: Blue Mystery Egg Hatched",
-            "access_rules": [ "bmegg" ]
+            "ref": "Wooded Hollow/Heggy's Egg Shed/Blue Mystery Egg Hatched",
+            "name": "IoH: Blue Mystery Egg Hatched"
           }
         ],
         "map_locations": [
@@ -188,72 +188,52 @@
         "name": "Isle O Hags - Plateau",
         "sections": [
           {
-            "name": "IoH: Plateau Jinjo",
-            "access_rules": [ 
-              "logictype_b, $plateau_access, $billDrill",
-              "logictype_n, $plateau_access, $billDrill",
-              "logictype_a, $plateau_access, $billDrill",
-              "logictype_g, $plateau_access, $billDrill", "logictype_g, $plateau_access, $egg_barge"
-            ]
+            "ref": "Plateau/IoH: Plateau Jinjo/Jinjo",
+            "name": "IoH: Plateau Jinjo"
           },
           {
-            "name": "IoH: Plateau Honeycomb",
-            "access_rules": [ "$plateau_access, $plateauTop" ]
+            "ref": "Plateau/IoH: Plateau Honeycomb/Honeycomb",
+            "name": "IoH: Plateau Honeycomb"
           },
           {
-            "name": "IoH: Fire Eggs Silo",
-            "access_rules": [ "$plateau_access, $notecount|45" ]
+            "ref": "Plateau/IoH: Fire Eggs Silo/Silo",
+            "name": "IoH: Fire Eggs Silo"
           },
           {
-            "name": "IoH: Plateau GGM Sign (1) Note",
-            "access_rules": [ 
-              "logictype_b, $plateau_access, ggrab, fflip",
-              "logictype_n, $plateau_access, ggrab, fflip", "logictype_n, $plateau_access, bbust, fflip", "logictype_n, $plateau_access, splitup, lspring",
-              "logictype_a, $plateau_access, ggrab, fflip", "logictype_a, $plateau_access, bbust, fflip", "logictype_a, $plateau_access, splitup, lspring", "logictype_a, $plateau_access, $clockwork_shot",
-              "logictype_g, $plateau_access, ggrab, fflip", "logictype_g, $plateau_access, bbust, fflip", "logictype_g, $plateau_access, splitup, lspring", "logictype_g, $plateau_access, $clockwork_shot"
-             ]
+            "ref": "Plateau/IoH: Plateau GGM Sign Notes/Note 1",
+            "name": "IoH: Plateau GGM Sign (1) Note"
           },
           {
-            "name": "IoH: Plateau GGM Sign (2) Note",
-            "access_rules": [ 
-              "logictype_b, $plateau_access, ggrab, fflip",
-              "logictype_n, $plateau_access, ggrab, fflip", "logictype_n, $plateau_access, bbust, fflip", "logictype_n, $plateau_access, splitup, lspring",
-              "logictype_a, $plateau_access, ggrab, fflip", "logictype_a, $plateau_access, bbust, fflip", "logictype_a, $plateau_access, splitup, lspring", "logictype_a, $plateau_access, $clockwork_shot",
-              "logictype_g, $plateau_access, ggrab, fflip", "logictype_g, $plateau_access, bbust, fflip", "logictype_g, $plateau_access, splitup, lspring", "logictype_g, $plateau_access, $clockwork_shot"
-             ]
+            "ref": "Plateau/IoH: Plateau GGM Sign Notes/Note 2",
+            "name": "IoH: Plateau GGM Sign (2) Note"
           },
           {
-            "name": "IoH: Plateau Honey B. (1) Note",
-            "access_rules": [ "$plateau_access, $plateauTop" ]
+            "ref": "Plateau/IoH: Plateau Honey B. Notes/Note 1",
+            "name": "IoH: Plateau Honey B. (1) Note"
           },
           {
-            "name": "IoH: Plateau Honey B. (2) Note",
-            "access_rules": [ "$plateau_access, $plateauTop" ]
+            "ref": "Plateau/IoH: Plateau Honey B. Notes/Note 2",
+            "name": "IoH: Plateau Honey B. (2) Note"
           },
           {
-            "name": "IoH: Honey B's Reward 1",
-            "visibility_rules": [ "honeybrewards_on" ],
-            "access_rules": [ "$plateau_access, $has|honey|1, ttrot" ]
+            "ref": "Plateau/IoH: Honey B's Rewards/Reward 1",
+            "name": "IoH: Honey B's Reward 1"
           },
           {
-            "name": "IoH: Honey B's Reward 2",
-            "visibility_rules": [ "honeybrewards_on" ],
-            "access_rules": [ "$plateau_access, $has|honey|4, ttrot" ]
+            "ref": "Plateau/IoH: Honey B's Rewards/Reward 2",
+            "name": "IoH: Honey B's Reward 2"
           },
           {
-            "name": "IoH: Honey B's Reward 3",
-            "visibility_rules": [ "honeybrewards_on" ],
-            "access_rules": [ "$plateau_access, $has|honey|9, ttrot" ]
+            "ref": "Plateau/IoH: Honey B's Rewards/Reward 3",
+            "name": "IoH: Honey B's Reward 3"
           },
           {
-            "name": "IoH: Honey B's Reward 4",
-            "visibility_rules": [ "honeybrewards_on" ],
-            "access_rules": [ "$plateau_access, $has|honey|16, ttrot" ]
+            "ref": "Plateau/IoH: Honey B's Rewards/Reward 4",
+            "name": "IoH: Honey B's Reward 4"
           },
           {
-            "name": "IoH: Honey B's Reward 5",
-            "visibility_rules": [ "honeybrewards_on" ],
-            "access_rules": [ "$plateau_access, $has|honey|25, ttrot" ]
+            "ref": "Plateau/IoH: Honey B's Rewards/Reward 5",
+            "name": "IoH: Honey B's Reward 5"
           }
         ],
         "map_locations": [
@@ -3715,7 +3695,6 @@
         "name": "IoH: Wooded Hollow Jinjo",
         "sections": [
           {
-            "ref": "Overworld/Isle O Hags - Wooded Hollow/IoH: Wooded Hollow Jinjo",
             "name": "Jinjo"
           }
         ],
@@ -3731,16 +3710,16 @@
         "name": "Heggy's Egg Shed",
         "sections": [
           {
-            "ref": "Overworld/Isle O Hags - Wooded Hollow/IoH: Yellow Mystery Egg Hatched",
-            "name": "Yellow Mystery Egg Hatched"
+            "name": "Yellow Mystery Egg Hatched",
+            "access_rules": [ "$has_explosives, splitup, hatch", "$billDrill, splitup, hatch" ]
           },
           {
-            "ref": "Overworld/Isle O Hags - Wooded Hollow/IoH: Pink Mystery Egg Hatched",
-            "name": "Pink Mystery Egg Hatched"
+            "name": "Pink Mystery Egg Hatched",
+            "access_rules": [ "pmegg" ]
           },
           {
-            "ref": "Overworld/Isle O Hags - Wooded Hollow/IoH: Blue Mystery Egg Hatched",
-            "name": "Blue Mystery Egg Hatched"
+            "name": "Blue Mystery Egg Hatched",
+            "access_rules": [ "bmegg" ]
           }
         ],
         "map_locations": [
@@ -3774,13 +3753,24 @@
     "name": "Plateau",
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+      "$WH_to_PL",
+      "$plateau_start",
+      "@Wasteland, $WL_to_PGU",
+      "@Glitter Gulch Mine - Main Area, $GGM_to_PL"
+    ],
     "children": [
       {
         "name": "IoH: Plateau Jinjo",
         "sections": [
           {
-            "ref": "Overworld/Isle O Hags - Plateau/IoH: Plateau Jinjo",
-            "name": "Jinjo"
+            "name": "Jinjo",
+            "access_rules": [ 
+              "logictype_b, $billDrill",
+              "logictype_n, $billDrill",
+              "logictype_a, $billDrill",
+              "logictype_g, $billDrill", "logictype_g, $egg_barge"
+            ]
           }
         ],
         "map_locations": [
@@ -3795,8 +3785,8 @@
         "name": "IoH: Plateau Honeycomb",
         "sections": [
           {
-            "ref": "Overworld/Isle O Hags - Plateau/IoH: Plateau Honeycomb",
-            "name": "Honeycomb"
+            "name": "Honeycomb",
+            "access_rules": [ "$plateauTop" ]
           }
         ],
         "map_locations": [
@@ -3811,8 +3801,8 @@
         "name": "IoH: Fire Eggs Silo",
         "sections": [
           {
-            "ref": "Overworld/Isle O Hags - Plateau/IoH: Fire Eggs Silo",
-            "name": "Silo"
+            "name": "Silo",
+            "access_rules": [ "$notecount|45" ]
           }
         ],
         "map_locations": [
@@ -3825,13 +3815,17 @@
       },
       {
         "name": "IoH: Plateau GGM Sign Notes",
+        "access_rules": [ 
+              "logictype_b, ggrab, fflip",
+              "logictype_n, ggrab, fflip", "logictype_n, bbust, fflip", "logictype_n, splitup, lspring",
+              "logictype_a, ggrab, fflip", "logictype_a, bbust, fflip", "logictype_a, splitup, lspring", "logictype_a, $clockwork_shot",
+              "logictype_g, ggrab, fflip", "logictype_g, bbust, fflip", "logictype_g, splitup, lspring", "logictype_g, $clockwork_shot"
+             ],
         "sections": [
           {
-            "ref": "Overworld/Isle O Hags - Plateau/IoH: Plateau GGM Sign (1) Note",
             "name": "Note 1"
           },
           {
-            "ref": "Overworld/Isle O Hags - Plateau/IoH: Plateau GGM Sign (2) Note",
             "name": "Note 2"
           }
         ],
@@ -3845,13 +3839,12 @@
       },
       {
         "name": "IoH: Plateau Honey B. Notes",
+        "access_rules": [ "$plateauTop" ],
         "sections": [
           {
-            "ref": "Overworld/Isle O Hags - Plateau/IoH: Plateau Honey B. (1) Note",
             "name": "Note 1"
           },
           {
-            "ref": "Overworld/Isle O Hags - Plateau/IoH: Plateau Honey B. (2) Note",
             "name": "Note 2"
           }
         ],
@@ -3865,26 +3858,28 @@
       },
       {
         "name": "IoH: Honey B's Rewards",
+        "visibility_rules": [ "honeybrewards_on" ],
+        "access_rules": [ "ttrot" ],
         "sections": [
           {
-            "ref": "Overworld/Isle O Hags - Plateau/IoH: Honey B's Reward 1",
-            "name": "Reward 1"
+            "name": "Reward 1",
+            "access_rules": [ "$has|honey|1" ]
           },
           {
-            "ref": "Overworld/Isle O Hags - Plateau/IoH: Honey B's Reward 2",
-            "name": "Reward 2"
+            "name": "Reward 2",
+            "access_rules": [ "$has|honey|4" ]
           },
           {
-            "ref": "Overworld/Isle O Hags - Plateau/IoH: Honey B's Reward 3",
-            "name": "Reward 3"
+            "name": "Reward 3",
+            "access_rules": [ "$has|honey|9" ]
           },
           {
-            "ref": "Overworld/Isle O Hags - Plateau/IoH: Honey B's Reward 4",
-            "name": "Reward 4"
+            "name": "Reward 4",
+            "access_rules": [ "$has|honey|16" ]
           },
           {
-            "ref": "Overworld/Isle O Hags - Plateau/IoH: Honey B's Reward 5",
-            "name": "Reward 5"
+            "name": "Reward 5",
+            "access_rules": [ "$has|honey|25" ]
           }
         ],
         "map_locations": [
