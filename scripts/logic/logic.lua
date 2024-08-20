@@ -138,9 +138,9 @@ end
 
 function can_beat_king_coal()
     if chuffyrandomized.CurrentStage == 0 then
-        return mumboGGM() and ggm_access() and (has("fflip") or has("climb")) and hasGroundAttack()
+        return mumboGGM() and (has("fflip") or has("climb")) and hasGroundAttack()
     else
-        return has("chuffy") and hasGroundAttack()
+        return has("chuffy") and (has("fflip") or has("climb")) and hasGroundAttack()
     end
 end
 
@@ -531,15 +531,7 @@ function prison_compound_open()
 end
 
 function ggm_access()
-    if plateau_access() == true and has("gga") == true then
-        return true
-    else
-        if logictype.CurrentStage == 0 then
-            return (WH_to_PL() and PL_to_GGM()) or dilberta_free() and has("mta") or ((clifftop_access() and train_CT()) or (gi_access() and train_GI()) or (hfp_access() and train_HFP()) or (tdl_access() and train_TDL()) or (ww_access() and train_WW()))
-        else
-            return (WH_to_PL() and PL_to_GGM()) or dilberta_free() and has("mta") or (jrl_access() and can_reach_atlantis() and has("ttorp") and has("ieggs") and has("auqaim"))  or ((clifftop_access() and train_CT()) or (gi_access() and train_GI()) or (hfp_access() and train_HFP()) or (tdl_access() and train_TDL()) or (ww_access() and train_WW()))
-        end
-    end
+    return (has("mta") and dilberta_free()) or ((WH_to_PL() or pinegrove_start() or clifftop_start() or (wasteland_start() and has("ttorp"))) and has("gga"))
 end
 
 function WH_to_PL()
@@ -579,6 +571,14 @@ end
 function WW_to_PG()
     if logictype.CurrentStage == 0 then
         return has("wwa")
+    else
+        return true
+    end
+end
+
+function HFP_to_CTHFP()
+    if logictype.CurrentStage == 0 then
+        return has("hfa")
     else
         return true
     end

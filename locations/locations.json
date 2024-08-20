@@ -280,46 +280,36 @@
         "name": "Isle O Hags - Cliff Top",
         "sections": [
           {
-            "name": "IoH: Cliff Top Jinjo",
-            "access_rules": [ 
-              "logictype_b, $clifftop_access, clawbts",
-              "logictype_n, $clifftop_access, clawbts",
-              "logictype_a, $clifftop_access, clawbts", "logictype_a, $clifftop_access, $clockwork_shot",
-              "logictype_g, $clifftop_access, clawbts, climb", "logictype_g, $clifftop_access, $clockwork_shot"
-            ]
+            "ref": "Cliff Top/IoH: Cliff Top Jinjo/Jinjo",
+            "name": "IoH: Cliff Top Jinjo"
           },
           {
-            "name": "IoH: Ice Eggs Silo",
-            "access_rules": [ "$clifftop_access, $notecount|220" ]
+            "ref": "Cliff Top/IoH: Ice Eggs Silo/Silo",
+            "name": "IoH: Ice Eggs Silo"
           },
           {
-            "name": "IoH: Train Switch",
-            "access_rules": [ "$clifftop_access, ggrab, fflip" ]
+            "ref": "Cliff Top/IoH: Train Switch/Train Switch",
+            "name": "IoH: Train Switch"
           },
           {
-            "name": "IoH: Cliff Top Glowbo",
-            "access_rules": [ 
-              "logictype_b, $clifftop_access, climb",
-              "logictype_n, $clifftop_access, climb",
-              "logictype_a, $clifftop_access, climb", "logictype_a, $clifftop_access, $clockwork_shot",
-              "logictype_g, $clifftop_access, climb", "logictype_g, $clifftop_access, $clockwork_shot"
-            ]
+            "ref": "Cliff Top/IoH: Outside HFP/Cliff Top Glowbo",
+            "name": "IoH: Cliff Top Glowbo"
           },
           {
-            "name": "IoH: Outside HFP (1) Note",
-            "access_rules": [ "$clifftop_access", "$hfp_access" ]
+            "ref": "Cliff Top/IoH: Outside HFP/Note 1",
+            "name": "IoH: Outside HFP (1) Note"
           },
           {
-            "name": "IoH: Outside HFP (2) Note",
-            "access_rules": [ "$clifftop_access", "$hfp_access" ]
+            "ref": "Cliff Top/IoH: Outside HFP/Note 2",
+            "name": "IoH: Outside HFP (2) Note"
           },
           {
-            "name": "IoH: Outside HFP (3) Note",
-            "access_rules": [ "$clifftop_access", "$hfp_access" ]
+            "ref": "Cliff Top/IoH: Outside HFP/Note 3",
+            "name": "IoH: Outside HFP (3) Note"
           },
           {
-            "name": "IoH: Outside HFP (4) Note",
-            "access_rules": [ "$clifftop_access", "$hfp_access" ]
+            "ref": "Cliff Top/IoH: Outside HFP/Note 4",
+            "name": "IoH: Outside HFP (4) Note"
           }
         ],
         "map_locations": [
@@ -765,13 +755,12 @@
             "access_rules": [ "$ggm_access, $GM_boulders, $notecount|95" ]
           },
           {
-            "name": "GGM: Chuffy",
-            "access_rules": [ "$ggm_access, $can_beat_king_coal" ]
+            "ref": "Inside Chuffy/Chuffy/Chuffy",
+            "name": "GGM: Chuffy"
           },
           {
-            "name": "GGM: Old King Coal Mumbo Token",
-            "visibility_rules": [ "goal_boss", "goal_wwing" ],
-            "access_rules": [ "$ggm_access, $can_beat_king_coal" ]
+            "ref": "Inside Chuffy/Chuffy/Old King Coal Mumbo Token",
+            "name": "GGM: Old King Coal Mumbo Token"
           },
           {
             "name": "GGM: Ordnance Storage Mumbo Token",
@@ -791,8 +780,8 @@
         "name": "Glitter Gulch Mine - Jiggies",
         "sections": [
           {
-            "name": "GGM: Old King Coal Jiggy",
-            "access_rules": [ "$ggm_access, $can_beat_king_coal" ]
+            "ref": "Inside Chuffy/Chuffy/Old King Coal Jiggy",
+            "name": "GGM: Old King Coal Jiggy"
           },
           {
             "name": "GGM: Canary Mary Jiggy",
@@ -3993,13 +3982,18 @@
     "name": "Cliff Top",
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+      "$clifftop_start",
+      "@Plateau, splitup",
+      "trainswih, @Inside Chuffy"
+    ],
     "children": [
       {
         "name": "IoH: Ice Eggs Silo",
         "sections": [
           {
-            "ref": "Overworld/Isle O Hags - Cliff Top/IoH: Ice Eggs Silo",
-            "name": "Silo"
+            "name": "Silo",
+            "access_rules": [ "$notecount|220" ]
           }
         ],
         "map_locations": [
@@ -4014,8 +4008,8 @@
         "name": "IoH: Train Switch",
         "sections": [
           {
-            "ref": "Overworld/Isle O Hags - Cliff Top/IoH: Train Switch",
-            "name": "Train Switch"
+            "name": "Train Switch",
+            "access_rules": [ "ggrab, fflip" ]
           }
         ],
         "map_locations": [
@@ -4030,8 +4024,13 @@
         "name": "IoH: Cliff Top Jinjo",
         "sections": [
           {
-            "ref": "Overworld/Isle O Hags - Cliff Top/IoH: Cliff Top Jinjo",
-            "name": "Jinjo"
+            "name": "Jinjo",
+            "access_rules": [ 
+              "logictype_b, clawbts",
+              "logictype_n, clawbts",
+              "logictype_a, clawbts", "logictype_a, $clockwork_shot",
+              "logictype_g, clawbts, climb", "logictype_g, $clockwork_shot"
+            ]
           }
         ],
         "map_locations": [
@@ -4044,25 +4043,30 @@
       },
       {
         "name": "IoH: Outside HFP",
+        "access_rules": [
+          "@Cliff Top",
+          "@Hailfire Peaks - Lave Side, $HFP_to_CTHFP"
+        ],
         "sections": [
           {
-            "ref": "Overworld/Isle O Hags - Cliff Top/IoH: Cliff Top Glowbo",
-            "name": "Cliff Top Glowbo"
+            "name": "Cliff Top Glowbo",
+            "access_rules": [ 
+              "logictype_b, climb",
+              "logictype_n, climb",
+              "logictype_a, climb", "logictype_a, $clockwork_shot",
+              "logictype_g, climb", "logictype_g, $clockwork_shot"
+            ]
           },
           {
-            "ref": "Overworld/Isle O Hags - Cliff Top/IoH: Outside HFP (1) Note",
             "name": "Note 1"
           },
           {
-            "ref": "Overworld/Isle O Hags - Cliff Top/IoH: Outside HFP (2) Note",
             "name": "Note 2"
           },
           {
-            "ref": "Overworld/Isle O Hags - Cliff Top/IoH: Outside HFP (3) Note",
             "name": "Note 3"
           },
           {
-            "ref": "Overworld/Isle O Hags - Cliff Top/IoH: Outside HFP (4) Note",
             "name": "Note 4"
           }
         ],
@@ -5156,18 +5160,6 @@
           {
             "ref": "Overworld/Glitter Gulch Mine/GGM: Train Station Honeycomb",
             "name": "Honeycomb"
-          },
-          {
-            "ref": "Overworld/Glitter Gulch Mine - Jiggies/GGM: Old King Coal Jiggy",
-            "name": "Old King Coal Jiggy"
-          },
-          {
-            "ref": "Overworld/Glitter Gulch Mine/GGM: Old King Coal Mumbo Token",
-            "name": "Old King Coal Mumbo Token"
-          },
-          {
-            "ref": "Overworld/Glitter Gulch Mine/GGM: Chuffy",
-            "name": "Chuffy"
           }
         ],
         "map_locations": [
@@ -5311,6 +5303,44 @@
             "map": "ggm1",
             "x": 485,
             "y": 255
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Inside Chuffy",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ 
+      "@Glitter Gulch Mine - Main Area, $can_beat_king_coal",
+      "@Witchyworld - Main Area, trainswww, chuffy, $can_beat_king_coal",
+      "@Terrydactyland - Main Area, trainswtd, chuffy, $can_beat_king_coal",
+      "@Hailfire Peaks - Lava Side, trainswhp1, chuffy, $can_beat_king_coal",
+      "@Cliff Top, trainswih, chuffy, $can_beat_king_coal",
+      "@Grunty's Industries - Floor 1, trainswgi, chuffy, $can_beat_king_coal"
+    ],
+    "children": [
+      {
+        "name": "Chuffy",
+        "sections": [
+          {
+            "name": "Old King Coal Jiggy"
+          },
+          {
+            "name": "Old King Coal Mumbo Token",
+            "visibility_rules": [ "goal_boss", "goal_wwing" ]
+          },
+          {
+            "name": "Chuffy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ggm1",
+            "map": "ggm1",
+            "x": 855,
+            "y": 87
           }
         ]
       }
