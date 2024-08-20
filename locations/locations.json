@@ -324,43 +324,28 @@
         "name": "Isle O Hags - Wasteland",
         "sections": [
           {
-            "name": "IoH: Wasteland Jinjo",
-            "access_rules": [ 
-              "logictype_b, $wasteland_access, ggrab, fflip",
-              "logictype_n, $wasteland_access, ggrab, fflip", "logictype_n, $wasteland_access, bbust, fflip",
-              "logictype_a, $wasteland_access, ggrab, fflip", "logictype_a, $wasteland_access, bbust, fflip", "logictype_a, $wasteland_access, $clockwork_shot",
-              "logictype_g, $wasteland_access, ggrab, fflip", "logictype_g, $wasteland_access, bbust, fflip", "logictype_g, $wasteland_access, $clockwork_shot"
-            ]
+            "ref": "Wasteland/IoH: Wasteland Jinjo/Jinjo",
+            "name": "IoH: Wasteland Jinjo"
           },
           {
-            "name": "IoH: Clockwork Kazooie Eggs Silo",
-            "access_rules": [ "$wasteland_access, $notecount|315" ]
+            "ref": "Wasteland/IoH: Clockwork Kazooie Eggs Silo/Silo",
+            "name": "IoH: Clockwork Kazooie Eggs Silo"
           },
           {
-            "name": "IoH: Clockwork Silo Bottom Note",
-            "access_rules": [ 
-              "logictype_b, $wasteland_access, $canDoSmallElevation",
-              "logictype_n, $wasteland_access",
-              "logictype_a, $wasteland_access",
-              "logictype_g, $wasteland_access"
-            ]
+            "ref": "Wasteland/IoH: Clockwork Silo Notes/Note 1",
+            "name": "IoH: Clockwork Silo Bottom Note"
           },
           {
-            "name": "IoH: Clockwork Silo Top Note",
-            "access_rules": [ 
-              "logictype_b, $wasteland_access, fflip", "logictype_b, $wasteland_access, tjump, ggrab", "logictype_b, $wasteland_access, ttrot, flutter, ggrab",
-              "logictype_n, $wasteland_access, fflip", "logictype_n, $wasteland_access, tjump, ggrab", "logictype_n, $wasteland_access, ttrot, flutter, ggrab",
-              "logictype_a, $wasteland_access, fflip", "logictype_a, $wasteland_access, tjump, ggrab", "logictype_a, $wasteland_access, ttrot, flutter, ggrab", "logictype_a, $wasteland_access, $clockwork_shot",
-              "logictype_g, $wasteland_access, fflip", "logictype_g, $wasteland_access, tjump, ggrab", "logictype_g, $wasteland_access, ttrot, flutter, ggrab", "logictype_g, $wasteland_access, $clockwork_shot"
-             ]
+            "ref": "Wasteland/IoH: Clockwork Silo Notes/Note 2",
+            "name": "IoH: Clockwork Silo Top Note"
           },
           {
-            "name": "IoH: Wasteland CCL Area (1) Note",
-            "access_rules": [ "$wasteland_access" ]
+            "ref": "Wasteland/IoH: Wasteland CCL Area Notes/Note 1",
+            "name": "IoH: Wasteland CCL Area (1) Note"
           },
           {
-            "name": "IoH: Wasteland CCL Area (2) Note",
-            "access_rules": [ "$wasteland_access" ]
+            "ref": "Wasteland/IoH: Wasteland CCL Area Notes/Note 2",
+            "name": "IoH: Wasteland CCL Area (2) Note"
           }
         ],
         "map_locations": [
@@ -4118,13 +4103,19 @@
     "name": "Wasteland",
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+      "$wasteland_start",
+      "@Pine Grove, dive, ttorp",
+      "@Quagmire, $QM_to_WL",
+      "@Terrydactyland - Main Area, $TDL_to_IOHWL"
+    ],
     "children": [
       {
         "name": "IoH: Clockwork Kazooie Eggs Silo",
         "sections": [
           {
-            "ref": "Overworld/Isle O Hags - Wasteland/IoH: Clockwork Kazooie Eggs Silo",
-            "name": "Silo"
+            "name": "Silo",
+            "access_rules": [ "$notecount|315" ]
           }
         ],
         "map_locations": [
@@ -4139,8 +4130,13 @@
         "name": "IoH: Wasteland Jinjo",
         "sections": [
           {
-            "ref": "Overworld/Isle O Hags - Wasteland/IoH: Wasteland Jinjo",
-            "name": "Jinjo"
+            "name": "Jinjo",
+            "access_rules": [ 
+              "logictype_b, ggrab, fflip",
+              "logictype_n, ggrab, fflip", "logictype_n, bbust, fflip",
+              "logictype_a, ggrab, fflip", "logictype_a, bbust, fflip", "logictype_a, $clockwork_shot",
+              "logictype_g, ggrab, fflip", "logictype_g, bbust, fflip", "logictype_g, $clockwork_shot"
+            ]
           }
         ],
         "map_locations": [
@@ -4155,12 +4151,22 @@
         "name": "IoH: Clockwork Silo Notes",
         "sections": [
           {
-            "ref": "Overworld/Isle O Hags - Wasteland/IoH: Clockwork Silo Bottom Note",
-            "name": "Note 1"
+            "name": "Note 1",
+            "access_rules": [ 
+              "logictype_b, $canDoSmallElevation",
+              "logictype_n",
+              "logictype_a",
+              "logictype_g"
+            ]
           },
           {
-            "ref": "Overworld/Isle O Hags - Wasteland/IoH: Clockwork Silo Top Note",
-            "name": "Note 2"
+            "name": "Note 2",
+            "access_rules": [ 
+              "logictype_b, fflip", "logictype_b, tjump, ggrab", "logictype_b, ttrot, flutter, ggrab",
+              "logictype_n, fflip", "logictype_n, tjump, ggrab", "logictype_n, ttrot, flutter, ggrab",
+              "logictype_a, fflip", "logictype_a, tjump, ggrab", "logictype_a, ttrot, flutter, ggrab", "logictype_a, $clockwork_shot",
+              "logictype_g, fflip", "logictype_g, tjump, ggrab", "logictype_g, ttrot, flutter, ggrab", "logictype_g, $clockwork_shot"
+             ]
           }
         ],
         "map_locations": [
@@ -4175,11 +4181,9 @@
         "name": "IoH: Wasteland CCL Area Notes",
         "sections": [
           {
-            "ref": "Overworld/Isle O Hags - Wasteland/IoH: Wasteland CCL Area (1) Note",
             "name": "Note 1"
           },
           {
-            "ref": "Overworld/Isle O Hags - Wasteland/IoH: Wasteland CCL Area (2) Note",
             "name": "Note 2"
           }
         ],
@@ -4231,6 +4235,10 @@
     "name": "Quagmire",
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+      "@Wasteland, springb",
+      "@Grunty's Industries - Outside, gia"
+    ],
     "children": [
       {
         "name": "Grunty's Industries Entrance",
@@ -4254,7 +4262,7 @@
         "sections": [
           {
             "name": "Entrance Open",
-            "access_rules": [ "cka" ],
+            "access_rules": [ "cka, $quag_to_CK" ],
             "hosted_item": "cka"
           }
         ],

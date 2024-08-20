@@ -326,6 +326,14 @@ function QM_to_WL()
     end
 end
 
+function quag_to_CK()
+    if logictype.CurrentStage <= 2 then
+        return has("clawbts") and has("climb")
+    else
+        return (has("climb") and has("clawbts")) or (has("geggs") and has("ceggs") and has ("eggaim") and has("eggshoot"))
+    end
+end
+
 function iceCube()
     return hasGroundAttack()
 end
@@ -579,6 +587,14 @@ end
 function HFP_to_CTHFP()
     if logictype.CurrentStage == 0 then
         return has("hfa")
+    else
+        return true
+    end
+end
+
+function TDL_to_IOHWL()
+    if logictype.CurrentStage == 0 then
+        return has("tda")
     else
         return true
     end
