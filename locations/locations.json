@@ -248,36 +248,24 @@
         "name": "Isle O Hags - Pine Grove",
         "sections": [
           {
-            "name": "IoH: Grenade Eggs Silo",
-            "access_rules": [ "$pinegrove_access, $notecount|110" ]
+            "ref": "Pine Grove/IoH: Grenade Eggs Silo/Silo",
+            "name": "IoH: Grenade Eggs Silo"
           },
           {
-            "name": "IoH: Pine Grove (1) Note",
-            "access_rules": [ "$pinegrove_access" ]
+            "ref": "Pine Grove/IoH: Pine Grove Notes/Note 1",
+            "name": "IoH: Pine Grove (1) Note"
           },
           {
-            "name": "IoH: Pine Grove (2) Note",
-            "access_rules": [ "$pinegrove_access" ]
+            "ref": "Pine Grove/IoH: Pine Grove Notes/Note 2",
+            "name": "IoH: Pine Grove (2) Note"
           },
           {
-            "name": "IoH: Pine Grove Underwater (1) Note",
-            "access_rules": [ 
-              "$pinegrove_access, dive",
-              "logictype_b, $wasteland_access, ttorp",
-              "logictype_n, $wasteland_access, ttorp",
-              "logictype_a, $wasteland_access, ttorp",
-              "logictype_g, $wasteland_access"
-           ]
+            "ref": "Pine Grove Underwater/IoH: Pine Grove Underwater Notes/Note 1",
+            "name": "IoH: Pine Grove Underwater (1) Note"
           },
           {
-            "name": "IoH: Pine Grove Underwater (2) Note",
-            "access_rules": [ 
-              "$pinegrove_access, dive",
-              "logictype_b, $wasteland_access, ttorp",
-              "logictype_n, $wasteland_access, ttorp",
-              "logictype_a, $wasteland_access, ttorp",
-              "logictype_g, $wasteland_access"
-           ]
+            "ref": "Pine Grove Underwater/IoH: Pine Grove Underwater Notes/Note 2",
+            "name": "IoH: Pine Grove Underwater (2) Note"
           }
         ],
         "map_locations": [
@@ -3913,13 +3901,18 @@
     "name": "Pine Grove",
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+      "$pinegrove_start",
+      "@Wasteland, $WL_to_PGU",
+      "@Witchyworld - Main Area, $WW_to_PG"
+    ],
     "children": [
       {
         "name": "IoH: Grenade Eggs Silo",
         "sections": [
           {
-            "ref": "Overworld/Isle O Hags - Pine Grove/IoH: Grenade Eggs Silo",
-            "name": "Silo"
+            "name": "Silo",
+            "access_rules": [ "$notecount|110" ]
           }
         ],
         "map_locations": [
@@ -3934,11 +3927,9 @@
         "name": "IoH: Pine Grove Notes",
         "sections": [
           {
-            "ref": "Overworld/Isle O Hags - Pine Grove/IoH: Pine Grove (1) Note",
             "name": "Note 1"
           },
           {
-            "ref": "Overworld/Isle O Hags - Plateau/IoH: Pine Grove (2) Note",
             "name": "Note 2"
           }
         ],
@@ -3947,26 +3938,6 @@
             "map": "pg",
             "x": 313,
             "y": 210
-          }
-        ]
-      },
-      {
-        "name": "IoH: Pine Grove Underwater Notes",
-        "sections": [
-          {
-            "ref": "Overworld/Isle O Hags - Pine Grove/IoH: Pine Grove Underwater (1) Note",
-            "name": "Note 1"
-          },
-          {
-            "ref": "Overworld/Isle O Hags - Pine Grove/IoH: Pine Grove Underwater (2) Note",
-            "name": "Note 2"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pg",
-            "x": 510,
-            "y": 205
           }
         ]
       },
@@ -3984,6 +3955,35 @@
             "map": "pg",
             "x": 245,
             "y": 80
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pine Grove Underwater",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+      "@Pine Grove, dive",
+      "@Wasteland, $WL_to_PGU"
+    ],
+    "children": [
+      {
+        "name": "IoH: Pine Grove Underwater Notes",
+        "sections": [
+          {
+            "name": "Note 1"
+          },
+          {
+            "name": "Note 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pg",
+            "x": 510,
+            "y": 205
           }
         ]
       }

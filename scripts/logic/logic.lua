@@ -576,6 +576,14 @@ function GGM_to_PL()
     end
 end
 
+function WW_to_PG()
+    if logictype.CurrentStage == 0 then
+        return has("wwa")
+    else
+        return true
+    end
+end
+
 function ww_access(fromTrain)
     if logictype.CurrentStage == 0 then
         return has("wwa") and pinegrove_access()
