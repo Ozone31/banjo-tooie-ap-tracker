@@ -360,128 +360,76 @@
         "name": "Mayahem Temple",
         "sections": [
           {
-            "name": "MT: Jade Snake Grove Jinjo",
-            "access_rules": [ 
-              "logictype_b, $mt_access, ggrab, mumbomt, fflip",
-              "logictype_n, $mt_access, mumbomt, fflip, bbust", "logictype_n, $mt_access, mumbomt, fflip, ggrab",
-              "logictype_a, $mt_access, mumbomt, fflip, bbust", "logictype_a, $mt_access, mumbomt, fflip, ggrab", "logictype_a, $mt_access, mumbomt, $clockwork_shot",
-              "logictype_g, $mt_access, $glitchedJSGAccess, fflip, bbust", "logictype_g, $mt_access, $glitchedJSGAccess, fflip, ggrab", "logictype_g, $mt_access, $glitchedJSGAccess, $clockwork_shot"
-            ]
+            "ref": "Mayahem Temple - Jade Snake Grove/MT: Jade Snake Grove Jinjo/Jinjo",
+            "name": "MT: Jade Snake Grove Jinjo"
           },
           {
-            "name": "MT: Stadium Jinjo",
-            "access_rules": [ 
-              "logictype_b, $mt_access, $MT_flight_pad",
-              "logictype_n, $mt_access, $MT_flight_pad",
-              "logictype_a, $mt_access, $MT_flight_pad", "logictype_a, $mt_access, $clockwork_shot",
-              "logictype_g, $mt_access, $MT_flight_pad", "logictype_g, $mt_access, $clockwork_shot"
-             ]
+            "ref": "Mayahem Temple - Main Area/MT: Stadium Jinjo/Jinjo",
+            "name": "MT: Stadium Jinjo"
           },
           {
-            "name": "MT: Targitzan Temple Jinjo",
-            "access_rules": [ "$mt_access, bblaster" ]
+            "ref": "Mayahem Temple - Main Area/Targitzan's Temple/Targitzan Temple Jinjo",
+            "name": "MT: Targitzan Temple Jinjo"
           },
           {
-            "name": "MT: Water Pool Jinjo",
-            "access_rules": [ 
-              "logictype_b, $mt_access, dive",
-              "logictype_n, $mt_access",
-              "logictype_a, $mt_access",
-              "logictype_g, $mt_access"
-            ]
+            "ref": "Mayahem Temple - Main Area/MT: Water Pool Jinjo/Jinjo",
+            "name": "MT: Water Pool Jinjo"
           },
           {
-            "name": "MT: Bridge Jinjo",
-            "access_rules": [ "$mt_access" ]
+            "ref": "Mayahem Temple - Main Area/MT: Bridge Jinjo/Jinjo",
+            "name": "MT: Bridge Jinjo"
           },
           {
-            "name": "MT: Mumbo's Glowbo",
-            "access_rules": [ "$mt_access" ]
+            "ref": "Mayahem Temple - Main Area/MT: Mumbo's Glowbo/Glowbo",
+            "name": "MT: Mumbo's Glowbo"
           },
           {
-            "name": "MT: Jade Snake Grove Glowbo",
-            "access_rules": [ "$mt_access, $can_access_JSG" ]
+            "ref": "Mayahem Temple - Jade Snake Grove/MT: Jade Snake Grove Glowbo/Glowbo",
+            "name": "MT: Jade Snake Grove Glowbo"
           },
           {
-            "name": "MT: Entrance Honeycomb",
-            "access_rules": [ 
-              "logictype_b, $mt_access, humbamt, mumbomt",
-              "logictype_n, $mt_access, humbamt, mumbomt", "logictype_n, $mt_access, $canShootEggs|ceggs",
-              "logictype_a, $mt_access, humbamt, mumbomt", "logictype_a, $mt_access, $canShootEggs|ceggs",
-              "logictype_g, $mt_access, humbamt, mumbomt", "logictype_g, $mt_access, $canShootEggs|ceggs"
-            ]
+            "ref": "Mayahem Temple - Main Area/MT: Entrance Honeycomb/Honeycomb",
+            "name": "MT: Entrance Honeycomb"
           },
           {
-            "name": "MT: Bovina Honeycomb",
-            "access_rules": [ 
-              "logictype_b, $mt_access, ggrab, fflip",
-              "logictype_n, $mt_access, fflip, ggrab", "logictype_n, $mt_access, fflip, bbust", "logictype_n, $mt_access, $MT_flight_pad",
-              "logictype_a, $mt_access, fflip, ggrab", "logictype_a, $mt_access, fflip, bbust", "logictype_a, $mt_access, $MT_flight_pad", "logictype_a, $mt_access, $clockwork_shot",
-              "logictype_g, $mt_access, fflip, ggrab", "logictype_g, $mt_access, fflip, bbust", "logictype_g, $mt_access, $MT_flight_pad", "logictype_g, $mt_access, $clockwork_shot"
-            ]
+            "ref": "Mayahem Temple - Main Area/MT: Bovina Honeycomb/Honeycomb",
+            "name": "MT: Bovina Honeycomb"
           },
           {
-            "name": "MT: Treasure Chamber Honeycomb",
-            "access_rules": [ 
-              "logictype_b, $mt_access, $canShootLinearEgg, eggaim, ttrot",
-              "logictype_n, $mt_access, $MT_flight_pad, $canShootEggs, ggrab", "logictype_n, $mt_access, $MT_flight_pad, $canShootEggs, ttrot", "logictype_n, $mt_access, $canShootEggs, eggaim, ttrot",
-              "logictype_a, $mt_access, $MT_flight_pad, $canShootEggs, ggrab", "logictype_a, $mt_access, $MT_flight_pad, $canShootEggs, $clockwork_shot", "logictype_a, $mt_access, $MT_flight_pad, $canShootEggs, ttrot", "logictype_a, $mt_access, $canShootEggs, eggaim, ttrot", "logictype_a, $mt_access, $canShootEggs, eggaim, $clockwork_shot",
-              "logictype_g, $mt_access, $MT_flight_pad, $canShootEggs, ggrab", "logictype_g, $mt_access, $MT_flight_pad, $canShootEggs, $clockwork_shot", "logictype_g, $mt_access, $MT_flight_pad, $canShootEggs, ttrot", "logictype_g, $mt_access, $canShootEggs, eggaim, ttrot", "logictype_g, $mt_access, $canShootEggs, eggaim, $clockwork_shot"
-            ]
+            "ref": "Mayahem Temple - Main Area/Treasure Chamber/Treasure Chamber Honeycomb",
+            "name": "MT: Treasure Chamber Honeycomb"
           },
           {
-            "name": "MT: Treasure Chamber Cheato Page",
-            "access_rules": [ 
-              "logictype_b, $mt_access, eggaim, ggrab, $springPad, fflip", "logictype_b, $mt_access, eggaim, $MT_flight_pad",
-              "logictype_n, $mt_access, ggrab, $springPad, fflip, $canShootLinearEgg, eggaim", "logictype_n, $mt_access, $MT_flight_pad",
-              "logictype_a, $mt_access, ggrab, $springPad, fflip, $canShootLinearEgg, eggaim", "logictype_a, $mt_access, $MT_flight_pad", "logictype_a, $mt_access, $clockwork_shot",
-              "logictype_g, $mt_access, ggrab, $springPad, fflip, $canShootLinearEgg, eggaim", "logictype_g, $mt_access, $MT_flight_pad", "logictype_g, $mt_access, $clockwork_shot"
-            ]
+            "ref": "Mayahem Temple - Main Area/MT: Treasure Chamber Cheato Page/Cheato Page",
+            "name": "MT: Treasure Chamber Cheato Page"
           },
           {
-            "name": "MT: Prison Compound Cheato Page",
-            "access_rules": [ 
-              "logictype_b, $prison_compound_open, $canReachSlightlyElevatedLedge",
-              "logictype_n, $prison_compound_open, $canReachSlightlyElevatedLedge",
-              "logictype_a, $prison_compound_open, $canReachSlightlyElevatedLedge", "logictype_a, $prison_compound_open, eggaim, ceggs",
-              "logictype_g, $prison_compound_open, $canReachSlightlyElevatedLedge", "logictype_g, $prison_compound_open, eggaim, ceggs"
-            ]
+            "ref": "Mayahem Temple - Prison Compound/MT: Prison Compound Cheato Page/Cheato Page",
+            "name": "MT: Prison Compound Cheato Page"
           },
           {
-            "name": "MT: Jade Snake Grove Cheato Page",
-            "access_rules": [ 
-              "logictype_b, mumbomt, ggrab, ttrot, fflip",
-              "logictype_n, mumbomt, ggrab, ttrot, fflip",
-              "logictype_a, mumbomt, ggrab, ttrot, fflip", "logictype_a, mumbomt, eggaim, ceggs",
-              "logictype_g, $glitchedJSGAccess, ggrab, ttrot, fflip", "logictype_g, $glitchedJSGAccess, eggaim, ceggs"
-            ]
+            "ref": "Mayahem Temple - Jade Snake Grove/MT: Jade Snake Grove Cheato Page/Cheato Page",
+            "name": "MT: Jade Snake Grove Cheato Page"
           },
           {
-            "name": "MT: Grip Grab Silo",
-            "access_rules": [ "$mt_access, $can_access_JSG, $notecount|35" ]
+            "ref": "Mayahem Temple - Jade Snake Grove/MT: Grip Grab Silo/Silo",
+            "name": "MT: Grip Grab Silo"
           },
           {
-            "name": "MT: Breegull Blaster Silo",
-            "access_rules": [ "$mt_access, $notecount|30" ]
+            "ref": "Mayahem Temple - Main Area/MT: Breegull Blaster Silo/Silo",
+            "name": "MT: Breegull Blaster Silo"
           },
           {
-            "name": "MT: Egg Aim Silo",
-            "access_rules": [ "$mt_access, $notecount|25" ]
+            "ref": "Mayahem Temple - Main Area/MT: Egg Aim Silo/Silo",
+            "name": "MT: Egg Aim Silo"
           },
           {
-            "name": "MT: Targitzan Mumbo Token",
-            "visibility_rules": [ "goal_boss", "goal_wwing" ],
-            "access_rules": [ "$mt_access, bblaster" ]
+            "ref": "Mayahem Temple - Main Area/Targitzan's Temple/Targitzan Mumbo Token",
+            "name": "MT: Targitzan Mumbo Token"
           },
           {
-            "name": "MT: Kickball Mumbo Token",
-            "visibility_rules": [ "goal_minigame", "goal_wwing" ],
-            "access_rules": [ 
-              "logictype_b, $mt_access, humbamt, mumbomt",
-              "logictype_n, $mt_access, humbamt, mumbomt",
-              "logictype_a, $mt_access, humbamt, mumbomt",
-              "logictype_g, $mt_access, humbamt, $glitchedJSGAccess"
-            ]
+            "ref": "Mayahem Temple - Main Area/Mayan Kickball Stadium/Kickball Mumbo Token",
+            "name": "MT: Kickball Mumbo Token"
           }
         ],
         "map_locations": [
@@ -496,67 +444,44 @@
         "name": "Mayahem Temple - Jiggies",
         "sections": [
           {
-            "name": "MT: Targitzan Jiggy",
-            "access_rules": [ "$mt_access, bblaster" ]
+            "ref": "Mayahem Temple - Main Area/Targitzan's Temple/Targitzan Jiggy",
+            "name": "MT: Targitzan Jiggy"
           },
           {
-            "name": "MT: Slightly Sacred Chamber Jiggy",
-            "access_rules": [ "$mt_access, bblaster" ]
+            "ref": "Mayahem Temple - Main Area/Targitzan's Temple/Slightly Sacred Chamber Jiggy",
+            "name": "MT: Slightly Sacred Chamber Jiggy"
           },
           {
-            "name": "MT: Kickball Jiggy",
-            "access_rules": [ 
-              "logictype_b, $mt_access, humbamt, mumbomt",
-              "logictype_n, $mt_access, humbamt, mumbomt",
-              "logictype_a, $mt_access, humbamt, mumbomt",
-              "logictype_g, $mt_access, humbamt, $glitchedJSGAccess"
-            ]
+            "ref": "Mayahem Temple - Main Area/Mayan Kickball Stadium/Kickball Jiggy",
+            "name": "MT: Kickball Jiggy"
           },
           {
-            "name": "MT: Bovina Jiggy",
-            "access_rules": [ "$mt_access, $mt_jiggy4" ]
+            "ref": "Mayahem Temple - Main Area/MT: Bovina Jiggy/Jiggy",
+            "name": "MT: Bovina Jiggy"
           },
           {
-            "name": "MT: Treasure Chamber Jiggy",
-            "access_rules": [ "$mt_access, $mt_jiggy5" ]
+            "ref": "Mayahem Temple - Main Area/Treasure Chamber/Treasure Chamber Jiggy",
+            "name": "MT: Treasure Chamber Jiggy"
           },
           {
-            "name": "MT: Golden Goliath Jiggy",
-            "access_rules": [ 
-              "logictype_b, $mt_access, mumbomt",
-              "logictype_n, $mt_access, mumbomt",
-              "logictype_a, $mt_access, mumbomt",
-              "logictype_g, $mt_access, mumbomt", "logictype_g, $mt_access, $glitchedJSGAccess, $canShootEggs|ceggs"
-            ]
+            "ref": "Mayahem Temple - Jade Snake Grove/MT: Golden Goliath Jiggy/Jiggy",
+            "name": "MT: Golden Goliath Jiggy"
           },
           {
-            "name": "MT: Prison Compound Quicksand Jiggy",
-            "access_rules": [ "$mt_access, $canReachSlightlyElevatedLedge, sstride, $prison_compound_open" ]
+            "ref": "Mayahem Temple - Prison Compound/MT: Prison Compound Quicksand Jiggy/Jiggy",
+            "name": "MT: Prison Compound Quicksand Jiggy"
           },
           {
-            "name": "MT: Pillars Jiggy",
-            "access_rules": [ 
-              "$mt_access, $mt_jiggy8" 
-            ]
+            "ref": "Mayahem Temple - Prison Compound/MT: Pillars Jiggy/Jiggy",
+            "name": "MT: Pillars Jiggy"
           },
           {
-            "name": "MT: Top of Temple Jiggy",
-            "access_rules": [ 
-              "logictype_b, $mt_access, ttrot", "logictype_b, $mt_access, $MT_flight_pad",
-              "logictype_n, $mt_access, ttrot", "logictype_n, $mt_access, $MT_flight_pad", "logictype_n, $mt_access, fflip",
-              "logictype_a, $mt_access",
-              "logictype_g, $mt_access"
-            ]
+            "ref": "Mayahem Temple - Main Area/MT: Top of Temple Jiggy/Jiggy",
+            "name": "MT: Top of Temple Jiggy"
           },
           {
-            "name": "MT: Ssslumber Jiggy",
-            "access_rules": [ 
-              "logictype_b, $mt_access, ttrot, ggrab, fflip, mumbomt",
-              "logictype_n, $mt_access, ttrot, ggrab, fflip, mumbomt", "logictype_n, $mt_access, ttrot, bbust, fflip, mumbomt",
-              "logictype_a, $mt_access, ttrot, ggrab, fflip, mumbomt", "logictype_a, $mt_access, ttrot, bbust, fflip, mumbomt",
-              "logictype_g, $mt_access, ttrot, ggrab, fflip, mumbomt", "logictype_g, $mt_access, ttrot, bbust, fflip, mumbomt",
-              "logictype_g, $mt_access, ttrot, ggrab, fflip, $glitchedJSGAccess", "logictype_g, $mt_access, ttrot, bbust, fflip, $glitchedJSGAccess"
-            ]
+            "ref": "Mayahem Temple - Jade Snake Grove/MT: Ssslumber Jiggy/Jiggy",
+            "name": "MT: Ssslumber Jiggy"
           }
         ],
         "map_locations": [
@@ -571,72 +496,72 @@
         "name": "Mayahem Temple - Notes",
         "sections": [
           {
-            "name": "MT: Treble Clef",
-            "access_rules": [ "$mt_access" ]
+            "ref": "Mayahem Temple - Main Area/MT: Treble Clef/Treble Clef",
+            "name": "MT: Treble Clef"
           },
           {
-            "name": "MT: First Stairs (1) Note",
-            "access_rules": [ "$mt_access" ]
+            "ref": "Mayahem Temple - Main Area/MT: First Stairs Notes/Note 1",
+            "name": "MT: First Stairs (1) Note"
           },
           {
-            "name": "MT: First Stairs (2) Note",
-            "access_rules": [ "$mt_access" ]
+            "ref": "Mayahem Temple - Main Area/MT: First Stairs Notes/Note 2",
+            "name": "MT: First Stairs (2) Note"
           },
           {
-            "name": "MT: First Stairs (3) Note",
-            "access_rules": [ "$mt_access" ]
+            "ref": "Mayahem Temple - Main Area/MT: First Stairs Notes/Note 3",
+            "name": "MT: First Stairs (3) Note"
           },
           {
-            "name": "MT: First Stairs (4) Note",
-            "access_rules": [ "$mt_access" ]
+            "ref": "Mayahem Temple - Main Area/MT: First Stairs Notes/Note 4",
+            "name": "MT: First Stairs (4) Note"
           },
           {
-            "name": "MT: Second Stairs (1) Note",
-            "access_rules": [ "$mt_access" ]
+            "ref": "Mayahem Temple - Main Area/MT: Second Stairs Notes/Note 1",
+            "name": "MT: Second Stairs (1) Note"
           },
           {
-            "name": "MT: Second Stairs (2) Note",
-            "access_rules": [ "$mt_access" ]
+            "ref": "Mayahem Temple - Main Area/MT: Second Stairs Notes/Note 2",
+            "name": "MT: Second Stairs (2) Note"
           },
           {
-            "name": "MT: Second Stairs (3) Note",
-            "access_rules": [ "$mt_access" ]
+            "ref": "Mayahem Temple - Main Area/MT: Second Stairs Notes/Note 3",
+            "name": "MT: Second Stairs (3) Note"
           },
           {
-            "name": "MT: Second Stairs (4) Note",
-            "access_rules": [ "$mt_access" ]
+            "ref": "Mayahem Temple - Main Area/MT: Second Stairs Notes/Note 4",
+            "name": "MT: Second Stairs (4) Note"
           },
           {
-            "name": "MT: Third Stairs (1) Note",
-            "access_rules": [ "$mt_access" ]
+            "ref": "Mayahem Temple - Main Area/MT: Third Stairs Notes/Note 1",
+            "name": "MT: Third Stairs (1) Note"
           },
           {
-            "name": "MT: Third Stairs (2) Note",
-            "access_rules": [ "$mt_access" ]
+            "ref": "Mayahem Temple - Main Area/MT: Third Stairs Notes/Note 2",
+            "name": "MT: Third Stairs (2) Note"
           },
           {
-            "name": "MT: Third Stairs (3) Note",
-            "access_rules": [ "$mt_access" ]
+            "ref": "Mayahem Temple - Main Area/MT: Third Stairs Notes/Note 3",
+            "name": "MT: Third Stairs (3) Note"
           },
           {
-            "name": "MT: Third Stairs (4) Note",
-            "access_rules": [ "$mt_access" ]
+            "ref": "Mayahem Temple - Main Area/MT: Third Stairs Notes/Note 4",
+            "name": "MT: Third Stairs (4) Note"
           },
           {
-            "name": "MT: Top Stairs (1) Note",
-            "access_rules": [ "$mt_access" ]
+            "ref": "Mayahem Temple - Main Area/MT: Top Stairs Notes/Note 1",
+            "name": "MT: Top Stairs (1) Note"
           },
           {
-            "name": "MT: Top Stairs (2) Note",
-            "access_rules": [ "$mt_access" ]
+            "ref": "Mayahem Temple - Main Area/MT: Top Stairs Notes/Note 2",
+            "name": "MT: Top Stairs (2) Note"
           },
           {
-            "name": "MT: Top Stairs (3) Note",
-            "access_rules": [ "$mt_access" ]
+            "ref": "Mayahem Temple - Main Area/MT: Top Stairs Notes/Note 3",
+            "name": "MT: Top Stairs (3) Note"
           },
           {
-            "name": "MT: Outside Mumbo's Skull Note",
-            "access_rules": [ "$mt_access" ]
+            "ref": "Mayahem Temple - Main Area/MT: Outside Mumbo's Skull Note/Note",
+            "name": "MT: Outside Mumbo's Skull Note"
           }
         ],
         "map_locations": [
@@ -4105,7 +4030,7 @@
     "chest_opened_img": "/images/items/honeycombcheck2.png",
     "access_rules": [
       "$wasteland_start",
-      "@Pine Grove, dive, ttorp",
+      "@Pine Grove Underwater, ttorp",
       "@Quagmire, $QM_to_WL",
       "@Terrydactyland - Main Area, $TDL_to_IOHWL"
     ],
@@ -4280,13 +4205,22 @@
     "name": "Mayahem Temple - Main Area",
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+      "mta",
+      "@Hailfire Peaks - Lava Side, $HFP_to_MT"
+    ],
     "children": [
       {
         "name": "MT: Stadium Jinjo",
         "sections": [
           {
-            "ref": "Overworld/Mayahem Temple/MT: Stadium Jinjo",
-            "name": "Jinjo"
+            "name": "Jinjo",
+            "access_rules": [ 
+              "logictype_b, $MT_flight_pad",
+              "logictype_n, $MT_flight_pad",
+              "logictype_a, $MT_flight_pad", "logictype_a, $clockwork_shot",
+              "logictype_g, $MT_flight_pad", "logictype_g, $clockwork_shot"
+             ]
           }
         ],
         "map_locations": [
@@ -4301,8 +4235,13 @@
         "name": "MT: Water Pool Jinjo",
         "sections": [
           {
-            "ref": "Overworld/Mayahem Temple/MT: Water Pool Jinjo",
-            "name": "Jinjo"
+            "name": "Jinjo",
+            "access_rules": [ 
+              "logictype_b, dive",
+              "logictype_n",
+              "logictype_a",
+              "logictype_g"
+            ]
           }
         ],
         "map_locations": [
@@ -4317,7 +4256,6 @@
         "name": "MT: Bridge Jinjo",
         "sections": [
           {
-            "ref": "Overworld/Mayahem Temple/MT: Bridge Jinjo",
             "name": "Jinjo"
           }
         ],
@@ -4333,7 +4271,6 @@
         "name": "MT: Mumbo's Glowbo",
         "sections": [
           {
-            "ref": "Overworld/Mayahem Temple/MT: Mumbo's Glowbo",
             "name": "Glowbo"
           }
         ],
@@ -4349,8 +4286,13 @@
         "name": "MT: Entrance Honeycomb",
         "sections": [
           {
-            "ref": "Overworld/Mayahem Temple/MT: Entrance Honeycomb",
-            "name": "Honeycomb"
+            "name": "Honeycomb",
+            "access_rules": [ 
+              "logictype_b, humbamt, mumbomt",
+              "logictype_n, humbamt, mumbomt", "logictype_n, $canShootEggs|ceggs",
+              "logictype_a, humbamt, mumbomt", "logictype_a, $canShootEggs|ceggs",
+              "logictype_g, humbamt, mumbomt", "logictype_g, $canShootEggs|ceggs"
+            ]
           }
         ],
         "map_locations": [
@@ -4365,8 +4307,13 @@
         "name": "MT: Bovina Honeycomb",
         "sections": [
           {
-            "ref": "Overworld/Mayahem Temple/MT: Bovina Honeycomb",
-            "name": "Honeycomb"
+            "name": "Honeycomb",
+            "access_rules": [ 
+              "logictype_b, ggrab, fflip",
+              "logictype_n, fflip, ggrab", "logictype_n, fflip, bbust", "logictype_n, $MT_flight_pad",
+              "logictype_a, fflip, ggrab", "logictype_a, fflip, bbust", "logictype_a, $MT_flight_pad", "logictype_a, $clockwork_shot",
+              "logictype_g, fflip, ggrab", "logictype_g, fflip, bbust", "logictype_g, $MT_flight_pad", "logictype_g, $clockwork_shot"
+            ]
           }
         ],
         "map_locations": [
@@ -4381,8 +4328,13 @@
         "name": "MT: Treasure Chamber Cheato Page",
         "sections": [
           {
-            "ref": "Overworld/Mayahem Temple/MT: Treasure Chamber Cheato Page",
-            "name": "Cheato Page"
+            "name": "Cheato Page",
+            "access_rules": [ 
+              "logictype_b, eggaim, ggrab, $springPad, fflip", "logictype_b, eggaim, $MT_flight_pad",
+              "logictype_n, ggrab, $springPad, fflip, $canShootLinearEgg, eggaim", "logictype_n, $MT_flight_pad",
+              "logictype_a, ggrab, $springPad, fflip, $canShootLinearEgg, eggaim", "logictype_a, $MT_flight_pad", "logictype_a, $clockwork_shot",
+              "logictype_g, ggrab, $springPad, fflip, $canShootLinearEgg, eggaim", "logictype_g, $MT_flight_pad", "logictype_g, $clockwork_shot"
+            ]
           }
         ],
         "map_locations": [
@@ -4397,8 +4349,8 @@
         "name": "MT: Breegull Blaster Silo",
         "sections": [
           {
-            "ref": "Overworld/Mayahem Temple/MT: Breegull Blaster Silo",
-            "name": "Silo"
+            "name": "Silo",
+            "access_rules": [ "$notecount|30" ]
           }
         ],
         "map_locations": [
@@ -4413,8 +4365,8 @@
         "name": "MT: Egg Aim Silo",
         "sections": [
           {
-            "ref": "Overworld/Mayahem Temple/MT: Egg Aim Silo",
-            "name": "Silo"
+            "name": "Silo",
+            "access_rules": [ "$notecount|25" ]
           }
         ],
         "map_locations": [
@@ -4429,8 +4381,8 @@
         "name": "MT: Bovina Jiggy",
         "sections": [
           {
-            "ref": "Overworld/Mayahem Temple - Jiggies/MT: Bovina Jiggy",
-            "name": "Jiggy"
+            "name": "Jiggy",
+            "access_rules": [ "$mt_jiggy4" ]
           }
         ],
         "map_locations": [
@@ -4445,8 +4397,13 @@
         "name": "MT: Top of Temple Jiggy",
         "sections": [
           {
-            "ref": "Overworld/Mayahem Temple - Jiggies/MT: Top of Temple Jiggy",
-            "name": "Jiggy"
+            "name": "Jiggy",
+            "access_rules": [ 
+              "logictype_b, ttrot", "logictype_b, $MT_flight_pad",
+              "logictype_n, ttrot", "logictype_n, $MT_flight_pad", "logictype_n, fflip",
+              "logictype_a",
+              "logictype_g"
+            ]
           }
         ],
         "map_locations": [
@@ -4461,7 +4418,6 @@
         "name": "MT: Treble Clef",
         "sections": [
           {
-            "ref": "Overworld/Mayahem Temple - Notes/MT: Treble Clef",
             "name": "Treble Clef"
           }
         ],
@@ -4477,19 +4433,15 @@
         "name": "MT: First Stairs Notes",
         "sections": [
           {
-            "ref": "Overworld/Mayahem Temple - Notes/MT: First Stairs (1) Note",
             "name": "Note 1"
           },
           {
-            "ref": "Overworld/Mayahem Temple - Notes/MT: First Stairs (2) Note",
             "name": "Note 2"
           },
           {
-            "ref": "Overworld/Mayahem Temple - Notes/MT: First Stairs (3) Note",
             "name": "Note 3"
           },
           {
-            "ref": "Overworld/Mayahem Temple - Notes/MT: First Stairs (4) Note",
             "name": "Note 4"
           }
         ],
@@ -4505,19 +4457,15 @@
         "name": "MT: Second Stairs Notes",
         "sections": [
           {
-            "ref": "Overworld/Mayahem Temple - Notes/MT: Second Stairs (1) Note",
             "name": "Note 1"
           },
           {
-            "ref": "Overworld/Mayahem Temple - Notes/MT: Second Stairs (2) Note",
             "name": "Note 2"
           },
           {
-            "ref": "Overworld/Mayahem Temple - Notes/MT: Second Stairs (3) Note",
             "name": "Note 3"
           },
           {
-            "ref": "Overworld/Mayahem Temple - Notes/MT: Second Stairs (4) Note",
             "name": "Note 4"
           }
         ],
@@ -4533,19 +4481,15 @@
         "name": "MT: Third Stairs Notes",
         "sections": [
           {
-            "ref": "Overworld/Mayahem Temple - Notes/MT: Third Stairs (1) Note",
             "name": "Note 1"
           },
           {
-            "ref": "Overworld/Mayahem Temple - Notes/MT: Third Stairs (2) Note",
             "name": "Note 2"
           },
           {
-            "ref": "Overworld/Mayahem Temple - Notes/MT: Third Stairs (3) Note",
             "name": "Note 3"
           },
           {
-            "ref": "Overworld/Mayahem Temple - Notes/MT: Third Stairs (4) Note",
             "name": "Note 4"
           }
         ],
@@ -4561,15 +4505,12 @@
         "name": "MT: Top Stairs Notes",
         "sections": [
           {
-            "ref": "Overworld/Mayahem Temple - Notes/MT: Top Stairs (1) Note",
             "name": "Note 1"
           },
           {
-            "ref": "Overworld/Mayahem Temple - Notes/MT: Top Stairs (2) Note",
             "name": "Note 2"
           },
           {
-            "ref": "Overworld/Mayahem Temple - Notes/MT: Top Stairs (3) Note",
             "name": "Note 3"
           }
         ],
@@ -4585,7 +4526,6 @@
         "name": "MT: Outside Mumbo's Skull Note",
         "sections": [
           {
-            "ref": "Overworld/Mayahem Temple - Notes/MT: Outside Mumbo's Skull Note",
             "name": "Note"
           }
         ],
@@ -4599,22 +4539,20 @@
       },
       {
         "name": "Targitzan's Temple",
+        "access_rules": [ "bblaster" ],
         "sections": [
           {
-            "ref": "Overworld/Mayahem Temple - Jiggies/MT: Targitzan Jiggy",
             "name": "Targitzan Jiggy"
           },
           {
-            "ref": "Overworld/Mayahem Temple - Jiggies/MT: Slightly Sacred Chamber Jiggy",
             "name": "Slightly Sacred Chamber Jiggy"
           },
           {
-            "ref": "Overworld/Mayahem Temple/MT: Targitzan Temple Jinjo",
             "name": "Targitzan Temple Jinjo"
           },
           {
-            "ref": "Overworld/Mayahem Temple/MT: Targitzan Mumbo Token",
-            "name": "Targitzan Mumbo Token"
+            "name": "Targitzan Mumbo Token",
+            "visibility_rules": [ "goal_boss", "goal_wwing" ]
           }
         ],
         "map_locations": [
@@ -4627,14 +4565,19 @@
       },
       {
         "name": "Mayan Kickball Stadium",
+        "access_rules": [ 
+              "logictype_b, humbamt, mumbomt",
+              "logictype_n, humbamt, mumbomt",
+              "logictype_a, humbamt, mumbomt",
+              "logictype_g, humbamt, $glitchedJSGAccess"
+            ],
         "sections": [
           {
-            "ref": "Overworld/Mayahem Temple - Jiggies/MT: Kickball Jiggy",
             "name": "Kickball Jiggy"
           },
           {
-            "ref": "Overworld/Mayahem Temple/MT: Kickball Mumbo Token",
-            "name": "Kickball Mumbo Token"
+            "name": "Kickball Mumbo Token",
+            "visibility_rules": [ "goal_minigame", "goal_wwing" ]
           }
         ],
         "map_locations": [
@@ -4649,12 +4592,17 @@
         "name": "Treasure Chamber",
         "sections": [
           {
-            "ref": "Overworld/Mayahem Temple - Jiggies/MT: Treasure Chamber Jiggy",
-            "name": "Treasure Chamber Jiggy"
+            "name": "Treasure Chamber Jiggy",
+            "access_rules": [ "$mt_jiggy5" ]
           },
           {
-            "ref": "Overworld/Mayahem Temple/MT: Treasure Chamber Honeycomb",
-            "name": "Treasure Chamber Honeycomb"
+            "name": "Treasure Chamber Honeycomb",
+            "access_rules": [ 
+              "logictype_b, $canShootLinearEgg, eggaim, ttrot",
+              "logictype_n, $MT_flight_pad, $canShootEggs, ggrab", "logictype_n, $MT_flight_pad, $canShootEggs, ttrot", "logictype_n, $canShootEggs, eggaim, ttrot",
+              "logictype_a, $MT_flight_pad, $canShootEggs, ggrab", "logictype_a, $MT_flight_pad, $canShootEggs, $clockwork_shot", "logictype_a, $MT_flight_pad, $canShootEggs, ttrot", "logictype_a, $canShootEggs, eggaim, ttrot", "logictype_a, $canShootEggs, eggaim, $clockwork_shot",
+              "logictype_g, $MT_flight_pad, $canShootEggs, ggrab", "logictype_g, $MT_flight_pad, $canShootEggs, $clockwork_shot", "logictype_g, $MT_flight_pad, $canShootEggs, ttrot", "logictype_g, $canShootEggs, eggaim, ttrot", "logictype_g, $canShootEggs, eggaim, $clockwork_shot"
+            ]
           }
         ],
         "map_locations": [
@@ -4669,27 +4617,27 @@
         "name": "Jade Snake Grove",
         "sections": [
           {
-            "ref": "Overworld/Mayahem Temple/MT: Jade Snake Grove Jinjo",
+            "ref": "Mayahem Temple - Jade Snake Grove/MT: Jade Snake Grove Jinjo/Jinjo",
             "name": "Jinjo"
           },
           {
-            "ref": "Overworld/Mayahem Temple/MT: Jade Snake Grove Glowbo",
+            "ref": "Mayahem Temple - Jade Snake Grove/MT: Jade Snake Grove Glowbo/Glowbo",
             "name": "Glowbo"
           },
           {
-            "ref": "Overworld/Mayahem Temple/MT: Jade Snake Grove Cheato Page",
+            "ref": "Mayahem Temple - Jade Snake Grove/MT: Jade Snake Grove Cheato Page/Cheato Page",
             "name": "Cheato Page"
           },
           {
-            "ref": "Overworld/Mayahem Temple/MT: Grip Grab Silo",
+            "ref": "Mayahem Temple - Jade Snake Grove/MT: Grip Grab Silo/Silo",
             "name": "Grip Grab Silo"
           },
           {
-            "ref": "Overworld/Mayahem Temple - Jiggies/MT: Golden Goliath Jiggy",
+            "ref": "Mayahem Temple - Jade Snake Grove/MT: Golden Goliath Jiggy/Jiggy",
             "name": "Golden Goliath Jiggy"
           },
           {
-            "ref": "Overworld/Mayahem Temple - Jiggies/MT: Ssslumber Jiggy",
+            "ref": "Mayahem Temple - Jade Snake Grove/MT: Ssslumber Jiggy/Jiggy",
             "name": "Ssslumber Jiggy"
           }
         ],
@@ -4705,15 +4653,15 @@
         "name": "Prison Compound",
         "sections": [
           {
-            "ref": "Overworld/Mayahem Temple/MT: Prison Compound Cheato Page",
+            "ref": "Mayahem Temple - Prison Compound/MT: Prison Compound Cheato Page/Cheato Page",
             "name": "Cheato Page"
           },
           {
-            "ref": "Overworld/Mayahem Temple - Jiggies/MT: Prison Compound Quicksand Jiggy",
+            "ref": "Mayahem Temple - Prison Compound/MT: Prison Compound Quicksand Jiggy/Jiggy",
             "name": "Quicksand Jiggy"
           },
           {
-            "ref": "Overworld/Mayahem Temple - Jiggies/MT: Pillars Jiggy",
+            "ref": "Mayahem Temple - Prison Compound/MT: Pillars Jiggy/Jiggy",
             "name": "Pillars Jiggy"
           }
         ],
@@ -4731,13 +4679,24 @@
     "name": "Mayahem Temple - Prison Compound",
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ 
+              "logictype_b, $has|geggs, @Mayahem Temple - Main Area", "logictype_b, $has|geggs, @Hailfire Peaks - Lava Side, $HFP_to_MT, splitup", "logictype_b, mumbomt, @Mayahem Temple - Main Area", "logictype_b, mumbomt, @Hailfire Peaks - Lava Side, $HFP_to_MT, splitup",
+              "logictype_n, $has_explosives, @Mayahem Temple - Main Area", "logictype_n, $has_explosives, @Hailfire Peaks - Lava Side, $HFP_to_MT, splitup", "logictype_n, mumbomt, @Mayahem Temple - Main Area", "logictype_n, mumbomt, @Hailfire Peaks - Lava Side, $HFP_to_MT, splitup",
+              "logictype_a, $has_explosives, @Mayahem Temple - Main Area", "logictype_a, $has_explosives, @Hailfire Peaks - Lava Side, $HFP_to_MT, splitup", "logictype_a, mumbomt, @Mayahem Temple - Main Area", "logictype_a, mumbomt, @Hailfire Peaks - Lava Side, $HFP_to_MT, splitup",
+              "logictype_g, $has_explosives, @Mayahem Temple - Main Area", "logictype_g, $has_explosives, @Hailfire Peaks - Lava Side, $HFP_to_MT, splitup", "logictype_g, mumbomt, @Mayahem Temple - Main Area", "logictype_g, mumbomt, @Hailfire Peaks - Lava Side, $HFP_to_MT, splitup"
+            ],
     "children": [
       {
         "name": "MT: Prison Compound Cheato Page",
         "sections": [
           {
-            "ref": "Overworld/Mayahem Temple/MT: Prison Compound Cheato Page",
-            "name": "Cheato Page"
+            "name": "Cheato Page",
+            "access_rules": [ 
+              "logictype_b, $canReachSlightlyElevatedLedge",
+              "logictype_n, $canReachSlightlyElevatedLedge",
+              "logictype_a, $canReachSlightlyElevatedLedge", "logictype_a, eggaim, ceggs",
+              "logictype_g, $canReachSlightlyElevatedLedge", "logictype_g, eggaim, ceggs"
+            ]
           }
         ],
         "map_locations": [
@@ -4752,8 +4711,8 @@
         "name": "MT: Prison Compound Quicksand Jiggy",
         "sections": [
           {
-            "ref": "Overworld/Mayahem Temple - Jiggies/MT: Prison Compound Quicksand Jiggy",
-            "name": "Jiggy"
+            "name": "Jiggy",
+            "access_rules": [ "$canReachSlightlyElevatedLedge, sstride" ]
           }
         ],
         "map_locations": [
@@ -4768,8 +4727,8 @@
         "name": "MT: Pillars Jiggy",
         "sections": [
           {
-            "ref": "Overworld/Mayahem Temple - Jiggies/MT: Pillars Jiggy",
-            "name": "Jiggy"
+            "name": "Jiggy",
+            "access_rules": [ "$mt_jiggy8" ]
           }
         ],
         "map_locations": [
@@ -4786,13 +4745,19 @@
     "name": "Mayahem Temple - Jade Snake Grove",
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "$can_access_JSG" ],
     "children": [
       {
         "name": "MT: Jade Snake Grove Jinjo",
         "sections": [
           {
-            "ref": "Overworld/Mayahem Temple/MT: Jade Snake Grove Jinjo",
-            "name": "Jinjo"
+            "name": "Jinjo",
+            "access_rules": [ 
+              "logictype_b, ggrab, fflip",
+              "logictype_n, fflip, bbust", "logictype_n, fflip, ggrab",
+              "logictype_a, fflip, bbust", "logictype_a, fflip, ggrab", "logictype_a, $clockwork_shot",
+              "logictype_g, fflip, bbust", "logictype_g, fflip, ggrab", "logictype_g, $clockwork_shot"
+            ]
           }
         ],
         "map_locations": [
@@ -4807,7 +4772,6 @@
         "name": "MT: Jade Snake Grove Glowbo",
         "sections": [
           {
-            "ref": "Overworld/Mayahem Temple/MT: Jade Snake Grove Glowbo",
             "name": "Glowbo"
           }
         ],
@@ -4823,8 +4787,13 @@
         "name": "MT: Jade Snake Grove Cheato Page",
         "sections": [
           {
-            "ref": "Overworld/Mayahem Temple/MT: Jade Snake Grove Cheato Page",
-            "name": "Cheato Page"
+            "name": "Cheato Page",
+            "access_rules": [ 
+              "logictype_b, ggrab, ttrot, fflip",
+              "logictype_n, ggrab, ttrot, fflip",
+              "logictype_a, ggrab, ttrot, fflip", "logictype_a, eggaim, ceggs",
+              "logictype_g, ggrab, ttrot, fflip", "logictype_g, eggaim, ceggs"
+            ]
           }
         ],
         "map_locations": [
@@ -4839,8 +4808,8 @@
         "name": "MT: Grip Grab Silo",
         "sections": [
           {
-            "ref": "Overworld/Mayahem Temple/MT: Grip Grab Silo",
-            "name": "Silo"
+            "name": "Silo",
+            "access_rules": [ "$notecount|35" ]
           }
         ],
         "map_locations": [
@@ -4855,8 +4824,11 @@
         "name": "MT: Golden Goliath Jiggy",
         "sections": [
           {
-            "ref": "Overworld/Mayahem Temple - Jiggies/MT: Golden Goliath Jiggy",
-            "name": "Jiggy"
+            "name": "Jiggy",
+            "access_rules": [ 
+              "logictype_b", "logictype_n", "logictype_a",
+              "logictype_g, mumbomt", "logictype_g, $canShootEggs|ceggs"
+            ]
           }
         ],
         "map_locations": [
@@ -4871,8 +4843,14 @@
         "name": "MT: Ssslumber Jiggy",
         "sections": [
           {
-            "ref": "Overworld/Mayahem Temple - Jiggies/MT: Ssslumber Jiggy",
-            "name": "Jiggy"
+            "name": "Jiggy",
+            "access_rules": [ 
+              "logictype_b, ttrot, ggrab, fflip",
+              "logictype_n, ttrot, ggrab, fflip", "logictype_n, ttrot, bbust, fflip",
+              "logictype_a, ttrot, ggrab, fflip", "logictype_a, ttrot, bbust, fflip",
+              "logictype_g, ttrot, ggrab, fflip", "logictype_g, ttrot, bbust, fflip",
+              "logictype_g, ttrot, ggrab, fflip", "logictype_g, ttrot, bbust, fflip"
+            ]
           }
         ],
         "map_locations": [
@@ -5567,6 +5545,9 @@
     "name": "Witchyworld - Main Area",
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+      "wwa"
+    ],
     "children": [
       {
         "name": "WW: Mrs. Boggy Jiggy",
@@ -7053,6 +7034,9 @@
     "name": "Terrydactyland - Main Area",
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+      "tda"
+    ],
     "children": [
       {
         "name": "TDL: Train Switch",
@@ -7553,7 +7537,7 @@
             "y": 488
           }
         ]
-      },
+      }
     ]
   },
   {
