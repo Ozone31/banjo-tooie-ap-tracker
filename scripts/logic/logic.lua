@@ -94,9 +94,9 @@ end
 
 function dilberta_free()
     if logictype.CurrentStage == 0 then
-        return has("mta") and (has_explosives() or has("mumbomt")) and has("bdrill") and has("humbamt")
+        return (has_explosives() or has("mumbomt")) and has("bdrill") and has("humbamt")
     else
-        return has("mta") and (has_explosives() or has("mumbomt")) and has("bdrill")
+        return (has_explosives() or has("mumbomt")) and has("bdrill")
     end
 end
 
@@ -555,6 +555,14 @@ function PL_to_GGM()
         return has("gga")
     else
         return has("gga") or (has("bbust") and (has("fflip") or has("tjump") or (has("ttrot") and (has("flutter") or has("arat")))))
+    end
+end
+
+function PL_to_PG()
+    if logictype.CurrentStage == 0 then
+        return has("feggs") and has("eggaim")
+    else
+        return (has("feggs") and has("eggaim")) or (has("ttrot") and canShootEggs("feggs"))
     end
 end
 

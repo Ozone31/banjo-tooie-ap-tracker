@@ -576,93 +576,68 @@
         "name": "Glitter Gulch Mine",
         "sections": [
           {
-            "name": "GGM: Water Storage Jinjo",
-            "access_rules": [ "$ggm_access, $can_access_water_storage_jinjo_from_GGM", "$jrl_access, $can_access_water_storage_jinjo_from_JRL" ]
+            "ref": "Glitter Gulch Mine - Water Storage Jinjo/GGM: Water Storage Jinjo/Jinjo",
+            "name": "GGM: Water Storage Jinjo"
           },
           {
-            "name": "GGM: Jail Jinjo",
-            "access_rules": [ "$ggm_access, $humbaGGM" ]
+            "ref": "Glitter Gulch Mine - Gloomy Caverns/GGM: Jail Jinjo/Jinjo",
+            "name": "GGM: Jail Jinjo"
           },
           {
-            "name": "GGM: Toxic Gas Cave Jinjo",
-            "access_rules": [ "$ggm_access" ]
+            "ref": "Glitter Gulch Mine - Main Area/Toxic Gas Cave/Jinjo",
+            "name": "GGM: Toxic Gas Cave Jinjo"
           },
           {
-            "name": "GGM: Boulder Jinjo",
-            "access_rules": [ "$ggm_access, $humbaGGM", "$ggm_access, $ggm_trot, $billDrill" ]
+            "ref": "Glitter Gulch Mine - Main Area/GGM: Boulder Jinjo/Jinjo",
+            "name": "GGM: Boulder Jinjo"
           },
           {
-            "name": "GGM: Mine Tracks Jinjo",
-            "access_rules": [ "$ggm_access" ]
+            "ref": "Glitter Gulch Mine - Main Area/GGM: Mine Tracks Jinjo/Jinjo",
+            "name": "GGM: Mine Tracks Jinjo"
           },
           {
-            "name": "GGM: Near Entrance Glowbo",
-            "access_rules": [ "$ggm_access, $GGMSlope" ]
+            "ref": "Glitter Gulch Mine - Main Area/GGM: Near Entrance Glowbo/Glowbo",
+            "name": "GGM: Near Entrance Glowbo"
           },
           {
-            "name": "GGM: Mine Entrance 2 Glowbo",
-            "access_rules": [ "$ggm_access" ]
+            "ref": "Glitter Gulch Mine - Main Area/GGM: Mine Entrance 2 Glowbo/Glowbo",
+            "name": "GGM: Mine Entrance 2 Glowbo"
           },
           {
-            "name": "HFP: Mega Glowbo",
-            "access_rules": [ 
-              "logictype_b, $ggm_access, ttorp, ikey, dive, tjump",
-              "logictype_n, $ggm_access, ttorp, ikey, dive, tjump", "logictype_n, $ggm_access, ttorp, ikey, dive, bbust",
-              "logictype_a, $ggm_access, ttorp, ikey, dive, tjump", "logictype_a, $ggm_access, ttorp, ikey, dive, bbust", "logictype_a, $ggm_access, ttorp, ikey, dive, $clockwork_shot",
-              "logictype_g, $ggm_access, ttorp, ikey, dive, tjump", "logictype_g, $ggm_access, ttorp, ikey, dive, bbust", "logictype_g, $ggm_access, ttorp, ikey, dive, $clockwork_shot"
-            ]
+            "ref": "Glitter Gulch Mine - Waterfall Cavern/HFP: Mega Glowbo/Mega Glowbo",
+            "name": "HFP: Mega Glowbo"
           },
           {
-            "name": "GGM: Toxic Gas Cave Honeycomb",
-            "access_rules": [ "$ggm_access, $GM_boulders" ]
+            "ref": "Glitter Gulch Mine - Main Area/Toxic Gas Cave/Honeycomb",
+            "name": "GGM: Toxic Gas Cave Honeycomb"
           },
           {
-            "name": "GGM: Prospector Boulder Honeycomb",
-            "access_rules": [ 
-              "logictype_b, $ggm_access, fflip, $billDrill", "logictype_b, $ggm_access, $ggm_trot, $billDrill", "logictype_b, $ggm_access, $canReachSlightlyElevatedLedge, $billDrill", "logictype_b, $ggm_access, $humbaGGM",
-              "logictype_n, $ggm_access, fflip, $billDrill", "logictype_n, $ggm_access, $ggm_trot, $billDrill", "logictype_n, $ggm_access, $canReachSlightlyElevatedLedge, $billDrill", "logictype_n, $ggm_access, $humbaGGM",
-              "logictype_a, $ggm_access, fflip, $billDrill", "logictype_a, $ggm_access, $ggm_trot, $billDrill", "logictype_a, $ggm_access, $canReachSlightlyElevatedLedge, $billDrill", "logictype_a, $ggm_access, $humbaGGM",
-              "logictype_g, $ggm_access, fflip, $billDrill", "logictype_g, $ggm_access, $ggm_trot, $billDrill", "logictype_g, $ggm_access, $canReachSlightlyElevatedLedge, $billDrill", "logictype_g, $ggm_access, $humbaGGM", "logictype_g, $ggm_access, $egg_barge"
-            ]
+            "ref": "Glitter Gulch Mine - Main Area/Near Prospector's Hut/Boulder Honeycomb",
+            "name": "GGM: Prospector Boulder Honeycomb"
           },
           {
-            "name": "GGM: Train Station Honeycomb",
-            "access_rules": [ "$ggm_access, $hasGroundAttack", "$ggm_access, $humbaGGM" ]
+            "ref": "Glitter Gulch Mine - Main Area/Train Station (Glitter Gulch Mine)/Honeycomb",
+            "name": "GGM: Train Station Honeycomb"
           },
           {
-            "name": "GGM: Canary Mary Cheato Page",
-            "access_rules": [ "$ggm_access, $canary_mary_free" ]
+            "ref": "Glitter Gulch Mine - Main Area/Canary Mary/Cheato Page",
+            "name": "GGM: Canary Mary Cheato Page"
           },
           {
-            "name": "GGM: Entrance Cheato Page",
-            "access_rules": [ 
-              "logictype_b, $ggm_access, springb",
-              "logictype_n, $ggm_access, springb", "logictype_n, $ggm_access, climb, flutter", "logictype_n, $ggm_access, climb, arat", "logictype_n, $ggm_access, $GM_boulders, splitup, lspring",
-              "logictype_a, $ggm_access, springb", "logictype_a, $ggm_access, climb, flutter", "logictype_a, $ggm_access, climb, arat", "logictype_a, $ggm_access, eggaim, ceggs", "logictype_a, $ggm_access, $GM_boulders, splitup, lspring",
-              "logictype_g, $ggm_access, springb", "logictype_g, $ggm_access, climb, flutter", "logictype_g, $ggm_access, climb, arat", "logictype_g, $ggm_access, eggaim, ceggs", "logictype_g, $ggm_access, $GM_boulders, splitup, lspring"
-            ]
+            "ref": "Glitter Gulch Mine - Main Area/GGM: Entrance Cheato Page/Cheato Page",
+            "name": "GGM: Entrance Cheato Page"
           },
           {
-            "name": "GGM: Water Storage Cheato Page",
-            "access_rules": [ 
-              "logictype_b, $ggm_access, ggrab, fflip, dive, climb",
-              "logictype_n, $ggm_access, ggrab, fflip, dive, climb", "logictype_n, $ggm_access, bbust, fflip, dive, climb",
-              "logictype_a, $ggm_access, ggrab, fflip, dive, climb", "logictype_a, $ggm_access, bbust, fflip, dive, climb",
-              "logictype_g, $ggm_access, ggrab, fflip, dive, climb", "logictype_g, $ggm_access, bbust, fflip, dive, climb", "logictype_g, $ggm_access, splitup, lspring, glide"
-            ]
+            "ref": "Glitter Gulch Mine - Water Storage/GGM: Water Storage Cheato Page/Cheato Page",
+            "name": "GGM: Water Storage Cheato Page"
           },
           {
-            "name": "GGM: Bill Drill Silo",
-            "access_rules": [ 
-              "logictype_b, $ggm_access, $notecount|85, fflip",
-              "logictype_n, $ggm_access, $notecount|85, fflip",
-              "logictype_a, $ggm_access, $notecount|85, fflip", "logictype_a, $ggm_access, $notecount|85, ttrain",
-              "logictype_g, $ggm_access, $notecount|85, fflip", "logictype_g, $ggm_access, $notecount|85, ttrain"
-            ]
+            "ref": "Glitter Gulch Mine - Main Area/GGM: Bill Drill Silo/Silo",
+            "name": "GGM: Bill Drill Silo"
           },
           {
-            "name": "GGM: Beak Bayonet Silo",
-            "access_rules": [ "$ggm_access, $GM_boulders, $notecount|95" ]
+            "ref": "Glitter Gulch Mine - Main Area/Ordnance Storage/Beak Bayonet Silo",
+            "name": "GGM: Beak Bayonet Silo"
           },
           {
             "ref": "Inside Chuffy/Chuffy/Chuffy",
@@ -673,9 +648,8 @@
             "name": "GGM: Old King Coal Mumbo Token"
           },
           {
-            "name": "GGM: Ordnance Storage Mumbo Token",
-            "visibility_rules": [ "goal_minigame", "goal_wwing" ],
-            "access_rules": [ "$ggm_access, bblaster, bbayonet, $GM_boulders" ]
+            "ref": "Glitter Gulch Mine - Main Area/Ordnance Storage/Mumbo Token",
+            "name": "GGM: Ordnance Storage Mumbo Token"
           }
         ],
         "map_locations": [
@@ -694,65 +668,40 @@
             "name": "GGM: Old King Coal Jiggy"
           },
           {
-            "name": "GGM: Canary Mary Jiggy",
-            "access_rules": [ "$ggm_access, $canary_mary_free" ]
+            "ref": "Glitter Gulch Mine - Main Area/Canary Mary/Jiggy",
+            "name": "GGM: Canary Mary Jiggy"
           },
           {
-            "name": "GGM: Generator Cavern Jiggy",
-            "access_rules": [
-              "logictype_b, $ggm_access, feggs, eggaim, $longJump, fflip",
-              "logictype_n, $ggm_access, $longJump, fflip, splitup", "logictype_n, $ggm_access, $longJump, fflip, $has_fire", "logictype_n, $ggm_access, $longJump, fflip, $billDrill", "logictype_n, $ggm_access, fflip, bbust, climb",
-              "logictype_a, $ggm_access, $longJump, fflip", "logictype_a, $ggm_access, fflip, bbust, climb", "logictype_a, $ggm_access, $clockwork_shot",
-              "logictype_g, $ggm_access, $longJump, fflip", "logictype_g, $ggm_access, fflip, bbust, climb", "logictype_g, $ggm_access, $clockwork_shot"
-            ]
+            "ref": "Glitter Gulch Mine - Gloomy Caverns/Generator Cavern/Jiggy",
+            "name": "GGM: Generator Cavern Jiggy"
           },
           {
-            "name": "GGM: Waterfall Cavern Jiggy",
-            "access_rules": [
-              "logictype_b, $ggm_access, ggrab, ttrain", "logictype_b, $ggm_access, $canDoSmallElevation, ttrain",
-              "logictype_n, $ggm_access",
-              "logictype_a, $ggm_access",
-              "logictype_g, $ggm_access"
-            ]
+            "ref": "Glitter Gulch Mine - Waterfall Cavern/GGM: Waterfall Cavern Jiggy/Jiggy",
+            "name": "GGM: Waterfall Cavern Jiggy"
           },
           {
-            "name": "GGM: Ordnance Storage Jiggy",
-            "access_rules": [ "$ggm_access, bblaster, bbayonet, $GM_boulders" ]
+            "ref": "Glitter Gulch Mine - Main Area/Ordnance Storage/Jiggy",
+            "name": "GGM: Ordnance Storage Jiggy"
           },
           {
-            "name": "GGM: Dilberta Jiggy",
-            "access_rules": [ "$dilberta_free" ]
+            "ref": "Glitter Gulch Mine - Prospector's Hut/GGM: Dilberta Jiggy/Jiggy",
+            "name": "GGM: Dilberta Jiggy"
           },
           {
-            "name": "GGM: Crushing Shed Jiggy",
-            "access_rules": [ "$ggm_access, $mumboGGM, bbarge" ]
+            "ref": "Glitter Gulch Mine - Main Area/GGM: Crushing Shed Jiggy/Jiggy",
+            "name": "GGM: Crushing Shed Jiggy"
           },
           {
-            "name": "GGM: Waterfall Jiggy",
-            "access_rules": [ 
-              "logictype_b, $ggm_access, springb",
-              "logictype_n, $ggm_access, springb", "logictype_n, $ggm_access, splitup, glide, $GM_boulders", "logictype_n, $ggm_access, splitup, wwhack, tjump, $GM_boulders", "logictype_n, $ggm_access, splitup, wwhack, lspring, $GM_boulders",
-              "logictype_a, $ggm_access, springb", "logictype_a, $ggm_access, splitup, glide, $GM_boulders", "logictype_a, $ggm_access, splitup, wwhack, tjump, $GM_boulders", "logictype_a, $ggm_access, splitup, wwhack, lspring, $GM_boulders", "logictype_a, $ggm_access, $clockwork_shot",
-              "logictype_g, $ggm_access, springb", "logictype_g, $ggm_access, splitup, glide, $GM_boulders", "logictype_g, $ggm_access, splitup, wwhack, tjump, $GM_boulders", "logictype_g, $ggm_access, splitup, wwhack, lspring, $GM_boulders", "logictype_g, $ggm_access, $clockwork_shot"
-            ]
+            "ref": "Glitter Gulch Mine - Main Area/GGM: Waterfall Jiggy/Jiggy",
+            "name": "GGM: Waterfall Jiggy"
           },
           {
-            "name": "GGM: Power Hut Basement Jiggy",
-            "access_rules": [ 
-              "logictype_b, $ggm_access, $GM_boulders, splitup, climb",
-              "logictype_n, $ggm_access, $GM_boulders, splitup, climb", "logictype_n, $ggm_access, $GM_boulders, $has_fire", "logictype_n, $ggm_access, $GM_boulders, $billDrill",
-              "logictype_a, $ggm_access, $GM_boulders",
-              "logictype_g, $ggm_access, $GM_boulders"
-            ]
+            "ref": "Glitter Gulch Mine - Gloomy Caverns/Power Hut Basement/Jiggy",
+            "name": "GGM: Power Hut Basement Jiggy"
           },
           {
-            "name": "GGM: Flooded Caves Jiggy",
-            "access_rules": [
-              "logictype_b, $ggm_access, $humbaGGM, dive",
-              "logictype_n, $ggm_access, dive, tjump, $humbaGGM", "logictype_n, $ggm_access, dive, tjump, $longJump",
-              "logictype_a, $ggm_access, dive, tjump, $humbaGGM", "logictype_a, $ggm_access, dive, tjump, $longJump",
-              "logictype_g, $ggm_access, dive, tjump, $humbaGGM", "logictype_g, $ggm_access, dive, tjump, $longJump"
-            ]
+            "ref": "Glitter Gulch Mine - Main Area/Flooded Caves/Jiggy",
+            "name": "GGM: Flooded Caves Jiggy"
           }
         ],
         "map_locations": [
@@ -767,137 +716,72 @@
         "name": "Glitter Gulch Mine - Notes",
         "sections": [
           {
-            "name": "GGM: Treble Clef",
-            "access_rules": [ 
-              "logictype_b, $ggm_access, dive",
-              "logictype_n, $ggm_access, dive",
-              "logictype_a, $ggm_access, dive",
-              "logictype_g, $ggm_access, $GM_boulders, splitup, lspring"
-            ]
+            "ref": "Glitter Gulch Mine - Water Storage/GGM: Treble Clef/Treble Clef",
+            "name": "GGM: Treble Clef"
           },
           {
-            "name": "GGM: Hill by Crushing Shed (1) Note",
-            "access_rules": [ 
-              "logictype_b, $ggm_access, $GGMSlope",
-              "logictype_n, $ggm_access, $GGMSlope",
-              "logictype_a, $ggm_access, $GGMSlope",
-              "logictype_g, $ggm_access, $GGMSlope", "logictype_g, $ggm_access, $clockwork_shot"
-            ]
+            "ref": "Glitter Gulch Mine - Main Area/GGM: Hill by Crushing Shed Notes/Note 1",
+            "name": "GGM: Hill by Crushing Shed (1) Note"
           },
           {
-            "name": "GGM: Hill by Crushing Shed (2) Note",
-            "access_rules": [ 
-              "logictype_b, $ggm_access, $GGMSlope",
-              "logictype_n, $ggm_access, $GGMSlope",
-              "logictype_a, $ggm_access, $GGMSlope",
-              "logictype_g, $ggm_access, $GGMSlope", "logictype_g, $ggm_access, $clockwork_shot"
-            ]
+            "ref": "Glitter Gulch Mine - Main Area/GGM: Hill by Crushing Shed Notes/Note 2",
+            "name": "GGM: Hill by Crushing Shed (2) Note"
           },
           {
-            "name": "GGM: Hill by Crushing Shed (3) Note",
-            "access_rules": [ 
-              "logictype_b, $ggm_access, $GGMSlope",
-              "logictype_n, $ggm_access, $GGMSlope",
-              "logictype_a, $ggm_access, $GGMSlope",
-              "logictype_g, $ggm_access, $GGMSlope", "logictype_g, $ggm_access, $clockwork_shot"
-            ]
+            "ref": "Glitter Gulch Mine - Main Area/GGM: Hill by Crushing Shed Notes/Note 3",
+            "name": "GGM: Hill by Crushing Shed (3) Note"
           },
           {
-            "name": "GGM: Hill by Crushing Shed (4) Note",
-            "access_rules": [ 
-              "logictype_b, $ggm_access, $GGMSlope",
-              "logictype_n, $ggm_access, $GGMSlope",
-              "logictype_a, $ggm_access, $GGMSlope",
-              "logictype_g, $ggm_access, $GGMSlope", "logictype_g, $ggm_access, $clockwork_shot"
-            ]
+            "ref": "Glitter Gulch Mine - Main Area/GGM: Hill by Crushing Shed Notes/Note 4",
+            "name": "GGM: Hill by Crushing Shed (4) Note"
           },
           {
-            "name": "GGM: Near Prospector's Hut Bottom-Left Note",
-            "access_rules": [ 
-              "logictype_b, $ggm_access, $GGMSlope", "logictype_b, $ggm_access, fflip",
-              "logictype_n, $ggm_access, $GGMSlope", "logictype_n, $ggm_access, fflip",
-              "logictype_a, $ggm_access, $GGMSlope", "logictype_a, $ggm_access, fflip", "logictype_a, $ggm_access, $clockwork_shot",
-              "logictype_g, $ggm_access, $GGMSlope", "logictype_g, $ggm_access, fflip", "logictype_g, $ggm_access, $clockwork_shot"
-            ]
+            "ref": "Glitter Gulch Mine - Main Area/Near Prospector's Hut/Bottom-Left Note",
+            "name": "GGM: Near Prospector's Hut Bottom-Left Note"
           },
           {
-            "name": "GGM: Near Prospector's Hut Top-Left Note",
-            "access_rules": [ 
-              "logictype_b, $ggm_access, $GGMSlope", "logictype_b, $ggm_access, fflip",
-              "logictype_n, $ggm_access, $GGMSlope", "logictype_n, $ggm_access, fflip",
-              "logictype_a, $ggm_access, $GGMSlope", "logictype_a, $ggm_access, fflip", "logictype_a, $ggm_access, $clockwork_shot",
-              "logictype_g, $ggm_access, $GGMSlope", "logictype_g, $ggm_access, fflip", "logictype_g, $ggm_access, $clockwork_shot"
-            ]
+            "ref": "Glitter Gulch Mine - Main Area/Near Prospector's Hut/Top-Left Note",
+            "name": "GGM: Near Prospector's Hut Top-Left Note"
           },
           {
-            "name": "GGM: Near Prospector's Hut Top-Right Note",
-            "access_rules": [ 
-              "logictype_b, $ggm_access, $GGMSlope", "logictype_b, $ggm_access, fflip",
-              "logictype_n, $ggm_access, $GGMSlope", "logictype_n, $ggm_access, fflip",
-              "logictype_a, $ggm_access, $GGMSlope", "logictype_a, $ggm_access, fflip", "logictype_a, $ggm_access, $clockwork_shot",
-              "logictype_g, $ggm_access, $GGMSlope", "logictype_g, $ggm_access, fflip", "logictype_g, $ggm_access, $clockwork_shot"
-            ]
+            "ref": "Glitter Gulch Mine - Main Area/Near Prospector's Hut/Top-Right Note",
+            "name": "GGM: Near Prospector's Hut Top-Right Note"
           },
           {
-            "name": "GGM: Near Prospector's Hut Middle-Right Note",
-            "access_rules": [ 
-              "logictype_b, $ggm_access, $GGMSlope", "logictype_b, $ggm_access, fflip",
-              "logictype_n, $ggm_access, $GGMSlope", "logictype_n, $ggm_access, fflip",
-              "logictype_a, $ggm_access, $GGMSlope", "logictype_a, $ggm_access, fflip", "logictype_a, $ggm_access, $clockwork_shot",
-              "logictype_g, $ggm_access, $GGMSlope", "logictype_g, $ggm_access, fflip", "logictype_g, $ggm_access, $clockwork_shot"
-            ]
+            "ref": "Glitter Gulch Mine - Main Area/Near Prospector's Hut/Middle-Right Note",
+            "name": "GGM: Near Prospector's Hut Middle-Right Note"
           },
           {
-            "name": "GGM: Near Prospector's Hut Bottom-Right Note",
-            "access_rules": [ 
-              "logictype_b, $ggm_access, $GGMSlope", "logictype_b, $ggm_access, fflip",
-              "logictype_n, $ggm_access, $GGMSlope", "logictype_n, $ggm_access, fflip",
-              "logictype_a, $ggm_access, $GGMSlope", "logictype_a, $ggm_access, fflip", "logictype_a, $ggm_access, $clockwork_shot",
-              "logictype_g, $ggm_access, $GGMSlope", "logictype_g, $ggm_access, fflip", "logictype_g, $ggm_access, $clockwork_shot"
-            ]
+            "ref": "Glitter Gulch Mine - Main Area/Near Prospector's Hut/Bottom-Right Note",
+            "name": "GGM: Near Prospector's Hut Bottom-Right Note"
           },
           {
-            "name": "GGM: Outside Mumbo's Skull (1) Note",
-            "access_rules": [ 
-              "logictype_b, $ggm_access, $canDoSmallElevation",
-              "logictype_n, $ggm_access, $canDoSmallElevation", "logictype_n, $ggm_access, ggrab",
-              "logictype_a, $ggm_access, $canDoSmallElevation", "logictype_a, $ggm_access, ggrab", "logictype_a, $ggm_access, $clockwork_shot",
-              "logictype_g, $ggm_access, $canDoSmallElevation", "logictype_g, $ggm_access, ggrab", "logictype_g, $ggm_access, $clockwork_shot"
-            ]
+            "ref": "Glitter Gulch Mine - Main Area/GGM: Outside Mumbo's Skull Notes/Note 1",
+            "name": "GGM: Outside Mumbo's Skull (1) Note"
           },
           {
-            "name": "GGM: Outside Mumbo's Skull (2) Note",
-            "access_rules": [ 
-              "logictype_b, $ggm_access, $canDoSmallElevation",
-              "logictype_n, $ggm_access, $canDoSmallElevation", "logictype_n, $ggm_access, ggrab",
-              "logictype_a, $ggm_access, $canDoSmallElevation", "logictype_a, $ggm_access, ggrab", "logictype_a, $ggm_access, $clockwork_shot",
-              "logictype_g, $ggm_access, $canDoSmallElevation", "logictype_g, $ggm_access, ggrab", "logictype_g, $ggm_access, $clockwork_shot"
-            ]
+            "ref": "Glitter Gulch Mine - Main Area/GGM: Outside Mumbo's Skull Notes/Note 2",
+            "name": "GGM: Outside Mumbo's Skull (2) Note"
           },
           {
-            "name": "GGM: Outside Mumbo's Skull (3) Note",
-            "access_rules": [ 
-              "logictype_b, $ggm_access, $canDoSmallElevation",
-              "logictype_n, $ggm_access, $canDoSmallElevation", "logictype_n, $ggm_access, ggrab",
-              "logictype_a, $ggm_access, $canDoSmallElevation", "logictype_a, $ggm_access, ggrab", "logictype_a, $ggm_access, $clockwork_shot",
-              "logictype_g, $ggm_access, $canDoSmallElevation", "logictype_g, $ggm_access, ggrab", "logictype_g, $ggm_access, $clockwork_shot"
-            ]
+            "ref": "Glitter Gulch Mine - Main Area/GGM: Outside Mumbo's Skull Notes/Note 3",
+            "name": "GGM: Outside Mumbo's Skull (3) Note"
           },
           {
-            "name": "GGM: Fuel Depot Front-Left Note",
-            "access_rules": [ "$ggm_access, $canDoSmallElevation", "$ggm_access, $GGMSlope" ]
+            "ref": "Glitter Gulch Mine - Main Area/Fuel Depot/Front-Left Note",
+            "name": "GGM: Fuel Depot Front-Left Note"
           },
           {
-            "name": "GGM: Fuel Depot Back-Left Note",
-            "access_rules": [ "$ggm_access, $canDoSmallElevation", "$ggm_access, $GGMSlope" ]
+            "ref": "Glitter Gulch Mine - Main Area/Fuel Depot/Back-Left Note",
+            "name": "GGM: Fuel Depot Back-Left Note"
           },
           {
-            "name": "GGM: Fuel Depot Back-Right Note",
-            "access_rules": [ "$ggm_access, $canDoSmallElevation", "$ggm_access, $GGMSlope" ]
+            "ref": "Glitter Gulch Mine - Main Area/Fuel Depot/Back-Right Note",
+            "name": "GGM: Fuel Depot Back-Right Note"
           },
           {
-            "name": "GGM: Fuel Depot Front-Right Note",
-            "access_rules": [ "$ggm_access, $canDoSmallElevation", "$ggm_access, $GGMSlope" ]
+            "ref": "Glitter Gulch Mine - Main Area/Fuel Depot/Front-Right Note",
+            "name": "GGM: Fuel Depot Front-Right Note"
           }
         ],
         "map_locations": [
@@ -3802,6 +3686,7 @@
     "chest_opened_img": "/images/items/honeycombcheck2.png",
     "access_rules": [
       "$pinegrove_start",
+      "@Plateau, $PL_to_PG",
       "@Wasteland, $WL_to_PGU",
       "@Witchyworld - Main Area, $WW_to_PG"
     ],
@@ -3955,7 +3840,7 @@
         "name": "IoH: Outside HFP",
         "access_rules": [
           "@Cliff Top",
-          "@Hailfire Peaks - Lave Side, $HFP_to_CTHFP"
+          "@Hailfire Peaks - Lava Side, $HFP_to_CTHFP"
         ],
         "sections": [
           {
@@ -4867,13 +4752,18 @@
     "name": "Glitter Gulch Mine - Main Area",
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+      "@Plateau, gga",
+      "@Inside Chuffy",
+      "@Glitter Gulch Mine - Prospector's Hut"
+    ],
     "children": [
       {
         "name": "GGM: Boulder Jinjo",
         "sections": [
           {
-            "ref": "Overworld/Glitter Gulch Mine/GGM: Boulder Jinjo",
-            "name": "Jinjo"
+            "name": "Jinjo",
+            "access_rules": [ "$humbaGGM", "$ggm_trot, $billDrill" ]
           }
         ],
         "map_locations": [
@@ -4888,7 +4778,6 @@
         "name": "GGM: Mine Tracks Jinjo",
         "sections": [
           {
-            "ref": "Overworld/Glitter Gulch Mine/GGM: Mine Tracks Jinjo",
             "name": "Jinjo"
           }
         ],
@@ -4904,8 +4793,8 @@
         "name": "GGM: Near Entrance Glowbo",
         "sections": [
           {
-            "ref": "Overworld/Glitter Gulch Mine/GGM: Near Entrance Glowbo",
-            "name": "Glowbo"
+            "name": "Glowbo",
+            "access_rules": [ "$GGMSlope" ]
           }
         ],
         "map_locations": [
@@ -4920,7 +4809,6 @@
         "name": "GGM: Mine Entrance 2 Glowbo",
         "sections": [
           {
-            "ref": "Overworld/Glitter Gulch Mine/GGM: Mine Entrance 2 Glowbo",
             "name": "Glowbo"
           }
         ],
@@ -4936,8 +4824,13 @@
         "name": "GGM: Entrance Cheato Page",
         "sections": [
           {
-            "ref": "Overworld/Glitter Gulch Mine/GGM: Entrance Cheato Page",
-            "name": "Cheato Page"
+            "name": "Cheato Page",
+            "access_rules": [ 
+              "logictype_b, springb",
+              "logictype_n, springb", "logictype_n, climb, flutter", "logictype_n, climb, arat", "logictype_n, $GM_boulders, splitup, lspring",
+              "logictype_a, springb", "logictype_a, climb, flutter", "logictype_a, climb, arat", "logictype_a, eggaim, ceggs", "logictype_a, $GM_boulders, splitup, lspring",
+              "logictype_g, springb", "logictype_g, climb, flutter", "logictype_g, climb, arat", "logictype_g, eggaim, ceggs", "logictype_g, $GM_boulders, splitup, lspring"
+            ]
           }
         ],
         "map_locations": [
@@ -4952,8 +4845,13 @@
         "name": "GGM: Bill Drill Silo",
         "sections": [
           {
-            "ref": "Overworld/Glitter Gulch Mine/GGM: Bill Drill Silo",
-            "name": "Silo"
+            "name": "Silo",
+            "access_rules": [ 
+              "logictype_b, $notecount|85, fflip",
+              "logictype_n, $notecount|85, fflip",
+              "logictype_a, $notecount|85, fflip", "logictype_a, $notecount|85, ttrain",
+              "logictype_g, $notecount|85, fflip", "logictype_g, $notecount|85, ttrain"
+            ]
           }
         ],
         "map_locations": [
@@ -4968,8 +4866,13 @@
         "name": "GGM: Waterfall Jiggy",
         "sections": [
           {
-            "ref": "Overworld/Glitter Gulch Mine - Jiggies/GGM: Waterfall Jiggy",
-            "name": "Jiggy"
+            "name": "Jiggy",
+            "access_rules": [ 
+              "logictype_b, springb",
+              "logictype_n, springb", "logictype_n, splitup, glide, $GM_boulders", "logictype_n, splitup, wwhack, tjump, $GM_boulders", "logictype_n, splitup, wwhack, lspring, $GM_boulders",
+              "logictype_a, springb", "logictype_a, splitup, glide, $GM_boulders", "logictype_a, splitup, wwhack, tjump, $GM_boulders", "logictype_a, splitup, wwhack, lspring, $GM_boulders", "logictype_a, $clockwork_shot",
+              "logictype_g, springb", "logictype_g, splitup, glide, $GM_boulders", "logictype_g, splitup, wwhack, tjump, $GM_boulders", "logictype_g, splitup, wwhack, lspring, $GM_boulders", "logictype_g, $clockwork_shot"
+            ]
           }
         ],
         "map_locations": [
@@ -4984,8 +4887,8 @@
         "name": "GGM: Crushing Shed Jiggy",
         "sections": [
           {
-            "ref": "Overworld/Glitter Gulch Mine - Jiggies/GGM: Crushing Shed Jiggy",
-            "name": "Jiggy"
+            "name": "Jiggy",
+            "access_rules": [ "$mumboGGM, bbarge" ]
           }
         ],
         "map_locations": [
@@ -4997,30 +4900,13 @@
         ]
       },
       {
-        "name": "GGM: Dilberta Jiggy",
-        "sections": [
-          {
-            "ref": "Overworld/Glitter Gulch Mine - Jiggies/GGM: Dilberta Jiggy",
-            "name": "Jiggy"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ggm1",
-            "x": 475,
-            "y": 320
-          }
-        ]
-      },
-      {
         "name": "Canary Mary",
+        "access_rules": [ "$canary_mary_free" ],
         "sections": [
           {
-            "ref": "Overworld/Glitter Gulch Mine - Jiggies/GGM: Canary Mary Jiggy",
             "name": "Jiggy"
           },
           {
-            "ref": "Overworld/Glitter Gulch Mine/GGM: Canary Mary Cheato Page",
             "name": "Cheato Page"
           }
         ],
@@ -5034,21 +4920,23 @@
       },
       {
         "name": "GGM: Hill by Crushing Shed Notes",
+        "access_rules": [ 
+              "logictype_b, $GGMSlope",
+              "logictype_n, $GGMSlope",
+              "logictype_a, $GGMSlope",
+              "logictype_g, $GGMSlope", "logictype_g, $clockwork_shot"
+            ],
         "sections": [
           {
-            "ref": "Overworld/Glitter Gulch Mine - Notes/GGM: Hill by Crushing Shed (1) Note",
             "name": "Note 1"
           },
           {
-            "ref": "Overworld/Glitter Gulch Mine - Notes/GGM: Hill by Crushing Shed (2) Note",
             "name": "Note 2"
           },
           {
-            "ref": "Overworld/Glitter Gulch Mine - Notes/GGM: Hill by Crushing Shed (3) Note",
             "name": "Note 3"
           },
           {
-            "ref": "Overworld/Glitter Gulch Mine - Notes/GGM: Hill by Crushing Shed (4) Note",
             "name": "Note 4"
           }
         ],
@@ -5064,28 +4952,58 @@
         "name": "Near Prospector's Hut",
         "sections": [
           {
-            "ref": "Overworld/Glitter Gulch Mine/GGM: Prospector Boulder Honeycomb",
-            "name": "Boulder Honeycomb"
+            "name": "Boulder Honeycomb",
+            "access_rules": [ 
+              "logictype_b, fflip, $billDrill", "logictype_b, $ggm_trot, $billDrill", "logictype_b, $canReachSlightlyElevatedLedge, $billDrill", "logictype_b, $humbaGGM",
+              "logictype_n, fflip, $billDrill", "logictype_n, $ggm_trot, $billDrill", "logictype_n, $canReachSlightlyElevatedLedge, $billDrill", "logictype_n, $humbaGGM",
+              "logictype_a, fflip, $billDrill", "logictype_a, $ggm_trot, $billDrill", "logictype_a, $canReachSlightlyElevatedLedge, $billDrill", "logictype_a, $humbaGGM",
+              "logictype_g, fflip, $billDrill", "logictype_g, $ggm_trot, $billDrill", "logictype_g, $canReachSlightlyElevatedLedge, $billDrill", "logictype_g, $humbaGGM", "logictype_g, $egg_barge"
+            ]
           },
           {
-            "ref": "Overworld/Glitter Gulch Mine - Notes/GGM: Near Prospector's Hut Bottom-Left Note",
-            "name": "Bottom-Left Note"
+            "name": "Bottom-Left Note",
+            "access_rules": [ 
+              "logictype_b, $GGMSlope", "logictype_b, fflip",
+              "logictype_n, $GGMSlope", "logictype_n, fflip",
+              "logictype_a, $GGMSlope", "logictype_a, fflip", "logictype_a, $clockwork_shot",
+              "logictype_g, $GGMSlope", "logictype_g, fflip", "logictype_g, $clockwork_shot"
+            ]
           },
           {
-            "ref": "Overworld/Glitter Gulch Mine - Notes/GGM: Near Prospector's Hut Top-Left Note",
-            "name": "Top-Left Note"
+            "name": "Top-Left Note",
+            "access_rules": [ 
+              "logictype_b, $GGMSlope", "logictype_b, fflip",
+              "logictype_n, $GGMSlope", "logictype_n, fflip",
+              "logictype_a, $GGMSlope", "logictype_a, fflip", "logictype_a, $clockwork_shot",
+              "logictype_g, $GGMSlope", "logictype_g, fflip", "logictype_g, $clockwork_shot"
+            ]
           },
           {
-            "ref": "Overworld/Glitter Gulch Mine - Notes/GGM: Near Prospector's Hut Top-Right Note",
-            "name": "Top-Right Note"
+            "name": "Top-Right Note",
+            "access_rules": [ 
+              "logictype_b, $GGMSlope", "logictype_b, fflip",
+              "logictype_n, $GGMSlope", "logictype_n, fflip",
+              "logictype_a, $GGMSlope", "logictype_a, fflip", "logictype_a, $clockwork_shot",
+              "logictype_g, $GGMSlope", "logictype_g, fflip", "logictype_g, $clockwork_shot"
+            ]
           },
           {
-            "ref": "Overworld/Glitter Gulch Mine - Notes/GGM: Near Prospector's Hut Middle-Right Note",
-            "name": "Middle-Right Note"
+            "name": "Middle-Right Note",
+            "access_rules": [ 
+              "logictype_b, $GGMSlope", "logictype_b, fflip",
+              "logictype_n, $GGMSlope", "logictype_n, fflip",
+              "logictype_a, $GGMSlope", "logictype_a, fflip", "logictype_a, $clockwork_shot",
+              "logictype_g, $GGMSlope", "logictype_g, fflip", "logictype_g, $clockwork_shot"
+            ]
           },
           {
-            "ref": "Overworld/Glitter Gulch Mine - Notes/GGM: Near Prospector's Hut Bottom-Right Note",
-            "name": "Bottom-Right Note"
+            "name": "Bottom-Right Note",
+            "access_rules": [ 
+              "logictype_b, $GGMSlope", "logictype_b, fflip",
+              "logictype_n, $GGMSlope", "logictype_n, fflip",
+              "logictype_a, $GGMSlope", "logictype_a, fflip", "logictype_a, $clockwork_shot",
+              "logictype_g, $GGMSlope", "logictype_g, fflip", "logictype_g, $clockwork_shot"
+            ]
           }
         ],
         "map_locations": [
@@ -5100,12 +5018,11 @@
         "name": "Toxic Gas Cave",
         "sections": [
           {
-            "ref": "Overworld/Glitter Gulch Mine/GGM: Toxic Gas Cave Jinjo",
             "name": "Jinjo"
           },
           {
-            "ref": "Overworld/Glitter Gulch Mine/GGM: Toxic Gas Cave Honeycomb",
-            "name": "Honeycomb"
+            "name": "Honeycomb",
+            "access_rules": [ "$GM_boulders" ]
           }
         ],
         "map_locations": [
@@ -5118,18 +5035,20 @@
       },
       {
         "name": "Ordnance Storage",
+        "access_rules": [ "$GM_boulders" ],
         "sections": [
           {
-            "ref": "Overworld/Glitter Gulch Mine/GGM: Beak Bayonet Silo",
-            "name": "Beak Bayonet Silo"
+            "name": "Beak Bayonet Silo",
+            "access_rules": [ "$notecount|95" ]
           },
           {
-            "ref": "Overworld/Glitter Gulch Mine - Jiggies/GGM: Ordnance Storage Jiggy",
-            "name": "Jiggy"
+            "name": "Jiggy",
+            "access_rules": [ "bblaster, bbayonet" ]
           },
           {
-            "ref": "Overworld/Glitter Gulch Mine/GGM: Ordnance Storage Mumbo Token",
-            "name": "Mumbo Token"
+            "name": "Mumbo Token",
+            "visibility_rules": [ "goal_minigame", "goal_wwing" ],
+            "access_rules": [ "bblaster, bbayonet" ]
           }
         ],
         "map_locations": [
@@ -5144,8 +5063,8 @@
         "name": "Train Station (Glitter Gulch Mine)",
         "sections": [
           {
-            "ref": "Overworld/Glitter Gulch Mine/GGM: Train Station Honeycomb",
-            "name": "Honeycomb"
+            "name": "Honeycomb",
+            "access_rules": [ "$hasGroundAttack", "$humbaGGM" ]
           }
         ],
         "map_locations": [
@@ -5158,21 +5077,18 @@
       },
       {
         "name": "Fuel Depot",
+        "access_rules": [ "$canDoSmallElevation", "$GGMSlope" ],
         "sections": [
           {
-            "ref": "Overworld/Glitter Gulch Mine - Notes/GGM: Fuel Depot Front-Left Note",
             "name": "Front-Left Note"
           },
           {
-            "ref": "Overworld/Glitter Gulch Mine - Notes/GGM: Fuel Depot Back-Left Note",
             "name": "Back-Left Note"
           },
           {
-            "ref": "Overworld/Glitter Gulch Mine - Notes/GGM: Fuel Depot Back-Right Note",
             "name": "Back-Right Note"
           },
           {
-            "ref": "Overworld/Glitter Gulch Mine - Notes/GGM: Fuel Depot Front-Right Note",
             "name": "Front-Right Note"
           }
         ],
@@ -5186,17 +5102,20 @@
       },
       {
         "name": "GGM: Outside Mumbo's Skull Notes",
+        "access_rules": [ 
+              "logictype_b, $canDoSmallElevation",
+              "logictype_n, $canDoSmallElevation", "logictype_n, ggrab",
+              "logictype_a, $canDoSmallElevation", "logictype_a, ggrab", "logictype_a, $clockwork_shot",
+              "logictype_g, $canDoSmallElevation", "logictype_g, ggrab", "logictype_g, $clockwork_shot"
+            ],
         "sections": [
           {
-            "ref": "Overworld/Glitter Gulch Mine - Notes/GGM: Outside Mumbo's Skull (1) Note",
             "name": "Note 1"
           },
           {
-            "ref": "Overworld/Glitter Gulch Mine - Notes/GGM: Outside Mumbo's Skull (2) Note",
             "name": "Note 2"
           },
           {
-            "ref": "Overworld/Glitter Gulch Mine - Notes/GGM: Outside Mumbo's Skull (3) Note",
             "name": "Note 3"
           }
         ],
@@ -5212,15 +5131,15 @@
         "name": "Water Storage",
         "sections": [
           {
-            "ref": "Overworld/Glitter Gulch Mine/GGM: Water Storage Jinjo",
+            "ref": "Glitter Gulch Mine - Water Storage Jinjo/GGM: Water Storage Jinjo/Jinjo",
             "name": "Jinjo"
           },
           {
-            "ref": "Overworld/Glitter Gulch Mine/GGM: Water Storage Cheato Page",
+            "ref": "Glitter Gulch Mine - Water Storage/GGM: Water Storage Cheato Page/Cheato Page",
             "name": "Cheato Page"
           },
           {
-            "ref": "Overworld/Glitter Gulch Mine - Notes/GGM: Treble Clef",
+            "ref": "Glitter Gulch Mine - Water Storage/GGM: Treble Clef/Treble Clef",
             "name": "Treble Clef"
           }
         ],
@@ -5236,11 +5155,11 @@
         "name": "Waterfall Cavern",
         "sections": [
           {
-            "ref": "Overworld/Glitter Gulch Mine - Jiggies/GGM: Waterfall Cavern Jiggy",
+            "ref": "Glitter Gulch Mine - Waterfall Cavern/GGM: Waterfall Cavern Jiggy/Jiggy",
             "name": "Jiggy"
           },
           {
-            "ref": "Overworld/Glitter Gulch Mine/HFP: Mega Glowbo",
+            "ref": "Glitter Gulch Mine - Waterfall Cavern/HFP: Mega Glowbo/Mega Glowbo",
             "name": "Mega Glowbo"
           }
         ],
@@ -5256,15 +5175,15 @@
         "name": "Gloomy Caverns",
         "sections": [
           {
-            "ref": "Overworld/Glitter Gulch Mine/GGM: Jail Jinjo",
+            "ref": "Glitter Gulch Mine - Gloomy Caverns/GGM: Jail Jinjo/Jinjo",
             "name": "Jail Jinjo"
           },
           {
-            "ref": "Overworld/Glitter Gulch Mine - Jiggies/GGM: Power Hut Basement Jiggy",
+            "ref": "Glitter Gulch Mine - Gloomy Caverns/Power Hut Basement/Jiggy",
             "name": "Power Hut Basement Jiggy"
           },
           {
-            "ref": "Overworld/Glitter Gulch Mine - Jiggies/GGM: Generator Cavern Jiggy",
+            "ref": "Glitter Gulch Mine - Gloomy Caverns/Generator Cavern/Jiggy",
             "name": "Generator Cavern Jiggy"
           }
         ],
@@ -5280,8 +5199,13 @@
         "name": "Flooded Caves",
         "sections": [
           {
-            "ref": "Overworld/Glitter Gulch Mine - Jiggies/GGM: Flooded Caves Jiggy",
-            "name": "Jiggy"
+            "name": "Jiggy",
+            "access_rules": [
+              "logictype_b, $humbaGGM, dive",
+              "logictype_n, dive, tjump, $humbaGGM", "logictype_n, dive, tjump, $longJump",
+              "logictype_a, dive, tjump, $humbaGGM", "logictype_a, dive, tjump, $longJump",
+              "logictype_g, dive, tjump, $humbaGGM", "logictype_g, dive, tjump, $longJump"
+            ]
           }
         ],
         "map_locations": [
@@ -5333,16 +5257,42 @@
     ]
   },
   {
+    "name": "Glitter Gulch Mine - Prospector's Hut",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+      "@Mayahem Temple - Prison Compound, $dilberta_free"
+    ],
+    "children": [
+      {
+        "name": "GGM: Dilberta Jiggy",
+        "sections": [
+          {
+            "name": "Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ggm1",
+            "x": 475,
+            "y": 320
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Glitter Gulch Mine - Gloomy Caverns",
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Glitter Gulch Mine - Main Area" ],
     "children": [
       {
         "name": "GGM: Jail Jinjo",
         "sections": [
           {
-            "ref": "Overworld/Glitter Gulch Mine/GGM: Jail Jinjo",
-            "name": "Jinjo"
+            "name": "Jinjo",
+            "access_rules": [ "$humbaGGM" ]
           }
         ],
         "map_locations": [
@@ -5357,8 +5307,13 @@
         "name": "Power Hut Basement",
         "sections": [
           {
-            "ref": "Overworld/Glitter Gulch Mine - Jiggies/GGM: Power Hut Basement Jiggy",
-            "name": "Jiggy"
+            "name": "Jiggy",
+            "access_rules": [ 
+              "logictype_b, $GM_boulders, splitup, climb",
+              "logictype_n, $GM_boulders, splitup, climb", "logictype_n, $GM_boulders, $has_fire", "logictype_n, $GM_boulders, $billDrill",
+              "logictype_a, $GM_boulders",
+              "logictype_g, $GM_boulders"
+            ]
           }
         ],
         "map_locations": [
@@ -5373,8 +5328,13 @@
         "name": "Generator Cavern",
         "sections": [
           {
-            "ref": "Overworld/Glitter Gulch Mine - Jiggies/GGM: Generator Cavern Jiggy",
-            "name": "Jiggy"
+            "name": "Jiggy",
+            "access_rules": [
+              "logictype_b, feggs, eggaim, $longJump, fflip",
+              "logictype_n, $longJump, fflip, splitup", "logictype_n, $longJump, fflip, $has_fire", "logictype_n, $longJump, fflip, $billDrill", "logictype_n, fflip, bbust, climb",
+              "logictype_a, $longJump, fflip", "logictype_a, fflip, bbust, climb", "logictype_a, $clockwork_shot",
+              "logictype_g, $longJump, fflip", "logictype_g, fflip, bbust, climb", "logictype_g, $clockwork_shot"
+            ]
           }
         ],
         "map_locations": [
@@ -5391,13 +5351,17 @@
     "name": "Glitter Gulch Mine - Waterfall Cavern",
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Glitter Gulch Mine - Main Area" ],
     "children": [
       {
         "name": "GGM: Waterfall Cavern Jiggy",
         "sections": [
           {
-            "ref": "Overworld/Glitter Gulch Mine - Jiggies/GGM: Waterfall Cavern Jiggy",
-            "name": "Jiggy"
+            "name": "Jiggy",
+            "access_rules": [
+              "logictype_b, ggrab, ttrain", "logictype_b, $canDoSmallElevation, ttrain",
+              "logictype_n", "logictype_a", "logictype_g"
+            ]
           }
         ],
         "map_locations": [
@@ -5412,8 +5376,13 @@
         "name": "HFP: Mega Glowbo",
         "sections": [
           {
-            "ref": "Overworld/Glitter Gulch Mine/HFP: Mega Glowbo",
-            "name": "Mega Glowbo"
+            "name": "Mega Glowbo",
+            "access_rules": [ 
+              "logictype_b, ttorp, ikey, dive, tjump",
+              "logictype_n, ttorp, ikey, dive, tjump", "logictype_n, ttorp, ikey, dive, bbust",
+              "logictype_a, ttorp, ikey, dive, tjump", "logictype_a, ttorp, ikey, dive, bbust", "logictype_a, ttorp, ikey, dive, $clockwork_shot",
+              "logictype_g, ttorp, ikey, dive, tjump", "logictype_g, ttorp, ikey, dive, bbust", "logictype_g, ttorp, ikey, dive, $clockwork_shot"
+            ]
           }
         ],
         "map_locations": [
@@ -5428,7 +5397,7 @@
         "name": "Flooded Caves",
         "sections": [
           {
-            "ref": "Overworld/Glitter Gulch Mine - Jiggies/GGM: Flooded Caves Jiggy",
+            "ref": "Glitter Gulch Mine - Main Area/Flooded Caves/Jiggy",
             "name": "Jiggy"
           }
         ],
@@ -5444,15 +5413,15 @@
         "name": "Water Storage",
         "sections": [
           {
-            "ref": "Overworld/Glitter Gulch Mine/GGM: Water Storage Jinjo",
+            "ref": "Glitter Gulch Mine - Water Storage Jinjo/GGM: Water Storage Jinjo/Jinjo",
             "name": "Jinjo"
           },
           {
-            "ref": "Overworld/Glitter Gulch Mine/GGM: Water Storage Cheato Page",
+            "ref": "Glitter Gulch Mine - Water Storage/GGM: Water Storage Cheato Page/Cheato Page",
             "name": "Cheato Page"
           },
           {
-            "ref": "Overworld/Glitter Gulch Mine - Notes/GGM: Treble Clef",
+            "ref": "Glitter Gulch Mine - Water Storage/GGM: Treble Clef/Treble Clef",
             "name": "Treble Clef"
           }
         ],
@@ -5470,29 +5439,19 @@
     "name": "Glitter Gulch Mine - Water Storage",
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Glitter Gulch Mine - Main Area" ],
     "children": [
-      {
-        "name": "GGM: Water Storage Jinjo",
-        "sections": [
-          {
-            "ref": "Overworld/Glitter Gulch Mine/GGM: Water Storage Jinjo",
-            "name": "Jinjo"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ggm4",
-            "x": 590,
-            "y": 125
-          }
-        ]
-      },
       {
         "name": "GGM: Water Storage Cheato Page",
         "sections": [
           {
-            "ref": "Overworld/Glitter Gulch Mine/GGM: Water Storage Cheato Page",
-            "name": "Cheato Page"
+            "name": "Cheato Page",
+            "access_rules": [ 
+              "logictype_b, ggrab, fflip, dive, climb",
+              "logictype_n, ggrab, fflip, dive, climb", "logictype_n, bbust, fflip, dive, climb",
+              "logictype_a, ggrab, fflip, dive, climb", "logictype_a, bbust, fflip, dive, climb",
+              "logictype_g, ggrab, fflip, dive, climb", "logictype_g, bbust, fflip, dive, climb", "logictype_g, splitup, lspring, glide"
+            ]
           }
         ],
         "map_locations": [
@@ -5507,8 +5466,13 @@
         "name": "GGM: Treble Clef",
         "sections": [
           {
-            "ref": "Overworld/Glitter Gulch Mine - Notes/GGM: Treble Clef",
-            "name": "Treble Clef"
+            "name": "Treble Clef",
+            "access_rules": [ 
+              "logictype_b, dive",
+              "logictype_n, dive",
+              "logictype_a, dive",
+              "logictype_g, $GM_boulders, splitup, lspring"
+            ]
           }
         ],
         "map_locations": [
@@ -5523,11 +5487,11 @@
         "name": "Waterfall Cavern",
         "sections": [
           {
-            "ref": "Overworld/Glitter Gulch Mine - Jiggies/GGM: Waterfall Cavern Jiggy",
+            "ref": "Glitter Gulch Mine - Waterfall Cavern/GGM: Waterfall Cavern Jiggy/Jiggy",
             "name": "Jiggy"
           },
           {
-            "ref": "Overworld/Glitter Gulch Mine/HFP: Mega Glowbo",
+            "ref": "Glitter Gulch Mine - Waterfall Cavern/HFP: Mega Glowbo/Mega Glowbo",
             "name": "Mega Glowbo"
           }
         ],
@@ -5536,6 +5500,32 @@
             "map": "ggm4",
             "x": 792,
             "y": 295
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Glitter Gulch Mine - Water Storage Jinjo",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+      "@Glitter Gulch Mine - Main Area, $can_access_water_storage_jinjo_from_GGM",
+      "@Jolly Roger's Lagoon - Atlantis, $can_access_water_storage_jinjo_from_JRL"
+    ],
+    "children": [
+      {
+        "name": "GGM: Water Storage Jinjo",
+        "sections": [
+          {
+            "name": "Jinjo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ggm4",
+            "x": 590,
+            "y": 125
           }
         ]
       }
@@ -8788,7 +8778,7 @@
         "name": "HFP: Mega Glowbo (Access from GGM)",
         "sections": [
           {
-            "ref": "Overworld/Glitter Gulch Mine/HFP: Mega Glowbo",
+            "ref": "Glitter Gulch Mine - Waterfall Cavern/HFP: Mega Glowbo/Mega Glowbo",
             "name": "Mega Glowbo"
           }
         ],
