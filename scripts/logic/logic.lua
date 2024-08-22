@@ -184,18 +184,26 @@ function longJumpToGripGrab()
     return has("ggrab") and has("arat") and has("flutter")
 end
 
-function saucer_door_open()
+function saucer_door_open_ww()
     if logictype.CurrentStage == 0 then
-        return ww_access() and longJumpToGripGrab() and has("fflip") and has("climb") and (has_explosives() or has("bbarge"))
+        return longJumpToGripGrab() and has("fflip") and has("climb") and (has_explosives() or has("bbarge"))
     elseif logictype.CurrentStage <= 2 then
-        return ww_access() and (longJumpToGripGrab() and has("fflip") and has("climb") and (has_explosives() or has("bbarge"))) or (has("eggaim") and has("geggs")) or (has_explosives() and has("splitup") and has("lspring") and has("glide"))
+        return (longJumpToGripGrab() and has("fflip") and has("climb") and (has_explosives() or has("bbarge"))) or (has("eggaim") and has("geggs")) or (has_explosives() and has("splitup") and has("lspring") and has("glide"))
     else
-        return (ww_access() and (longJumpToGripGrab() and has("fflip") and has("climb") and (has_explosives() or has("bbarge"))) or (has("eggaim") and has("geggs")) or (has_explosives() and has("splitup") and has("lspring") and has("glide"))) or (ggm_access() and canDoSmallElevation() and canShootEggs("ceggs"))
+        return ((longJumpToGripGrab() and has("fflip") and has("climb") and (has_explosives() or has("bbarge"))) or (has("eggaim") and has("geggs")) or (has_explosives() and has("splitup") and has("lspring") and has("glide"))) or (ggm_access() and canDoSmallElevation() and canShootEggs("ceggs"))
+    end
+end
+
+function saucer_door_open_ggm()
+    if logictype.CurrentStage <= 2 then
+        return false
+    else
+        return canDoSmallElevation() and canShootEggs("ceggs")
     end
 end
 
 function can_reach_saucer()
-    return (ww_access() and longJumpToGripGrab() and has("fflip") and has("climb")) or (ggm_access() and canDoSmallElevation())
+    return (longJumpToGripGrab() and has("fflip") and has("climb")) or canDoSmallElevation()
 end
 
 function can_dive_in_JRL()
@@ -608,6 +616,14 @@ function TDL_to_IOHWL()
     end
 end
 
+function ggm_to_ww()
+    if logictype.CurrentStage <= 2 then
+        return false
+    else
+        return humbaGGM() and canShootEggs("ceggs")
+    end
+end
+
 function ww_access(fromTrain)
     if logictype.CurrentStage == 0 then
         return has("wwa") and pinegrove_access()
@@ -799,14 +815,6 @@ function HFP_to_JRL()
         return HFP_hot_water_cooled()
     else
         return HFP_hot_water_cooled() or (has("ggrab") and has("flutter") and has("grat") and has("tjump"))
-    end
-end
-
-function ggm_to_ww()
-    if logictype.CurrentStage <= 2 then
-        return false
-    else
-        return  humbaGGM() and canShootEggs("ceggs")
     end
 end
 

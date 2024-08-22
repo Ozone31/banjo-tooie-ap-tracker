@@ -796,162 +796,92 @@
         "name": "Witchyworld",
         "sections": [
           {
-            "name": "WW: Big Top Jinjo",
-            "access_rules": [
-              "logictype_b, $ww_access, ttrot",
-              "logictype_n, $ww_access, ttrot", "logictype_n, $ww_access, $humbaWW", "logictype_n, $ww_access, splitup",
-              "logictype_a, $ww_access, ttrot", "logictype_a, $ww_access, $humbaWW", "logictype_a, $ww_access, $clockwork_shot", "logictype_a, $ww_access, splitup", "logictype_a, $ww_access, ggrab, climb, fflip", "logictype_a, $ww_access, bbust, climb, fflip",
-              "logictype_g, $ww_access, ttrot", "logictype_g, $ww_access, $humbaWW", "logictype_g, $ww_access, $clockwork_shot", "logictype_g, $ww_access, splitup", "logictype_g, $ww_access, ggrab, climb, fflip", "logictype_g, $ww_access, bbust, climb, fflip", "logictype_g, $ww_access, $glitchedInfernoAccess, ttrain"
-            ]
+            "ref": "Witchyworld - Main Area/WW: Big Top Jinjo/Jinjo",
+            "name": "WW: Big Top Jinjo"
           },
           {
-            "name": "WW: Cave of Horrors Jinjo",
-            "access_rules": [
-              "logictype_b, $ww_access, geggs, eggaim",
-              "logictype_n, $ww_access, $canShootEggs|geggs",
-              "logictype_a, $ww_access, $canShootEggs|geggs",
-              "logictype_g, $ww_access, $canShootEggs|geggs"
-            ]
+            "ref": "Witchyworld - The Haunted Cavern/Cave of Horrors/Jinjo",
+            "name": "WW: Cave of Horrors Jinjo"
           },
           {
-            "name": "WW: Van Door Jinjo",
-            "access_rules": [
-              "logictype_b, $ww_access, $has_explosives, $humbaWW",
-              "logictype_n, $ww_access, $has_explosives, $humbaWW",
-              "logictype_a, $ww_access, $has_explosives, $humbaWW",
-              "logictype_g, $ww_access, $canShootEggs|geggs, $humbaWW", "logictype_g, $ww_access, $canShootEggs|ceggs"
-            ]
+            "ref": "Witchyworld - Main Area/WW: Van Door Jinjo/Jinjo",
+            "name": "WW: Van Door Jinjo"
           },
           {
-            "name": "WW: Dodgem Dome Jinjo",
-            "access_rules": [
-              "logictype_b, $ww_access, ttrot, climb",
-              "logictype_n, $ww_access, ttrot, climb",
-              "logictype_a, $ww_access, ttrot, climb", "logictype_a, $ww_access, $clockwork_shot, climb",
-              "logictype_g, $ww_access, ttrot, climb", "logictype_g, $ww_access, $clockwork_shot, climb"
-            ]
+            "ref": "Witchyworld - Main Area/WW: Dodgem Dome Jinjo/Jinjo",
+            "name": "WW: Dodgem Dome Jinjo"
           },
           {
-            "name": "WW: Cactus of Strength Jinjo",
-            "access_rules": [
-              "logictype_b, $ww_access, ggrab, fflip",
-              "logictype_n, $ww_access, ggrab, fflip", "logictype_n, $ww_access, climb, ttrot, flutter",
-              "logictype_a, $ww_access, ggrab, fflip", "logictype_a, $ww_access, climb, ttrot, flutter", "logictype_a, $ww_access, $clockwork_shot",
-              "logictype_g, $ww_access, ggrab, fflip", "logictype_g, $ww_access, climb, ttrot, flutter", "logictype_g, $ww_access, $clockwork_shot"
-            ]
+            "ref": "Witchyworld - Main Area/WW: Cactus of Strength Jinjo/Jinjo",
+            "name": "WW: Cactus of Strength Jinjo"
           },
           {
-            "name": "WW: The Inferno Glowbo",
-            "access_rules": [
-              "logictype_b, $ww_access, $humbaWW",
-              "logictype_n, $ww_access, $humbaWW",
-              "logictype_a, $ww_access, $humbaWW",
-              "logictype_g, $ww_access, $glitchedInfernoAccess"
-            ]
+            "ref": "Witchyworld - The Inferno/WW: The Inferno Glowbo/Glowbo",
+            "name": "WW: The Inferno Glowbo"
           },
           {
-            "name": "WW: Wumba's Glowbo",
-            "access_rules": [
-              "logictype_b, $ww_access, fflip, ggrab",
-              "logictype_n, $ww_access, fflip, ggrab", "logictype_n, $ww_access, climb, $veryLongJump",
-              "logictype_a, $ww_access, fflip, ggrab", "logictype_a, $ww_access, climb, $veryLongJump, fflip", "logictype_a, $ww_access, $clockwork_shot, climb",
-              "logictype_g, $ww_access, fflip, ggrab", "logictype_g, $ww_access, climb, $veryLongJump, fflip", "logictype_g, $ww_access, $clockwork_shot, climb"
-            ]
+            "ref": "Witchyworld - Main Area/WW: Wumba's Glowbo/Glowbo",
+            "name": "WW: Wumba's Glowbo"
           },
           {
-            "name": "WW: Space Zone Honeycomb",
-            "access_rules": [
-              "logictype_b, $ww_access, ggrab, climb, fflip",
-              "logictype_n, $ww_access, ggrab, climb, fflip", "logictype_n, $ww_access, splitup, lspring, glide",
-              "logictype_a, $ww_access, ggrab, climb, fflip", "logictype_a, $ww_access, bbust, climb, fflip", "logictype_a, $ww_access, splitup, lspring, glide",
-              "logictype_g, $ww_access, ggrab, climb, fflip", "logictype_g, $ww_access, bbust, climb, fflip", "logictype_g, $clockwork_shot, $ggm_access, $ggm_to_ww", "logictype_g, $ww_access, splitup, lspring, glide"
-            ]
+            "ref": "Witchyworld - Space Zone/WW: Space Zone Honeycomb/Honeycomb",
+            "name": "WW: Space Zone Honeycomb"
           },
           {
-            "name": "WW: Mumbo Skull Honeycomb",
-            "access_rules": [
-              "logictype_b, $ww_access, $humbaWW",
-              "logictype_n, $ww_access, $humbaWW",
-              "logictype_a, $ww_access, $humbaWW",
-              "logictype_g, $ww_access, $glitchedInfernoAccess"
-            ]
+            "ref": "Witchyworld - The Inferno/Mumbo's Skull/Honeycomb",
+            "name": "WW: Mumbo Skull Honeycomb"
           },
           {
-            "name": "WW: Crazy Castle Honeycomb",
-            "access_rules": [
-              "logictype_b, $ww_access, $has_explosives, $canDoSmallElevation", "logictype_b, $ww_access, $has_explosives, splitup",
-              "logictype_n, $ww_access, $has_explosives, $canDoSmallElevation", "logictype_n, $ww_access, $has_explosives, splitup",
-              "logictype_a, $ww_access, $has_explosives, $canDoSmallElevation", "logictype_a, $ww_access, $has_explosives, splitup", "logictype_a, $ww_access, $clockwork_shot",
-              "logictype_g, $ww_access, $has_explosives, $canDoSmallElevation", "logictype_g, $ww_access, $has_explosives, splitup", "logictype_g, $ww_access, $clockwork_shot"
-            ]
+            "ref": "Witchyworld - Crazy Castle Stockade/WW: Crazy Castle Honeycomb/Honeycomb",
+            "name": "WW: Crazy Castle Honeycomb"
           },
           {
-            "name": "WW: The Haunted Cavern Cheato Page",
-            "access_rules": [
-              "logictype_b, $ww_access, $canReachSlightlyElevatedLedge",
-              "logictype_n, $ww_access, ggrab", "logictype_n, $ww_access, splitup, lspring, wwhack", "logictype_n, $ww_access, splitup, lspring, glide",
-              "logictype_a, $ww_access, ggrab", "logictype_a, $ww_access, splitup, lspring, wwhack", "logictype_a, $ww_access, splitup, lspring, glide", "logictype_a, $ww_access, $clockwork_shot",
-              "logictype_g, $ww_access, ggrab", "logictype_g, $ww_access, splitup, lspring, wwhack", "logictype_g, $ww_access, splitup, lspring, glide", "logictype_g, $ww_access, $clockwork_shot"
-            ]
+            "ref": "Witchyworld - The Haunted Cavern/WW: The Haunted Cavern Cheato Page/Cheato Page",
+            "name": "WW: The Haunted Cavern Cheato Page"
           },
           {
-            "name": "WW: The Inferno Cheato Page",
-            "access_rules": [
-              "logictype_b, $ww_access, $humbaWW",
-              "logictype_n, $ww_access, $humbaWW",
-              "logictype_a, $ww_access, $humbaWW",
-              "logictype_g, $ww_access, $glitchedInfernoAccess"
-            ]
+            "ref": "Witchyworld - The Inferno/WW: The Inferno Cheato Page/Cheato Page",
+            "name": "WW: The Inferno Cheato Page"
           },
           {
-            "name": "WW: Saucer of Peril Cheato Page",
-            "access_rules": [ "$humbaGGM, $mumboWW, $saucer_door_open, $can_reach_saucer, $ggm_access, $has_explosives" ]
+            "ref": "Witchyworld - Saucer of Peril/Saucer of Peril/Cheato Page",
+            "name": "WW: Saucer of Peril Cheato Page"
           },
           {
-            "name": "WW: Airborne Egg Aiming Silo",
-            "access_rules": [ "$ww_access, $notecount|180" ]
+            "ref": "Witchyworld - Main Area/WW: Airborne Egg Aiming Silo/Silo",
+            "name": "WW: Airborne Egg Aiming Silo"
           },
           {
-            "name": "WW: Split Up Silo",
-            "access_rules": [ "$ww_access, $notecount|160" ]
+            "ref": "Witchyworld - Main Area/WW: Split Up Silo/Silo",
+            "name": "WW: Split Up Silo"
           },
           {
-            "name": "WW: Pack Whack Silo",
-            "access_rules": [ "$ww_access, splitup, $notecount|170" ]
+            "ref": "Witchyworld - Crazy Castle Stockade/WW: Pack Whack Silo/Silo",
+            "name": "WW: Pack Whack Silo"
           },
           {
-            "name": "WW: Train Switch",
-            "access_rules": [
-              "logictype_b, $ww_access, ggrab, fflip",
-              "logictype_n, $ww_access, ggrab, fflip", "logictype_n, $ww_access, splitup, lspring",
-              "logictype_a, $ww_access, ggrab, fflip", "logictype_a, $ww_access, splitup, lspring",
-              "logictype_g, $ww_access, ggrab, fflip", "logictype_g, $ww_access, splitup, lspring"
-            ]
+            "ref": "Witchyworld - Main Area/Train Station (Witchyworld)/Train Switch",
+            "name": "WW: Train Switch"
           },
           {
-            "name": "WW: Mr. Patch Mumbo Token",
-            "visibility_rules": [ "goal_boss", "goal_wwing" ],
-            "access_rules": [ "$ww_access, aireaim, eggaim, geggs, fpad" ]
+            "ref": "Witchyworld - Main Area/Big Top Interior/Mr. Patch Mumbo Token",
+            "name": "WW: Mr. Patch Mumbo Token"
           },
           {
-            "name": "WW: Hoop Hurry Mumbo Token",
-            "visibility_rules": [ "goal_minigame", "goal_wwing" ],
-            "access_rules": [ "$ww_access, splitup, $has_explosives, $springPad, fflip", "$ww_access, splitup, $has_explosives, $springPad, lspring" ]
+            "ref": "Witchyworld - Crazy Castle Stockade/Crazy Castle/Hoop Hurry Mumbo Token",
+            "name": "WW: Hoop Hurry Mumbo Token"
           },
           {
-            "name": "WW: Dodgem Dome Mumbo Token",
-            "visibility_rules": [ "goal_minigame", "goal_wwing" ],
-            "access_rules": [ "$ww_access, $ww_jiggy2" ]
+            "ref": "Witchyworld - Main Area/Dodgem Dome/Mumbo Token",
+            "name": "WW: Dodgem Dome Mumbo Token"
           },
           {
-            "name": "WW: Saucer of Peril Mumbo Token",
-            "visibility_rules": [ "goal_minigame", "goal_wwing" ],
-            "access_rules": [ "$humbaGGM, $mumboWW, $saucer_door_open, $can_reach_saucer, $ggm_access, $has_explosives" ]
+            "ref": "Witchyworld - Saucer of Peril/Saucer of Peril/Mumbo Token",
+            "name": "WW: Saucer of Peril Mumbo Token"
           },
           {
-            "name": "WW: Balloon Burst Mumbo Token",
-            "visibility_rules": [ "goal_minigame", "goal_wwing" ],
-            "access_rules": [ "$ww_access, splitup, aireaim, $has_explosives, $springPad, fflip", "$ww_access, splitup, aireaim, $has_explosives, $springPad, lspring" ]
+            "ref": "Witchyworld - Crazy Castle Stockade/Crazy Castle/Balloon Burst Mumbo Token",
+            "name": "WW: Balloon Burst Mumbo Token"
           }
         ],
         "map_locations": [
@@ -966,69 +896,44 @@
         "name": "Witchyworld - Jiggies",
         "sections": [
           {
-            "name": "WW: Hoop Hurry Jiggy",
-            "access_rules": [ "$ww_access, splitup, $has_explosives, $springPad, fflip", "$ww_access, splitup, $has_explosives, $springPad, lspring" ]
+            "ref": "Witchyworld - Crazy Castle Stockade/Crazy Castle/Hoop Hurry Jiggy",
+            "name": "WW: Hoop Hurry Jiggy"
           },
           {
-            "name": "WW: Dodgem Dome Jiggy",
-            "access_rules": [ "$ww_access, $ww_jiggy2" ]
+            "ref": "Witchyworld - Main Area/Dodgem Dome/Jiggy",
+            "name": "WW: Dodgem Dome Jiggy"
           },
           {
-            "name": "WW: Mr. Patch Jiggy",
-            "access_rules": [ "$ww_access, aireaim, eggaim, geggs, fpad" ]
+            "ref": "Witchyworld - Main Area/Big Top Interior/Mr. Patch Jiggy",
+            "name": "WW: Mr. Patch Jiggy"
           },
           {
-            "name": "WW: Saucer of Peril Jiggy",
-            "access_rules": [ "$humbaGGM, $mumboWW, $saucer_door_open, $can_reach_saucer, $ggm_access, $has_explosives" ]
+            "ref": "Witchyworld - Saucer of Peril/Saucer of Peril/Jiggy",
+            "name": "WW: Saucer of Peril Jiggy"
           },
           {
-            "name": "WW: Balloon Burst Jiggy",
-            "access_rules": [ "$ww_access, splitup, aireaim, $has_explosives, $springPad, fflip", "$ww_access, splitup, aireaim, $has_explosives, $springPad, lspring" ]
+            "ref": "Witchyworld - Crazy Castle Stockade/Crazy Castle/Balloon Burst Jiggy",
+            "name": "WW: Balloon Burst Jiggy"
           },
           {
-            "name": "WW: Dive of Death Jiggy",
-            "access_rules": [
-              "logictype_b, $ww_access, ggrab, climb, fflip",
-              "logictype_n, $ww_access, climb, fflip", "logictype_n, $ww_access, climb, ttrot", "logictype_n, $ww_access, climb, tjump, bbust", "logictype_n, $ww_access, climb, tjump, arat",
-              "logictype_a, $ww_access, climb, fflip", "logictype_a, $ww_access, climb, ttrot", "logictype_a, $ww_access, climb, tjump, bbust", "logictype_a, $ww_access, climb, tjump, arat", "logictype_a, $ww_access, climb, $clockwork_shot",
-              "logictype_g, $ww_access, climb, fflip", "logictype_g, $ww_access, climb, ttrot", "logictype_g, $ww_access, climb, tjump, bbust", "logictype_g, $ww_access, climb, tjump, arat", "logictype_g, $ww_access, climb, $clockwork_shot"
-            ]
+            "ref": "Witchyworld - Main Area/WW: Dive of Death Jiggy/Jiggy",
+            "name": "WW: Dive of Death Jiggy"
           },
           {
-            "name": "WW: Mrs. Boggy Jiggy",
-            "access_rules": [
-              "logictype_b, $ww_access, $mumboWW, splitup, taxpack, $has_explosives",
-              "logictype_n, $ww_access, $mumboWW, splitup, taxpack, $has_explosives",
-              "logictype_a, $ww_access, $humbaWW, $mumboWW, splitup, taxpack",
-              "logictype_g, $ww_access, $glitchedInfernoAccess, $mumboWW, splitup, taxpack", "logictype_g, $ww_access, $glitchedInfernoAccess, ceggs, splitup, taxpack"
-            ]
+            "ref": "Witchyworld - Main Area/WW: Mrs. Boggy Jiggy/Jiggy",
+            "name": "WW: Mrs. Boggy Jiggy"
           },
           {
-            "name": "WW: Star Spinner Jiggy",
-            "access_rules": [
-              "logictype_b, $ww_access, $mumboWW, ttrot",
-              "logictype_n, $ww_access, $mumboWW, ttrot",
-              "logictype_a, $ww_access, $mumboWW",
-              "logictype_g, $ww_access, $mumboWW"
-            ]
+            "ref": "Witchyworld - Main Area/Star Spinner/Jiggy",
+            "name": "WW: Star Spinner Jiggy"
           },
           {
-            "name": "WW: The Inferno Jiggy",
-            "access_rules": [
-              "logictype_b, $ww_access, $humbaWW, splitup, tjump",
-              "logictype_n, $ww_access, $humbaWW, splitup, tjump", "logictype_n, $ww_access, $humbaWW, splitup, lspring", "logictype_n, $ww_access, $humbaWW, fflip, ttrot", "logictype_n, $ww_access, $humbaWW, fflip, ttrain",
-              "logictype_a, $ww_access, $humbaWW",
-              "logictype_g, $ww_access, $humbaWW", "logictype_g, $ww_access, $glitchedInfernoAccess, splitup, tjump", "logictype_g, $ww_access, $glitchedInfernoAccess, splitup, lspring", "logictype_g, $ww_access, $glitchedInfernoAccess, fflip, ttrot", "logictype_g, $ww_access, $glitchedInfernoAccess, fflip, ttrain"
-            ]
+            "ref": "Witchyworld - The Inferno/WW: The Inferno Jiggy/Jiggy",
+            "name": "WW: The Inferno Jiggy"
           },
           {
-            "name": "WW: Cactus of Strength Jiggy",
-            "access_rules": [
-              "logictype_b, $ww_access, $billDrill, $canShootEggs|geggs, bbust, climb",
-              "logictype_n, $ww_access, $billDrill, $canShootEggs|geggs, bbust, climb", "logictype_n, $ww_access, $billDrill, $canShootEggs|geggs, bbust, splitup, lspring, glide",
-              "logictype_a, $ww_access, $billDrill, $canShootEggs|geggs, bbust, climb", "logictype_a, $ww_access, $billDrill, $canShootEggs|geggs, bbust, $clockwork_shot", "logictype_a, $ww_access, $billDrill, $canShootEggs|geggs, bbust, splitup, lspring, glide",
-              "logictype_g, $ww_access, $billDrill, $canShootEggs|geggs, bbust, climb", "logictype_g, $ww_access, $billDrill, $canShootEggs|geggs, bbust, $clockwork_shot", "logictype_g, $ww_access, $billDrill, $canShootEggs|geggs, bbust, splitup, lspring, glide"
-            ]
+            "ref": "Witchyworld - Main Area/WW: Cactus of Strength Jiggy/Jiggy",
+            "name": "WW: Cactus of Strength Jiggy"
           }
         ],
         "map_locations": [
@@ -1043,97 +948,72 @@
         "name": "Witchyworld - Notes",
         "sections": [
           {
-            "name": "WW: Treble Clef",
-            "access_rules": [ 
-              "logictype_b, $ww_access, $humbaWW",
-              "logictype_n, $ww_access, $humbaWW",
-              "logictype_a, $ww_access, $humbaWW",
-              "logictype_g, $ww_access, $humbaWW", "logictype_g, $ww_access, $canShootEggs|ceggs"
-            ]
+            "ref": "Witchyworld - Main Area/WW: Treble Clef/Treble Clef",
+            "name": "WW: Treble Clef"
           },
           {
-            "name": "WW: Around the Tent (1) Note",
-            "access_rules": [ "$ww_access" ]
+            "ref": "Witchyworld - Main Area/WW: Around the Tent (1) Note/Note",
+            "name": "WW: Around the Tent (1) Note"
           },
           {
-            "name": "WW: Around the Tent (2) Note",
-            "access_rules": [ "$ww_access" ]
+            "ref": "Witchyworld - Main Area/WW: Around the Tent (2) Note/Note",
+            "name": "WW: Around the Tent (2) Note"
           },
           {
-            "name": "WW: Around the Tent (3) Note",
-            "access_rules": [ "$ww_access" ]
+            "ref": "Witchyworld - Main Area/WW: Around the Tent (3) Note/Note",
+            "name": "WW: Around the Tent (3) Note"
           },
           {
-            "name": "WW: Around the Tent (4) Note",
-            "access_rules": [ "$ww_access" ]
+            "ref": "Witchyworld - Main Area/WW: Around the Tent (4) Note/Note",
+            "name": "WW: Around the Tent (4) Note"
           },
           {
-            "name": "WW: Around the Tent (5) Note",
-            "access_rules": [ "$ww_access" ]
+            "ref": "Witchyworld - Main Area/WW: Around the Tent (5) Note/Note",
+            "name": "WW: Around the Tent (5) Note"
           },
           {
-            "name": "WW: Around the Tent (6) Note",
-            "access_rules": [ "$ww_access" ]
+            "ref": "Witchyworld - Main Area/WW: Around the Tent (6) Note/Note",
+            "name": "WW: Around the Tent (6) Note"
           },
           {
-            "name": "WW: Around the Tent (7) Note",
-            "access_rules": [ "$ww_access" ]
+            "ref": "Witchyworld - Main Area/WW: Around the Tent (7) Note/Note",
+            "name": "WW: Around the Tent (7) Note"
           },
           {
-            "name": "WW: Around the Tent (8) Note",
-            "access_rules": [ "$ww_access" ]
+            "ref": "Witchyworld - Main Area/WW: Around the Tent (8) Note/Note",
+            "name": "WW: Around the Tent (8) Note"
           },
           {
-            "name": "WW: Area 51 Gate (1) Note",
-            "access_rules": [
-              "logictype_b, $ww_access, $has_explosives, $springPad",
-              "logictype_n, $ww_access, $has_explosives, $springPad", "logictype_n, $ww_access, splitup, lspring",
-              "logictype_a, $ww_access, $has_explosives, $springPad", "logictype_a, $ww_access, splitup, $springPad", "logictype_a, $ww_access, splitup, lspring", "logictype_a, $ww_access, $clockwork_shot",
-              "logictype_g, $ww_access, $has_explosives, $springPad", "logictype_g, $ww_access, splitup, $springPad", "logictype_g, $ww_access, splitup, lspring", "logictype_g, $ww_access, $clockwork_shot"
-            ]
+            "ref": "Witchyworld - Main Area/WW: Area 51 Gate Notes/Note 1",
+            "name": "WW: Area 51 Gate (1) Note"
           },
           {
-            "name": "WW: Area 51 Gate (2) Note",
-            "access_rules": [
-              "logictype_b, $ww_access, $has_explosives, $springPad",
-              "logictype_n, $ww_access, $has_explosives, $springPad", "logictype_n, $ww_access, splitup, lspring",
-              "logictype_a, $ww_access, $has_explosives, $springPad", "logictype_a, $ww_access, splitup, $springPad", "logictype_a, $ww_access, splitup, lspring", "logictype_a, $ww_access, $clockwork_shot",
-              "logictype_g, $ww_access, $has_explosives, $springPad", "logictype_g, $ww_access, splitup, $springPad", "logictype_g, $ww_access, splitup, lspring", "logictype_g, $ww_access, $clockwork_shot"
-            ]
+            "ref": "Witchyworld - Main Area/WW: Area 51 Gate Notes/Note 2",
+            "name": "WW: Area 51 Gate (2) Note"
           },
           {
-            "name": "WW: Outside Dodgem Dome (1) Note",
-            "access_rules": [ "$ww_access" ]
+            "ref": "Witchyworld - Main Area/WW: Outside Dodgem Dome Notes/Note 1",
+            "name": "WW: Outside Dodgem Dome (1) Note"
           },
           {
-            "name": "WW: Outside Dodgem Dome (2) Note",
-            "access_rules": [ "$ww_access" ]
+            "ref": "Witchyworld - Main Area/WW: Outside Dodgem Dome Notes/Note 2",
+            "name": "WW: Outside Dodgem Dome (2) Note"
           },
           {
-            "name": "WW: Dive of Death (1) Note",
-            "access_rules": [
-              "logictype_b, $ww_access, ggrab, fflip, dive", "logictype_b, $ww_access, climb, dive",
-              "logictype_n, $ww_access, ggrab, fflip", "logictype_n, $ww_access, bbust, fflip", "logictype_n, $ww_access, climb",
-              "logictype_a, $ww_access, ggrab, fflip", "logictype_a, $ww_access, bbust, fflip", "logictype_a, $ww_access, climb",
-              "logictype_g, $ww_access, ggrab, fflip", "logictype_g, $ww_access, bbust, fflip", "logictype_g, $ww_access, climb", "logictype_g, $ww_access, grat", "logictype_g, $ww_access, bbarge"
-            ]
+            "ref": "Witchyworld - Main Area/WW: Dive of Death Notes/Note 1",
+            "name": "WW: Dive of Death (1) Note"
           },
           {
-            "name": "WW: Dive of Death (2) Note",
-            "access_rules": [
-              "logictype_b, $ww_access, ggrab, fflip, dive", "logictype_b, $ww_access, climb, dive",
-              "logictype_n, $ww_access, ggrab, fflip", "logictype_n, $ww_access, bbust, fflip", "logictype_n, $ww_access, climb",
-              "logictype_a, $ww_access, ggrab, fflip", "logictype_a, $ww_access, bbust, fflip", "logictype_a, $ww_access, climb",
-              "logictype_g, $ww_access, ggrab, fflip", "logictype_g, $ww_access, bbust, fflip", "logictype_g, $ww_access, climb", "logictype_g, $ww_access, grat", "logictype_g, $ww_access, bbarge"
-            ]
+            "ref": "Witchyworld - Main Area/WW: Dive of Death Notes/Note 2",
+            "name": "WW: Dive of Death (2) Note"
           },
           {
-            "name": "WW: Crazy Castle Entrance (1) Note",
-            "access_rules": [ "$ww_access" ]
+            "ref": "Witchyworld - Main Area/WW: Crazy Castle Entrance Notes/Note 1",
+            "name": "WW: Crazy Castle Entrance (1) Note"
           },
           {
-            "name": "WW: Crazy Castle Entrance (2) Note",
-            "access_rules": [ "$ww_access" ]
+            "ref": "Witchyworld - Main Area/WW: Crazy Castle Entrance Notes/Note 2",
+            "name": "WW: Crazy Castle Entrance (2) Note"
           }
         ],
         "map_locations": [
@@ -5536,15 +5416,22 @@
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
     "access_rules": [
-      "wwa"
+      "@Pine Grove, wwa",
+      "trainswww, @Inside Chuffy",
+      "@Glitter Gulch Mine - Main Area, $ggm_to_ww"
     ],
     "children": [
       {
         "name": "WW: Mrs. Boggy Jiggy",
         "sections": [
           {
-            "ref": "Overworld/Witchyworld - Jiggies/WW: Mrs. Boggy Jiggy",
-            "name": "Jiggy"
+            "name": "Jiggy",
+            "access_rules": [
+              "logictype_b, $mumboWW, splitup, taxpack, $has_explosives",
+              "logictype_n, $mumboWW, splitup, taxpack, $has_explosives",
+              "logictype_a, $humbaWW, $mumboWW, splitup, taxpack",
+              "logictype_g, $glitchedInfernoAccess, $mumboWW, splitup, taxpack", "logictype_g, $glitchedInfernoAccess, ceggs, splitup, taxpack"
+            ]
           }
         ],
         "map_locations": [
@@ -5559,8 +5446,13 @@
         "name": "WW: Cactus of Strength Jiggy",
         "sections": [
           {
-            "ref": "Overworld/Witchyworld - Jiggies/WW: Cactus of Strength Jiggy",
-            "name": "Jiggy"
+            "name": "Jiggy",
+            "access_rules": [
+              "logictype_b, $billDrill, $canShootEggs|geggs, bbust, climb",
+              "logictype_n, $billDrill, $canShootEggs|geggs, bbust, climb", "logictype_n, $billDrill, $canShootEggs|geggs, bbust, splitup, lspring, glide",
+              "logictype_a, $billDrill, $canShootEggs|geggs, bbust, climb", "logictype_a, $billDrill, $canShootEggs|geggs, bbust, $clockwork_shot", "logictype_a, $billDrill, $canShootEggs|geggs, bbust, splitup, lspring, glide",
+              "logictype_g, $billDrill, $canShootEggs|geggs, bbust, climb", "logictype_g, $billDrill, $canShootEggs|geggs, bbust, $clockwork_shot", "logictype_g, $billDrill, $canShootEggs|geggs, bbust, splitup, lspring, glide"
+            ]
           }
         ],
         "map_locations": [
@@ -5575,8 +5467,13 @@
         "name": "WW: Cactus of Strength Jinjo",
         "sections": [
           {
-            "ref": "Overworld/Witchyworld/WW: Cactus of Strength Jinjo",
-            "name": "Jinjo"
+            "name": "Jinjo",
+            "access_rules": [
+              "logictype_b, ggrab, fflip",
+              "logictype_n, ggrab, fflip", "logictype_n, climb, ttrot, flutter",
+              "logictype_a, ggrab, fflip", "logictype_a, climb, ttrot, flutter", "logictype_a, $clockwork_shot",
+              "logictype_g, ggrab, fflip", "logictype_g, climb, ttrot, flutter", "logictype_g, $clockwork_shot"
+            ]
           }
         ],
         "map_locations": [
@@ -5591,8 +5488,13 @@
         "name": "WW: Big Top Jinjo",
         "sections": [
           {
-            "ref": "Overworld/Witchyworld/WW: Big Top Jinjo",
-            "name": "Jinjo"
+            "name": "Jinjo",
+            "access_rules": [
+              "logictype_b, ttrot",
+              "logictype_n, ttrot", "logictype_n, $humbaWW", "logictype_n, splitup",
+              "logictype_a, ttrot", "logictype_a, $humbaWW", "logictype_a, $clockwork_shot", "logictype_a, splitup", "logictype_a, ggrab, climb, fflip", "logictype_a, bbust, climb, fflip",
+              "logictype_g, ttrot", "logictype_g, $humbaWW", "logictype_g, $clockwork_shot", "logictype_g, splitup", "logictype_g, ggrab, climb, fflip", "logictype_g, bbust, climb, fflip", "logictype_g, $glitchedInfernoAccess, ttrain"
+            ]
           }
         ],
         "map_locations": [
@@ -5607,8 +5509,13 @@
         "name": "WW: Dodgem Dome Jinjo",
         "sections": [
           {
-            "ref": "Overworld/Witchyworld/WW: Dodgem Dome Jinjo",
-            "name": "Jinjo"
+            "name": "Jinjo",
+            "access_rules": [
+              "logictype_b, ttrot, climb",
+              "logictype_n, ttrot, climb",
+              "logictype_a, ttrot, climb", "logictype_a, $clockwork_shot, climb",
+              "logictype_g, ttrot, climb", "logictype_g, $clockwork_shot, climb"
+            ]
           }
         ],
         "map_locations": [
@@ -5623,8 +5530,13 @@
         "name": "WW: Van Door Jinjo",
         "sections": [
           {
-            "ref": "Overworld/Witchyworld/WW: Van Door Jinjo",
-            "name": "Jinjo"
+            "name": "Jinjo",
+            "access_rules": [
+              "logictype_b, $has_explosives, $humbaWW",
+              "logictype_n, $has_explosives, $humbaWW",
+              "logictype_a, $has_explosives, $humbaWW",
+              "logictype_g, $canShootEggs|geggs, $humbaWW", "logictype_g, $canShootEggs|ceggs"
+            ]
           }
         ],
         "map_locations": [
@@ -5636,27 +5548,16 @@
         ]
       },
       {
-        "name": "WW: Space Zone Honeycomb",
-        "sections": [
-          {
-            "ref": "Overworld/Witchyworld/WW: Space Zone Honeycomb",
-            "name": "Honeycomb"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ww1",
-            "x": 425,
-            "y": 35
-          }
-        ]
-      },
-      {
         "name": "WW: Wumba's Glowbo",
         "sections": [
           {
-            "ref": "Overworld/Witchyworld/WW: Wumba's Glowbo",
-            "name": "Glowbo"
+            "name": "Glowbo",
+            "access_rules": [
+              "logictype_b, fflip, ggrab",
+              "logictype_n, fflip, ggrab", "logictype_n, climb, $veryLongJump",
+              "logictype_a, fflip, ggrab", "logictype_a, climb, $veryLongJump, fflip", "logictype_a, $clockwork_shot, climb",
+              "logictype_g, fflip, ggrab", "logictype_g, climb, $veryLongJump, fflip", "logictype_g, $clockwork_shot, climb"
+            ]
           }
         ],
         "map_locations": [
@@ -5671,8 +5572,8 @@
         "name": "WW: Split Up Silo",
         "sections": [
           {
-            "ref": "Overworld/Witchyworld/WW: Split Up Silo",
-            "name": "Silo"
+            "name": "Silo",
+            "access_rules": [ "$notecount|160" ]
           }
         ],
         "map_locations": [
@@ -5687,8 +5588,8 @@
         "name": "WW: Airborne Egg Aiming Silo",
         "sections": [
           {
-            "ref": "Overworld/Witchyworld/WW: Airborne Egg Aiming Silo",
-            "name": "Silo"
+            "name": "Silo",
+            "access_rules": [ "$notecount|180" ]
           }
         ],
         "map_locations": [
@@ -5703,8 +5604,13 @@
         "name": "WW: Treble Clef",
         "sections": [
           {
-            "ref": "Overworld/Witchyworld - Notes/WW: Treble Clef",
-            "name": "Treble Clef"
+            "name": "Treble Clef",
+            "access_rules": [ 
+              "logictype_b, $humbaWW",
+              "logictype_n, $humbaWW",
+              "logictype_a, $humbaWW",
+              "logictype_g, $humbaWW", "logictype_g, $canShootEggs|ceggs"
+            ]
           }
         ],
         "map_locations": [
@@ -5719,8 +5625,13 @@
         "name": "WW: Dive of Death Jiggy",
         "sections": [
           {
-            "ref": "Overworld/Witchyworld - Jiggies/WW: Dive of Death Jiggy",
-            "name": "Jiggy"
+            "name": "Jiggy",
+            "access_rules": [
+              "logictype_b, ggrab, climb, fflip",
+              "logictype_n, climb, fflip", "logictype_n, climb, ttrot", "logictype_n, climb, tjump, bbust", "logictype_n, climb, tjump, arat",
+              "logictype_a, climb, fflip", "logictype_a, climb, ttrot", "logictype_a, climb, tjump, bbust", "logictype_a, climb, tjump, arat", "logictype_a, climb, $clockwork_shot",
+              "logictype_g, climb, fflip", "logictype_g, climb, ttrot", "logictype_g, climb, tjump, bbust", "logictype_g, climb, tjump, arat", "logictype_g, climb, $clockwork_shot"
+            ]
           }
         ],
         "map_locations": [
@@ -5733,14 +5644,14 @@
       },
       {
         "name": "Big Top Interior",
+        "access_rules": [ "aireaim, eggaim, geggs, fpad" ],
         "sections": [
           {
-            "ref": "Overworld/Witchyworld - Jiggies/WW: Mr. Patch Jiggy",
             "name": "Mr. Patch Jiggy"
           },
           {
-            "ref": "Overworld/Witchyworld/WW: Mr. Patch Mumbo Token",
-            "name": "Mr. Patch Mumbo Token"
+            "name": "Mr. Patch Mumbo Token",
+            "visibility_rules": [ "goal_boss", "goal_wwing" ]
           }
         ],
         "map_locations": [
@@ -5752,35 +5663,16 @@
         ]
       },
       {
-        "name": "Saucer of Peril",
-        "sections": [
-          {
-            "ref": "Overworld/Witchyworld - Jiggies/WW: Saucer of Peril Jiggy",
-            "name": "Jiggy"
-          },
-          {
-            "ref": "Overworld/Witchyworld/WW: Saucer of Peril Cheato Page",
-            "name": "Cheato Page"
-          },
-          {
-            "ref": "Overworld/Witchyworld/WW: Saucer of Peril Mumbo Token",
-            "name": "Mumbo Token"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ww1",
-            "x": 520,
-            "y": 90
-          }
-        ]
-      },
-      {
         "name": "Star Spinner",
         "sections": [
           {
-            "ref": "Overworld/Witchyworld - Jiggies/WW: Star Spinner Jiggy",
-            "name": "Jiggy"
+            "name": "Jiggy",
+            "access_rules": [
+              "logictype_b, $mumboWW, ttrot",
+              "logictype_n, $mumboWW, ttrot",
+              "logictype_a, $mumboWW",
+              "logictype_g, $mumboWW"
+            ]
           }
         ],
         "map_locations": [
@@ -5793,14 +5685,14 @@
       },
       {
         "name": "Dodgem Dome",
+        "access_rules": [ "$ww_jiggy2" ],
         "sections": [
           {
-            "ref": "Overworld/Witchyworld - Jiggies/WW: Dodgem Dome Jiggy",
             "name": "Jiggy"
           },
           {
-            "ref": "Overworld/Witchyworld/WW: Dodgem Dome Mumbo Token",
-            "name": "Mumbo Token"
+            "name": "Mumbo Token",
+            "visibility_rules": [ "goal_minigame", "goal_wwing" ]
           }
         ],
         "map_locations": [
@@ -5815,8 +5707,13 @@
         "name": "Train Station (Witchyworld)",
         "sections": [
           {
-            "ref": "Overworld/Witchyworld/WW: Train Switch",
-            "name": "Train Switch"
+            "name": "Train Switch",
+            "access_rules": [
+              "logictype_b, ggrab, fflip",
+              "logictype_n, ggrab, fflip", "logictype_n, splitup, lspring",
+              "logictype_a, ggrab, fflip", "logictype_a, splitup, lspring",
+              "logictype_g, ggrab, fflip", "logictype_g, splitup, lspring"
+            ]
           }
         ],
         "map_locations": [
@@ -5831,7 +5728,6 @@
         "name": "WW: Around the Tent (1) Note",
         "sections": [
           {
-            "ref": "Overworld/Witchyworld - Notes/WW: Around the Tent (1) Note",
             "name": "Note"
           }
         ],
@@ -5847,7 +5743,6 @@
         "name": "WW: Around the Tent (8) Note",
         "sections": [
           {
-            "ref": "Overworld/Witchyworld - Notes/WW: Around the Tent (8) Note",
             "name": "Note"
           }
         ],
@@ -5863,7 +5758,6 @@
         "name": "WW: Around the Tent (7) Note",
         "sections": [
           {
-            "ref": "Overworld/Witchyworld - Notes/WW: Around the Tent (7) Note",
             "name": "Note"
           }
         ],
@@ -5879,7 +5773,6 @@
         "name": "WW: Around the Tent (6) Note",
         "sections": [
           {
-            "ref": "Overworld/Witchyworld - Notes/WW: Around the Tent (6) Note",
             "name": "Note"
           }
         ],
@@ -5895,7 +5788,6 @@
         "name": "WW: Around the Tent (5) Note",
         "sections": [
           {
-            "ref": "Overworld/Witchyworld - Notes/WW: Around the Tent (5) Note",
             "name": "Note"
           }
         ],
@@ -5911,7 +5803,6 @@
         "name": "WW: Around the Tent (4) Note",
         "sections": [
           {
-            "ref": "Overworld/Witchyworld - Notes/WW: Around the Tent (4) Note",
             "name": "Note"
           }
         ],
@@ -5927,7 +5818,6 @@
         "name": "WW: Around the Tent (3) Note",
         "sections": [
           {
-            "ref": "Overworld/Witchyworld - Notes/WW: Around the Tent (3) Note",
             "name": "Note"
           }
         ],
@@ -5943,7 +5833,6 @@
         "name": "WW: Around the Tent (2) Note",
         "sections": [
           {
-            "ref": "Overworld/Witchyworld - Notes/WW: Around the Tent (2) Note",
             "name": "Note"
           }
         ],
@@ -5957,13 +5846,17 @@
       },
       {
         "name": "WW: Dive of Death Notes",
+        "access_rules": [
+              "logictype_b, ggrab, fflip, dive", "logictype_b, climb, dive",
+              "logictype_n, ggrab, fflip", "logictype_n, bbust, fflip", "logictype_n, climb",
+              "logictype_a, ggrab, fflip", "logictype_a, bbust, fflip", "logictype_a, climb",
+              "logictype_g, ggrab, fflip", "logictype_g, bbust, fflip", "logictype_g, climb", "logictype_g, grat", "logictype_g, bbarge"
+            ],
         "sections": [
           {
-            "ref": "Overworld/Witchyworld - Notes/WW: Dive of Death (1) Note",
             "name": "Note 1"
           },
           {
-            "ref": "Overworld/Witchyworld - Notes/WW: Dive of Death (2) Note",
             "name": "Note 2"
           }
         ],
@@ -5977,13 +5870,17 @@
       },
       {
         "name": "WW: Area 51 Gate Notes",
+        "access_rules": [
+              "logictype_b, $has_explosives, $springPad",
+              "logictype_n, $has_explosives, $springPad", "logictype_n, splitup, lspring",
+              "logictype_a, $has_explosives, $springPad", "logictype_a, splitup, $springPad", "logictype_a, splitup, lspring", "logictype_a, $clockwork_shot",
+              "logictype_g, $has_explosives, $springPad", "logictype_g, splitup, $springPad", "logictype_g, splitup, lspring", "logictype_g, $clockwork_shot"
+            ],
         "sections": [
           {
-            "ref": "Overworld/Witchyworld - Notes/WW: Area 51 Gate (1) Note",
             "name": "Note 1"
           },
           {
-            "ref": "Overworld/Witchyworld - Notes/WW: Area 51 Gate (2) Note",
             "name": "Note 2"
           }
         ],
@@ -5999,11 +5896,9 @@
         "name": "WW: Crazy Castle Entrance Notes",
         "sections": [
           {
-            "ref": "Overworld/Witchyworld - Notes/WW: Crazy Castle Entrance (1) Note",
             "name": "Note 1"
           },
           {
-            "ref": "Overworld/Witchyworld - Notes/WW: Crazy Castle Entrance (2) Note",
             "name": "Note 2"
           }
         ],
@@ -6019,11 +5914,9 @@
         "name": "WW: Outside Dodgem Dome Notes",
         "sections": [
           {
-            "ref": "Overworld/Witchyworld - Notes/WW: Outside Dodgem Dome (1) Note",
             "name": "Note 1"
           },
           {
-            "ref": "Overworld/Witchyworld - Notes/WW: Outside Dodgem Dome (2) Note",
             "name": "Note 2"
           }
         ],
@@ -6039,27 +5932,27 @@
         "name": "Crazy Castle Stockade",
         "sections": [
           {
-            "ref": "Overworld/Witchyworld/WW: Crazy Castle Honeycomb",
+            "ref": "Witchyworld - Crazy Castle Stockade/WW: Crazy Castle Honeycomb/Honeycomb",
             "name": "Honeycomb"
           },
           {
-            "ref": "Overworld/Witchyworld/WW: Pack Whack Silo",
+            "ref": "Witchyworld - Crazy Castle Stockade/WW: Pack Whack Silo/Silo",
             "name": "Pack Whack Silo"
           },
           {
-            "ref": "Overworld/Witchyworld - Jiggies/WW: Hoop Hurry Jiggy",
+            "ref": "Witchyworld - Crazy Castle Stockade/Crazy Castle/Hoop Hurry Jiggy",
             "name": "Hoop Hurry Jiggy"
           },
           {
-            "ref": "Overworld/Witchyworld/WW: Hoop Hurry Mumbo Token",
+            "ref": "Witchyworld - Crazy Castle Stockade/Crazy Castle/Hoop Hurry Mumbo Token",
             "name": "Hoop Hurry Mumbo Token"
           },
           {
-            "ref": "Overworld/Witchyworld - Jiggies/WW: Balloon Burst Jiggy",
+            "ref": "Witchyworld - Crazy Castle Stockade/Crazy Castle/Balloon Burst Jiggy",
             "name": "Balloon Burst Jiggy"
           },
           {
-            "ref": "Overworld/Witchyworld/WW: Balloon Burst Mumbo Token",
+            "ref": "Witchyworld - Crazy Castle Stockade/Crazy Castle/Balloon Burst Mumbo Token",
             "name": "Balloon Burst Mumbo Token"
           }
         ],
@@ -6075,19 +5968,19 @@
         "name": "The Inferno",
         "sections": [
           {
-            "ref": "Overworld/Witchyworld/WW: The Inferno Glowbo",
+            "ref": "Witchyworld - The Inferno/WW: The Inferno Glowbo/Glowbo",
             "name": "Glowbo"
           },
           {
-            "ref": "Overworld/Witchyworld/WW: The Inferno Cheato Page",
+            "ref": "Witchyworld - The Inferno/WW: The Inferno Cheato Page/Cheato Page",
             "name": "Cheato Page"
           },
           {
-            "ref": "Overworld/Witchyworld/WW: Mumbo Skull Honeycomb",
+            "ref": "Witchyworld - The Inferno/Mumbo's Skull/Honeycomb",
             "name": "Mumbo Skull Honeycomb"
           },
           {
-            "ref": "Overworld/Witchyworld - Jiggies/WW: The Inferno Jiggy",
+            "ref": "Witchyworld - The Inferno/WW: The Inferno Jiggy/Jiggy",
             "name": "Jiggy"
           }
         ],
@@ -6103,11 +5996,11 @@
         "name": "The Haunted Cavern",
         "sections": [
           {
-            "ref": "Overworld/Witchyworld/WW: Cave of Horrors Jinjo",
+            "ref": "Witchyworld - The Haunted Cavern/Cave of Horrors/Jinjo",
             "name": "Cave of Horrors Jinjo"
           },
           {
-            "ref": "Overworld/Witchyworld/WW: The Haunted Cavern Cheato Page",
+            "ref": "Witchyworld - The Haunted Cavern/WW: The Haunted Cavern Cheato Page/Cheato Page",
             "name": "Cheato Page"
           }
         ],
@@ -6122,16 +6015,78 @@
     ]
   },
   {
+    "name": "Witchyworld - Space Zone",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "children": [
+      {
+        "name": "WW: Space Zone Honeycomb",
+        "sections": [
+          {
+            "name": "Honeycomb",
+            "access_rules": [
+              "logictype_b, ggrab, climb, fflip, @Witchyworld - Main Area",
+              "logictype_n, ggrab, climb, fflip, @Witchyworld - Main Area", "logictype_n, splitup, lspring, glide, @Witchyworld - Main Area",
+              "logictype_a, ggrab, climb, fflip, @Witchyworld - Main Area", "logictype_a, bbust, climb, fflip, @Witchyworld - Main Area", "logictype_a, splitup, lspring, glide, @Witchyworld - Main Area",
+              "logictype_g, ggrab, climb, fflip, @Witchyworld - Main Area", "logictype_g, bbust, climb, fflip, @Witchyworld - Main Area", "logictype_g, $clockwork_shot, @Glitter Gulch Mine - Main Area, $ggm_to_ww", "logictype_g, splitup, lspring, glide, @Witchyworld - Main Area"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 425,
+            "y": 35
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Witchyworld - Saucer of Peril",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+      "@Witchyworld - Main Area, $humbaGGM, $mumboWW, $saucer_door_open_ww, $can_reach_saucer, @Glitter Gulch Mine - Main Area, $has_explosives",
+      "$humbaGGM, $mumboWW, $saucer_door_open_ggm, $canDoSmallElevation, @Glitter Gulch Mine - Main Area, $has_explosives"
+    ],
+    "children": [
+      {
+        "name": "Saucer of Peril",
+        "sections": [
+          {
+            "name": "Jiggy"
+          },
+          {
+            "name": "Cheato Page"
+          },
+          {
+            "name": "Mumbo Token",
+            "visibility_rules": [ "goal_minigame", "goal_wwing" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 520,
+            "y": 90
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Witchyworld - Crazy Castle Stockade",
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Witchyworld - Main Area" ],
     "children": [
       {
         "name": "WW: Pack Whack Silo",
         "sections": [
           {
-            "ref": "Overworld/Witchyworld/WW: Pack Whack Silo",
-            "name": "Silo"
+            "name": "Silo",
+            "access_rules": [ "splitup, $notecount|170" ]
           }
         ],
         "map_locations": [
@@ -6146,8 +6101,13 @@
         "name": "WW: Crazy Castle Honeycomb",
         "sections": [
           {
-            "ref": "Overworld/Witchyworld/WW: Crazy Castle Honeycomb",
-            "name": "Honeycomb"
+            "name": "Honeycomb",
+            "access_rules": [
+              "logictype_b, $has_explosives, $canDoSmallElevation", "logictype_b, $has_explosives, splitup",
+              "logictype_n, $has_explosives, $canDoSmallElevation", "logictype_n, $has_explosives, splitup",
+              "logictype_a, $has_explosives, $canDoSmallElevation", "logictype_a, $has_explosives, splitup", "logictype_a, $clockwork_shot",
+              "logictype_g, $has_explosives, $canDoSmallElevation", "logictype_g, $has_explosives, splitup", "logictype_g, $clockwork_shot"
+            ]
           }
         ],
         "map_locations": [
@@ -6162,20 +6122,22 @@
         "name": "Crazy Castle",
         "sections": [
           {
-            "ref": "Overworld/Witchyworld - Jiggies/WW: Hoop Hurry Jiggy",
-            "name": "Hoop Hurry Jiggy"
+            "name": "Hoop Hurry Jiggy",
+            "access_rules": [ "splitup, $has_explosives, $springPad, fflip", "splitup, $has_explosives, $springPad, lspring" ]
           },
           {
-            "ref": "Overworld/Witchyworld/WW: Hoop Hurry Mumbo Token",
-            "name": "Hoop Hurry Mumbo Token"
+            "name": "Hoop Hurry Mumbo Token",
+            "access_rules": [ "splitup, $has_explosives, $springPad, fflip", "splitup, $has_explosives, $springPad, lspring" ],
+            "visibility_rules": [ "goal_minigame", "goal_wwing" ]
           },
           {
-            "ref": "Overworld/Witchyworld - Jiggies/WW: Balloon Burst Jiggy",
-            "name": "Balloon Burst Jiggy"
+            "name": "Balloon Burst Jiggy",
+            "access_rules": [ "splitup, aireaim, $has_explosives, $springPad, fflip", "splitup, aireaim, $has_explosives, $springPad, lspring" ]
           },
           {
-            "ref": "Overworld/Witchyworld/WW: Balloon Burst Mumbo Token",
-            "name": "Balloon Burst Mumbo Token"
+            "name": "Balloon Burst Mumbo Token",
+            "access_rules": [ "splitup, aireaim, $has_explosives, $springPad, fflip", "splitup, aireaim, $has_explosives, $springPad, lspring" ],
+            "visibility_rules": [ "goal_minigame", "goal_wwing" ]
           }
         ],
         "map_locations": [
@@ -6197,8 +6159,13 @@
         "name": "Cave of Horrors",
         "sections": [
           {
-            "ref": "Overworld/Witchyworld/WW: Cave of Horrors Jinjo",
-            "name": "Jinjo"
+            "name": "Jinjo",
+            "access_rules": [
+              "logictype_b, geggs, eggaim",
+              "logictype_n, $canShootEggs|geggs",
+              "logictype_a, $canShootEggs|geggs",
+              "logictype_g, $canShootEggs|geggs"
+            ]
           }
         ],
         "map_locations": [
@@ -6213,8 +6180,13 @@
         "name": "WW: The Haunted Cavern Cheato Page",
         "sections": [
           {
-            "ref": "Overworld/Witchyworld/WW: The Haunted Cavern Cheato Page",
-            "name": "Cheato Page"
+            "name": "Cheato Page",
+            "access_rules": [
+              "logictype_b, $canReachSlightlyElevatedLedge",
+              "logictype_n, ggrab", "logictype_n, splitup, lspring, wwhack", "logictype_n, splitup, lspring, glide",
+              "logictype_a, ggrab", "logictype_a, splitup, lspring, wwhack", "logictype_a, splitup, lspring, glide", "logictype_a, $clockwork_shot",
+              "logictype_g, ggrab", "logictype_g, splitup, lspring, wwhack", "logictype_g, splitup, lspring, glide", "logictype_g, $clockwork_shot"
+            ]
           }
         ],
         "map_locations": [
@@ -6231,12 +6203,17 @@
     "name": "Witchyworld - The Inferno",
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+      "$logictype_b, @Witchyworld - Main Area, $humbaWW",
+      "$logictype_n, @Witchyworld - Main Area, $humbaWW",
+      "$logictype_a, @Witchyworld - Main Area, $humbaWW",
+      "$logictype_g, @Witchyworld - Main Area, $glitchedInfernoAccess"
+    ],
     "children": [
       {
         "name": "WW: The Inferno Glowbo",
         "sections": [
           {
-            "ref": "Overworld/Witchyworld/WW: The Inferno Glowbo",
             "name": "Glowbo"
           }
         ],
@@ -6252,7 +6229,6 @@
         "name": "WW: The Inferno Cheato Page",
         "sections": [
           {
-            "ref": "Overworld/Witchyworld/WW: The Inferno Cheato Page",
             "name": "Cheato Page"
           }
         ],
@@ -6268,7 +6244,6 @@
         "name": "Mumbo's Skull",
         "sections": [
           {
-            "ref": "Overworld/Witchyworld/WW: Mumbo Skull Honeycomb",
             "name": "Honeycomb"
           }
         ],
@@ -6284,8 +6259,13 @@
         "name": "WW: The Inferno Jiggy",
         "sections": [
           {
-            "ref": "Overworld/Witchyworld - Jiggies/WW: The Inferno Jiggy",
-            "name": "Jiggy"
+            "name": "Jiggy",
+            "access_rules": [
+              "logictype_b, splitup, tjump",
+              "logictype_n, splitup, tjump", "logictype_n, splitup, lspring", "logictype_n, fflip, ttrot", "logictype_n, fflip, ttrain",
+              "logictype_a",
+              "logictype_g, $humbaWW", "logictype_g, splitup, tjump", "logictype_g, splitup, lspring", "logictype_g, fflip, ttrot", "logictype_g, fflip, ttrain"
+            ]
           }
         ],
         "map_locations": [
