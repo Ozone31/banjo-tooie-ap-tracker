@@ -1376,147 +1376,80 @@
         "name": "Terrydactyland",
         "sections": [
           {
-            "name": "TDL: Talon Torpedo Jinjo",
-            "access_rules": [ "$tdl_access, ttorp, dive" ]
+            "ref": "Terrydactyland - Main Area/TDL: Talon Torpedo Jinjo/Jinjo",
+            "name": "TDL: Talon Torpedo Jinjo"
           },
           {
-            "name": "TDL: Entrance Jinjo",
-            "access_rules": [
-              "logictype_b, $tdl_access, $TDLFlightPad, bbomb", "logictype_b, $tdl_access, $TDLFlightPad, $canShootEggs|geggs, eggaim",
-              "logictype_n, $tdl_access, $TDLFlightPad, bbomb", "logictype_n, $tdl_access, $canShootEggs|geggs, eggaim", "logictype_n, $tdl_access, $canShootEggs|geggs, $longJump", "logictype_n, $tdl_access, $canShootEggs|geggs, $TDLFlightPad",
-              "logictype_a, $tdl_access, $TDLFlightPad, bbomb", "logictype_a, $tdl_access, $canShootEggs|geggs, eggaim", "logictype_a, $tdl_access, $canShootEggs|geggs, $longJump", "logictype_a, $tdl_access, $canShootEggs|geggs, $TDLFlightPad",
-              "logictype_g, $tdl_access, $TDLFlightPad, bbomb", "logictype_g, $tdl_access, $canShootEggs|geggs, eggaim", "logictype_g, $tdl_access, $canShootEggs|geggs, $longJump", "logictype_g, $tdl_access, $canShootEggs|geggs, $TDLFlightPad"
-            ]
+            "ref": "Terrydactyland - Main Area/TDL: Entrance Jinjo/Jinjo",
+            "name": "TDL: Entrance Jinjo"
           },
           {
-            "name": "TDL: Beside Rocknut Jinjo",
-            "access_rules": [ "$tdl_access, $canShootEggs|ceggs" ]
+            "ref": "Terrydactyland - Main Area/TDL: Beside Rocknut Jinjo/Jinjo",
+            "name": "TDL: Beside Rocknut Jinjo"
           },
           {
-            "name": "TDL: Big T. Rex Jinjo",
-            "access_rules": [
-              "logictype_b, $tdl_access, $mumboTDL, $humbaTDL",
-              "logictype_n, $tdl_access, $mumboTDL, $humbaTDL",
-              "logictype_a, $tdl_access, $mumboTDL, $humbaTDL",
-              "logictype_g, $tdl_access, $mumboTDL, $humbaTDL", "logictype_g, $tdl_access, $canShootEggs|ceggs"
-            ]
+            "ref": "Terrydactyland - Main Area/TDL: Big T. Rex Jinjo/Jinjo",
+            "name": "TDL: Big T. Rex Jinjo"
           },
           {
-            "name": "TDL: Stomping Plains Jinjo",
-            "access_rules": [
-              "logictype_b, $tdl_access, $td_jiggy8, splitup, tjump",
-              "logictype_n, $tdl_access, $td_jiggy8, splitup, tjump",
-              "logictype_a, $tdl_access, $td_jiggy8, splitup, tjump",
-              "logictype_g, $tdl_access, $td_jiggy8, splitup, tjump", "logictype_g, $tdl_access, $td_jiggy8, $egg_barge"
-            ]
+            "ref": "Terrydactyland - Stomping Plains/TDL: Stomping Plains Jinjo/Jinjo",
+            "name": "TDL: Stomping Plains Jinjo"
           },
           {
-            "name": "TDL: Unga Bunga Cave Entrance Glowbo",
-            "access_rules": [
-              "logictype_b, $tdl_access, $canDoSmallElevation", "logictype_b, $tdl_access, $TDLFlightPad",
-              "logictype_n, $tdl_access, $canDoSmallElevation", "logictype_n, $tdl_access, $TDLFlightPad",
-              "logictype_a, $tdl_access, $canDoSmallElevation", "logictype_a, $tdl_access, $TDLFlightPad", "logictype_a, $tdl_access, $clockwork_shot",
-              "logictype_g, $tdl_access, $canDoSmallElevation", "logictype_g, $tdl_access, $TDLFlightPad", "logictype_g, $tdl_access, $clockwork_shot"
-            ]
+            "ref": "Terrydactyland - Main Area/TDL: Unga Bunga Cave Entrance Glowbo/Glowbo",
+            "name": "TDL: Unga Bunga Cave Entrance Glowbo"
           },
           {
-            "name": "TDL: Behind Mumbo's Skull Glowbo",
-            "access_rules": [
-              "logictype_b, $tdl_access, $canDoSmallElevation", "logictype_b, $tdl_access, $TDLFlightPad",
-              "logictype_n, $tdl_access, $canDoSmallElevation", "logictype_n, $tdl_access, $TDLFlightPad",
-              "logictype_a, $tdl_access, $canDoSmallElevation", "logictype_a, $tdl_access, $TDLFlightPad", "logictype_a, $tdl_access, $clockwork_shot",
-              "logictype_g, $tdl_access, $canDoSmallElevation", "logictype_g, $tdl_access, $TDLFlightPad", "logictype_g, $tdl_access, $clockwork_shot"
-            ]
+            "ref": "Terrydactyland - Main Area/TDL: Behind Mumbo's Skull Glowbo/Glowbo",
+            "name": "TDL: Behind Mumbo's Skull Glowbo"
           },
           {
-            "name": "TDL: Lakeside Honeycomb",
-            "access_rules": [
-              "logictype_b, $tdl_access, ttrain",
-              "logictype_n, $tdl_access, ttrain", "logictype_n, $tdl_access, $TDLFlightPad", "logictype_n, $tdl_access, tjump, $veryLongJump, ggrab",
-              "logictype_a, $tdl_access, ttrain", "logictype_a, $tdl_access, $TDLFlightPad", "logictype_a, $tdl_access, $clockwork_shot", "logictype_a, $tdl_access, tjump, $veryLongJump, ggrab",
-              "logictype_g, $tdl_access, ttrain", "logictype_g, $tdl_access, $TDLFlightPad", "logictype_g, $tdl_access, $clockwork_shot", "logictype_g, $tdl_access, tjump, $veryLongJump, ggrab"
-            ]
+            "ref": "Terrydactyland - Main Area/TDL: Lakeside Honeycomb/Honeycomb",
+            "name": "TDL: Lakeside Honeycomb"
           },
           {
-            "name": "TDL: Styracosaurus Cave Honeycomb",
-            "access_rules": [
-              "logictype_b, $tdl_access, $billDrill, splitup, $springPad",
-              "logictype_n, $tdl_access, $billDrill, splitup, $springPad",
-              "logictype_a, $tdl_access, $billDrill, splitup, $springPad", "logictype_a, $tdl_access, splitup, lspring, wwhack, glide", "logictype_a, $tdl_access, $clockwork_shot",
-              "logictype_g, $tdl_access, $billDrill, splitup, $springPad", "logictype_g, $tdl_access, splitup, lspring, wwhack, glide", "logictype_g, $tdl_access, $clockwork_shot"
-            ]
+            "ref": "Terrydactyland - Main Area/Styracosaurus Family Cave/Styracosaurus Cave Honeycomb",
+            "name": "TDL: Styracosaurus Cave Honeycomb"
           },
           {
-            "name": "TDL: River Passage Honeycomb",
-            "access_rules": [
-              "logictype_b, $tdl_access, ttrot",
-              "logictype_n, $tdl_access, ttrot",
-              "logictype_a, $tdl_access, ttrot", "logictype_a, $tdl_access, $clockwork_shot", "logictype_a, $tdl_access, $humbaTDL",
-              "logictype_g, $tdl_access, ttrot", "logictype_g, $tdl_access, $clockwork_shot", "logictype_g, $tdl_access, $humbaTDL"
-            ]
+            "ref": "Terrydactyland - River Passage/TDL: River Passage Honeycomb/Honeycomb",
+            "name": "TDL: River Passage Honeycomb"
           },
           {
-            "name": "TDL: Dippy's Pool Cheato Page",
-            "access_rules": [ "$tdl_access, $ccl_access, $td_jiggy2, dive, $canDoSmallElevation, springb", "$tdl_access, $ccl_access, $td_jiggy2, dive, $TDLFlightPad" ]
+            "ref": "Terrydactyland - Main Area/TDL: Dippy's Pool Cheato Page/Cheato Page",
+            "name": "TDL: Dippy's Pool Cheato Page"
           },
           {
-            "name": "TDL: Inside the Mountain Cheato Page",
-            "access_rules": [
-              "logictype_b, $tdl_access, $humbaTDL",
-              "logictype_n, $tdl_access, $humbaTDL",
-              "logictype_a, $tdl_access, $humbaTDL",
-              "logictype_g, $tdl_access, $humbaTDL", "logictype_g, $tdl_access, $canShootEggs|ceggs"
-            ]
+            "ref": "Terrydactyland - Inside the Mountain/TDL: Inside the Mountain Cheato Page/Cheato Page",
+            "name": "TDL: Inside the Mountain Cheato Page"
           },
           {
-            "name": "TDL: Boulder Cheato Page",
-            "access_rules": [
-              "logictype_b, $tdl_access, $billDrill, $canReachSlightlyElevatedLedge",
-              "logictype_n, $tdl_access, $billDrill, $canReachSlightlyElevatedLedge", "logictype_n, $tdl_access, $billDrill, $TDLFlightPad",
-              "logictype_a, $tdl_access, $billDrill, $canReachSlightlyElevatedLedge", "logictype_a, $tdl_access, $billDrill, $TDLFlightPad",
-              "logictype_g, $tdl_access, $billDrill, $canReachSlightlyElevatedLedge", "logictype_g, $tdl_access, $egg_barge, $canReachSlightlyElevatedLedge", "logictype_g, $tdl_access, $billDrill, $TDLFlightPad", "logictype_g, $tdl_access, $egg_barge, $TDLFlightPad"
-            ]
+            "ref": "Terrydactyland - Main Area/TDL: Boulder Cheato Page/Cheato Page",
+            "name": "TDL: Boulder Cheato Page"
           },
           {
-            "name": "TDL: Springy Step Shoes Silo",
-            "access_rules": [
-              "logictype_b, $tdl_access, $notecount|390, fflip, ggrab", "logictype_b, $tdl_access, $notecount|390, $TDLFlightPad",
-              "logictype_n, $tdl_access, $notecount|390, fflip, ggrab", "logictype_n, $tdl_access, $notecount|390, fflip, bbust", "logictype_n, $tdl_access, $notecount|390, $TDLFlightPad", "logictype_n, $tdl_access, $notecount|390, $veryLongJump",
-              "logictype_a, $tdl_access, $notecount|390, fflip, ggrab", "logictype_a, $tdl_access, $notecount|390, fflip, bbust", "logictype_a, $tdl_access, $notecount|390, $TDLFlightPad", "logictype_a, $tdl_access, $notecount|390, $longJump",
-              "logictype_g, $tdl_access, $notecount|390, fflip, ggrab", "logictype_g, $tdl_access, $notecount|390, fflip, bbust", "logictype_g, $tdl_access, $notecount|390, $TDLFlightPad", "logictype_g, $tdl_access, $notecount|390, $longJump"
-            ]
+            "ref": "Terrydactyland - Main Area/TDL: Springy Step Shoes Silo/Silo",
+            "name": "TDL: Springy Step Shoes Silo"
           },
           {
-            "name": "TDL: Taxi Pack Silo",
-            "access_rules": [
-              "logictype_b, $tdl_access, $notecount|405, splitup, tjump, ggrab", "logictype_b, $tdl_access, $notecount|405, splitup, tjump, sapack",
-              "logictype_n, $tdl_access, $notecount|405, splitup, tjump, ggrab", "logictype_n, $tdl_access, $notecount|405, splitup, tjump, packwh", "logictype_n, $tdl_access, $notecount|405, splitup, packwh, ggrab", "logictype_n, $tdl_access, $notecount|405, splitup, tjump, sapack",
-              "logictype_a, $tdl_access, $notecount|405, splitup, tjump, ggrab", "logictype_a, $tdl_access, $notecount|405, splitup, tjump, packwh", "logictype_a, $tdl_access, $notecount|405, splitup, packwh, ggrab", "logictype_a, $tdl_access, $notecount|405, splitup, tjump, sapack",
-              "logictype_g, $tdl_access, $notecount|405, splitup, tjump, ggrab", "logictype_g, $tdl_access, $notecount|405, splitup, tjump, packwh", "logictype_g, $tdl_access, $notecount|405, splitup, packwh, ggrab", "logictype_g, $tdl_access, $notecount|405, splitup, tjump, sapack"
-            ]
+            "ref": "Terrydactyland - River Passage/TDL: Taxi Pack Silo/Silo",
+            "name": "TDL: Taxi Pack Silo"
           },
           {
-            "name": "TDL: Hatch Silo",
-            "access_rules": [ "$tdl_access, $longJump, splitup, $notecount|420", "$mt_access, $mt_jiggy5, splitup, $notecount|420" ]
+            "ref": "Terrydactyland - Unga Bungas' Cave/TDL: Hatch Silo/Silo",
+            "name": "TDL: Hatch Silo"
           },
           {
-            "name": "TDL: Train Switch",
-            "access_rules": [ "$tdl_access, fflip", "$tdl_access, $veryLongJump", "$tdl_access, $TDLFlightPad" ]
+            "ref": "Terrydactyland - Main Area/TDL: Train Switch/Train Switch",
+            "name": "TDL: Train Switch"
           },
           {
-            "name": "TDL: Terry Mumbo Token",
-            "visibility_rules": [ "goal_boss", "goal_wwing" ],
-            "access_rules": [ "$tdl_access, $can_beat_terry" ]
+            "ref": "Terrydactyland - Terry's Nest/Terry/Terry Mumbo Token",
+            "name": "TDL: Terry Mumbo Token"
           },
           {
-            "name": "TDL: Chompas Belly Mumbo Token",
-            "visibility_rules": [ "goal_minigame", "goal_wwing" ],
-            "access_rules": [
-              "logictype_b, $tdl_access, bblaster, tjump, fpad", "logictype_b, $tdl_access, bblaster, ggrab, fpad", "logictype_b, $tdl_access, bblaster, eggaim, $has_explosives",
-              "logictype_n, $tdl_access, bblaster, tjump, fpad", "logictype_n, $tdl_access, bblaster, ggrab, fpad", "logictype_n, $tdl_access, bblaster, eggaim, $has_explosives, springb", "logictype_n, $tdl_access, bblaster, springb, $veryLongJump",
-              "logictype_a, $tdl_access, bblaster, tjump, fpad", "logictype_a, $tdl_access, bblaster, ggrab, fpad", "logictype_a, $tdl_access, bblaster, eggaim, $has_explosives, springb", "logictype_a, $tdl_access, bblaster, springb, $veryLongJump",
-              "logictype_g, $tdl_access, bblaster, tjump, fpad", "logictype_g, $tdl_access, bblaster, ggrab, fpad", "logictype_g, $tdl_access, bblaster, eggaim, $has_explosives, springb", "logictype_g, $tdl_access, bblaster, springb, $veryLongJump"
-            ]
+            "ref": "Terrydactyland - Inside the Mountain/Chompas Belly/Mumbo Token",
+            "name": "TDL: Chompas Belly Mumbo Token"
           }
         ],
         "map_locations": [
@@ -1531,74 +1464,44 @@
         "name": "Terrydactyland - Jiggies",
         "sections": [
           {
-            "name": "TDL: Under Terry's Nest Jiggy",
-            "access_rules": [
-              "logictype_b, $tdl_access, $can_beat_terry, $has_explosives", "logictype_b, $tdl_access, $can_beat_terry, $billDrill",
-              "logictype_n, $tdl_access, $can_beat_terry, $has_explosives", "logictype_n, $tdl_access, $can_beat_terry, $billDrill",
-              "logictype_a, $tdl_access, $can_beat_terry, $has_explosives", "logictype_a, $tdl_access, $can_beat_terry, $billDrill", "logictype_a, $tdl_access, $tdl_top, $clockwork_shot",
-              "logictype_g, $tdl_access, $can_beat_terry, $has_explosives", "logictype_g, $tdl_access, $can_beat_terry, $billDrill", "logictype_g, $tdl_access, $tdl_top, $clockwork_shot"
-            ]
+            "ref": "Terrydactyland - Terry's Nest/TDL: Under Terry's Nest Jiggy/Jiggy",
+            "name": "TDL: Under Terry's Nest Jiggy"
           },
           {
-            "name": "TDL: Dippy Jiggy",
-            "access_rules": [ "$tdl_access, $td_jiggy2" ]
+            "ref": "Cloud Cuckooland - Outside/TDL: Dippy Jiggy/Jiggy",
+            "name": "TDL: Dippy Jiggy"
           },
           {
-            "name": "TDL: Scrotty Jiggy",
-            "access_rules": [
-              "logictype_b, $tdl_access, $canShootEggs|geggs, $can_beat_king_coal, trainswww, trainswih, trainswtd, splitup, taxpack, mumboih, $billDrill, $mumboTDL, eggaim, ttrot, tjump",
-              "logictype_n, $tdl_access, $canShootEggs|geggs, $can_beat_king_coal, trainswww, trainswih, trainswtd, splitup, taxpack, mumboih, $billDrill, $mumboTDL, eggaim, ttrot",
-              "logictype_a, $tdl_access, $canShootEggs|geggs, $can_beat_king_coal, trainswww, trainswih, trainswtd, splitup, taxpack, mumboih, $billDrill, $mumboTDL",
-              "logictype_g, $tdl_access, $canShootEggs|geggs, $can_beat_king_coal, trainswww, trainswih, trainswtd, splitup, taxpack, mumboih, $billDrill, $mumboTDL"
-            ]
+            "ref": "Terrydactyland - Main Area/Styracosaurus Family Cave/Scrotty Jiggy",
+            "name": "TDL: Scrotty Jiggy"
           },
           {
-            "name": "TDL: Terry Jiggy",
-            "access_rules": [ "$tdl_access, $can_beat_terry" ]
+            "ref": "Terrydactyland - Terry's Nest/Terry/Terry Jiggy",
+            "name": "TDL: Terry Jiggy"
           },
           {
-            "name": "TDL: Oogle Boogle Tribe Jiggy",
-            "access_rules": [
-              "logictype_b, $tdl_access, $oogle_boogles_open, $canShootEggs|feggs, $smuggle_food, ggrab, $billDrill",
-              "logictype_n, $tdl_access, $oogle_boogles_open, $has_fire, $smuggle_food, ggrab, $billDrill",
-              "logictype_a, $tdl_access, $oogle_boogles_open, $has_fire, ggrab, $billDrill",
-              "logictype_g, $tdl_access, $oogle_boogles_open, $has_fire, ggrab, $billDrill", "logictype_g, $tdl_access, $clockworkWarp, $has_fire, ggrab, $billDrill"
-            ]
+            "ref": "Terrydactyland - Main Area/Oogle Boogles' Cave/Oogle Boogle Tribe Jiggy",
+            "name": "TDL: Oogle Boogle Tribe Jiggy"
           },
           {
-            "name": "TDL: Chompas Belly Jiggy",
-            "access_rules": [
-              "logictype_b, $tdl_access, bblaster, tjump, fpad", "logictype_b, $tdl_access, bblaster, ggrab, fpad", "logictype_b, $tdl_access, bblaster, eggaim, $has_explosives, springb",
-              "logictype_n, $tdl_access, bblaster, tjump, fpad", "logictype_n, $tdl_access, bblaster, ggrab, fpad", "logictype_n, $tdl_access, bblaster, eggaim, $has_explosives, springb", "logictype_n, $tdl_access, bblaster, springb, $veryLongJump",
-              "logictype_a, $tdl_access, bblaster, tjump, fpad", "logictype_a, $tdl_access, bblaster, ggrab, fpad", "logictype_a, $tdl_access, bblaster, eggaim, $has_explosives, springb", "logictype_a, $tdl_access, bblaster, springb, $veryLongJump",
-              "logictype_g, $tdl_access, bblaster, tjump, fpad", "logictype_g, $tdl_access, bblaster, ggrab, fpad", "logictype_g, $tdl_access, bblaster, eggaim, $has_explosives, springb", "logictype_g, $tdl_access, bblaster, springb, $veryLongJump"
-            ]
+            "ref": "Terrydactyland - Inside the Mountain/Chompas Belly/Jiggy",
+            "name": "TDL: Chompas Belly Jiggy"
           },
           {
-            "name": "TDL: Terry's Kids Jiggy",
-            "access_rules": [ "tda, $can_beat_terry, splitup, hatch, taxpack, $oogle_boogles_open, fpad, climb, $springPad", "tda, $can_beat_terry, splitup, hatch, taxpack, $oogle_boogles_open, fpad, climb, lspring" ]
+            "ref": "Terrydactyland - Terry's Nest/Terry/Terry's Kids Jiggy (Hatch Eggs Around Map)",
+            "name": "TDL: Terry's Kids Jiggy"
           },
           {
-            "name": "TDL: Stomping Plains Jiggy",
-            "access_rules": [ "$tdl_access, $td_jiggy8" ]
+            "ref": "Terrydactyland - Stomping Plains/TDL: Stomping Plains Jiggy/TDL Jiggy",
+            "name": "TDL: Stomping Plains Jiggy"
           },
           {
-            "name": "TDL: Rocknut Tribe Jiggy",
-            "access_rules": [
-              "logictype_b, $tdl_access, eggaim, ceggs, $longJump, tjump",
-              "logictype_n, $tdl_access, eggaim, ceggs, $longJump",
-              "logictype_a, $tdl_access, $canShootEggs|ceggs, eggaim, $longJump", "logictype_a, $tdl_access, $canShootEggs|ceggs, $veryLongJump",
-              "logictype_g, $tdl_access, $canShootEggs|ceggs, eggaim, $longJump", "logictype_g, $tdl_access, $canShootEggs|ceggs, $veryLongJump"
-            ]
+            "ref": "Terrydactyland - Main Area/TDL: Rocknut Tribe Jiggy (Defeat 5 Around the Map)/Jiggy",
+            "name": "TDL: Rocknut Tribe Jiggy"
           },
           {
-            "name": "TDL: Code of the Dinosaurs Jiggy",
-            "access_rules": [
-              "logictype_b, $tdl_access, $humbaTDL",
-              "logictype_n, $tdl_access, $humbaTDL",
-              "logictype_a, $tdl_access, $humbaTDL",
-              "logictype_g, $tdl_access, $humbaTDL", "logictype_g, $tdl_access, eggaim, ceggs"
-            ]
+            "ref": "Terrydactyland - Main Area/TDL: Code of the Dinosaurs Jiggy/Jiggy",
+            "name": "TDL: Code of the Dinosaurs Jiggy"
           }
         ],
         "map_locations": [
@@ -1613,97 +1516,72 @@
         "name": "Terrydactyland - Notes",
         "sections": [
           {
-            "name": "TDL: Treble Clef",
-            "access_rules": [
-              "logictype_b, $tdl_access, fflip, ggrab, $billDrill", "logictype_b, $tdl_access, $TDLFlightPad, $billDrill",
-              "logictype_n, $tdl_access, fflip, ggrab, $billDrill", "logictype_n, $tdl_access, fflip, bbust, $billDrill", "logictype_n, $tdl_access, $TDLFlightPad, $billDrill",
-              "logictype_a, $tdl_access, fflip, ggrab, $billDrill", "logictype_a, $tdl_access, fflip, bbust, $billDrill", "logictype_a, $tdl_access, $TDLFlightPad, $billDrill",
-              "logictype_g, $tdl_access, fflip, ggrab, $billDrill", "logictype_g, $tdl_access, fflip, ggrab, $egg_barge", "logictype_g, $tdl_access, fflip, bbust, $billDrill", "logictype_g, $tdl_access, fflip, bbust, $egg_barge", "logictype_g, $tdl_access, $TDLFlightPad, $billDrill", "logictype_a, $tdl_access, $TDLFlightPad, $egg_barge"
-            ]
+            "ref": "Terrydactyland - Main Area/TDL: Treble Clef/Treble Clef",
+            "name": "TDL: Treble Clef"
           },
           {
-            "name": "TDL: Train Station Right Note",
-            "access_rules": [ "$tdl_access, $canDoSmallElevation", "$tdl_access, $humbaTDL" ]
+            "ref": "Terrydactyland - Main Area/TDL: Train Station Notes/Right Note",
+            "name": "TDL: Train Station Right Note"
           },
           {
-            "name": "TDL: Train Station Middle Note",
-            "access_rules": [ "$tdl_access" ]
+            "ref": "Terrydactyland - Main Area/TDL: Train Station Notes/Middle Note",
+            "name": "TDL: Train Station Middle Note"
           },
           {
-            "name": "TDL: Train Station Left Note",
-            "access_rules": [ "$tdl_access" ]
+            "ref": "Terrydactyland - Main Area/TDL: Train Station Notes/Left Note",
+            "name": "TDL: Train Station Left Note"
           },
           {
-            "name": "TDL: Lakeside (1) Note",
-            "access_rules": [ "$tdl_access" ]
+            "ref": "Terrydactyland - Main Area/TDL: Lakeside Notes/Note 1",
+            "name": "TDL: Lakeside (1) Note"
           },
           {
-            "name": "TDL: Lakeside (2) Note",
-            "access_rules": [ "$tdl_access" ]
+            "ref": "Terrydactyland - Main Area/TDL: Lakeside Notes/Note 2",
+            "name": "TDL: Lakeside (2) Note"
           },
           {
-            "name": "TDL: Lakeside (3) Note",
-            "access_rules": [ "$tdl_access" ]
+            "ref": "Terrydactyland - Main Area/TDL: Lakeside Notes/Note 3",
+            "name": "TDL: Lakeside (3) Note"
           },
           {
-            "name": "TDL: Zig-Zag Path (1) Note",
-            "access_rules": [ "$tdl_access" ]
+            "ref": "Terrydactyland - Main Area/TDL: Zig-Zag Path Notes/Note 1",
+            "name": "TDL: Zig-Zag Path (1) Note"
           },
           {
-            "name": "TDL: Zig-Zag Path (2) Note",
-            "access_rules": [ "$tdl_access" ]
+            "ref": "Terrydactyland - Main Area/TDL: Zig-Zag Path Notes/Note 2",
+            "name": "TDL: Zig-Zag Path (2) Note"
           },
           {
-            "name": "TDL: Zig-Zag Path (3) Note",
-            "access_rules": [ "$tdl_access" ]
+            "ref": "Terrydactyland - Main Area/TDL: Zig-Zag Path Notes/Note 3",
+            "name": "TDL: Zig-Zag Path (3) Note"
           },
           {
-            "name": "TDL: Roar Cage Path (1) Note",
-            "access_rules": [ "$tdl_access, $longJump", "$tdl_access, springb", "$tdl_access, $TDLFlightPad", "$tdl_access, $humbaTDL" ]
+            "ref": "Terrydactyland - Main Area/TDL: Roar Cage Path Notes/Note 1",
+            "name": "TDL: Roar Cage Path (1) Note"
           },
           {
-            "name": "TDL: Roar Cage Path (2) Note",
-            "access_rules": [ "$tdl_access, $longJump", "$tdl_access, springb", "$tdl_access, $TDLFlightPad", "$tdl_access, $humbaTDL" ]
+            "ref": "Terrydactyland - Main Area/TDL: Roar Cage Path Notes/Note 2",
+            "name": "TDL: Roar Cage Path (2) Note"
           },
           {
-            "name": "TDL: Roar Cage Path (3) Note",
-            "access_rules": [ "$tdl_access, $longJump", "$tdl_access, springb", "$tdl_access, $TDLFlightPad", "$tdl_access, $humbaTDL" ]
+            "ref": "Terrydactyland - Main Area/TDL: Roar Cage Path Notes/Note 3",
+            "name": "TDL: Roar Cage Path (3) Note"
           },
           {
-            "name": "TDL: River Passage (1) Note",
-            "access_rules": [
-              "logictype_b, $tdl_access, dive",
-              "logictype_n, $tdl_access, dive", "logictype_n, $tdl_access, $humbaTDL",
-              "logictype_a, $tdl_access, dive", "logictype_a, $tdl_access, $humbaTDL",
-              "logictype_g, $tdl_access, dive", "logictype_g, $tdl_access, $humbaTDL"
-            ]
+            "ref": "Terrydactyland - River Passage/River Passage Notes/Note 1",
+            "name": "TDL: River Passage (1) Note"
           },
           {
-            "name": "TDL: River Passage (2) Note",
-            "access_rules": [
-              "logictype_b, $tdl_access, dive",
-              "logictype_n, $tdl_access, dive", "logictype_n, $tdl_access, $humbaTDL",
-              "logictype_a, $tdl_access, dive", "logictype_a, $tdl_access, $humbaTDL",
-              "logictype_g, $tdl_access, dive", "logictype_g, $tdl_access, $humbaTDL"
-            ]
+            "ref": "Terrydactyland - River Passage/River Passage Notes/Note 2",
+            "name": "TDL: River Passage (2) Note"
           },
           {
-            "name": "TDL: River Passage (3) Note",
-            "access_rules": [
-              "logictype_b, $tdl_access, dive",
-              "logictype_n, $tdl_access, dive", "logictype_n, $tdl_access, $humbaTDL",
-              "logictype_a, $tdl_access, dive", "logictype_a, $tdl_access, $humbaTDL",
-              "logictype_g, $tdl_access, dive", "logictype_g, $tdl_access, $humbaTDL"
-            ]
+            "ref": "Terrydactyland - River Passage/River Passage Notes/Note 3",
+            "name": "TDL: River Passage (3) Note"
           },
           {
-            "name": "TDL: River Passage (4) Note",
-            "access_rules": [
-              "logictype_b, $tdl_access, dive",
-              "logictype_n, $tdl_access, dive", "logictype_n, $tdl_access, $humbaTDL",
-              "logictype_a, $tdl_access, dive", "logictype_a, $tdl_access, $humbaTDL",
-              "logictype_g, $tdl_access, dive", "logictype_g, $tdl_access, $humbaTDL"
-            ]
+            "ref": "Terrydactyland - River Passage/River Passage Notes/Note 4",
+            "name": "TDL: River Passage (4) Note"
           }
         ],
         "map_locations": [
@@ -2304,13 +2182,8 @@
             ]
           },
           {
-            "name": "HFP: Stomping Plains Jiggy",
-            "access_rules": [
-              "logictype_b, $tdl_access, $td_jiggy8, splitup, snpack, tjump, ttrot",
-              "logictype_n, $tdl_access, $td_jiggy8, splitup, snpack, tjump, ttrot",
-              "logictype_a, $tdl_access, $td_jiggy8, splitup",
-              "logictype_g, $tdl_access, $td_jiggy8, splitup, tjump", "logictype_g, $tdl_access, $td_jiggy8, $hfp_access, cegs, eggaim"
-            ]
+            "ref": "Terrydactyland - Stomping Plains/HFP: Stomping Plains Jiggy/HFP Jiggy",
+            "name": "HFP: Stomping Plains Jiggy"
           },
           {
             "name": "HFP: Kickball Jiggy",
@@ -5217,7 +5090,8 @@
     "access_rules": [
       "@Pine Grove, wwa",
       "trainswww, @Inside Chuffy",
-      "@Glitter Gulch Mine - Main Area, $ggm_to_ww"
+      "@Glitter Gulch Mine - Main Area, $ggm_to_ww",
+      "@Terrydactyland - Main Area, $TDL_to_WW"
     ],
     "children": [
       {
@@ -5953,6 +5827,7 @@
     "name": "Witchyworld - The Haunted Cavern",
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Witchyworld - Main Area" ],
     "children": [
       {
         "name": "Cave of Horrors",
@@ -6984,15 +6859,17 @@
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
     "access_rules": [
-      "tda"
+      "@Cliff Top, tda",
+      "trainswtd, @Inside Chuffy",
+      "@Terrydactyland - Unga Bungas' Cave, $hatch_to_TDL"
     ],
     "children": [
       {
         "name": "TDL: Train Switch",
         "sections": [
           {
-            "ref": "Overworld/Terrydactyland/TDL: Train Switch",
-            "name": "Train Switch"
+            "name": "Train Switch",
+            "access_rules": [ "fflip", "$veryLongJump", "$TDLFlightPad" ]
           }
         ],
         "map_locations": [
@@ -7007,8 +6884,13 @@
         "name": "TDL: Boulder Cheato Page",
         "sections": [
           {
-            "ref": "Overworld/Terrydactyland/TDL: Boulder Cheato Page",
-            "name": "Cheato Page"
+            "name": "Cheato Page",
+            "access_rules": [
+              "logictype_b, $billDrill, $canReachSlightlyElevatedLedge",
+              "logictype_n, $billDrill, $canReachSlightlyElevatedLedge", "logictype_n, $billDrill, $TDLFlightPad",
+              "logictype_a, $billDrill, $canReachSlightlyElevatedLedge", "logictype_a, $billDrill, $TDLFlightPad",
+              "logictype_g, $billDrill, $canReachSlightlyElevatedLedge", "logictype_g, $egg_barge, $canReachSlightlyElevatedLedge", "logictype_g, $billDrill, $TDLFlightPad", "logictype_g, $egg_barge, $TDLFlightPad"
+            ]
           }
         ],
         "map_locations": [
@@ -7023,8 +6905,13 @@
         "name": "TDL: Springy Step Shoes Silo",
         "sections": [
           {
-            "ref": "Overworld/Terrydactyland/TDL: Springy Step Shoes Silo",
-            "name": "Silo"
+            "name": "Silo",
+            "access_rules": [
+              "logictype_b, $notecount|390, fflip, ggrab", "logictype_b, $notecount|390, $TDLFlightPad",
+              "logictype_n, $notecount|390, fflip, ggrab", "logictype_n, $notecount|390, fflip, bbust", "logictype_n, $notecount|390, $TDLFlightPad", "logictype_n, $notecount|390, $veryLongJump",
+              "logictype_a, $notecount|390, fflip, ggrab", "logictype_a, $notecount|390, fflip, bbust", "logictype_a, $notecount|390, $TDLFlightPad", "logictype_a, $notecount|390, $longJump",
+              "logictype_g, $notecount|390, fflip, ggrab", "logictype_g, $notecount|390, fflip, bbust", "logictype_g, $notecount|390, $TDLFlightPad", "logictype_g, $notecount|390, $longJump"
+            ]
           }
         ],
         "map_locations": [
@@ -7039,15 +6926,13 @@
         "name": "TDL: Train Station Notes",
         "sections": [
           {
-            "ref": "Overworld/Terrydactyland - Notes/TDL: Train Station Right Note",
-            "name": "Right Note"
+            "name": "Right Note",
+            "access_rules": [ "$canDoSmallElevation", "$humbaTDL" ]
           },
           {
-            "ref": "Overworld/Terrydactyland - Notes/TDL: Train Station Middle Note",
             "name": "Middle Note"
           },
           {
-            "ref": "Overworld/Terrydactyland - Notes/TDL: Train Station Left Note",
             "name": "Left Note"
           }
         ],
@@ -7063,8 +6948,13 @@
         "name": "TDL: Entrance Jinjo",
         "sections": [
           {
-            "ref": "Overworld/Terrydactyland/TDL: Entrance Jinjo",
-            "name": "Jinjo"
+            "name": "Jinjo",
+            "access_rules": [
+              "logictype_b, $TDLFlightPad, bbomb", "logictype_b, $TDLFlightPad, $canShootEggs|geggs, eggaim",
+              "logictype_n, $TDLFlightPad, bbomb", "logictype_n, $canShootEggs|geggs, eggaim", "logictype_n, $canShootEggs|geggs, $longJump", "logictype_n, $canShootEggs|geggs, $TDLFlightPad",
+              "logictype_a, $TDLFlightPad, bbomb", "logictype_a, $canShootEggs|geggs, eggaim", "logictype_a, $canShootEggs|geggs, $longJump", "logictype_a, $canShootEggs|geggs, $TDLFlightPad",
+              "logictype_g, $TDLFlightPad, bbomb", "logictype_g, $canShootEggs|geggs, eggaim", "logictype_g, $canShootEggs|geggs, $longJump", "logictype_g, $canShootEggs|geggs, $TDLFlightPad"
+            ]
           }
         ],
         "map_locations": [
@@ -7079,15 +6969,12 @@
         "name": "TDL: Lakeside Notes",
         "sections": [
           {
-            "ref": "Overworld/Terrydactyland - Notes/TDL: Lakeside (1) Note",
             "name": "Note 1"
           },
           {
-            "ref": "Overworld/Terrydactyland - Notes/TDL: Lakeside (2) Note",
             "name": "Note 2"
           },
           {
-            "ref": "Overworld/Terrydactyland - Notes/TDL: Lakeside (3) Note",
             "name": "Note 3"
           }
         ],
@@ -7103,15 +6990,12 @@
         "name": "TDL: Zig-Zag Path Notes",
         "sections": [
           {
-            "ref": "Overworld/Terrydactyland - Notes/TDL: Zig-Zag Path (1) Note",
             "name": "Note 1"
           },
           {
-            "ref": "Overworld/Terrydactyland - Notes/TDL: Zig-Zag Path (2) Note",
             "name": "Note 2"
           },
           {
-            "ref": "Overworld/Terrydactyland - Notes/TDL: Zig-Zag Path (3) Note",
             "name": "Note 3"
           }
         ],
@@ -7127,8 +7011,8 @@
         "name": "TDL: Talon Torpedo Jinjo",
         "sections": [
           {
-            "ref": "Overworld/Terrydactyland/TDL: Talon Torpedo Jinjo",
-            "name": "Jinjo"
+            "name": "Jinjo",
+            "access_rules": [ "ttorp, dive" ]
           }
         ],
         "map_locations": [
@@ -7143,8 +7027,13 @@
         "name": "TDL: Code of the Dinosaurs Jiggy",
         "sections": [
           {
-            "ref": "Overworld/Terrydactyland - Jiggies/TDL: Code of the Dinosaurs Jiggy",
-            "name": "Jiggy"
+            "name": "Jiggy",
+            "access_rules": [
+              "logictype_b, $humbaTDL",
+              "logictype_n, $humbaTDL",
+              "logictype_a, $humbaTDL",
+              "logictype_g, $humbaTDL", "logictype_g, eggaim, ceggs"
+            ]
           }
         ],
         "map_locations": [
@@ -7157,17 +7046,15 @@
       },
       {
         "name": "TDL: Roar Cage Path Notes",
+        "access_rules": [ "$longJump", "springb", "$TDLFlightPad", "$humbaTDL" ],
         "sections": [
           {
-            "ref": "Overworld/Terrydactyland - Notes/TDL: Roar Cage Path (1) Note",
             "name": "Note 1"
           },
           {
-            "ref": "Overworld/Terrydactyland - Notes/TDL: Roar Cage Path (2) Note",
             "name": "Note 2"
           },
           {
-            "ref": "Overworld/Terrydactyland - Notes/TDL: Roar Cage Path (3) Note",
             "name": "Note 3"
           }
         ],
@@ -7183,8 +7070,8 @@
         "name": "TDL: Beside Rocknut Jinjo",
         "sections": [
           {
-            "ref": "Overworld/Terrydactyland/TDL: Beside Rocknut Jinjo",
-            "name": "Jinjo"
+            "name": "Jinjo",
+            "access_rules": [ "$canShootEggs|ceggs" ]
           }
         ],
         "map_locations": [
@@ -7199,8 +7086,13 @@
         "name": "TDL: Lakeside Honeycomb",
         "sections": [
           {
-            "ref": "Overworld/Terrydactyland/TDL: Lakeside Honeycomb",
-            "name": "Honeycomb"
+            "name": "Honeycomb",
+            "access_rules": [
+              "logictype_b, ttrain",
+              "logictype_n, ttrain", "logictype_n, $TDLFlightPad", "logictype_n, tjump, $veryLongJump, ggrab",
+              "logictype_a, ttrain", "logictype_a, $TDLFlightPad", "logictype_a, $clockwork_shot", "logictype_a, tjump, $veryLongJump, ggrab",
+              "logictype_g, ttrain", "logictype_g, $TDLFlightPad", "logictype_g, $clockwork_shot", "logictype_g, tjump, $veryLongJump, ggrab"
+            ]
           }
         ],
         "map_locations": [
@@ -7215,8 +7107,13 @@
         "name": "TDL: Behind Mumbo's Skull Glowbo",
         "sections": [
           {
-            "ref": "Overworld/Terrydactyland/TDL: Behind Mumbo's Skull Glowbo",
-            "name": "Glowbo"
+            "name": "Glowbo",
+            "access_rules": [
+              "logictype_b, $canDoSmallElevation", "logictype_b, $TDLFlightPad",
+              "logictype_n, $canDoSmallElevation", "logictype_n, $TDLFlightPad",
+              "logictype_a, $canDoSmallElevation", "logictype_a, $TDLFlightPad", "logictype_a, $clockwork_shot",
+              "logictype_g, $canDoSmallElevation", "logictype_g, $TDLFlightPad", "logictype_g, $clockwork_shot"
+            ]
           }
         ],
         "map_locations": [
@@ -7231,8 +7128,13 @@
         "name": "TDL: Treble Clef",
         "sections": [
           {
-            "ref": "Overworld/Terrydactyland - Notes/TDL: Treble Clef",
-            "name": "Treble Clef"
+            "name": "Treble Clef",
+            "access_rules": [
+              "logictype_b, fflip, ggrab, $billDrill", "logictype_b, $TDLFlightPad, $billDrill",
+              "logictype_n, fflip, ggrab, $billDrill", "logictype_n, fflip, bbust, $billDrill", "logictype_n, $TDLFlightPad, $billDrill",
+              "logictype_a, fflip, ggrab, $billDrill", "logictype_a, fflip, bbust, $billDrill", "logictype_a, $TDLFlightPad, $billDrill",
+              "logictype_g, fflip, ggrab, $billDrill", "logictype_g, fflip, ggrab, $egg_barge", "logictype_g, fflip, bbust, $billDrill", "logictype_g, fflip, bbust, $egg_barge", "logictype_g, $TDLFlightPad, $billDrill", "logictype_a, $TDLFlightPad, $egg_barge"
+            ]
           }
         ],
         "map_locations": [
@@ -7247,8 +7149,8 @@
         "name": "TDL: Dippy's Pool Cheato Page",
         "sections": [
           {
-            "ref": "Overworld/Terrydactyland/TDL: Dippy's Pool Cheato Page",
-            "name": "Cheato Page"
+            "name": "Cheato Page",
+            "access_rules": [ "@Cloud Cuckooland - Outside, $td_jiggy2, dive, $canDoSmallElevation, springb", "@Cloud Cuckooland - Outside, $td_jiggy2, dive, $TDLFlightPad" ]
           }
         ],
         "map_locations": [
@@ -7260,27 +7162,16 @@
         ]
       },
       {
-        "name": "TDL: Dippy Jiggy",
-        "sections": [
-          {
-            "ref": "Overworld/Terrydactyland - Jiggies/TDL: Dippy Jiggy",
-            "name": "Jiggy"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "tdl1",
-            "x": 337,
-            "y": 20
-          }
-        ]
-      },
-      {
         "name": "TDL: Big T. Rex Jinjo",
         "sections": [
           {
-            "ref": "Overworld/Terrydactyland/TDL: Big T. Rex Jinjo",
-            "name": "Jinjo"
+            "name": "Jinjo",
+            "access_rules": [
+              "logictype_b, $mumboTDL, $humbaTDL",
+              "logictype_n, $mumboTDL, $humbaTDL",
+              "logictype_a, $mumboTDL, $humbaTDL",
+              "logictype_g, $mumboTDL, $humbaTDL", "logictype_g, $canShootEggs|ceggs"
+            ]
           }
         ],
         "map_locations": [
@@ -7295,12 +7186,22 @@
         "name": "Styracosaurus Family Cave",
         "sections": [
           {
-            "ref": "Overworld/Terrydactyland/TDL: Styracosaurus Cave Honeycomb",
-            "name": "Styracosaurus Cave Honeycomb"
+            "name": "Styracosaurus Cave Honeycomb",
+            "access_rules": [
+              "logictype_b, $billDrill, splitup, $springPad",
+              "logictype_n, $billDrill, splitup, $springPad",
+              "logictype_a, $billDrill, splitup, $springPad", "logictype_a, splitup, lspring, wwhack, glide", "logictype_a, $clockwork_shot",
+              "logictype_g, $billDrill, splitup, $springPad", "logictype_g, splitup, lspring, wwhack, glide", "logictype_g, $clockwork_shot"
+            ]
           },
           {
-            "ref": "Overworld/Terrydactyland - Jiggies/TDL: Scrotty Jiggy",
-            "name": "Scrotty Jiggy"
+            "name": "Scrotty Jiggy",
+            "access_rules": [
+              "logictype_b, $canShootEggs|geggs, $can_beat_king_coal, trainswww, trainswih, trainswtd, splitup, taxpack, mumboih, $billDrill, $mumboTDL, eggaim, ttrot, tjump",
+              "logictype_n, $canShootEggs|geggs, $can_beat_king_coal, trainswww, trainswih, trainswtd, splitup, taxpack, mumboih, $billDrill, $mumboTDL, eggaim, ttrot",
+              "logictype_a, $canShootEggs|geggs, $can_beat_king_coal, trainswww, trainswih, trainswtd, splitup, taxpack, mumboih, $billDrill, $mumboTDL",
+              "logictype_g, $canShootEggs|geggs, $can_beat_king_coal, trainswww, trainswih, trainswtd, splitup, taxpack, mumboih, $billDrill, $mumboTDL"
+            ]
           }
         ],
         "map_locations": [
@@ -7315,8 +7216,13 @@
         "name": "TDL: Unga Bunga Cave Entrance Glowbo",
         "sections": [
           {
-            "ref": "Overworld/Terrydactyland/TDL: Unga Bunga Cave Entrance Glowbo",
-            "name": "Glowbo"
+            "name": "Glowbo",
+            "access_rules": [
+              "logictype_b, $canDoSmallElevation", "logictype_b, $TDLFlightPad",
+              "logictype_n, $canDoSmallElevation", "logictype_n, $TDLFlightPad",
+              "logictype_a, $canDoSmallElevation", "logictype_a, $TDLFlightPad", "logictype_a, $clockwork_shot",
+              "logictype_g, $canDoSmallElevation", "logictype_g, $TDLFlightPad", "logictype_g, $clockwork_shot"
+            ]
           }
         ],
         "map_locations": [
@@ -7331,8 +7237,13 @@
         "name": "TDL: Rocknut Tribe Jiggy (Defeat 5 Around the Map)",
         "sections": [
           {
-            "ref": "Overworld/Terrydactyland - Jiggies/TDL: Rocknut Tribe Jiggy",
-            "name": "Jiggy"
+            "name": "Jiggy",
+            "access_rules": [
+              "logictype_b, eggaim, ceggs, $longJump, tjump",
+              "logictype_n, eggaim, ceggs, $longJump",
+              "logictype_a, $canShootEggs|ceggs, eggaim, $longJump", "logictype_a, $canShootEggs|ceggs, $veryLongJump",
+              "logictype_g, $canShootEggs|ceggs, eggaim, $longJump", "logictype_g, $canShootEggs|ceggs, $veryLongJump"
+            ]
           }
         ],
         "map_locations": [
@@ -7344,11 +7255,16 @@
         ]
       },
       {
-        "name": "TDL: Oogle Boogles' Cave",
+        "name": "Oogle Boogles' Cave",
         "sections": [
           {
-            "ref": "Overworld/Terrydactyland - Jiggies/TDL: Oogle Boogle Tribe Jiggy",
-            "name": "Oogle Boogle Tribe Jiggy"
+            "name": "Oogle Boogle Tribe Jiggy",
+            "access_rules": [
+              "logictype_b, $oogle_boogles_open, $canShootEggs|feggs, $smuggle_food, ggrab, $billDrill",
+              "logictype_n, $oogle_boogles_open, $has_fire, ggrab, $billDrill",
+              "logictype_a, $oogle_boogles_open, $has_fire, ggrab, $billDrill",
+              "logictype_g, $oogle_boogles_open, $has_fire, ggrab, $billDrill", "logictype_g, $clockworkWarp, $has_fire, ggrab, $billDrill"
+            ]
           }
         ],
         "map_locations": [
@@ -7363,15 +7279,15 @@
         "name": "Stomping Plains",
         "sections": [
           {
-            "ref": "Overworld/Terrydactyland/TDL: Stomping Plains Jinjo",
+            "ref": "Terrydactyland - Stomping Plains/TDL: Stomping Plains Jinjo/Jinjo",
             "name": "Jinjo"
           },
           {
-            "ref": "Overworld/Terrydactyland - Jiggies/TDL: Stomping Plains Jiggy",
+            "ref": "Terrydactyland - Stomping Plains/TDL: Stomping Plains Jiggy/TDL Jiggy",
             "name": "TDL Jiggy"
           },
           {
-            "ref": "Overworld/Hailfire Peaks - Jiggies/HFP: Stomping Plains Jiggy",
+            "ref": "Terrydactyland - Stomping Plains/HFP: Stomping Plains Jiggy/HFP Jiggy",
             "name": "HFP Jiggy"
           }
         ],
@@ -7387,19 +7303,19 @@
         "name": "Terry's Nest",
         "sections": [
           {
-            "ref": "Overworld/Terrydactyland - Jiggies/TDL: Terry Jiggy",
+            "ref": "Terrydactyland - Terry's Nest/Terry/Terry Jiggy",
             "name": "Terry Jiggy"
           },
           {
-            "ref": "Overworld/Terrydactyland/TDL: Terry Mumbo Token",
+            "ref": "Terrydactyland - Terry's Nest/Terry/Terry Mumbo Token",
             "name": "Terry Mumbo Token"
           },
           {
-            "ref": "Overworld/Terrydactyland - Jiggies/TDL: Terry's Kids Jiggy",
+            "ref": "Terrydactyland - Terry's Nest/Terry/Terry's Kids Jiggy (Hatch Eggs Around Map)",
             "name": "Terry's Kids Jiggy (Hatch Eggs Around Map)"
           },
           {
-            "ref": "Overworld/Terrydactyland - Jiggies/TDL: Under Terry's Nest Jiggy",
+            "ref": "Terrydactyland - Terry's Nest/TDL: Under Terry's Nest Jiggy/Jiggy",
             "name": "Under Terry's Nest Jiggy"
           }
         ],
@@ -7415,15 +7331,15 @@
         "name": "Inside the Mountain",
         "sections": [
           {
-            "ref": "Overworld/Terrydactyland/TDL: Inside the Mountain Cheato Page",
+            "ref": "Terrydactyland - Inside the Mountain/TDL: Inside the Mountain Cheato Page/Cheato Page",
             "name": "Cheato Page"
           },
           {
-            "ref": "Overworld/Terrydactyland - Jiggies/TDL: Chompas Belly Jiggy",
+            "ref": "Terrydactyland - Inside the Mountain/Chompas Belly/Jiggy",
             "name": "Chompas Belly Jiggy"
           },
           {
-            "ref": "Overworld/Terrydactyland/TDL: Chompas Belly Mumbo Token",
+            "ref": "Terrydactyland - Inside the Mountain/Chompas Belly/Mumbo Token",
             "name": "Chompas Belly Mumbo Token"
           }
         ],
@@ -7436,30 +7352,30 @@
         ]
       },
       {
-        "name": "River Passage (Climb Up Waterfall)",
+        "name": "River Passage",
         "sections": [
           {
-            "ref": "Overworld/Terrydactyland/TDL: River Passage Honeycomb",
+            "ref": "Terrydactyland - River Passage/TDL: River Passage Honeycomb/Honeycomb",
             "name": "Honeycomb"
           },
           {
-            "ref": "Overworld/Terrydactyland/TDL: Taxi Pack Silo",
+            "ref": "Terrydactyland - River Passage/TDL: Taxi Pack Silo/Silo",
             "name": "Taxi Pack Silo"
           },
           {
-            "ref": "Overworld/Terrydactyland - Notes/TDL: River Passage (1) Note",
+            "ref": "Terrydactyland - River Passage/River Passage Notes/Note 1",
             "name": "Note 1"
           },
           {
-            "ref": "Overworld/Terrydactyland - Notes/TDL: River Passage (2) Note",
+            "ref": "Terrydactyland - River Passage/River Passage Notes/Note 2",
             "name": "Note 2"
           },
           {
-            "ref": "Overworld/Terrydactyland - Notes/TDL: River Passage (3) Note",
+            "ref": "Terrydactyland - River Passage/River Passage Notes/Note 3",
             "name": "Note 3"
           },
           {
-            "ref": "Overworld/Terrydactyland - Notes/TDL: River Passage (4) Note",
+            "ref": "Terrydactyland - River Passage/River Passage Notes/Note 4",
             "name": "Note 4"
           }
         ],
@@ -7475,7 +7391,7 @@
         "name": "Unga Bunga's Cave",
         "sections": [
           {
-            "ref": "Overworld/Terrydactyland/TDL: Hatch Silo",
+            "ref": "Terrydactyland - Unga Bungas' Cave/TDL: Hatch Silo/Silo",
             "name": "Hatch Silo"
           }
         ],
@@ -7493,13 +7409,21 @@
     "name": "Terrydactyland - Inside the Mountain",
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+      "@Terrydactyland - Main Area"
+    ],
     "children": [
       {
         "name": "TDL: Inside the Mountain Cheato Page",
         "sections": [
           {
-            "ref": "Overworld/Terrydactyland/TDL: Inside the Mountain Cheato Page",
-            "name": "Cheato Page"
+            "name": "Cheato Page",
+            "access_rules": [
+              "logictype_b, $humbaTDL",
+              "logictype_n, $humbaTDL",
+              "logictype_a, $humbaTDL",
+              "logictype_g, $humbaTDL", "logictype_g, $canShootEggs|ceggs"
+            ]
           }
         ],
         "map_locations": [
@@ -7512,36 +7436,25 @@
       },
       {
         "name": "Chompas Belly",
+        "access_rules": [
+              "logictype_b, bblaster, tjump, fpad", "logictype_b, bblaster, ggrab, fpad", "logictype_b, bblaster, eggaim, $has_explosives",
+              "logictype_n, bblaster, tjump, fpad", "logictype_n, bblaster, ggrab, fpad", "logictype_n, bblaster, eggaim, $has_explosives, springb", "logictype_n, bblaster, springb, $veryLongJump",
+              "logictype_a, bblaster, tjump, fpad", "logictype_a, bblaster, ggrab, fpad", "logictype_a, bblaster, eggaim, $has_explosives, springb", "logictype_a, bblaster, springb, $veryLongJump",
+              "logictype_g, bblaster, tjump, fpad", "logictype_g, bblaster, ggrab, fpad", "logictype_g, bblaster, eggaim, $has_explosives, springb", "logictype_g, bblaster, springb, $veryLongJump"
+            ],
         "sections": [
           {
-            "ref": "Overworld/Terrydactyland - Jiggies/TDL: Chompas Belly Jiggy",
             "name": "Jiggy"
           },
           {
-            "ref": "Overworld/Terrydactyland/TDL: Chompas Belly Mumbo Token",
-            "name": "Mumbo Token"
+            "name": "Mumbo Token",
+            "visibility_rules": [ "goal_minigame", "goal_wwing" ]
           }
         ],
         "map_locations": [
           {
             "map": "tdl2",
             "x": 251,
-            "y": 286
-          }
-        ]
-      },
-      {
-        "name": "TDL: Under Terry's Nest Jiggy",
-        "sections": [
-          {
-            "ref": "Overworld/Terrydactyland - Jiggies/TDL: Under Terry's Nest Jiggy",
-            "name": "Jiggy"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "tdl2",
-            "x": 400,
             "y": 286
           }
         ]
@@ -7552,13 +7465,17 @@
     "name": "Terrydactyland - Unga Bungas' Cave",
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+      "@Terrydactyland - Main Area, $longJump",
+      "@Mayahem Temple - Main Area, $mt_jiggy5"
+    ],
     "children": [
       {
         "name": "TDL: Hatch Silo",
         "sections": [
           {
-            "ref": "Overworld/Terrydactyland/TDL: Hatch Silo",
-            "name": "Silo"
+            "name": "Silo",
+            "access_rules": [ "splitup, $notecount|420" ]
           }
         ],
         "map_locations": [
@@ -7575,13 +7492,21 @@
     "name": "Terrydactyland - River Passage",
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+      "@Terrydactyland - Main Area"
+    ],
     "children": [
       {
         "name": "TDL: River Passage Honeycomb",
         "sections": [
           {
-            "ref": "Overworld/Terrydactyland/TDL: River Passage Honeycomb",
-            "name": "Honeycomb"
+            "name": "Honeycomb",
+            "access_rules": [
+              "logictype_b, ttrot",
+              "logictype_n, ttrot",
+              "logictype_a, ttrot", "logictype_a, $clockwork_shot", "logictype_a, $humbaTDL",
+              "logictype_g, ttrot", "logictype_g, $clockwork_shot", "logictype_g, $humbaTDL"
+            ]
           }
         ],
         "map_locations": [
@@ -7596,8 +7521,13 @@
         "name": "TDL: Taxi Pack Silo",
         "sections": [
           {
-            "ref": "Overworld/Terrydactyland/TDL: Taxi Pack Silo",
-            "name": "Silo"
+            "name": "Silo",
+            "access_rules": [
+              "logictype_b, $notecount|405, splitup, tjump, ggrab", "logictype_b, $notecount|405, splitup, tjump, sapack",
+              "logictype_n, $notecount|405, splitup, tjump, ggrab", "logictype_n, $notecount|405, splitup, tjump, packwh", "logictype_n, $notecount|405, splitup, packwh, ggrab", "logictype_n, $notecount|405, splitup, tjump, sapack",
+              "logictype_a, $notecount|405, splitup, tjump, ggrab", "logictype_a, $notecount|405, splitup, tjump, packwh", "logictype_a, $notecount|405, splitup, packwh, ggrab", "logictype_a, $notecount|405, splitup, tjump, sapack",
+              "logictype_g, $notecount|405, splitup, tjump, ggrab", "logictype_g, $notecount|405, splitup, tjump, packwh", "logictype_g, $notecount|405, splitup, packwh, ggrab", "logictype_g, $notecount|405, splitup, tjump, sapack"
+            ]
           }
         ],
         "map_locations": [
@@ -7610,21 +7540,23 @@
       },
       {
         "name": "River Passage Notes",
+        "access_rules": [
+              "logictype_b, dive",
+              "logictype_n, dive", "logictype_n, $humbaTDL",
+              "logictype_a, dive", "logictype_a, $humbaTDL",
+              "logictype_g, dive", "logictype_g, $humbaTDL"
+            ],
         "sections": [
           {
-            "ref": "Overworld/Terrydactyland - Notes/TDL: River Passage (1) Note",
             "name": "Note 1"
           },
           {
-            "ref": "Overworld/Terrydactyland - Notes/TDL: River Passage (2) Note",
             "name": "Note 2"
           },
           {
-            "ref": "Overworld/Terrydactyland - Notes/TDL: River Passage (3) Note",
             "name": "Note 3"
           },
           {
-            "ref": "Overworld/Terrydactyland - Notes/TDL: River Passage (4) Note",
             "name": "Note 4"
           }
         ],
@@ -7642,21 +7574,25 @@
     "name": "Terrydactyland - Terry's Nest",
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+      "@Terrydactyland - Main Area"
+    ],
     "children": [
       {
         "name": "Terry",
         "sections": [
           {
-            "ref": "Overworld/Terrydactyland - Jiggies/TDL: Terry Jiggy",
-            "name": "Terry Jiggy"
+            "name": "Terry Jiggy",
+            "access_rules": [ "$can_beat_terry" ]
           },
           {
-            "ref": "Overworld/Terrydactyland/TDL: Terry Mumbo Token",
-            "name": "Terry Mumbo Token"
+            "name": "Terry Mumbo Token",
+            "access_rules": [ "$can_beat_terry" ],
+            "visibility_rules": [ "goal_boss", "goal_wwing" ]
           },
           {
-            "ref": "Overworld/Terrydactyland - Jiggies/TDL: Terry's Kids Jiggy",
-            "name": "Terry's Kids Jiggy (Hatch Eggs Around Map)"
+            "name": "Terry's Kids Jiggy (Hatch Eggs Around Map)",
+            "access_rules": [ "$can_beat_terry, splitup, hatch, taxpack, $oogle_boogles_open, fpad, climb, $springPad", "$can_beat_terry, splitup, hatch, taxpack, $oogle_boogles_open, fpad, climb, lspring" ]
           }
         ],
         "map_locations": [
@@ -7671,8 +7607,13 @@
         "name": "TDL: Under Terry's Nest Jiggy",
         "sections": [
           {
-            "ref": "Overworld/Terrydactyland - Jiggies/TDL: Under Terry's Nest Jiggy",
-            "name": "Jiggy"
+            "name": "Jiggy",
+            "access_rules": [
+              "logictype_b, $can_beat_terry, $has_explosives", "logictype_b, $can_beat_terry, $billDrill",
+              "logictype_n, $can_beat_terry, $has_explosives", "logictype_n, $can_beat_terry, $billDrill",
+              "logictype_a, $can_beat_terry, $has_explosives", "logictype_a, $can_beat_terry, $billDrill", "logictype_a, $tdl_top, $clockwork_shot",
+              "logictype_g, $can_beat_terry, $has_explosives", "logictype_g, $can_beat_terry, $billDrill", "logictype_g, $tdl_top, $clockwork_shot"
+            ]
           }
         ],
         "map_locations": [
@@ -7680,6 +7621,11 @@
             "map": "tdl5",
             "x": 330,
             "y": 350
+          },
+          {
+            "map": "tdl2",
+            "x": 400,
+            "y": 286
           }
         ]
       }
@@ -7689,12 +7635,14 @@
     "name": "Terrydactyland - Stomping Plains",
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+      "@Terrydactyland - Main Area, $td_jiggy8"
+    ],
     "children": [
       {
         "name": "TDL: Stomping Plains Jiggy",
         "sections": [
           {
-            "ref": "Overworld/Terrydactyland - Jiggies/TDL: Stomping Plains Jiggy",
             "name": "TDL Jiggy"
           }
         ],
@@ -7710,8 +7658,13 @@
         "name": "TDL: Stomping Plains Jinjo",
         "sections": [
           {
-            "ref": "Overworld/Terrydactyland/TDL: Stomping Plains Jinjo",
-            "name": "Jinjo"
+            "name": "Jinjo",
+            "access_rules": [
+              "logictype_b, splitup, tjump",
+              "logictype_n, splitup, tjump",
+              "logictype_a, splitup, tjump",
+              "logictype_g, splitup, tjump", "logictype_g, $egg_barge"
+            ]
           }
         ],
         "map_locations": [
@@ -7726,8 +7679,13 @@
         "name": "HFP: Stomping Plains Jiggy",
         "sections": [
           {
-            "ref": "Overworld/Hailfire Peaks - Jiggies/HFP: Stomping Plains Jiggy",
-            "name": "HFP Jiggy"
+            "name": "HFP Jiggy",
+            "access_rules": [
+              "logictype_b, splitup, snpack, tjump, ttrot",
+              "logictype_n, splitup, snpack, tjump, ttrot",
+              "logictype_a, splitup",
+              "logictype_g, splitup, tjump", "logictype_g, @Hailfire Peaks - Lava Side, ceggs, eggaim"
+            ]
           }
         ],
         "map_locations": [
@@ -8853,7 +8811,7 @@
         "name": "HFP: Stomping Plains Jiggy (Access from TDL)",
         "sections": [
           {
-            "ref": "Overworld/Hailfire Peaks - Jiggies/HFP: Stomping Plains Jiggy",
+            "ref": "Terrydactyland - Stomping Plains/HFP: Stomping Plains Jiggy/HFP Jiggy",
             "name": "Jiggy"
           }
         ],
@@ -8976,6 +8934,27 @@
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
     "children": [
+      {
+        "name": "TDL: Dippy Jiggy",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "access_rules": [ "$td_jiggy2" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 337,
+            "y": 20
+          },
+          {
+            "map": "ccl1",
+            "x": 425,
+            "y": 120
+          }
+        ]
+      },
       {
         "name": "CCL: Dirt Patch Honeycomb",
         "sections": [

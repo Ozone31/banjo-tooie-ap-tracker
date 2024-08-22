@@ -624,6 +624,14 @@ function TDL_to_IOHWL()
     end
 end
 
+function TDL_to_WW()
+    if logictype.CurrentStage <= 2 then
+        return oogle_boogles_open() and (springPad() or has_explosives())
+    else
+        return (springPad() or has_explosives()) and (oogle_boogles_open() or clockworkWarp())
+    end
+end
+
 function ggm_to_ww()
     if logictype.CurrentStage <= 2 then
         return false
@@ -886,8 +894,8 @@ end
 
 -- Terrydactyl Land
 
-function td_jiggy2()
-    return has("ttorp") and ccl_access() and has("dive")
+function td_jiggy2() -- Need CCL access
+    return has("ttorp") and has("dive")
 end
 
 function td_jiggy8()
