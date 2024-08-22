@@ -236,8 +236,8 @@ function can_reach_atlantis()
     end
 end
 
-function HFP_hot_water_cooled()
-    return hfp_access() and ccl_access() and has("splitup") and hasGroundAttack() and has("dive")
+function HFP_hot_water_cooled() -- Need HFP and CCL access
+    return has("splitup") and hasGroundAttack() and has("dive")
 end
 
 function TDLFlightPad()
@@ -603,6 +603,14 @@ end
 function HFP_to_CTHFP()
     if logictype.CurrentStage == 0 then
         return has("hfa")
+    else
+        return true
+    end
+end
+
+function JRL_to_CT()
+    if logictype.CurrentStage == 0 then
+        return has("jra")
     else
         return true
     end

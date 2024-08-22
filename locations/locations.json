@@ -1028,143 +1028,76 @@
         "name": "Jolly Roger's Lagoon",
         "sections": [
           {
-            "name": "JRL: Lagoon Alcove Jinjo",
-            "access_rules": [
-              "logictype_b, $jrl_access, $has|doubloon|28, ttrain",
-              "logictype_n, $jrl_access, $has|doubloon|28, ttrain", "logictype_n, $jrl_access, $has_explosives, splitup, packwh", "logictype_n, $jrl_access, $has_explosives, splitup, sapack", "logictype_n, $jrl_access, $has_explosives, splitup, lspring, glide",
-              "logictype_a, $jrl_access, $has|doubloon|28, ttrain", "logictype_a, $jrl_access, $has_explosives, splitup, packwh", "logictype_a, $jrl_access, $has_explosives, splitup, sapack", "logictype_a, $jrl_access, $has_explosives, splitup, lspring, glide", "logictype_a, $jrl_access, tjump", "logictype_a, $jrl_access, $clockwork_shot",
-              "logictype_g, $jrl_access, $has|doubloon|28, ttrain", "logictype_g, $jrl_access, $has_explosives, splitup, packwh", "logictype_g, $jrl_access, $has_explosives, splitup, sapack", "logictype_g, $jrl_access, $has_explosives, splitup, lspring, glide", "logictype_g, $jrl_access, tjump", "logictype_g, $jrl_access, $clockwork_shot"
-            ]
+            "ref": "Jolly Roger's Lagoon - Main Area/Lagoon Alcove/Jinjo",
+            "name": "JRL: Lagoon Alcove Jinjo"
           },
           {
-            "name": "JRL: Blubber Jinjo",
-            "access_rules": [
-              "logictype_b, $jrl_access, $springPad",
-              "logictype_n, $jrl_access, $springPad", "logictype_n, $jrl_access, fflip",
-              "logictype_a, $jrl_access, $springPad", "logictype_a, $jrl_access, fflip", "logictype_a, $jrl_access, $clockwork_shot",
-              "logictype_g, $jrl_access, $springPad", "logictype_g, $jrl_access, fflip", "logictype_g, $jrl_access, $clockwork_shot"
-            ]
+            "ref": "Jolly Roger's Lagoon - Main Area/Blubber's Waveracer Hire/Jinjo",
+            "name": "JRL: Blubber Jinjo"
           },
           {
-            "name": "JRL: Big Fish Jinjo",
-            "access_rules": [
-              "logictype_b, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis",
-              "logictype_n, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis",
-              "logictype_a, $jrl_access, $can_dive_in_JRL, auqaim, $hasLinearEgg",
-              "logictype_g, $jrl_access, $can_dive_in_JRL, auqaim, $hasLinearEgg"
-            ]
+            "ref": "Jolly Roger's Lagoon - Atlantis/Seaweed Sanctum, Sea Bottom, Inside the Big Fish/Big Fish Jinjo",
+            "name": "JRL: Big Fish Jinjo"
           },
           {
-            "name": "JRL: Seaweed Sanctum Jinjo",
-            "access_rules": [
-              "logictype_b, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, ggrab, fflip",
-              "logictype_n, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, ggrab, fflip",
-              "logictype_a, $jrl_access, $can_dive_in_JRL, ggrab, fflip", "logictype_a, $jrl_access, $can_dive_in_JRL, bbust, fflip", "logictype_a, $jrl_access, $can_dive_in_JRL, $clockwork_shot",
-              "logictype_g, $jrl_access, $can_dive_in_JRL, ggrab, fflip", "logictype_g, $jrl_access, $can_dive_in_JRL, bbust, fflip", "logictype_g, $jrl_access, $can_dive_in_JRL, $clockwork_shot"
-            ]
+            "ref": "Jolly Roger's Lagoon - Atlantis/Seaweed Sanctum, Sea Bottom, Inside the Big Fish/Seaweed Sanctum Jinjo",
+            "name": "JRL: Seaweed Sanctum Jinjo"
           },
           {
-            "name": "JRL: Sunken Ship Jinjo",
-            "access_rules": [
-              "logictype_b, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis",
-              "logictype_n, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis",
-              "logictype_a, $jrl_access, $can_dive_in_JRL, humbajr", "logictype_a, $jrl_access, $can_dive_in_JRL, auqaim", "logictype_a, $jrl_access, $can_dive_in_JRL, ttorp",
-              "logictype_g, $jrl_access, $can_dive_in_JRL, humbajr", "logictype_g, $jrl_access, $can_dive_in_JRL, auqaim", "logictype_g, $jrl_access, $can_dive_in_JRL, ttorp"
-            ]
+            "ref": "Jolly Roger's Lagoon - Atlantis/JRL: Sunken Ship Jinjo/Jinjo",
+            "name": "JRL: Sunken Ship Jinjo"
           },
           {
-            "name": "JRL: Pawno's Emporium Glowbo",
-            "access_rules": [
-              "logictype_b, $jrl_access, $canDoSmallElevation", "logictype_b, $jrl_access, ggrab",
-              "logictype_n, $jrl_access, $canDoSmallElevation", "logictype_n, $jrl_access, ggrab",
-              "logictype_a $jrl_access, $canDoSmallElevation", "logictype_a, $jrl_access, ggrab", "logictype_a, $jrl_access, $clockwork_shot",
-              "logictype_g $jrl_access, $canDoSmallElevation", "logictype_g, $jrl_access, ggrab", "logictype_g, $jrl_access, $clockwork_shot"
-            ]
+            "ref": "Jolly Roger's Lagoon - Main Area/Pawno's Emporium/Glowbo",
+            "name": "JRL: Pawno's Emporium Glowbo"
           },
           {
-            "name": "JRL: Under Wumba's Wigwam Glowbo",
-            "access_rules": [
-              "logictype_b, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis",
-              "logictype_n, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis",
-              "logictype_a, $jrl_access, $can_dive_in_JRL",
-              "logictype_g, $jrl_access, $can_dive_in_JRL"
-            ]
+            "ref": "Jolly Roger's Lagoon - Atlantis/JRL: Under Wumba's Wigwam Glowbo/Glowbo",
+            "name": "JRL: Under Wumba's Wigwam Glowbo"
           },
           {
-            "name": "JRL: Seemee Honeycomb",
-            "access_rules": [
-              "logictype_b, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, ttorp",
-              "logictype_n, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, ttorp",
-              "logictype_a, $jrl_access, $can_dive_in_JRL, ttorp",
-              "logictype_g, $jrl_access, $can_dive_in_JRL, ttorp"
-            ]
+            "ref": "Jolly Roger's Lagoon - Atlantis/Seaweed Sanctum, Sea Bottom, Inside the Big Fish/Seemee Honeycomb",
+            "name": "JRL: Seemee Honeycomb"
           },
           {
-            "name": "JRL: Atlantis Honeycomb",
-            "access_rules": [
-              "logictype_b, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis",
-              "logictype_n, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis",
-              "logictype_a, $jrl_access, $can_dive_in_JRL",
-              "logictype_g, $jrl_access, $can_dive_in_JRL"
-            ]
+            "ref": "Jolly Roger's Lagoon - Atlantis/JRL: Atlantis Honeycomb/Honeycomb",
+            "name": "JRL: Atlantis Honeycomb"
           },
           {
-            "name": "JRL: Waste Pipe Honeycomb",
-            "access_rules": [
-              "logictype_b, $jrl_access, $has_explosives, ggrab, $springPad, ttrot", "logictype_b, $jrl_access, $billDrill, ggrab, $springPad, ttrot",
-              "logictype_n, $jrl_access, $has_explosives, ggrab, $springPad, ttrot", "logictype_n, $jrl_access, $billDrill, ggrab, $springPad, ttrot", "logictype_n, $jrl_access, $has_explosives, $springPad, splitup, glide", "logictype_n, $jrl_access, $has_explosives, $springPad, splitup, lspring, wwhack",
-              "logictype_a, $jrl_access, $has_explosives, ggrab, $springPad, ttrot", "logictype_a, $jrl_access, $billDrill, ggrab, $springPad, ttrot", "logictype_a, $jrl_access, $has_explosives, $springPad, splitup, glide", "logictype_a, $jrl_access, $has_explosives, $springPad, splitup, lspring, wwhack",
-              "logictype_g, $jrl_access, $has_explosives, ggrab, $springPad, ttrot", "logictype_g, $jrl_access, $billDrill, ggrab, $springPad, ttrot", "logictype_g, $jrl_access, $has_explosives, $springPad, splitup, glide", "logictype_g, $jrl_access, $has_explosives, $springPad, splitup, lspring, wwhack"
-            ]
+            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Waste Pipe Honeycomb/Honeycomb",
+            "name": "JRL: Waste Pipe Honeycomb"
           },
           {
-            "name": "JRL: Pawno's Cheato Page",
-            "access_rules": [
-              "logictype_b, $jrl_access, $has|doubloon|28, $canDoSmallElevation",
-              "logictype_n, $jrl_access, $has|doubloon|28, $canDoSmallElevation",
-              "logictype_a, $jrl_access, $has|doubloon|28, $canDoSmallElevation", "logictype_a, $jrl_access, $has|doubloon|28, $clockwork_shot",
-              "logictype_g, $jrl_access, $has|doubloon|28, $canDoSmallElevation", "logictype_g, $jrl_access, $has|doubloon|28, $clockwork_shot"
-            ]
+            "ref": "Jolly Roger's Lagoon - Main Area/Pawno's Emporium/Cheato Page",
+            "name": "JRL: Pawno's Cheato Page"
           },
           {
-            "name": "JRL: Seemee Cheato Page",
-            "access_rules": [ "$jrl_access, $can_dive_in_JRL, ttorp" ]
+            "ref": "Jolly Roger's Lagoon - Underwater/JRL: Seemee Cheato Page/Cheato Page",
+            "name": "JRL: Seemee Cheato Page"
           },
           {
-            "name": "JRL: Ancient Swimming Baths Cheato Page",
-            "access_rules": [
-              "logictype_b, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, ttorp, splitup, glide, tjump",
-              "logictype_n, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, ttorp, splitup, glide, tjump", "logictype_n, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, ttorp, splitup, lspring", "logictype_n, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, ttorp, splitup, packwh, ggrab",
-              "logictype_a, $jrl_access, $can_dive_in_JRL, ttorp, splitup, glide, tjump", "logictype_a, $jrl_access, $can_dive_in_JRL, ttorp, splitup, lspring", "logictype_a, $jrl_access, $can_dive_in_JRL, ttorp, splitup, wwhack", "logictype_a, $jrl_access, $can_dive_in_JRL, ttorp, splitup, packwh, ggrab",
-              "logictype_g, $jrl_access, $can_dive_in_JRL, ttorp, splitup, glide, tjump", "logictype_g, $jrl_access, $can_dive_in_JRL, ttorp, splitup, lspring", "logictype_g, $jrl_access, $can_dive_in_JRL, ttorp, splitup, wwing, tjump", "logictype_g, $jrl_access, $can_dive_in_JRL, ttorp, tjump, splitup, packwh, ggrab"
-            ]
+            "ref": "Jolly Roger's Lagoon - Atlantis/Ancient Swimming Baths/Cheato Page",
+            "name": "JRL: Ancient Swimming Baths Cheato Page"
           },
           {
-            "name": "JRL: Wing Whack Silo",
-            "access_rules": [ "$jrl_access, $has_explosives, splitup, $notecount|265" ]
+            "ref": "Jolly Roger's Lagoon - Main Area/Wing Whack Silo/Silo",
+            "name": "JRL: Wing Whack Silo"
           },
           {
-            "name": "JRL: Talon Torpedo Silo",
-            "access_rules": [ "$jrl_access, $can_dive_in_JRL, $can_reach_atlantis, ggrab, tjump, $notecount|290" ]
+            "ref": "Jolly Roger's Lagoon - Atlantis/Electric Eel's Lair/Talon Torpedo Silo",
+            "name": "JRL: Talon Torpedo Silo"
           },
           {
-            "name": "JRL: Sub-Aqua Egg Aiming Silo",
-            "access_rules": [ "$jrl_access, $has_explosives, $notecount|285", "$jrl_access, $has|doubloon|28, $notecount|285" ]
+            "ref": "Jolly Roger's Lagoon - Main Area/Jolly's/Sub-Aqua Egg Aiming Silo",
+            "name": "JRL: Sub-Aqua Egg Aiming Silo"
           },
           {
-            "name": "JRL: Woo Fak Fak Mumbo Token",
-            "visibility_rules": [ "goal_boss", "goal_wwing" ],
-            "access_rules": [
-              "logictype_b, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, geggs",
-              "logictype_n, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, geggs, humbajr", "logictype_n, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, geggs, mumbojr",
-              "logictype_a, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, geggs, auqaim, ttorp, dair", "logictype_a, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, geggs, auqaim, mumbojr", "logictype_a, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, geggs, auqaim, humbajr",
-              "logictype_g, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, geggs, auqaim, ttorp, dair", "logictype_g, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, geggs, auqaim, mumbojr", "logictype_g, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, geggs, auqaim, humbajr"
-            ]
+            "ref": "Jolly Roger's Lagoon - Atlantis/Seaweed Sanctum, Sea Bottom, Inside the Big Fish/Woo Fak Fak Mumbo Token",
+            "name": "JRL: Woo Fak Fak Mumbo Token"
           },
           {
-            "name": "JRL: Mini-Sub Challenge Mumbo Token",
-            "visibility_rules": [ "goal_minigame", "goal_wwing" ],
-            "access_rules": [ "$jrl_access, $can_dive_in_JRL, $can_reach_atlantis, humbajr" ]
+            "ref": "Jolly Roger's Lagoon - Atlantis/Seaweed Sanctum, Sea Bottom, Inside the Big Fish/Mini-Sub Challenge Mumbo Token",
+            "name": "JRL: Mini-Sub Challenge Mumbo Token"
           }
         ],
         "map_locations": [
@@ -1179,79 +1112,44 @@
         "name": "Jolly Roger's Lagoon - Jiggies",
         "sections": [
           {
-            "name": "JRL: Mini-Sub Challenge Jiggy",
-            "access_rules": [ "$jrl_access, $can_dive_in_JRL, $can_reach_atlantis, humbajr" ]
+            "ref": "Jolly Roger's Lagoon - Atlantis/Seaweed Sanctum, Sea Bottom, Inside the Big Fish/Mini-Sub Challenge Jiggy",
+            "name": "JRL: Mini-Sub Challenge Jiggy"
           },
           {
-            "name": "JRL: Tiptup Jiggy",
-            "access_rules": [ "$jrl_access, $has_explosives, splitup, hatch" ]
+            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Tiptup Jiggy/Jiggy",
+            "name": "JRL: Tiptup Jiggy"
           },
           {
-            "name": "JRL: Chris P. Bacon Jiggy",
-            "access_rules": [
-              "logictype_b, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis",
-              "logictype_n, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis",
-              "logictype_a, $jrl_access, $can_dive_in_JRL, auqaim, $hasLinearEgg", "logictype_a, $jrl_access, $can_dive_in_JRL, humbajr, eggaim, $hasLinearEgg",
-              "logictype_g, $jrl_access, $can_dive_in_JRL, auqaim, $hasLinearEgg", "logictype_g, $jrl_access, $can_dive_in_JRL, humbajr, eggaim, $hasLinearEgg"
-            ]
+            "ref": "Jolly Roger's Lagoon - Atlantis/Temple of the Fishes/Chris P. Bacon Jiggy",
+            "name": "JRL: Chris P. Bacon Jiggy"
           },
           {
-            "name": "JRL: Pig Pool Jiggy",
-            "access_rules": [
-              "logictype_b, $jrl_access, $HFP_hot_water_cooled, $has_explosives, $veryLongJump, fflip", "logictype_b, $jrl_access, $HFP_hot_water_cooled, $billDrill, $veryLongJump, fflip",
-              "logictype_n, $jrl_access, $HFP_hot_water_cooled, $has_explosives, $veryLongJump, fflip", "logictype_n, $jrl_access, $HFP_hot_water_cooled, $billDrill, $veryLongJump, fflip",
-              "logictype_a, $jrl_access, $HFP_hot_water_cooled, $has_explosives, $veryLongJump, fflip", "logictype_a, $jrl_access, $HFP_hot_water_cooled, $has_explosives, $veryLongJump, $clockwork_shot", "logictype_a, $jrl_access, $HFP_hot_water_cooled, $billDrill, $veryLongJump, fflip", "logictype_a, $jrl_access, $HFP_hot_water_cooled, $billDrill, $veryLongJump, $clockwork_shot",
-              "logictype_g, $jrl_access, $HFP_hot_water_cooled, $has_explosives, $veryLongJump, fflip", "logictype_g, $jrl_access, $HFP_hot_water_cooled, $has_explosives, $veryLongJump, $clockwork_shot", "logictype_g, $jrl_access, $HFP_hot_water_cooled, $billDrill, $veryLongJump, fflip", "logictype_g, $jrl_access, $HFP_hot_water_cooled, $billDrill, $veryLongJump, $clockwork_shot"
-            ]
+            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Pig Pool Jiggy/Jiggy",
+            "name": "JRL: Pig Pool Jiggy"
           },
           {
-            "name": "JRL: Smuggler's Cavern Jiggy",
-            "access_rules": [
-              "logictype_b, $jrl_access, $has_explosives, splitup, glide",
-              "logictype_n, $jrl_access, $has_explosives, splitup, glide",
-              "logictype_a, $jrl_access, $has_explosives, splitup, glide", "logictype_a, $jrl_access, $clockwork_shot",
-              "logictype_g, $jrl_access, $has_explosives, splitup, glide", "logictype_g, $jrl_access, $clockwork_shot"
-            ]
+            "ref": "Jolly Roger's Lagoon - Main Area/Smuggler's Cavern/Jiggy",
+            "name": "JRL: Smuggler's Cavern Jiggy"
           },
           {
-            "name": "JRL: Merry Maggie Jiggy",
-            "access_rules": [
-              "logictype_b, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis",
-              "logictype_n, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis",
-              "logictype_a, $jrl_access, $can_dive_in_JRL, auqaim, $hasLinearEgg",
-              "logictype_g, $jrl_access, $can_dive_in_JRL, auqaim, $hasLinearEgg"
-            ]
+            "ref": "Jolly Roger's Lagoon - Atlantis/Jolly's/Merry Maggie Jiggy",
+            "name": "JRL: Merry Maggie Jiggy"
           },
           {
-            "name": "JRL: Woo Fak Fak Jiggy",
-            "access_rules": [
-              "logictype_b, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, geggs",
-              "logictype_n, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, geggs, humbajr", "logictype_n, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, geggs, mumbojr",
-              "logictype_a, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, geggs, auqaim, ttorp, dair", "logictype_a, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, geggs, auqaim, mumbojr", "logictype_a, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, geggs, auqaim, humbajr",
-              "logictype_g, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, geggs, auqaim, ttorp, dair", "logictype_g, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, geggs, auqaim, mumbojr", "logictype_g, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, geggs, auqaim, humbajr"
-            ]
+            "ref": "Jolly Roger's Lagoon - Atlantis/Seaweed Sanctum, Sea Bottom, Inside the Big Fish/Woo Fak Fak Jiggy",
+            "name": "JRL: Woo Fak Fak Jiggy"
           },
           {
-            "name": "JRL: Seemee Jiggy",
-            "access_rules": [
-              "logictype_b, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, ttorp",
-              "logictype_n, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis, ttorp",
-              "logictype_a, $jrl_access, $can_dive_in_JRL, ttorp",
-              "logictype_g, $jrl_access, $can_dive_in_JRL, ttorp"
-            ]
+            "ref": "Jolly Roger's Lagoon - Atlantis/JRL: Seemee Jiggy (Moves Around)/Jiggy",
+            "name": "JRL: Seemee Jiggy"
           },
           {
-            "name": "JRL: Pawno Jiggy",
-            "access_rules": [
-              "logictype_b, $jrl_access, $has|doubloon|23, $canDoSmallElevation",
-              "logictype_n, $jrl_access, $has|doubloon|23, $canDoSmallElevation",
-              "logictype_a, $jrl_access, $has|doubloon|23, $canDoSmallElevation", "logictype_a, $jrl_access, $has|doubloon|23, $clockwork_shot",
-              "logictype_g, $jrl_access, $has|doubloon|23, $canDoSmallElevation", "logictype_g, $jrl_access, $has|doubloon|23, $clockwork_shot"
-            ]
+            "ref": "Jolly Roger's Lagoon - Main Area/Pawno's Emporium/Jiggy",
+            "name": "JRL: Pawno Jiggy"
           },
           {
-            "name": "JRL: UFO Jiggy",
-            "access_rules": [ "$jrl_access, $can_dive_in_JRL, $jr_jiggy10" ]
+            "ref": "Jolly Roger's Lagoon - Underwater/UFO/Jiggy",
+            "name": "JRL: UFO Jiggy"
           }
         ],
         "map_locations": [
@@ -1266,117 +1164,72 @@
         "name": "Jolly Roger's Lagoon - Notes",
         "sections": [
           {
-            "name": "JRL: Treble Clef",
-            "access_rules": [
-              "logictype_b, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis",
-              "logictype_n, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis",
-              "logictype_a, $jrl_access, $can_dive_in_JRL, auqaim", "logictype_a, $jrl_access, $can_dive_in_JRL, ttorp", "logictype_a, $jrl_access, $can_dive_in_JRL, humbajr",
-              "logictype_g, $jrl_access, $can_dive_in_JRL, auqaim", "logictype_g, $jrl_access, $can_dive_in_JRL, ttorp", "logictype_g, $jrl_access, $can_dive_in_JRL, humbajr"
-            ]
+            "ref": "Jolly Roger's Lagoon - Atlantis/JRL: Treble Clef/Treble Clef",
+            "name": "JRL: Treble Clef"
           },
           {
-            "name": "JRL: Outside Jolly's Note",
-            "access_rules": [ "$jrl_access" ]
+            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Outside Jolly's Note/Note",
+            "name": "JRL: Outside Jolly's Note"
           },
           {
-            "name": "JRL: Outside Pawno's Note",
-            "access_rules": [ "$jrl_access" ]
+            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Outside Pawno's Note/Note",
+            "name": "JRL: Outside Pawno's Note"
           },
           {
-            "name": "JRL: Outside Blubber's Note",
-            "access_rules": [ "$jrl_access" ]
+            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Outside Blubber's Note/Note",
+            "name": "JRL: Outside Blubber's Note"
           },
           {
-            "name": "JRL: Blubbul (1) Note",
-            "access_rules": [ "$jrl_access, $can_dive_in_JRL, auqaim", "$jrl_access, $can_dive_in_JRL, ttorp", "$jrl_access, $can_dive_in_JRL, $humbaJRL" ]
+            "ref": "Jolly Roger's Lagoon - Underwater/Blubbul Notes/Note 1",
+            "name": "JRL: Blubbul (1) Note"
           },
           {
-            "name": "JRL: Blubbul (2) Note",
-            "access_rules": [ "$jrl_access, $can_dive_in_JRL, auqaim", "$jrl_access, $can_dive_in_JRL, ttorp", "$jrl_access, $can_dive_in_JRL, $humbaJRL" ]
+            "ref": "Jolly Roger's Lagoon - Underwater/Blubbul Notes/Note 2",
+            "name": "JRL: Blubbul (2) Note"
           },
           {
-            "name": "JRL: Electric Eel's Lair Entrance (1) Note",
-            "access_rules": [
-              "logictype_b, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis",
-              "logictype_n, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis",
-              "logictype_a, $jrl_access, $can_dive_in_JRL",
-              "logictype_g, $jrl_access, $can_dive_in_JRL"
-            ]
+            "ref": "Jolly Roger's Lagoon - Atlantis/Electric Eel's Lair Entrance Notes/Note 1",
+            "name": "JRL: Electric Eel's Lair Entrance (1) Note"
           },
           {
-            "name": "JRL: Electric Eel's Lair Entrance (2) Note",
-            "access_rules": [
-              "logictype_b, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis",
-              "logictype_n, $jrl_access, $can_dive_in_JRL, $can_reach_atlantis",
-              "logictype_a, $jrl_access, $can_dive_in_JRL",
-              "logictype_g, $jrl_access, $can_dive_in_JRL"
-            ]
+            "ref": "Jolly Roger's Lagoon - Atlantis/Electric Eel's Lair Entrance Notes/Note 2",
+            "name": "JRL: Electric Eel's Lair Entrance (2) Note"
           },
           {
-            "name": "JRL: Blubber's Hire (1) Note",
-            "access_rules": [ "$jrl_access" ]
+            "ref": "Jolly Roger's Lagoon - Main Area/Blubber's Waveracer Hire/Note 1",
+            "name": "JRL: Blubber's Hire (1) Note"
           },
           {
-            "name": "JRL: Blubber's Hire (2) Note",
-            "access_rules": [ "$jrl_access" ]
+            "ref": "Jolly Roger's Lagoon - Main Area/Blubber's Waveracer Hire/Note 2",
+            "name": "JRL: Blubber's Hire (2) Note"
           },
           {
-            "name": "JRL: Blubber's Hire (3) Note",
-            "access_rules": [ "$jrl_access" ]
+            "ref": "Jolly Roger's Lagoon - Main Area/Blubber's Waveracer Hire/Note 3",
+            "name": "JRL: Blubber's Hire (3) Note"
           },
           {
-            "name": "JRL: Pawno's Emporium (1) Note",
-            "access_rules": [
-              "logictype_b, $jrl_access, $canDoSmallElevation", "logictype_b, $jrl_access, ggrab",
-              "logictype_n, $jrl_access, $canDoSmallElevation", "logictype_n, $jrl_access, ggrab",
-              "logictype_a $jrl_access, $canDoSmallElevation", "logictype_a, $jrl_access, ggrab", "logictype_a, $jrl_access, $clockwork_shot",
-              "logictype_g $jrl_access, $canDoSmallElevation", "logictype_g, $jrl_access, ggrab", "logictype_g, $jrl_access, $clockwork_shot"
-            ]
+            "ref": "Jolly Roger's Lagoon - Main Area/Pawno's Emporium/Note 1",
+            "name": "JRL: Pawno's Emporium (1) Note"
           },
           {
-            "name": "JRL: Pawno's Emporium (2) Note",
-            "access_rules": [
-              "logictype_b, $jrl_access, $canDoSmallElevation", "logictype_b, $jrl_access, ggrab",
-              "logictype_n, $jrl_access, $canDoSmallElevation", "logictype_n, $jrl_access, ggrab",
-              "logictype_a $jrl_access, $canDoSmallElevation", "logictype_a, $jrl_access, ggrab", "logictype_a, $jrl_access, $clockwork_shot",
-              "logictype_g $jrl_access, $canDoSmallElevation", "logictype_g, $jrl_access, ggrab", "logictype_g, $jrl_access, $clockwork_shot"
-            ]
+            "ref": "Jolly Roger's Lagoon - Main Area/Pawno's Emporium/Note 2",
+            "name": "JRL: Pawno's Emporium (2) Note"
           },
           {
-            "name": "JRL: Pawno's Emporium (3) Note",
-            "access_rules": [
-              "logictype_b, $jrl_access, $canDoSmallElevation", "logictype_b, $jrl_access, ggrab",
-              "logictype_n, $jrl_access, $canDoSmallElevation", "logictype_n, $jrl_access, ggrab",
-              "logictype_a $jrl_access, $canDoSmallElevation", "logictype_a, $jrl_access, ggrab", "logictype_a, $jrl_access, $clockwork_shot",
-              "logictype_g $jrl_access, $canDoSmallElevation", "logictype_g, $jrl_access, ggrab", "logictype_g, $jrl_access, $clockwork_shot"
-            ]
+            "ref": "Jolly Roger's Lagoon - Main Area/Pawno's Emporium/Note 3",
+            "name": "JRL: Pawno's Emporium (3) Note"
           },
           {
-            "name": "JRL: Jolly's (1) Note",
-            "access_rules": [
-              "logictype_b, $jrl_access, ttrot", "logictype_b, $jrl_access, tjump, ggrab", "logictype_b, $jrl_access, fflip",
-              "logictype_n, $jrl_access, $canDoSmallElevation", "logictype_n, $jrl_access, $longJump",
-              "logictype_a, $jrl_access, $canDoSmallElevation", "logictype_a, $jrl_access, $longJump", "logictype_a, $jrl_access, $clockwork_shot",
-              "logictype_g, $jrl_access, $canDoSmallElevation", "logictype_g, $jrl_access, $longJump", "logictype_g, $jrl_access, $clockwork_shot"
-            ]
+            "ref": "Jolly Roger's Lagoon - Main Area/Jolly's/Note 1",
+            "name": "JRL: Jolly's (1) Note"
           },
           {
-            "name": "JRL: Jolly's (2) Note",
-            "access_rules": [
-              "logictype_b, $jrl_access, ttrot", "logictype_b, $jrl_access, tjump, ggrab", "logictype_b, $jrl_access, fflip",
-              "logictype_n, $jrl_access, $canDoSmallElevation", "logictype_n, $jrl_access, $longJump",
-              "logictype_a, $jrl_access, $canDoSmallElevation", "logictype_a, $jrl_access, $longJump", "logictype_a, $jrl_access, $clockwork_shot",
-              "logictype_g, $jrl_access, $canDoSmallElevation", "logictype_g, $jrl_access, $longJump", "logictype_g, $jrl_access, $clockwork_shot"
-            ]
+            "ref": "Jolly Roger's Lagoon - Main Area/Jolly's/Note 2",
+            "name": "JRL: Jolly's (2) Note"
           },
           {
-            "name": "JRL: Jolly's (3) Note",
-            "access_rules": [
-              "logictype_b, $jrl_access, ttrot", "logictype_b, $jrl_access, tjump, ggrab", "logictype_b, $jrl_access, fflip",
-              "logictype_n, $jrl_access, $canDoSmallElevation", "logictype_n, $jrl_access, $longJump",
-              "logictype_a, $jrl_access, $canDoSmallElevation", "logictype_a, $jrl_access, $longJump", "logictype_a, $jrl_access, $clockwork_shot",
-              "logictype_g, $jrl_access, $canDoSmallElevation", "logictype_g, $jrl_access, $longJump", "logictype_g, $jrl_access, $clockwork_shot"
-            ]
+            "ref": "Jolly Roger's Lagoon - Main Area/Jolly's/Note 3",
+            "name": "JRL: Jolly's (3) Note"
           }
         ],
         "map_locations": [
@@ -1391,179 +1244,124 @@
         "name": "Jolly Roger's Lagoon - Doubloons",
         "sections": [
           {
-            "name": "JRL: Town Center Pole 1 Doubloon",
-            "access_rules": [ "$jrl_access" ]
+            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Town Center Pole 1 Doubloon/Doubloon",
+            "name": "JRL: Town Center Pole 1 Doubloon"
           },
           {
-            "name": "JRL: Town Center Pole 2 Doubloon",
-            "access_rules": [ "$jrl_access" ]
+            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Town Center Pole 2 Doubloon/Doubloon",
+            "name": "JRL: Town Center Pole 2 Doubloon"
           },
           {
-            "name": "JRL: Town Center Pole 3 Doubloon",
-            "access_rules": [ "$jrl_access" ]
+            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Town Center Pole 3 Doubloon/Doubloon",
+            "name": "JRL: Town Center Pole 3 Doubloon"
           },
           {
-            "name": "JRL: Town Center Pole 4 Doubloon",
-            "access_rules": [ "$jrl_access" ]
+            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Town Center Pole 4 Doubloon/Doubloon",
+            "name": "JRL: Town Center Pole 4 Doubloon"
           },
           {
-            "name": "JRL: Town Center Pole 5 Doubloon",
-            "access_rules": [ "$jrl_access" ]
+            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Town Center Pole 5 Doubloon/Doubloon",
+            "name": "JRL: Town Center Pole 5 Doubloon"
           },
           {
-            "name": "JRL: Town Center Pole 6 Doubloon",
-            "access_rules": [ "$jrl_access" ]
+            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Town Center Pole 6 Doubloon/Doubloon",
+            "name": "JRL: Town Center Pole 6 Doubloon"
           },
           {
-            "name": "JRL: Silo 1 Doubloon",
-            "access_rules": [ "$jrl_access" ]
+            "ref": "Jolly Roger's Lagoon - Main Area/Wing Whack Silo/Doubloon 1",
+            "name": "JRL: Silo 1 Doubloon"
           },
           {
-            "name": "JRL: Silo 2 Doubloon",
-            "access_rules": [ "$jrl_access" ]
+            "ref": "Jolly Roger's Lagoon - Main Area/Wing Whack Silo/Doubloon 2",
+            "name": "JRL: Silo 2 Doubloon"
           },
           {
-            "name": "JRL: Silo 3 Doubloon",
-            "access_rules": [ "$jrl_access" ]
+            "ref": "Jolly Roger's Lagoon - Main Area/Wing Whack Silo/Doubloon 3",
+            "name": "JRL: Silo 3 Doubloon"
           },
           {
-            "name": "JRL: Silo 4 Doubloon",
-            "access_rules": [ "$jrl_access" ]
+            "ref": "Jolly Roger's Lagoon - Main Area/Wing Whack Silo/Doubloon 4",
+            "name": "JRL: Silo 4 Doubloon"
           },
           {
-            "name": "JRL: Toxic Pool 1 Doubloon",
-            "access_rules": [
-              "logictype_b, $jrl_access, dive",
-              "logictype_n, $jrl_access, dive", "logictype_n, $jrl_access, shpack",
-              "logictype_a, $jrl_access, dive", "logictype_a, $jrl_access, shpack",
-              "logictype_g, $jrl_access, dive", "logictype_g, $jrl_access, shpack"
-            ]
+            "ref": "Jolly Roger's Lagoon - Main Area/Toxic Pool/Doubloon 1",
+            "name": "JRL: Toxic Pool 1 Doubloon"
           },
           {
-            "name": "JRL: Toxic Pool 2 Doubloon",
-            "access_rules": [
-              "logictype_b, $jrl_access, dive",
-              "logictype_n, $jrl_access, dive", "logictype_n, $jrl_access, shpack",
-              "logictype_a, $jrl_access, dive", "logictype_a, $jrl_access, shpack",
-              "logictype_g, $jrl_access, dive", "logictype_g, $jrl_access, shpack"
-            ]
+            "ref": "Jolly Roger's Lagoon - Main Area/Toxic Pool/Doubloon 2",
+            "name": "JRL: Toxic Pool 2 Doubloon"
           },
           {
-            "name": "JRL: Toxic Pool 3 Doubloon",
-            "access_rules": [
-              "logictype_b, $jrl_access, dive",
-              "logictype_n, $jrl_access, dive", "logictype_n, $jrl_access, shpack",
-              "logictype_a, $jrl_access, dive", "logictype_a, $jrl_access, shpack",
-              "logictype_g, $jrl_access, dive", "logictype_g, $jrl_access, shpack"
-            ]
+            "ref": "Jolly Roger's Lagoon - Main Area/Toxic Pool/Doubloon 3",
+            "name": "JRL: Toxic Pool 3 Doubloon"
           },
           {
-            "name": "JRL: Toxic Pool 4 Doubloon",
-            "access_rules": [
-              "logictype_b, $jrl_access, dive",
-              "logictype_n, $jrl_access, dive", "logictype_n, $jrl_access, shpack",
-              "logictype_a, $jrl_access, dive", "logictype_a, $jrl_access, shpack",
-              "logictype_g, $jrl_access, dive", "logictype_g, $jrl_access, shpack"
-            ]
+            "ref": "Jolly Roger's Lagoon - Main Area/Toxic Pool/Doubloon 4",
+            "name": "JRL: Toxic Pool 4 Doubloon"
           },
           {
-            "name": "JRL: Mumbo Skull 1 Doubloon",
-            "access_rules": [ "$jrl_access" ]
+            "ref": "Jolly Roger's Lagoon - Main Area/Mumbo's Skull/Doubloon 1",
+            "name": "JRL: Mumbo Skull 1 Doubloon"
           },
           {
-            "name": "JRL: Mumbo Skull 2 Doubloon",
-            "access_rules": [ "$jrl_access" ]
+            "ref": "Jolly Roger's Lagoon - Main Area/Mumbo's Skull/Doubloon 2",
+            "name": "JRL: Mumbo Skull 2 Doubloon"
           },
           {
-            "name": "JRL: Mumbo Skull 3 Doubloon",
-            "access_rules": [ "$jrl_access" ]
+            "ref": "Jolly Roger's Lagoon - Main Area/Mumbo's Skull/Doubloon 3",
+            "name": "JRL: Mumbo Skull 3 Doubloon"
           },
           {
-            "name": "JRL: Mumbo Skull 4 Doubloon",
-            "access_rules": [ "$jrl_access" ]
+            "ref": "Jolly Roger's Lagoon - Main Area/Mumbo's Skull/Doubloon 4",
+            "name": "JRL: Mumbo Skull 4 Doubloon"
           },
           {
-            "name": "JRL: Underground 1 Doubloon",
-            "access_rules": [ "$jrl_access, $billDrill", "$jrl_access, $has_explosives" ]
+            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Underground 1 Doubloon/Doubloon",
+            "name": "JRL: Underground 1 Doubloon"
           },
           {
-            "name": "JRL: Underground 2 Doubloon",
-            "access_rules": [ "$jrl_access, $billDrill", "$jrl_access, $has_explosives" ]
+            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Underground 2 Doubloon/Doubloon",
+            "name": "JRL: Underground 2 Doubloon"
           },
           {
-            "name": "JRL: Underground 3 Doubloon",
-            "access_rules": [ "$jrl_access, $billDrill", "$jrl_access, $has_explosives" ]
+            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Underground 3 Doubloon/Doubloon",
+            "name": "JRL: Underground 3 Doubloon"
           },
           {
-            "name": "JRL: Alcove 1 Doubloon",
-            "access_rules": [
-              "logictype_b, $jrl_access, splitup, $has_explosives, $springPad",
-              "logictype_n, $jrl_access, splitup, $has_explosives, $springPad", "logictype_n, $jrl_access, splitup, $has_explosives, lspring",
-              "logictype_a, $jrl_access, splitup, $has_explosives, $springPad", "logictype_a, $jrl_access, splitup, $has_explosives, lspring", "logictype_a, $jrl_access, $clockwork_shot",
-              "logictype_g, $jrl_access, splitup, $has_explosives, $springPad", "logictype_g, $jrl_access, splitup, $has_explosives, lspring", "logictype_g, $jrl_access, $clockwork_shot"
-            ]
+            "ref": "Jolly Roger's Lagoon - Main Area/Alcove/Doubloon 1",
+            "name": "JRL: Alcove 1 Doubloon"
           },
           {
-            "name": "JRL: Alcove 2 Doubloon",
-            "access_rules": [
-              "logictype_b, $jrl_access, splitup, $has_explosives, $springPad",
-              "logictype_n, $jrl_access, splitup, $has_explosives, $springPad", "logictype_n, $jrl_access, splitup, $has_explosives, lspring",
-              "logictype_a, $jrl_access, splitup, $has_explosives, $springPad", "logictype_a, $jrl_access, splitup, $has_explosives, lspring", "logictype_a, $jrl_access, $clockwork_shot",
-              "logictype_g, $jrl_access, splitup, $has_explosives, $springPad", "logictype_g, $jrl_access, splitup, $has_explosives, lspring", "logictype_g, $jrl_access, $clockwork_shot"
-            ]
+            "ref": "Jolly Roger's Lagoon - Main Area/Alcove/Doubloon 2",
+            "name": "JRL: Alcove 2 Doubloon"
           },
           {
-            "name": "JRL: Alcove 3 Doubloon",
-            "access_rules": [
-              "logictype_b, $jrl_access, splitup, $has_explosives, $springPad",
-              "logictype_n, $jrl_access, splitup, $has_explosives, $springPad", "logictype_n, $jrl_access, splitup, $has_explosives, lspring",
-              "logictype_a, $jrl_access, splitup, $has_explosives, $springPad", "logictype_a, $jrl_access, splitup, $has_explosives, lspring", "logictype_a, $jrl_access, $clockwork_shot",
-              "logictype_g, $jrl_access, splitup, $has_explosives, $springPad", "logictype_g, $jrl_access, splitup, $has_explosives, lspring", "logictype_g, $jrl_access, $clockwork_shot"
-            ]
+            "ref": "Jolly Roger's Lagoon - Main Area/Alcove/Doubloon 3",
+            "name": "JRL: Alcove 3 Doubloon"
           },
           {
-            "name": "JRL: Captain Blackeye 1 Doubloon",
-            "access_rules": [ "$jrl_access" ]
+            "ref": "Jolly Roger's Lagoon - Main Area/Jolly's/Captain Blackeye Doubloon 1",
+            "name": "JRL: Captain Blackeye 1 Doubloon"
           },
           {
-            "name": "JRL: Captain Blackeye 2 Doubloon",
-            "access_rules": [ "$jrl_access" ]
+            "ref": "Jolly Roger's Lagoon - Main Area/Jolly's/Captain Blackeye Doubloon 2",
+            "name": "JRL: Captain Blackeye 2 Doubloon"
           },
           {
-            "name": "JRL: Near Alcove Jinjo 1 Doubloon",
-            "access_rules": [
-              "logictype_b, $jrl_access, dive",
-              "logictype_n, $jrl_access, dive", "logictype_n, $jrl_access, shpack",
-              "logictype_a, $jrl_access, dive", "logictype_a, $jrl_access, shpack",
-              "logictype_g, $jrl_access, dive", "logictype_g, $jrl_access, shpack"
-            ]
+            "ref": "Jolly Roger's Lagoon - Main Area/Lagoon Alcove/Doubloon 1",
+            "name": "JRL: Near Alcove Jinjo 1 Doubloon"
           },
           {
-            "name": "JRL: Near Alcove Jinjo 2 Doubloon",
-            "access_rules": [
-              "logictype_b, $jrl_access, dive",
-              "logictype_n, $jrl_access, dive", "logictype_n, $jrl_access, shpack",
-              "logictype_a, $jrl_access, dive", "logictype_a, $jrl_access, shpack",
-              "logictype_g, $jrl_access, dive", "logictype_g, $jrl_access, shpack"
-            ]
+            "ref": "Jolly Roger's Lagoon - Main Area/Lagoon Alcove/Doubloon 2",
+            "name": "JRL: Near Alcove Jinjo 2 Doubloon"
           },
           {
-            "name": "JRL: Near Alcove Jinjo 3 Doubloon",
-            "access_rules": [
-              "logictype_b, $jrl_access, dive",
-              "logictype_n, $jrl_access, dive", "logictype_n, $jrl_access, shpack",
-              "logictype_a, $jrl_access, dive", "logictype_a, $jrl_access, shpack",
-              "logictype_g, $jrl_access, dive", "logictype_g, $jrl_access, shpack"
-            ]
+            "ref": "Jolly Roger's Lagoon - Main Area/Lagoon Alcove/Doubloon 3",
+            "name": "JRL: Near Alcove Jinjo 3 Doubloon"
           },
           {
-            "name": "JRL: Near Alcove Jinjo 4 Doubloon",
-            "access_rules": [
-              "logictype_b, $jrl_access, dive",
-              "logictype_n, $jrl_access, dive", "logictype_n, $jrl_access, shpack",
-              "logictype_a, $jrl_access, dive", "logictype_a, $jrl_access, shpack",
-              "logictype_g, $jrl_access, dive", "logictype_g, $jrl_access, shpack"
-            ]
+            "ref": "Jolly Roger's Lagoon - Main Area/Lagoon Alcove/Doubloon 4",
+            "name": "JRL: Near Alcove Jinjo 4 Doubloon"
           }
         ],
         "map_locations": [
@@ -3660,7 +3458,8 @@
     "access_rules": [
       "$clifftop_start",
       "@Plateau, splitup",
-      "trainswih, @Inside Chuffy"
+      "trainswih, @Inside Chuffy",
+      "@Jolly Roger's Lagoon - Main Area, $JRL_to_CT"
     ],
     "children": [
       {
@@ -6204,10 +6003,10 @@
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
     "access_rules": [
-      "$logictype_b, @Witchyworld - Main Area, $humbaWW",
-      "$logictype_n, @Witchyworld - Main Area, $humbaWW",
-      "$logictype_a, @Witchyworld - Main Area, $humbaWW",
-      "$logictype_g, @Witchyworld - Main Area, $glitchedInfernoAccess"
+      "logictype_b, @Witchyworld - Main Area, $humbaWW",
+      "logictype_n, @Witchyworld - Main Area, $humbaWW",
+      "logictype_a, @Witchyworld - Main Area, $humbaWW",
+      "logictype_g, @Witchyworld - Main Area, $glitchedInfernoAccess"
     ],
     "children": [
       {
@@ -6282,13 +6081,23 @@
     "name": "Jolly Roger's Lagoon - Main Area",
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+      "@Cliff Top, jra",
+      "@Hailfire Peaks - Lava Side, @Cloud Cuckooland - Outside, $HFP_to_JRL",
+      "logictype_g, @Hailfire Peaks - Lava Side, $HFP_to_JRL"
+    ],
     "children": [
       {
         "name": "JRL: Waste Pipe Honeycomb",
         "sections": [
           {
-            "ref": "Overworld/Jolly Roger's Lagoon/JRL: Waste Pipe Honeycomb",
-            "name": "Honeycomb"
+            "name": "Honeycomb",
+            "access_rules": [
+              "logictype_b, $has_explosives, ggrab, $springPad, ttrot", "logictype_b, $billDrill, ggrab, $springPad, ttrot",
+              "logictype_n, $has_explosives, ggrab, $springPad, ttrot", "logictype_n, $billDrill, ggrab, $springPad, ttrot", "logictype_n, $has_explosives, $springPad, splitup, glide", "logictype_n, $has_explosives, $springPad, splitup, lspring, wwhack",
+              "logictype_a, $has_explosives, ggrab, $springPad, ttrot", "logictype_a, $billDrill, ggrab, $springPad, ttrot", "logictype_a, $has_explosives, $springPad, splitup, glide", "logictype_a, $has_explosives, $springPad, splitup, lspring, wwhack",
+              "logictype_g, $has_explosives, ggrab, $springPad, ttrot", "logictype_g, $billDrill, ggrab, $springPad, ttrot", "logictype_g, $has_explosives, $springPad, splitup, glide", "logictype_g, $has_explosives, $springPad, splitup, lspring, wwhack"
+            ]
           }
         ],
         "map_locations": [
@@ -6303,7 +6112,6 @@
         "name": "JRL: Outside Pawno's Note",
         "sections": [
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Notes/JRL: Outside Pawno's Note",
             "name": "Note"
           }
         ],
@@ -6319,7 +6127,6 @@
         "name": "JRL: Outside Jolly's Note",
         "sections": [
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Notes/JRL: Outside Jolly's Note",
             "name": "Note"
           }
         ],
@@ -6335,7 +6142,6 @@
         "name": "JRL: Outside Blubber's Note",
         "sections": [
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Notes/JRL: Outside Blubber's Note",
             "name": "Note"
           }
         ],
@@ -6351,8 +6157,13 @@
         "name": "JRL: Pig Pool Jiggy",
         "sections": [
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Jiggies/JRL: Pig Pool Jiggy",
-            "name": "Jiggy"
+            "name": "Jiggy",
+            "access_rules": [
+              "logictype_b, @Hailfire Peaks - Lava Side, @Cloud Cuckooland - Outside, $HFP_hot_water_cooled, $has_explosives, $veryLongJump, fflip", "logictype_b, @Hailfire Peaks - Lava Side, @Cloud Cuckooland - Outside, $HFP_hot_water_cooled, $billDrill, $veryLongJump, fflip",
+              "logictype_n, @Hailfire Peaks - Lava Side, @Cloud Cuckooland - Outside, $HFP_hot_water_cooled, $has_explosives, $veryLongJump, fflip", "logictype_n, @Hailfire Peaks - Lava Side, @Cloud Cuckooland - Outside, $HFP_hot_water_cooled, $billDrill, $veryLongJump, fflip",
+              "logictype_a, @Hailfire Peaks - Lava Side, @Cloud Cuckooland - Outside, $HFP_hot_water_cooled, $has_explosives, $veryLongJump, fflip", "logictype_a, @Hailfire Peaks - Lava Side, @Cloud Cuckooland - Outside, $HFP_hot_water_cooled, $has_explosives, $veryLongJump, $clockwork_shot", "logictype_a, @Hailfire Peaks - Lava Side, @Cloud Cuckooland - Outside, $HFP_hot_water_cooled, $billDrill, $veryLongJump, fflip", "logictype_a, @Hailfire Peaks - Lava Side, @Cloud Cuckooland - Outside, $HFP_hot_water_cooled, $billDrill, $veryLongJump, $clockwork_shot",
+              "logictype_g, @Hailfire Peaks - Lava Side, @Cloud Cuckooland - Outside, $HFP_hot_water_cooled, $has_explosives, $veryLongJump, fflip", "logictype_g, @Hailfire Peaks - Lava Side, @Cloud Cuckooland - Outside, $HFP_hot_water_cooled, $has_explosives, $veryLongJump, $clockwork_shot", "logictype_g, @Hailfire Peaks - Lava Side, @Cloud Cuckooland - Outside, $HFP_hot_water_cooled, $billDrill, $veryLongJump, fflip", "logictype_g, @Hailfire Peaks - Lava Side, @Cloud Cuckooland - Outside, $HFP_hot_water_cooled, $billDrill, $veryLongJump, $clockwork_shot"
+            ]
           }
         ],
         "map_locations": [
@@ -6367,8 +6178,8 @@
         "name": "JRL: Tiptup Jiggy",
         "sections": [
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Jiggies/JRL: Tiptup Jiggy",
-            "name": "Jiggy"
+            "name": "Jiggy",
+            "access_rules": [ "$has_explosives, splitup, hatch" ]
           }
         ],
         "map_locations": [
@@ -6383,8 +6194,8 @@
         "name": "JRL: Underground 2 Doubloon",
         "sections": [
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Underground 2 Doubloon",
-            "name": "Doubloon"
+            "name": "Doubloon",
+            "access_rules": [ "$billDrill", "$has_explosives" ]
           }
         ],
         "map_locations": [
@@ -6399,8 +6210,8 @@
         "name": "JRL: Underground 1 Doubloon",
         "sections": [
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Underground 1 Doubloon",
-            "name": "Doubloon"
+            "name": "Doubloon",
+            "access_rules": [ "$billDrill", "$has_explosives" ]
           }
         ],
         "map_locations": [
@@ -6415,8 +6226,8 @@
         "name": "JRL: Underground 3 Doubloon",
         "sections": [
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Underground 3 Doubloon",
-            "name": "Doubloon"
+            "name": "Doubloon",
+            "access_rules": [ "$billDrill", "$has_explosives" ]
           }
         ],
         "map_locations": [
@@ -6431,7 +6242,6 @@
         "name": "JRL: Town Center Pole 6 Doubloon",
         "sections": [
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Town Center Pole 6 Doubloon",
             "name": "Doubloon"
           }
         ],
@@ -6447,7 +6257,6 @@
         "name": "JRL: Town Center Pole 5 Doubloon",
         "sections": [
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Town Center Pole 5 Doubloon",
             "name": "Doubloon"
           }
         ],
@@ -6463,7 +6272,6 @@
         "name": "JRL: Town Center Pole 4 Doubloon",
         "sections": [
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Town Center Pole 4 Doubloon",
             "name": "Doubloon"
           }
         ],
@@ -6479,7 +6287,6 @@
         "name": "JRL: Town Center Pole 3 Doubloon",
         "sections": [
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Town Center Pole 3 Doubloon",
             "name": "Doubloon"
           }
         ],
@@ -6495,7 +6302,6 @@
         "name": "JRL: Town Center Pole 2 Doubloon",
         "sections": [
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Town Center Pole 2 Doubloon",
             "name": "Doubloon"
           }
         ],
@@ -6511,7 +6317,6 @@
         "name": "JRL: Town Center Pole 1 Doubloon",
         "sections": [
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Town Center Pole 1 Doubloon",
             "name": "Doubloon"
           }
         ],
@@ -6525,21 +6330,23 @@
       },
       {
         "name": "Toxic Pool",
+        "access_rules": [
+              "logictype_b, dive",
+              "logictype_n, dive", "logictype_n, shpack",
+              "logictype_a, dive", "logictype_a, shpack",
+              "logictype_g, dive", "logictype_g, shpack"
+            ],
         "sections": [
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Toxic Pool 1 Doubloon",
             "name": "Doubloon 1"
           },
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Toxic Pool 2 Doubloon",
             "name": "Doubloon 2"
           },
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Toxic Pool 3 Doubloon",
             "name": "Doubloon 3"
           },
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Toxic Pool 4 Doubloon",
             "name": "Doubloon 4"
           }
         ],
@@ -6555,23 +6362,19 @@
         "name": "Wing Whack Silo",
         "sections": [
           {
-            "ref": "Overworld/Jolly Roger's Lagoon/JRL: Wing Whack Silo",
-            "name": "Silo"
+            "name": "Silo",
+            "access_rules": [ "$has_explosives, splitup, $notecount|265" ]
           },
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Silo 1 Doubloon",
             "name": "Doubloon 1"
           },
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Silo 2 Doubloon",
             "name": "Doubloon 2"
           },
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Silo 3 Doubloon",
             "name": "Doubloon 3"
           },
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Silo 4 Doubloon",
             "name": "Doubloon 4"
           }
         ],
@@ -6585,17 +6388,20 @@
       },
       {
         "name": "Alcove",
+        "access_rules": [
+              "logictype_b, splitup, $has_explosives, $springPad",
+              "logictype_n, splitup, $has_explosives, $springPad", "logictype_n, splitup, $has_explosives, lspring",
+              "logictype_a, splitup, $has_explosives, $springPad", "logictype_a, splitup, $has_explosives, lspring", "logictype_a, $clockwork_shot",
+              "logictype_g, splitup, $has_explosives, $springPad", "logictype_g, splitup, $has_explosives, lspring", "logictype_g, $clockwork_shot"
+            ],
         "sections": [
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Alcove 1 Doubloon",
             "name": "Doubloon 1"
           },
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Alcove 2 Doubloon",
             "name": "Doubloon 2"
           },
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Alcove 3 Doubloon",
             "name": "Doubloon 3"
           }
         ],
@@ -6611,24 +6417,49 @@
         "name": "Lagoon Alcove",
         "sections": [
           {
-            "ref": "Overworld/Jolly Roger's Lagoon/JRL: Lagoon Alcove Jinjo",
-            "name": "Jinjo"
+            "name": "Jinjo",
+            "access_rules": [
+              "logictype_b, $has|doubloon|28, ttrain",
+              "logictype_n, $has|doubloon|28, ttrain", "logictype_n, $has_explosives, splitup, packwh", "logictype_n, $has_explosives, splitup, sapack", "logictype_n, $has_explosives, splitup, lspring, glide",
+              "logictype_a, $has|doubloon|28, ttrain", "logictype_a, $has_explosives, splitup, packwh", "logictype_a, $has_explosives, splitup, sapack", "logictype_a, $has_explosives, splitup, lspring, glide", "logictype_a, tjump", "logictype_a, $clockwork_shot",
+              "logictype_g, $has|doubloon|28, ttrain", "logictype_g, $has_explosives, splitup, packwh", "logictype_g, $has_explosives, splitup, sapack", "logictype_g, $has_explosives, splitup, lspring, glide", "logictype_g, tjump", "logictype_g, $clockwork_shot"
+            ]
           },
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Near Alcove Jinjo 1 Doubloon",
-            "name": "Doubloon 1"
+            "name": "Doubloon 1",
+            "access_rules": [
+              "logictype_b, dive",
+              "logictype_n, dive", "logictype_n, shpack",
+              "logictype_a, dive", "logictype_a, shpack",
+              "logictype_g, dive", "logictype_g, shpack"
+            ]
           },
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Near Alcove Jinjo 2 Doubloon",
-            "name": "Doubloon 2"
+            "name": "Doubloon 2",
+            "access_rules": [
+              "logictype_b, dive",
+              "logictype_n, dive", "logictype_n, shpack",
+              "logictype_a, dive", "logictype_a, shpack",
+              "logictype_g, dive", "logictype_g, shpack"
+            ]
           },
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Near Alcove Jinjo 3 Doubloon",
-            "name": "Doubloon 3"
+            "name": "Doubloon 3",
+            "access_rules": [
+              "logictype_b, dive",
+              "logictype_n, dive", "logictype_n, shpack",
+              "logictype_a, dive", "logictype_a, shpack",
+              "logictype_g, dive", "logictype_g, shpack"
+            ]
           },
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Near Alcove Jinjo 4 Doubloon",
-            "name": "Doubloon 4"
+            "name": "Doubloon 4",
+            "access_rules": [
+              "logictype_b, dive",
+              "logictype_n, dive", "logictype_n, shpack",
+              "logictype_a, dive", "logictype_a, shpack",
+              "logictype_g, dive", "logictype_g, shpack"
+            ]
           }
         ],
         "map_locations": [
@@ -6643,19 +6474,15 @@
         "name": "Mumbo's Skull",
         "sections": [
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Mumbo Skull 1 Doubloon",
             "name": "Doubloon 1"
           },
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Mumbo Skull 2 Doubloon",
             "name": "Doubloon 2"
           },
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Mumbo Skull 3 Doubloon",
             "name": "Doubloon 3"
           },
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Mumbo Skull 4 Doubloon",
             "name": "Doubloon 4"
           }
         ],
@@ -6671,31 +6498,44 @@
         "name": "Jolly's",
         "sections": [
           {
-            "ref": "Overworld/Jolly Roger's Lagoon/JRL: Sub-Aqua Egg Aiming Silo",
-            "name": "Sub-Aqua Egg Aiming Silo"
+            "name": "Sub-Aqua Egg Aiming Silo",
+            "access_rules": [ "$has_explosives, $notecount|285", "$has|doubloon|28, $notecount|285" ]
           },
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Notes/JRL: Jolly's (1) Note",
-            "name": "Note 1"
+            "name": "Note 1",
+            "access_rules": [
+              "logictype_b, ttrot", "logictype_b, tjump, ggrab", "logictype_b, fflip",
+              "logictype_n, $canDoSmallElevation", "logictype_n, $longJump",
+              "logictype_a, $canDoSmallElevation", "logictype_a, $longJump", "logictype_a, $clockwork_shot",
+              "logictype_g, $canDoSmallElevation", "logictype_g, $longJump", "logictype_g, $clockwork_shot"
+            ]
           },
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Notes/JRL: Jolly's (2) Note",
-            "name": "Note 2"
+            "name": "Note 2",
+            "access_rules": [
+              "logictype_b, ttrot", "logictype_b, tjump, ggrab", "logictype_b, fflip",
+              "logictype_n, $canDoSmallElevation", "logictype_n, $longJump",
+              "logictype_a, $canDoSmallElevation", "logictype_a, $longJump", "logictype_a, $clockwork_shot",
+              "logictype_g, $canDoSmallElevation", "logictype_g, $longJump", "logictype_g, $clockwork_shot"
+            ]
           },
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Notes/JRL: Jolly's (3) Note",
-            "name": "Note 3"
+            "name": "Note 3",
+            "access_rules": [
+              "logictype_b, ttrot", "logictype_b, tjump, ggrab", "logictype_b, fflip",
+              "logictype_n, $canDoSmallElevation", "logictype_n, $longJump",
+              "logictype_a, $canDoSmallElevation", "logictype_a, $longJump", "logictype_a, $clockwork_shot",
+              "logictype_g, $canDoSmallElevation", "logictype_g, $longJump", "logictype_g, $clockwork_shot"
+            ]
           },
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Captain Blackeye 1 Doubloon",
-            "name": "Doubloon 1"
+            "name": "Captain Blackeye Doubloon 1"
           },
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Doubloons/JRL: Captain Blackeye 2 Doubloon",
-            "name": "Doubloon 2"
+            "name": "Captain Blackeye Doubloon 2"
           },
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Jiggies/JRL: Merry Maggie Jiggy",
+            "ref": "Jolly Roger's Lagoon - Atlantis/Jolly's/Merry Maggie Jiggy",
             "name": "Merry Maggie Jiggy"
           }
         ],
@@ -6711,28 +6551,58 @@
         "name": "Pawno's Emporium",
         "sections": [
           {
-            "ref": "Overworld/Jolly Roger's Lagoon/JRL: Pawno's Emporium Glowbo",
-            "name": "Glowbo"
+            "name": "Glowbo",
+            "access_rules": [
+              "logictype_b, $canDoSmallElevation", "logictype_b, ggrab",
+              "logictype_n, $canDoSmallElevation", "logictype_n, ggrab",
+              "logictype_a, $canDoSmallElevation", "logictype_a, ggrab", "logictype_a, $clockwork_shot",
+              "logictype_g, $canDoSmallElevation", "logictype_g, ggrab", "logictype_g, $clockwork_shot"
+            ]
           },
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Notes/JRL: Pawno's Emporium (1) Note",
-            "name": "Note 1"
+            "name": "Note 1",
+            "access_rules": [
+              "logictype_b, $canDoSmallElevation", "logictype_b, ggrab",
+              "logictype_n, $canDoSmallElevation", "logictype_n, ggrab",
+              "logictype_a, $canDoSmallElevation", "logictype_a, ggrab", "logictype_a, $clockwork_shot",
+              "logictype_g, $canDoSmallElevation", "logictype_g, ggrab", "logictype_g, $clockwork_shot"
+            ]
           },
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Notes/JRL: Pawno's Emporium (1) Note",
-            "name": "Note 2"
+            "name": "Note 2",
+            "access_rules": [
+              "logictype_b, $canDoSmallElevation", "logictype_b, ggrab",
+              "logictype_n, $canDoSmallElevation", "logictype_n, ggrab",
+              "logictype_a, $canDoSmallElevation", "logictype_a, ggrab", "logictype_a, $clockwork_shot",
+              "logictype_g, $canDoSmallElevation", "logictype_g, ggrab", "logictype_g, $clockwork_shot"
+            ]
           },
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Notes/JRL: Pawno's Emporium (1) Note",
-            "name": "Note 3"
+            "name": "Note 3",
+            "access_rules": [
+              "logictype_b, $canDoSmallElevation", "logictype_b, ggrab",
+              "logictype_n, $canDoSmallElevation", "logictype_n, ggrab",
+              "logictype_a, $canDoSmallElevation", "logictype_a, ggrab", "logictype_a, $clockwork_shot",
+              "logictype_g, $canDoSmallElevation", "logictype_g, ggrab", "logictype_g, $clockwork_shot"
+            ]
           },
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Jiggies/JRL: Pawno Jiggy",
-            "name": "Jiggy"
+            "name": "Jiggy",
+            "access_rules": [
+              "logictype_b, $has|doubloon|23, $canDoSmallElevation",
+              "logictype_n, $has|doubloon|23, $canDoSmallElevation",
+              "logictype_a, $has|doubloon|23, $canDoSmallElevation", "logictype_a, $has|doubloon|23, $clockwork_shot",
+              "logictype_g, $has|doubloon|23, $canDoSmallElevation", "logictype_g, $has|doubloon|23, $clockwork_shot"
+            ]
           },
           {
-            "ref": "Overworld/Jolly Roger's Lagoon/JRL: Pawno's Cheato Page",
-            "name": "Cheato Page"
+            "name": "Cheato Page",
+            "access_rules": [
+              "logictype_b, $has|doubloon|28, $canDoSmallElevation",
+              "logictype_n, $has|doubloon|28, $canDoSmallElevation",
+              "logictype_a, $has|doubloon|28, $canDoSmallElevation", "logictype_a, $has|doubloon|28, $clockwork_shot",
+              "logictype_g, $has|doubloon|28, $canDoSmallElevation", "logictype_g, $has|doubloon|28, $clockwork_shot"
+            ]
           }
         ],
         "map_locations": [
@@ -6747,19 +6617,21 @@
         "name": "Blubber's Waveracer Hire",
         "sections": [
           {
-            "ref": "Overworld/Jolly Roger's Lagoon/JRL: Blubber Jinjo",
-            "name": "Jinjo"
+            "name": "Jinjo",
+            "access_rules": [
+              "logictype_b, $springPad",
+              "logictype_n, $springPad", "logictype_n, fflip",
+              "logictype_a, $springPad", "logictype_a, fflip", "logictype_a, $clockwork_shot",
+              "logictype_g, $springPad", "logictype_g, fflip", "logictype_g, $clockwork_shot"
+            ]
           },
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Notes/JRL: Blubber's Hire (1) Note",
             "name": "Note 1"
           },
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Notes/JRL: Blubber's Hire (2) Note",
             "name": "Note 2"
           },
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Notes/JRL: Blubber's Hire (3) Note",
             "name": "Note 3"
           }
         ],
@@ -6772,26 +6644,43 @@
         ]
       },
       {
-        "name": "Underwater/Smuggler's Cavern",
+        "name": "Smuggler's Cavern",
         "sections": [
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Jiggies/JRL: UFO Jiggy",
+            "name": "Jiggy",
+            "access_rules": [
+              "logictype_b, $has_explosives, splitup, glide",
+              "logictype_n, $has_explosives, splitup, glide",
+              "logictype_a, $has_explosives, splitup, glide", "logictype_a, $clockwork_shot",
+              "logictype_g, $has_explosives, splitup, glide", "logictype_g, $clockwork_shot"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 610,
+            "y": 375
+          }
+        ]
+      },
+      {
+        "name": "Underwater",
+        "sections": [
+          {
+            "ref": "Jolly Roger's Lagoon - Underwater/UFO/Jiggy",
             "name": "UFO Jiggy"
           },
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Notes/JRL: Blubbul (1) Note",
+            "ref": "Jolly Roger's Lagoon - Underwater/Blubbul Notes/Note 1",
             "name": "Blubbul Note 1"
           },
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Notes/JRL: Blubbul (2) Note",
+            "ref": "Jolly Roger's Lagoon - Underwater/Blubbul Notes/Note 2",
             "name": "Blubbul Note 2"
           },
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Jiggies/JRL: Smuggler's Cavern Jiggy",
-            "name": "Smuggler's Cavern Jiggy"
-          },
-          {
-            "ref": "Overworld/Jolly Roger's Lagoon/JRL: Seemee Cheato Page",
+            "ref": "Jolly Roger's Lagoon - Underwater/JRL: Seemee Cheato Page/Cheato Page",
             "name": "Seemee Cheato Page"
           }
         ],
@@ -6806,16 +6695,76 @@
     ]
   },
   {
+    "name": "Jolly Roger's Lagoon - Underwater",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+      "@Jolly Roger's Lagoon - Main Area, $can_dive_in_JRL"
+    ],
+    "children": [
+      {
+        "name": "Blubbul Notes",
+        "access_rules": [ "auqaim", "ttorp", "$jrl_access, $humbaJRL" ],
+        "sections": [
+          {
+            "name": "Note 1"
+          },
+          {
+            "name": "Note 2"
+          }
+        ]
+      },
+      {
+        "name": "JRL: Seemee Cheato Page",
+        "access_rules": [ "ttorp" ],
+        "sections": [
+          {
+            "name": "Cheato Page"
+          }
+        ]
+      },
+      {
+        "name": "UFO",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "access_rules": [ "$jr_jiggy10" ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Jolly Roger's Lagoon - Atlantis",
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+      "@Jolly Roger's Lagoon - Underwater, $can_reach_atlantis"
+    ],
     "children": [
+      {
+        "name": "Jolly's",
+        "sections": [
+          {
+            "name": "Merry Maggie Jiggy",
+            "access_rules": [
+              "logictype_b", "logictype_n",
+              "logictype_a, auqaim, $hasLinearEgg",
+              "logictype_g, auqaim, $hasLinearEgg"
+            ]
+          }
+        ]
+      },
       {
         "name": "JRL: Treble Clef",
         "sections": [
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Notes/JRL: Treble Clef",
-            "name": "Treble Clef"
+            "name": "Treble Clef",
+            "access_rules": [
+              "logictype_b", "logictype_n",
+              "logictype_a, auqaim", "logictype_a, $jrl_access, ttorp", "logictype_a, humbajr",
+              "logictype_g, auqaim", "logictype_g, ttorp", "logictype_g, humbajr"
+            ]
           }
         ],
         "map_locations": [
@@ -6830,8 +6779,12 @@
         "name": "JRL: Sunken Ship Jinjo",
         "sections": [
           {
-            "ref": "Overworld/Jolly Roger's Lagoon/JRL: Sunken Ship Jinjo",
-            "name": "Jinjo"
+            "name": "Jinjo",
+            "access_rules": [
+              "logictype_b", "logictype_n",
+              "logictype_a, humbajr", "logictype_a, auqaim", "logictype_a, ttorp",
+              "logictype_g, humbajr", "logictype_g, auqaim", "logictype_g, ttorp"
+            ]
           }
         ],
         "map_locations": [
@@ -6846,7 +6799,6 @@
         "name": "JRL: Atlantis Honeycomb",
         "sections": [
           {
-            "ref": "Overworld/Jolly Roger's Lagoon/JRL: Atlantis Honeycomb",
             "name": "Honeycomb"
           }
         ],
@@ -6862,8 +6814,8 @@
         "name": "JRL: Seemee Jiggy (Moves Around)",
         "sections": [
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Jiggies/JRL: Seemee Jiggy",
-            "name": "Jiggy"
+            "name": "Jiggy",
+            "access_rules": [ "ttorp" ]
           }
         ],
         "map_locations": [
@@ -6878,7 +6830,6 @@
         "name": "JRL: Under Wumba's Wigwam Glowbo",
         "sections": [
           {
-            "ref": "Overworld/Jolly Roger's Lagoon/JRL: Under Wumba's Wigwam Glowbo",
             "name": "Glowbo"
           }
         ],
@@ -6894,11 +6845,9 @@
         "name": "Electric Eel's Lair Entrance Notes",
         "sections": [
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Notes/JRL: Electric Eel's Lair Entrance (1) Note",
             "name": "Note 1"
           },
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Notes/JRL: Electric Eel's Lair Entrance (2) Note",
             "name": "Note 2"
           }
         ],
@@ -6914,8 +6863,8 @@
         "name": "Electric Eel's Lair",
         "sections": [
           {
-            "ref": "Overworld/Jolly Roger's Lagoon/JRL: Talon Torpedo Silo",
-            "name": "Talon Torpedo Silo"
+            "name": "Talon Torpedo Silo",
+            "access_rules": [ "ggrab, tjump, $notecount|290" ]
           }
         ],
         "map_locations": [
@@ -6930,8 +6879,12 @@
         "name": "Temple of the Fishes",
         "sections": [
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Jiggies/JRL: Chris P. Bacon Jiggy",
-            "name": "Chris P. Bacon Jiggy"
+            "name": "Chris P. Bacon Jiggy",
+            "access_rules": [
+              "logictype_b", "logictype_n",
+              "logictype_a, auqaim, $hasLinearEgg", "logictype_a, humbajr, eggaim, $hasLinearEgg",
+              "logictype_g, auqaim, $hasLinearEgg", "logictype_g, humbajr, eggaim, $hasLinearEgg"
+            ]
           }
         ],
         "map_locations": [
@@ -6946,8 +6899,13 @@
         "name": "Ancient Swimming Baths",
         "sections": [
           {
-            "ref": "Overworld/Jolly Roger's Lagoon/JRL: Ancient Swimming Baths Cheato Page",
-            "name": "Cheato Page"
+            "name": "Cheato Page",
+            "access_rules": [
+              "logictype_b, ttorp, splitup, glide, tjump",
+              "logictype_n, ttorp, splitup, glide, tjump", "logictype_n, ttorp, splitup, lspring", "logictype_n, ttorp, splitup, packwh, ggrab",
+              "logictype_a, ttorp, splitup, glide, tjump", "logictype_a, ttorp, splitup, lspring", "logictype_a, ttorp, splitup, wwhack", "logictype_a, ttorp, splitup, packwh, ggrab",
+              "logictype_g, ttorp, splitup, glide, tjump", "logictype_g, ttorp, splitup, lspring", "logictype_g, ttorp, splitup, wwing, tjump", "logictype_g, ttorp, tjump, splitup, packwh, ggrab"
+            ]
           }
         ],
         "map_locations": [
@@ -6959,35 +6917,56 @@
         ]
       },
       {
-        "name": "Seaweed Sanctum/Sea Bottom/Inside the Big Fish",
+        "name": "Seaweed Sanctum, Sea Bottom, Inside the Big Fish",
         "sections": [
           {
-            "ref": "Overworld/Jolly Roger's Lagoon/JRL: Seaweed Sanctum Jinjo",
-            "name": "Seaweed Sanctum Jinjo"
+            "name": "Seaweed Sanctum Jinjo",
+            "access_rules": [
+              "logictype_b, ggrab, fflip",
+              "logictype_n, ggrab, fflip",
+              "logictype_a,ggrab, fflip", "logictype_a, bbust, fflip", "logictype_a, $clockwork_shot",
+              "logictype_g, ggrab, fflip", "logictype_g, bbust, fflip", "logictype_g, $clockwork_shot"
+            ]
           },
           {
-            "ref": "Overworld/Jolly Roger's Lagoon/JRL: Seemee Honeycomb",
-            "name": "Seemee Honeycomb"
+            "name": "Seemee Honeycomb",
+            "access_rules": [ "ttorp" ]
           },
           {
-            "ref": "Overworld/Jolly Roger's Lagoon/JRL: Big Fish Jinjo",
-            "name": "Big Fish Jinjo"
+            "name": "Big Fish Jinjo",
+            "access_rules": [
+              "logictype_b", "logictype_n",
+              "logictype_a, auqaim, $hasLinearEgg",
+              "logictype_g, auqaim, $hasLinearEgg"
+            ]
           },
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Jiggies/JRL: Mini-Sub Challenge Jiggy",
-            "name": "Mini-Sub Challenge Jiggy"
+            "name": "Mini-Sub Challenge Jiggy",
+            "access_rules": [ "humbajr" ]
           },
           {
-            "ref": "Overworld/Jolly Roger's Lagoon/JRL: Mini-Sub Challenge Mumbo Token",
-            "name": "Mini-Sub Challenge Mumbo Token"
+            "name": "Mini-Sub Challenge Mumbo Token",
+            "access_rules": [ "humbajr" ],
+            "visibility_rules": [ "goal_minigame", "goal_wwing" ]
           },
           {
-            "ref": "Overworld/Jolly Roger's Lagoon - Jiggies/JRL: Woo Fak Fak Jiggy",
-            "name": "Woo Fak Fak Jiggy"
+            "name": "Woo Fak Fak Jiggy",
+            "access_rules": [
+              "logictype_b, geggs",
+              "logictype_n, geggs, humbajr", "logictype_n, geggs, mumbojr",
+              "logictype_a, geggs, auqaim, ttorp, dair", "logictype_a, geggs, auqaim, mumbojr", "logictype_a, geggs, auqaim, humbajr",
+              "logictype_g, geggs, auqaim, ttorp, dair", "logictype_g, geggs, auqaim, mumbojr", "logictype_g, geggs, auqaim, humbajr"
+            ]
           },
           {
-            "ref": "Overworld/Jolly Roger's Lagoon/JRL: Woo Fak Fak Mumbo Token",
-            "name": "Woo Fak Fak Mumbo Token"
+            "name": "Woo Fak Fak Mumbo Token",
+            "access_rules": [
+              "logictype_b, geggs",
+              "logictype_n, geggs, humbajr", "logictype_n, geggs, mumbojr",
+              "logictype_a, geggs, auqaim, ttorp, dair", "logictype_a, geggs, auqaim, mumbojr", "logictype_a, geggs, auqaim, humbajr",
+              "logictype_g, geggs, auqaim, ttorp, dair", "logictype_g, geggs, auqaim, mumbojr", "logictype_g, geggs, auqaim, humbajr"
+            ],
+            "visibility_rules": [ "goal_boss", "goal_wwing" ]
           }
         ],
         "map_locations": [
