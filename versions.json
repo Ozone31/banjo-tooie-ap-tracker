@@ -3,9 +3,10 @@
 		{
 			"package_version": "0.4.1",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.4.1",
-			"sha256": "BF4890F6FDC5FD0C53160F1F088C39F3C64FAF504189559687B3C95C1254AB57",
+			"sha256": "8397110BEC2E202CB86D1E2D4F44D5D302436660C90BED4E3EAD7D720242A1BA",
 			"changelog": [
-				"Fixed logic error with TDL being connected to the wrong region"
+				"Fixed logic error with TDL being connected to the wrong region",
+				"Fixed HFP access logic"
 			]
 		},
 		{
