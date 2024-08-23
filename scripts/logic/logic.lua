@@ -718,6 +718,14 @@ function roof_access()
     end
 end
 
+function outside_gi_to_floor1()
+    if logictype.CurrentStage <= 2 then
+        return false
+    else
+        return has("ceggs") and has("eggaim")
+    end
+end
+
 function outside_gi_to_floor2()
     if logictype.CurrentStage <= 2 then
         return false
