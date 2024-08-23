@@ -382,28 +382,6 @@ function hasMobileAttack()
     return has("eggshoot") or has("bbarge") or has("roll") or has("arat")
 end
 
--- Train Logic
-
-function train_WW()
-    return can_beat_king_coal() and has("trainswww")
-end
-
-function train_TDL()
-    return can_beat_king_coal() and has("trainswtd")
-end
-
-function train_HFP()
-    return can_beat_king_coal() and has("trainswhp1")
-end
-
-function train_CT()
-    return can_beat_king_coal() and has("trainswih")
-end
-
-function train_GI()
-    return can_beat_king_coal() and has("trainswgi")
-end
-
 -- Area Access
 
 function plateau_start()
@@ -438,92 +416,12 @@ function wasteland_start()
     end
 end
 
-function plateau_access()
-    if first_level == "Glitter Gulch Mine" or first_level == "Witchyworld" or first_level == "Jolly Roger's Lagoon - Town Center" or first_level == "Hailfire Peaks" or first_level == "Outside Grunty's Industries" then
-        return true
-    elseif first_level == "Terrydactyland" or first_level == "Cloud Cuckooland" then
-        if logictype.CurrentStage == 0 then
-            return has("dive") and has("ttorp")
-        else
-            return has("ttorp")
-        end
-    elseif logictype.CurrentStage <= 1 then
-        return (canReachSlightlyElevatedLedge() or (has("mta") and billDrill() and has("mumbomt"))) or (train_WW() or (train_TDL() and has("ttorp")) and ((clifftop_access() and train_CT()) or (gi_access() and train_GI()) or (hfp_access() and train_HFP()))) or (train_CT() and ((ww_access() and train_WW()) or (gi_access() and train_GI()) or (hfp_access() and train_HFP()) or (wasteland_access() and train_TDL())))
-    else
-        return canReachSlightlyElevatedLedge() or (has("fflip") and has("bbust")) or (train_WW() or (train_TDL() and has("ttorp")) and ((clifftop_access() and train_CT()) or (gi_access() and train_GI()) or (hfp_access() and train_HFP()))) or (train_CT() and ((ww_access() and train_WW()) or (gi_access() and train_GI()) or (hfp_access() and train_HFP()) or (wasteland_access() and train_TDL())))
-    end
-end
-
 function plateauTop()
     if logictype.CurrentStage <= 1 then
         return has("ttrot") or has("splitup")
     else
         return has("ttrot") or has("splitup") or clockwork_shot()
     end
-end
-
-function pinegrove_access(fromTrain)
-    if first_level == "Witchyworld" then
-        return true
-    elseif first_level == "Terrydactyland" or first_level == "Cloud Cuckooland" then
-        if logictype.CurrentStage == 0 then
-            return has("dive") and has("ttorp")
-        else
-            return has("ttorp")
-        end
-    elseif logictype.CurrentStage == 0 then
-        return (canShootEggs("feggs") and plateau_access() and has("eggaim"))
-    else
-        if fromTrain then
-            return (canShootEggs("feggs") and plateau_access())
-        else
-            return (canShootEggs("feggs") and plateau_access()) or (train_WW() or (train_TDL() and has("ttorp")) and (ggm_access() or (clifftop_access() and train_CT()) or (gi_access() and train_GI()) or (hfp_access() and train_HFP())))
-        end
-    end
-end
-
-function clifftop_access(fromTrain)
-    if first_level == "Jolly Roger's Lagoon - Town Center" or first_level == "Hailfire Peaks" or first_level == "Outside Grunty's Industries" then
-        return true
-    elseif logictype.CurrentStage <= 0 then
-        return has("splitup") and plateau_access()
-    else
-        if fromTrain then
-            return has("splitup") and plateau_access()
-        else
-            return (has("splitup") and plateau_access()) or (train_CT() and (ggm_access() or (ww_access() and train_WW()) or (gi_access() and train_GI()) or (hfp_access() and train_HFP()) or (wasteland_access() and train_TDL())))
-        end
-    end
-end
-
-function wasteland_access(fromTrain)
-    if first_level == "Terrydactyland" or first_level == "Cloud Cuckooland" then
-        return true
-    elseif logictype.CurrentStage == 0 then
-        return pinegrove_access() and has("dive") and has("ttorp")
-    else
-        if fromTrain then
-            return pinegrove_access(fromTrain) and has("dive") and has("ttorp")
-        else
-            return (pinegrove_access(fromTrain) and has("dive") and has("ttorp")) or (can_leave_GI_from_inside() and has("gia") and QM_to_WL()) or (train_TDL() and (ggm_access() or (clifftop_access() and train_CT()) or (ww_access() and train_WW()) or (gi_access() and train_GI()) or (hfp_access() and train_HFP())))
-        end
-    end
-end
-
-function quagmire_access(fromTrain)
-    if logictype.CurrentStage == 0 then
-        return wasteland_access() and has("springb")
-    else
-        if fromTrain then
-            return wasteland_access(fromTrain) and has("springb")
-        else
-            return (wasteland_access(fromTrain) and has("springb")) or (can_leave_GI_from_inside() and has("gia"))
-        end
-    end
-end
-
-function mt_access()
-    return has("mta") or (hfp_access() and (has_explosives() or has("mumbohp")))
 end
 
 function can_access_JSG()
@@ -544,10 +442,6 @@ function prison_compound_open()
     else
         return (has_explosives() or has("mumbomt")) and (has("mta") or (hfp_access() or HFP_to_MT()))
     end
-end
-
-function ggm_access()
-    return (has("mta") and dilberta_free()) or ((WH_to_PL() or pinegrove_start() or clifftop_start() or (wasteland_start() and has("ttorp"))) and has("gga"))
 end
 
 function WH_to_PL()
@@ -640,38 +534,10 @@ function ggm_to_ww()
     end
 end
 
-function ww_access(fromTrain)
-    if logictype.CurrentStage == 0 then
-        return has("wwa") and pinegrove_access()
-    else
-        if fromTrain then
-            return (has("wwa") and pinegrove_access(fromTrain)) or (tdl_access("True") and has("mumbotd") and has("humbatd"))
-        else
-            return (has("wwa") and pinegrove_access(fromTrain)) or (tdl_access("True") and has("mumbotd") and has("humbatd")) or (train_WW() and (ggm_access() or (clifftop_access() and train_CT()) or (gi_access() and train_GI()) or (hfp_access() and train_HFP()) or (wasteland_access() and train_TDL())))
-        end
-    end
-end
-
 function glitchedInfernoAccess()
     return (
         humbaWW() or canShootEggs("ceggs")
     )
-end
-
-function jrl_access()
-    return clifftop_access() and has("jra") or (hfp_access() and HFP_to_JRL())
-end
-
-function tdl_access(fromTrain)
-    if logictype.CurrentStage == 0 then
-        return wasteland_access() and has("tda")
-    else
-        if fromTrain then
-            return (wasteland_access(fromTrain) and has("tda")) or (has("mta") and mt_jiggy5() and hatch_to_TDL())
-        else
-            return (wasteland_access(fromTrain) and has("tda")) or train_TDL() or (has("mta") and mt_jiggy5() and hatch_to_TDL())
-        end
-    end
 end
 
 function hatch_to_TDL()
@@ -680,30 +546,6 @@ function hatch_to_TDL()
     else
         return has("ceggs") and has("eggaim")
     end
-end
-
-function gi_access()
-    if logictype.CurrentStage <= 2 then
-        return can_beat_king_coal() and has("trainswgi")
-    else
-        return has("ceggs") and has("eggaim")
-    end
-end
-
-function gi_floor2_access()
-    if logictype.CurrentStage == 0 then
-        return gi_access() and can_access_gi_fl1_2fl2()
-    else
-        return (gi_access() and can_access_gi_fl1_2fl2()) or ((gi_outside_access() or can_leave_GI_from_inside()) and (outside_gi_to_floor2() or (outside_gi_to_floor3() and F3_to_F2())))
-    end
-end
-
-function gi_floor3_access()
-    return (gi_outside_access() and outside_gi_to_floor3()) or (gi_floor2_access() and F2_to_F3())
-end
-
-function gi_outside_access()
-    return quagmire_access() and has("gia")
 end
 
 function gi_front_door()
@@ -812,18 +654,6 @@ end
 
 function hfpTop()
     return canDoSmallElevation() or has("splitup") or has("fpad")
-end
-
-function ccl_access()
-    return wasteland_access() and has("cca")
-end
-
-function ck_access()
-    if logictype.CurrentStage <= 2 then
-        return quagmire_access() and has("cka") and has("clawbts")
-    else
-        return quagmire_access() and has("cka") and (has("clawbts") or (has("geggs") and has("ceggs") and has("eggaim")))
-    end
 end
 
 function HFP_to_MT()

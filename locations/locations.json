@@ -2263,10 +2263,10 @@
           {
             "name": "Hag 1 Defeated",
             "access_rules": [
-              "logictype_b, $ck_access, splitup, packwh, bblaster, ceggs, ttrot, tjump", "logictype_b, $ck_access, splitup, sapack, bblaster, ceggs, ttrot, tjump", "logictype_b, $ck_access, splitup, shpack, bblaster, ceggs, ttrot, tjump",
-              "logictype_n, $ck_access, splitup, packwh, bblaster, ceggs, ttrot, tjump", "logictype_n, $ck_access, splitup, sapack, bblaster, ceggs, ttrot, tjump", "logictype_n, $ck_access, splitup, shpack, bblaster, ceggs, ttrot, tjump",
-              "logictype_a, $ck_access, splitup, packwh, bblaster, ceggs", "logictype_a, $ck_access, splitup, sapack, bblaster, ceggs", "logictype_a, $ck_access, splitup, shpack, bblaster, ceggs",
-              "logictype_g, $ck_access, splitup, packwh, bblaster, ceggs", "logictype_g, $ck_access, splitup, sapack, bblaster, ceggs", "logictype_g, $ck_access, splitup, shpack, bblaster, ceggs"
+              "logictype_b, cka, clawbts, splitup, packwh, bblaster, ceggs, ttrot, tjump", "logictype_b, cka, clawbts, splitup, sapack, bblaster, ceggs, ttrot, tjump", "logictype_b, cka, clawbts, splitup, shpack, bblaster, ceggs, ttrot, tjump",
+              "logictype_n, cka, clawbts, splitup, packwh, bblaster, ceggs, ttrot, tjump", "logictype_n, cka, clawbts, splitup, sapack, bblaster, ceggs, ttrot, tjump", "logictype_n, cka, clawbts, splitup, shpack, bblaster, ceggs, ttrot, tjump",
+              "logictype_a, cka, clawbts, splitup, packwh, bblaster, ceggs", "logictype_a, cka, clawbts, splitup, sapack, bblaster, ceggs", "logictype_a, cka, clawbts, splitup, shpack, bblaster, ceggs",
+              "logictype_g, cka, clawbts, splitup, packwh, bblaster, ceggs", "logictype_g, cka, clawbts, splitup, sapack, bblaster, ceggs", "logictype_g, cka, clawbts, splitup, shpack, bblaster, ceggs", "logictype_g, cka, geggs, eggaim, splitup, packwh, bblaster, ceggs", "logictype_g, cka, geggs, eggaim, splitup, sapack, bblaster, ceggs", "logictype_g, cka, geggs, eggaim, splitup, shpack, bblaster, ceggs"
             ]
           }
         ],
@@ -8789,7 +8789,7 @@
     "name": "Cloud Cuckooland - Outside",
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
-    "access_rules": [ "@Wastland, cca" ],
+    "access_rules": [ "@Wasteland, cca" ],
     "children": [
       {
         "name": "TDL: Dippy Jiggy",
