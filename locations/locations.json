@@ -2040,120 +2040,80 @@
         "name": "Cloud Cuckooland",
         "sections": [
           {
-            "name": "CCL: Trash Can Jinjo",
-            "access_rules": [
-              "logictype_b, $ccl_access, splitup, shpack, climb",
-              "logictype_n, $ccl_access, splitup, shpack, climb", "logictype_n, $ccl_access, splitup, lspring",
-              "logictype_a, $ccl_access, splitup, shpack, climb", "logictype_a, $ccl_access, splitup, lspring", "logictype_a, $ccl_access, splitup, glide", "logictype_a, $ccl_access, splitup, $clockwork_shot",
-              "logictype_g, $ccl_access, splitup, shpack, climb", "logictype_g, $ccl_access, splitup, lspring", "logictype_g, $ccl_access, splitup, glide", "logictype_g, $ccl_access, splitup, $clockwork_shot"
-            ]
+            "ref": "Cloud Cuckooland - Outside/Inside the Trash Can/Jinjo",
+            "name": "CCL: Trash Can Jinjo"
           },
           {
-            "name": "CCL: Cheese Wedge Jinjo",
-            "access_rules": [
-              "logictype_b, $ccl_access, fpad, splitup, sapack, $grow_beanstalk, $can_use_floatus",
-              "logictype_n, $ccl_access, fpad, splitup, sapack, $grow_beanstalk, $can_use_floatus", "logictype_n, $ccl_access, fpad, splitup, lspring",
-              "logictype_a, $ccl_access, fpad, splitup, sapack, $grow_beanstalk, $can_use_floatus", "logictype_a, $ccl_access, fpad, $clockwork_shot", "logictype_a, $ccl_access, fpad, splitup, lspring",
-              "logictype_g, $ccl_access, fpad, splitup, sapack, $grow_beanstalk, $can_use_floatus", "logictype_g, $ccl_access, fpad, $clockwork_shot", "logictype_g, $ccl_access, fpad, splitup, lspring"
-            ]
+            "ref": "Cloud Cuckooland - Outside/Inside the Cheese Wedge/Jinjo",
+            "name": "CCL: Cheese Wedge Jinjo"
           },
           {
-            "name": "CCL: Central Cavern Jinjo",
-            "access_rules": [
-              "logictype_b, $ccl_access, splitup, $springPad",
-              "logictype_n, $ccl_access, splitup, $springPad", "logictype_n, $ccl_access, springb, $billDrill", "logictype_n, $ccl_access, splitup, lspring",
-              "logictype_a, $ccl_access, splitup, $springPad", "logictype_a, $ccl_access, $clockwork_shot", "logictype_a, $ccl_access, springb, $billDrill", "logictype_a, $ccl_access, splitup, lspring",
-              "logictype_g, $ccl_access, splitup, $springPad", "logictype_g, $ccl_access, $clockwork_shot", "logictype_g, $ccl_access, springb, $billDrill", "logictype_g, $ccl_access, splitup, lspring"
-            ]
+            "ref": "Cloud Cuckooland - Central Cavern/CCL: Central Cavern Jinjo/Jinjo",
+            "name": "CCL: Central Cavern Jinjo"
           },
           {
-            "name": "CCL: Fake Mumbo Skull Jinjo",
-            "access_rules": [ "$ccl_access" ]
+            "ref": "Cloud Cuckooland - Outside/Mumbo's Skull/Fake Mumbo Skull Jinjo",
+            "name": "CCL: Fake Mumbo Skull Jinjo"
           },
           {
-            "name": "CCL: Wumba Jinjo",
-            "access_rules": [ "$ccl_access, climb", "$ccl_access, humbacc" ]
+            "ref": "Cloud Cuckooland - Outside/Wumba's Wigwam/Jinjo",
+            "name": "CCL: Wumba Jinjo"
           },
           {
-            "name": "CCL: Green Pool Glowbo",
-            "access_rules": [
-              "logictype_b, $ccl_access, dive",
-              "logictype_n, $ccl_access, dive",
-              "logictype_a, $ccl_access",
-              "logictype_g, $ccl_access"
-            ]
+            "ref": "Cloud Cuckooland - Outside/CCL: Green Pool Glowbo/Glowbo",
+            "name": "CCL: Green Pool Glowbo"
           },
           {
-            "name": "CCL: Central Cavern Glowbo",
-            "access_rules": [ "$ccl_access, $cclStarterPack, dive" ]
+            "ref": "Cloud Cuckooland - Central Cavern/CCL: Central Cavern Glowbo/Glowbo",
+            "name": "CCL: Central Cavern Glowbo"
           },
           {
-            "name": "CCL: Dirt Patch Honeycomb",
-            "access_rules": [ "$ccl_access, $billDrill" ]
+            "ref": "Cloud Cuckooland - Outside/CCL: Dirt Patch Honeycomb/Honeycomb",
+            "name": "CCL: Dirt Patch Honeycomb"
           },
           {
-            "name": "CCL: Trash Can Honeycomb",
-            "access_rules": [
-              "logictype_b, $ccl_access, fpad",
-              "logictype_n, $ccl_access, fpad", "logictype_n, $ccl_access, splitup, wwhack", "logictype_n, $ccl_access, splitup, glide",
-              "logictype_a, $ccl_access, fpad", "logictype_a, $ccl_access, splitup, wwhack", "logictype_a, $ccl_access, splitup, glide",
-              "logictype_g, $ccl_access, fpad", "logictype_g, $ccl_access, splitup, wwhack", "logictype_g, $ccl_access, splitup, glide"
-            ]
+            "ref": "Cloud Cuckooland - Outside/CCL: Trash Can Honeycomb (On Top)/Honeycomb",
+            "name": "CCL: Trash Can Honeycomb"
           },
           {
-            "name": "CCL: Pot O' Gold Honeycomb",
-            "access_rules": [
-              "logictype_b, $ccl_access, fpad",
-              "logictype_n, $ccl_access, fpad", "logictype_n, $ccl_access, splitup, glide",
-              "logictype_a, $ccl_access, fpad", "logictype_a, $ccl_access, splitup, glide",
-              "logictype_g, $ccl_access, fpad", "logictype_g, $ccl_access, splitup, glide"
-            ]
+            "ref": "Cloud Cuckooland - Outside/CCL: Pot O' Gold Honeycomb (Behind)/Honeycomb",
+            "name": "CCL: Pot O' Gold Honeycomb"
           },
           {
-            "name": "CCL: Canary Mary Cheato Page",
-            "access_rules": [ "$ccl_access, $canary_mary_free, $ggm_access" ]
+            "ref": "Cloud Cuckooland - Outside/Canary Mary (Purple Platform)/Cheato Page",
+            "name": "CCL: Canary Mary Cheato Page"
           },
           {
-            "name": "CCL: Pot O' Gold Cheato Page",
-            "access_rules": [ "$ccl_access, $cc_jiggy3" ]
+            "ref": "Cloud Cuckooland - Outside/Inside the Pot O' Gold/Cheato Page",
+            "name": "CCL: Pot O' Gold Cheato Page"
           },
           {
-            "name": "CCL: Zubbas Cheato Page",
-            "access_rules": [ "$ccl_access, humbacc" ]
+            "ref": "Cloud Cuckooland - Outside/Zubbas' Nest/Cheato Page",
+            "name": "CCL: Zubbas Cheato Page"
           },
           {
-            "name": "CCL: Sack Pack Silo",
-            "access_rules": [ "$ccl_access, splitup, shpack, $notecount|765" ]
+            "ref": "Cloud Cuckooland - Central Cavern/Sack Pack Silo/Silo",
+            "name": "CCL: Sack Pack Silo"
           },
           {
-            "name": "CCL: Mingy Jongo Mumbo Token",
-            "visibility_rules": [ "goal_boss", "goal_wwing" ],
-            "access_rules": [ "$ccl_access, $hasMobileAttack, $cclStarterPack" ]
+            "ref": "Cloud Cuckooland - Outside/Mumbo's Skull/Mingy Jongo Mumbo Token",
+            "name": "CCL: Mingy Jongo Mumbo Token"
           },
           {
-            "name": "CCL: Pot O' Gold Mumbo Token",
-            "visibility_rules": [ "goal_minigame", "goal_wwing" ],
-            "access_rules": [ "$ccl_access, $cc_jiggy3" ]
+            "ref": "Cloud Cuckooland - Outside/Inside the Pot O' Gold/Mumbo Token",
+            "name": "CCL: Pot O' Gold Mumbo Token"
           },
           {
-            "name": "CCL: Zubbas Mumbo Token",
-            "visibility_rules": [ "goal_minigame", "goal_wwing" ],
-            "access_rules": [ "$ccl_access, humbacc" ]
+            "ref": "Cloud Cuckooland - Outside/Zubbas' Nest/Mumbo Token",
+            "name": "CCL: Zubbas Mumbo Token"
           },
           {
-            "name": "CCL: Trash Can Mumbo Token",
-            "visibility_rules": [ "goal_minigame", "goal_wwing" ],
-            "access_rules": [
-              "logictype_b, $ccl_access, $cclStarterPack, splitup, wwhack, fpad",
-              "logictype_n, $ccl_access, $cclStarterPack, splitup, wwhack, fpad", "logictype_n, $ccl_access, $cclStarterPack, splitup, $canShootLinearEgg, fpad",
-              "logictype_a, $ccl_access, $cclStarterPack, splitup, wwhack, fpad", "logictype_a, $ccl_access, $cclStarterPack, splitup, $canShootLinearEgg, fpad",
-              "logictype_g, $ccl_access, $cclStarterPack, splitup, wwhack, fpad", "logictype_g, $ccl_access, $cclStarterPack, splitup, $canShootLinearEgg, fpad"
-            ]
+            "ref": "Cloud Cuckooland - Outside/Inside the Trash Can/Mumbo Token",
+            "name": "CCL: Trash Can Mumbo Token"
           },
           {
-            "name": "CCL: Canary Mary Mumbo Token",
-            "visibility_rules": [ "goal_minigame", "goal_wwing" ],
-            "access_rules": [ "$ccl_access, $canary_mary_free, $ggm_access" ]
+            "ref": "Cloud Cuckooland - Outside/Canary Mary (Purple Platform)/Mumbo Token",
+            "name": "CCL: Canary Mary Mumbo Token"
           }
         ],
         "map_locations": [
@@ -2168,64 +2128,44 @@
         "name": "Cloud Cuckooland - Jiggies",
         "sections": [
           {
-            "name": "CCL: Mingy Jongo Jiggy",
-            "access_rules": [
-              "logictype_b, $ccl_access, $hasMobileAttack, ttrot",
-              "logictype_n, $ccl_access, $hasMobileAttack",
-              "logictype_a, $ccl_access, $hasMobileAttack",
-              "logictype_g, $ccl_access, $hasMobileAttack"
-            ]
+            "ref": "Cloud Cuckooland - Outside/Mumbo's Skull/Mingy Jongo Jiggy",
+            "name": "CCL: Mingy Jongo Jiggy"
           },
           {
-            "name": "CCL: Mr Fit Jiggy",
-            "access_rules": [ "$ccl_access, $cc_jiggy2" ]
+            "ref": "Cloud Cuckooland - Outside/CCL: Mr Fit Jiggy/Jiggy",
+            "name": "CCL: Mr Fit Jiggy"
           },
           {
-            "name": "CCL: Pot O' Gold Jiggy",
-            "access_rules": [ "$ccl_access, $cc_jiggy3" ]
+            "ref": "Cloud Cuckooland - Outside/Inside the Pot O' Gold/Jiggy",
+            "name": "CCL: Pot O' Gold Jiggy"
           },
           {
-            "name": "CCL: Canary Mary Jiggy",
-            "access_rules": [ "$ccl_access, $canary_mary_free, $ggm_access" ]
+            "ref": "Cloud Cuckooland - Outside/Canary Mary (Purple Platform)/Jiggy",
+            "name": "CCL: Canary Mary Jiggy"
           },
           {
-            "name": "CCL: Zubbas Jiggy",
-            "access_rules": [ "$ccl_access, humbacc" ]
+            "ref": "Cloud Cuckooland - Outside/Zubbas' Nest/Jiggy",
+            "name": "CCL: Zubbas Jiggy"
           },
           {
-            "name": "CCL: Jiggium Plant Jiggy",
-            "access_rules": [ "$ccl_access, humbacc" ]
+            "ref": "Cloud Cuckooland - Outside/CCL: Jiggium Plant Jiggy (All Around Map)/Jiggy",
+            "name": "CCL: Jiggium Plant Jiggy"
           },
           {
-            "name": "CCL: Cheese Wedge Jiggy",
-            "access_rules": [
-              "logictype_b, $ccl_access, splitup, sapack, $grow_beanstalk, $can_use_floatus, shpack",
-              "logictype_n, $ccl_access, splitup, sapack, $grow_beanstalk, $can_use_floatus, shpack",
-              "logictype_a, $ccl_access, splitup, sapack, $grow_beanstalk, $can_use_floatus, shpack",
-              "logictype_g, $ccl_access, splitup, sapack, $grow_beanstalk, $can_use_floatus, shpack", "logictype_g, $ccl_access, ttrot, fflip, bbust", "logictype_g, $ccl_access, $cclStarterPack, $clockworkWarp, fflip, bbust"
-            ]
+            "ref": "Cloud Cuckooland - Outside/Inside the Cheese Wedge/Jiggy",
+            "name": "CCL: Cheese Wedge Jiggy"
           },
           {
-            "name": "CCL: Trash Can Jiggy",
-            "access_rules": [
-              "logictype_b, $ccl_access, splitup, wwhack, fpad",
-              "logictype_n, $ccl_access, splitup, wwhack", "logictype_n, $ccl_access, splitup, $canShootLinearEgg",
-              "logictype_a, $ccl_access, splitup, wwhack", "logictype_a, $ccl_access, splitup, $canShootLinearEgg",
-              "logictype_g, $ccl_access, splitup, wwhack", "logictype_g, $ccl_access, splitup, $canShootLinearEgg"
-            ]
+            "ref": "Cloud Cuckooland - Outside/Inside the Trash Can/Jiggy",
+            "name": "CCL: Trash Can Jiggy"
           },
           {
-            "name": "CCL: Superstash Jiggy",
-            "access_rules": [
-              "logictype_b, $ccl_access, $canShootEggs|ceggs, ggrab, fpad, fflip",
-              "logictype_n, $ccl_access, $canShootEggs|ceggs, fpad, fflip, ggrab", "logictype_n, $ccl_access, $canShootEggs|ceggs, fpad, fflip, $veryLongJump",
-              "logictype_a, $ccl_access, $canShootEggs|ceggs, fpad, fflip, ggrab", "logictype_a, $ccl_access, $canShootEggs|ceggs, fpad, fflip, $veryLongJump",
-              "logictype_g, $ccl_access, $canShootEggs|ceggs"
-            ]
+            "ref": "Cloud Cuckooland - Central Cavern/CCL: Superstash Jiggy/Jiggy",
+            "name": "CCL: Superstash Jiggy"
           },
           {
-            "name": "CCL: Jelly Castle Jiggy",
-            "access_rules": [ "$ccl_access, splitup, shpack, climb" ]
+            "ref": "Cloud Cuckooland - Outside/CCL: Jelly Castle Jiggy/Jiggy",
+            "name": "CCL: Jelly Castle Jiggy"
           }
         ],
         "map_locations": [
@@ -2240,87 +2180,72 @@
         "name": "Cloud Cuckooland - Notes",
         "sections": [
           {
-            "name": "CCL: Treble Clef",
-            "access_rules": [ "$ccl_access, $notes_ccl_high" ]
+            "ref": "Cloud Cuckooland - Central Cavern/CCL: Treble Clef (Top Path)/Treble Clef",
+            "name": "CCL: Treble Clef"
           },
           {
-            "name": "CCL: Main Entrance Note",
-            "access_rules": [ "$ccl_access" ]
+            "ref": "Cloud Cuckooland - Central Cavern/CCL: Main Entrance Note/Note",
+            "name": "CCL: Main Entrance Note"
           },
           {
-            "name": "CCL: Blue Skull Exit Note",
-            "access_rules": [ "$ccl_access, $notes_ccl_low" ]
+            "ref": "Cloud Cuckooland - Central Cavern/CCL: Blue Skull Exit Note/Note",
+            "name": "CCL: Blue Skull Exit Note"
           },
           {
-            "name": "CCL: Sack Pack Silo (1) Note",
-            "access_rules": [
-              "logictype_b, $ccl_access, splitup, shpack",
-              "logictype_n, $ccl_access, splitup, shpack", "logictype_n, $ccl_access, $canShootEggs|ceggs",
-              "logictype_a, $ccl_access, splitup, shpack", "logictype_a, $ccl_access, $canShootEggs|ceggs",
-              "logictype_g, $ccl_access, splitup, shpack", "logictype_g, $ccl_access, $canShootEggs|ceggs"
-            ]
+            "ref": "Cloud Cuckooland - Central Cavern/Sack Pack Silo/Note 1",
+            "name": "CCL: Sack Pack Silo (1) Note"
           },
           {
-            "name": "CCL: Sack Pack Silo (2) Note",
-            "access_rules": [
-              "logictype_b, $ccl_access, splitup, shpack",
-              "logictype_n, $ccl_access, splitup, shpack", "logictype_n, $ccl_access, $canShootEggs|ceggs",
-              "logictype_a, $ccl_access, splitup, shpack", "logictype_a, $ccl_access, $canShootEggs|ceggs",
-              "logictype_g, $ccl_access, splitup, shpack", "logictype_g, $ccl_access, $canShootEggs|ceggs"
-            ]
+            "ref": "Cloud Cuckooland - Central Cavern/Sack Pack Silo/Note 2",
+            "name": "CCL: Sack Pack Silo (2) Note"
           },
           {
-            "name": "CCL: Cheese Wedge Exit Note",
-            "access_rules": [ "$ccl_access, $notes_ccl_high" ]
+            "ref": "Cloud Cuckooland - Central Cavern/CCL: Cheese Wedge Exit Note/Note",
+            "name": "CCL: Cheese Wedge Exit Note"
           },
           {
-            "name": "CCL: Pot o' Gold Exit Note",
-            "access_rules": [ "$ccl_access, $notes_ccl_low" ]
+            "ref": "Cloud Cuckooland - Central Cavern/CCL: Pot o' Gold Exit Note/Note",
+            "name": "CCL: Pot o' Gold Exit Note"
           },
           {
-            "name": "CCL: Dippy Pool Note",
-            "access_rules": [ "$ccl_access, dive" ]
+            "ref": "Cloud Cuckooland - Central Cavern/CCL: Dippy Pool Note/Note",
+            "name": "CCL: Dippy Pool Note"
           },
           {
-            "name": "CCL: Mr. Fit Footrace Track Note",
-            "access_rules": [ "$ccl_access, $notes_ccl_low" ]
+            "ref": "Cloud Cuckooland - Central Cavern/CCL: Mr. Fit Footrace Track Note/Note",
+            "name": "CCL: Mr. Fit Footrace Track Note"
           },
           {
-            "name": "CCL: Red Skull Exit Note",
-            "access_rules": [ "$ccl_access, $notes_ccl_low" ]
+            "ref": "Cloud Cuckooland - Central Cavern/CCL: Red Skull Exit Note/Note",
+            "name": "CCL: Red Skull Exit Note"
           },
           {
-            "name": "CCL: Mr. Fit Sack Race Exit Note",
-            "access_rules": [ "$ccl_access, $notes_ccl_high" ]
+            "ref": "Cloud Cuckooland - Central Cavern/CCL: Mr. Fit Sack Race Exit Note/Note",
+            "name": "CCL: Mr. Fit Sack Race Exit Note"
           },
           {
-            "name": "CCL: Top Entrance Note",
-            "access_rules": [ "$ccl_access, $notes_ccl_high" ]
+            "ref": "Cloud Cuckooland - Central Cavern/CCL: Top Entrance Note/Note",
+            "name": "CCL: Top Entrance Note"
           },
           {
-            "name": "CCL: Top Superstash Switch Note",
-            "access_rules": [ "$ccl_access, $notes_ccl_high" ]
+            "ref": "Cloud Cuckooland - Central Cavern/CCL: Top Superstash Switch Note/Note",
+            "name": "CCL: Top Superstash Switch Note"
           },
           {
-            "name": "CCL: Glowbo Pool Note",
-            "access_rules": [ 
-              "logictype_b, $ccl_access, dive",
-              "logictype_n, $ccl_access, dive",
-              "logictype_a, $ccl_access",
-              "logictype_g, $ccl_access"
-            ]
+            "ref": "Cloud Cuckooland - Central Cavern/CCL: Glowbo Pool Note/Note",
+            "name": "CCL: Glowbo Pool Note"
           },
           {
-            "name": "CCL: Central (1) Note",
-            "access_rules": [ "$ccl_access, $notes_ccl_low" ]
+            "ref": "Cloud Cuckooland - Central Cavern/Central Notes/Note 1",
+            "name": "CCL: Central (1) Note"
           },
           {
-            "name": "CCL: Central (2) Note",
-            "access_rules": [ "$ccl_access, $notes_ccl_low" ]
+            "ref": "Cloud Cuckooland - Central Cavern/Central Notes/Note 2",
+            "name": "CCL: Central (2) Note"
           },
           {
-            "name": "CCL: Central (3) Note",
-            "access_rules": [ "$ccl_access, $notes_ccl_low" ]
+            "ref": "Cloud Cuckooland - Central Cavern/Central Notes/Note 3",
+            "name": "CCL: Central (3) Note"
           }
         ],
         "map_locations": [
@@ -8864,6 +8789,7 @@
     "name": "Cloud Cuckooland - Outside",
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Wastland, cca" ],
     "children": [
       {
         "name": "TDL: Dippy Jiggy",
@@ -8890,8 +8816,8 @@
         "name": "CCL: Dirt Patch Honeycomb",
         "sections": [
           {
-            "ref": "Overworld/Cloud Cuckooland/CCL: Dirt Patch Honeycomb",
-            "name": "Honeycomb"
+            "name": "Honeycomb",
+            "access_rules": [ "$billDrill" ]
           }
         ],
         "map_locations": [
@@ -8906,8 +8832,8 @@
         "name": "Wumba's Wigwam",
         "sections": [
           {
-            "ref": "Overworld/Cloud Cuckooland/CCL: Wumba Jinjo",
-            "name": "Jinjo"
+            "name": "Jinjo",
+            "access_rules": [ "climb", "humbacc" ]
           }
         ],
         "map_locations": [
@@ -8922,8 +8848,13 @@
         "name": "CCL: Pot O' Gold Honeycomb (Behind)",
         "sections": [
           {
-            "ref": "Overworld/Cloud Cuckooland/CCL: Pot O' Gold Honeycomb",
-            "name": "Honeycomb"
+            "name": "Honeycomb",
+            "access_rules": [
+              "logictype_b, fpad",
+              "logictype_n, fpad", "logictype_n, splitup, glide",
+              "logictype_a, fpad", "logictype_a, splitup, glide",
+              "logictype_g, fpad", "logictype_g, splitup, glide"
+            ]
           }
         ],
         "map_locations": [
@@ -8938,8 +8869,13 @@
         "name": "CCL: Trash Can Honeycomb (On Top)",
         "sections": [
           {
-            "ref": "Overworld/Cloud Cuckooland/CCL: Trash Can Honeycomb",
-            "name": "Honeycomb"
+            "name": "Honeycomb",
+            "access_rules": [
+              "logictype_b, fpad",
+              "logictype_n, fpad", "logictype_n, splitup, wwhack", "logictype_n, splitup, glide",
+              "logictype_a, fpad", "logictype_a, splitup, wwhack", "logictype_a, splitup, glide",
+              "logictype_g, fpad", "logictype_g, splitup, wwhack", "logictype_g, splitup, glide"
+            ]
           }
         ],
         "map_locations": [
@@ -8954,8 +8890,12 @@
         "name": "CCL: Green Pool Glowbo",
         "sections": [
           {
-            "ref": "Overworld/Cloud Cuckooland/CCL: Green Pool Glowbo",
-            "name": "Glowbo"
+            "name": "Glowbo",
+            "access_rules": [
+              "logictype_b, dive",
+              "logictype_n, dive",
+              "logictype_a", "logictype_g"
+            ]
           }
         ],
         "map_locations": [
@@ -8970,8 +8910,8 @@
         "name": "CCL: Jiggium Plant Jiggy (All Around Map)",
         "sections": [
           {
-            "ref": "Overworld/Cloud Cuckooland - Jiggies/CCL: Jiggium Plant Jiggy",
-            "name": "Jiggy"
+            "name": "Jiggy",
+            "access_rules": [ "humbacc" ]
           }
         ],
         "map_locations": [
@@ -8986,8 +8926,8 @@
         "name": "CCL: Jelly Castle Jiggy",
         "sections": [
           {
-            "ref": "Overworld/Cloud Cuckooland - Jiggies/CCL: Jelly Castle Jiggy",
-            "name": "Jiggy"
+            "name": "Jiggy",
+            "access_rules": [ "splitup, shpack, climb" ]
           }
         ],
         "map_locations": [
@@ -9002,8 +8942,8 @@
         "name": "CCL: Mr Fit Jiggy",
         "sections": [
           {
-            "ref": "Overworld/Cloud Cuckooland - Jiggies/CCL: Mr Fit Jiggy",
-            "name": "Jiggy"
+            "name": "Jiggy",
+            "access_rules": [ "$cc_jiggy2" ]
           }
         ],
         "map_locations": [
@@ -9018,16 +8958,32 @@
         "name": "Inside the Trash Can",
         "sections": [
           {
-            "ref": "Overworld/Cloud Cuckooland/CCL: Trash Can Jinjo",
-            "name": "Jinjo"
+            "name": "Jinjo",
+            "access_rules": [
+              "logictype_b, splitup, shpack, climb",
+              "logictype_n, splitup, shpack, climb", "logictype_n, splitup, lspring",
+              "logictype_a, splitup, shpack, climb", "logictype_a, splitup, lspring", "logictype_a, splitup, glide", "logictype_a, splitup, $clockwork_shot",
+              "logictype_g, splitup, shpack, climb", "logictype_g, splitup, lspring", "logictype_g, splitup, glide", "logictype_g, splitup, $clockwork_shot"
+            ]
           },
           {
-            "ref": "Overworld/Cloud Cuckooland - Jiggies/CCL: Trash Can Jiggy",
-            "name": "Jiggy"
+            "name": "Jiggy",
+            "access_rules": [
+              "logictype_b, splitup, wwhack, fpad",
+              "logictype_n, splitup, wwhack", "logictype_n, splitup, $canShootLinearEgg",
+              "logictype_a, splitup, wwhack", "logictype_a, splitup, $canShootLinearEgg",
+              "logictype_g, splitup, wwhack", "logictype_g, splitup, $canShootLinearEgg"
+            ]
           },
           {
-            "ref": "Overworld/Cloud Cuckooland/CCL: Trash Can Mumbo Token",
-            "name": "Mumbo Token"
+            "name": "Mumbo Token",
+            "access_rules": [
+              "logictype_b, splitup, wwhack, fpad",
+              "logictype_n, splitup, wwhack", "logictype_n, splitup, $canShootLinearEgg",
+              "logictype_a, splitup, wwhack", "logictype_a, splitup, $canShootLinearEgg",
+              "logictype_g, splitup, wwhack", "logictype_g, splitup, $canShootLinearEgg"
+            ],
+            "visibility_rules": [ "goal_minigame", "goal_wwing" ]
           }
         ],
         "map_locations": [
@@ -9040,18 +8996,17 @@
       },
       {
         "name": "Inside the Pot O' Gold",
+        "access_rules": [ "$cc_jiggy3" ],
         "sections": [
           {
-            "ref": "Overworld/Cloud Cuckooland/CCL: Pot O' Gold Cheato Page",
             "name": "Cheato Page"
           },
           {
-            "ref": "Overworld/Cloud Cuckooland - Jiggies/CCL: Pot O' Gold Jiggy",
             "name": "Jiggy"
           },
           {
-            "ref": "Overworld/Cloud Cuckooland/CCL: Pot O' Gold Mumbo Token",
-            "name": "Mumbo Token"
+            "name": "Mumbo Token",
+            "visibility_rules": [ "goal_minigame", "goal_wwing" ]
           }
         ],
         "map_locations": [
@@ -9066,12 +9021,22 @@
         "name": "Inside the Cheese Wedge",
         "sections": [
           {
-            "ref": "Overworld/Cloud Cuckooland/CCL: Cheese Wedge Jinjo",
-            "name": "Jinjo"
+            "name": "Jinjo",
+            "access_rules": [
+              "logictype_b, fpad, splitup, sapack, $grow_beanstalk, $can_use_floatus",
+              "logictype_n, fpad, splitup, sapack, $grow_beanstalk, $can_use_floatus", "logictype_n, fpad, splitup, lspring",
+              "logictype_a, fpad, splitup, sapack, $grow_beanstalk, $can_use_floatus", "logictype_a, fpad, $clockwork_shot", "logictype_a, fpad, splitup, lspring",
+              "logictype_g, fpad, splitup, sapack, $grow_beanstalk, $can_use_floatus", "logictype_g, fpad, $clockwork_shot", "logictype_g, fpad, splitup, lspring"
+            ]
           },
           {
-            "ref": "Overworld/Cloud Cuckooland - Jiggies/CCL: Cheese Wedge Jiggy",
-            "name": "Jiggy"
+            "name": "Jiggy",
+            "access_rules": [
+              "logictype_b, splitup, sapack, $grow_beanstalk, $can_use_floatus, shpack",
+              "logictype_n, splitup, sapack, $grow_beanstalk, $can_use_floatus, shpack",
+              "logictype_a, splitup, sapack, $grow_beanstalk, $can_use_floatus, shpack",
+              "logictype_g, splitup, sapack, $grow_beanstalk, $can_use_floatus, shpack", "logictype_g, ttrot, fflip, bbust", "logictype_g, $clockworkWarp, fflip, bbust"
+            ]
           }
         ],
         "map_locations": [
@@ -9086,16 +9051,26 @@
         "name": "Mumbo's Skull",
         "sections": [
           {
-            "ref": "Overworld/Cloud Cuckooland/CCL: Fake Mumbo Skull Jinjo",
             "name": "Fake Mumbo Skull Jinjo"
           },
           {
-            "ref": "Overworld/Cloud Cuckooland - Jiggies/CCL: Mingy Jongo Jiggy",
-            "name": "Mingy Jongo Jiggy"
+            "name": "Mingy Jongo Jiggy",
+            "access_rules": [
+              "logictype_b, $hasMobileAttack, ttrot",
+              "logictype_n, $hasMobileAttack",
+              "logictype_a, $hasMobileAttack",
+              "logictype_g, $hasMobileAttack"
+            ]
           },
           {
-            "ref": "Overworld/Cloud Cuckooland/CCL: Mingy Jongo Mumbo Token",
-            "name": "Mingy Jongo Mumbo Token"
+            "name": "Mingy Jongo Mumbo Token",
+            "access_rules": [
+              "logictype_b, $hasMobileAttack, ttrot",
+              "logictype_n, $hasMobileAttack",
+              "logictype_a, $hasMobileAttack",
+              "logictype_g, $hasMobileAttack"
+            ],
+            "visibility_rules": [ "goal_boss", "goal_wwing" ]
           }
         ],
         "map_locations": [
@@ -9108,18 +9083,17 @@
       },
       {
         "name": "Zubbas' Nest",
+        "access_rules": [ "humbacc" ],
         "sections": [
           {
-            "ref": "Overworld/Cloud Cuckooland/CCL: Zubbas Cheato Page",
             "name": "Cheato Page"
           },
           {
-            "ref": "Overworld/Cloud Cuckooland - Jiggies/CCL: Zubbas Jiggy",
             "name": "Jiggy"
           },
           {
-            "ref": "Overworld/Cloud Cuckooland/CCL: Zubbas Mumbo Token",
-            "name": "Mumbo Token"
+            "name": "Mumbo Token",
+            "visibility_rules": [ "goal_minigame", "goal_wwing" ]
           }
         ],
         "map_locations": [
@@ -9132,18 +9106,17 @@
       },
       {
         "name": "Canary Mary (Purple Platform)",
+        "access_rules": [ "$canary_mary_free, @Glitter Gulch Mine - Main Area" ],
         "sections": [
           {
-            "ref": "Overworld/Cloud Cuckooland - Jiggies/CCL: Canary Mary Jiggy",
             "name": "Jiggy"
           },
           {
-            "ref": "Overworld/Cloud Cuckooland/CCL: Canary Mary Cheato Page",
             "name": "Cheato Page"
           },
           {
-            "ref": "Overworld/Cloud Cuckooland/CCL: Canary Mary Mumbo Token",
-            "name": "Mumbo Token"
+            "name": "Mumbo Token",
+            "visibility_rules": [ "goal_minigame", "goal_wwing" ]
           }
         ],
         "map_locations": [
@@ -9160,13 +9133,19 @@
     "name": "Cloud Cuckooland - Central Cavern",
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Cloud Cuckooland - Outside" ],
     "children": [
       {
         "name": "CCL: Central Cavern Jinjo",
         "sections": [
           {
-            "ref": "Overworld/Cloud Cuckooland/CCL: Central Cavern Jinjo",
-            "name": "Jinjo"
+            "name": "Jinjo",
+            "access_rules": [
+              "logictype_b, splitup, $springPad",
+              "logictype_n, splitup, $springPad", "logictype_n, springb, $billDrill", "logictype_n, splitup, lspring",
+              "logictype_a, splitup, $springPad", "logictype_a, $clockwork_shot", "logictype_a, springb, $billDrill", "logictype_a, splitup, lspring",
+              "logictype_g, splitup, $springPad", "logictype_g, $clockwork_shot", "logictype_g, springb, $billDrill", "logictype_g, splitup, lspring"
+            ]
           }
         ],
         "map_locations": [
@@ -9181,8 +9160,8 @@
         "name": "CCL: Central Cavern Glowbo",
         "sections": [
           {
-            "ref": "Overworld/Cloud Cuckooland/CCL: Central Cavern Glowbo",
-            "name": "Glowbo"
+            "name": "Glowbo",
+            "access_rules": [ "$cclStarterPack, dive" ]
           }
         ],
         "map_locations": [
@@ -9197,16 +9176,26 @@
         "name": "Sack Pack Silo",
         "sections": [
           {
-            "ref": "Overworld/Cloud Cuckooland/CCL: Sack Pack Silo",
-            "name": "Silo"
+            "name": "Silo",
+            "access_rules": [ "splitup, shpack, $notecount|765" ]
           },
           {
-            "ref": "Overworld/Cloud Cuckooland - Notes/CCL: Sack Pack Silo (1) Note",
-            "name": "Note 1"
+            "name": "Note 1",
+            "access_rules": [
+              "logictype_b, splitup, shpack",
+              "logictype_n, splitup, shpack", "logictype_n, $canShootEggs|ceggs",
+              "logictype_a, splitup, shpack", "logictype_a, $canShootEggs|ceggs",
+              "logictype_g, splitup, shpack", "logictype_g, $canShootEggs|ceggs"
+            ]
           },
           {
-            "ref": "Overworld/Cloud Cuckooland - Notes/CCL: Sack Pack Silo (2) Note",
-            "name": "Note 2"
+            "name": "Note 2",
+            "access_rules": [
+              "logictype_b, splitup, shpack",
+              "logictype_n, splitup, shpack", "logictype_n, $canShootEggs|ceggs",
+              "logictype_a, splitup, shpack", "logictype_a, $canShootEggs|ceggs",
+              "logictype_g, splitup, shpack", "logictype_g, $canShootEggs|ceggs"
+            ]
           }
         ],
         "map_locations": [
@@ -9221,8 +9210,13 @@
         "name": "CCL: Superstash Jiggy",
         "sections": [
           {
-            "ref": "Overworld/Cloud Cuckooland - Jiggies/CCL: Superstash Jiggy",
-            "name": "Jiggy"
+            "name": "Jiggy",
+            "access_rules": [
+              "logictype_b, $canShootEggs|ceggs, ggrab, fpad, fflip",
+              "logictype_n, $canShootEggs|ceggs, fpad, fflip, ggrab", "logictype_n, $canShootEggs|ceggs, fpad, fflip, $veryLongJump",
+              "logictype_a, $canShootEggs|ceggs, fpad, fflip, ggrab", "logictype_a, $canShootEggs|ceggs, fpad, fflip, $veryLongJump",
+              "logictype_g, $canShootEggs|ceggs"
+            ]
           }
         ],
         "map_locations": [
@@ -9237,7 +9231,6 @@
         "name": "CCL: Main Entrance Note",
         "sections": [
           {
-            "ref": "Overworld/Cloud Cuckooland - Notes/CCL: Main Entrance Note",
             "name": "Note"
           }
         ],
@@ -9253,8 +9246,8 @@
         "name": "CCL: Blue Skull Exit Note",
         "sections": [
           {
-            "ref": "Overworld/Cloud Cuckooland - Notes/CCL: Blue Skull Exit Note",
-            "name": "Note"
+            "name": "Note",
+            "access_rules": [ "$notes_ccl_low" ]
           }
         ],
         "map_locations": [
@@ -9269,8 +9262,12 @@
         "name": "CCL: Glowbo Pool Note",
         "sections": [
           {
-            "ref": "Overworld/Cloud Cuckooland - Notes/CCL: Glowbo Pool Note",
-            "name": "Note"
+            "name": "Note",
+            "access_rules": [ 
+              "logictype_b, dive",
+              "logictype_n, dive",
+              "logictype_a", "logictype_g"
+            ]
           }
         ],
         "map_locations": [
@@ -9285,8 +9282,8 @@
         "name": "CCL: Dippy Pool Note",
         "sections": [
           {
-            "ref": "Overworld/Cloud Cuckooland - Notes/CCL: Dippy Pool Note",
-            "name": "Note"
+            "name": "Note",
+            "access_rules": [ "dive" ]
           }
         ],
         "map_locations": [
@@ -9301,8 +9298,8 @@
         "name": "CCL: Mr. Fit Footrace Track Note",
         "sections": [
           {
-            "ref": "Overworld/Cloud Cuckooland - Notes/CCL: Mr. Fit Footrace Track Note",
-            "name": "Note"
+            "name": "Note",
+            "access_rules": [ "$notes_ccl_low" ]
           }
         ],
         "map_locations": [
@@ -9317,8 +9314,8 @@
         "name": "CCL: Mr. Fit Sack Race Exit Note",
         "sections": [
           {
-            "ref": "Overworld/Cloud Cuckooland - Notes/CCL: Mr. Fit Sack Race Exit Note",
-            "name": "Note"
+            "name": "Note",
+            "access_rules": [ "$notes_ccl_high" ]
           }
         ],
         "map_locations": [
@@ -9333,8 +9330,8 @@
         "name": "CCL: Pot o' Gold Exit Note",
         "sections": [
           {
-            "ref": "Overworld/Cloud Cuckooland - Notes/CCL: Pot o' Gold Exit Note",
-            "name": "Note"
+            "name": "Note",
+            "access_rules": [ "$notes_ccl_low" ]
           }
         ],
         "map_locations": [
@@ -9349,8 +9346,8 @@
         "name": "CCL: Cheese Wedge Exit Note",
         "sections": [
           {
-            "ref": "Overworld/Cloud Cuckooland - Notes/CCL: Cheese Wedge Exit Note",
-            "name": "Note"
+            "name": "Note",
+            "access_rules": [ "$notes_ccl_high" ]
           }
         ],
         "map_locations": [
@@ -9365,8 +9362,8 @@
         "name": "CCL: Red Skull Exit Note",
         "sections": [
           {
-            "ref": "Overworld/Cloud Cuckooland - Notes/CCL: Red Skull Exit Note",
-            "name": "Note"
+            "name": "Note",
+            "access_rules": [ "$notes_ccl_low" ]
           }
         ],
         "map_locations": [
@@ -9381,8 +9378,8 @@
         "name": "CCL: Top Entrance Note",
         "sections": [
           {
-            "ref": "Overworld/Cloud Cuckooland - Notes/CCL: Top Entrance Note",
-            "name": "Note"
+            "name": "Note",
+            "access_rules": [ "$notes_ccl_high" ]
           }
         ],
         "map_locations": [
@@ -9397,8 +9394,8 @@
         "name": "CCL: Treble Clef (Top Path)",
         "sections": [
           {
-            "ref": "Overworld/Cloud Cuckooland - Notes/CCL: Treble Clef",
-            "name": "Treble Clef"
+            "name": "Treble Clef",
+            "access_rules": [ "$notes_ccl_high" ]
           }
         ],
         "map_locations": [
@@ -9413,8 +9410,8 @@
         "name": "CCL: Top Superstash Switch Note",
         "sections": [
           {
-            "ref": "Overworld/Cloud Cuckooland - Notes/CCL: Top Superstash Switch Note",
-            "name": "Note"
+            "name": "Note",
+            "access_rules": [ "$notes_ccl_high" ]
           }
         ],
         "map_locations": [
@@ -9427,17 +9424,15 @@
       },
       {
         "name": "Central Notes",
+        "access_rules": [ "$notes_ccl_low" ],
         "sections": [
           {
-            "ref": "Overworld/Cloud Cuckooland - Notes/CCL: Central (1) Note",
             "name": "Note 1"
           },
           {
-            "ref": "Overworld/Cloud Cuckooland - Notes/CCL: Central (2) Note",
             "name": "Note 2"
           },
           {
-            "ref": "Overworld/Cloud Cuckooland - Notes/CCL: Central (3) Note",
             "name": "Note 3"
           }
         ],
