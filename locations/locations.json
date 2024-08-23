@@ -6528,7 +6528,7 @@
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
     "access_rules": [
-      "@Cliff Top, tda",
+      "@Wasteland, tda",
       "trainswtd, @Inside Chuffy",
       "@Terrydactyland - Unga Bungas' Cave, $hatch_to_TDL"
     ],
