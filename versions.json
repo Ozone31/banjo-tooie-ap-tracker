@@ -1,6 +1,14 @@
 {
 	"versions": [
 		{
+			"package_version": "0.4.1",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.4.1",
+			"sha256": "BF4890F6FDC5FD0C53160F1F088C39F3C64FAF504189559687B3C95C1254AB57",
+			"changelog": [
+				"Fixed logic error with TDL being connected to the wrong region"
+			]
+		},
+		{
 			"package_version": "0.4.0",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.4.0",
 			"sha256": "1214D759AC8EEA5F09DF9E286A68E9DE40023B5C7900113E957164C389FE73C2",
