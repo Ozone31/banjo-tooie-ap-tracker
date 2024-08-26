@@ -116,7 +116,7 @@ function ggm_trot()
     if logictype.CurrentStage == 0 then
         return has("ttrot")
     else
-        return has("ttrot") or has("ttrain")
+        return has("ttrot") or has("ttrain") or has("springb")
     end
 end
 
@@ -187,6 +187,8 @@ end
 function saucer_door_open_ww()
     if logictype.CurrentStage == 0 then
         return longJumpToGripGrab() and has("fflip") and has("climb") and (has_explosives() or has("bbarge"))
+    else if logictype.CurrentStage == 1 then
+        return (longJumpToGripGrab() and has("fflip") and has("climb") and (has_explosives() or has("bbarge"))) or (has("eggaim") and has("geggs") and has("climb")) or (has_explosives() and has("splitup") and has("lspring") and has("glide"))
     elseif logictype.CurrentStage <= 2 then
         return (longJumpToGripGrab() and has("fflip") and has("climb") and (has_explosives() or has("bbarge"))) or (has("eggaim") and has("geggs")) or (has_explosives() and has("splitup") and has("lspring") and has("glide"))
     else
@@ -216,6 +218,14 @@ end
 
 function humbaJRL()
     return can_dive_in_JRL() and can_reach_atlantis() and has("humbajr")
+end
+
+function doubloon_water()
+    if logictype.CurrentStage == 0 then
+        return has("dive")
+    else
+        return has("dive") or (has("splitup") and has("shpack") and has_explosives())
+    end
 end
 
 function long_swim()
@@ -580,9 +590,9 @@ function outside_gi_to_floor3()
     if logictype.CurrentStage == 0 then
         return false
     elseif logictype.CurrentStage == 1 then
-        return has("clawbts") and veryLongJump() and has("climb")
+        return has("clawbts") and (has("flutter") or has("arat")) and has("climb")
     else
-        return has("clawbts") and veryLongJump() and (has("climb") or extremelyLongJump())
+        return has("clawbts") and (has("flutter") or has("arat")) and (has("climb") or extremelyLongJump())
     end
 end
 
