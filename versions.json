@@ -1,6 +1,14 @@
 {
 	"versions": [
 		{
+			"package_version": "0.4.2",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.4.2",
+			"sha256": "0D8536785536E83323EF8FC6A47CB87C42B4B8F192E6409F8E905EC4AFD21A7A",
+			"changelog": [
+				"Updated logic to match 1.9.2-beta release of the Archipelago Banjo-Tooie Randomizer"
+			]
+		},
+		{
 			"package_version": "0.4.1",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.4.1",
 			"sha256": "8397110BEC2E202CB86D1E2D4F44D5D302436660C90BED4E3EAD7D720242A1BA",
