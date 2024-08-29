@@ -138,9 +138,59 @@ end
 
 function can_beat_king_coal()
     if chuffyrandomized.CurrentStage == 0 then
-        return mumboGGM() and (has("fflip") or has("climb")) and hasGroundAttack()
+        return mumboGGM() and ggm_to_chuffy() and hasGroundAttack()
     else
         return has("chuffy") and (has("fflip") or has("climb")) and hasGroundAttack()
+    end
+end
+
+function ggm_to_chuffy()
+    if logictype.CurrentStage == 0 then
+        return has("climb") and canDoSmallElevation()
+    elseif logictype.CurrentStage == 1 then
+        return canDoSmallElevation() or has("climb")
+    else
+        return canDoSmallElevation() or has("climb") or has("bbust")
+    end
+end
+
+function ww_to_chuffy()
+    if logictype.CurrentStage == 0 then
+        return has("trainswww") and has("climb") and canDoSmallElevation()
+    else
+        return has("trainswww") and (canDoSmallElevation() or has("climb"))
+    end
+end
+
+function ioh_to_chuffy()
+    if logictype.CurrentStage == 0 then
+        return has("trainswih") and has("climb") and canDoSmallElevation()
+    elseif logictype.CurrentStage == 1 then
+        return has("trainswih") and (canDoSmallElevation() or has("climb"))
+    else
+        return has("trainswih") and (canDoSmallElevation() or has("climb") or has("bbust"))
+    end
+end
+
+function tdl_to_chuffy()
+    if logictype.CurrentStage == 0 then
+        return has("trainswtd") and has("climb") and canDoSmallElevation()
+    elseif logictype.CurrentStage == 1 then
+        return has("trainswtd") and (canDoSmallElevation() or has("bbust")) and has("climb")
+    else
+        return has("trainswtd") and (((canDoSmallElevation() or has("bbust")) and has("climb")) or extremelyLongJump())
+    end
+end
+
+function gi_to_chuffy()
+    return has("trainswgi")
+end
+
+function hfp_to_chuffy()
+    if logictype.CurrentStage == 0 then
+        return has("trainswhp1") and has("climb") and canDoSmallElevation()
+    else
+        return has("trainswhp1") and (has("climb") and (canDoSmallElevation() or has("bbust")) or has("ttrot"))
     end
 end
 
@@ -162,9 +212,9 @@ function humbaWW()
     if logictype.CurrentStage == 0 then
         return has("humbaww") and has("fflip") and has("ggrab")
     elseif logictype.CurrentStage == 1 then
-        return has("humbaww") and ((has("fflip") and has("ggrab")) or (has("climb") and veryLongJump()))
+        return has("humbaww") and ((has("fflip") and has("ggrab")) or (has("climb") and veryLongJump()) or (has("splitup") and has("lspring")))
     else
-        return has("humbaww") and ((has("climb") and veryLongJump() and has("fflip")) or (clockwork_shot() and has("climb")))
+        return has("humbaww") and ((has("fflip") and has("ggrab")) or (has("climb") and veryLongJump() and has("fflip")) or (clockwork_shot() and has("climb")) or (has("splitup") and has("lspring")))
     end
 end
 
@@ -187,7 +237,7 @@ end
 function saucer_door_open_ww()
     if logictype.CurrentStage == 0 then
         return longJumpToGripGrab() and has("fflip") and has("climb") and (has_explosives() or has("bbarge"))
-    else if logictype.CurrentStage == 1 then
+    elseif logictype.CurrentStage == 1 then
         return (longJumpToGripGrab() and has("fflip") and has("climb") and (has_explosives() or has("bbarge"))) or (has("eggaim") and has("geggs") and has("climb")) or (has_explosives() and has("splitup") and has("lspring") and has("glide"))
     elseif logictype.CurrentStage <= 2 then
         return (longJumpToGripGrab() and has("fflip") and has("climb") and (has_explosives() or has("bbarge"))) or (has("eggaim") and has("geggs")) or (has_explosives() and has("splitup") and has("lspring") and has("glide"))
@@ -321,7 +371,21 @@ function can_use_battery()
 end
 
 function can_beat_weldar()
-    return can_use_battery() and mumboGI() and has("humbagi") and canShootEggs("geggs") and billDrill() and has("climb")
+    if logictype.CurrentStage == 0 then
+        return can_use_battery() and mumboGI() and has("humbagi") and canShootEggs("geggs") and billDrill() and has("climb") and has("fflip") and has("ggrab")
+    elseif logictype.CurrentStage == 1 then
+        return can_use_battery() and mumboGI() and has("humbagi") and canShootEggs("geggs") and billDrill() and has("climb") and has("fflip") and (has("ggrab") or (has("tjump") and (has("flutter") or has("arat"))))
+    else
+        return can_use_battery() and mumboGI() and has("humbagi") and canShootEggs("geggs") and billDrill() and has("climb") and has("fflip") and ((has("ggrab") or (has("tjump") and (has("flutter") or has("arat")))) or extremelyLongJump())
+    end
+end
+
+function solo_banjo_waste_disposal()
+    if logictype.CurrentStage == 0 then
+        return has("ggrab") and can_use_battery() and has("climb")
+    else
+        return can_use_battery() and (has("ggrab") and has("climb") or has("tjump"))
+    end
 end
 
 function breegullBash()
@@ -475,6 +539,32 @@ function PL_to_PG()
         return has("feggs") and has("eggaim")
     else
         return (has("feggs") and has("eggaim")) or (has("ttrot") and canShootEggs("feggs"))
+    end
+end
+
+function CT_to_PL()
+    if logictype.CurrentStage == 0 then
+        return false
+    else
+        return true
+    end
+end
+
+function PG_to_PL()
+    if logictype.CurrentStage == 0 then
+        return false
+    else
+        return true
+    end
+end
+
+function PGU_to_PG()
+    if logictype.CurrentStage == 0 then
+        return has("ggrab") or has("tjump")
+    elseif logictype.CurrentStage == 1 then
+        return has("ggrab") or has("tjump") or (has("bbust") and (has("flutter") or has("arat")))
+    else
+        return has("ggrab") or has("tjump") or has("bbust")
     end
 end
 
