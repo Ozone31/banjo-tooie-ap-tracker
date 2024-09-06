@@ -1,5 +1,6 @@
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/hints_mapping.lua")
 
 CUR_INDEX = -1
 --SLOT_DATA = nil
@@ -37,7 +38,7 @@ end
 
 
 function onClear(slot_data)
-    --SLOT_DATA = slot_data
+    SLOT_DATA = slot_data
     CUR_INDEX = -1
     -- reset locations
     for _, v in pairs(LOCATION_MAPPING) do
@@ -75,9 +76,6 @@ function onClear(slot_data)
             end
         end
     end
-
-    Archipelago:SetNotify({"events"}) --change to whatever
-    Archipelago:Get({"events"})
 
     if slot_data == nil  then
         print("welp")
@@ -281,10 +279,11 @@ function onClear(slot_data)
 
     --print(dump_table(slot_data))
 
-    if PLAYER_ID>-1 then
-        local eventId="banjo_tooie_events_"..TEAM_NUMBER.."_"..PLAYER_ID
-        Archipelago:SetNotify({eventId})
-        Archipelago:Get({eventId})
+    if PLAYER_ID > -1 then
+    
+        HINTS_ID = "_read_hints_"..TEAM_NUMBER.."_"..PLAYER_ID
+        Archipelago:SetNotify({HINTS_ID})
+        Archipelago:Get({HINTS_ID})
     end
 end
 
@@ -326,28 +325,58 @@ function onLocation(location_id, location_name)
         print(string.format("onLocation: could not find location mapping for id %s", location_id))
         return
     end
-    local obj = Tracker:FindObjectForCode(v[1])
-    if obj then
-        if v[1]:sub(1, 1) == "@" then
-            obj.AvailableChestCount = obj.AvailableChestCount - 1
+    for _, location in pairs(v) do
+        local obj = Tracker:FindObjectForCode(location)
+        -- print(location, obj)
+        if obj then
+            if location:sub(1, 1) == "@" then
+                obj.AvailableChestCount = obj.AvailableChestCount - 1
+            else
+                obj.Active = true
+            end
         else
-            obj.Active = true
+            print(string.format("onLocation: could not find object for code %s", location))
         end
-    else
-        print(string.format("onLocation: could not find object for code %s", v[1]))
     end
 end
 
-function onEvent(key, value, old_value)
-    updateEvents(value)
+function onNotify(key, value, old_value)
+
+    if value ~= old_value and key == HINTS_ID then
+        for _, hint in ipairs(value) do
+            if not hint.found and hint.finding_player == Archipelago.PlayerNumber then
+                updateHints(hint.location)
+            end
+        end
+    end
 end
 
-function onEventsLaunch(key, value)
-    updateEvents(value)
+function onNotifyLaunch(key, value)
+    if key == HINTS_ID then
+        for _, hint in ipairs(value) do
+            if not hint.found and hint.finding_player == Archipelago.PlayerNumber then
+                updateHints(hint.location)
+            end
+        end
+    end
+end
+
+ 
+function updateHints(locationID)
+    local item_codes = HINTS_MAPPING[locationID]
+
+    for _, item_code in ipairs(item_codes) do
+        local obj = Tracker:FindObjectForCode(item_code)
+        if obj then
+            obj.Active = true
+        else
+            print(string.format("No object found for code: %s", item_code))
+        end
+    end
 end
 
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
-Archipelago:AddSetReplyHandler("event handler", onEvent)
-Archipelago:AddRetrievedHandler("event launch handler", onEventsLaunch)
+Archipelago:AddSetReplyHandler("notify handler", onNotify)
+Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)

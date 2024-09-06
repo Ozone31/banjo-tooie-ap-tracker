@@ -1,0 +1,2192 @@
+[
+    {
+        "name": "sm_cheatopage",
+        "type": "toggle",
+        "codes": "sm_cheatopage"
+    },
+    {
+        "name": "sm_jinjo",
+        "type": "toggle",
+        "codes": "sm_jinjo"
+    },
+    {
+        "name": "sm_pmegg",
+        "type": "toggle",
+        "codes": "sm_pmegg"
+    },
+    {
+        "name": "sm_bmegg",
+        "type": "toggle",
+        "codes": "sm_bmegg"
+    },
+    {
+        "name": "sm_roysten1",
+        "type": "toggle",
+        "codes": "sm_roysten1"
+    },
+    {
+        "name": "sm_roysten2",
+        "type": "toggle",
+        "codes": "sm_roysten2"
+    },
+    {
+        "name": "sm_cheator1",
+        "type": "toggle",
+        "codes": "sm_cheator1"
+    },
+    {
+        "name": "sm_cheator2",
+        "type": "toggle",
+        "codes": "sm_cheator2"
+    },
+    {
+        "name": "sm_cheator3",
+        "type": "toggle",
+        "codes": "sm_cheator3"
+    },
+    {
+        "name": "sm_cheator4",
+        "type": "toggle",
+        "codes": "sm_cheator4"
+    },
+    {
+        "name": "sm_cheator5",
+        "type": "toggle",
+        "codes": "sm_cheator5"
+    },
+    {
+        "name": "jv_wjinjo",
+        "type": "toggle",
+        "codes": "jv_wjinjo"
+    },
+    {
+        "name": "jv_ojinjo",
+        "type": "toggle",
+        "codes": "jv_ojinjo"
+    },
+    {
+        "name": "jv_yjinjo",
+        "type": "toggle",
+        "codes": "jv_yjinjo"
+    },
+    {
+        "name": "jv_brjinjo",
+        "type": "toggle",
+        "codes": "jv_brjinjo"
+    },
+    {
+        "name": "jv_gjinjo",
+        "type": "toggle",
+        "codes": "jv_gjinjo"
+    },
+    {
+        "name": "jv_rjinjo",
+        "type": "toggle",
+        "codes": "jv_rjinjo"
+    },
+    {
+        "name": "jv_bljinjo",
+        "type": "toggle",
+        "codes": "jv_bljinjo"
+    },
+    {
+        "name": "jv_pjinjo",
+        "type": "toggle",
+        "codes": "jv_pjinjo"
+    },
+    {
+        "name": "jv_bljinjo",
+        "type": "toggle",
+        "codes": "jv_bljinjo"
+    },
+    {
+        "name": "jv_jingaling",
+        "type": "toggle",
+        "codes": "jv_jingaling"
+    },
+    {
+        "name": "jv_treble",
+        "type": "toggle",
+        "codes": "jv_treble"
+    },
+    {
+        "name": "jv_ikey",
+        "type": "toggle",
+        "codes": "jv_ikey"
+    },
+    {
+        "name": "wh_jinjo",
+        "type": "toggle",
+        "codes": "wh_jinjo"
+    },
+    {
+        "name": "wh_ymegg",
+        "type": "toggle",
+        "codes": "wh_ymegg"
+    },
+    {
+        "name": "wh_pmegg",
+        "type": "toggle",
+        "codes": "wh_pmegg"
+    },
+    {
+        "name": "wh_bmegg",
+        "type": "toggle",
+        "codes": "wh_bmegg"
+    },
+    {
+        "name": "pl_jinjo",
+        "type": "toggle",
+        "codes": "pl_jinjo"
+    },
+    {
+        "name": "pl_honey",
+        "type": "toggle",
+        "codes": "pl_honey"
+    },
+    {
+        "name": "pl_feggssilo",
+        "type": "toggle",
+        "codes": "pl_feggssilo"
+    },
+    {
+        "name": "pl_ggmsignnote1",
+        "type": "toggle",
+        "codes": "pl_ggmsignnote1"
+    },
+    {
+        "name": "pl_ggmsignnote2",
+        "type": "toggle",
+        "codes": "pl_ggmsignnote2"
+    },
+    {
+        "name": "pl_honeybnote1",
+        "type": "toggle",
+        "codes": "pl_honeybnote1"
+    },
+    {
+        "name": "pl_honeybnote2",
+        "type": "toggle",
+        "codes": "pl_honeybnote2"
+    },
+    {
+        "name": "pl_honeybr1",
+        "type": "toggle",
+        "codes": "pl_honeybr1"
+    },
+    {
+        "name": "pl_honeybr2",
+        "type": "toggle",
+        "codes": "pl_honeybr2"
+    },
+    {
+        "name": "pl_honeybr3",
+        "type": "toggle",
+        "codes": "pl_honeybr3"
+    },
+    {
+        "name": "pl_honeybr4",
+        "type": "toggle",
+        "codes": "pl_honeybr4"
+    },
+    {
+        "name": "pl_honeybr5",
+        "type": "toggle",
+        "codes": "pl_honeybr5"
+    },
+    {
+        "name": "pg_geggssilo",
+        "type": "toggle",
+        "codes": "pg_geggssilo"
+    },
+    {
+        "name": "pg_note1",
+        "type": "toggle",
+        "codes": "pg_note1"
+    },
+    {
+        "name": "pg_note2",
+        "type": "toggle",
+        "codes": "pg_note2"
+    },
+    {
+        "name": "pg_uwnote1",
+        "type": "toggle",
+        "codes": "pg_uwnote1"
+    },
+    {
+        "name": "pg_uwnote2",
+        "type": "toggle",
+        "codes": "pg_uwnote2"
+    },
+    {
+        "name": "ct_jinjo",
+        "type": "toggle",
+        "codes": "ct_jinjo"
+    },
+    {
+        "name": "ct_glowbo",
+        "type": "toggle",
+        "codes": "ct_glowbo"
+    },
+    {
+        "name": "ct_ieggssilo",
+        "type": "toggle",
+        "codes": "ct_ieggssilo"
+    },
+    {
+        "name": "ct_trainsw",
+        "type": "toggle",
+        "codes": "ct_trainsw"
+    },
+    {
+        "name": "ct_note1",
+        "type": "toggle",
+        "codes": "ct_note1"
+    },
+    {
+        "name": "ct_note2",
+        "type": "toggle",
+        "codes": "ct_note2"
+    },
+    {
+        "name": "ct_note3",
+        "type": "toggle",
+        "codes": "ct_note3"
+    },
+    {
+        "name": "ct_note4",
+        "type": "toggle",
+        "codes": "ct_note4"
+    },
+    {
+        "name": "wl_jinjo",
+        "type": "toggle",
+        "codes": "wl_jinjo"
+    },
+    {
+        "name": "wl_ceggssilo",
+        "type": "toggle",
+        "codes": "wl_ceggssilo"
+    },
+    {
+        "name": "wl_clockworknote1",
+        "type": "toggle",
+        "codes": "wl_clockworknote1"
+    },
+    {
+        "name": "wl_clockworknote2",
+        "type": "toggle",
+        "codes": "wl_clockworknote2"
+    },
+    {
+        "name": "wl_cclnote1",
+        "type": "toggle",
+        "codes": "wl_cclnote1"
+    },
+    {
+        "name": "wl_cclnote2",
+        "type": "toggle",
+        "codes": "wl_cclnote2"
+    },
+    {
+        "name": "mt_jinjo1",
+        "type": "toggle",
+        "codes": "mt_jinjo1"
+    },
+    {
+        "name": "mt_jinjo2",
+        "type": "toggle",
+        "codes": "mt_jinjo2"
+    },
+    {
+        "name": "mt_jinjo3",
+        "type": "toggle",
+        "codes": "mt_jinjo3"
+    },
+    {
+        "name": "mt_jinjo4",
+        "type": "toggle",
+        "codes": "mt_jinjo4"
+    },
+    {
+        "name": "mt_jinjo5",
+        "type": "toggle",
+        "codes": "mt_jinjo5"
+    },
+    {
+        "name": "mt_glowbo1",
+        "type": "toggle",
+        "codes": "mt_glowbo1"
+    },
+    {
+        "name": "mt_glowbo2",
+        "type": "toggle",
+        "codes": "mt_glowbo2"
+    },
+    {
+        "name": "mt_honey1",
+        "type": "toggle",
+        "codes": "mt_honey1"
+    },
+    {
+        "name": "mt_honey2",
+        "type": "toggle",
+        "codes": "mt_honey2"
+    },
+    {
+        "name": "mt_honey3",
+        "type": "toggle",
+        "codes": "mt_honey3"
+    },
+    {
+        "name": "mt_cheato1",
+        "type": "toggle",
+        "codes": "mt_cheato1"
+    },
+    {
+        "name": "mt_cheato2",
+        "type": "toggle",
+        "codes": "mt_cheato2"
+    },
+    {
+        "name": "mt_cheato3",
+        "type": "toggle",
+        "codes": "mt_cheato3"
+    },
+    {
+        "name": "mt_ggrabsilo",
+        "type": "toggle",
+        "codes": "mt_ggrabsilo"
+    },
+    {
+        "name": "mt_bblastersilo",
+        "type": "toggle",
+        "codes": "mt_bblastersilo"
+    },
+    {
+        "name": "mt_eggaimsilo",
+        "type": "toggle",
+        "codes": "mt_eggaimsilo"
+    },
+    {
+        "name": "mt_jiggy1",
+        "type": "toggle",
+        "codes": "mt_jiggy1"
+    },
+    {
+        "name": "mt_jiggy2",
+        "type": "toggle",
+        "codes": "mt_jiggy2"
+    },
+    {
+        "name": "mt_jiggy3",
+        "type": "toggle",
+        "codes": "mt_jiggy3"
+    },
+    {
+        "name": "mt_jiggy4",
+        "type": "toggle",
+        "codes": "mt_jiggy4"
+    },
+    {
+        "name": "mt_jiggy5",
+        "type": "toggle",
+        "codes": "mt_jiggy5"
+    },
+    {
+        "name": "mt_jiggy6",
+        "type": "toggle",
+        "codes": "mt_jiggy6"
+    },
+    {
+        "name": "mt_jiggy7",
+        "type": "toggle",
+        "codes": "mt_jiggy7"
+    },
+    {
+        "name": "mt_jiggy8",
+        "type": "toggle",
+        "codes": "mt_jiggy8"
+    },
+    {
+        "name": "mt_jiggy9",
+        "type": "toggle",
+        "codes": "mt_jiggy9"
+    },
+    {
+        "name": "mt_jiggy10",
+        "type": "toggle",
+        "codes": "mt_jiggy10"
+    },
+    {
+        "name": "mt_treble",
+        "type": "toggle",
+        "codes": "mt_treble"
+    },
+    {
+        "name": "mt_note1",
+        "type": "toggle",
+        "codes": "mt_note1"
+    },
+    {
+        "name": "mt_note2",
+        "type": "toggle",
+        "codes": "mt_note2"
+    },
+    {
+        "name": "mt_note3",
+        "type": "toggle",
+        "codes": "mt_note3"
+    },
+    {
+        "name": "mt_note4",
+        "type": "toggle",
+        "codes": "mt_note4"
+    },
+    {
+        "name": "mt_note5",
+        "type": "toggle",
+        "codes": "mt_note5"
+    },
+    {
+        "name": "mt_note6",
+        "type": "toggle",
+        "codes": "mt_note6"
+    },
+    {
+        "name": "mt_note7",
+        "type": "toggle",
+        "codes": "mt_note7"
+    },
+    {
+        "name": "mt_note8",
+        "type": "toggle",
+        "codes": "mt_note8"
+    },
+    {
+        "name": "mt_note9",
+        "type": "toggle",
+        "codes": "mt_note9"
+    },
+    {
+        "name": "mt_note10",
+        "type": "toggle",
+        "codes": "mt_note10"
+    },
+    {
+        "name": "mt_note11",
+        "type": "toggle",
+        "codes": "mt_note11"
+    },
+    {
+        "name": "mt_note12",
+        "type": "toggle",
+        "codes": "mt_note12"
+    },
+    {
+        "name": "mt_note13",
+        "type": "toggle",
+        "codes": "mt_note13"
+    },
+    {
+        "name": "mt_note14",
+        "type": "toggle",
+        "codes": "mt_note14"
+    },
+    {
+        "name": "mt_note15",
+        "type": "toggle",
+        "codes": "mt_note15"
+    },
+    {
+        "name": "mt_note16",
+        "type": "toggle",
+        "codes": "mt_note16"
+    },
+    {
+        "name": "gm_jinjo1",
+        "type": "toggle",
+        "codes": "gm_jinjo1"
+    },
+    {
+        "name": "gm_jinjo2",
+        "type": "toggle",
+        "codes": "gm_jinjo2"
+    },
+    {
+        "name": "gm_jinjo3",
+        "type": "toggle",
+        "codes": "gm_jinjo3"
+    },
+    {
+        "name": "gm_jinjo4",
+        "type": "toggle",
+        "codes": "gm_jinjo4"
+    },
+    {
+        "name": "gm_jinjo5",
+        "type": "toggle",
+        "codes": "gm_jinjo5"
+    },
+    {
+        "name": "gm_glowbo1",
+        "type": "toggle",
+        "codes": "gm_glowbo1"
+    },
+    {
+        "name": "gm_glowbo2",
+        "type": "toggle",
+        "codes": "gm_glowbo2"
+    },
+    {
+        "name": "hp_megaglowbo",
+        "type": "toggle",
+        "codes": "hp_megaglowbo"
+    },
+    {
+        "name": "gm_honey1",
+        "type": "toggle",
+        "codes": "gm_honey1"
+    },
+    {
+        "name": "gm_honey2",
+        "type": "toggle",
+        "codes": "gm_honey2"
+    },
+    {
+        "name": "gm_honey3",
+        "type": "toggle",
+        "codes": "gm_honey3"
+    },
+    {
+        "name": "gm_cheato1",
+        "type": "toggle",
+        "codes": "gm_cheato1"
+    },
+    {
+        "name": "gm_cheato2",
+        "type": "toggle",
+        "codes": "gm_cheato2"
+    },
+    {
+        "name": "gm_cheato3",
+        "type": "toggle",
+        "codes": "gm_cheato3"
+    },
+    {
+        "name": "gm_bdrillsilo",
+        "type": "toggle",
+        "codes": "gm_bdrillsilo"
+    },
+    {
+        "name": "gm_bbayonetsilo",
+        "type": "toggle",
+        "codes": "gm_bbayonetsilo"
+    },
+    {
+        "name": "gm_chunk1",
+        "type": "toggle",
+        "codes": "gm_chunk1"
+    },
+    {
+        "name": "gm_chunk2",
+        "type": "toggle",
+        "codes": "gm_chunk2"
+    },
+    {
+        "name": "gm_chunk3",
+        "type": "toggle",
+        "codes": "gm_chunk3"
+    },
+    {
+        "name": "gm_chuffy",
+        "type": "toggle",
+        "codes": "gm_chuffy"
+    },
+    {
+        "name": "gm_jiggy1",
+        "type": "toggle",
+        "codes": "gm_jiggy1"
+    },
+    {
+        "name": "gm_jiggy2",
+        "type": "toggle",
+        "codes": "gm_jiggy2"
+    },
+    {
+        "name": "gm_jiggy3",
+        "type": "toggle",
+        "codes": "gm_jiggy3"
+    },
+    {
+        "name": "gm_jiggy4",
+        "type": "toggle",
+        "codes": "gm_jiggy4"
+    },
+    {
+        "name": "gm_jiggy5",
+        "type": "toggle",
+        "codes": "gm_jiggy5"
+    },
+    {
+        "name": "gm_jiggy6",
+        "type": "toggle",
+        "codes": "gm_jiggy6"
+    },
+    {
+        "name": "gm_jiggy7",
+        "type": "toggle",
+        "codes": "gm_jiggy7"
+    },
+    {
+        "name": "gm_jiggy8",
+        "type": "toggle",
+        "codes": "gm_jiggy8"
+    },
+    {
+        "name": "gm_jiggy9",
+        "type": "toggle",
+        "codes": "gm_jiggy9"
+    },
+    {
+        "name": "gm_jiggy10",
+        "type": "toggle",
+        "codes": "gm_jiggy10"
+    },
+    {
+        "name": "gm_treble",
+        "type": "toggle",
+        "codes": "gm_treble"
+    },
+    {
+        "name": "gm_note1",
+        "type": "toggle",
+        "codes": "gm_note1"
+    },
+    {
+        "name": "gm_note2",
+        "type": "toggle",
+        "codes": "gm_note2"
+    },
+    {
+        "name": "gm_note3",
+        "type": "toggle",
+        "codes": "gm_note3"
+    },
+    {
+        "name": "gm_note4",
+        "type": "toggle",
+        "codes": "gm_note4"
+    },
+    {
+        "name": "gm_note5",
+        "type": "toggle",
+        "codes": "gm_note5"
+    },
+    {
+        "name": "gm_note6",
+        "type": "toggle",
+        "codes": "gm_note6"
+    },
+    {
+        "name": "gm_note7",
+        "type": "toggle",
+        "codes": "gm_note7"
+    },
+    {
+        "name": "gm_note8",
+        "type": "toggle",
+        "codes": "gm_note8"
+    },
+    {
+        "name": "gm_note9",
+        "type": "toggle",
+        "codes": "gm_note9"
+    },
+    {
+        "name": "gm_note10",
+        "type": "toggle",
+        "codes": "gm_note10"
+    },
+    {
+        "name": "gm_note11",
+        "type": "toggle",
+        "codes": "gm_note11"
+    },
+    {
+        "name": "gm_note12",
+        "type": "toggle",
+        "codes": "gm_note12"
+    },
+    {
+        "name": "gm_note13",
+        "type": "toggle",
+        "codes": "gm_note13"
+    },
+    {
+        "name": "gm_note14",
+        "type": "toggle",
+        "codes": "gm_note14"
+    },
+    {
+        "name": "gm_note15",
+        "type": "toggle",
+        "codes": "gm_note15"
+    },
+    {
+        "name": "gm_note16",
+        "type": "toggle",
+        "codes": "gm_note16"
+    },
+    {
+        "name": "ww_jinjo1",
+        "type": "toggle",
+        "codes": "ww_jinjo1"
+    },
+    {
+        "name": "ww_jinjo2",
+        "type": "toggle",
+        "codes": "ww_jinjo2"
+    },
+    {
+        "name": "ww_jinjo3",
+        "type": "toggle",
+        "codes": "ww_jinjo3"
+    },
+    {
+        "name": "ww_jinjo4",
+        "type": "toggle",
+        "codes": "ww_jinjo4"
+    },
+    {
+        "name": "ww_jinjo5",
+        "type": "toggle",
+        "codes": "ww_jinjo5"
+    },
+    {
+        "name": "ww_glowbo1",
+        "type": "toggle",
+        "codes": "ww_glowbo1"
+    },
+    {
+        "name": "ww_glowbo2",
+        "type": "toggle",
+        "codes": "ww_glowbo2"
+    },
+    {
+        "name": "ww_honey1",
+        "type": "toggle",
+        "codes": "ww_honey1"
+    },
+    {
+        "name": "ww_honey2",
+        "type": "toggle",
+        "codes": "ww_honey2"
+    },
+    {
+        "name": "ww_honey3",
+        "type": "toggle",
+        "codes": "ww_honey3"
+    },
+    {
+        "name": "ww_cheato1",
+        "type": "toggle",
+        "codes": "ww_cheato1"
+    },
+    {
+        "name": "ww_cheato2",
+        "type": "toggle",
+        "codes": "ww_cheato2"
+    },
+    {
+        "name": "ww_cheato3",
+        "type": "toggle",
+        "codes": "ww_cheato3"
+    },
+    {
+        "name": "ww_aireaimsilo",
+        "type": "toggle",
+        "codes": "ww_aireaimsilo"
+    },
+    {
+        "name": "ww_splitupsilo",
+        "type": "toggle",
+        "codes": "ww_splitupsilo"
+    },
+    {
+        "name": "ww_packwhsilo",
+        "type": "toggle",
+        "codes": "ww_packwhsilo"
+    },
+    {
+        "name": "ww_trainsw",
+        "type": "toggle",
+        "codes": "ww_trainsw"
+    },
+    {
+        "name": "ww_jiggy1",
+        "type": "toggle",
+        "codes": "ww_jiggy1"
+    },
+    {
+        "name": "ww_jiggy2",
+        "type": "toggle",
+        "codes": "ww_jiggy2"
+    },
+    {
+        "name": "ww_jiggy3",
+        "type": "toggle",
+        "codes": "ww_jiggy3"
+    },
+    {
+        "name": "ww_jiggy4",
+        "type": "toggle",
+        "codes": "ww_jiggy4"
+    },
+    {
+        "name": "ww_jiggy5",
+        "type": "toggle",
+        "codes": "ww_jiggy5"
+    },
+    {
+        "name": "ww_jiggy6",
+        "type": "toggle",
+        "codes": "ww_jiggy6"
+    },
+    {
+        "name": "ww_jiggy7",
+        "type": "toggle",
+        "codes": "ww_jiggy7"
+    },
+    {
+        "name": "ww_jiggy8",
+        "type": "toggle",
+        "codes": "ww_jiggy8"
+    },
+    {
+        "name": "ww_jiggy9",
+        "type": "toggle",
+        "codes": "ww_jiggy9"
+    },
+    {
+        "name": "ww_jiggy10",
+        "type": "toggle",
+        "codes": "ww_jiggy10"
+    },
+    {
+        "name": "ww_treble",
+        "type": "toggle",
+        "codes": "ww_treble"
+    },
+    {
+        "name": "ww_note1",
+        "type": "toggle",
+        "codes": "ww_note1"
+    },
+    {
+        "name": "ww_note2",
+        "type": "toggle",
+        "codes": "ww_note2"
+    },
+    {
+        "name": "ww_note3",
+        "type": "toggle",
+        "codes": "ww_note3"
+    },
+    {
+        "name": "ww_note4",
+        "type": "toggle",
+        "codes": "ww_note4"
+    },
+    {
+        "name": "ww_note5",
+        "type": "toggle",
+        "codes": "ww_note5"
+    },
+    {
+        "name": "ww_note6",
+        "type": "toggle",
+        "codes": "ww_note6"
+    },
+    {
+        "name": "ww_note7",
+        "type": "toggle",
+        "codes": "ww_note7"
+    },
+    {
+        "name": "ww_note8",
+        "type": "toggle",
+        "codes": "ww_note8"
+    },
+    {
+        "name": "ww_note9",
+        "type": "toggle",
+        "codes": "ww_note9"
+    },
+    {
+        "name": "ww_note10",
+        "type": "toggle",
+        "codes": "ww_note10"
+    },
+    {
+        "name": "ww_note11",
+        "type": "toggle",
+        "codes": "ww_note11"
+    },
+    {
+        "name": "ww_note12",
+        "type": "toggle",
+        "codes": "ww_note12"
+    },
+    {
+        "name": "ww_note13",
+        "type": "toggle",
+        "codes": "ww_note13"
+    },
+    {
+        "name": "ww_note14",
+        "type": "toggle",
+        "codes": "ww_note14"
+    },
+    {
+        "name": "ww_note15",
+        "type": "toggle",
+        "codes": "ww_note15"
+    },
+    {
+        "name": "ww_note16",
+        "type": "toggle",
+        "codes": "ww_note16"
+    },
+    {
+        "name": "jr_jinjo1",
+        "type": "toggle",
+        "codes": "jr_jinjo1"
+    },
+    {
+        "name": "jr_jinjo2",
+        "type": "toggle",
+        "codes": "jr_jinjo2"
+    },
+    {
+        "name": "jr_jinjo3",
+        "type": "toggle",
+        "codes": "jr_jinjo3"
+    },
+    {
+        "name": "jr_jinjo4",
+        "type": "toggle",
+        "codes": "jr_jinjo4"
+    },
+    {
+        "name": "jr_jinjo5",
+        "type": "toggle",
+        "codes": "jr_jinjo5"
+    },
+    {
+        "name": "jr_glowbo1",
+        "type": "toggle",
+        "codes": "jr_glowbo1"
+    },
+    {
+        "name": "jr_glowbo2",
+        "type": "toggle",
+        "codes": "jr_glowbo2"
+    },
+    {
+        "name": "jr_honey1",
+        "type": "toggle",
+        "codes": "jr_honey1"
+    },
+    {
+        "name": "jr_honey2",
+        "type": "toggle",
+        "codes": "jr_honey2"
+    },
+    {
+        "name": "jr_honey3",
+        "type": "toggle",
+        "codes": "jr_honey3"
+    },
+    {
+        "name": "jr_cheato1",
+        "type": "toggle",
+        "codes": "jr_cheato1"
+    },
+    {
+        "name": "jr_cheato2",
+        "type": "toggle",
+        "codes": "jr_cheato2"
+    },
+    {
+        "name": "jr_cheato3",
+        "type": "toggle",
+        "codes": "jr_cheato3"
+    },
+    {
+        "name": "jr_wwhacksilo",
+        "type": "toggle",
+        "codes": "jr_wwhacksilo"
+    },
+    {
+        "name": "jr_ttorpsilo",
+        "type": "toggle",
+        "codes": "jr_ttorpsilo"
+    },
+    {
+        "name": "jr_auqaimsilo",
+        "type": "toggle",
+        "codes": "jr_auqaimsilo"
+    },
+    {
+        "name": "jr_jiggy1",
+        "type": "toggle",
+        "codes": "jr_jiggy1"
+    },
+    {
+        "name": "jr_jiggy2",
+        "type": "toggle",
+        "codes": "jr_jiggy2"
+    },
+    {
+        "name": "jr_jiggy3",
+        "type": "toggle",
+        "codes": "jr_jiggy3"
+    },
+    {
+        "name": "jr_jiggy4",
+        "type": "toggle",
+        "codes": "jr_jiggy4"
+    },
+    {
+        "name": "jr_jiggy5",
+        "type": "toggle",
+        "codes": "jr_jiggy5"
+    },
+    {
+        "name": "jr_jiggy6",
+        "type": "toggle",
+        "codes": "jr_jiggy6"
+    },
+    {
+        "name": "jr_jiggy7",
+        "type": "toggle",
+        "codes": "jr_jiggy7"
+    },
+    {
+        "name": "jr_jiggy8",
+        "type": "toggle",
+        "codes": "jr_jiggy8"
+    },
+    {
+        "name": "jr_jiggy9",
+        "type": "toggle",
+        "codes": "jr_jiggy9"
+    },
+    {
+        "name": "jr_jiggy10",
+        "type": "toggle",
+        "codes": "jr_jiggy10"
+    },
+    {
+        "name": "jr_treble",
+        "type": "toggle",
+        "codes": "jr_treble"
+    },
+    {
+        "name": "jr_note1",
+        "type": "toggle",
+        "codes": "jr_note1"
+    },
+    {
+        "name": "jr_note2",
+        "type": "toggle",
+        "codes": "jr_note2"
+    },
+    {
+        "name": "jr_note3",
+        "type": "toggle",
+        "codes": "jr_note3"
+    },
+    {
+        "name": "jr_note4",
+        "type": "toggle",
+        "codes": "jr_note4"
+    },
+    {
+        "name": "jr_note5",
+        "type": "toggle",
+        "codes": "jr_note5"
+    },
+    {
+        "name": "jr_note6",
+        "type": "toggle",
+        "codes": "jr_note6"
+    },
+    {
+        "name": "jr_note7",
+        "type": "toggle",
+        "codes": "jr_note7"
+    },
+    {
+        "name": "jr_note8",
+        "type": "toggle",
+        "codes": "jr_note8"
+    },
+    {
+        "name": "jr_note9",
+        "type": "toggle",
+        "codes": "jr_note9"
+    },
+    {
+        "name": "jr_note10",
+        "type": "toggle",
+        "codes": "jr_note10"
+    },
+    {
+        "name": "jr_note11",
+        "type": "toggle",
+        "codes": "jr_note11"
+    },
+    {
+        "name": "jr_note12",
+        "type": "toggle",
+        "codes": "jr_note12"
+    },
+    {
+        "name": "jr_note13",
+        "type": "toggle",
+        "codes": "jr_note13"
+    },
+    {
+        "name": "jr_note14",
+        "type": "toggle",
+        "codes": "jr_note14"
+    },
+    {
+        "name": "jr_note15",
+        "type": "toggle",
+        "codes": "jr_note15"
+    },
+    {
+        "name": "jr_note16",
+        "type": "toggle",
+        "codes": "jr_note16"
+    },
+    {
+        "name": "jr_doubloon1",
+        "type": "toggle",
+        "codes": "jr_doubloon1"
+    },
+    {
+        "name": "jr_doubloon2",
+        "type": "toggle",
+        "codes": "jr_doubloon2"
+    },
+    {
+        "name": "jr_doubloon3",
+        "type": "toggle",
+        "codes": "jr_doubloon3"
+    },
+    {
+        "name": "jr_doubloon4",
+        "type": "toggle",
+        "codes": "jr_doubloon4"
+    },
+    {
+        "name": "jr_doubloon5",
+        "type": "toggle",
+        "codes": "jr_doubloon5"
+    },
+    {
+        "name": "jr_doubloon6",
+        "type": "toggle",
+        "codes": "jr_doubloon6"
+    },
+    {
+        "name": "jr_doubloon7",
+        "type": "toggle",
+        "codes": "jr_doubloon7"
+    },
+    {
+        "name": "jr_doubloon8",
+        "type": "toggle",
+        "codes": "jr_doubloon8"
+    },
+    {
+        "name": "jr_doubloon9",
+        "type": "toggle",
+        "codes": "jr_doubloon9"
+    },
+    {
+        "name": "jr_doubloon10",
+        "type": "toggle",
+        "codes": "jr_doubloon10"
+    },
+    {
+        "name": "jr_doubloon11",
+        "type": "toggle",
+        "codes": "jr_doubloon11"
+    },
+    {
+        "name": "jr_doubloon12",
+        "type": "toggle",
+        "codes": "jr_doubloon12"
+    },
+    {
+        "name": "jr_doubloon13",
+        "type": "toggle",
+        "codes": "jr_doubloon13"
+    },
+    {
+        "name": "jr_doubloon14",
+        "type": "toggle",
+        "codes": "jr_doubloon14"
+    },
+    {
+        "name": "jr_doubloon15",
+        "type": "toggle",
+        "codes": "jr_doubloon15"
+    },
+    {
+        "name": "jr_doubloon16",
+        "type": "toggle",
+        "codes": "jr_doubloon16"
+    },
+    {
+        "name": "jr_doubloon17",
+        "type": "toggle",
+        "codes": "jr_doubloon17"
+    },
+    {
+        "name": "jr_doubloon18",
+        "type": "toggle",
+        "codes": "jr_doubloon18"
+    },
+    {
+        "name": "jr_doubloon19",
+        "type": "toggle",
+        "codes": "jr_doubloon19"
+    },
+    {
+        "name": "jr_doubloon20",
+        "type": "toggle",
+        "codes": "jr_doubloon20"
+    },
+    {
+        "name": "jr_doubloon21",
+        "type": "toggle",
+        "codes": "jr_doubloon21"
+    },
+    {
+        "name": "jr_doubloon22",
+        "type": "toggle",
+        "codes": "jr_doubloon22"
+    },
+    {
+        "name": "jr_doubloon23",
+        "type": "toggle",
+        "codes": "jr_doubloon23"
+    },
+    {
+        "name": "jr_doubloon24",
+        "type": "toggle",
+        "codes": "jr_doubloon24"
+    },
+    {
+        "name": "jr_doubloon25",
+        "type": "toggle",
+        "codes": "jr_doubloon25"
+    },
+    {
+        "name": "jr_doubloon26",
+        "type": "toggle",
+        "codes": "jr_doubloon26"
+    },
+    {
+        "name": "jr_doubloon27",
+        "type": "toggle",
+        "codes": "jr_doubloon27"
+    },
+    {
+        "name": "jr_doubloon28",
+        "type": "toggle",
+        "codes": "jr_doubloon28"
+    },
+    {
+        "name": "jr_doubloon29",
+        "type": "toggle",
+        "codes": "jr_doubloon29"
+    },
+    {
+        "name": "jr_doubloon30",
+        "type": "toggle",
+        "codes": "jr_doubloon30"
+    },
+    {
+        "name": "td_jinjo1",
+        "type": "toggle",
+        "codes": "td_jinjo1"
+    },
+    {
+        "name": "td_jinjo2",
+        "type": "toggle",
+        "codes": "td_jinjo2"
+    },
+    {
+        "name": "td_jinjo3",
+        "type": "toggle",
+        "codes": "td_jinjo3"
+    },
+    {
+        "name": "td_jinjo4",
+        "type": "toggle",
+        "codes": "td_jinjo4"
+    },
+    {
+        "name": "td_jinjo5",
+        "type": "toggle",
+        "codes": "td_jinjo5"
+    },
+    {
+        "name": "td_glowbo1",
+        "type": "toggle",
+        "codes": "td_glowbo1"
+    },
+    {
+        "name": "td_glowbo2",
+        "type": "toggle",
+        "codes": "td_glowb2o"
+    },
+    {
+        "name": "td_honey1",
+        "type": "toggle",
+        "codes": "td_honey1"
+    },
+    {
+        "name": "td_honey2",
+        "type": "toggle",
+        "codes": "td_honey2"
+    },
+    {
+        "name": "td_honey3",
+        "type": "toggle",
+        "codes": "td_honey3"
+    },
+    {
+        "name": "td_cheato1",
+        "type": "toggle",
+        "codes": "td_cheato1"
+    },
+    {
+        "name": "td_cheato2",
+        "type": "toggle",
+        "codes": "td_cheato2"
+    },
+    {
+        "name": "td_cheato3",
+        "type": "toggle",
+        "codes": "td_cheato3"
+    },
+    {
+        "name": "td_springbsilo",
+        "type": "toggle",
+        "codes": "td_springbsilo"
+    },
+    {
+        "name": "td_taxpacksilo",
+        "type": "toggle",
+        "codes": "td_taxpacksilo"
+    },
+    {
+        "name": "td_hatchsilo",
+        "type": "toggle",
+        "codes": "td_hatchsilo"
+    },
+    {
+        "name": "td_trainsw",
+        "type": "toggle",
+        "codes": "td_trainsw"
+    },
+    {
+        "name": "td_jiggy1",
+        "type": "toggle",
+        "codes": "td_jiggy1"
+    },
+    {
+        "name": "td_jiggy2",
+        "type": "toggle",
+        "codes": "td_jiggy2"
+    },
+    {
+        "name": "td_jiggy3",
+        "type": "toggle",
+        "codes": "td_jiggy3"
+    },
+    {
+        "name": "td_jiggy4",
+        "type": "toggle",
+        "codes": "td_jiggy4"
+    },
+    {
+        "name": "td_jiggy5",
+        "type": "toggle",
+        "codes": "td_jiggy5"
+    },
+    {
+        "name": "td_jiggy6",
+        "type": "toggle",
+        "codes": "td_jiggy6"
+    },
+    {
+        "name": "td_jiggy7",
+        "type": "toggle",
+        "codes": "td_jiggy7"
+    },
+    {
+        "name": "td_jiggy8",
+        "type": "toggle",
+        "codes": "td_jiggy8"
+    },
+    {
+        "name": "td_jiggy9",
+        "type": "toggle",
+        "codes": "td_jiggy9"
+    },
+    {
+        "name": "td_jiggy10",
+        "type": "toggle",
+        "codes": "td_jiggy10"
+    },
+    {
+        "name": "td_treble",
+        "type": "toggle",
+        "codes": "td_treble"
+    },
+    {
+        "name": "td_note1",
+        "type": "toggle",
+        "codes": "td_note1"
+    },
+    {
+        "name": "td_note2",
+        "type": "toggle",
+        "codes": "td_note2"
+    },
+    {
+        "name": "td_note3",
+        "type": "toggle",
+        "codes": "td_note3"
+    },
+    {
+        "name": "td_note4",
+        "type": "toggle",
+        "codes": "td_note4"
+    },
+    {
+        "name": "td_note5",
+        "type": "toggle",
+        "codes": "td_note5"
+    },
+    {
+        "name": "td_note6",
+        "type": "toggle",
+        "codes": "td_note6"
+    },
+    {
+        "name": "td_note7",
+        "type": "toggle",
+        "codes": "td_note7"
+    },
+    {
+        "name": "td_note8",
+        "type": "toggle",
+        "codes": "td_note8"
+    },
+    {
+        "name": "td_note9",
+        "type": "toggle",
+        "codes": "td_note9"
+    },
+    {
+        "name": "td_note10",
+        "type": "toggle",
+        "codes": "td_note10"
+    },
+    {
+        "name": "td_note11",
+        "type": "toggle",
+        "codes": "td_note11"
+    },
+    {
+        "name": "td_note12",
+        "type": "toggle",
+        "codes": "td_note12"
+    },
+    {
+        "name": "td_note13",
+        "type": "toggle",
+        "codes": "td_note13"
+    },
+    {
+        "name": "td_note14",
+        "type": "toggle",
+        "codes": "td_note14"
+    },
+    {
+        "name": "td_note15",
+        "type": "toggle",
+        "codes": "td_note15"
+    },
+    {
+        "name": "td_note16",
+        "type": "toggle",
+        "codes": "td_note16"
+    },
+    {
+        "name": "gi_jinjo1",
+        "type": "toggle",
+        "codes": "gi_jinjo1"
+    },
+    {
+        "name": "gi_jinjo2",
+        "type": "toggle",
+        "codes": "gi_jinjo2"
+    },
+    {
+        "name": "gi_jinjo3",
+        "type": "toggle",
+        "codes": "gi_jinjo3"
+    },
+    {
+        "name": "gi_jinjo4",
+        "type": "toggle",
+        "codes": "gi_jinjo4"
+    },
+    {
+        "name": "gi_jinjo5",
+        "type": "toggle",
+        "codes": "gi_jinjo5"
+    },
+    {
+        "name": "gi_glowbo1",
+        "type": "toggle",
+        "codes": "gi_glowbo1"
+    },
+    {
+        "name": "gi_glowbo2",
+        "type": "toggle",
+        "codes": "gi_glowbo2"
+    },
+    {
+        "name": "gi_honey1",
+        "type": "toggle",
+        "codes": "gi_honey1"
+    },
+    {
+        "name": "gi_honey2",
+        "type": "toggle",
+        "codes": "gi_honey2"
+    },
+    {
+        "name": "gi_honey3",
+        "type": "toggle",
+        "codes": "gi_honey3"
+    },
+    {
+        "name": "gi_cheato1",
+        "type": "toggle",
+        "codes": "gi_cheato1"
+    },
+    {
+        "name": "gi_cheato2",
+        "type": "toggle",
+        "codes": "gi_cheato2"
+    },
+    {
+        "name": "gi_cheato3",
+        "type": "toggle",
+        "codes": "gi_cheato3"
+    },
+    {
+        "name": "gi_snpacksilo",
+        "type": "toggle",
+        "codes": "gi_snpacksilo"
+    },
+    {
+        "name": "gi_lspringsilo",
+        "type": "toggle",
+        "codes": "gi_lspringsilo"
+    },
+    {
+        "name": "gi_clawbtssilo",
+        "type": "toggle",
+        "codes": "gi_clawbtssilo"
+    },
+    {
+        "name": "gi_trainsw",
+        "type": "toggle",
+        "codes": "gi_trainsw"
+    },
+    {
+        "name": "gi_jiggy1",
+        "type": "toggle",
+        "codes": "gi_jiggy1"
+    },
+    {
+        "name": "gi_jiggy2",
+        "type": "toggle",
+        "codes": "gi_jiggy2"
+    },
+    {
+        "name": "gi_jiggy3",
+        "type": "toggle",
+        "codes": "gi_jiggy3"
+    },
+    {
+        "name": "gi_jiggy4",
+        "type": "toggle",
+        "codes": "gi_jiggy4"
+    },
+    {
+        "name": "gi_jiggy5",
+        "type": "toggle",
+        "codes": "gi_jiggy5"
+    },
+    {
+        "name": "gi_jiggy6",
+        "type": "toggle",
+        "codes": "gi_jiggy6"
+    },
+    {
+        "name": "gi_jiggy7",
+        "type": "toggle",
+        "codes": "gi_jiggy7"
+    },
+    {
+        "name": "gi_jiggy8",
+        "type": "toggle",
+        "codes": "gi_jiggy8"
+    },
+    {
+        "name": "gi_jiggy9",
+        "type": "toggle",
+        "codes": "gi_jiggy9"
+    },
+    {
+        "name": "gi_jiggy10",
+        "type": "toggle",
+        "codes": "gi_jiggy10"
+    },
+    {
+        "name": "gi_treble",
+        "type": "toggle",
+        "codes": "gi_treble"
+    },
+    {
+        "name": "gi_note1",
+        "type": "toggle",
+        "codes": "gi_note1"
+    },
+    {
+        "name": "gi_note2",
+        "type": "toggle",
+        "codes": "gi_note2"
+    },
+    {
+        "name": "gi_note3",
+        "type": "toggle",
+        "codes": "gi_note3"
+    },
+    {
+        "name": "gi_note4",
+        "type": "toggle",
+        "codes": "gi_note4"
+    },
+    {
+        "name": "gi_note5",
+        "type": "toggle",
+        "codes": "gi_note5"
+    },
+    {
+        "name": "gi_note6",
+        "type": "toggle",
+        "codes": "gi_note6"
+    },
+    {
+        "name": "gi_note7",
+        "type": "toggle",
+        "codes": "gi_note7"
+    },
+    {
+        "name": "gi_note8",
+        "type": "toggle",
+        "codes": "gi_note8"
+    },
+    {
+        "name": "gi_note9",
+        "type": "toggle",
+        "codes": "gi_note9"
+    },
+    {
+        "name": "gi_note10",
+        "type": "toggle",
+        "codes": "gi_note10"
+    },
+    {
+        "name": "gi_note11",
+        "type": "toggle",
+        "codes": "gi_note11"
+    },
+    {
+        "name": "gi_note12",
+        "type": "toggle",
+        "codes": "gi_note12"
+    },
+    {
+        "name": "gi_note13",
+        "type": "toggle",
+        "codes": "gi_note13"
+    },
+    {
+        "name": "gi_note14",
+        "type": "toggle",
+        "codes": "gi_note14"
+    },
+    {
+        "name": "gi_note15",
+        "type": "toggle",
+        "codes": "gi_note15"
+    },
+    {
+        "name": "gi_note16",
+        "type": "toggle",
+        "codes": "gi_note16"
+    },
+    {
+        "name": "hp_jinjo1",
+        "type": "toggle",
+        "codes": "hp_jinjo1"
+    },
+    {
+        "name": "hp_jinjo2",
+        "type": "toggle",
+        "codes": "hp_jinjo2"
+    },
+    {
+        "name": "hp_jinjo3",
+        "type": "toggle",
+        "codes": "hp_jinjo3"
+    },
+    {
+        "name": "hp_jinjo4",
+        "type": "toggle",
+        "codes": "hp_jinjo4"
+    },
+    {
+        "name": "hp_jinjo5",
+        "type": "toggle",
+        "codes": "hp_jinjo5"
+    },
+    {
+        "name": "hp_glowbo1",
+        "type": "toggle",
+        "codes": "hp_glowbo1"
+    },
+    {
+        "name": "hp_glowbo2",
+        "type": "toggle",
+        "codes": "hp_glowbo2"
+    },
+    {
+        "name": "hp_honey1",
+        "type": "toggle",
+        "codes": "hp_honey1"
+    },
+    {
+        "name": "hp_honey2",
+        "type": "toggle",
+        "codes": "hp_honey2"
+    },
+    {
+        "name": "hp_honey3",
+        "type": "toggle",
+        "codes": "hp_honey3"
+    },
+    {
+        "name": "hp_cheato1",
+        "type": "toggle",
+        "codes": "hp_cheato1"
+    },
+    {
+        "name": "hp_cheato2",
+        "type": "toggle",
+        "codes": "hp_cheato2"
+    },
+    {
+        "name": "hp_cheato3",
+        "type": "toggle",
+        "codes": "hp_cheato3"
+    },
+    {
+        "name": "hp_shpacksilo",
+        "type": "toggle",
+        "codes": "hp_shpacksilo"
+    },
+    {
+        "name": "hp_glidesilo",
+        "type": "toggle",
+        "codes": "hp_glidesilo"
+    },
+    {
+        "name": "hp_trainsw1",
+        "type": "toggle",
+        "codes": "hp_trainsw1"
+    },
+    {
+        "name": "hp_trainsw2",
+        "type": "toggle",
+        "codes": "hp_trainsw2"
+    },
+    {
+        "name": "hp_jiggy1",
+        "type": "toggle",
+        "codes": "hp_jiggy1"
+    },
+    {
+        "name": "hp_jiggy2",
+        "type": "toggle",
+        "codes": "hp_jiggy2"
+    },
+    {
+        "name": "hp_jiggy3",
+        "type": "toggle",
+        "codes": "hp_jiggy3"
+    },
+    {
+        "name": "hp_jiggy4",
+        "type": "toggle",
+        "codes": "hp_jiggy4"
+    },
+    {
+        "name": "hp_jiggy5",
+        "type": "toggle",
+        "codes": "hp_jiggy5"
+    },
+    {
+        "name": "hp_jiggy6",
+        "type": "toggle",
+        "codes": "hp_jiggy6"
+    },
+    {
+        "name": "hp_jiggy7",
+        "type": "toggle",
+        "codes": "hp_jiggy7"
+    },
+    {
+        "name": "hp_jiggy8",
+        "type": "toggle",
+        "codes": "hp_jiggy8"
+    },
+    {
+        "name": "hp_jiggy9",
+        "type": "toggle",
+        "codes": "hp_jiggy9"
+    },
+    {
+        "name": "hp_jiggy10",
+        "type": "toggle",
+        "codes": "hp_jiggy10"
+    },
+    {
+        "name": "hp_treble",
+        "type": "toggle",
+        "codes": "hp_treble"
+    },
+    {
+        "name": "hp_note1",
+        "type": "toggle",
+        "codes": "hp_note1"
+    },
+    {
+        "name": "hp_note2",
+        "type": "toggle",
+        "codes": "hp_note2"
+    },
+    {
+        "name": "hp_note3",
+        "type": "toggle",
+        "codes": "hp_note3"
+    },
+    {
+        "name": "hp_note4",
+        "type": "toggle",
+        "codes": "hp_note4"
+    },
+    {
+        "name": "hp_note5",
+        "type": "toggle",
+        "codes": "hp_note5"
+    },
+    {
+        "name": "hp_note6",
+        "type": "toggle",
+        "codes": "hp_note6"
+    },
+    {
+        "name": "hp_note7",
+        "type": "toggle",
+        "codes": "hp_note7"
+    },
+    {
+        "name": "hp_note8",
+        "type": "toggle",
+        "codes": "hp_note8"
+    },
+    {
+        "name": "hp_note9",
+        "type": "toggle",
+        "codes": "hp_note9"
+    },
+    {
+        "name": "hp_note10",
+        "type": "toggle",
+        "codes": "hp_note10"
+    },
+    {
+        "name": "hp_note11",
+        "type": "toggle",
+        "codes": "hp_note11"
+    },
+    {
+        "name": "hp_note12",
+        "type": "toggle",
+        "codes": "hp_note12"
+    },
+    {
+        "name": "hp_note13",
+        "type": "toggle",
+        "codes": "hp_note13"
+    },
+    {
+        "name": "hp_note14",
+        "type": "toggle",
+        "codes": "hp_note14"
+    },
+    {
+        "name": "hp_note15",
+        "type": "toggle",
+        "codes": "hp_note15"
+    },
+    {
+        "name": "hp_note16",
+        "type": "toggle",
+        "codes": "hp_note16"
+    },
+    {
+        "name": "cc_jinjo1",
+        "type": "toggle",
+        "codes": "cc_jinjo1"
+    },
+    {
+        "name": "cc_jinjo2",
+        "type": "toggle",
+        "codes": "cc_jinjo2"
+    },
+    {
+        "name": "cc_jinjo3",
+        "type": "toggle",
+        "codes": "cc_jinjo3"
+    },
+    {
+        "name": "cc_jinjo4",
+        "type": "toggle",
+        "codes": "cc_jinjo4"
+    },
+    {
+        "name": "cc_jinjo5",
+        "type": "toggle",
+        "codes": "cc_jinjo5"
+    },
+    {
+        "name": "cc_glowbo1",
+        "type": "toggle",
+        "codes": "cc_glowbo1"
+    },
+    {
+        "name": "cc_glowbo2",
+        "type": "toggle",
+        "codes": "cc_glowbo2"
+    },
+    {
+        "name": "cc_honey1",
+        "type": "toggle",
+        "codes": "cc_honey1"
+    },
+    {
+        "name": "cc_honey2",
+        "type": "toggle",
+        "codes": "cc_honey2"
+    },
+    {
+        "name": "cc_honey3",
+        "type": "toggle",
+        "codes": "cc_honey3"
+    },
+    {
+        "name": "cc_cheato1",
+        "type": "toggle",
+        "codes": "cc_cheato1"
+    },
+    {
+        "name": "cc_cheato2",
+        "type": "toggle",
+        "codes": "cc_cheato2"
+    },
+    {
+        "name": "cc_cheato3",
+        "type": "toggle",
+        "codes": "cc_cheato3"
+    },
+    {
+        "name": "cc_sapacksilo",
+        "type": "toggle",
+        "codes": "cc_sapacksilo"
+    },
+    {
+        "name": "cc_jiggy1",
+        "type": "toggle",
+        "codes": "cc_jiggy1"
+    },
+    {
+        "name": "cc_jiggy2",
+        "type": "toggle",
+        "codes": "cc_jiggy2"
+    },
+    {
+        "name": "cc_jiggy3",
+        "type": "toggle",
+        "codes": "cc_jiggy3"
+    },
+    {
+        "name": "cc_jiggy4",
+        "type": "toggle",
+        "codes": "cc_jiggy4"
+    },
+    {
+        "name": "cc_jiggy5",
+        "type": "toggle",
+        "codes": "cc_jiggy5"
+    },
+    {
+        "name": "cc_jiggy6",
+        "type": "toggle",
+        "codes": "cc_jiggy6"
+    },
+    {
+        "name": "cc_jiggy7",
+        "type": "toggle",
+        "codes": "cc_jiggy7"
+    },
+    {
+        "name": "cc_jiggy8",
+        "type": "toggle",
+        "codes": "cc_jiggy8"
+    },
+    {
+        "name": "cc_jiggy9",
+        "type": "toggle",
+        "codes": "cc_jiggy9"
+    },
+    {
+        "name": "cc_jiggy10",
+        "type": "toggle",
+        "codes": "cc_jiggy10"
+    },
+    {
+        "name": "cc_treble",
+        "type": "toggle",
+        "codes": "cc_treble"
+    },
+    {
+        "name": "cc_note1",
+        "type": "toggle",
+        "codes": "cc_note1"
+    },
+    {
+        "name": "cc_note2",
+        "type": "toggle",
+        "codes": "cc_note2"
+    },
+    {
+        "name": "cc_note3",
+        "type": "toggle",
+        "codes": "cc_note3"
+    },
+    {
+        "name": "cc_note4",
+        "type": "toggle",
+        "codes": "cc_note4"
+    },
+    {
+        "name": "cc_note5",
+        "type": "toggle",
+        "codes": "cc_note5"
+    },
+    {
+        "name": "cc_note6",
+        "type": "toggle",
+        "codes": "cc_note6"
+    },
+    {
+        "name": "cc_note7",
+        "type": "toggle",
+        "codes": "cc_note7"
+    },
+    {
+        "name": "cc_note8",
+        "type": "toggle",
+        "codes": "cc_note8"
+    },
+    {
+        "name": "cc_note9",
+        "type": "toggle",
+        "codes": "cc_note9"
+    },
+    {
+        "name": "cc_note10",
+        "type": "toggle",
+        "codes": "cc_note10"
+    },
+    {
+        "name": "cc_note11",
+        "type": "toggle",
+        "codes": "cc_note11"
+    },
+    {
+        "name": "cc_note12",
+        "type": "toggle",
+        "codes": "cc_note12"
+    },
+    {
+        "name": "cc_note13",
+        "type": "toggle",
+        "codes": "cc_note13"
+    },
+    {
+        "name": "cc_note14",
+        "type": "toggle",
+        "codes": "cc_note14"
+    },
+    {
+        "name": "cc_note15",
+        "type": "toggle",
+        "codes": "cc_note15"
+    },
+    {
+        "name": "cc_note16",
+        "type": "toggle",
+        "codes": "cc_note16"
+    }
+]

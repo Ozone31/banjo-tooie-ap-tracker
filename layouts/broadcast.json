@@ -13,10 +13,11 @@
             "margin": "0,0",
             "item_margin": "1,2",
             "rows": [
-              [ "ggrab", "bdrill","bbash", "bblaster", "bbayonet", "dive", "fswim", "ttorp", "dair", "splitup"],
-              [  "ttrot", "tjump", "roll", "climb", "fflip", "flutter", "wwing", "springb", "clawbts","fpad"],
-              [ "eggshoot", "eggaim","aireaim", "auqaim","homingeggs", "", "feggs", "geggs", "ieggs", "ceggs", ],
-              [ "packwh", "taxpack", "snpack", "shpack", "sapack", "", "wwhack", "hatch", "lspring", "glide"],
+              [ "ggrab", "bbust", "bdrill", "bblaster", "bbayonet", "dive", "fswim", "ttorp", "dair", "fpad" ],
+              [ "ttrot", "tjump", "roll", "arat", "climb", "fflip", "flutter", "wwing", "bbash", "splitup" ],
+              [ "springb", "clawbts", "ttrain" ],
+              [ "eggshoot", "eggaim","aireaim", "auqaim","homingeggs", "begg", "feggs", "geggs", "ieggs", "ceggs" ],
+              [ "packwh", "taxpack", "snpack", "shpack", "sapack", "", "wwhack", "hatch", "lspring", "glide"]
             ]
           },
           {

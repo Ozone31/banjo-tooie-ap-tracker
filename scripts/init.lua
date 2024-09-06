@@ -2,6 +2,8 @@ local variant = Tracker.ActiveVariantUID
 IS_UNLABELLED = variant:find("maps-u")
 
 Tracker:AddItems("items/items.json")
+Tracker:AddItems("items/hints.json")
+
 -- Logic
 ScriptHost:LoadScript("scripts/logic/logic.lua")
 Tracker:AddMaps("maps/maps.json")
@@ -10,6 +12,7 @@ Tracker:AddMaps("maps/maps.json")
 
 -- Locations
 Tracker:AddLocations("locations/locations.json")
+Tracker:AddLocations("locations/locations_hints.json")
 
 -- Layout
 Tracker:AddLayouts("layouts/moves.json")

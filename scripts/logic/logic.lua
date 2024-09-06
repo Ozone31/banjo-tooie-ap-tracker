@@ -874,15 +874,45 @@ function cc_jiggy3()
     end
 end
 
+-- Progressive Eggs Toggle
+
+function togglePBEggs()
+    if Tracker:FindObjectForCode('pbeggs').CurrentStage == 1 then
+        Tracker:FindObjectForCode('begg').Active = true
+        Tracker:FindObjectForCode('feggs').Active = true
+    elseif Tracker:FindObjectForCode('pbeggs').CurrentStage == 2 then
+        Tracker:FindObjectForCode('begg').Active = true
+        Tracker:FindObjectForCode('feggs').Active = true
+        Tracker:FindObjectForCode('geggs').Active = true
+    elseif Tracker:FindObjectForCode('pbeggs').CurrentStage == 3 then
+        Tracker:FindObjectForCode('begg').Active = true
+        Tracker:FindObjectForCode('feggs').Active = true
+        Tracker:FindObjectForCode('geggs').Active = true
+        Tracker:FindObjectForCode('ieggs').Active = true
+    elseif Tracker:FindObjectForCode('pbeggs').CurrentStage == 4 then
+        Tracker:FindObjectForCode('begg').Active = true
+        Tracker:FindObjectForCode('feggs').Active = true
+        Tracker:FindObjectForCode('geggs').Active = true
+        Tracker:FindObjectForCode('ieggs').Active = true
+        Tracker:FindObjectForCode('ceggs').Active = true
+    end
+end
+
+-- Progressive Beak Bust Toggle
+function togglePBBust()
+    if Tracker:FindObjectForCode('pbbust').CurrentStage == 1 then
+        Tracker:FindObjectForCode('bbust').Active = true
+    elseif Tracker:FindObjectForCode('pbbust').CurrentStage == 2 then
+        Tracker:FindObjectForCode('bbust').Active = true
+        Tracker:FindObjectForCode('bdrill').Active = true
+    end
+end
+
 -- BK Move Toggle
 
 Tracker:FindObjectForCode('grat').Active = true
-Tracker:FindObjectForCode('arat').Active = true
 Tracker:FindObjectForCode('bbarge').Active = true
-Tracker:FindObjectForCode('begg').Active = true
-Tracker:FindObjectForCode('bbust').Active = true
 Tracker:FindObjectForCode('sstride').Active = true
-Tracker:FindObjectForCode('ttrain').Active = true
 Tracker:FindObjectForCode('bbomb').Active = true
 
 function toggleBKMoves()
@@ -897,6 +927,14 @@ function toggleBKMoves()
         Tracker:FindObjectForCode('climb').Active = true
         Tracker:FindObjectForCode('flutter').Active = true
         Tracker:FindObjectForCode('wwing').Active = true
+        Tracker:FindObjectForCode('grat').Active = true
+        Tracker:FindObjectForCode('arat').Active = true
+        Tracker:FindObjectForCode('bbarge').Active = true
+        Tracker:FindObjectForCode('begg').Active = true
+        Tracker:FindObjectForCode('bbust').Active = true
+        Tracker:FindObjectForCode('sstride').Active = true
+        Tracker:FindObjectForCode('ttrain').Active = true
+        Tracker:FindObjectForCode('bbomb').Active = true
     elseif Tracker:FindObjectForCode('randomizebkmoves').CurrentStage == 1 then
         Tracker:FindObjectForCode('dive').Active = false
         Tracker:FindObjectForCode('fpad').Active = false
@@ -908,6 +946,14 @@ function toggleBKMoves()
         Tracker:FindObjectForCode('climb').Active = false
         Tracker:FindObjectForCode('flutter').Active = false
         Tracker:FindObjectForCode('wwing').Active = false
+        Tracker:FindObjectForCode('grat').Active = true
+        Tracker:FindObjectForCode('arat').Active = false
+        Tracker:FindObjectForCode('bbarge').Active = true
+        Tracker:FindObjectForCode('begg').Active = false
+        Tracker:FindObjectForCode('bbust').Active = false
+        Tracker:FindObjectForCode('sstride').Active = true
+        Tracker:FindObjectForCode('ttrain').Active = false
+        Tracker:FindObjectForCode('bbomb').Active = true
     elseif Tracker:FindObjectForCode('randomizebkmoves').CurrentStage == 2 then
         Tracker:FindObjectForCode('dive').Active = false
         Tracker:FindObjectForCode('fpad').Active = false
@@ -919,7 +965,17 @@ function toggleBKMoves()
         Tracker:FindObjectForCode('climb').Active = false
         Tracker:FindObjectForCode('flutter').Active = false
         Tracker:FindObjectForCode('wwing').Active = false
+        Tracker:FindObjectForCode('grat').Active = true
+        Tracker:FindObjectForCode('arat').Active = false
+        Tracker:FindObjectForCode('bbarge').Active = true
+        Tracker:FindObjectForCode('begg').Active = false
+        Tracker:FindObjectForCode('bbust').Active = false
+        Tracker:FindObjectForCode('sstride').Active = true
+        Tracker:FindObjectForCode('ttrain').Active = false
+        Tracker:FindObjectForCode('bbomb').Active = true
     end
 end
 
 ScriptHost:AddWatchForCode("bkmovewatch", "randomizebkmoves", toggleBKMoves)
+ScriptHost:AddWatchForCode("pbeggswatch", "pbeggs", togglePBEggs)
+ScriptHost:AddWatchForCode("pbbustwatch", "pbbust", togglePBBust)

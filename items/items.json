@@ -404,7 +404,7 @@
   {
     "name": "Beak Buster",
     "type": "toggle",
-    "img": "/images/movesmagic/ttrot.png",
+    "img": "/images/movesmagic/bbust.png",
     "codes": "bbust"
   },
   {
@@ -436,6 +436,66 @@
     "type": "toggle",
     "img": "/images/movesmagic/eggshoot.png",
     "codes": "eggshoot"
+  },
+
+  // PROGRESSIVE MOVES
+  {
+    "name": "Progressive Beak Buster",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "stages": [
+      {
+        "img": "images/movesmagic/bbust.png",
+        "name": "Progressive Beak Buster - Beak Buster",
+        "codes": "pbbust,pbbust_1",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/movesmagic/bdrill.png",
+        "name": "Progressive Beak Buster - Bill Drill",
+        "codes": "pbbust,pbbust_2",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Progressive Eggs",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/movesmagic/begg.png",
+        "name": "Progressive Eggs - Blue Eggs",
+        "codes": "pbeggs,pbeggs_0",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/movesmagic/feggs.png",
+        "name": "Progressive Eggs - Fire Eggs",
+        "codes": "pbeggs,pbeggs_1",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/movesmagic/geggs.png",
+        "name": "Progressive Eggs - Grenade Eggs",
+        "codes": "pbeggs,pbeggs_2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/movesmagic/ieggs.png",
+        "name": "Progressive Eggs - Ice Eggs",
+        "codes": "pbeggs,pbeggs_3",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/movesmagic/ceggs.png",
+        "name": "Progressive Eggs - Clockwork Kazooie Eggs",
+        "codes": "pbeggs,pbeggs_4",
+        "inherit_codes": true
+      }
+    ]
   },
 
   // MUMBO

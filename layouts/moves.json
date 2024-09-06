@@ -46,24 +46,28 @@
                                 "hatch"
                             ],
                             [
+                                "begg",
                                 "feggs",
                                 "geggs",
-                                "ceggs",
-                                "ieggs"
+                                "ieggs",
+                                "ceggs"
                             ],
                             [
                                 "dive",
                                 "fpad",
                                 "fflip",
                                 "eggshoot",
-                                "roll"
+                                "bbust",
+                                "roll",
+                                "arat"
                             ],
                             [
                                 "ttrot",
                                 "tjump",
                                 "climb",
                                 "flutter",
-                                "wwing"
+                                "wwing",
+                                "ttrain"
                             ]
                         ]
                     }

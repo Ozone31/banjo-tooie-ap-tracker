@@ -640,6 +640,18 @@
             "name": "GGM: Beak Bayonet Silo"
           },
           {
+            "ref": "Glitter Gulch Mine - Main Area/GGM: Crushing Shed Jiggy Chunks/Jiggy Chunk 1",
+            "name": "GGM: Crushing Shed Jiggy Chunk 1"
+          },
+          {
+            "ref": "Glitter Gulch Mine - Main Area/GGM: Crushing Shed Jiggy Chunks/Jiggy Chunk 2",
+            "name": "GGM: Crushing Shed Jiggy Chunk 2"
+          },
+          {
+            "ref": "Glitter Gulch Mine - Main Area/GGM: Crushing Shed Jiggy Chunks/Jiggy Chunk 3",
+            "name": "GGM: Crushing Shed Jiggy Chunk 3"
+          },
+          {
             "ref": "Inside Chuffy/Chuffy/Chuffy",
             "name": "GGM: Chuffy"
           },
@@ -4030,9 +4042,9 @@
             "name": "Cheato Page",
             "access_rules": [ 
               "logictype_b, springb",
-              "logictype_n, springb", "logictype_n, climb, flutter", "logictype_n, climb, arat", "logictype_n, $GM_boulders, splitup, lspring",
-              "logictype_a, springb", "logictype_a, climb, flutter", "logictype_a, climb, arat", "logictype_a, eggaim, ceggs", "logictype_a, $GM_boulders, splitup, lspring",
-              "logictype_g, springb", "logictype_g, climb, flutter", "logictype_g, climb, arat", "logictype_g, eggaim, ceggs", "logictype_g, $GM_boulders, splitup, lspring"
+              "logictype_n, springb", "logictype_n, climb, flutter", "logictype_n, climb, arat", "logictype_n, $GM_boulders, splitup, lspring", "logictype_n, $GM_boulders, splitup, glide, tjump",
+              "logictype_a, springb", "logictype_a, climb, flutter", "logictype_a, climb, arat", "logictype_a, eggaim, ceggs", "logictype_a, $GM_boulders, splitup, lspring", "logictype_a, $GM_boulders, glide, tjump", "logictype_a, $GM_boulders, tjump, ttrain, splitup, wwhack", "logictype_a, $GM_boulders, tjump, ttrain, splitup, glide",
+              "logictype_g, springb", "logictype_g, climb, flutter", "logictype_g, climb, arat", "logictype_g, eggaim, ceggs", "logictype_g, $GM_boulders, splitup, lspring", "logictype_g, $GM_boulders, glide, tjump", "logictype_g, $GM_boulders, tjump, ttrain, splitup, wwhack", "logictype_g, $GM_boulders, tjump, ttrain, splitup, glide"
             ]
           }
         ],
@@ -4099,6 +4111,28 @@
             "map": "ggm1",
             "x": 300,
             "y": 40
+          }
+        ]
+      },
+      {
+        "name": "GGM: Crushing Shed Jiggy Chunks",
+        "access_rules": [ "$mumboGGM, bbarge" ],
+        "sections": [
+          {
+            "name": "Jiggy Chunk 1"
+          },
+          {
+            "name": "Jiggy Chunk 2"
+          },
+          {
+            "name": "Jiggy Chunk 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ggm1",
+            "x": 320,
+            "y": 90
           }
         ]
       },
@@ -5351,8 +5385,8 @@
             "access_rules": [
               "logictype_b, ggrab, climb, fflip, @Witchyworld - Main Area",
               "logictype_n, ggrab, climb, fflip, @Witchyworld - Main Area", "logictype_n, splitup, lspring, glide, @Witchyworld - Main Area",
-              "logictype_a, ggrab, climb, fflip, @Witchyworld - Main Area", "logictype_a, bbust, climb, fflip, @Witchyworld - Main Area", "logictype_a, splitup, lspring, glide, @Witchyworld - Main Area",
-              "logictype_g, ggrab, climb, fflip, @Witchyworld - Main Area", "logictype_g, bbust, climb, fflip, @Witchyworld - Main Area", "logictype_g, $clockwork_shot, @Glitter Gulch Mine - Main Area, $ggm_to_ww", "logictype_g, splitup, lspring, glide, @Witchyworld - Main Area"
+              "logictype_a, ggrab, climb, fflip, @Witchyworld - Main Area", "logictype_a, bbust, climb, fflip, @Witchyworld - Main Area", "logictype_a, splitup, lspring, glide, @Witchyworld - Main Area", "logictype_a, $clockwork_shot, ttrot, @Witchyworld - Main Area", "logictype_a, $clockwork_shot, splitup, @Witchyworld - Main Area",
+              "logictype_g, ggrab, climb, fflip, @Witchyworld - Main Area", "logictype_g, bbust, climb, fflip, @Witchyworld - Main Area", "logictype_g, $clockwork_shot, @Glitter Gulch Mine - Main Area, $ggm_to_ww", "logictype_g, splitup, lspring, glide, @Witchyworld - Main Area", "logictype_g, $clockwork_shot, ttrot, @Witchyworld - Main Area", "logictype_g, $clockwork_shot, splitup, @Witchyworld - Main Area"
             ]
           }
         ],
@@ -5430,7 +5464,7 @@
               "logictype_b, $has_explosives, $canDoSmallElevation", "logictype_b, $has_explosives, splitup",
               "logictype_n, $has_explosives, $canDoSmallElevation", "logictype_n, $has_explosives, splitup",
               "logictype_a, $has_explosives, $canDoSmallElevation", "logictype_a, $has_explosives, splitup", "logictype_a, $clockwork_shot",
-              "logictype_g, $has_explosives, $canDoSmallElevation", "logictype_g, $has_explosives, splitup", "logictype_g, $clockwork_shot"
+              "logictype_g, $has_explosives, $canDoSmallElevation", "logictype_g, $has_explosives, splitup", "logictype_g, $clockwork_shot", "logictype_g, splitup, packwh"
             ]
           }
         ],
@@ -6740,9 +6774,9 @@
             "name": "Honeycomb",
             "access_rules": [
               "logictype_b, ttrain",
-              "logictype_n, ttrain", "logictype_n, $TDLFlightPad", "logictype_n, tjump, $veryLongJump, ggrab",
-              "logictype_a, ttrain", "logictype_a, $TDLFlightPad", "logictype_a, $clockwork_shot", "logictype_a, tjump, $veryLongJump, ggrab",
-              "logictype_g, ttrain", "logictype_g, $TDLFlightPad", "logictype_g, $clockwork_shot", "logictype_g, tjump, $veryLongJump, ggrab"
+              "logictype_n, ttrain", "logictype_n, $TDLFlightPad", "logictype_n, tjump, $veryLongJump, ggrab", "logictype_n, splitup",
+              "logictype_a, ttrain", "logictype_a, $TDLFlightPad", "logictype_a, $clockwork_shot", "logictype_a, tjump, $veryLongJump, ggrab", "logictype_a, splitup",
+              "logictype_g, ttrain", "logictype_g, $TDLFlightPad", "logictype_g, $clockwork_shot", "logictype_g, tjump, $veryLongJump, ggrab", "logictype_g, splitup"
             ]
           }
         ],
@@ -8653,7 +8687,7 @@
               "logictype_b, splitup, $iceCubeKazooie, tjump, wwhack", "logictype_b, splitup, $iceCubeKazooie, tjump, glide", "logictype_b, splitup, $iceCubeKazooie, lspring", "logictype_b, $hfpTop, geggs, eggaim, $springPad", "logictype_b, trainswhp1, @Inside Chuffy, geggs, eggaim, $springPad",
               "logictype_n, splitup, $iceCubeKazooie, tjump", "logictype_n, splitup, $iceCubeKazooie, wwhack", "logictype_n, splitup, $iceCubeKazooie, glide", "logictype_n, splitup, $iceCubeKazooie, lspring", "logictype_n, $hfpTop, geggs, eggaim, $springPad", "logictype_n, trainswhp1, @Inside Chuffy, geggs, eggaim, $springPad",
               "logictype_a, splitup, $iceCubeKazooie, tjump", "logictype_a, splitup, $iceCubeKazooie, wwhack", "logictype_a, splitup, $iceCubeKazooie, glide", "logictype_a, splitup, $iceCubeKazooie, lspring", "logictype_a, $hfpTop, geggs, eggaim, $springPad", "logictype_a, trainswhp1, @Inside Chuffy, geggs, eggaim, $springPad", "logictype_a, $hfpTop, ceggs, eggaim, $springPad", "logictype_a, trainswhp1, @Inside Chuffy, ceggs, eggaim, $springPad", "logictype_a, $extremelyLongJump, $clockwork_shot",
-              "logictype_g, splitup, $iceCubeKazooie, tjump", "logictype_g, splitup, $iceCubeKazooie, wwhack", "logictype_g, splitup, $iceCubeKazooie, glide", "logictype_g, splitup, $iceCubeKazooie, lspring", "logictype_g, $hfpTop, geggs, eggaim, $springPad", "logictype_g, trainswhp1, @Inside Chuffy, geggs, eggaim, $springPad", "logictype_g, $hfpTop, ceggs, eggaim, $springPad", "logictype_g, trainswhp1, @Inside Chuffy, ceggs, eggaim, $springPad", "logictype_g, $extremelyLongJump, $clockwork_shot",
+              "logictype_g, splitup, $iceCubeKazooie, tjump", "logictype_g, splitup, $iceCubeKazooie, wwhack", "logictype_g, splitup, $iceCubeKazooie, glide", "logictype_g, splitup, $iceCubeKazooie, lspring", "logictype_g, $hfpTop, geggs, eggaim, $springPad", "logictype_g, trainswhp1, @Inside Chuffy, geggs, eggaim, $springPad", "logictype_g, $hfpTop, ceggs, eggaim, $springPad", "logictype_g, trainswhp1, @Inside Chuffy, ceggs, eggaim, $springPad", "logictype_g, $extremelyLongJump, $clockwork_shot"
             ]
           },
           {

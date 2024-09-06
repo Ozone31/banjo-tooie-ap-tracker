@@ -93,4 +93,10 @@ ITEM_MAPPING = {
     [1230817] = {"climb", "toggle"},
     [1230818] = {"flutter", "toggle"},
     [1230819] = {"wwing", "toggle"},
+    [1230820] = {"bbust", "toggle"},
+    [1230821] = {"ttrain", "toggle"},
+    [1230822] = {"arat", "toggle"},
+    [1230823] = {"begg", "toggle"},
+    [1230824] = {"pbbust", "progressive"},
+    [1230825] = {"pbeggs", "progressive"}
 }
