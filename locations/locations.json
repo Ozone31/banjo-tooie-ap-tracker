@@ -3963,7 +3963,7 @@
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
     "access_rules": [
-      "@Plateau, gga",
+      "@Plateau, $PL_to_GGM",
       "@Inside Chuffy",
       "@Glitter Gulch Mine - Prospector's Hut"
     ],
