@@ -1,6 +1,18 @@
 {
 	"versions": [
 		{
+			"package_version": "0.5.0",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.5.0",
+			"sha256": "C22A5545A750147B91D467B67945F7A517CDF36D435E1EDCED85D9089349ACEC",
+			"changelog": [
+				"Logic updated for v2.0 of Banjo-Tooie Archipelago",
+				"Support for new randomized moves: Blue Eggs, Beak Buster, Air Rat-a-tat Rap, Turbo Trainers",
+				"Support for new settings: Progressive Beak Buster and Egg Behavior",
+				"Support for new locations: GGM Jiggy Chunks",
+				"Hinted Locations: On the overview tab, hinted locations that have not been collected will now display in blue. (Thanks to Seto10987 for building this for their Free Enterprise pack)"
+			]
+		},
+		{
 			"package_version": "0.4.2",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.4.2",
 			"sha256": "0D8536785536E83323EF8FC6A47CB87C42B4B8F192E6409F8E905EC4AFD21A7A",
