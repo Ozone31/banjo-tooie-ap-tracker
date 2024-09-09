@@ -7665,9 +7665,9 @@
             "name": "Jiggy",
             "access_rules": [
               "logictype_b, splitup, $springPad, eggaim, $canShootEggs|begg", "logictype_b, splitup, $springPad, eggaim, $canShootEggs|feggs", "logictype_b, splitup, $springPad, eggaim, $canShootEggs|geggs",
-              "logictype_n, splitup, $springPad, eggaim, $canShootEggs|begg", "logictype_n, splitup, $springPad, eggaim, $canShootEggs|feggs", "logictype_n, splitup, $springPad, eggaim, $canShootEggs|geggs",
-              "logictype_a, splitup, $springPad, eggaim, $canShootEggs|begg", "logictype_a, splitup, $springPad, eggaim, $canShootEggs|feggs", "logictype_a, splitup, $springPad, eggaim, $canShootEggs|geggs", "logictype_a, $clockwork_shot, $springPad", "logictype_a, $clockwork_shot, splitup, lspring",
-              "logictype_g, splitup, $springPad, eggaim, $canShootEggs|begg", "logictype_g, splitup, $springPad, eggaim, $canShootEggs|feggs", "logictype_g, splitup, $springPad, eggaim, $canShootEggs|geggs", "logictype_g, $clockwork_shot, $springPad", "logictype_g, $clockwork_shot, splitup, lspring"
+              "logictype_n, splitup, $springPad, $canShootEggs|begg", "logictype_n, splitup, $springPad, $canShootEggs|feggs", "logictype_n, splitup, $springPad, $canShootEggs|geggs",
+              "logictype_a, splitup, $springPad, $canShootEggs|begg", "logictype_a, splitup, $springPad, $canShootEggs|feggs", "logictype_a, splitup, $springPad, $canShootEggs|geggs", "logictype_a, $clockwork_shot, $springPad", "logictype_a, $clockwork_shot, splitup, lspring",
+              "logictype_g, splitup, $springPad, $canShootEggs|begg", "logictype_g, splitup, $springPad, $canShootEggs|feggs", "logictype_g, splitup, $springPad, $canShootEggs|geggs", "logictype_g, $clockwork_shot, $springPad", "logictype_g, $clockwork_shot, splitup, lspring"
             ]
           }
         ],

@@ -140,7 +140,7 @@ function can_beat_king_coal()
     if chuffyrandomized.CurrentStage == 0 then
         return mumboGGM() and ggm_to_chuffy() and hasGroundAttack()
     else
-        return has("chuffy") and (has("fflip") or has("climb")) and hasGroundAttack()
+        return has("chuffy") and hasGroundAttack()
     end
 end
 
@@ -788,7 +788,7 @@ function mt_jiggy5()
     if logictype.CurrentStage == 0 then
         return has("eggaim") and (has("fflip") or canReachSlightlyElevatedLedge()) and ((has("ggrab") and springPad() and has("fflip")) or MT_flight_pad())
     else
-        return (has("fflip") or canReachSlightlyElevatedLedge()) and ((has("ggrab") and springPad() and canShootLinearEgg() and has("eggaim")) or (MT_flight_pad() and canShootLinearEgg()))
+        return (has("fflip") or canReachSlightlyElevatedLedge()) and ((has("ggrab") and springPad() and has("fflip") andcanShootLinearEgg() and has("eggaim")) or (MT_flight_pad() and canShootLinearEgg()))
     end
 end
 
@@ -811,9 +811,9 @@ function ww_jiggy2()
         return humbaWW() and mumboWW()
     else
         if speedupminigames.CurrentStage == 0 then
-            return (has("humbaww") and has("mumboww")) or (canShootEggs("geggs") and canShootEggs("ceggs"))
+            return (humbaWW() and mumboWW()) or (canShootEggs("geggs") and canShootEggs("ceggs"))
         else
-            return has("humbaww") and has("mumboww")
+            return humbaWW() and mumboWW()
         end
     end
 end
