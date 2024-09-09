@@ -788,7 +788,7 @@ function mt_jiggy5()
     if logictype.CurrentStage == 0 then
         return has("eggaim") and (has("fflip") or canReachSlightlyElevatedLedge()) and ((has("ggrab") and springPad() and has("fflip")) or MT_flight_pad())
     else
-        return (has("fflip") or canReachSlightlyElevatedLedge()) and ((has("ggrab") and springPad() and has("fflip") andcanShootLinearEgg() and has("eggaim")) or (MT_flight_pad() and canShootLinearEgg()))
+        return (has("fflip") or canReachSlightlyElevatedLedge()) and ((has("ggrab") and springPad() and has("fflip") and canShootLinearEgg() and has("eggaim")) or (MT_flight_pad() and canShootLinearEgg()))
     end
 end
 
