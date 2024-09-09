@@ -3,7 +3,7 @@
 		{
 			"package_version": "0.5.1",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.5.1",
-			"sha256": "8D5398A11DAE5AB767DCB2AE3EE00A882199914F91782BC8BB1190D18FC8CEE2",
+			"sha256": "BA84011BCC93AD327BEC2A577273ADEC917970CC44DE3872C146DDA5349657AC",
 			"changelog": [
 				"Fixed logic to enter GGM from Plateau",
 				"Fixed MT: Treasure Chamber Jiggy logic",
