@@ -1,6 +1,17 @@
 {
 	"versions": [
 		{
+			"package_version": "0.5.2",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.5.2",
+			"sha256": "76898AF622F7963050F568964F519784B9090EA22440129744BE3033D0198559",
+			"changelog": [
+				"New moves/locations added from v2.1-beta of Banjo-Tooie AP",
+				"Now tracking the junk items (Big-O Pants, Jinjo Multiplayer Character) just for fun. Note: They are not on the broadcast view.",
+				"SPLIT VIEW: There is now an option to view a single map or have a split view where the overview remains on the side.",
+				"AUTO MAP SWITCHING: Now when you connect to your AP seed, the displayed level map will automatically switch to where you currently are in the game. This works for both single map or split view. There is a toggle under Settings to turn this feature on or off."
+			]
+		},
+		{
 			"package_version": "0.5.1",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.5.1",
 			"sha256": "BA84011BCC93AD327BEC2A577273ADEC917970CC44DE3872C146DDA5349657AC",
