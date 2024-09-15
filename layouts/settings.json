@@ -39,7 +39,8 @@
               [
                 "randomizeworlds",
                 "logictype",
-                "goal"
+                "goal",
+                "automap"
               ]
             ]
           }

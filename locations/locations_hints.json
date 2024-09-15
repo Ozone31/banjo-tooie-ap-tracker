@@ -77,6 +77,10 @@
                   "visibility_rules": ["jv_ikey"]
                 },
                 {
+                  "name": "BH: Goggles Amaze-O-Gaze (Hint)",
+                  "visibility_rules": ["jv_bottlekid"]
+                },
+                {
                   "name": "IoH: White Jinjo Family Jiggy (Hint)",
                   "visibility_rules": ["jv_wjinjo"]
                 },
@@ -1375,6 +1379,18 @@
                 {
                   "name": "TDL: Train Switch (Hint)",
                   "visibility_rules": ["td_trainsw"]
+                },
+                {
+                  "name": "TDL: Scrut (Hint)",
+                  "visibility_rules": ["td_scrut"]
+                },
+                {
+                  "name": "TDL: Scrat (Hint)",
+                  "visibility_rules": ["td_scrat"]
+                },
+                {
+                  "name": "TDL: Scrit (Hint)",
+                  "visibility_rules": ["td_scrit"]
                 }
               ],
               "map_locations": [

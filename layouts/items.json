@@ -23,12 +23,14 @@
                             [
                                 "pages",
                                 "doubloon",
-                                "mumbotoken"
+                                "mumbotoken",
+                                "none"
                             ],
                             [
                                 "ikey",
                                 "bmegg",
-                                "pmegg"
+                                "pmegg",
+                                "jnone"
                             ],
                             [
                                 "wjinjo",

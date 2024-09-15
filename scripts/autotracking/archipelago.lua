@@ -1,6 +1,7 @@
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/hints_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/map_mapping.lua")
 
 CUR_INDEX = -1
 --SLOT_DATA = nil
@@ -283,8 +284,14 @@ function onClear(slot_data)
     
         HINTS_ID = "_read_hints_"..TEAM_NUMBER.."_"..PLAYER_ID
         Archipelago:SetNotify({HINTS_ID})
-        Archipelago:Get({HINTS_ID})
+
+        map_key = "Banjo_Tooie_"..TEAM_NUMBER.."_"..PLAYER_ID.."_map"
+        Archipelago:SetNotify({map_key})
+        Archipelago:Get({map_key})
     end
+
+    --banjo_map = 
+    --print(banjo_map)
 end
 
 function onItem(index, item_id, item_name, player_number)
@@ -361,7 +368,6 @@ function onNotifyLaunch(key, value)
     end
 end
 
- 
 function updateHints(locationID)
     local item_codes = HINTS_MAPPING[locationID]
 
@@ -375,8 +381,21 @@ function updateHints(locationID)
     end
 end
 
+function onMapChange(key, value, old)
+    --print("got  " .. key .. " = " .. tostring(value) .. " (was " .. tostring(old) .. ")")
+    --print(dump_table(MAP_MAPPING[tostring(value)]))
+    if has("automap_on") then
+        tabs = MAP_MAPPING[tostring(value)]
+        for i, tab in ipairs(tabs) do
+            Tracker:UiHint("ActivateTab", tab)
+        end
+    end
+end
+
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
 Archipelago:AddSetReplyHandler("notify handler", onNotify)
 Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)
+Archipelago:AddSetReplyHandler("map_key", onMapChange)
+Archipelago:AddRetrievedHandler("map_key", onMapChange)

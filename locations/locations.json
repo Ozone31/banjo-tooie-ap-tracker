@@ -76,6 +76,10 @@
             "name": "IoH: Ice Key"
           },
           {
+            "ref": "Jinjo Village/BH: Goggles Amaze-O-Gaze/Amaze-O-Gaze",
+            "name": "BH: Goggles Amaze-O-Gaze"
+          },
+          {
             "ref": "Jinjo Village/White Jinjo Family House/White Jinjo Family Jiggy",
             "name": "IoH: White Jinjo Family Jiggy"
           },
@@ -1456,6 +1460,18 @@
             "name": "TDL: Train Switch"
           },
           {
+            "ref": "Terrydactyland - Main Area/Styracosaurus Family Cave/Scrut",
+            "name": "TDL: Scrut"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/Styracosaurus Family Cave/Scrat",
+            "name": "TDL: Scrat"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/Styracosaurus Family Cave/Scrit",
+            "name": "TDL: Scrit"
+          },
+          {
             "ref": "Terrydactyland - Terry's Nest/Terry/Terry Mumbo Token",
             "name": "TDL: Terry Mumbo Token"
           },
@@ -2470,6 +2486,21 @@
             "map": "jv",
             "x": 660,
             "y": 300
+          }
+        ]
+      },
+      {
+        "name": "BH: Goggles Amaze-O-Gaze",
+        "sections": [
+          {
+            "name": "Amaze-O-Gaze"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jv",
+            "x": 256,
+            "y": 180
           }
         ]
       },
@@ -4529,7 +4560,12 @@
         "sections": [
           {
             "name": "Jinjo",
-            "access_rules": [ "$humbaGGM" ]
+            "access_rules": [
+              "logictype_b, $humbaGGM",
+              "logictype_n, $humbaGGM",
+              "logictype_a, $humbaGGM",
+              "logictype_g, $humbaGGM", "logictype_g, $billDrill, $clockwork_shot"
+            ]
           }
         ],
         "map_locations": [
@@ -6881,12 +6917,19 @@
           },
           {
             "name": "Scrotty Jiggy",
-            "access_rules": [
-              "logictype_b, $canShootEggs|geggs, $can_beat_king_coal, trainswww, trainswih, trainswtd, splitup, taxpack, mumboih, $billDrill, $mumboTDL, eggaim, ttrot, tjump",
-              "logictype_n, $canShootEggs|geggs, $can_beat_king_coal, trainswww, trainswih, trainswtd, splitup, taxpack, mumboih, $billDrill, $mumboTDL, eggaim, ttrot",
-              "logictype_a, $canShootEggs|geggs, $can_beat_king_coal, trainswww, trainswih, trainswtd, splitup, taxpack, mumboih, $billDrill, $mumboTDL",
-              "logictype_g, $canShootEggs|geggs, $can_beat_king_coal, trainswww, trainswih, trainswtd, splitup, taxpack, mumboih, $billDrill, $mumboTDL"
-            ]
+            "access_rules": [ "$scrut, $scrat, $scrit" ]
+          },
+          {
+            "name": "Scrut",
+            "access_rules": [ "$scrut" ]
+          },
+          {
+            "name": "Scrat",
+            "access_rules": [ "$scrat" ]
+          },
+          {
+            "name": "Scrit",
+            "access_rules": [ "$scrit" ]
           }
         ],
         "map_locations": [

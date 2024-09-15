@@ -115,6 +115,11 @@
         "codes": "jv_ikey"
     },
     {
+        "name": "jv_bottlekid",
+        "type": "toggle",
+        "codes": "jv_bottlekid"
+    },
+    {
         "name": "wh_jinjo",
         "type": "toggle",
         "codes": "wh_jinjo"
@@ -1408,6 +1413,21 @@
         "name": "td_trainsw",
         "type": "toggle",
         "codes": "td_trainsw"
+    },
+    {
+        "name": "td_scrut",
+        "type": "toggle",
+        "codes": "td_scrut"
+    },
+    {
+        "name": "td_scrat",
+        "type": "toggle",
+        "codes": "td_scrat"
+    },
+    {
+        "name": "td_scrit",
+        "type": "toggle",
+        "codes": "td_scrit"
     },
     {
         "name": "td_jiggy1",

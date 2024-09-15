@@ -57,7 +57,7 @@ function has_explosives()
 end
 
 function egg_barge()
-    return hasLinearEgg() and has"eggshoot" and has("bbarge")
+    return (has("begg") or has("feggs") or has("ieggs")) and has"eggshoot" and has("bbarge")
 end
 
 function hasLinearEgg()
@@ -69,7 +69,7 @@ function canShootLinearEgg()
 end
 
 function hasGroundAttack()
-    return has("eggshoot") or has("bbarge") or has("roll") or has("arat") or has("grat") or has("bbust")
+    return has("eggshoot") or has("eggaim") or has("bbarge") or has("roll") or has("arat") or has("grat") or has("bbust") or breegullBash()
 end
 
 function billDrill()
@@ -121,7 +121,11 @@ function ggm_trot()
 end
 
 function humbaGGM()
-    return ggm_trot() and has("humbagm")
+    if logictype.CurrentStage <= 1 then
+        return ggm_trot() and has("humbagm")
+    else
+        return (ggm_trot() or clockwork_shot()) and has("humbagm")
+    end
 end
 
 function mumboGGM()
@@ -238,11 +242,11 @@ function saucer_door_open_ww()
     if logictype.CurrentStage == 0 then
         return longJumpToGripGrab() and has("fflip") and has("climb") and (has_explosives() or has("bbarge"))
     elseif logictype.CurrentStage == 1 then
-        return (longJumpToGripGrab() and has("fflip") and has("climb") and (has_explosives() or has("bbarge"))) or (has("eggaim") and has("geggs") and has("climb")) or (has_explosives() and has("splitup") and has("lspring") and has("glide"))
+        return (longJumpToGripGrab() and has("fflip") and has("climb") and (has_explosives() or has("bbarge"))) or (has("eggaim") and canShootEggs("geggs") and has("amazeogaze") and has("climb")) or (has_explosives() and has("splitup") and has("lspring") and has("glide"))
     elseif logictype.CurrentStage <= 2 then
-        return (longJumpToGripGrab() and has("fflip") and has("climb") and (has_explosives() or has("bbarge"))) or (has("eggaim") and has("geggs")) or (has_explosives() and has("splitup") and has("lspring") and has("glide"))
+        return (longJumpToGripGrab() and has("fflip") and has("climb") and (has_explosives() or has("bbarge"))) or (has("eggaim") and canShootEggs("geggs") and has("amazeogaze")) or (has_explosives() and has("splitup") and has("lspring") and has("glide"))
     else
-        return ((longJumpToGripGrab() and has("fflip") and has("climb") and (has_explosives() or has("bbarge"))) or (has("eggaim") and has("geggs")) or (has_explosives() and has("splitup") and has("lspring") and has("glide"))) or (ggm_access() and canDoSmallElevation() and canShootEggs("ceggs"))
+        return ((longJumpToGripGrab() and has("fflip") and has("climb") and (has_explosives() or has("bbarge"))) or (has("eggaim") and canShootEggs("geggs") and has("amazeogaze")) or (has_explosives() and has("splitup") and has("lspring") and has("glide"))) or (ggm_access() and canDoSmallElevation() and canShootEggs("ceggs"))
     end
 end
 
@@ -453,7 +457,7 @@ function grow_beanstalk()
 end
 
 function hasMobileAttack()
-    return has("eggshoot") or has("bbarge") or has("roll") or has("arat")
+    return has("eggshoot") or has("eggaim") or has("bbarge") or has("roll") or has("arat")
 end
 
 -- Area Access
@@ -507,7 +511,7 @@ function can_access_JSG()
 end
 
 function glitchedJSGAccess()
-    return MT_flight_pad() or has("mumbomt")
+    return MT_flight_pad() and has("bbomb") or has("mumbomt")
 end
 
 function prison_compound_open()
@@ -798,7 +802,7 @@ function mt_jiggy8()
     elseif logictype.CurrentStage == 1 then
         return billDrill() and canDoSmallElevation() and prison_compound_open() and (has("dive") or canReachSlightlyElevatedLedge() or has("bbust"))
     else
-        return prison_compound_open() and ((billDrill() and canDoSmallElevation()) or extremelyLongJump()) and (has("dive") or canReachSlightlyElevatedLedge() or has("bbust"))
+        return prison_compound_open() and ((billDrill() and canDoSmallElevation()) or extremelyLongJump() or clockwork_shot()) and (has("dive") or canReachSlightlyElevatedLedge() or has("bbust"))
     end
 end
 
@@ -845,6 +849,30 @@ function td_jiggy8()
         return tdl_top() and longJump() and (has("tjump") or has("ttrot"))
     else
         return tdl_top() and (has("tjump") or has("ttrot"))
+    end
+end
+
+function scrut()
+    if logictype.CurrentStage == 0 then
+        return can_beat_king_coal() and has("trainswtd") and has("trainswww") and canShootEggs("geggs") and has("eggaim")
+    else
+        return can_beat_king_coal() and has("trainswtd") and has("trainswww") and canShootEggs("geggs")
+    end
+end
+
+function scrat()
+    if logictype.CurrentStage == 0 then
+        return can_beat_king_coal() and has("trainswih") and has("trainswtd") and has("splitup") and has("taxpack") and has("mumboih") and (has("tjump") or has("ttrot"))
+    else
+        return can_beat_king_coal() and has("trainswih") and has("trainswtd") and has("splitup") and has("taxpack") and has("mumboih")
+    end
+end
+
+function scrit()
+    if logictype.CurrentStage == 0 then
+        return mumboTDL() and billDrill() and has("tjump")
+    else
+        return mumboTDL() and billDrill()
     end
 end
 
@@ -898,7 +926,7 @@ function togglePBEggs()
     end
 end
 
--- Progressive Beak Bust Toggle
+-- Progressive Beak Buster Toggle
 function togglePBBust()
     if Tracker:FindObjectForCode('pbbust').CurrentStage == 1 then
         Tracker:FindObjectForCode('bbust').Active = true
@@ -908,12 +936,50 @@ function togglePBBust()
     end
 end
 
--- BK Move Toggle
+-- Progressive Shoes Toggle
+function togglePShoes()
+    if Tracker:FindObjectForCode('pshoes').CurrentStage == 1 then
+        Tracker:FindObjectForCode('sstride').Active = true
+    elseif Tracker:FindObjectForCode('pshoes').CurrentStage == 2 then
+        Tracker:FindObjectForCode('sstride').Active = true
+        Tracker:FindObjectForCode('ttrain').Active = true
+    elseif Tracker:FindObjectForCode('pshoes').CurrentStage == 3 then
+        Tracker:FindObjectForCode('sstride').Active = true
+        Tracker:FindObjectForCode('ttrain').Active = true
+        Tracker:FindObjectForCode('springb').Active = true
+    elseif Tracker:FindObjectForCode('pshoes').CurrentStage == 4 then
+        Tracker:FindObjectForCode('sstride').Active = true
+        Tracker:FindObjectForCode('ttrain').Active = true
+        Tracker:FindObjectForCode('springb').Active = true
+        Tracker:FindObjectForCode('clawbts').Active = true
+    end
+end
 
-Tracker:FindObjectForCode('grat').Active = true
-Tracker:FindObjectForCode('bbarge').Active = true
-Tracker:FindObjectForCode('sstride').Active = true
-Tracker:FindObjectForCode('bbomb').Active = true
+-- Progressive Water Training Toggle
+function togglePSwim()
+    if Tracker:FindObjectForCode('pswim').CurrentStage == 1 then
+        Tracker:FindObjectForCode('dive').Active = true
+    elseif Tracker:FindObjectForCode('pswim').CurrentStage == 2 then
+        Tracker:FindObjectForCode('dive').Active = true
+        Tracker:FindObjectForCode('dair').Active = true
+    elseif Tracker:FindObjectForCode('pswim').CurrentStage == 3 then
+        Tracker:FindObjectForCode('dive').Active = true
+        Tracker:FindObjectForCode('dair').Active = true
+        Tracker:FindObjectForCode('fswim').Active = true
+    end
+end
+
+-- Progressive Bash Attack Toggle
+function togglePBash()
+    if Tracker:FindObjectForCode('pbash').CurrentStage == 1 then
+        Tracker:FindObjectForCode('grat').Active = true
+    elseif Tracker:FindObjectForCode('pbash').CurrentStage == 2 then
+        Tracker:FindObjectForCode('grat').Active = true
+        Tracker:FindObjectForCode('bbash').Active = true
+    end
+end
+
+-- BK Move Toggle
 
 function toggleBKMoves()
     if Tracker:FindObjectForCode('randomizebkmoves').CurrentStage == 0 then
@@ -946,14 +1012,14 @@ function toggleBKMoves()
         Tracker:FindObjectForCode('climb').Active = false
         Tracker:FindObjectForCode('flutter').Active = false
         Tracker:FindObjectForCode('wwing').Active = false
-        Tracker:FindObjectForCode('grat').Active = true
+        Tracker:FindObjectForCode('grat').Active = false
         Tracker:FindObjectForCode('arat').Active = false
-        Tracker:FindObjectForCode('bbarge').Active = true
+        Tracker:FindObjectForCode('bbarge').Active = false
         Tracker:FindObjectForCode('begg').Active = false
         Tracker:FindObjectForCode('bbust').Active = false
-        Tracker:FindObjectForCode('sstride').Active = true
+        Tracker:FindObjectForCode('sstride').Active = false
         Tracker:FindObjectForCode('ttrain').Active = false
-        Tracker:FindObjectForCode('bbomb').Active = true
+        Tracker:FindObjectForCode('bbomb').Active = false
     elseif Tracker:FindObjectForCode('randomizebkmoves').CurrentStage == 2 then
         Tracker:FindObjectForCode('dive').Active = false
         Tracker:FindObjectForCode('fpad').Active = false
@@ -965,17 +1031,20 @@ function toggleBKMoves()
         Tracker:FindObjectForCode('climb').Active = false
         Tracker:FindObjectForCode('flutter').Active = false
         Tracker:FindObjectForCode('wwing').Active = false
-        Tracker:FindObjectForCode('grat').Active = true
+        Tracker:FindObjectForCode('grat').Active = falsed
         Tracker:FindObjectForCode('arat').Active = false
-        Tracker:FindObjectForCode('bbarge').Active = true
+        Tracker:FindObjectForCode('bbarge').Active = false
         Tracker:FindObjectForCode('begg').Active = false
         Tracker:FindObjectForCode('bbust').Active = false
-        Tracker:FindObjectForCode('sstride').Active = true
+        Tracker:FindObjectForCode('sstride').Active = false
         Tracker:FindObjectForCode('ttrain').Active = false
-        Tracker:FindObjectForCode('bbomb').Active = true
+        Tracker:FindObjectForCode('bbomb').Active = false
     end
 end
 
 ScriptHost:AddWatchForCode("bkmovewatch", "randomizebkmoves", toggleBKMoves)
 ScriptHost:AddWatchForCode("pbeggswatch", "pbeggs", togglePBEggs)
 ScriptHost:AddWatchForCode("pbbustwatch", "pbbust", togglePBBust)
+ScriptHost:AddWatchForCode("pshoeswatch", "pshoes", togglePShoes)
+ScriptHost:AddWatchForCode("pswimwatch", "pswim", togglePSwim)
+ScriptHost:AddWatchForCode("pbashwatch", "pbash", togglePBash)

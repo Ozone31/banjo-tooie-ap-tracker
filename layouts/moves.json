@@ -32,7 +32,8 @@
                                 "fswim",
                                 "dair",
                                 "bbash",
-                                "homingeggs"
+                                "homingeggs",
+                                "amazeogaze"
                             ],
                             [
                                 "shpack",
@@ -57,8 +58,10 @@
                                 "fpad",
                                 "fflip",
                                 "eggshoot",
+                                "bbarge",
                                 "bbust",
                                 "roll",
+                                "grat",
                                 "arat"
                             ],
                             [
@@ -66,7 +69,9 @@
                                 "tjump",
                                 "climb",
                                 "flutter",
+                                "bbomb",
                                 "wwing",
+                                "sstride",
                                 "ttrain"
                             ]
                         ]

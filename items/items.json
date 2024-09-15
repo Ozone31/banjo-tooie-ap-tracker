@@ -82,6 +82,19 @@
     "img": "/images/items/mumbotoken.png",
     "codes": "mumbotoken"
   },
+  {
+    "name": "Big-O Pants",
+    "type": "consumable",
+    "overlay_background": "#000000",
+    "img": "/images/items/bigopants.png",
+    "codes": "none"
+  },
+  {
+    "name": "Jinjo Multiplayer Character (Nothing)",
+    "type": "toggle",
+    "img": "/images/items/jinjo_mp.png",
+    "codes": "jnone"
+  },
 
   // JINJOS
   {
@@ -326,6 +339,12 @@
     "img": "/images/movesmagic/homingeggs.png",
     "codes": "homingeggs"
   },
+  {
+    "name": "Amaze-O-Gaze",
+    "type": "toggle",
+    "img": "/images/movesmagic/amazeogaze.png",
+    "codes": "amazeogaze"
+  },
 
   // BK MOVES
 
@@ -493,6 +512,84 @@
         "img": "images/movesmagic/ceggs.png",
         "name": "Progressive Eggs - Clockwork Kazooie Eggs",
         "codes": "pbeggs,pbeggs_4",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Progressive Shoes",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "stages": [
+      {
+        "img": "/images/movesmagic/sstride.png",
+        "name": "Progressive Shoes - Stilt Stride",
+        "codes": "pshoes,pshoes_1",
+        "inherit_codes": true
+      },
+      {
+        "img": "/images/movesmagic/ttrain.png",
+        "name": "Progressive Shoes - Turbo Trainers",
+        "codes": "pshoes,pshoes_2",
+        "inherit_codes": true
+      },
+      {
+        "img": "/images/movesmagic/springb.png",
+        "name": "Progressive Shoes - Spring Boots",
+        "codes": "pshoes,pshoes_3",
+        "inherit_codes": true
+      },
+      {
+        "img": "/images/movesmagic/clawbts.png",
+        "name": "Progressive Shoes - Claw Clamber Boots",
+        "codes": "pshoes,pshoes_4",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Progressive Water Training",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "stages": [
+      {
+        "img": "/images/movesmagic/dive.png",
+        "name": "Progressive Water Training - Dive",
+        "codes": "pswim,pswim_1",
+        "inherit_codes": true
+      },
+      {
+        "img": "/images/movesmagic/dair.png",
+        "name": "Progressive Water Training - Double Air",
+        "codes": "pswim,pswim_2",
+        "inherit_codes": true
+      },
+      {
+        "img": "/images/movesmagic/fswim.png",
+        "name": "Progressive Water Training - Fast Swimming",
+        "codes": "pswim,pswim_3",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Progressive Bash Attack",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "stages": [
+      {
+        "img": "/images/movesmagic/grat.png",
+        "name": "Progressive Bash Attack - Ground Rat-a-tat Rap",
+        "codes": "pbash,pbash1",
+        "inherit_codes": true
+      },
+      {
+        "img": "/images/movesmagic/bbash.png",
+        "name": "Progressive Bash Attack - Breegull Bash",
+        "codes": "pbash,pbash2",
         "inherit_codes": true
       }
     ]
@@ -1105,6 +1202,28 @@
         "img": "images/settings/victory_token.png",
         "name": "Goal - Token Hunt",
         "codes": "goal,goal_token",
+        "inherit_codes": false
+      }
+    ]
+  }
+  ,
+  {
+    "name": "Auto Map Switching",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/settings/automap_on.png",
+        "name": "Auto Map Switching - On",
+        "codes": "automap,automap_on",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/automap_off.png",
+        "name": "Auto Map Switching - Off",
+        "codes": "automap,automap_off",
         "inherit_codes": false
       }
     ]

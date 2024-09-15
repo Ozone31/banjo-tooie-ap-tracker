@@ -15,6 +15,7 @@ Tracker:AddLocations("locations/locations.json")
 Tracker:AddLocations("locations/locations_hints.json")
 
 -- Layout
+Tracker:AddLayouts("layouts/world_maps.json")
 Tracker:AddLayouts("layouts/moves.json")
 Tracker:AddLayouts("layouts/accessmagic.json")
 Tracker:AddLayouts("layouts/items.json")
