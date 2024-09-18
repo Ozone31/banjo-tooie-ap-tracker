@@ -4,7 +4,7 @@
 ITEM_MAPPING = {
     [1230515] = {"jiggy", "consumable"},
     [1230797] = {"note", "consumable"},
-    [1230778] = {"treble", "consumable"},
+    [1230516] = {"treble", "consumable"},
     [1230512] = {"honey", "consumable"},
     [1230513] = {"pages", "consumable"},
     [1230514] = {"doubloon", "consumable"},
@@ -82,7 +82,7 @@ ITEM_MAPPING = {
     [1230804] = {"pmegg", "toggle"},
     [1230798] = {"mumbotoken", "consumable"},
     [1230777] = {"fswim", "toggle"},
-    [1230779] = {"dair", "toggle"},
+    [1230778] = {"dair", "toggle"},
     [1230810] = {"dive", "toggle"},
     [1230811] = {"fpad", "toggle"},
     [1230812] = {"fflip", "toggle"},
@@ -108,5 +108,5 @@ ITEM_MAPPING = {
     [1230832] = {"pbash", "progressive"},
     [1230888] = {"none", "progressive"},
     [1230801] = {"jnone", "progressive"},
-    [1230780] = {"amazeogaze", "toggle"}
+    [1230779] = {"amazeogaze", "toggle"}
 }
