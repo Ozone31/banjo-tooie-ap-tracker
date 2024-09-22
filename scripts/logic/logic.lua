@@ -891,13 +891,17 @@ function cc_jiggy2()
 end
 
 function cc_jiggy3()
-    if logictype.CurrentStage <= 1 then
+    if logictype.CurrentStage == 0 then
         return (
-            has("begg") and canShootEggs("feggs") and canShootEggs("geggs") and canShootEggs("ieggs") and billDrill() and mumboCCL()
+            canShootEggs("begg") and canShootEggs("feggs") and canShootEggs("geggs") and canShootEggs("ieggs") and mumboCCL() and (has("fflip") or (has("splitup") and has("lspring")))
+        )
+    elseif logictype.CurrentStage == 1 then
+        return (
+            canShootEggs("begg") and canShootEggs("feggs") and canShootEggs("geggs") and canShootEggs("ieggs") and mumboCCL() and (has("fflip") or (has("splitup") and has("lspring")) or has("fpad"))
         )
     else
         return (
-            has("begg") and canShootEggs("feggs") and canShootEggs("geggs") and canShootEggs("ieggs") and ((has("bdrill") and mumboCCL()) or has("splitup"))
+            canShootEggs("begg") and canShootEggs("feggs") and canShootEggs("geggs") and canShootEggs("ieggs") and (mumboCCL() and (has("fflip") or (has("splitup") and has("lspring")) or has("fpad")) or (has("splitup") and (has("lspring") or has("tjump")) and has("fpad") and has("bbomb")))
         )
     end
 end

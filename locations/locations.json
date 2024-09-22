@@ -3668,7 +3668,12 @@
         "access_rules": [ "bblaster" ],
         "sections": [
           {
-            "name": "Targitzan Jiggy"
+            "name": "Targitzan Jiggy",
+            "access_rules": [
+              "logictype_b, begg", "logictype_b, feggs", "logictype_b, geggs",
+              "logictype_n, begg", "logictype_n, feggs", "logictype_n, geggs",
+              "logictype_a", "logictype_g"
+            ]
           },
           {
             "name": "Slightly Sacred Chamber Jiggy"
@@ -3678,7 +3683,12 @@
           },
           {
             "name": "Targitzan Mumbo Token",
-            "visibility_rules": [ "goal_boss", "goal_wwing" ]
+            "visibility_rules": [ "goal_boss", "goal_wwing" ],
+            "access_rules": [
+              "logictype_b, begg", "logictype_b, feggs", "logictype_b, geggs",
+              "logictype_n, begg", "logictype_n, feggs", "logictype_n, geggs",
+              "logictype_a", "logictype_g"
+            ]
           }
         ],
         "map_locations": [
@@ -4583,7 +4593,7 @@
             "name": "Jiggy",
             "access_rules": [ 
               "logictype_b, $GM_boulders, splitup, climb",
-              "logictype_n, $GM_boulders, splitup, climb", "logictype_n, $GM_boulders, $has_fire", "logictype_n, $GM_boulders, $billDrill",
+              "logictype_n, $GM_boulders, splitup, climb", "logictype_n, $GM_boulders, $canShootEggs|feggs", "logictype_n, $GM_boulders, humbaih, @Pine Grove, grat", "logictype_n, $GM_boulders, $billDrill",
               "logictype_a, $GM_boulders",
               "logictype_g, $GM_boulders"
             ]
@@ -4604,7 +4614,7 @@
             "name": "Jiggy",
             "access_rules": [
               "logictype_b, feggs, eggaim, $longJump, fflip", "logictype_b, feggs, eggaim, $longJump, ttrot",
-              "logictype_n, $longJump, fflip, splitup", "logictype_n, $longJump, fflip, $has_fire", "logictype_n, $longJump, fflip, $billDrill", "logictype_n, $longJump, ttrot, splitup", "logictype_n, $longJump, ttrot, $has_fire", "logictype_n, $longJump, ttrot, $billDrill", "logictype_n, fflip, bbust, climb",
+              "logictype_n, $longJump, fflip, splitup", "logictype_n, $longJump, fflip, $canShootEggs|feggs", "logictype_n, $longJump, fflip, humbaih, @Pine Grove, grat", "logictype_n, $longJump, fflip, $billDrill", "logictype_n, $longJump, ttrot, splitup", "logictype_n, $longJump, ttrot, $canShootEggs|feggs", "logictype_n, $longJump, ttrot, humbaih, @Pine Grove, grat", "logictype_n, $longJump, ttrot, $billDrill", "logictype_n, fflip, bbust, climb",
               "logictype_a, $longJump, fflip", "logictype_a, $longJump, ttrot", "logictype_a, fflip, bbust, climb", "logictype_a, $clockwork_shot",
               "logictype_g, $longJump, fflip", "logictype_g, $longJump, ttrot", "logictype_g, fflip, bbust, climb", "logictype_g, $clockwork_shot"
             ]
@@ -6989,9 +6999,9 @@
             "name": "Oogle Boogle Tribe Jiggy",
             "access_rules": [
               "logictype_b, $oogle_boogles_open, $canShootEggs|feggs, $smuggle_food, ggrab, $billDrill",
-              "logictype_n, $oogle_boogles_open, $has_fire, ggrab, $billDrill",
-              "logictype_a, $oogle_boogles_open, $has_fire, ggrab, $billDrill",
-              "logictype_g, $oogle_boogles_open, $has_fire, ggrab, $billDrill", "logictype_g, $clockworkWarp, $has_fire, ggrab, $billDrill"
+              "logictype_n, $oogle_boogles_open, $canShootEggs|feggs, ggrab, $billDrill", "logictype_n, $oogle_boogles_open, humbaih, @Pine Grove, grat, ggrab, $billDrill",
+              "logictype_a, $oogle_boogles_open, $canShootEggs|feggs, ggrab, $billDrill", "logictype_a, $oogle_boogles_open, humbaih, @Pine Grove, grat, ggrab, $billDrill",
+              "logictype_g, $oogle_boogles_open, $canShootEggs|feggs, ggrab, $billDrill", "logictype_g, $oogle_boogles_open, humbaih, @Pine Grove, grat, ggrab, $billDrill", "logictype_g, $clockworkWarp, $canShootEggs|feggs, ggrab, $billDrill", "logictype_g, $clockworkWarp, humbaih, @Pine Grove, grat, ggrab, $billDrill"
             ]
           }
         ],
@@ -8607,9 +8617,9 @@
             "name": "Jiggy",
             "access_rules": [
               "logictype_b, mumbohp, $canShootEggs|feggs, splitup, taxpack, tjump",
-              "logictype_n, mumbohp, $has_fire, splitup, taxpack, tjump",
-              "logictype_a, mumbohp, $has_fire, splitup, taxpack, tjump",
-              "logictype_g, mumbohp, $has_fire, splitup, taxpack, tjump"
+              "logictype_n, mumbohp, $canShootEggs|feggs, splitup, taxpack, tjump", "logictype_n, mumbohp, humbaih, @Pine Grove, grat, splitup, taxpack, tjump",
+              "logictype_a, mumbohp, $canShootEggs|feggs, splitup, taxpack, tjump", "logictype_a, mumbohp, humbaih, @Pine Grove, grat, splitup, taxpack, tjump",
+              "logictype_g, mumbohp, $canShootEggs|feggs, splitup, taxpack, tjump", "logictype_g, mumbohp, humbaih, @Pine Grove, grat, splitup, taxpack, tjump"
             ]
           }
         ],
@@ -9341,7 +9351,12 @@
         "sections": [
           {
             "name": "Note",
-            "access_rules": [ "dive" ]
+            "access_rules": [
+              "logictype_b, dive",
+              "logictype_n, dive", "logictype_n, splitup, shpack",
+              "logictype_a, dive", "logictype_a, splitup, shpack",
+              "logictype_g, dive", "logictype_g, splitup, shpack"
+            ]
           }
         ],
         "map_locations": [
