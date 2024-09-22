@@ -1,6 +1,16 @@
 {
 	"versions": [
 		{
+			"package_version": "0.5.4",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.5.4",
+			"sha256": "981476EAA6DAEE309F1D4948591A47543416936D913786F14B9D37EC32E417FD",
+			"changelog": [
+				"Updated logic to match v2.1.2-beta of Banjo-Tooie AP",
+				"Fixed detecting if the player can use Dragon Kazooie for certain fire checks in Normal and above logic",
+				"Backend fixes for map switching (thanks to Cyb3RGER)"
+			]
+		},
+		{
 			"package_version": "0.5.3",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.5.3",
 			"sha256": "0EF0EEFD6A210E8172C7E72A0322A377C726A4717A27571A19ED9751540832BA",
