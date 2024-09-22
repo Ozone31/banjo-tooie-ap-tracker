@@ -275,7 +275,6 @@ function onClear(slot_data)
                 first_level = k
             end
         end
-        return first_level
     end
 
     --print(dump_table(slot_data))
