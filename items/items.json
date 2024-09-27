@@ -451,7 +451,7 @@
     "codes": "bbomb"
   },
   {
-    "name": "Egg Shoot",
+    "name": "Third Person Egg Shooting",
     "type": "toggle",
     "img": "/images/movesmagic/eggshoot.png",
     "codes": "eggshoot"

@@ -414,9 +414,9 @@ end
 
 function quag_to_CK()
     if logictype.CurrentStage <= 2 then
-        return has("clawbts") and has("climb")
+        return has("clawbts") and has("cka")
     else
-        return (has("climb") and has("clawbts")) or (has("geggs") and has("ceggs") and has ("eggaim") and has("eggshoot"))
+        return (clockworkWarp() and has("ttrot") or has("clawbts")) and (has("cka") or (has("climb") and has("tjump") and has("bbust") and (has("flutter") or has("arat"))))
     end
 end
 
@@ -690,6 +690,16 @@ function outside_gi_to_floor3()
     end
 end
 
+function outside_gi_to_floor3_f2access()
+    if logictype.CurrentStage == 0 then
+        return false
+    elseif logictype.CurrentStage == 1 then
+        return has("clawbts") and (has("flutter") or has("arat"))
+    else
+        return has("clawbts") and (has("flutter") or has("arat"))
+    end
+end
+
 function can_access_gi_fl1_2fl2()
     if logictype.CurrentStage == 0 then
         return has("clawbts") and (springPad() or (has("splitup") and has("lspring")))
@@ -707,10 +717,12 @@ function can_access_gi_fl2_2fl3all()
 end
 
 function F1_to_F3()
-    if logictype.CurrentStage <= 2 then
+    if logictype.CurrentStage <= 1 then
         return false
+    elseif logictype.CurrentStage == 2 then
+        return has("splitup") and has("clawbts") and has("lspring") and (has("wwhack") or has("eggaim")) and has("fpad")
     else
-        return (breegullBash() and has("climb")) or has("climb") and has_explosives() and has("eggaim") and (has("springb") or has("fflip") and has("ggrab") or has("splitup") and roof_access())
+        return (breegullBash() and has("climb")) or has("climb") and has_explosives() and has("eggaim") and (has("springb") or has("fflip") and has("ggrab") or has("splitup") and roof_access()) or has("splitup") and has("clawbts") and has("lspring") and (has("wwhack") or has("eggaim")) and has("fpad")
     end
 end
 

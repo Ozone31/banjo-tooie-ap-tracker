@@ -77,7 +77,7 @@
                   "visibility_rules": ["jv_ikey"]
                 },
                 {
-                  "name": "BH: Goggles Amaze-O-Gaze (Hint)",
+                  "name": "IoH: Amaze-O-Gaze Goggles (Hint)",
                   "visibility_rules": ["jv_bottlekid"]
                 },
                 {
@@ -1981,11 +1981,11 @@
                   "visibility_rules": ["cc_jinjo5"]
                 },
                 {
-                  "name": "CCL: Green Pool Glowbo (Hint)",
+                  "name": "CCL: Outdoors Pool Glowbo (Hint)",
                   "visibility_rules": ["cc_glowbo1"]
                 },
                 {
-                  "name": "CCL: Central Cavern Glowbo (Hint)",
+                  "name": "CCL: Indoors Pool Glowbo (Hint)",
                   "visibility_rules": ["cc_glowbo2"]
                 },
                 {
