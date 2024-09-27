@@ -94,14 +94,14 @@ end
 
 function dilberta_free()
     if logictype.CurrentStage == 0 then
-        return (has_explosives() or has("mumbomt")) and has("bdrill") and has("humbamt")
+        return (has_explosives() or has("mumbomt")) and billDrill() and has("humbamt")
     else
-        return (has_explosives() or has("mumbomt")) and has("bdrill")
+        return (has_explosives() or has("mumbomt")) and billDrill()
     end
 end
 
 function GM_boulders()
-    return (has("bdrill") and canDoSmallElevation()) or humbaGGM()
+    return (billDrill() and canDoSmallElevation()) or humbaGGM()
 end
 
 function GGMSlope()
