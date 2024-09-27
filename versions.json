@@ -1,6 +1,15 @@
 {
 	"versions": [
 		{
+			"package_version": "0.5.5",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.5.5",
+			"sha256": "A26D7701EEEA124728006A0F581EB6F687C39ECC6B6342F2CD7104B065511C16",
+			"changelog": [
+				"Updated locations/logic to match v2.1.3-beta of Banjo-Tooie AP",
+				"Corrected some logic errors involving Bill Drill (thanks to Cyb3RGER)"
+			]
+		},
+		{
 			"package_version": "0.5.4",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.5.4",
 			"sha256": "981476EAA6DAEE309F1D4948591A47543416936D913786F14B9D37EC32E417FD",
