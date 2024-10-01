@@ -7192,7 +7192,7 @@
       {
         "name": "Chompas Belly",
         "access_rules": [
-              "logictype_b, bblaster, tjump, fpad", "logictype_b, bblaster, ggrab, fpad", "logictype_b, bblaster, eggaim, $has_explosives",
+              "logictype_b, bblaster, tjump, fpad", "logictype_b, bblaster, ggrab, fpad", "logictype_b, bblaster, eggaim, $has_explosives, springb",
               "logictype_n, bblaster, tjump, fpad", "logictype_n, bblaster, ggrab, fpad", "logictype_n, bblaster, eggaim, $has_explosives, springb", "logictype_n, bblaster, springb, $veryLongJump",
               "logictype_a, bblaster, tjump, fpad", "logictype_a, bblaster, ggrab, fpad", "logictype_a, bblaster, eggaim, $has_explosives, springb", "logictype_a, bblaster, springb, $veryLongJump",
               "logictype_g, bblaster, tjump, fpad", "logictype_g, bblaster, ggrab, fpad", "logictype_g, bblaster, eggaim, $has_explosives, springb", "logictype_g, bblaster, springb, $veryLongJump"
