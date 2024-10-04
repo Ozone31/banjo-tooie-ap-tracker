@@ -1,6 +1,15 @@
 {
 	"versions": [
 		{
+			"package_version": "0.5.6",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.5.6",
+			"sha256": "E16FEEC85E9BA99F0142250AFA2F3F5D5CACA744CD47DA4174FCF99C3E2B2034",
+			"changelog": [
+				"Logic changes to match v2.1.4-beta of Banjo-Tooie AP",
+				"Fixed logic to reach Chompas Belly"
+			]
+		},
+		{
 			"package_version": "0.5.5",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.5.5",
 			"sha256": "A26D7701EEEA124728006A0F581EB6F687C39ECC6B6342F2CD7104B065511C16",
