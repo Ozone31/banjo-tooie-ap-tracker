@@ -69,7 +69,7 @@ function canShootLinearEgg()
 end
 
 function hasGroundAttack()
-    return has("eggshoot") or has("eggaim") or has("bbarge") or has("roll") or has("arat") or has("grat") or has("bbust") or breegullBash()
+    return canShootEggs() or has("bbarge") or has("roll") or has("arat") or has("grat") or has("bbust") or breegullBash()
 end
 
 function billDrill()
@@ -420,8 +420,16 @@ function quag_to_CK()
     end
 end
 
+function lower_icy_side()
+    if logictype.CurrentStage == 0 then
+        return hfpTop() or has_explosives()
+    else
+        return hfpTop() or has_explosives() or has("mumbohp")
+    end
+end
+
 function iceCube()
-    return hasGroundAttack()
+    return canShootEggs("begg") or canShootEggs("feggs") or canShootEggs("geggs") or canShootEggs("ceggs") or has("bbarge") or has("roll") or has("arat") or has("grat") or has("bdrill") or breegullBash()
 end
 
 function iceCubeKazooie()
@@ -457,7 +465,7 @@ function grow_beanstalk()
 end
 
 function hasMobileAttack()
-    return has("eggshoot") or has("eggaim") or has("bbarge") or has("roll") or has("arat")
+    return canShootEggs() or has("bbarge") or has("roll") or has("arat")
 end
 
 -- Area Access
@@ -769,7 +777,11 @@ function hfp_access(fromTrain)
 end
 
 function hfpTop()
-    return canDoSmallElevation() or has("splitup") or has("fpad")
+    if logictype.CurrentStage == 0 then
+        return canDoSmallElevation() or has("splitup") or has("fpad")
+    else
+        return canDoSmallElevation() or has("splitup") or has("fpad") or ((has_explosives() or has("mumbohp")) and has("humbahp"))
+    end
 end
 
 function HFP_to_MT()
