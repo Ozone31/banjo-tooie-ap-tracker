@@ -5526,18 +5526,18 @@
             "name": "Hoop Hurry Jiggy",
             "access_rules": [
               "logictype_b, splitup, $has_explosives, ttrain, $springPad, fflip", "splitup, $has_explosives, ttrain, $springPad, lspring",
-              "logictype_n, splitup, $has_explosives, lspring, $springPad", "logictype_n, splitup, $has_explosives, lspring, fflip", "logictype_n, splitup, $has_explosives, tjump, $springPad", "logictype_n, splitup, $has_explosives, tjump, fflip", "logictype_n, splitup, $has_explosives, tjump, lspring",
-              "logictype_a, splitup, $has_explosives, lspring, $springPad", "logictype_a, splitup, $has_explosives, lspring, fflip", "logictype_a, splitup, $has_explosives, tjump, $springPad", "logictype_a, splitup, $has_explosives, tjump, fflip", "logictype_a, splitup, $has_explosives, tjump, lspring",
-              "logictype_g, splitup, $has_explosives, lspring, $springPad", "logictype_g, splitup, $has_explosives, lspring, fflip", "logictype_g, splitup, $has_explosives, tjump, $springPad", "logictype_g, splitup, $has_explosives, tjump, fflip", "logictype_g, splitup, $has_explosives, tjump, lspring"
+              "logictype_n, splitup, $has_explosives, lspring, $springPad", "logictype_n, splitup, $has_explosives, lspring, fflip", "logictype_n, splitup, $has_explosives, lspring", "logictype_n, splitup, $has_explosives, tjump, $springPad", "logictype_n, splitup, $has_explosives, tjump, fflip", "logictype_n, splitup, $has_explosives, tjump, lspring",
+              "logictype_a, splitup, $has_explosives, lspring, $springPad", "logictype_a, splitup, $has_explosives, lspring, fflip", "logictype_a, splitup, $has_explosives, lspring", "logictype_a, splitup, $has_explosives, tjump, $springPad", "logictype_a, splitup, $has_explosives, tjump, fflip", "logictype_a, splitup, $has_explosives, tjump, lspring",
+              "logictype_g, splitup, $has_explosives, lspring, $springPad", "logictype_g, splitup, $has_explosives, lspring, fflip", "logictype_g, splitup, $has_explosives, lspring", "logictype_g, splitup, $has_explosives, tjump, $springPad", "logictype_g, splitup, $has_explosives, tjump, fflip", "logictype_g, splitup, $has_explosives, tjump, lspring"
             ]
           },
           {
             "name": "Hoop Hurry Mumbo Token",
             "access_rules": [
               "logictype_b, splitup, $has_explosives, ttrain, $springPad, fflip", "splitup, $has_explosives, ttrain, $springPad, lspring",
-              "logictype_n, splitup, $has_explosives, lspring, $springPad", "logictype_n, splitup, $has_explosives, lspring, fflip", "logictype_n, splitup, $has_explosives, tjump, $springPad", "logictype_n, splitup, $has_explosives, tjump, fflip", "logictype_n, splitup, $has_explosives, tjump, lspring",
-              "logictype_a, splitup, $has_explosives, lspring, $springPad", "logictype_a, splitup, $has_explosives, lspring, fflip", "logictype_a, splitup, $has_explosives, tjump, $springPad", "logictype_a, splitup, $has_explosives, tjump, fflip", "logictype_a, splitup, $has_explosives, tjump, lspring",
-              "logictype_g, splitup, $has_explosives, lspring, $springPad", "logictype_g, splitup, $has_explosives, lspring, fflip", "logictype_g, splitup, $has_explosives, tjump, $springPad", "logictype_g, splitup, $has_explosives, tjump, fflip", "logictype_g, splitup, $has_explosives, tjump, lspring"
+              "logictype_n, splitup, $has_explosives, lspring, $springPad", "logictype_n, splitup, $has_explosives, lspring, fflip", "logictype_n, splitup, $has_explosives, lspring", "logictype_n, splitup, $has_explosives, tjump, $springPad", "logictype_n, splitup, $has_explosives, tjump, fflip", "logictype_n, splitup, $has_explosives, tjump, lspring",
+              "logictype_a, splitup, $has_explosives, lspring, $springPad", "logictype_a, splitup, $has_explosives, lspring, fflip", "logictype_a, splitup, $has_explosives, lspring", "logictype_a, splitup, $has_explosives, tjump, $springPad", "logictype_a, splitup, $has_explosives, tjump, fflip", "logictype_a, splitup, $has_explosives, tjump, lspring",
+              "logictype_g, splitup, $has_explosives, lspring, $springPad", "logictype_g, splitup, $has_explosives, lspring, fflip", "logictype_g, splitup, $has_explosives, lspring", "logictype_g, splitup, $has_explosives, tjump, $springPad", "logictype_g, splitup, $has_explosives, tjump, fflip", "logictype_g, splitup, $has_explosives, tjump, lspring"
             ],
             "visibility_rules": [ "goal_minigame", "goal_wwing" ]
           },
@@ -5545,18 +5545,18 @@
             "name": "Balloon Burst Jiggy",
             "access_rules": [
               "logictype_b, splitup, $has_explosives, aireaim, $springPad, fflip", "logictype_b, splitup, $has_explosives, aireaim, $springPad, lspring",
-              "logictype_n, splitup, $has_explosives, aireaim, lspring, $springPad", "logictype_n, splitup, $has_explosives, aireaim, lspring, fflip", "logictype_n, splitup, $has_explosives, aireaim, tjump, $springPad", "logictype_n, splitup, $has_explosives, aireaim, tjump, fflip", "logictype_n, splitup, $has_explosives, aireaim, tjump, lspring",
-              "logictype_a, splitup, $has_explosives, aireaim, lspring, $springPad", "logictype_a, splitup, $has_explosives, aireaim, lspring, fflip", "logictype_a, splitup, $has_explosives, aireaim, tjump, $springPad", "logictype_a, splitup, $has_explosives, aireaim, tjump, fflip", "logictype_a, splitup, $has_explosives, aireaim, tjump, lspring",
-              "logictype_g, splitup, $has_explosives, aireaim, lspring, $springPad", "logictype_g, splitup, $has_explosives, aireaim, lspring, fflip", "logictype_g, splitup, $has_explosives, aireaim, tjump, $springPad", "logictype_g, splitup, $has_explosives, aireaim, tjump, fflip", "logictype_g, splitup, $has_explosives, aireaim, tjump, lspring"
+              "logictype_n, splitup, $has_explosives, aireaim, lspring, $springPad", "logictype_n, splitup, $has_explosives, aireaim, lspring, fflip", "logictype_n, splitup, $has_explosives, aireaim, lspring", "logictype_n, splitup, $has_explosives, aireaim, tjump, $springPad", "logictype_n, splitup, $has_explosives, aireaim, tjump, fflip", "logictype_n, splitup, $has_explosives, aireaim, tjump, lspring",
+              "logictype_a, splitup, $has_explosives, aireaim, lspring, $springPad", "logictype_a, splitup, $has_explosives, aireaim, lspring, fflip", "logictype_a, splitup, $has_explosives, aireaim, lspring", "logictype_a, splitup, $has_explosives, aireaim, tjump, $springPad", "logictype_a, splitup, $has_explosives, aireaim, tjump, fflip", "logictype_a, splitup, $has_explosives, aireaim, tjump, lspring",
+              "logictype_g, splitup, $has_explosives, aireaim, lspring, $springPad", "logictype_g, splitup, $has_explosives, aireaim, lspring, fflip", "logictype_g, splitup, $has_explosives, aireaim, lspring", "logictype_g, splitup, $has_explosives, aireaim, tjump, $springPad", "logictype_g, splitup, $has_explosives, aireaim, tjump, fflip", "logictype_g, splitup, $has_explosives, aireaim, tjump, lspring"
             ]
           },
           {
             "name": "Balloon Burst Mumbo Token",
             "access_rules": [
               "logictype_b, splitup, $has_explosives, aireaim, $springPad, fflip", "logictype_b, splitup, $has_explosives, aireaim, $springPad, lspring",
-              "logictype_n, splitup, $has_explosives, aireaim, lspring, $springPad", "logictype_n, splitup, $has_explosives, aireaim, lspring, fflip", "logictype_n, splitup, $has_explosives, aireaim, tjump, $springPad", "logictype_n, splitup, $has_explosives, aireaim, tjump, fflip", "logictype_n, splitup, $has_explosives, aireaim, tjump, lspring",
-              "logictype_a, splitup, $has_explosives, aireaim, lspring, $springPad", "logictype_a, splitup, $has_explosives, aireaim, lspring, fflip", "logictype_a, splitup, $has_explosives, aireaim, tjump, $springPad", "logictype_a, splitup, $has_explosives, aireaim, tjump, fflip", "logictype_a, splitup, $has_explosives, aireaim, tjump, lspring",
-              "logictype_g, splitup, $has_explosives, aireaim, lspring, $springPad", "logictype_g, splitup, $has_explosives, aireaim, lspring, fflip", "logictype_g, splitup, $has_explosives, aireaim, tjump, $springPad", "logictype_g, splitup, $has_explosives, aireaim, tjump, fflip", "logictype_g, splitup, $has_explosives, aireaim, tjump, lspring"
+              "logictype_n, splitup, $has_explosives, aireaim, lspring, $springPad", "logictype_n, splitup, $has_explosives, aireaim, lspring, fflip", "logictype_n, splitup, $has_explosives, aireaim, lspring", "logictype_n, splitup, $has_explosives, aireaim, tjump, $springPad", "logictype_n, splitup, $has_explosives, aireaim, tjump, fflip", "logictype_n, splitup, $has_explosives, aireaim, tjump, lspring",
+              "logictype_a, splitup, $has_explosives, aireaim, lspring, $springPad", "logictype_a, splitup, $has_explosives, aireaim, lspring, fflip", "logictype_a, splitup, $has_explosives, aireaim, lspring", "logictype_a, splitup, $has_explosives, aireaim, tjump, $springPad", "logictype_a, splitup, $has_explosives, aireaim, tjump, fflip", "logictype_a, splitup, $has_explosives, aireaim, tjump, lspring",
+              "logictype_g, splitup, $has_explosives, aireaim, lspring, $springPad", "logictype_g, splitup, $has_explosives, aireaim, lspring, fflip", "logictype_g, splitup, $has_explosives, aireaim, lspring", "logictype_g, splitup, $has_explosives, aireaim, tjump, $springPad", "logictype_g, splitup, $has_explosives, aireaim, tjump, fflip", "logictype_g, splitup, $has_explosives, aireaim, tjump, lspring"
             ],
             "visibility_rules": [ "goal_minigame", "goal_wwing" ]
           }
