@@ -285,6 +285,7 @@ LOCATION_MAPPING = {
     [1231006] = {"@Terrydactyland - Main Area/Styracosaurus Family Cave/Scrut", "@Overworld Hints/Terrydactyland Hints/TDL: Scrut (Hint)"},
     [1231007] = {"@Terrydactyland - Main Area/Styracosaurus Family Cave/Scrat", "@Overworld Hints/Terrydactyland Hints/TDL: Scrat (Hint)"},
     [1231008] = {"@Terrydactyland - Main Area/Styracosaurus Family Cave/Scrit", "@Overworld Hints/Terrydactyland Hints/TDL: Scrit (Hint)"},
+    [1231009] = {"@Terrydactyland - Main Area/TDL: Baby T-Rex Roar/Learn Roar", "@Overworld Hints/Terrydactyland Hints/TDL: Baby T-Rex Roar (Hint)"},
     [1230636] = {"@Terrydactyland - Terry's Nest/TDL: Under Terry's Nest Jiggy/Jiggy", "@Overworld Hints/Terrydactyland - Jiggies Hints/TDL: Under Terry's Nest Jiggy (Hint)"},
     [1230637] = {"@Cloud Cuckooland - Outside/TDL: Dippy Jiggy/Jiggy", "@Overworld Hints/Terrydactyland - Jiggies Hints/TDL: Dippy Jiggy (Hint)"},
     [1230638] = {"@Terrydactyland - Main Area/Styracosaurus Family Cave/Scrotty Jiggy", "@Overworld Hints/Terrydactyland - Jiggies Hints/TDL: Scrotty Jiggy (Hint)"},

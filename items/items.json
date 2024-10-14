@@ -345,6 +345,12 @@
     "img": "/images/movesmagic/amazeogaze.png",
     "codes": "amazeogaze"
   },
+  {
+    "name": "Baby T-Rex Roar",
+    "type": "toggle",
+    "img": "/images/movesmagic/roar.png",
+    "codes": "roar"
+  },
 
   // BK MOVES
 

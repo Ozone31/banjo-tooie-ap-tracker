@@ -108,5 +108,6 @@ ITEM_MAPPING = {
     [1230832] = {"pbash", "progressive"},
     [1230888] = {"none", "progressive"},
     [1230801] = {"jnone", "progressive"},
-    [1230779] = {"amazeogaze", "toggle"}
+    [1230779] = {"amazeogaze", "toggle"},
+    [1230780] = {"roar", "toggle"}
 }

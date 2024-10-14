@@ -287,6 +287,7 @@ HINTS_MAPPING = {
     [1231006] = {"td_scrut"},
     [1231007] = {"td_scrat"},
     [1231008] = {"td_scrit"},
+    [1231009] = {"td_roar"},
     [1230636] = {"td_jiggy1"},
     [1230637] = {"td_jiggy2"},
     [1230638] = {"td_jiggy3"},

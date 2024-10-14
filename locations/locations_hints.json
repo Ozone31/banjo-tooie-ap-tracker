@@ -1391,6 +1391,10 @@
                 {
                   "name": "TDL: Scrit (Hint)",
                   "visibility_rules": ["td_scrit"]
+                },
+                {
+                  "name": "TDL: Baby T-Rex Roar (Hint)",
+                  "visibility_rules": ["td_roar"]
                 }
               ],
               "map_locations": [

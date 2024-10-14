@@ -15,7 +15,7 @@
             "rows": [
               [ "ggrab", "bbust", "bdrill", "bblaster", "bbayonet", "ttorp", "bbomb", "wwing", "bbash", "fpad" ],
               [ "ttrot", "tjump", "roll", "grat", "arat", "bbarge", "climb", "fflip", "flutter", "splitup" ],
-              [ "dive", "dair", "fswim", "amazeogaze", "", "", "sstride", "ttrain", "springb", "clawbts" ],
+              [ "dive", "dair", "fswim", "amazeogaze", "roar", "", "sstride", "ttrain", "springb", "clawbts" ],
               [ "eggshoot", "eggaim","aireaim", "auqaim","homingeggs", "begg", "feggs", "geggs", "ieggs", "ceggs" ],
               [ "packwh", "taxpack", "snpack", "shpack", "sapack", "", "wwhack", "hatch", "lspring", "glide"]
             ]

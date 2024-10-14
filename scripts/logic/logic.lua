@@ -69,7 +69,7 @@ function canShootLinearEgg()
 end
 
 function hasGroundAttack()
-    return canShootEggs() or has("bbarge") or has("roll") or has("arat") or has("grat") or has("bbust") or breegullBash()
+    return canShootEggs() or has("bbarge") or has("roll") or has("arat") or has("grat") or has("bbust") or breegullBash() or has("wwing")
 end
 
 function billDrill()
@@ -142,9 +142,19 @@ end
 
 function can_beat_king_coal()
     if chuffyrandomized.CurrentStage == 0 then
-        return mumboGGM() and ggm_to_chuffy() and hasGroundAttack()
+        return mumboGGM() and ggm_to_chuffy() and attackKingCoal()
     else
-        return has("chuffy") and hasGroundAttack()
+        return has("chuffy") and attackKingCoal()
+    end
+end
+
+function attackKingCoal()
+    if logictype.CurrentStage == 0 then
+        return canShootEggs("begg") or canShootEggs("geggs") or canShootEggs("ieggs")
+    elseif logictype.CurrentStage == 1 then
+        return canShootEggs("begg") or canShootEggs("geggs") or canShootEggs("ieggs") or has("bbarge") or has("roll") or has("arat")
+    else
+        return canShootEggs("begg") or canShootEggs("geggs") or canShootEggs("ieggs") or has("bbarge") or has("roll") or has("arat") or has("grat") or has("bbust") or breegullBash()
     end
 end
 
@@ -429,7 +439,7 @@ function lower_icy_side()
 end
 
 function iceCube()
-    return canShootEggs("begg") or canShootEggs("feggs") or canShootEggs("geggs") or canShootEggs("ceggs") or has("bbarge") or has("roll") or has("arat") or has("grat") or has("bdrill") or breegullBash()
+    return canShootEggs("begg") or canShootEggs("feggs") or has_explosives() or has("bbarge") or has("roll") or has("arat") or has("grat") or has("bbust") or breegullBash() or has("wwing")
 end
 
 function iceCubeKazooie()
@@ -465,7 +475,11 @@ function grow_beanstalk()
 end
 
 function hasMobileAttack()
-    return canShootEggs() or has("bbarge") or has("roll") or has("arat")
+    return canShootEggs() or has("bbarge") or has("roll") or has("arat") or has("wwing")
+end
+
+function hasRepeatableMobileAttack()
+    return canShootEggs("begg") or canShootEggs("feggs") or canShootEggs("geggs") or canShootEggs("ieggs") or has("bbarge") or has("roll") or has("arat")
 end
 
 -- Area Access
@@ -779,6 +793,8 @@ end
 function hfpTop()
     if logictype.CurrentStage == 0 then
         return canDoSmallElevation() or has("splitup") or has("fpad")
+    elseif logictype.CurrentStage == 1 then
+        return canDoSmallElevation() or has("fpad") or ((has_explosives() or has("mumbohp")) and has("humbahp"))
     else
         return canDoSmallElevation() or has("splitup") or has("fpad") or ((has_explosives() or has("mumbohp")) and has("humbahp"))
     end
@@ -816,7 +832,7 @@ function mt_jiggy5()
     if logictype.CurrentStage == 0 then
         return has("eggaim") and (has("fflip") or canReachSlightlyElevatedLedge()) and ((has("ggrab") and springPad() and has("fflip")) or MT_flight_pad())
     else
-        return (has("fflip") or canReachSlightlyElevatedLedge()) and ((has("ggrab") and springPad() and has("fflip") and canShootLinearEgg() and has("eggaim")) or (MT_flight_pad() and canShootLinearEgg()))
+        return (has("fflip") or canReachSlightlyElevatedLedge()) and ((has("ggrab") and springPad() and has("fflip") and has("eggaim")) or (MT_flight_pad() and canShootEggs()))
     end
 end
 
