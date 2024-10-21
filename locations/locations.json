@@ -3885,7 +3885,7 @@
     "name": "Mayahem Temple - Jade Snake Grove",
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
-    "access_rules": [ "$can_access_JSG" ],
+    "access_rules": [ "@Mayahem Temple - Main Area, $can_access_JSG" ],
     "children": [
       {
         "name": "MT: Jade Snake Grove Jinjo",
