@@ -1,6 +1,14 @@
 {
 	"versions": [
 		{
+			"package_version": "0.5.9",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.5.9",
+			"sha256": "A5EC41D030DCE9581724198DDB96A03DAC8E5757C84A76C9FCACA300E85B2B90",
+			"changelog": [
+				"Updated logic to match v3.2-beta of Banjo-Tooie AP"
+			]
+		},
+		{
 			"package_version": "0.5.8",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.5.8",
 			"sha256": "D1E5E60182D0BF6AFC04546B8EFF83056E23A202547C20812FEB0A3912968484",
