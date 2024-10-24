@@ -311,7 +311,7 @@ function can_reach_atlantis()
 end
 
 function HFP_hot_water_cooled() -- Need HFP and CCL access
-    return has("splitup") and hasGroundAttack() and has("dive")
+    return has("splitup") and hasGroundAttack() and (has("dive") or has("shpack"))
 end
 
 function TDLFlightPad()
@@ -792,11 +792,9 @@ end
 
 function hfpTop()
     if logictype.CurrentStage == 0 then
-        return canDoSmallElevation() or has("splitup") or has("fpad")
-    elseif logictype.CurrentStage == 1 then
-        return canDoSmallElevation() or has("fpad") or ((has_explosives() or has("mumbohp")) and has("humbahp"))
+        return canDoSmallElevation() or has("fpad") or has_explosives()
     else
-        return canDoSmallElevation() or has("splitup") or has("fpad") or ((has_explosives() or has("mumbohp")) and has("humbahp"))
+        return canDoSmallElevation() or has("fpad") or has_explosives() or has("mumbohp")
     end
 end
 

@@ -5721,9 +5721,9 @@
             "name": "Honeycomb",
             "access_rules": [
               "logictype_b, $has_explosives, ggrab, $springPad, ttrot", "logictype_b, $billDrill, ggrab, $springPad, ttrot",
-              "logictype_n, $has_explosives, ggrab, $springPad, ttrot", "logictype_n, $billDrill, ggrab, $springPad, ttrot", "logictype_n, $has_explosives, $springPad, splitup, glide", "logictype_n, $has_explosives, $springPad, splitup, lspring, wwhack",
-              "logictype_a, $has_explosives, ggrab, $springPad, ttrot", "logictype_a, $billDrill, ggrab, $springPad, ttrot", "logictype_a, $has_explosives, $springPad, splitup, glide", "logictype_a, $has_explosives, $springPad, splitup, lspring, wwhack",
-              "logictype_g, $has_explosives, ggrab, $springPad, ttrot", "logictype_g, $billDrill, ggrab, $springPad, ttrot", "logictype_g, $has_explosives, $springPad, splitup, glide", "logictype_g, $has_explosives, $springPad, splitup, lspring, wwhack"
+              "logictype_n, $has_explosives, ggrab, $springPad, ttrot", "logictype_n, $billDrill, ggrab, $springPad, ttrot", "logictype_n, $has_explosives, $springPad, splitup, glide", "logictype_n, $has_explosives, $springPad, splitup, lspring",
+              "logictype_a, $has_explosives, ggrab, $springPad, ttrot", "logictype_a, $billDrill, ggrab, $springPad, ttrot", "logictype_a, $has_explosives, $springPad, splitup, glide", "logictype_a, $has_explosives, $springPad, splitup, lspring", "logictype_a, $veryLongJump, $clockwork_shot",
+              "logictype_g, $has_explosives, ggrab, $springPad, ttrot", "logictype_g, $billDrill, ggrab, $springPad, ttrot", "logictype_g, $has_explosives, $springPad, splitup, glide", "logictype_g, $has_explosives, $springPad, splitup, lspring", "logictype_g, $veryLongJump, $clockwork_shot"
             ]
           }
         ],
@@ -8423,10 +8423,10 @@
           {
             "name": "Honeycomb",
             "access_rules": [
-              "logictype_b, splitup, tjump, wwhack", "logictype_b, splitup, tjump, glide", "logictype_b, splitup, lspring", "logictype_b, $hfpTop, geggs, eggaim", "logictype_b, trainswhp1, @Inside Chuffy, geggs, eggaim",
-              "logictype_n, splitup, tjump", "logictype_n, splitup, wwhack", "logictype_n, splitup, glide", "logictype_n, splitup, lspring", "logictype_n, $hfpTop, geggs, eggaim, springPad", "logictype_n, trainswhp1, @Inside Chuffy, geggs, eggaim, springPad",
-              "logictype_a, splitup, tjump", "logictype_a, splitup, wwhack", "logictype_a, splitup, glide", "logictype_a, splitup, lspring", "logictype_a, $hfpTop, geggs, eggaim, springPad", "logictype_a, trainswhp1, @Inside Chuffy, geggs, eggaim, springPad", "logictype_a, $extremelyLongJump", "logictype_a, $hfpTop, $clockwork_shot", "logictype_a, trainswhp1, @Inside Chuffy, $clockwork_shot",
-              "logictype_g, splitup, tjump", "logictype_g, splitup, wwhack", "logictype_g, splitup, glide", "logictype_g, splitup, lspring", "logictype_g, $hfpTop, geggs, eggaim, springPad", "logictype_g, trainswhp1, @Inside Chuffy, geggs, eggaim, springPad", "logictype_g, $extremelyLongJump", "logictype_g, $hfpTop, $clockwork_shot", "logictype_g, trainswhp1, @Inside Chuffy, $clockwork_shot"
+              "logictype_b, splitup, tjump, wwhack", "logictype_b, splitup, tjump, glide", "logictype_b, splitup, lspring", "logictype_b, $hfpTop, geggs, eggaim, $springPad, ttrot", "logictype_b, trainswhp1, @Inside Chuffy, geggs, eggaim, $springPad, ttrot",
+              "logictype_n, splitup, tjump", "logictype_n, splitup, wwhack", "logictype_n, splitup, glide", "logictype_n, splitup, lspring", "logictype_n, $hfpTop, geggs, eggaim, springPad, ttrot", "logictype_n, trainswhp1, @Inside Chuffy, geggs, eggaim, springPad, ttrot",
+              "logictype_a, splitup, tjump", "logictype_a, splitup, wwhack", "logictype_a, splitup, glide", "logictype_a, splitup, lspring", "logictype_a, $hfpTop, geggs, eggaim, springPad, ttrot", "logictype_a, trainswhp1, @Inside Chuffy, geggs, eggaim, springPad, ttrot", "logictype_a, $extremelyLongJump", "logictype_a, $hfpTop, $clockwork_shot", "logictype_a, trainswhp1, @Inside Chuffy, $clockwork_shot",
+              "logictype_g, splitup, tjump", "logictype_g, splitup, wwhack", "logictype_g, splitup, glide", "logictype_g, splitup, lspring", "logictype_g, $hfpTop, geggs, eggaim, springPad, ttrot", "logictype_g, trainswhp1, @Inside Chuffy, geggs, eggaim, springPad, ttrot", "logictype_g, $extremelyLongJump", "logictype_g, $hfpTop, $clockwork_shot", "logictype_g, trainswhp1, @Inside Chuffy, $clockwork_shot"
             ]
           }
         ],
@@ -8526,7 +8526,7 @@
         "sections": [
           {
             "name": "Train Switch",
-            "access_rules": [ "humbahp, $lower_icy_side", "humbahp, trainswhp1, @Inside Chuffy" ]
+            "access_rules": [ "humbahp, $hfpTop", "humbahp, trainswhp1, @Inside Chuffy" ]
           }
         ],
         "map_locations": [
@@ -8543,10 +8543,10 @@
           {
             "name": "Jinjo",
             "access_rules": [
-              "logictype_b, $lower_icy_side, $canShootEggs|feggs", "logictype_b, trainswhp1, @Inside Chuffy, $canShootEggs|feggs", "logictype_b, $lower_icy_side, $has_explosives", "logictype_b, trainswhp1, @Inside Chuffy, $has_explosives", "logictype_b, $lower_icy_side, $billDrill", "logictype_b, trainswhp1, @Inside Chuffy, $billDrill",
-              "logictype_n, $lower_icy_side, $canDoSmallElevation, $canShootEggs|feggs", "logictype_n, $lower_icy_side, $canDoSmallElevation, $has_explosives", "logictype_n, $lower_icy_side, $canDoSmallElevation, $billDrill", "logictype_n, $lower_icy_side, bbust, $canShootEggs|feggs", "logictype_n, $lower_icy_side, bbust, $has_explosives", "logictype_n, $lower_icy_side, bbust, $billDrill", "logictype_n, $lower_icy_side, mumbohp, tjump", "logictype_n, $lower_icy_side, splitup, tjump, lspring, $canShootEggs|feggs", "logictype_n, $lower_icy_side, splitup, tjump, lspring, $has_explosives", "logictype_n, trainswhp1, @Inside Chuffy, $canDoSmallElevation, $canShootEggs|feggs", "logictype_n, trainswhp1, @Inside Chuffy, $canDoSmallElevation, $has_explosives", "logictype_n, trainswhp1, @Inside Chuffy, $canDoSmallElevation, $billDrill", "logictype_n, trainswhp1, @Inside Chuffy, bbust, $canShootEggs|feggs", "logictype_n, trainswhp1, @Inside Chuffy, bbust, $has_explosives", "logictype_n, trainswhp1, @Inside Chuffy, bbust, $billDrill", "logictype_n, trainswhp1, @Inside Chuffy, mumbohp, tjump", "logictype_n, trainswhp1, @Inside Chuffy, splitup, tjump, lspring, $canShootEggs|feggs", "logictype_n, trainswhp1, @Inside Chuffy, splitup, tjump, lspring, $has_explosives",
-              "logictype_a, $lower_icy_side, $canDoSmallElevation, $canShootEggs|feggs", "logictype_a, $lower_icy_side, $canDoSmallElevation, $has_explosives", "logictype_a, $lower_icy_side, $canDoSmallElevation, $billDrill", "logictype_a, $lower_icy_side, bbust, $canShootEggs|feggs", "logictype_a, $lower_icy_side, bbust, $has_explosives", "logictype_a, $lower_icy_side, bbust, $billDrill", "logictype_a, $lower_icy_side, mumbohp, tjump", "logictype_a, $lower_icy_side, splitup, tjump, lspring, $canShootEggs|feggs", "logictype_a, $lower_icy_side, splitup, tjump, lspring, $has_explosives", "logictype_a, $lower_icy_side, $clockwork_shot", "logictype_a, trainswhp1, @Inside Chuffy, $canDoSmallElevation, $canShootEggs|feggs", "logictype_a, trainswhp1, @Inside Chuffy, $canDoSmallElevation, $has_explosives", "logictype_a, trainswhp1, @Inside Chuffy, $canDoSmallElevation, $billDrill", "logictype_a, trainswhp1, @Inside Chuffy, bbust, $canShootEggs|feggs", "logictype_a, trainswhp1, @Inside Chuffy, bbust, $has_explosives", "logictype_a, trainswhp1, @Inside Chuffy, bbust, $billDrill", "logictype_a, trainswhp1, @Inside Chuffy, mumbohp, tjump", "logictype_a, trainswhp1, @Inside Chuffy, splitup, tjump, lspring, $canShootEggs|feggs", "logictype_a, trainswhp1, @Inside Chuffy, splitup, tjump, lspring, $has_explosives", "logictype_a, trainswhp1, @Inside Chuffy, $clockwork_shot",
-              "logictype_g, $lower_icy_side, $canDoSmallElevation, $canShootEggs|feggs", "logictype_g, $lower_icy_side, $canDoSmallElevation, $has_explosives", "logictype_g, $lower_icy_side, $canDoSmallElevation, $billDrill", "logictype_g, $lower_icy_side, bbust, $canShootEggs|feggs", "logictype_g, $lower_icy_side, bbust, $has_explosives", "logictype_g, $lower_icy_side, bbust, $billDrill", "logictype_g, $lower_icy_side, mumbohp, tjump", "logictype_g, $lower_icy_side, splitup, tjump, lspring, $canShootEggs|feggs", "logictype_g, $lower_icy_side, splitup, tjump, lspring, $has_explosives", "logictype_g, $lower_icy_side, $clockwork_shot", "logictype_g, trainswhp1, @Inside Chuffy, $canDoSmallElevation, $canShootEggs|feggs", "logictype_g, trainswhp1, @Inside Chuffy, $canDoSmallElevation, $has_explosives", "logictype_g, trainswhp1, @Inside Chuffy, $canDoSmallElevation, $billDrill", "logictype_g, trainswhp1, @Inside Chuffy, bbust, $canShootEggs|feggs", "logictype_g, trainswhp1, @Inside Chuffy, bbust, $has_explosives", "logictype_g, trainswhp1, @Inside Chuffy, bbust, $billDrill", "logictype_g, trainswhp1, @Inside Chuffy, mumbohp, tjump", "logictype_g, trainswhp1, @Inside Chuffy, splitup, tjump, lspring, $canShootEggs|feggs", "logictype_g, trainswhp1, @Inside Chuffy, splitup, tjump, lspring, $has_explosives", "logictype_g, trainswhp1, @Inside Chuffy, $clockwork_shot"
+              "logictype_b, $hfpTop, $canShootEggs|feggs", "logictype_b, trainswhp1, @Inside Chuffy, $canShootEggs|feggs", "logictype_b, $hfpTop, $has_explosives", "logictype_b, trainswhp1, @Inside Chuffy, $has_explosives", "logictype_b, $hfpTop, $billDrill", "logictype_b, trainswhp1, @Inside Chuffy, $billDrill",
+              "logictype_n, $hfpTop, $canDoSmallElevation, $canShootEggs|feggs", "logictype_n, $hfpTop, $canDoSmallElevation, $has_explosives", "logictype_n, $hfpTop, $canDoSmallElevation, $billDrill", "logictype_n, $hfpTop, bbust, $canShootEggs|feggs", "logictype_n, $hfpTop, bbust, $has_explosives", "logictype_n, $hfpTop, bbust, $billDrill", "logictype_n, $hfpTop, mumbohp, tjump", "logictype_n, $hfpTop, splitup, tjump, lspring, $canShootEggs|feggs", "logictype_n, $hfpTop, splitup, tjump, lspring, $has_explosives", "logictype_n, trainswhp1, @Inside Chuffy, $canDoSmallElevation, $canShootEggs|feggs", "logictype_n, trainswhp1, @Inside Chuffy, $canDoSmallElevation, $has_explosives", "logictype_n, trainswhp1, @Inside Chuffy, $canDoSmallElevation, $billDrill", "logictype_n, trainswhp1, @Inside Chuffy, bbust, $canShootEggs|feggs", "logictype_n, trainswhp1, @Inside Chuffy, bbust, $has_explosives", "logictype_n, trainswhp1, @Inside Chuffy, bbust, $billDrill", "logictype_n, trainswhp1, @Inside Chuffy, mumbohp, tjump", "logictype_n, trainswhp1, @Inside Chuffy, splitup, tjump, lspring, $canShootEggs|feggs", "logictype_n, trainswhp1, @Inside Chuffy, splitup, tjump, lspring, $has_explosives",
+              "logictype_a, $hfpTop, $canDoSmallElevation, $canShootEggs|feggs", "logictype_a, $hfpTop, $canDoSmallElevation, $has_explosives", "logictype_a, $hfpTop, $canDoSmallElevation, $billDrill", "logictype_a, $hfpTop, bbust, $canShootEggs|feggs", "logictype_a, $hfpTop, bbust, $has_explosives", "logictype_a, $hfpTop, bbust, $billDrill", "logictype_a, $hfpTop, mumbohp, tjump", "logictype_a, $hfpTop, splitup, tjump, lspring, $canShootEggs|feggs", "logictype_a, $hfpTop, splitup, tjump, lspring, $has_explosives", "logictype_a, $hfpTop, $clockwork_shot", "logictype_a, trainswhp1, @Inside Chuffy, $canDoSmallElevation, $canShootEggs|feggs", "logictype_a, trainswhp1, @Inside Chuffy, $canDoSmallElevation, $has_explosives", "logictype_a, trainswhp1, @Inside Chuffy, $canDoSmallElevation, $billDrill", "logictype_a, trainswhp1, @Inside Chuffy, bbust, $canShootEggs|feggs", "logictype_a, trainswhp1, @Inside Chuffy, bbust, $has_explosives", "logictype_a, trainswhp1, @Inside Chuffy, bbust, $billDrill", "logictype_a, trainswhp1, @Inside Chuffy, mumbohp, tjump", "logictype_a, trainswhp1, @Inside Chuffy, splitup, tjump, lspring, $canShootEggs|feggs", "logictype_a, trainswhp1, @Inside Chuffy, splitup, tjump, lspring, $has_explosives", "logictype_a, trainswhp1, @Inside Chuffy, $clockwork_shot",
+              "logictype_g, $hfpTop, $canDoSmallElevation, $canShootEggs|feggs", "logictype_g, $hfpTop, $canDoSmallElevation, $has_explosives", "logictype_g, $hfpTop, $canDoSmallElevation, $billDrill", "logictype_g, $hfpTop, bbust, $canShootEggs|feggs", "logictype_g, $hfpTop, bbust, $has_explosives", "logictype_g, $hfpTop, bbust, $billDrill", "logictype_g, $hfpTop, mumbohp, tjump", "logictype_g, $hfpTop, splitup, tjump, lspring, $canShootEggs|feggs", "logictype_g, $hfpTop, splitup, tjump, lspring, $has_explosives", "logictype_g, $hfpTop, $clockwork_shot", "logictype_g, trainswhp1, @Inside Chuffy, $canDoSmallElevation, $canShootEggs|feggs", "logictype_g, trainswhp1, @Inside Chuffy, $canDoSmallElevation, $has_explosives", "logictype_g, trainswhp1, @Inside Chuffy, $canDoSmallElevation, $billDrill", "logictype_g, trainswhp1, @Inside Chuffy, bbust, $canShootEggs|feggs", "logictype_g, trainswhp1, @Inside Chuffy, bbust, $has_explosives", "logictype_g, trainswhp1, @Inside Chuffy, bbust, $billDrill", "logictype_g, trainswhp1, @Inside Chuffy, mumbohp, tjump", "logictype_g, trainswhp1, @Inside Chuffy, splitup, tjump, lspring, $canShootEggs|feggs", "logictype_g, trainswhp1, @Inside Chuffy, splitup, tjump, lspring, $has_explosives", "logictype_g, trainswhp1, @Inside Chuffy, $clockwork_shot"
             ]
           }
         ],
@@ -8564,10 +8564,10 @@
           {
             "name": "Jinjo",
             "access_rules": [
-              "logictype_b, humbahp, $lower_icy_side", "logictype_b, humbahp, trainswhp1, @Inside Chuffy",
-              "logictype_n, humbahp, $lower_icy_side", "logictype_n, humbahp, trainswhp1, @Inside Chuffy",
-              "logictype_a, humbahp, $lower_icy_side", "logictype_a, humbahp, trainswhp1, @Inside Chuffy", "logictype_a, $clockwork_shot",
-              "logictype_g, humbahp, $lower_icy_side", "logictype_g, humbahp, trainswhp1, @Inside Chuffy", "logictype_g, $clockwork_shot"
+              "logictype_b, humbahp, $hfpTop", "logictype_b, humbahp, trainswhp1, @Inside Chuffy",
+              "logictype_n, humbahp, $hfpTop", "logictype_n, humbahp, trainswhp1, @Inside Chuffy",
+              "logictype_a, humbahp, $hfpTop", "logictype_a, humbahp, trainswhp1, @Inside Chuffy", "logictype_a, $clockwork_shot",
+              "logictype_g, humbahp, $hfpTop", "logictype_g, humbahp, trainswhp1, @Inside Chuffy", "logictype_g, $clockwork_shot"
             ]
           }
         ],
@@ -8608,8 +8608,8 @@
             "access_rules": [
               "logictype_b, splitup, tjump, wwhack", "logictype_b, splitup, tjump, glide", "logictype_b, splitup, lspring",
               "logictype_n, splitup, tjump, wwhack", "logictype_n, splitup, tjump, glide", "logictype_n, splitup, lspring",
-              "logictype_a, splitup, tjump, wwhack", "logictype_a, splitup, tjump, glide", "logictype_a, splitup, lspring", "logictype_a, geggs, $clockwork_shot, $canDoSmallElevation, $springPad",
-              "logictype_g, splitup, tjump, wwhack", "logictype_g, splitup, tjump, glide", "logictype_g, splitup, lspring", "logictype_g, geggs, $clockwork_shot, $canDoSmallElevation, $springPad"
+              "logictype_a, splitup, tjump, wwhack", "logictype_a, splitup, tjump, glide", "logictype_a, splitup, lspring", "logictype_a, $canShootEggs|geggs, $clockwork_shot, $canDoSmallElevation, $springPad, ttrot",
+              "logictype_g, splitup, tjump, wwhack", "logictype_g, splitup, tjump, glide", "logictype_g, splitup, lspring", "logictype_g, $canShootEggs|geggs, $clockwork_shot, $canDoSmallElevation, $springPad, ttrot"
             ]
           }
         ],
@@ -8626,7 +8626,7 @@
         "sections": [
           {
             "name": "Glowbo",
-            "access_rules": [ "$lower_icy_side", "trainswhp1, @Inside Chuffy" ]
+            "access_rules": [ "$hfpTop", "trainswhp1, @Inside Chuffy" ]
           }
         ],
         "map_locations": [
@@ -8659,10 +8659,10 @@
           {
             "name": "Jiggy",
             "access_rules": [
-              "logictype_b, mumbohp, $canShootEggs|feggs, splitup, taxpack, tjump, $lower_icy_side", "logictype_b, mumbohp, $canShootEggs|feggs, splitup, taxpack, tjump, trainswhp1, @Inside Chuffy",
-              "logictype_n, mumbohp, $canShootEggs|feggs, splitup, taxpack, tjump, $lower_icy_side", "logictype_n, mumbohp, humbaih, @Pine Grove, grat, splitup, taxpack, tjump, $lower_icy_side", "logictype_n, mumbohp, $canShootEggs|feggs, splitup, taxpack, tjump, trainswhp1, @Inside Chuffy", "logictype_n, mumbohp, humbaih, @Pine Grove, grat, splitup, taxpack, tjump, trainswhp1, @Inside Chuffy",
-              "logictype_a, mumbohp, $canShootEggs|feggs, splitup, taxpack, tjump, $lower_icy_side", "logictype_a, mumbohp, humbaih, @Pine Grove, grat, splitup, taxpack, tjump, $lower_icy_side", "logictype_a, mumbohp, $canShootEggs|feggs, splitup, taxpack, tjump, trainswhp1, @Inside Chuffy", "logictype_a, mumbohp, humbaih, @Pine Grove, grat, splitup, taxpack, tjump, trainswhp1, @Inside Chuffy",
-              "logictype_g, mumbohp, $canShootEggs|feggs, splitup, taxpack, tjump, $lower_icy_side", "logictype_g, mumbohp, humbaih, @Pine Grove, grat, splitup, taxpack, tjump, $lower_icy_side", "logictype_g, mumbohp, $canShootEggs|feggs, splitup, taxpack, tjump, trainswhp1, @Inside Chuffy", "logictype_g, mumbohp, humbaih, @Pine Grove, grat, splitup, taxpack, tjump, trainswhp1, @Inside Chuffy"
+              "logictype_b, mumbohp, $canShootEggs|feggs, splitup, taxpack, tjump, $hfpTop", "logictype_b, mumbohp, $canShootEggs|feggs, splitup, taxpack, tjump, trainswhp1, @Inside Chuffy",
+              "logictype_n, mumbohp, $canShootEggs|feggs, splitup, taxpack, tjump, $hfpTop", "logictype_n, mumbohp, humbaih, @Pine Grove, grat, splitup, taxpack, tjump, $hfpTop", "logictype_n, mumbohp, $canShootEggs|feggs, splitup, taxpack, tjump, trainswhp1, @Inside Chuffy", "logictype_n, mumbohp, humbaih, @Pine Grove, grat, splitup, taxpack, tjump, trainswhp1, @Inside Chuffy",
+              "logictype_a, mumbohp, $canShootEggs|feggs, splitup, taxpack, tjump, $hfpTop", "logictype_a, mumbohp, humbaih, @Pine Grove, grat, splitup, taxpack, tjump, $hfpTop", "logictype_a, mumbohp, $canShootEggs|feggs, splitup, taxpack, tjump, trainswhp1, @Inside Chuffy", "logictype_a, mumbohp, humbaih, @Pine Grove, grat, splitup, taxpack, tjump, trainswhp1, @Inside Chuffy",
+              "logictype_g, mumbohp, $canShootEggs|feggs, splitup, taxpack, tjump, $hfpTop", "logictype_g, mumbohp, humbaih, @Pine Grove, grat, splitup, taxpack, tjump, $hfpTop", "logictype_g, mumbohp, $canShootEggs|feggs, splitup, taxpack, tjump, trainswhp1, @Inside Chuffy", "logictype_g, mumbohp, humbaih, @Pine Grove, grat, splitup, taxpack, tjump, trainswhp1, @Inside Chuffy"
             ]
           }
         ],
@@ -8680,10 +8680,10 @@
           {
             "name": "Jiggy",
             "access_rules": [
-              "logictype_b, $lower_icy_side, splitup, shpack, $canDoSmallElevation", "logictype_b, trainswhp1, @Inside Chuffy, splitup, shpack, $canDoSmallElevation",
-              "logictype_n, $lower_icy_side, splitup, shpack, $canDoSmallElevation", "logictype_n, trainswhp1, @Inside Chuffy, splitup, shpack, $canDoSmallElevation",
-              "logictype_a, $lower_icy_side, splitup, shpack, $canDoSmallElevation", "logictype_a, trainswhp1, @Inside Chuffy, splitup, shpack, $canDoSmallElevation",
-              "logictype_g, $lower_icy_side, splitup, shpack", "logictype_g, $lower_icy_side, ceggs, eggshoot, ttrot", "logictype_g, $lower_icy_side, ceggs, eggshoot, fflip", "logictype_g, $lower_icy_side, splitup, lspring", "logictype_g, trainswhp1, @Inside Chuffy, splitup, shpack", "logictype_g, trainswhp1, @Inside Chuffy, ceggs, eggshoot, ttrot", "logictype_g, trainswhp1, @Inside Chuffy, ceggs, eggshoot, fflip", "logictype_g, trainswhp1, @Inside Chuffy, splitup, lspring"
+              "logictype_b, $hfpTop, splitup, shpack, $canDoSmallElevation", "logictype_b, trainswhp1, @Inside Chuffy, splitup, shpack, $canDoSmallElevation",
+              "logictype_n, $hfpTop, splitup, shpack, $canDoSmallElevation", "logictype_n, trainswhp1, @Inside Chuffy, splitup, shpack, $canDoSmallElevation",
+              "logictype_a, $hfpTop, splitup, shpack, $canDoSmallElevation", "logictype_a, trainswhp1, @Inside Chuffy, splitup, shpack, $canDoSmallElevation",
+              "logictype_g, $hfpTop, splitup, shpack", "logictype_g, $hfpTop, ceggs, eggshoot, ttrot", "logictype_g, $hfpTop, ceggs, eggshoot, fflip", "logictype_g, $hfpTop, splitup, lspring", "logictype_g, trainswhp1, @Inside Chuffy, splitup, shpack", "logictype_g, trainswhp1, @Inside Chuffy, ceggs, eggshoot, ttrot", "logictype_g, trainswhp1, @Inside Chuffy, ceggs, eggshoot, fflip", "logictype_g, trainswhp1, @Inside Chuffy, splitup, lspring"
             ]
           }
         ],
@@ -8722,10 +8722,10 @@
           {
             "name": "Jiggy",
             "access_rules": [
-              "logictype_b, humbahp, $lower_icy_side, splitup, shpack, ggrab", "logictype_b, humbahp, trainswhp1, @Inside Chuffy, splitup, shpack, ggrab",
-              "logictype_n, humbahp, $lower_icy_side, splitup, shpack, packwh, tjump", "logictype_n, humbahp, $lower_icy_side, splitup, shpack, ggrab", "logictype_n, humbahp, trainswhp1, @Inside Chuffy, splitup, shpack, packwh, tjump", "logictype_n, humbahp, trainswhp1, @Inside Chuffy, splitup, shpack, ggrab",
-              "logictype_a, humbahp, $lower_icy_side, splitup, shpack, packwh, tjump", "logictype_a, humbahp, $lower_icy_side, splitup, shpack, ggrab", "logictype_a, humbahp, trainswhp1, @Inside Chuffy, splitup, shpack, packwh, tjump", "logictype_a, humbahp, trainswhp1, @Inside Chuffy, splitup, shpack, ggrab",
-              "logictype_g, humbahp, $lower_icy_side, splitup, shpack, packwh", "logictype_g, humbahp, $lower_icy_side, splitup, shpack, ggrab", "logictype_g, humbahp, trainswhp1, @Inside Chuffy, splitup, shpack, packwh", "logictype_g, humbahp, trainswhp1, @Inside Chuffy, splitup, shpack, ggrab"
+              "logictype_b, humbahp, $hfpTop, splitup, shpack, ggrab", "logictype_b, humbahp, trainswhp1, @Inside Chuffy, splitup, shpack, ggrab",
+              "logictype_n, humbahp, $hfpTop, splitup, shpack, packwh, tjump", "logictype_n, humbahp, $hfpTop, splitup, shpack, ggrab", "logictype_n, humbahp, trainswhp1, @Inside Chuffy, splitup, shpack, packwh, tjump", "logictype_n, humbahp, trainswhp1, @Inside Chuffy, splitup, shpack, ggrab",
+              "logictype_a, humbahp, $hfpTop, splitup, shpack, packwh, tjump", "logictype_a, humbahp, $hfpTop, splitup, shpack, ggrab", "logictype_a, humbahp, trainswhp1, @Inside Chuffy, splitup, shpack, packwh, tjump", "logictype_a, humbahp, trainswhp1, @Inside Chuffy, splitup, shpack, ggrab",
+              "logictype_g, humbahp, $hfpTop, splitup, shpack, packwh", "logictype_g, humbahp, $hfpTop, splitup, shpack, ggrab", "logictype_g, humbahp, trainswhp1, @Inside Chuffy, splitup, shpack, packwh", "logictype_g, humbahp, trainswhp1, @Inside Chuffy, splitup, shpack, ggrab"
             ]
           }
         ],
@@ -8789,7 +8789,7 @@
           {
             "name": "Jinjo",
             "access_rules": [
-              "logictype_b, splitup, glide, geggs, eggaim",
+              "logictype_b, splitup, glide, geggs, eggaim, tjump",
               "logictype_n, splitup, glide", "logictype_n, splitup, lspring, wwhack",
               "logictype_a, splitup, glide", "logictype_a, splitup, lspring", "logictype_a, $clockwork_shot, tjump, splitup", "logictype_a, $clockwork_shot, tjump, ttrot",
               "logictype_g, splitup, glide", "logictype_g, splitup, lspring", "logictype_g, $clockwork_shot, tjump, splitup", "logictype_g, $clockwork_shot, tjump, ttrot"
@@ -8801,7 +8801,7 @@
               "logictype_b, climb, ceggs", "logictype_b, climb, splitup, shpack",
               "logictype_n, climb, splitup, shpack", "logictype_n, lspring, $canShootEggs|ceggs", "logictype_n, climb, $canShootEggs|ceggs",
               "logictype_a, $hfpTop, climb, splitup, shpack", "logictype_a, trainswhp1, @Inside Chuffy, climb, splitup, shpack", "logictype_a, $hfpTop, lspring, $canShootEggs|ceggs", "logictype_a, trainswhp1, @Inside Chuffy, lspring, $canShootEggs|ceggs", "logictype_a, $hfpTop, climb, $canShootEggs|ceggs", "logictype_a, trainswhp1, @Inside Chuffy, climb, $canShootEggs|ceggs",
-              "logictype_g, $hfpTop, climb, splitup, shpack", "logictype_g, trainswhp1, @Inside Chuffy, climb, splitup, shpack", "logictype_g, $hfpTop, lspring, $canShootEggs|ceggs", "logictype_g, trainswhp1, @Inside Chuffy, lspring, $canShootEggs|ceggs", "logictype_g, $hfpTop, climb, $canShootEggs|ceggs", "logictype_g, trainswhp1, @Inside Chuffy, climb, $canShootEggs|ceggs", "logictype_g, ttrot, $canShootEggs|ceggs, eggaim", "logictype_g, splitup, $canShootEggs|ceggs, eggaim"
+              "logictype_g, $hfpTop, climb, splitup, shpack", "logictype_g, trainswhp1, @Inside Chuffy, climb, splitup, shpack", "logictype_g, $hfpTop, lspring, $canShootEggs|ceggs", "logictype_g, trainswhp1, @Inside Chuffy, lspring, $canShootEggs|ceggs", "logictype_g, $hfpTop, climb, $canShootEggs|ceggs", "logictype_g, trainswhp1, @Inside Chuffy, climb, $canShootEggs|ceggs", "logictype_g, ttrot, $clockwork_shot", "logictype_g, splitup, $clockwork_shot"
             ]
           }
         ],
@@ -8816,10 +8816,10 @@
       {
         "name": "Lower Icy Side Warp Pad Notes",
         "access_rules": [
-          "logictype_b, $lower_icy_side, $iceCube", "logictype_b, trainswhp1, @Inside Chuffy, $iceCube",
-          "logictype_n, $lower_icy_side, $iceCube", "logictype_n, trainswhp1, @Inside Chuffy, $iceCube", "logictype_n, $lower_icy_side, splitup, $iceCubeKazooie", "logictype_n, trainswhp1, @Inside Chuffy, splitup, $iceCubeKazooie", "logictype_n, $lower_icy_side, mumbohp", "logictype_n, trainswhp1, @Inside Chuffy, mumbohp", "logictype_n, $lower_icy_side, splitup, packwh", "logictype_n, trainswhp1, @Inside Chuffy, splitup, packwh", "logictype_n, humbahp, $lower_icy_side", "logictype_n, trainswhp1, @Inside Chuffy, humbahp, $lower_icy_side", "logictype_n, trainswhp1, @Inside Chuffy, humbahp",
-          "logictype_a, $lower_icy_side, $iceCube", "logictype_a, trainswhp1, @Inside Chuffy, $iceCube", "logictype_a, $lower_icy_side, splitup, $iceCubeKazooie", "logictype_a, trainswhp1, @Inside Chuffy, splitup, $iceCubeKazooie", "logictype_a, $lower_icy_side, mumbohp", "logictype_a, trainswhp1, @Inside Chuffy, mumbohp", "logictype_a, $lower_icy_side, splitup, packwh", "logictype_a, trainswhp1, @Inside Chuffy, splitup, packwh", "logictype_a, humbahp, $lower_icy_side", "logictype_a, trainswhp1, @Inside Chuffy, humbahp, $lower_icy_side", "logictype_a, trainswhp1, @Inside Chuffy, humbahp",
-          "logictype_g, $lower_icy_side, $iceCube", "logictype_g, trainswhp1, @Inside Chuffy, $iceCube", "logictype_g, $lower_icy_side, splitup, $iceCubeKazooie", "logictype_g, trainswhp1, @Inside Chuffy, splitup, $iceCubeKazooie", "logictype_g, $lower_icy_side, mumbohp", "logictype_g, trainswhp1, @Inside Chuffy, mumbohp", "logictype_g, $lower_icy_side, splitup, packwh", "logictype_g, trainswhp1, @Inside Chuffy, splitup, packwh", "logictype_g, humbahp, $lower_icy_side", "logictype_g, trainswhp1, @Inside Chuffy, humbahp, $lower_icy_side", "logictype_g, trainswhp1, @Inside Chuffy, humbahp"
+          "logictype_b, $hfpTop, $iceCube", "logictype_b, trainswhp1, @Inside Chuffy, $iceCube",
+          "logictype_n, $hfpTop, $iceCube", "logictype_n, trainswhp1, @Inside Chuffy, $iceCube", "logictype_n, $hfpTop, splitup, $iceCubeKazooie", "logictype_n, trainswhp1, @Inside Chuffy, splitup, $iceCubeKazooie", "logictype_n, $hfpTop, mumbohp", "logictype_n, trainswhp1, @Inside Chuffy, mumbohp", "logictype_n, $hfpTop, splitup, packwh", "logictype_n, trainswhp1, @Inside Chuffy, splitup, packwh", "logictype_n, humbahp, $hfpTop", "logictype_n, trainswhp1, @Inside Chuffy, humbahp, $hfpTop", "logictype_n, trainswhp1, @Inside Chuffy, humbahp",
+          "logictype_a, $hfpTop, $iceCube", "logictype_a, trainswhp1, @Inside Chuffy, $iceCube", "logictype_a, $hfpTop, splitup, $iceCubeKazooie", "logictype_a, trainswhp1, @Inside Chuffy, splitup, $iceCubeKazooie", "logictype_a, $hfpTop, mumbohp", "logictype_a, trainswhp1, @Inside Chuffy, mumbohp", "logictype_a, $hfpTop, splitup, packwh", "logictype_a, trainswhp1, @Inside Chuffy, splitup, packwh", "logictype_a, humbahp, $hfpTop", "logictype_a, trainswhp1, @Inside Chuffy, humbahp, $hfpTop", "logictype_a, trainswhp1, @Inside Chuffy, humbahp",
+          "logictype_g, $hfpTop, $iceCube", "logictype_g, trainswhp1, @Inside Chuffy, $iceCube", "logictype_g, $hfpTop, splitup, $iceCubeKazooie", "logictype_g, trainswhp1, @Inside Chuffy, splitup, $iceCubeKazooie", "logictype_g, $hfpTop, mumbohp", "logictype_g, trainswhp1, @Inside Chuffy, mumbohp", "logictype_g, $hfpTop, splitup, packwh", "logictype_g, trainswhp1, @Inside Chuffy, splitup, packwh", "logictype_g, humbahp, $hfpTop", "logictype_g, trainswhp1, @Inside Chuffy, humbahp, $hfpTop", "logictype_g, trainswhp1, @Inside Chuffy, humbahp"
         ],
         "sections": [
           {
@@ -8840,10 +8840,10 @@
       {
         "name": "Boggy's Igloo Notes",
         "access_rules": [
-              "logictype_b, $iceCube, $lower_icy_side, $canDoSmallElevation", "logictype_b, $iceCube, trainswhp1, @Inside Chuffy, $canDoSmallElevation",
-              "logictype_n, $lower_icy_side, $iceCube, $canDoSmallElevation", "logictype_n, $lower_icy_side, $iceCube, bbust", "logictype_n, $lower_icy_side, splitup, lspring, $iceCubeKazooie", "logictype_n, $lower_icy_side, splitup, tjump, $iceCubeKazooie", "logictype_n, $lower_icy_side, tjump, mumbohp", "logictype_n, $lower_icy_side, splitup, packwh", "logictype_n, $lower_icy_side, humbahp", "logictype_n, trainswhp1, @Inside Chuffy, $iceCube, $canDoSmallElevation", "logictype_n, trainswhp1, @Inside Chuffy, $iceCube, bbust", "logictype_n, trainswhp1, @Inside Chuffy, splitup, lspring, $iceCubeKazooie", "logictype_n, trainswhp1, @Inside Chuffy, splitup, tjump, $iceCubeKazooie", "logictype_n, trainswhp1, @Inside Chuffy, tjump, mumbohp", "logictype_n, trainswhp1, @Inside Chuffy, splitup, packwh", "logictype_n, trainswhp1, @Inside Chuffy, humbahp",
-              "logictype_a, $lower_icy_side, $iceCube, $canDoSmallElevation", "logictype_a, $lower_icy_side, $iceCube, bbust", "logictype_a, $lower_icy_side, splitup, lspring, $iceCubeKazooie", "logictype_a, $lower_icy_side, splitup, tjump, $iceCubeKazooie", "logictype_a, $lower_icy_side, tjump, mumbohp", "logictype_a, $lower_icy_side, splitup, packwh", "logictype_a, $lower_icy_side, $clockwork_shot", "logictype_a, $lower_icy_side, humbahp", "logictype_a, trainswhp1, @Inside Chuffy, $iceCube, $canDoSmallElevation", "logictype_a, trainswhp1, @Inside Chuffy, $iceCube, bbust", "logictype_a, trainswhp1, @Inside Chuffy, splitup, lspring, $iceCubeKazooie", "logictype_a, trainswhp1, @Inside Chuffy, splitup, tjump, $iceCubeKazooie", "logictype_a, trainswhp1, @Inside Chuffy, tjump, mumbohp", "logictype_a, trainswhp1, @Inside Chuffy, splitup, packwh", "logictype_a, trainswhp1, @Inside Chuffy, $clockwork_shot", "logictype_a, trainswhp1, @Inside Chuffy, humbahp",
-              "logictype_g, $lower_icy_side, $iceCube, $canDoSmallElevation", "logictype_g, $lower_icy_side, $iceCube, bbust", "logictype_g, $lower_icy_side, splitup, lspring, $iceCubeKazooie", "logictype_g, $lower_icy_side, splitup, tjump, $iceCubeKazooie", "logictype_g, $lower_icy_side, tjump, mumbohp", "logictype_g, $lower_icy_side, splitup, packwh", "logictype_g, $lower_icy_side, $clockwork_shot", "logictype_g, $lower_icy_side, humbahp", "logictype_g, trainswhp1, @Inside Chuffy, $iceCube, $canDoSmallElevation", "logictype_g, trainswhp1, @Inside Chuffy, $iceCube, bbust", "logictype_g, trainswhp1, @Inside Chuffy, splitup, lspring, $iceCubeKazooie", "logictype_g, trainswhp1, @Inside Chuffy, splitup, tjump, $iceCubeKazooie", "logictype_g, trainswhp1, @Inside Chuffy, tjump, mumbohp", "logictype_g, trainswhp1, @Inside Chuffy, splitup, packwh", "logictype_g, trainswhp1, @Inside Chuffy, $clockwork_shot", "logictype_g, trainswhp1, @Inside Chuffy, humbahp"
+              "logictype_b, $iceCube, $hfpTop, $canDoSmallElevation", "logictype_b, $iceCube, trainswhp1, @Inside Chuffy, $canDoSmallElevation",
+              "logictype_n, $hfpTop, $iceCube, $canDoSmallElevation", "logictype_n, $hfpTop, $iceCube, bbust", "logictype_n, $hfpTop, splitup, lspring, $iceCubeKazooie", "logictype_n, $hfpTop, splitup, tjump, $iceCubeKazooie", "logictype_n, $hfpTop, tjump, mumbohp", "logictype_n, $hfpTop, splitup, packwh", "logictype_n, $hfpTop, humbahp", "logictype_n, trainswhp1, @Inside Chuffy, $iceCube, $canDoSmallElevation", "logictype_n, trainswhp1, @Inside Chuffy, $iceCube, bbust", "logictype_n, trainswhp1, @Inside Chuffy, splitup, lspring, $iceCubeKazooie", "logictype_n, trainswhp1, @Inside Chuffy, splitup, tjump, $iceCubeKazooie", "logictype_n, trainswhp1, @Inside Chuffy, tjump, mumbohp", "logictype_n, trainswhp1, @Inside Chuffy, splitup, packwh", "logictype_n, trainswhp1, @Inside Chuffy, humbahp",
+              "logictype_a, $hfpTop, $iceCube, $canDoSmallElevation", "logictype_a, $hfpTop, $iceCube, bbust", "logictype_a, $hfpTop, splitup, lspring, $iceCubeKazooie", "logictype_a, $hfpTop, splitup, tjump, $iceCubeKazooie", "logictype_a, $hfpTop, tjump, mumbohp", "logictype_a, $hfpTop, splitup, packwh", "logictype_a, $hfpTop, $clockwork_shot", "logictype_a, $hfpTop, humbahp", "logictype_a, trainswhp1, @Inside Chuffy, $iceCube, $canDoSmallElevation", "logictype_a, trainswhp1, @Inside Chuffy, $iceCube, bbust", "logictype_a, trainswhp1, @Inside Chuffy, splitup, lspring, $iceCubeKazooie", "logictype_a, trainswhp1, @Inside Chuffy, splitup, tjump, $iceCubeKazooie", "logictype_a, trainswhp1, @Inside Chuffy, tjump, mumbohp", "logictype_a, trainswhp1, @Inside Chuffy, splitup, packwh", "logictype_a, trainswhp1, @Inside Chuffy, $clockwork_shot", "logictype_a, trainswhp1, @Inside Chuffy, humbahp",
+              "logictype_g, $hfpTop, $iceCube, $canDoSmallElevation", "logictype_g, $hfpTop, $iceCube, bbust", "logictype_g, $hfpTop, splitup, lspring, $iceCubeKazooie", "logictype_g, $hfpTop, splitup, tjump, $iceCubeKazooie", "logictype_g, $hfpTop, tjump, mumbohp", "logictype_g, $hfpTop, splitup, packwh", "logictype_g, $hfpTop, $clockwork_shot", "logictype_g, $hfpTop, humbahp", "logictype_g, trainswhp1, @Inside Chuffy, $iceCube, $canDoSmallElevation", "logictype_g, trainswhp1, @Inside Chuffy, $iceCube, bbust", "logictype_g, trainswhp1, @Inside Chuffy, splitup, lspring, $iceCubeKazooie", "logictype_g, trainswhp1, @Inside Chuffy, splitup, tjump, $iceCubeKazooie", "logictype_g, trainswhp1, @Inside Chuffy, tjump, mumbohp", "logictype_g, trainswhp1, @Inside Chuffy, splitup, packwh", "logictype_g, trainswhp1, @Inside Chuffy, $clockwork_shot", "logictype_g, trainswhp1, @Inside Chuffy, humbahp"
             ],
         "sections": [
           {
@@ -8865,9 +8865,9 @@
         "name": "Oil Drill Notes",
         "access_rules": [
           "logictype_b, $hfpTop, fflip, $iceCube", "logictype_b, $hfpTop, ttrot, $iceCube", "logictype_b, $hfpTop, splitup, ggrab, packwh", "logictype_b, $hfpTop, splitup, $iceCubeKazooie", "logictype_b, trainswhp1, @Inside Chuffy, fflip, $iceCube", "logictype_b, trainswhp1, @Inside Chuffy, ttrot, $iceCube", "logictype_b, trainswhp1, @Inside Chuffy, splitup, ggrab, packwh", "logictype_b, trainswhp1, @Inside Chuffy, splitup, $iceCubeKazooie",
-          "logictype_n, $hfpTop, fflip, $iceCube", "logictype_n, $hfpTop, ttrot, $iceCube", "logictype_n, $hfpTop, fpad, $iceCube", "logictype_n, $hfpTop, splitup, ggrab, packwh", "logictype_n, $hfpTop, splitup, $iceCubeKazooie", "logictype_n, trainswhp1, @Inside Chuffy, fflip, $iceCube", "logictype_n, trainswhp1, @Inside Chuffy, ttrot, $iceCube", "logictype_n, trainswhp1, @Inside Chuffy, fpad, $iceCube", "logictype_n, trainswhp1, @Inside Chuffy, splitup, ggrab, packwh", "logictype_n, trainswhp1, @Inside Chuffy, splitup, $iceCubeKazooie", "logictype_n, humbahp, $lower_icy_side", "logictype_n, humbahp, trainswhp1, @Inside Chuffy",
-          "logictype_a, $hfpTop, fflip, $iceCube", "logictype_a, $hfpTop, ttrot, $iceCube", "logictype_a, $hfpTop, fpad, $iceCube", "logictype_a, $hfpTop, splitup, ggrab, packwh", "logictype_a, $hfpTop, splitup, $iceCubeKazooie", "logictype_a, trainswhp1, @Inside Chuffy, fflip, $iceCube", "logictype_a, trainswhp1, @Inside Chuffy, ttrot, $iceCube", "logictype_a, trainswhp1, @Inside Chuffy, fpad, $iceCube", "logictype_a, trainswhp1, @Inside Chuffy, splitup, ggrab, packwh", "logictype_a, trainswhp1, @Inside Chuffy, splitup, $iceCubeKazooie", "logictype_a, humbahp, $lower_icy_side", "logictype_a, humbahp, trainswhp1, @Inside Chuffy", "logictype_a, $hfpTop, $clockwork_shot", "logictype_a, trainswhp1, @Inside Chuffy, $clockwork_shot",
-          "logictype_g, $hfpTop, fflip, $iceCube", "logictype_g, $hfpTop, ttrot, $iceCube", "logictype_g, $hfpTop, fpad, $iceCube", "logictype_g, $hfpTop, splitup, ggrab, packwh", "logictype_g, $hfpTop, splitup, $iceCubeKazooie", "logictype_g, trainswhp1, @Inside Chuffy, fflip, $iceCube", "logictype_g, trainswhp1, @Inside Chuffy, ttrot, $iceCube", "logictype_g, trainswhp1, @Inside Chuffy, fpad, $iceCube", "logictype_g, trainswhp1, @Inside Chuffy, splitup, ggrab, packwh", "logictype_g, trainswhp1, @Inside Chuffy, splitup, $iceCubeKazooie", "logictype_g, humbahp, $lower_icy_side", "logictype_g, humbahp, trainswhp1, @Inside Chuffy", "logictype_g, $hfpTop, $clockwork_shot", "logictype_g, trainswhp1, @Inside Chuffy, $clockwork_shot"
+          "logictype_n, $hfpTop, fflip, $iceCube", "logictype_n, $hfpTop, ttrot, $iceCube", "logictype_n, $hfpTop, fpad, $iceCube", "logictype_n, $hfpTop, splitup, ggrab, packwh", "logictype_n, $hfpTop, splitup, $iceCubeKazooie", "logictype_n, trainswhp1, @Inside Chuffy, fflip, $iceCube", "logictype_n, trainswhp1, @Inside Chuffy, ttrot, $iceCube", "logictype_n, trainswhp1, @Inside Chuffy, fpad, $iceCube", "logictype_n, trainswhp1, @Inside Chuffy, splitup, ggrab, packwh", "logictype_n, trainswhp1, @Inside Chuffy, splitup, $iceCubeKazooie", "logictype_n, humbahp, $hfpTop", "logictype_n, humbahp, trainswhp1, @Inside Chuffy",
+          "logictype_a, $hfpTop, fflip, $iceCube", "logictype_a, $hfpTop, ttrot, $iceCube", "logictype_a, $hfpTop, fpad, $iceCube", "logictype_a, $hfpTop, splitup, ggrab, packwh", "logictype_a, $hfpTop, splitup, $iceCubeKazooie", "logictype_a, trainswhp1, @Inside Chuffy, fflip, $iceCube", "logictype_a, trainswhp1, @Inside Chuffy, ttrot, $iceCube", "logictype_a, trainswhp1, @Inside Chuffy, fpad, $iceCube", "logictype_a, trainswhp1, @Inside Chuffy, splitup, ggrab, packwh", "logictype_a, trainswhp1, @Inside Chuffy, splitup, $iceCubeKazooie", "logictype_a, humbahp, $hfpTop", "logictype_a, humbahp, trainswhp1, @Inside Chuffy", "logictype_a, $hfpTop, $clockwork_shot", "logictype_a, trainswhp1, @Inside Chuffy, $clockwork_shot",
+          "logictype_g, $hfpTop, fflip, $iceCube", "logictype_g, $hfpTop, ttrot, $iceCube", "logictype_g, $hfpTop, fpad, $iceCube", "logictype_g, $hfpTop, splitup, ggrab, packwh", "logictype_g, $hfpTop, splitup, $iceCubeKazooie", "logictype_g, trainswhp1, @Inside Chuffy, fflip, $iceCube", "logictype_g, trainswhp1, @Inside Chuffy, ttrot, $iceCube", "logictype_g, trainswhp1, @Inside Chuffy, fpad, $iceCube", "logictype_g, trainswhp1, @Inside Chuffy, splitup, ggrab, packwh", "logictype_g, trainswhp1, @Inside Chuffy, splitup, $iceCubeKazooie", "logictype_g, humbahp, $hfpTop", "logictype_g, humbahp, trainswhp1, @Inside Chuffy", "logictype_g, $hfpTop, $clockwork_shot", "logictype_g, trainswhp1, @Inside Chuffy, $clockwork_shot"
         ],
         "sections": [
           {
@@ -8889,9 +8889,9 @@
         "name": "Upper Icy Side Warp Pad Notes",
         "access_rules": [
           "logictype_b, $hfpTop, $iceCube", "logictype_b, trainswhp1, @Inside Chuffy, $iceCube",
-          "logictype_n, $hfpTop, $iceCube", "logictype_n, trainswhp1, @Inside Chuffy, $iceCube", "logictype_n, $hfpTop, splitup, $iceCubeKazooie", "logictype_n, trainswhp1, @Inside Chuffy, splitup, $iceCubeKazooie", "logictype_n, $hfpTop, mumbohp", "logictype_n, trainswhp1, @Inside Chuffy, mumbohp", "logictype_n, $hfpTop, splitup, packwh", "logictype_n, trainswhp1, @Inside Chuffy, splitup, packwh", "logictype_n, $hfpTop, humbahp, $lower_icy_side", "logictype_n, trainswhp1, @Inside Chuffy, humbahp, $lower_icy_side", "logictype_n, trainswhp1, @Inside Chuffy, humbahp",
-          "logictype_a, $hfpTop, $iceCube", "logictype_a, trainswhp1, @Inside Chuffy, $iceCube", "logictype_a, $hfpTop, splitup, $iceCubeKazooie", "logictype_a, trainswhp1, @Inside Chuffy, splitup, $iceCubeKazooie", "logictype_a, $hfpTop, mumbohp", "logictype_a, trainswhp1, @Inside Chuffy, mumbohp", "logictype_a, $hfpTop, splitup, packwh", "logictype_a, trainswhp1, @Inside Chuffy, splitup, packwh", "logictype_a, $hfpTop, humbahp, $lower_icy_side", "logictype_a, trainswhp1, @Inside Chuffy, humbahp, $lower_icy_side", "logictype_a, trainswhp1, @Inside Chuffy, humbahp",
-          "logictype_g, $hfpTop, $iceCube", "logictype_g, trainswhp1, @Inside Chuffy, $iceCube", "logictype_g, $hfpTop, splitup, $iceCubeKazooie", "logictype_g, trainswhp1, @Inside Chuffy, splitup, $iceCubeKazooie", "logictype_g, $hfpTop, mumbohp", "logictype_g, trainswhp1, @Inside Chuffy, mumbohp", "logictype_g, $hfpTop, splitup, packwh", "logictype_g, trainswhp1, @Inside Chuffy, splitup, packwh", "logictype_g, $hfpTop, humbahp, $lower_icy_side", "logictype_g, trainswhp1, @Inside Chuffy, humbahp, $lower_icy_side", "logictype_g, trainswhp1, @Inside Chuffy, humbahp"
+          "logictype_n, $hfpTop, $iceCube", "logictype_n, trainswhp1, @Inside Chuffy, $iceCube", "logictype_n, $hfpTop, splitup, $iceCubeKazooie", "logictype_n, trainswhp1, @Inside Chuffy, splitup, $iceCubeKazooie", "logictype_n, $hfpTop, mumbohp", "logictype_n, trainswhp1, @Inside Chuffy, mumbohp", "logictype_n, $hfpTop, splitup, packwh", "logictype_n, trainswhp1, @Inside Chuffy, splitup, packwh", "logictype_n, $hfpTop, humbahp, $hfpTop", "logictype_n, trainswhp1, @Inside Chuffy, humbahp, $hfpTop", "logictype_n, trainswhp1, @Inside Chuffy, humbahp",
+          "logictype_a, $hfpTop, $iceCube", "logictype_a, trainswhp1, @Inside Chuffy, $iceCube", "logictype_a, $hfpTop, splitup, $iceCubeKazooie", "logictype_a, trainswhp1, @Inside Chuffy, splitup, $iceCubeKazooie", "logictype_a, $hfpTop, mumbohp", "logictype_a, trainswhp1, @Inside Chuffy, mumbohp", "logictype_a, $hfpTop, splitup, packwh", "logictype_a, trainswhp1, @Inside Chuffy, splitup, packwh", "logictype_a, $hfpTop, humbahp, $hfpTop", "logictype_a, trainswhp1, @Inside Chuffy, humbahp, $hfpTop", "logictype_a, trainswhp1, @Inside Chuffy, humbahp",
+          "logictype_g, $hfpTop, $iceCube", "logictype_g, trainswhp1, @Inside Chuffy, $iceCube", "logictype_g, $hfpTop, splitup, $iceCubeKazooie", "logictype_g, trainswhp1, @Inside Chuffy, splitup, $iceCubeKazooie", "logictype_g, $hfpTop, mumbohp", "logictype_g, trainswhp1, @Inside Chuffy, mumbohp", "logictype_g, $hfpTop, splitup, packwh", "logictype_g, trainswhp1, @Inside Chuffy, splitup, packwh", "logictype_g, $hfpTop, humbahp, $hfpTop", "logictype_g, trainswhp1, @Inside Chuffy, humbahp, $hfpTop", "logictype_g, trainswhp1, @Inside Chuffy, humbahp"
         ],
         "sections": [
           {
@@ -8976,10 +8976,10 @@
           {
             "name": "Honeycomb",
             "access_rules": [
-              "logictype_b, fpad",
-              "logictype_n, fpad", "logictype_n, splitup, glide",
-              "logictype_a, fpad", "logictype_a, splitup, glide",
-              "logictype_g, fpad", "logictype_g, splitup, glide"
+              "logictype_b, fpad", "logictype_b, humbacc",
+              "logictype_n, fpad", "logictype_n, splitup, glide", "logictype_n, humbacc",
+              "logictype_a, fpad", "logictype_a, splitup, glide", "logictype_a, humbacc",
+              "logictype_g, fpad", "logictype_g, splitup, glide", "logictype_g, humbacc"
             ]
           }
         ],
@@ -9267,10 +9267,10 @@
           {
             "name": "Jinjo",
             "access_rules": [
-              "logictype_b, splitup, $springPad",
-              "logictype_n, splitup, $springPad", "logictype_n, springb, $billDrill", "logictype_n, springb, flutter", "logictype_n, springb, arat", "logictype_n, springb, splitup", "logictype_n, splitup, lspring",
-              "logictype_a, splitup, $springPad", "logictype_a, $clockwork_shot", "logictype_a, springb, $billDrill", "logictype_a, springb, flutter", "logictype_a, springb, arat", "logictype_a, springb, splitup", "logictype_a, splitup, lspring",
-              "logictype_g, splitup, $springPad", "logictype_g, $clockwork_shot", "logictype_g, springb, $billDrill", "logictype_g, springb, flutter", "logictype_g, springb, arat", "logictype_g, springb, splitup", "logictype_g, splitup, lspring"
+              "logictype_b, splitup, $springPad", "logictype_b, humbacc",
+              "logictype_n, splitup, $springPad", "logictype_n, springb, $billDrill", "logictype_n, springb, flutter", "logictype_n, springb, arat", "logictype_n, springb, splitup", "logictype_n, splitup, lspring", "logictype_n, humbacc",
+              "logictype_a, splitup, $springPad", "logictype_a, $clockwork_shot", "logictype_a, springb, $billDrill", "logictype_a, springb, flutter", "logictype_a, springb, arat", "logictype_a, springb, splitup", "logictype_a, splitup, lspring", "logictype_a, humbacc",
+              "logictype_g, splitup, $springPad", "logictype_g, $clockwork_shot", "logictype_g, springb, $billDrill", "logictype_g, springb, flutter", "logictype_g, springb, arat", "logictype_g, springb, splitup", "logictype_g, splitup, lspring", "logictype_g, humbacc"
             ]
           }
         ],
@@ -9447,10 +9447,10 @@
           {
             "name": "Note",
             "access_rules": [
-              "logictype_b, $notes_ccl_high",
-              "logictype_n, $notes_ccl_low",
-              "logictype_a, $notes_ccl_low",
-              "logictype_g, $notes_ccl_low"
+              "logictype_b, fpad", "logictype_b, $longJump, climb", "logictype_b, humbacc",
+              "logictype_n, fpad", "logictype_n, climb, $longJump", "logictype_n, climb, ggrab", "logictype_n, climb, splitup, packwh", "logictype_n, climb, splitup, sapack", "logictype_n, splitup, lspring, glide", "logictype_n, splitup, lspring, wwhack", "logictype_n, humbacc",
+              "logictype_a, fpad", "logictype_a, climb, $longJump", "logictype_a, climb, ggrab", "logictype_a, climb, splitup, packwh", "logictype_a, climb, splitup, sapack", "logictype_a, splitup, lspring, glide", "logictype_a, splitup, lspring, wwhack", "logictype_a, humbacc",
+              "logictype_g, fpad", "logictype_g, climb, $longJump", "logictype_g, climb, ggrab", "logictype_g, climb, splitup, packwh", "logictype_g, climb, splitup, sapack", "logictype_g, splitup, lspring, glide", "logictype_g, splitup, lspring, wwhack", "logictype_g, humbacc"
             ]
           }
         ],
