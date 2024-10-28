@@ -4755,7 +4755,7 @@
               "logictype_b, dive",
               "logictype_n, dive",
               "logictype_a, dive",
-              "logictype_g, $GM_boulders, splitup, lspring"
+              "logictype_g, dive", "logictype_g, $GM_boulders, splitup, lspring"
             ]
           }
         ],
