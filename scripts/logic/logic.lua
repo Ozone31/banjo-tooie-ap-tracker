@@ -154,7 +154,7 @@ function attackKingCoal()
     elseif logictype.CurrentStage == 1 then
         return canShootEggs("begg") or canShootEggs("geggs") or canShootEggs("ieggs") or has("bbarge") or has("roll") or has("arat")
     else
-        return canShootEggs("begg") or canShootEggs("geggs") or canShootEggs("ieggs") or has("bbarge") or has("roll") or has("arat") or has("grat") or has("bbust") or breegullBash()
+        return canShootEggs("begg") or canShootEggs("geggs") or canShootEggs("ieggs") or has("bbarge") or has("roll") or has("arat") or has("grat") or breegullBash()
     end
 end
 
@@ -485,7 +485,7 @@ end
 -- Area Access
 
 function plateau_start()
-    if first_level == "Glitter Gulch Mine" or first_level == "Witchyworld" or first_level == "Jolly Roger's Lagoon - Town Center" or first_level == "Hailfire Peaks" or first_level == "Outside Grunty's Industries" then
+    if first_silo == "Isle O Hags - Plateau" or first_silo == "ALL" then
         return true
     else
         return false
@@ -493,7 +493,7 @@ function plateau_start()
 end
 
 function pinegrove_start()
-    if first_level == "Witchyworld" then
+    if first_silo == "Isle O Hags - Pine Grove" or first_silo == "ALL" then
         return true
     else
         return false
@@ -501,7 +501,7 @@ function pinegrove_start()
 end
 
 function clifftop_start()
-    if first_level == "Jolly Roger's Lagoon - Town Center" or first_level == "Hailfire Peaks" or first_level == "Outside Grunty's Industries" then
+    if first_silo == "Isle O Hags - Cliff Top" or first_silo == "ALL" then
         return true
     else
         return false
@@ -509,7 +509,15 @@ function clifftop_start()
 end
 
 function wasteland_start()
-    if first_level == "Terrydactyland" or first_level == "Cloud Cuckooland" then
+    if first_silo == "Isle O Hags - Wasteland" or first_silo == "ALL" then
+        return true
+    else
+        return false
+    end
+end
+
+function quagmire_start()
+    if first_silo == "Isle O Hags - Quagmire" or first_silo == "ALL" then
         return true
     else
         return false
@@ -553,10 +561,60 @@ function WH_to_PL()
 end
 
 function PL_to_GGM()
-    if logictype.CurrentStage <= 2 then
-        return has("gga")
-    else
-        return has("gga") or (has("bbust") and (has("fflip") or has("tjump") or (has("ttrot") and (has("flutter") or has("arat")))))
+    if load_ggm == "Mayahem Temple" then
+        if logictype.CurrentStage <= 2 then
+            return has("mta")
+        else
+            return has("mta") or (has("bbust") and (has("fflip") or has("tjump") or (has("ttrot") and (has("flutter") or has("arat")))))
+        end
+    elseif load_ggm == "Glitter Gulch Mine" then
+        if logictype.CurrentStage <= 2 then
+            return has("gga")
+        else
+            return has("gga") or (has("bbust") and (has("fflip") or has("tjump") or (has("ttrot") and (has("flutter") or has("arat")))))
+        end
+    elseif load_ggm == "Witchyworld" then
+        if logictype.CurrentStage <= 2 then
+            return has("wwa")
+        else
+            return has("wwa") or (has("bbust") and (has("fflip") or has("tjump") or (has("ttrot") and (has("flutter") or has("arat")))))
+        end
+    elseif load_ggm == "Jolly Roger's Lagoon - Town Center" then
+        if logictype.CurrentStage <= 2 then
+            return has("jra")
+        else
+            return has("jra") or (has("bbust") and (has("fflip") or has("tjump") or (has("ttrot") and (has("flutter") or has("arat")))))
+        end
+    elseif load_ggm == "Terrydactyland" then
+        if logictype.CurrentStage <= 2 then
+            return has("tda")
+        else
+            return has("tda") or (has("bbust") and (has("fflip") or has("tjump") or (has("ttrot") and (has("flutter") or has("arat")))))
+        end
+    elseif load_ggm == "Outside Grunty's Industries" then
+        if logictype.CurrentStage <= 2 then
+            return has("gia")
+        else
+            return has("gia") or (has("bbust") and (has("fflip") or has("tjump") or (has("ttrot") and (has("flutter") or has("arat")))))
+        end
+    elseif load_ggm == "Hailfire Peaks" then
+        if logictype.CurrentStage <= 2 then
+            return has("hfa")
+        else
+            return has("hfa") or (has("bbust") and (has("fflip") or has("tjump") or (has("ttrot") and (has("flutter") or has("arat")))))
+        end
+    elseif load_ggm == "Cloud Cuckooland" then
+        if logictype.CurrentStage <= 2 then
+            return has("cca")
+        else
+            return has("cca") or (has("bbust") and (has("fflip") or has("tjump") or (has("ttrot") and (has("flutter") or has("arat")))))
+        end
+    elseif load_ggm == "Cauldron Keep" then
+        if logictype.CurrentStage <= 2 then
+            return has("cka")
+        else
+            return has("cka") or (has("bbust") and (has("fflip") or has("tjump") or (has("ttrot") and (has("flutter") or has("arat")))))
+        end
     end
 end
 
@@ -612,6 +670,32 @@ function GGM_to_PL()
     end
 end
 
+function escape_ggm_loading_zone()
+    if logictype.CurrentStage == 0 then
+        if load_ggm == "Mayahem Temple" then
+            return has("mta") and has("climb")
+        elseif load_ggm == "Glitter Gulch Mine" then
+            return has("gga") and has("climb")
+        elseif load_ggm == "Witchyworld" then
+            return has("wwa") and has("climb")
+        elseif load_ggm == "Jolly Roger's Lagoon - Town Center" then
+            return has("jra") and has("climb")
+        elseif load_ggm == "Terrydactyland" then
+            return has("tda") and has("climb")
+        elseif load_ggm == "Outside Grunty's Industries" then
+            return has("gia") and has("climb")
+        elseif load_ggm == "Hailfire Peaks" then
+            return has("hfa") and has("climb")
+        elseif load_ggm == "Cloud Cuckooland" then
+            return has("cca") and has("climb")
+        elseif load_ggm == "Cauldron Keep" then
+            return has("cka") and has("climb")
+        end
+    else
+        return has("climb") or has("bbust") or has("flutter") or has("arat")
+    end
+end
+
 function WW_to_PG()
     if logictype.CurrentStage == 0 then
         return has("wwa")
@@ -628,9 +712,27 @@ function HFP_to_CTHFP()
     end
 end
 
-function JRL_to_CT()
+function exit_level()
     if logictype.CurrentStage == 0 then
-        return has("jra")
+        if load_jrl == "Mayahem Temple" then
+            return has("mta")
+        elseif load_jrl == "Glitter Gulch Mine" then
+            return has("gga")
+        elseif load_jrl == "Witchyworld" then
+            return has("wwa")
+        elseif load_jrl == "Jolly Roger's Lagoon - Town Center" then
+            return has("jra")
+        elseif load_jrl == "Terrydactyland" then
+            return has("tda")
+        elseif load_jrl == "Outside Grunty's Industries" then
+            return has("gia")
+        elseif load_jrl == "Hailfire Peaks" then
+            return has("hfa")
+        elseif load_jrl == "Cloud Cuckooland" then
+            return has("cca")
+        elseif load_jrl == "Cauldron Keep" then
+            return has("cka")
+        end
     else
         return true
     end
@@ -822,7 +924,7 @@ function mt_jiggy4()
     elseif logictype.CurrentStage == 1 then
         return (canShootEggs("begg") or canShootEggs("feggs") or canShootEggs("geggs") or canShootEggs("ceggs")) and (has("eggaim") or (MT_flight_pad() and has("aireaim")))
     else
-        return (canShootEggs("begg") or canShootEggs("feggs") or canShootEggs("geggs") or canShootEggs("ceggs")) and (has("eggaim") or (MT_flight_pad() and has("aireaim"))) or (has("fflip") and has("bbust"))
+        return (canShootEggs("begg") or canShootEggs("feggs") or canShootEggs("geggs") or canShootEggs("ceggs")) and (has("eggaim") or (MT_flight_pad() and has("aireaim"))) or (has("fflip") and has("bbust")) or (MT_flight_pad() and has("bbomb"))
     end
 end
 
@@ -1081,6 +1183,656 @@ function toggleBKMoves()
         Tracker:FindObjectForCode('sstride').Active = false
         Tracker:FindObjectForCode('ttrain').Active = false
         Tracker:FindObjectForCode('bbomb').Active = false
+    end
+end
+
+-- Loading Zone Rules
+
+function load_mt_mt()
+    if load_mt == "Mayahem Temple" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_mt_ggm()
+    if load_mt == "Glitter Gulch Mine" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_mt_ww()
+    if load_mt == "Witchyworld" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_mt_jrl()
+    if load_mt == "Jolly Roger's Lagoon - Town Center" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_mt_tdl()
+    if load_mt == "Terrydactyland" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_mt_gi()
+    if load_mt == "Outside Grunty's Industries" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_mt_hfp()
+    if load_mt == "Hailfire Peaks" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_mt_ccl()
+    if load_mt == "Cloud Cuckooland" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_mt_ck()
+    if load_mt == "Cauldron Keep" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_ggm_mt()
+    if load_ggm == "Mayahem Temple" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_ggm_ggm()
+    if load_ggm == "Glitter Gulch Mine" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_ggm_ww()
+    if load_ggm == "Witchyworld" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_ggm_jrl()
+    if load_ggm == "Jolly Roger's Lagoon - Town Center" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_ggm_tdl()
+    if load_ggm == "Terrydactyland" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_ggm_gi()
+    if load_ggm == "Outside Grunty's Industries" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_ggm_hfp()
+    if load_ggm == "Hailfire Peaks" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_ggm_ccl()
+    if load_ggm == "Cloud Cuckooland" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_ggm_ck()
+    if load_ggm == "Cauldron Keep" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_ww_mt()
+    if load_ww == "Mayahem Temple" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_ww_ggm()
+    if load_ww == "Glitter Gulch Mine" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_ww_ww()
+    if load_ww == "Witchyworld" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_ww_jrl()
+    if load_ww == "Jolly Roger's Lagoon - Town Center" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_ww_tdl()
+    if load_ww == "Terrydactyland" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_ww_gi()
+    if load_ww == "Outside Grunty's Industries" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_ww_hfp()
+    if load_ww == "Hailfire Peaks" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_ww_ccl()
+    if load_ww == "Cloud Cuckooland" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_ww_ck()
+    if load_ww == "Cauldron Keep" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_jrl_mt()
+    if load_jrl == "Mayahem Temple" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_jrl_ggm()
+    if load_jrl == "Glitter Gulch Mine" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_jrl_ww()
+    if load_jrl == "Witchyworld" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_jrl_jrl()
+    if load_jrl == "Jolly Roger's Lagoon - Town Center" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_jrl_tdl()
+    if load_jrl == "Terrydactyland" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_jrl_gi()
+    if load_jrl == "Outside Grunty's Industries" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_jrl_hfp()
+    if load_jrl == "Hailfire Peaks" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_jrl_ccl()
+    if load_jrl == "Cloud Cuckooland" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_jrl_ck()
+    if load_jrl == "Cauldron Keep" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_hfp_mt()
+    if load_hfp == "Mayahem Temple" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_hfp_ggm()
+    if load_hfp == "Glitter Gulch Mine" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_hfp_ww()
+    if load_hfp == "Witchyworld" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_hfp_jrl()
+    if load_hfp == "Jolly Roger's Lagoon - Town Center" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_hfp_tdl()
+    if load_hfp == "Terrydactyland" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_hfp_gi()
+    if load_hfp == "Outside Grunty's Industries" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_hfp_hfp()
+    if load_hfp == "Hailfire Peaks" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_hfp_ccl()
+    if load_hfp == "Cloud Cuckooland" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_hfp_ck()
+    if load_hfp == "Cauldron Keep" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_tdl_mt()
+    if load_tdl == "Mayahem Temple" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_tdl_ggm()
+    if load_tdl == "Glitter Gulch Mine" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_tdl_ww()
+    if load_tdl == "Witchyworld" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_tdl_jrl()
+    if load_tdl == "Jolly Roger's Lagoon - Town Center" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_tdl_tdl()
+    if load_tdl == "Terrydactyland" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_tdl_gi()
+    if load_tdl == "Outside Grunty's Industries" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_tdl_hfp()
+    if load_tdl == "Hailfire Peaks" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_tdl_ccl()
+    if load_tdl == "Cloud Cuckooland" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_tdl_ck()
+    if load_tdl == "Cauldron Keep" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_ccl_mt()
+    if load_ccl == "Mayahem Temple" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_ccl_ggm()
+    if load_ccl == "Glitter Gulch Mine" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_ccl_ww()
+    if load_ccl == "Witchyworld" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_ccl_jrl()
+    if load_ccl == "Jolly Roger's Lagoon - Town Center" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_ccl_tdl()
+    if load_ccl == "Terrydactyland" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_ccl_gi()
+    if load_ccl == "Outside Grunty's Industries" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_ccl_hfp()
+    if load_ccl == "Hailfire Peaks" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_ccl_ccl()
+    if load_ccl == "Cloud Cuckooland" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_ccl_ck()
+    if load_ccl == "Cauldron Keep" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_gi_mt()
+    if load_gi == "Mayahem Temple" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_gi_ggm()
+    if load_gi == "Glitter Gulch Mine" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_gi_ww()
+    if load_gi == "Witchyworld" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_gi_jrl()
+    if load_gi == "Jolly Roger's Lagoon - Town Center" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_gi_tdl()
+    if load_gi == "Terrydactyland" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_gi_gi()
+    if load_gi == "Outside Grunty's Industries" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_gi_hfp()
+    if load_gi == "Hailfire Peaks" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_gi_ccl()
+    if load_gi == "Cloud Cuckooland" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_gi_ck()
+    if load_gi == "Cauldron Keep" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_ck_mt()
+    if load_ck == "Mayahem Temple" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_ck_ggm()
+    if load_ck == "Glitter Gulch Mine" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_ck_ww()
+    if load_ck == "Witchyworld" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_ck_jrl()
+    if load_ck == "Jolly Roger's Lagoon - Town Center" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_ck_tdl()
+    if load_ck == "Terrydactyland" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_ck_gi()
+    if load_ck == "Outside Grunty's Industries" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_ck_hfp()
+    if load_ck == "Hailfire Peaks" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_ck_ccl()
+    if load_ck == "Cloud Cuckooland" then
+        return true
+    else
+        return false
+    end
+end
+
+function load_ck_ck()
+    if load_ck == "Cauldron Keep" then
+        return true
+    else
+        return false
     end
 end
 

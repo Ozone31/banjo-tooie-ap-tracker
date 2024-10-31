@@ -277,6 +277,43 @@ function onClear(slot_data)
         end
     end
 
+    if slot_data['first_silo'] then
+        first_silo = slot_data['first_silo']
+    end
+
+    if slot_data['loading_zones'] then
+        for k,v in pairs(slot_data.loading_zones) do
+            if k == "Mayahem Temple" then
+                load_mt = v
+            elseif k == "Glitter Gulch Mine" then
+                load_ggm = v
+            elseif k == "Witchyworld" then
+                load_ww = v
+            elseif k == "Jolly Roger's Lagoon - Town Center" then
+                load_jrl = v
+            elseif k == "Terrydactyland" then
+                load_tdl = v
+            elseif k == "Outside Grunty's Industries" then
+                load_gi = v
+            elseif k == "Hailfire Peaks" then
+                load_hfp = v
+            elseif k == "Cloud Cuckooland" then
+                load_ccl = v
+            elseif k == "Cauldron Keep" then
+                load_ck = v
+            end
+        end
+    end
+
+    --print("MT: "..load_mt)
+    --print("GGM: "..load_ggm)
+    --print("WW: "..load_ww)
+    --print("JRL: "..load_jrl)
+    --print("TDL: "..load_tdl)
+    --print("GI: "..load_gi)
+    --print("HFP: "..load_hfp)
+    --print("CCL: "..load_ccl)
+    --print("CK: "..load_ck)
     --print(dump_table(slot_data))
 
     if PLAYER_ID > -1 then

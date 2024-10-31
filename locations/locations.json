@@ -2291,6 +2291,17 @@
       {
         "name": "Cauldron Keep",
         "visibility_rules": [ "goal_hag1", "goal_wwing" ],
+        "access_rules": [
+          "$load_mt_ck, cka",
+          "$load_ggm_ck, @Plateau, $PL_to_GGM",
+          "$load_ww_ck, @Pine Grove, cka",
+          "$load_jrl_ck, @Cliff Top, cka",
+          "$load_hfp_ck, @Cliff Top, cka",
+          "$load_tdl_ck, @Wasteland, cka",
+          "$load_ccl_ck, @Wasteland, cka",
+          "$load_gi_ck, @Quagmire, cka",
+          "$load_ck_ck, @Quagmire, $quag_to_CK, cka"
+        ],
         "sections": [
           {
             "name": "Hag 1 Defeated",
@@ -2746,11 +2757,156 @@
       },
       {
         "name": "Mayahem Temple Entrance",
+        "visibility_rules": ["$load_mt_mt"],
         "sections": [
           {
-            "name": "Entrance Open",
+            "name": "Entrance Open", 
             "access_rules": [ "mta" ],
             "hosted_item": "mta"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wh",
+            "x": 362,
+            "y": 110
+          }
+        ]
+      },
+      {
+        "name": "Glitter Gulch Mine Entrance",
+        "visibility_rules": ["$load_mt_ggm"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "gga" ],
+            "hosted_item": "gga"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wh",
+            "x": 362,
+            "y": 110
+          }
+        ]
+      },
+      {
+        "name": "Witchyworld Entrance",
+        "visibility_rules": ["$load_mt_ww"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "wwa" ],
+            "hosted_item": "wwa"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wh",
+            "x": 362,
+            "y": 110
+          }
+        ]
+      },
+      {
+        "name": "Jolly Roger's Lagoon Entrance",
+        "visibility_rules": ["$load_mt_jrl"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "jra" ],
+            "hosted_item": "jra"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wh",
+            "x": 362,
+            "y": 110
+          }
+        ]
+      },
+      {
+        "name": "Terrydactyland Entrance",
+        "visibility_rules": ["$load_mt_tdl"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "tda" ],
+            "hosted_item": "tda"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wh",
+            "x": 362,
+            "y": 110
+          }
+        ]
+      },
+      {
+        "name": "Grunty's Industries Entrance",
+        "visibility_rules": ["$load_mt_gi"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "gia" ],
+            "hosted_item": "gia"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wh",
+            "x": 362,
+            "y": 110
+          }
+        ]
+      },
+      {
+        "name": "Hailfire Peaks Entrance",
+        "visibility_rules": ["$load_mt_hfp"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "hfa" ],
+            "hosted_item": "hfa"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wh",
+            "x": 362,
+            "y": 110
+          }
+        ]
+      },
+      {
+        "name": "Cloud Cuckooland Entrance",
+        "visibility_rules": ["$load_mt_ccl"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "cca" ],
+            "hosted_item": "cca"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wh",
+            "x": 362,
+            "y": 110
+          }
+        ]
+      },
+      {
+        "name": "Cauldron Keep Entrance",
+        "visibility_rules": ["$load_mt_ck"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "cka" ],
+            "hosted_item": "cka"
           }
         ],
         "map_locations": [
@@ -2772,7 +2928,14 @@
       "$plateau_start",
       "@Pine Grove, $PG_to_PL",
       "@Cliff Top, $CT_to_PL",
-      "@Glitter Gulch Mine - Main Area, $GGM_to_PL"
+      "@Mayahem Temple - Main Area, $load_ggm_mt, $escape_ggm_loading_zone",
+      "@Glitter Gulch Mine - Main Area, $GGM_to_PL, $load_ggm_ggm, $escape_ggm_loading_zone",
+      "@Witchyworld - Main Area, $load_ggm_ww, $escape_ggm_loading_zone",
+      "@Jolly Roger's Lagoon - Main Area, $load_ggm_jrl, $escape_ggm_loading_zone",
+      "@Terrydactyland - Main Area, $load_ggm_tdl, $escape_ggm_loading_zone",
+      "@Grunty's Industries - Outside, $load_ggm_gi, $escape_ggm_loading_zone",
+      "@Hailfire Peaks - Lava Side, $load_ggm_hfp, $escape_ggm_loading_zone",
+      "@Cloud Cuckooland - Outside, $load_ggm_ccl, $escape_ggm_loading_zone"
     ],
     "children": [
       {
@@ -2906,12 +3069,157 @@
         ]
       },
       {
-        "name": "Glitter Gulch Mine Entrance",
+        "name": "Mayahem Temple Entrance",
+        "visibility_rules": ["$load_ggm_mt"],
         "sections": [
           {
-            "name": "Entrance Open",
-            "access_rules": [ "gga" ],
+            "name": "Entrance Open", 
+            "access_rules": [ "$PL_to_GGM" ],
+            "hosted_item": "mta"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pl",
+            "x": 325,
+            "y": 225
+          }
+        ]
+      },
+      {
+        "name": "Glitter Gulch Mine Entrance",
+        "visibility_rules": ["$load_ggm_ggm"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "$PL_to_GGM" ],
             "hosted_item": "gga"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pl",
+            "x": 325,
+            "y": 225
+          }
+        ]
+      },
+      {
+        "name": "Witchyworld Entrance",
+        "visibility_rules": ["$load_ggm_ww"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "$PL_to_GGM" ],
+            "hosted_item": "wwa"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pl",
+            "x": 325,
+            "y": 225
+          }
+        ]
+      },
+      {
+        "name": "Jolly Roger's Lagoon Entrance",
+        "visibility_rules": ["$load_ggm_jrl"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "$PL_to_GGM" ],
+            "hosted_item": "jra"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pl",
+            "x": 325,
+            "y": 225
+          }
+        ]
+      },
+      {
+        "name": "Terrydactyland Entrance",
+        "visibility_rules": ["$load_ggm_tdl"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "$PL_to_GGM" ],
+            "hosted_item": "tda"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pl",
+            "x": 325,
+            "y": 225
+          }
+        ]
+      },
+      {
+        "name": "Grunty's Industries Entrance",
+        "visibility_rules": ["$load_ggm_gi"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "$PL_to_GGM" ],
+            "hosted_item": "gia"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pl",
+            "x": 325,
+            "y": 225
+          }
+        ]
+      },
+      {
+        "name": "Hailfire Peaks Entrance",
+        "visibility_rules": ["$load_ggm_hfp"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "$PL_to_GGM" ],
+            "hosted_item": "hfa"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pl",
+            "x": 325,
+            "y": 225
+          }
+        ]
+      },
+      {
+        "name": "Cloud Cuckooland Entrance",
+        "visibility_rules": ["$load_ggm_ccl"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "$PL_to_GGM" ],
+            "hosted_item": "cca"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pl",
+            "x": 325,
+            "y": 225
+          }
+        ]
+      },
+      {
+        "name": "Cauldron Keep Entrance",
+        "visibility_rules": ["$load_ggm_ck"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "$PL_to_GGM" ],
+            "hosted_item": "cka"
           }
         ],
         "map_locations": [
@@ -2932,7 +3240,14 @@
       "$pinegrove_start",
       "@Plateau, $PL_to_PG",
       "@Pine Grove Underwater, $PGU_to_PG",
-      "@Witchyworld - Main Area, $WW_to_PG"
+      "@Mayahem Temple - Main Area, $load_ww_mt, mta",
+      "@Glitter Gulch Mine - Main Area, $GGM_to_PL, $load_ww_ggm, gga",
+      "@Witchyworld - Main Area, $load_ww_ww, wwa",
+      "@Jolly Roger's Lagoon - Main Area, $load_ww_jrl, jra",
+      "@Terrydactyland - Main Area, $load_ww_tdl, tda",
+      "@Grunty's Industries - Outside, $load_ww_gi, gia",
+      "@Hailfire Peaks - Lava Side, $load_ww_hfp, hfa",
+      "@Cloud Cuckooland - Outside, $load_ww_ccl, cca"
     ],
     "children": [
       {
@@ -2970,12 +3285,157 @@
         ]
       },
       {
-        "name": "Witchyworld Entrance",
+        "name": "Mayahem Temple Entrance",
+        "visibility_rules": ["$load_ww_mt"],
         "sections": [
           {
-            "name": "Entrance Open",
+            "name": "Entrance Open", 
+            "access_rules": [ "mta" ],
+            "hosted_item": "mta"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pg",
+            "x": 245,
+            "y": 80
+          }
+        ]
+      },
+      {
+        "name": "Glitter Gulch Mine Entrance",
+        "visibility_rules": ["$load_ww_ggm"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "gga" ],
+            "hosted_item": "gga"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pg",
+            "x": 245,
+            "y": 80
+          }
+        ]
+      },
+      {
+        "name": "Witchyworld Entrance",
+        "visibility_rules": ["$load_ww_ww"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
             "access_rules": [ "wwa" ],
             "hosted_item": "wwa"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pg",
+            "x": 245,
+            "y": 80
+          }
+        ]
+      },
+      {
+        "name": "Jolly Roger's Lagoon Entrance",
+        "visibility_rules": ["$load_ww_jrl"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "jra" ],
+            "hosted_item": "jra"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pg",
+            "x": 245,
+            "y": 80
+          }
+        ]
+      },
+      {
+        "name": "Terrydactyland Entrance",
+        "visibility_rules": ["$load_ww_tdl"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "tda" ],
+            "hosted_item": "tda"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pg",
+            "x": 245,
+            "y": 80
+          }
+        ]
+      },
+      {
+        "name": "Grunty's Industries Entrance",
+        "visibility_rules": ["$load_ww_gi"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "gia" ],
+            "hosted_item": "gia"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pg",
+            "x": 245,
+            "y": 80
+          }
+        ]
+      },
+      {
+        "name": "Hailfire Peaks Entrance",
+        "visibility_rules": ["$load_ww_hfp"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "hfa" ],
+            "hosted_item": "hfa"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pg",
+            "x": 245,
+            "y": 80
+          }
+        ]
+      },
+      {
+        "name": "Cloud Cuckooland Entrance",
+        "visibility_rules": ["$load_ww_ccl"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "cca" ],
+            "hosted_item": "cca"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pg",
+            "x": 245,
+            "y": 80
+          }
+        ]
+      },
+      {
+        "name": "Cauldron Keep Entrance",
+        "visibility_rules": ["$load_ww_ck"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "cka" ],
+            "hosted_item": "cka"
           }
         ],
         "map_locations": [
@@ -3025,7 +3485,14 @@
       "$clifftop_start",
       "@Plateau, splitup",
       "trainswih, @Inside Chuffy",
-      "@Jolly Roger's Lagoon - Main Area, $JRL_to_CT"
+      "@Mayahem Temple - Main Area, $load_jrl_mt, $exit_level",
+      "@Glitter Gulch Mine - Main Area, $GGM_to_PL, $load_jrl_ggm, $exit_level",
+      "@Witchyworld - Main Area, $load_jrl_ww, $exit_level",
+      "@Jolly Roger's Lagoon - Main Area, $load_jrl_jrl, $exit_level",
+      "@Terrydactyland - Main Area, $load_jrl_tdl, $exit_level",
+      "@Grunty's Industries - Outside, $load_jrl_gi, $exit_level",
+      "@Hailfire Peaks - Lava Side, $load_jrl_hfp, $exit_level",
+      "@Cloud Cuckooland - Outside, $load_jrl_ccl, $exit_level"
     ],
     "children": [
       {
@@ -3082,10 +3549,179 @@
         ]
       },
       {
+        "name": "Mayahem Temple Entrance",
+        "visibility_rules": ["$load_jrl_mt"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "mta" ],
+            "hosted_item": "mta"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ct",
+            "x": 535,
+            "y": 60
+          }
+        ]
+      },
+      {
+        "name": "Glitter Gulch Mine Entrance",
+        "visibility_rules": ["$load_jrl_ggm"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "gga" ],
+            "hosted_item": "gga"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ct",
+            "x": 535,
+            "y": 60
+          }
+        ]
+      },
+      {
+        "name": "Witchyworld Entrance",
+        "visibility_rules": ["$load_jrl_ww"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "wwa" ],
+            "hosted_item": "wwa"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ct",
+            "x": 535,
+            "y": 60
+          }
+        ]
+      },
+      {
+        "name": "Jolly Roger's Lagoon Entrance",
+        "visibility_rules": ["$load_jrl_jrl"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "jra" ],
+            "hosted_item": "jra"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ct",
+            "x": 535,
+            "y": 60
+          }
+        ]
+      },
+      {
+        "name": "Terrydactyland Entrance",
+        "visibility_rules": ["$load_jrl_tdl"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "tda" ],
+            "hosted_item": "tda"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ct",
+            "x": 535,
+            "y": 60
+          }
+        ]
+      },
+      {
+        "name": "Grunty's Industries Entrance",
+        "visibility_rules": ["$load_jrl_gi"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "gia" ],
+            "hosted_item": "gia"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ct",
+            "x": 535,
+            "y": 60
+          }
+        ]
+      },
+      {
+        "name": "Hailfire Peaks Entrance",
+        "visibility_rules": ["$load_jrl_hfp"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "hfa" ],
+            "hosted_item": "hfa"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ct",
+            "x": 535,
+            "y": 60
+          }
+        ]
+      },
+      {
+        "name": "Cloud Cuckooland Entrance",
+        "visibility_rules": ["$load_jrl_ccl"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "cca" ],
+            "hosted_item": "cca"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ct",
+            "x": 535,
+            "y": 60
+          }
+        ]
+      },
+      {
+        "name": "Cauldron Keep Entrance",
+        "visibility_rules": ["$load_jrl_ck"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "cka" ],
+            "hosted_item": "cka"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ct",
+            "x": 535,
+            "y": 60
+          }
+        ]
+      },
+      {
         "name": "IoH: Outside HFP",
         "access_rules": [
           "@Cliff Top",
-          "@Hailfire Peaks - Lava Side, $HFP_to_CTHFP"
+          "@Mayahem Temple - Main Area, $load_hfp_mt, $exit_level",
+          "@Glitter Gulch Mine - Main Area, $GGM_to_PL, $load_hfp_ggm, $exit_level",
+          "@Witchyworld - Main Area, $load_hfp_ww, $exit_level",
+          "@Jolly Roger's Lagoon - Main Area, $load_hfp_jrl, $exit_level",
+          "@Terrydactyland - Main Area, $load_hfp_tdl, $exit_level",
+          "@Grunty's Industries - Outside, $load_hfp_gi, $exit_level",
+          "@Hailfire Peaks - Lava Side, $load_hfp_hfp, $exit_level",
+          "@Cloud Cuckooland - Outside, $load_hfp_ccl, $exit_level"
         ],
         "sections": [
           {
@@ -3119,10 +3755,65 @@
         ]
       },
       {
-        "name": "Jolly Roger's Lagoon Entrance",
+        "name": "Mayahem Temple Entrance",
+        "visibility_rules": ["$load_hfp_mt"],
         "sections": [
           {
-            "name": "Entrance Open",
+            "name": "Entrance Open", 
+            "access_rules": [ "mta" ],
+            "hosted_item": "mta"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ct",
+            "x": 608,
+            "y": 490
+          }
+        ]
+      },
+      {
+        "name": "Glitter Gulch Mine Entrance",
+        "visibility_rules": ["$load_hfp_ggm"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "gga" ],
+            "hosted_item": "gga"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ct",
+            "x": 608,
+            "y": 490
+          }
+        ]
+      },
+      {
+        "name": "Witchyworld Entrance",
+        "visibility_rules": ["$load_hfp_ww"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "wwa" ],
+            "hosted_item": "wwa"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ct",
+            "x": 608,
+            "y": 490
+          }
+        ]
+      },
+      {
+        "name": "Jolly Roger's Lagoon Entrance",
+        "visibility_rules": ["$load_hfp_jrl"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
             "access_rules": [ "jra" ],
             "hosted_item": "jra"
           }
@@ -3130,18 +3821,91 @@
         "map_locations": [
           {
             "map": "ct",
-            "x": 535,
-            "y": 60
+            "x": 608,
+            "y": 490
+          }
+        ]
+      },
+      {
+        "name": "Terrydactyland Entrance",
+        "visibility_rules": ["$load_hfp_tdl"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "tda" ],
+            "hosted_item": "tda"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ct",
+            "x": 608,
+            "y": 490
+          }
+        ]
+      },
+      {
+        "name": "Grunty's Industries Entrance",
+        "visibility_rules": ["$load_hfp_gi"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "gia" ],
+            "hosted_item": "gia"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ct",
+            "x": 608,
+            "y": 490
           }
         ]
       },
       {
         "name": "Hailfire Peaks Entrance",
+        "visibility_rules": ["$load_hfp_hfp"],
         "sections": [
           {
-            "name": "Entrance Open",
+            "name": "Entrance Open", 
             "access_rules": [ "hfa" ],
             "hosted_item": "hfa"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ct",
+            "x": 608,
+            "y": 490
+          }
+        ]
+      },
+      {
+        "name": "Cloud Cuckooland Entrance",
+        "visibility_rules": ["$load_hfp_ccl"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "cca" ],
+            "hosted_item": "cca"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ct",
+            "x": 608,
+            "y": 490
+          }
+        ]
+      },
+      {
+        "name": "Cauldron Keep Entrance",
+        "visibility_rules": ["$load_hfp_ck"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "cka" ],
+            "hosted_item": "cka"
           }
         ],
         "map_locations": [
@@ -3162,7 +3926,14 @@
       "$wasteland_start",
       "@Pine Grove Underwater, ttorp",
       "@Quagmire, $QM_to_WL",
-      "@Terrydactyland - Main Area, $TDL_to_IOHWL"
+      "@Mayahem Temple - Main Area, $load_tdl_mt, $exit_level",
+      "@Glitter Gulch Mine - Main Area, $GGM_to_PL, $load_tdl_ggm, $exit_level",
+      "@Witchyworld - Main Area, $load_tdl_ww, $exit_level",
+      "@Jolly Roger's Lagoon - Main Area, $load_tdl_jrl, $exit_level",
+      "@Terrydactyland - Main Area, $load_tdl_tdl, $exit_level",
+      "@Grunty's Industries - Outside, $load_tdl_gi, $exit_level",
+      "@Hailfire Peaks - Lava Side, $load_tdl_hfp, $exit_level",
+      "@Cloud Cuckooland - Outside, $load_tdl_ccl, $exit_level"
     ],
     "children": [
       {
@@ -3251,10 +4022,83 @@
         ]
       },
       {
-        "name": "Terrydactyland Entrance",
+        "name": "Mayahem Temple Entrance",
+        "visibility_rules": ["$load_tdl_mt"],
         "sections": [
           {
-            "name": "Entrance Open",
+            "name": "Entrance Open", 
+            "access_rules": [ "mta" ],
+            "hosted_item": "mta"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wl",
+            "x": 285,
+            "y": 208
+          }
+        ]
+      },
+      {
+        "name": "Glitter Gulch Mine Entrance",
+        "visibility_rules": ["$load_tdl_ggm"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "gga" ],
+            "hosted_item": "gga"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wl",
+            "x": 285,
+            "y": 208
+          }
+        ]
+      },
+      {
+        "name": "Witchyworld Entrance",
+        "visibility_rules": ["$load_tdl_ww"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "wwa" ],
+            "hosted_item": "wwa"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wl",
+            "x": 285,
+            "y": 208
+          }
+        ]
+      },
+      {
+        "name": "Jolly Roger's Lagoon Entrance",
+        "visibility_rules": ["$load_tdl_jrl"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "jra" ],
+            "hosted_item": "jra"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wl",
+            "x": 285,
+            "y": 208
+          }
+        ]
+      },
+      {
+        "name": "Terrydactyland Entrance",
+        "visibility_rules": ["$load_tdl_tdl"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
             "access_rules": [ "tda" ],
             "hosted_item": "tda"
           }
@@ -3268,12 +4112,229 @@
         ]
       },
       {
-        "name": "Cloud Cuckooland Entrance",
+        "name": "Grunty's Industries Entrance",
+        "visibility_rules": ["$load_tdl_gi"],
         "sections": [
           {
-            "name": "Entrance Open",
+            "name": "Entrance Open", 
+            "access_rules": [ "gia" ],
+            "hosted_item": "gia"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wl",
+            "x": 285,
+            "y": 208
+          }
+        ]
+      },
+      {
+        "name": "Hailfire Peaks Entrance",
+        "visibility_rules": ["$load_tdl_hfp"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "hfa" ],
+            "hosted_item": "hfa"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wl",
+            "x": 285,
+            "y": 208
+          }
+        ]
+      },
+      {
+        "name": "Cloud Cuckooland Entrance",
+        "visibility_rules": ["$load_tdl_ccl"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
             "access_rules": [ "cca" ],
             "hosted_item": "cca"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wl",
+            "x": 285,
+            "y": 208
+          }
+        ]
+      },
+      {
+        "name": "Cauldron Keep Entrance",
+        "visibility_rules": ["$load_tdl_ck"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "cka" ],
+            "hosted_item": "cka"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wl",
+            "x": 285,
+            "y": 208
+          }
+        ]
+      },
+      {
+        "name": "Mayahem Temple Entrance",
+        "visibility_rules": ["$load_ccl_mt"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "mta" ],
+            "hosted_item": "mta"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wl",
+            "x": 39,
+            "y": 490
+          }
+        ]
+      },
+      {
+        "name": "Glitter Gulch Mine Entrance",
+        "visibility_rules": ["$load_ccl_ggm"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "gga" ],
+            "hosted_item": "gga"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wl",
+            "x": 39,
+            "y": 490
+          }
+        ]
+      },
+      {
+        "name": "Witchyworld Entrance",
+        "visibility_rules": ["$load_ccl_ww"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "wwa" ],
+            "hosted_item": "wwa"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wl",
+            "x": 39,
+            "y": 490
+          }
+        ]
+      },
+      {
+        "name": "Jolly Roger's Lagoon Entrance",
+        "visibility_rules": ["$load_ccl_jrl"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "jra" ],
+            "hosted_item": "jra"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wl",
+            "x": 39,
+            "y": 490
+          }
+        ]
+      },
+      {
+        "name": "Terrydactyland Entrance",
+        "visibility_rules": ["$load_ccl_tdl"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "tda" ],
+            "hosted_item": "tda"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wl",
+            "x": 39,
+            "y": 490
+          }
+        ]
+      },
+      {
+        "name": "Grunty's Industries Entrance",
+        "visibility_rules": ["$load_ccl_gi"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "gia" ],
+            "hosted_item": "gia"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wl",
+            "x": 39,
+            "y": 490
+          }
+        ]
+      },
+      {
+        "name": "Hailfire Peaks Entrance",
+        "visibility_rules": ["$load_ccl_hfp"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "hfa" ],
+            "hosted_item": "hfa"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wl",
+            "x": 39,
+            "y": 490
+          }
+        ]
+      },
+      {
+        "name": "Cloud Cuckooland Entrance",
+        "visibility_rules": ["$load_ccl_ccl"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "cca" ],
+            "hosted_item": "cca"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wl",
+            "x": 39,
+            "y": 490
+          }
+        ]
+      },
+      {
+        "name": "Cauldron Keep Entrance",
+        "visibility_rules": ["$load_ccl_ck"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "cka" ],
+            "hosted_item": "cka"
           }
         ],
         "map_locations": [
@@ -3291,15 +4352,122 @@
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
     "access_rules": [
+      "$quagmire_start",
       "@Wasteland, springb",
-      "@Grunty's Industries - Outside, gia"
+      "@Mayahem Temple - Main Area, $load_gi_mt, mta",
+      "@Glitter Gulch Mine - Main Area, $GGM_to_PL, $load_gi_ggm, gga",
+      "@Witchyworld - Main Area, $load_gi_ww, wwa",
+      "@Jolly Roger's Lagoon - Main Area, $load_gi_jrl, jra",
+      "@Terrydactyland - Main Area, $load_gi_tdl, tda",
+      "@Grunty's Industries - Outside, $load_gi_gi, gia",
+      "@Hailfire Peaks - Lava Side, $load_gi_hfp, hfa",
+      "@Cloud Cuckooland - Outside, $load_gi_ccl, cca",
+      "@Mayahem Temple - Main Area, $load_ck_mt, mta",
+      "@Glitter Gulch Mine - Main Area, $GGM_to_PL, $load_ck_ggm, gga",
+      "@Witchyworld - Main Area, $load_ck_ww, wwa",
+      "@Jolly Roger's Lagoon - Main Area, $load_ck_jrl, jra",
+      "@Terrydactyland - Main Area, $load_ck_tdl, tda",
+      "@Grunty's Industries - Outside, $load_ck_gi, gia",
+      "@Hailfire Peaks - Lava Side, $load_ck_hfp, hfa",
+      "@Cloud Cuckooland - Outside, $load_ck_ccl, cca"
     ],
     "children": [
       {
-        "name": "Grunty's Industries Entrance",
+        "name": "Mayahem Temple Entrance",
+        "visibility_rules": ["$load_gi_mt"],
         "sections": [
           {
-            "name": "Entrance Open",
+            "name": "Entrance Open", 
+            "access_rules": [ "mta" ],
+            "hosted_item": "mta"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "qm",
+            "x": 105,
+            "y": 110
+          }
+        ]
+      },
+      {
+        "name": "Glitter Gulch Mine Entrance",
+        "visibility_rules": ["$load_gi_ggm"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "gga" ],
+            "hosted_item": "gga"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "qm",
+            "x": 105,
+            "y": 110
+          }
+        ]
+      },
+      {
+        "name": "Witchyworld Entrance",
+        "visibility_rules": ["$load_gi_ww"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "wwa" ],
+            "hosted_item": "wwa"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "qm",
+            "x": 105,
+            "y": 110
+          }
+        ]
+      },
+      {
+        "name": "Jolly Roger's Lagoon Entrance",
+        "visibility_rules": ["$load_gi_jrl"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "jra" ],
+            "hosted_item": "jra"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "qm",
+            "x": 105,
+            "y": 110
+          }
+        ]
+      },
+      {
+        "name": "Terrydactyland Entrance",
+        "visibility_rules": ["$load_gi_tdl"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "tda" ],
+            "hosted_item": "tda"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "qm",
+            "x": 105,
+            "y": 110
+          }
+        ]
+      },
+      {
+        "name": "Grunty's Industries Entrance",
+        "visibility_rules": ["$load_gi_gi"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
             "access_rules": [ "gia" ],
             "hosted_item": "gia"
           }
@@ -3313,10 +4481,209 @@
         ]
       },
       {
-        "name": "Cauldron Keep Entrance",
+        "name": "Hailfire Peaks Entrance",
+        "visibility_rules": ["$load_gi_hfp"],
         "sections": [
           {
-            "name": "Entrance Open",
+            "name": "Entrance Open", 
+            "access_rules": [ "hfa" ],
+            "hosted_item": "hfa"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "qm",
+            "x": 105,
+            "y": 110
+          }
+        ]
+      },
+      {
+        "name": "Cloud Cuckooland Entrance",
+        "visibility_rules": ["$load_gi_ccl"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "cca" ],
+            "hosted_item": "cca"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "qm",
+            "x": 105,
+            "y": 110
+          }
+        ]
+      },
+      {
+        "name": "Cauldron Keep Entrance",
+        "visibility_rules": ["$load_gi_ck"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "cka" ],
+            "hosted_item": "cka"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "qm",
+            "x": 105,
+            "y": 110
+          }
+        ]
+      },
+      {
+        "name": "Mayahem Temple Entrance",
+        "visibility_rules": ["$load_ck_mt"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "mta, $quag_to_CK" ],
+            "hosted_item": "mta"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "qm",
+            "x": 708,
+            "y": 218
+          }
+        ]
+      },
+      {
+        "name": "Glitter Gulch Mine Entrance",
+        "visibility_rules": ["$load_ck_ggm"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "gga, $quag_to_CK" ],
+            "hosted_item": "gga"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "qm",
+            "x": 708,
+            "y": 218
+          }
+        ]
+      },
+      {
+        "name": "Witchyworld Entrance",
+        "visibility_rules": ["$load_ck_ww"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "wwa, $quag_to_CK" ],
+            "hosted_item": "wwa"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "qm",
+            "x": 708,
+            "y": 218
+          }
+        ]
+      },
+      {
+        "name": "Jolly Roger's Lagoon Entrance",
+        "visibility_rules": ["$load_ck_jrl"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "jra, $quag_to_CK" ],
+            "hosted_item": "jra"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "qm",
+            "x": 708,
+            "y": 218
+          }
+        ]
+      },
+      {
+        "name": "Terrydactyland Entrance",
+        "visibility_rules": ["$load_ck_tdl"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "tda, $quag_to_CK" ],
+            "hosted_item": "tda"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "qm",
+            "x": 708,
+            "y": 218
+          }
+        ]
+      },
+      {
+        "name": "Grunty's Industries Entrance",
+        "visibility_rules": ["$load_ck_gi"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "gia, $quag_to_CK" ],
+            "hosted_item": "gia"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "qm",
+            "x": 708,
+            "y": 218
+          }
+        ]
+      },
+      {
+        "name": "Hailfire Peaks Entrance",
+        "visibility_rules": ["$load_ck_hfp"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "hfa, $quag_to_CK" ],
+            "hosted_item": "hfa"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "qm",
+            "x": 708,
+            "y": 218
+          }
+        ]
+      },
+      {
+        "name": "Cloud Cuckooland Entrance",
+        "visibility_rules": ["$load_ck_ccl"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "cca, $quag_to_CK" ],
+            "hosted_item": "cca"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "qm",
+            "x": 708,
+            "y": 218
+          }
+        ]
+      },
+      {
+        "name": "Cauldron Keep Entrance",
+        "visibility_rules": ["$load_ck_ck"],
+        "sections": [
+          {
+            "name": "Entrance Open", 
             "access_rules": [ "cka, $quag_to_CK" ],
             "hosted_item": "cka"
           }
@@ -3336,7 +4703,15 @@
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
     "access_rules": [
-      "mta",
+      "$load_mt_mt, mta",
+      "$load_ggm_mt, @Plateau, $PL_to_GGM",
+      "$load_ww_mt, @Pine Grove, mta",
+      "$load_jrl_mt, @Cliff Top, mta",
+      "$load_hfp_mt, @Cliff Top, mta",
+      "$load_tdl_mt, @Wasteland, mta",
+      "$load_ccl_mt, @Wasteland, mta",
+      "$load_gi_mt, @Quagmire, mta",
+      "$load_ck_mt, @Quagmire, $quag_to_CK, mta",
       "@Hailfire Peaks - Lava Side, $HFP_to_MT"
     ],
     "children": [
@@ -3675,8 +5050,9 @@
             "name": "Targitzan Jiggy",
             "access_rules": [
               "logictype_b, begg", "logictype_b, feggs", "logictype_b, geggs",
-              "logictype_n, begg", "logictype_n, feggs", "logictype_n, geggs",
-              "logictype_a", "logictype_g"
+              "logictype_n, begg", "logictype_n, feggs", "logictype_n, geggs", "logictype_n, ieggs, bbayonet",
+              "logictype_a, begg", "logictype_a, feggs", "logictype_a, geggs", "logictype_a, ieggs, bbayonet",
+              "logictype_g, begg", "logictype_g, feggs", "logictype_g, geggs", "logictype_g, ieggs, bbayonet"
             ]
           },
           {
@@ -4008,7 +5384,15 @@
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
     "access_rules": [
-      "@Plateau, $PL_to_GGM",
+      "$load_mt_ggm, gga",
+      "$load_ggm_ggm, @Plateau, $PL_to_GGM",
+      "$load_ww_ggm, @Pine Grove, gga",
+      "$load_jrl_ggm, @Cliff Top, gga",
+      "$load_hfp_ggm, @Cliff Top, gga",
+      "$load_tdl_ggm, @Wasteland, gga",
+      "$load_ccl_ggm, @Wasteland, gga",
+      "$load_gi_ggm, @Quagmire, gga",
+      "$load_ck_ggm, @Quagmire, $quag_to_CK, gga",
       "@Inside Chuffy",
       "@Glitter Gulch Mine - Prospector's Hut"
     ],
@@ -4087,9 +5471,9 @@
             "name": "Cheato Page",
             "access_rules": [ 
               "logictype_b, springb",
-              "logictype_n, springb", "logictype_n, climb, flutter", "logictype_n, climb, arat, tjump", "logictype_n, $GM_boulders, splitup, lspring", "logictype_n, $GM_boulders, splitup, glide, tjump", "logictype_n, @Plateau, $PL_to_GGM, flutter, ggrab", "logictype_n, @Plateau, $PL_to_GGM, flutter, bbust",
-              "logictype_a, springb", "logictype_a, climb, flutter", "logictype_a, climb, arat", "logictype_a, $clockwork_shot", "logictype_a, $GM_boulders, splitup, lspring", "logictype_a, $GM_boulders, glide, tjump", "logictype_a, $GM_boulders, tjump, ttrain, splitup, wwhack", "logictype_a, $GM_boulders, tjump, ttrain, splitup, glide", "logictype_a, @Plateau, $PL_to_GGM, flutter, ggrab", "logictype_a, @Plateau, $PL_to_GGM, flutter, bbust",
-              "logictype_g, springb", "logictype_g, climb, flutter", "logictype_g, climb, arat", "logictype_g, $clockwork_shot", "logictype_g, $GM_boulders, splitup, lspring", "logictype_g, $GM_boulders, glide, tjump", "logictype_g, $GM_boulders, tjump, ttrain, splitup, wwhack", "logictype_g, $GM_boulders, tjump, ttrain, splitup, glide", "logictype_g, @Plateau, $PL_to_GGM, flutter, ggrab", "logictype_g, @Plateau, $PL_to_GGM, flutter, bbust"
+              "logictype_n, springb", "logictype_n, climb, flutter", "logictype_n, climb, arat, tjump", "logictype_n, $GM_boulders, splitup, lspring", "logictype_n, $GM_boulders, splitup, glide, tjump", "logictype_n, $load_mt_ggm, gga, flutter, ggrab", "logictype_n, $load_mt_ggm, gga, flutter, bbust", "logictype_n, $load_ggm_ggm, @Plateau, $PL_to_GGM, flutter, ggrab", "logictype_n, $load_ggm_ggm, @Plateau, $PL_to_GGM, flutter, bbust", "logictype_n, $load_ww_ggm, @Pine Grove, gga, flutter, ggrab", "logictype_n, $load_ww_ggm, @Pine Grove, gga, flutter, bbust", "logictype_n, $load_jrl_ggm, @Cliff Top, gga, flutter, ggrab", "logictype_n, $load_jrl_ggm, @Cliff Top, gga, flutter, bbust", "logictype_n, $load_hfp_ggm, @Cliff Top, gga, flutter, ggrab", "logictype_n, $load_hfp_ggm, @Cliff Top, gga, flutter, bbust", "logictype_n, $load_tdl_ggm, @Wasteland, gga, flutter, ggrab", "logictype_n, $load_tdl_ggm, @Wasteland, gga, flutter, bbust", "logictype_n, $load_ccl_ggm, @Wasteland, gga, flutter, ggrab", "logictype_n, $load_ccl_ggm, @Wasteland, gga, flutter, bbust", "logictype_n, $load_gi_ggm, @Quagmire, gga, flutter, ggrab", "logictype_n, $load_gi_ggm, @Quagmire, gga, flutter, bbust", "logictype_n, $load_ck_ggm, @Quagmire, $quag_to_CK, gga, flutter, ggrab", "logictype_n, $load_ck_ggm, @Quagmire, $quag_to_CK, gga, flutter, bbust",
+              "logictype_a, springb", "logictype_a, climb, flutter", "logictype_a, climb, arat", "logictype_a, $clockwork_shot", "logictype_a, $GM_boulders, splitup, lspring", "logictype_a, $GM_boulders, glide, tjump", "logictype_a, $GM_boulders, tjump, ttrain, splitup, wwhack", "logictype_a, $GM_boulders, tjump, ttrain, splitup, glide", "logictype_a, $load_mt_ggm, gga, flutter, ggrab", "logictype_a, $load_mt_ggm, gga, flutter, bbust", "logictype_a, $load_ggm_ggm, @Plateau, $PL_to_GGM, flutter, ggrab", "logictype_a, $load_ggm_ggm, @Plateau, $PL_to_GGM, flutter, bbust", "logictype_a, $load_ww_ggm, @Pine Grove, gga, flutter, ggrab", "logictype_a, $load_ww_ggm, @Pine Grove, gga, flutter, bbust", "logictype_a, $load_jrl_ggm, @Cliff Top, gga, flutter, ggrab", "logictype_a, $load_jrl_ggm, @Cliff Top, gga, flutter, bbust", "logictype_a, $load_hfp_ggm, @Cliff Top, gga, flutter, ggrab", "logictype_a, $load_hfp_ggm, @Cliff Top, gga, flutter, bbust", "logictype_a, $load_tdl_ggm, @Wasteland, gga, flutter, ggrab", "logictype_a, $load_tdl_ggm, @Wasteland, gga, flutter, bbust", "logictype_a, $load_ccl_ggm, @Wasteland, gga, flutter, ggrab", "logictype_a, $load_ccl_ggm, @Wasteland, gga, flutter, bbust", "logictype_a, $load_gi_ggm, @Quagmire, gga, flutter, ggrab", "logictype_a, $load_gi_ggm, @Quagmire, gga, flutter, bbust", "logictype_a, $load_ck_ggm, @Quagmire, $quag_to_CK, gga, flutter, ggrab", "logictype_a, $load_ck_ggm, @Quagmire, $quag_to_CK, gga, flutter, bbust",
+              "logictype_g, springb", "logictype_g, climb, flutter", "logictype_g, climb, arat", "logictype_g, $clockwork_shot", "logictype_g, $GM_boulders, splitup, lspring", "logictype_g, $GM_boulders, glide, tjump", "logictype_g, $GM_boulders, tjump, ttrain, splitup, wwhack", "logictype_g, $GM_boulders, tjump, ttrain, splitup, glide", "logictype_g, $load_mt_ggm, gga, flutter, ggrab", "logictype_g, $load_mt_ggm, gga, flutter, bbust", "logictype_g, $load_ggm_ggm, @Plateau, $PL_to_GGM, flutter, ggrab", "logictype_g, $load_ggm_ggm, @Plateau, $PL_to_GGM, flutter, bbust", "logictype_g, $load_ww_ggm, @Pine Grove, gga, flutter, ggrab", "logictype_g, $load_ww_ggm, @Pine Grove, gga, flutter, bbust", "logictype_g, $load_jrl_ggm, @Cliff Top, gga, flutter, ggrab", "logictype_g, $load_jrl_ggm, @Cliff Top, gga, flutter, bbust", "logictype_g, $load_hfp_ggm, @Cliff Top, gga, flutter, ggrab", "logictype_g, $load_hfp_ggm, @Cliff Top, gga, flutter, bbust", "logictype_g, $load_tdl_ggm, @Wasteland, gga, flutter, ggrab", "logictype_g, $load_tdl_ggm, @Wasteland, gga, flutter, bbust", "logictype_g, $load_ccl_ggm, @Wasteland, gga, flutter, ggrab", "logictype_g, $load_ccl_ggm, @Wasteland, gga, flutter, bbust", "logictype_g, $load_gi_ggm, @Quagmire, gga, flutter, ggrab", "logictype_g, $load_gi_ggm, @Quagmire, gga, flutter, bbust", "logictype_g, $load_ck_ggm, @Quagmire, $quag_to_CK, gga, flutter, ggrab", "logictype_g, $load_ck_ggm, @Quagmire, $quag_to_CK, gga, flutter, bbust"
             ]
           }
         ],
@@ -4482,9 +5866,9 @@
             "name": "Jiggy",
             "access_rules": [
               "logictype_b, $humbaGGM, dive",
-              "logictype_n, dive, tjump, $humbaGGM", "logictype_n, dive, tjump, $longJump",
-              "logictype_a, dive, tjump, $humbaGGM", "logictype_a, dive, tjump, $longJump",
-              "logictype_g, dive, tjump, $humbaGGM", "logictype_g, dive, tjump, $longJump"
+              "logictype_n, dive, tjump, $humbaGGM", "logictype_n, dive, tjump, ttrot, flutter", "logictype_n, dive, tjump, ttrot, arat", "logictype_n, dive, tjump, roll, flutter", "logictype_n, dive, tjump, roll, arat",
+              "logictype_a, dive, tjump, $humbaGGM", "logictype_a, dive, tjump, ttrot, flutter", "logictype_a, dive, tjump, ttrot, arat", "logictype_a, dive, tjump, roll, flutter", "logictype_a, dive, tjump, roll, arat", "logictype_a, dive, $clockwork_shot, $humbaGGM", "logictype_a, dive, $clockwork_shot, ttrot, flutter", "logictype_a, dive, $clockwork_shot, ttrot, arat", "logictype_a, dive, $clockwork_shot, roll, tjump, flutter", "logictype_a, dive, $clockwork_shot, roll, tjump, arat",
+              "logictype_g, dive, tjump, $humbaGGM", "logictype_g, dive, tjump, ttrot, flutter", "logictype_g, dive, tjump, ttrot, arat", "logictype_g, dive, tjump, roll, flutter", "logictype_g, dive, tjump, roll, arat", "logictype_g, dive, $clockwork_shot, $humbaGGM", "logictype_g, dive, $clockwork_shot, ttrot, flutter", "logictype_g, dive, $clockwork_shot, ttrot, arat", "logictype_g, dive, $clockwork_shot, roll, tjump, flutter", "logictype_g, dive, $clockwork_shot, roll, tjump, arat"
             ]
           }
         ],
@@ -4663,9 +6047,9 @@
             "name": "Mega Glowbo",
             "access_rules": [ 
               "logictype_b, ttorp, ikey, dive, tjump",
-              "logictype_n, ttorp, ikey, dive, tjump", "logictype_n, ttorp, ikey, dive, bbust",
-              "logictype_a, ttorp, ikey, dive, tjump", "logictype_a, ttorp, ikey, dive, bbust", "logictype_a, ttorp, ikey, dive, $clockwork_shot",
-              "logictype_g, ttorp, ikey, dive, tjump", "logictype_g, ttorp, ikey, dive, bbust", "logictype_g, ttorp, ikey, dive, $clockwork_shot"
+              "logictype_n, ttorp, ikey, dive, tjump", "logictype_n, ttorp, ikey, dive, bbust", "logictype_n, ttorp, ikey, dive, flutter", "logictype_n, ttorp, ikey, dive, arat",
+              "logictype_a, ttorp, ikey, dive, tjump", "logictype_a, ttorp, ikey, dive, bbust", "logictype_a, ttorp, ikey, dive, $clockwork_shot", "logictype_a, ttorp, ikey, dive, flutter", "logictype_a, ttorp, ikey, dive, arat",
+              "logictype_g, ttorp, ikey, dive, tjump", "logictype_g, ttorp, ikey, dive, bbust", "logictype_g, ttorp, ikey, dive, $clockwork_shot", "logictype_g, ttorp, ikey, dive, flutter", "logictype_g, ttorp, ikey, dive, arat"
             ]
           }
         ],
@@ -4734,7 +6118,7 @@
               "logictype_b, ggrab, fflip, dive, climb",
               "logictype_n, ggrab, fflip, dive, climb", "logictype_n, bbust, fflip, dive, climb",
               "logictype_a, ggrab, fflip, dive, climb", "logictype_a, bbust, fflip, dive, climb",
-              "logictype_g, ggrab, fflip, dive, climb", "logictype_g, bbust, fflip, dive, climb", "logictype_g, splitup, lspring, glide"
+              "logictype_g, ggrab, fflip, dive, climb", "logictype_g, bbust, fflip, dive, climb", "logictype_g, splitup, lspring, glide, $GM_boulders"
             ]
           }
         ],
@@ -4820,7 +6204,15 @@
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
     "access_rules": [
-      "@Pine Grove, wwa",
+      "$load_mt_ww, wwa",
+      "$load_ggm_ww, @Plateau, $PL_to_GGM",
+      "$load_ww_ww, @Pine Grove, wwa",
+      "$load_jrl_ww, @Cliff Top, wwa",
+      "$load_hfp_ww, @Cliff Top, wwa",
+      "$load_tdl_ww, @Wasteland, wwa",
+      "$load_ccl_ww, @Wasteland, wwa",
+      "$load_gi_ww, @Quagmire, wwa",
+      "$load_ck_ww, @Quagmire, $quag_to_CK, wwa",
       "trainswww, @Inside Chuffy",
       "@Glitter Gulch Mine - Main Area, $ggm_to_ww",
       "@Terrydactyland - Main Area, $TDL_to_WW"
@@ -5253,7 +6645,7 @@
         "name": "WW: Dive of Death Notes",
         "access_rules": [
               "logictype_b, ggrab, fflip, dive", "logictype_b, climb, dive",
-              "logictype_n, ggrab, fflip", "logictype_n, bbust, fflip", "logictype_n, climb",
+              "logictype_n, ggrab, fflip, tjump", "logictype_n, bbust, fflip, tjump", "logictype_n, climb, tjump", "logictype_n, ggrab, fflip, dive", "logictype_n, bbust, fflip, dive", "logictype_n, climb, dive",
               "logictype_a, ggrab, fflip", "logictype_a, bbust, fflip", "logictype_a, climb",
               "logictype_g, ggrab, fflip", "logictype_g, bbust, fflip", "logictype_g, climb", "logictype_g, grat", "logictype_g, bbarge"
             ],
@@ -5709,7 +7101,15 @@
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
     "access_rules": [
-      "@Cliff Top, jra",
+      "$load_mt_jrl, jra",
+      "$load_ggm_jrl, @Plateau, $PL_to_GGM",
+      "$load_ww_jrl, @Pine Grove, jra",
+      "$load_jrl_jrl, @Cliff Top, jra",
+      "$load_hfp_jrl, @Cliff Top, jra",
+      "$load_tdl_jrl, @Wasteland, jra",
+      "$load_ccl_jrl, @Wasteland, jra",
+      "$load_gi_jrl, @Quagmire, jra",
+      "$load_ck_jrl, @Quagmire, $quag_to_CK, jra",
       "@Hailfire Peaks - Lava Side, @Cloud Cuckooland - Outside, $HFP_to_JRL",
       "logictype_g, @Hailfire Peaks - Lava Side, $HFP_to_JRL"
     ],
@@ -5722,8 +7122,8 @@
             "access_rules": [
               "logictype_b, $has_explosives, ggrab, $springPad, ttrot", "logictype_b, $billDrill, ggrab, $springPad, ttrot",
               "logictype_n, $has_explosives, ggrab, $springPad, ttrot", "logictype_n, $billDrill, ggrab, $springPad, ttrot", "logictype_n, $has_explosives, $springPad, splitup, glide", "logictype_n, $has_explosives, $springPad, splitup, lspring",
-              "logictype_a, $has_explosives, ggrab, $springPad, ttrot", "logictype_a, $billDrill, ggrab, $springPad, ttrot", "logictype_a, $has_explosives, $springPad, splitup, glide", "logictype_a, $has_explosives, $springPad, splitup, lspring", "logictype_a, $veryLongJump, $clockwork_shot",
-              "logictype_g, $has_explosives, ggrab, $springPad, ttrot", "logictype_g, $billDrill, ggrab, $springPad, ttrot", "logictype_g, $has_explosives, $springPad, splitup, glide", "logictype_g, $has_explosives, $springPad, splitup, lspring", "logictype_g, $veryLongJump, $clockwork_shot"
+              "logictype_a, $has_explosives, ggrab, $springPad, ttrot", "logictype_a, $billDrill, ggrab, $springPad, ttrot", "logictype_a, $has_explosives, $springPad, splitup, glide", "logictype_a, $has_explosives, $springPad, splitup, lspring", "logictype_a, $clockwork_shot, $veryLongJump", "logictype_a, $clockwork_shot, $has_explosives, splitup",
+              "logictype_g, $has_explosives, ggrab, $springPad, ttrot", "logictype_g, $billDrill, ggrab, $springPad, ttrot", "logictype_g, $has_explosives, $springPad, splitup, glide", "logictype_g, $has_explosives, $springPad, splitup, lspring", "logictype_g, $clockwork_shot, $veryLongJump", "logictype_g, $clockwork_shot, $has_explosives, splitup"
             ]
           }
         ],
@@ -6310,7 +7710,7 @@
     "children": [
       {
         "name": "Blubbul Notes",
-        "access_rules": [ "auqaim", "ttorp", "$jrl_access, $humbaJRL" ],
+        "access_rules": [ "auqaim", "ttorp", "$humbaJRL" ],
         "sections": [
           {
             "name": "Note 1"
@@ -6389,7 +7789,7 @@
             "name": "Treble Clef",
             "access_rules": [
               "logictype_b", "logictype_n",
-              "logictype_a, auqaim", "logictype_a, $jrl_access, ttorp", "logictype_a, humbajr",
+              "logictype_a, auqaim", "logictype_a, ttorp", "logictype_a, humbajr",
               "logictype_g, auqaim", "logictype_g, ttorp", "logictype_g, humbajr"
             ]
           }
@@ -6550,9 +7950,9 @@
             "name": "Seaweed Sanctum Jinjo",
             "access_rules": [
               "logictype_b, ggrab, fflip",
-              "logictype_n, ggrab, fflip",
-              "logictype_a,ggrab, fflip", "logictype_a, bbust, fflip", "logictype_a, $clockwork_shot",
-              "logictype_g, ggrab, fflip", "logictype_g, bbust, fflip", "logictype_g, $clockwork_shot"
+              "logictype_n, ggrab, fflip", "logictype_n, bbust, fflip", "logictype_n, $has_explosives, splitup, packwh, ggrab",
+              "logictype_a, ggrab, fflip", "logictype_a, bbust, fflip", "logictype_a, $clockwork_shot", "logictype_a, $has_explosives, splitup, packwh, ggrab",
+              "logictype_g, ggrab, fflip", "logictype_g, bbust, fflip", "logictype_g, $clockwork_shot", "logictype_g, $has_explosives, splitup, packwh, ggrab"
             ]
           },
           {
@@ -6611,7 +8011,15 @@
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
     "access_rules": [
-      "@Wasteland, tda",
+      "$load_mt_tdl, tda",
+      "$load_ggm_tdl, @Plateau, $PL_to_GGM",
+      "$load_ww_tdl, @Pine Grove, tda",
+      "$load_jrl_tdl, @Cliff Top, tda",
+      "$load_hfp_tdl, @Cliff Top, tda",
+      "$load_tdl_tdl, @Wasteland, tda",
+      "$load_ccl_tdl, @Wasteland, tda",
+      "$load_gi_tdl, @Quagmire, tda",
+      "$load_ck_tdl, @Quagmire, $quag_to_CK, tda",
       "trainswtd, @Inside Chuffy",
       "@Terrydactyland - Unga Bungas' Cave, $hatch_to_TDL"
     ],
@@ -6621,7 +8029,12 @@
         "sections": [
           {
             "name": "Train Switch",
-            "access_rules": [ "fflip", "$veryLongJump", "$TDLFlightPad" ]
+            "access_rules": [
+              "logictype_b, fflip", "logictype_b, $veryLongJump", "logictype_b, $TDLFlightPad",
+              "logictype_n, fflip", "logictype_n, $veryLongJump", "logictype_n, $TDLFlightPad", "logictype_n, splitup",
+              "logictype_a, fflip", "logictype_a, $veryLongJump", "logictype_a, $TDLFlightPad", "logictype_a, splitup",
+              "logictype_g, fflip", "logictype_g, $veryLongJump", "logictype_g, $TDLFlightPad", "logictype_g, splitup"
+            ]
           }
         ],
         "map_locations": [
@@ -6679,7 +8092,12 @@
         "sections": [
           {
             "name": "Right Note",
-            "access_rules": [ "$canDoSmallElevation", "$humbaTDL" ]
+            "access_rules": [
+              "logictype_b, $canDoSmallElevation", "logictype_b, $humbaTDL",
+              "logictype_n, $canDoSmallElevation", "logictype_n, $humbaTDL", "logictype_n, splitup", "logictype_n, springb", "logictype_n, ttrain",
+              "logictype_a, $canDoSmallElevation", "logictype_a, $humbaTDL", "logictype_a, splitup", "logictype_a, springb", "logictype_a, ttrain", "logictype_a, $clockwork_shot",
+              "logictype_g, $canDoSmallElevation", "logictype_g, $humbaTDL", "logictype_g, splitup", "logictype_g, springb", "logictype_g, ttrain", "logictype_g, $clockwork_shot"
+            ]
           },
           {
             "name": "Middle Note"
@@ -6703,9 +8121,9 @@
             "name": "Jinjo",
             "access_rules": [
               "logictype_b, $TDLFlightPad, bbomb", "logictype_b, $TDLFlightPad, $canShootEggs|geggs, eggaim",
-              "logictype_n, $TDLFlightPad, bbomb", "logictype_n, $canShootEggs|geggs, eggaim", "logictype_n, $canShootEggs|geggs, $longJump", "logictype_n, $canShootEggs|geggs, $TDLFlightPad", "logictype_n, $canShootEggs|geggs, ttrain", "logictype_n, $canShootEggs|geggs, sstride",
-              "logictype_a, $TDLFlightPad, bbomb", "logictype_a, $canShootEggs|geggs, eggaim", "logictype_a, $canShootEggs|geggs, $longJump", "logictype_a, $canShootEggs|geggs, $TDLFlightPad", "logictype_a, $canShootEggs|geggs, ttrain", "logictype_a, $canShootEggs|geggs, sstride",
-              "logictype_g, $TDLFlightPad, bbomb", "logictype_g, $canShootEggs|geggs, eggaim", "logictype_g, $canShootEggs|geggs, $longJump", "logictype_g, $canShootEggs|geggs, $TDLFlightPad", "logictype_g, $canShootEggs|geggs, ttrain", "logictype_g, $canShootEggs|geggs, sstride"
+              "logictype_n, $TDLFlightPad, bbomb", "logictype_n, $canShootEggs|geggs, eggaim, flutter", "logictype_n, $canShootEggs|geggs, $longJump, flutter", "logictype_n, $canShootEggs|geggs, $TDLFlightPad, flutter", "logictype_n, $canShootEggs|geggs, ttrain, flutter", "logictype_n, $canShootEggs|geggs, sstride, flutter", "logictype_n, $canShootEggs|geggs, eggaim, arat", "logictype_n, $canShootEggs|geggs, $longJump, arat", "logictype_n, $canShootEggs|geggs, $TDLFlightPad, arat", "logictype_n, $canShootEggs|geggs, ttrain, arat", "logictype_n, $canShootEggs|geggs, sstride, arat", "logictype_n, $canShootEggs|geggs, eggaim, splitup", "logictype_n, $canShootEggs|geggs, $longJump, splitup", "logictype_n, $canShootEggs|geggs, $TDLFlightPad, splitup", "logictype_n, $canShootEggs|geggs, ttrain, splitup", "logictype_n, $canShootEggs|geggs, sstride, splitup", "logictype_n, $canShootEggs|geggs, eggaim, bbust", "logictype_n, $canShootEggs|geggs, $longJump, bbust", "logictype_n, $canShootEggs|geggs, $TDLFlightPad, bbust", "logictype_n, $canShootEggs|geggs, ttrain, bbust", "logictype_n, $canShootEggs|geggs, sstride, bbust", "logictype_n, $canShootEggs|geggs, eggaim, $TDLFlightPad", "logictype_n, $canShootEggs|geggs, $longJump, $TDLFlightPad", "logictype_n, $canShootEggs|geggs, $TDLFlightPad", "logictype_n, $canShootEggs|geggs, ttrain, $TDLFlightPad", "logictype_n, $canShootEggs|geggs, sstride, $TDLFlightPad",
+              "logictype_a, $TDLFlightPad, bbomb", "logictype_a, $canShootEggs|geggs, eggaim", "logictype_a, $canShootEggs|geggs, $longJump", "logictype_a, $canShootEggs|geggs, $TDLFlightPad", "logictype_a, $canShootEggs|geggs, ttrain", "logictype_a, $canShootEggs|geggs, sstride", "logictype_a, $canShootEggs|geggs, splitup",
+              "logictype_g, $TDLFlightPad, bbomb", "logictype_g, $canShootEggs|geggs, eggaim", "logictype_g, $canShootEggs|geggs, $longJump", "logictype_g, $canShootEggs|geggs, $TDLFlightPad", "logictype_g, $canShootEggs|geggs, ttrain", "logictype_g, $canShootEggs|geggs, sstride", "logictype_g, $canShootEggs|geggs, splitup"
             ]
           }
         ],
@@ -6798,7 +8216,12 @@
       },
       {
         "name": "TDL: Roar Cage Path Notes",
-        "access_rules": [ "$longJump", "springb", "$TDLFlightPad", "$humbaTDL, roar" ],
+        "access_rules": [
+          "logictype_b, $longJump", "logictype_b, springb", "logictype_b, $TDLFlightPad", "logictype_b, $humbaTDL, roar",
+          "logictype_n, $longJump", "logictype_n, springb", "logictype_n, $TDLFlightPad", "logictype_n, $humbaTDL, roar", "logictype_n, splitup",
+          "logictype_a, $longJump", "logictype_a, springb", "logictype_a, $TDLFlightPad", "logictype_a, $humbaTDL, roar", "logictype_a, splitup",
+          "logictype_g, $longJump", "logictype_g, springb", "logictype_g, $TDLFlightPad", "logictype_g, $humbaTDL, roar", "logictype_g, splitup"
+        ],
         "sections": [
           {
             "name": "Note 1"
@@ -7278,9 +8701,9 @@
             "name": "Honeycomb",
             "access_rules": [
               "logictype_b, ttrot",
-              "logictype_n, ttrot",
-              "logictype_a, ttrot", "logictype_a, $clockwork_shot", "logictype_a, $humbaTDL",
-              "logictype_g, ttrot", "logictype_g, $clockwork_shot", "logictype_g, $humbaTDL"
+              "logictype_n, ttrot", "logictype_n, splitup",
+              "logictype_a, ttrot", "logictype_a, $clockwork_shot", "logictype_a, $humbaTDL", "logictype_a, splitup",
+              "logictype_g, ttrot", "logictype_g, $clockwork_shot", "logictype_g, $humbaTDL", "logictype_g, splitup"
             ]
           }
         ],
@@ -7478,7 +8901,15 @@
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
     "access_rules": [
-      "@Quagmire, gia",
+      "$load_mt_gi, gia",
+      "$load_ggm_gi, @Plateau, $PL_to_GGM",
+      "$load_ww_gi, @Pine Grove, gia",
+      "$load_jrl_gi, @Cliff Top, gia",
+      "$load_hfp_gi, @Cliff Top, gia",
+      "$load_tdl_gi, @Wasteland, gia",
+      "$load_ccl_gi, @Wasteland, gia",
+      "$load_gi_gi, @Quagmire, gia",
+      "$load_ck_gi, @Quagmire, $quag_to_CK, gia",
       "@Grunty's Industries - Floor 1, splitup",
       "@Grunty's Industries - Floor 2",
       "@Grunty's Industries - Floor 3 to 5"
@@ -7523,10 +8954,10 @@
           {
             "name": "Treble Clef",
             "access_rules": [
-              "logictype_b, splitup, clawbts",
-              "logictype_n, splitup, clawbts", "logictype_n, splitup, lspring, glide, wwhack", "logictype_n, splitup, lspring, glide, eggaim",
-              "logictype_a, splitup, clawbts", "logictype_a, splitup, $clockwork_shot", "logictype_a, splitup, lspring, glide, wwhack", "logictype_a, splitup, lspring, glide, eggaim",
-              "logictype_g, splitup, clawbts", "logictype_g, splitup, $clockwork_shot", "logictype_g, splitup, lspring, glide, wwhack", "logictype_g, splitup, lspring, glide, eggaim"
+              "logictype_b, splitup, clawbts", "logictype_b, @Grunty's Industries - Floor 3 to 5, $roof_access",
+              "logictype_n, splitup, clawbts", "logictype_n, splitup, lspring, glide, wwhack", "logictype_n, splitup, lspring, glide, eggaim", "logictype_n, @Grunty's Industries - Floor 3 to 5, $roof_access",
+              "logictype_a, splitup, clawbts", "logictype_a, splitup, $clockwork_shot", "logictype_a, splitup, lspring, glide, wwhack", "logictype_a, splitup, lspring, glide, eggaim", "logictype_a, @Grunty's Industries - Floor 3 to 5, $roof_access",
+              "logictype_g, splitup, clawbts", "logictype_g, splitup, $clockwork_shot", "logictype_g, splitup, lspring, glide, wwhack", "logictype_g, splitup, lspring, glide, eggaim", "logictype_g, @Grunty's Industries - Floor 3 to 5, $roof_access"
             ]
           }
         ],
@@ -8189,7 +9620,15 @@
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
     "access_rules": [
-      "@Cliff Top, hfa",
+      "$load_mt_hfp, hfa",
+      "$load_ggm_hfp, @Plateau, $PL_to_GGM",
+      "$load_ww_hfp, @Pine Grove, hfa",
+      "$load_jrl_hfp, @Cliff Top, hfa",
+      "$load_hfp_hfp, @Cliff Top, hfa",
+      "$load_tdl_hfp, @Wasteland, hfa",
+      "$load_ccl_hfp, @Wasteland, hfa",
+      "$load_gi_hfp, @Quagmire, hfa",
+      "$load_ck_hfp, @Quagmire, $quag_to_CK, hfa",
       "trainswhp1, @Inside Chuffy"
     ],
     "children": [
@@ -8915,7 +10354,17 @@
     "name": "Cloud Cuckooland - Outside",
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
-    "access_rules": [ "@Wasteland, cca" ],
+    "access_rules": [
+      "$load_mt_ccl, cca",
+      "$load_ggm_ccl, @Plateau, $PL_to_GGM",
+      "$load_ww_ccl, @Pine Grove, cca",
+      "$load_jrl_ccl, @Cliff Top, cca",
+      "$load_hfp_ccl, @Cliff Top, cca",
+      "$load_tdl_ccl, @Wasteland, cca",
+      "$load_ccl_ccl, @Wasteland, cca",
+      "$load_gi_ccl, @Quagmire, cca",
+      "$load_ck_ccl, @Quagmire, $quag_to_CK, cca"
+   ],
     "children": [
       {
         "name": "TDL: Dippy Jiggy",
@@ -9268,9 +10717,9 @@
             "name": "Jinjo",
             "access_rules": [
               "logictype_b, splitup, $springPad", "logictype_b, humbacc",
-              "logictype_n, splitup, $springPad", "logictype_n, springb, $billDrill", "logictype_n, springb, flutter", "logictype_n, springb, arat", "logictype_n, springb, splitup", "logictype_n, splitup, lspring", "logictype_n, humbacc",
-              "logictype_a, splitup, $springPad", "logictype_a, $clockwork_shot", "logictype_a, springb, $billDrill", "logictype_a, springb, flutter", "logictype_a, springb, arat", "logictype_a, springb, splitup", "logictype_a, splitup, lspring", "logictype_a, humbacc",
-              "logictype_g, splitup, $springPad", "logictype_g, $clockwork_shot", "logictype_g, springb, $billDrill", "logictype_g, springb, flutter", "logictype_g, springb, arat", "logictype_g, springb, splitup", "logictype_g, splitup, lspring", "logictype_g, humbacc"
+              "logictype_n, splitup, $springPad", "logictype_n, splitup, fpad", "logictype_n, springb, $billDrill", "logictype_n, springb, flutter", "logictype_n, springb, arat", "logictype_n, springb, splitup", "logictype_n, splitup, lspring", "logictype_n, humbacc",
+              "logictype_a, splitup, $springPad", "logictype_a, splitup, fpad", "logictype_a, $clockwork_shot", "logictype_a, springb, $billDrill", "logictype_a, springb, flutter", "logictype_a, springb, arat", "logictype_a, springb, splitup", "logictype_a, splitup, lspring", "logictype_a, humbacc",
+              "logictype_g, splitup, $springPad", "logictype_g, splitup, fpad", "logictype_g, $clockwork_shot", "logictype_g, springb, $billDrill", "logictype_g, springb, flutter", "logictype_g, springb, arat", "logictype_g, springb, splitup", "logictype_g, splitup, lspring", "logictype_g, humbacc"
             ]
           }
         ],
