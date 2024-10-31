@@ -5066,8 +5066,9 @@
             "visibility_rules": [ "goal_boss", "goal_wwing" ],
             "access_rules": [
               "logictype_b, begg", "logictype_b, feggs", "logictype_b, geggs",
-              "logictype_n, begg", "logictype_n, feggs", "logictype_n, geggs",
-              "logictype_a", "logictype_g"
+              "logictype_n, begg", "logictype_n, feggs", "logictype_n, geggs", "logictype_n, ieggs, bbayonet",
+              "logictype_a, begg", "logictype_a, feggs", "logictype_a, geggs", "logictype_a, ieggs, bbayonet",
+              "logictype_g, begg", "logictype_g, feggs", "logictype_g, geggs", "logictype_g, ieggs, bbayonet"
             ]
           }
         ],
@@ -10631,8 +10632,8 @@
           {
             "name": "Mingy Jongo Jiggy",
             "access_rules": [
-              "logictype_b, $hasMobileAttack, ttrot",
-              "logictype_n, $hasMobileAttack",
+              "logictype_b, $canShootLinearEgg, ttrot", "logictype_b, bbarge, ttrot", "logictype_b, arat, ttrot", "logictype_b, wwing, ttrot",
+              "logictype_n, $canShootLinearEgg", "logictype_n, bbarge", "logictype_n, arat", "logictype_n, wwing",
               "logictype_a, $hasMobileAttack",
               "logictype_g, $hasMobileAttack"
             ]
@@ -10736,7 +10737,10 @@
         "sections": [
           {
             "name": "Glowbo",
-            "access_rules": [ "$canDoSmallElevation, dive" ]
+            "access_rules": [
+              "logictype_b, $canDoSmallElevation, dive",
+              "logictype_n, dive", "logictype_a, dive", "logictype_g, dive"
+            ]
           }
         ],
         "map_locations": [
