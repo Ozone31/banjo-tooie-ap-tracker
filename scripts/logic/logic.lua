@@ -561,60 +561,10 @@ function WH_to_PL()
 end
 
 function PL_to_GGM()
-    if load_ggm == "Mayahem Temple" then
-        if logictype.CurrentStage <= 2 then
-            return has("mta")
-        else
-            return has("mta") or (has("bbust") and (has("fflip") or has("tjump") or (has("ttrot") and (has("flutter") or has("arat")))))
-        end
-    elseif load_ggm == "Glitter Gulch Mine" then
-        if logictype.CurrentStage <= 2 then
-            return has("gga")
-        else
-            return has("gga") or (has("bbust") and (has("fflip") or has("tjump") or (has("ttrot") and (has("flutter") or has("arat")))))
-        end
-    elseif load_ggm == "Witchyworld" then
-        if logictype.CurrentStage <= 2 then
-            return has("wwa")
-        else
-            return has("wwa") or (has("bbust") and (has("fflip") or has("tjump") or (has("ttrot") and (has("flutter") or has("arat")))))
-        end
-    elseif load_ggm == "Jolly Roger's Lagoon - Town Center" then
-        if logictype.CurrentStage <= 2 then
-            return has("jra")
-        else
-            return has("jra") or (has("bbust") and (has("fflip") or has("tjump") or (has("ttrot") and (has("flutter") or has("arat")))))
-        end
-    elseif load_ggm == "Terrydactyland" then
-        if logictype.CurrentStage <= 2 then
-            return has("tda")
-        else
-            return has("tda") or (has("bbust") and (has("fflip") or has("tjump") or (has("ttrot") and (has("flutter") or has("arat")))))
-        end
-    elseif load_ggm == "Outside Grunty's Industries" then
-        if logictype.CurrentStage <= 2 then
-            return has("gia")
-        else
-            return has("gia") or (has("bbust") and (has("fflip") or has("tjump") or (has("ttrot") and (has("flutter") or has("arat")))))
-        end
-    elseif load_ggm == "Hailfire Peaks" then
-        if logictype.CurrentStage <= 2 then
-            return has("hfa")
-        else
-            return has("hfa") or (has("bbust") and (has("fflip") or has("tjump") or (has("ttrot") and (has("flutter") or has("arat")))))
-        end
-    elseif load_ggm == "Cloud Cuckooland" then
-        if logictype.CurrentStage <= 2 then
-            return has("cca")
-        else
-            return has("cca") or (has("bbust") and (has("fflip") or has("tjump") or (has("ttrot") and (has("flutter") or has("arat")))))
-        end
-    elseif load_ggm == "Cauldron Keep" then
-        if logictype.CurrentStage <= 2 then
-            return has("cka")
-        else
-            return has("cka") or (has("bbust") and (has("fflip") or has("tjump") or (has("ttrot") and (has("flutter") or has("arat")))))
-        end
+    if logictype.CurrentStage <= 2 then
+        return has("gga")
+    else
+        return has("gga") or (has("bbust") and (has("fflip") or has("tjump") or (has("ttrot") and (has("flutter") or has("arat")))))
     end
 end
 
@@ -672,25 +622,7 @@ end
 
 function escape_ggm_loading_zone()
     if logictype.CurrentStage == 0 then
-        if load_ggm == "Mayahem Temple" then
-            return has("mta") and has("climb")
-        elseif load_ggm == "Glitter Gulch Mine" then
-            return has("gga") and has("climb")
-        elseif load_ggm == "Witchyworld" then
-            return has("wwa") and has("climb")
-        elseif load_ggm == "Jolly Roger's Lagoon - Town Center" then
-            return has("jra") and has("climb")
-        elseif load_ggm == "Terrydactyland" then
-            return has("tda") and has("climb")
-        elseif load_ggm == "Outside Grunty's Industries" then
-            return has("gia") and has("climb")
-        elseif load_ggm == "Hailfire Peaks" then
-            return has("hfa") and has("climb")
-        elseif load_ggm == "Cloud Cuckooland" then
-            return has("cca") and has("climb")
-        elseif load_ggm == "Cauldron Keep" then
-            return has("cka") and has("climb")
-        end
+        return has("gga") and has("climb")
     else
         return has("climb") or has("bbust") or has("flutter") or has("arat")
     end
@@ -707,6 +639,14 @@ end
 function HFP_to_CTHFP()
     if logictype.CurrentStage == 0 then
         return has("hfa")
+    else
+        return true
+    end
+end
+
+function JRL_to_CT()
+    if logictype.CurrentStage == 0 then
+        return has("jra")
     else
         return true
     end
@@ -913,6 +853,14 @@ function HFP_to_JRL()
         return HFP_hot_water_cooled()
     else
         return HFP_hot_water_cooled() or (has("ggrab") and has("flutter") and has("grat") and has("tjump"))
+    end
+end
+
+function CK_to_Quag()
+    if logictype.CurrentStage == 0 then
+        return has("cka")
+    else
+        return true
     end
 end
 
