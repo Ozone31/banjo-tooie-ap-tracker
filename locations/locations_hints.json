@@ -169,19 +169,19 @@
                   "visibility_rules": ["pl_feggssilo"]
                 },
                 {
-                  "name": "IoH: Plateau GGM Sign (1) Note (Hint)",
+                  "name": "IoH: Plateau GGM Sign Note 1 (Hint)",
                   "visibility_rules": ["pl_ggmsignnote1"]
                 },
                 {
-                  "name": "IoH: Plateau GGM Sign (2) Note (Hint)",
+                  "name": "IoH: Plateau GGM Sign Note 2 (Hint)",
                   "visibility_rules": ["pl_ggmsignnote2"]
                 },
                 {
-                  "name": "IoH: Plateau Honey B. (1) Note (Hint)",
+                  "name": "IoH: Plateau Honey B. Note 1 (Hint)",
                   "visibility_rules": ["pl_honeybnote1"]
                 },
                 {
-                  "name": "IoH: Plateau Honey B. (2) Note (Hint)",
+                  "name": "IoH: Plateau Honey B. Note 2 (Hint)",
                   "visibility_rules": ["pl_honeybnote2"]
                 },
                 {
@@ -221,19 +221,19 @@
                   "visibility_rules": ["pg_geggssilo"]
                 },
                 {
-                  "name": "IoH: Pine Grove (1) Note (Hint)",
+                  "name": "IoH: Pine Grove Note 1 (Hint)",
                   "visibility_rules": ["pg_note1"]
                 },
                 {
-                  "name": "IoH: Pine Grove (2) Note (Hint)",
+                  "name": "IoH: Pine Grove Note 2 (Hint)",
                   "visibility_rules": ["pg_note2"]
                 },
                 {
-                  "name": "IoH: Pine Grove Underwater (1) Note (Hint)",
+                  "name": "IoH: Pine Grove Underwater Note 1 (Hint)",
                   "visibility_rules": ["pg_uwnote1"]
                 },
                 {
-                  "name": "IoH: Pine Grove Underwater (2) Note (Hint)",
+                  "name": "IoH: Pine Grove Underwater Note 2 (Hint)",
                   "visibility_rules": ["pg_uwnote2"]
                 }
               ],
@@ -265,19 +265,19 @@
                   "visibility_rules": ["ct_glowbo"]
                 },
                 {
-                  "name": "IoH: Outside HFP (1) Note (Hint)",
+                  "name": "IoH: Outside HFP Note 1 (Hint)",
                   "visibility_rules": ["ct_note1"]
                 },
                 {
-                  "name": "IoH: Outside HFP (2) Note (Hint)",
+                  "name": "IoH: Outside HFP Note 2 (Hint)",
                   "visibility_rules": ["ct_note2"]
                 },
                 {
-                  "name": "IoH: Outside HFP (3) Note (Hint)",
+                  "name": "IoH: Outside HFP Note 3 (Hint)",
                   "visibility_rules": ["ct_note3"]
                 },
                 {
-                  "name": "IoH: Outside HFP (4) Note (Hint)",
+                  "name": "IoH: Outside HFP Note 4 (Hint)",
                   "visibility_rules": ["ct_note4"]
                 }
               ],
@@ -309,11 +309,11 @@
                   "visibility_rules": ["wl_clockworknote2"]
                 },
                 {
-                  "name": "IoH: Wasteland CCL Area (1) Note (Hint)",
+                  "name": "IoH: Wasteland CCL Area Note 1 (Hint)",
                   "visibility_rules": ["wl_cclnote1"]
                 },
                 {
-                  "name": "IoH: Wasteland CCL Area (2) Note (Hint)",
+                  "name": "IoH: Wasteland CCL Area Note 2 (Hint)",
                   "visibility_rules": ["wl_cclnote2"]
                 }
               ],
@@ -461,63 +461,63 @@
                   "visibility_rules": ["mt_treble"]
                 },
                 {
-                  "name": "MT: First Stairs (1) Note (Hint)",
+                  "name": "MT: First Stairs Note 1 (Hint)",
                   "visibility_rules": ["mt_note1"]
                 },
                 {
-                  "name": "MT: First Stairs (2) Note (Hint)",
+                  "name": "MT: First Stairs Note 2 (Hint)",
                   "visibility_rules": ["mt_note2"]
                 },
                 {
-                  "name": "MT: First Stairs (3) Note (Hint)",
+                  "name": "MT: First Stairs Note 3 (Hint)",
                   "visibility_rules": ["mt_note3"]
                 },
                 {
-                  "name": "MT: First Stairs (4) Note (Hint)",
+                  "name": "MT: First Stairs Note 4 (Hint)",
                   "visibility_rules": ["mt_note4"]
                 },
                 {
-                  "name": "MT: Second Stairs (1) Note (Hint)",
+                  "name": "MT: Second Stairs Note 1 (Hint)",
                   "visibility_rules": ["mt_note5"]
                 },
                 {
-                  "name": "MT: Second Stairs (2) Note (Hint)",
+                  "name": "MT: Second Stairs Note 2 (Hint)",
                   "visibility_rules": ["mt_note6"]
                 },
                 {
-                  "name": "MT: Second Stairs (3) Note (Hint)",
+                  "name": "MT: Second Stairs Note 3 (Hint)",
                   "visibility_rules": ["mt_note7"]
                 },
                 {
-                  "name": "MT: Second Stairs (4) Note (Hint)",
+                  "name": "MT: Second Stairs Note 4 (Hint)",
                   "visibility_rules": ["mt_note8"]
                 },
                 {
-                  "name": "MT: Third Stairs (1) Note (Hint)",
+                  "name": "MT: Third Stairs Note 1 (Hint)",
                   "visibility_rules": ["mt_note9"]
                 },
                 {
-                  "name": "MT: Third Stairs (2) Note (Hint)",
+                  "name": "MT: Third Stairs Note 2 (Hint)",
                   "visibility_rules": ["mt_note10"]
                 },
                 {
-                  "name": "MT: Third Stairs (3) Note (Hint)",
+                  "name": "MT: Third Stairs Note 3 (Hint)",
                   "visibility_rules": ["mt_note11"]
                 },
                 {
-                  "name": "MT: Third Stairs (4) Note (Hint)",
+                  "name": "MT: Third Stairs Note 4 (Hint)",
                   "visibility_rules": ["mt_note12"]
                 },
                 {
-                  "name": "MT: Top Stairs (1) Note (Hint)",
+                  "name": "MT: Top Stairs Note 1 (Hint)",
                   "visibility_rules": ["mt_note13"]
                 },
                 {
-                  "name": "MT: Top Stairs (2) Note (Hint)",
+                  "name": "MT: Top Stairs Note 2 (Hint)",
                   "visibility_rules": ["mt_note14"]
                 },
                 {
-                  "name": "MT: Top Stairs (3) Note (Hint)",
+                  "name": "MT: Top Stairs Note 3 (Hint)",
                   "visibility_rules": ["mt_note15"]
                 },
                 {
@@ -685,19 +685,19 @@
                   "visibility_rules": ["gm_treble"]
                 },
                 {
-                  "name": "GGM: Hill by Crushing Shed (1) Note (Hint)",
+                  "name": "GGM: Hill by Crushing Shed Note 1 (Hint)",
                   "visibility_rules": ["gm_note1"]
                 },
                 {
-                  "name": "GGM: Hill by Crushing Shed (2) Note (Hint)",
+                  "name": "GGM: Hill by Crushing Shed Note 2 (Hint)",
                   "visibility_rules": ["gm_note2"]
                 },
                 {
-                  "name": "GGM: Hill by Crushing Shed (3) Note (Hint)",
+                  "name": "GGM: Hill by Crushing Shed Note 3 (Hint)",
                   "visibility_rules": ["gm_note3"]
                 },
                 {
-                  "name": "GGM: Hill by Crushing Shed (4) Note (Hint)",
+                  "name": "GGM: Hill by Crushing Shed Note 4 (Hint)",
                   "visibility_rules": ["gm_note4"]
                 },
                 {
@@ -721,15 +721,15 @@
                   "visibility_rules": ["gm_note9"]
                 },
                 {
-                  "name": "GGM: Outside Mumbo's Skull (1) Note (Hint)",
+                  "name": "GGM: Outside Mumbo's Skull Note 1 (Hint)",
                   "visibility_rules": ["gm_note10"]
                 },
                 {
-                  "name": "GGM: Outside Mumbo's Skull (2) Note (Hint)",
+                  "name": "GGM: Outside Mumbo's Skull Note 2 (Hint)",
                   "visibility_rules": ["gm_note11"]
                 },
                 {
-                  "name": "GGM: Outside Mumbo's Skull (3) Note (Hint)",
+                  "name": "GGM: Outside Mumbo's Skull Note 3 (Hint)",
                   "visibility_rules": ["gm_note12"]
                 },
                 {
@@ -897,67 +897,67 @@
                   "visibility_rules": ["ww_treble"]
                 },
                 {
-                  "name": "WW: Around the Tent (1) Note (Hint)",
+                  "name": "WW: Around the Tent Note 1 (Hint)",
                   "visibility_rules": ["ww_note1"]
                 },
                 {
-                  "name": "WW: Around the Tent (2) Note (Hint)",
+                  "name": "WW: Around the Tent Note 2 (Hint)",
                   "visibility_rules": ["ww_note2"]
                 },
                 {
-                  "name": "WW: Around the Tent (3) Note (Hint)",
+                  "name": "WW: Around the Tent Note 3 (Hint)",
                   "visibility_rules": ["ww_note3"]
                 },
                 {
-                  "name": "WW: Around the Tent (4) Note (Hint)",
+                  "name": "WW: Around the Tent Note 4 (Hint)",
                   "visibility_rules": ["ww_note4"]
                 },
                 {
-                  "name": "WW: Around the Tent (5) Note (Hint)",
+                  "name": "WW: Around the Tent Note 5 (Hint)",
                   "visibility_rules": ["ww_note5"]
                 },
                 {
-                  "name": "WW: Around the Tent (6) Note (Hint)",
+                  "name": "WW: Around the Tent Note 6 (Hint)",
                   "visibility_rules": ["ww_note6"]
                 },
                 {
-                  "name": "WW: Around the Tent (7) Note (Hint)",
+                  "name": "WW: Around the Tent Note 7 (Hint)",
                   "visibility_rules": ["ww_note7"]
                 },
                 {
-                  "name": "WW: Around the Tent (8) Note (Hint)",
+                  "name": "WW: Around the Tent Note 8 (Hint)",
                   "visibility_rules": ["ww_note8"]
                 },
                 {
-                  "name": "WW: Area 51 Gate (1) Note (Hint)",
+                  "name": "WW: Area 51 Gate Note 1 (Hint)",
                   "visibility_rules": ["ww_note9"]
                 },
                 {
-                  "name": "WW: Area 51 Gate (2) Note (Hint)",
+                  "name": "WW: Area 51 Gate Note 2 (Hint)",
                   "visibility_rules": ["ww_note10"]
                 },
                 {
-                  "name": "WW: Outside Dodgem Dome (1) Note (Hint)",
+                  "name": "WW: Outside Dodgem Dome Note 1 (Hint)",
                   "visibility_rules": ["ww_note11"]
                 },
                 {
-                  "name": "WW: Outside Dodgem Dome (2) Note (Hint)",
+                  "name": "WW: Outside Dodgem Dome Note 2 (Hint)",
                   "visibility_rules": ["ww_note12"]
                 },
                 {
-                  "name": "WW: Dive of Death (1) Note (Hint)",
+                  "name": "WW: Dive of Death Note 1 (Hint)",
                   "visibility_rules": ["ww_note13"]
                 },
                 {
-                  "name": "WW: Dive of Death (2) Note (Hint)",
+                  "name": "WW: Dive of Death Note 2 (Hint)",
                   "visibility_rules": ["ww_note14"]
                 },
                 {
-                  "name": "WW: Crazy Castle Entrance (1) Note (Hint)",
+                  "name": "WW: Crazy Castle Entrance Note 1 (Hint)",
                   "visibility_rules": ["ww_note15"]
                 },
                 {
-                  "name": "WW: Crazy Castle Entrance (2) Note (Hint)",
+                  "name": "WW: Crazy Castle Entrance Note 2 (Hint)",
                   "visibility_rules": ["ww_note16"]
                 }
               ],
@@ -1117,55 +1117,55 @@
                   "visibility_rules": ["jr_note3"]
                 },
                 {
-                  "name": "JRL: Blubbul (1) Note (Hint)",
+                  "name": "JRL: Blubbul Note 1 (Hint)",
                   "visibility_rules": ["jr_note4"]
                 },
                 {
-                  "name": "JRL: Blubbul (2) Note (Hint)",
+                  "name": "JRL: Blubbul Note 2 (Hint)",
                   "visibility_rules": ["jr_note5"]
                 },
                 {
-                  "name": "JRL: Electric Eel's Lair Entrance (1) Note (Hint)",
+                  "name": "JRL: Electric Eel's Lair Entrance Note 1 (Hint)",
                   "visibility_rules": ["jr_note6"]
                 },
                 {
-                  "name": "JRL: Electric Eel's Lair Entrance (2) Note (Hint)",
+                  "name": "JRL: Electric Eel's Lair Entrance Note 2 (Hint)",
                   "visibility_rules": ["jr_note7"]
                 },
                 {
-                  "name": "JRL: Blubber's Hire (1) Note (Hint)",
+                  "name": "JRL: Blubber's Hire Note 1 (Hint)",
                   "visibility_rules": ["jr_note8"]
                 },
                 {
-                  "name": "JRL: Blubber's Hire (2) Note (Hint)",
+                  "name": "JRL: Blubber's Hire Note 2 (Hint)",
                   "visibility_rules": ["jr_note9"]
                 },
                 {
-                  "name": "JRL: Blubber's Hire (3) Note (Hint)",
+                  "name": "JRL: Blubber's Hire Note 3 (Hint)",
                   "visibility_rules": ["jr_note10"]
                 },
                 {
-                  "name": "JRL: Pawno's Emporium (1) Note (Hint)",
+                  "name": "JRL: Pawno's Emporium Note 1 (Hint)",
                   "visibility_rules": ["jr_note11"]
                 },
                 {
-                  "name": "JRL: Pawno's Emporium (2) Note (Hint)",
+                  "name": "JRL: Pawno's Emporium Note 2 (Hint)",
                   "visibility_rules": ["jr_note12"]
                 },
                 {
-                  "name": "JRL: Pawno's Emporium (3) Note (Hint)",
+                  "name": "JRL: Pawno's Emporium Note 3 (Hint)",
                   "visibility_rules": ["jr_note13"]
                 },
                 {
-                  "name": "JRL: Jolly's (1) Note (Hint)",
+                  "name": "JRL: Jolly's Note 1 (Hint)",
                   "visibility_rules": ["jr_note14"]
                 },
                 {
-                  "name": "JRL: Jolly's (2) Note (Hint)",
+                  "name": "JRL: Jolly's Note 2 (Hint)",
                   "visibility_rules": ["jr_note15"]
                 },
                 {
-                  "name": "JRL: Jolly's (3) Note (Hint)",
+                  "name": "JRL: Jolly's Note 3 (Hint)",
                   "visibility_rules": ["jr_note16"]
                 }
               ],
@@ -1181,123 +1181,123 @@
               "name": "Jolly Roger's Lagoon - Doubloons Hints",
               "sections": [
                 {
-                  "name": "JRL: Town Center Pole 1 Doubloon (Hint)",
+                  "name": "JRL: Town Center Pole Doubloon 1 (Hint)",
                   "visibility_rules": ["jr_doubloon1"]
                 },
                 {
-                  "name": "JRL: Town Center Pole 2 Doubloon (Hint)",
+                  "name": "JRL: Town Center Pole Doubloon 2 (Hint)",
                   "visibility_rules": ["jr_doubloon2"]
                 },
                 {
-                  "name": "JRL: Town Center Pole 3 Doubloon (Hint)",
+                  "name": "JRL: Town Center Pole Doubloon 3 (Hint)",
                   "visibility_rules": ["jr_doubloon3"]
                 },
                 {
-                  "name": "JRL: Town Center Pole 4 Doubloon (Hint)",
+                  "name": "JRL: Town Center Pole Doubloon 4 (Hint)",
                   "visibility_rules": ["jr_doubloon4"]
                 },
                 {
-                  "name": "JRL: Town Center Pole 5 Doubloon (Hint)",
+                  "name": "JRL: Town Center Pole Doubloon 5 (Hint)",
                   "visibility_rules": ["jr_doubloon5"]
                 },
                 {
-                  "name": "JRL: Town Center Pole 6 Doubloon (Hint)",
+                  "name": "JRL: Town Center Pole Doubloon 6 (Hint)",
                   "visibility_rules": ["jr_doubloon6"]
                 },
                 {
-                  "name": "JRL: Silo 1 Doubloon (Hint)",
+                  "name": "JRL: Silo Doubloon 1 (Hint)",
                   "visibility_rules": ["jr_doubloon7"]
                 },
                 {
-                  "name": "JRL: Silo 2 Doubloon (Hint)",
+                  "name": "JRL: Silo Doubloon 2 (Hint)",
                   "visibility_rules": ["jr_doubloon8"]
                 },
                 {
-                  "name": "JRL: Silo 3 Doubloon (Hint)",
+                  "name": "JRL: Silo Doubloon 3 (Hint)",
                   "visibility_rules": ["jr_doubloon9"]
                 },
                 {
-                  "name": "JRL: Silo 4 Doubloon (Hint)",
+                  "name": "JRL: Silo Doubloon 4 (Hint)",
                   "visibility_rules": ["jr_doubloon10"]
                 },
                 {
-                  "name": "JRL: Toxic Pool 1 Doubloon (Hint)",
+                  "name": "JRL: Toxic Pool Doubloon 1 (Hint)",
                   "visibility_rules": ["jr_doubloon11"]
                 },
                 {
-                  "name": "JRL: Toxic Pool 2 Doubloon (Hint)",
+                  "name": "JRL: Toxic Pool Doubloon 2 (Hint)",
                   "visibility_rules": ["jr_doubloon12"]
                 },
                 {
-                  "name": "JRL: Toxic Pool 3 Doubloon (Hint)",
+                  "name": "JRL: Toxic Pool Doubloon 3 (Hint)",
                   "visibility_rules": ["jr_doubloon13"]
                 },
                 {
-                  "name": "JRL: Toxic Pool 4 Doubloon (Hint)",
+                  "name": "JRL: Toxic Pool Doubloon 4 (Hint)",
                   "visibility_rules": ["jr_doubloon14"]
                 },
                 {
-                  "name": "JRL: Mumbo Skull 1 Doubloon (Hint)",
+                  "name": "JRL: Mumbo Skull Doubloon 1 (Hint)",
                   "visibility_rules": ["jr_doubloon15"]
                 },
                 {
-                  "name": "JRL: Mumbo Skull 2 Doubloon (Hint)",
+                  "name": "JRL: Mumbo Skull Doubloon 2 (Hint)",
                   "visibility_rules": ["jr_doubloon16"]
                 },
                 {
-                  "name": "JRL: Mumbo Skull 3 Doubloon (Hint)",
+                  "name": "JRL: Mumbo Skull Doubloon 3 (Hint)",
                   "visibility_rules": ["jr_doubloon17"]
                 },
                 {
-                  "name": "JRL: Mumbo Skull 4 Doubloon (Hint)",
+                  "name": "JRL: Mumbo Skull Doubloon 4 (Hint)",
                   "visibility_rules": ["jr_doubloon18"]
                 },
                 {
-                  "name": "JRL: Underground 1 Doubloon (Hint)",
+                  "name": "JRL: Underground Doubloon 1 (Hint)",
                   "visibility_rules": ["jr_doubloon19"]
                 },
                 {
-                  "name": "JRL: Underground 2 Doubloon (Hint)",
+                  "name": "JRL: Underground Doubloon 2 (Hint)",
                   "visibility_rules": ["jr_doubloon20"]
                 },
                 {
-                  "name": "JRL: Underground 3 Doubloon (Hint)",
+                  "name": "JRL: Underground Doubloon 3 (Hint)",
                   "visibility_rules": ["jr_doubloon21"]
                 },
                 {
-                  "name": "JRL: Alcove 1 Doubloon (Hint)",
+                  "name": "JRL: Alcove Doubloon 1 (Hint)",
                   "visibility_rules": ["jr_doubloon22"]
                 },
                 {
-                  "name": "JRL: Alcove 2 Doubloon (Hint)",
+                  "name": "JRL: Alcove Doubloon 2 (Hint)",
                   "visibility_rules": ["jr_doubloon23"]
                 },
                 {
-                  "name": "JRL: Alcove 3 Doubloon (Hint)",
+                  "name": "JRL: Alcove Doubloon 3 (Hint)",
                   "visibility_rules": ["jr_doubloon24"]
                 },
                 {
-                  "name": "JRL: Captain Blackeye 1 Doubloon (Hint)",
+                  "name": "JRL: Captain Blackeye Doubloon 1 (Hint)",
                   "visibility_rules": ["jr_doubloon25"]
                 },
                 {
-                  "name": "JRL: Captain Blackeye 2 Doubloon (Hint)",
+                  "name": "JRL: Captain Blackeye Doubloon 2 (Hint)",
                   "visibility_rules": ["jr_doubloon26"]
                 },
                 {
-                  "name": "JRL: Near Alcove Jinjo 1 Doubloon (Hint)",
+                  "name": "JRL: Near Alcove Jinjo Doubloon 1 (Hint)",
                   "visibility_rules": ["jr_doubloon27"]
                 },
                 {
-                  "name": "JRL: Near Alcove Jinjo 2 Doubloon (Hint)",
+                  "name": "JRL: Near Alcove Jinjo Doubloon 2 (Hint)",
                   "visibility_rules": ["jr_doubloon28"]
                 },
                 {
-                  "name": "JRL: Near Alcove Jinjo 3 Doubloon (Hint)",
+                  "name": "JRL: Near Alcove Jinjo Doubloon 3 (Hint)",
                   "visibility_rules": ["jr_doubloon29"]
                 },
                 {
-                  "name": "JRL: Near Alcove Jinjo 4 Doubloon (Hint)",
+                  "name": "JRL: Near Alcove Jinjo Doubloon 4 (Hint)",
                   "visibility_rules": ["jr_doubloon30"]
                 }
               ],
@@ -1477,55 +1477,55 @@
                   "visibility_rules": ["td_note3"]
                 },
                 {
-                  "name": "TDL: Lakeside (1) Note (Hint)",
+                  "name": "TDL: Lakeside Note 1 (Hint)",
                   "visibility_rules": ["td_note4"]
                 },
                 {
-                  "name": "TDL: Lakeside (2) Note (Hint)",
+                  "name": "TDL: Lakeside Note 2 (Hint)",
                   "visibility_rules": ["td_note5"]
                 },
                 {
-                  "name": "TDL: Lakeside (3) Note (Hint)",
+                  "name": "TDL: Lakeside Note 3 (Hint)",
                   "visibility_rules": ["td_note6"]
                 },
                 {
-                  "name": "TDL: Zig-Zag Path (1) Note (Hint)",
+                  "name": "TDL: Zig-Zag Path Note 1 (Hint)",
                   "visibility_rules": ["td_note7"]
                 },
                 {
-                  "name": "TDL: Zig-Zag Path (2) Note (Hint)",
+                  "name": "TDL: Zig-Zag Path Note 2 (Hint)",
                   "visibility_rules": ["td_note8"]
                 },
                 {
-                  "name": "TDL: Zig-Zag Path (3) Note (Hint)",
+                  "name": "TDL: Zig-Zag Path Note 3 (Hint)",
                   "visibility_rules": ["td_note9"]
                 },
                 {
-                  "name": "TDL: Roar Cage Path (1) Note (Hint)",
+                  "name": "TDL: Roar Cage Path Note 1 (Hint)",
                   "visibility_rules": ["td_note10"]
                 },
                 {
-                  "name": "TDL: Roar Cage Path (2) Note (Hint)",
+                  "name": "TDL: Roar Cage Path Note 2 (Hint)",
                   "visibility_rules": ["td_note11"]
                 },
                 {
-                  "name": "TDL: Roar Cage Path (3) Note (Hint)",
+                  "name": "TDL: Roar Cage Path Note 3 (Hint)",
                   "visibility_rules": ["td_note12"]
                 },
                 {
-                  "name": "TDL: River Passage (1) Note (Hint)",
+                  "name": "TDL: River Passage Note 1 (Hint)",
                   "visibility_rules": ["td_note13"]
                 },
                 {
-                  "name": "TDL: River Passage (2) Note (Hint)",
+                  "name": "TDL: River Passage Note 2 (Hint)",
                   "visibility_rules": ["td_note14"]
                 },
                 {
-                  "name": "TDL: River Passage (3) Note (Hint)",
+                  "name": "TDL: River Passage Note 3 (Hint)",
                   "visibility_rules": ["td_note15"]
                 },
                 {
-                  "name": "TDL: River Passage (4) Note (Hint)",
+                  "name": "TDL: River Passage Note 4 (Hint)",
                   "visibility_rules": ["td_note16"]
                 }
               ],
@@ -1677,35 +1677,35 @@
                   "visibility_rules": ["gi_treble"]
                 },
                 {
-                  "name": "GI: Train Station (1) Note (Hint)",
+                  "name": "GI: Train Station Note 1 (Hint)",
                   "visibility_rules": ["gi_note1"]
                 },
                 {
-                  "name": "GI: Train Station (2) Note (Hint)",
+                  "name": "GI: Train Station Note 2 (Hint)",
                   "visibility_rules": ["gi_note2"]
                 },
                 {
-                  "name": "GI: Train Station (3) Note (Hint)",
+                  "name": "GI: Train Station Note 3 (Hint)",
                   "visibility_rules": ["gi_note3"]
                 },
                 {
-                  "name": "GI: Floor 1 on AC Unit (1) Note (Hint)",
+                  "name": "GI: Floor 1 on AC Unit Note 1 (Hint)",
                   "visibility_rules": ["gi_note4"]
                 },
                 {
-                  "name": "GI: Floor 1 on AC Unit (2) Note (Hint)",
+                  "name": "GI: Floor 1 on AC Unit Note 2 (Hint)",
                   "visibility_rules": ["gi_note5"]
                 },
                 {
-                  "name": "GI: Floor 2: Leg Spring Room (1) Note (Hint)",
+                  "name": "GI: Floor 2: Leg Spring Room Note 1 (Hint)",
                   "visibility_rules": ["gi_note6"]
                 },
                 {
-                  "name": "GI: Floor 2: Leg Spring Room (2) Note (Hint)",
+                  "name": "GI: Floor 2: Leg Spring Room Note 2 (Hint)",
                   "visibility_rules": ["gi_note7"]
                 },
                 {
-                  "name": "GI: Floor 2: Leg Spring Room (3) Note (Hint)",
+                  "name": "GI: Floor 2: Leg Spring Room Note 3 (Hint)",
                   "visibility_rules": ["gi_note8"]
                 },
                 {
@@ -1717,27 +1717,27 @@
                   "visibility_rules": ["gi_note10"]
                 },
                 {
-                  "name": "GI: Floor 1: Waste Disposal Plant (1) Note (Hint)",
+                  "name": "GI: Floor 1: Waste Disposal Plant Note 1 (Hint)",
                   "visibility_rules": ["gi_note11"]
                 },
                 {
-                  "name": "GI: Floor 1: Waste Disposal Plant (2) Note (Hint)",
+                  "name": "GI: Floor 1: Waste Disposal Plant Note 2 (Hint)",
                   "visibility_rules": ["gi_note12"]
                 },
                 {
-                  "name": "GI: Floor 1: Air Conditioning Plant (1) Note (Hint)",
+                  "name": "GI: Floor 1: Air Conditioning Plant Note 1 (Hint)",
                   "visibility_rules": ["gi_note13"]
                 },
                 {
-                  "name": "GI: Floor 1: Air Conditioning Plant (2) Note (Hint)",
+                  "name": "GI: Floor 1: Air Conditioning Plant Note 2 (Hint)",
                   "visibility_rules": ["gi_note14"]
                 },
                 {
-                  "name": "GI: Floor 3 (1) Note (Hint)",
+                  "name": "GI: Floor 3 Note 1 (Hint)",
                   "visibility_rules": ["gi_note15"]
                 },
                 {
-                  "name": "GI: Floor 3 (2) Note (Hint)",
+                  "name": "GI: Floor 3 Note 2 (Hint)",
                   "visibility_rules": ["gi_note16"]
                 }
               ],
@@ -1889,67 +1889,67 @@
                   "visibility_rules": ["hp_treble"]
                 },
                 {
-                  "name": "HFP: Path to Shack Pack (1) Note (Hint)",
+                  "name": "HFP: Path to Shack Pack Note 1 (Hint)",
                   "visibility_rules": ["hp_note1"]
                 },
                 {
-                  "name": "HFP: Path to Shack Pack (2) Note (Hint)",
+                  "name": "HFP: Path to Shack Pack Note 2 (Hint)",
                   "visibility_rules": ["hp_note2"]
                 },
                 {
-                  "name": "HFP: Path to Mumbo's Skull (1) Note (Hint)",
+                  "name": "HFP: Path to Mumbo's Skull Note 1 (Hint)",
                   "visibility_rules": ["hp_note3"]
                 },
                 {
-                  "name": "HFP: Path to Mumbo's Skull (2) Note (Hint)",
+                  "name": "HFP: Path to Mumbo's Skull Note 2 (Hint)",
                   "visibility_rules": ["hp_note4"]
                 },
                 {
-                  "name": "HFP: Lava Side: Top Path (1) Note (Hint)",
+                  "name": "HFP: Lava Side: Top Path Note 1 (Hint)",
                   "visibility_rules": ["hp_note5"]
                 },
                 {
-                  "name": "HFP: Lava Side: Top Path (2) Note (Hint)",
+                  "name": "HFP: Lava Side: Top Path Note 2 (Hint)",
                   "visibility_rules": ["hp_note6"]
                 },
                 {
-                  "name": "HFP: Lava Side: Near Ladder (1) Note (Hint)",
+                  "name": "HFP: Lava Side: Near Ladder Note 1 (Hint)",
                   "visibility_rules": ["hp_note7"]
                 },
                 {
-                  "name": "HFP: Lava Side: Near Ladder (2) Note (Hint)",
+                  "name": "HFP: Lava Side: Near Ladder Note 2 (Hint)",
                   "visibility_rules": ["hp_note8"]
                 },
                 {
-                  "name": "HFP: Oil Drill (1) Note (Hint)",
+                  "name": "HFP: Oil Drill Note 1 (Hint)",
                   "visibility_rules": ["hp_note9"]
                 },
                 {
-                  "name": "HFP: Oil Drill (2) Note (Hint)",
+                  "name": "HFP: Oil Drill Note 2 (Hint)",
                   "visibility_rules": ["hp_note10"]
                 },
                 {
-                  "name": "HFP: Upper Icy Side Warp Pad (1) Note (Hint)",
+                  "name": "HFP: Upper Icy Side Warp Pad Note 1 (Hint)",
                   "visibility_rules": ["hp_note11"]
                 },
                 {
-                  "name": "HFP: Upper Icy Side Warp Pad (2) Note (Hint)",
+                  "name": "HFP: Upper Icy Side Warp Pad Note 2 (Hint)",
                   "visibility_rules": ["hp_note12"]
                 },
                 {
-                  "name": "HFP: Boggy's Igloo (1) Note (Hint)",
+                  "name": "HFP: Boggy's Igloo Note 1 (Hint)",
                   "visibility_rules": ["hp_note13"]
                 },
                 {
-                  "name": "HFP: Boggy's Igloo (2) Note (Hint)",
+                  "name": "HFP: Boggy's Igloo Note 2 (Hint)",
                   "visibility_rules": ["hp_note14"]
                 },
                 {
-                  "name": "HFP: Lower Icy Side Warp Pad (1) Note (Hint)",
+                  "name": "HFP: Lower Icy Side Warp Pad Note 1 (Hint)",
                   "visibility_rules": ["hp_note15"]
                 },
                 {
-                  "name": "HFP: Lower Icy Side Warp Pad (2) Note (Hint)",
+                  "name": "HFP: Lower Icy Side Warp Pad Note 2 (Hint)",
                   "visibility_rules": ["hp_note16"]
                 }
               ],
@@ -2097,11 +2097,11 @@
                   "visibility_rules": ["cc_note2"]
                 },
                 {
-                  "name": "CCL: Sack Pack Silo (1) Note (Hint)",
+                  "name": "CCL: Sack Pack Silo Note 1 (Hint)",
                   "visibility_rules": ["cc_note3"]
                 },
                 {
-                  "name": "CCL: Sack Pack Silo (2) Note (Hint)",
+                  "name": "CCL: Sack Pack Silo Note 2 (Hint)",
                   "visibility_rules": ["cc_note4"]
                 },
                 {
@@ -2141,15 +2141,15 @@
                   "visibility_rules": ["cc_note13"]
                 },
                 {
-                  "name": "CCL: Central (1) Note (Hint)",
+                  "name": "CCL: Central Note 1 (Hint)",
                   "visibility_rules": ["cc_note14"]
                 },
                 {
-                  "name": "CCL: Central (2) Note (Hint)",
+                  "name": "CCL: Central Note 2 (Hint)",
                   "visibility_rules": ["cc_note15"]
                 },
                 {
-                  "name": "CCL: Central (3) Note (Hint)",
+                  "name": "CCL: Central Note 3 (Hint)",
                   "visibility_rules": ["cc_note16"]
                 }
               ],

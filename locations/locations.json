@@ -205,19 +205,19 @@
           },
           {
             "ref": "Plateau/IoH: Plateau GGM Sign Notes/Note 1",
-            "name": "IoH: Plateau GGM Sign (1) Note"
+            "name": "IoH: Plateau GGM Sign Note 1"
           },
           {
             "ref": "Plateau/IoH: Plateau GGM Sign Notes/Note 2",
-            "name": "IoH: Plateau GGM Sign (2) Note"
+            "name": "IoH: Plateau GGM Sign Note 2"
           },
           {
             "ref": "Plateau/IoH: Plateau Honey B. Notes/Note 1",
-            "name": "IoH: Plateau Honey B. (1) Note"
+            "name": "IoH: Plateau Honey B. Note 1"
           },
           {
             "ref": "Plateau/IoH: Plateau Honey B. Notes/Note 2",
-            "name": "IoH: Plateau Honey B. (2) Note"
+            "name": "IoH: Plateau Honey B. Note 2"
           },
           {
             "ref": "Plateau/IoH: Honey B's Rewards/Reward 1",
@@ -257,19 +257,19 @@
           },
           {
             "ref": "Pine Grove/IoH: Pine Grove Notes/Note 1",
-            "name": "IoH: Pine Grove (1) Note"
+            "name": "IoH: Pine Grove Note 1"
           },
           {
             "ref": "Pine Grove/IoH: Pine Grove Notes/Note 2",
-            "name": "IoH: Pine Grove (2) Note"
+            "name": "IoH: Pine Grove Note 2"
           },
           {
             "ref": "Pine Grove Underwater/IoH: Pine Grove Underwater Notes/Note 1",
-            "name": "IoH: Pine Grove Underwater (1) Note"
+            "name": "IoH: Pine Grove Underwater Note 1"
           },
           {
             "ref": "Pine Grove Underwater/IoH: Pine Grove Underwater Notes/Note 2",
-            "name": "IoH: Pine Grove Underwater (2) Note"
+            "name": "IoH: Pine Grove Underwater Note 2"
           }
         ],
         "map_locations": [
@@ -301,19 +301,19 @@
           },
           {
             "ref": "Cliff Top/IoH: Outside HFP/Note 1",
-            "name": "IoH: Outside HFP (1) Note"
+            "name": "IoH: Outside HFP Note 1"
           },
           {
             "ref": "Cliff Top/IoH: Outside HFP/Note 2",
-            "name": "IoH: Outside HFP (2) Note"
+            "name": "IoH: Outside HFP Note 2"
           },
           {
             "ref": "Cliff Top/IoH: Outside HFP/Note 3",
-            "name": "IoH: Outside HFP (3) Note"
+            "name": "IoH: Outside HFP Note 3"
           },
           {
             "ref": "Cliff Top/IoH: Outside HFP/Note 4",
-            "name": "IoH: Outside HFP (4) Note"
+            "name": "IoH: Outside HFP Note 4"
           }
         ],
         "map_locations": [
@@ -345,11 +345,11 @@
           },
           {
             "ref": "Wasteland/IoH: Wasteland CCL Area Notes/Note 1",
-            "name": "IoH: Wasteland CCL Area (1) Note"
+            "name": "IoH: Wasteland CCL Area Note 1"
           },
           {
             "ref": "Wasteland/IoH: Wasteland CCL Area Notes/Note 2",
-            "name": "IoH: Wasteland CCL Area (2) Note"
+            "name": "IoH: Wasteland CCL Area Note 2"
           }
         ],
         "map_locations": [
@@ -505,63 +505,63 @@
           },
           {
             "ref": "Mayahem Temple - Main Area/MT: First Stairs Notes/Note 1",
-            "name": "MT: First Stairs (1) Note"
+            "name": "MT: First Stairs Note 1"
           },
           {
             "ref": "Mayahem Temple - Main Area/MT: First Stairs Notes/Note 2",
-            "name": "MT: First Stairs (2) Note"
+            "name": "MT: First Stairs Note 2"
           },
           {
             "ref": "Mayahem Temple - Main Area/MT: First Stairs Notes/Note 3",
-            "name": "MT: First Stairs (3) Note"
+            "name": "MT: First Stairs Note 3"
           },
           {
             "ref": "Mayahem Temple - Main Area/MT: First Stairs Notes/Note 4",
-            "name": "MT: First Stairs (4) Note"
+            "name": "MT: First Stairs Note 4"
           },
           {
             "ref": "Mayahem Temple - Main Area/MT: Second Stairs Notes/Note 1",
-            "name": "MT: Second Stairs (1) Note"
+            "name": "MT: Second Stairs Note 1"
           },
           {
             "ref": "Mayahem Temple - Main Area/MT: Second Stairs Notes/Note 2",
-            "name": "MT: Second Stairs (2) Note"
+            "name": "MT: Second Stairs Note 2"
           },
           {
             "ref": "Mayahem Temple - Main Area/MT: Second Stairs Notes/Note 3",
-            "name": "MT: Second Stairs (3) Note"
+            "name": "MT: Second Stairs Note 3"
           },
           {
             "ref": "Mayahem Temple - Main Area/MT: Second Stairs Notes/Note 4",
-            "name": "MT: Second Stairs (4) Note"
+            "name": "MT: Second Stairs Note 4"
           },
           {
             "ref": "Mayahem Temple - Main Area/MT: Third Stairs Notes/Note 1",
-            "name": "MT: Third Stairs (1) Note"
+            "name": "MT: Third Stairs Note 1"
           },
           {
             "ref": "Mayahem Temple - Main Area/MT: Third Stairs Notes/Note 2",
-            "name": "MT: Third Stairs (2) Note"
+            "name": "MT: Third Stairs Note 2"
           },
           {
             "ref": "Mayahem Temple - Main Area/MT: Third Stairs Notes/Note 3",
-            "name": "MT: Third Stairs (3) Note"
+            "name": "MT: Third Stairs Note 3"
           },
           {
             "ref": "Mayahem Temple - Main Area/MT: Third Stairs Notes/Note 4",
-            "name": "MT: Third Stairs (4) Note"
+            "name": "MT: Third Stairs Note 4"
           },
           {
             "ref": "Mayahem Temple - Main Area/MT: Top Stairs Notes/Note 1",
-            "name": "MT: Top Stairs (1) Note"
+            "name": "MT: Top Stairs Note 1"
           },
           {
             "ref": "Mayahem Temple - Main Area/MT: Top Stairs Notes/Note 2",
-            "name": "MT: Top Stairs (2) Note"
+            "name": "MT: Top Stairs Note 2"
           },
           {
             "ref": "Mayahem Temple - Main Area/MT: Top Stairs Notes/Note 3",
-            "name": "MT: Top Stairs (3) Note"
+            "name": "MT: Top Stairs Note 3"
           },
           {
             "ref": "Mayahem Temple - Main Area/MT: Outside Mumbo's Skull Note/Note",
@@ -737,19 +737,19 @@
           },
           {
             "ref": "Glitter Gulch Mine - Main Area/GGM: Hill by Crushing Shed Notes/Note 1",
-            "name": "GGM: Hill by Crushing Shed (1) Note"
+            "name": "GGM: Hill by Crushing Shed Note 1"
           },
           {
             "ref": "Glitter Gulch Mine - Main Area/GGM: Hill by Crushing Shed Notes/Note 2",
-            "name": "GGM: Hill by Crushing Shed (2) Note"
+            "name": "GGM: Hill by Crushing Shed Note 2"
           },
           {
             "ref": "Glitter Gulch Mine - Main Area/GGM: Hill by Crushing Shed Notes/Note 3",
-            "name": "GGM: Hill by Crushing Shed (3) Note"
+            "name": "GGM: Hill by Crushing Shed Note 3"
           },
           {
             "ref": "Glitter Gulch Mine - Main Area/GGM: Hill by Crushing Shed Notes/Note 4",
-            "name": "GGM: Hill by Crushing Shed (4) Note"
+            "name": "GGM: Hill by Crushing Shed Note 4"
           },
           {
             "ref": "Glitter Gulch Mine - Main Area/Near Prospector's Hut/Bottom-Left Note",
@@ -773,15 +773,15 @@
           },
           {
             "ref": "Glitter Gulch Mine - Main Area/GGM: Outside Mumbo's Skull Notes/Note 1",
-            "name": "GGM: Outside Mumbo's Skull (1) Note"
+            "name": "GGM: Outside Mumbo's Skull Note 1"
           },
           {
             "ref": "Glitter Gulch Mine - Main Area/GGM: Outside Mumbo's Skull Notes/Note 2",
-            "name": "GGM: Outside Mumbo's Skull (2) Note"
+            "name": "GGM: Outside Mumbo's Skull Note 2"
           },
           {
             "ref": "Glitter Gulch Mine - Main Area/GGM: Outside Mumbo's Skull Notes/Note 3",
-            "name": "GGM: Outside Mumbo's Skull (3) Note"
+            "name": "GGM: Outside Mumbo's Skull Note 3"
           },
           {
             "ref": "Glitter Gulch Mine - Main Area/Fuel Depot/Front-Left Note",
@@ -968,68 +968,68 @@
             "name": "WW: Treble Clef"
           },
           {
-            "ref": "Witchyworld - Main Area/WW: Around the Tent (1) Note/Note",
-            "name": "WW: Around the Tent (1) Note"
+            "ref": "Witchyworld - Main Area/WW: Around the Tent Note 1/Note",
+            "name": "WW: Around the Tent Note 1"
           },
           {
-            "ref": "Witchyworld - Main Area/WW: Around the Tent (2) Note/Note",
-            "name": "WW: Around the Tent (2) Note"
+            "ref": "Witchyworld - Main Area/WW: Around the Tent Note 2/Note",
+            "name": "WW: Around the Tent Note 2"
           },
           {
-            "ref": "Witchyworld - Main Area/WW: Around the Tent (3) Note/Note",
-            "name": "WW: Around the Tent (3) Note"
+            "ref": "Witchyworld - Main Area/WW: Around the Tent Note 3/Note",
+            "name": "WW: Around the Tent Note 3"
           },
           {
-            "ref": "Witchyworld - Main Area/WW: Around the Tent (4) Note/Note",
-            "name": "WW: Around the Tent (4) Note"
+            "ref": "Witchyworld - Main Area/WW: Around the Tent Note 4/Note",
+            "name": "WW: Around the Tent Note 4"
           },
           {
-            "ref": "Witchyworld - Main Area/WW: Around the Tent (5) Note/Note",
-            "name": "WW: Around the Tent (5) Note"
+            "ref": "Witchyworld - Main Area/WW: Around the Tent Note 5/Note",
+            "name": "WW: Around the Tent Note 5"
           },
           {
-            "ref": "Witchyworld - Main Area/WW: Around the Tent (6) Note/Note",
-            "name": "WW: Around the Tent (6) Note"
+            "ref": "Witchyworld - Main Area/WW: Around the Tent Note 6/Note",
+            "name": "WW: Around the Tent Note 6"
           },
           {
-            "ref": "Witchyworld - Main Area/WW: Around the Tent (7) Note/Note",
-            "name": "WW: Around the Tent (7) Note"
+            "ref": "Witchyworld - Main Area/WW: Around the Tent Note 7/Note",
+            "name": "WW: Around the Tent Note 7"
           },
           {
-            "ref": "Witchyworld - Main Area/WW: Around the Tent (8) Note/Note",
-            "name": "WW: Around the Tent (8) Note"
+            "ref": "Witchyworld - Main Area/WW: Around the Tent Note 8/Note",
+            "name": "WW: Around the Tent Note 8"
           },
           {
             "ref": "Witchyworld - Main Area/WW: Area 51 Gate Notes/Note 1",
-            "name": "WW: Area 51 Gate (1) Note"
+            "name": "WW: Area 51 Gate Note 1"
           },
           {
             "ref": "Witchyworld - Main Area/WW: Area 51 Gate Notes/Note 2",
-            "name": "WW: Area 51 Gate (2) Note"
+            "name": "WW: Area 51 Gate Note 2"
           },
           {
             "ref": "Witchyworld - Main Area/WW: Outside Dodgem Dome Notes/Note 1",
-            "name": "WW: Outside Dodgem Dome (1) Note"
+            "name": "WW: Outside Dodgem Dome Note 1"
           },
           {
             "ref": "Witchyworld - Main Area/WW: Outside Dodgem Dome Notes/Note 2",
-            "name": "WW: Outside Dodgem Dome (2) Note"
+            "name": "WW: Outside Dodgem Dome Note 2"
           },
           {
             "ref": "Witchyworld - Main Area/WW: Dive of Death Notes/Note 1",
-            "name": "WW: Dive of Death (1) Note"
+            "name": "WW: Dive of Death Note 1"
           },
           {
             "ref": "Witchyworld - Main Area/WW: Dive of Death Notes/Note 2",
-            "name": "WW: Dive of Death (2) Note"
+            "name": "WW: Dive of Death Note 2"
           },
           {
             "ref": "Witchyworld - Main Area/WW: Crazy Castle Entrance Notes/Note 1",
-            "name": "WW: Crazy Castle Entrance (1) Note"
+            "name": "WW: Crazy Castle Entrance Note 1"
           },
           {
             "ref": "Witchyworld - Main Area/WW: Crazy Castle Entrance Notes/Note 2",
-            "name": "WW: Crazy Castle Entrance (2) Note"
+            "name": "WW: Crazy Castle Entrance Note 2"
           }
         ],
         "map_locations": [
@@ -1197,55 +1197,55 @@
           },
           {
             "ref": "Jolly Roger's Lagoon - Underwater/Blubbul Notes/Note 1",
-            "name": "JRL: Blubbul (1) Note"
+            "name": "JRL: Blubbul Note 1"
           },
           {
             "ref": "Jolly Roger's Lagoon - Underwater/Blubbul Notes/Note 2",
-            "name": "JRL: Blubbul (2) Note"
+            "name": "JRL: Blubbul Note 2"
           },
           {
             "ref": "Jolly Roger's Lagoon - Atlantis/Electric Eel's Lair Entrance Notes/Note 1",
-            "name": "JRL: Electric Eel's Lair Entrance (1) Note"
+            "name": "JRL: Electric Eel's Lair Entrance Note 1"
           },
           {
             "ref": "Jolly Roger's Lagoon - Atlantis/Electric Eel's Lair Entrance Notes/Note 2",
-            "name": "JRL: Electric Eel's Lair Entrance (2) Note"
+            "name": "JRL: Electric Eel's Lair Entrance Note 2"
           },
           {
             "ref": "Jolly Roger's Lagoon - Main Area/Blubber's Waveracer Hire/Note 1",
-            "name": "JRL: Blubber's Hire (1) Note"
+            "name": "JRL: Blubber's Hire Note 1"
           },
           {
             "ref": "Jolly Roger's Lagoon - Main Area/Blubber's Waveracer Hire/Note 2",
-            "name": "JRL: Blubber's Hire (2) Note"
+            "name": "JRL: Blubber's Hire Note 2"
           },
           {
             "ref": "Jolly Roger's Lagoon - Main Area/Blubber's Waveracer Hire/Note 3",
-            "name": "JRL: Blubber's Hire (3) Note"
+            "name": "JRL: Blubber's Hire Note 3"
           },
           {
             "ref": "Jolly Roger's Lagoon - Main Area/Pawno's Emporium/Note 1",
-            "name": "JRL: Pawno's Emporium (1) Note"
+            "name": "JRL: Pawno's Emporium Note 1"
           },
           {
             "ref": "Jolly Roger's Lagoon - Main Area/Pawno's Emporium/Note 2",
-            "name": "JRL: Pawno's Emporium (2) Note"
+            "name": "JRL: Pawno's Emporium Note 2"
           },
           {
             "ref": "Jolly Roger's Lagoon - Main Area/Pawno's Emporium/Note 3",
-            "name": "JRL: Pawno's Emporium (3) Note"
+            "name": "JRL: Pawno's Emporium Note 3"
           },
           {
             "ref": "Jolly Roger's Lagoon - Main Area/Jolly's/Note 1",
-            "name": "JRL: Jolly's (1) Note"
+            "name": "JRL: Jolly's Note 1"
           },
           {
             "ref": "Jolly Roger's Lagoon - Main Area/Jolly's/Note 2",
-            "name": "JRL: Jolly's (2) Note"
+            "name": "JRL: Jolly's Note 2"
           },
           {
             "ref": "Jolly Roger's Lagoon - Main Area/Jolly's/Note 3",
-            "name": "JRL: Jolly's (3) Note"
+            "name": "JRL: Jolly's Note 3"
           }
         ],
         "map_locations": [
@@ -1260,124 +1260,124 @@
         "name": "Jolly Roger's Lagoon - Doubloons",
         "sections": [
           {
-            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Town Center Pole 1 Doubloon/Doubloon",
-            "name": "JRL: Town Center Pole 1 Doubloon"
+            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Town Center Pole Doubloon 1/Doubloon",
+            "name": "JRL: Town Center Pole Doubloon 1"
           },
           {
-            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Town Center Pole 2 Doubloon/Doubloon",
-            "name": "JRL: Town Center Pole 2 Doubloon"
+            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Town Center Pole Doubloon 2/Doubloon",
+            "name": "JRL: Town Center Pole Doubloon 2"
           },
           {
-            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Town Center Pole 3 Doubloon/Doubloon",
-            "name": "JRL: Town Center Pole 3 Doubloon"
+            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Town Center Pole Doubloon 3/Doubloon",
+            "name": "JRL: Town Center Pole Doubloon 3"
           },
           {
-            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Town Center Pole 4 Doubloon/Doubloon",
-            "name": "JRL: Town Center Pole 4 Doubloon"
+            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Town Center Pole Doubloon 4/Doubloon",
+            "name": "JRL: Town Center Pole Doubloon 4"
           },
           {
-            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Town Center Pole 5 Doubloon/Doubloon",
-            "name": "JRL: Town Center Pole 5 Doubloon"
+            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Town Center Pole Doubloon 5/Doubloon",
+            "name": "JRL: Town Center Pole Doubloon 5"
           },
           {
-            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Town Center Pole 6 Doubloon/Doubloon",
-            "name": "JRL: Town Center Pole 6 Doubloon"
+            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Town Center Pole Doubloon 6/Doubloon",
+            "name": "JRL: Town Center Pole Doubloon 6"
           },
           {
             "ref": "Jolly Roger's Lagoon - Main Area/Wing Whack Silo/Doubloon 1",
-            "name": "JRL: Silo 1 Doubloon"
+            "name": "JRL: Silo Doubloon 1"
           },
           {
             "ref": "Jolly Roger's Lagoon - Main Area/Wing Whack Silo/Doubloon 2",
-            "name": "JRL: Silo 2 Doubloon"
+            "name": "JRL: Silo Doubloon 2"
           },
           {
             "ref": "Jolly Roger's Lagoon - Main Area/Wing Whack Silo/Doubloon 3",
-            "name": "JRL: Silo 3 Doubloon"
+            "name": "JRL: Silo Doubloon 3"
           },
           {
             "ref": "Jolly Roger's Lagoon - Main Area/Wing Whack Silo/Doubloon 4",
-            "name": "JRL: Silo 4 Doubloon"
+            "name": "JRL: Silo Doubloon 4"
           },
           {
             "ref": "Jolly Roger's Lagoon - Main Area/Toxic Pool/Doubloon 1",
-            "name": "JRL: Toxic Pool 1 Doubloon"
+            "name": "JRL: Toxic Pool Doubloon 1"
           },
           {
             "ref": "Jolly Roger's Lagoon - Main Area/Toxic Pool/Doubloon 2",
-            "name": "JRL: Toxic Pool 2 Doubloon"
+            "name": "JRL: Toxic Pool Doubloon 2"
           },
           {
             "ref": "Jolly Roger's Lagoon - Main Area/Toxic Pool/Doubloon 3",
-            "name": "JRL: Toxic Pool 3 Doubloon"
+            "name": "JRL: Toxic Pool Doubloon 3"
           },
           {
             "ref": "Jolly Roger's Lagoon - Main Area/Toxic Pool/Doubloon 4",
-            "name": "JRL: Toxic Pool 4 Doubloon"
+            "name": "JRL: Toxic Pool Doubloon 4"
           },
           {
             "ref": "Jolly Roger's Lagoon - Main Area/Mumbo's Skull/Doubloon 1",
-            "name": "JRL: Mumbo Skull 1 Doubloon"
+            "name": "JRL: Mumbo Skull Doubloon 1"
           },
           {
             "ref": "Jolly Roger's Lagoon - Main Area/Mumbo's Skull/Doubloon 2",
-            "name": "JRL: Mumbo Skull 2 Doubloon"
+            "name": "JRL: Mumbo Skull Doubloon 2"
           },
           {
             "ref": "Jolly Roger's Lagoon - Main Area/Mumbo's Skull/Doubloon 3",
-            "name": "JRL: Mumbo Skull 3 Doubloon"
+            "name": "JRL: Mumbo Skull Doubloon 3"
           },
           {
             "ref": "Jolly Roger's Lagoon - Main Area/Mumbo's Skull/Doubloon 4",
-            "name": "JRL: Mumbo Skull 4 Doubloon"
+            "name": "JRL: Mumbo Skull Doubloon 4"
           },
           {
-            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Underground 1 Doubloon/Doubloon",
-            "name": "JRL: Underground 1 Doubloon"
+            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Underground Doubloon 1/Doubloon",
+            "name": "JRL: Underground Doubloon 1"
           },
           {
-            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Underground 2 Doubloon/Doubloon",
-            "name": "JRL: Underground 2 Doubloon"
+            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Underground Doubloon 2/Doubloon",
+            "name": "JRL: Underground Doubloon 2"
           },
           {
-            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Underground 3 Doubloon/Doubloon",
-            "name": "JRL: Underground 3 Doubloon"
+            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Underground Doubloon 3/Doubloon",
+            "name": "JRL: Underground Doubloon 3"
           },
           {
             "ref": "Jolly Roger's Lagoon - Main Area/Alcove/Doubloon 1",
-            "name": "JRL: Alcove 1 Doubloon"
+            "name": "JRL: Alcove Doubloon 1"
           },
           {
             "ref": "Jolly Roger's Lagoon - Main Area/Alcove/Doubloon 2",
-            "name": "JRL: Alcove 2 Doubloon"
+            "name": "JRL: Alcove Doubloon 2"
           },
           {
             "ref": "Jolly Roger's Lagoon - Main Area/Alcove/Doubloon 3",
-            "name": "JRL: Alcove 3 Doubloon"
+            "name": "JRL: Alcove Doubloon 3"
           },
           {
             "ref": "Jolly Roger's Lagoon - Main Area/Jolly's/Captain Blackeye Doubloon 1",
-            "name": "JRL: Captain Blackeye 1 Doubloon"
+            "name": "JRL: Captain Blackeye Doubloon 1"
           },
           {
             "ref": "Jolly Roger's Lagoon - Main Area/Jolly's/Captain Blackeye Doubloon 2",
-            "name": "JRL: Captain Blackeye 2 Doubloon"
+            "name": "JRL: Captain Blackeye Doubloon 2"
           },
           {
             "ref": "Jolly Roger's Lagoon - Main Area/Lagoon Alcove/Doubloon 1",
-            "name": "JRL: Near Alcove Jinjo 1 Doubloon"
+            "name": "JRL: Near Alcove Jinjo Doubloon 1"
           },
           {
             "ref": "Jolly Roger's Lagoon - Main Area/Lagoon Alcove/Doubloon 2",
-            "name": "JRL: Near Alcove Jinjo 2 Doubloon"
+            "name": "JRL: Near Alcove Jinjo Doubloon 2"
           },
           {
             "ref": "Jolly Roger's Lagoon - Main Area/Lagoon Alcove/Doubloon 3",
-            "name": "JRL: Near Alcove Jinjo 3 Doubloon"
+            "name": "JRL: Near Alcove Jinjo Doubloon 3"
           },
           {
             "ref": "Jolly Roger's Lagoon - Main Area/Lagoon Alcove/Doubloon 4",
-            "name": "JRL: Near Alcove Jinjo 4 Doubloon"
+            "name": "JRL: Near Alcove Jinjo Doubloon 4"
           }
         ],
         "map_locations": [
@@ -1565,55 +1565,55 @@
           },
           {
             "ref": "Terrydactyland - Main Area/TDL: Lakeside Notes/Note 1",
-            "name": "TDL: Lakeside (1) Note"
+            "name": "TDL: Lakeside Note 1"
           },
           {
             "ref": "Terrydactyland - Main Area/TDL: Lakeside Notes/Note 2",
-            "name": "TDL: Lakeside (2) Note"
+            "name": "TDL: Lakeside Note 2"
           },
           {
             "ref": "Terrydactyland - Main Area/TDL: Lakeside Notes/Note 3",
-            "name": "TDL: Lakeside (3) Note"
+            "name": "TDL: Lakeside Note 3"
           },
           {
             "ref": "Terrydactyland - Main Area/TDL: Zig-Zag Path Notes/Note 1",
-            "name": "TDL: Zig-Zag Path (1) Note"
+            "name": "TDL: Zig-Zag Path Note 1"
           },
           {
             "ref": "Terrydactyland - Main Area/TDL: Zig-Zag Path Notes/Note 2",
-            "name": "TDL: Zig-Zag Path (2) Note"
+            "name": "TDL: Zig-Zag Path Note 2"
           },
           {
             "ref": "Terrydactyland - Main Area/TDL: Zig-Zag Path Notes/Note 3",
-            "name": "TDL: Zig-Zag Path (3) Note"
+            "name": "TDL: Zig-Zag Path Note 3"
           },
           {
             "ref": "Terrydactyland - Main Area/TDL: Roar Cage Path Notes/Note 1",
-            "name": "TDL: Roar Cage Path (1) Note"
+            "name": "TDL: Roar Cage Path Note 1"
           },
           {
             "ref": "Terrydactyland - Main Area/TDL: Roar Cage Path Notes/Note 2",
-            "name": "TDL: Roar Cage Path (2) Note"
+            "name": "TDL: Roar Cage Path Note 2"
           },
           {
             "ref": "Terrydactyland - Main Area/TDL: Roar Cage Path Notes/Note 3",
-            "name": "TDL: Roar Cage Path (3) Note"
+            "name": "TDL: Roar Cage Path Note 3"
           },
           {
             "ref": "Terrydactyland - River Passage/River Passage Notes/Note 1",
-            "name": "TDL: River Passage (1) Note"
+            "name": "TDL: River Passage Note 1"
           },
           {
             "ref": "Terrydactyland - River Passage/River Passage Notes/Note 2",
-            "name": "TDL: River Passage (2) Note"
+            "name": "TDL: River Passage Note 2"
           },
           {
             "ref": "Terrydactyland - River Passage/River Passage Notes/Note 3",
-            "name": "TDL: River Passage (3) Note"
+            "name": "TDL: River Passage Note 3"
           },
           {
             "ref": "Terrydactyland - River Passage/River Passage Notes/Note 4",
-            "name": "TDL: River Passage (4) Note"
+            "name": "TDL: River Passage Note 4"
           }
         ],
         "map_locations": [
@@ -1777,35 +1777,35 @@
           },
           {
             "ref": "Grunty's Industries - Floor 1/Train Station (Grunty Industries)/Note 1",
-            "name": "GI: Train Station (1) Note"
+            "name": "GI: Train Station Note 1"
           },
           {
             "ref": "Grunty's Industries - Floor 1/Train Station (Grunty Industries)/Note 2",
-            "name": "GI: Train Station (2) Note"
+            "name": "GI: Train Station Note 2"
           },
           {
             "ref": "Grunty's Industries - Floor 1/Train Station (Grunty Industries)/Note 3",
-            "name": "GI: Train Station (3) Note"
+            "name": "GI: Train Station Note 3"
           },
           {
             "ref": "Grunty's Industries - Floor 1/Floor 1 on AC Unit Notes/Note 1",
-            "name": "GI: Floor 1 on AC Unit (1) Note"
+            "name": "GI: Floor 1 on AC Unit Note 1"
           },
           {
             "ref": "Grunty's Industries - Floor 1/Floor 1 on AC Unit Notes/Note 2",
-            "name": "GI: Floor 1 on AC Unit (2) Note"
+            "name": "GI: Floor 1 on AC Unit Note 2"
           },
           {
             "ref": "Grunty's Industries - Floor 2/Leg Spring Room Notes/Note 1",
-            "name": "GI: Floor 2: Leg Spring Room (1) Note"
+            "name": "GI: Floor 2: Leg Spring Room Note 1"
           },
           {
             "ref": "Grunty's Industries - Floor 2/Leg Spring Room Notes/Note 2",
-            "name": "GI: Floor 2: Leg Spring Room (2) Note"
+            "name": "GI: Floor 2: Leg Spring Room Note 2"
           },
           {
             "ref": "Grunty's Industries - Floor 2/Leg Spring Room Notes/Note 3",
-            "name": "GI: Floor 2: Leg Spring Room (3) Note"
+            "name": "GI: Floor 2: Leg Spring Room Note 3"
           },
           {
             "ref": "Grunty's Industries - Floor 2/Box Room Notes/Taller Stack Note",
@@ -1817,27 +1817,27 @@
           },
           {
             "ref": "Grunty's Industries - Floor 1/Waste Disposal Plant Notes/Note 1",
-            "name": "GI: Floor 1: Waste Disposal Plant (1) Note"
+            "name": "GI: Floor 1: Waste Disposal Plant Note 1"
           },
           {
             "ref": "Grunty's Industries - Floor 1/Waste Disposal Plant Notes/Note 2",
-            "name": "GI: Floor 1: Waste Disposal Plant (2) Note"
+            "name": "GI: Floor 1: Waste Disposal Plant Note 2"
           },
           {
             "ref": "Grunty's Industries - Floor 1/Air Conditioning Plant/Air Conditioning Plant Note 1",
-            "name": "GI: Floor 1: Air Conditioning Plant (1) Note"
+            "name": "GI: Floor 1: Air Conditioning Plant Note 1"
           },
           {
             "ref": "Grunty's Industries - Floor 1/Air Conditioning Plant/Air Conditioning Plant Note 2",
-            "name": "GI: Floor 1: Air Conditioning Plant (2) Note"
+            "name": "GI: Floor 1: Air Conditioning Plant Note 2"
           },
           {
             "ref": "Grunty's Industries - Floor 3 to 5/Floor 3 Notes/Note 1",
-            "name": "GI: Floor 3 (1) Note"
+            "name": "GI: Floor 3 Note 1"
           },
           {
             "ref": "Grunty's Industries - Floor 3 to 5/Floor 3 Notes/Note 2",
-            "name": "GI: Floor 3 (2) Note"
+            "name": "GI: Floor 3 Note 2"
           }
         ],
         "map_locations": [
@@ -1997,67 +1997,67 @@
           },
           {
             "ref": "Hailfire Peaks - Lava Side/Path to Shack Pack Notes/Note 1",
-            "name": "HFP: Path to Shack Pack (1) Note"
+            "name": "HFP: Path to Shack Pack Note 1"
           },
           {
             "ref": "Hailfire Peaks - Lava Side/Path to Shack Pack Notes/Note 2",
-            "name": "HFP: Path to Shack Pack (2) Note"
+            "name": "HFP: Path to Shack Pack Note 2"
           },
           {
             "ref": "Hailfire Peaks - Lava Side/Path to Mumbo's Skull Notes/Note 1",
-            "name": "HFP: Path to Mumbo's Skull (1) Note"
+            "name": "HFP: Path to Mumbo's Skull Note 1"
           },
           {
             "ref": "Hailfire Peaks - Lava Side/Path to Mumbo's Skull Notes/Note 2",
-            "name": "HFP: Path to Mumbo's Skull (2) Note"
+            "name": "HFP: Path to Mumbo's Skull Note 2"
           },
           {
             "ref": "Hailfire Peaks - Lava Side/Top Path Notes/Note 1",
-            "name": "HFP: Lava Side: Top Path (1) Note"
+            "name": "HFP: Lava Side: Top Path Note 1"
           },
           {
             "ref": "Hailfire Peaks - Lava Side/Top Path Notes/Note 2",
-            "name": "HFP: Lava Side: Top Path (2) Note"
+            "name": "HFP: Lava Side: Top Path Note 2"
           },
           {
             "ref": "Hailfire Peaks - Lava Side/Near Ladder Notes/Note 1",
-            "name": "HFP: Lava Side: Near Ladder (1) Note"
+            "name": "HFP: Lava Side: Near Ladder Note 1"
           },
           {
             "ref": "Hailfire Peaks - Lava Side/Near Ladder Notes/Note 2",
-            "name": "HFP: Lava Side: Near Ladder (2) Note"
+            "name": "HFP: Lava Side: Near Ladder Note 2"
           },
           {
             "ref": "Hailfire Peaks - Icy Side/Oil Drill Notes/Note 1",
-            "name": "HFP: Oil Drill (1) Note"
+            "name": "HFP: Oil Drill Note 1"
           },
           {
             "ref": "Hailfire Peaks - Icy Side/Oil Drill Notes/Note 2",
-            "name": "HFP: Oil Drill (2) Note"
+            "name": "HFP: Oil Drill Note 2"
           },
           {
             "ref": "Hailfire Peaks - Icy Side/Upper Icy Side Warp Pad Notes/Note 1",
-            "name": "HFP: Upper Icy Side Warp Pad (1) Note"
+            "name": "HFP: Upper Icy Side Warp Pad Note 1"
           },
           {
             "ref": "Hailfire Peaks - Icy Side/Upper Icy Side Warp Pad Notes/Note 2",
-            "name": "HFP: Upper Icy Side Warp Pad (2) Note"
+            "name": "HFP: Upper Icy Side Warp Pad Note 2"
           },
           {
             "ref": "Hailfire Peaks - Icy Side/Boggy's Igloo Notes/Note 1",
-            "name": "HFP: Boggy's Igloo (1) Note"
+            "name": "HFP: Boggy's Igloo Note 1"
           },
           {
             "ref": "Hailfire Peaks - Icy Side/Boggy's Igloo Notes/Note 2",
-            "name": "HFP: Boggy's Igloo (2) Note"
+            "name": "HFP: Boggy's Igloo Note 2"
           },
           {
             "ref": "Hailfire Peaks - Icy Side/Lower Icy Side Warp Pad Notes/Note 1",
-            "name": "HFP: Lower Icy Side Warp Pad (1) Note"
+            "name": "HFP: Lower Icy Side Warp Pad Note 1"
           },
           {
             "ref": "Hailfire Peaks - Icy Side/Lower Icy Side Warp Pad Notes/Note 2",
-            "name": "HFP: Lower Icy Side Warp Pad (2) Note"
+            "name": "HFP: Lower Icy Side Warp Pad Note 2"
           }
         ],
         "map_locations": [
@@ -2225,11 +2225,11 @@
           },
           {
             "ref": "Cloud Cuckooland - Central Cavern/Sack Pack Silo/Note 1",
-            "name": "CCL: Sack Pack Silo (1) Note"
+            "name": "CCL: Sack Pack Silo Note 1"
           },
           {
             "ref": "Cloud Cuckooland - Central Cavern/Sack Pack Silo/Note 2",
-            "name": "CCL: Sack Pack Silo (2) Note"
+            "name": "CCL: Sack Pack Silo Note 2"
           },
           {
             "ref": "Cloud Cuckooland - Central Cavern/CCL: Cheese Wedge Exit Note/Note",
@@ -2269,15 +2269,15 @@
           },
           {
             "ref": "Cloud Cuckooland - Central Cavern/Central Notes/Note 1",
-            "name": "CCL: Central (1) Note"
+            "name": "CCL: Central Note 1"
           },
           {
             "ref": "Cloud Cuckooland - Central Cavern/Central Notes/Note 2",
-            "name": "CCL: Central (2) Note"
+            "name": "CCL: Central Note 2"
           },
           {
             "ref": "Cloud Cuckooland - Central Cavern/Central Notes/Note 3",
-            "name": "CCL: Central (3) Note"
+            "name": "CCL: Central Note 3"
           }
         ],
         "map_locations": [
@@ -6522,7 +6522,7 @@
         ]
       },
       {
-        "name": "WW: Around the Tent (1) Note",
+        "name": "WW: Around the Tent Note 1",
         "sections": [
           {
             "name": "Note"
@@ -6537,7 +6537,7 @@
         ]
       },
       {
-        "name": "WW: Around the Tent (8) Note",
+        "name": "WW: Around the Tent Note 8",
         "sections": [
           {
             "name": "Note"
@@ -6552,7 +6552,7 @@
         ]
       },
       {
-        "name": "WW: Around the Tent (7) Note",
+        "name": "WW: Around the Tent Note 7",
         "sections": [
           {
             "name": "Note"
@@ -6567,7 +6567,7 @@
         ]
       },
       {
-        "name": "WW: Around the Tent (6) Note",
+        "name": "WW: Around the Tent Note 6",
         "sections": [
           {
             "name": "Note"
@@ -6582,7 +6582,7 @@
         ]
       },
       {
-        "name": "WW: Around the Tent (5) Note",
+        "name": "WW: Around the Tent Note 5",
         "sections": [
           {
             "name": "Note"
@@ -6597,7 +6597,7 @@
         ]
       },
       {
-        "name": "WW: Around the Tent (4) Note",
+        "name": "WW: Around the Tent Note 4",
         "sections": [
           {
             "name": "Note"
@@ -6612,7 +6612,7 @@
         ]
       },
       {
-        "name": "WW: Around the Tent (3) Note",
+        "name": "WW: Around the Tent Note 3",
         "sections": [
           {
             "name": "Note"
@@ -6627,7 +6627,7 @@
         ]
       },
       {
-        "name": "WW: Around the Tent (2) Note",
+        "name": "WW: Around the Tent Note 2",
         "sections": [
           {
             "name": "Note"
@@ -7218,7 +7218,7 @@
         ]
       },
       {
-        "name": "JRL: Underground 2 Doubloon",
+        "name": "JRL: Underground Doubloon 2",
         "sections": [
           {
             "name": "Doubloon",
@@ -7234,7 +7234,7 @@
         ]
       },
       {
-        "name": "JRL: Underground 1 Doubloon",
+        "name": "JRL: Underground Doubloon 1",
         "sections": [
           {
             "name": "Doubloon",
@@ -7250,7 +7250,7 @@
         ]
       },
       {
-        "name": "JRL: Underground 3 Doubloon",
+        "name": "JRL: Underground Doubloon 3",
         "sections": [
           {
             "name": "Doubloon",
@@ -7266,7 +7266,7 @@
         ]
       },
       {
-        "name": "JRL: Town Center Pole 6 Doubloon",
+        "name": "JRL: Town Center Pole Doubloon 6",
         "sections": [
           {
             "name": "Doubloon"
@@ -7281,7 +7281,7 @@
         ]
       },
       {
-        "name": "JRL: Town Center Pole 5 Doubloon",
+        "name": "JRL: Town Center Pole Doubloon 5",
         "sections": [
           {
             "name": "Doubloon"
@@ -7296,7 +7296,7 @@
         ]
       },
       {
-        "name": "JRL: Town Center Pole 4 Doubloon",
+        "name": "JRL: Town Center Pole Doubloon 4",
         "sections": [
           {
             "name": "Doubloon"
@@ -7311,7 +7311,7 @@
         ]
       },
       {
-        "name": "JRL: Town Center Pole 3 Doubloon",
+        "name": "JRL: Town Center Pole Doubloon 3",
         "sections": [
           {
             "name": "Doubloon"
@@ -7326,7 +7326,7 @@
         ]
       },
       {
-        "name": "JRL: Town Center Pole 2 Doubloon",
+        "name": "JRL: Town Center Pole Doubloon 2",
         "sections": [
           {
             "name": "Doubloon"
@@ -7341,7 +7341,7 @@
         ]
       },
       {
-        "name": "JRL: Town Center Pole 1 Doubloon",
+        "name": "JRL: Town Center Pole Doubloon 1",
         "sections": [
           {
             "name": "Doubloon"
