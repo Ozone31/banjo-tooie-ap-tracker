@@ -10,6 +10,16 @@ FLAG_CODES = {
     HAG1
 }
 
+load_mt = "Mayahem Temple"
+load_ggm = "Glitter Gulch Mine"
+load_ww = "Witchyworld"
+load_jrl = "Jolly Roger's Lagoon - Town Center"
+load_tdl = "Terrydactyland"
+load_gi = "Outside Grunty's Industries"
+load_hfp = "Hailfire Peaks"
+load_ccl = "Cloud Cuckooland"
+load_ck = "Cauldron Keep"
+
 function has_value (t, val)
     for i, v in ipairs(t) do
         if v == val then return 1 end
