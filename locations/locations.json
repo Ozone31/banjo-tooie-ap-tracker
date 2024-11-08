@@ -2306,10 +2306,10 @@
           {
             "name": "Hag 1 Defeated",
             "access_rules": [
-              "logictype_b, cka, clawbts, splitup, packwh, bblaster, ceggs, ttrot, tjump", "logictype_b, cka, clawbts, splitup, sapack, bblaster, ceggs, ttrot, tjump", "logictype_b, cka, clawbts, splitup, shpack, bblaster, ceggs, ttrot, tjump",
-              "logictype_n, cka, clawbts, splitup, packwh, bblaster, ceggs, ttrot, tjump", "logictype_n, cka, clawbts, splitup, sapack, bblaster, ceggs, ttrot, tjump", "logictype_n, cka, clawbts, splitup, shpack, bblaster, ceggs, ttrot, tjump",
-              "logictype_a, cka, clawbts, splitup, packwh, bblaster, ceggs", "logictype_a, cka, clawbts, splitup, sapack, bblaster, ceggs", "logictype_a, cka, clawbts, splitup, shpack, bblaster, ceggs",
-              "logictype_g, cka, clawbts, splitup, packwh, bblaster, ceggs", "logictype_g, cka, clawbts, splitup, sapack, bblaster, ceggs", "logictype_g, cka, clawbts, splitup, shpack, bblaster, ceggs", "logictype_g, cka, geggs, eggaim, splitup, packwh, bblaster, ceggs", "logictype_g, cka, geggs, eggaim, splitup, sapack, bblaster, ceggs", "logictype_g, cka, geggs, eggaim, splitup, shpack, bblaster, ceggs"
+              "logictype_b, cka, clawbts, splitup, packwh, bblaster, $canShootEggs|ceggs, $canShootLinearEgg, ttrot, tjump", "logictype_b, cka, clawbts, splitup, sapack, bblaster, $canShootEggs|ceggs, $canShootLinearEgg, ttrot, tjump", "logictype_b, cka, clawbts, splitup, shpack, bblaster, $canShootEggs|ceggs, $canShootLinearEgg, ttrot, tjump",
+              "logictype_n, cka, clawbts, splitup, packwh, bblaster, $canShootEggs|ceggs, $canShootLinearEgg, ttrot, tjump", "logictype_n, cka, clawbts, splitup, sapack, bblaster, $canShootEggs|ceggs, $canShootLinearEgg, ttrot, tjump", "logictype_n, cka, clawbts, splitup, shpack, bblaster, $canShootEggs|ceggs, $canShootLinearEgg, ttrot, tjump",
+              "logictype_a, cka, clawbts, splitup, packwh, bblaster, $canShootEggs|ceggs", "logictype_a, cka, clawbts, splitup, sapack, bblaster, $canShootEggs|ceggs", "logictype_a, cka, clawbts, splitup, shpack, bblaster, $canShootEggs|ceggs",
+              "logictype_g, cka, clawbts, splitup, packwh, bblaster, $canShootEggs|ceggs", "logictype_g, cka, clawbts, splitup, sapack, bblaster, $canShootEggs|ceggs", "logictype_g, cka, clawbts, splitup, shpack, bblaster, $canShootEggs|ceggs", "logictype_g, cka, geggs, eggaim, splitup, packwh, bblaster, $canShootEggs|ceggs", "logictype_g, cka, geggs, eggaim, splitup, sapack, bblaster, $canShootEggs|ceggs", "logictype_g, cka, geggs, eggaim, splitup, shpack, bblaster, $canShootEggs|ceggs"
             ]
           }
         ],
@@ -3905,7 +3905,7 @@
           {
             "name": "Cheato Page",
             "access_rules": [ 
-              "logictype_b, $canReachSlightlyElevatedLedge",
+              "logictype_b, $canReachSlightlyElevatedLedge, tjump",
               "logictype_n, $canReachSlightlyElevatedLedge",
               "logictype_a, $canReachSlightlyElevatedLedge", "logictype_a, eggaim, ceggs",
               "logictype_g, $canReachSlightlyElevatedLedge", "logictype_g, eggaim, ceggs"
@@ -3925,7 +3925,12 @@
         "sections": [
           {
             "name": "Jiggy",
-            "access_rules": [ "$canReachSlightlyElevatedLedge, sstride" ]
+            "access_rules": [
+              "logictype_b, $canReachSlightlyElevatedLedge, sstride, tjump",
+              "logictype_n, $canReachSlightlyElevatedLedge, sstride",
+              "logictype_a, $canReachSlightlyElevatedLedge, sstride",
+              "logictype_g, $canReachSlightlyElevatedLedge, sstride"
+            ]
           }
         ],
         "map_locations": [
@@ -4135,7 +4140,11 @@
         "sections": [
           {
             "name": "Glowbo",
-            "access_rules": [ "$GGMSlope" ]
+            "access_rules": [
+              "logictype_b, $GGMSlope", "logictype_n, $GGMSlope",
+              "logictype_a, $GGMSlope", "logictype_a, $clockwork_shot",
+              "logictype_g, $GGMSlope", "logictype_g, $clockwork_shot"
+            ]
           }
         ],
         "map_locations": [
@@ -4440,8 +4449,8 @@
             "access_rules": [
               "logictype_b, $canDoSmallElevation",
               "logictype_n, $canDoSmallElevation", "logictype_n, $ggm_trot",
-              "logictype_a, $canDoSmallElevation", "logictype_a, $ggm_trot",
-              "logictype_g, $canDoSmallElevation", "logictype_g, $ggm_trot"
+              "logictype_a, $canDoSmallElevation", "logictype_a, $ggm_trot", "logictype_a, $clockwork_shot",
+              "logictype_g, $canDoSmallElevation", "logictype_g, $ggm_trot", "logictype_g, $clockwork_shot"
             ]
           },
           {
@@ -8336,7 +8345,8 @@
             "name": "Jinjo",
             "access_rules": [
               "logictype_b, wwing, fflip, $longJump",
-              "logictype_n", "logictype_a", "logictype_g"
+              "logictype_n, wwing, fflip, $longJump",
+              "logictype_a", "logictype_g"
             ]
           }
         ],
@@ -9234,8 +9244,8 @@
             "access_rules": [
               "logictype_b, splitup, shpack, climb, tjump",
               "logictype_n, splitup, shpack, climb, tjump", "logictype_n, splitup, shpack, climb, packwh", "logictype_n, splitup, fpad, lspring", "logictype_n, splitup, glide, lspring",
-              "logictype_a, splitup, shpack, climb, tjump", "logictype_a, splitup, shpack, climb, packwh", "logictype_a, splitup, fpad, lspring", "logictype_a, splitup, fpad, glide, tjump", "logictype_a, splitup, fpad, $clockwork_shot", "logictype_a, splitup, glide, lspring", "logictype_a, splitup, glide, glide, tjump", "logictype_a, splitup, glide, $clockwork_shot", "logictype_a, splitup, wwhack, tjump, lspring", "logictype_a, splitup, wwhack, glide, tjump", "logictype_a, splitup, wwhack, tjump, $clockwork_shot",
-              "logictype_g, splitup, shpack, climb, tjump", "logictype_g, splitup, shpack, climb, packwh", "logictype_g, splitup, fpad, lspring", "logictype_g, splitup, fpad, glide, tjump", "logictype_g, splitup, fpad, $clockwork_shot", "logictype_g, splitup, glide, lspring", "logictype_g, splitup, glide, glide, tjump", "logictype_g, splitup, glide, $clockwork_shot", "logictype_g, splitup, wwhack, tjump, lspring", "logictype_g, splitup, wwhack, glide, tjump", "logictype_g, splitup, wwhack, tjump, $clockwork_shot"
+              "logictype_a, splitup, shpack, climb, tjump", "logictype_a, splitup, shpack, climb, packwh", "logictype_a, splitup, fpad, lspring", "logictype_a, splitup, fpad, glide, tjump", "logictype_a, splitup, fpad, $clockwork_shot", "logictype_a, splitup, glide, lspring", "logictype_a, splitup, glide, tjump", "logictype_a, splitup, glide, $clockwork_shot", "logictype_a, splitup, tjump, wwhack, lspring", "logictype_a, splitup, tjump, wwhack, glide", "logictype_a, splitup, tjump, wwhack, $clockwork_shot", "logictype_a, splitup, lspring, wwhack", "logictype_a, splitup, lspring, wwhack, glide, tjump", "logictype_a, splitup, lspring, wwhack, $clockwork_shot",
+              "logictype_g, splitup, shpack, climb, tjump", "logictype_g, splitup, shpack, climb, packwh", "logictype_g, splitup, fpad, lspring", "logictype_g, splitup, fpad, glide, tjump", "logictype_g, splitup, fpad, $clockwork_shot", "logictype_g, splitup, glide, lspring", "logictype_g, splitup, glide, tjump", "logictype_g, splitup, glide, $clockwork_shot", "logictype_g, splitup, tjump, wwhack, lspring", "logictype_g, splitup, tjump, wwhack, glide", "logictype_g, splitup, tjump, wwhack, $clockwork_shot", "logictype_g, splitup, lspring, wwhack", "logictype_g, splitup, lspring, wwhack, glide, tjump", "logictype_g, splitup, lspring, wwhack, $clockwork_shot"
             ]
           },
           {
@@ -9243,8 +9253,8 @@
             "access_rules": [
               "logictype_b, splitup, wwhack, fpad",
               "logictype_n, splitup, fpad, wwhack", "logictype_n, splitup, fpad, $canShootEggs|begg", "logictype_n, splitup, fpad, $canShootEggs|feggs", "logictype_n, splitup, fpad, $canShootEggs|ieggs", "logictype_n, splitup, glide, wwhack", "logictype_n, splitup, glide, $canShootEggs|begg", "logictype_n, splitup, glide, $canShootEggs|feggs", "logictype_n, splitup, glide, $canShootEggs|ieggs",
-              "logictype_a, splitup, fpad, wwhack", "logictype_a, splitup, fpad, $canShootEggs|begg", "logictype_a, splitup, fpad, $canShootEggs|feggs", "logictype_a, splitup, fpad, $canShootEggs|ieggs", "logictype_a, splitup, glide, wwhack", "logictype_a, splitup, glide, $canShootEggs|begg", "logictype_a, splitup, glide, $canShootEggs|feggs", "logictype_a, splitup, glide, $canShootEggs|ieggs",
-              "logictype_g, splitup, fpad, wwhack", "logictype_g, splitup, fpad, $canShootEggs|begg", "logictype_g, splitup, fpad, $canShootEggs|feggs", "logictype_g, splitup, fpad, $canShootEggs|ieggs", "logictype_g, splitup, glide, wwhack", "logictype_g, splitup, glide, $canShootEggs|begg", "logictype_g, splitup, glide, $canShootEggs|feggs", "logictype_g, splitup, glide, $canShootEggs|ieggs"
+              "logictype_a, splitup, fpad, wwhack", "logictype_a, splitup, fpad, $canShootEggs|begg", "logictype_a, splitup, fpad, $canShootEggs|feggs", "logictype_a, splitup, fpad, $canShootEggs|ieggs", "logictype_a, splitup, glide, wwhack", "logictype_a, splitup, glide, $canShootEggs|begg", "logictype_a, splitup, glide, $canShootEggs|feggs", "logictype_a, splitup, glide, $canShootEggs|ieggs", "logictype_a, splitup, tjump, wwhack", "logictype_a, splitup, tjump, wwhack, $canShootEggs|begg", "logictype_a, splitup, tjump, wwhack, $canShootEggs|feggs", "logictype_a, splitup, tjump, wwhack, $canShootEggs|ieggs", "logictype_a, splitup, lspring, wwhack", "logictype_a, splitup, lspring, wwhack, $canShootEggs|begg", "logictype_a, splitup, lspring, wwhack, $canShootEggs|feggs", "logictype_a, splitup, lspring, wwhack, $canShootEggs|ieggs",
+              "logictype_g, splitup, fpad, wwhack", "logictype_g, splitup, fpad, $canShootEggs|begg", "logictype_g, splitup, fpad, $canShootEggs|feggs", "logictype_g, splitup, fpad, $canShootEggs|ieggs", "logictype_g, splitup, glide, wwhack", "logictype_g, splitup, glide, $canShootEggs|begg", "logictype_g, splitup, glide, $canShootEggs|feggs", "logictype_g, splitup, glide, $canShootEggs|ieggs", "logictype_g, splitup, tjump, wwhack", "logictype_g, splitup, tjump, wwhack, $canShootEggs|begg", "logictype_g, splitup, tjump, wwhack, $canShootEggs|feggs", "logictype_g, splitup, tjump, wwhack, $canShootEggs|ieggs", "logictype_g, splitup, lspring, wwhack", "logictype_g, splitup, lspring, wwhack, $canShootEggs|begg", "logictype_g, splitup, lspring, wwhack, $canShootEggs|feggs", "logictype_g, splitup, lspring, wwhack, $canShootEggs|ieggs"
             ]
           },
           {
@@ -9252,8 +9262,8 @@
             "access_rules": [
               "logictype_b, splitup, wwhack, fpad",
               "logictype_n, splitup, fpad, wwhack", "logictype_n, splitup, fpad, $canShootEggs|begg", "logictype_n, splitup, fpad, $canShootEggs|feggs", "logictype_n, splitup, fpad, $canShootEggs|ieggs", "logictype_n, splitup, glide, wwhack", "logictype_n, splitup, glide, $canShootEggs|begg", "logictype_n, splitup, glide, $canShootEggs|feggs", "logictype_n, splitup, glide, $canShootEggs|ieggs",
-              "logictype_a, splitup, fpad, wwhack", "logictype_a, splitup, fpad, $canShootEggs|begg", "logictype_a, splitup, fpad, $canShootEggs|feggs", "logictype_a, splitup, fpad, $canShootEggs|ieggs", "logictype_a, splitup, glide, wwhack", "logictype_a, splitup, glide, $canShootEggs|begg", "logictype_a, splitup, glide, $canShootEggs|feggs", "logictype_a, splitup, glide, $canShootEggs|ieggs",
-              "logictype_g, splitup, fpad, wwhack", "logictype_g, splitup, fpad, $canShootEggs|begg", "logictype_g, splitup, fpad, $canShootEggs|feggs", "logictype_g, splitup, fpad, $canShootEggs|ieggs", "logictype_g, splitup, glide, wwhack", "logictype_g, splitup, glide, $canShootEggs|begg", "logictype_g, splitup, glide, $canShootEggs|feggs", "logictype_g, splitup, glide, $canShootEggs|ieggs"
+              "logictype_a, splitup, fpad, wwhack", "logictype_a, splitup, fpad, $canShootEggs|begg", "logictype_a, splitup, fpad, $canShootEggs|feggs", "logictype_a, splitup, fpad, $canShootEggs|ieggs", "logictype_a, splitup, glide, wwhack", "logictype_a, splitup, glide, $canShootEggs|begg", "logictype_a, splitup, glide, $canShootEggs|feggs", "logictype_a, splitup, glide, $canShootEggs|ieggs", "logictype_a, splitup, tjump, wwhack", "logictype_a, splitup, tjump, wwhack, $canShootEggs|begg", "logictype_a, splitup, tjump, wwhack, $canShootEggs|feggs", "logictype_a, splitup, tjump, wwhack, $canShootEggs|ieggs", "logictype_a, splitup, lspring, wwhack", "logictype_a, splitup, lspring, wwhack, $canShootEggs|begg", "logictype_a, splitup, lspring, wwhack, $canShootEggs|feggs", "logictype_a, splitup, lspring, wwhack, $canShootEggs|ieggs",
+              "logictype_g, splitup, fpad, wwhack", "logictype_g, splitup, fpad, $canShootEggs|begg", "logictype_g, splitup, fpad, $canShootEggs|feggs", "logictype_g, splitup, fpad, $canShootEggs|ieggs", "logictype_g, splitup, glide, wwhack", "logictype_g, splitup, glide, $canShootEggs|begg", "logictype_g, splitup, glide, $canShootEggs|feggs", "logictype_g, splitup, glide, $canShootEggs|ieggs", "logictype_g, splitup, tjump, wwhack", "logictype_g, splitup, tjump, wwhack, $canShootEggs|begg", "logictype_g, splitup, tjump, wwhack, $canShootEggs|feggs", "logictype_g, splitup, tjump, wwhack, $canShootEggs|ieggs", "logictype_g, splitup, lspring, wwhack", "logictype_g, splitup, lspring, wwhack, $canShootEggs|begg", "logictype_g, splitup, lspring, wwhack, $canShootEggs|feggs", "logictype_g, splitup, lspring, wwhack, $canShootEggs|ieggs"
             ],
             "visibility_rules": [ "goal_minigame", "goal_wwing" ]
           }
@@ -9597,7 +9607,7 @@
             "name": "Note",
             "access_rules": [
               "logictype_b, fpad", "logictype_b, $longJump, climb", "logictype_b, humbacc",
-              "logictype_n, fpad", "logictype_n, climb, $longJump", "logictype_n, climb, ggrab", "logictype_n, climb, splitup, packwh", "logictype_n, climb, splitup, sapack", "logictype_n, splitup, lspring, glide", "logictype_n, splitup, lspring, wwhack", "logictype_n, humbacc",
+              "logictype_n, fpad", "logictype_n, climb, $longJump", "logictype_n, climb, ggrab", "logictype_n, climb, splitup, packwh", "logictype_n, climb, splitup, sapack", "logictype_n, humbacc",
               "logictype_a, fpad", "logictype_a, climb, $longJump", "logictype_a, climb, ggrab", "logictype_a, climb, splitup, packwh", "logictype_a, climb, splitup, sapack", "logictype_a, splitup, lspring, glide", "logictype_a, splitup, lspring, wwhack", "logictype_a, humbacc",
               "logictype_g, fpad", "logictype_g, climb, $longJump", "logictype_g, climb, ggrab", "logictype_g, climb, splitup, packwh", "logictype_g, climb, splitup, sapack", "logictype_g, splitup, lspring, glide", "logictype_g, splitup, lspring, wwhack", "logictype_g, humbacc"
             ]

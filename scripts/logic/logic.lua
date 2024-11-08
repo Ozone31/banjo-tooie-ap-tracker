@@ -544,14 +544,6 @@ function glitchedJSGAccess()
     return MT_flight_pad() and has("bbomb") or has("mumbomt")
 end
 
-function prison_compound_open()
-    if logictype.CurrentStage == 0 then
-        return (has("geggs") or has("mumbomt")) and (has("mta") or (hfp_access() or HFP_to_MT()))
-    else
-        return (has_explosives() or has("mumbomt")) and (has("mta") or (hfp_access() or HFP_to_MT()))
-    end
-end
-
 function WH_to_PL()
     if logictype.CurrentStage <= 1 then
         return canReachSlightlyElevatedLedge()
@@ -820,18 +812,6 @@ function can_leave_GI_from_inside()
     return train_GI() and (has("splitup") or has("clawbts"))
 end
 
-function hfp_access(fromTrain)
-    if logictype.CurrentStage == 0 then
-        return clifftop_access() and has("hfa")
-    else
-        if fromTrain then
-            return has("hfa") and clifftop_access(fromTrain)
-        else
-            return (has("hfa") and clifftop_access(fromTrain)) or train_HFP()
-        end
-    end
-end
-
 function hfpTop()
     if logictype.CurrentStage == 0 then
         return canDoSmallElevation() or has("fpad") or has_explosives()
@@ -886,11 +866,11 @@ end
 
 function mt_jiggy8()
     if logictype.CurrentStage == 0 then
-        return billDrill() and (has("dive") or canReachSlightlyElevatedLedge()) and canDoSmallElevation() and prison_compound_open()
+        return billDrill() and (has("dive") or canReachSlightlyElevatedLedge() and has("tjump")) and canDoSmallElevation()
     elseif logictype.CurrentStage == 1 then
-        return billDrill() and canDoSmallElevation() and prison_compound_open() and (has("dive") or canReachSlightlyElevatedLedge() or has("bbust"))
+        return billDrill() and canDoSmallElevation() and (has("dive") or canReachSlightlyElevatedLedge() or has("bbust"))
     else
-        return prison_compound_open() and ((billDrill() and canDoSmallElevation()) or extremelyLongJump() or clockwork_shot()) and (has("dive") or canReachSlightlyElevatedLedge() or has("bbust"))
+        return ((billDrill() and canDoSmallElevation()) or extremelyLongJump() or clockwork_shot()) and (has("dive") or canReachSlightlyElevatedLedge() or has("bbust"))
     end
 end
 
