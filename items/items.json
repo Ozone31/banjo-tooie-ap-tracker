@@ -1143,25 +1143,25 @@
     "stages": [
       {
         "img": "images/settings/logictype_b.png",
-        "name": "Logic Type - Beginner",
+        "name": "Logic Type - Intended",
         "codes": "logictype,logictype_b",
         "inherit_codes": false
       },
       {
         "img": "images/settings/logictype_n.png",
-        "name": "Logic Type - Normal",
+        "name": "Logic Type - Easy Tricks",
         "codes": "logictype,logictype_n",
         "inherit_codes": false
       },
       {
         "img": "images/settings/logictype_a.png",
-        "name": "Logic Type - Advanced",
+        "name": "Logic Type - Hard Tricks",
         "codes": "logictype,logictype_a",
         "inherit_codes": false
       },
       {
         "img": "images/settings/logictype_g.png",
-        "name": "Logic Type - Glitched",
+        "name": "Logic Type - Glitches",
         "codes": "logictype,logictype_g",
         "inherit_codes": false
       }
