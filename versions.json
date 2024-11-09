@@ -5,7 +5,7 @@
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.6.1",
 			"sha256": "0B1268C63E13009A97E3172BA79ADDA92FAF99A48C998EEF4BD55F1B7BA9CB56",
 			"changelog": [
-				"Updated logic for v3.4-beta of Banjo-Tooie AP.",
+				"Updated logic for v3.3.3-beta of Banjo-Tooie AP.",
 				"Logic difficulty names/icons updated to reflect the new settings.",
 				"Logic for entering worlds will now work properly if not connected to an AP seed."
 			]
