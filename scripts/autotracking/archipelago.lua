@@ -15,7 +15,7 @@ load_ggm = "Glitter Gulch Mine"
 load_ww = "Witchyworld"
 load_jrl = "Jolly Roger's Lagoon - Town Center"
 load_tdl = "Terrydactyland"
-load_gi = "Outside Grunty's Industries"
+load_gi = "Outside Grunty Industries"
 load_hfp = "Hailfire Peaks"
 load_ccl = "Cloud Cuckooland"
 load_ck = "Cauldron Keep"
@@ -303,7 +303,7 @@ function onClear(slot_data)
                 load_jrl = v
             elseif k == "Terrydactyland" then
                 load_tdl = v
-            elseif k == "Outside Grunty's Industries" then
+            elseif k == "Outside Grunty Industries" then
                 load_gi = v
             elseif k == "Hailfire Peaks" then
                 load_hfp = v

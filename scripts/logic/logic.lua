@@ -656,7 +656,7 @@ function exit_level()
             return has("jra")
         elseif load_jrl == "Terrydactyland" then
             return has("tda")
-        elseif load_jrl == "Outside Grunty's Industries" then
+        elseif load_jrl == "Outside Grunty Industries" then
             return has("gia")
         elseif load_jrl == "Hailfire Peaks" then
             return has("hfa")
@@ -1157,7 +1157,7 @@ function load_mt_tdl()
 end
 
 function load_mt_gi()
-    if load_mt == "Outside Grunty's Industries" then
+    if load_mt == "Outside Grunty Industries" then
         return true
     else
         return false
@@ -1229,7 +1229,7 @@ function load_ggm_tdl()
 end
 
 function load_ggm_gi()
-    if load_ggm == "Outside Grunty's Industries" then
+    if load_ggm == "Outside Grunty Industries" then
         return true
     else
         return false
@@ -1301,7 +1301,7 @@ function load_ww_tdl()
 end
 
 function load_ww_gi()
-    if load_ww == "Outside Grunty's Industries" then
+    if load_ww == "Outside Grunty Industries" then
         return true
     else
         return false
@@ -1373,7 +1373,7 @@ function load_jrl_tdl()
 end
 
 function load_jrl_gi()
-    if load_jrl == "Outside Grunty's Industries" then
+    if load_jrl == "Outside Grunty Industries" then
         return true
     else
         return false
@@ -1445,7 +1445,7 @@ function load_hfp_tdl()
 end
 
 function load_hfp_gi()
-    if load_hfp == "Outside Grunty's Industries" then
+    if load_hfp == "Outside Grunty Industries" then
         return true
     else
         return false
@@ -1517,7 +1517,7 @@ function load_tdl_tdl()
 end
 
 function load_tdl_gi()
-    if load_tdl == "Outside Grunty's Industries" then
+    if load_tdl == "Outside Grunty Industries" then
         return true
     else
         return false
@@ -1589,7 +1589,7 @@ function load_ccl_tdl()
 end
 
 function load_ccl_gi()
-    if load_ccl == "Outside Grunty's Industries" then
+    if load_ccl == "Outside Grunty Industries" then
         return true
     else
         return false
@@ -1661,7 +1661,7 @@ function load_gi_tdl()
 end
 
 function load_gi_gi()
-    if load_gi == "Outside Grunty's Industries" then
+    if load_gi == "Outside Grunty Industries" then
         return true
     else
         return false
@@ -1733,7 +1733,7 @@ function load_ck_tdl()
 end
 
 function load_ck_gi()
-    if load_ck == "Outside Grunty's Industries" then
+    if load_ck == "Outside Grunty Industries" then
         return true
     else
         return false

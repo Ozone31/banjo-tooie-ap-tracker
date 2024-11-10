@@ -139,31 +139,31 @@ MAP_MAPPING =	{
     ["0x122"] =	{"Terrydactyland", "Main Area"},                --TDL - Wumba's Wigwam (Big)
     ["0x11e"] =	{"Terrydactyland", "Main Area"},                --TDL - Wumba's Wigwam (Small)
 
-    --GRUNTY'S INDUSTRIES
-    ["0x100"] =	{"Grunty's Industries", "Outside"},                 --GI
-    ["0x10f"] =	{"Grunty's Industries", "Floor 1"},                 --GI - Basement
-    ["0x110"] =	{"Grunty's Industries", "Floor 1"},                 --GI - Basement (Repair Depot)
-    ["0x111"] =	{"Grunty's Industries", "Waste Disposal Plant"},    --GI - Basement (Waste Disposal)
-  --["0x105"] =	{"Grunty's Industries", "Floor 1"},                 --GI - Elevator shaft
-    ["0x101"] =	{"Grunty's Industries", "Floor 1"},                 --GI - Floor 1
-    ["0x106"] =	{"Grunty's Industries", "Floor 2"},                 --GI - Floor 2
-    ["0x107"] =	{"Grunty's Industries", "Floor 2"},                 --GI - Floor 2 (Electromagnet Chamber)
-    ["0x108"] =	{"Grunty's Industries", "Floor 3"},                 --GI - Floor 3
-    ["0x109"] =	{"Grunty's Industries", "Floor 3"},                 --GI - Floor 3 (Boiler Plant)
-    ["0x10a"] =	{"Grunty's Industries", "Floor 3"},                 --GI - Floor 3 (Packing Room)
-    ["0x10b"] =	{"Grunty's Industries", "Floor 4"},                 --GI - Floor 4
-    ["0x10c"] =	{"Grunty's Industries", "Floor 4"},                 --GI - Floor 4 (Cable Room)
-    ["0x162"] =	{"Grunty's Industries", "Floor 4"},                 --GI - Floor 4 (Clinker's Cavern)
-    ["0x10d"] =	{"Grunty's Industries", "Floor 4"},                 --GI - Floor 4 (Quality Control)
-    ["0x10e"] =	{"Grunty's Industries", "Floor 5"},                 --GI - Floor 5
-    ["0x172"] =	{"Grunty's Industries", "Floor 3"},                 --GI - Mumbo's Skull
-    ["0x17d"] =	{"Grunty's Industries", "Floor 3"},                 --GI - Packing Game
-    ["0x187"] =	{"Grunty's Industries", "Floor 4"},                 --GI - Sewer Entrance
-    ["0x102"] =	{"Grunty's Industries", "Floor 1"},                 --GI - Train Station
-    ["0x104"] =	{"Grunty's Industries", "Floor 1"},                 --GI - Trash Compactor
-    ["0x125"] =	{"Grunty's Industries", "Floor 1"},                 --GI - Water Supply Pipe
-    ["0x103"] =	{"Grunty's Industries", "Floor 1"},                 --GI - Workers' Quarters
-    ["0x11f"] =	{"Grunty's Industries", "Floor 2"},                 --GI - Wumba's Wigwam
+    --GRUNTY INDUSTRIES
+    ["0x100"] =	{"Grunty Industries", "Outside"},                 --GI
+    ["0x10f"] =	{"Grunty Industries", "Floor 1"},                 --GI - Basement
+    ["0x110"] =	{"Grunty Industries", "Floor 1"},                 --GI - Basement (Repair Depot)
+    ["0x111"] =	{"Grunty Industries", "Waste Disposal Plant"},    --GI - Basement (Waste Disposal)
+  --["0x105"] =	{"Grunty Industries", "Floor 1"},                 --GI - Elevator shaft
+    ["0x101"] =	{"Grunty Industries", "Floor 1"},                 --GI - Floor 1
+    ["0x106"] =	{"Grunty Industries", "Floor 2"},                 --GI - Floor 2
+    ["0x107"] =	{"Grunty Industries", "Floor 2"},                 --GI - Floor 2 (Electromagnet Chamber)
+    ["0x108"] =	{"Grunty Industries", "Floor 3"},                 --GI - Floor 3
+    ["0x109"] =	{"Grunty Industries", "Floor 3"},                 --GI - Floor 3 (Boiler Plant)
+    ["0x10a"] =	{"Grunty Industries", "Floor 3"},                 --GI - Floor 3 (Packing Room)
+    ["0x10b"] =	{"Grunty Industries", "Floor 4"},                 --GI - Floor 4
+    ["0x10c"] =	{"Grunty Industries", "Floor 4"},                 --GI - Floor 4 (Cable Room)
+    ["0x162"] =	{"Grunty Industries", "Floor 4"},                 --GI - Floor 4 (Clinker's Cavern)
+    ["0x10d"] =	{"Grunty Industries", "Floor 4"},                 --GI - Floor 4 (Quality Control)
+    ["0x10e"] =	{"Grunty Industries", "Floor 5"},                 --GI - Floor 5
+    ["0x172"] =	{"Grunty Industries", "Floor 3"},                 --GI - Mumbo's Skull
+    ["0x17d"] =	{"Grunty Industries", "Floor 3"},                 --GI - Packing Game
+    ["0x187"] =	{"Grunty Industries", "Floor 4"},                 --GI - Sewer Entrance
+    ["0x102"] =	{"Grunty Industries", "Floor 1"},                 --GI - Train Station
+    ["0x104"] =	{"Grunty Industries", "Floor 1"},                 --GI - Trash Compactor
+    ["0x125"] =	{"Grunty Industries", "Floor 1"},                 --GI - Water Supply Pipe
+    ["0x103"] =	{"Grunty Industries", "Floor 1"},                 --GI - Workers' Quarters
+    ["0x11f"] =	{"Grunty Industries", "Floor 2"},                 --GI - Wumba's Wigwam
 
     --HAILFIRE PEAKS
     ["0x131"] =	{"Hailfire Peaks", "Icy Side"},                     --HFP - Boggy's Igloo
