@@ -1,6 +1,15 @@
 {
 	"versions": [
 		{
+			"package_version": "0.6.2",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.6.2",
+			"sha256": "8FD8662A4ED495636B26C0C2D46D7611219DB95CC7DC5BCAC0258B80FE29D325",
+			"changelog": [
+				"Updated logic for 3.4-beta of Banjo-Tooie AP.",
+				"Grunty's Industries changed to Grunty Industries. (These locations will not work with older versions of the randomizer)"
+			]
+		},
+		{
 			"package_version": "0.6.1",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.6.1",
 			"sha256": "0B1268C63E13009A97E3172BA79ADDA92FAF99A48C998EEF4BD55F1B7BA9CB56",
