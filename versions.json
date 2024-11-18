@@ -1,6 +1,16 @@
 {
 	"versions": [
 		{
+			"package_version": "0.6.2",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.6.2",
+			"sha256": "249F8BD80E9D6BBCC4E2353EDE71ECB126F8150B911CC5F451DE15E91CFAB882",
+			"changelog": [
+				"Updated logic for v3.4-beta of Banjo-Tooie AP.",
+				"Grunty's Industries is now Grunty Industries. (These locations will not function correctly with older version of the randomizer)",
+				"Fixed Dragon Brothers Jiggy/Mumbo Token logic."
+			]
+		},
+		{
 			"package_version": "0.6.1",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.6.1",
 			"sha256": "0B1268C63E13009A97E3172BA79ADDA92FAF99A48C998EEF4BD55F1B7BA9CB56",
