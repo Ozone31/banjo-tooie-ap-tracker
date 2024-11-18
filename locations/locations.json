@@ -8471,10 +8471,10 @@
       {
         "name": "Dragon Brothers",
         "access_rules": [
-              "logictype_b, $canShootEggs|feggs, $canShootEggs|ieggs, clawbts, fpad",
-              "logictype_n, $canShootEggs|feggs, $canShootEggs|ieggs, clawbts, fpad",
-              "logictype_a, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, clawbts", "logictype_a, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, splitup, packwh, tjump, flutter, ttrot", "logictype_a, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, splitup, packwh, tjump, flutter, fflip",
-              "logictype_g, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, clawbts", "logictype_g, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, splitup, packwh, tjump, flutter, ttrot", "logictype_g, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, splitup, packwh, tjump, flutter, fflip"
+              "logictype_b, $canShootEggs|feggs, $canShootEggs|ieggs, clawbts, fpad, eggshoot",
+              "logictype_n, $canShootEggs|feggs, $canShootEggs|ieggs, clawbts, fpad, eggshoot",
+              "logictype_a, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, eggshoot, clawbts", "logictype_a, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, eggshoot, splitup, packwh, tjump, flutter, ttrot", "logictype_a, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, eggshoot, splitup, packwh, tjump, flutter, fflip",
+              "logictype_g, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, eggshoot, clawbts", "logictype_g, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, eggshoot, splitup, packwh, tjump, flutter, ttrot", "logictype_g, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, eggshoot, splitup, packwh, tjump, flutter, fflip"
             ],
         "sections": [
           {
