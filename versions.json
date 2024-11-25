@@ -1,6 +1,15 @@
 {
 	"versions": [
 		{
+			"package_version": "0.6.3",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.6.3",
+			"sha256": "5F7C0F834CC3BDA4C4836458B76FD2F9039812EA02E221D7F2F3D3757C011B54",
+			"changelog": [
+				"Updated logic for v3.5-beta of Banjo-Tooie AP.",
+				"Added support for the new Backdoors YAML option."
+			]
+		},
+		{
 			"package_version": "0.6.2",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.6.2",
 			"sha256": "249F8BD80E9D6BBCC4E2353EDE71ECB126F8150B911CC5F451DE15E91CFAB882",
