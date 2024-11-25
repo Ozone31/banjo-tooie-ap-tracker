@@ -38,6 +38,7 @@
               ],
               [
                 "randomizeworlds",
+                "backdoorsopen",
                 "logictype",
                 "goal",
                 "automap"

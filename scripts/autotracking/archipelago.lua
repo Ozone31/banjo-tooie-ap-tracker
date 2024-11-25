@@ -315,6 +315,16 @@ function onClear(slot_data)
         end
     end
 
+    if slot_data['backdoors'] then
+        local obj = Tracker:FindObjectForCode("backdoorsopen")
+        local stage = slot_data['backdoors']
+        if stage == "true" then
+            obj.CurrentStage = 1
+        else
+            obj.CurrentStage = 0
+        end
+    end
+
     --print("MT: "..load_mt)
     --print("GGM: "..load_ggm)
     --print("WW: "..load_ww)
