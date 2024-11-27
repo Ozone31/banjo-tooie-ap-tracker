@@ -1,6 +1,14 @@
 {
 	"versions": [
 		{
+			"package_version": "0.6.3.1",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.6.3.1",
+			"sha256": "429280f10f364422a9179953b9b9e4df1c2d7352b425c6c7cfe3bc2cca9c9b7d",
+			"changelog": [
+				"Fixed typo in TDL backdoor access rule"
+			]
+		},
+		{
 			"package_version": "0.6.3",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.6.3",
 			"sha256": "5F7C0F834CC3BDA4C4836458B76FD2F9039812EA02E221D7F2F3D3757C011B54",
