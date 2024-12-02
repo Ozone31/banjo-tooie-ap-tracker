@@ -262,9 +262,9 @@ function saucer_door_open_ww()
     elseif logictype.CurrentStage == 1 then
         return ((longJumpToGripGrab() and has("fflip") and has("climb") and (has_explosives() or has("bbarge"))) or (has("eggaim") and canShootEggs("geggs") and has("amazeogaze") and has("climb")) or (has_explosives() and has("splitup") and has("lspring") and has("glide"))) or backdoors_enabled()
     elseif logictype.CurrentStage <= 2 then
-        return ((longJumpToGripGrab() and has("fflip") and has("climb") and (has_explosives() or has("bbarge"))) or (has("eggaim") and canShootEggs("geggs") and has("amazeogaze")) or (has_explosives() and has("splitup") and has("lspring") and has("glide"))) or backdoors_enabled()
+        return ((longJumpToGripGrab() and has("fflip") and has("climb") and (has_explosives() or has("bbarge"))) or (has("eggaim") and canShootEggs("geggs") and has("amazeogaze")) or (has_explosives() and has("splitup") and has("lspring") and has("glide"))) or backdoors_enabled() or clockwork_shot()
     else
-        return (((longJumpToGripGrab() and has("fflip") and has("climb") and (has_explosives() or has("bbarge"))) or (has("eggaim") and canShootEggs("geggs") and has("amazeogaze")) or (has_explosives() and has("splitup") and has("lspring") and has("glide"))) or (ggm_access() and canDoSmallElevation() and canShootEggs("ceggs"))) or backdoors_enabled()
+        return (((longJumpToGripGrab() and has("fflip") and has("climb") and (has_explosives() or has("bbarge"))) or (has("eggaim") and canShootEggs("geggs") and has("amazeogaze")) or (has_explosives() and has("splitup") and has("lspring") and has("glide"))) or (ggm_access() and canDoSmallElevation() and canShootEggs("ceggs"))) or backdoors_enabled() or clockwork_shot()
     end
 end
 
@@ -272,7 +272,7 @@ function saucer_door_open_ggm()
     if logictype.CurrentStage <= 2 then
         return backdoors_enabled()
     else
-        return (canDoSmallElevation() and canShootEggs("ceggs")) or backdoors_enabled()
+        return (humbaGGM() and canDoSmallElevation() and canShootEggs("ceggs")) or backdoors_enabled()
     end
 end
 
@@ -362,9 +362,9 @@ end
 
 function mumboTDL()
     if logictype.CurrentStage == 0 then
-        return ((canDoSmallElevation() and has("sstride")) or TDLFlightPad()) and has("mumbotd")
+        return has("sstride") and has("mumbotd")
     else
-        return (canDoSmallElevation() or TDLFlightPad()) and has("mumbotd")
+        return has("mumbotd")
     end
 end
 
@@ -576,7 +576,7 @@ function PL_to_GGM()
     if logictype.CurrentStage <= 2 then
         return has("gga")
     else
-        return has("gga") or (has("bbust") and (has("fflip") or has("tjump") or (has("ttrot") and (has("flutter") or has("arat")))))
+        return has("gga") or (has("bbust") and (has("fflip") or has("tjump") or (has("ttrot") and has("flutter"))))
     end
 end
 
@@ -910,9 +910,9 @@ end
 
 function mt_jiggy5()
     if logictype.CurrentStage == 0 then
-        return has("eggaim") and (has("fflip") or canReachSlightlyElevatedLedge()) and ((has("ggrab") and springPad() and has("fflip")) or MT_flight_pad())
+        return has("eggaim") and (has("fflip") or canReachSlightlyElevatedLedge()) and ((has("ggrab") and springPad() and has("fflip") and has("ttrot")) or MT_flight_pad())
     else
-        return (has("fflip") or canReachSlightlyElevatedLedge()) and ((has("ggrab") and springPad() and has("fflip") and has("eggaim")) or (MT_flight_pad() and canShootEggs()))
+        return (has("fflip") or canReachSlightlyElevatedLedge()) and ((has("ggrab") and springPad() and has("fflip") and has("eggaim") and has("ttrot")) or (MT_flight_pad() and canShootEggs()))
     end
 end
 
@@ -944,6 +944,16 @@ end
 
 -- Jolly Roger's Lagoon
 
+function jr_jiggy4()
+    if logictype.CurrentStage == 0 then
+        return (has_explosives() or billDrill()) and veryLongJump() and has("fflip") and (has_explosives() or has("bbarge"))
+    elseif logictype.CurrentStage == 1 then
+        return (has_explosives() or billDrill()) and (veryLongJump() or has("doubloon", 28) and has("ttrain")) and has("fflip") and (has_explosives() or has("bbarge"))
+    else
+        return (has_explosives() or billDrill()) and (veryLongJump() or has("doubloon", 28) and has("ttrain")) and has("fflip") and (has_explosives() or has("bbarge") or clockwork_shot())
+    end
+end
+
 function jr_jiggy10()
     if logictype.CurrentStage == 0 then
         return has("mumbojr") and has("ttorp") and has("eggaim") and has("ieggs")
@@ -955,6 +965,16 @@ function jr_jiggy10()
 end
 
 -- Terrydactyl Land
+
+function td_jinjo2()
+    if logictype.CurrentStage == 0 then
+        return TDLFlightPad() and (has("bbomb") or has("geggs") and has("eggaim"))
+    elseif logictype.CurrentStage == 1 then
+        return (TDLFlightPad() and has("bbomb")) or canShootEggs("geggs") and (has("eggaim") or longJump() or TDLFlightPad() or has("ttrain")) and (has("flutter") or has("arat") or has("splitup") or TDLFlightPad())
+    else
+        return (TDLFlightPad() and has("bbomb")) or (canShootEggs("geggs") and (has("eggaim") or longJump() or TDLFlightPad() or has("ttrain") or has("splitup")))
+    end
+end
 
 function td_jiggy2() -- Need CCL access
     return has("ttorp") and has("dive")
@@ -997,6 +1017,16 @@ function scrit()
 end
 
 -- Cloud Cuckooland
+
+function cc_jinjo3()
+    if logictype.CurrentStage == 0 then
+        return has("splitup") and springPad() or has("humbacc")
+    elseif logictype.CurrentStage == 1 then
+        return has("splitup") and (springPad() or has("fpad")) or has("springb") and billDrill() and (has("flutter") or has("arat") or has("splitup")) or (has("splitup") and has("lspring")) or has("humbacc")
+    else
+        return has("splitup") and (springPad() or has("fpad")) or clockwork_shot() or has("springb") and billDrill() and (has("flutter") or has("arat") or has("splitup")) or (has("splitup") and has("lspring")) or has("humbacc")
+    end
+end
 
 function cc_jiggy2()
     if logictype.CurrentStage == 0 then
