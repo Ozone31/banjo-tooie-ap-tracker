@@ -4100,7 +4100,8 @@
       "$load_gi_ggm, @Quagmire, gia",
       "$load_ck_ggm, @Quagmire, $quag_to_CK, cka",
       "@Inside Chuffy",
-      "@Glitter Gulch Mine - Prospector's Hut"
+      "@Glitter Gulch Mine - Prospector's Hut",
+      "@Glitter Gulch Mine - Water Storage"
     ],
     "children": [
       {
@@ -4817,7 +4818,10 @@
     "name": "Glitter Gulch Mine - Water Storage",
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
-    "access_rules": [ "@Glitter Gulch Mine - Main Area" ],
+    "access_rules": [
+      "@Glitter Gulch Mine - Main Area",
+      "@Jolly Roger's Lagoon - Atlantis, $can_access_water_storage_jinjo_from_JRL"
+    ],
     "children": [
       {
         "name": "GGM: Water Storage Cheato Page",
@@ -7165,7 +7169,7 @@
             "name": "Oogle Boogle Tribe Jiggy",
             "access_rules": [
               "logictype_b, $oogle_boogles_open, $canShootEggs|feggs, $smuggle_food, ggrab, $billDrill",
-              "logictype_n, $oogle_boogles_open, $canShootEggs|feggs, ggrab, $billDrill", "logictype_n, $oogle_boogles_open, humbaih, @Pine Grove, grat, ggrab, $billDrill",
+              "logictype_n, $oogle_boogles_open, $canShootEggs|feggs, $smuggle_food, ggrab, $billDrill", "logictype_n, $oogle_boogles_open, humbaih, @Pine Grove, grat, $smuggle_food, ggrab, $billDrill",
               "logictype_a, $oogle_boogles_open, $canShootEggs|feggs, ggrab, $billDrill, $smuggle_food", "logictype_a, $oogle_boogles_open, humbaih, @Pine Grove, grat, ggrab, $billDrill, $smuggle_food",
               "logictype_g, $oogle_boogles_open, $canShootEggs|feggs, ggrab, $billDrill, $smuggle_food", "logictype_g, $oogle_boogles_open, humbaih, @Pine Grove, grat, ggrab, $billDrill, $smuggle_food", "logictype_g, $clockworkWarp, $canShootEggs|feggs, ggrab, $billDrill, $smuggle_food", "logictype_g, $clockworkWarp, humbaih, @Pine Grove, grat, ggrab, $billDrill, $smuggle_food"
             ]
