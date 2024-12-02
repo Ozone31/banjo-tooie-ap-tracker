@@ -1,6 +1,17 @@
 {
 	"versions": [
 		{
+			"package_version": "0.6.4",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.6.4",
+			"sha256": "b2ff6d5abc4c415c304f47674e017463f9403afb86152edb9ebb1a9fe973b714",
+			"changelog": [
+				"Updated logic for 3.5.1-beta of Banjo-Tooie AP.",
+				"Fixed issue causing hinting the Amaze-O-Gaze Goggles hint location from showing up.",
+				"GGM access should now appear in logic if going to Water Storage through JRL.",
+				"Fixed Oogle Boogle Tribe Jiggy easy trick logic to make sure you can smuggle food."
+			]
+		},
+		{
 			"package_version": "0.6.3.1",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.6.3.1",
 			"sha256": "429280f10f364422a9179953b9b9e4df1c2d7352b425c6c7cfe3bc2cca9c9b7d",
