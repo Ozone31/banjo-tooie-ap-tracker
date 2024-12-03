@@ -3809,7 +3809,7 @@
             "name": "Treasure Chamber Jiggy",
             "access_rules": [
               "$mt_jiggy5",
-              "logictype_n, @Terrydactyland - Unga Bungas' Cave", "logictype_a, @Terrydactyland - Unga Bungas' Cave", "logictype_g, @Terrydactyland - Unga Bungas' Cave"
+              "logictype_n, fflip, $canReachSlightlyElevatedLedge, @Terrydactyland - Unga Bungas' Cave", "logictype_a, fflip, $canReachSlightlyElevatedLedge, @Terrydactyland - Unga Bungas' Cave", "logictype_g, fflip, $canReachSlightlyElevatedLedge, @Terrydactyland - Unga Bungas' Cave"
             ]
           },
           {
