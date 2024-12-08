@@ -929,11 +929,11 @@
                   "visibility_rules": ["ww_note8"]
                 },
                 {
-                  "name": "WW: Area 51 Gate Note 1 (Hint)",
+                  "name": "WW: Area 51 Gate Left Note (Hint)",
                   "visibility_rules": ["ww_note9"]
                 },
                 {
-                  "name": "WW: Area 51 Gate Note 2 (Hint)",
+                  "name": "WW: Area 51 Gate Right Note (Hint)",
                   "visibility_rules": ["ww_note10"]
                 },
                 {
@@ -1541,71 +1541,71 @@
               "name": "Grunty Industries Hints",
               "sections": [
                 {
-                  "name": "GI: Floor 5 Jinjo (Hint)",
+                  "name": "GI Floor 5: Jinjo (Hint)",
                   "visibility_rules": ["gi_jinjo1"]
                 },
                 {
-                  "name": "GI: Leg Spring Jinjo (Hint)",
+                  "name": "GI Floor 2: Leg Spring Jinjo (Hint)",
                   "visibility_rules": ["gi_jinjo2"]
                 },
                 {
-                  "name": "GI: Waste Disposal Plant Jinjo (Hint)",
+                  "name": "GI Floor 1: Waste Disposal Plant Jinjo (Hint)",
                   "visibility_rules": ["gi_jinjo3"]
                 },
                 {
-                  "name": "GI: Boiler Plant Jinjo (Hint)",
+                  "name": "GI Floor 3: Boiler Plant Jinjo (Hint)",
                   "visibility_rules": ["gi_jinjo4"]
                 },
                 {
-                  "name": "GI: Outside Jinjo (Hint)",
+                  "name": "GI Outside: Jinjo (Hint)",
                   "visibility_rules": ["gi_jinjo5"]
                 },
                 {
-                  "name": "GI: Floor 2 Glowbo (Hint)",
+                  "name": "GI Floor 2: Glowbo (Hint)",
                   "visibility_rules": ["gi_glowbo1"]
                 },
                 {
-                  "name": "GI: Floor 3 Glowbo (Hint)",
+                  "name": "GI Floor 3: Glowbo (Hint)",
                   "visibility_rules": ["gi_glowbo2"]
                 },
                 {
-                  "name": "GI: Floor 3 Honeycomb (Hint)",
+                  "name": "GI Floor 3: Honeycomb (Hint)",
                   "visibility_rules": ["gi_honey1"]
                 },
                 {
-                  "name": "GI: Train Station Honeycomb (Hint)",
+                  "name": "GI Floor 1: Train Station Honeycomb (Hint)",
                   "visibility_rules": ["gi_honey2"]
                 },
                 {
-                  "name": "GI: Chimney Honeycomb (Hint)",
+                  "name": "GI Outside: Chimney Honeycomb (Hint)",
                   "visibility_rules": ["gi_honey3"]
                 },
                 {
-                  "name": "GI: Loggo Cheato Page (Hint)",
+                  "name": "GI Floor 1: Loggo Cheato Page (Hint)",
                   "visibility_rules": ["gi_cheato1"]
                 },
                 {
-                  "name": "GI: Floor 2 Window Cheato Page (Hint)",
+                  "name": "GI Floor 2: Window Cheato Page (Hint)",
                   "visibility_rules": ["gi_cheato2"]
                 },
                 {
-                  "name": "GI: Repair Depot Cheato Page (Hint)",
+                  "name": "GI Floor 1: Repair Depot Cheato Page (Hint)",
                   "visibility_rules": ["gi_cheato3"]
                 },
                 {
-                  "name": "GI: Snooze Pack Silo (Hint)",
+                  "name": "GI Floor 1: Snooze Pack Silo (Hint)",
                   "visibility_rules": ["gi_snpacksilo"]
                 },
                 {
-                  "name": "GI: Leg Spring Silo (Hint)",
+                  "name": "GI Floor 2: Leg Spring Silo (Hint)",
                   "visibility_rules": ["gi_lspringsilo"]
                 },
                 {
-                  "name": "GI: Claw Clamber Boots Silo (Hint)",
+                  "name": "GI Floor 1: Claw Clamber Boots Silo (Hint)",
                   "visibility_rules": ["gi_clawbtssilo"]
                 },
                 {
-                  "name": "GI: Train Switch (Hint)",
+                  "name": "GI Outside: Train Switch (Hint)",
                   "visibility_rules": ["gi_trainsw"]
                 }
               ],
@@ -1621,15 +1621,15 @@
               "name": "Grunty Industries - Jiggies Hints",
               "sections": [
                 {
-                  "name": "GI: Underwater Waste Disposal Plant Jiggy (Hint)",
+                  "name": "GI Floor 1: Underwater Waste Disposal Plant Jiggy (Hint)",
                   "visibility_rules": ["gi_jiggy1"]
                 },
                 {
-                  "name": "GI: Weldar Jiggy (Hint)",
+                  "name": "GI Floor 1: Weldar Jiggy (Hint)",
                   "visibility_rules": ["gi_jiggy2"]
                 },
                 {
-                  "name": "GI: Clinker's Cavern Jiggy (Hint)",
+                  "name": "GI Floor 4: Clinker's Cavern Jiggy (Hint)",
                   "visibility_rules": ["gi_jiggy3"]
                 },
                 {
@@ -1637,27 +1637,27 @@
                   "visibility_rules": ["gi_jiggy4"]
                 },
                 {
-                  "name": "GI: Floor 5 Jiggy (Hint)",
+                  "name": "GI Floor 5: Jiggy (Hint)",
                   "visibility_rules": ["gi_jiggy5"]
                 },
                 {
-                  "name": "GI: Quality Control Jiggy (Hint)",
+                  "name": "GI Floor 4: Quality Control Jiggy (Hint)",
                   "visibility_rules": ["gi_jiggy6"]
                 },
                 {
-                  "name": "GI: Floor 1 Guarded Jiggy (Hint)",
+                  "name": "GI Floor 1: Guarded Jiggy (Hint)",
                   "visibility_rules": ["gi_jiggy7"]
                 },
                 {
-                  "name": "GI: Trash Compactor Jiggy (Hint)",
+                  "name": "GI Floor 1: Trash Compactor Jiggy (Hint)",
                   "visibility_rules": ["gi_jiggy8"]
                 },
                 {
-                  "name": "GI: Twinkly Packing Jiggy (Hint)",
+                  "name": "GI Floor 3: Twinkly Packing Jiggy (Hint)",
                   "visibility_rules": ["gi_jiggy9"]
                 },
                 {
-                  "name": "GI: Waste Disposal Plant Box Jiggy (Hint)",
+                  "name": "GI Floor 1: Waste Disposal Plant Box Jiggy (Hint)",
                   "visibility_rules": ["gi_jiggy10"]
                 }
               ],
@@ -1673,71 +1673,71 @@
               "name": "Grunty Industries - Notes Hints",
               "sections": [
                 {
-                  "name": "GI: Treble Clef (Hint)",
+                  "name": "GI Outside: Treble Clef (Hint)",
                   "visibility_rules": ["gi_treble"]
                 },
                 {
-                  "name": "GI: Train Station Note 1 (Hint)",
+                  "name": "GI Floor 1: Train Station Note 1 (Hint)",
                   "visibility_rules": ["gi_note1"]
                 },
                 {
-                  "name": "GI: Train Station Note 2 (Hint)",
+                  "name": "GI Floor 1: Train Station Note 2 (Hint)",
                   "visibility_rules": ["gi_note2"]
                 },
                 {
-                  "name": "GI: Train Station Note 3 (Hint)",
+                  "name": "GI Floor 1: Train Station Note 3 (Hint)",
                   "visibility_rules": ["gi_note3"]
                 },
                 {
-                  "name": "GI: Floor 1 on AC Unit Note 1 (Hint)",
+                  "name": "GI Floor 1: Floor 1 on AC Unit Note 1 (Hint)",
                   "visibility_rules": ["gi_note4"]
                 },
                 {
-                  "name": "GI: Floor 1 on AC Unit Note 2 (Hint)",
+                  "name": "GI Floor 1: Floor 1 on AC Unit Note 2 (Hint)",
                   "visibility_rules": ["gi_note5"]
                 },
                 {
-                  "name": "GI: Floor 2: Leg Spring Room Note 1 (Hint)",
+                  "name": "GI Floor 2: Leg Spring Room Note 1 (Hint)",
                   "visibility_rules": ["gi_note6"]
                 },
                 {
-                  "name": "GI: Floor 2: Leg Spring Room Note 2 (Hint)",
+                  "name": "GI Floor 2: Leg Spring Room Note 2 (Hint)",
                   "visibility_rules": ["gi_note7"]
                 },
                 {
-                  "name": "GI: Floor 2: Leg Spring Room Note 3 (Hint)",
+                  "name": "GI Floor 2: Leg Spring Room Note 3 (Hint)",
                   "visibility_rules": ["gi_note8"]
                 },
                 {
-                  "name": "GI: Floor 2: Box Room Taller Stack Note (Hint)",
+                  "name": "GI Floor 2: Box Room Taller Stack Note (Hint)",
                   "visibility_rules": ["gi_note9"]
                 },
                 {
-                  "name": "GI: Floor 2: Box Room Shorter Stack Note (Hint)",
+                  "name": "GI Floor 2: Box Room Shorter Stack Note (Hint)",
                   "visibility_rules": ["gi_note10"]
                 },
                 {
-                  "name": "GI: Floor 1: Waste Disposal Plant Note 1 (Hint)",
+                  "name": "GI Floor 1: Waste Disposal Plant Note 1 (Hint)",
                   "visibility_rules": ["gi_note11"]
                 },
                 {
-                  "name": "GI: Floor 1: Waste Disposal Plant Note 2 (Hint)",
+                  "name": "GI Floor 1: Waste Disposal Plant Note 2 (Hint)",
                   "visibility_rules": ["gi_note12"]
                 },
                 {
-                  "name": "GI: Floor 1: Air Conditioning Plant Note 1 (Hint)",
+                  "name": "GI Floor 1: Air Conditioning Plant Note 1 (Hint)",
                   "visibility_rules": ["gi_note13"]
                 },
                 {
-                  "name": "GI: Floor 1: Air Conditioning Plant Note 2 (Hint)",
+                  "name": "GI Floor 1: Air Conditioning Plant Note 2 (Hint)",
                   "visibility_rules": ["gi_note14"]
                 },
                 {
-                  "name": "GI: Floor 3 Note 1 (Hint)",
+                  "name": "GI Floor 3: Note 1 (Hint)",
                   "visibility_rules": ["gi_note15"]
                 },
                 {
-                  "name": "GI: Floor 3 Note 2 (Hint)",
+                  "name": "GI Floor 3: Note 2 (Hint)",
                   "visibility_rules": ["gi_note16"]
                 }
               ],

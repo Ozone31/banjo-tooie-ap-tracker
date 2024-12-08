@@ -1000,12 +1000,12 @@
             "name": "WW: Around the Tent Note 8"
           },
           {
-            "ref": "Witchyworld - Main Area/WW: Area 51 Gate Notes/Note 1",
-            "name": "WW: Area 51 Gate Note 1"
+            "ref": "Witchyworld - Main Area/WW: Area 51 Gate Notes/Left Note",
+            "name": "WW: Area 51 Gate Left Note"
           },
           {
-            "ref": "Witchyworld - Main Area/WW: Area 51 Gate Notes/Note 2",
-            "name": "WW: Area 51 Gate Note 2"
+            "ref": "Witchyworld - Main Area/WW: Area 51 Gate Notes/Right Note",
+            "name": "WW: Area 51 Gate Right Note"
           },
           {
             "ref": "Witchyworld - Main Area/WW: Outside Dodgem Dome Notes/Note 1",
@@ -1628,84 +1628,84 @@
         "name": "Grunty Industries",
         "sections": [
           {
-            "ref": "Grunty Industries - Floor 3 to 5/GI: Floor 5 Jinjo/Jinjo",
-            "name": "GI: Floor 5 Jinjo"
+            "ref": "Grunty Industries Roof/GI Floor 5: Jinjo/Jinjo",
+            "name": "GI Floor 5: Jinjo"
           },
           {
-            "ref": "Grunty Industries - Floor 2/GI: Leg Spring Jinjo/Jinjo",
-            "name": "GI: Leg Spring Jinjo"
+            "ref": "Grunty Industries 2nd Floor/GI Floor 2: Leg Spring Jinjo/Jinjo",
+            "name": "GI Floor 2: Leg Spring Jinjo"
           },
           {
-            "ref": "Jolly Roger's Lagoon - Underwater/GI: Waste Disposal Plant Jinjo (Access from JRL)/Jinjo",
-            "name": "GI: Waste Disposal Plant Jinjo"
+            "ref": "Jolly Roger's Lagoon - Underwater/GI Floor 1: Waste Disposal Plant Jinjo (Access from JRL)/Jinjo",
+            "name": "GI Floor 1: Waste Disposal Plant Jinjo"
           },
           {
-            "ref": "Grunty Industries - Floor 3 to 5/Boiler Plant, Packing Room/Boiler Plant Jinjo",
-            "name": "GI: Boiler Plant Jinjo"
+            "ref": "Grunty Industries 3rd Floor - Boiler Plant/Boiler Plant, Packing Room/Boiler Plant Jinjo",
+            "name": "GI Floor 3: Boiler Plant Jinjo"
           },
           {
-            "ref": "Grunty Industries - Floor 3 to 5/GI: Outside Jinjo/Jinjo",
-            "name": "GI: Outside Jinjo"
+            "ref": "Outside Grunty Industries - Behind the building/GI Outside: Jinjo/Jinjo",
+            "name": "GI Outside: Jinjo"
           },
           {
-            "ref": "Grunty Industries - Floor 2/GI: Floor 2 Glowbo/Glowbo",
-            "name": "GI: Floor 2 Glowbo"
+            "ref": "Grunty Industries 2nd Floor/GI Floor 2: Glowbo/Glowbo",
+            "name": "GI Floor 2: Glowbo"
           },
           {
-            "ref": "Grunty Industries - Floor 3 to 5/GI: Floor 3 Glowbo/Glowbo",
-            "name": "GI: Floor 3 Glowbo"
+            "ref": "Grunty Industries 3rd Floor/GI Floor 3: Glowbo/Glowbo",
+            "name": "GI Floor 3: Glowbo"
           },
           {
-            "ref": "Grunty Industries - Floor 3 to 5/GI: Floor 3 Honeycomb/Honeycomb",
-            "name": "GI: Floor 3 Honeycomb"
+            "ref": "Grunty Industries 3rd Floor/GI Floor 3: Honeycomb/Honeycomb",
+            "name": "GI Floor 3: Honeycomb"
           },
           {
-            "ref": "Grunty Industries - Floor 1/Train Station (Grunty Industries)/Honeycomb",
-            "name": "GI: Train Station Honeycomb"
+            "ref": "Grunty Industries 1st Floor/Train Station (Grunty Industries)/Honeycomb",
+            "name": "GI Floor 1: Train Station Honeycomb"
           },
           {
-            "ref": "Grunty Industries - Floor 3 to 5/GI: Chimney Honeycomb/Honeycomb",
-            "name": "GI: Chimney Honeycomb"
+            "ref": "Grunty Industries Roof/GI Outside: Chimney Honeycomb/Honeycomb",
+            "name": "GI Outside: Chimney Honeycomb"
           },
           {
-            "ref": "Grunty Industries - Floor 1/Workers' Quarters/Loggo Cheato Page",
-            "name": "GI: Loggo Cheato Page"
+            "ref": "Grunty Industries 1st Floor/Workers' Quarters/Loggo Cheato Page",
+            "name": "GI Floor 1: Loggo Cheato Page"
           },
           {
-            "ref": "Grunty Industries - Floor 3 to 5/GI: Floor 2 Window Cheato Page/Cheato Page",
-            "name": "GI: Floor 2 Window Cheato Page"
+            "ref": "Grunty Industries 2nd Floor/GI Floor 2: Window Cheato Page/Cheato Page",
+            "name": "GI Floor 2: Window Cheato Page"
           },
           {
-            "ref": "Grunty Industries - Floor 3 to 5/Repair Depot/Repair Depot Cheato Page",
-            "name": "GI: Repair Depot Cheato Page"
+            "ref": "Grunty Industries 1st Floor/Repair Depot/Repair Depot Cheato Page",
+            "name": "GI Floor 1: Repair Depot Cheato Page"
           },
           {
-            "ref": "Grunty Industries - Floor 1/GI: Snooze Pack Silo/Silo",
-            "name": "GI: Snooze Pack Silo"
+            "ref": "Grunty Industries 1st Floor/GI Floor 1: Snooze Pack Silo/Silo",
+            "name": "GI Floor 1: Snooze Pack Silo"
           },
           {
-            "ref": "Grunty Industries - Floor 2/GI: Leg Spring Silo/Silo",
-            "name": "GI: Leg Spring Silo"
+            "ref": "Grunty Industries 2nd Floor/GI Floor 2: Leg Spring Silo/Silo",
+            "name": "GI Floor 2: Leg Spring Silo"
           },
           {
-            "ref": "Grunty Industries - Floor 1/GI: Claw Clamber Boots Silo/Silo",
-            "name": "GI: Claw Clamber Boots Silo"
+            "ref": "Grunty Industries 1st Floor/GI Floor 1: Claw Clamber Boots Silo/Silo",
+            "name": "GI Floor 1: Claw Clamber Boots Silo"
           },
           {
-            "ref": "Grunty Industries - Outside/GI: Train Switch/Train Switch",
-            "name": "GI: Train Switch"
+            "ref": "Outside Grunty Industries - Behind the building/GI Outside: Train Switch/Train Switch",
+            "name": "GI Outside: Train Switch"
           },
           {
-            "ref": "Grunty Industries - Floor 3 to 5/Repair Depot/Weldar Mumbo Token",
-            "name": "GI: Weldar Mumbo Token"
+            "ref": "Grunty Industries 1st Floor/Repair Depot/Weldar Mumbo Token",
+            "name": "GI Floor 1: Weldar Mumbo Token"
           },
           {
-            "ref": "Grunty Industries - Floor 3 to 5/Clinker's Cavern/Mumbo Token",
-            "name": "GI: Clinker's Cavern Mumbo Token"
+            "ref": "Grunty Industries 4th Floor - Past the Crushers/Clinker's Cavern/Mumbo Token",
+            "name": "GI Floor 4: Clinker's Cavern Mumbo Token"
           },
           {
-            "ref": "Grunty Industries - Floor 3 to 5/Boiler Plant, Packing Room/Twinkly Packing Mumbo Token",
-            "name": "GI: Twinkly Packing Mumbo Token"
+            "ref": "Grunty Industries 3rd Floor - Boiler Plant/Boiler Plant, Packing Room/Twinkly Packing Mumbo Token",
+            "name": "GI Floor 3: Twinkly Packing Mumbo Token"
           }
         ],
         "map_locations": [
@@ -1720,44 +1720,44 @@
         "name": "Grunty Industries - Jiggies",
         "sections": [
           {
-            "ref": "Grunty Industries - Floor 3 to 5/GI: Underwater Waste Disposal Plant Jiggy/Jiggy",
-            "name": "GI: Underwater Waste Disposal Plant Jiggy"
+            "ref": "Grunty Industries 1st Floor/GI Floor 1: Underwater Waste Disposal Plant Jiggy/Jiggy",
+            "name": "GI Floor 1: Underwater Waste Disposal Plant Jiggy"
           },
           {
-            "ref": "Grunty Industries - Floor 3 to 5/Repair Depot/Weldar Jiggy",
-            "name": "GI: Weldar Jiggy"
+            "ref": "Grunty Industries 1st Floor/Repair Depot/Weldar Jiggy",
+            "name": "GI Floor 1: Weldar Jiggy"
           },
           {
-            "ref": "Grunty Industries - Floor 3 to 5/Clinker's Cavern/Jiggy",
-            "name": "GI: Clinker's Cavern Jiggy"
+            "ref": "Grunty Industries 4th Floor - Past the Crushers/Clinker's Cavern/Jiggy",
+            "name": "GI Floor 4: Clinker's Cavern Jiggy"
           },
           {
-            "ref": "Grunty Industries - Floor 3 to 5/GI: Skivvy Workers Jiggy/Jiggy",
+            "ref": "Grunty Industries 2nd Floor/GI: Skivvy Workers Jiggy/Jiggy",
             "name": "GI: Skivvy Workers Jiggy"
           },
           {
-            "ref": "Grunty Industries - Floor 3 to 5/GI: Floor 5 Jiggy/Jiggy",
-            "name": "GI: Floor 5 Jiggy"
+            "ref": "Grunty Industries Roof/GI Floor 5: Jiggy/Jiggy",
+            "name": "GI Floor 5: Jiggy"
           },
           {
-            "ref": "Grunty Industries - Floor 3 to 5/Quality Control/Jiggy",
-            "name": "GI: Quality Control Jiggy"
+            "ref": "Grunty Industries 4th Floor - Past the Crushers/Quality Control/Jiggy",
+            "name": "GI Floor 4: Quality Control Jiggy"
           },
           {
-            "ref": "Grunty Industries - Floor 2/GI: Floor 1 Guarded Jiggy/Jiggy",
-            "name": "GI: Floor 1 Guarded Jiggy"
+            "ref": "Grunty Industries 1st Floor/GI Floor 1: Guarded Jiggy/Jiggy",
+            "name": "GI Floor 1: Guarded Jiggy"
           },
           {
-            "ref": "Grunty Industries - Floor 1/Trash Compactor/Jiggy",
-            "name": "GI: Trash Compactor Jiggy"
+            "ref": "Grunty Industries 1st Floor/Trash Compactor/Jiggy",
+            "name": "GI Floor 1: Trash Compactor Jiggy"
           },
           {
-            "ref": "Grunty Industries - Floor 3 to 5/Boiler Plant, Packing Room/Twinkly Packing Jiggy",
-            "name": "GI: Twinkly Packing Jiggy"
+            "ref": "Grunty Industries 3rd Floor - Boiler Plant/Boiler Plant, Packing Room/Twinkly Packing Jiggy",
+            "name": "GI Floor 3: Twinkly Packing Jiggy"
           },
           {
-            "ref": "Grunty Industries - Floor 1/GI: Waste Disposal Plant Box Jiggy/Jiggy",
-            "name": "GI: Waste Disposal Plant Box Jiggy"
+            "ref": "Grunty Industries 1st Floor/GI Floor 1: Waste Disposal Plant Box Jiggy/Jiggy",
+            "name": "GI Floor 1: Waste Disposal Plant Box Jiggy"
           }
         ],
         "map_locations": [
@@ -1772,72 +1772,72 @@
         "name": "Grunty Industries - Notes",
         "sections": [
           {
-            "ref": "Grunty Industries - Floor 1/GI: Treble Clef/Treble Clef",
-            "name": "GI: Treble Clef"
+            "ref": "Outside Grunty Industries/GI Outside: Treble Clef/Treble Clef",
+            "name": "GI Outside: Treble Clef"
           },
           {
-            "ref": "Grunty Industries - Floor 1/Train Station (Grunty Industries)/Note 1",
-            "name": "GI: Train Station Note 1"
+            "ref": "Grunty Industries 1st Floor/Train Station (Grunty Industries)/Note 1",
+            "name": "GI Floor 1: Train Station Note 1"
           },
           {
-            "ref": "Grunty Industries - Floor 1/Train Station (Grunty Industries)/Note 2",
-            "name": "GI: Train Station Note 2"
+            "ref": "Grunty Industries 1st Floor/Train Station (Grunty Industries)/Note 2",
+            "name": "GI Floor 1: Train Station Note 2"
           },
           {
-            "ref": "Grunty Industries - Floor 1/Train Station (Grunty Industries)/Note 3",
-            "name": "GI: Train Station Note 3"
+            "ref": "Grunty Industries 1st Floor/Train Station (Grunty Industries)/Note 3",
+            "name": "GI Floor 1: Train Station Note 3"
           },
           {
-            "ref": "Grunty Industries - Floor 1/Floor 1 on AC Unit Notes/Note 1",
-            "name": "GI: Floor 1 on AC Unit Note 1"
+            "ref": "Grunty Industries 1st Floor/Floor 1 on AC Unit Notes/Note 1",
+            "name": "GI Floor 1: Floor 1 on AC Unit Note 1"
           },
           {
-            "ref": "Grunty Industries - Floor 1/Floor 1 on AC Unit Notes/Note 2",
-            "name": "GI: Floor 1 on AC Unit Note 2"
+            "ref": "Grunty Industries 1st Floor/Floor 1 on AC Unit Notes/Note 2",
+            "name": "GI Floor 1: Floor 1 on AC Unit Note 2"
           },
           {
-            "ref": "Grunty Industries - Floor 2/Leg Spring Room Notes/Note 1",
-            "name": "GI: Floor 2: Leg Spring Room Note 1"
+            "ref": "Grunty Industries 2nd Floor/Leg Spring Room Notes/Note 1",
+            "name": "GI Floor 2: Leg Spring Room Note 1"
           },
           {
-            "ref": "Grunty Industries - Floor 2/Leg Spring Room Notes/Note 2",
-            "name": "GI: Floor 2: Leg Spring Room Note 2"
+            "ref": "Grunty Industries 2nd Floor/Leg Spring Room Notes/Note 2",
+            "name": "GI Floor 2: Leg Spring Room Note 2"
           },
           {
-            "ref": "Grunty Industries - Floor 2/Leg Spring Room Notes/Note 3",
-            "name": "GI: Floor 2: Leg Spring Room Note 3"
+            "ref": "Grunty Industries 2nd Floor/Leg Spring Room Notes/Note 3",
+            "name": "GI Floor 2: Leg Spring Room Note 3"
           },
           {
-            "ref": "Grunty Industries - Floor 2/Box Room Notes/Taller Stack Note",
-            "name": "GI: Floor 2: Box Room Taller Stack Note"
+            "ref": "Grunty Industries 2nd Floor/Box Room Notes/Taller Stack Note",
+            "name": "GI Floor 2: Box Room Taller Stack Note"
           },
           {
-            "ref": "Grunty Industries - Floor 2/Box Room Notes/Shorter Stack Note",
-            "name": "GI: Floor 2: Box Room Shorter Stack Note"
+            "ref": "Grunty Industries 2nd Floor/Box Room Notes/Shorter Stack Note",
+            "name": "GI Floor 2: Box Room Shorter Stack Note"
           },
           {
-            "ref": "Grunty Industries - Floor 1/Waste Disposal Plant Notes/Note 1",
-            "name": "GI: Floor 1: Waste Disposal Plant Note 1"
+            "ref": "Grunty Industries 1st Floor/Waste Disposal Plant Notes/Note 1",
+            "name": "GI Floor 1: Waste Disposal Plant Note 1"
           },
           {
-            "ref": "Grunty Industries - Floor 1/Waste Disposal Plant Notes/Note 2",
-            "name": "GI: Floor 1: Waste Disposal Plant Note 2"
+            "ref": "Grunty Industries 1st Floor/Waste Disposal Plant Notes/Note 2",
+            "name": "GI Floor 1: Waste Disposal Plant Note 2"
           },
           {
-            "ref": "Grunty Industries - Floor 1/Air Conditioning Plant/Air Conditioning Plant Note 1",
-            "name": "GI: Floor 1: Air Conditioning Plant Note 1"
+            "ref": "Grunty Industries 1st Floor/Air Conditioning Plant/Air Conditioning Plant Note 1",
+            "name": "GI Floor 1: Air Conditioning Plant Note 1"
           },
           {
-            "ref": "Grunty Industries - Floor 1/Air Conditioning Plant/Air Conditioning Plant Note 2",
-            "name": "GI: Floor 1: Air Conditioning Plant Note 2"
+            "ref": "Grunty Industries 1st Floor/Air Conditioning Plant/Air Conditioning Plant Note 2",
+            "name": "GI Floor 1: Air Conditioning Plant Note 2"
           },
           {
-            "ref": "Grunty Industries - Floor 3 to 5/Floor 3 Notes/Note 1",
-            "name": "GI: Floor 3 Note 1"
+            "ref": "Grunty Industries 3rd Floor/Floor 3 Notes/Note 1",
+            "name": "GI Floor 3: Note 1"
           },
           {
-            "ref": "Grunty Industries - Floor 3 to 5/Floor 3 Notes/Note 2",
-            "name": "GI: Floor 3 Note 2"
+            "ref": "Grunty Industries 3rd Floor/Floor 3 Notes/Note 2",
+            "name": "GI Floor 3: Note 2"
           }
         ],
         "map_locations": [
@@ -2788,7 +2788,7 @@
       "@Witchyworld - Main Area, $load_ggm_ww, $escape_ggm_loading_zone",
       "@Jolly Roger's Lagoon - Main Area, $load_ggm_jrl, $escape_ggm_loading_zone",
       "@Terrydactyland - Main Area, $load_ggm_tdl, $escape_ggm_loading_zone",
-      "@Grunty Industries - Outside, $load_ggm_gi, $escape_ggm_loading_zone",
+      "@Outside Grunty Industries, $load_ggm_gi, $escape_ggm_loading_zone",
       "@Hailfire Peaks - Lava Side, $load_ggm_hfp, $escape_ggm_loading_zone",
       "@Cloud Cuckooland - Outside, $load_ggm_ccl, $escape_ggm_loading_zone"
     ],
@@ -2955,7 +2955,7 @@
       "@Witchyworld - Main Area, $load_ww_ww, wwa",
       "@Jolly Roger's Lagoon - Main Area, $load_ww_jrl, wwa",
       "@Terrydactyland - Main Area, $load_ww_tdl, wwa",
-      "@Grunty Industries - Outside, $load_ww_gi, wwa",
+      "@Outside Grunty Industries, $load_ww_gi, wwa",
       "@Hailfire Peaks - Lava Side, $load_ww_hfp, wwa",
       "@Cloud Cuckooland - Outside, $load_ww_ccl, wwa"
     ],
@@ -3055,7 +3055,7 @@
       "@Witchyworld - Main Area, $load_jrl_ww, $JRL_to_CT",
       "@Jolly Roger's Lagoon - Main Area, $load_jrl_jrl, $JRL_to_CT",
       "@Terrydactyland - Main Area, $load_jrl_tdl, $JRL_to_CT",
-      "@Grunty Industries - Outside, $load_jrl_gi, $JRL_to_CT",
+      "@Outside Grunty Industries, $load_jrl_gi, $JRL_to_CT",
       "@Hailfire Peaks - Lava Side, $load_jrl_hfp, $JRL_to_CT",
       "@Cloud Cuckooland - Outside, $load_jrl_ccl, $JRL_to_CT",
       "@IoH: Outside HFP, backdoorsopen_on"
@@ -3140,7 +3140,7 @@
           "@Witchyworld - Main Area, $load_hfp_ww, $HFP_to_CTHFP",
           "@Jolly Roger's Lagoon - Main Area, $load_hfp_jrl, $HFP_to_CTHFP",
           "@Terrydactyland - Main Area, $load_hfp_tdl, $HFP_to_CTHFP",
-          "@Grunty Industries - Outside, $load_hfp_gi, $HFP_to_CTHFP",
+          "@Outside Grunty Industries, $load_hfp_gi, $HFP_to_CTHFP",
           "@Hailfire Peaks - Lava Side, $load_hfp_hfp, $HFP_to_CTHFP",
           "@Cloud Cuckooland - Outside, $load_hfp_ccl, $HFP_to_CTHFP"
         ],
@@ -3208,7 +3208,7 @@
       "@Witchyworld - Main Area, $load_tdl_ww, $TDL_to_IOHWL",
       "@Jolly Roger's Lagoon - Main Area, $load_tdl_jrl, $TDL_to_IOHWL",
       "@Terrydactyland - Main Area, $load_tdl_tdl, $TDL_to_IOHWL",
-      "@Grunty Industries - Outside, $load_tdl_gi, $TDL_to_IOHWL",
+      "@Outside Grunty Industries, $load_tdl_gi, $TDL_to_IOHWL",
       "@Hailfire Peaks - Lava Side, $load_tdl_hfp, $TDL_to_IOHWL",
       "@Cloud Cuckooland - Outside, $load_tdl_ccl, $TDL_to_IOHWL"
     ],
@@ -3346,7 +3346,7 @@
       "@Witchyworld - Main Area, $load_gi_ww, gia",
       "@Jolly Roger's Lagoon - Main Area, $load_gi_jrl, gia",
       "@Terrydactyland - Main Area, $load_gi_tdl, gia",
-      "@Grunty Industries - Outside, $load_gi_gi, gia",
+      "@Outside Grunty Industries, $load_gi_gi, gia",
       "@Hailfire Peaks - Lava Side, $load_gi_hfp, gia",
       "@Cloud Cuckooland - Outside, $load_gi_ccl, gia",
       "@Mayahem Temple - Main Area, $load_ck_mt, $CK_to_Quag",
@@ -3354,7 +3354,7 @@
       "@Witchyworld - Main Area, $load_ck_ww, $CK_to_Quag",
       "@Jolly Roger's Lagoon - Main Area, $load_ck_jrl, $CK_to_Quag",
       "@Terrydactyland - Main Area, $load_ck_tdl, $CK_to_Quag",
-      "@Grunty Industries - Outside, $load_ck_gi, $CK_to_Quag",
+      "@Outside Grunty Industries, $load_ck_gi, $CK_to_Quag",
       "@Hailfire Peaks - Lava Side, $load_ck_hfp, $CK_to_Quag",
       "@Cloud Cuckooland - Outside, $load_ck_ccl, $CK_to_Quag"
     ],
@@ -3493,7 +3493,7 @@
               "logictype_b, humbamt, mumbomt",
               "logictype_n, humbamt, mumbomt", "logictype_n, $canShootEggs|ceggs",
               "logictype_a, humbamt, mumbomt", "logictype_a, $canShootEggs|ceggs",
-              "logictype_g, humbamt, mumbomt", "logictype_g, $canShootEggs|ceggs"
+              "logictype_g, humbamt, mumbomt", "logictype_g, $canShootEggs|ceggs", "logictype_g, $breegullBash"
             ]
           }
         ],
@@ -4575,12 +4575,7 @@
         "sections": [
           {
             "name": "Jiggy",
-            "access_rules": [
-              "logictype_b, $humbaGGM, dive",
-              "logictype_n, dive, tjump, $humbaGGM", "logictype_n, dive, tjump, ttrot, flutter", "logictype_n, dive, tjump, ttrot, arat", "logictype_n, dive, tjump, roll, flutter", "logictype_n, dive, tjump, roll, arat",
-              "logictype_a, dive, tjump, $humbaGGM", "logictype_a, dive, tjump, ttrot, flutter", "logictype_a, dive, tjump, ttrot, arat", "logictype_a, dive, tjump, roll, flutter", "logictype_a, dive, tjump, roll, arat", "logictype_a, dive, $clockwork_shot, $humbaGGM", "logictype_a, dive, $clockwork_shot, ttrot, flutter", "logictype_a, dive, $clockwork_shot, ttrot, arat", "logictype_a, dive, $clockwork_shot, roll, tjump, flutter", "logictype_a, dive, $clockwork_shot, roll, tjump, arat",
-              "logictype_g, dive, tjump, $humbaGGM", "logictype_g, dive, tjump, ttrot, flutter", "logictype_g, dive, tjump, ttrot, arat", "logictype_g, dive, tjump, roll, flutter", "logictype_g, dive, tjump, roll, arat", "logictype_g, dive, $clockwork_shot, $humbaGGM", "logictype_g, dive, $clockwork_shot, ttrot, flutter", "logictype_g, dive, $clockwork_shot, ttrot, arat", "logictype_g, dive, $clockwork_shot, roll, tjump, flutter", "logictype_g, dive, $clockwork_shot, roll, tjump, arat"
-            ]
+            "access_rules": [ "$gm_jiggy10" ]
           }
         ],
         "map_locations": [
@@ -4603,7 +4598,7 @@
       "@Terrydactyland - Main Area, chuffy, $can_beat_king_coal, $tdl_to_chuffy",
       "@Hailfire Peaks - Lava Side, chuffy, $can_beat_king_coal, $hfp_to_chuffy",
       "@Cliff Top, chuffy, $can_beat_king_coal, $ioh_to_chuffy",
-      "@Grunty Industries - Floor 1, chuffy, $can_beat_king_coal, $gi_to_chuffy"
+      "@Grunty Industries 1st Floor, chuffy, $can_beat_king_coal, $gi_to_chuffy"
     ],
     "children": [
       {
@@ -5389,10 +5384,22 @@
             ],
         "sections": [
           {
-            "name": "Note 1"
+            "name": "Left Note",
+            "access_rules": [
+              "logictype_b, $has_explosives, $springPad, $longJump",
+              "logictype_n, $has_explosives, $springPad, $longJump", "logictype_n, splitup, lspring",
+              "logictype_a, $has_explosives, $springPad, $longJump", "logictype_a, splitup, $springPad", "logictype_a, splitup, lspring", "logictype_a, $clockwork_shot",
+              "logictype_g, $has_explosives, $springPad, $longJump", "logictype_g, splitup, $springPad", "logictype_g, splitup, lspring", "logictype_g, $clockwork_shot"
+            ]
           },
           {
-            "name": "Note 2"
+            "name": "Right Note",
+            "access_rules": [
+              "logictype_b, $has_explosives, $springPad",
+              "logictype_n, $has_explosives, $springPad", "logictype_b, splitup, lspring",
+              "logictype_a, $has_explosives, $springPad", "logictype_a, splitup, $springPad", "logictype_a, splitup, lspring", "logictype_a, $clockwork_shot",
+              "logictype_g, $has_explosives, $springPad", "logictype_g, splitup, $springPad", "logictype_g, splitup, lspring", "logictype_g, $clockwork_shot"
+            ]
           }
         ],
         "map_locations": [
@@ -6402,8 +6409,8 @@
             "name": "Seemee Cheato Page"
           },
           {
-            "ref": "Jolly Roger's Lagoon - Underwater/GI: Waste Disposal Plant Jinjo (Access from JRL)/Jinjo",
-            "name": "GI Waste Disposal Plant Jinjo"
+            "ref": "Jolly Roger's Lagoon - Underwater/GI Floor 1: Waste Disposal Plant Jinjo (Access from JRL)/Jinjo",
+            "name": "GI Floor 1: Waste Disposal Plant Jinjo"
           }
         ],
         "map_locations": [
@@ -6455,7 +6462,7 @@
         ]
       },
       {
-        "name": "GI: Waste Disposal Plant Jinjo (Access from JRL)",
+        "name": "GI Floor 1: Waste Disposal Plant Jinjo (Access from JRL)",
         "sections": [
           {
             "name": "Jinjo",
@@ -7127,9 +7134,9 @@
             "name": "Glowbo",
             "access_rules": [
               "logictype_b, $canDoSmallElevation", "logictype_b, $TDLFlightPad",
-              "logictype_n, $canDoSmallElevation", "logictype_n, $TDLFlightPad", "logictype_n, $humbaTDL",
-              "logictype_a, $canDoSmallElevation", "logictype_a, $TDLFlightPad", "logictype_a, $clockwork_shot", "logictype_a, $humbaTDL",
-              "logictype_g, $canDoSmallElevation", "logictype_g, $TDLFlightPad", "logictype_g, $clockwork_shot", "logictype_g, $humbaTDL"
+              "logictype_n, $canDoSmallElevation", "logictype_n, $TDLFlightPad", "logictype_n, $humbaTDL", "logictype_n, springb", "logictype_n, ttrain",
+              "logictype_a, $canDoSmallElevation", "logictype_a, $TDLFlightPad", "logictype_a, $humbaTDL", "logictype_a, springb", "logictype_a, ttrain", "logictype_a, $clockwork_shot",
+              "logictype_g, $canDoSmallElevation", "logictype_g, $TDLFlightPad", "logictype_g, $humbaTDL", "logictype_g, springb", "logictype_g, ttrain", "logictype_g, $clockwork_shot"
             ]
           }
         ],
@@ -7607,7 +7614,7 @@
     ]
   },
   {
-    "name": "Grunty Industries - Outside",
+    "name": "Outside Grunty Industries",
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
     "access_rules": [
@@ -7620,54 +7627,20 @@
       "$load_ccl_gi, @Wasteland, cca",
       "$load_gi_gi, @Quagmire, gia",
       "$load_ck_gi, @Quagmire, $quag_to_CK, cka",
-      "@Grunty Industries - Floor 1, splitup",
-      "@Grunty Industries - Floor 2",
-      "@Grunty Industries - Floor 3 to 5"
+      "@Outside Grunty Industries - Behind the building, climb",
+      "@Grunty Industries 1st Floor, splitup"
     ],
     "children": [
       {
-        "name": "GI: Train Switch",
-        "sections": [
-          {
-            "name": "Train Switch",
-            "access_rules": [
-              "logictype_b, climb",
-              "logictype_n, climb",
-              "logictype_a, climb", "logictype_a, $extremelyLongJump",
-              "logictype_g, climb", "logictype_g, $extremelyLongJump"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "gi1",
-            "x": 400,
-            "y": 463
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Grunty Industries - Floor 1",
-    "chest_unopened_img": "/images/items/honeycombcheck.png",
-    "chest_opened_img": "/images/items/honeycombcheck2.png",
-    "access_rules": [
-      "trainswgi, @Inside Chuffy",
-      "@Grunty Industries - Outside, $outside_gi_to_floor1",
-      "@Grunty Industries - Floor 2, $F2_to_F1"
-    ],
-    "children": [
-      {
-        "name": "GI: Treble Clef",
+        "name": "GI Outside: Treble Clef",
         "sections": [
           {
             "name": "Treble Clef",
             "access_rules": [
-              "logictype_b, splitup, clawbts", "logictype_b, @Grunty Industries - Floor 3 to 5, $roof_access",
-              "logictype_n, splitup, clawbts", "logictype_n, splitup, lspring, glide, wwhack", "logictype_n, splitup, lspring, glide, eggaim", "logictype_n, @Grunty Industries - Floor 3 to 5, $roof_access",
-              "logictype_a, splitup, clawbts", "logictype_a, splitup, $clockwork_shot", "logictype_a, splitup, lspring, glide, wwhack", "logictype_a, splitup, lspring, glide, eggaim", "logictype_a, @Grunty Industries - Floor 3 to 5, $roof_access",
-              "logictype_g, splitup, clawbts", "logictype_g, splitup, $clockwork_shot", "logictype_g, splitup, lspring, glide, wwhack", "logictype_g, splitup, lspring, glide, eggaim", "logictype_g, @Grunty Industries - Floor 3 to 5, $roof_access"
+              "logictype_b, @Grunty Industries 1st Floor, splitup, clawbts", "logictype_b, @Grunty Industries Roof",
+              "logictype_n, @Grunty Industries 1st Floor, splitup, clawbts", "logictype_n, @Grunty Industries 1st Floor, splitup, lspring, glide, wwhack", "logictype_n, @Grunty Industries 1st Floor, splitup, lspring, glide, eggaim", "logictype_n, @Grunty Industries Roof",
+              "logictype_a, @Grunty Industries 1st Floor, splitup, clawbts", "logictype_a, @Grunty Industries 1st Floor, splitup, lspring, glide, wwhack", "logictype_a, @Grunty Industries 1st Floor, splitup, lspring, glide, eggaim", "logictype_a, @Grunty Industries Roof", "logictype_a, $clockwork_shot",
+              "logictype_g, @Grunty Industries 1st Floor, splitup, clawbts", "logictype_g, @Grunty Industries 1st Floor, splitup, lspring, glide, wwhack", "logictype_g, @Grunty Industries 1st Floor, splitup, lspring, glide, eggaim", "logictype_g, @Grunty Industries Roof", "logictype_g, $clockwork_shot"
             ]
           }
         ],
@@ -7678,20 +7651,153 @@
             "y": 420
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "name": "Outside Grunty Industries - Behind the building",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+      "@Outside Grunty Industries, $outside_gi_to_outside_back",
+      "@Grunty Industries 2nd Floor",
+      "@Grunty Industries 3rd Floor, $floor_3_to_outside_back",
+      "@Grunty Industries 4th Floor, $floor_4_to_outside_back"
+    ],
+    "children": [
       {
-        "name": "GI: Claw Clamber Boots Silo",
+        "name": "GI Outside: Train Switch",
         "sections": [
           {
-            "name": "Silo",
-            "access_rules": [ "$notecount|505" ]
+            "name": "Train Switch",
+            "access_rules": [ ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi1",
+            "x": 400,
+            "y": 463
+          }
+        ]
+      },
+      {
+        "name": "GI Outside: Jinjo",
+        "sections": [
+          {
+            "name": "Jinjo",
+            "access_rules": [
+              "logictype_b, @Grunty Industries 2nd Floor, $floor_2_split_up, packwh, wwhack, clawbts", "logictype_b, @Grunty Industries 2nd Floor, $floor_2_split_up, packwh, $canShootEggs, clawbts",
+              "logictype_n, @Grunty Industries 2nd Floor, $floor_2_split_up, packwh, wwhack, clawbts", "logictype_n, @Grunty Industries Roof, splitup, @Grunty Industries 1st Floor, wwhack", "logictype_n, @Grunty Industries Roof, splitup, @Grunty Industries 1st Floor, $canShootEggs", "logictype_n, @Grunty Industries Roof, splitup, @Grunty Industries 2nd Floor, $floor_2_split_up, wwhack", "logictype_n, @Grunty Industries Roof, splitup, @Grunty Industries 2nd Floor, $floor_2_split_up, $canShootEggs", "logictype_n, @Grunty Industries Roof, splitup, @Grunty Industries 3rd Floor, $canDoSmallElevation, tjump, wwhack", "logictype_n, @Grunty Industries Roof, splitup, @Grunty Industries 3rd Floor, $canDoSmallElevation, tjump, $canShootEggs", "logictype_n, @Grunty Industries Roof, splitup, @Grunty Industries 3rd Floor, $canDoSmallElevation, lspring, wwhack", "logictype_n, @Grunty Industries Roof, splitup, @Grunty Industries 3rd Floor, $canDoSmallElevation, lspring, $canShootEggs", "logictype_n, @Grunty Industries Roof, splitup, @Grunty Industries 4th Floor, $canDoSmallElevation",
+              "logictype_a, @Grunty Industries 2nd Floor, $floor_2_split_up, packwh, wwhack, clawbts", "logictype_a, @Grunty Industries Roof, splitup, @Grunty Industries 1st Floor, wwhack", "logictype_a, @Grunty Industries Roof, splitup, @Grunty Industries 1st Floor, $canShootEggs", "logictype_a, @Grunty Industries Roof, splitup, @Grunty Industries 2nd Floor, $floor_2_split_up, wwhack", "logictype_a, @Grunty Industries Roof, splitup, @Grunty Industries 2nd Floor, $floor_2_split_up, $canShootEggs", "logictype_a, @Grunty Industries Roof, splitup, @Grunty Industries 3rd Floor, $canDoSmallElevation, tjump, wwhack", "logictype_a, @Grunty Industries Roof, splitup, @Grunty Industries 3rd Floor, $canDoSmallElevation, tjump, $canShootEggs", "logictype_a, @Grunty Industries Roof, splitup, @Grunty Industries 3rd Floor, $canDoSmallElevation, lspring, wwhack", "logictype_a, @Grunty Industries Roof, splitup, @Grunty Industries 3rd Floor, $canDoSmallElevation, lspring, $canShootEggs", "logictype_a, @Grunty Industries Roof, splitup, @Grunty Industries 4th Floor, $canDoSmallElevation",
+              "logictype_g, @Grunty Industries 2nd Floor, $floor_2_split_up, packwh, wwhack, clawbts", "logictype_g, @Grunty Industries Roof, splitup, @Grunty Industries 1st Floor, wwhack", "logictype_g, @Grunty Industries Roof, splitup, @Grunty Industries 1st Floor, $canShootEggs", "logictype_g, @Grunty Industries Roof, splitup, @Grunty Industries 2nd Floor, $floor_2_split_up, wwhack", "logictype_g, @Grunty Industries Roof, splitup, @Grunty Industries 2nd Floor, $floor_2_split_up, $canShootEggs", "logictype_g, @Grunty Industries Roof, splitup, @Grunty Industries 3rd Floor, $canDoSmallElevation, tjump, wwhack", "logictype_g, @Grunty Industries Roof, splitup, @Grunty Industries 3rd Floor, $canDoSmallElevation, tjump, $canShootEggs", "logictype_g, @Grunty Industries Roof, splitup, @Grunty Industries 3rd Floor, $canDoSmallElevation, lspring, wwhack", "logictype_g, @Grunty Industries Roof, splitup, @Grunty Industries 3rd Floor, $canDoSmallElevation, lspring, $canShootEggs", "logictype_g, @Grunty Industries Roof, splitup, @Grunty Industries 4th Floor, $canDoSmallElevation", "logictype_g, @Grunty Industries Roof, splitup, taxpack", "logictype_g, clawbts, $egg_barge", "logictype_g, @Grunty Industries Roof, $egg_barge"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi1",
+            "x": 405,
+            "y": 145
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Grunty Industries Elevator Shaft",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+      "@Grunty Industries 1st Floor",
+      "@Grunty Industries 2nd Floor - Electromagnetic Chamber, $floor_2_em_room_to_elevator_shaft",
+      "@Grunty Industries 3rd Floor - Boiler Plant, $elevator_door",
+      "@Grunty Industries 4th Floor - Past the Crushers, climb, $elevator_door",
+      "@Grunty Industries 4th Floor - Past the Crushers, logictype_g, @Grunty Industries 4th Floor, $clockworkWarp, $springPad",
+      "@Grunty Industries 4th Floor - Past the Crushers, logictype_g, @Grunty Industries 4th Floor, $clockworkWarp, fflip"
+    ]
+  },
+  {
+    "name": "Grunty Industries 1st Floor",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+      "trainswgi, @Inside Chuffy",
+      "@Outside Grunty Industries, $outside_gi_to_floor1",
+      "@Grunty Industries Elevator Shaft, $elevator_shaft_to_floor_1",
+      "@Grunty Industries Elevator Shaft, logictype_a, @Grunty Industries 2nd Floor - Electromagnetic Chamber, $em_chamber_to_elevator_shaft",
+      "@Grunty Industries Elevator Shaft, logictype_a, @Grunty Industries 3rd Floor - Boiler Plant, @Plateau, $has|honey|4, ttrot, $boiler_plant_to_elevator_shaft",
+      "@Grunty Industries Elevator Shaft, logictype_a, @Grunty Industries 4th Floor - Past the Crushers, @Plateau, $has|honey|25, ttrot, $floor_4_back_to_elevator_shaft",
+      "@Grunty Industries Elevator Shaft, logictype_g, @Grunty Industries 2nd Floor - Electromagnetic Chamber, $em_chamber_to_elevator_shaft",
+      "@Grunty Industries Elevator Shaft, logictype_g, @Grunty Industries 3rd Floor - Boiler Plant, @Plateau, $has|honey|4, ttrot, $boiler_plant_to_elevator_shaft",
+      "@Grunty Industries Elevator Shaft, logictype_g, @Grunty Industries 4th Floor - Past the Crushers, @Plateau, $has|honey|25, ttrot, $floor_4_back_to_elevator_shaft",
+      "@Grunty Industries Elevator Shaft, logictype_g, @Grunty Industries 4th Floor - Past the Crushers, @Plateau, $has|honey|25, ttrot, @Grunty Industries 4th Floor, $clockworkWarp, $springPad",
+      "@Grunty Industries Elevator Shaft, logictype_g, @Grunty Industries 4th Floor - Past the Crushers, @Plateau, $has|honey|25, ttrot, @Grunty Industries 4th Floor, $clockworkWarp, fflip",
+      "@Grunty Industries 2nd Floor, $F2_to_F1"
+    ],
+    "children": [
+      {
+        "name": "GI Floor 1: Underwater Waste Disposal Plant Jiggy",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "access_rules": [
+              "logictype_b, $can_beat_weldar, @Grunty Industries 2nd Floor, @Grunty Industries 3rd Floor, splitup, shpack",
+              "logictype_n, $can_beat_weldar, @Grunty Industries 2nd Floor, @Grunty Industries 3rd Floor, splitup, shpack",
+              "logictype_a, $can_beat_weldar, @Grunty Industries 2nd Floor, @Grunty Industries 3rd Floor, splitup, shpack",
+              "logictype_g, $can_beat_weldar, @Grunty Industries 2nd Floor, @Grunty Industries 3rd Floor, splitup, shpack", "logictype_g, $can_beat_weldar, @Grunty Industries 2nd Floor, @Grunty Industries 3rd Floor, splitup, lspring", "logictype_g, $can_use_battery, climb, fflip, ttorp, dive, wwing", "logictype_g, $can_use_battery, splitup, shpack, climb, ggrab"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi5",
+            "x": 372,
+            "y": 260
+          }
+        ]
+      },
+      {
+        "name": "Repair Depot",
+        "access_rules": [ "$can_beat_weldar, @Grunty Industries 2nd Floor, @Grunty Industries 3rd Floor" ],
+        "sections": [
+          {
+            "name": "Repair Depot Cheato Page"
+          },
+          {
+            "name": "Weldar Jiggy"
+          },
+          {
+            "name": "Weldar Mumbo Token",
+            "visibility_rules": [ "goal_boss", "goal_wwing" ]
           }
         ],
         "map_locations": [
           {
             "map": "gi2",
-            "x": 272,
-            "y": 347
+            "x": 110,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "GI Floor 1: Guarded Jiggy",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "access_rules": [
+              "logictype_b, splitup, clawbts, eggaim, $guarded_eggs, $springPad", "logictype_b, splitup, clawbts, eggaim, $guarded_eggs, wwhack", "logictype_b, splitup, clawbts, eggaim, $guarded_eggs, glide",
+              "logictype_n, splitup, clawbts, $springPad, $guarded_eggs", "logictype_n, splitup, @Grunty Industries 2nd Floor, $springPad, $guarded_eggs", "logictype_n, splitup, clawbts, wwhack, eggaim, $guarded_eggs", "logictype_n, splitup, clawbts, glide, eggaim, $guarded_eggs", "logictype_n, splitup, clawbts, wwhack, $guarded_eggs", "logictype_n, splitup, clawbts, glide, wwhack, $guarded_eggs",
+              "logictype_a, splitup, clawbts, $springPad, $guarded_eggs", "logictype_a, splitup, @Grunty Industries 2nd Floor, $springPad, $guarded_eggs", "logictype_a, splitup, clawbts, wwhack, eggaim, $guarded_eggs", "logictype_a, splitup, clawbts, glide, eggaim, $guarded_eggs", "logictype_a, splitup, clawbts, wwhack, $guarded_eggs", "logictype_a, splitup, clawbts, glide, wwhack, $guarded_eggs", "logictype_a, clawbts, $springPad, $clockwork_shot", "logictype_a, @Grunty Industries 2nd Floor, $springPad, $clockwork_shot", "logictype_a, clawbts, splitup, lspring, $clockwork_shot", "logictype_a, @Grunty Industries 2nd Floor, splitup, lspring, $clockwork_shot",
+              "logictype_g, splitup, clawbts, $springPad, $guarded_eggs", "logictype_g, splitup, @Grunty Industries 2nd Floor, $springPad, $guarded_eggs", "logictype_g, splitup, clawbts, wwhack, eggaim, $guarded_eggs", "logictype_g, splitup, clawbts, glide, eggaim, $guarded_eggs", "logictype_g, splitup, clawbts, wwhack, $guarded_eggs", "logictype_g, splitup, clawbts, glide, wwhack, $guarded_eggs", "logictype_g, clawbts, $springPad, $clockwork_shot", "logictype_g, @Grunty Industries 2nd Floor, $springPad, $clockwork_shot", "logictype_g, clawbts, splitup, lspring, $clockwork_shot", "logictype_g, @Grunty Industries 2nd Floor, splitup, lspring, $clockwork_shot"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi2",
+            "x": 281,
+            "y": 252
           }
         ]
       },
@@ -7717,6 +7823,27 @@
         ]
       },
       {
+        "name": "GI Floor 1: Waste Disposal Plant Box Jiggy",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "access_rules": [
+              "logictype_b, $can_use_battery, splitup, sapack, $solo_banjo_waste_disposal",
+              "logictype_n, $solo_banjo_waste_disposal",
+              "logictype_a, $solo_banjo_waste_disposal",
+              "logictype_g, $solo_banjo_waste_disposal"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi5",
+            "x": 270,
+            "y": 169
+          }
+        ]
+      },
+      {
         "name": "Workers' Quarters",
         "sections": [
           {
@@ -7729,7 +7856,7 @@
             ]
           },
           {
-            "ref": "Grunty Industries - Floor 3 to 5/GI: Skivvy Workers Jiggy/Jiggy",
+            "ref": "Grunty Industries 2nd Floor/GI: Skivvy Workers Jiggy/Jiggy",
             "name": "Skivvy Workers Jiggy (All Around the Map)"
           }
         ],
@@ -7738,30 +7865,6 @@
             "map": "gi2",
             "x": 285,
             "y": 65
-          }
-        ]
-      },
-      {
-        "name": "Floor 1 on AC Unit Notes",
-        "access_rules": [
-              "logictype_b, ggrab, climb, fflip",
-              "logictype_n, ggrab, climb, fflip",
-              "logictype_a, $can_access_gi_fl1_2fl2", "logictype_a, ggrab", "logictype_a, splitup, packwh", "logictype_a, splitup, lspring", "logictype_a, $clockwork_shot",
-              "logictype_g, $can_access_gi_fl1_2fl2", "logictype_g, ggrab", "logictype_g, splitup, packwh", "logictype_g, splitup, lspring", "logictype_g, $clockwork_shot" 
-            ],
-        "sections": [
-          {
-            "name": "Note 1"
-          },
-          {
-            "name": "Note 2"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "gi2",
-            "x": 455,
-            "y": 303
           }
         ]
       },
@@ -7799,25 +7902,7 @@
         ]
       },
       {
-        "name": "Air Conditioning Plant",
-        "sections": [
-          {
-            "name": "Air Conditioning Plant Note 1"
-          },
-          {
-            "name": "Air Conditioning Plant Note 2"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "gi2",
-            "x": 125,
-            "y": 280
-          }
-        ]
-      },
-      {
-        "name": "GI: Snooze Pack Silo",
+        "name": "GI Floor 1: Snooze Pack Silo",
         "sections": [
           {
             "name": "Silo",
@@ -7833,23 +7918,42 @@
         ]
       },
       {
-        "name": "GI: Waste Disposal Plant Box Jiggy",
+        "name": "GI Floor 1: Claw Clamber Boots Silo",
         "sections": [
           {
-            "name": "Jiggy",
-            "access_rules": [
-              "logictype_b, $can_use_battery, splitup, sapack, $solo_banjo_waste_disposal",
-              "logictype_n, $solo_banjo_waste_disposal",
-              "logictype_a, $solo_banjo_waste_disposal",
-              "logictype_g, $solo_banjo_waste_disposal"
-            ]
+            "name": "Silo",
+            "access_rules": [ "$notecount|505" ]
           }
         ],
         "map_locations": [
           {
-            "map": "gi5",
-            "x": 270,
-            "y": 169
+            "map": "gi2",
+            "x": 272,
+            "y": 347
+          }
+        ]
+      },
+      {
+        "name": "Floor 1 on AC Unit Notes",
+        "access_rules": [
+              "logictype_b, ggrab, climb, fflip",
+              "logictype_n, $F1_to_F2", "logictype_n, ggrab, climb, fflip",
+              "logictype_a, clawbts", "logictype_a, ggrab, climb, fflip", "logictype_a, splitup, packwh, tjump, climb", "logictype_a, splitup, lspring", "logictype_a, $clockwork_shot",
+              "logictype_g, clawbts", "logictype_g, ggrab, climb, fflip", "logictype_g, splitup, packwh, tjump, climb", "logictype_g, splitup, lspring", "logictype_g, $clockwork_shot" 
+            ],
+        "sections": [
+          {
+            "name": "Note 1"
+          },
+          {
+            "name": "Note 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi2",
+            "x": 455,
+            "y": 303
           }
         ]
       },
@@ -7876,42 +7980,68 @@
             "y": 169
           }
         ]
-      }
-    ]
-  },
-  {
-    "name": "Grunty Industries - Floor 2",
-    "chest_unopened_img": "/images/items/honeycombcheck.png",
-    "chest_opened_img": "/images/items/honeycombcheck2.png",
-    "access_rules": [
-      "@Grunty Industries - Outside, $outside_gi_to_floor2",
-      "@Grunty Industries - Floor 1, $can_access_gi_fl1_2fl2",
-      "@Grunty Industries - Floor 3 to 5, $F3_to_F2"
-    ],
-    "children": [
+      },
       {
-        "name": "GI: Floor 1 Guarded Jiggy",
+        "name": "Air Conditioning Plant",
         "sections": [
           {
-            "name": "Jiggy",
-            "access_rules": [
-              "logictype_b, splitup, $springPad, eggaim, $canShootEggs|begg", "logictype_b, splitup, $springPad, eggaim, $canShootEggs|feggs", "logictype_b, splitup, $springPad, eggaim, $canShootEggs|geggs",
-              "logictype_n, splitup, $springPad, $canShootEggs|begg", "logictype_n, splitup, $springPad, $canShootEggs|feggs", "logictype_n, splitup, $springPad, $canShootEggs|geggs",
-              "logictype_a, splitup, $springPad, $canShootEggs|begg", "logictype_a, splitup, $springPad, $canShootEggs|feggs", "logictype_a, splitup, $springPad, $canShootEggs|geggs", "logictype_a, $clockwork_shot, $springPad", "logictype_a, $clockwork_shot, splitup, lspring",
-              "logictype_g, splitup, $springPad, $canShootEggs|begg", "logictype_g, splitup, $springPad, $canShootEggs|feggs", "logictype_g, splitup, $springPad, $canShootEggs|geggs", "logictype_g, $clockwork_shot, $springPad", "logictype_g, $clockwork_shot, splitup, lspring"
-            ]
+            "name": "Air Conditioning Plant Note 1"
+          },
+          {
+            "name": "Air Conditioning Plant Note 2"
           }
         ],
         "map_locations": [
           {
             "map": "gi2",
-            "x": 281,
-            "y": 252
+            "x": 125,
+            "y": 280
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Grunty Industries 2nd Floor",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+      "@Outside Grunty Industries - Behind the building, $outside_gi_back_to_floor2",
+      "@Grunty Industries Elevator Shaft, $elevator_shaft_to_em",
+      "@Grunty Industries Elevator Shaft, logictype_g, @Grunty Industries 3rd Floor - Boiler Plant, $boiler_plant_to_elevator_shaft, $breegullBash",
+      "@Grunty Industries Elevator Shaft, logictype_g, @Grunty Industries 4th Floor - Past the Crushers, @Plateau, $has|honey|25, ttrot, $floor_4_back_to_elevator_shaft, $breegullBash",
+      "@Grunty Industries Elevator Shaft, logictype_g, @Grunty Industries 4th Floor - Past the Crushers, @Plateau, $has|honey|25, ttrot, @Grunty Industries 4th Floor, $clockworkWarp, $springPad, $breegullBash",
+      "@Grunty Industries Elevator Shaft, logictype_g, @Grunty Industries 4th Floor - Past the Crushers, @Plateau, $has|honey|25, ttrot, @Grunty Industries 4th Floor, $clockworkWarp, fflip, $breegullBash",
+      "@Grunty Industries Elevator Shaft, logictype_g, @Grunty Industries 4th Floor - Past the Crushers, bbust, $floor_4_back_to_elevator_shaft, $breegullBash",
+      "@Grunty Industries Elevator Shaft, logictype_g, @Grunty Industries 4th Floor - Past the Crushers, bbust, @Grunty Industries 4th Floor, $clockworkWarp, $springPad, $breegullBash",
+      "@Grunty Industries Elevator Shaft, logictype_g, @Grunty Industries 4th Floor - Past the Crushers, bbust, @Grunty Industries 4th Floor, $clockworkWarp, fflip, $breegullBash",
+      "@Grunty Industries 1st Floor, $F1_to_F2",
+      "@Grunty Industries 3rd Floor, $F3_to_F2"
+    ],
+    "children": [
+      {
+        "name": "GI Floor 2: Window Cheato Page",
+        "sections": [
+          {
+            "name": "Cheato Page",
+            "access_rules": [
+              "logictype_b, @Grunty Industries Roof, eggaim", "logictype_b, @Grunty Industries Roof, aireaim", "logictype_b, @Grunty Industries Roof, bbomb",
+              "logictype_n, @Grunty Industries Roof, eggaim", "logictype_n, @Grunty Industries Roof, aireaim", "logictype_n, @Grunty Industries Roof, bbomb", "logictype_n, @Grunty Industries 1st Floor, splitup, lspring, clawbts, wwhack",
+              "logictype_a, @Grunty Industries Roof, eggaim", "logictype_a, @Grunty Industries Roof, aireaim", "logictype_a, @Grunty Industries Roof, bbomb", "logictype_a, @Grunty Industries 1st Floor, splitup, lspring, clawbts, wwhack", "logictype_a, $clockwork_shot",
+              "logictype_g, @Grunty Industries Roof, eggaim", "logictype_g, @Grunty Industries Roof, aireaim", "logictype_g, @Grunty Industries Roof, bbomb", "logictype_g, @Grunty Industries 1st Floor, splitup, lspring, clawbts, wwhack", "logictype_g, $clockwork_shot, splitup, @Grunty Industries 1st Floor", "logictype_g, $clockwork_shot, splitup, $floor_2_split_up", "logictype_g, $clockwork_shot, splitup, @Grunty Industries 3rd Floor, $canDoSmallElevation, tjump", "logictype_g, $clockwork_shot, splitup, @Grunty Industries 3rd Floor, $canDoSmallElevation, lspring", "logictype_g, $clockwork_shot, splitup, @Grunty Industries 4th Floor, $canDoSmallElevation", "logictype_g, $clockwork_shot"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi3",
+            "x": 735,
+            "y": 125
           }
         ]
       },
       {
-        "name": "GI: Floor 2 Glowbo",
+        "name": "GI Floor 2: Glowbo",
         "sections": [
           {
             "name": "Glowbo"
@@ -7926,29 +8056,7 @@
         ]
       },
       {
-        "name": "Box Room Notes",
-        "sections": [
-          {
-            "name": "Taller Stack Note",
-            "access_rules": [
-              "logictype_b, $canDoSmallElevation",
-              "logictype_n", "logictype_a", "logictype_g"
-            ]
-          },
-          {
-            "name": "Shorter Stack Note"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "gi3",
-            "x": 385,
-            "y": 250
-          }
-        ]
-      },
-      {
-        "name": "GI: Leg Spring Silo",
+        "name": "GI Floor 2: Leg Spring Silo",
         "sections": [
           {
             "name": "Silo",
@@ -7964,7 +8072,7 @@
         ]
       },
       {
-        "name": "GI: Leg Spring Jinjo",
+        "name": "GI Floor 2: Leg Spring Jinjo",
         "sections": [
           {
             "name": "Jinjo",
@@ -7981,6 +8089,19 @@
             "map": "gi3",
             "x": 625,
             "y": 30
+          }
+        ]
+      },
+      {
+        "name": "GI: Skivvy Workers Jiggy",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "access_rules": [
+              "humbagi, $billDrill, @Grunty Industries Roof, $skivvyswitch, $skivvyswitch_gi2",
+              "humbagi, $billDrill, @Grunty Industries Roof, $skivvyswitch, @Grunty Industries 1st Floor, $skivvyswitch_gi2b", "humbagi, $billDrill, @Grunty Industries Roof, $skivvyswitch, $floor_2_split_up, $skivvyswitch_gi2b", "humbagi, $billDrill, @Grunty Industries Roof, $skivvyswitch, @Grunty Industries 3rd Floor, $canDoSmallElevation, tjump, $skivvyswitch_gi2b", "humbagi, $billDrill, @Grunty Industries Roof, $skivvyswitch, @Grunty Industries 3rd Floor, $canDoSmallElevation, lspring, $skivvyswitch_gi2b", "humbagi, $billDrill, @Grunty Industries Roof, $skivvyswitch, @Grunty Industries 4th Floor, $canDoSmallElevation, $skivvyswitch_gi2b",
+              "humbagi, $billDrill, @Grunty Industries Roof, $skivvyswitch, @Grunty Industries 3rd Floor, $skivvyswitch_gi3"
+            ]
           }
         ]
       },
@@ -8010,132 +8131,62 @@
             "y": 125
           }
         ]
-      }
-    ]
-  },
-  {
-    "name": "Grunty Industries - Floor 3 to 5",
-    "chest_unopened_img": "/images/items/honeycombcheck.png",
-    "chest_opened_img": "/images/items/honeycombcheck2.png",
-    "access_rules": [
-      "@Grunty Industries - Outside, $outside_gi_to_floor3",
-      "@Grunty Industries - Outside, @Grunty Industries - Floor 2, $outside_gi_to_floor3_f2access",
-      "@Grunty Industries - Floor 1, $F1_to_F3",
-      "@Grunty Industries - Floor 2, $F2_to_F3"
-    ],
-    "children": [
-      {
-        "name": "GI: Chimney Honeycomb",
-        "sections": [
-          {
-            "name": "Honeycomb",
-            "access_rules": [ "$roof_access" ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "gi1",
-            "x": 227,
-            "y": 362
-          }
-        ]
       },
       {
-        "name": "GI: Outside Jinjo",
+        "name": "Box Room Notes",
         "sections": [
           {
-            "name": "Jinjo",
+            "name": "Taller Stack Note",
             "access_rules": [
-              "logictype_b, splitup, $roof_access", "logictype_b, splitup, clawbts, climb, wwhack", "logictype_b, splitup, clawbts, climb, $canShootEggs", "logictype_b, splitup, clawbts, @Grunty Industries - Floor 2, wwhack", "logictype_b, splitup, clawbts, @Grunty Industries - Floor 2, $canShootEggs",
-              "logictype_n, splitup, $roof_access", "logictype_n, splitup, clawbts, climb, wwhack", "logictype_n, splitup, clawbts, climb, $canShootEggs", "logictype_n, splitup, clawbts, @Grunty Industries - Floor 2, wwhack", "logictype_n, splitup, clawbts, @Grunty Industries - Floor 2, $canShootEggs",
-              "logictype_a, splitup, $roof_access", "logictype_a, splitup, clawbts, climb, wwhack", "logictype_a, splitup, clawbts, climb, $canShootEggs", "logictype_a, splitup, clawbts, @Grunty Industries - Floor 2, wwhack", "logictype_a, splitup, clawbts, @Grunty Industries - Floor 2, $canShootEggs",
-              "logictype_g, splitup, $roof_access", "logictype_g, splitup, clawbts, climb, wwhack", "logictype_g, splitup, clawbts, climb, $canShootEggs", "logictype_g, splitup, clawbts, @Grunty Industries - Floor 2, wwhack", "logictype_g, splitup, clawbts, @Grunty Industries - Floor 2, $canShootEggs", "logictype_g, splitup, $egg_barge, $roof_access", "logictype_g, splitup, $egg_barge, clawbts, climb", "logictype_g, splitup, $egg_barge, clawbts, @Grunty Industries - Floor 2"
+              "logictype_b, $canDoSmallElevation",
+              "logictype_n", "logictype_a", "logictype_g"
             ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "gi1",
-            "x": 405,
-            "y": 145
-          }
-        ]
-      },
-      {
-        "name": "GI: Skivvy Workers Jiggy",
-        "sections": [
-          {
-            "name": "Jiggy",
-            "access_rules": [
-              "logictype_b, humbagi, $billDrill, ggrab, $roof_access",
-              "logictype_n, humbagi, $billDrill, $roof_access",
-              "logictype_a, humbagi, $billDrill, $roof_access",
-              "logictype_g, humbagi, $billDrill, $roof_access"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Repair Depot",
-        "access_rules": [ "$can_beat_weldar" ],
-        "sections": [
-          {
-            "name": "Repair Depot Cheato Page"
           },
           {
-            "name": "Weldar Jiggy"
-          },
-          {
-            "name": "Weldar Mumbo Token",
-            "visibility_rules": [ "goal_boss", "goal_wwing" ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "gi2",
-            "x": 110,
-            "y": 280
-          }
-        ]
-      },
-      {
-        "name": "GI: Floor 2 Window Cheato Page",
-        "sections": [
-          {
-            "name": "Cheato Page",
-            "access_rules": [
-              "logictype_b, $roof_access, eggaim", "logictype_b, $roof_access, aireaim", "logictype_b, $roof_access, bbomb",
-              "logictype_n, $roof_access, eggaim", "logictype_n, $roof_access, aireaim", "logictype_n, $roof_access, bbomb", "logictype_n, @Grunty Industries - Floor 1, splitup, lspring, clawbts, eggaim", "logictype_n, @Grunty Industries - Floor 1, splitup, lspring, clawbts, wwhack",
-              "logictype_a, $roof_access, eggaim", "logictype_a, $roof_access, aireaim", "logictype_a, $roof_access, bbomb", "logictype_a, @Grunty Industries - Floor 1, splitup, lspring, clawbts, eggaim", "logictype_a, @Grunty Industries - Floor 1, splitup, lspring, clawbts, wwhack",
-              "logictype_g, $roof_access, eggaim", "logictype_g, $roof_access, aireaim", "logictype_g, $roof_access, bbomb", "logictype_g, @Grunty Industries - Floor 1, splitup, lspring, clawbts, eggaim", "logictype_g, @Grunty Industries - Floor 1, splitup, lspring, clawbts, wwhack", "logictype_g, @Grunty Industries - Floor 2, $longJump, $clockwork_shot"
-            ]
+            "name": "Shorter Stack Note"
           }
         ],
         "map_locations": [
           {
             "map": "gi3",
-            "x": 735,
-            "y": 125
+            "x": 385,
+            "y": 250
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "name": "Grunty Industries 2nd Floor - Electromagnetic Chamber",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+      "@Grunty Industries 2nd Floor, $floor_2_to_em_room"
+    ]
+  },
+  {
+    "name": "Grunty Industries 3rd Floor",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+      "@Outside Grunty Industries - Behind the building, $outside_gi_back_to_floor_3",
+      "@Grunty Industries Elevator Shaft, $elevator_shaft_to_boiler_plant",
+      "@Grunty Industries Elevator Shaft, logictype_g, @Grunty Industries 4th Floor - Past the Crushers, $floor_4_back_to_elevator_shaft, $breegullBash",
+      "@Grunty Industries Elevator Shaft, logictype_g, @Grunty Industries 4th Floor - Past the Crushers, @Grunty Industries 4th Floor, $clockworkWarp, $springPad, $breegullBash",
+      "@Grunty Industries Elevator Shaft, logictype_g, @Grunty Industries 4th Floor - Past the Crushers, @Grunty Industries 4th Floor, $clockworkWarp, fflip, $breegullBash",
+      "@Grunty Industries 2nd Floor, $F2_to_F3",
+      "@Grunty Industries 3rd Floor - Boiler Plant",
+      "@Grunty Industries 4th Floor, $escape_floor_4_bk",
+      "@Grunty Industries 4th Floor, splitup, lspring, $canDoSmallElevation",
+      "@Grunty Industries 4th Floor, splitup, lspring, @Grunty Industries 1st Floor",
+      "@Grunty Industries 4th Floor, splitup, lspring, @Grunty Industries 2nd Floor, $floor_2_split_up",
+      "@Grunty Industries 4th Floor, splitup, lspring, @Grunty Industries 3rd Floor, $canDoSmallElevation, tjump",
+      "@Grunty Industries 4th Floor, splitup, lspring, @Grunty Industries 3rd Floor, $canDoSmallElevation",
+      "@Grunty Industries Roof"
+    ],
+    "children": [
       {
-        "name": "GI: Floor 3 Glowbo",
-        "sections": [
-          {
-            "name": "Glowbo"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "gi4",
-            "x": 444,
-            "y": 465
-          }
-        ]
-      },
-      {
-        "name": "GI: Floor 3 Honeycomb",
+        "name": "GI Floor 3: Honeycomb",
         "sections": [
           {
             "name": "Honeycomb",
@@ -8152,6 +8203,21 @@
             "map": "gi4",
             "x": 452,
             "y": 185
+          }
+        ]
+      },
+      {
+        "name": "GI Floor 3: Glowbo",
+        "sections": [
+          {
+            "name": "Glowbo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi4",
+            "x": 444,
+            "y": 465
           }
         ]
       },
@@ -8178,35 +8244,46 @@
             "y": 165
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "name": "Grunty Industries 3rd Floor - Boiler Plant",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+      "@Grunty Industries 3rd Floor, $floor_3_to_boiler_plant",
+      "@Grunty Industries Roof, $floor_5_to_boiler_plant"
+    ],
+    "children": [
       {
         "name": "Boiler Plant, Packing Room",
         "sections": [
           {
             "name": "Boiler Plant Jinjo",
             "access_rules": [
-              "logictype_b, $roof_access", "logictype_b, splitup, lspring, glide",
-              "logictype_n, $roof_access", "logictype_n, splitup, lspring, glide",
-              "logictype_a, $roof_access", "logictype_a, splitup, lspring, glide", "logictype_a, $clockwork_shot, fflip, bbust", "logictype_a, $clockwork_shot, fflip, ggrab",
-              "logictype_g, $roof_access", "logictype_g, splitup, lspring, glide", "logictype_g, $clockwork_shot, fflip, bbust", "logictype_g, $clockwork_shot, fflip, ggrab"
+              "logictype_b, @Grunty Industries Roof, $floor_5_to_boiler_plant",
+              "logictype_n, @Grunty Industries Roof, $floor_5_to_boiler_plant", "logictype_n, @Grunty Industries 3rd Floor, $canDoSmallElevation, splitup, lspring, glide",
+              "logictype_a, @Grunty Industries Roof, $floor_5_to_boiler_plant", "logictype_a, @Grunty Industries 3rd Floor, $canDoSmallElevation, splitup, lspring, glide", "logictype_a, $clockwork_shot",
+              "logictype_g, @Grunty Industries Roof, $floor_5_to_boiler_plant", "logictype_g, @Grunty Industries 3rd Floor, $canDoSmallElevation, splitup, lspring, glide", "logictype_g, $clockwork_shot"
             ]
           },
           {
             "name": "Twinkly Packing Jiggy",
             "access_rules": [
-              "logictype_b, $can_use_battery, ggrab, splitup, lspring, ttrain", "logictype_b, $can_use_battery, ggrab, fflip, ttrain",
-              "logictype_n, $can_use_battery, tjump, splitup, lspring", "logictype_n, $can_use_battery, tjump, splitup, glide", "logictype_n, $can_use_battery, tjump, splitup, wwhack", "logictype_n, $can_use_battery, tjump, fpad, eggaim, $has_explosives", "logictype_n, $can_use_battery, tjump, fpad, aireaim, $has_explosives", "logictype_n, $can_use_battery, tjump, fflip, ttrain", "logictype_n, $can_use_battery, ggrab, splitup, lspring", "logictype_n, $can_use_battery, ggrab, splitup, glide, tjump", "logictype_n, $can_use_battery, ggrab, splitup, wwhack, tjump", "logictype_n, $can_use_battery, ggrab, fpad, eggaim, $has_explosives", "logictype_n, $can_use_battery, ggrab, fpad, aireaim, $has_explosives", "logictype_n, $can_use_battery, ggrab, fflip, ttrain",
-              "logictype_a, $can_use_battery, tjump, splitup, lspring", "logictype_a, $can_use_battery, tjump, splitup, glide", "logictype_a, $can_use_battery, tjump, splitup, wwhack", "logictype_a, $can_use_battery, tjump, fpad, eggaim, $has_explosives", "logictype_a, $can_use_battery, tjump, fpad, aireaim, $has_explosives", "logictype_a, $can_use_battery, tjump, fflip, ttrain", "logictype_a, $can_use_battery, ggrab, splitup, lspring", "logictype_a, $can_use_battery, ggrab, splitup, glide, tjump", "logictype_a, $can_use_battery, ggrab, splitup, wwhack, tjump", "logictype_a, $can_use_battery, ggrab, fpad, eggaim, $has_explosives", "logictype_a, $can_use_battery, ggrab, fpad, aireaim, $has_explosives", "logictype_a, $can_use_battery, ggrab, fflip, ttrain",
-              "logictype_g, $can_use_battery, tjump, splitup, lspring", "logictype_g, $can_use_battery, tjump, splitup, glide", "logictype_g, $can_use_battery, tjump, splitup, wwhack", "logictype_g, $can_use_battery, tjump, fpad, eggaim, $has_explosives", "logictype_g, $can_use_battery, tjump, fpad, aireaim, $has_explosives", "logictype_g, $can_use_battery, tjump, fflip, ttrain", "logictype_g, $can_use_battery, ggrab, splitup, lspring", "logictype_g, $can_use_battery, ggrab, splitup, glide, tjump", "logictype_g, $can_use_battery, ggrab, splitup, wwhack, tjump", "logictype_g, $can_use_battery, ggrab, fpad, eggaim, $has_explosives", "logictype_g, $can_use_battery, ggrab, fpad, aireaim, $has_explosives", "logictype_g, $can_use_battery, ggrab, fflip, ttrain"
+              "logictype_b, $can_use_battery, ggrab, ttrain", "logictype_b, $can_use_battery, $elevator_door",
+              "logictype_n, $can_use_battery, tjump, splitup, lspring", "logictype_n, $can_use_battery, tjump, splitup, glide", "logictype_n, $can_use_battery, tjump, splitup, wwhack", "logictype_n, $can_use_battery, tjump, @Grunty Industries Roof, $floor_5_to_boiler_plant", "logictype_n, $can_use_battery, tjump, ttrain", "logictype_n, $can_use_battery, ggrab, splitup, lspring", "logictype_n, $can_use_battery, ggrab, splitup, glide, tjump", "logictype_n, $can_use_battery, ggrab, splitup, wwhack, tjump", "logictype_n, $can_use_battery, ggrab, @Grunty Industries Roof, $floor_5_to_boiler_plant", "logictype_n, $can_use_battery, ggrab, ttrain",
+              "logictype_a, $can_use_battery, tjump, splitup, lspring", "logictype_a, $can_use_battery, tjump, splitup, glide", "logictype_a, $can_use_battery, tjump, splitup, wwhack", "logictype_a, $can_use_battery, tjump, @Grunty Industries Roof, $floor_5_to_boiler_plant", "logictype_a, $can_use_battery, tjump, ttrain", "logictype_a, $can_use_battery, ggrab, splitup, lspring", "logictype_a, $can_use_battery, ggrab, splitup, glide, tjump", "logictype_a, $can_use_battery, ggrab, splitup, wwhack, tjump", "logictype_a, $can_use_battery, ggrab, @Grunty Industries Roof, $floor_5_to_boiler_plant", "logictype_a, $can_use_battery, ggrab, ttrain",
+              "logictype_g, $can_use_battery, tjump, splitup, lspring", "logictype_g, $can_use_battery, tjump, splitup, glide", "logictype_g, $can_use_battery, tjump, splitup, wwhack", "logictype_g, $can_use_battery, tjump, @Grunty Industries Roof, $floor_5_to_boiler_plant", "logictype_g, $can_use_battery, tjump, ttrain", "logictype_g, $can_use_battery, ggrab, splitup, lspring", "logictype_g, $can_use_battery, ggrab, splitup, glide, tjump", "logictype_g, $can_use_battery, ggrab, splitup, wwhack, tjump", "logictype_g, $can_use_battery, ggrab, @Grunty Industries Roof, $floor_5_to_boiler_plant", "logictype_g, $can_use_battery, ggrab, ttrain"
             ]
           },
           {
             "name": "Twinkly Packing Mumbo Token",
             "access_rules": [
-              "logictype_b, $can_use_battery, ggrab, splitup, lspring, ttrain", "logictype_b, $can_use_battery, ggrab, fflip, ttrain",
-              "logictype_n, $can_use_battery, tjump, splitup, lspring", "logictype_n, $can_use_battery, tjump, splitup, glide", "logictype_n, $can_use_battery, tjump, splitup, wwhack", "logictype_n, $can_use_battery, tjump, fpad, eggaim, $has_explosives", "logictype_n, $can_use_battery, tjump, fpad, aireaim, $has_explosives", "logictype_n, $can_use_battery, tjump, fflip, ttrain", "logictype_n, $can_use_battery, ggrab, splitup, lspring", "logictype_n, $can_use_battery, ggrab, splitup, glide, tjump", "logictype_n, $can_use_battery, ggrab, splitup, wwhack, tjump", "logictype_n, $can_use_battery, ggrab, fpad, eggaim, $has_explosives", "logictype_n, $can_use_battery, ggrab, fpad, aireaim, $has_explosives", "logictype_n, $can_use_battery, ggrab, fflip, ttrain",
-              "logictype_a, $can_use_battery, tjump, splitup, lspring", "logictype_a, $can_use_battery, tjump, splitup, glide", "logictype_a, $can_use_battery, tjump, splitup, wwhack", "logictype_a, $can_use_battery, tjump, fpad, eggaim, $has_explosives", "logictype_a, $can_use_battery, tjump, fpad, aireaim, $has_explosives", "logictype_a, $can_use_battery, tjump, fflip, ttrain", "logictype_a, $can_use_battery, ggrab, splitup, lspring", "logictype_a, $can_use_battery, ggrab, splitup, glide, tjump", "logictype_a, $can_use_battery, ggrab, splitup, wwhack, tjump", "logictype_a, $can_use_battery, ggrab, fpad, eggaim, $has_explosives", "logictype_a, $can_use_battery, ggrab, fpad, aireaim, $has_explosives", "logictype_a, $can_use_battery, ggrab, fflip, ttrain",
-              "logictype_g, $can_use_battery, tjump, splitup, lspring", "logictype_g, $can_use_battery, tjump, splitup, glide", "logictype_g, $can_use_battery, tjump, splitup, wwhack", "logictype_g, $can_use_battery, tjump, fpad, eggaim, $has_explosives", "logictype_g, $can_use_battery, tjump, fpad, aireaim, $has_explosives", "logictype_g, $can_use_battery, tjump, fflip, ttrain", "logictype_g, $can_use_battery, ggrab, splitup, lspring", "logictype_g, $can_use_battery, ggrab, splitup, glide, tjump", "logictype_g, $can_use_battery, ggrab, splitup, wwhack, tjump", "logictype_g, $can_use_battery, ggrab, fpad, eggaim, $has_explosives", "logictype_g, $can_use_battery, ggrab, fpad, aireaim, $has_explosives", "logictype_g, $can_use_battery, ggrab, fflip, ttrain"
+              "logictype_b, $can_use_battery, ggrab, ttrain", "logictype_b, $can_use_battery, $elevator_door",
+              "logictype_n, $can_use_battery, tjump, splitup, lspring", "logictype_n, $can_use_battery, tjump, splitup, glide", "logictype_n, $can_use_battery, tjump, splitup, wwhack", "logictype_n, $can_use_battery, tjump, @Grunty Industries Roof, $floor_5_to_boiler_plant", "logictype_n, $can_use_battery, tjump, ttrain", "logictype_n, $can_use_battery, ggrab, splitup, lspring", "logictype_n, $can_use_battery, ggrab, splitup, glide, tjump", "logictype_n, $can_use_battery, ggrab, splitup, wwhack, tjump", "logictype_n, $can_use_battery, ggrab, @Grunty Industries Roof, $floor_5_to_boiler_plant", "logictype_n, $can_use_battery, ggrab, ttrain",
+              "logictype_a, $can_use_battery, tjump, splitup, lspring", "logictype_a, $can_use_battery, tjump, splitup, glide", "logictype_a, $can_use_battery, tjump, splitup, wwhack", "logictype_a, $can_use_battery, tjump, @Grunty Industries Roof, $floor_5_to_boiler_plant", "logictype_a, $can_use_battery, tjump, ttrain", "logictype_a, $can_use_battery, ggrab, splitup, lspring", "logictype_a, $can_use_battery, ggrab, splitup, glide, tjump", "logictype_a, $can_use_battery, ggrab, splitup, wwhack, tjump", "logictype_a, $can_use_battery, ggrab, @Grunty Industries Roof, $floor_5_to_boiler_plant", "logictype_a, $can_use_battery, ggrab, ttrain",
+              "logictype_g, $can_use_battery, tjump, splitup, lspring", "logictype_g, $can_use_battery, tjump, splitup, glide", "logictype_g, $can_use_battery, tjump, splitup, wwhack", "logictype_g, $can_use_battery, tjump, @Grunty Industries Roof, $floor_5_to_boiler_plant", "logictype_g, $can_use_battery, tjump, ttrain", "logictype_g, $can_use_battery, ggrab, splitup, lspring", "logictype_g, $can_use_battery, ggrab, splitup, glide, tjump", "logictype_g, $can_use_battery, ggrab, splitup, wwhack, tjump", "logictype_g, $can_use_battery, ggrab, @Grunty Industries Roof, $floor_5_to_boiler_plant", "logictype_g, $can_use_battery, ggrab, ttrain"
             ],
             "visibility_rules": [ "goal_minigame", "goal_wwing" ]
           }
@@ -8218,35 +8295,36 @@
             "y": 355
           }
         ]
-      },
-      {
-        "name": "Quality Control",
-        "sections": [
-          {
-            "name": "Jiggy",
-            "access_rules": [
-              "logictype_b, $mumboGI, geggs, eggaim, $can_use_battery, humbagi, tjump, climb",
-              "logictype_n, $mumboGI, $canShootEggs|geggs, eggaim, humbagi, $can_use_battery, tjump, climb", "logictype_n, $mumboGI, $canShootEggs|geggs, splitup, lspring, $can_use_battery, tjump, climb",
-              "logictype_a, $mumboGI, $canShootEggs|geggs, $can_use_battery, tjump",
-              "logictype_g, $mumboGI, $canShootEggs|geggs, $can_use_battery, tjump", "logictype_g, $clockworkWarp"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "gi7",
-            "x": 540,
-            "y": 375
-          }
-        ]
-      },
+      }
+    ]
+  },
+  {
+    "name": "Grunty Industries 4th Floor",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+      "@Outside Grunty Industries - Behind the building, $outside_gi_back_to_floor_4",
+      "@Grunty Industries Elevator Shaft, $elevator_shaft_to_floor_4",
+      "@Grunty Industries 3rd Floor, $F3_to_F4",
+      "@Grunty Industries 4th Floor - Past the Crushers",
+      "@Grunty Industries Roof"
+    ]
+  },
+  {
+    "name": "Grunty Industries 4th Floor - Past the Crushers",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+      "@Grunty Industries 4th Floor, $floor_4_to_floor_4_back, @Grunty Industries 3rd Floor"
+    ],
+    "children": [
       {
         "name": "Clinker's Cavern",
         "access_rules": [
-              "logictype_b, $mumboGI, tjump, clawbts, bblaster, climb",
-              "logictype_n, $mumboGI, tjump, clawbts, bblaster, climb",
-              "logictype_a, $mumboGI, tjump, clawbts, bblaster, climb",
-              "logictype_g, $mumboGI, tjump, clawbts, bblaster, climb", "logictype_g, $breegullBash, climb, clawbts, bblaster, climb", "logictype_g, geggs, eggaim, climb, clawbts, bblaster, climb"
+              "logictype_b, clawbts, bblaster, climb",
+              "logictype_n, clawbts, bblaster, climb",
+              "logictype_a, clawbts, bblaster, climb",
+              "logictype_g, clawbts, bblaster, $clockworkWarp, $springPad", "logictype_g, clawbts, bblaster, $clockworkWarp, fflip", "logictype_g, clawbts, bblaster, @Grunty Industries Elevator Shaft, $elevator_shaft_to_floor_4", "logictype_g, clawbts, bblaster, climb"
             ],
         "sections": [
           {
@@ -8266,11 +8344,69 @@
         ]
       },
       {
-        "name": "GI: Floor 5 Jinjo",
+        "name": "Quality Control",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "access_rules": [
+              "logictype_b, geggs, eggaim, $can_use_battery, humbagi, @Grunty Industries 2nd Floor, climb",
+              "logictype_n, $canShootEggs|geggs, eggaim, humbagi, @Grunty Industries 2nd Floor, $can_use_battery, climb", "logictype_n, $canShootEggs|geggs, splitup, lspring, $can_use_battery, climb",
+              "logictype_a, $canShootEggs|geggs, $can_use_battery, climb, tjump", "logictype_a, $canShootEggs|geggs, $can_use_battery, climb, splitup, lspring", "logictype_a, $canShootEggs|geggs, $can_use_battery, climb, humbagi, @Grunty Industries 2nd Floor, eggaim", "logictype_a, $canShootEggs|geggs, $can_use_battery, climb, $clockwork_shot",
+              "logictype_a, $canShootEggs|geggs, $can_use_battery, climb, tjump", "logictype_a, $canShootEggs|geggs, $can_use_battery, climb, splitup, lspring", "logictype_a, $canShootEggs|geggs, $can_use_battery, climb, humbagi, @Grunty Industries 2nd Floor, eggaim", "logictype_a, $canShootEggs|geggs, $can_use_battery, climb, $clockwork_shot", "logictype_g, $canShootEggs|geggs, $can_use_battery, climb, $clockworkWarp"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi7",
+            "x": 540,
+            "y": 375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Grunty Industries Roof",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+      "@Outside Grunty Industries, $outside_gi_to_floor_5, @Grunty Industries 4th Floor",
+      "@Outside Grunty Industries, $outside_gi_to_floor_5, humbagi, @Grunty Industries 2nd Floor",
+      "@Outside Grunty Industries - Behind the building, $outside_gi_back_to_floor_5, @Grunty Industries 4th Floor",
+      "@Outside Grunty Industries - Behind the building, $outside_gi_back_to_floor_5, humbagi, @Grunty Industries 2nd Floor",
+      "@Grunty Industries 1st Floor, splitup, fpad, @Grunty Industries 4th Floor, tjump",
+      "@Grunty Industries 1st Floor, splitup, fpad, humbagi, @Grunty Industries 2nd Floor, tjump",
+      "@Grunty Industries 1st Floor, splitup, fpad, @Grunty Industries 4th Floor, lspring",
+      "@Grunty Industries 1st Floor, splitup, fpad, humbagi, @Grunty Industries 2nd Floor, lspring",
+      "@Grunty Industries 1st Floor, splitup, fpad, @Grunty Industries 4th Floor, lspring, @Grunty Industries 2nd Floor",
+      "@Grunty Industries 1st Floor, logictype_a, splitup, clawbts, lspring, wwhack, fpad",
+      "@Grunty Industries 1st Floor, logictype_a, splitup, clawbts, lspring, eggaim, fpad",
+      "@Grunty Industries 1st Floor, logictype_g, splitup, clawbts, lspring, wwhack, fpad",
+      "@Grunty Industries 1st Floor, logictype_g, splitup, clawbts, lspring, eggaim, fpad",
+      "@Grunty Industries 3rd Floor, splitup, lspring, fpad, @Grunty Industries 1st Floor, @Grunty Industries 4th Floor",
+      "@Grunty Industries 3rd Floor, splitup, lspring, fpad, @Grunty Industries 1st Floor, humbagi, @Grunty Industries 2nd Floor",
+      "@Grunty Industries 3rd Floor, splitup, lspring, fpad, @Grunty Industries 2nd Floor, $floor_2_split_up, @Grunty Industries 4th Floor",
+      "@Grunty Industries 3rd Floor, splitup, lspring, fpad, @Grunty Industries 2nd Floor, $floor_2_split_up, humbagi, @Grunty Industries 2nd Floor",
+      "@Grunty Industries 3rd Floor, splitup, lspring, fpad, $canDoSmallElevation, tjump, @Grunty Industries 4th Floor",
+      "@Grunty Industries 3rd Floor, splitup, lspring, fpad, $canDoSmallElevation, tjump, humbagi, @Grunty Industries 2nd Floor",
+      "@Grunty Industries 3rd Floor, splitup, lspring, fpad, $canDoSmallElevation, @Grunty Industries 4th Floor",
+      "@Grunty Industries 3rd Floor, splitup, lspring, fpad, $canDoSmallElevation, humbagi, @Grunty Industries 2nd Floor",
+      "@Grunty Industries 3rd Floor, splitup, lspring, fpad, $canDoSmallElevation, @Grunty Industries 4th Floor",
+      "@Grunty Industries 3rd Floor, splitup, lspring, fpad, @Grunty Industries 4th Floor, $canDoSmallElevation, humbagi, @Grunty Industries 2nd Floor",
+      "@Grunty Industries 4th Floor, splitup, lspring, fpad, @Grunty Industries 1st Floor",
+      "@Grunty Industries 4th Floor, splitup, lspring, fpad, @Grunty Industries 2nd Floor, $floor_2_split_up",
+      "@Grunty Industries 4th Floor, splitup, lspring, fpad, @Grunty Industries 3rd Floor, $canDoSmallElevation, tjump",
+      "@Grunty Industries 4th Floor, splitup, lspring, fpad, @Grunty Industries 3rd Floor, $canDoSmallElevation",
+      "@Grunty Industries 4th Floor, splitup, lspring, fpad, $canDoSmallElevation"
+    ],
+    "children": [
+      {
+        "name": "GI Floor 5: Jinjo",
         "sections": [
           {
             "name": "Jinjo",
-            "access_rules": [ "$roof_access" ]
+            "access_rules": [ ]
           }
         ],
         "map_locations": [
@@ -8282,15 +8418,15 @@
         ]
       },
       {
-        "name": "GI: Floor 5 Jiggy",
+        "name": "GI Floor 5: Jiggy",
         "sections": [
           {
             "name": "Jiggy",
             "access_rules": [
-              "logictype_b, splitup, $roof_access",
-              "logictype_n, splitup, $roof_access",
-              "logictype_a, splitup, $roof_access", "logictype_a, $clockwork_shot, $roof_access",
-              "logictype_g, splitup, $roof_access", "logictype_g, $clockwork_shot, $roof_access"
+              "logictype_b, splitup",
+              "logictype_n, splitup",
+              "logictype_a, splitup", "logictype_a, $clockwork_shot",
+              "logictype_g, splitup", "logictype_g, $clockwork_shot"
             ]
           }
         ],
@@ -8303,23 +8439,18 @@
         ]
       },
       {
-        "name": "GI: Underwater Waste Disposal Plant Jiggy",
+        "name": "GI Outside: Chimney Honeycomb",
         "sections": [
           {
-            "name": "Jiggy",
-            "access_rules": [
-              "logictype_b, $can_beat_weldar, splitup, shpack",
-              "logictype_n, $can_beat_weldar, splitup, shpack",
-              "logictype_a, $can_beat_weldar, splitup, shpack",
-              "logictype_g, $can_beat_weldar, splitup, shpack", "logictype_g, $can_beat_weldar, splitup, lspring", "logictype_g, $can_use_battery, climb, fflip, ttorp, dive, wwing", "logictype_g, $can_use_battery, splitup, shpack, climb, ggrab"
-            ]
+            "name": "Honeycomb",
+            "access_rules": [ ]
           }
         ],
         "map_locations": [
           {
-            "map": "gi5",
-            "x": 372,
-            "y": 260
+            "map": "gi1",
+            "x": 227,
+            "y": 362
           }
         ]
       }

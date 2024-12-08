@@ -338,7 +338,7 @@ function TDLFlightPad()
     if logictype.CurrentStage == 0 then
         return can_beat_terry() and has("springb") and has("fpad")
     else
-        return can_beat_terry() and ((has("springb") and has("fpad")) or (has("ttrot") and has("flutter")))
+        return can_beat_terry() and has("fpad") and (has("springb") or (has("ttrot") and has("flutter")))
     end
 end
 
@@ -404,7 +404,7 @@ function can_use_battery()
     return has("packwh") and has("taxpack") and has("splitup")
 end
 
-function can_beat_weldar()
+function can_beat_weldar() -- Also need 2nd & 3rd Floor Access
     if logictype.CurrentStage == 0 then
         return can_use_battery() and mumboGI() and has("humbagi") and canShootEggs("geggs") and billDrill() and has("climb") and has("fflip") and has("ggrab")
     elseif logictype.CurrentStage == 1 then
@@ -426,7 +426,7 @@ function breegullBash()
     return has("grat") and has("bbash")
 end
 
-function mumboGI()
+function mumboGI() -- Also need 3rd Floor Access
     if logictype.CurrentStage <= 1 then
         return canDoSmallElevation() and has("mumbogi")
     else
@@ -728,15 +728,13 @@ function hatch_to_TDL()
     end
 end
 
-function gi_front_door()
-    return enter_GI() and has("splitup")
-end
-
-function roof_access()
+function outside_gi_to_outside_back()
     if logictype.CurrentStage == 0 then
-        return has("fpad") and has("climb")
+        return has("climb") and has("fflip") and longJump() and has("ggrab")
+    elseif logictype.CurrentStage == 1 then
+        return has("climb")
     else
-        return has("fpad") and (has("climb") or (has("splitup") and has("lspring")))
+        return has("climb") or extremelyLongJump()
     end
 end
 
@@ -744,11 +742,11 @@ function outside_gi_to_floor1()
     if logictype.CurrentStage <= 2 then
         return false
     else
-        return has("ceggs") and has("eggaim")
+        return clockwork_shot()
     end
 end
 
-function outside_gi_to_floor2()
+function outside_gi_back_to_floor2()
     if logictype.CurrentStage <= 2 then
         return false
     else
@@ -756,49 +754,87 @@ function outside_gi_to_floor2()
     end
 end
 
-function outside_gi_to_floor3()
+function outside_gi_back_to_floor_3()
     if logictype.CurrentStage == 0 then
         return false
-    elseif logictype.CurrentStage == 1 then
-        return has("clawbts") and (has("flutter") or has("arat")) and has("climb")
-    else
-        return has("clawbts") and (has("flutter") or has("arat")) and (has("climb") or extremelyLongJump())
-    end
-end
-
-function outside_gi_to_floor3_f2access()
-    if logictype.CurrentStage == 0 then
-        return false
-    elseif logictype.CurrentStage == 1 then
-        return has("clawbts") and (has("flutter") or has("arat"))
     else
         return has("clawbts") and (has("flutter") or has("arat"))
     end
 end
 
-function can_access_gi_fl1_2fl2()
+function outside_gi_back_to_floor_4()
+    if logictype.CurrentStage == 0 then
+        return false
+    else
+        return has("clawbts") and (has("flutter") or has("arat")) and canDoSmallElevation()
+    end
+end
+
+function outside_gi_to_floor_5() -- and can reach 4th Floor or humbagi and can reach 2nd Floor
+    return outside_gi_to_outside_back() and has("fpad")
+end
+
+function outside_gi_back_to_floor_5() -- and can reach 4th Floor or humbagi and can reach 2nd Floor
+    return has("climb") and has("fpad")
+end
+
+function elevator_shaft_to_floor_1() -- there's a lot of region stuff
+    if logictype.CurrentStage == 0 then
+        return has("climb")
+    else
+        return has("climb") or has("bbust")
+    end
+end
+
+function elevator_shaft_to_em() -- there's a lot of region stuff
+    if logictype.CurrentStage <= 2 then
+        return false
+    else
+        return has("climb") and breegullBash()
+    end
+end
+
+function elevator_shaft_to_boiler_plant() -- there's a lot of region stuff
+    if logictype.CurrentStage <= 2 then
+        return false
+    else
+        return has("climb") and breegullBash()
+    end
+end
+
+function elevator_shaft_to_floor_4()
+    if logictype.CurrentStage <= 2 then
+        return false
+    else
+        return has("climb") and (breegullBash() or has("geggs") and has("eggaim"))
+    end
+end
+
+function em_chamber_to_elevator_shaft()
+    return elevator_door()
+end
+
+function boiler_plant_to_elevator_shaft()
+    return elevator_door()
+end
+
+function floor_2_em_room_to_elevator_shaft()
+    return elevator_door()
+end
+
+function floor_4_back_to_elevator_shaft() -- glitched logic has a 4th floor alternative
+    return has("climb") and elevator_door()
+end
+
+function elevator_door()
+    return has("bbarge") or canShootEggs("geggs")
+end
+
+function F1_to_F2()
     if logictype.CurrentStage == 0 then
         return has("clawbts") and (springPad() or (has("splitup") and has("lspring")))
     else
-        return (has("clawbts") and (springPad() or (has("splitup") and has("lspring")))) or has("splitup") and has("lspring") and has("glide") and (has("wwhack") or has("eggaim"))
-    end
-end
-
-function can_access_gi_fl2_2fl3all()
-    if logictype.CurrentStage == 0 then
-        return (has("ggrab") and has("clawbts")) or has("humbagi")
-    else
-        return (has("clawbts") or has("humbagi")) or has("lspring")
-    end
-end
-
-function F1_to_F3()
-    if logictype.CurrentStage <= 1 then
-        return false
-    elseif logictype.CurrentStage == 2 then
-        return has("splitup") and has("clawbts") and has("lspring") and (has("wwhack") or has("eggaim")) and has("fpad")
-    else
-        return (breegullBash() and has("climb")) or has("climb") and has_explosives() and has("eggaim") and (has("springb") or has("fflip") and has("ggrab") or has("splitup") and roof_access()) or has("splitup") and has("clawbts") and has("lspring") and (has("wwhack") or has("eggaim")) and has("fpad")
+        return has("clawbts") and (springPad() or (has("splitup") and has("lspring"))) or has("splitup") and has("lspring") and has("glide") and (has("wwhack") or has("eggaim"))
     end
 end
 
@@ -810,15 +846,47 @@ function F2_to_F1()
     end
 end
 
+function floor_2_to_em_room()
+    if logictype.CurrentStage == 0 then
+        return floor_2_split_up() and has("ggrab") and can_use_battery()
+    else
+        return floor_2_split_up() and can_use_battery()
+    end
+end
+
+function floor_2_split_up()
+    if logictype.CurrentStage <= 1 then
+        return has("splitup") and (has("climb") or has_explosives())
+    else
+        return has("splitup") and (has("climb") or has_explosives() or has("clawbts") and extremelyLongJump())
+    end
+end
+
 function F2_to_F3()
     if logictype.CurrentStage == 0 then
-        return (has("fflip") and has("ggrab") and has("clawbs") and has("climb")) or has("humbagi") and roof_access()
-    elseif logictype.CurrentStage == 1 then
-        return ((has("fflip") and has("ggrab") or veryLongJump()) and has("clawbts") and has("climb")) or has("humbagi") and roof_access() or (has("splitup") and has("lspring"))
-    elseif logictype.CurrentStage == 2 then
-        return ((has("fflip") and has("ggrab") or veryLongJump()) and has("clawbts") and has("climb")) or has("humbagi") and (roof_access() or has("springb")) or (has("splitup") and has("lspring"))
+        return (has("fflip") and has("ggrab") and has("clawbs") and has("climb"))
+    elseif logictype.CurrentStage <= 2 then
+        return ((has("fflip") and has("ggrab") or veryLongJump()) and has("clawbts") and has("climb")) or has("lspring") and floor_2_split_up()
     else
-        return ((has("fflip") and has("ggrab") or veryLongJump()) and has("clawbts") and (has("climb") or (has("geggs") and has("eggshoot") and has("fflip") and has("bbust")))) or has("humbagi") and (roof_access() or has("springb")) or (has("splitup") and has("lspring"))
+        return ((has("fflip") and has("ggrab") or veryLongJump()) and has("clawbts") and (has("climb") or (has("geggs") and has("eggshoot") and has("fflip") and has("bbust")))) or has("lspring") and floor_2_split_up()
+    end
+end
+
+function floor_3_to_outside_back()
+    return has("climb") and drop_down_from_higher_floors_outside()
+end
+
+function floor_4_to_outside_back()
+    return escape_floor_4_bk() and drop_down_from_higher_floors_outside()
+end
+
+function drop_down_from_higher_floors_outside()
+    if logictype.CurrentStage == 0 then
+        return false
+    elseif logictype.CurrentStage == 1 then
+        return has("bbust") or has("flutter") or has("arat")
+    else
+        return true
     end
 end
 
@@ -832,8 +900,32 @@ function F3_to_F2()
     end
 end
 
-function can_leave_GI_from_inside()
-    return train_GI() and (has("splitup") or has("clawbts"))
+function floor_3_to_boiler_plant()
+    return has("fflip") and has("ggrab") or has("climb") and canReachSlightlyElevatedLedge()
+end
+
+function F3_to_F4()
+    return (has("climb") or (has("splitup") and has("lspring"))) and canDoSmallElevation()
+end
+
+function escape_floor_4_bk()
+    if logictype.CurrentStage <= 1 then
+        return has("springb")
+    else
+        return has("springb") or has("fflip") and has("ggrab")
+    end
+end
+
+function floor_4_to_floor_4_back()
+    if logictype.CurrentStage <= 2 then
+        return mumboGI() and has("tjump")
+    else
+        return (mumboGI() and has("tjump")) or (has("tjump") and has("splitup") and has("packwh")) or (clockworkWarp() and (springPad() or has("fflip")))
+    end
+end
+
+function floor_5_to_boiler_plant()
+    return has("fpad") and (has("bbomb") or has_explosives() and (has("eggaim") or has("aireaim")))
 end
 
 function hfpTop()
@@ -885,15 +977,15 @@ function mt_tdl_backdoor()
 end
 
 function mt_hfp_backdoor()
-    if logictype.CurrentStage == 0 then
-        return has("humbamt") and has("mumbomt") and has_explosives() and backdoors_enabled()
-    else
-        return has("humbamt") and has("mumbomt") and (has_explosives() or has("mumbohp")) and backdoors_enabled()
-    end
+    return has("humbamt") and has("mumbomt") and backdoors_enabled()
 end
 
 function ww_tdl_backdoor()
-    return has_explosives() and has("clawbts") and backdoors_enabled()
+    if logictype.CurrentStage <= 1 then
+        return has_explosives() and has("clawbts") and has("ttrot") and backdoors_enabled()
+    else
+        return has_explosives() and has("clawbts") and (has("ttrot") or ((has("ggrab") or has("bbust")) and has("climb") and has("fflip"))) and backdoors_enabled()
+    end
 end
     
 -- Mayahem Temple
@@ -926,6 +1018,18 @@ function mt_jiggy8()
     end
 end
 
+-- Glitter Gulch Mine
+
+function gm_jiggy10()
+    if logictype.CurrentStage == 0 then
+        return humbaGGM() and has("dive") and (has("tjump") or has("ggrab"))
+    elseif logictype.CurrentStage == 1 then
+        return has("dive") and (has("tjump") or has("ggrab") or has("bbust")) and (humbaGGM() or has("ttrot") and (has("flutter") or has("arat")) or has("roll") and has("tjump") and (has("flutter") or has("arat")))
+    else
+        return has("dive") and (has("tjump") or has("ggrab") or has("bbust") or clockwork_shot()) and (humbaGGM() or has("ttrot") and (has("flutter") or has("arat")) or has("roll") and has("tjump") and (has("flutter") or has("arat")))
+    end
+end
+
 -- Witchyworld
 
 function ww_jiggy2()
@@ -946,11 +1050,11 @@ end
 
 function jr_jiggy4()
     if logictype.CurrentStage == 0 then
-        return (has_explosives() or billDrill()) and veryLongJump() and has("fflip") and (has_explosives() or has("bbarge"))
+        return (has_explosives() or billDrill()) and (veryLongJump() or (billDrill() or has_explosives()) and has("ttrot") and springPad() and has("ggrab")) and has("fflip") and (has_explosives() or has("bbarge"))
     elseif logictype.CurrentStage == 1 then
-        return (has_explosives() or billDrill()) and (veryLongJump() or has("doubloon", 28) and has("ttrain")) and has("fflip") and (has_explosives() or has("bbarge"))
+        return (has_explosives() or billDrill()) and (veryLongJump() or has("doubloon", 28) and has("ttrain") or (billDrill() or has_explosives()) and has("ttrot") and springPad() and has("ggrab")) and has("fflip") and (has_explosives() or has("bbarge"))
     else
-        return (has_explosives() or billDrill()) and (veryLongJump() or has("doubloon", 28) and has("ttrain")) and has("fflip") and (has_explosives() or has("bbarge") or clockwork_shot())
+        return (has_explosives() or billDrill()) and (veryLongJump() or has("doubloon", 28) and has("ttrain") or (billDrill() or has_explosives()) and has("ttrot") and springPad() and has("ggrab")) and has("fflip") and (has_explosives() or has("bbarge") or clockwork_shot())
     end
 end
 
@@ -1016,6 +1120,40 @@ function scrit()
     end
 end
 
+-- Grunty Industries
+
+function skivvyswitch()
+    return has("aireaim") or has("bbomb")
+end
+
+function skivvyswitch_gi2()
+    if logictype.CurrentStage == 0 then
+        return has("clawbts") and has("fflip") and has("ggrab")
+    else
+        return has("clawbts") and ((has("fflip") and has("ggrab")) or has("ttrot") (has("flutter") or has("arat")))
+    end
+end
+
+function skivvyswitch_gi2b()
+    if logictype.CurrentStage == 0 then
+        return false
+    else
+        return has("splitup") and (has("lspring") or has("clawbts") and (canShootEggs() or has("wwhack")))
+    end
+end
+
+function skivvyswitch_gi3()
+    if logictype.CurrentStage == 0 then
+        return false
+    else
+        return has("climb") and (veryLongJump() or (has("fflip") or has("tjump")) and has("ggrab")) or canDoSmallElevation() and has("splitup") and has("lspring")
+    end
+end
+
+function guarded_eggs()
+    return has("begg") or has("feggs") or has("geggs")
+end
+
 -- Cloud Cuckooland
 
 function cc_jinjo3()
@@ -1024,7 +1162,7 @@ function cc_jinjo3()
     elseif logictype.CurrentStage == 1 then
         return has("splitup") and (springPad() or has("fpad")) or has("springb") and billDrill() and (has("flutter") or has("arat") or has("splitup")) or (has("splitup") and has("lspring")) or has("humbacc")
     else
-        return has("splitup") and (springPad() or has("fpad")) or clockwork_shot() or has("springb") and billDrill() and (has("flutter") or has("arat") or has("splitup")) or (has("splitup") and has("lspring")) or has("humbacc")
+        return has("splitup") and (springPad() or has("fpad")) or clockwork_shot() or has("springb") and (has("flutter") or has("arat") or has("splitup")) or (has("splitup") and has("lspring")) or has("humbacc")
     end
 end
 
