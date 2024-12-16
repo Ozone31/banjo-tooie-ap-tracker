@@ -3490,10 +3490,10 @@
           {
             "name": "Honeycomb",
             "access_rules": [ 
-              "logictype_b, humbamt, mumbomt",
-              "logictype_n, humbamt, mumbomt", "logictype_n, $canShootEggs|ceggs",
-              "logictype_a, humbamt, mumbomt", "logictype_a, $canShootEggs|ceggs",
-              "logictype_g, humbamt, mumbomt", "logictype_g, $canShootEggs|ceggs", "logictype_g, $breegullBash"
+              "logictype_b, humbamt, @Mayahem Temple - Jade Snake Grove",
+              "logictype_n, humbamt, @Mayahem Temple - Jade Snake Grove", "logictype_n, $canShootEggs|ceggs",
+              "logictype_a, humbamt, @Mayahem Temple - Jade Snake Grove", "logictype_a, $canShootEggs|ceggs",
+              "logictype_g, humbamt, @Mayahem Temple - Jade Snake Grove", "logictype_g, $canShootEggs|ceggs", "logictype_g, $breegullBash"
             ]
           }
         ],
@@ -3809,7 +3809,9 @@
             "name": "Treasure Chamber Jiggy",
             "access_rules": [
               "$mt_jiggy5",
-              "logictype_n, fflip, $canReachSlightlyElevatedLedge, @Terrydactyland - Unga Bungas' Cave", "logictype_a, fflip, $canReachSlightlyElevatedLedge, @Terrydactyland - Unga Bungas' Cave", "logictype_g, fflip, $canReachSlightlyElevatedLedge, @Terrydactyland - Unga Bungas' Cave"
+              "logictype_n, fflip, $canReachSlightlyElevatedLedge, @Terrydactyland - Unga Bungas' Cave, $MT_flight_pad, $canShootEggs", "logictype_n, fflip, $canReachSlightlyElevatedLedge, @Terrydactyland - Unga Bungas' Cave, $MT_flight_pad, eggaim",
+              "logictype_a, fflip, $canReachSlightlyElevatedLedge, @Terrydactyland - Unga Bungas' Cave, $MT_flight_pad, $canShootEggs", "logictype_a, fflip, $canReachSlightlyElevatedLedge, @Terrydactyland - Unga Bungas' Cave, $MT_flight_pad, eggaim",
+              "logictype_g, fflip, $canReachSlightlyElevatedLedge, @Terrydactyland - Unga Bungas' Cave, $MT_flight_pad, $canShootEggs", "logictype_g, fflip, $canReachSlightlyElevatedLedge, @Terrydactyland - Unga Bungas' Cave, $MT_flight_pad, eggaim"
             ]
           },
           {
@@ -4147,8 +4149,7 @@
             "name": "Glowbo",
             "access_rules": [
               "logictype_b, $GGMSlope", "logictype_n, $GGMSlope",
-              "logictype_a, $GGMSlope", "logictype_a, $clockwork_shot",
-              "logictype_g, $GGMSlope", "logictype_g, $clockwork_shot"
+              "logictype_a", "logictype_g"
             ]
           }
         ],
@@ -4479,9 +4480,9 @@
         "name": "GGM: Outside Mumbo's Skull Notes",
         "access_rules": [ 
               "logictype_b, $canDoSmallElevation",
-              "logictype_n, $canDoSmallElevation", "logictype_n, ggrab", "logictype_n, bbust",
-              "logictype_a, $canDoSmallElevation", "logictype_a, ggrab", "logictype_a, $clockwork_shot", "logictype_a, bbust",
-              "logictype_g, $canDoSmallElevation", "logictype_g, ggrab", "logictype_g, $clockwork_shot", "logictype_g, bbust"
+              "logictype_n, $canDoSmallElevation", "logictype_n, ggrab", "logictype_n, bbust", "logictype_n, $ggm_trot",
+              "logictype_a, $canDoSmallElevation", "logictype_a, ggrab", "logictype_a, $clockwork_shot", "logictype_a, bbust", "logictype_a",
+              "logictype_g, $canDoSmallElevation", "logictype_g, ggrab", "logictype_g, $clockwork_shot", "logictype_g, bbust", "logictype_g, $ggm_trot"
             ],
         "sections": [
           {
@@ -6133,12 +6134,7 @@
       },
       {
         "name": "Alcove",
-        "access_rules": [
-              "logictype_b, splitup, $has_explosives, $springPad",
-              "logictype_n, splitup, $has_explosives, $springPad", "logictype_n, splitup, $has_explosives, lspring",
-              "logictype_a, splitup, $has_explosives, $springPad", "logictype_a, splitup, $has_explosives, lspring", "logictype_a, $clockwork_shot",
-              "logictype_g, splitup, $has_explosives, $springPad", "logictype_g, splitup, $has_explosives, lspring", "logictype_g, $clockwork_shot"
-            ],
+        "access_rules": [ "$jr_doubloonalcove" ],
         "sections": [
           {
             "name": "Doubloon 1"
@@ -6224,7 +6220,7 @@
         "sections": [
           {
             "name": "Sub-Aqua Egg Aiming Silo",
-            "access_rules": [ "$has_explosives, $notecount|285", "$has|doubloon|28, $notecount|285" ]
+            "access_rules": [ "$has_explosives, $notecount|275", "$has|doubloon|28, $notecount|285" ]
           },
           {
             "name": "Note 1",
@@ -7354,8 +7350,8 @@
         "access_rules": [
               "logictype_b, bblaster, tjump, fpad", "logictype_b, bblaster, ggrab, fpad", "logictype_b, bblaster, eggaim, $has_explosives, springb",
               "logictype_n, bblaster, tjump, fpad", "logictype_n, bblaster, ggrab, fpad", "logictype_n, bblaster, eggaim, $has_explosives, springb", "logictype_n, bblaster, springb, $veryLongJump",
-              "logictype_a, bblaster, tjump, fpad", "logictype_a, bblaster, ggrab, fpad", "logictype_a, bblaster, eggaim, $has_explosives, springb", "logictype_a, bblaster, springb, $veryLongJump",
-              "logictype_g, bblaster, tjump, fpad", "logictype_g, bblaster, ggrab, fpad", "logictype_g, bblaster, eggaim, $has_explosives, springb", "logictype_g, bblaster, springb, $veryLongJump"
+              "logictype_a, bblaster, tjump, fpad", "logictype_a, bblaster, ggrab, fpad", "logictype_a, bblaster, bbust, fpad", "logictype_a, bblaster, eggaim, $has_explosives, springb", "logictype_a, bblaster, springb, $veryLongJump",
+              "logictype_g, bblaster, tjump, fpad", "logictype_g, bblaster, ggrab, fpad", "logictype_g, bblaster, bbust, fpad", "logictype_g, bblaster, eggaim, $has_explosives, springb", "logictype_g, bblaster, springb, $veryLongJump"
             ],
         "sections": [
           {
@@ -7876,8 +7872,8 @@
             "access_rules": [
               "logictype_b, ggrab, $hasGroundAttack, $springPad",
               "logictype_n, $hasGroundAttack, $springPad",
-              "logictype_a, $hasGroundAttack, $springPad", "logictype_a, $clockwork_shot",
-              "logictype_g, $hasGroundAttack, $springPad", "logictype_g, $clockwork_shot"
+              "logictype_a, $hasGroundAttack, $springPad", "logictype_a, $clockwork_shot", "logictype_a, splitup, lspring",
+              "logictype_g, $hasGroundAttack, $springPad", "logictype_g, $clockwork_shot", "logictype_g, splitup, lspring"
             ]
           },
           {
@@ -7985,7 +7981,11 @@
         "name": "Air Conditioning Plant",
         "sections": [
           {
-            "name": "Air Conditioning Plant Note 1"
+            "name": "Air Conditioning Plant Note 1",
+            "access_rules": [ 
+              "logictype_b, tjump", "logictype_b, splitup", "logictype_b, ttrot",
+              "logictype_n", "logictype_a", "logictype_g"
+            ]
           },
           {
             "name": "Air Conditioning Plant Note 2"
@@ -8609,12 +8609,7 @@
       },
       {
         "name": "Dragon Brothers",
-        "access_rules": [
-              "logictype_b, $canShootEggs|feggs, $canShootEggs|ieggs, clawbts, fpad, eggshoot",
-              "logictype_n, $canShootEggs|feggs, $canShootEggs|ieggs, clawbts, fpad, eggshoot",
-              "logictype_a, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, eggshoot, clawbts", "logictype_a, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, eggshoot, splitup, packwh, tjump, flutter, ttrot", "logictype_a, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, eggshoot, splitup, packwh, tjump, flutter, fflip",
-              "logictype_g, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, eggshoot, clawbts", "logictype_g, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, eggshoot, splitup, packwh, tjump, flutter, ttrot", "logictype_g, $canShootEggs|feggs, $canShootEggs|ieggs, fpad, eggshoot, splitup, packwh, tjump, flutter, fflip"
-            ],
+        "access_rules": [ "$hp_jiggy1" ],
         "sections": [
           {
             "name": "Jiggy"
@@ -8652,10 +8647,10 @@
           {
             "name": "Kickball Jiggy",
             "access_rules": [
-              "logictype_b, humbamt, mumbomt, $has_explosives",
-              "logictype_n, humbamt, mumbomt, $has_explosives", "logictype_n, humbamt, mumbomt, mumbohp",
-              "logictype_a, humbamt, mumbomt, $has_explosives", "logictype_a, humbamt, mumbomt, mumbohp",
-              "logictype_g, humbamt, mumbomt, $has_explosives", "logictype_g, humbamt, mumbomt, mumbohp"
+              "logictype_b, humbamt, @Mayahem Temple - Jade Snake Grove, $has_explosives",
+              "logictype_n, humbamt, @Mayahem Temple - Jade Snake Grove, $has_explosives", "logictype_n, humbamt, @Mayahem Temple - Jade Snake Grove, mumbohp",
+              "logictype_a, humbamt, @Mayahem Temple - Jade Snake Grove, $has_explosives", "logictype_a, humbamt, @Mayahem Temple - Jade Snake Grove, mumbohp",
+              "logictype_g, humbamt, @Mayahem Temple - Jade Snake Grove, $has_explosives", "logictype_g, humbamt, @Mayahem Temple - Jade Snake Grove, mumbohp"
             ]
           },
           {
@@ -9254,7 +9249,12 @@
         "sections": [
           {
             "name": "Jinjo",
-            "access_rules": [ "climb", "humbacc" ]
+            "access_rules": [
+              "logictype_b, climb", "logictype_b, humbacc",
+              "logictype_n, climb", "logictype_n, humbacc",
+              "logictype_a, climb", "logictype_a, humbacc", "logictype_a, splitup, lspring", "logictype_a, $clockwork_shot",
+              "logictype_g, climb", "logictype_g, humbacc", "logictype_g, splitup, lspring", "logictype_g, $clockwork_shot"
+            ]
           }
         ],
         "map_locations": [

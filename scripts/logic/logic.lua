@@ -356,7 +356,7 @@ function tdl_top()
     elseif logictype.CurrentStage == 2 then
         return has("springb") or has("splitup") and has("lspring") and has("glide")
     else
-        return has("springb") or has("splitup") and has("lspring") and has("glide") or (has("fpad") and (has("bbomb") or clockworkWarp()))
+        return has("springb") or has("splitup") and has("lspring") and has("glide") or (has("fpad") and (has("tjump") or has("bbust") or has("ggrab")) and (has("bbomb") or clockworkWarp()))
     end
 end
 
@@ -1004,7 +1004,7 @@ function mt_jiggy5()
     if logictype.CurrentStage == 0 then
         return has("eggaim") and (has("fflip") or canReachSlightlyElevatedLedge()) and ((has("ggrab") and springPad() and has("fflip") and has("ttrot")) or MT_flight_pad())
     else
-        return (has("fflip") or canReachSlightlyElevatedLedge()) and ((has("ggrab") and springPad() and has("fflip") and has("eggaim") and has("ttrot")) or (MT_flight_pad() and canShootEggs()))
+        return (has("fflip") or canReachSlightlyElevatedLedge()) and ((has("ggrab") and springPad() and has("fflip") and has("eggaim") and has("ttrot")) or (MT_flight_pad() and canShootEggs())) and (MT_flight_pad() and canShootEggs() or has("eggaim"))
     end
 end
 
@@ -1065,6 +1065,16 @@ function jr_jiggy10()
         return has("ttorp") and has("eggaim") and has("ieggs")
     else
         return has("ttorp") and canShootEggs("ieggs") and (has("ttrot") or has("eggaim"))
+    end
+end
+
+function jr_doubloonalcove()
+    if logictype.CurrentStage == 0 then
+        return has("splitup") and has_explosives() and springPad()
+    elseif logictype.CurrentStage == 1 then
+        return has("splitup") and has_explosives() and (springPad() or has("lspring"))
+    else
+        return has("splitup") and has_explosives() and (springPad() or has("lspring") or has("packwh") and has("tjump") and has("ggrab") or has("glide") and has("tjump") or has("wwhack") and has("tjump")) or clockwork_shot()
     end
 end
 
@@ -1152,6 +1162,16 @@ end
 
 function guarded_eggs()
     return has("begg") or has("feggs") or has("geggs")
+end
+
+-- Hailfire Peaks
+
+function hp_jiggy1()
+    if logictype.CurrentStage <= 1 then
+        return canShootEggs("feggs") and canShootEggs("ieggs") and has("clawbts") and has("fpad") and has("eggshoot") and (has("tjump") or has("ttrot"))
+    else
+        return canShootEggs("feggs") and canShootEggs("ieggs") and has("fpad") and has("eggshoot") and (has("clawbts") or (has("packwh") and has("tjump") and has("flutter") and (has("ttrot") or has("fflip")))) and (has("tjump") or has("ttrot"))
+    end
 end
 
 -- Cloud Cuckooland
