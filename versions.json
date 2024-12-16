@@ -1,6 +1,15 @@
 {
 	"versions": [
 		{
+			"package_version": "0.6.6",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.6.6",
+			"sha256": "327de1b2ac2c705889a3d9a02555b9f202a1db118c2ee8f5570af25fe2944d79",
+			"changelog": [
+				"Updated logic for 3.5.3-beta of Banjo-Tooie AP.",
+				"Variant of the tracker is now available to manually track where entrances are when entrances are randomized. Click the icons to toggle through the options."
+			]
+		},
+		{
 			"package_version": "0.6.5",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.6.5",
 			"sha256": "5db956d64c3230161a934d934c158e18947bc694c566cbb13655753a59618e89",
