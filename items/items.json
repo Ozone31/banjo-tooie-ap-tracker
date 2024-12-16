@@ -1252,5 +1252,628 @@
         "inherit_codes": false
       }
     ]
+  },
+
+  // RANDOMIZED ENTRANCE TRACKING
+  {
+    "name": "MT Entrance",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/access/uke.png",
+        "name": "MT Entrance - Unknown",
+        "codes": "mte,mte_uk",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/mte.png",
+        "name": "MT Entrance - Mayahem Temple",
+        "codes": "mte,mte_mt",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/gge.png",
+        "name": "MT Entrance - Glitter Gulch Mine",
+        "codes": "mte,mte_gg",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/wwe.png",
+        "name": "MT Entrance - Witchyworld",
+        "codes": "mte,mte_ww",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/jre.png",
+        "name": "MT Entrance - Jolly Roger's Lagoon",
+        "codes": "mte,mte_jr",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/tde.png",
+        "name": "MT Entrance - Terrydactyland",
+        "codes": "mte,mte_td",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/gie.png",
+        "name": "MT Entrance - Grunty Industries",
+        "codes": "mte,mte_gi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/hfe.png",
+        "name": "MT Entrance - Hailfire Peaks",
+        "codes": "mte,mte_hf",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/cce.png",
+        "name": "MT Entrance - Cloud Cuckooland",
+        "codes": "mte,mte_cc",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/cke.png",
+        "name": "MT Entrance - Cauldron Keep",
+        "codes": "mte,mte_ck",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "GM Entrance",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/access/uke.png",
+        "name": "GM Entrance - Unknown",
+        "codes": "gge,gge_uk",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/mte.png",
+        "name": "GM Entrance - Mayahem Temple",
+        "codes": "gge,gge_mt",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/gge.png",
+        "name": "GM Entrance - Glitter Gulch Mine",
+        "codes": "gge,gge_gg",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/wwe.png",
+        "name": "GM Entrance - Witchyworld",
+        "codes": "gge,gge_ww",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/jre.png",
+        "name": "GM Entrance - Jolly Roger's Lagoon",
+        "codes": "gge,gge_jr",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/tde.png",
+        "name": "GM Entrance - Terrydactyland",
+        "codes": "gge,gge_td",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/gie.png",
+        "name": "GM Entrance - Grunty Industries",
+        "codes": "gge,gge_gi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/hfe.png",
+        "name": "GM Entrance - Hailfire Peaks",
+        "codes": "gge,gge_hf",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/cce.png",
+        "name": "GM Entrance - Cloud Cuckooland",
+        "codes": "gge,gge_cc",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/cke.png",
+        "name": "GM Entrance - Cauldron Keep",
+        "codes": "gge,gge_ck",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "WW Entrance",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/access/uke.png",
+        "name": "WW Entrance - Unknown",
+        "codes": "wwe,wwe_uk",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/mte.png",
+        "name": "WW Entrance - Mayahem Temple",
+        "codes": "wwe,wwe_mt",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/gge.png",
+        "name": "WW Entrance - Glitter Gulch Mine",
+        "codes": "wwe,wwe_gg",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/wwe.png",
+        "name": "WW Entrance - Witchyworld",
+        "codes": "wwe,wwe_ww",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/jre.png",
+        "name": "WW Entrance - Jolly Roger's Lagoon",
+        "codes": "wwe,wwe_jr",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/tde.png",
+        "name": "WW Entrance - Terrydactyland",
+        "codes": "wwe,wwe_td",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/gie.png",
+        "name": "WW Entrance - Grunty Industries",
+        "codes": "wwe,wwe_gi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/hfe.png",
+        "name": "WW Entrance - Hailfire Peaks",
+        "codes": "wwe,wwe_hf",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/cce.png",
+        "name": "WW Entrance - Cloud Cuckooland",
+        "codes": "wwe,wwe_cc",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/cke.png",
+        "name": "WW Entrance - Cauldron Keep",
+        "codes": "wwe,wwe_ck",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "JR Entrance",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/access/uke.png",
+        "name": "JR Entrance - Unknown",
+        "codes": "jre,jre_uk",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/mte.png",
+        "name": "JR Entrance - Mayahem Temple",
+        "codes": "jre,jre_mt",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/gge.png",
+        "name": "JR Entrance - Glitter Gulch Mine",
+        "codes": "jre,jre_gg",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/wwe.png",
+        "name": "JR Entrance - Witchyworld",
+        "codes": "jre,jre_ww",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/jre.png",
+        "name": "JR Entrance - Jolly Roger's Lagoon",
+        "codes": "jre,jre_jr",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/tde.png",
+        "name": "JR Entrance - Terrydactyland",
+        "codes": "jre,jre_td",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/gie.png",
+        "name": "JR Entrance - Grunty Industries",
+        "codes": "jre,jre_gi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/hfe.png",
+        "name": "JR Entrance - Hailfire Peaks",
+        "codes": "jre,jre_hf",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/cce.png",
+        "name": "JR Entrance - Cloud Cuckooland",
+        "codes": "jre,jre_cc",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/cke.png",
+        "name": "JR Entrance - Cauldron Keep",
+        "codes": "jre,jre_ck",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "TD Entrance",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/access/uke.png",
+        "name": "TD Entrance - Unknown",
+        "codes": "tde,tde_uk",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/mte.png",
+        "name": "TD Entrance - Mayahem Temple",
+        "codes": "tde,tde_mt",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/gge.png",
+        "name": "TD Entrance - Glitter Gulch Mine",
+        "codes": "tde,tde_gg",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/wwe.png",
+        "name": "TD Entrance - Witchyworld",
+        "codes": "tde,tde_ww",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/jre.png",
+        "name": "TD Entrance - Jolly Roger's Lagoon",
+        "codes": "tde,tde_jr",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/tde.png",
+        "name": "TD Entrance - Terrydactyland",
+        "codes": "tde,tde_td",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/gie.png",
+        "name": "TD Entrance - Grunty Industries",
+        "codes": "tde,tde_gi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/hfe.png",
+        "name": "TD Entrance - Hailfire Peaks",
+        "codes": "tde,tde_hf",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/cce.png",
+        "name": "TD Entrance - Cloud Cuckooland",
+        "codes": "tde,tde_cc",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/cke.png",
+        "name": "TD Entrance - Cauldron Keep",
+        "codes": "tde,tde_ck",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "GI Entrance",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/access/uke.png",
+        "name": "GI Entrance - Unknown",
+        "codes": "gie,gie_uk",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/mte.png",
+        "name": "GI Entrance - Mayahem Temple",
+        "codes": "gie,gie_mt",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/gge.png",
+        "name": "GI Entrance - Glitter Gulch Mine",
+        "codes": "gie,gie_gg",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/wwe.png",
+        "name": "GI Entrance - Witchyworld",
+        "codes": "gie,gie_ww",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/jre.png",
+        "name": "GI Entrance - Jolly Roger's Lagoon",
+        "codes": "gie,gie_jr",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/tde.png",
+        "name": "GI Entrance - Terrydactyland",
+        "codes": "gie,gie_td",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/gie.png",
+        "name": "GI Entrance - Grunty Industries",
+        "codes": "gie,gie_gi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/hfe.png",
+        "name": "GI Entrance - Hailfire Peaks",
+        "codes": "gie,gie_hf",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/cce.png",
+        "name": "GI Entrance - Cloud Cuckooland",
+        "codes": "gie,gie_cc",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/cke.png",
+        "name": "GI Entrance - Cauldron Keep",
+        "codes": "gie,gie_ck",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "HP Entrance",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/access/uke.png",
+        "name": "HP Entrance - Unknown",
+        "codes": "hfe,hfe_uk",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/mte.png",
+        "name": "HP Entrance - Mayahem Temple",
+        "codes": "hfe,hfe_mt",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/gge.png",
+        "name": "HP Entrance - Glitter Gulch Mine",
+        "codes": "hfe,hfe_gg",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/wwe.png",
+        "name": "HP Entrance - Witchyworld",
+        "codes": "hfe,hfe_ww",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/jre.png",
+        "name": "HP Entrance - Jolly Roger's Lagoon",
+        "codes": "hfe,hfe_jr",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/tde.png",
+        "name": "HP Entrance - Terrydactyland",
+        "codes": "hfe,hfe_td",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/gie.png",
+        "name": "HP Entrance - Grunty Industries",
+        "codes": "hfe,hfe_gi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/hfe.png",
+        "name": "HP Entrance - Hailfire Peaks",
+        "codes": "hfe,hfe_hf",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/cce.png",
+        "name": "HP Entrance - Cloud Cuckooland",
+        "codes": "hfe,hfe_cc",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/cke.png",
+        "name": "HP Entrance - Cauldron Keep",
+        "codes": "hfe,hfe_ck",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "CC Entrance",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/access/uke.png",
+        "name": "CC Entrance - Unknown",
+        "codes": "cce,cce_uk",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/mte.png",
+        "name": "CC Entrance - Mayahem Temple",
+        "codes": "cce,cce_mt",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/gge.png",
+        "name": "CC Entrance - Glitter Gulch Mine",
+        "codes": "cce,cce_gg",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/wwe.png",
+        "name": "CC Entrance - Witchyworld",
+        "codes": "cce,cce_ww",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/jre.png",
+        "name": "CC Entrance - Jolly Roger's Lagoon",
+        "codes": "cce,cce_jr",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/tde.png",
+        "name": "CC Entrance - Terrydactyland",
+        "codes": "cce,cce_td",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/gie.png",
+        "name": "CC Entrance - Grunty Industries",
+        "codes": "cce,cce_gi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/hfe.png",
+        "name": "CC Entrance - Hailfire Peaks",
+        "codes": "cce,cce_hf",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/cce.png",
+        "name": "CC Entrance - Cloud Cuckooland",
+        "codes": "cce,cce_cc",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/cke.png",
+        "name": "CC Entrance - Cauldron Keep",
+        "codes": "cce,cce_ck",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "CK Entrance",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/access/uke.png",
+        "name": "CK Entrance - Unknown",
+        "codes": "cke,cke_uk",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/mte.png",
+        "name": "CK Entrance - Mayahem Temple",
+        "codes": "cke,cke_mt",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/gge.png",
+        "name": "CK Entrance - Glitter Gulch Mine",
+        "codes": "cke,cke_gg",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/wwe.png",
+        "name": "CK Entrance - Witchyworld",
+        "codes": "cke,cke_ww",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/jre.png",
+        "name": "CK Entrance - Jolly Roger's Lagoon",
+        "codes": "cke,cke_jr",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/tde.png",
+        "name": "CK Entrance - Terrydactyland",
+        "codes": "cke,cke_td",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/gie.png",
+        "name": "CK Entrance - Grunty Industries",
+        "codes": "cke,cke_gi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/hfe.png",
+        "name": "CK Entrance - Hailfire Peaks",
+        "codes": "cke,cke_hf",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/cce.png",
+        "name": "CK Entrance - Cloud Cuckooland",
+        "codes": "cke,cke_cc",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/cke.png",
+        "name": "CK Entrance - Cauldron Keep",
+        "codes": "cke,cke_ck",
+        "inherit_codes": false
+      }
+    ]
   }
 ]

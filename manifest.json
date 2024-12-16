@@ -8,6 +8,12 @@
         "standard": {
             "display_name": "Map Tracker",
             "flags": ["ap"]
+        },
+        "var_entrancerando": {
+            "display_name": "Map Tracker (Randomized World Enterances)",
+            "flags": [
+                "ap"
+            ]
         }
     },
     "versions_url": "https://raw.githubusercontent.com/Ozone31/banjo-tooie-ap-tracker/versions/versions.json"

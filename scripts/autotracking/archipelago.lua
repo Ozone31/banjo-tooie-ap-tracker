@@ -325,16 +325,16 @@ function onClear(slot_data)
         end
     end
 
-    --print("MT: "..load_mt)
-    --print("GGM: "..load_ggm)
-    --print("WW: "..load_ww)
-    --print("JRL: "..load_jrl)
-    --print("TDL: "..load_tdl)
-    --print("GI: "..load_gi)
-    --print("HFP: "..load_hfp)
-    --print("CCL: "..load_ccl)
-    --print("CK: "..load_ck)
-    --print(dump_table(slot_data))
+    print("MT: "..load_mt)
+    print("GGM: "..load_ggm)
+    print("WW: "..load_ww)
+    print("JRL: "..load_jrl)
+    print("TDL: "..load_tdl)
+    print("GI: "..load_gi)
+    print("HFP: "..load_hfp)
+    print("CCL: "..load_ccl)
+    print("CK: "..load_ck)
+    print(dump_table(slot_data))
 
     if PLAYER_ID > -1 then
     
