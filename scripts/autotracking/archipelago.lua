@@ -20,6 +20,31 @@ load_hfp = "Hailfire Peaks"
 load_ccl = "Cloud Cuckooland"
 load_ck = "Cauldron Keep"
 
+silo_eggaim = 25
+silo_bblaster = 30
+silo_ggrab = 35
+silo_feggs = 45
+silo_bdrill = 85
+silo_bbayonet = 95
+silo_geggs = 110
+silo_packwh = 120
+silo_splitup = 160
+silo_aireaim = 180
+silo_ieggs = 200
+silo_wwhack = 265
+silo_auqaim = 275
+silo_ttorp = 290
+silo_ceggs = 315
+silo_springb = 390
+silo_taxpack = 405
+silo_hatch = 420
+silo_snpack = 525
+silo_lspring = 545
+silo_clawbts = 590
+silo_shpack = 640
+silo_glide = 660
+silo_sapack = 765
+
 function has_value (t, val)
     for i, v in ipairs(t) do
         if v == val then return 1 end
@@ -49,6 +74,7 @@ end
 
 
 function onClear(slot_data)
+    Tracker.BulkUpdate = true
     SLOT_DATA = slot_data
     CUR_INDEX = -1
     -- reset locations
@@ -315,6 +341,60 @@ function onClear(slot_data)
         end
     end
 
+    if slot_data['jamjars_siloname_costs'] then
+        for k,v in pairs(slot_data.jamjars_siloname_costs) do
+            if k == "IoH: Ice Eggs Silo" then
+                silo_ieggs = v
+            elseif k == "GI Floor 1: Snooze Pack Silo" then
+                silo_snpack = v
+            elseif k == "HFP: Shack Pack Silo" then
+                silo_shpack = v
+            elseif k == "IoH: Clockwork Kazooie Eggs Silo" then
+                silo_ceggs = v
+            elseif k == "MT: Egg Aim Silo" then
+                silo_eggaim = v
+            elseif k == "JRL: Sub-Aqua Egg Aiming Silo" then
+                silo_auqaim = v
+            elseif k == "JRL: Talon Torpedo Silo" then
+                silo_ttrop = v
+            elseif k == "TDL: Hatch Silo" then
+                silo_hatch = v
+            elseif k == "GGM: Bill Drill Silo" then
+                silo_bdrill = v
+            elseif k == "IoH: Fire Eggs Silo" then
+                silo_feggs = v
+            elseif k == "CCL: Sack Pack Silo" then
+                silo_sapack = v
+            elseif k == "WW: Pack Whack Silo" then
+                silo_packwh = v
+            elseif k == "GI Floor 1: Claw Clamber Boots Silo" then
+                silo_clawbts = v
+            elseif k == "WW: Airborne Egg Aiming Silo" then
+                silo_aireaim = v
+            elseif k == "TDL: Taxi Pack Silo" then
+                silo_taxpack = v
+            elseif k == "TDL: Springy Step Shoes Silo" then
+                silo_springb = v
+            elseif k == "MT: Grip Grab Silo" then
+                silo_ggrab = v
+            elseif k == "HFP: Glide Silo" then
+                silo_glide = v
+            elseif k == "WW: Split Up Silo" then
+                silo_splitup = v
+            elseif k == "JRL: Wing Whack Silo" then
+                silo_wwhack = v
+            elseif k == "IoH: Grenade Eggs Silo" then
+                silo_geggs = v
+            elseif k == "GI Floor 2: Leg Spring Silo" then
+                silo_lspring = v
+            elseif k == "GGM: Beak Bayonet Silo" then
+                silo_bbayonet = v
+            elseif k == "MT: Breegull Blaster Silo" then
+                silo_bblaster = v
+            end
+        end
+    end
+
     if slot_data['backdoors'] then
         local obj = Tracker:FindObjectForCode("backdoorsopen")
         local stage = slot_data['backdoors']
@@ -325,16 +405,27 @@ function onClear(slot_data)
         end
     end
 
-    print("MT: "..load_mt)
-    print("GGM: "..load_ggm)
-    print("WW: "..load_ww)
-    print("JRL: "..load_jrl)
-    print("TDL: "..load_tdl)
-    print("GI: "..load_gi)
-    print("HFP: "..load_hfp)
-    print("CCL: "..load_ccl)
-    print("CK: "..load_ck)
-    print(dump_table(slot_data))
+    if slot_data['nestsanity'] then
+        local obj = Tracker:FindObjectForCode("nestsanity")
+        local stage = slot_data['nestsanity']
+        if stage == "true" then
+            obj.CurrentStage = 1
+        else
+            obj.CurrentStage = 0
+        end
+    end
+
+    --print("MT: "..load_mt)
+    --print("GGM: "..load_ggm)
+    --print("WW: "..load_ww)
+    --print("JRL: "..load_jrl)
+    --print("TDL: "..load_tdl)
+    --print("GI: "..load_gi)
+    --print("HFP: "..load_hfp)
+    --print("CCL: "..load_ccl)
+    --print("CK: "..load_ck)
+    --print("Grip Grab Silo: "..silo_ggrab)
+    --print(dump_table(slot_data))
 
     if PLAYER_ID > -1 then
     
@@ -415,6 +506,7 @@ function onNotify(key, value, old_value)
 end
 
 function onNotifyLaunch(key, value)
+    Tracker.BulkUpdate = false
     if key == HINTS_ID then
         for _, hint in ipairs(value) do
             if not hint.found and hint.finding_player == Archipelago.PlayerNumber then

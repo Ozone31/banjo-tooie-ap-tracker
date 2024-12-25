@@ -17,14 +17,14 @@
                             [
                                 "jiggy",
                                 "note",
-                                "treble",
-                                "honey"
+                                "bass",
+                                "treble"
                             ],
                             [
+                                "honey",
                                 "pages",
                                 "doubloon",
-                                "mumbotoken",
-                                "none"
+                                "mumbotoken"
                             ],
                             [
                                 "ikey",
@@ -35,7 +35,8 @@
                             [
                                 "wjinjo",
                                 "ojinjo",
-                                "yjinjo"
+                                "yjinjo",
+                                "none"
                             ],
                             [
                                 "brjinjo",

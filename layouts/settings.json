@@ -39,9 +39,12 @@
               [
                 "randomizeworlds",
                 "backdoorsopen",
-                "logictype",
+                "nestsanity",
                 "goal",
                 "automap"
+              ],
+              [
+                "logictype"
               ]
             ]
           }

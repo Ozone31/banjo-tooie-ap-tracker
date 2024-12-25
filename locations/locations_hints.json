@@ -51,6 +51,110 @@
                     {
                         "name": "SM: Cheato Reward 5 (Hint)",
                         "visibility_rules": ["sm_cheator5"]
+                    },
+                    {
+                      "name": "SM: Gruntilda's Lair Feather Nest 1 (Hint)",
+                      "visibility_rules": ["sm_nest1"]
+                    },
+                    {
+                      "name": "SM: Gruntilda's Lair Feather Nest 2 (Hint)",
+                      "visibility_rules": ["sm_nest2"]
+                    },
+                    {
+                      "name": "SM: Gruntilda's Lair Egg Nest 1 (Hint)",
+                      "visibility_rules": ["sm_nest3"]
+                    },
+                    {
+                      "name": "SM: Gruntilda's Lair Egg Nest 2 (Hint)",
+                      "visibility_rules": ["sm_nest4"]
+                    },
+                    {
+                      "name": "SM: Gruntilda's Lair Egg Nest 3 (Hint)",
+                      "visibility_rules": ["sm_nest5"]
+                    },
+                    {
+                      "name": "SM: Gruntilda's Lair Egg Nest 4 (Hint)",
+                      "visibility_rules": ["sm_nest6"]
+                    },
+                    {
+                      "name": "SM: Gruntilda's Lair Feather Nest 3 (Hint)",
+                      "visibility_rules": ["sm_nest7"]
+                    },
+                    {
+                      "name": "SM: Base of Spiral Mountain Feather Nest 1 (Hint)",
+                      "visibility_rules": ["sm_nest8"]
+                    },
+                    {
+                      "name": "SM: Bottom of Attack Tutorial Field Egg Nest 1 (Hint)",
+                      "visibility_rules": ["sm_nest9"]
+                    },
+                    {
+                      "name": "SM: Bottom of Attack Tutorial Field Egg Nest 2 (Hint)",
+                      "visibility_rules": ["sm_nest10"]
+                    },
+                    {
+                      "name": "SM: Attack Tutorial Field Feather Nest 1 (Hint)",
+                      "visibility_rules": ["sm_nest11"]
+                    },
+                    {
+                      "name": "SM: Spiral Mountain Feather Nest 1 (Hint)",
+                      "visibility_rules": ["sm_nest12"]
+                    },
+                    {
+                      "name": "SM: Spiral Mountain Feather Nest 2 (Hint)",
+                      "visibility_rules": ["sm_nest13"]
+                    },
+                    {
+                      "name": "SM: Base of Spiral Mountain Feather Nest 2 (Hint)",
+                      "visibility_rules": ["sm_nest14"]
+                    },
+                    {
+                      "name": "SM: Base of Spiral Mountain Feather Nest 3 (Hint)",
+                      "visibility_rules": ["sm_nest15"]
+                    },
+                    {
+                      "name": "SM: Attack Tutorial Field Feather Nest 2 (Hint)",
+                      "visibility_rules": ["sm_nest16"]
+                    },
+                    {
+                      "name": "SM: Spiral Mountain Feather Nest 3 (Hint)",
+                      "visibility_rules": ["sm_nest17"]
+                    },
+                    {
+                      "name": "SM: Bottom of Attack Tutorial Field Egg Nest 3 (Hint)",
+                      "visibility_rules": ["sm_nest18"]
+                    },
+                    {
+                      "name": "SM: Near Digger Tunnel Feather Nest 1 (Hint)",
+                      "visibility_rules": ["sm_nest19"]
+                    },
+                    {
+                      "name": "SM: Near Digger Tunnel Feather Nest 2 (Hint)",
+                      "visibility_rules": ["sm_nest20"]
+                    },
+                    {
+                      "name": "SM: Near Digger Tunnel Feather Nest 3 (Hint)",
+                      "visibility_rules": ["sm_nest21"]
+                    },
+                    {
+                      "name": "SM: Top-Right of Waterfall Feather Nest (Hint)",
+                      "visibility_rules": ["sm_nest22"]
+                    },
+                    {
+                      "name": "SM: Platform Left of Waterfall Feather Nest 1 (Hint)",
+                      "visibility_rules": ["sm_nest23"]
+                    },
+                    {
+                      "name": "SM: Platform Left of Waterfall Feather Nest 2 (Hint)",
+                      "visibility_rules": ["sm_nest24"]
+                    },
+                    {
+                      "name": "SM: Attack Tutorial Field Feather Nest 3 (Hint)",
+                      "visibility_rules": ["sm_nest25"]
+                    },
+                    {
+                      "name": "IoH: Inside the Digger Tunnel Egg Nest (Hint)",
+                      "visibility_rules": ["ih_nest1"]
                     }
                 ],
                 "map_locations": [
@@ -115,6 +219,70 @@
                 {
                   "name": "IoH: Black Jinjo Family Jiggy (Hint)",
                   "visibility_rules": ["jv_bkjinjo"]
+                },
+                {
+                  "name": "IoH: Jinjo Village By Silo Feather Nest 1 (Hint)",
+                  "visibility_rules": ["ih_nest2"]
+                },
+                {
+                  "name": "IoH: Jinjo Village By Silo Egg Nest 1 (Hint)",
+                  "visibility_rules": ["ih_nest3"]
+                },
+                {
+                  "name": "IoH: Jinjo Village By Silo Feather Nest 2 (Hint)",
+                  "visibility_rules": ["ih_nest4"]
+                },
+                {
+                  "name": "IoH: Jinjo Village By Silo Egg Nest 2 (Hint)",
+                  "visibility_rules": ["ih_nest5"]
+                },
+                {
+                  "name": "IoH: Jinjo Village Top Row of Houses Egg Nest 1 (Hint)",
+                  "visibility_rules": ["ih_nest6"]
+                },
+                {
+                  "name": "IoH: Jinjo Village Top Row of Houses Feather Nest 1 (Hint)",
+                  "visibility_rules": ["ih_nest7"]
+                },
+                {
+                  "name": "IoH: Jinjo Village Outside Bottles' House Feather Nest 1 (Hint)",
+                  "visibility_rules": ["ih_nest8"]
+                },
+                {
+                  "name": "IoH: Jinjo Village Outside Bottles' House Feather Nest 2 (Hint)",
+                  "visibility_rules": ["ih_nest9"]
+                },
+                {
+                  "name": "IoH: Jinjo Village Near Shortcut Egg Nest 1 (Hint)",
+                  "visibility_rules": ["ih_nest10"]
+                },
+                {
+                  "name": "IoH: Jinjo Village Near Shortcut Egg Nest 2 (Hint)",
+                  "visibility_rules": ["ih_nest11"]
+                },
+                {
+                  "name": "IoH: Jinjo Village Top Row of Houses Feather Nest 2 (Hint)",
+                  "visibility_rules": ["ih_nest12"]
+                },
+                {
+                  "name": "IoH: Jinjo Village Top Row of Houses Egg Nest 2 (Hint)",
+                  "visibility_rules": ["ih_nest13"]
+                },
+                {
+                  "name": "IoH: Bottles' House Egg Nest 1 (Hint)",
+                  "visibility_rules": ["ih_nest14"]
+                },
+                {
+                  "name": "IoH: Bottles' House Egg Nest 2 (Hint)",
+                  "visibility_rules": ["ih_nest15"]
+                },
+                {
+                  "name": "IoH: Bottles' House Feather Nest 1 (Hint)",
+                  "visibility_rules": ["ih_nest16"]
+                },
+                {
+                  "name": "IoH: Bottles' House Feather Nest 2 (Hint)",
+                  "visibility_rules": ["ih_nest17"]
                 }
               ],
               "map_locations": [
@@ -143,6 +311,42 @@
                 {
                   "name": "IoH: Blue Mystery Egg Hatched (Hint)",
                   "visibility_rules": ["wh_bmegg"]
+                },
+                {
+                  "name": "IoH: Wooded Hollow Outside Heggy's Egg Shed Egg Nest 1 (Hint)",
+                  "visibility_rules": ["ih_nest18"]
+                },
+                {
+                  "name": "IoH: Wooded Hollow Outside Heggy's Egg Shed Egg Nest 2 (Hint)",
+                  "visibility_rules": ["ih_nest19"]
+                },
+                {
+                  "name": "IoH: Wooded Hollow Left of Jiggywiggy's Temple Feather Nest 1 (Hint)",
+                  "visibility_rules": ["ih_nest20"]
+                },
+                {
+                  "name": "IoH: Wooded Hollow Left of Jiggywiggy's Temple Feather Nest 2 (Hint)",
+                  "visibility_rules": ["ih_nest21"]
+                },
+                {
+                  "name": "IoH: Wooded Hollow Left of Jiggywiggy's Temple Feather Nest 3 (Hint)",
+                  "visibility_rules": ["ih_nest22"]
+                },
+                {
+                  "name": "IoH: Wooded Hollow Right of Jiggywiggy's Temple Egg Nest 1 (Hint)",
+                  "visibility_rules": ["ih_nest23"]
+                },
+                {
+                  "name": "IoH: Wooded Hollow Right of Jiggywiggy's Temple Egg Nest 2 (Hint)",
+                  "visibility_rules": ["ih_nest24"]
+                },
+                {
+                  "name": "IoH: Wooded Hollow Outside Bottles' House Feather Nest 1 (Hint)",
+                  "visibility_rules": ["ih_nest25"]
+                },
+                {
+                  "name": "IoH: Wooded Hollow Outside Bottles' House Feather Nest 2 (Hint)",
+                  "visibility_rules": ["ih_nest26"]
                 }
               ],
               "map_locations": [
@@ -203,6 +407,34 @@
                 {
                   "name": "IoH: Honey B's Reward 5 (Hint)",
                   "visibility_rules": ["pl_honeybr5"]
+                },
+                {
+                  "name": "IoH: Plateau Near GGM Entrance Egg Nest 1 (Hint)",
+                  "visibility_rules": ["ih_nest27"]
+                },
+                {
+                  "name": "IoH: Plateau Near GGM Entrance Egg Nest 2 (Hint)",
+                  "visibility_rules": ["ih_nest28"]
+                },
+                {
+                  "name": "IoH: Plateau Near Cliff Top Entrance Feather Nest (Hint)",
+                  "visibility_rules": ["ih_nest29"]
+                },
+                {
+                  "name": "IoH: Plateau Near GGM Entrance Egg Nest 3 (Hint)",
+                  "visibility_rules": ["ih_nest30"]
+                },
+                {
+                  "name": "IoH: Plateau Near GGM Entrance Egg Nest 4 (Hint)",
+                  "visibility_rules": ["ih_nest31"]
+                },
+                {
+                  "name": "IoH: Plateau Dirt Pile Feather Nest 1 (Hint)",
+                  "visibility_rules": ["ih_nest32"]
+                },
+                {
+                  "name": "IoH: Plateau Dirt Pile Feather Nest 2 (Hint)",
+                  "visibility_rules": ["ih_nest33"]
                 }
               ],
               "map_locations": [
@@ -235,6 +467,38 @@
                 {
                   "name": "IoH: Pine Grove Underwater Note 2 (Hint)",
                   "visibility_rules": ["pg_uwnote2"]
+                },
+                {
+                  "name": "IoH: Pine Grove Feather Nest 1 (Hint)",
+                  "visibility_rules": ["ih_nest34"]
+                },
+                {
+                  "name": "IoH: Pine Grove Feather Nest 2 (Hint)",
+                  "visibility_rules": ["ih_nest35"]
+                },
+                {
+                  "name": "IoH: Pine Grove Feather Nest 3 (Hint)",
+                  "visibility_rules": ["ih_nest36"]
+                },
+                {
+                  "name": "IoH: Pine Grove Egg Nest 1 (Hint)",
+                  "visibility_rules": ["ih_nest37"]
+                },
+                {
+                  "name": "IoH: Pine Grove Egg Nest 2 (Hint)",
+                  "visibility_rules": ["ih_nest38"]
+                },
+                {
+                  "name": "IoH: Pine Grove Egg Nest 3 (Hint)",
+                  "visibility_rules": ["ih_nest39"]
+                },
+                {
+                  "name": "IoH: Wumba's Wigwam Egg Nest 1 (Hint)",
+                  "visibility_rules": ["ih_nest46"]
+                },
+                {
+                  "name": "IoH: Wumba's Wigwam Egg Nest 2 (Hint)",
+                  "visibility_rules": ["ih_nest47"]
                 }
               ],
               "map_locations": [
@@ -279,6 +543,34 @@
                 {
                   "name": "IoH: Outside HFP Note 4 (Hint)",
                   "visibility_rules": ["ct_note4"]
+                },
+                {
+                  "name": "IoH: Cliff Top Near Path to Plateau Egg Nest 1 (Hint)",
+                  "visibility_rules": ["ih_nest40"]
+                },
+                {
+                  "name": "IoH: Cliff Top Feather Nest 1 (Hint)",
+                  "visibility_rules": ["ih_nest41"]
+                },
+                {
+                  "name": "IoH: Cliff Top Feather Nest 2 (Hint)",
+                  "visibility_rules": ["ih_nest42"]
+                },
+                {
+                  "name": "IoH: Cliff Top Feather Nest 3 (Hint)",
+                  "visibility_rules": ["ih_nest43"]
+                },
+                {
+                  "name": "IoH: Cliff Top Feather Nest 4 (Hint)",
+                  "visibility_rules": ["ih_nest44"]
+                },
+                {
+                  "name": "IoH: Cliff Top Near Path to Plateau Egg Nest 2 (Hint)",
+                  "visibility_rules": ["ih_nest45"]
+                },
+                {
+                  "name": "IoH: Cliff Top Near JRL Egg Nest (Hint)",
+                  "visibility_rules": ["ih_nest64"]
                 }
               ],
               "map_locations": [
@@ -315,6 +607,46 @@
                 {
                   "name": "IoH: Wasteland CCL Area Note 2 (Hint)",
                   "visibility_rules": ["wl_cclnote2"]
+                },
+                {
+                  "name": "IoH: Wasteland Next to Quagmire Entrance Feather Nest (Hint)",
+                  "visibility_rules": ["ih_nest48"]
+                },
+                {
+                  "name": "IoH: Wasteland TDL Entrance Feather Nest 1 (Hint)",
+                  "visibility_rules": ["ih_nest49"]
+                },
+                {
+                  "name": "IoH: Wasteland TDL Entrance Feather Nest 2 (Hint)",
+                  "visibility_rules": ["ih_nest50"]
+                },
+                {
+                  "name": "IoH: Wasteland Behind CCL Bubble Feather Nest (Hint)",
+                  "visibility_rules": ["ih_nest51"]
+                },
+                {
+                  "name": "IoH: Wasteland Near Crevice to CCL Feather Nest (Hint)",
+                  "visibility_rules": ["ih_nest52"]
+                },
+                {
+                  "name": "IoH: Wasteland Near Digger Tunnel Egg Nest 1 (Hint)",
+                  "visibility_rules": ["ih_nest53"]
+                },
+                {
+                  "name": "IoH: Wasteland Near Digger Tunnel Egg Nest 2 (Hint)",
+                  "visibility_rules": ["ih_nest54"]
+                },
+                {
+                  "name": "IoH: Wasteland Near Digger Tunnel Egg Nest 3 (Hint)",
+                  "visibility_rules": ["ih_nest55"]
+                },
+                {
+                  "name": "IoH: Another Digger Tunnel Egg Nest 1 (Hint)",
+                  "visibility_rules": ["ih_nest56"]
+                },
+                {
+                  "name": "IoH: Another Digger Tunnel Egg Nest 2 (Hint)",
+                  "visibility_rules": ["ih_nest57"]
                 }
               ],
               "map_locations": [
@@ -322,6 +654,42 @@
                   "map": "overview",
                   "x": 155,
                   "y": 520
+                }
+              ]
+            },
+            {
+              "name": "Isle O Hags - Qugmire Hints",
+              "sections": [
+                {
+                  "name": "IoH: Quagmire Feather Nest 1 (Hint)",
+                  "visibility_rules": ["ih_nest58"]
+                },
+                {
+                  "name": "IoH: Quagmire Feather Nest 2 (Hint)",
+                  "visibility_rules": ["ih_nest59"]
+                },
+                {
+                  "name": "IoH: Quagmire Feather Nest 3 (Hint)",
+                  "visibility_rules": ["ih_nest60"]
+                },
+                {
+                  "name": "IoH: Quagmire Egg Nest 1 (Hint)",
+                  "visibility_rules": ["ih_nest61"]
+                },
+                {
+                  "name": "IoH: Quagmire Egg Nest 2 (Hint)",
+                  "visibility_rules": ["ih_nest62"]
+                },
+                {
+                  "name": "IoH: Quagmire Egg Nest 3 (Hint)",
+                  "visibility_rules": ["ih_nest63"]
+                }
+              ],
+              "map_locations": [
+                {
+                  "map": "overview",
+                  "x": 155,
+                  "y": 580
                 }
               ]
             },
@@ -529,6 +897,182 @@
                 {
                   "map": "overview",
                   "x": 545,
+                  "y": 160
+                }
+              ]
+            },
+            {
+              "name": "Mayahem Temple - Nests Hints",
+              "sections": [
+                {
+                  "name": "MT: Wumba's Wigwam Feather Nest 1 (Hint)",
+                  "visibility_rules": ["mt_nest1"]
+                },
+                {
+                  "name": "MT: Wumba's Wigwam Feather Nest 2 (Hint)",
+                  "visibility_rules": ["mt_nest2"]
+                },
+                {
+                  "name": "MT: Mumbo's Skull Egg Nest 1 (Hint)",
+                  "visibility_rules": ["mt_nest3"]
+                },
+                {
+                  "name": "MT: Mumbo's Skull Egg Nest 2 (Hint)",
+                  "visibility_rules": ["mt_nest4"]
+                },
+                {
+                  "name": "MT: In Front of Prison Compound Egg Nest 1 (Hint)",
+                  "visibility_rules": ["mt_nest5"]
+                },
+                {
+                  "name": "MT: In Front of Prison Compound Egg Nest 2 (Hint)",
+                  "visibility_rules": ["mt_nest6"]
+                },
+                {
+                  "name": "MT: Outside Treasure Chamber Egg Nest 1 (Hint)",
+                  "visibility_rules": ["mt_nest7"]
+                },
+                {
+                  "name": "MT: In Front of Jade Snake Grove Feather Nest 1 (Hint)",
+                  "visibility_rules": ["mt_nest8"]
+                },
+                {
+                  "name": "MT: In Front of Jade Snake Grove Feather Nest 2 (Hint)",
+                  "visibility_rules": ["mt_nest9"]
+                },
+                {
+                  "name": "MT: Outside Treasure Chamber Egg Nest 2 (Hint)",
+                  "visibility_rules": ["mt_nest10"]
+                },
+                {
+                  "name": "MT: Kickball Stadium Feather Nest 1 (Hint)",
+                  "visibility_rules": ["mt_nest11"]
+                },
+                {
+                  "name": "MT: Kickball Stadium Feather Nest 2 (Hint)",
+                  "visibility_rules": ["mt_nest12"]
+                },
+                {
+                  "name": "MT: Bovina Egg Nest 1 (Hint)",
+                  "visibility_rules": ["mt_nest13"]
+                },
+                {
+                  "name": "MT: Bovina Egg Nest 2 (Hint)",
+                  "visibility_rules": ["mt_nest14"]
+                },
+                {
+                  "name": "MT: Prison Compound Pillars Egg Nest 1 (Hint)",
+                  "visibility_rules": ["mt_nest15"]
+                },
+                {
+                  "name": "MT: Prison Compound Pillars Egg Nest 2 (Hint)",
+                  "visibility_rules": ["mt_nest16"]
+                },
+                {
+                  "name": "MT: Prison Compound Pillars Egg Nest 3 (Hint)",
+                  "visibility_rules": ["mt_nest17"]
+                },
+                {
+                  "name": "MT: Prison Compound Top of Prison Cell Feather Right Nest (Hint)",
+                  "visibility_rules": ["mt_nest18"]
+                },
+                {
+                  "name": "MT: Prison Compound Entrance Egg Nest 1 (Hint)",
+                  "visibility_rules": ["mt_nest19"]
+                },
+                {
+                  "name": "MT: Prison Compound Entrance Egg Nest 2 (Hint)",
+                  "visibility_rules": ["mt_nest20"]
+                },
+                {
+                  "name": "MT: Prison Compound Top of Prison Cell Feather Left Nest (Hint)",
+                  "visibility_rules": ["mt_nest21"]
+                },
+                {
+                  "name": "MT: Jade Snake Grove Above Code Chamber Egg Nest (Hint)",
+                  "visibility_rules": ["mt_nest22"]
+                },
+                {
+                  "name": "MT: Jade Snake Grove Near Warp Pad Egg Nest 1 (Hint)",
+                  "visibility_rules": ["mt_nest23"]
+                },
+                {
+                  "name": "MT: Jade Snake Grove Near Warp Pad Egg Nest 2 (Hint)",
+                  "visibility_rules": ["mt_nest24"]
+                },
+                {
+                  "name": "MT: Targitzan's Temple Raising Slope Room Egg Nest 1 (Hint)",
+                  "visibility_rules": ["mt_nest25"]
+                },
+                {
+                  "name": "MT: Targitzan's Temple Raising Slope Room Egg Nest 2 (Hint)",
+                  "visibility_rules": ["mt_nest26"]
+                },
+                {
+                  "name": "MT: Targitzan's Temple 4-Way Room Egg Nest 1 (Hint)",
+                  "visibility_rules": ["mt_nest27"]
+                },
+                {
+                  "name": "MT: Targitzan's Temple 4-Way Room Egg Nest 2 (Hint)",
+                  "visibility_rules": ["mt_nest28"]
+                },
+                {
+                  "name": "MT: Targitzan's Temple 4-Way Room Egg Nest 3 (Hint)",
+                  "visibility_rules": ["mt_nest29"]
+                },
+                {
+                  "name": "MT: Targitzan's Temple 4-Way Room Egg Nest 4 (Hint)",
+                  "visibility_rules": ["mt_nest30"]
+                },
+                {
+                  "name": "MT: Targitzan's Temple Pillar Maze Egg Nest 1 (Hint)",
+                  "visibility_rules": ["mt_nest31"]
+                },
+                {
+                  "name": "MT: Targitzan's Temple Pillar Maze Egg Nest 2 (Hint)",
+                  "visibility_rules": ["mt_nest32"]
+                },
+                {
+                  "name": "MT: Targitzan's Temple Pillar Maze Egg Nest 3 (Hint)",
+                  "visibility_rules": ["mt_nest33"]
+                },
+                {
+                  "name": "MT: Targitzan's Temple Raising Slope Room Egg Nest 3 (Hint)",
+                  "visibility_rules": ["mt_nest34"]
+                },
+                {
+                  "name": "MT: Targitzan's Temple Golden Egg Nest (Hint)",
+                  "visibility_rules": ["mt_nest35"]
+                },
+                {
+                  "name": "MT: Targitzan's Temple Lobby Left Egg Nest 1 (Hint)",
+                  "visibility_rules": ["mt_nest36"]
+                },
+                {
+                  "name": "MT: Targitzan's Temple Lobby Left Egg Nest 2 (Hint)",
+                  "visibility_rules": ["mt_nest37"]
+                },
+                {
+                  "name": "MT: Targitzan's Temple Lobby Left Egg Nest 3 (Hint)",
+                  "visibility_rules": ["mt_nest38"]
+                },
+                {
+                  "name": "MT: Targitzan's Temple Lobby Right Egg Nest 1 (Hint)",
+                  "visibility_rules": ["mt_nest39"]
+                },
+                {
+                  "name": "MT: Targitzan's Temple Lobby Right Egg Nest 2 (Hint)",
+                  "visibility_rules": ["mt_nest40"]
+                },
+                {
+                  "name": "MT: Targitzan's Temple Lobby Right Egg Nest 3 (Hint)",
+                  "visibility_rules": ["mt_nest41"]
+                }
+              ],
+              "map_locations": [
+                {
+                  "map": "overview",
+                  "x": 620,
                   "y": 160
                 }
               ]
@@ -758,6 +1302,170 @@
               ]
             },
             {
+              "name": "Glitter Gulch Mine - Nests Hints",
+              "sections": [
+                {
+                  "name": "GGM: Outside Ordnance Storage Egg Nest 1 (Hint)",
+                  "visibility_rules": ["gm_nest1"]
+                },
+                {
+                  "name": "GGM: Outside Ordnance Storage Egg Nest 2 (Hint)",
+                  "visibility_rules": ["gm_nest2"]
+                },
+                {
+                  "name": "GGM: Near Bill Drill Silo Egg Nest 1 (Hint)",
+                  "visibility_rules": ["gm_nest3"]
+                },
+                {
+                  "name": "GGM: Near Bill Drill Silo Egg Nest 2 (Hint)",
+                  "visibility_rules": ["gm_nest4"]
+                },
+                {
+                  "name": "GGM: Fuel Depot Egg Nest 1 (Hint)",
+                  "visibility_rules": ["gm_nest5"]
+                },
+                {
+                  "name": "GGM: Fuel Depot Egg Nest 2 (Hint)",
+                  "visibility_rules": ["gm_nest6"]
+                },
+                {
+                  "name": "GGM: Fuel Depot Egg Nest 3 (Hint)",
+                  "visibility_rules": ["gm_nest7"]
+                },
+                {
+                  "name": "GGM: Fuel Depot Feather Nest 1 (Hint)",
+                  "visibility_rules": ["gm_nest8"]
+                },
+                {
+                  "name": "GGM: Fuel Depot Feather Nest 2 (Hint)",
+                  "visibility_rules": ["gm_nest9"]
+                },
+                {
+                  "name": "GGM: Fuel Depot Feather Nest 3 (Hint)",
+                  "visibility_rules": ["gm_nest10"]
+                },
+                {
+                  "name": "GGM: Crushing Shed Egg Nest 1 (Hint)",
+                  "visibility_rules": ["gm_nest11"]
+                },
+                {
+                  "name": "GGM: Crushing Shed Egg Nest 2 (Hint)",
+                  "visibility_rules": ["gm_nest12"]
+                },
+                {
+                  "name": "GGM: Flooded Caves Egg Nest 1 (Hint)",
+                  "visibility_rules": ["gm_nest13"]
+                },
+                {
+                  "name": "GGM: Flooded Caves Egg Nest 2 (Hint)",
+                  "visibility_rules": ["gm_nest14"]
+                },
+                {
+                  "name": "GGM: Water Storage Jinjo Tank Egg Nest (Hint)",
+                  "visibility_rules": ["gm_nest15"]
+                },
+                {
+                  "name": "GGM: Gloomy Caverns Near Power Hut Egg Nest 1 (Hint)",
+                  "visibility_rules": ["gm_nest16"]
+                },
+                {
+                  "name": "GGM: Gloomy Caverns Near Power Hut Egg Nest 2 (Hint)",
+                  "visibility_rules": ["gm_nest17"]
+                },
+                {
+                  "name": "GGM: Gloomy Caverns Jail Cell Feather Nest (Hint)",
+                  "visibility_rules": ["gm_nest18"]
+                },
+                {
+                  "name": "GGM: Gloomy Caverns Near Second Boulder Egg Nest (Hint)",
+                  "visibility_rules": ["gm_nest19"]
+                },
+                {
+                  "name": "GGM: Generator Cavern Egg Nest (Hint)",
+                  "visibility_rules": ["gm_nest20"]
+                },
+                {
+                  "name": "GGM: Power Hut Feather Nest (Hint)",
+                  "visibility_rules": ["gm_nest21"]
+                },
+                {
+                  "name": "GGM: Train Station Egg Nest 1 (Hint)",
+                  "visibility_rules": ["gm_nest22"]
+                },
+                {
+                  "name": "GGM: Train Station Egg Nest 2 (Hint)",
+                  "visibility_rules": ["gm_nest23"]
+                },
+                {
+                  "name": "GGM: Train Station Feather Nest 1 (Hint)",
+                  "visibility_rules": ["gm_nest24"]
+                },
+                {
+                  "name": "GGM: Train Station Feather Nest 2 (Hint)",
+                  "visibility_rules": ["gm_nest25"]
+                },
+                {
+                  "name": "GGM: Prospector's Hut Egg Nest (Hint)",
+                  "visibility_rules": ["gm_nest26"]
+                },
+                {
+                  "name": "GGM: Mumbo's Skull Feather Nest 1 (Hint)",
+                  "visibility_rules": ["gm_nest27"]
+                },
+                {
+                  "name": "GGM: Mumbo's Skull Feather Nest 2 (Hint)",
+                  "visibility_rules": ["gm_nest28"]
+                },
+                {
+                  "name": "GGM: Mumbo's Skull Feather Nest 3 (Hint)",
+                  "visibility_rules": ["gm_nest29"]
+                },
+                {
+                  "name": "GGM: Toxic Gas Cave Egg Nest (Hint)",
+                  "visibility_rules": ["gm_nest30"]
+                },
+                {
+                  "name": "GGM: Toxic Gas Cave Feather Nest (Hint)",
+                  "visibility_rules": ["gm_nest31"]
+                },
+                {
+                  "name": "GGM: Canary Cave Front-Right Egg Nest (Hint)",
+                  "visibility_rules": ["gm_nest32"]
+                },
+                {
+                  "name": "GGM: Canary Cave Back-Left Egg Nest (Hint)",
+                  "visibility_rules": ["gm_nest33"]
+                },
+                {
+                  "name": "GGM: Canary Cave Front-Left Feather Nest (Hint)",
+                  "visibility_rules": ["gm_nest34"]
+                },
+                {
+                  "name": "GGM: Canary Cave Back-Right Feather Nest (Hint)",
+                  "visibility_rules": ["gm_nest35"]
+                },
+                {
+                  "name": "GGM: Ordnance Storage Lobby Egg Nest 1 (Hint)",
+                  "visibility_rules": ["gm_nest36"]
+                },
+                {
+                  "name": "GGM: Ordnance Storage Lobby Egg Nest 2 (Hint)",
+                  "visibility_rules": ["gm_nest37"]
+                },
+                {
+                  "name": "GGM: Ordnance Storage Lobby Egg Nest 3 (Hint)",
+                  "visibility_rules": ["gm_nest38"]
+                }
+              ],
+              "map_locations": [
+                {
+                  "map": "overview",
+                  "x": 620,
+                  "y": 220
+                }
+              ]
+            },
+            {
               "name": "Witchyworld Hints",
               "sections": [
                 {
@@ -965,6 +1673,186 @@
                 {
                   "map": "overview",
                   "x": 545,
+                  "y": 280
+                }
+              ]
+            },
+            {
+              "name": "Witchyworld - Nests Hints",
+              "sections": [
+                {
+                  "name": "WW: Near Mrs Boggy Egg Nest 1 (Hint)",
+                  "visibility_rules": ["ww_nest1"]
+                },
+                {
+                  "name": "WW: Near Mrs Boggy Egg Nest 2 (Hint)",
+                  "visibility_rules": ["ww_nest2"]
+                },
+                {
+                  "name": "WW: Outside Star Spinner Egg Nest 1 (Hint)",
+                  "visibility_rules": ["ww_nest3"]
+                },
+                {
+                  "name": "WW: Outside Star Spinner Egg Nest 2 (Hint)",
+                  "visibility_rules": ["ww_nest4"]
+                },
+                {
+                  "name": "WW: Area 51 Egg Nest 1 (Hint)",
+                  "visibility_rules": ["ww_nest5"]
+                },
+                {
+                  "name": "WW: Area 51 Egg Nest 2 (Hint)",
+                  "visibility_rules": ["ww_nest6"]
+                },
+                {
+                  "name": "WW: On Big Top Support Feather Nest 1 (Hint)",
+                  "visibility_rules": ["ww_nest7"]
+                },
+                {
+                  "name": "WW: On Big Top Support Feather Nest 2 (Hint)",
+                  "visibility_rules": ["ww_nest8"]
+                },
+                {
+                  "name": "WW: On Big Top Support Feather Nest 3 (Hint)",
+                  "visibility_rules": ["ww_nest9"]
+                },
+                {
+                  "name": "WW: On Big Top Support Feather Nest 4 (Hint)",
+                  "visibility_rules": ["ww_nest10"]
+                },
+                {
+                  "name": "WW: On Big Top Support Feather Nest 5 (Hint)",
+                  "visibility_rules": ["ww_nest11"]
+                },
+                {
+                  "name": "WW: On Big Top Support Feather Nest 6 (Hint)",
+                  "visibility_rules": ["ww_nest12"]
+                },
+                {
+                  "name": "WW: Crazy Castle Stockade Egg Nest 1 (Hint)",
+                  "visibility_rules": ["ww_nest13"]
+                },
+                {
+                  "name": "WW: Crazy Castle Stockade Egg Nest 2 (Hint)",
+                  "visibility_rules": ["ww_nest14"]
+                },
+                {
+                  "name": "WW: Pump Room Feather Nest 1 (Hint)",
+                  "visibility_rules": ["ww_nest15"]
+                },
+                {
+                  "name": "WW: Pump Room Feather Nest 2 (Hint)",
+                  "visibility_rules": ["ww_nest16"]
+                },
+                {
+                  "name": "WW: Star Spinner Egg Nest (Hint)",
+                  "visibility_rules": ["ww_nest17"]
+                },
+                {
+                  "name": "WW: Star Spinner Feather Nest 1 (Hint)",
+                  "visibility_rules": ["ww_nest18"]
+                },
+                {
+                  "name": "WW: Star Spinner Feather Nest 2 (Hint)",
+                  "visibility_rules": ["ww_nest19"]
+                },
+                {
+                  "name": "WW: Inferno Egg Nest 1 (Hint)",
+                  "visibility_rules": ["ww_nest20"]
+                },
+                {
+                  "name": "WW: Inferno Egg Nest 2 (Hint)",
+                  "visibility_rules": ["ww_nest21"]
+                },
+                {
+                  "name": "WW: The Haunted Cavern Egg Nest 1 (Hint)",
+                  "visibility_rules": ["ww_nest22"]
+                },
+                {
+                  "name": "WW: The Haunted Cavern Egg Nest 2 (Hint)",
+                  "visibility_rules": ["ww_nest23"]
+                },
+                {
+                  "name": "WW: The Haunted Cavern Egg Nest 3 (Hint)",
+                  "visibility_rules": ["ww_nest24"]
+                },
+                {
+                  "name": "WW: Train Station Egg Nest 1 (Hint)",
+                  "visibility_rules": ["ww_nest25"]
+                },
+                {
+                  "name": "WW: Train Station Egg Nest 2 (Hint)",
+                  "visibility_rules": ["ww_nest26"]
+                },
+                {
+                  "name": "WW: Big Top Left Pack Feather Nest 1 (Hint)",
+                  "visibility_rules": ["ww_nest27"]
+                },
+                {
+                  "name": "WW: Big Top Left Pack Egg Nest 1 (Hint)",
+                  "visibility_rules": ["ww_nest28"]
+                },
+                {
+                  "name": "WW: Big Top Right Pack Feather Nest 1 (Hint)",
+                  "visibility_rules": ["ww_nest29"]
+                },
+                {
+                  "name": "WW: Big Top Right Pack Egg Nest 1 (Hint)",
+                  "visibility_rules": ["ww_nest30"]
+                },
+                {
+                  "name": "WW: Big Top Right Pack Feather Nest 2 (Hint)",
+                  "visibility_rules": ["ww_nest31"]
+                },
+                {
+                  "name": "WW: Big Top Left Pack Feather Nest 2 (Hint)",
+                  "visibility_rules": ["ww_nest32"]
+                },
+                {
+                  "name": "WW: Big Top Left Pack Egg Nest 2 (Hint)",
+                  "visibility_rules": ["ww_nest33"]
+                },
+                {
+                  "name": "WW: Big Top Right Pack Egg Nest 2 (Hint)",
+                  "visibility_rules": ["ww_nest34"]
+                },
+                {
+                  "name": "WW: Big Top Back Pack Feather Nest 1 (Hint)",
+                  "visibility_rules": ["ww_nest35"]
+                },
+                {
+                  "name": "WW: Big Top Back Pack Egg Nest 1 (Hint)",
+                  "visibility_rules": ["ww_nest36"]
+                },
+                {
+                  "name": "WW: Big Top Back Pack Egg Nest 2 (Hint)",
+                  "visibility_rules": ["ww_nest37"]
+                },
+                {
+                  "name": "WW: Big Top Back Pack Feather Nest 2 (Hint)",
+                  "visibility_rules": ["ww_nest38"]
+                },
+                {
+                  "name": "WW: Big Top Front Pack Egg Nest 1 (Hint)",
+                  "visibility_rules": ["ww_nest39"]
+                },
+                {
+                  "name": "WW: Big Top Front Pack Feather Nest 1 (Hint)",
+                  "visibility_rules": ["ww_nest40"]
+                },
+                {
+                  "name": "WW: Big Top Front Pack Feather Nest 2 (Hint)",
+                  "visibility_rules": ["ww_nest41"]
+                },
+                {
+                  "name": "WW: Big Top Front Pack Egg Nest 2 (Hint)",
+                  "visibility_rules": ["ww_nest42"]
+                }
+              ],
+              "map_locations": [
+                {
+                  "map": "overview",
+                  "x": 620,
                   "y": 280
                 }
               ]
@@ -1178,6 +2066,178 @@
               ]
             },
             {
+              "name": "Jolly Roger's Lagoon - Nests Hints",
+              "sections": [
+                {
+                  "name": "JRL: Jolly's Near Blackeye Egg Nest 1 (Hint)",
+                  "visibility_rules": ["jr_nest1"]
+                },
+                {
+                  "name": "JRL: Jolly's Near Blackeye Egg Nest 2 (Hint)",
+                  "visibility_rules": ["jr_nest2"]
+                },
+                {
+                  "name": "JRL: Jolly's Near Sub-Aqua Egg Aiming Silo Feather Nest 1 (Hint)",
+                  "visibility_rules": ["jr_nest3"]
+                },
+                {
+                  "name": "JRL: Jolly's Near Sub-Aqua Egg Aiming Silo Feather Nest 2 (Hint)",
+                  "visibility_rules": ["jr_nest4"]
+                },
+                {
+                  "name": "JRL: Jolly's Gunpowder Feather Nest 1 (Hint)",
+                  "visibility_rules": ["jr_nest5"]
+                },
+                {
+                  "name": "JRL: Jolly's Gunpowder Feather Nest 2 (Hint)",
+                  "visibility_rules": ["jr_nest6"]
+                },
+                {
+                  "name": "JRL: Pawno's Emporium Egg Nest 1 (Hint)",
+                  "visibility_rules": ["jr_nest7"]
+                },
+                {
+                  "name": "JRL: Pawno's Emporium Egg Nest 2 (Hint)",
+                  "visibility_rules": ["jr_nest8"]
+                },
+                {
+                  "name": "JRL: Pawno's Emporium Egg Nest 3 (Hint)",
+                  "visibility_rules": ["jr_nest9"]
+                },
+                {
+                  "name": "JRL: Seaweed Sanctum Bottom Floor Feather Nest (Hint)",
+                  "visibility_rules": ["jr_nest10"]
+                },
+                {
+                  "name": "JRL: Seaweed Sanctum Second Floor Egg Nest 1 (Hint)",
+                  "visibility_rules": ["jr_nest11"]
+                },
+                {
+                  "name": "JRL: Seaweed Sanctum Top Floor Feather Nest (Hint)",
+                  "visibility_rules": ["jr_nest12"]
+                },
+                {
+                  "name": "JRL: Seaweed Sanctum Second Floor Egg Nest 2 (Hint)",
+                  "visibility_rules": ["jr_nest13"]
+                },
+                {
+                  "name": "JRL: Inside the Big Fish Feather Nest 1 (Hint)",
+                  "visibility_rules": ["jr_nest14"]
+                },
+                {
+                  "name": "JRL: Inside the Big Fish Feather Nest 2 (Hint)",
+                  "visibility_rules": ["jr_nest15"]
+                },
+                {
+                  "name": "JRL: Temple of the Fishes Egg Nest 1 (Hint)",
+                  "visibility_rules": ["jr_nest16"]
+                },
+                {
+                  "name": "JRL: Temple of the Fishes Egg Nest 2 (Hint)",
+                  "visibility_rules": ["jr_nest17"]
+                },
+                {
+                  "name": "JRL: Temple of the Fishes Egg Nest 3 (Hint)",
+                  "visibility_rules": ["jr_nest18"]
+                },
+                {
+                  "name": "JRL: Temple of the Fishes Egg Nest 4 (Hint)",
+                  "visibility_rules": ["jr_nest19"]
+                },
+                {
+                  "name": "JRL: Davie Jones Locker Egg Nest 1 (Hint)",
+                  "visibility_rules": ["jr_nest20"]
+                },
+                {
+                  "name": "JRL: Davie Jones Locker Egg Nest 2 (Hint)",
+                  "visibility_rules": ["jr_nest21"]
+                },
+                {
+                  "name": "JRL: Davie Jones Locker Egg Nest 3 (Hint)",
+                  "visibility_rules": ["jr_nest22"]
+                },
+                {
+                  "name": "JRL: Davie Jones Locker Egg Nest 4 (Hint)",
+                  "visibility_rules": ["jr_nest23"]
+                },
+                {
+                  "name": "JRL: Wumba's Wigwam Feather Nest (Hint)",
+                  "visibility_rules": ["jr_nest24"]
+                },
+                {
+                  "name": "JRL: Smuggler's Cavern Egg Nest 1 (Hint)",
+                  "visibility_rules": ["jr_nest25"]
+                },
+                {
+                  "name": "JRL: Smuggler's Cavern Egg Nest 2 (Hint)",
+                  "visibility_rules": ["jr_nest26"]
+                },
+                {
+                  "name": "JRL: Town Center Blubbul Egg Nest (Hint)",
+                  "visibility_rules": ["jr_nest27"]
+                },
+                {
+                  "name": "JRL: Atlantis Egg Nest 1 (Hint)",
+                  "visibility_rules": ["jr_nest28"]
+                },
+                {
+                  "name": "JRL: Atlantis Egg Nest 2 (Hint)",
+                  "visibility_rules": ["jr_nest29"]
+                },
+                {
+                  "name": "JRL: Atlantis Egg Nest 3 (Hint)",
+                  "visibility_rules": ["jr_nest30"]
+                },
+                {
+                  "name": "JRL: Sunken Ship Egg Nest 1 (Hint)",
+                  "visibility_rules": ["jr_nest31"]
+                },
+                {
+                  "name": "JRL: Sunken Ship Egg Nest 2 (Hint)",
+                  "visibility_rules": ["jr_nest32"]
+                },
+                {
+                  "name": "JRL: Atlantis Seemee Fish Egg Nest (Hint)",
+                  "visibility_rules": ["jr_nest33"]
+                },
+                {
+                  "name": "JRL: Lockers Egg Nest 1 (Hint)",
+                  "visibility_rules": ["jr_nest34"]
+                },
+                {
+                  "name": "JRL: Lockers Egg Nest 2 (Hint)",
+                  "visibility_rules": ["jr_nest35"]
+                },
+                {
+                  "name": "JRL: Lockers Egg Nest 3 (Hint)",
+                  "visibility_rules": ["jr_nest36"]
+                },
+                {
+                  "name": "JRL: Near Big Fish Warp Pad Egg Nest 1 (Hint)",
+                  "visibility_rules": ["jr_nest37"]
+                },
+                {
+                  "name": "JRL: Near Big Fish Warp Pad Egg Nest 2 (Hint)",
+                  "visibility_rules": ["jr_nest38"]
+                },
+                {
+                  "name": "JRL: Locker Cavern Seemee Fish Feather Nest (Hint)",
+                  "visibility_rules": ["jr_nest39"]
+                },
+                {
+                  "name": "JRL: Locker Cavern Seemee Fish Egg Nest (Hint)",
+                  "visibility_rules": ["jr_nest40"]
+                }
+              ],
+              "map_locations": [
+                {
+                  "map": "overview",
+                  "x": 620,
+                  "y": 340
+                }
+              ]
+            },
+            {
               "name": "Jolly Roger's Lagoon - Doubloons Hints",
               "sections": [
                 {
@@ -1304,7 +2364,7 @@
               "map_locations": [
                 {
                   "map": "overview",
-                  "x": 620,
+                  "x": 695,
                   "y": 340
                 }
               ]
@@ -1381,15 +2441,15 @@
                   "visibility_rules": ["td_trainsw"]
                 },
                 {
-                  "name": "TDL: Scrut (Hint)",
+                  "name": "TDL: Scrut (Lost) (Hint)",
                   "visibility_rules": ["td_scrut"]
                 },
                 {
-                  "name": "TDL: Scrat (Hint)",
+                  "name": "TDL: Scrat (Sick) (Hint)",
                   "visibility_rules": ["td_scrat"]
                 },
                 {
-                  "name": "TDL: Scrit (Hint)",
+                  "name": "TDL: Scrit (Small) (Hint)",
                   "visibility_rules": ["td_scrit"]
                 },
                 {
@@ -1533,6 +2593,238 @@
                 {
                   "map": "overview",
                   "x": 545,
+                  "y": 400
+                }
+              ]
+            },
+            {
+              "name": "Terrydactyland - Nests Hints",
+              "sections": [
+                {
+                  "name": "TDL: Flight Pad Pillar Feather Nest 1 (Hint)",
+                  "visibility_rules": ["td_nest1"]
+                },
+                {
+                  "name": "TDL: Flight Pad Pillar Feather Nest 2 (Hint)",
+                  "visibility_rules": ["td_nest2"]
+                },
+                {
+                  "name": "TDL: Flight Pad Pillar Feather Nest 3 (Hint)",
+                  "visibility_rules": ["td_nest3"]
+                },
+                {
+                  "name": "TDL: Alcove Near Waterfall Egg Nest 1 (Hint)",
+                  "visibility_rules": ["td_nest4"]
+                },
+                {
+                  "name": "TDL: Alcove Near Waterfall Egg Nest 2 (Hint)",
+                  "visibility_rules": ["td_nest5"]
+                },
+                {
+                  "name": "TDL: Top of the Mountain Egg Nest (Hint)",
+                  "visibility_rules": ["td_nest6"]
+                },
+                {
+                  "name": "TDL: Entrance Egg Nest (Hint)",
+                  "visibility_rules": ["td_nest7"]
+                },
+                {
+                  "name": "TDL: Path to Terry Egg Nest 1 (Hint)",
+                  "visibility_rules": ["td_nest8"]
+                },
+                {
+                  "name": "TDL: Path to Terry Feather Nest 1 (Hint)",
+                  "visibility_rules": ["td_nest9"]
+                },
+                {
+                  "name": "TDL: Path to Terry Egg Nest 2 (Hint)",
+                  "visibility_rules": ["td_nest10"]
+                },
+                {
+                  "name": "TDL: Path to Terry Feather Nest 2 (Hint)",
+                  "visibility_rules": ["td_nest11"]
+                },
+                {
+                  "name": "TDL: Left of Wall with Holes Egg Nest 1 (Hint)",
+                  "visibility_rules": ["td_nest12"]
+                },
+                {
+                  "name": "TDL: Left of Wall with Holes Egg Nest 2 (Hint)",
+                  "visibility_rules": ["td_nest13"]
+                },
+                {
+                  "name": "TDL: Right of Wall with Holes Egg Nest 1 (Hint)",
+                  "visibility_rules": ["td_nest14"]
+                },
+                {
+                  "name": "TDL: Right of Wall with Holes Egg Nest 2 (Hint)",
+                  "visibility_rules": ["td_nest15"]
+                },
+                {
+                  "name": "TDL: Near Shock Spring Pad Up the Mountain Egg Nest 1 (Hint)",
+                  "visibility_rules": ["td_nest16"]
+                },
+                {
+                  "name": "TDL: Near Shock Spring Pad Up the Mountain Egg Nest 2 (Hint)",
+                  "visibility_rules": ["td_nest17"]
+                },
+                {
+                  "name": "TDL: Near River Passage Entrance Egg Nest (Hint)",
+                  "visibility_rules": ["td_nest18"]
+                },
+                {
+                  "name": "TDL: Right of Scrotty Cave Egg Nest 1 (Hint)",
+                  "visibility_rules": ["td_nest19"]
+                },
+                {
+                  "name": "TDL: Right of Scrotty Cave Egg Nest 2 (Hint)",
+                  "visibility_rules": ["td_nest20"]
+                },
+                {
+                  "name": "TDL: Terry's Nest Egg Nest 1 (Hint)",
+                  "visibility_rules": ["td_nest21"]
+                },
+                {
+                  "name": "TDL: Terry's Nest Egg Nest 2 (Hint)",
+                  "visibility_rules": ["td_nest22"]
+                },
+                {
+                  "name": "TDL: Train Station Egg Nest 1 (Hint)",
+                  "visibility_rules": ["td_nest23"]
+                },
+                {
+                  "name": "TDL: Train Station Egg Nest 2 (Hint)",
+                  "visibility_rules": ["td_nest24"]
+                },
+                {
+                  "name": "TDL: Train Station Feather Nest 1 (Hint)",
+                  "visibility_rules": ["td_nest25"]
+                },
+                {
+                  "name": "TDL: Train Station Feather Nest 2 (Hint)",
+                  "visibility_rules": ["td_nest26"]
+                },
+                {
+                  "name": "TDL: Oogle Boogle Feather Nest 1 (Hint)",
+                  "visibility_rules": ["td_nest27"]
+                },
+                {
+                  "name": "TDL: Oogle Boogle Feather Nest 2 (Hint)",
+                  "visibility_rules": ["td_nest28"]
+                },
+                {
+                  "name": "TDL: Oogle Boogle Egg Nest 1 (Hint)",
+                  "visibility_rules": ["td_nest29"]
+                },
+                {
+                  "name": "TDL: Oogle Boogle Egg Nest 2 (Hint)",
+                  "visibility_rules": ["td_nest30"]
+                },
+                {
+                  "name": "TDL: Inside the Mountain Feather Nest 1 (Hint)",
+                  "visibility_rules": ["td_nest31"]
+                },
+                {
+                  "name": "TDL: Inside the Mountain Feather Nest 2 (Hint)",
+                  "visibility_rules": ["td_nest32"]
+                },
+                {
+                  "name": "TDL: Inside the Mountain Egg Nest 1 (Hint)",
+                  "visibility_rules": ["td_nest33"]
+                },
+                {
+                  "name": "TDL: Inside the Mountain Egg Nest 2 (Hint)",
+                  "visibility_rules": ["td_nest34"]
+                },
+                {
+                  "name": "TDL: River Passage Feather Nest (Hint)",
+                  "visibility_rules": ["td_nest35"]
+                },
+                {
+                  "name": "TDL: Styracosaurus Family Cave Feather Nest 1 (Hint)",
+                  "visibility_rules": ["td_nest36"]
+                },
+                {
+                  "name": "TDL: Styracosaurus Family Cave Feather Nest 2 (Hint)",
+                  "visibility_rules": ["td_nest37"]
+                },
+                {
+                  "name": "TDL: Styracosaurus Family Cave Feather Nest 3 (Hint)",
+                  "visibility_rules": ["td_nest38"]
+                },
+                {
+                  "name": "TDL: Unga Bunga's Cave Feather Nest 1 (Hint)",
+                  "visibility_rules": ["td_nest39"]
+                },
+                {
+                  "name": "TDL: Unga Bunga's Cave Feather Nest 2 (Hint)",
+                  "visibility_rules": ["td_nest40"]
+                },
+                {
+                  "name": "TDL: Unga Bunga's Cave Feather Nest 3 (Hint)",
+                  "visibility_rules": ["td_nest41"]
+                },
+                {
+                  "name": "TDL: Unga Bunga's Cave Egg Nest 1 (Hint)",
+                  "visibility_rules": ["td_nest42"]
+                },
+                {
+                  "name": "TDL: Unga Bunga's Cave Egg Nest 2 (Hint)",
+                  "visibility_rules": ["td_nest43"]
+                },
+                {
+                  "name": "TDL: Unga Bunga's Cave Egg Nest 3 (Hint)",
+                  "visibility_rules": ["td_nest44"]
+                },
+                {
+                  "name": "TDL: Stomping Plains Middle Path Feather Nest (Hint)",
+                  "visibility_rules": ["td_nest45"]
+                },
+                {
+                  "name": "TDL: Stomping Plains Near Entrance Feather Nest (Hint)",
+                  "visibility_rules": ["td_nest46"]
+                },
+                {
+                  "name": "TDL: Stomping Plains Left Path Feather Nest 1 (Hint)",
+                  "visibility_rules": ["td_nest47"]
+                },
+                {
+                  "name": "TDL: Stomping Plains Left Path Feather Nest 2 (Hint)",
+                  "visibility_rules": ["td_nest48"]
+                },
+                {
+                  "name": "TDL: Stomping Plains Right Path Feather Nest 1 (Hint)",
+                  "visibility_rules": ["td_nest49"]
+                },
+                {
+                  "name": "TDL: Stomping Plains Right Path Feather Nest 2 (Hint)",
+                  "visibility_rules": ["td_nest50"]
+                },
+                {
+                  "name": "TDL: Stomping Plains Second Footprint Feather Nest (Hint)",
+                  "visibility_rules": ["td_nest51"]
+                },
+                {
+                  "name": "TDL: Bonfire Cavern Entrance Feather Nest (Hint)",
+                  "visibility_rules": ["td_nest52"]
+                },
+                {
+                  "name": "TDL: Bonfire Cavern Exit Feather Nest (Hint)",
+                  "visibility_rules": ["td_nest53"]
+                },
+                {
+                  "name": "TDL: Mumbo's Skull Feather Nest 1 (Hint)",
+                  "visibility_rules": ["td_nest54"]
+                },
+                {
+                  "name": "TDL: Mumbo's Skull Feather Nest 2 (Hint)",
+                  "visibility_rules": ["td_nest55"]
+                }
+              ],
+              "map_locations": [
+                {
+                  "map": "overview",
+                  "x": 620,
                   "y": 400
                 }
               ]
@@ -1750,6 +3042,330 @@
               ]
             },
             {
+              "name": "Grunty Industries - Nests Hints",
+              "sections": [
+                {
+                  "name": "GI Outside: Roof Feather Nest 1 (Hint)",
+                  "visibility_rules": ["gi_nest1"]
+                },
+                {
+                  "name": "GI Outside: Roof Feather Nest 2 (Hint)",
+                  "visibility_rules": ["gi_nest2"]
+                },
+                {
+                  "name": "GI Outside: Roof Feather Nest 3 (Hint)",
+                  "visibility_rules": ["gi_nest3"]
+                },
+                {
+                  "name": "GI Outside: Right Side of Building Feather Nest (Hint)",
+                  "visibility_rules": ["gi_nest4"]
+                },
+                {
+                  "name": "GI Outside: Left Side of Building Feather Nest (Hint)",
+                  "visibility_rules": ["gi_nest5"]
+                },
+                {
+                  "name": "GI Floor 1: Top Pipe Egg Nest (Hint)",
+                  "visibility_rules": ["gi_nest6"]
+                },
+                {
+                  "name": "GI Floor 1: High Pipe Egg Nest 1 (Hint)",
+                  "visibility_rules": ["gi_nest7"]
+                },
+                {
+                  "name": "GI Floor 1: Near Waste Disposal Feather Nest 1 (Hint)",
+                  "visibility_rules": ["gi_nest8"]
+                },
+                {
+                  "name": "GI Floor 1: Near Waste Disposal Feather Nest 2 (Hint)",
+                  "visibility_rules": ["gi_nest9"]
+                },
+                {
+                  "name": "GI Floor 1: High Pipe Egg Nest 2 (Hint)",
+                  "visibility_rules": ["gi_nest10"]
+                },
+                {
+                  "name": "GI Floor 1: Top of Trash Compactor Feather Nest (Hint)",
+                  "visibility_rules": ["gi_nest11"]
+                },
+                {
+                  "name": "GI Floor 1: Train Station Big Box Egg Nest (Hint)",
+                  "visibility_rules": ["gi_nest12"]
+                },
+                {
+                  "name": "GI Floor 1: Train Station Small Box Egg Nest (Hint)",
+                  "visibility_rules": ["gi_nest13"]
+                },
+                {
+                  "name": "GI Floor 1: Train Station Medium Box Egg Nest (Hint)",
+                  "visibility_rules": ["gi_nest14"]
+                },
+                {
+                  "name": "GI Floor 1: Workers' Quarters Egg Nest (Hint)",
+                  "visibility_rules": ["gi_nest15"]
+                },
+                {
+                  "name": "GI Floor 1: Workers' Quarters Feather Nest (Hint)",
+                  "visibility_rules": ["gi_nest16"]
+                },
+                {
+                  "name": "GI Floor 1: Trash Compactor Egg Nest 1 (Hint)",
+                  "visibility_rules": ["gi_nest17"]
+                },
+                {
+                  "name": "GI Floor 1: Trash Compactor Egg Nest 2 (Hint)",
+                  "visibility_rules": ["gi_nest18"]
+                },
+                {
+                  "name": "GI Elevator Shaft: Floor 2 Egg Nest (Hint)",
+                  "visibility_rules": ["gi_nest19"]
+                },
+                {
+                  "name": "GI Elevator Shaft: Floor 3 Egg Nest (Hint)",
+                  "visibility_rules": ["gi_nest20"]
+                },
+                {
+                  "name": "GI Elevator Shaft: Floor 4 Egg Nest (Hint)",
+                  "visibility_rules": ["gi_nest21"]
+                },
+                {
+                  "name": "GI Floor 2: In a Box Egg Nest 1 (Hint)",
+                  "visibility_rules": ["gi_nest22"]
+                },
+                {
+                  "name": "GI Floor 2: On Scaffolding Egg Nest 1 (Hint)",
+                  "visibility_rules": ["gi_nest23"]
+                },
+                {
+                  "name": "GI Floor 2: Near Floor 1 Tunnel Egg Nest (Hint)",
+                  "visibility_rules": ["gi_nest24"]
+                },
+                {
+                  "name": "GI Floor 2: In a Box Egg Nest 2 (Hint)",
+                  "visibility_rules": ["gi_nest25"]
+                },
+                {
+                  "name": "GI Floor 2: Near Cheato Page Feather Nest (Hint)",
+                  "visibility_rules": ["gi_nest26"]
+                },
+                {
+                  "name": "GI Floor 2: On Scaffolding Egg Nest 2 (Hint)",
+                  "visibility_rules": ["gi_nest27"]
+                },
+                {
+                  "name": "GI Floor 2: On Scaffolding Egg Nest 3 (Hint)",
+                  "visibility_rules": ["gi_nest28"]
+                },
+                {
+                  "name": "GI Floor 2: On Scaffolding Egg Nest 4 (Hint)",
+                  "visibility_rules": ["gi_nest29"]
+                },
+                {
+                  "name": "GI Floor 2: On Scaffolding Egg Nest 5 (Hint)",
+                  "visibility_rules": ["gi_nest30"]
+                },
+                {
+                  "name": "GI Floor 2: Near Unscrewable Platform Feather Nest (Hint)",
+                  "visibility_rules": ["gi_nest31"]
+                },
+                {
+                  "name": "GI Floor 2: Electromagnetic Chamber Feather Nest (Hint)",
+                  "visibility_rules": ["gi_nest32"]
+                },
+                {
+                  "name": "GI Floor 2: Electromagnetic Chamber Egg Nest 1 (Hint)",
+                  "visibility_rules": ["gi_nest33"]
+                },
+                {
+                  "name": "GI Floor 2: Electromagnetic Chamber Egg Nest 2 (Hint)",
+                  "visibility_rules": ["gi_nest34"]
+                },
+                {
+                  "name": "GI Floor 3: On Boxes Egg Nest 1 (Hint)",
+                  "visibility_rules": ["gi_nest35"]
+                },
+                {
+                  "name": "GI Floor 3: On Boxes Egg Nest 2 (Hint)",
+                  "visibility_rules": ["gi_nest36"]
+                },
+                {
+                  "name": "GI Floor 3: Near Mumbo's Skull Egg Nest (Hint)",
+                  "visibility_rules": ["gi_nest37"]
+                },
+                {
+                  "name": "GI Floor 3: On Crate Egg Nest (Hint)",
+                  "visibility_rules": ["gi_nest38"]
+                },
+                {
+                  "name": "GI Floor 3: On Boxes Feather Nest 1 (Hint)",
+                  "visibility_rules": ["gi_nest39"]
+                },
+                {
+                  "name": "GI Floor 3: On Boxes Feather Nest 2 (Hint)",
+                  "visibility_rules": ["gi_nest40"]
+                },
+                {
+                  "name": "GI Floor 3: Boiler Plant Left Egg Nest (Hint)",
+                  "visibility_rules": ["gi_nest41"]
+                },
+                {
+                  "name": "GI Floor 3: Boiler Plant Right Egg Nest (Hint)",
+                  "visibility_rules": ["gi_nest42"]
+                },
+                {
+                  "name": "GI Floor 4: Near Fire Exit Egg Nest 1 (Hint)",
+                  "visibility_rules": ["gi_nest43"]
+                },
+                {
+                  "name": "GI Floor 4: Near Fire Exit Egg Nest 2 (Hint)",
+                  "visibility_rules": ["gi_nest44"]
+                },
+                {
+                  "name": "GI Floor 4: Near Fire Exit Egg Nest 3 (Hint)",
+                  "visibility_rules": ["gi_nest45"]
+                },
+                {
+                  "name": "GI Floor 4: Box Near Crushers Egg Nest (Hint)",
+                  "visibility_rules": ["gi_nest46"]
+                },
+                {
+                  "name": "GI Floor 4: Near Service Elevator Feather Nest 1 (Hint)",
+                  "visibility_rules": ["gi_nest47"]
+                },
+                {
+                  "name": "GI Floor 4: Near Service Elevator Feather Nest 2 (Hint)",
+                  "visibility_rules": ["gi_nest48"]
+                },
+                {
+                  "name": "GI Floor 4: Near Battery Door Egg Nest (Hint)",
+                  "visibility_rules": ["gi_nest49"]
+                },
+                {
+                  "name": "GI Floor 4: Quality Control Egg Nest 1 (Hint)",
+                  "visibility_rules": ["gi_nest50"]
+                },
+                {
+                  "name": "GI Floor 4: Quality Control Egg Nest 2 (Hint)",
+                  "visibility_rules": ["gi_nest51"]
+                },
+                {
+                  "name": "GI Floor 4: Quality Control Egg Nest 3 (Hint)",
+                  "visibility_rules": ["gi_nest52"]
+                },
+                {
+                  "name": "GI Floor 5: Small Box Stack Egg Nest (Hint)",
+                  "visibility_rules": ["gi_nest53"]
+                },
+                {
+                  "name": "GI Floor 5: Box Egg Nest (Hint)",
+                  "visibility_rules": ["gi_nest54"]
+                },
+                {
+                  "name": "GI Floor 5: Big Box Stack Egg Nest (Hint)",
+                  "visibility_rules": ["gi_nest55"]
+                },
+                {
+                  "name": "GI Floor 1: Air Conditioning Plant Near Repair Depot Egg Nest 1 (Hint)",
+                  "visibility_rules": ["gi_nest56"]
+                },
+                {
+                  "name": "GI Floor 1: Air Conditioning Plant In Front of Fan Feather Nest 1 (Hint)",
+                  "visibility_rules": ["gi_nest57"]
+                },
+                {
+                  "name": "GI Floor 1: Air Conditioning Plant In Front of Fan Feather Nest 2 (Hint)",
+                  "visibility_rules": ["gi_nest58"]
+                },
+                {
+                  "name": "GI Floor 1: Air Conditioning Plant Near Waste Disposal Egg Nest (Hint)",
+                  "visibility_rules": ["gi_nest59"]
+                },
+                {
+                  "name": "GI Floor 1: Air Conditioning Plant Near Repair Depot Egg Nest 2 (Hint)",
+                  "visibility_rules": ["gi_nest60"]
+                },
+                {
+                  "name": "GI Floor 1: Repair Depot Egg Nest 1 (Hint)",
+                  "visibility_rules": ["gi_nest61"]
+                },
+                {
+                  "name": "GI Floor 1: Repair Depot Egg Nest 2 (Hint)",
+                  "visibility_rules": ["gi_nest62"]
+                },
+                {
+                  "name": "GI Floor 1: Waste Disposal Water Pump Egg Nest (Hint)",
+                  "visibility_rules": ["gi_nest63"]
+                },
+                {
+                  "name": "GI Floor 1: Waste Disposal Jinjo Tank Egg Nest 1 (Hint)",
+                  "visibility_rules": ["gi_nest64"]
+                },
+                {
+                  "name": "GI Floor 1: Waste Disposal Jinjo Tank Egg Nest 2 (Hint)",
+                  "visibility_rules": ["gi_nest65"]
+                },
+                {
+                  "name": "GI Floor 1: Waste Disposal Water Pump Feather Nest (Hint)",
+                  "visibility_rules": ["gi_nest66"]
+                },
+                {
+                  "name": "GI Floor 4: Clinker's Cavern Green Room Egg Nest 1 (Hint)",
+                  "visibility_rules": ["gi_nest67"]
+                },
+                {
+                  "name": "GI Floor 4: Clinker's Cavern Green Room Egg Nest 2 (Hint)",
+                  "visibility_rules": ["gi_nest68"]
+                },
+                {
+                  "name": "GI Floor 4: Clinker's Cavern Raising Scaffolding Room Bottom Egg Nest & Knuckles (Hint)",
+                  "visibility_rules": ["gi_nest69"]
+                },
+                {
+                  "name": "GI Floor 4: Clinker's Cavern Valve Room Egg Nest (Hint)",
+                  "visibility_rules": ["gi_nest70"]
+                },
+                {
+                  "name": "GI Floor 4: Clinker's Cavern Near Window Egg Nest (Hint)",
+                  "visibility_rules": ["gi_nest71"]
+                },
+                {
+                  "name": "GI Floor 4: Clinker's Cavern Raising Scaffolding Room Top Egg Nest (Hint)",
+                  "visibility_rules": ["gi_nest72"]
+                },
+                {
+                  "name": "GI Floor 4: Clinker's Cavern Orange Room Egg Nest (Hint)",
+                  "visibility_rules": ["gi_nest73"]
+                },
+                {
+                  "name": "GI Floor 4: Clinker's Cavern Spiral Scaffolding Room Egg Nest (Hint)",
+                  "visibility_rules": ["gi_nest74"]
+                },
+                {
+                  "name": "GI Floor 4: Sewer Entrance Left Egg Nest 1 (Hint)",
+                  "visibility_rules": ["gi_nest75"]
+                },
+                {
+                  "name": "GI Floor 4: Sewer Entrance Left Egg Nest 2 (Hint)",
+                  "visibility_rules": ["gi_nest76"]
+                },
+                {
+                  "name": "GI Floor 4: Sewer Entrance Right Egg Nest 1 (Hint)",
+                  "visibility_rules": ["gi_nest77"]
+                },
+                {
+                  "name": "GI Floor 4: Sewer Entrance Right Egg Nest 2 (Hint)",
+                  "visibility_rules": ["gi_nest78"]
+                }
+              ],
+              "map_locations": [
+                {
+                  "map": "overview",
+                  "x": 620,
+                  "y": 460
+                }
+              ]
+            },
+            {
               "name": "Hailfire Peaks Hints",
               "sections": [
                 {
@@ -1962,6 +3578,178 @@
               ]
             },
             {
+              "name": "Hailfire Peaks - Nests Hints",
+              "sections": [
+                {
+                  "name": "HFP: By Lava Side Train Switch Egg Nest (Hint)",
+                  "visibility_rules": ["hp_nest1"]
+                },
+                {
+                  "name": "HFP: Sabreman Tent Egg Nest (Hint)",
+                  "visibility_rules": ["hp_nest2"]
+                },
+                {
+                  "name": "HFP: By Flight Pad Feather Nest 1 (Hint)",
+                  "visibility_rules": ["hp_nest3"]
+                },
+                {
+                  "name": "HFP: By Flight Pad Feather Nest 2 (Hint)",
+                  "visibility_rules": ["hp_nest4"]
+                },
+                {
+                  "name": "HFP: By Flight Pad Feather Nest 3 (Hint)",
+                  "visibility_rules": ["hp_nest5"]
+                },
+                {
+                  "name": "HFP: By Flight Pad Feather Nest 4 (Hint)",
+                  "visibility_rules": ["hp_nest6"]
+                },
+                {
+                  "name": "HFP: Lava Side Lower Warp Pad Egg Nest 1 (Hint)",
+                  "visibility_rules": ["hp_nest7"]
+                },
+                {
+                  "name": "HFP: Lava Side Lower Warp Pad Egg Nest 2 (Hint)",
+                  "visibility_rules": ["hp_nest8"]
+                },
+                {
+                  "name": "HFP: On Shelter Near Entrance Feather Nest (Hint)",
+                  "visibility_rules": ["hp_nest9"]
+                },
+                {
+                  "name": "HFP: Near Top Hot Pool Egg Nest 1 (Hint)",
+                  "visibility_rules": ["hp_nest10"]
+                },
+                {
+                  "name": "HFP: Near Top Hot Pool Egg Nest 2 (Hint)",
+                  "visibility_rules": ["hp_nest11"]
+                },
+                {
+                  "name": "HFP: By Sabreman Egg Nest 1 (Hint)",
+                  "visibility_rules": ["hp_nest12"]
+                },
+                {
+                  "name": "HFP: By Sabreman Egg Nest 2 (Hint)",
+                  "visibility_rules": ["hp_nest13"]
+                },
+                {
+                  "name": "HFP: Icy Side Lower Warp Pad Egg Nest (Hint)",
+                  "visibility_rules": ["hp_nest14"]
+                },
+                {
+                  "name": "HFP: Near Icy Side Pillar Egg Nest 1 (Hint)",
+                  "visibility_rules": ["hp_nest15"]
+                },
+                {
+                  "name": "HFP: Near Bottom Icicle Grotto Entrance Feather Nest 1 (Hint)",
+                  "visibility_rules": ["hp_nest16"]
+                },
+                {
+                  "name": "HFP: Near Bottom Icicle Grotto Entrance Feather Nest 2 (Hint)",
+                  "visibility_rules": ["hp_nest17"]
+                },
+                {
+                  "name": "HFP: Near Icy Side Pillar Egg Nest 2 (Hint)",
+                  "visibility_rules": ["hp_nest18"]
+                },
+                {
+                  "name": "HFP: Lava Side Train Station Egg Nest 1 (Hint)",
+                  "visibility_rules": ["hp_nest19"]
+                },
+                {
+                  "name": "HFP: Lava Side Train Station Egg Nest 2 (Hint)",
+                  "visibility_rules": ["hp_nest20"]
+                },
+                {
+                  "name": "HFP: Icy Side Train Station Feather Nest (Hint)",
+                  "visibility_rules": ["hp_nest21"]
+                },
+                {
+                  "name": "HFP: Icy Side Train Station Egg Nest (Hint)",
+                  "visibility_rules": ["hp_nest22"]
+                },
+                {
+                  "name": "HFP: Chilli Billi Crater Egg Nest (Hint)",
+                  "visibility_rules": ["hp_nest23"]
+                },
+                {
+                  "name": "HFP: Chilly Willy Crater Egg Nest (Hint)",
+                  "visibility_rules": ["hp_nest24"]
+                },
+                {
+                  "name": "HFP: Kickball Colosseum Egg Nest 1 (Hint)",
+                  "visibility_rules": ["hp_nest25"]
+                },
+                {
+                  "name": "HFP: Kickball Colosseum Egg Nest 2 (Hint)",
+                  "visibility_rules": ["hp_nest26"]
+                },
+                {
+                  "name": "HFP: Kickball Colosseum Egg Nest 3 (Hint)",
+                  "visibility_rules": ["hp_nest27"]
+                },
+                {
+                  "name": "HFP: Kickball Colosseum Egg Nest 4 (Hint)",
+                  "visibility_rules": ["hp_nest28"]
+                },
+                {
+                  "name": "HFP: Kickball Colosseum Feather Nest 1 (Hint)",
+                  "visibility_rules": ["hp_nest29"]
+                },
+                {
+                  "name": "HFP: Kickball Colosseum Feather Nest 2 (Hint)",
+                  "visibility_rules": ["hp_nest30"]
+                },
+                {
+                  "name": "HFP: Icicle Grotto Bottom Egg Nest 1 (Hint)",
+                  "visibility_rules": ["hp_nest31"]
+                },
+                {
+                  "name": "HFP: Icicle Grotto Bottom Egg Nest 2 (Hint)",
+                  "visibility_rules": ["hp_nest32"]
+                },
+                {
+                  "name": "HFP: Icicle Grotto Bottom Egg Nest 3 (Hint)",
+                  "visibility_rules": ["hp_nest33"]
+                },
+                {
+                  "name": "HFP: Icicle Grotto Shock Spring Pad Egg Nest (Hint)",
+                  "visibility_rules": ["hp_nest34"]
+                },
+                {
+                  "name": "HFP: Icicle Grotto Top Egg Nest 1 (Hint)",
+                  "visibility_rules": ["hp_nest35"]
+                },
+                {
+                  "name": "HFP: Icicle Grotto Top Egg Nest 2 (Hint)",
+                  "visibility_rules": ["hp_nest36"]
+                },
+                {
+                  "name": "HFP: Mumbo's Skull Feather Nest 1 (Hint)",
+                  "visibility_rules": ["hp_nest37"]
+                },
+                {
+                  "name": "HFP: Mumbo's Skull Feather Nest 2 (Hint)",
+                  "visibility_rules": ["hp_nest38"]
+                },
+                {
+                  "name": "HFP: Wumba's Wigwam Feather Nest 1 (Hint)",
+                  "visibility_rules": ["hp_nest39"]
+                },
+                {
+                  "name": "HFP: Wumba's Wigwam Feather Nest 2 (Hint)",
+                  "visibility_rules": ["hp_nest40"]
+                }
+              ],
+              "map_locations": [
+                {
+                  "map": "overview",
+                  "x": 620,
+                  "y": 520
+                }
+              ]
+            },
+            {
               "name": "Cloud Cuckooland Hints",
               "sections": [
                 {
@@ -2151,6 +3939,218 @@
                 {
                   "name": "CCL: Central Note 3 (Hint)",
                   "visibility_rules": ["cc_note16"]
+                }
+              ],
+              "map_locations": [
+                {
+                  "map": "overview",
+                  "x": 545,
+                  "y": 580
+                }
+              ]
+            },
+            {
+              "name": "Cloud Cuckooland - Nests Hints",
+              "sections": [
+                {
+                  "name": "CCL: Outside Cheese Wedge Feather Nest 1 (Hint)",
+                  "visibility_rules": ["cc_nest1"]
+                },
+                {
+                  "name": "CCL: Outside Cheese Wedge Feather Nest 2 (Hint)",
+                  "visibility_rules": ["cc_nest2"]
+                },
+                {
+                  "name": "CCL: Outside Cheese Wedge Feather Nest 3 (Hint)",
+                  "visibility_rules": ["cc_nest3"]
+                },
+                {
+                  "name": "CCL: Outside Cheese Wedge Feather Nest 4 (Hint)",
+                  "visibility_rules": ["cc_nest4"]
+                },
+                {
+                  "name": "CCL: Near Blue Skull Feather Nest 1 (Hint)",
+                  "visibility_rules": ["cc_nest5"]
+                },
+                {
+                  "name": "CCL: Near Blue Skull Feather Nest 2 (Hint)",
+                  "visibility_rules": ["cc_nest6"]
+                },
+                {
+                  "name": "CCL: Near Blue Skull Feather Nest 3 (Hint)",
+                  "visibility_rules": ["cc_nest7"]
+                },
+                {
+                  "name": "CCL: Jelly Castle Egg Nest 1 (Hint)",
+                  "visibility_rules": ["cc_nest8"]
+                },
+                {
+                  "name": "CCL: Jelly Castle Egg Nest 2 (Hint)",
+                  "visibility_rules": ["cc_nest9"]
+                },
+                {
+                  "name": "CCL: Jelly Castle Egg Nest 3 (Hint)",
+                  "visibility_rules": ["cc_nest10"]
+                },
+                {
+                  "name": "CCL: Jelly Castle Egg Nest 4 (Hint)",
+                  "visibility_rules": ["cc_nest11"]
+                },
+                {
+                  "name": "CCL: Dippy Pool Feather Nest 1 (Hint)",
+                  "visibility_rules": ["cc_nest12"]
+                },
+                {
+                  "name": "CCL: Dippy Pool Feather Nest 2 (Hint)",
+                  "visibility_rules": ["cc_nest13"]
+                },
+                {
+                  "name": "CCL: Dippy Pool Feather Nest 3 (Hint)",
+                  "visibility_rules": ["cc_nest14"]
+                },
+                {
+                  "name": "CCL: Dippy Pool Feather Nest 4 (Hint)",
+                  "visibility_rules": ["cc_nest15"]
+                },
+                {
+                  "name": "CCL: Top Entrance Feather Nest 1 (Hint)",
+                  "visibility_rules": ["cc_nest16"]
+                },
+                {
+                  "name": "CCL: Top Entrance Feather Nest 2 (Hint)",
+                  "visibility_rules": ["cc_nest17"]
+                },
+                {
+                  "name": "CCL: Near Top Superstash Switch Feather Nest 1 (Hint)",
+                  "visibility_rules": ["cc_nest18"]
+                },
+                {
+                  "name": "CCL: Near Top Superstash Switch Feather Nest 2 (Hint)",
+                  "visibility_rules": ["cc_nest19"]
+                },
+                {
+                  "name": "CCL: By George Feather Nest 1 (Hint)",
+                  "visibility_rules": ["cc_nest20"]
+                },
+                {
+                  "name": "CCL: By George Feather Nest 2 (Hint)",
+                  "visibility_rules": ["cc_nest21"]
+                },
+                {
+                  "name": "CCL: By George Feather Nest 3 (Hint)",
+                  "visibility_rules": ["cc_nest22"]
+                },
+                {
+                  "name": "CCL: By George Feather Nest 4 (Hint)",
+                  "visibility_rules": ["cc_nest23"]
+                },
+                {
+                  "name": "CCL: Near Blue Skull Feather Nest 4 (Hint)",
+                  "visibility_rules": ["cc_nest24"]
+                },
+                {
+                  "name": "CCL: Behind the Trash Can Feather Nest 1 (Hint)",
+                  "visibility_rules": ["cc_nest25"]
+                },
+                {
+                  "name": "CCL: Behind the Trash Can Feather Nest 2 (Hint)",
+                  "visibility_rules": ["cc_nest26"]
+                },
+                {
+                  "name": "CCL: Behind the Trash Can Feather Nest 3 (Hint)",
+                  "visibility_rules": ["cc_nest27"]
+                },
+                {
+                  "name": "CCL: Behind the Trash Can Feather Nest 4 (Hint)",
+                  "visibility_rules": ["cc_nest28"]
+                },
+                {
+                  "name": "CCL: High Jump Event Feather Nest (Hint)",
+                  "visibility_rules": ["cc_nest29"]
+                },
+                {
+                  "name": "CCL: Near Red Skull Feather Nest 1 (Hint)",
+                  "visibility_rules": ["cc_nest30"]
+                },
+                {
+                  "name": "CCL: Near Red Skull Feather Nest 2 (Hint)",
+                  "visibility_rules": ["cc_nest31"]
+                },
+                {
+                  "name": "CCL: Near Red Skull Feather Nest 3 (Hint)",
+                  "visibility_rules": ["cc_nest32"]
+                },
+                {
+                  "name": "CCL: Near Red Skull Feather Nest 4 (Hint)",
+                  "visibility_rules": ["cc_nest33"]
+                },
+                {
+                  "name": "CCL: Dirt Patch Feather Nest (Hint)",
+                  "visibility_rules": ["cc_nest34"]
+                },
+                {
+                  "name": "CCL: Dirt Patch Egg Nest (Hint)",
+                  "visibility_rules": ["cc_nest35"]
+                },
+                {
+                  "name": "CCL: Trash Can Egg Nest 1 (Hint)",
+                  "visibility_rules": ["cc_nest36"]
+                },
+                {
+                  "name": "CCL: Trash Can Egg Nest 2 (Hint)",
+                  "visibility_rules": ["cc_nest37"]
+                },
+                {
+                  "name": "CCL: Inside Cheese Wedge Egg Nest 1 (Hint)",
+                  "visibility_rules": ["cc_nest38"]
+                },
+                {
+                  "name": "CCL: Inside Cheese Wedge Egg Nest 2 (Hint)",
+                  "visibility_rules": ["cc_nest39"]
+                },
+                {
+                  "name": "CCL: Central Cavern on Steps Near Main Entrance Egg Nest (Hint)",
+                  "visibility_rules": ["cc_nest40"]
+                },
+                {
+                  "name": "CCL: Central Cavern Under Cheese Wedge Exit Egg Nest 1 (Hint)",
+                  "visibility_rules": ["cc_nest41"]
+                },
+                {
+                  "name": "CCL: Central Cavern Top Path Egg Nest 1 (Hint)",
+                  "visibility_rules": ["cc_nest42"]
+                },
+                {
+                  "name": "CCL: Central Cavern Top Path Egg Nest 2 (Hint)",
+                  "visibility_rules": ["cc_nest43"]
+                },
+                {
+                  "name": "CCL: Top-Left of Superstash Egg Nest 1 (Hint)",
+                  "visibility_rules": ["cc_nest44"]
+                },
+                {
+                  "name": "CCL: Top-Left of Superstash Egg Nest 2 (Hint)",
+                  "visibility_rules": ["cc_nest45"]
+                },
+                {
+                  "name": "CCL: Central Cavern Under Cheese Wedge Exit Egg Nest 2 (Hint)",
+                  "visibility_rules": ["cc_nest46"]
+                },
+                {
+                  "name": "CCL: Pot o' Gold Egg Nest 1 (Hint)",
+                  "visibility_rules": ["cc_nest47"]
+                },
+                {
+                  "name": "CCL: Pot o' Gold Egg Nest 2 (Hint)",
+                  "visibility_rules": ["cc_nest48"]
+                },
+                {
+                  "name": "CCL: Wumba's Wigwam Egg Nest 1 (Hint)",
+                  "visibility_rules": ["cc_nest49"]
+                },
+                {
+                  "name": "CCL: Wumba's Wigwam Egg Nest 2 (Hint)",
+                  "visibility_rules": ["cc_nest50"]
                 }
               ],
               "map_locations": [

@@ -1,7 +1,7 @@
 {
     "name": "Banjo-Tooie",
     "game_name": "Banjo-Tooie",
-    "package_version": "0.6.6",
+    "package_version": "0.7.0",
     "package_uid": "ap_banjotooie",
     "author": "Ozone",
     "variants": {

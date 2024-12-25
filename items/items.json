@@ -18,10 +18,19 @@
     "codes": "note"
   },
   {
+    "name": "Bass Clef",
+    "type": "consumable",
+    "increment": 10,
+    "max_quantity": 900,
+    "overlay_background": "#000000",
+    "img": "/images/items/bass.png",
+    "codes": "bass"
+  },
+  {
     "name": "Treble Clef",
     "type": "consumable",
     "increment": 20,
-    "max_quantity": 180,
+    "max_quantity": 600,
     "overlay_background": "#000000",
     "img": "/images/items/treble.png",
     "codes": "treble"
@@ -581,6 +590,44 @@
     ]
   },
   {
+    "name": "Progressive Adv. Water Training",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "stages": [
+      {
+        "img": "/images/movesmagic/dive.png",
+        "name": "Progressive Adv. Water Training - Dive",
+        "codes": "paswim,paswim_1",
+        "inherit_codes": true
+      },
+      {
+        "img": "/images/movesmagic/auqaim.png",
+        "name": "Progressive Adv. Water Training - Sub-Aqua Egg Aiming",
+        "codes": "paswim,paswim_2",
+        "inherit_codes": true
+      },
+      {
+        "img": "/images/movesmagic/ttorp.png",
+        "name": "Progressive Adv. Water Training - Talon Torpedo",
+        "codes": "paswim,paswim_3",
+        "inherit_codes": true
+      },
+      {
+        "img": "/images/movesmagic/dair.png",
+        "name": "Progressive Adv. Water Training - Double Air",
+        "codes": "paswim,paswim_4",
+        "inherit_codes": true
+      },
+      {
+        "img": "/images/movesmagic/fswim.png",
+        "name": "Progressive Adv. Water Training - Fast Swimming",
+        "codes": "paswim,paswim_5",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
     "name": "Progressive Bash Attack",
     "type": "progressive",
     "loop": false,
@@ -596,6 +643,84 @@
         "img": "/images/movesmagic/bbash.png",
         "name": "Progressive Bash Attack - Breegull Bash",
         "codes": "pbash,pbash2",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Progressive Egg Aim",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "stages": [
+      {
+        "img": "/images/movesmagic/eggshoot.png",
+        "name": "Progressive Egg Aim - Third Person Egg Shooting",
+        "codes": "peggaim,peggaim_1",
+        "inherit_codes": true
+      },
+      {
+        "img": "/images/movesmagic/eggaim.png",
+        "name": "Progressive Egg Aim - Egg Aim",
+        "codes": "peggaim,peggaim_2",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Progressive Adv. Egg Aiming",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "stages": [
+      {
+        "img": "/images/movesmagic/eggshoot.png",
+        "name": "Progressive Adv. Egg Aiming - Third Person Egg Shooting",
+        "codes": "paeggaim,paeggaim_1",
+        "inherit_codes": true
+      },
+      {
+        "img": "/images/movesmagic/amazeogaze.png",
+        "name": "Progressive Adv. Egg Aimingm - Amaze-O-Gaze",
+        "codes": "paeggaim,paeggaim_2",
+        "inherit_codes": true
+      },
+      {
+        "img": "/images/movesmagic/eggaim.png",
+        "name": "Progressive Adv. Egg Aiming - Egg Aim",
+        "codes": "paeggaim,paeggaim_3",
+        "inherit_codes": true
+      },
+      {
+        "img": "/images/movesmagic/bblaster.png",
+        "name": "Progressive Adv. Egg Aiming - Breegull Blaster",
+        "codes": "paeggaim,paeggaim_4",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Progressive Flight",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "stages": [
+      {
+        "img": "/images/movesmagic/fpad.png",
+        "name": "Progressive Flight - Flight Pad",
+        "codes": "pflight,pflight_1",
+        "inherit_codes": true
+      },
+      {
+        "img": "/images/movesmagic/bbomb.png",
+        "name": "Progressive Flight - Beak Bomb",
+        "codes": "pflight,pflight_2",
+        "inherit_codes": true
+      },
+      {
+        "img": "/images/movesmagic/aireaim.png",
+        "name": "Progressive Flight - Airbourne Egg Aim",
+        "codes": "pflight,pflight_3",
         "inherit_codes": true
       }
     ]
@@ -1249,6 +1374,26 @@
         "img": "images/settings/automap_off.png",
         "name": "Auto Map Switching - Off",
         "codes": "automap,automap_off",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Nestsanity",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/nestsanity_off.png",
+        "name": "Nestsanity - Off",
+        "codes": "nestsanity,nestsanity_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/nestsanity_on.png",
+        "name": "Nestsanity - On",
+        "codes": "nestsanity,nestsanity_on",
         "inherit_codes": false
       }
     ]
