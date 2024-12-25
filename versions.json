@@ -1,6 +1,18 @@
 {
 	"versions": [
 		{
+			"package_version": "0.7.0",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.7.0",
+			"sha256": "d4fea0ccae0a67949c395c1a1af92741d885c10e1845766e428e49ce1326c627",
+			"changelog": [
+				"Full support for Banjo-Tooie AP 4.0 and all new features (silo costs, nestsanity, bass clefs, new progressive moves, etc.)",
+				"Adjustment to names/positions of some locations to support nests.",
+				"Handful of logic fixes found by the community.",
+				"Big-O-Pants item now correctly counts up how many you have collected.",
+				"Connecting to an Archipelago seed should now by WAY faster. (Huge thanks to Austin for helping with this!)"
+			]
+		},
+		{
 			"package_version": "0.6.6",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.6.6",
 			"sha256": "327de1b2ac2c705889a3d9a02555b9f202a1db118c2ee8f5570af25fe2944d79",
