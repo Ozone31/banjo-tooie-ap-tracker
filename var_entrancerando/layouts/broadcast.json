@@ -1,0 +1,48 @@
+﻿//sets the layout for the broadcast view
+{
+    "tracker_broadcast": {
+        "type": "array",
+        "orientation": "vertical",
+        "h_alignment": "center",
+        "margin": "5,5",
+        "background": "#212121",
+        "content": [
+          {
+            "type": "itemgrid",
+            "h_alignment": "left",
+            "margin": "0,0",
+            "item_margin": "1,2",
+            "rows": [
+              [ "ggrab", "bbust", "bdrill", "bblaster", "bbayonet", "ttorp", "bbomb", "wwing", "bbash", "fpad" ],
+              [ "ttrot", "tjump", "roll", "grat", "arat", "bbarge", "climb", "fflip", "flutter", "splitup" ],
+              [ "dive", "dair", "fswim", "amazeogaze", "roar", "", "sstride", "ttrain", "springb", "clawbts" ],
+              [ "eggshoot", "eggaim","aireaim", "auqaim","homingeggs", "begg", "feggs", "geggs", "ieggs", "ceggs" ],
+              [ "packwh", "taxpack", "snpack", "shpack", "sapack", "", "wwhack", "hatch", "lspring", "glide"]
+            ]
+          },
+          {
+            "type": "itemgrid",
+            "h_alignment": "left",
+            "margin": "0,6",
+            "item_margin": "1,2",
+            "rows": [
+              [ "jiggy", "note", "bass", "treble", "honey", "pages", "doubloon", "ikey", "bmegg", "pmegg" ],
+              [ "mumbotoken", "wjinjo", "ojinjo", "yjinjo", "brjinjo", "gjinjo", "rjinjo", "bljinjo", "pjinjo", "bkjinjo" ]
+            ]
+          },
+          {
+            "type": "itemgrid",
+            "h_alignment": "left",
+            "margin": "0,0",
+            "item_margin": "1,2",
+            "rows": [,
+              [ "mta", "gga", "wwa", "jra", "tda", "gia", "hfa", "cca", "cka" ],
+              [ "mte", "gge", "wwe", "jre", "tde", "gie", "hfe", "cce", "cke" ],
+              [ "mumbomt", "mumbogm", "mumboww", "mumbojr", "mumbotd", "mumbogi", "mumbohp", "mumbocc", "mumboih" ],
+              [ "humbamt", "humbagm", "humbaww", "humbajr", "humbatd", "humbagi", "humbahp", "humbacc", "humbaih" ],
+              [ "", "chuffy", "trainswww", "trainswtd", "trainswgi", "trainswhp1", "trainswhp2", "trainswih" ]
+            ]
+          }
+        ]
+    }
+}
