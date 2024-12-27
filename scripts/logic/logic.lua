@@ -1249,7 +1249,7 @@ function skivvyswitch_gi3()
 end
 
 function guarded_eggs()
-    return has("begg") or has("feggs") or has("geggs")
+    return canShootEggs("begg") or canShootEggs("feggs") or canShootEggs("geggs")
 end
 
 function notes_gi_train_station_hard()
@@ -1269,6 +1269,16 @@ function notes_gi_train_station_easy()
         return canDoSmallElevation() or (has("splitup") and has("lspring")) or has("bbust") or has("ggrab")
     else
         return true
+    end
+end
+
+function jiggy_guarded()
+    if logictype.CurrentStage == 0 then
+        return has("splitup") and has("clawbts") and has("eggaim") and $guarded_eggs() and (springPad() or has("wwhack") or has("glide"))
+    elseif logictype.CurrentStage == 1 then
+        return has("splitup") and (has("clawbts") and springPad() or has("clawbts") and (has("wwhack") or has("glide")) and (has("eggaim") or has("wwhack"))) and $guarded_eggs()
+    else
+        return has("splitup") and (has("clawbts") and springPad() or has("clawbts") and (has("wwhack") or has("glide")) and (has("eggaim") or has("wwhack"))) and $guarded_eggs() or has("clawbts") and (springPad() or (has("splitup") and has("lspring"))) and clockwork_shot()
     end
 end
 
