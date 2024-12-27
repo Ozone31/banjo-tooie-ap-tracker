@@ -1312,11 +1312,11 @@ end
 
 function jiggy_guarded()
     if logictype.CurrentStage == 0 then
-        return has("splitup") and has("clawbts") and has("eggaim") and $guarded_eggs() and (springPad() or wing_whack() or glide())
+        return has("splitup") and has("clawbts") and has("eggaim") and guarded_eggs() and (springPad() or wing_whack() or glide())
     elseif logictype.CurrentStage == 1 then
-        return has("splitup") and (has("clawbts") and springPad() or has("clawbts") and (wing_whack() or glide()) and (has("eggaim") or wing_whack())) and $guarded_eggs()
+        return has("splitup") and (has("clawbts") and springPad() or has("clawbts") and (wing_whack() or glide()) and (has("eggaim") or wing_whack())) and guarded_eggs()
     else
-        return has("splitup") and (has("clawbts") and springPad() or has("clawbts") and (wing_whack() or glide())) and (has("eggaim") or wing_whack())) and $guarded_eggs() or has("clawbts") and (springPad() or leg_spring()) and clockwork_shot()
+        return has("splitup") and (has("clawbts") and springPad() or has("clawbts") and (wing_whack() or glide()) and (has("eggaim") or wing_whack())) and guarded_eggs() or has("clawbts") and (springPad() or leg_spring()) and clockwork_shot()
     end
 end
 
@@ -1399,7 +1399,7 @@ function cc_jiggy3()
         )
     else
         return (
-            canShootEggs("begg") and canShootEggs("feggs") and canShootEggs("geggs") and canShootEggs("ieggs") and (mumboCCL() and (has("fflip") or leg_spring() or has("fpad")) or (leg_spring() or has("tjump")) and has("fpad") and has("bbomb")))
+            canShootEggs("begg") and canShootEggs("feggs") and canShootEggs("geggs") and canShootEggs("ieggs") and (mumboCCL() and (has("fflip") or leg_spring() or has("fpad")) or (leg_spring() or has("tjump")) and has("fpad") and has("bbomb"))
         )
     end
 end
