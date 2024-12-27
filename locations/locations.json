@@ -7321,7 +7321,7 @@
               "logictype_b, springb",
               "logictype_n, springb", "logictype_n, climb, flutter", "logictype_n, climb, arat, tjump", "logictype_n, $GM_boulders, $leg_spring", "logictype_n, $GM_boulders, $glide, tjump",
               "logictype_a, springb", "logictype_a, climb, flutter", "logictype_a, climb, arat", "logictype_a, $clockwork_shot", "logictype_a, $GM_boulders, $leg_spring", "logictype_a, $GM_boulders, $glide, tjump", "logictype_a, $GM_boulders, tjump, ttrain, $wing_whack", "logictype_a, $GM_boulders, tjump, ttrain, splitup, glide",
-              "logictype_g, springb", "logictype_g, climb, flutter", "logictype_g, climb, arat", "logictype_g, $clockwork_shot", "logictype_g, $GM_boulders, $leg_springg", "logictype_g, $GM_boulders, $glide, tjump", "logictype_g, $GM_boulders, tjump, ttrain, $wing_whack", "logictype_g, $GM_boulders, tjump, ttrain, splitup, glide"
+              "logictype_g, springb", "logictype_g, climb, flutter", "logictype_g, climb, arat", "logictype_g, $clockwork_shot", "logictype_g, $GM_boulders, $leg_spring", "logictype_g, $GM_boulders, $glide, tjump", "logictype_g, $GM_boulders, tjump, ttrain, $wing_whack", "logictype_g, $GM_boulders, tjump, ttrain, splitup, glide"
           ]
           }
         ],
@@ -9457,7 +9457,7 @@
             "name": "Balloon Burst Jiggy",
             "access_rules": [
               "logictype_b, splitup, $has_explosives, aireaim, $springPad, fflip", "logictype_b, splitup, $has_explosives, aireaim, $springPad, $leg_spring",
-              "logictype_n, splitup, $has_explosives, aireaim, $leg_springg, $springPad", "logictype_n, splitup, $has_explosives, aireaim, $leg_spring, fflip", "logictype_n, splitup, $has_explosives, aireaim, $leg_spring", "logictype_n, splitup, $has_explosives, aireaim, tjump, $springPad", "logictype_n, splitup, $has_explosives, aireaim, tjump, fflip", "logictype_n, splitup, $has_explosives, aireaim, tjump, $leg_spring",
+              "logictype_n, splitup, $has_explosives, aireaim, $leg_spring, $springPad", "logictype_n, splitup, $has_explosives, aireaim, $leg_spring, fflip", "logictype_n, splitup, $has_explosives, aireaim, $leg_spring", "logictype_n, splitup, $has_explosives, aireaim, tjump, $springPad", "logictype_n, splitup, $has_explosives, aireaim, tjump, fflip", "logictype_n, splitup, $has_explosives, aireaim, tjump, $leg_spring",
               "logictype_a, splitup, $has_explosives, aireaim, $leg_spring, $springPad", "logictype_a, splitup, $has_explosives, aireaim, $leg_spring, fflip", "logictype_a, splitup, $has_explosives, aireaim, $leg_spring", "logictype_a, splitup, $has_explosives, aireaim, tjump, $springPad", "logictype_a, splitup, $has_explosives, aireaim, tjump, fflip", "logictype_a, splitup, $has_explosives, aireaim, tjump, $leg_spring",
               "logictype_g, splitup, $has_explosives, aireaim, $leg_spring, $springPad", "logictype_g, splitup, $has_explosives, aireaim, $leg_spring, fflip", "logictype_g, splitup, $has_explosives, aireaim, $leg_spring", "logictype_g, splitup, $has_explosives, aireaim, tjump, $springPad", "logictype_g, splitup, $has_explosives, aireaim, tjump, fflip", "logictype_g, splitup, $has_explosives, aireaim, tjump, $leg_spring"
             ]
@@ -13713,7 +13713,7 @@
       "@Grunty Industries 1st Floor, logictype_g, splitup, clawbts, $leg_spring, eggaim, fpad",
       "@Grunty Industries 3rd Floor, $leg_spring, fpad, @Grunty Industries 1st Floor, @Grunty Industries 4th Floor",
       "@Grunty Industries 3rd Floor, $leg_spring, fpad, @Grunty Industries 1st Floor, humbagi, @Grunty Industries 2nd Floor",
-      "@Grunty Industries 3rd Floor, $leg_springg, fpad, @Grunty Industries 2nd Floor, $floor_2_split_up, @Grunty Industries 4th Floor",
+      "@Grunty Industries 3rd Floor, $leg_spring, fpad, @Grunty Industries 2nd Floor, $floor_2_split_up, @Grunty Industries 4th Floor",
       "@Grunty Industries 3rd Floor, $leg_spring, fpad, @Grunty Industries 2nd Floor, $floor_2_split_up, humbagi, @Grunty Industries 2nd Floor",
       "@Grunty Industries 3rd Floor, $leg_spring, fpad, $canDoSmallElevation, tjump, @Grunty Industries 4th Floor",
       "@Grunty Industries 3rd Floor, $leg_spring, fpad, $canDoSmallElevation, tjump, humbagi, @Grunty Industries 2nd Floor",
