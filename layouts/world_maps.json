@@ -17,7 +17,9 @@
 		"tabs": [
 			{ "title": "Main Area", "content": { "type": "map", "maps": ["mt1"] } },
 			{ "title": "Prison Compound", "content": { "type": "map", "maps": ["mt2"] } },
-			{ "title": "Jade Snake Grove", "content": { "type": "map", "maps": ["mt3"] } }
+			{ "title": "Jade Snake Grove", "content": { "type": "map", "maps": ["mt3"] } },
+			{ "title": "Targitzan's Temple Lobby", "content": { "type": "map", "maps": ["mt4"] } },
+			{ "title": "Inside Targitzan's Temple", "content": { "type": "map", "maps": ["mt5"] } }
 		]
 	},
 	"maps_ggm": {
@@ -26,7 +28,8 @@
 			{ "title": "Main Area", "content": { "type": "map", "maps": ["ggm1"] } },
 			{ "title": "Gloomy Caverns", "content": { "type": "map", "maps": ["ggm2"] } },
 			{ "title": "Waterfall Cavern", "content": { "type": "map", "maps": ["ggm3"] } },
-			{ "title": "Water Storage", "content": { "type": "map", "maps": ["ggm4"] } }
+			{ "title": "Water Storage", "content": { "type": "map", "maps": ["ggm4"] } },
+			{ "title": "Flooded Caves", "content": { "type": "map", "maps": ["ggm5"] } }
 		]
 	},
 	"maps_ww": {
@@ -42,7 +45,9 @@
 		"type": "tabbed",
 		"tabs": [
 			{ "title": "Main Area", "content": { "type": "map", "maps": ["jrl1"] } },
-			{ "title": "Atlantis", "content": { "type": "map", "maps": ["jrl2"] } }
+			{ "title": "Atlantis", "content": { "type": "map", "maps": ["jrl2"] } },
+			{ "title": "Seaweed Sanctum", "content": { "type": "map", "maps": ["jrl3"] } },
+			{ "title": "Sea Bottom", "content": { "type": "map", "maps": ["jrl4"] } }
 		]
 	},
 	"maps_tdl": {
@@ -72,7 +77,8 @@
 		"type": "tabbed",
 		"tabs": [
 			{ "title": "Lava Side", "content": { "type": "map", "maps": ["hfp1"] } },
-			{ "title": "Icy Side", "content": { "type": "map", "maps": ["hfp2"] } }
+			{ "title": "Icy Side", "content": { "type": "map", "maps": ["hfp2"] } },
+			{ "title": "Icicle Grotto", "content": { "type": "map", "maps": ["hfp3"] } }
 		]
 	},
 	"maps_ccl": {

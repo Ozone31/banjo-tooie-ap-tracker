@@ -72,6 +72,18 @@
         "img": "images/maps/mayahemtemple_3.png"
     },
     {
+        "name": "mt4",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/mayahemtemple_4.png"
+    },
+    {
+        "name": "mt5",
+        "location_size": 14,
+        "location_border_thickness": 3,
+        "img": "images/maps/mayahemtemple_5.png"
+    },
+    {
         "name": "ggm1",
         "location_size": 10,
         "location_border_thickness": 2,
@@ -94,6 +106,12 @@
         "location_size": 12,
         "location_border_thickness": 2,
         "img": "images/maps/ggm_4.png"
+    },
+    {
+        "name": "ggm5",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/ggm_5.png"
     },
     {
         "name": "ww1",
@@ -130,6 +148,18 @@
         "location_size": 10,
         "location_border_thickness": 2,
         "img": "images/maps/jrl_2.png"
+    },
+    {
+        "name": "jrl3",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/jrl_3.png"
+    },
+    {
+        "name": "jrl4",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/jrl_4.png"
     },
     {
         "name": "tdl1",
@@ -220,6 +250,12 @@
         "location_size": 10,
         "location_border_thickness": 2,
         "img": "images/maps/hfp_2.png"
+    },
+    {
+        "name": "hfp3",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/hfp_3.png"
     },
     {
         "name": "ccl1",

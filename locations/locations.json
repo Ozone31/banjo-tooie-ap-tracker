@@ -32,51 +32,51 @@
             "name": "SM: Blue Mystery Egg"
           },
           {
-            "ref": "Spiral Mountain/SM: Cheato Rewards/Reward 1",
+            "ref": "Gruntilda's Lair/SM: Cheato Rewards/Reward 1",
             "name": "SM: Cheato Reward 1"
           },
           {
-            "ref": "Spiral Mountain/SM: Cheato Rewards/Reward 2",
+            "ref": "Gruntilda's Lair/SM: Cheato Rewards/Reward 2",
             "name": "SM: Cheato Reward 2"
           },
           {
-            "ref": "Spiral Mountain/SM: Cheato Rewards/Reward 3",
+            "ref": "Gruntilda's Lair/SM: Cheato Rewards/Reward 3",
             "name": "SM: Cheato Reward 3"
           },
           {
-            "ref": "Spiral Mountain/SM: Cheato Rewards/Reward 4",
+            "ref": "Gruntilda's Lair/SM: Cheato Rewards/Reward 4",
             "name": "SM: Cheato Reward 4"
           },
           {
-            "ref": "Spiral Mountain/SM: Cheato Rewards/Reward 5",
+            "ref": "Gruntilda's Lair/SM: Cheato Rewards/Reward 5",
             "name": "SM: Cheato Reward 5"
           },
           {
-            "ref": "Spiral Mountain/Gruntilda's Lair/Feather Nest 1",
+            "ref": "Gruntilda's Lair/Gruntilda's Lair/Feather Nest 1",
             "name": "SM: Gruntilda's Lair Feather Nest 1"
           },
           {
-            "ref": "Spiral Mountain/Gruntilda's Lair/Feather Nest 2",
+            "ref": "Gruntilda's Lair/Gruntilda's Lair/Feather Nest 2",
             "name": "SM: Gruntilda's Lair Feather Nest 2"
           },
           {
-            "ref": "Spiral Mountain/Gruntilda's Lair/Egg Nest 1",
+            "ref": "Gruntilda's Lair/Gruntilda's Lair/Egg Nest 1",
             "name": "SM: Gruntilda's Lair Egg Nest 1"
           },
           {
-            "ref": "Spiral Mountain/Gruntilda's Lair/Egg Nest 2",
+            "ref": "Gruntilda's Lair/Gruntilda's Lair/Egg Nest 2",
             "name": "SM: Gruntilda's Lair Egg Nest 2"
           },
           {
-            "ref": "Spiral Mountain/Gruntilda's Lair/Egg Nest 3",
+            "ref": "Gruntilda's Lair/Gruntilda's Lair/Egg Nest 3",
             "name": "SM: Gruntilda's Lair Egg Nest 3"
           },
           {
-            "ref": "Spiral Mountain/Gruntilda's Lair/Egg Nest 4",
+            "ref": "Gruntilda's Lair/Gruntilda's Lair/Egg Nest 4",
             "name": "SM: Gruntilda's Lair Egg Nest 4"
           },
           {
-            "ref": "Spiral Mountain/Gruntilda's Lair/Feather Nest 3",
+            "ref": "Gruntilda's Lair/Gruntilda's Lair/Feather Nest 3",
             "name": "SM: Gruntilda's Lair Feather Nest 3"
           },
           {
@@ -696,16 +696,16 @@
         "name": "Isle O Hags - Quagmire",
         "sections": [
           {
-            "ref": "Quagmire/IoH: Quagmire Feather Nests/Feather Nest 1",
-            "name": "IoH: Quagmire Feather Nest 1"
+            "ref": "Quagmire/IoH: Quagmire Feather Nests/Left Feather Nest",
+            "name": "IoH: Quagmire Left Feather Nest"
           },
           {
-            "ref": "Quagmire/IoH: Quagmire Feather Nests/Feather Nest 1",
-            "name": "IoH: Quagmire Feather Nest 2"
+            "ref": "Quagmire/IoH: Quagmire Feather Nests/Back Feather Nest",
+            "name": "IoH: Quagmire Back Feather Nest"
           },
           {
-            "ref": "Quagmire/IoH: Quagmire Feather Nests/Feather Nest 1",
-            "name": "IoH: Quagmire Feather Nest 3"
+            "ref": "Quagmire/IoH: Quagmire Feather Nests/High Feather Nest",
+            "name": "IoH: Quagmire High Feather Nest"
           },
           {
             "ref": "Quagmire/IoH: Quagmire Egg Nests/Egg Nest 1",
@@ -740,7 +740,7 @@
             "name": "MT: Stadium Jinjo"
           },
           {
-            "ref": "Mayahem Temple - Main Area/Targitzan's Temple/Targitzan Temple Jinjo",
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan Temple Jinjo/Jinjo",
             "name": "MT: Targitzan Temple Jinjo"
           },
           {
@@ -796,7 +796,7 @@
             "name": "MT: Egg Aim Silo"
           },
           {
-            "ref": "Mayahem Temple - Main Area/Targitzan's Temple/Targitzan Mumbo Token",
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan Jiggy/Mumbo Token",
             "name": "MT: Targitzan Mumbo Token"
           },
           {
@@ -816,11 +816,11 @@
         "name": "Mayahem Temple - Jiggies",
         "sections": [
           {
-            "ref": "Mayahem Temple - Main Area/Targitzan's Temple/Targitzan Jiggy",
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan Jiggy/Jiggy",
             "name": "MT: Targitzan Jiggy"
           },
           {
-            "ref": "Mayahem Temple - Main Area/Targitzan's Temple/Slightly Sacred Chamber Jiggy",
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Slightly Sacred Chamber Jiggy/Jiggy",
             "name": "MT: Slightly Sacred Chamber Jiggy"
           },
           {
@@ -1044,71 +1044,71 @@
             "name": "MT: Jade Snake Grove Near Warp Pad Egg Nest 2"
           },
           {
-            "ref": "Mayahem Temple - Main Area/Targitzan's Temple/Targitzan's Temple Raising Slope Room Egg Nest 1",
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple Raising Slope Room Egg Nests/Egg Nest 1",
             "name": "MT: Targitzan's Temple Raising Slope Room Egg Nest 1"
           },
           {
-            "ref": "Mayahem Temple - Main Area/Targitzan's Temple/Targitzan's Temple Raising Slope Room Egg Nest 2",
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple Raising Slope Room Egg Nests/Egg Nest 2",
             "name": "MT: Targitzan's Temple Raising Slope Room Egg Nest 2"
           },
           {
-            "ref": "Mayahem Temple - Main Area/Targitzan's Temple/Targitzan's Temple 4-Way Room Egg Nest 1",
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple 4-Way Room Egg Nests/Egg Nest 1",
             "name": "MT: Targitzan's Temple 4-Way Room Egg Nest 1"
           },
           {
-            "ref": "Mayahem Temple - Main Area/Targitzan's Temple/Targitzan's Temple 4-Way Room Egg Nest 2",
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple 4-Way Room Egg Nests/Egg Nest 2",
             "name": "MT: Targitzan's Temple 4-Way Room Egg Nest 2"
           },
           {
-            "ref": "Mayahem Temple - Main Area/Targitzan's Temple/Targitzan's Temple 4-Way Room Egg Nest 3",
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple 4-Way Room Egg Nests/Egg Nest 3",
             "name": "MT: Targitzan's Temple 4-Way Room Egg Nest 3"
           },
           {
-            "ref": "Mayahem Temple - Main Area/Targitzan's Temple/Targitzan's Temple 4-Way Room Egg Nest 4",
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple 4-Way Room Egg Nests/Egg Nest 4",
             "name": "MT: Targitzan's Temple 4-Way Room Egg Nest 4"
           },
           {
-            "ref": "Mayahem Temple - Main Area/Targitzan's Temple/Targitzan's Temple Pillar Maze Egg Nest 1",
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple Pillar Maze Egg Nests/Egg Nest 1",
             "name": "MT: Targitzan's Temple Pillar Maze Egg Nest 1"
           },
           {
-            "ref": "Mayahem Temple - Main Area/Targitzan's Temple/Targitzan's Temple Pillar Maze Egg Nest 2",
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple Pillar Maze Egg Nests/Egg Nest 2",
             "name": "MT: Targitzan's Temple Pillar Maze Egg Nest 2"
           },
           {
-            "ref": "Mayahem Temple - Main Area/Targitzan's Temple/Targitzan's Temple Pillar Maze Egg Nest 3",
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple Pillar Maze Egg Nests/Egg Nest 3",
             "name": "MT: Targitzan's Temple Pillar Maze Egg Nest 3"
           },
           {
-            "ref": "Mayahem Temple - Main Area/Targitzan's Temple/Targitzan's Temple Raising Slope Room Egg Nest 3",
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple Raising Slope Room Egg Nests/Egg Nest 3",
             "name": "MT: Targitzan's Temple Raising Slope Room Egg Nest 3"
           },
           {
-            "ref": "Mayahem Temple - Main Area/Targitzan's Temple/Targitzan's Temple Golden Egg Nest",
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple Golden Egg Nest/Egg Nest",
             "name": "MT: Targitzan's Temple Golden Egg Nest"
           },
           {
-            "ref": "Mayahem Temple - Main Area/Targitzan's Temple/Targitzan's Temple Lobby Left Egg Nest 1",
+            "ref": "Mayahem Temple - Targitzan's Temple Lobby/MT: Targitzan Temple Lobby Left Egg Nests/Egg Nest 1",
             "name": "MT: Targitzan's Temple Lobby Left Egg Nest 1"
           },
           {
-            "ref": "Mayahem Temple - Main Area/Targitzan's Temple/Targitzan's Temple Lobby Left Egg Nest 2",
+            "ref": "Mayahem Temple - Targitzan's Temple Lobby/MT: Targitzan Temple Lobby Left Egg Nests/Egg Nest 2",
             "name": "MT: Targitzan's Temple Lobby Left Egg Nest 2"
           },
           {
-            "ref": "Mayahem Temple - Main Area/Targitzan's Temple/Targitzan's Temple Lobby Left Egg Nest 3",
+            "ref": "Mayahem Temple - Targitzan's Temple Lobby/MT: Targitzan Temple Lobby Left Egg Nests/Egg Nest 3",
             "name": "MT: Targitzan's Temple Lobby Left Egg Nest 3"
           },
           {
-            "ref": "Mayahem Temple - Main Area/Targitzan's Temple/Targitzan's Temple Lobby Right Egg Nest 1",
+            "ref": "Mayahem Temple - Targitzan's Temple Lobby/MT: Targitzan Temple Lobby Right Egg Nests/Egg Nest 1",
             "name": "MT: Targitzan's Temple Lobby Right Egg Nest 1"
           },
           {
-            "ref": "Mayahem Temple - Main Area/Targitzan's Temple/Targitzan's Temple Lobby Right Egg Nest 2",
+            "ref": "Mayahem Temple - Targitzan's Temple Lobby/MT: Targitzan Temple Lobby Right Egg Nests/Egg Nest 2",
             "name": "MT: Targitzan's Temple Lobby Right Egg Nest 2"
           },
           {
-            "ref": "Mayahem Temple - Main Area/Targitzan's Temple/Targitzan's Temple Lobby Right Egg Nest 3",
+            "ref": "Mayahem Temple - Targitzan's Temple Lobby/MT: Targitzan Temple Lobby Right Egg Nests/Egg Nest 3",
             "name": "MT: Targitzan's Temple Lobby Right Egg Nest 3"
           }
         ],
@@ -1260,7 +1260,7 @@
             "name": "GGM: Power Hut Basement Jiggy"
           },
           {
-            "ref": "Glitter Gulch Mine - Main Area/Flooded Caves/Jiggy",
+            "ref": "Glitter Gulch Mine - Flooded Caves/GGM: Flooded Caves Jiggy/Jiggy",
             "name": "GGM: Flooded Caves Jiggy"
           }
         ],
@@ -1404,11 +1404,11 @@
             "name": "GGM: Crushing Shed Egg Nest 2"
           },
           {
-            "ref": "Glitter Gulch Mine - Main Area/Flooded Caves/Egg Nest 1",
+            "ref": "Glitter Gulch Mine - Flooded Caves/GGM: Flooded Caves Egg Nest 1/Egg Nest",
             "name": "GGM: Flooded Caves Egg Nest 1"
           },
           {
-            "ref": "Glitter Gulch Mine - Main Area/Flooded Caves/Egg Nest 2",
+            "ref": "Glitter Gulch Mine - Flooded Caves/GGM: Flooded Caves Egg Nest 2/Egg Nest",
             "name": "GGM: Flooded Caves Egg Nest 2"
           },
           {
@@ -1940,11 +1940,11 @@
             "name": "JRL: Blubber Jinjo"
           },
           {
-            "ref": "Jolly Roger's Lagoon - Atlantis/Seaweed Sanctum, Sea Bottom, Inside the Big Fish/Big Fish Jinjo",
+            "ref": "Jolly Roger's Lagoon - Sea Bottom/Inside the Big Fish/Jinjo",
             "name": "JRL: Big Fish Jinjo"
           },
           {
-            "ref": "Jolly Roger's Lagoon - Atlantis/Seaweed Sanctum, Sea Bottom, Inside the Big Fish/Seaweed Sanctum Jinjo",
+            "ref": "Jolly Roger's Lagoon - Seaweed Sanctum/JRL: Seaweed Sanctum Jinjo/Jinjo",
             "name": "JRL: Seaweed Sanctum Jinjo"
           },
           {
@@ -1960,7 +1960,7 @@
             "name": "JRL: Under Wumba's Wigwam Glowbo"
           },
           {
-            "ref": "Jolly Roger's Lagoon - Atlantis/Seaweed Sanctum, Sea Bottom, Inside the Big Fish/Seemee Honeycomb",
+            "ref": "Jolly Roger's Lagoon - Sea Bottom/JRL: Seemee Honeycomb (Moves Around)/Honeycomb",
             "name": "JRL: Seemee Honeycomb"
           },
           {
@@ -1996,11 +1996,11 @@
             "name": "JRL: Sub-Aqua Egg Aiming Silo"
           },
           {
-            "ref": "Jolly Roger's Lagoon - Atlantis/Seaweed Sanctum, Sea Bottom, Inside the Big Fish/Woo Fak Fak Mumbo Token",
+            "ref": "Jolly Roger's Lagoon - Sea Bottom/Lord Woo Fak Fak/Mumbo Token",
             "name": "JRL: Woo Fak Fak Mumbo Token"
           },
           {
-            "ref": "Jolly Roger's Lagoon - Atlantis/Seaweed Sanctum, Sea Bottom, Inside the Big Fish/Mini-Sub Challenge Mumbo Token",
+            "ref": "Jolly Roger's Lagoon - Sea Bottom/Mini-Sub Challenge/Mumbo Token",
             "name": "JRL: Mini-Sub Challenge Mumbo Token"
           }
         ],
@@ -2016,7 +2016,7 @@
         "name": "Jolly Roger's Lagoon - Jiggies",
         "sections": [
           {
-            "ref": "Jolly Roger's Lagoon - Atlantis/Seaweed Sanctum, Sea Bottom, Inside the Big Fish/Mini-Sub Challenge Jiggy",
+            "ref": "Jolly Roger's Lagoon - Sea Bottom/Mini-Sub Challenge/Jiggy",
             "name": "JRL: Mini-Sub Challenge Jiggy"
           },
           {
@@ -2036,11 +2036,11 @@
             "name": "JRL: Smuggler's Cavern Jiggy"
           },
           {
-            "ref": "Jolly Roger's Lagoon - Atlantis/Jolly's/Merry Maggie Jiggy",
+            "ref": "Jolly Roger's Lagoon - Sea Bottom/Inside the Big Fish/Merry Maggie Jiggy",
             "name": "JRL: Merry Maggie Jiggy"
           },
           {
-            "ref": "Jolly Roger's Lagoon - Atlantis/Seaweed Sanctum, Sea Bottom, Inside the Big Fish/Woo Fak Fak Jiggy",
+            "ref": "Jolly Roger's Lagoon - Sea Bottom/Lord Woo Fak Fak/Jiggy",
             "name": "JRL: Woo Fak Fak Jiggy"
           },
           {
@@ -2184,27 +2184,27 @@
             "name": "JRL: Pawno's Emporium Egg Nest 3"
           },
           {
-            "ref": "Jolly Roger's Lagoon - Atlantis/Seaweed Sanctum, Sea Bottom, Inside the Big Fish/Seaweed Sanctum Bottom Floor Feather Nest",
+            "ref": "Jolly Roger's Lagoon - Seaweed Sanctum/JRL: Seaweed Sanctum Bottom Floor Feather Nest/Feather Nest",
             "name": "JRL: Seaweed Sanctum Bottom Floor Feather Nest"
           },
           {
-            "ref": "Jolly Roger's Lagoon - Atlantis/Seaweed Sanctum, Sea Bottom, Inside the Big Fish/Seaweed Sanctum Second Floor Egg Nest 1",
+            "ref": "Jolly Roger's Lagoon - Seaweed Sanctum/JRL: Seaweed Sanctum Second Floor Egg Nest 1/Egg Nest",
             "name": "JRL: Seaweed Sanctum Second Floor Egg Nest 1"
           },
           {
-            "ref": "Jolly Roger's Lagoon - Atlantis/Seaweed Sanctum, Sea Bottom, Inside the Big Fish/Seaweed Sanctum Top Floor Feather Nest",
+            "ref": "Jolly Roger's Lagoon - Seaweed Sanctum/JRL: Seaweed Sanctum Top Floor Feather Nest/Feather Nest",
             "name": "JRL: Seaweed Sanctum Top Floor Feather Nest"
           },
           {
-            "ref": "Jolly Roger's Lagoon - Atlantis/Seaweed Sanctum, Sea Bottom, Inside the Big Fish/Seaweed Sanctum Second Floor Egg Nest 2",
+            "ref": "Jolly Roger's Lagoon - Seaweed Sanctum/JRL: Seaweed Sanctum Second Floor Egg Nest 2/Egg Nest",
             "name": "JRL: Seaweed Sanctum Second Floor Egg Nest 2"
           },
           {
-            "ref": "Jolly Roger's Lagoon - Atlantis/Seaweed Sanctum, Sea Bottom, Inside the Big Fish/Inside the Big Fish Feather Nest 1",
+            "ref": "Jolly Roger's Lagoon - Sea Bottom/Inside the Big Fish/Feather Nest 1",
             "name": "JRL: Inside the Big Fish Feather Nest 1"
           },
           {
-            "ref": "Jolly Roger's Lagoon - Atlantis/Seaweed Sanctum, Sea Bottom, Inside the Big Fish/Inside the Big Fish Feather Nest 2",
+            "ref": "Jolly Roger's Lagoon - Sea Bottom/Inside the Big Fish/Feather Nest 2",
             "name": "JRL: Inside the Big Fish Feather Nest 2"
           },
           {
@@ -2224,19 +2224,19 @@
             "name": "JRL: Temple of the Fishes Egg Nest 4"
           },
           {
-            "ref": "Jolly Roger's Lagoon - Atlantis/Seaweed Sanctum, Sea Bottom, Inside the Big Fish/Davie Jones Locker Egg Nest 1",
+            "ref": "Jolly Roger's Lagoon - Sea Bottom/Lord Woo Fak Fak/Davie Jones Locker Egg Nest 1",
             "name": "JRL: Davie Jones Locker Egg Nest 1"
           },
           {
-            "ref": "Jolly Roger's Lagoon - Atlantis/Seaweed Sanctum, Sea Bottom, Inside the Big Fish/Davie Jones Locker Egg Nest 2",
+            "ref": "Jolly Roger's Lagoon - Sea Bottom/Lord Woo Fak Fak/Davie Jones Locker Egg Nest 2",
             "name": "JRL: Davie Jones Locker Egg Nest 2"
           },
           {
-            "ref": "Jolly Roger's Lagoon - Atlantis/Seaweed Sanctum, Sea Bottom, Inside the Big Fish/Davie Jones Locker Egg Nest 3",
+            "ref": "Jolly Roger's Lagoon - Sea Bottom/Lord Woo Fak Fak/Davie Jones Locker Egg Nest 3",
             "name": "JRL: Davie Jones Locker Egg Nest 3"
           },
           {
-            "ref": "Jolly Roger's Lagoon - Atlantis/Seaweed Sanctum, Sea Bottom, Inside the Big Fish/Davie Jones Locker Egg Nest 4",
+            "ref": "Jolly Roger's Lagoon - Sea Bottom/Lord Woo Fak Fak/Davie Jones Locker Egg Nest 4",
             "name": "JRL: Davie Jones Locker Egg Nest 4"
           },
           {
@@ -2280,31 +2280,31 @@
             "name": "JRL: Atlantis Seemee Fish Egg Nest"
           },
           {
-            "ref": "Jolly Roger's Lagoon - Atlantis/Seaweed Sanctum, Sea Bottom, Inside the Big Fish/Lockers Egg Nest 1",
+            "ref": "Jolly Roger's Lagoon - Sea Bottom/JRL: Lockers Egg Nests/Egg Nest 1",
             "name": "JRL: Lockers Egg Nest 1"
           },
           {
-            "ref": "Jolly Roger's Lagoon - Atlantis/Seaweed Sanctum, Sea Bottom, Inside the Big Fish/Lockers Egg Nest 2",
+            "ref": "Jolly Roger's Lagoon - Sea Bottom/JRL: Lockers Egg Nests/Egg Nest 2",
             "name": "JRL: Lockers Egg Nest 2"
           },
           {
-            "ref": "Jolly Roger's Lagoon - Atlantis/Seaweed Sanctum, Sea Bottom, Inside the Big Fish/Lockers Egg Nest 3",
+            "ref": "Jolly Roger's Lagoon - Sea Bottom/JRL: Lockers Egg Nests/Egg Nest 3",
             "name": "JRL: Lockers Egg Nest 3"
           },
           {
-            "ref": "Jolly Roger's Lagoon - Atlantis/Seaweed Sanctum, Sea Bottom, Inside the Big Fish/Near Big Fish Warp Pad Egg Nest 1",
+            "ref": "Jolly Roger's Lagoon - Sea Bottom/JRL: Near Big Fish Warp Pad Egg Nests/Egg Nest 1",
             "name": "JRL: Near Big Fish Warp Pad Egg Nest 1"
           },
           {
-            "ref": "Jolly Roger's Lagoon - Atlantis/Seaweed Sanctum, Sea Bottom, Inside the Big Fish/Near Big Fish Warp Pad Egg Nest 2",
+            "ref": "Jolly Roger's Lagoon - Sea Bottom/JRL: Near Big Fish Warp Pad Egg Nests/Egg Nest 2",
             "name": "JRL: Near Big Fish Warp Pad Egg Nest 2"
           },
           {
-            "ref": "Jolly Roger's Lagoon - Atlantis/Seaweed Sanctum, Sea Bottom, Inside the Big Fish/Locker Cavern Seemee Fish Feather Nest",
+            "ref": "Jolly Roger's Lagoon - Sea Bottom/JRL: Locker Cavern Seemee Fish Feather Nest (Moves Around)/Feather Nest",
             "name": "JRL: Locker Cavern Seemee Fish Feather Nest"
           },
           {
-            "ref": "Jolly Roger's Lagoon - Atlantis/Seaweed Sanctum, Sea Bottom, Inside the Big Fish/Locker Cavern Seemee Fish Egg Nest",
+            "ref": "Jolly Roger's Lagoon - Sea Bottom/JRL: Locker Cavern Seemee Fish Egg Nest (Moves Around)/Egg Nest",
             "name": "JRL: Locker Cavern Seemee Fish Egg Nest"
           }
         ],
@@ -3480,7 +3480,7 @@
             "name": "HFP: Windy Hole Jinjo"
           },
           {
-            "ref": "Hailfire Peaks - Icy Side/Icicle Grotto/Jinjo",
+            "ref": "Hailfire Peaks - Icicle Grotto/HFP: Icicle Grotto Jinjo/Jinjo",
             "name": "HFP: Icicle Grotto Jinjo"
           },
           {
@@ -3512,7 +3512,7 @@
             "name": "HFP: Colosseum Cheato Page"
           },
           {
-            "ref": "Hailfire Peaks - Icy Side/Icicle Grotto/Cheato Page",
+            "ref": "Hailfire Peaks - Icicle Grotto/HFP: Icicle Grotto Cheato Page/Cheato Page",
             "name": "HFP: Icicle Grotto Cheato Page"
           },
           {
@@ -3608,7 +3608,7 @@
         "name": "Hailfire Peaks - Notes",
         "sections": [
           {
-            "ref": "Hailfire Peaks - Icy Side/Icicle Grotto/Treble Clef",
+            "ref": "Hailfire Peaks - Icicle Grotto/HFP: Treble Clef/Treble Clef",
             "name": "HFP: Treble Clef"
           },
           {
@@ -3808,27 +3808,27 @@
             "name": "HFP: Kickball Colosseum Feather Nest 2"
           },
           {
-            "ref": "Hailfire Peaks - Icy Side/Icicle Grotto/Bottom Egg Nest 1",
+            "ref": "Hailfire Peaks - Icicle Grotto/HFP: Icicle Grotto Bottom Egg Nests/Egg Nest 1",
             "name": "HFP: Icicle Grotto Bottom Egg Nest 1"
           },
           {
-            "ref": "Hailfire Peaks - Icy Side/Icicle Grotto/Bottom Egg Nest 2",
+            "ref": "Hailfire Peaks - Icicle Grotto/HFP: Icicle Grotto Bottom Egg Nests/Egg Nest 2",
             "name": "HFP: Icicle Grotto Bottom Egg Nest 2"
           },
           {
-            "ref": "Hailfire Peaks - Icy Side/Icicle Grotto/Bottom Egg Nest 3",
+            "ref": "Hailfire Peaks - Icicle Grotto/HFP: Icicle Grotto Bottom Egg Nests/Egg Nest 3",
             "name": "HFP: Icicle Grotto Bottom Egg Nest 3"
           },
           {
-            "ref": "Hailfire Peaks - Icy Side/Icicle Grotto/Shock Spring Pad Egg Nest",
+            "ref": "Hailfire Peaks - Icicle Grotto/HFP: Icicle Grotto Shock Spring Pad Egg Nest/Egg Nest",
             "name": "HFP: Icicle Grotto Shock Spring Pad Egg Nest"
           },
           {
-            "ref": "Hailfire Peaks - Icy Side/Icicle Grotto/Top Egg Nest 1",
+            "ref": "Hailfire Peaks - Icicle Grotto/HFP: Icicle Grotto Top Egg Nests/Egg Nest 1",
             "name": "HFP: Icicle Grotto Top Egg Nest 1"
           },
           {
-            "ref": "Hailfire Peaks - Icy Side/Icicle Grotto/Top Egg Nest 2",
+            "ref": "Hailfire Peaks - Icicle Grotto/HFP: Icicle Grotto Top Egg Nests/Egg Nest 2",
             "name": "HFP: Icicle Grotto Top Egg Nest 2"
           },
           {
@@ -4422,40 +4422,6 @@
         ]
       },
       {
-        "name": "SM: Cheato Rewards",
-        "access_rules": [ "fpad", "fflip, climb" ],
-        "visibility_rules": [ "cheatorewards_on" ],
-        "sections": [
-          {
-            "name": "Reward 1",
-            "access_rules": [ "$has|pages|5" ]
-          },
-          {
-            "name": "Reward 2",
-            "access_rules": [ "$has|pages|10" ]
-          },
-          {
-            "name": "Reward 3",
-            "access_rules": [ "$has|pages|15" ]
-          },
-          {
-            "name": "Reward 4",
-            "access_rules": [ "$has|pages|20" ]
-          },
-          {
-            "name": "Reward 5",
-            "access_rules": [ "$has|pages|25" ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "sm",
-            "x": 360,
-            "y": 150
-          }
-        ]
-      },
-      {
         "name": "SM: Bottom of Attack Tutorial Field Egg Nests",
         "visibility_rules": ["nestsanity_on"],
         "sections": [
@@ -4608,47 +4574,6 @@
         ]
       },
       {
-        "name": "Gruntilda's Lair",
-        "visibility_rules": ["nestsanity_on"],
-        "sections": [
-          {
-            "name": "Egg Nest 1",
-            "access_rules": ["fpad"]
-          },
-          {
-            "name": "Egg Nest 2",
-            "access_rules": ["fpad, $canDoSmallElevation"]
-          },
-          {
-            "name": "Egg Nest 3",
-            "access_rules": ["fpad, $canDoSmallElevation"]
-          },
-          {
-            "name": "Egg Nest 4",
-            "access_rules": ["fpad, $canDoSmallElevation"]
-          },
-          {
-            "name": "Feather Nest 1",
-            "access_rules": ["fpad"]
-          },
-          {
-            "name": "Feather Nest 2",
-            "access_rules": ["fpad"]
-          },
-          {
-            "name": "Feather Nest 3",
-            "access_rules": ["fpad"]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "sm",
-            "x": 345,
-            "y": 150
-          }
-        ]
-      },
-      {
         "name": "IoH: Inside the Digger Tunnel Egg Nest",
         "visibility_rules": ["nestsanity_on"],
         "sections": [
@@ -4667,9 +4592,93 @@
     ]
   },
   {
+    "name": "Gruntilda's Lair",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+      "@Spiral Mountain, $SM_to_GL"
+    ],
+    "children": [
+      {
+        "name": "SM: Cheato Rewards",
+        "access_rules": [ "fpad", "fflip, climb" ],
+        "visibility_rules": [ "cheatorewards_on" ],
+        "sections": [
+          {
+            "name": "Reward 1",
+            "access_rules": [ "$has|pages|5" ]
+          },
+          {
+            "name": "Reward 2",
+            "access_rules": [ "$has|pages|10" ]
+          },
+          {
+            "name": "Reward 3",
+            "access_rules": [ "$has|pages|15" ]
+          },
+          {
+            "name": "Reward 4",
+            "access_rules": [ "$has|pages|20" ]
+          },
+          {
+            "name": "Reward 5",
+            "access_rules": [ "$has|pages|25" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sm",
+            "x": 360,
+            "y": 150
+          }
+        ]
+      },
+      {
+        "name": "Gruntilda's Lair",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2",
+            "access_rules": ["$nest_lair_top"]
+          },
+          {
+            "name": "Egg Nest 3",
+            "access_rules": ["$nest_lair_top"]
+          },
+          {
+            "name": "Egg Nest 4",
+            "access_rules": ["$nest_lair_top"]
+          },
+          {
+            "name": "Feather Nest 1"
+          },
+          {
+            "name": "Feather Nest 2"
+          },
+          {
+            "name": "Feather Nest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sm",
+            "x": 345,
+            "y": 150
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Jinjo Village",
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+      "@Spiral Mountain, $canGetPassedKlungo"
+    ],
     "children": [
       {
         "name": "King Jingaling's Throne Room",
@@ -5051,6 +5060,9 @@
     "name": "Wooded Hollow",
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+      "@Spiral Mountain, $canGetPassedKlungo"
+    ],
     "children": [
       {
         "name": "IoH: Wooded Hollow Jinjo",
@@ -6127,24 +6139,24 @@
         "visibility_rules": ["nestsanity_on"],
         "sections": [
           {
-            "name": "Feather Nest 1",
-            "access_rules": [
-              "logictype_b, $canDoSmallElevation",
-              "logictype_n, $canDoSmallElevation",
-              "logictype_a, $canDoSmallElevation", "logictype_a, $clockwork_shot",
-              "logictype_g, $canDoSmallElevation", "logictype_g, $clockwork_shot"
-            ]
-          },
-          {
-            "name": "Feather Nest 2"
-          },
-          {
-            "name": "Feather Nest 3",
+            "name": "Left Feather Nest",
             "access_rules": [
               "logictype_b, $canDoSmallElevation",
               "logictype_n, $canDoSmallElevation", "logictype_n, arat",
               "logictype_a, $canDoSmallElevation", "logictype_a, arat", "logictype_a, $clockwork_shot",
               "logictype_g, $canDoSmallElevation", "logictype_g, arat", "logictype_g, $clockwork_shot"
+            ]
+          },
+          {
+            "name": "Back Feather Nest"
+          },
+          {
+            "name": "High Feather Nest",
+            "access_rules": [
+              "logictype_b, $canDoSmallElevation",
+              "logictype_n, $canDoSmallElevation",
+              "logictype_a, $canDoSmallElevation", "logictype_a, $clockwork_shot",
+              "logictype_g, $canDoSmallElevation", "logictype_g, $clockwork_shot"
             ]
           }
         ],
@@ -6536,110 +6548,88 @@
         "name": "Targitzan's Temple",
         "sections": [
           {
-            "name": "Targitzan Jiggy",
-            "access_rules": [
-              "logictype_b, bblaster, begg", "logictype_b, bblaster, feggs", "logictype_b, bblaster, geggs",
-              "logictype_n, bblaster, begg", "logictype_n, bblaster, feggs", "logictype_n, bblaster, geggs", "logictype_n, bblaster, ieggs, bbayonet",
-              "logictype_a, bblaster, begg", "logictype_a, bblaster, feggs", "logictype_a, bblaster, geggs", "logictype_a, bblaster, ieggs, bbayonet",
-              "logictype_g, bblaster, begg", "logictype_g, bblaster, feggs", "logictype_g, bblaster, geggs", "logictype_g, bblaster, ieggs, bbayonet"
-            ]
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan Jiggy/Jiggy",
+            "name": "Targitzan Jiggy"
           },
           {
-            "name": "Slightly Sacred Chamber Jiggy",
-            "access_rules": [ "bblaster" ]
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Slightly Sacred Chamber Jiggy/Jiggy",
+            "name": "Slightly Sacred Chamber Jiggy"
           },
           {
-            "name": "Targitzan Temple Jinjo",
-            "access_rules": [ "bblaster" ]
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan Temple Jinjo/Jinjo",
+            "name": "Targitzan Temple Jinjo"
           },
           {
-            "name": "Targitzan Mumbo Token",
-            "visibility_rules": [ "goal_boss", "goal_wwing" ],
-            "access_rules": [
-              "logictype_b, bblaster, begg", "logictype_b, bblaster, feggs", "logictype_b, bblaster, geggs",
-              "logictype_n, bblaster, begg", "logictype_n, bblaster, feggs", "logictype_n, bblaster, geggs", "logictype_n, bblaster, ieggs, bbayonet",
-              "logictype_a, bblaster, begg", "logictype_a, bblaster, feggs", "logictype_a, bblaster, geggs", "logictype_a, bblaster, ieggs, bbayonet",
-              "logictype_g, bblaster, begg", "logictype_g, bblaster, feggs", "logictype_g, bblaster, geggs", "logictype_g, bblaster, ieggs, bbayonet"
-            ]
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan Jiggy/Mumbo Token",
+            "name": "Targitzan Mumbo Token"
           },
           {
-            "name": "Targitzan's Temple Lobby Left Egg Nest 1",
-            "visibility_rules": ["nestsanity_on"]
+            "ref": "Mayahem Temple - Targitzan's Temple Lobby/MT: Targitzan Temple Lobby Left Egg Nests/Egg Nest 1",
+            "name": "Targitzan's Temple Lobby Left Egg Nest 1"
           },
           {
-            "name": "Targitzan's Temple Lobby Left Egg Nest 2",
-            "visibility_rules": ["nestsanity_on"]
+            "ref": "Mayahem Temple - Targitzan's Temple Lobby/MT: Targitzan Temple Lobby Left Egg Nests/Egg Nest 2",
+            "name": "Targitzan's Temple Lobby Left Egg Nest 2"
           },
           {
-            "name": "Targitzan's Temple Lobby Left Egg Nest 3",
-            "visibility_rules": ["nestsanity_on"]
+            "ref": "Mayahem Temple - Targitzan's Temple Lobby/MT: Targitzan Temple Lobby Left Egg Nests/Egg Nest 3",
+            "name": "Targitzan's Temple Lobby Left Egg Nest 3"
           },
           {
-            "name": "Targitzan's Temple Lobby Right Egg Nest 1",
-            "visibility_rules": ["nestsanity_on"]
+            "ref": "Mayahem Temple - Targitzan's Temple Lobby/MT: Targitzan Temple Lobby Right Egg Nests/Egg Nest 1",
+            "name": "Targitzan's Temple Lobby Right Egg Nest 1"
           },
           {
-            "name": "Targitzan's Temple Lobby Right Egg Nest 2",
-            "visibility_rules": ["nestsanity_on"]
+            "ref": "Mayahem Temple - Targitzan's Temple Lobby/MT: Targitzan Temple Lobby Right Egg Nests/Egg Nest 2",
+            "name": "Targitzan's Temple Lobby Right Egg Nest 2"
           },
           {
-            "name": "Targitzan's Temple Lobby Right Egg Nest 3",
-            "visibility_rules": ["nestsanity_on"]
+            "ref": "Mayahem Temple - Targitzan's Temple Lobby/MT: Targitzan Temple Lobby Right Egg Nests/Egg Nest 3",
+            "name": "Targitzan's Temple Lobby Right Egg Nest 3"
           },
           {
-            "name": "Targitzan's Temple Raising Slope Room Egg Nest 1",
-            "visibility_rules": ["nestsanity_on"],
-            "access_rules": [ "bblaster" ]
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple Raising Slope Room Egg Nests/Egg Nest 1",
+            "name": "Targitzan's Temple Raising Slope Room Egg Nest 1"
           },
           {
-            "name": "Targitzan's Temple Raising Slope Room Egg Nest 2",
-            "visibility_rules": ["nestsanity_on"],
-            "access_rules": [ "bblaster" ]
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple Raising Slope Room Egg Nests/Egg Nest 2",
+            "name": "Targitzan's Temple Raising Slope Room Egg Nest 2"
           },
           {
-            "name": "Targitzan's Temple Raising Slope Room Egg Nest 3",
-            "visibility_rules": ["nestsanity_on"],
-            "access_rules": [ "bblaster" ]
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple Raising Slope Room Egg Nests/Egg Nest 3",
+            "name": "Targitzan's Temple Raising Slope Room Egg Nest 3"
           },
           {
-            "name": "Targitzan's Temple 4-Way Room Egg Nest 1",
-            "visibility_rules": ["nestsanity_on"],
-            "access_rules": [ "bblaster" ]
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple 4-Way Room Egg Nests/Egg Nest 1",
+            "name": "Targitzan's Temple 4-Way Room Egg Nest 1"
           },
           {
-            "name": "Targitzan's Temple 4-Way Room Egg Nest 2",
-            "visibility_rules": ["nestsanity_on"],
-            "access_rules": [ "bblaster" ]
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple 4-Way Room Egg Nests/Egg Nest 2",
+            "name": "Targitzan's Temple 4-Way Room Egg Nest 2"
           },
           {
-            "name": "Targitzan's Temple 4-Way Room Egg Nest 3",
-            "visibility_rules": ["nestsanity_on"],
-            "access_rules": [ "bblaster" ]
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple 4-Way Room Egg Nests/Egg Nest 3",
+            "name": "Targitzan's Temple 4-Way Room Egg Nest 3"
           },
           {
-            "name": "Targitzan's Temple 4-Way Room Egg Nest 4",
-            "visibility_rules": ["nestsanity_on"],
-            "access_rules": [ "bblaster" ]
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple 4-Way Room Egg Nests/Egg Nest 4",
+            "name": "Targitzan's Temple 4-Way Room Egg Nest 4"
           },
           {
-            "name": "Targitzan's Temple Pillar Maze Egg Nest 1",
-            "visibility_rules": ["nestsanity_on"],
-            "access_rules": [ "bblaster" ]
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple Pillar Maze Egg Nests/Egg Nest 1",
+            "name": "Targitzan's Temple Pillar Maze Egg Nest 1"
           },
           {
-            "name": "Targitzan's Temple Pillar Maze Egg Nest 2",
-            "visibility_rules": ["nestsanity_on"],
-            "access_rules": [ "bblaster" ]
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple Pillar Maze Egg Nests/Egg Nest 2",
+            "name": "Targitzan's Temple Pillar Maze Egg Nest 2"
           },
           {
-            "name": "Targitzan's Temple Pillar Maze Egg Nest 3",
-            "visibility_rules": ["nestsanity_on"],
-            "access_rules": [ "bblaster" ]
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple Pillar Maze Egg Nests/Egg Nest 3",
+            "name": "Targitzan's Temple Pillar Maze Egg Nest 3"
           },
           {
-            "name": "Targitzan's Temple Golden Egg Nest",
-            "visibility_rules": ["nestsanity_on"],
-            "access_rules": [ "bblaster" ]
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple Golden Egg Nest/Egg Nest",
+            "name": "Targitzan's Temple Golden Egg Nest"
           }
         ],
         "map_locations": [
@@ -6917,6 +6907,206 @@
     ]
   },
   {
+    "name": "Mayahem Temple - Targitzan's Temple Lobby",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": ["@Mayahem Temple - Main Area"],
+    "children": [
+      {
+        "name": "MT: Targitzan Temple Lobby Left Egg Nests",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          },
+          {
+            "name": "Egg Nest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt4",
+            "x": 95,
+            "y": 320
+          }
+        ]
+      },
+      {
+        "name": "MT: Targitzan Temple Lobby Right Egg Nests",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          },
+          {
+            "name": "Egg Nest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt4",
+            "x": 400,
+            "y": 320
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mayahem Temple - Inside Targitzan's Temple",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": ["@Mayahem Temple - Main Area, bblaster"],
+    "children": [
+      {
+        "name": "MT: Targitzan Temple Jinjo",
+        "sections": [
+          {
+            "name": "Jinjo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt5",
+            "x": 171,
+            "y": 310
+          }
+        ]
+      },
+      {
+        "name": "MT: Slightly Sacred Chamber Jiggy",
+        "sections": [
+          {
+            "name": "Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt5",
+            "x": 45,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "MT: Targitzan Jiggy",
+        "access_rules": [
+          "logictype_b, begg", "logictype_b, feggs", "logictype_b, geggs",
+          "logictype_n, begg", "logictype_n, feggs", "logictype_n, geggs", "logictype_n, ieggs, bbayonet",
+          "logictype_a, begg", "logictype_a, feggs", "logictype_a, geggs", "logictype_a, ieggs, bbayonet",
+          "logictype_g, begg", "logictype_g, feggs", "logictype_g, geggs", "logictype_g, ieggs, bbayonet"
+        ],
+        "sections": [
+          {
+            "name": "Jiggy"
+          },
+          {
+            "name": "Mumbo Token",
+            "visibility_rules": [ "goal_boss", "goal_wwing" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt5",
+            "x": 45,
+            "y": 183
+          }
+        ]
+      },
+      {
+        "name": "MT: Targitzan's Temple Raising Slope Room Egg Nests",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          },
+          {
+            "name": "Egg Nest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt5",
+            "x": 785,
+            "y": 645
+          }
+        ]
+      },
+      {
+        "name": "MT: Targitzan's Temple 4-Way Room Egg Nests",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          },
+          {
+            "name": "Egg Nest 3"
+          },
+          {
+            "name": "Egg Nest 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt5",
+            "x": 268,
+            "y": 578
+          }
+        ]
+      },
+      {
+        "name": "MT: Targitzan's Temple Golden Egg Nest",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt5",
+            "x": 65,
+            "y": 583
+          }
+        ]
+      },
+      {
+        "name": "MT: Targitzan's Temple Pillar Maze Egg Nests",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          },
+          {
+            "name": "Egg Nest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt5",
+            "x": 360,
+            "y": 155
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Mayahem Temple - Prison Compound",
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
@@ -6927,12 +7117,7 @@
         "sections": [
           {
             "name": "Cheato Page",
-            "access_rules": [ 
-              "logictype_b, $canReachSlightlyElevatedLedge, tjump",
-              "logictype_n, $canReachSlightlyElevatedLedge",
-              "logictype_a, $canReachSlightlyElevatedLedge", "logictype_a, eggaim, ceggs",
-              "logictype_g, $canReachSlightlyElevatedLedge", "logictype_g, eggaim, ceggs"
-            ]
+            "access_rules": ["$cheato_prison"]
           }
         ],
         "map_locations": [
@@ -6948,12 +7133,7 @@
         "sections": [
           {
             "name": "Jiggy",
-            "access_rules": [
-              "logictype_b, $canReachSlightlyElevatedLedge, sstride, $prison_compound_open, tjump",
-              "logictype_n, $canReachSlightlyElevatedLedge, sstride, $prison_compound_open",
-              "logictype_a, $canReachSlightlyElevatedLedge, sstride, $prison_compound_open",
-              "logictype_g, $canReachSlightlyElevatedLedge, sstride, $prison_compound_open"
-            ]
+            "access_rules": ["$jiggy_prison_quicksand"]
           }
         ],
         "map_locations": [
@@ -7890,18 +8070,16 @@
         "name": "Flooded Caves",
         "sections": [
           {
-            "name": "Jiggy",
-            "access_rules": [ "$gm_jiggy10" ]
+            "ref": "Glitter Gulch Mine - Flooded Caves/GGM: Flooded Caves Jiggy/Jiggy",
+            "name": "Jiggy"
           },
           {
-            "name": "Egg Nest 1",
-            "visibility_rules": ["nestsanity_on"],
-            "access_rules": [ "$nest_flooded_caves" ]
+            "ref": "Glitter Gulch Mine - Flooded Caves/GGM: Flooded Caves Egg Nest 1/Egg Nest",
+            "name": "Egg Nest 1"
           },
           {
-            "name": "Egg Nest 2",
-            "visibility_rules": ["nestsanity_on"],
-            "access_rules": [ "$nest_flooded_caves" ]
+            "ref": "Glitter Gulch Mine - Flooded Caves/GGM: Flooded Caves Egg Nest 2/Egg Nest",
+            "name": "Egg Nest 2"
           }
         ],
         "map_locations": [
@@ -7967,8 +8145,8 @@
             "name": "Egg Nest",
             "visibility_rules": ["nestsanity_on"],
             "access_rules": [ 
-              "logictype_b, $GGMSlope", "logictype_b, fflip", "logictype_b, @Mayahem Temple - Prison Compound, $dilberta_free",
-              "logictype_n", "logictype_a", "logictype_g"
+              "logictype_b, @Glitter Gulch Mine - Main Area, $GGMSlope", "logictype_b, @Glitter Gulch Mine - Main Area, fflip", "logictype_b, @Mayahem Temple - Prison Compound, $dilberta_free",
+              "logictype_n, @Glitter Gulch Mine - Main Area", "logictype_a, @Glitter Gulch Mine - Main Area", "logictype_g, @Glitter Gulch Mine - Main Area"
             ]
           }
         ],
@@ -7987,7 +8165,7 @@
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
     "access_rules": [
-      "@Glitter Gulch Mine - Main Area, $ggm_to_fuel_depot",
+      "@Glitter Gulch Mine - Main Area, $humbaGGM",
       "@Witchyworld - Main Area, $ww_to_fuel_depot"
     ],
     "children": [
@@ -8208,15 +8386,15 @@
         "name": "Flooded Caves",
         "sections": [
           {
-            "ref": "Glitter Gulch Mine - Main Area/Flooded Caves/Jiggy",
+            "ref": "Glitter Gulch Mine - Flooded Caves/GGM: Flooded Caves Jiggy/Jiggy",
             "name": "Jiggy"
           },
           {
-            "ref": "Glitter Gulch Mine - Main Area/Flooded Caves/Egg Nest 1",
+            "ref": "Glitter Gulch Mine - Flooded Caves/GGM: Flooded Caves Egg Nest 1/Egg Nest",
             "name": "Egg Nest 1"
           },
           {
-            "ref": "Glitter Gulch Mine - Main Area/Flooded Caves/Egg Nest 2",
+            "ref": "Glitter Gulch Mine - Flooded Caves/GGM: Flooded Caves Egg Nest 2/Egg Nest",
             "name": "Egg Nest 2"
           }
         ],
@@ -8332,6 +8510,66 @@
     ]
   },
   {
+    "name": "Glitter Gulch Mine - Flooded Caves",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+      "@Glitter Gulch Mine - Main Area"
+    ],
+    "children": [
+      {
+        "name": "GGM: Flooded Caves Jiggy",
+        "access_rules": ["$gm_jiggy10"],
+        "sections": [
+          {
+            "name": "Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ggm5",
+            "x": 590,
+            "y": 25
+          }
+        ]
+      },
+      {
+        "name": "GGM: Flooded Caves Egg Nest 1",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["$nest_flooded_caves"],
+        "sections": [
+          {
+            "name": "Egg Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ggm5",
+            "x": 205,
+            "y": 615
+          }
+        ]
+      },
+      {
+        "name": "GGM: Flooded Caves Egg Nest 2",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["$nest_flooded_caves"],
+        "sections": [
+          {
+            "name": "Egg Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ggm5",
+            "x": 590,
+            "y": 615
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Glitter Gulch Mine - Water Storage Jinjo",
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
@@ -8388,7 +8626,7 @@
       "$load_gi_ww, @Quagmire, gia",
       "$load_ck_ww, @Quagmire, $quag_to_CK, cka",
       "trainswww, @Inside Chuffy",
-      "@Glitter Gulch Mine - Fuel Depot Behind the Rocks, $fuel_depot_to_ww",
+      "@Glitter Gulch Mine - Main Area, $ggm_to_ww",
       "@Terrydactyland - Main Area, $TDL_to_WW"
     ],
     "children": [
@@ -9302,7 +9540,7 @@
               "logictype_b, ggrab, climb, fflip, @Witchyworld - Main Area",
               "logictype_n, ggrab, climb, fflip, @Witchyworld - Main Area", "logictype_n, $leg_spring, $glide, @Witchyworld - Main Area",
               "logictype_a, ggrab, climb, fflip, $clockwork_shot, @Witchyworld - Main Area", "logictype_a, ggrab, climb, fflip, $longJumpToGripGrab, @Witchyworld - Main Area", "logictype_a, bbust, climb, fflip, $clockwork_shot, @Witchyworld - Main Area", "logictype_a, bbust, climb, fflip, $longJumpToGripGrab, @Witchyworld - Main Area", "logictype_a, $leg_spring, glide(), @Witchyworld - Main Area", "logictype_a, $clockwork_shot, ttrot, @Witchyworld - Main Area", "logictype_a, $clockwork_shot, splitup, @Witchyworld - Main Area",
-              "logictype_g, ggrab, climb, fflip, $clockwork_shot, @Witchyworld - Main Area", "logictype_g, ggrab, climb, fflip, $longJumpToGripGrab, @Witchyworld - Main Area", "logictype_g, bbust, climb, fflip, $clockwork_shot, @Witchyworld - Main Area", "logictype_g, bbust, climb, fflip, $longJumpToGripGrab, @Witchyworld - Main Area", "logictype_g, $clockwork_shot, @Glitter Gulch Mine - Fuel Depot Behind the Rocks, $fuel_depot_to_ww", "logictype_g, $leg_spring, $glide, @Witchyworld - Main Area", "logictype_g, $clockwork_shot, ttrot, @Witchyworld - Main Area", "logictype_g, $clockwork_shot, splitup, @Witchyworld - Main Area"
+              "logictype_g, ggrab, climb, fflip, $clockwork_shot, @Witchyworld - Main Area", "logictype_g, ggrab, climb, fflip, $longJumpToGripGrab, @Witchyworld - Main Area", "logictype_g, bbust, climb, fflip, $clockwork_shot, @Witchyworld - Main Area", "logictype_g, bbust, climb, fflip, $longJumpToGripGrab, @Witchyworld - Main Area", "logictype_g, $clockwork_shot, @Glitter Gulch Mine - Main Area, $ggm_to_ww", "logictype_g, $leg_spring, $glide, @Witchyworld - Main Area", "logictype_g, $clockwork_shot, ttrot, @Witchyworld - Main Area", "logictype_g, $clockwork_shot, splitup, @Witchyworld - Main Area"
             ]
           }
         ],
@@ -10091,7 +10329,7 @@
             "name": "Captain Blackeye Doubloon 2"
           },
           {
-            "ref": "Jolly Roger's Lagoon - Atlantis/Jolly's/Merry Maggie Jiggy",
+            "ref": "Jolly Roger's Lagoon - Sea Bottom/Inside the Big Fish/Merry Maggie Jiggy",
             "name": "Merry Maggie Jiggy"
           },
           {
@@ -10406,19 +10644,6 @@
     ],
     "children": [
       {
-        "name": "Jolly's",
-        "sections": [
-          {
-            "name": "Merry Maggie Jiggy",
-            "access_rules": [
-              "logictype_b", "logictype_n",
-              "logictype_a, auqaim, $hasLinearEgg", "logictype_a, eggaim, $hasLinearEgg",
-              "logictype_g, auqaim, $hasLinearEgg", "logictype_g, eggaim, $hasLinearEgg"
-            ]
-          }
-        ]
-      },
-      {
         "name": "JRL: Treble Clef",
         "sections": [
           {
@@ -10463,6 +10688,11 @@
             "map": "jrl2",
             "x": 73,
             "y": 343
+          },
+          {
+            "map": "jrl4",
+            "x": 810,
+            "y": 680
           }
         ]
       },
@@ -10608,144 +10838,27 @@
         ]
       },
       {
-        "name": "Seaweed Sanctum, Sea Bottom, Inside the Big Fish",
+        "name": "Seaweed Sanctum",
         "sections": [
           {
-            "name": "Seaweed Sanctum Jinjo",
-            "access_rules": [
-              "logictype_b, ggrab, fflip",
-              "logictype_n, ggrab, fflip", "logictype_n, bbust, fflip", "logictype_n, $has_explosives, $pack_whack, ggrab",
-              "logictype_a, ggrab, fflip", "logictype_a, bbust, fflip", "logictype_a, $clockwork_shot", "logictype_a, $has_explosives, $pack_whack, ggrab",
-              "logictype_g, ggrab, fflip", "logictype_g, bbust, fflip", "logictype_g, $clockwork_shot", "logictype_g, $has_explosives, $pack_whack, ggrab"
-            ]
+            "ref": "Jolly Roger's Lagoon - Seaweed Sanctum/JRL: Seaweed Sanctum Jinjo/Jinjo",
+            "name": "Jinjo"
           },
           {
-            "name": "Seemee Honeycomb",
-            "access_rules": [ "ttorp" ]
+            "ref": "Jolly Roger's Lagoon - Seaweed Sanctum/JRL: Seaweed Sanctum Bottom Floor Feather Nest/Feather Nest",
+            "name": "Bottom Floor Feather Nest"
           },
           {
-            "name": "Big Fish Jinjo",
-            "access_rules": [
-              "logictype_b", "logictype_n",
-              "logictype_a, auqaim, $hasLinearEgg",
-              "logictype_g, auqaim, $hasLinearEgg"
-            ]
+            "ref": "Jolly Roger's Lagoon - Seaweed Sanctum/JRL: Seaweed Sanctum Second Floor Egg Nest 1/Egg Nest",
+            "name": "Second Floor Egg Nest 1"
           },
           {
-            "name": "Mini-Sub Challenge Jiggy",
-            "access_rules": [ "humbajr" ]
+            "ref": "Jolly Roger's Lagoon - Seaweed Sanctum/JRL: Seaweed Sanctum Top Floor Feather Nest/Feather Nest",
+            "name": "Top Floor Feather Nest"
           },
           {
-            "name": "Mini-Sub Challenge Mumbo Token",
-            "access_rules": [ "humbajr" ],
-            "visibility_rules": [ "goal_minigame", "goal_wwing" ]
-          },
-          {
-            "name": "Woo Fak Fak Jiggy",
-            "access_rules": [
-              "logictype_b, geggs",
-              "logictype_n, geggs, humbajr", "logictype_n, geggs, mumbojr",
-              "logictype_a, geggs, auqaim, ttorp, dair", "logictype_a, geggs, auqaim, mumbojr", "logictype_a, geggs, auqaim, humbajr",
-              "logictype_g, geggs, auqaim, ttorp, dair", "logictype_g, geggs, auqaim, mumbojr", "logictype_g, geggs, auqaim, humbajr"
-            ]
-          },
-          {
-            "name": "Woo Fak Fak Mumbo Token",
-            "access_rules": [
-              "logictype_b, geggs",
-              "logictype_n, geggs, humbajr", "logictype_n, geggs, mumbojr",
-              "logictype_a, geggs, auqaim, ttorp, dair", "logictype_a, geggs, auqaim, mumbojr", "logictype_a, geggs, auqaim, humbajr",
-              "logictype_g, geggs, auqaim, ttorp, dair", "logictype_g, geggs, auqaim, mumbojr", "logictype_g, geggs, auqaim, humbajr"
-            ],
-            "visibility_rules": [ "goal_boss", "goal_wwing" ]
-          },
-          {
-            "name": "Seaweed Sanctum Bottom Floor Feather Nest",
-            "visibility_rules": ["nestsanity_on"],
-            "access_rules": ["$nest_seaweed_bottom"]
-          },
-          {
-            "name": "Seaweed Sanctum Second Floor Egg Nest 1",
-            "visibility_rules": ["nestsanity_on"],
-            "access_rules": ["$nest_seaweed_others"]
-          },
-          {
-            "name": "Seaweed Sanctum Top Floor Feather Nest",
-            "visibility_rules": ["nestsanity_on"],
-            "access_rules": ["$nest_seaweed_others"]
-          },
-          {
-            "name": "Seaweed Sanctum Second Floor Egg Nest 2",
-            "visibility_rules": ["nestsanity_on"],
-            "access_rules": ["$nest_seaweed_others"]
-          },
-          {
-            "name": "Inside the Big Fish Feather Nest 1",
-            "visibility_rules": ["nestsanity_on"],
-            "access_rules": [
-              "logictype_b", "logictype_n",
-              "logictype_a, auqaim, $hasLinearEgg", "logictype_a, eggaim, $hasLinearEgg",
-              "logictype_g, auqaim, $hasLinearEgg", "logictype_g, eggaim, $hasLinearEgg"
-            ]
-          },
-          {
-            "name": "Inside the Big Fish Feather Nest 2",
-            "visibility_rules": ["nestsanity_on"],
-            "access_rules": [
-              "logictype_b", "logictype_n",
-              "logictype_a, auqaim, $hasLinearEgg", "logictype_a, eggaim, $hasLinearEgg",
-              "logictype_g, auqaim, $hasLinearEgg", "logictype_g, eggaim, $hasLinearEgg"
-            ]
-          },
-          {
-            "name": "Davie Jones Locker Egg Nest 1",
-            "visibility_rules": ["nestsanity_on"],
-            "access_rules": ["$nest_lord_woo"]
-          },
-          {
-            "name": "Davie Jones Locker Egg Nest 2",
-            "visibility_rules": ["nestsanity_on"],
-            "access_rules": ["$nest_lord_woo"]
-          },
-          {
-            "name": "Davie Jones Locker Egg Nest 3",
-            "visibility_rules": ["nestsanity_on"],
-            "access_rules": ["$nest_lord_woo"]
-          },
-          {
-            "name": "Davie Jones Locker Egg Nest 4",
-            "visibility_rules": ["nestsanity_on"],
-            "access_rules": ["$nest_lord_woo"]
-          },
-          {
-            "name": "Lockers Egg Nest 1",
-            "visibility_rules": ["nestsanity_on"]
-          },
-          {
-            "name": "Lockers Egg Nest 2",
-            "visibility_rules": ["nestsanity_on"]
-          },
-          {
-            "name": "Lockers Egg Nest 3",
-            "visibility_rules": ["nestsanity_on"]
-          },
-          {
-            "name": "Near Big Fish Warp Pad Egg Nest 1",
-            "visibility_rules": ["nestsanity_on"]
-          },
-          {
-            "name": "Near Big Fish Warp Pad Egg Nest 2",
-            "visibility_rules": ["nestsanity_on"]
-          },
-          {
-            "name": "Locker Cavern Seemee Fish Feather Nest",
-            "visibility_rules": ["nestsanity_on"],
-            "access_rules": ["ttorp"]
-          },
-          {
-            "name": "Locker Cavern Seemee Fish Egg Nest",
-            "visibility_rules": ["nestsanity_on"],
-            "access_rules": ["ttorp"]
+            "ref": "Jolly Roger's Lagoon - Seaweed Sanctum/JRL: Seaweed Sanctum Second Floor Egg Nest 2/Egg Nest",
+            "name": "Second Floor Egg Nest 2"
           }
         ],
         "map_locations": [
@@ -10808,6 +10921,424 @@
             "map": "jrl2",
             "x": 877,
             "y": 295
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Jolly Roger's Lagoon - Seaweed Sanctum",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+      "@Jolly Roger's Lagoon - Atlantis"
+    ],
+    "children": [
+      {
+        "name": "JRL: Seaweed Sanctum Jinjo",
+        "access_rules": [
+          "logictype_b, ggrab, fflip",
+          "logictype_n, ggrab, fflip", "logictype_n, bbust, fflip", "logictype_n, $has_explosives, $pack_whack, ggrab",
+          "logictype_a, ggrab, fflip", "logictype_a, bbust, fflip", "logictype_a, $clockwork_shot", "logictype_a, $has_explosives, $pack_whack, ggrab",
+          "logictype_g, ggrab, fflip", "logictype_g, bbust, fflip", "logictype_g, $clockwork_shot", "logictype_g, $has_explosives, $pack_whack, ggrab"
+        ],
+        "sections": [
+          {
+            "name": "Jinjo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl3",
+            "x": 735,
+            "y": 300
+          }
+        ]
+      },
+      {
+        "name": "JRL: Seaweed Sanctum Bottom Floor Feather Nest",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["$nest_seaweed_bottom"],
+        "sections": [
+          {
+            "name": "Feather Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl3",
+            "x": 715,
+            "y": 700
+          }
+        ]
+      },
+      {
+        "name": "JRL: Seaweed Sanctum Second Floor Egg Nest 1",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["$nest_seaweed_others"],
+        "sections": [
+          {
+            "name": "Egg Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl3",
+            "x": 625,
+            "y": 340
+          }
+        ]
+      },
+      {
+        "name": "JRL: Seaweed Sanctum Second Floor Egg Nest 2",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["$nest_seaweed_others"],
+        "sections": [
+          {
+            "name": "Egg Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl3",
+            "x": 140,
+            "y": 397
+          }
+        ]
+      },
+      {
+        "name": "JRL: Seaweed Sanctum Top Floor Feather Nest",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["$nest_seaweed_others"],
+        "sections": [
+          {
+            "name": "Feather Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl3",
+            "x": 172,
+            "y": 160
+          }
+        ]
+      },
+      {
+        "name": "Sea Bottom, Inside the Big Fish",
+        "sections": [
+          {
+            "ref": "Jolly Roger's Lagoon - Sea Bottom/JRL: Seemee Honeycomb (Moves Around)/Honeycomb",
+            "name": "Seemee Honeycomb"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Sea Bottom/Inside the Big Fish/Jinjo",
+            "name": "Big Fish Jinjo"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Sea Bottom/Mini-Sub Challenge/Jiggy",
+            "name": "Mini-Sub Challenge Jiggy"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Sea Bottom/Mini-Sub Challenge/Mumbo Token",
+            "name": "Mini-Sub Challenge Mumbo Token"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Sea Bottom/Lord Woo Fak Fak/Jiggy",
+            "name": "Woo Fak Fak Jiggy"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Sea Bottom/Lord Woo Fak Fak/Mumbo Token",
+            "name": "Woo Fak Fak Mumbo Token"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Sea Bottom/Inside the Big Fish/Feather Nest 1",
+            "name": "Inside the Big Fish Feather Nest 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Sea Bottom/Inside the Big Fish/Feather Nest 2",
+            "name": "Inside the Big Fish Feather Nest 2"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Sea Bottom/Lord Woo Fak Fak/Davie Jones Locker Egg Nest 1",
+            "name": "Davie Jones Locker Egg Nest 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Sea Bottom/Lord Woo Fak Fak/Davie Jones Locker Egg Nest 2",
+            "name": "Davie Jones Locker Egg Nest 2"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Sea Bottom/Lord Woo Fak Fak/Davie Jones Locker Egg Nest 3",
+            "name": "Davie Jones Locker Egg Nest 3"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Sea Bottom/Lord Woo Fak Fak/Davie Jones Locker Egg Nest 4",
+            "name": "Davie Jones Locker Egg Nest 4"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Sea Bottom/JRL: Lockers Egg Nests/Egg Nest 1",
+            "name": "Lockers Egg Nest 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Sea Bottom/JRL: Lockers Egg Nests/Egg Nest 2",
+            "name": "Lockers Egg Nest 2"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Sea Bottom/JRL: Lockers Egg Nests/Egg Nest 3",
+            "name": "Lockers Egg Nest 3"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Sea Bottom/JRL: Near Big Fish Warp Pad Egg Nests/Egg Nest 1",
+            "name": "Near Big Fish Warp Pad Egg Nest 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Sea Bottom/JRL: Near Big Fish Warp Pad Egg Nests/Egg Nest 2",
+            "name": "Near Big Fish Warp Pad Egg Nest 2"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Sea Bottom/JRL: Locker Cavern Seemee Fish Feather Nest (Moves Around)/Feather Nest",
+            "name": "Locker Cavern Seemee Fish Feather Nest"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Sea Bottom/JRL: Locker Cavern Seemee Fish Egg Nest (Moves Around)/Egg Nest",
+            "name": "Locker Cavern Seemee Fish Egg Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl3",
+            "x": 403,
+            "y": 200
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Jolly Roger's Lagoon - Sea Bottom",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+      "@Jolly Roger's Lagoon - Atlantis"
+    ],
+    "children": [
+      {
+        "name": "JRL: Near Big Fish Warp Pad Egg Nests",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl4",
+            "x": 1152,
+            "y": 600
+          }
+        ]
+      },
+      {
+        "name": "JRL: Locker Cavern Seemee Fish Egg Nest (Moves Around)",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["ttorp"],
+        "sections": [
+          {
+            "name": "Egg Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl4",
+            "x": 1038,
+            "y": 330
+          }
+        ]
+      },
+      {
+        "name": "Inside the Big Fish",
+        "access_rules": ["$jiggy_merry_maggie"],
+        "sections": [
+          {
+            "name": "Jinjo"
+          },
+          {
+            "name": "Merry Maggie Jiggy"
+          },
+          {
+            "name": "Feather Nest 1",
+            "visibility_rules": ["nestsanity_on"]
+          },
+          {
+            "name": "Feather Nest 2",
+            "visibility_rules": ["nestsanity_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl4",
+            "x": 980,
+            "y": 340
+          }
+        ]
+      },
+      {
+        "name": "JRL: Lockers Egg Nests",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          },
+          {
+            "name": "Egg Nest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl4",
+            "x": 347,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "JRL: Locker Cavern Seemee Fish Feather Nest (Moves Around)",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["ttorp"],
+        "sections": [
+          {
+            "name": "Feather Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl4",
+            "x": 351,
+            "y": 575
+          }
+        ]
+      },
+      {
+        "name": "JRL: Seemee Honeycomb (Moves Around)",
+        "access_rules": ["ttorp"],
+        "sections": [
+          {
+            "name": "Honeycomb"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl4",
+            "x": 200,
+            "y": 470
+          }
+        ]
+      },
+      {
+        "name": "Lord Woo Fak Fak",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "access_rules": [
+              "logictype_b, geggs",
+              "logictype_n, geggs, humbajr", "logictype_n, geggs, mumbojr",
+              "logictype_a, geggs, auqaim, ttorp, dair", "logictype_a, geggs, auqaim, mumbojr", "logictype_a, geggs, auqaim, humbajr",
+              "logictype_g, geggs, auqaim, ttorp, dair", "logictype_g, geggs, auqaim, mumbojr", "logictype_g, geggs, auqaim, humbajr"
+            ]
+          },
+          {
+            "name": "Mumbo Token",
+            "visibility_rules": ["goal_boss", "goal_wwing"],
+            "access_rules": [
+              "logictype_b, geggs",
+              "logictype_n, geggs, humbajr", "logictype_n, geggs, mumbojr",
+              "logictype_a, geggs, auqaim, ttorp, dair", "logictype_a, geggs, auqaim, mumbojr", "logictype_a, geggs, auqaim, humbajr",
+              "logictype_g, geggs, auqaim, ttorp, dair", "logictype_g, geggs, auqaim, mumbojr", "logictype_g, geggs, auqaim, humbajr"
+            ]
+          },
+          {
+            "name": "Davie Jones Locker Egg Nest 1",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["$nest_lord_woo"]
+          },
+          {
+            "name": "Davie Jones Locker Egg Nest 2",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["$nest_lord_woo"]
+          },
+          {
+            "name": "Davie Jones Locker Egg Nest 3",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["$nest_lord_woo"]
+          },
+          {
+            "name": "Davie Jones Locker Egg Nest 4",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["$nest_lord_woo"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl4",
+            "x": 300,
+            "y": 567
+          }
+        ]
+      },
+      {
+        "name": "Mini-Sub Challenge",
+        "access_rules": ["humbajr"],
+        "sections": [
+          {
+            "name": "Jiggy"
+          },
+          {
+            "name": "Mumbo Token",
+            "visibility_rules": ["goal_boss", "goal_wwing"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl4",
+            "x": 180,
+            "y": 703
+          }
+        ]
+      },
+      {
+        "name": "Seaweed Sanctum",
+        "sections": [
+          {
+            "ref": "Jolly Roger's Lagoon - Seaweed Sanctum/JRL: Seaweed Sanctum Jinjo/Jinjo",
+            "name": "Jinjo"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Seaweed Sanctum/JRL: Seaweed Sanctum Bottom Floor Feather Nest/Feather Nest",
+            "name": "Bottom Floor Feather Nest"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Seaweed Sanctum/JRL: Seaweed Sanctum Second Floor Egg Nest 1/Egg Nest",
+            "name": "Second Floor Egg Nest 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Seaweed Sanctum/JRL: Seaweed Sanctum Top Floor Feather Nest/Feather Nest",
+            "name": "Top Floor Feather Nest"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Seaweed Sanctum/JRL: Seaweed Sanctum Second Floor Egg Nest 2/Egg Nest",
+            "name": "Second Floor Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl4",
+            "x": 1162,
+            "y": 690
           }
         ]
       }
@@ -12089,12 +12620,7 @@
         "sections": [
           {
             "name": "Jiggy",
-            "access_rules": [
-              "logictype_b, $can_beat_terry, $has_explosives", "logictype_b, $can_beat_terry, $billDrill",
-              "logictype_n, $can_beat_terry, $has_explosives", "logictype_n, $can_beat_terry, $billDrill",
-              "logictype_a, $can_beat_terry, $has_explosives", "logictype_a, $can_beat_terry, $billDrill", "logictype_a, $tdl_top, $clockwork_shot",
-              "logictype_g, $can_beat_terry, $has_explosives", "logictype_g, $can_beat_terry, $billDrill", "logictype_g, $tdl_top, $clockwork_shot"
-            ]
+            "access_rules": ["$jiggy_terry_nest"]
           }
         ],
         "map_locations": [
@@ -14208,7 +14734,10 @@
         "sections": [
           {
             "name": "Jiggy",
-            "access_rules": [ "$longJump, $hfpTop", "$longJump, trainswhp1, @Inside Chuffy" ]
+            "access_rules": [
+              "$longJump, $hfpTop", "$longJump, trainswhp1, @Inside Chuffy",
+              "logictype_n, splitup", "logictype_a, splitup", "logictype_g, splitup"
+            ]
           },
           {
             "name": "Honeycomb",
@@ -14706,69 +15235,40 @@
         "name": "Icicle Grotto",
         "sections": [
           {
-            "name": "Treble Clef",
-            "access_rules": [
-              "logictype_b, splitup, $iceCubeKazooie, tjump, $wing_whack", "logictype_b, splitup, $iceCubeKazooie, tjump, glide", "logictype_b, splitup, $iceCubeKazooie, $leg_spring", "logictype_b, $hfpTop, geggs, eggaim, $springPad, $veryLongJump", "logictype_b, trainswhp1, @Inside Chuffy, geggs, eggaim, $springPad, $veryLongJump",
-              "logictype_n, splitup, $iceCubeKazooie, tjump", "logictype_n, splitup, $iceCubeKazooie, $wing_whack", "logictype_n, splitup, $iceCubeKazooie, glide", "logictype_n, splitup, $iceCubeKazooie, $leg_spring", "logictype_n, $hfpTop, geggs, eggaim, $springPad, $veryLongJump", "logictype_n, trainswhp1, @Inside Chuffy, geggs, eggaim, $springPad, $veryLongJump",
-              "logictype_a, splitup, $iceCubeKazooie, tjump", "logictype_a, splitup, $iceCubeKazooie, $wing_whack", "logictype_a, splitup, $iceCubeKazooie, glide", "logictype_a, splitup, $iceCubeKazooie, $leg_spring", "logictype_a, $hfpTop, geggs, $veryLongJump, eggaim, $springPad", "logictype_a, trainswhp1, @Inside Chuffy, geggs, $veryLongJump, eggaim, $springPad", "logictype_a, $hfpTop, $clockwork_shot, eggaim, $springPad", "logictype_a, trainswhp1, @Inside Chuffy, $clockwork_shot, eggaim, $springPad", "logictype_a, $extremelyLongJump, $clockwork_shot",
-              "logictype_g, splitup, $iceCubeKazooie, tjump", "logictype_g, splitup, $iceCubeKazooie, $wing_whack", "logictype_g, splitup, $iceCubeKazooie, glide", "logictype_g, splitup, $iceCubeKazooie, $leg_spring", "logictype_g, $hfpTop, geggs, $veryLongJump, eggaim, $springPad", "logictype_g, trainswhp1, @Inside Chuffy, geggs, $veryLongJump, eggaim, $springPad", "logictype_g, $hfpTop, $clockwork_shot, eggaim, $springPad", "logictype_g, trainswhp1, @Inside Chuffy, $clockwork_shot, eggaim, $springPad", "logictype_g, $extremelyLongJump, $clockwork_shot"
-            ]
+            "ref": "Hailfire Peaks - Icicle Grotto/HFP: Treble Clef/Treble Clef",
+            "name": "Treble Clef"
           },
           {
-            "name": "Jinjo",
-            "access_rules": [
-              "logictype_b, $glide, geggs, eggaim, tjump",
-              "logictype_n, splitup, glide", "logictype_n, $leg_spring, $wing_whack",
-              "logictype_a, splitup, glide", "logictype_a, $leg_spring", "logictype_a, $clockwork_shot, tjump, splitup", "logictype_a, $clockwork_shot, tjump, ttrot",
-              "logictype_g, splitup, glide", "logictype_g, $leg_spring", "logictype_g, $clockwork_shot, tjump, splitup", "logictype_g, $clockwork_shot, tjump, ttrot"
-            ]
+            "ref": "Hailfire Peaks - Icicle Grotto/HFP: Icicle Grotto Jinjo/Jinjo",
+            "name": "Jinjo"
           },
           {
-            "name": "Cheato Page",
-            "access_rules": [
-              "$cheato_icicle_grotto",
-              "logictype_g, trainswhp1, @Inside Chuffy, $cheato_icicle_grotto_chuffy"
-            ]
+            "ref": "Hailfire Peaks - Icicle Grotto/HFP: Icicle Grotto Cheato Page/Cheato Page",
+            "name": "Cheato Page"
           },
           {
-            "name": "Bottom Egg Nest 1",
-            "visibility_rules": ["nestsanity_on"],
-            "access_rules": ["$nest_ice_cube"]
+            "ref": "Hailfire Peaks - Icicle Grotto/HFP: Icicle Grotto Bottom Egg Nests/Egg Nest 1",
+            "name": "Bottom Egg Nest 1"
           },
           {
-            "name": "Bottom Egg Nest 2",
-            "visibility_rules": ["nestsanity_on"],
-            "access_rules": ["$nest_ice_cube"]
+            "ref": "Hailfire Peaks - Icicle Grotto/HFP: Icicle Grotto Bottom Egg Nests/Egg Nest 2",
+            "name": "Bottom Egg Nest 2"
           },
           {
-            "name": "Bottom Egg Nest 3",
-            "visibility_rules": ["nestsanity_on"],
-            "access_rules": ["$nest_ice_cube"]
+            "ref": "Hailfire Peaks - Icicle Grotto/HFP: Icicle Grotto Bottom Egg Nests/Egg Nest 3",
+            "name": "Bottom Egg Nest 3"
           },
           {
-            "name": "Shock Spring Pad Egg Nest",
-            "visibility_rules": ["nestsanity_on"],
-            "access_rules": ["$nest_hfp_spring_pad"]
+            "ref": "Hailfire Peaks - Icicle Grotto/HFP: Icicle Grotto Shock Spring Pad Egg Nest/Egg Nest",
+            "name": "Shock Spring Pad Egg Nest"
           },
           {
-            "name": "Top Egg Nest 1",
-            "visibility_rules": ["nestsanity_on"],
-            "access_rules": [
-              "logictype_b, splitup, $iceCubeKazooie, tjump, $wing_whack", "logictype_b, splitup, $iceCubeKazooie, tjump, glide", "logictype_b, splitup, $iceCubeKazooie, $leg_spring", "logictype_b, $hfpTop, geggs, eggaim, $springPad, $veryLongJump", "logictype_b, trainswhp1, @Inside Chuffy, geggs, eggaim, $springPad, $veryLongJump",
-              "logictype_n, splitup, $iceCubeKazooie, tjump", "logictype_n, splitup, $iceCubeKazooie, $wing_whack", "logictype_n, splitup, $iceCubeKazooie, glide", "logictype_n, splitup, $iceCubeKazooie, $leg_spring", "logictype_n, $hfpTop, geggs, eggaim, $springPad, $veryLongJump", "logictype_n, trainswhp1, @Inside Chuffy, geggs, eggaim, $springPad, $veryLongJump",
-              "logictype_a, splitup, $iceCubeKazooie, tjump", "logictype_a, splitup, $iceCubeKazooie, $wing_whack", "logictype_a, splitup, $iceCubeKazooie, glide", "logictype_a, splitup, $iceCubeKazooie, $leg_spring", "logictype_a, $hfpTop, geggs, $veryLongJump, eggaim, $springPad", "logictype_a, trainswhp1, @Inside Chuffy, geggs, $veryLongJump, eggaim, $springPad", "logictype_a, $hfpTop, $clockwork_shot, eggaim, $springPad", "logictype_a, trainswhp1, @Inside Chuffy, $clockwork_shot, eggaim, $springPad", "logictype_a, $extremelyLongJump, $clockwork_shot",
-              "logictype_g, splitup, $iceCubeKazooie, tjump", "logictype_g, splitup, $iceCubeKazooie, $wing_whack", "logictype_g, splitup, $iceCubeKazooie, glide", "logictype_g, splitup, $iceCubeKazooie, $leg_spring", "logictype_g, $hfpTop, geggs, $veryLongJump, eggaim, $springPad", "logictype_g, trainswhp1, @Inside Chuffy, geggs, $veryLongJump, eggaim, $springPad", "logictype_g, $hfpTop, $clockwork_shot, eggaim, $springPad", "logictype_g, trainswhp1, @Inside Chuffy, $clockwork_shot, eggaim, $springPad", "logictype_g, $extremelyLongJump, $clockwork_shot"
-            ]
+            "ref": "Hailfire Peaks - Icicle Grotto/HFP: Icicle Grotto Top Egg Nests/Egg Nest 1",
+            "name": "Top Egg Nest 1"
           },
           {
-            "name": "Top Egg Nest 2",
-            "visibility_rules": ["nestsanity_on"],
-            "access_rules": [
-              "logictype_b, splitup, $iceCubeKazooie, tjump, $wing_whack", "logictype_b, splitup, $iceCubeKazooie, tjump, glide", "logictype_b, splitup, $iceCubeKazooie, $leg_spring", "logictype_b, $hfpTop, geggs, eggaim, $springPad, $veryLongJump", "logictype_b, trainswhp1, @Inside Chuffy, geggs, eggaim, $springPad, $veryLongJump",
-              "logictype_n, splitup, $iceCubeKazooie, tjump", "logictype_n, splitup, $iceCubeKazooie, $wing_whack", "logictype_n, splitup, $iceCubeKazooie, glide", "logictype_n, splitup, $iceCubeKazooie, $leg_spring", "logictype_n, $hfpTop, geggs, eggaim, $springPad, $veryLongJump", "logictype_n, trainswhp1, @Inside Chuffy, geggs, eggaim, $springPad, $veryLongJump",
-              "logictype_a, splitup, $iceCubeKazooie, tjump", "logictype_a, splitup, $iceCubeKazooie, $wing_whack", "logictype_a, splitup, $iceCubeKazooie, glide", "logictype_a, splitup, $iceCubeKazooie, $leg_spring", "logictype_a, $hfpTop, geggs, $veryLongJump, eggaim, $springPad", "logictype_a, trainswhp1, @Inside Chuffy, geggs, $veryLongJump, eggaim, $springPad", "logictype_a, $hfpTop, $clockwork_shot, eggaim, $springPad", "logictype_a, trainswhp1, @Inside Chuffy, $clockwork_shot, eggaim, $springPad", "logictype_a, $extremelyLongJump, $clockwork_shot",
-              "logictype_g, splitup, $iceCubeKazooie, tjump", "logictype_g, splitup, $iceCubeKazooie, $wing_whack", "logictype_g, splitup, $iceCubeKazooie, glide", "logictype_g, splitup, $iceCubeKazooie, $leg_spring", "logictype_g, $hfpTop, geggs, $veryLongJump, eggaim, $springPad", "logictype_g, trainswhp1, @Inside Chuffy, geggs, $veryLongJump, eggaim, $springPad", "logictype_g, $hfpTop, $clockwork_shot, eggaim, $springPad", "logictype_g, trainswhp1, @Inside Chuffy, $clockwork_shot, eggaim, $springPad", "logictype_g, $extremelyLongJump, $clockwork_shot"
-            ]
+            "ref": "Hailfire Peaks - Icicle Grotto/HFP: Icicle Grotto Top Egg Nests/Egg Nest 2",
+            "name": "Top Egg Nest 2"
           }
         ],
         "map_locations": [
@@ -14991,6 +15491,142 @@
             "map": "hfp2",
             "x": 360,
             "y": 65
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hailfire Peaks - Icicle Grotto",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+      "@Hailfire Peaks - Lava Side", "@Hailfire Peaks - Icy Side"
+   ],
+    "children": [
+      {
+        "name": "HFP: Treble Clef",
+        "access_rules": [
+          "logictype_b, splitup, $iceCubeKazooie, tjump, $wing_whack", "logictype_b, splitup, $iceCubeKazooie, tjump, glide", "logictype_b, splitup, $iceCubeKazooie, $leg_spring", "logictype_b, $hfpTop, geggs, eggaim, $springPad, $veryLongJump", "logictype_b, trainswhp1, @Inside Chuffy, geggs, eggaim, $springPad, $veryLongJump",
+          "logictype_n, splitup, $iceCubeKazooie, tjump", "logictype_n, splitup, $iceCubeKazooie, $wing_whack", "logictype_n, splitup, $iceCubeKazooie, glide", "logictype_n, splitup, $iceCubeKazooie, $leg_spring", "logictype_n, $hfpTop, geggs, eggaim, $springPad, $veryLongJump", "logictype_n, trainswhp1, @Inside Chuffy, geggs, eggaim, $springPad, $veryLongJump",
+          "logictype_a, splitup, $iceCubeKazooie, tjump", "logictype_a, splitup, $iceCubeKazooie, $wing_whack", "logictype_a, splitup, $iceCubeKazooie, glide", "logictype_a, splitup, $iceCubeKazooie, $leg_spring", "logictype_a, $hfpTop, geggs, $veryLongJump, eggaim, $springPad", "logictype_a, trainswhp1, @Inside Chuffy, geggs, $veryLongJump, eggaim, $springPad", "logictype_a, $hfpTop, $clockwork_shot, eggaim, $springPad", "logictype_a, trainswhp1, @Inside Chuffy, $clockwork_shot, eggaim, $springPad", "logictype_a, $extremelyLongJump, $clockwork_shot",
+          "logictype_g, splitup, $iceCubeKazooie, tjump", "logictype_g, splitup, $iceCubeKazooie, $wing_whack", "logictype_g, splitup, $iceCubeKazooie, glide", "logictype_g, splitup, $iceCubeKazooie, $leg_spring", "logictype_g, $hfpTop, geggs, $veryLongJump, eggaim, $springPad", "logictype_g, trainswhp1, @Inside Chuffy, geggs, $veryLongJump, eggaim, $springPad", "logictype_g, $hfpTop, $clockwork_shot, eggaim, $springPad", "logictype_g, trainswhp1, @Inside Chuffy, $clockwork_shot, eggaim, $springPad", "logictype_g, $extremelyLongJump, $clockwork_shot"
+        ],
+        "sections": [
+          {
+            "name": "Treble Clef"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp3",
+            "x": 122,
+            "y": 515
+          }
+        ]
+      },
+      {
+        "name": "HFP: Icicle Grotto Cheato Page",
+        "access_rules": [
+          "$cheato_icicle_grotto",
+          "logictype_g, trainswhp1, @Inside Chuffy, $cheato_icicle_grotto_chuffy"
+        ],
+        "sections": [
+          {
+            "name": "Cheato Page"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp3",
+            "x": 852,
+            "y": 513
+          }
+        ]
+      },
+      {
+        "name": "HFP: Icicle Grotto Jinjo",
+        "access_rules": [
+          "logictype_b, $glide, geggs, eggaim, tjump",
+          "logictype_n, splitup, glide", "logictype_n, $leg_spring, $wing_whack",
+          "logictype_a, splitup, glide", "logictype_a, $leg_spring", "logictype_a, $clockwork_shot, tjump, splitup", "logictype_a, $clockwork_shot, tjump, ttrot",
+          "logictype_g, splitup, glide", "logictype_g, $leg_spring", "logictype_g, $clockwork_shot, tjump, splitup", "logictype_g, $clockwork_shot, tjump, ttrot"
+        ],
+        "sections": [
+          {
+            "name": "Jinjo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp3",
+            "x": 267,
+            "y": 760
+          }
+        ]
+      },
+      {
+        "name": "HFP: Icicle Grotto Bottom Egg Nests",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["$nest_ice_cube"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          },
+          {
+            "name": "Egg Nest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp3",
+            "x": 1010,
+            "y": 575
+          }
+        ]
+      },
+      {
+        "name": "HFP: Icicle Grotto Shock Spring Pad Egg Nest",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["$nest_hfp_spring_pad"],
+        "sections": [
+          {
+            "name": "Egg Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp3",
+            "x": 500,
+            "y": 475
+          }
+        ]
+      },
+      {
+        "name": "HFP: Icicle Grotto Top Egg Nests",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": [
+          "logictype_b, splitup, $iceCubeKazooie, tjump, $wing_whack", "logictype_b, splitup, $iceCubeKazooie, tjump, glide", "logictype_b, splitup, $iceCubeKazooie, $leg_spring", "logictype_b, $hfpTop, geggs, eggaim, $springPad, $veryLongJump", "logictype_b, trainswhp1, @Inside Chuffy, geggs, eggaim, $springPad, $veryLongJump",
+          "logictype_n, splitup, $iceCubeKazooie, tjump", "logictype_n, splitup, $iceCubeKazooie, $wing_whack", "logictype_n, splitup, $iceCubeKazooie, glide", "logictype_n, splitup, $iceCubeKazooie, $leg_spring", "logictype_n, $hfpTop, geggs, eggaim, $springPad, $veryLongJump", "logictype_n, trainswhp1, @Inside Chuffy, geggs, eggaim, $springPad, $veryLongJump",
+          "logictype_a, splitup, $iceCubeKazooie, tjump", "logictype_a, splitup, $iceCubeKazooie, $wing_whack", "logictype_a, splitup, $iceCubeKazooie, glide", "logictype_a, splitup, $iceCubeKazooie, $leg_spring", "logictype_a, $hfpTop, geggs, $veryLongJump, eggaim, $springPad", "logictype_a, trainswhp1, @Inside Chuffy, geggs, $veryLongJump, eggaim, $springPad", "logictype_a, $hfpTop, $clockwork_shot, eggaim, $springPad", "logictype_a, trainswhp1, @Inside Chuffy, $clockwork_shot, eggaim, $springPad", "logictype_a, $extremelyLongJump, $clockwork_shot",
+          "logictype_g, splitup, $iceCubeKazooie, tjump", "logictype_g, splitup, $iceCubeKazooie, $wing_whack", "logictype_g, splitup, $iceCubeKazooie, glide", "logictype_g, splitup, $iceCubeKazooie, $leg_spring", "logictype_g, $hfpTop, geggs, $veryLongJump, eggaim, $springPad", "logictype_g, trainswhp1, @Inside Chuffy, geggs, $veryLongJump, eggaim, $springPad", "logictype_g, $hfpTop, $clockwork_shot, eggaim, $springPad", "logictype_g, trainswhp1, @Inside Chuffy, $clockwork_shot, eggaim, $springPad", "logictype_g, $extremelyLongJump, $clockwork_shot"
+        ],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp3",
+            "x": 250,
+            "y": 280
           }
         ]
       }
@@ -15761,7 +16397,7 @@
           },
           {
             "name": "Egg Nest 2",
-            "access_rules": ["fpad", "humbacc"]
+            "access_rules": ["$nest_near_superstash"]
           }
         ],
         "map_locations": [
@@ -15902,12 +16538,7 @@
         "sections": [
           {
             "name": "Note",
-            "access_rules": [
-              "logictype_b, climb, $sack_pack", "logictype_b, $notes_ccl_high",
-              "logictype_n, climb, $sack_pack", "logictype_n, $notes_ccl_high",
-              "logictype_a, climb", "logictype_a, springb", "logictype_a, $notes_ccl_high", "logictype_a, $clockwork_shot",
-              "logictype_g, climb", "logictype_g, springb", "logictype_g, $notes_ccl_high", "logictype_g, $clockwork_shot"
-            ]
+            "access_rules": ["$notes_cheese"]
           }
         ],
         "map_locations": [

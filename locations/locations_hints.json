@@ -661,15 +661,15 @@
               "name": "Isle O Hags - Qugmire Hints",
               "sections": [
                 {
-                  "name": "IoH: Quagmire Feather Nest 1 (Hint)",
+                  "name": "IoH: Quagmire Left Feather Nest (Hint)",
                   "visibility_rules": ["ih_nest58"]
                 },
                 {
-                  "name": "IoH: Quagmire Feather Nest 2 (Hint)",
+                  "name": "IoH: Quagmire Back Feather Nest (Hint)",
                   "visibility_rules": ["ih_nest59"]
                 },
                 {
-                  "name": "IoH: Quagmire Feather Nest 3 (Hint)",
+                  "name": "IoH: Quagmire High Feather Nest (Hint)",
                   "visibility_rules": ["ih_nest60"]
                 },
                 {
