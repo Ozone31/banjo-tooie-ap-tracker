@@ -1,6 +1,17 @@
 {
 	"versions": [
 		{
+			"package_version": "0.7.1",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.7.1",
+			"sha256": "45a49c226fac774c27a6997f84ce76a622f81521e1d0565a3bed1c6cc50b7164",
+			"changelog": [
+				"Updated logic for v4.0.1 of Banjo-Tooie AP.",
+				"Tracker logic fixes found by the community.",
+				"New Maps! Maps have been added for Targitzan's Temple, Flooded Caves, Seaweed Sanctum, Sea Bottom, and Icicle Grotto. These all support auto-map switching if enabled.",
+				"Most checks now include unique icons instead of the honeycomb that previously displayed for all checks."
+			]
+		},
+		{
 			"package_version": "0.7.0",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.7.0",
 			"sha256": "d4fea0ccae0a67949c395c1a1af92741d885c10e1845766e428e49ce1326c627",
