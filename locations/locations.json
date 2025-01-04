@@ -8185,7 +8185,7 @@
         "access_rules": [ 
               "logictype_b, $canDoSmallElevation",
               "logictype_n, $canDoSmallElevation", "logictype_n, ggrab", "logictype_n, bbust", "logictype_n, $ggm_trot",
-              "logictype_a, $canDoSmallElevation", "logictype_a, ggrab", "logictype_a, $clockwork_shot", "logictype_a, bbust", "logictype_a",
+              "logictype_a, $canDoSmallElevation", "logictype_a, ggrab", "logictype_a, $clockwork_shot", "logictype_a, bbust", "logictype_a, $ggm_trot",
               "logictype_g, $canDoSmallElevation", "logictype_g, ggrab", "logictype_g, $clockwork_shot", "logictype_g, bbust", "logictype_g, $ggm_trot"
             ],
         "sections": [
