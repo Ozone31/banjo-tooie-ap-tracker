@@ -9048,7 +9048,7 @@
       "$load_gi_ww, @Quagmire, gia",
       "$load_ck_ww, @Quagmire, $quag_to_CK, cka",
       "trainswww, @Inside Chuffy",
-      "@Glitter Gulch Mine - Main Area, $ggm_to_ww",
+      "@Glitter Gulch Mine - Main Area, $humbaGGM, $ggm_to_ww",
       "@Terrydactyland - Main Area, $TDL_to_WW"
     ],
     "children": [
