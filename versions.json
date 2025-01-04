@@ -1,6 +1,15 @@
 {
 	"versions": [
 		{
+			"package_version": "0.7.2",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.7.2",
+			"sha256": "beca0c0c64b4f6fa5b6a5bed87855f14a17bda805f5ab3f565c997c33949819e",
+			"changelog": [
+				"Fixed logic getting from SM to JV.",
+				"Fixed logic getting from GGM to WW."
+			]
+		},
+		{
 			"package_version": "0.7.1",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.7.1",
 			"sha256": "45a49c226fac774c27a6997f84ce76a622f81521e1d0565a3bed1c6cc50b7164",
