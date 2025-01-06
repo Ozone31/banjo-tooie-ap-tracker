@@ -122,12 +122,12 @@ function longJump()
     return has("ttrot") or has("flutter") or has("arat")
 end
 
-function has_fire()
+function has_fire() -- Needs Pine Grove Access
     return canShootEggs("feggs") or dragon_kazooie()
 end
 
-function dragon_kazooie()
-    return has("humbaih") and pinegrove_access() and has("grat")
+function dragon_kazooie() -- Needs Pine Grove Access
+    return has("humbaih") and has("grat")
 end
 
 function MT_flight_pad()
@@ -230,11 +230,11 @@ end
 
 function tdl_to_chuffy()
     if logictype.CurrentStage == 0 then
-        return has("trainswtd") and has("climb") and canDoSmallElevation()
+        return has("trainswtd") and (has("climb") and canDoSmallElevation())
     elseif logictype.CurrentStage == 1 then
-        return has("trainswtd") and (canDoSmallElevation() or has("bbust")) and has("climb")
+        return has("trainswtd") and ((canDoSmallElevation() or has("bbust")) and has("climb") or has("fflip") and has("bbust"))
     else
-        return has("trainswtd") and (((canDoSmallElevation() or has("bbust")) and has("climb")) or extremelyLongJump())
+        return has("trainswtd") and (((canDoSmallElevation() or has("bbust")) and has("climb")) or extremelyLongJump() or has("fflip") and has("bbust"))
     end
 end
 
@@ -788,9 +788,9 @@ end
 
 function ggm_to_ww()
     if logictype.CurrentStage <= 2 then
-        return backdoors_enabled() and canDoSmallElevation()
+        return backdoors_enabled() and canDoSmallElevation() and has("humbagm")
     else
-        return (canShootEggs("ceggs") or backdoors_enabled()) and canDoSmallElevation()
+        return (canShootEggs("ceggs") or backdoors_enabled()) and canDoSmallElevation() and has("humbagm")
     end
 end
 
@@ -1034,19 +1034,11 @@ function hfpTop()
     end
 end
 
-function HFP_to_MT()
-    if logictype.CurrentStage == 0 then
-        return has_explosives()
-    else
-        return has_explosives() or has("mumbohp")
-    end
-end
-
 function HFP_to_JRL_bdon()
     if logictype.CurrentStage <= 2 then
         return HFP_hot_water_cooled_bdon()
     else
-        return HFP_hot_water_cooled_bdon() or (has("ggrab") and has("flutter") and has("grat") and has("tjump"))
+        return HFP_hot_water_cooled_bdon() or (has("ggrab") and (has("flutter") or has("arat")) and has("grat") and has("tjump"))
     end
 end
 
@@ -1054,7 +1046,7 @@ function HFP_to_JRL_bdoff()
     if logictype.CurrentStage <= 2 then
         return HFP_hot_water_cooled_bdoff()
     else
-        return HFP_hot_water_cooled_bdoff() or (has("ggrab") and has("flutter") and has("grat") and has("tjump"))
+        return HFP_hot_water_cooled_bdoff() or (has("ggrab") and (has("flutter") or has("arat")) and has("grat") and has("tjump"))
     end
 end
 
@@ -1114,29 +1106,29 @@ end
 
 function mt_jiggy8()
     if logictype.CurrentStage == 0 then
-        return billDrill() and (has("dive") or (canReachSlightlyElevatedLedge() or has("fflip")) and has("tjump")) and canDoSmallElevation() and prison_compound_open()
+        return billDrill() and (has("dive") or canReachSlightlyElevatedLedge() and has("tjump")) and canDoSmallElevation() and prison_compound_open()
     elseif logictype.CurrentStage == 1 then
-        return billDrill() and canDoSmallElevation() and prison_compound_open() and (has("dive") or (canReachSlightlyElevatedLedge() or has("fflip")) or has("bbust"))
+        return billDrill() and canDoSmallElevation() and prison_compound_open() and (has("dive") or canReachSlightlyElevatedLedge() or has("bbust"))
     else
-        return prison_compound_open() and ((billDrill() and canDoSmallElevation()) or extremelyLongJump() or clockwork_shot()) and (has("dive") or (canReachSlightlyElevatedLedge() or has("fflip")) or has("bbust"))
+        return prison_compound_open() and ((billDrill() and canDoSmallElevation()) or extremelyLongJump() or clockwork_shot()) and (has("dive") or canReachSlightlyElevatedLedge() or has("bbust"))
     end
 end
 
 function cheato_prison()
     if logictype.CurrentStage == 0 then
-        return prison_compound_open() and (canReachSlightlyElevatedLedge() or has("fflip")) and has("tjump")
+        return prison_compound_open() and canReachSlightlyElevatedLedge() and has("tjump")
     elseif logictype.CurrentStage == 1 then
-        return prison_compound_open() and (canReachSlightlyElevatedLedge() or has("fflip"))
+        return prison_compound_open() and canReachSlightlyElevatedLedge()
     else
-        return prison_compound_open() and (canReachSlightlyElevatedLedge() or has("fflip")) or (has("eggaim") and has("ceggs"))
+        return prison_compound_open() and (canReachSlightlyElevatedLedge() or clockwork_shot())
     end
 end
 
 function jiggy_prison_quicksand()
     if logictype.CurrentStage == 0 then
-        return (canReachSlightlyElevatedLedge() or has("fflip")) and has("sstride") and prison_compound_open() and has("tjump")
+        return canReachSlightlyElevatedLedge() and has("sstride") and prison_compound_open() and has("tjump")
     else
-        return (canReachSlightlyElevatedLedge() or has("fflip")) and has("sstride") and prison_compound_open()
+        return canReachSlightlyElevatedLedge() and has("sstride") and prison_compound_open()
     end
 end
 
@@ -1179,6 +1171,44 @@ function ww_jiggy2()
         else
             return humbaWW() and mumboWW()
         end
+    end
+end
+
+function notes_ww_area51_right()
+    if logictype.CurrentStage == 0 then
+        return has_explosives() and springPad()
+    elseif logictype.CurrentStage == 1 then
+        return has_explosives() and springPad() or leg_spring() or glide()
+    else
+        return ((has_explosives() or has("splitup")) and springPad()) or leg_spring() or clockwork_shot() or glide()
+    end
+end
+
+function notes_ww_area51_left()
+    if logictype.CurrentStage == 0 then
+        return has_explosives() and springPad() and longJump()
+    elseif logictype.CurrentStage == 1 then
+        return has_explosives() and springPad() and longJump() or leg_spring() or glide()
+    else
+        return has_explosives() and springPad() and longJump() or has("splitup") and springPad() or leg_spring() or clockwork_shot() or glide()
+    end
+end
+
+function a51_nests_from_WW()
+    if logictype.CurrentStage == 0 then
+        return has_explosives()
+    elseif logictype.CurrentStage == 1 then
+        return has_explosives() or glide() or leg_spring()
+    else
+        return has_explosives() or glide() or leg_spring() or has("splitup") and springPad()
+    end
+end
+
+function a51_nests_from_TDL()
+    if logictype.CurrentStage <= 2 then
+        return oogle_boogles_open()
+    else
+        return oogle_boogles_open() or clockworkWarp()
     end
 end
 
@@ -1230,7 +1260,7 @@ function jrl_waste_disposal()
     end
 end
 
--- Terrydactyl Land
+-- Terrydactyland
 
 function td_jinjo2()
     if logictype.CurrentStage == 0 then
@@ -1370,6 +1400,14 @@ function notes_gi_train_station_easy()
     end
 end
 
+function notes_floor_3()
+    if logictype.CurrentStage <= 1 then
+        return ((has("ggrab") and has("fflip") or has("splitup")) and springPad() and has("climb")) or (has("climb") and veryLongJump()) or canDoSmallElevation() and leg_spring()
+    else
+        return ((has("ggrab") and has("fflip") or has("splitup")) and springPad() and has("climb")) or (has("climb") and veryLongJump()) or clockwork_shot() or canDoSmallElevation() and leg_spring()
+    end
+end
+
 function jiggy_guarded()
     if logictype.CurrentStage == 0 then
         return has("splitup") and has("clawbts") and has("eggaim") and guarded_eggs() and (springPad() or wing_whack() or glide())
@@ -1474,6 +1512,14 @@ function jiggy_superstash()
     end
 end
 
+function jiggy_cheese()
+    if logictype.CurrentStage <= 2 then
+        return sack_pack() and grow_beanstalk() and can_use_floatus() and shack_pack()
+    else
+        return sack_pack() and grow_beanstalk() and can_use_floatus() and shack_pack() or (has("ttrot") or clockworkWarp()) and has("fflip") and has("bbust") and has("fpad") or has("fpad") and (leg_spring() or (has("tjump") and wing_whack())) and clockworkWarp()
+    end
+end
+
 -- Spiral Mountain Nests
 
 function nest_lair_top()
@@ -1490,16 +1536,16 @@ end
 
 function nest_pillars()
     if logictype.CurrentStage == 0 then
-        return has("dive") or (canReachSlightlyElevatedLedge() or has("fflip")) and has("tjump") and prison_compound_open()
+        return has("dive") or has("fflip") and has("tjump") and prison_compound_open()
     else
-        return (has("dive") or (canReachSlightlyElevatedLedge() or has("fflip")) or has("bbust")) and prison_compound_open()
+        return (has("dive") or has("fflip") or has("bbust")) and prison_compound_open()
     end
 end
 
 function nest_mt_cell_right()
     if logictype.CurrentStage == 0 then
         return (canReachSlightlyElevatedLedge() or has("fflip")) and has("tjump") and prison_compound_open()
-    elseif logictype.CurrentStage <= 2 then
+    elseif logictype.CurrentStage = 1 then
         return (canReachSlightlyElevatedLedge() or has("fflip")) and prison_compound_open()
     else
         return prison_compound_open() and (canReachSlightlyElevatedLedge() or has("fflip") or clockwork_shot())
@@ -1509,7 +1555,7 @@ end
 function nest_mt_cell_left()
     if logictype.CurrentStage == 0 then
         return (canReachSlightlyElevatedLedge() or has("fflip")) and has("tjump") and prison_compound_open()
-    elseif logictype.CurrentStage <= 2 then
+    elseif logictype.CurrentStage == 1 then
         return (canReachSlightlyElevatedLedge() or has("fflip")) and prison_compound_open()
     else
         return prison_compound_open() and ((canReachSlightlyElevatedLedge() or has("fflip")) or clockwork_shot() and has("tjump"))
@@ -1577,14 +1623,6 @@ function nest_canary_low()
 end
 
 -- Witchyworld Nests
-
-function nest_a51()
-    if logictype.CurrentStage <= 1 then
-        return has_explosives()
-    else
-        return has_explosives() or has("splitup") and springPad()
-    end
-end
 
 function nest_pump_room()
     if logictype.CurrentStage == 0 then
@@ -1806,15 +1844,17 @@ function nest_outside_repair_depot()
     elseif logictype.CurrentStage == 1 then
         return has("fflip") and has("climb") and (has("ggrab") or (has("tjump") and (has("flutter") or has("arat"))))
     else
-        return has("fflip") and has("climb") and (has("ggrab") or (has("tjump") and (has("flutter") or has("arat")))) or leg_spring() or clockwork_shot()
+        return has("fflip") and has("climb") and (has("ggrab") or (has("tjump") and (has("flutter") or has("arat")))) or leg_spring() and (glide() or wing_whack()) or clockwork_shot()
     end
 end
 
 function nest_egg_fan_easy()
     if logictype.CurrentStage == 0 then
-        return (has("tjump") or has("flutter") or has("arat")) and has("climb") or leg_spring()
+        return (has("tjump") or has("flutter") or has("arat")) and has("climb")
+    elseif logictype.CurrentStage == 1 then
+        return has("climb")
     else
-        return has("climb") or leg_spring()
+        return has("climb") or leg_spring() and (wing_whack() or glide())
     end
 end
 
@@ -1822,7 +1862,7 @@ function nest_egg_fan_hard()
     if logictype.CurrentStage <= 1 then
         return can_beat_weldar()
     else
-        return can_beat_weldar() or (has("climb") or leg_spring()) and clockwork_shot()
+        return can_beat_weldar() or (has("climb") or leg_spring() and (wing_whack() or glide())) and clockwork_shot()
     end
 end
 
@@ -1858,27 +1898,11 @@ function nest_chilly_willy()
     end
 end
 
-function nest_hfp_kickball_egg()
-    if logictype.CurrentStage <= 1 then
-        return canDoSmallElevation() and has_explosives() or has("mumbohp") and has("tjump")
-    else
-        return has_explosives() or has("mumbohp")
-    end
-end
-
 function nest_hfp_kickball_feather()
     if logictype.CurrentStage <= 1 then
         return canDoSmallElevation()
     else
         return true
-    end
-end
-
-function nest_hfp_spring_pad()
-    if logictype.CurrentStage <= 1 then
-        return (has("splitup") and iceCubeKazooie() and (has("tjump") and (wing_whack() or glide()) or leg_spring())) or (hfpTop() and springPad() and has("ttrot") and iceCube())
-    else
-        return (has("splitup") and iceCubeKazooie() and (has("tjump") or wing_whack() or glide() or leg_spring())) or (hfpTop() and (springPad() and iceCube() or clockwork_shot()) and has("ttrot")) or (extremelyLongJump() and clockwork_shot())
     end
 end
 
