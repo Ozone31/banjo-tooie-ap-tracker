@@ -60,6 +60,48 @@ function hatch()
     return has("splitup") and has("hatch")
 end
 
+-- Health Checks
+
+function health_6()
+    if Tracker:FindObjectForCode("@Plateau").AccessibilityLevel == 6 then
+        return has("honey", 1) and has("ttrot")
+    else
+        return false
+    end
+end
+
+function health_7()
+    if Tracker:FindObjectForCode("@Plateau").AccessibilityLevel == 6 then
+        return has("honey", 4) and has("ttrot")
+    else
+        return false
+    end
+end
+
+function health_8()
+    if Tracker:FindObjectForCode("@Plateau").AccessibilityLevel == 6 then
+        return has("honey", 9) and has("ttrot")
+    else
+        return false
+    end
+end
+
+function health_9()
+    if Tracker:FindObjectForCode("@Plateau").AccessibilityLevel == 6 then
+        return has("honey", 16) and has("ttrot")
+    else
+        return false
+    end
+end
+
+function health_10()
+    if Tracker:FindObjectForCode("@Plateau").AccessibilityLevel == 6 then
+        return has("honey", 25) and has("ttrot")
+    else
+        return false
+    end
+end
+
 -- General Functions
 
 function backdoors_enabled()
@@ -460,13 +502,13 @@ function can_use_battery()
     return pack_whack() and taxi_pack()
 end
 
-function can_beat_weldar() -- Also need 2nd & 3rd Floor Access
+function can_beat_weldar()
     if logictype.CurrentStage == 0 then
-        return can_use_battery() and mumboGI() and has("humbagi") and canShootEggs("geggs") and billDrill() and has("climb") and has("fflip") and has("ggrab")
+        return can_use_battery() and mumboGI() and humbaGI() and canShootEggs("geggs") and billDrill() and has("climb") and has("fflip") and has("ggrab")
     elseif logictype.CurrentStage == 1 then
-        return can_use_battery() and mumboGI() and has("humbagi") and canShootEggs("geggs") and billDrill() and has("climb") and has("fflip") and (has("ggrab") or (has("tjump") and (has("flutter") or has("arat"))))
+        return can_use_battery() and mumboGI() and humbaGI() and canShootEggs("geggs") and billDrill() and has("climb") and has("fflip") and (has("ggrab") or (has("tjump") and (has("flutter") or has("arat"))))
     else
-        return can_use_battery() and mumboGI() and has("humbagi") and canShootEggs("geggs") and billDrill() and has("climb") and has("fflip") and ((has("ggrab") or (has("tjump") and (has("flutter") or has("arat")))) or extremelyLongJump())
+        return can_use_battery() and mumboGI() and humbaGI() and canShootEggs("geggs") and billDrill() and has("climb") and has("fflip") and ((has("ggrab") or (has("tjump") and (has("flutter") or has("arat")))) or extremelyLongJump())
     end
 end
 
@@ -482,11 +524,27 @@ function breegullBash()
     return has("grat") and has("bbash")
 end
 
-function mumboGI() -- Also need 3rd Floor Access
+function mumboGI()
     if logictype.CurrentStage <= 1 then
-        return canDoSmallElevation() and has("mumbogi")
+        if Tracker:FindObjectForCode("@Grunty Industries 3rd Floor").AccessibilityLevel == 6 then
+            return canDoSmallElevation() and has("mumbogi")
+        else
+            return false
+        end
     else
-        return has("mumbogi") and (canDoSmallElevation() or (has("climb") and clockwork_shot()))
+        if Tracker:FindObjectForCode("@Grunty Industries 3rd Floor").AccessibilityLevel == 6 then
+            return has("mumbogi") and (canDoSmallElevation() or (has("climb") and clockwork_shot()))
+        else
+            return false
+        end
+    end
+end
+
+function humbaGI()
+    if Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel == 6 then
+        return has("humbagi")
+    else
+        return false
     end
 end
 
@@ -1262,11 +1320,11 @@ end
 
 function jr_jiggy4()
     if logictype.CurrentStage == 0 then
-        return jrl_waste_disposal() and has("fflip") and (has_explosives() or has("bbarge"))
+        return HFP_hot_water_cooled() and jrl_waste_disposal() and has("fflip") and (has_explosives() or has("bbarge"))
     elseif logictype.CurrentStage == 1 then
-        return jrl_waste_disposal() and (has("fflip") or has("tjump") and has("bbust") or has("ttrot") and has("flutter") and has("bbust")) and (has_explosives() or has("bbarge"))
+        return HFP_hot_water_cooled() and jrl_waste_disposal() and (has("fflip") or has("tjump") and has("bbust") or has("ttrot") and has("flutter") and has("bbust")) and (has_explosives() or has("bbarge"))
     else
-        return jrl_waste_disposal() and ((has("fflip") or has("tjump") and has("bbust") or has("ttrot") and has("flutter") and has("bbust")) and (has_explosives() or has("bbarge")) or clockwork_shot())
+        return HFP_hot_water_cooled() and jrl_waste_disposal() and ((has("fflip") or has("tjump") and has("bbust") or has("ttrot") and has("flutter") and has("bbust")) and (has_explosives() or has("bbarge")) or clockwork_shot())
     end
 end
 
@@ -1392,38 +1450,30 @@ function jinjo_stomping_plains()
     end
 end
 
+function jiggy_oogle_boogle()
+    if logictype.CurrentStage == 0 then
+        return oogle_boogles_open() and canShootEggs("feggs") and smuggle_food() and has("ggrab") and billDrill() and springPad()
+    elseif logictype.CurrentStage <= 2 then
+        return oogle_boogles_open() and has_fire() and smuggle_food() and has("ggrab") and billDrill() and springPad()
+    else
+        return (oogle_boogles_open() or clockworkWarp()) and has_fire() and has("ggrab") and billDrill() and smuggle_food() and springPad()
+    end
+end
+
 -- Grunty Industries
 
-function skivvyswitch()
-    return has("aireaim") or has("bbomb")
-end
-
-function skivvyswitch_gi2()
-    if logictype.CurrentStage == 0 then
-        return has("clawbts") and has("fflip") and has("ggrab")
+function solo_kazooie_gi()
+    if Tracker:FindObjectForCode("@Grunty Industries 1st Floor").AccessibilityLevel == 6 then
+        return has("splitup")
+    elseif Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel == 6 then
+        return has("splitup") and floor_2_split_up()
+    elseif Tracker:FindObjectForCode("@Grunty Industries 3rd Floor").AccessibilityLevel == 6 then
+        return has("splitup") and canDoSmallElevation() and (has("tjump") or leg_spring())
+    elseif Tracker:FindObjectForCode("@Grunty Industries 4th Floor").AccessibilityLevel == 6 then
+        return has("splitup") and canDoSmallElevation()
     else
-        return has("clawbts") and ((has("fflip") and has("ggrab")) or has("ttrot") and (has("flutter") or has("arat")))
-    end
-end
-
-function skivvyswitch_gi2b()
-    if logictype.CurrentStage == 0 then
         return false
-    else
-        return has("splitup") and (leg_spring() or has("clawbts") and (canShootEggs() or wing_whack()))
     end
-end
-
-function skivvyswitch_gi3()
-    if logictype.CurrentStage == 0 then
-        return false
-    else
-        return has("climb") and (veryLongJump() or (has("fflip") or has("tjump")) and has("ggrab")) or canDoSmallElevation() and leg_spring()
-    end
-end
-
-function guarded_eggs()
-    return canShootEggs("begg") or canShootEggs("feggs") or canShootEggs("geggs")
 end
 
 function notes_gi_train_station_hard()
@@ -1456,11 +1506,357 @@ end
 
 function jiggy_guarded()
     if logictype.CurrentStage == 0 then
-        return has("splitup") and has("clawbts") and has("eggaim") and guarded_eggs() and (springPad() or wing_whack() or glide())
+        return has("splitup") and has("clawbts") and has("eggaim") and (canShootEggs("begg") or canShootEggs("feggs") or canShootEggs("geggs")) and (springPad() or wing_whack() or glide())
     elseif logictype.CurrentStage == 1 then
-        return has("splitup") and (has("clawbts") and springPad() or has("clawbts") and (wing_whack() or glide()) and (has("eggaim") or wing_whack())) and guarded_eggs()
+        if Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel == 6 then
+            return has("splitup") and (springPad() or has("clawbts") and (wing_whack() or glide()) and (has("eggaim") or wing_whack())) and (canShootEggs("begg") or canShootEggs("feggs") or canShootEggs("geggs"))
+        else
+            return has("splitup") and (has("clawbts") and springPad() or has("clawbts") and (wing_whack() or glide()) and (has("eggaim") or wing_whack())) and (canShootEggs("begg") or canShootEggs("feggs") or canShootEggs("geggs"))
+        end
     else
-        return has("splitup") and (has("clawbts") and springPad() or has("clawbts") and (wing_whack() or glide()) and (has("eggaim") or wing_whack())) and guarded_eggs() or has("clawbts") and (springPad() or leg_spring()) and clockwork_shot()
+        if Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel == 6 then
+            return has("splitup") and (springPad() or has("clawbts") and (wing_whack() or glide()) and (has("eggaim") or wing_whack())) and (canShootEggs("begg") or canShootEggs("feggs") or canShootEggs("geggs")) or has("clawbts") and (springPad() or leg_spring()) and clockwork_shot()
+        else
+            return has("splitup") and (has("clawbts") and springPad() or has("clawbts") and (wing_whack() or glide()) and (has("eggaim") or wing_whack())) and (canShootEggs("begg") or canShootEggs("feggs") or canShootEggs("geggs")) or has("clawbts") and (springPad() or leg_spring()) and clockwork_shot()
+        end
+    end
+end
+
+function treble_gi()
+    if logictype.CurrentStage == 0 then
+        if Tracker:FindObjectForCode("@Grunty Industries 1st Floor").AccessibilityLevel == 6 then
+            return has("splitup") and has("clawbts")
+        elseif Tracker:FindObjectForCode("@Grunty Industries Roof").AccessibilityLevel == 6 then
+            return true
+        else
+            return false
+        end
+    elseif logictype.CurrentStage == 1 then
+        if Tracker:FindObjectForCode("@Grunty Industries 1st Floor").AccessibilityLevel == 6 then
+            return has("splitup") and has("clawbts") or leg_spring() and glide() and (wing_whack() or has("eggaim"))
+        elseif Tracker:FindObjectForCode("@Grunty Industries Roof").AccessibilityLevel == 6 then
+            return true
+        else
+            return false
+        end
+    else
+        if Tracker:FindObjectForCode("@Grunty Industries 1st Floor").AccessibilityLevel == 6 then
+            return has("splitup") and has("clawbts") or leg_spring() and glide() and (wing_whack() or has("eggaim"))
+        elseif Tracker:FindObjectForCode("@Grunty Industries Roof").AccessibilityLevel == 6 then
+            return true
+        else
+            return clockwork_shot()
+        end
+    end
+end
+
+function nest_gi_outside_right()
+    if logictype.CurrentStage == 0 then
+        if Tracker:FindObjectForCode("@Outside Grunty Industries").AccessibilityLevel == 6 then
+            return outside_gi_to_outside_back()
+        elseif Tracker:FindObjectForCode("@Outside Grunty Industries - Behind the building").AccessibilityLevel == 6 then
+            return has("climb")
+        else
+            return false
+        end
+    elseif logictype.CurrentStage == 1 then
+        if Tracker:FindObjectForCode("@Outside Grunty Industries").AccessibilityLevel == 6 then
+            return outside_gi_to_outside_back()
+        elseif Tracker:FindObjectForCode("@Outside Grunty Industries - Behind the building").AccessibilityLevel == 6 then
+            return has("climb")
+        elseif Tracker:FindObjectForCode("@Grunty Industries 1st Floor").AccessibilityLevel == 6 then
+            return has("splitup") and has("tjump") or leg_spring()
+        elseif Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel == 6 then
+            return floor_2_split_up() and (has("tjump") or leg_spring())
+        elseif Tracker:FindObjectForCode("@Grunty Industries Roof").AccessibilityLevel == 6 then
+            return true
+        else
+            return false
+        end
+    else
+        if Tracker:FindObjectForCode("@Outside Grunty Industries").AccessibilityLevel == 6 then
+            return outside_gi_to_outside_back()
+        elseif Tracker:FindObjectForCode("@Outside Grunty Industries - Behind the building").AccessibilityLevel == 6 then
+            return has("climb")
+        elseif Tracker:FindObjectForCode("@Grunty Industries 1st Floor").AccessibilityLevel == 6 then
+            return has("splitup") and has("tjump") or leg_spring()
+        elseif Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel == 6 then
+            return floor_2_split_up() and (has("tjump") or leg_spring())
+        elseif Tracker:FindObjectForCode("@Grunty Industries Roof").AccessibilityLevel == 6 then
+            return true
+        else
+            return clockwork_shot()
+        end
+    end
+end
+
+function nest_gi_outside_left()
+    if logictype.CurrentStage == 0 then
+        return has("climb")
+    elseif logictype.CurrentStage == 1 then
+        if Tracker:FindObjectForCode("@Grunty Industries 1st Floor").AccessibilityLevel == 6 then
+            return has("splitup") and has("tjump") or leg_spring()
+        elseif Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel == 6 then
+            return floor_2_split_up() and (has("tjump") or leg_spring())
+        elseif Tracker:FindObjectForCode("@Grunty Industries Roof").AccessibilityLevel == 6 then
+            return true
+        else
+            return false
+        end
+    else
+        if Tracker:FindObjectForCode("@Grunty Industries 1st Floor").AccessibilityLevel == 6 then
+            return has("splitup") and has("tjump") or leg_spring()
+        elseif Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel == 6 then
+            return floor_2_split_up() and (has("tjump") or leg_spring())
+        elseif Tracker:FindObjectForCode("@Grunty Industries Roof").AccessibilityLevel == 6 then
+            return true
+        else
+            return clockwork_shot()
+        end
+    end
+end
+
+function jinjo_gi_outside()
+    if logictype.CurrentStage == 0 then
+        if Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel == 6 then
+            return floor_2_split_up() and pack_whack() and (wing_whack() or canShootEggs()) and has("clawbts")
+        else
+            return false
+        end
+    elseif logictype.CurrentStage <= 2 then
+        if Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel == 6 then
+            return floor_2_split_up() and pack_whack() and wing_whack() and has("clawbts")
+        elseif Tracker:FindObjectForCode("@Grunty Industries Roof").AccessibilityLevel == 6 then
+            return solo_kazooie_gi() and (wing_whack() or canShootEggs())
+        else
+            return false
+        end
+    else
+        if Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel == 6 then
+            return floor_2_split_up() and pack_whack() and wing_whack() and has("clawbts")
+        elseif Tracker:FindObjectForCode("@Grunty Industries Roof").AccessibilityLevel == 6 then
+            return (solo_kazooie_gi() and (wing_whack() or canShootEggs())) or taxi_pack() or egg_barge()
+        elseif Tracker:FindObjectForCode("@Outside Grunty Industries - Behind the building").AccessibilityLevel == 6 then
+            return has("clawbts") and egg_barge()
+        else
+            return false
+        end
+    end
+end
+
+function nest_elevator_shaft_floor2()
+    if logictype.CurrentStage == 0 then
+        if Tracker:FindObjectForCode("@Grunty Industries 2nd Floor - Electromagnetic Chamber").AccessibilityLevel == 6 then
+            return floor_2_em_room_to_elevator_shaft()
+        else
+            return has("climb")
+        end
+    elseif logictype.CurrentStage == 1 then
+        if Tracker:FindObjectForCode("@Grunty Industries 2nd Floor - Electromagnetic Chamber").AccessibilityLevel == 6 then
+            return floor_2_em_room_to_elevator_shaft()
+        elseif Tracker:FindObjectForCode("@Grunty Industries 3rd Floor - Boiler Plant").AccessibilityLevel == 6 then
+            return boiler_plant_to_elevator_shaft() and has("bbust")
+        elseif Tracker:FindObjectForCode("@Grunty Industries 4th Floor - Past the Crushers").AccessibilityLevel == 6 then
+            return floor_4_back_to_elevator_shaft() and has("bbust")
+        else
+            return has("climb")
+        end
+    else
+        if Tracker:FindObjectForCode("@Grunty Industries 2nd Floor - Electromagnetic Chamber").AccessibilityLevel == 6 then
+            return floor_2_em_room_to_elevator_shaft()
+        elseif Tracker:FindObjectForCode("@Grunty Industries 3rd Floor - Boiler Plant").AccessibilityLevel == 6 then
+            return boiler_plant_to_elevator_shaft()
+        elseif Tracker:FindObjectForCode("@Grunty Industries 4th Floor - Past the Crushers").AccessibilityLevel == 6 then
+            return (health_7() or has("bbust")) and floor_4_back_to_elevator_shaft()
+        else
+            return has("climb")
+        end
+    end
+end
+
+function nest_elevator_shaft_floor3()
+    if logictype.CurrentStage == 0 then
+        if Tracker:FindObjectForCode("@Grunty Industries 3rd Floor - Boiler Plant").AccessibilityLevel == 6 then
+            return boiler_plant_to_elevator_shaft()
+        else
+            return has("climb")
+        end
+    elseif logictype.CurrentStage == 1 then
+        if Tracker:FindObjectForCode("@Grunty Industries 3rd Floor - Boiler Plant").AccessibilityLevel == 6 then
+            return boiler_plant_to_elevator_shaft()
+        elseif Tracker:FindObjectForCode("@Grunty Industries 4th Floor - Past the Crushers").AccessibilityLevel == 6 then
+            return floor_4_back_to_elevator_shaft() and has("bbust")
+        else
+            return has("climb")
+        end
+    else
+        if Tracker:FindObjectForCode("@Grunty Industries 3rd Floor - Boiler Plant").AccessibilityLevel == 6 then
+            return boiler_plant_to_elevator_shaft()
+        elseif Tracker:FindObjectForCode("@Grunty Industries 4th Floor - Past the Crushers").AccessibilityLevel == 6 then
+            return floor_4_back_to_elevator_shaft()
+        else
+            return has("climb")
+        end
+    end
+end
+
+function nest_elevator_shaft_floor4()
+    if Tracker:FindObjectForCode("@Grunty Industries 4th Floor - Past the Crushers").AccessibilityLevel == 6 then
+        return floor_4_back_to_elevator_shaft()
+    else
+        return has("climb")
+    end
+end
+
+function jiggy_underwater_waste_disposal()
+    if logictype.CurrentStage <= 2 then
+        return can_beat_weldar() and shack_pack()
+    else
+        return (can_beat_weldar() and (shack_pack() or leg_spring())) or can_use_battery() and ((has("climb") and has("fflip") and has("ttorp") and has("dive") and has("wwing")) or (shack_pack() and has("climb") and has("ggrab")))
+    end
+end
+
+function nest_gi_floor1_high_pipe()
+    if logictype.CurrentStage == 0 then
+        return has("splitup") and has("clawbts") and (leg_spring() or has("tjump"))
+    elseif logictype.CurrentStage == 1 then
+        if Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel == 6 then
+            return (springPad() and F2_to_F1() or leg_spring()) or has("clawbts") and (wing_whack() or glide()) and (has("eggaim") or wing_whack())
+        else
+            return has("clawbts") and (springPad() and F2_to_F1() or leg_spring()) or has("clawbts") and (wing_whack() or glide()) and (has("eggaim") or wing_whack())
+        end
+    else
+        if Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel == 6 then
+            return ((springPad() or clockwork_shot()) and F2_to_F1() or leg_spring()) or has("clawbts") and (wing_whack() or glide()) and (has("eggaim") or wing_whack())
+        else
+            return has("clawbts") and ((springPad() or clockwork_shot()) and F2_to_F1() or leg_spring()) or has("clawbts") and (wing_whack() or glide()) and (has("eggaim") or wing_whack())
+        end
+    end
+end
+
+function cheato_window()
+    if logictype.CurrentStage == 0 then
+        if Tracker:FindObjectForCode("@Grunty Industries Roof").AccessibilityLevel == 6 then
+            return has("eggaim") or has("aireaim") or has("bbomb")
+        else
+            return false
+        end
+    elseif logictype.CurrentStage == 1 then
+        if Tracker:FindObjectForCode("@Grunty Industries Roof").AccessibilityLevel == 6 then
+            return has("eggaim") or has("aireaim") or has("bbomb")
+        elseif Tracker:FindObjectForCode("@Grunty Industries 1st Floor").AccessibilityLevel == 6 then
+            return leg_spring() and has("clawbts") and has("wwhack")
+        else
+            return false
+        end
+    elseif logictype.CurrentStage == 2 then
+        if Tracker:FindObjectForCode("@Grunty Industries Roof").AccessibilityLevel == 6 then
+            return has("eggaim") or has("aireaim") or has("bbomb")
+        elseif Tracker:FindObjectForCode("@Grunty Industries 1st Floor").AccessibilityLevel == 6 then
+            return leg_spring() and has("clawbts") and has("wwhack")
+        else
+            return clockwork_shot()
+        end
+    else
+        if Tracker:FindObjectForCode("@Grunty Industries Roof").AccessibilityLevel == 6 then
+            return has("eggaim") or has("aireaim") or has("bbomb")
+        elseif Tracker:FindObjectForCode("@Grunty Industries 1st Floor").AccessibilityLevel == 6 then
+            return leg_spring() and has("clawbts") and has("wwhack")
+        elseif Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel == 6 then
+            return clockwork_shot() and solo_kazooie_gi()
+        else
+            return clockwork_shot()
+        end
+    end
+end
+
+function jiggy_skivvy()
+    if Tracker:FindObjectForCode("@Grunty Industries Roof").AccessibilityLevel == 6 then
+        return humbaGI() and billDrill() and (has("aireaim") or has("bbomb")) and floor_2_skivvy_switch()
+    else
+        return false
+    end
+end
+
+function floor_2_skivvy_switch()
+    if logictype.CurrentStage == 0 then
+        if Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel == 6 then
+            return has("clawbts") and has("fflip") and has("ggrab")
+        else
+            return false
+        end
+    else
+        if Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel == 6 then
+            return has("clawbts") and ((has("fflip") and has("ggrab")) or has("ttrot") and (has("flutter") or has("arat"))) or solo_kazooie_gi() and (leg_spring() or has("clawbts") and (canShootEggs() or wing_whack()))
+        elseif Tracker:FindObjectForCode("@Grunty Industries 3rd Floor").AccessibilityLevel == 6 then
+            return has("climb") and (veryLongJump() or (has("fflip") or has("tjump")) and has("ggrab")) or canDoSmallElevation() and has("splitup") and leg_spring()
+        else
+            return false
+        end
+    end
+end
+
+function nest_funny_platform()
+    if logictype.CurrentStage == 0 then
+        if Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel == 6 then
+            return has("clawbts") and has("fflip") and has("ggrab")
+        else
+            return false
+        end
+    elseif logictype.CurrentStage == 1 then
+        if Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel == 6 then
+            return has("clawbts") and has("fflip") and has("ggrab") or solo_kazooie_gi() and (leg_spring() or has("clawbts") and (canShootEggs() or wing_whack())) and glide()
+        elseif Tracker:FindObjectForCode("@Grunty Industries 3rd Floor").AccessibilityLevel == 6 then
+            return has("climb") and (veryLongJump() or (has("fflip") or has("tjump"))) and has("ggrab") or canDoSmallElevation() and has("splitup") and leg_spring() and glide()
+        else
+            return false
+        end
+    else
+        if Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel == 6 then
+            return has("clawbts") and ((has("fflip") and has("ggrab")) or has("ttrot") and (has("flutter") or has("arat"))) or solo_kazooie_gi() and (leg_spring() or has("clawbts") and (canShootEggs() or wing_whack()))
+        elseif Tracker:FindObjectForCode("@Grunty Industries 3rd Floor").AccessibilityLevel == 6 then
+            return has("climb") and (veryLongJump() or (has("fflip") or has("tjump"))) and has("ggrab") or canDoSmallElevation() and has("splitup") and leg_spring() and glide()
+        else
+            return clockwork_shot()
+        end
+    end
+end
+
+function jinjo_boiler()
+    if logictype.CurrentStage == 0 then
+        if Tracker:FindObjectForCode("@Grunty Industries Roof").AccessibilityLevel == 6 then
+            return floor_5_to_boiler_plant()
+        else
+            return false
+        end
+    elseif logictype.CurrentStage == 1 then
+        if Tracker:FindObjectForCode("@Grunty Industries Roof").AccessibilityLevel == 6 then
+            return floor_5_to_boiler_plant()
+        elseif Tracker:FindObjectForCode("@Grunty Industries 3rd Floor").AccessibilityLevel == 6 then
+            return canDoSmallElevation() and leg_spring() and glide()
+        else
+            return false
+        end
+    else
+        if Tracker:FindObjectForCode("@Grunty Industries Roof").AccessibilityLevel == 6 then
+            return floor_5_to_boiler_plant()
+        elseif Tracker:FindObjectForCode("@Grunty Industries 3rd Floor").AccessibilityLevel == 6 then
+            return canDoSmallElevation() and leg_spring() and glide()
+        else
+            return clockwork_shot()
+        end
+    end
+end
+
+function jiggy_twinkly()
+    if logictype.CurrentStage == 0 then
+        return can_use_battery() and has("ggrab") and has("ttrain") or can_use_battery() and elevator_door()
+    else
+        if Tracker:FindObjectForCode("@Grunty Industries Roof").AccessibilityLevel == 6 then
+            return can_use_battery() and (has("tjump") or has("ggrab")) and (leg_spring() or (glide() or wing_whack()) and has("tjump") or floor_5_to_boiler_plant() or has("ttrain"))
+        else
+            return can_use_battery() and (has("tjump") or has("ggrab")) and (leg_spring() or (glide() or wing_whack()) and has("tjump") or has("ttrain"))
+        end
     end
 end
 
