@@ -1110,7 +1110,11 @@ function mt_jiggy5()
     if logictype.CurrentStage == 0 then
         return has("eggaim") and (has("fflip") or canReachSlightlyElevatedLedge()) and ((has("ggrab") and springPad() and has("fflip") and has("ttrot")) or MT_flight_pad())
     else
-        return (has("fflip") or canReachSlightlyElevatedLedge()) and ((has("ggrab") and springPad() and has("fflip") and has("eggaim") and has("ttrot")) or (MT_flight_pad() and canShootEggs())) and (MT_flight_pad() and canShootEggs() or has("eggaim"))
+        if Tracker:FindObjectForCode("@Terrydactyland - Unga Bungas' Cave").AccessibilityLevel == 6 then
+            return (has("fflip") or canReachSlightlyElevatedLedge()) and (MT_flight_pad() and canShootEggs() or has("eggaim"))
+        else
+            return (has("fflip") or canReachSlightlyElevatedLedge()) and ((has("ggrab") and springPad() and has("fflip") and has("eggaim") and has("ttrot")) or (MT_flight_pad() and canShootEggs())) and (MT_flight_pad() and canShootEggs() or has("eggaim"))
+        end
     end
 end
 

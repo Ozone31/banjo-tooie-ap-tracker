@@ -6900,12 +6900,7 @@
             "name": "Treasure Chamber Jiggy",
             "chest_unopened_img": "/images/locations/jiggy.png",
             "chest_opened_img": "/images/locations/jiggy2.png",
-            "access_rules": [
-              "$mt_jiggy5",
-              "logictype_n, fflip, $canReachSlightlyElevatedLedge, @Terrydactyland - Unga Bungas' Cave, $MT_flight_pad, $canShootEggs", "logictype_n, fflip, $canReachSlightlyElevatedLedge, @Terrydactyland - Unga Bungas' Cave, $MT_flight_pad, eggaim",
-              "logictype_a, fflip, $canReachSlightlyElevatedLedge, @Terrydactyland - Unga Bungas' Cave, $MT_flight_pad, $canShootEggs", "logictype_a, fflip, $canReachSlightlyElevatedLedge, @Terrydactyland - Unga Bungas' Cave, $MT_flight_pad, eggaim",
-              "logictype_g, fflip, $canReachSlightlyElevatedLedge, @Terrydactyland - Unga Bungas' Cave, $MT_flight_pad, $canShootEggs", "logictype_g, fflip, $canReachSlightlyElevatedLedge, @Terrydactyland - Unga Bungas' Cave, $MT_flight_pad, eggaim"
-            ]
+            "access_rules": ["$mt_jiggy5"]
           },
           {
             "name": "Treasure Chamber Honeycomb",
