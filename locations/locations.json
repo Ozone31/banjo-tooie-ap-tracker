@@ -5164,9 +5164,6 @@
     "name": "Wooded Hollow",
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
-    "access_rules": [
-      "@Spiral Mountain, $canGetPassedKlungo"
-    ],
     "children": [
       {
         "name": "IoH: Wooded Hollow Jinjo",
@@ -8727,12 +8724,7 @@
             "name": "Jiggy",
             "chest_unopened_img": "/images/locations/jiggy.png",
             "chest_opened_img": "/images/locations/jiggy2.png",
-            "access_rules": [
-              "logictype_b, feggs, eggaim, $longJump, fflip", "logictype_b, feggs, eggaim, $longJump, ttrot",
-              "logictype_n, $longJump, fflip, $canShootEggs|feggs", "logictype_n, $longJump, fflip, humbaih, @Pine Grove, grat", "logictype_n, $longJump, fflip, $billDrill", "logictype_n, $longJump, ttrot, $canShootEggs|feggs", "logictype_n, $longJump, ttrot, humbaih, @Pine Grove, grat", "logictype_n, $longJump, ttrot, $billDrill", "logictype_n, fflip, bbust, climb", "logictype_n, $GM_boulders, $leg_spring, $canShootEggs|feggs", "logictype_n, $GM_boulders, tjump, $pack_whack, climb",
-              "logictype_a, $longJump, fflip", "logictype_a, $longJump, ttrot", "logictype_a, fflip, bbust, climb", "logictype_a, $clockwork_shot", "logictype_a, $GM_boulders, tjump, $pack_whack, climb", "logictype_a, $GM_boulders, $leg_spring",
-              "logictype_g, $longJump, fflip", "logictype_g, $longJump, ttrot", "logictype_g, fflip, bbust, climb", "logictype_g, $clockwork_shot", "logictype_g, $GM_boulders, tjump, $pack_whack, climb", "logictype_g, $GM_boulders, $leg_spring"
-            ]
+            "access_rules": ["$jiggy_generator_cavern"]
           },
           {
             "name": "Egg Nest",
@@ -10071,6 +10063,9 @@
     "name": "Witchyworld - Space Zone",
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+      "@Witchyworld - Main Area"
+    ],
     "children": [
       {
         "name": "WW: Space Zone Honeycomb",
@@ -10079,12 +10074,7 @@
             "name": "Honeycomb",
             "chest_unopened_img": "/images/locations/honey.png",
             "chest_opened_img": "/images/locations/honey2.png",
-            "access_rules": [
-              "logictype_b, ggrab, climb, fflip, @Witchyworld - Main Area",
-              "logictype_n, ggrab, climb, fflip, @Witchyworld - Main Area",
-              "logictype_a, ggrab, climb, fflip, $clockwork_shot, @Witchyworld - Main Area", "logictype_a, ggrab, climb, fflip, $longJumpToGripGrab, @Witchyworld - Main Area", "logictype_a, bbust, climb, fflip, $clockwork_shot, @Witchyworld - Main Area", "logictype_a, bbust, climb, fflip, $longJumpToGripGrab, @Witchyworld - Main Area", "logictype_a, $leg_spring, glide(), @Witchyworld - Main Area", "logictype_a, $clockwork_shot, ttrot, @Witchyworld - Main Area", "logictype_a, $clockwork_shot, splitup, @Witchyworld - Main Area",
-              "logictype_g, ggrab, climb, fflip, $clockwork_shot, @Witchyworld - Main Area", "logictype_g, ggrab, climb, fflip, $longJumpToGripGrab, @Witchyworld - Main Area", "logictype_g, bbust, climb, fflip, $clockwork_shot, @Witchyworld - Main Area", "logictype_g, bbust, climb, fflip, $longJumpToGripGrab, @Witchyworld - Main Area", "logictype_g, $clockwork_shot, @Glitter Gulch Mine - Fuel Depot Behind the Rocks, $ggm_to_ww", "logictype_g, $leg_spring, $glide, @Witchyworld - Main Area", "logictype_g, $clockwork_shot, ttrot, @Witchyworld - Main Area", "logictype_g, $clockwork_shot, splitup, @Witchyworld - Main Area"
-            ]
+            "access_rules": ["$honeycomb_space_zone"]
           }
         ],
         "map_locations": [
@@ -10101,10 +10091,7 @@
     "name": "Witchyworld - Saucer of Peril",
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
-    "access_rules": [
-      "@Witchyworld - Main Area, $humbaGGM, $mumboWW, $saucer_door_open_ww, $can_reach_saucer, @Glitter Gulch Mine - Main Area, $has_explosives",
-      "$humbaGGM, $mumboWW, $saucer_door_open_ggm, $canDoSmallElevation, @Glitter Gulch Mine - Main Area, $has_explosives"
-    ],
+    "access_rules": ["$jiggy_peril"],
     "children": [
       {
         "name": "Saucer of Peril",
@@ -10484,10 +10471,7 @@
       "$load_ccl_jrl, @Wasteland, cca",
       "$load_gi_jrl, @Quagmire, gia",
       "$load_ck_jrl, @Quagmire, $quag_to_CK, cka",
-      "@Hailfire Peaks - Lava Side, backdoorsopen_on, $HFP_to_JRL_bdon",
-      "@Hailfire Peaks - Lava Side, @Cloud Cuckooland - Outside, backdoorsopen_off, $HFP_to_JRL_bdoff",
-      "logictype_g, @Hailfire Peaks - Lava Side, backdoorsopen_on, $HFP_to_JRL_bdon",
-      "logictype_g, @Hailfire Peaks - Lava Side, backdoorsopen_off, $HFP_to_JRL_bdoff"
+      "@Hailfire Peaks - Lava Side, $HFP_to_JRL"
     ],
     "children": [
       {
@@ -10572,10 +10556,10 @@
             "chest_unopened_img": "/images/locations/jiggy.png",
             "chest_opened_img": "/images/locations/jiggy2.png",
             "access_rules": [
-              "logictype_b, @Hailfire Peaks - Lava Side, backdoorsopen_on, $HFP_hot_water_cooled_bdon, $jr_jiggy4", "logictype_b, @Hailfire Peaks - Lava Side, @Cloud Cuckooland - Outside, backdoorsopen_off, $HFP_hot_water_cooled_bdoff, $jr_jiggy4",
-              "logictype_n, @Hailfire Peaks - Lava Side, backdoorsopen_on, $HFP_hot_water_cooled_bdon, $jr_jiggy4", "logictype_n, @Hailfire Peaks - Lava Side, @Cloud Cuckooland - Outside, backdoorsopen_off, $HFP_hot_water_cooled_bdoff, $jr_jiggy4",
-              "logictype_a, @Hailfire Peaks - Lava Side, backdoorsopen_on, $HFP_hot_water_cooled_bdon, $jr_jiggy4", "logictype_a, @Hailfire Peaks - Lava Side, @Cloud Cuckooland - Outside, backdoorsopen_off, $HFP_hot_water_cooled_bdoff, $jr_jiggy4",
-              "logictype_g, @Hailfire Peaks - Lava Side, backdoorsopen_on, $HFP_hot_water_cooled_bdon, $jr_jiggy4", "logictype_g, @Hailfire Peaks - Lava Side, @Cloud Cuckooland - Outside, backdoorsopen_off, $HFP_hot_water_cooled_bdoff, $jr_jiggy4"
+              "logictype_b, @Hailfire Peaks - Lava Side, backdoorsopen_on, $HFP_hot_water_cooled, $jr_jiggy4", "logictype_b, @Hailfire Peaks - Lava Side, @Cloud Cuckooland - Outside, backdoorsopen_off, $HFP_hot_water_cooled, $jr_jiggy4",
+              "logictype_n, @Hailfire Peaks - Lava Side, backdoorsopen_on, $HFP_hot_water_cooled, $jr_jiggy4", "logictype_n, @Hailfire Peaks - Lava Side, @Cloud Cuckooland - Outside, backdoorsopen_off, $HFP_hot_water_cooled, $jr_jiggy4",
+              "logictype_a, @Hailfire Peaks - Lava Side, backdoorsopen_on, $HFP_hot_water_cooled, $jr_jiggy4", "logictype_a, @Hailfire Peaks - Lava Side, @Cloud Cuckooland - Outside, backdoorsopen_off, $HFP_hot_water_cooled, $jr_jiggy4",
+              "logictype_g, @Hailfire Peaks - Lava Side, backdoorsopen_on, $HFP_hot_water_cooled, $jr_jiggy4", "logictype_g, @Hailfire Peaks - Lava Side, @Cloud Cuckooland - Outside, backdoorsopen_off, $HFP_hot_water_cooled, $jr_jiggy4"
             ]
           }
         ],
@@ -15607,8 +15591,8 @@
             "access_rules": [
               "logictype_b, ggrab, fflip",
               "logictype_n, ggrab, fflip", "logictype_n, fpad", "logictype_n, $leg_spring, $wing_whack", "logictype_n, $leg_spring, glide",
-              "logictype_a, ggrab, fflip", "logictype_a, fpad", "logictype_a, $leg_spring, $wing_whack", "logictype_a, $leg_spring, glide", "logictype_a, $hfpTop, $clockwork_shot", "logictype_a, humbaih, @Pine Grove, grat, $clockwork_shot", "logictype_a, trainswhp1, @Inside Chuffy, $clockwork_shot",
-              "logictype_g, ggrab, fflip", "logictype_g, fpad", "logictype_g, $leg_spring, $wing_whack", "logictype_g, $leg_spring, glide", "logictype_g, $hfpTop, $clockwork_shot", "logictype_g, humbaih, @Pine Grove, grat, $clockwork_shot", "logictype_g, trainswhp1, @Inside Chuffy, $clockwork_shot"
+              "logictype_a, ggrab, fflip", "logictype_a, fpad", "logictype_a, $leg_spring, $wing_whack", "logictype_a, $leg_spring, glide", "logictype_a, $hfpTop, $clockwork_shot",
+              "logictype_g, ggrab, fflip", "logictype_g, fpad", "logictype_g, $leg_spring, $wing_whack", "logictype_g, $leg_spring, glide", "logictype_g, $hfpTop, $clockwork_shot"
             ]
           }
         ],
@@ -15646,10 +15630,7 @@
         "chest_unopened_img": "/images/locations/eggnest.png",
         "chest_opened_img": "/images/locations/eggnest2.png",
         "visibility_rules": ["nestsanity_on"],
-        "access_rules": [
-          "$hfpTop", "trainswhp1, @Inside Chuffy",
-          "$logictype_n, humbaih, @Pine Grove, grat", "$logictype_a, humbaih, @Pine Grove, grat", "$logictype_g, humbaih, @Pine Grove, grat"
-        ],
+        "access_rules": ["$hfpTop"],
         "sections": [
           {
             "name": "Egg Nest 1"
@@ -15762,12 +15743,7 @@
             "name": "Colosseum Cheato Page",
             "chest_unopened_img": "/images/locations/page.png",
             "chest_opened_img": "/images/locations/page2.png",
-            "access_rules": [
-              "logictype_b, clawbts, $has_explosives", "logictype_b, clawbts, humbaih, @Pine Grove, grat",
-              "logictype_n, clawbts, $has_explosives", "logictype_n, clawbts, mumbohp", "logictype_n, clawbts, humbaih, @Pine Grove, grat",
-              "logictype_a, clawbts, $has_explosives", "logictype_a, clawbts, mumbohp", "logictype_a, clawbts, humbaih, @Pine Grove, grat",
-              "logictype_g, clawbts, $has_explosives", "logictype_g, clawbts, mumbohp", "logictype_g, clawbts, humbaih, @Pine Grove, grat", "logictype_g, $hfpTop, eggshoot", "logictype_g, humbaih, @Pine Grove, grat, eggshoot", "logictype_g, trainswhp1, @Inside Chuffy, eggshoot"
-            ]
+            "access_rules": ["$cheato_colosseum"]
           },
           {
             "name": "Kickball Jiggy",
@@ -15873,8 +15849,8 @@
             "access_rules": [
               "logictype_b, ggrab, ttrot, flutter", "logictype_b, ggrab, tjump, flutter", "logictype_b, ggrab, ttrot, arat", "logictype_b, ggrab, tjump, arat",
               "logictype_n, ggrab, ttrot, flutter", "logictype_n, ggrab, tjump, flutter", "logictype_n, ggrab, ttrot, arat", "logictype_n, ggrab, tjump, arat", "logictype_n, $leg_spring",
-              "logictype_a, ggrab, ttrot, flutter", "logictype_a, ggrab, tjump, flutter", "logictype_a, ggrab, ttrot, arat", "logictype_a, ggrab, tjump, arat", "logictype_a, $leg_spring", "logictype_a, $clockwork_shot, $hfpTop", "logictype_a, $clockwork_shot, humbaih, @Pine Grove, grat", "logictype_a, $clockwork_shot, trainswhp1, @Inside Chuffy,",
-              "logictype_g, ggrab, ttrot, flutter", "logictype_g, ggrab, tjump, flutter", "logictype_g, ggrab, ttrot, arat", "logictype_g, ggrab, tjump, arat", "logictype_g, $leg_spring", "logictype_g, $clockwork_shot, $hfpTop", "logictype_g, $clockwork_shot, humbaih, @Pine Grove, grat", "logictype_g, $clockwork_shot, trainswhp1, @Inside Chuffy,"
+              "logictype_a, ggrab, ttrot, flutter", "logictype_a, ggrab, tjump, flutter", "logictype_a, ggrab, ttrot, arat", "logictype_a, ggrab, tjump, arat", "logictype_a, $leg_spring", "logictype_a, $clockwork_shot, $hfpTop",
+              "logictype_g, ggrab, ttrot, flutter", "logictype_g, ggrab, tjump, flutter", "logictype_g, ggrab, ttrot, arat", "logictype_g, ggrab, tjump, arat", "logictype_g, $leg_spring", "logictype_g, $clockwork_shot, $hfpTop"
             ]
           },
           {
@@ -15882,24 +15858,14 @@
             "chest_unopened_img": "/images/locations/eggnest.png",
             "chest_opened_img": "/images/locations/eggnest2.png",
             "visibility_rules": ["nestsanity_on"],
-            "access_rules": [
-              "$hfpTop", "trainswhp1, @Inside Chuffy",
-              "logictype_n, humbaih, @Pine Grove, grat",
-              "logictype_a, humbaih, @Pine Grove, grat",
-              "logictype_g, humbaih, @Pine Grove, grat"
-            ]
+            "access_rules": ["$hfpTop"]
           },
           {
             "name": "Egg Nest 2",
             "chest_unopened_img": "/images/locations/eggnest.png",
             "chest_opened_img": "/images/locations/eggnest2.png",
             "visibility_rules": ["nestsanity_on"],
-            "access_rules": [
-              "$hfpTop", "trainswhp1, @Inside Chuffy",
-              "logictype_n, humbaih, @Pine Grove, grat",
-              "logictype_a, humbaih, @Pine Grove, grat",
-              "logictype_g, humbaih, @Pine Grove, grat"
-            ]
+            "access_rules": ["$hfpTop"]
           }
         ],
         "map_locations": [
@@ -15918,8 +15884,7 @@
             "chest_unopened_img": "/images/locations/jiggy.png",
             "chest_opened_img": "/images/locations/jiggy2.png",
             "access_rules": [
-              "$longJump, $hfpTop", "$longJump, trainswhp1, @Inside Chuffy",
-              "$longJump, logictype_n, humbaih, @Pine Grove, grat", "$longJump, logictype_a, humbaih, @Pine Grove, grat", "$longJump, logictype_g, humbaih, @Pine Grove, grat",
+              "$longJump, $hfpTop",
               "logictype_n, splitup", "logictype_a, splitup", "logictype_g, splitup"
             ]
           },
@@ -15927,12 +15892,7 @@
             "name": "Honeycomb",
             "chest_unopened_img": "/images/locations/honey.png",
             "chest_opened_img": "/images/locations/honey2.png",
-            "access_rules": [
-              "logictype_b, $hfpTop, geggs, eggaim, $springPad, ttrot", "logictype_b, trainswhp1, @Inside Chuffy, geggs, eggaim, $springPad, ttrot", "logictype_b, $hfpTop, geggs, eggaim, $springPad, splitup", "logictype_b, trainswhp1, @Inside Chuffy, geggs, eggaim, $springPad, splitup",
-              "logictype_n, splitup, tjump", "logictype_n, $wing_whack", "logictype_n, splitup, glide", "logictype_n, $leg_spring", "logictype_n, $hfpTop, geggs, eggaim, springPad, ttrot", "logictype_n, humbaih, @Pine Grove, grat, geggs, eggaim, springPad, ttrot", "logictype_n, trainswhp1, @Inside Chuffy, geggs, eggaim, springPad, ttrot",
-              "logictype_a, splitup, tjump", "logictype_a, $wing_whack", "logictype_a, splitup, glide", "logictype_a, $leg_spring", "logictype_a, $hfpTop, geggs, eggaim, springPad, ttrot", "logictype_a, humbaih, @Pine Grove, grat, geggs, eggaim, springPad, ttrot", "logictype_a, trainswhp1, @Inside Chuffy, geggs, eggaim, springPad, ttrot", "logictype_a, $extremelyLongJump", "logictype_a, $hfpTop, $clockwork_shot", "logictype_a, humbaih, @Pine Grove, grat, $clockwork_shot", "logictype_a, trainswhp1, @Inside Chuffy, $clockwork_shot",
-              "logictype_g, splitup, tjump", "logictype_g, $wing_whack", "logictype_g, splitup, glide", "logictype_g, $leg_spring", "logictype_g, $hfpTop, geggs, eggaim, springPad, ttrot", "logictype_g, humbaih, @Pine Grove, grat, geggs, eggaim, springPad, ttrot", "logictype_g, trainswhp1, @Inside Chuffy, geggs, eggaim, springPad, ttrot", "logictype_g, $extremelyLongJump", "logictype_g, $hfpTop, $clockwork_shot", "logictype_g, humbaih, @Pine Grove, grat, $clockwork_shot", "logictype_g, trainswhp1, @Inside Chuffy, $clockwork_shot"
-            ]
+            "access_rules": ["$honeycomb_volcano"]
           }
         ],
         "map_locations": [
@@ -15947,7 +15907,7 @@
         "name": "Near Ladder Notes",
         "chest_unopened_img": "/images/locations/note.png",
         "chest_opened_img": "/images/locations/note2.png",
-        "access_rules": [ "$notes_ladder", "trainswhp1, @Inside Chuffy" ],
+        "access_rules": ["$notes_ladder"],
         "sections": [
           {
             "name": "Note 1"
@@ -15968,12 +15928,7 @@
         "name": "Path to Shack Pack Notes",
         "chest_unopened_img": "/images/locations/note.png",
         "chest_opened_img": "/images/locations/note2.png",
-        "access_rules": [
-            "$hfpTop", "trainswhp1, @Inside Chuffy",
-            "logictype_n, humbaih, @Pine Grove, grat",
-            "logictype_a, humbaih, @Pine Grove, grat",
-            "logictype_g, humbaih, @Pine Grove, grat"
-          ],
+        "access_rules": ["$hfpTop"],
         "sections": [
           {
             "name": "Note 1"
@@ -16014,12 +15969,7 @@
         "name": "Top Path Notes",
         "chest_unopened_img": "/images/locations/note.png",
         "chest_opened_img": "/images/locations/note2.png",
-        "access_rules": [
-            "$hfpTop", "trainswhp1, @Inside Chuffy",
-            "logictype_n, humbaih, @Pine Grove, grat",
-            "logictype_a, humbaih, @Pine Grove, grat",
-            "logictype_g, humbaih, @Pine Grove, grat"
-          ],
+        "access_rules": ["$hfpTop"],
         "sections": [
           {
             "name": "Note 1"
@@ -16181,12 +16131,7 @@
             "name": "Train Switch",
             "chest_unopened_img": "/images/locations/tswitch.png",
             "chest_opened_img": "/images/locations/tswitch2.png",
-            "access_rules": [ 
-              "humbahp, $hfpTop", "humbahp, trainswhp1, @Inside Chuffy",
-              "humbahp, logictype_n, humbaih, @Pine Grove, grat",
-              "humbahp, logictype_a, humbaih, @Pine Grove, grat",
-              "humbahp, logictype_g, humbaih, @Pine Grove, grat"
-            ]
+            "access_rules": ["humbahp, $hfpTop"]
           }
         ],
         "map_locations": [
@@ -16204,12 +16149,7 @@
             "name": "Jinjo",
             "chest_unopened_img": "/images/locations/jinjo.png",
             "chest_opened_img": "/images/locations/jinjo2.png",
-            "access_rules": [
-              "logictype_b, $hfpTop, $canShootEggs|feggs", "logictype_b, trainswhp1, @Inside Chuffy, $canShootEggs|feggs", "logictype_b, $hfpTop, $has_explosives", "logictype_b, trainswhp1, @Inside Chuffy, $has_explosives", "logictype_b, $hfpTop, $billDrill", "logictype_b, trainswhp1, @Inside Chuffy, $billDrill", "logictype_b, $hfpTop, humbaih, @Pine Grove, grat", "logictype_b, trainswhp1, @Inside Chuffy, humbaih, @Pine Grove, grat",
-              "logictype_n, $hfpTop, $canDoSmallElevation, $canShootEggs|feggs", "logictype_n, $hfpTop, $canDoSmallElevation, $has_explosives", "logictype_n, $hfpTop, $canDoSmallElevation, $billDrill", "logictype_n, $hfpTop, $canDoSmallElevation, humbaih, @Pine Grove, grat", "logictype_n, $hfpTop, bbust, $canShootEggs|feggs", "logictype_n, $hfpTop, bbust, $has_explosives", "logictype_n, $hfpTop, bbust, $billDrill", "logictype_n, $hfpTop, bbust, humbaih, @Pine Grove, grat", "logictype_n, $hfpTop, mumbohp, tjump", "logictype_n, $hfpTop, splitup, tjump, $leg_spring, $canShootEggs|feggs", "logictype_n, $hfpTop, splitup, tjump, $leg_spring, $has_explosives", "logictype_n, humbaih, @Pine Grove, grat, $canDoSmallElevation, $canShootEggs|feggs", "logictype_n, humbaih, @Pine Grove, grat, $canDoSmallElevation, $has_explosives", "logictype_n, humbaih, @Pine Grove, grat, $canDoSmallElevation, $billDrill", "logictype_n, humbaih, @Pine Grove, grat, $canDoSmallElevation, humbaih, @Pine Grove, grat", "logictype_n, humbaih, @Pine Grove, grat, bbust, $canShootEggs|feggs", "logictype_n, humbaih, @Pine Grove, grat, bbust, $has_explosives", "logictype_n, humbaih, @Pine Grove, grat, bbust, $billDrill", "logictype_n, humbaih, @Pine Grove, grat, bbust, humbaih, @Pine Grove, grat", "logictype_n, humbaih, @Pine Grove, grat, mumbohp, tjump", "logictype_n, humbaih, @Pine Grove, grat, splitup, tjump, $leg_spring, $canShootEggs|feggs", "logictype_n, humbaih, @Pine Grove, grat, splitup, tjump, $leg_spring, $has_explosives", "logictype_n, trainswhp1, @Inside Chuffy, $canDoSmallElevation, $canShootEggs|feggs", "logictype_n, trainswhp1, @Inside Chuffy, $canDoSmallElevation, $has_explosives", "logictype_n, trainswhp1, @Inside Chuffy, $canDoSmallElevation, $billDrill", "logictype_n, trainswhp1, @Inside Chuffy, $canDoSmallElevation, humbaih, @Pine Grove, grat", "logictype_n, trainswhp1, @Inside Chuffy, bbust, $canShootEggs|feggs", "logictype_n, trainswhp1, @Inside Chuffy, bbust, $has_explosives", "logictype_n, trainswhp1, @Inside Chuffy, bbust, $billDrill", "logictype_n, trainswhp1, @Inside Chuffy, bbust, humbaih, @Pine Grove, grat", "logictype_n, trainswhp1, @Inside Chuffy, mumbohp, tjump", "logictype_n, trainswhp1, @Inside Chuffy, splitup, tjump, $leg_spring, $canShootEggs|feggs", "logictype_n, trainswhp1, @Inside Chuffy, splitup, tjump, $leg_spring, $has_explosives",
-              "logictype_a, $hfpTop, $canDoSmallElevation, $canShootEggs|feggs", "logictype_a, $hfpTop, $canDoSmallElevation, $has_explosives", "logictype_a, $hfpTop, $canDoSmallElevation, $billDrill", "logictype_a, $hfpTop, $canDoSmallElevation, humbaih, @Pine Grove, grat", "logictype_a, $hfpTop, bbust, $canShootEggs|feggs", "logictype_a, $hfpTop, bbust, $has_explosives", "logictype_a, $hfpTop, bbust, $billDrill", "logictype_a, $hfpTop, bbust, humbaih, @Pine Grove, grat", "logictype_a, $hfpTop, mumbohp, tjump", "logictype_a, $hfpTop, splitup, tjump, $leg_spring, $canShootEggs|feggs", "logictype_a, $hfpTop, splitup, tjump, $leg_spring, $has_explosives", "logictype_a, humbaih, @Pine Grove, grat, $canDoSmallElevation, $canShootEggs|feggs", "logictype_a, humbaih, @Pine Grove, grat, $canDoSmallElevation, $has_explosives", "logictype_a, humbaih, @Pine Grove, grat, $canDoSmallElevation, $billDrill", "logictype_a, $canDoSmallElevation, humbaih, @Pine Grove, grat", "logictype_a, humbaih, @Pine Grove, grat, bbust, $canShootEggs|feggs", "logictype_a, humbaih, @Pine Grove, grat, bbust, $has_explosives", "logictype_a, humbaih, @Pine Grove, grat, bbust, $billDrill", "logictype_a, bbust, humbaih, @Pine Grove, grat", "logictype_a, humbaih, @Pine Grove, grat, mumbohp, tjump", "logictype_a, humbaih, @Pine Grove, grat, splitup, tjump, $leg_spring, $canShootEggs|feggs", "logictype_a, humbaih, @Pine Grove, grat, splitup, tjump, $leg_spring, $has_explosives", "logictype_a, trainswhp1, @Inside Chuffy, $canDoSmallElevation, $canShootEggs|feggs", "logictype_a, trainswhp1, @Inside Chuffy, $canDoSmallElevation, $has_explosives", "logictype_a, $hfpTop, $clockwork_shot", "logictype_a, trainswhp1, @Inside Chuffy, $canDoSmallElevation, $billDrill", "logictype_a, trainswhp1, @Inside Chuffy, $canDoSmallElevation, humbaih, @Pine Grove, grat", "logictype_a, trainswhp1, @Inside Chuffy, bbust, $canShootEggs|feggs", "logictype_a, trainswhp1, @Inside Chuffy, bbust, $has_explosives", "logictype_a, trainswhp1, @Inside Chuffy, bbust, $billDrill", "logictype_a, trainswhp1, @Inside Chuffy, bbust, humbaih, @Pine Grove, grat", "logictype_a, trainswhp1, @Inside Chuffy, mumbohp, tjump", "logictype_a, trainswhp1, @Inside Chuffy, splitup, tjump, $leg_spring, $canShootEggs|feggs", "logictype_a, trainswhp1, @Inside Chuffy, splitup, tjump, $leg_spring, $has_explosives", "logictype_a, trainswhp1, @Inside Chuffy, $clockwork_shot",
-              "logictype_g, $hfpTop, $canDoSmallElevation, $canShootEggs|feggs", "logictype_g, $hfpTop, $canDoSmallElevation, $has_explosives", "logictype_g, $hfpTop, $canDoSmallElevation, $billDrill", "logictype_g, $hfpTop, $canDoSmallElevation, humbaih, @Pine Grove, grat", "logictype_g, $hfpTop, bbust, $canShootEggs|feggs", "logictype_g, $hfpTop, bbust, $has_explosives", "logictype_g, $hfpTop, bbust, $billDrill", "logictype_g, $hfpTop, bbust, humbaih, @Pine Grove, grat", "logictype_g, $hfpTop, mumbohp, tjump", "logictype_g, $hfpTop, splitup, tjump, $leg_spring, $canShootEggs|feggs", "logictype_g, $hfpTop, splitup, tjump, $leg_spring, $has_explosives", "logictype_g, humbaih, @Pine Grove, grat, $canDoSmallElevation, $canShootEggs|feggs", "logictype_g, humbaih, @Pine Grove, grat, $canDoSmallElevation, $has_explosives", "logictype_g, humbaih, @Pine Grove, grat, $canDoSmallElevation, $billDrill", "logictype_g, $canDoSmallElevation, humbaih, @Pine Grove, grat", "logictype_g, humbaih, @Pine Grove, grat, bbust, $canShootEggs|feggs", "logictype_g, humbaih, @Pine Grove, grat, bbust, $has_explosives", "logictype_g, humbaih, @Pine Grove, grat, bbust, $billDrill", "logictype_g, bbust, humbaih, @Pine Grove, grat", "logictype_g, humbaih, @Pine Grove, grat, mumbohp, tjump", "logictype_g, humbaih, @Pine Grove, grat, splitup, tjump, $leg_spring, $canShootEggs|feggs", "logictype_g, humbaih, @Pine Grove, grat, splitup, tjump, $leg_spring, $has_explosives", "logictype_g, trainswhp1, @Inside Chuffy, $canDoSmallElevation, $canShootEggs|feggs", "logictype_g, trainswhp1, @Inside Chuffy, $canDoSmallElevation, $has_explosives", "logictype_g, $hfpTop, $clockwork_shot", "logictype_g, trainswhp1, @Inside Chuffy, $canDoSmallElevation, $billDrill", "logictype_g, trainswhp1, @Inside Chuffy, $canDoSmallElevation, humbaih, @Pine Grove, grat", "logictype_g, trainswhp1, @Inside Chuffy, bbust, $canShootEggs|feggs", "logictype_g, trainswhp1, @Inside Chuffy, bbust, $has_explosives", "logictype_g, trainswhp1, @Inside Chuffy, bbust, $billDrill", "logictype_g, trainswhp1, @Inside Chuffy, bbust, humbaih, @Pine Grove, grat", "logictype_g, trainswhp1, @Inside Chuffy, mumbohp, tjump", "logictype_g, trainswhp1, @Inside Chuffy, splitup, tjump, $leg_spring, $canShootEggs|feggs", "logictype_g, trainswhp1, @Inside Chuffy, splitup, tjump, $leg_spring, $has_explosives", "logictype_g, trainswhp1, @Inside Chuffy, $clockwork_shot"
-            ]
+            "access_rules": ["$jinjo_mildred"]
           }
         ],
         "map_locations": [
@@ -16228,10 +16168,10 @@
             "chest_unopened_img": "/images/locations/jinjo.png",
             "chest_opened_img": "/images/locations/jinjo2.png",
             "access_rules": [
-              "logictype_b, humbahp, $hfpTop", "logictype_b, humbahp, trainswhp1, @Inside Chuffy",
-              "logictype_n, humbahp, $hfpTop", "logictype_n, humbahp, humbaih, @Pine Grove, grat", "logictype_n, humbahp, trainswhp1, @Inside Chuffy",
-              "logictype_a, humbahp, $hfpTop", "logictype_a, humbahp, humbaih, @Pine Grove, grat", "logictype_a, humbahp, trainswhp1, @Inside Chuffy", "logictype_a, $clockwork_shot",
-              "logictype_g, humbahp, $hfpTop", "logictype_g, humbahp, humbaih, @Pine Grove, grat", "logictype_g, humbahp, trainswhp1, @Inside Chuffy", "logictype_g, $clockwork_shot"
+              "logictype_b, humbahp, $hfpTop",
+              "logictype_n, humbahp, $hfpTop",
+              "logictype_a, humbahp, $hfpTop", "logictype_a, $clockwork_shot",
+              "logictype_g, humbahp, $hfpTop", "logictype_g, $clockwork_shot"
             ]
           }
         ],
@@ -16249,7 +16189,7 @@
           {
             "name": "Silo",
             "access_rules": [
-              "logictype_b, $hfpTop, geggs, eggaim, $springPad, ttrot, $glide_count", "logictype_b, $hfpTop, geggs, eggaim, $springPad, splitup, $glide_count", "logictype_b, trainswhp1, @Inside Chuffy, geggs, eggaim, $springPad, ttrot, $glide_count", "logictype_b, trainswhp1, @Inside Chuffy, geggs, eggaim, $springPad, splitup, $glide_count",
+              "logictype_b, $hfpTop, geggs, eggaim, $springPad, ttrot, $glide_count", "logictype_b, $hfpTop, geggs, eggaim, $springPad, splitup, $glide_count",
               "logictype_n, splitup, tjump, $glide_count", "logictype_n, $wing_whack, $glide_count", "logictype_n, $glide, $glide_count", "logictype_n, $leg_spring, $glide_count",
               "logictype_a, splitup, tjump, $glide_count", "logictype_a, $wing_whack, $glide_count", "logictype_a, $glide, $glide_count", "logictype_a, $leg_spring, $glide_count",
               "logictype_g, splitup, tjump, $glide_count", "logictype_g, $wing_whack, $glide_count", "logictype_g, $glide, $glide_count", "logictype_g, $leg_spring, $glide_count"
@@ -16272,7 +16212,7 @@
             "chest_unopened_img": "/images/locations/page.png",
             "chest_opened_img": "/images/locations/page2.png",
             "access_rules": [
-              "logictype_b, $hfpTop, geggs, eggaim, $springPad, splitup, $glide", "logictype_b, trainswhp1, @Inside Chuffy, geggs, eggaim, $springPad, splitup, $glide", "logictype_b, $leg_spring",
+              "logictype_b, $hfpTop, geggs, eggaim, $springPad, splitup, $glide", "logictype_b, $leg_spring",
               "logictype_n, splitup, tjump, $wing_whack", "logictype_n, splitup, tjump, glide", "logictype_n, $leg_spring",
               "logictype_a, splitup, tjump, $wing_whack", "logictype_a, splitup, tjump, glide", "logictype_a, $leg_spring", "logictype_a, $canShootEggs|geggs, $clockwork_shot, $canDoSmallElevation, $springPad, ttrot",
               "logictype_g, splitup, tjump, $wing_whack", "logictype_g, splitup, tjump, glide", "logictype_g, $leg_spring", "logictype_g, $canShootEggs|geggs, $clockwork_shot, $canDoSmallElevation, $springPad, ttrot"
@@ -16294,12 +16234,7 @@
             "name": "Glowbo",
             "chest_unopened_img": "/images/locations/glowbo.png",
             "chest_opened_img": "/images/locations/glowbo2.png",
-            "access_rules": [ 
-              "$hfpTop", "trainswhp1, @Inside Chuffy",
-              "logictype_n, humbaih, @Pine Grove, grat",
-              "logictype_a, humbaih, @Pine Grove, grat",
-              "logictype_g, humbaih, @Pine Grove, grat"
-            ]
+            "access_rules": ["$hfpTop"]
           }
         ],
         "map_locations": [
@@ -16333,12 +16268,7 @@
             "name": "Jiggy",
             "chest_unopened_img": "/images/locations/jiggy.png",
             "chest_opened_img": "/images/locations/jiggy2.png",
-            "access_rules": [
-              "logictype_b, mumbohp, $canShootEggs|feggs, $taxi_pack, tjump, $hfpTop", "logictype_b, mumbohp, $canShootEggs|feggs, $taxi_pack, tjump, trainswhp1, @Inside Chuffy",
-              "logictype_n, mumbohp, $canShootEggs|feggs, $taxi_pack, tjump, $hfpTop", "logictype_n, mumbohp, humbaih, @Pine Grove, grat, $taxi_pack, tjump, $hfpTop", "logictype_n, mumbohp, $canShootEggs|feggs, $taxi_pack, tjump, humbaih, @Pine Grove, grat", "logictype_n, mumbohp, humbaih, @Pine Grove, grat, $taxi_pack, tjump", "logictype_n, mumbohp, $canShootEggs|feggs, $taxi_pack, tjump, trainswhp1, @Inside Chuffy", "logictype_n, mumbohp, humbaih, @Pine Grove, grat, $taxi_pack, tjump, trainswhp1, @Inside Chuffy",
-              "logictype_a, mumbohp, $canShootEggs|feggs, $taxi_pack, tjump, $hfpTop", "logictype_a, mumbohp, humbaih, @Pine Grove, grat, $taxi_pack, tjump, $hfpTop", "logictype_a, mumbohp, $canShootEggs|feggs, $taxi_pack, tjump, humbaih, @Pine Grove, grat", "logictype_a, mumbohp, humbaih, @Pine Grove, grat, $taxi_pack, tjump", "logictype_a, mumbohp, $canShootEggs|feggs, $taxi_pack, tjump, trainswhp1, @Inside Chuffy", "logictype_a, mumbohp, humbaih, @Pine Grove, grat, $taxi_pack, tjump, trainswhp1, @Inside Chuffy",
-              "logictype_g, mumbohp, $canShootEggs|feggs, $taxi_pack, tjump, $hfpTop", "logictype_g, mumbohp, humbaih, @Pine Grove, grat, $taxi_pack, tjump, $hfpTop", "logictype_g, mumbohp, $canShootEggs|feggs, $taxi_pack, tjump, humbaih, @Pine Grove, grat", "logictype_g, mumbohp, humbaih, @Pine Grove, grat, $taxi_pack, tjump", "logictype_g, mumbohp, $canShootEggs|feggs, $taxi_pack, tjump, trainswhp1, @Inside Chuffy", "logictype_g, mumbohp, humbaih, @Pine Grove, grat, $taxi_pack, tjump, trainswhp1, @Inside Chuffy"
-            ]
+            "access_rules": ["$jiggy_sabreman"]
           }
         ],
         "map_locations": [
@@ -16357,10 +16287,10 @@
             "chest_unopened_img": "/images/locations/jiggy.png",
             "chest_opened_img": "/images/locations/jiggy2.png",
             "access_rules": [
-              "logictype_b, $hfpTop, $shack_pack, $canDoSmallElevation", "logictype_b, trainswhp1, @Inside Chuffy, $shack_pack, $canDoSmallElevation",
-              "logictype_n, $hfpTop, $shack_pack, $canDoSmallElevation", "logictype_n, humbaih, @Pine Grove, grat, $shack_pack, $canDoSmallElevation", "logictype_n, trainswhp1, @Inside Chuffy, $shack_pack, $canDoSmallElevation",
-              "logictype_a, $hfpTop, $shack_pack, $canDoSmallElevation", "logictype_a, humbaih, @Pine Grove, grat, $shack_pack, $canDoSmallElevation", "logictype_a, trainswhp1, @Inside Chuffy, $shack_pack, $canDoSmallElevation",
-              "logictype_g, $hfpTop, $shack_pack", "logictype_g, $hfpTop, ceggs, eggshoot, ttrot", "logictype_g, $hfpTop, ceggs, eggshoot, fflip", "logictype_g, $hfpTop, ceggs, eggshoot, dive", "logictype_g, $hfpTop, ceggs, eggshoot, tjump", "logictype_g, $hfpTop, $leg_spring", "logictype_g, humbaih, @Pine Grove, grat, $shack_pack", "logictype_g, humbaih, @Pine Grove, grat, ceggs, eggshoot, ttrot", "logictype_g, humbaih, @Pine Grove, grat, ceggs, eggshoot, fflip", "logictype_g, humbaih, @Pine Grove, grat, ceggs, eggshoot, dive", "logictype_g, humbaih, @Pine Grove, grat, ceggs, eggshoot, tjump", "logictype_g, humbaih, @Pine Grove, grat, $leg_spring", "logictype_g, trainswhp1, @Inside Chuffy, $shack_pack", "logictype_g, trainswhp1, @Inside Chuffy, ceggs, eggshoot, ttrot", "logictype_g, trainswhp1, @Inside Chuffy, ceggs, eggshoot, fflip", "logictype_g, trainswhp1, @Inside Chuffy, ceggs, eggshoot, dive", "logictype_g, trainswhp1, @Inside Chuffy, ceggs, eggshoot, tjump", "logictype_g, trainswhp1, @Inside Chuffy, $leg_spring"
+              "logictype_b, $hfpTop, $shack_pack, $canDoSmallElevation",
+              "logictype_n, $hfpTop, $shack_pack, $canDoSmallElevation",
+              "logictype_a, $hfpTop, $shack_pack, $canDoSmallElevation",
+              "logictype_g, $hfpTop, $shack_pack", "logictype_g, $hfpTop, ceggs, eggshoot, ttrot", "logictype_g, $hfpTop, ceggs, eggshoot, fflip", "logictype_g, $hfpTop, ceggs, eggshoot, dive", "logictype_g, $hfpTop, ceggs, eggshoot, tjump", "logictype_g, $hfpTop, $leg_spring"
             ]
           }
         ],
@@ -16426,12 +16356,7 @@
             "name": "Jiggy",
             "chest_unopened_img": "/images/locations/jiggy.png",
             "chest_opened_img": "/images/locations/jiggy2.png",
-            "access_rules": [
-              "logictype_b, humbahp, $hfpTop, $shack_pack, ggrab", "logictype_b, humbahp, trainswhp1, @Inside Chuffy, $shack_pack, ggrab",
-              "logictype_n, humbahp, $hfpTop, $shack_pack, $pack_whack, tjump", "logictype_n, humbahp, $hfpTop, $shack_pack, ggrab", "logictype_n, humbahp, humbaih, @Pine Grove, grat, $shack_pack, $pack_whack, tjump", "logictype_n, humbahp, humbaih, @Pine Grove, grat, $shack_pack, ggrab", "logictype_n, humbahp, trainswhp1, @Inside Chuffy, $shack_pack, $pack_whack, tjump", "logictype_n, humbahp, trainswhp1, @Inside Chuffy, $shack_pack, ggrab",
-              "logictype_a, humbahp, $hfpTop, $shack_pack, $pack_whack, tjump", "logictype_a, humbahp, $hfpTop, $shack_pack, ggrab", "logictype_a, humbahp, humbaih, @Pine Grove, grat, $shack_pack, $pack_whack, tjump", "logictype_a, humbahp, humbaih, @Pine Grove, grat, $shack_pack, ggrab", "logictype_a, humbahp, trainswhp1, @Inside Chuffy, $shack_pack, $pack_whack, tjump", "logictype_a, humbahp, trainswhp1, @Inside Chuffy, $shack_pack, ggrab",
-              "logictype_g, humbahp, $hfpTop, $shack_pack, $pack_whack", "logictype_g, humbahp, $hfpTop, $shack_pack, ggrab", "logictype_g, humbahp, humbaih, @Pine Grove, grat, $shack_pack, $pack_whack", "logictype_g, humbahp, humbaih, @Pine Grove, grat, $shack_pack, ggrab", "logictype_g, humbahp, trainswhp1, @Inside Chuffy, $shack_pack, $pack_whack", "logictype_g, humbahp, trainswhp1, @Inside Chuffy, $shack_pack, ggrab"
-            ]
+            "access_rules": ["$jiggy_oil_drill"]
           }
         ],
         "map_locations": [
@@ -16538,12 +16463,7 @@
         "name": "Lower Icy Side Warp Pad Notes",
         "chest_unopened_img": "/images/locations/note.png",
         "chest_opened_img": "/images/locations/note2.png",
-        "access_rules": [
-          "logictype_b, $hfpTop, $iceCube", "logictype_b, trainswhp1, @Inside Chuffy, $iceCube",
-          "logictype_n, $hfpTop, $iceCube", "logictype_n, humbaih, @Pine Grove, grat, $iceCube", "logictype_n, trainswhp1, @Inside Chuffy, $iceCube", "logictype_n, $hfpTop, splitup, $iceCubeKazooie", "logictype_n, humbaih, @Pine Grove, grat, splitup, $iceCubeKazooie", "logictype_n, trainswhp1, @Inside Chuffy, splitup, $iceCubeKazooie", "logictype_n, $hfpTop, mumbohp", "logictype_n, humbaih, @Pine Grove, grat, mumbohp", "logictype_n, trainswhp1, @Inside Chuffy, mumbohp", "logictype_n, $hfpTop, $pack_whack", "logictype_n, humbaih, @Pine Grove, grat, $pack_whack", "logictype_n, trainswhp1, @Inside Chuffy, $pack_whack", "logictype_n, humbahp, $hfpTop", "logictype_n, humbahp, humbaih, @Pine Grove, grat", "logictype_n, trainswhp1, @Inside Chuffy, humbahp",
-          "logictype_a, $hfpTop, $iceCube", "logictype_a, humbaih, @Pine Grove, grat, $iceCube", "logictype_a, trainswhp1, @Inside Chuffy, $iceCube", "logictype_a, $hfpTop, splitup, $iceCubeKazooie", "logictype_a, humbaih, @Pine Grove, grat, splitup, $iceCubeKazooie", "logictype_a, trainswhp1, @Inside Chuffy, splitup, $iceCubeKazooie", "logictype_a, $hfpTop, mumbohp", "logictype_a, humbaih, @Pine Grove, grat, mumbohp", "logictype_a, trainswhp1, @Inside Chuffy, mumbohp", "logictype_a, $hfpTop, $pack_whack", "logictype_a, humbaih, @Pine Grove, grat, $pack_whack", "logictype_a, trainswhp1, @Inside Chuffy, $pack_whack", "logictype_a, $hfpTop, humbahp", "logictype_a, humbaih, @Pine Grove, grat, humbahp", "logictype_a, trainswhp1, @Inside Chuffy, humbahp",
-          "logictype_g, $hfpTop, $iceCube", "logictype_g, humbaih, @Pine Grove, grat, $iceCube", "logictype_g, trainswhp1, @Inside Chuffy, $iceCube", "logictype_g, $hfpTop, splitup, $iceCubeKazooie", "logictype_g, humbaih, @Pine Grove, grat, splitup, $iceCubeKazooie", "logictype_g, trainswhp1, @Inside Chuffy, splitup, $iceCubeKazooie", "logictype_g, $hfpTop, mumbohp", "logictype_g, humbaih, @Pine Grove, grat, mumbohp", "logictype_g, trainswhp1, @Inside Chuffy, mumbohp", "logictype_g, $hfpTop, $pack_whack", "logictype_g, humbaih, @Pine Grove, grat, $pack_whack", "logictype_g, trainswhp1, @Inside Chuffy, $pack_whack", "logictype_g, $hfpTop, humbahp", "logictype_g, humbaih, @Pine Grove, grat, humbahp", "logictype_g, trainswhp1, @Inside Chuffy, humbahp"
-        ],
+        "access_rules": ["$notes_lower_icy_side"],
         "sections": [
           {
             "name": "Note 1"
@@ -16564,12 +16484,7 @@
         "name": "Boggy's Igloo Notes",
         "chest_unopened_img": "/images/locations/note.png",
         "chest_opened_img": "/images/locations/note2.png",
-        "access_rules": [
-              "logictype_b, $iceCube, $hfpTop, $canDoSmallElevation", "logictype_b, $iceCube, trainswhp1, @Inside Chuffy, $canDoSmallElevation",
-              "logictype_n, $hfpTop, $iceCube, $canDoSmallElevation", "logictype_n, $hfpTop, $iceCube, bbust", "logictype_n, $hfpTop, $leg_spring, $iceCubeKazooie", "logictype_n, $hfpTop, splitup, tjump, $iceCubeKazooie", "logictype_n, $hfpTop, tjump, mumbohp", "logictype_n, $hfpTop, $pack_whack", "logictype_n, $hfpTop, humbahp", "logictype_n, humbaih, @Pine Grove, grat, $iceCube, $canDoSmallElevation", "logictype_n, humbaih, @Pine Grove, grat, $iceCube, bbust", "logictype_n, humbaih, @Pine Grove, grat, $leg_spring, $iceCubeKazooie", "logictype_n, humbaih, @Pine Grove, grat, splitup, tjump, $iceCubeKazooie", "logictype_n, humbaih, @Pine Grove, grat, tjump, mumbohp", "logictype_n, humbaih, @Pine Grove, grat, $pack_whack", "logictype_n, humbaih, @Pine Grove, grat, humbahp", "logictype_n, trainswhp1, @Inside Chuffy, $iceCube, $canDoSmallElevation", "logictype_n, trainswhp1, @Inside Chuffy, $iceCube, bbust", "logictype_n, trainswhp1, @Inside Chuffy, $leg_spring, $iceCubeKazooie", "logictype_n, trainswhp1, @Inside Chuffy, splitup, tjump, $iceCubeKazooie", "logictype_n, trainswhp1, @Inside Chuffy, tjump, mumbohp", "logictype_n, trainswhp1, @Inside Chuffy, $pack_whack", "logictype_n, trainswhp1, @Inside Chuffy, humbahp",
-              "logictype_a, $hfpTop, $iceCube, $canDoSmallElevation", "logictype_a, $hfpTop, $iceCube, bbust", "logictype_a, $hfpTop, $leg_spring, $iceCubeKazooie", "logictype_a, $hfpTop, splitup, tjump, $iceCubeKazooie", "logictype_a, $hfpTop, tjump, mumbohp", "logictype_a, $hfpTop, $pack_whack", "logictype_a, $hfpTop, $clockwork_shot", "logictype_a, $hfpTop, humbahp", "logictype_a, humbaih, @Pine Grove, grat, $iceCube, $canDoSmallElevation", "logictype_a, humbaih, @Pine Grove, grat, $iceCube, bbust", "logictype_a, humbaih, @Pine Grove, grat, $leg_spring, $iceCubeKazooie", "logictype_a, humbaih, @Pine Grove, grat, splitup, tjump, $iceCubeKazooie", "logictype_a, humbaih, @Pine Grove, grat, tjump, mumbohp", "logictype_a, humbaih, @Pine Grove, grat, $pack_whack", "logictype_a, humbaih, @Pine Grove, grat, $clockwork_shot", "logictype_a, humbaih, @Pine Grove, grat, humbahp", "logictype_a, trainswhp1, @Inside Chuffy, $iceCube, $canDoSmallElevation", "logictype_a, trainswhp1, @Inside Chuffy, $iceCube, bbust", "logictype_a, trainswhp1, @Inside Chuffy, $leg_spring, $iceCubeKazooie", "logictype_a, trainswhp1, @Inside Chuffy, splitup, tjump, $iceCubeKazooie", "logictype_a, trainswhp1, @Inside Chuffy, tjump, mumbohp", "logictype_a, trainswhp1, @Inside Chuffy, $pack_whack", "logictype_a, trainswhp1, @Inside Chuffy, $clockwork_shot", "logictype_a, trainswhp1, @Inside Chuffy, humbahp",
-              "logictype_g, $hfpTop, $iceCube, $canDoSmallElevation", "logictype_g, $hfpTop, $iceCube, bbust", "logictype_g, $hfpTop, $leg_spring, $iceCubeKazooie", "logictype_g, $hfpTop, splitup, tjump, $iceCubeKazooie", "logictype_g, $hfpTop, tjump, mumbohp", "logictype_g, $hfpTop, $pack_whack", "logictype_g, $hfpTop, $clockwork_shot", "logictype_g, $hfpTop, humbahp", "logictype_g, humbaih, @Pine Grove, grat, $iceCube, $canDoSmallElevation", "logictype_g, humbaih, @Pine Grove, grat, $iceCube, bbust", "logictype_g, humbaih, @Pine Grove, grat, $leg_spring, $iceCubeKazooie", "logictype_g, humbaih, @Pine Grove, grat, splitup, tjump, $iceCubeKazooie", "logictype_g, humbaih, @Pine Grove, grat, tjump, mumbohp", "logictype_g, humbaih, @Pine Grove, grat, $pack_whack", "logictype_g, humbaih, @Pine Grove, grat, $clockwork_shot", "logictype_g, humbaih, @Pine Grove, grat, humbahp", "logictype_g, trainswhp1, @Inside Chuffy, $iceCube, $canDoSmallElevation", "logictype_g, trainswhp1, @Inside Chuffy, $iceCube, bbust", "logictype_g, trainswhp1, @Inside Chuffy, $leg_spring, $iceCubeKazooie", "logictype_g, trainswhp1, @Inside Chuffy, splitup, tjump, $iceCubeKazooie", "logictype_g, trainswhp1, @Inside Chuffy, tjump, mumbohp", "logictype_g, trainswhp1, @Inside Chuffy, $pack_whack", "logictype_g, trainswhp1, @Inside Chuffy, $clockwork_shot", "logictype_g, trainswhp1, @Inside Chuffy, humbahp"
-            ],
+        "access_rules": ["$notes_boggy"],
         "sections": [
           {
             "name": "Note 1"
@@ -16590,12 +16505,7 @@
         "name": "Oil Drill Notes",
         "chest_unopened_img": "/images/locations/note.png",
         "chest_opened_img": "/images/locations/note2.png",
-        "access_rules": [
-          "logictype_b, $hfpTop, fflip, $iceCube", "logictype_b, $hfpTop, ttrot, $iceCube", "logictype_b, $hfpTop, splitup, ggrab, $pack_whack", "logictype_b, $hfpTop, splitup, $iceCubeKazooie", "logictype_b, trainswhp1, @Inside Chuffy, fflip, $iceCube", "logictype_b, trainswhp1, @Inside Chuffy, ttrot, $iceCube", "logictype_b, trainswhp1, @Inside Chuffy, splitup, ggrab, $pack_whack", "logictype_b, trainswhp1, @Inside Chuffy, splitup, $iceCubeKazooie",
-          "logictype_n, $hfpTop, fflip, $iceCube", "logictype_n, $hfpTop, ttrot, $iceCube", "logictype_n, $hfpTop, fpad, $iceCube", "logictype_n, $hfpTop, splitup, ggrab, $pack_whack", "logictype_n, $hfpTop, splitup, $iceCubeKazooie", "logictype_n, humbaih, @Pine Grove, grat, fflip, $iceCube", "logictype_n, humbaih, @Pine Grove, grat, ttrot, $iceCube", "logictype_n, humbaih, @Pine Grove, grat, fpad, $iceCube", "logictype_n, humbaih, @Pine Grove, grat, splitup, ggrab, $pack_whack", "logictype_n, humbaih, @Pine Grove, grat, splitup, $iceCubeKazooie", "logictype_n, trainswhp1, @Inside Chuffy, fflip, $iceCube", "logictype_n, trainswhp1, @Inside Chuffy, ttrot, $iceCube", "logictype_n, trainswhp1, @Inside Chuffy, fpad, $iceCube", "logictype_n, trainswhp1, @Inside Chuffy, splitup, ggrab, $pack_whack", "logictype_n, trainswhp1, @Inside Chuffy, splitup, $iceCubeKazooie", "logictype_n, humbahp, $hfpTop", "logictype_n, humbahp, humbaih, @Pine Grove, grat", "logictype_n, humbahp, trainswhp1, @Inside Chuffy",
-          "logictype_a, $hfpTop, fflip, $iceCube", "logictype_a, $hfpTop, ttrot, $iceCube", "logictype_a, $hfpTop, fpad, $iceCube", "logictype_a, $hfpTop, splitup, ggrab, $pack_whack", "logictype_a, $hfpTop, splitup, $iceCubeKazooie", "logictype_a, humbaih, @Pine Grove, grat, fflip, $iceCube", "logictype_a, humbaih, @Pine Grove, grat, ttrot, $iceCube", "logictype_a, humbaih, @Pine Grove, grat, fpad, $iceCube", "logictype_a, humbaih, @Pine Grove, grat, splitup, ggrab, $pack_whack", "logictype_a, humbaih, @Pine Grove, grat, splitup, $iceCubeKazooie", "logictype_a, trainswhp1, @Inside Chuffy, fflip, $iceCube", "logictype_a, trainswhp1, @Inside Chuffy, ttrot, $iceCube", "logictype_a, trainswhp1, @Inside Chuffy, fpad, $iceCube", "logictype_a, trainswhp1, @Inside Chuffy, splitup, ggrab, $pack_whack", "logictype_a, trainswhp1, @Inside Chuffy, splitup, $iceCubeKazooie", "logictype_a, humbahp, $hfpTop", "logictype_a, humbahp, humbaih, @Pine Grove, grat", "logictype_a, humbahp, trainswhp1, @Inside Chuffy", "logictype_a, $hfpTop, $clockwork_shot", "logictype_a, humbaih, @Pine Grove, grat, $clockwork_shot", "logictype_a, trainswhp1, @Inside Chuffy, $clockwork_shot",
-          "logictype_g, $hfpTop, fflip, $iceCube", "logictype_g, $hfpTop, ttrot, $iceCube", "logictype_g, $hfpTop, fpad, $iceCube", "logictype_g, $hfpTop, splitup, ggrab, $pack_whack", "logictype_g, $hfpTop, splitup, $iceCubeKazooie", "logictype_g, humbaih, @Pine Grove, grat, fflip, $iceCube", "logictype_g, humbaih, @Pine Grove, grat, ttrot, $iceCube", "logictype_g, humbaih, @Pine Grove, grat, fpad, $iceCube", "logictype_g, humbaih, @Pine Grove, grat, splitup, ggrab, $pack_whack", "logictype_g, humbaih, @Pine Grove, grat, splitup, $iceCubeKazooie", "logictype_g, trainswhp1, @Inside Chuffy, fflip, $iceCube", "logictype_g, trainswhp1, @Inside Chuffy, ttrot, $iceCube", "logictype_g, trainswhp1, @Inside Chuffy, fpad, $iceCube", "logictype_g, trainswhp1, @Inside Chuffy, splitup, ggrab, $pack_whack", "logictype_g, trainswhp1, @Inside Chuffy, splitup, $iceCubeKazooie", "logictype_g, humbahp, $hfpTop", "logictype_g, humbahp, humbaih, @Pine Grove, grat", "logictype_g, humbahp, trainswhp1, @Inside Chuffy", "logictype_g, $hfpTop, $clockwork_shot", "logictype_g, humbaih, @Pine Grove, grat, $clockwork_shot", "logictype_g, trainswhp1, @Inside Chuffy, $clockwork_shot"
-        ],
+        "access_rules": ["$notes_oil_drill"],
         "sections": [
           {
             "name": "Note 1"
@@ -16616,12 +16526,7 @@
         "name": "Upper Icy Side Warp Pad Notes",
         "chest_unopened_img": "/images/locations/note.png",
         "chest_opened_img": "/images/locations/note2.png",
-        "access_rules": [
-          "logictype_b, $hfpTop, $iceCube", "logictype_b, trainswhp1, @Inside Chuffy, $iceCube",
-          "logictype_n, $hfpTop, $iceCube", "logictype_n, humbaih, @Pine Grove, grat, $iceCube", "logictype_n, trainswhp1, @Inside Chuffy, $iceCube", "logictype_n, $hfpTop, splitup, $iceCubeKazooie", "logictype_n, humbaih, @Pine Grove, grat, splitup, $iceCubeKazooie", "logictype_n, trainswhp1, @Inside Chuffy, splitup, $iceCubeKazooie", "logictype_n, $hfpTop, mumbohp", "logictype_n, humbaih, @Pine Grove, grat, mumbohp", "logictype_n, trainswhp1, @Inside Chuffy, mumbohp", "logictype_n, $hfpTop, $pack_whack", "logictype_n, humbaih, @Pine Grove, grat, $pack_whack", "logictype_n, trainswhp1, @Inside Chuffy, $pack_whack", "logictype_n, $hfpTop, humbahp", "logictype_n, humbaih, @Pine Grove, grat, humbahp", "logictype_n, trainswhp1, @Inside Chuffy, humbahp",
-          "logictype_a, $hfpTop, $iceCube", "logictype_a, humbaih, @Pine Grove, grat, $iceCube", "logictype_a, trainswhp1, @Inside Chuffy, $iceCube", "logictype_a, $hfpTop, splitup, $iceCubeKazooie", "logictype_a, humbaih, @Pine Grove, grat, splitup, $iceCubeKazooie", "logictype_a, trainswhp1, @Inside Chuffy, splitup, $iceCubeKazooie", "logictype_a, $hfpTop, mumbohp", "logictype_a, humbaih, @Pine Grove, grat, mumbohp", "logictype_a, trainswhp1, @Inside Chuffy, mumbohp", "logictype_a, $hfpTop, $pack_whack", "logictype_a, humbaih, @Pine Grove, grat, $pack_whack", "logictype_a, trainswhp1, @Inside Chuffy, $pack_whack", "logictype_a, $hfpTop, humbahp", "logictype_a, humbaih, @Pine Grove, grat, humbahp", "logictype_a, trainswhp1, @Inside Chuffy, humbahp",
-          "logictype_g, $hfpTop, $iceCube", "logictype_g, humbaih, @Pine Grove, grat, $iceCube", "logictype_g, trainswhp1, @Inside Chuffy, $iceCube", "logictype_g, $hfpTop, splitup, $iceCubeKazooie", "logictype_g, humbaih, @Pine Grove, grat, splitup, $iceCubeKazooie", "logictype_g, trainswhp1, @Inside Chuffy, splitup, $iceCubeKazooie", "logictype_g, $hfpTop, mumbohp", "logictype_g, humbaih, @Pine Grove, grat, mumbohp", "logictype_g, trainswhp1, @Inside Chuffy, mumbohp", "logictype_g, $hfpTop, $pack_whack", "logictype_g, humbaih, @Pine Grove, grat, $pack_whack", "logictype_g, trainswhp1, @Inside Chuffy, $pack_whack", "logictype_g, $hfpTop, humbahp", "logictype_g, humbaih, @Pine Grove, grat, humbahp", "logictype_g, trainswhp1, @Inside Chuffy, humbahp"
-        ],
+        "access_rules": ["$notes_upper_icy_side"],
         "sections": [
           {
             "name": "Note 1"
@@ -16666,10 +16571,7 @@
         "chest_opened_img": "/images/locations/feathernest2.png",
         "visibility_rules": ["nestsanity_on"],
         "access_rules": [
-          "$hfpTop", "trainswhp1, @Inside Chuffy",
-          "logictype_n, humbaih, @Pine Grove, grat",
-          "logictype_a, humbaih, @Pine Grove, grat",
-          "logictype_g, humbaih, @Pine Grove, grat"
+          "$hfpTop"
         ],
         "sections": [
           {
@@ -16783,12 +16685,7 @@
         "name": "HFP: Treble Clef",
         "chest_unopened_img": "/images/locations/treble.png",
         "chest_opened_img": "/images/locations/treble2.png",
-        "access_rules": [
-          "logictype_b, $hfpTop, geggs, eggaim, $springPad, ttrot", "logictype_b, trainswhp1, @Inside Chuffy, geggs, eggaim, $springPad, ttrot", "logictype_b, $hfpTop, geggs, eggaim, $springPad, splitup", "logictype_b, trainswhp1, @Inside Chuffy, geggs, eggaim, $springPad, splitup",
-          "logictype_n, splitup, $iceCubeKazooie, tjump", "logictype_n, splitup, $iceCubeKazooie, $wing_whack", "logictype_n, splitup, $iceCubeKazooie, glide", "logictype_n, splitup, $iceCubeKazooie, $leg_spring", "logictype_n, $hfpTop, geggs, eggaim, $springPad, $veryLongJump", "logictype_n, humbaih, @Pine Grove, grat, geggs, eggaim, $springPad, $veryLongJump", "logictype_n, trainswhp1, @Inside Chuffy, geggs, eggaim, $springPad, $veryLongJump",
-          "logictype_a, splitup, $iceCubeKazooie, tjump", "logictype_a, splitup, $iceCubeKazooie, $wing_whack", "logictype_a, splitup, $iceCubeKazooie, glide", "logictype_a, splitup, $iceCubeKazooie, $leg_spring", "logictype_a, $hfpTop, geggs, $veryLongJump, eggaim, $springPad", "logictype_a, humbaih, @Pine Grove, grat, geggs, $veryLongJump, eggaim, $springPad", "logictype_a, trainswhp1, @Inside Chuffy, geggs, $veryLongJump, eggaim, $springPad", "logictype_a, $hfpTop, $clockwork_shot, eggaim, $springPad", "logictype_a, humbaih, @Pine Grove, grat, $clockwork_shot, eggaim, $springPad", "logictype_a, trainswhp1, @Inside Chuffy, $clockwork_shot, eggaim, $springPad", "logictype_a, $extremelyLongJump, $clockwork_shot",
-          "logictype_g, splitup, $iceCubeKazooie, tjump", "logictype_g, splitup, $iceCubeKazooie, $wing_whack", "logictype_g, splitup, $iceCubeKazooie, glide", "logictype_g, splitup, $iceCubeKazooie, $leg_spring", "logictype_g, $hfpTop, geggs, $veryLongJump, eggaim, $springPad", "logictype_g, humbaih, @Pine Grove, grat, geggs, $veryLongJump, eggaim, $springPad", "logictype_g, trainswhp1, @Inside Chuffy, geggs, $veryLongJump, eggaim, $springPad", "logictype_g, $hfpTop, $clockwork_shot, eggaim, $springPad", "logictype_g, humbaih, @Pine Grove, grat, $clockwork_shot, eggaim, $springPad", "logictype_g, trainswhp1, @Inside Chuffy, $clockwork_shot, eggaim, $springPad", "logictype_g, $extremelyLongJump, $clockwork_shot"
-        ],
+        "access_rules": ["$treble_hfp"],
         "sections": [
           {
             "name": "Treble Clef"
@@ -16806,10 +16703,7 @@
         "name": "HFP: Icicle Grotto Cheato Page",
         "chest_unopened_img": "/images/locations/page.png",
         "chest_opened_img": "/images/locations/page2.png",
-        "access_rules": [
-          "$cheato_icicle_grotto",
-          "logictype_g, trainswhp1, @Inside Chuffy, $cheato_icicle_grotto_chuffy"
-        ],
+        "access_rules": ["$cheato_icicle_grotto"],
         "sections": [
           {
             "name": "Cheato Page"
@@ -16876,12 +16770,7 @@
         "chest_unopened_img": "/images/locations/eggnest.png",
         "chest_opened_img": "/images/locations/eggnest2.png",
         "visibility_rules": ["nestsanity_on"],
-        "access_rules": [
-          "logictype_b, $hfpTop, $springPad, ttrot, $iceCube", "logictype_b, $hfpTop, $springPad, splitup, $iceCubeKazooie", "logictype_b, trainswhp1, @Inside Chuffy, $springPad, ttrot, $iceCube", "logictype_b, trainswhp1, @Inside Chuffy, $springPad, splitup, $iceCubeKazooie",
-          "logictype_n, splitup, $iceCubeKazooie, tjump", "logictype_n, splitup, $iceCubeKazooie, $wing_whack", "logictype_n, splitup, $iceCubeKazooie, $glide", "logictype_n, splitup, $iceCubeKazooie, $leg_spring", "logictype_n, $hfpTop, $springPad, ttrot, $iceCube", "logictype_n, humbaih, @Pine Grove, grat, $springPad, ttrot, $iceCube", "logictype_n, trainswhp1, @Inside Chuffy, $springPad, ttrot, $iceCube",
-          "logictype_a, splitup, $iceCubeKazooie, tjump", "logictype_a, splitup, $iceCubeKazooie, $wing_whack", "logictype_a, splitup, $iceCubeKazooie, $glide", "logictype_a, splitup, $iceCubeKazooie, $leg_spring", "logictype_a, $hfpTop, $springPad, ttrot, $iceCube", "logictype_a, humbaih, @Pine Grove, grat, $springPad, ttrot, $iceCube", "logictype_a, trainswhp1, @Inside Chuffy, $springPad, ttrot, $iceCube", "logictype_a, $extremelyLongJump, $clockwork_shot",
-          "logictype_g, splitup, $iceCubeKazooie, tjump", "logictype_g, splitup, $iceCubeKazooie, $wing_whack", "logictype_g, splitup, $iceCubeKazooie, $glide", "logictype_g, splitup, $iceCubeKazooie, $leg_spring", "logictype_g, $hfpTop, $springPad, ttrot, $iceCube", "logictype_g, humbaih, @Pine Grove, grat, $springPad, ttrot, $iceCube", "logictype_g, trainswhp1, @Inside Chuffy, $springPad, ttrot, $iceCube", "logictype_g, $extremelyLongJump, $clockwork_shot"
-        ],
+        "access_rules": ["$nest_hfp_spring_pad"],
         "sections": [
           {
             "name": "Egg Nest"
@@ -16900,12 +16789,7 @@
         "chest_unopened_img": "/images/locations/eggnest.png",
         "chest_opened_img": "/images/locations/eggnest2.png",
         "visibility_rules": ["nestsanity_on"],
-        "access_rules": [
-          "logictype_b, splitup, $iceCubeKazooie, tjump, $wing_whack", "logictype_b, splitup, $iceCubeKazooie, tjump, glide", "logictype_b, splitup, $iceCubeKazooie, $leg_spring", "logictype_b, $hfpTop, geggs, eggaim, $springPad, $veryLongJump", "logictype_b, trainswhp1, @Inside Chuffy, geggs, eggaim, $springPad, $veryLongJump",
-          "logictype_n, splitup, $iceCubeKazooie, tjump", "logictype_n, splitup, $iceCubeKazooie, $wing_whack", "logictype_n, splitup, $iceCubeKazooie, glide", "logictype_n, splitup, $iceCubeKazooie, $leg_spring", "logictype_n, $hfpTop, geggs, eggaim, $springPad, $veryLongJump", "logictype_n, humbaih, @Pine Grove, grat, geggs, eggaim, $springPad, $veryLongJump", "logictype_n, trainswhp1, @Inside Chuffy, geggs, eggaim, $springPad, $veryLongJump",
-          "logictype_a, splitup, $iceCubeKazooie, tjump", "logictype_a, splitup, $iceCubeKazooie, $wing_whack", "logictype_a, splitup, $iceCubeKazooie, glide", "logictype_a, splitup, $iceCubeKazooie, $leg_spring", "logictype_a, $hfpTop, geggs, $veryLongJump, eggaim, $springPad", "logictype_a, humbaih, @Pine Grove, grat, geggs, $veryLongJump, eggaim, $springPad", "logictype_a, trainswhp1, @Inside Chuffy, geggs, $veryLongJump, eggaim, $springPad", "logictype_a, $hfpTop, $clockwork_shot, eggaim, $springPad", "logictype_a, humbaih, @Pine Grove, grat, $clockwork_shot, eggaim, $springPad", "logictype_a, trainswhp1, @Inside Chuffy, $clockwork_shot, eggaim, $springPad", "logictype_a, $extremelyLongJump, $clockwork_shot",
-          "logictype_g, splitup, $iceCubeKazooie, tjump", "logictype_g, splitup, $iceCubeKazooie, $wing_whack", "logictype_g, splitup, $iceCubeKazooie, glide", "logictype_g, splitup, $iceCubeKazooie, $leg_spring", "logictype_g, $hfpTop, geggs, $veryLongJump, eggaim, $springPad", "logictype_g, humbaih, @Pine Grove, grat, geggs, $veryLongJump, eggaim, $springPad", "logictype_g, trainswhp1, @Inside Chuffy, geggs, $veryLongJump, eggaim, $springPad", "logictype_g, $hfpTop, $clockwork_shot, eggaim, $springPad", "logictype_g, humbaih, @Pine Grove, grat, $clockwork_shot, eggaim, $springPad", "logictype_g, trainswhp1, @Inside Chuffy, $clockwork_shot, eggaim, $springPad", "logictype_g, $extremelyLongJump, $clockwork_shot"
-        ],
+        "access_rules": ["$treble_hfp"],
         "sections": [
           {
             "name": "Egg Nest 1"

@@ -122,12 +122,16 @@ function longJump()
     return has("ttrot") or has("flutter") or has("arat")
 end
 
-function has_fire() -- Needs Pine Grove Access
+function has_fire()
     return canShootEggs("feggs") or dragon_kazooie()
 end
 
-function dragon_kazooie() -- Needs Pine Grove Access
-    return has("humbaih") and has("grat")
+function dragon_kazooie()
+    if Tracker:FindObjectForCode("@Pine Grove").AccessibilityLevel == 6 then
+        return has("humbaih") and has("grat")
+    else
+        return false
+    end
 end
 
 function MT_flight_pad()
@@ -306,7 +310,7 @@ function longJumpToGripGrab()
     return has("ggrab") and has("arat") and has("flutter")
 end
 
-function saucer_door_open_ww()
+function saucer_door_open()
     if logictype.CurrentStage == 0 then
         return (longJumpToGripGrab() and has("fflip") and has("climb") and (has_explosives() or has("bbarge"))) or backdoors_enabled()
     elseif logictype.CurrentStage == 1 then
@@ -314,15 +318,11 @@ function saucer_door_open_ww()
     elseif logictype.CurrentStage <= 2 then
         return ((longJumpToGripGrab() and has("fflip") and has("climb") and (has_explosives() or has("bbarge"))) or (has("eggaim") and canShootEggs("geggs") and has("amazeogaze")) or (has_explosives() and leg_spring() and glide())) or backdoors_enabled() or clockwork_shot()
     else
-        return (((longJumpToGripGrab() and has("fflip") and has("climb") and (has_explosives() or has("bbarge"))) or (has("eggaim") and canShootEggs("geggs") and has("amazeogaze")) or (has_explosives() and leg_spring() and glide())) or (ggm_access() and canDoSmallElevation() and canShootEggs("ceggs"))) or backdoors_enabled() or clockwork_shot()
-    end
-end
-
-function saucer_door_open_ggm()
-    if logictype.CurrentStage <= 2 then
-        return backdoors_enabled()
-    else
-        return (humbaGGM() and canDoSmallElevation() and canShootEggs("ceggs")) or backdoors_enabled()
+        if Tracker:FindObjectForCode("@Glitter Gulch Mine - Main Area").AccessibilityLevel == 6 and humbaGGM() and canDoSmallElevation() and canShootEggs("ceggs") then
+            return true
+        else
+            return (((longJumpToGripGrab() and has("fflip") and has("climb") and (has_explosives() or has("bbarge"))) or (has("eggaim") and canShootEggs("geggs") and has("amazeogaze")) or (has_explosives() and leg_spring() and glide())) or (ggm_access() and canDoSmallElevation() and canShootEggs("ceggs"))) or backdoors_enabled() or clockwork_shot()
+        end
     end
 end
 
@@ -376,12 +376,18 @@ function can_reach_atlantis()
     end
 end
 
-function HFP_hot_water_cooled_bdon() -- Need HFP access
-    return has("splitup") and (has("dive") or shack_pack())
+function HFP_hot_water_cooled()
+    if has("backdoorsopen_on") and Tracker:FindObjectForCode("@Hailfire Peaks - Lava Side").AccessibilityLevel == 6 then
+        return has("splitup") and (has("dive") or shack_pack())
+    elseif Tracker:FindObjectForCode("@Hailfire Peaks - Lava Side").AccessibilityLevel == 6 and Tracker:FindObjectForCode("@Cloud Cuckooland - Outside").AccessibilityLevel == 6 then
+        return has("splitup") and hasGroundAttack() and (has("dive") or shack_pack())
+    else
+        return false
+    end
 end
 
-function HFP_hot_water_cooled_bdoff() -- Need HFP and CCL access
-    return has("splitup") and hasGroundAttack() and (has("dive") or shack_pack())
+function humbaHFP()
+    return hfpTop() and has("humbahp")
 end
 
 function TDLFlightPad()
@@ -804,9 +810,9 @@ end
 
 function ww_to_fuel_depot()
     if logictype.CurrentStage <= 1 then
-        return has("climb") and has("fflip") and has("ggrab") and longJumpToGripGrab() and saucer_door_open_ww()
+        return has("climb") and has("fflip") and has("ggrab") and longJumpToGripGrab() and saucer_door_open()
     else
-        return has("climb") and has("fflip") and (has("ggrab") or has("bbust")) and longJumpToGripGrab() and saucer_door_open_ww()
+        return has("climb") and has("fflip") and (has("ggrab") or has("bbust")) and longJumpToGripGrab() and saucer_door_open()
     end
 end
 
@@ -1035,26 +1041,22 @@ function floor_5_to_boiler_plant()
 end
 
 function hfpTop()
-    if logictype.CurrentStage == 0 then
-        return canDoSmallElevation() or has("fpad") or has_explosives()
+    if Tracker:FindObjectForCode("@Inside Chuffy").AccessibilityLevel == 6 and has("trainswhp1") then
+        return true
     else
-        return canDoSmallElevation() or has("fpad") or has_explosives() or has("mumbohp")
+        if logictype.CurrentStage == 0 then
+            return canDoSmallElevation() or has("fpad") or has_explosives()
+        else
+            return canDoSmallElevation() or has("fpad") or has_explosives() or has("mumbohp") or dragon_kazooie()
+        end
     end
 end
 
-function HFP_to_JRL_bdon()
+function HFP_to_JRL()
     if logictype.CurrentStage <= 2 then
-        return HFP_hot_water_cooled_bdon()
+        return HFP_hot_water_cooled()
     else
-        return HFP_hot_water_cooled_bdon() or (has("ggrab") and (has("flutter") or has("arat")) and has("grat") and has("tjump"))
-    end
-end
-
-function HFP_to_JRL_bdoff()
-    if logictype.CurrentStage <= 2 then
-        return HFP_hot_water_cooled_bdoff()
-    else
-        return HFP_hot_water_cooled_bdoff() or (has("ggrab") and (has("flutter") or has("arat")) and has("grat") and has("tjump"))
+        return HFP_hot_water_cooled() or (has("ggrab") and (has("flutter") or has("arat")) and has("grat") and has("tjump"))
     end
 end
 
@@ -1156,6 +1158,16 @@ function gm_jiggy10()
     end
 end
 
+function jiggy_generator_cavern()
+    if logictype.CurrentStage == 0 then
+        return has("feggs") and has("eggaim") and longJump() and (has("fflip") or has("ttrot"))
+    elseif logictype.CurrentStage == 1 then
+        return (longJump() and (has("fflip") or has("ttrot")) and (has_fire() or billDrill())) or has("fflip") and has("bbust") and has("climb") or GM_boulders() and leg_spring() and canShootEggs("feggs") or GM_boulders() and has("tjump") and pack_whack() and has("climb")
+    else
+        return longJump() and (has("fflip") or has("ttrot")) or has("fflip") and has("bbust") and has("climb") or clockwork_shot() or GM_boulders() and has("tjump") and pack_whack() and has("climb") or GM_boulders() and leg_spring()
+    end
+end
+
 function notes_hard_fuel_depot()
     if logictype.CurrentStage == 0 then
         return canDoSmallElevation()
@@ -1217,6 +1229,28 @@ function a51_nests_from_TDL()
         return oogle_boogles_open()
     else
         return oogle_boogles_open() or clockworkWarp()
+    end
+end
+
+function honeycomb_space_zone()
+    if logictype.CurrentStage <= 1 then
+        return has("ggrab") and has("climb") and has("fflip")
+    elseif logictype.CurrentStage == 2 then
+        return (has("ggrab") or has("bbust")) and has("climb") and has("fflip") and (clockwork_shot() or longJumpToGripGrab()) or leg_spring() and glide() or clockwork_shot() and (has("ttrot") or has("splitup"))
+    else
+        if Tracker:FindObjectForCode("@Glitter Gulch Mine - Fuel Depot Behind the Rocks").AccessibilityLevel == 6 and clockwork_shot() and ggm_to_ww() then
+            return true
+        else
+            return (has("ggrab") or has("bbust")) and has("climb") and has("fflip") and (clockwork_shot() or longJumpToGripGrab()) or leg_spring() and glide() or clockwork_shot() and (has("ttrot") or has("splitup"))
+        end
+    end
+end
+
+function jiggy_peril()
+    if Tracker:FindObjectForCode("@Glitter Gulch Mine - Main Area").AccessibilityLevel == 6 then
+        return humbaGGM() and mumboWW() and saucer_door_open() and can_reach_saucer() and has_explosives()
+    else
+        return false
     end
 end
 
@@ -1466,8 +1500,104 @@ function cheato_icicle_grotto()
     end
 end
 
-function cheato_icicle_grotto_chuffy()
-    return has("climb") and shack_pack() or ((leg_spring() or has("climb")) and canShootEggs("ceggs"))
+function cheato_colosseum()
+    if logictype.CurrentStage == 0 then
+        return has("clawbts") and (has_explosives() or dragon_kazooie())
+    elseif logictype.CurrentStage <= 2 then
+        return has("clawbts") and (has_explosives() or has("mumbohp") or dragon_kazooie())
+    else
+        return (has("clawbts") and (has_explosives() or has("mumbohp") or dragon_kazooie())) or hfpTop() and has("eggshoot")
+    end
+end
+
+function honeycomb_volcano()
+    if logictype.CurrentStage == 0 then
+        return hfpTop() and has("geggs") and has("eggaim") and springPad() and (has("ttrot") or has("splitup"))
+    elseif logictype.CurrentStage == 1 then
+        return has("splitup") and (has("tjump") or wing_whack() or glide() or leg_spring()) or hfpTop() and has("geggs") and has("eggaim") and springPad() and has("ttrot")
+    else
+        return has("splitup") and (has("tjump") or wing_whack() or glide() or leg_spring()) or hfpTop() and has("geggs") and has("eggaim") and springPad() and has("ttrot") or extremelyLongJump() or hfpTop() and clockwork_shot()
+    end
+end
+
+function jinjo_mildred()
+    if logictype.CurrentStage == 0 then
+        return hfpTop() and (canShootEggs("feggs") or has_explosives() or billDrill() or dragon_kazooie())
+    elseif logictype.CurrentStage == 1 then
+        return hfpTop() and ((canDoSmallElevation() or has("bbust")) and (canShootEggs("feggs") or has_explosives() or billDrill() or dragon_kazooie()) or (has("mumbohp") and has("tjump")) or has("splitup") and (has("tjump") and leg_spring()) and (canShootEggs("feggs") or has_explosives()))
+    else
+        return hfpTop() and ((canDoSmallElevation() or has("bbust")) and (canShootEggs("feggs") or has_explosives() or billDrill() or dragon_kazooie()) or (has("mumbohp") and has("tjump")) or has("splitup") and (has("tjump") and leg_spring()) and (canShootEggs("feggs") or has_explosives()) or clockwork_shot())
+    end
+end
+
+function jiggy_sabreman()
+    return has("mumbohp") and canShootEggs("feggs") and taxi_pack() and has("tjump") and hfpTop()
+end
+
+function jiggy_oil_drill()
+    if logictype.CurrentStage == 0 then
+        return humbaHFP() and shack_pack() and has("ggrab")
+    elseif logictype.CurrentStage <= 2 then
+        return humbaHFP() and shack_pack() and (pack_whack() and has("tjump") or has("ggrab"))
+    else
+        return humbaHFP() and shack_pack() and (pack_whack() or has("ggrab"))
+    end
+end
+
+function notes_lower_icy_side()
+    if logictype.CurrentStage == 0 then
+        return iceCube() and hfpTop()
+    else
+        return hfpTop() and (iceCube() or has("splitup") and iceCubeKazooie() or has("mumbohp") or pack_whack() or humbaHFP())
+    end
+end
+
+function notes_boggy()
+    if logictype.CurrentStage == 0 then
+        return iceCube() and hfpTop() and canDoSmallElevation()
+    elseif logictype.CurrentStage == 1 then
+        return hfpTop() and (iceCube() and (canDoSmallElevation() or has("bbust")) or has("splitup") and (leg_spring() or has("tjump")) and iceCubeKazooie() or has("tjump") and has("mumbohp") or pack_whack() or humbaHFP())
+    else
+        return hfpTop() and (iceCube() and (canDoSmallElevation() or has("bbust")) or has("splitup") and (leg_spring() or has("tjump")) and iceCubeKazooie() or has("tjump") and has("mumbohp") or pack_whack() or clockwork_shot() or humbaHFP())
+    end
+end
+
+function notes_oil_drill()
+    if logictype.CurrentStage == 0 then
+        return hfpTop() and (has("fflip") or has("ttrot")) and iceCube() or hfpTop() and has("splitup") and has("ggrab") and pack_whack() or hfpTop() and has("splitup") and iceCubeKazooie()
+    elseif logictype.CurrentStage == 1 then
+        return hfpTop() and (has("fflip") or has("ttrot") or has("fpad")) and iceCube() or hfpTop() and has("splitup") and (has("ggrab") or has("tjump")) and pack_whack() or hfpTop() and has("splitup") and iceCubeKazooie() or humbaHFP()
+    else
+        return hfpTop() and (has("fflip") or has("ttrot") or has("fpad")) and iceCube() or hfpTop() and has("splitup") and (has("ggrab") or has("tjump")) and pack_whack() or hfpTop() and has("splitup") and iceCubeKazooie() or humbaHFP() or hfpTop() and clockwork_shot()
+    end
+end
+
+function notes_upper_icy_side()
+    if logictype.CurrentStage == 0 then
+        return iceCube() and hfpTop()
+    else
+        return hfpTop() and (iceCube() or has("splitup") and iceCubeKazooie() or has("mumbohp") or pack_whack() or humbaHFP())
+    end
+end
+
+function treble_hfp()
+    if logictype.CurrentStage == 0 then
+        return hfpTop() and has("geggs") and has("eggaim") and springPad() and (has("ttrot") or has("splitup"))
+    elseif logictype.CurrentStage == 1 then
+        return (has("splitup") and iceCubeKazooie() and (has("tjump") or wing_whack() or glide() or leg_spring())) or (hfpTop() and has("geggs") and has("eggaim") and springPad() and veryLongJump())
+    else
+        return (has("splitup") and iceCubeKazooie() and (has("tjump") or wing_whack() or glide() or leg_spring())) or (hfpTop() and (has("geggs") and veryLongJump() or clockwork_shot()) and has("eggaim") and springPad()) or (extremelyLongJump() and clockwork_shot())
+    end
+end
+
+function nest_hfp_spring_pad()
+    if logictype.CurrentStage == 0 then
+        return hfpTop() and springPad() and has("ttrot") and iceCube() or hfpTop() and springPad() and has("splitup") and iceCubeKazooie()
+    elseif logictype.CurrentStage == 1 then
+        return (has("splitup") and iceCubeKazooie() and (has("tjump") or wing_whack() or glide() or leg_spring())) or (hfpTop() and springPad() and has("ttrot") and iceCube())
+    else
+        return (has("splitup") and iceCubeKazooie() and (has("tjump") or wing_whack() or glide() or leg_spring())) or (hfpTop() and (springPad() and iceCube() or clockwork_shot()) and has("ttrot")) or (extremelyLongJump() and clockwork_shot())
+    end
 end
 
 -- Cloud Cuckooland
