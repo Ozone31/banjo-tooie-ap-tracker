@@ -1768,11 +1768,11 @@
             "name": "WW: Outside Star Spinner Egg Nest 2"
           },
           {
-            "ref": "Witchyworld - Main Area/WW: Area 51 Egg Nests/Egg Nest 1",
+            "ref": "Witchyworld - Area 51 Egg Nests/WW: Area 51 Egg Nests/Egg Nest 1",
             "name": "WW: Area 51 Egg Nest 1"
           },
           {
-            "ref": "Witchyworld - Main Area/WW: Area 51 Egg Nests/Egg Nest 2",
+            "ref": "Witchyworld - Area 51 Egg Nests/WW: Area 51 Egg Nests/Egg Nest 2",
             "name": "WW: Area 51 Egg Nest 2"
           },
           {
@@ -5992,7 +5992,15 @@
       "@Terrydactyland - Main Area, $load_tdl_tdl, $TDL_to_IOHWL",
       "@Outside Grunty Industries, $load_tdl_gi, $TDL_to_IOHWL",
       "@Hailfire Peaks - Lava Side, $load_tdl_hfp, $TDL_to_IOHWL",
-      "@Cloud Cuckooland - Outside, $load_tdl_ccl, $TDL_to_IOHWL"
+      "@Cloud Cuckooland - Outside, $load_tdl_ccl, $TDL_to_IOHWL",
+      "@Mayahem Temple - Main Area, $load_ccl_mt, $CCL_to_IOHWL",
+      "@Glitter Gulch Mine - Main Area, $GGM_to_PL, $load_ccl_ggm, $CCL_to_IOHWL",
+      "@Witchyworld - Main Area, $load_ccl_ww, $CCL_to_IOHWL",
+      "@Jolly Roger's Lagoon - Main Area, $load_ccl_jrl, $CCL_to_IOHWL",
+      "@Terrydactyland - Main Area, $load_ccl_tdl, $CCL_to_IOHWL",
+      "@Outside Grunty Industries, $load_ccl_gi, $CCL_to_IOHWL",
+      "@Hailfire Peaks - Lava Side, $load_ccl_hfp, $CCL_to_IOHWL",
+      "@Cloud Cuckooland - Outside, $load_ccl_ccl, $CCL_to_IOHWL"
     ],
     "children": [
       {

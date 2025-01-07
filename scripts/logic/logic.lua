@@ -774,6 +774,14 @@ function TDL_to_IOHWL()
     end
 end
 
+function CCL_to_IOHWL()
+    if logictype.CurrentStage == 0 then
+        return has("cca")
+    else
+        return true
+    end
+end
+
 function TDL_to_WW()
     if logictype.CurrentStage <= 2 then
         return oogle_boogles_open() and (springPad() or has_explosives())
@@ -1545,7 +1553,7 @@ end
 function nest_mt_cell_right()
     if logictype.CurrentStage == 0 then
         return (canReachSlightlyElevatedLedge() or has("fflip")) and has("tjump") and prison_compound_open()
-    elseif logictype.CurrentStage = 1 then
+    elseif logictype.CurrentStage == 1 then
         return (canReachSlightlyElevatedLedge() or has("fflip")) and prison_compound_open()
     else
         return prison_compound_open() and (canReachSlightlyElevatedLedge() or has("fflip") or clockwork_shot())
