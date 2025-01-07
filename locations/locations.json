@@ -12050,7 +12050,7 @@
             "name": "Mumbo Token",
             "chest_unopened_img": "/images/locations/mumbotoken.png",
             "chest_opened_img": "/images/locations/mumbotoken2.png",
-            "visibility_rules": ["goal_boss", "goal_wwing"]
+            "visibility_rules": ["goal_minigame", "goal_wwing"]
           }
         ],
         "map_locations": [
