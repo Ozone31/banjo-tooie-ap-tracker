@@ -1,6 +1,18 @@
 {
 	"versions": [
 		{
+			"package_version": "0.7.3",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.7.3",
+			"sha256": "d35c600069242699b84ad9d62b6a42de4dc98d660244c542e8fad36549cda9f0",
+			"changelog": [
+				"Updated logic for v4.1 of Banjo-Tooie AP.",
+				"Some backend optimization for region access.",
+				"Added missing access rules for Wasteland from CCL",
+				"Mini-Sub Challenge Mumbo Token now properly appears with goal is set to Minigame Hunt.",
+				"Other fixes from reported issues by the community."
+			]
+		},
+		{
 			"package_version": "0.7.2",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.7.2",
 			"sha256": "beca0c0c64b4f6fa5b6a5bed87855f14a17bda805f5ab3f565c997c33949819e",
