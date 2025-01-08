@@ -10,7 +10,7 @@
             "flags": ["ap"]
         },
         "var_entrancerando": {
-            "display_name": "Map Tracker (Randomized World Enterances)",
+            "display_name": "Map Tracker (Randomized World Entrances)",
             "flags": [
                 "ap"
             ]
