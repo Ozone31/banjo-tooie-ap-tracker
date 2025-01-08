@@ -1323,6 +1323,8 @@ function jr_jiggy4()
         return HFP_hot_water_cooled() and jrl_waste_disposal() and has("fflip") and (has_explosives() or has("bbarge"))
     elseif logictype.CurrentStage == 1 then
         return HFP_hot_water_cooled() and jrl_waste_disposal() and (has("fflip") or has("tjump") and has("bbust") or has("ttrot") and has("flutter") and has("bbust")) and (has_explosives() or has("bbarge"))
+    elseif logictype.CurrentStage == 2 then
+        return HFP_hot_water_cooled() and jrl_waste_disposal() and ((has("fflip") or has("tjump") and has("bbust") or has("ttrot") and has("flutter") and has("bbust") or has("tjump") and has("flutter") or extremelyLongJump()) and (has_explosives() or has("bbarge")) or clockwork_shot())
     else
         return HFP_hot_water_cooled() and jrl_waste_disposal() and ((has("fflip") or has("tjump") and has("bbust") or has("ttrot") and has("flutter") and has("bbust")) and (has_explosives() or has("bbarge")) or clockwork_shot())
     end
@@ -1860,6 +1862,16 @@ function jiggy_twinkly()
     end
 end
 
+function jiggy_trash_compactor()
+    if logictype.CurrentStage == 0 then
+        return snooze_pack()
+    elseif logictype.CurrentStage <= 2 then
+        return snooze_pack() or pack_whack() and has("tjump")
+    else
+        return snooze_pack() or pack_whack() and has("tjump") or (has("eggaim") and has("ceggs") and breegullBash() and has("ttrot"))
+    end
+end
+
 -- Hailfire Peaks
 
 function hp_jiggy1()
@@ -2320,9 +2332,9 @@ function nest_trash_compactor()
     if logictype.CurrentStage == 0 then
         return snooze_pack()
     elseif logictype.CurrentStage == 1 then
-        return snooze_pack() or has("splitup") and has("tjump") or wing_whack() or glide() or leg_spring() or has("fflip")
+        return snooze_pack() or has("splitup") and has("tjump") or wing_whack() or glide() or leg_spring() or has("fflip") or canShootEggs("ceggs")
     else
-        return snooze_pack() or has("splitup") and has("tjump") or wing_whack() or glide() or leg_spring() or clockwork_shot() or has("fflip")
+        return snooze_pack() or has("splitup") and has("tjump") or wing_whack() or glide() or leg_spring() or canShootEggs("ceggs") or has("fflip")
     end
 end
 
@@ -2405,7 +2417,11 @@ function nest_egg_fan_hard()
 end
 
 function nest_waste_disposal_water_pump()
-    return jrl_waste_disposal() and has("fflip") and has("climb")
+    if logictype.CurrentStage <= 1 then
+        return jrl_waste_disposal() and has("fflip") and has("climb")
+    else
+        return jrl_waste_disposal() and has("climb") and (has("fflip") or has("tjump") and has("flutter") or extremelyLongJump() or has("tjump") and has("bbust") or has("ttrot") and has("flutter") and has("bbust"))
+    end
 end
 
 -- Hailfire Peaks Nests

@@ -13999,12 +13999,7 @@
             "name": "Jiggy",
             "chest_unopened_img": "/images/locations/jiggy.png",
             "chest_opened_img": "/images/locations/jiggy2.png",
-            "access_rules": [
-              "logictype_b, $snooze_pack",
-              "logictype_n, $snooze_pack", "logictype_n, $pack_whack",
-              "logictype_a, $snooze_pack", "logictype_a, $pack_whack",
-              "logictype_g, $snooze_pack", "logictype_g, $pack_whack", "logictype_g, eggaim, ceggs, $breegullBash, ttrot"
-            ]
+            "access_rules": ["$jiggy_trash_compactor"]
           },
           {
             "name": "Egg Nest 1",
