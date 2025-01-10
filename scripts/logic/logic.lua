@@ -2811,7 +2811,7 @@ function toggleBKMoves()
         Tracker:FindObjectForCode('climb').Active = false
         Tracker:FindObjectForCode('flutter').Active = false
         Tracker:FindObjectForCode('wwing').Active = false
-        Tracker:FindObjectForCode('grat').Active = falsed
+        Tracker:FindObjectForCode('grat').Active = false
         Tracker:FindObjectForCode('arat').Active = false
         Tracker:FindObjectForCode('bbarge').Active = false
         Tracker:FindObjectForCode('begg').Active = false
