@@ -12166,7 +12166,7 @@
           {
             "name": "Silo",
             "access_rules": [
-              "logictype_b, $springb_count, fflip, ggrab", "logictype_b, $springb_count0, $TDLFlightPad",
+              "logictype_b, $springb_count, fflip, ggrab", "logictype_b, $springb_count, $TDLFlightPad",
               "logictype_n, $springb_count, fflip, ggrab", "logictype_n, $springb_count, fflip, bbust", "logictype_n, $springb_count, $TDLFlightPad", "logictype_n, $springb_count, $veryLongJump", "logictype_n, $springb_count, ttrain", "logictype_n, $springb_count, springb",
               "logictype_a, $springb_count, fflip, ggrab", "logictype_a, $springb_count, fflip, bbust", "logictype_a, $springb_count, $TDLFlightPad", "logictype_a, $springb_count, $veryLongJump", "logictype_a, $springb_count, ttrain", "logictype_a, $springb_count, springb",
               "logictype_g, $springb_count, fflip, ggrab", "logictype_g, $springb_count, fflip, bbust", "logictype_g, $springb_count, $TDLFlightPad", "logictype_g, $springb_count, $veryLongJump", "logictype_g, $springb_count, ttrain", "logictype_g, $springb_count, springb"
