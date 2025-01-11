@@ -2013,6 +2013,26 @@ function nest_hfp_spring_pad()
     end
 end
 
+function jiggy_ice_station()
+    if logictype.CurrentStage <= 1 and Tracker:FindObjectForCode("@Witchyworld - Main Area").AccessibilityLevel == 6 then
+        return can_beat_king_coal() and canShootEggs("geggs") and has("trainswhp1") and has("trainswhp2") and has("eggaim") and has("fpad") and has("climb") and has("bbust")
+    elseif Tracker:FindObjectForCode("@Witchyworld - Main Area").AccessibilityLevel == 6 then
+        return can_beat_king_coal() and canShootEggs("geggs") and has("trainswhp1") and has("trainswhp2") and has("fpad") and has("climb") and has("bbust")
+    else
+        return clockwork_shot() and canDoSmallElevation()
+    end
+end
+
+function nest_icy_side_train_station_hard()
+    if logictype.CurrentStage == 0 and Tracker:FindObjectForCode("@Witchyworld - Main Area").AccessibilityLevel == 6 then
+        return can_beat_king_coal() and canShootEggs("geggs") and has("trainswhp1") and has("trainswhp2") and has("eggaim") and has("fpad") and has("dive")
+    elseif Tracker:FindObjectForCode("@Witchyworld - Main Area").AccessibilityLevel == 6 then
+        return can_beat_king_coal() and canShootEggs("geggs") and has("trainswhp1") and has("trainswhp2") and has("fpad") and (has("bbust") or has("dive"))
+    else
+        return false
+    end
+end
+
 -- Cloud Cuckooland
 
 function cc_jinjo3()

@@ -16189,36 +16189,21 @@
             "name": "Jiggy",
             "chest_unopened_img": "/images/locations/jiggy.png",
             "chest_opened_img": "/images/locations/jiggy2.png",
-            "access_rules": [
-                  "logictype_b, $can_beat_king_coal, geggs, trainswhp1, trainswhp2, eggaim, @Witchyworld - Main Area, fpad, climb, bbust",
-                  "logictype_n, $can_beat_king_coal, $canShootEggs|geggs, trainswhp1, trainswhp2, @Witchyworld - Main Area, fpad, climb, bbust",
-                  "logictype_a, $can_beat_king_coal, $canShootEggs|geggs, trainswhp1, trainswhp2, @Witchyworld - Main Area, fpad, climb, bbust",
-                  "logictype_g, $can_beat_king_coal, $canShootEggs|geggs, trainswhp1, trainswhp2, @Witchyworld - Main Area, fpad, climb, bbust", "logictype_g, $clockwork_shot, $canDoSmallElevation"
-                ]
+            "access_rules": ["$jiggy_ice_station"]
           },
           {
             "name": "Feather Nest",
             "chest_unopened_img": "/images/locations/feathernest.png",
             "chest_opened_img": "/images/locations/feathernest2.png",
             "visibility_rules": ["nestsanity_on"],
-            "access_rules": [
-                  "logictype_b, $can_beat_king_coal, geggs, trainswhp1, trainswhp2, eggaim, @Witchyworld - Main Area, fpad, dive",
-                  "logictype_n, $can_beat_king_coal, $canShootEggs|geggs, trainswhp1, trainswhp2, @Witchyworld - Main Area, fpad, bbust", "logictype_n, $can_beat_king_coal, $canShootEggs|geggs, trainswhp1, trainswhp2, @Witchyworld - Main Area, fpad, dive",
-                  "logictype_a, $can_beat_king_coal, $canShootEggs|geggs, trainswhp1, trainswhp2, @Witchyworld - Main Area, fpad, bbust", "logictype_a, $can_beat_king_coal, $canShootEggs|geggs, trainswhp1, trainswhp2, @Witchyworld - Main Area, fpad, dive",
-                  "logictype_g, $can_beat_king_coal, $canShootEggs|geggs, trainswhp1, trainswhp2, @Witchyworld - Main Area, fpad, bbust", "logictype_g, $can_beat_king_coal, $canShootEggs|geggs, trainswhp1, trainswhp2, @Witchyworld - Main Area, fpad, dive"
-                ]
+            "access_rules": ["$nest_icy_side_train_station_hard"]
           },
           {
             "name": "Egg Nest",
             "chest_unopened_img": "/images/locations/eggnest.png",
             "chest_opened_img": "/images/locations/eggnest2.png",
             "visibility_rules": ["nestsanity_on"],
-            "access_rules": [
-                  "logictype_b, $can_beat_king_coal, geggs, trainswhp1, trainswhp2, eggaim, @Witchyworld - Main Area, fpad, climb, bbust",
-                  "logictype_n, $can_beat_king_coal, $canShootEggs|geggs, trainswhp1, trainswhp2, @Witchyworld - Main Area, fpad, climb, bbust",
-                  "logictype_a, $can_beat_king_coal, $canShootEggs|geggs, trainswhp1, trainswhp2, @Witchyworld - Main Area, fpad, climb, bbust",
-                  "logictype_g, $can_beat_king_coal, $canShootEggs|geggs, trainswhp1, trainswhp2, @Witchyworld - Main Area, fpad, climb, bbust", "logictype_g, $clockwork_shot, $canDoSmallElevation"
-                ]
+            "access_rules": ["$jiggy_ice_station"]
           }
         ],
         "map_locations": [
