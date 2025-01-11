@@ -3,7 +3,7 @@
 		{
 			"package_version": "0.7.4",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.7.4",
-			"sha256": "7e6c379a87a89be65b91ea85808993b2920e5a0c8b44c7effc44eaebd2c17edc",
+			"sha256": "edc2ae5bfb3b32a0e229f914c369586633f6c104bb19a129b6e0a93ce61417da",
 			"changelog": [
 				"Fixed issue with new region access code where it would not check all the different variations of reaching a location.",
 				"Fixed typo in 'Randomized World Entrances' variant name.",
