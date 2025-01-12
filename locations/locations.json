@@ -13548,12 +13548,12 @@
     "name": "Terrydactyland - Stomping Plains",
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
-    "access_rules": [
-      "@Terrydactyland - Main Area, $td_jiggy8"
-    ],
     "children": [
       {
         "name": "TDL: Stomping Plains Jiggy",
+        "access_rules": [
+          "@Terrydactyland - Main Area, $td_jiggy8"
+        ],
         "sections": [
           {
             "name": "TDL Jiggy",
@@ -13576,7 +13576,7 @@
             "name": "Jinjo",
             "chest_unopened_img": "/images/locations/jinjo.png",
             "chest_opened_img": "/images/locations/jinjo2.png",
-            "access_rules": ["$jinjo_stomping_plains"]
+            "access_rules": ["@Terrydactyland - Main Area, $jinjo_stomping_plains"]
           }
         ],
         "map_locations": [
@@ -13594,10 +13594,7 @@
             "name": "HFP Jiggy",
             "chest_unopened_img": "/images/locations/jiggy.png",
             "chest_opened_img": "/images/locations/jiggy2.png",
-            "access_rules": [
-              "$jiggy_hfp_stomping",
-              "logictype_g, @Hailfire Peaks - Lava Side, $clockwork_shot, ttrot", "logictype_g, @Hailfire Peaks - Lava Side, $clockwork_shot, splitup", "logictype_g, @Hailfire Peaks - Lava Side, $clockwork_shot, $leg_spring", "logictype_g, @Hailfire Peaks - Lava Side, $clockwork_shot, fflip"
-            ]
+            "access_rules": ["$jiggy_hfp_stomping"]
           }
         ],
         "map_locations": [

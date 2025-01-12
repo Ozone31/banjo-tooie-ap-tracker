@@ -1886,12 +1886,16 @@ function hp_jiggy1()
 end
 
 function jiggy_hfp_stomping()
-    if logictype.CurrentStage <= 1 then
-        return can_reach_stomping_plains() and snooze_pack() and has("tjump")
-    elseif logictype.CurrentStage == 2 then
+    if logictype.CurrentStage <= 1 and Tracker:FindObjectForCode("@Terrydactyland - Main Area").AccessibilityLevel == 6 and can_reach_stomping_plains() and snooze_pack() and has("tjump") then
+        return true
+    elseif logictype.CurrentStage == 2 and Tracker:FindObjectForCode("@Terrydactyland - Main Area").AccessibilityLevel == 6 and can_reach_stomping_plains() and has("tjump") and has("splitup") then
+        return true
+    elseif logictype.CurrentStage == 3 and Tracker:FindObjectForCode("@Hailfire Peaks - Lava Side").AccessibilityLevel == 6 and clockwork_shot() and (has("ttrot") or has("splitup") or leg_spring() or has("fflip")) then
+        return true
+    elseif logictype.CurrentStage == 3 and Tracker:FindObjectForCode("@Terrydactyland - Main Area").AccessibilityLevel == 6 then
         return can_reach_stomping_plains() and has("tjump") and has("splitup")
     else
-        return can_reach_stomping_plains() and has("tjump") and has("splitup") -- additional regional stuff
+        return false
     end
 end
 
