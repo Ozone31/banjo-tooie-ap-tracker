@@ -10129,7 +10129,7 @@
         "sections": [
           {
             "name": "Silo",
-            "access_rules": [ "splitup, packwh_count" ]
+            "access_rules": [ "splitup, $packwh_count" ]
           }
         ],
         "map_locations": [
