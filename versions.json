@@ -1,6 +1,17 @@
 {
 	"versions": [
 		{
+			"package_version": "0.7.5",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.7.5",
+			"sha256": "82b7700cb1ec41fecf5d03405d5b77154560810641c4bec29080f3be009804df",
+			"changelog": [
+				"Note count is now is displayed as a single item - the notes and clefs are tracked in the background and then added together.",
+				"Fixed logic to access Stomping Plains.",
+				"Fixed Pack Whack Silo and Springy Step Shoes Silo locations not using the correct note cost to be in logic.",
+				"Other minor optimizations."
+			]
+		},
+		{
 			"package_version": "0.7.4",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.7.4",
 			"sha256": "edc2ae5bfb3b32a0e229f914c369586633f6c104bb19a129b6e0a93ce61417da",
