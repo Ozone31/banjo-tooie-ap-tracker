@@ -26,8 +26,8 @@
             "margin": "0,6",
             "item_margin": "1,2",
             "rows": [
-              [ "jiggy", "note", "bass", "treble", "honey", "pages", "doubloon", "ikey", "bmegg", "pmegg" ],
-              [ "mumbotoken", "wjinjo", "ojinjo", "yjinjo", "brjinjo", "gjinjo", "rjinjo", "bljinjo", "pjinjo", "bkjinjo" ]
+              [ "jiggy", "totalnote", "honey", "pages", "doubloon", "ikey", "bmegg", "pmegg", "mumbotoken" ],
+              [ "wjinjo", "ojinjo", "yjinjo", "brjinjo", "gjinjo", "rjinjo", "bljinjo", "pjinjo", "bkjinjo" ]
             ]
           },
           {

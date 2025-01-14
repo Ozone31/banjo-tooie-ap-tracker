@@ -14,8 +14,12 @@ speedupminigames = Tracker:FindObjectForCode("speedupmini")
 
 -- Note, Page, Jinjo Count
 
+function totalNotes()
+    Tracker:FindObjectForCode('totalnote').AcquiredCount = Tracker:FindObjectForCode('note').AcquiredCount + Tracker:FindObjectForCode('bass').AcquiredCount + Tracker:FindObjectForCode('treble').AcquiredCount
+end
+
 function notes()
-    return Tracker:ProviderCountForCode("note") + Tracker:ProviderCountForCode("treble") + Tracker:ProviderCountForCode("bass")
+    return Tracker:ProviderCountForCode("totalnote")
 end
 
 function notecount(targetnotes)
@@ -3507,3 +3511,6 @@ ScriptHost:AddWatchForCode("pbashwatch", "pbash", togglePBash)
 ScriptHost:AddWatchForCode("pflightwatch", "pflight", togglePFlight)
 ScriptHost:AddWatchForCode("peggaimwatch", "peggaim", togglePEggAim)
 ScriptHost:AddWatchForCode("paeggaimwatch", "paeggaim", togglePAEggAim)
+ScriptHost:AddWatchForCode("notewatch", "note", totalNotes)
+ScriptHost:AddWatchForCode("basswatch", "bass", totalNotes)
+ScriptHost:AddWatchForCode("treblewatch", "treble", totalNotes)

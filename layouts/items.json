@@ -16,27 +16,25 @@
                         "rows": [
                             [
                                 "jiggy",
-                                "note",
-                                "bass",
-                                "treble"
+                                "totalnote",
+                                "honey",
+                                "pages"
                             ],
                             [
-                                "honey",
-                                "pages",
                                 "doubloon",
-                                "mumbotoken"
+                                "mumbotoken",
+                                "jnone",
+                                "none"
                             ],
                             [
                                 "ikey",
                                 "bmegg",
-                                "pmegg",
-                                "jnone"
+                                "pmegg"
                             ],
                             [
                                 "wjinjo",
                                 "ojinjo",
-                                "yjinjo",
-                                "none"
+                                "yjinjo"
                             ],
                             [
                                 "brjinjo",

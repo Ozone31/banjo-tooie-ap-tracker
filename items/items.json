@@ -12,6 +12,15 @@
     "name": "Notes",
     "type": "consumable",
     "increment": 5,
+    "max_quantity": 900,
+    "overlay_background": "#000000",
+    "img": "/images/items/notes.png",
+    "codes": "totalnote"
+  },
+  {
+    "name": "Note Nests",
+    "type": "consumable",
+    "increment": 5,
     "max_quantity": 720,
     "overlay_background": "#000000",
     "img": "/images/items/notes.png",
