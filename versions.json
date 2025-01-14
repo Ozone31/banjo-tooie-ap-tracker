@@ -3,7 +3,7 @@
 		{
 			"package_version": "0.7.5",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.7.5",
-			"sha256": "82b7700cb1ec41fecf5d03405d5b77154560810641c4bec29080f3be009804df",
+			"sha256": "b636b026c539e150cc68286bf03804d2c7d41d50f4be99d62dab858a95de74e3",
 			"changelog": [
 				"Note count is now is displayed as a single item - the notes and clefs are tracked in the background and then added together.",
 				"Fixed logic to access Stomping Plains.",
