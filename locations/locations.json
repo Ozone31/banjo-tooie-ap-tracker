@@ -13610,7 +13610,7 @@
         "chest_unopened_img": "/images/locations/feathernest.png",
         "chest_opened_img": "/images/locations/feathernest2.png",
         "visibility_rules": ["nestsanity_on"],
-        "access_rules": ["$can_reach_stomping_plains"],
+        "access_rules": ["@Terrydactyland - Main Area, $can_reach_stomping_plains"],
         "sections": [
           {
             "name": "Feather Nest"
@@ -13629,7 +13629,7 @@
         "chest_unopened_img": "/images/locations/feathernest.png",
         "chest_opened_img": "/images/locations/feathernest2.png",
         "visibility_rules": ["nestsanity_on"],
-        "access_rules": ["$nest_stomping_plains_footprint"],
+        "access_rules": ["@Terrydactyland - Main Area, $nest_stomping_plains_footprint"],
         "sections": [
           {
             "name": "Feather Nest"
@@ -13648,7 +13648,7 @@
         "chest_unopened_img": "/images/locations/feathernest.png",
         "chest_opened_img": "/images/locations/feathernest2.png",
         "visibility_rules": ["nestsanity_on"],
-        "access_rules": ["$nest_stomping_plains_footprint"],
+        "access_rules": ["@Terrydactyland - Main Area, $nest_stomping_plains_footprint"],
         "sections": [
           {
             "name": "Feather Nest 1"
@@ -13670,7 +13670,7 @@
         "chest_unopened_img": "/images/locations/feathernest.png",
         "chest_opened_img": "/images/locations/feathernest2.png",
         "visibility_rules": ["nestsanity_on"],
-        "access_rules": ["$nest_stomping_plains_footprint"],
+        "access_rules": ["@Terrydactyland - Main Area, $nest_stomping_plains_footprint"],
         "sections": [
           {
             "name": "Feather Nest"
@@ -13689,7 +13689,7 @@
         "chest_unopened_img": "/images/locations/feathernest.png",
         "chest_opened_img": "/images/locations/feathernest2.png",
         "visibility_rules": ["nestsanity_on"],
-        "access_rules": ["$nest_stomping_plains_footprint"],
+        "access_rules": ["@Terrydactyland - Main Area, $nest_stomping_plains_footprint"],
         "sections": [
           {
             "name": "Feather Nest 1"
