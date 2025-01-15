@@ -2318,7 +2318,7 @@ function nest_river_passage()
 end
 
 function nest_stomping_plains_footprint()
-    return has("tjump") and has("splitup") or snooze_pack() or has("ttrot")
+    return can_reach_stomping_plains() and (has("tjump") and has("splitup") or snooze_pack() or has("ttrot"))
 end
 
 -- Grunty Industries Nests

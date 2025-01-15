@@ -13610,6 +13610,7 @@
         "chest_unopened_img": "/images/locations/feathernest.png",
         "chest_opened_img": "/images/locations/feathernest2.png",
         "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["$can_reach_stomping_plains"],
         "sections": [
           {
             "name": "Feather Nest"
