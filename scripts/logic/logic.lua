@@ -800,6 +800,14 @@ function HFP_to_CTHFP()
     end
 end
 
+function HFP_to_MT()
+    if logictype.CurrentStage == 0 then
+        return has_explosives() or dragon_kazooie()
+    else
+        return has_explosives() or has("mumbohp") or dragon_kazooie()
+    end
+end
+
 function JRL_to_CT()
     if logictype.CurrentStage == 0 then
         return has("jra")

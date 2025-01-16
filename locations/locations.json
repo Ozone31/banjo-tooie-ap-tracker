@@ -6393,10 +6393,7 @@
       "$load_ccl_mt, @Wasteland, cca",
       "$load_gi_mt, @Quagmire, gia",
       "$load_ck_mt, @Quagmire, $quag_to_CK, cka",
-      "@Hailfire Peaks - Lava Side, logictype_b, $has_explosives", "@Hailfire Peaks - Lava Side, logictype_b, $dragon_kazooie",
-      "@Hailfire Peaks - Lava Side, logictype_n, $has_explosives", "@Hailfire Peaks - Lava Side, logictype_n, humbahp", "@Hailfire Peaks - Lava Side, logictype_n, $dragon_kazooie",
-      "@Hailfire Peaks - Lava Side, logictype_a, $has_explosives", "@Hailfire Peaks - Lava Side, logictype_a, humbahp", "@Hailfire Peaks - Lava Side, logictype_a, $dragon_kazooie",
-      "@Hailfire Peaks - Lava Side, logictype_g, $has_explosives", "@Hailfire Peaks - Lava Side, logictype_g, humbahp", "@Hailfire Peaks - Lava Side, logictype_g, $dragon_kazooie"
+      "@Hailfire Peaks - Lava Side, $HFP_to_MT"
     ],
     "children": [
       {
