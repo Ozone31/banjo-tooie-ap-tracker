@@ -11195,6 +11195,30 @@
             "y": 180
           }
         ]
+      },
+      {
+        "name": "GI Floor 1: Waste Disposal Water Pump Nests",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["$nest_waste_disposal_water_pump"],
+        "sections": [
+          {
+            "name": "Egg Nest",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png"
+          },
+          {
+            "name": "Feather Nest",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi5",
+            "x": 144,
+            "y": 166
+          }
+        ]
       }
     ]
   },
@@ -14058,30 +14082,6 @@
             "map": "gi5",
             "x": 270,
             "y": 169
-          }
-        ]
-      },
-      {
-        "name": "GI Floor 1: Waste Disposal Water Pump Nests",
-        "visibility_rules": ["nestsanity_on"],
-        "access_rules": ["$nest_waste_disposal_water_pump"],
-        "sections": [
-          {
-            "name": "Egg Nest",
-            "chest_unopened_img": "/images/locations/eggnest.png",
-            "chest_opened_img": "/images/locations/eggnest2.png"
-          },
-          {
-            "name": "Feather Nest",
-            "chest_unopened_img": "/images/locations/feathernest.png",
-            "chest_opened_img": "/images/locations/feathernest2.png"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "gi5",
-            "x": 144,
-            "y": 166
           }
         ]
       },
