@@ -1,6 +1,16 @@
 {
 	"versions": [
 		{
+			"package_version": "0.7.6",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.7.6",
+			"sha256": "7dbb03e2e34dcdbaeed3e7f4b33e4b951e0e72cabda5a4bcd5aa5438ffd69191",
+			"changelog": [
+				"Stomping Plains logic is now actually fixed.",
+				"Fixed Hailfire Peaks to Mayahem Temple access logic.",
+				"GI Waste Disposal Plant nests are now correctly in the JRL region."
+			]
+		},
+		{
 			"package_version": "0.7.5",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.7.5",
 			"sha256": "b636b026c539e150cc68286bf03804d2c7d41d50f4be99d62dab858a95de74e3",
