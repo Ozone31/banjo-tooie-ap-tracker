@@ -962,7 +962,11 @@ function elevator_shaft_to_em() -- there's a lot of region stuff
     if logictype.CurrentStage <= 2 then
         return false
     else
-        return has("climb") and breegullBash()
+        if has("climb") or (Tracker:FindObjectForCode("@Grunty Industries 3rd Floor - Boiler Plant").AccessibilityLevel == 6 and boiler_plant_to_elevator_shaft()) or (Tracker:FindObjectForCode("@Grunty Industries 4th Floor - Past the Crushers").AccessibilityLevel == 6 and (health_7() or has("bbust")) and floor_4_back_to_elevator_shaft()) then
+            return breegullBash()
+        else
+            return false
+        end
     end
 end
 
@@ -1147,7 +1151,11 @@ function mt_tdl_backdoor()
 end
 
 function mt_hfp_backdoor()
-    return has("humbamt") and has("mumbomt") and backdoors_enabled()
+    if logictype.CurrentStage <= 2 then
+        return has("humbamt") and has("mumbomt") and backdoors_enabled()
+    else
+        return (has("humbamt") and has("mumbomt") or MT_flight_pad() and has("bbomb")) and backdoors_enabled()
+    end
 end
 
 function ww_tdl_backdoor()
@@ -1162,6 +1170,20 @@ end
 
 function pink_mystery_egg()
     return (canShootEggs("geggs") or (has("aireaim") and has("geggs"))) and has("fpad")
+end
+
+function check_hag1_options()
+    if (has("goal_hag1") and (has("openhag1_on") or has("jiggy, 70"))) or (has("goal_wwing") and has("mumbotoken, 32")) then
+        if logictype.CurrentStage == 0 then
+            return (pack_whack() or sack_pack() or shack_pack()) and has("bblaster") and canShootEggs("ceggs") and canShootLinearEgg() and (has("ttrot") and has("tjump"))
+        elseif logictype.CurrentStage == 1 then
+            return (pack_whack() or sack_pack() or shack_pack()) and has("bblaster") and canShootEggs("ceggs") and canShootLinearEgg() and (has("ttrot") or has("tjump"))
+        else
+            return (pack_whack() or sack_pack() or shack_pack()) and has("bblaster") and canShootEggs("ceggs")
+        end
+    else
+        return false
+    end
 end
     
 -- Mayahem Temple
@@ -1466,11 +1488,23 @@ end
 
 function jiggy_oogle_boogle()
     if logictype.CurrentStage == 0 then
-        return oogle_boogles_open() and canShootEggs("feggs") and smuggle_food() and has("ggrab") and billDrill() and springPad()
+        return access_oogle_boogle() and canShootEggs("feggs") and smuggle_food() and has("ggrab") and billDrill() and springPad()
     elseif logictype.CurrentStage <= 2 then
-        return oogle_boogles_open() and has_fire() and smuggle_food() and has("ggrab") and billDrill() and springPad()
+        return access_oogle_boogle() and has_fire() and smuggle_food() and has("ggrab") and billDrill() and springPad()
     else
-        return (oogle_boogles_open() or clockworkWarp()) and has_fire() and has("ggrab") and billDrill() and smuggle_food() and springPad()
+        return (access_oogle_boogle() or clockworkWarp()) and has_fire() and has("ggrab") and billDrill() and smuggle_food() and springPad()
+    end
+end
+
+function access_oogle_boogle()
+    if Tracker:FindObjectForCode("@Witchyworld - Main Area").AccessibilityLevel == 6 and ww_tdl_backdoor() then
+        return true
+    elseif oogle_boogles_open() then
+        return true
+    elseif logictype.CurrentStage == 3 then
+        return clockworkWarp()
+    else
+        return false
     end
 end
 
@@ -1609,9 +1643,9 @@ function nest_gi_outside_left()
     if logictype.CurrentStage == 0 and has("climb") then
         return true
     elseif logictype.CurrentStage == 1 then
-        if Tracker:FindObjectForCode("@Grunty Industries 1st Floor").AccessibilityLevel == 6 and (has("splitup") and has("tjump") or leg_spring()) then
+        if Tracker:FindObjectForCode("@Grunty Industries 1st Floor").AccessibilityLevel == 6 and leg_spring() then
             return true
-        elseif Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel == 6 and (floor_2_split_up() and (has("tjump") or leg_spring())) then
+        elseif Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel == 6 and (floor_2_split_up() and leg_spring()) then
             return true
         elseif Tracker:FindObjectForCode("@Grunty Industries Roof").AccessibilityLevel == 6 then
             return true
@@ -1619,9 +1653,11 @@ function nest_gi_outside_left()
             return false
         end
     else
-        if Tracker:FindObjectForCode("@Grunty Industries 1st Floor").AccessibilityLevel == 6 and (has("splitup") and has("tjump") or leg_spring()) then
+        if Tracker:FindObjectForCode("@Outside Grunty Industries - Behind the building").AccessibilityLevel == 6 and has("clawbts") then
             return true
-        elseif Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel == 6 and (floor_2_split_up() and (has("tjump") or leg_spring())) then
+        elseif Tracker:FindObjectForCode("@Grunty Industries 1st Floor").AccessibilityLevel == 6 and leg_spring() then
+            return true
+        elseif Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel == 6 and (floor_2_split_up() and leg_spring()) then
             return true
         elseif Tracker:FindObjectForCode("@Grunty Industries Roof").AccessibilityLevel == 6 then
             return true
@@ -2653,20 +2689,20 @@ end
 
 -- Progressive Eggs Toggle
 
-function togglePBEggs()
-    if Tracker:FindObjectForCode('pbeggs').CurrentStage == 1 then
+function togglePEggs()
+    if Tracker:FindObjectForCode('peggs').CurrentStage == 1 then
         Tracker:FindObjectForCode('begg').Active = true
         Tracker:FindObjectForCode('feggs').Active = true
-    elseif Tracker:FindObjectForCode('pbeggs').CurrentStage == 2 then
+    elseif Tracker:FindObjectForCode('peggs').CurrentStage == 2 then
         Tracker:FindObjectForCode('begg').Active = true
         Tracker:FindObjectForCode('feggs').Active = true
         Tracker:FindObjectForCode('geggs').Active = true
-    elseif Tracker:FindObjectForCode('pbeggs').CurrentStage == 3 then
+    elseif Tracker:FindObjectForCode('peggs').CurrentStage == 3 then
         Tracker:FindObjectForCode('begg').Active = true
         Tracker:FindObjectForCode('feggs').Active = true
         Tracker:FindObjectForCode('geggs').Active = true
         Tracker:FindObjectForCode('ieggs').Active = true
-    elseif Tracker:FindObjectForCode('pbeggs').CurrentStage == 4 then
+    elseif Tracker:FindObjectForCode('peggs').CurrentStage == 4 then
         Tracker:FindObjectForCode('begg').Active = true
         Tracker:FindObjectForCode('feggs').Active = true
         Tracker:FindObjectForCode('geggs').Active = true
@@ -3510,7 +3546,7 @@ function load_ck_ck()
 end
 
 ScriptHost:AddWatchForCode("bkmovewatch", "randomizebkmoves", toggleBKMoves)
-ScriptHost:AddWatchForCode("pbeggswatch", "pbeggs", togglePBEggs)
+ScriptHost:AddWatchForCode("peggswatch", "peggs", togglePEggs)
 ScriptHost:AddWatchForCode("pbbustwatch", "pbbust", togglePBBust)
 ScriptHost:AddWatchForCode("pshoeswatch", "pshoes", togglePShoes)
 ScriptHost:AddWatchForCode("pswimwatch", "pswim", togglePSwim)

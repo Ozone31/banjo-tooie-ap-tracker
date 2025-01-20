@@ -3392,7 +3392,7 @@
             "name": "GI Floor 1: Repair Depot Egg Nest 2"
           },
           {
-            "ref": "Grunty Industries 1st Floor/GI Floor 1: Waste Disposal Water Pump Nests/Egg Nest",
+            "ref": "Jolly Roger's Lagoon - Main Area/GI Floor 1: Waste Disposal Water Pump Nests/Egg Nest",
             "name": "GI Floor 1: Waste Disposal Water Pump Egg Nest"
           },
           {
@@ -3404,7 +3404,7 @@
             "name": "GI Floor 1: Waste Disposal Jinjo Tank Egg Nest 2"
           },
           {
-            "ref": "Grunty Industries 1st Floor/GI Floor 1: Waste Disposal Water Pump Nests/Feather Nest",
+            "ref": "Jolly Roger's Lagoon - Main Area/GI Floor 1: Waste Disposal Water Pump Nests/Feather Nest",
             "name": "GI Floor 1: Waste Disposal Water Pump Feather Nest"
           },
           {
@@ -3416,8 +3416,8 @@
             "name": "GI Floor 4: Clinker's Cavern Green Room Egg Nest 2"
           },
           {
-            "ref": "Grunty Industries 4th Floor - Past the Crushers/Clinker's Cavern/Raising Scaffolding Room Bottom Egg Nest & Knuckles",
-            "name": "GI Floor 4: Clinker's Cavern Raising Scaffolding Room Bottom Egg Nest & Knuckles"
+            "ref": "Grunty Industries 4th Floor - Past the Crushers/Clinker's Cavern/Raising Scaffolding Room Bottom Egg Nest",
+            "name": "GI Floor 4: Clinker's Cavern Raising Scaffolding Room Bottom Egg Nest"
           },
           {
             "ref": "Grunty Industries 4th Floor - Past the Crushers/Clinker's Cavern/Valve Room Egg Nest",
@@ -4305,12 +4305,7 @@
         "sections": [
           {
             "name": "Hag 1 Defeated",
-            "access_rules": [
-              "logictype_b, cka, clawbts, $pack_whack, bblaster, $canShootEggs|ceggs, $canShootLinearEgg, ttrot, tjump", "logictype_b, cka, clawbts, $sack_pack, bblaster, $canShootEggs|ceggs, $canShootLinearEgg, ttrot, tjump", "logictype_b, cka, clawbts, $shack_pack, bblaster, $canShootEggs|ceggs, $canShootLinearEgg, ttrot, tjump",
-              "logictype_n, cka, clawbts, $pack_whack, bblaster, $canShootEggs|ceggs, $canShootLinearEgg, ttrot, tjump", "logictype_n, cka, clawbts, $sack_pack, bblaster, $canShootEggs|ceggs, $canShootLinearEgg, ttrot, tjump", "logictype_n, cka, clawbts, $shack_pack, bblaster, $canShootEggs|ceggs, $canShootLinearEgg, ttrot, tjump",
-              "logictype_a, cka, clawbts, $pack_whack, bblaster, $canShootEggs|ceggs", "logictype_a, cka, clawbts, $sack_pack, bblaster, $canShootEggs|ceggs", "logictype_a, cka, clawbts, $shack_pack, bblaster, $canShootEggs|ceggs",
-              "logictype_g, cka, clawbts, $pack_whack, bblaster, $canShootEggs|ceggs", "logictype_g, cka, clawbts, $sack_pack, bblaster, $canShootEggs|ceggs", "logictype_g, cka, clawbts, $shack_pack, bblaster, $canShootEggs|ceggs", "logictype_g, cka, geggs, eggaim, $pack_whack, bblaster, $canShootEggs|ceggs", "logictype_g, cka, geggs, eggaim, $sack_pack, bblaster, $canShootEggs|ceggs", "logictype_g, cka, geggs, eggaim, $shack_pack, bblaster, $canShootEggs|ceggs"
-            ]
+            "access_rules": ["$check_hag1_options"]
           }
         ],
         "map_locations": [
@@ -12621,28 +12616,28 @@
             "chest_unopened_img": "/images/locations/feathernest.png",
             "chest_opened_img": "/images/locations/feathernest2.png",
             "visibility_rules": ["nestsanity_on"],
-            "access_rules": ["$oogle_boogles_open"]
+            "access_rules": ["$access_oogle_boogle"]
           },
           {
             "name": "Feather Nest 2",
             "chest_unopened_img": "/images/locations/feathernest.png",
             "chest_opened_img": "/images/locations/feathernest2.png",
             "visibility_rules": ["nestsanity_on"],
-            "access_rules": ["$oogle_boogles_open"]
+            "access_rules": ["$access_oogle_boogle"]
           },
           {
             "name": "Egg Nest 1",
             "chest_unopened_img": "/images/locations/eggnest.png",
             "chest_opened_img": "/images/locations/eggnest2.png",
             "visibility_rules": ["nestsanity_on"],
-            "access_rules": ["$oogle_boogles_open"]
+            "access_rules": ["$access_oogle_boogle"]
           },
           {
             "name": "Egg Nest 2",
             "chest_unopened_img": "/images/locations/eggnest.png",
             "chest_opened_img": "/images/locations/eggnest2.png",
             "visibility_rules": ["nestsanity_on"],
-            "access_rules": ["$oogle_boogles_open"]
+            "access_rules": ["$access_oogle_boogle"]
           }
         ],
         "map_locations": [
@@ -13491,7 +13486,7 @@
             "name": "Terry's Kids Jiggy (Hatch Eggs Around Map)",
             "chest_unopened_img": "/images/locations/jiggy.png",
             "chest_opened_img": "/images/locations/jiggy2.png",
-            "access_rules": [ "$can_beat_terry, $hatch, $taxi_pack, $oogle_boogles_open, fpad, climb, $springPad" ]
+            "access_rules": [ "$can_beat_terry, $hatch, $taxi_pack, $access_oogle_boogle, fpad, climb, $springPad" ]
           }
         ],
         "map_locations": [
@@ -15019,7 +15014,7 @@
             "visibility_rules": ["nestsanity_on"]
           },
           {
-            "name": "Raising Scaffolding Room Bottom Egg Nest & Knuckles",
+            "name": "Raising Scaffolding Room Bottom Egg Nest",
             "chest_unopened_img": "/images/locations/eggnest.png",
             "chest_opened_img": "/images/locations/eggnest2.png",
             "visibility_rules": ["nestsanity_on"]
