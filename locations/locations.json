@@ -12974,7 +12974,7 @@
             "name": "Exit Feather Nest",
             "chest_unopened_img": "/images/locations/feathernest.png",
             "chest_opened_img": "/images/locations/feathernest2.png",
-            "access_rules": ["@Terrydactyland - Stomping Plains"]
+            "access_rules": ["@Terrydactyland - Main Area, $can_reach_stomping_plains"]
           }
         ],
         "map_locations": [
