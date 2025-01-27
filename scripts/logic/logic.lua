@@ -1050,7 +1050,7 @@ end
 
 function F2_to_F3()
     if logictype.CurrentStage == 0 then
-        return (has("fflip") and has("ggrab") and has("clawbs") and has("climb"))
+        return (has("fflip") and has("ggrab") and has("clawbts") and has("climb"))
     elseif logictype.CurrentStage <= 2 then
         return ((has("fflip") and has("ggrab") or veryLongJump()) and has("clawbts") and has("climb")) or leg_spring() and floor_2_split_up()
     else
