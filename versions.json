@@ -1,6 +1,17 @@
 {
 	"versions": [
 		{
+			"package_version": "0.8.0",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.8.0",
+			"sha256": "7a4dcf164f232e86470d6866fbb232e94467969fba34825917de244a1c4afccd",
+			"changelog": [
+				"Updated logic for v4.2 of Banjo-Tooie AP.",
+				"Added support for new features: Randomized Signposts, Boss Hunt + HAG1 victory condition.",
+				"Logic fixes found by the community, especially Stomping Plains.",
+				"Hint highlighting for nest locations should now work."
+			]
+		},
+		{
 			"package_version": "0.7.6",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.7.6",
 			"sha256": "7dbb03e2e34dcdbaeed3e7f4b33e4b951e0e72cabda5a4bcd5aa5438ffd69191",
