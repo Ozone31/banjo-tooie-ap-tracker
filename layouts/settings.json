@@ -40,10 +40,11 @@
                 "randomizeworlds",
                 "backdoorsopen",
                 "nestsanity",
-                "goal",
-                "automap"
+                "signposts",
+                "goal"
               ],
               [
+                "automap",
                 "logictype"
               ]
             ]

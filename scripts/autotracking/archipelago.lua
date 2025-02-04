@@ -45,6 +45,8 @@ silo_shpack = 640
 silo_glide = 660
 silo_sapack = 765
 
+bosshuntlength = 8
+
 function has_value (t, val)
     for i, v in ipairs(t) do
         if v == val then return 1 end
@@ -423,6 +425,21 @@ function onClear(slot_data)
         else
             obj.CurrentStage = 0
         end
+    end
+
+    if slot_data['randomize_signposts'] then
+        local obj = Tracker:FindObjectForCode("signposts")
+        local stage = slot_data['randomize_signposts']
+        if stage == 1 then
+            obj.CurrentStage = 1
+        else
+            obj.CurrentStage = 0
+        end
+    end
+
+    if slot_data['boss_hunt_length'] then
+        local count = slot_data['boss_hunt_length']
+        bosshuntlength = count
     end
 
     --print("MT: "..load_mt)

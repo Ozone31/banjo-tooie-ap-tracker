@@ -490,6 +490,10 @@ function clockworkWarp()
     return has("ceggs") and has("geggs") and has("eggaim") and has("eggshoot")
 end
 
+function precise_clockwork_warp()
+    return clockworkWarp() and has("ttrot")
+end
+
 function extremelyLongJump()
     if logictype.CurrentStage <= 1 then
         return false
@@ -942,23 +946,29 @@ function outside_gi_back_to_floor_4()
     end
 end
 
-function outside_gi_to_floor_5() -- and can reach 4th Floor or humbagi and can reach 2nd Floor
-    return outside_gi_to_outside_back() and has("fpad")
+function outside_gi_to_floor_5()
+    return outside_gi_to_outside_back() and has("fpad") and gi_flight_pad_switch()
 end
 
-function outside_gi_back_to_floor_5() -- and can reach 4th Floor or humbagi and can reach 2nd Floor
-    return has("climb") and has("fpad")
+function gi_flight_pad_switch()
+    return Tracker:FindObjectForCode("@Grunty Industries 4th Floor").AccessibilityLevel == 6 or humbaGI()
 end
 
-function elevator_shaft_to_floor_1() -- there's a lot of region stuff
+function outside_gi_back_to_floor_5()
+    return has("climb") and has("fpad") and gi_flight_pad_switch()
+end
+
+function elevator_shaft_to_floor_1()
     if logictype.CurrentStage == 0 then
         return has("climb")
-    else
+    elseif logictype.CurrentStage == 1 then
         return has("climb") or has("bbust")
+    else
+        return has("climb") or has("bbust") or Tracker:FindObjectForCode("@Grunty Industries 2nd Floor - Electromagnetic Chamber").AccessibilityLevel == 6 and em_chamber_to_elevator_shaft() or Tracker:FindObjectForCode("@Grunty Industries 3rd Floor - Boiler Plant").AccessibilityLevel == 6 and health_7() and boiler_plant_to_elevator_shaft() or Tracker:FindObjectForCode("@Grunty Industries 4th Floor - Past the Crushers").AccessibilityLevel == 6 and health_10() and floor_4_back_to_elevator_shaft()
     end
 end
 
-function elevator_shaft_to_em() -- there's a lot of region stuff
+function elevator_shaft_to_em()
     if logictype.CurrentStage <= 2 then
         return false
     else
@@ -970,11 +980,11 @@ function elevator_shaft_to_em() -- there's a lot of region stuff
     end
 end
 
-function elevator_shaft_to_boiler_plant() -- there's a lot of region stuff
+function elevator_shaft_to_boiler_plant()
     if logictype.CurrentStage <= 2 then
         return false
     else
-        return has("climb") and breegullBash()
+        return (has("climb") or Tracker:FindObjectForCode("@Grunty Industries 4th Floor - Past the Crushers").AccessibilityLevel == 6 and floor_4_back_to_elevator_shaft()) and breegullBash()
     end
 end
 
@@ -998,11 +1008,15 @@ function floor_2_em_room_to_elevator_shaft()
     return elevator_door()
 end
 
-function floor_4_back_to_elevator_shaft() -- glitched logic has a 4th floor alternative
-    return has("climb") and elevator_door()
+function floor_4_back_to_elevator_shaft()
+    if logictype.CurrentStage <= 2 then
+        return has("climb") and elevator_door()
+    else
+        return has("climb") and elevator_door() or Tracker:FindObjectForCode("@Grunty Industries 4th Floor").AccessibilityLevel == 6 and clockworkWarp() and (springPad() or has("fflip"))
+    end
 end
 
-function floor_5_to_foor_1()
+function floor_5_to_floor_1()
     if logictype.CurrentStage == 0 then
         return has("fpad") and (has("bbomb") or has("eggaim") or has("aireaim")) and (has("flutter") or has("arat"))
     elseif logictype.CurrentStage == 1 then
@@ -1013,7 +1027,7 @@ function floor_5_to_foor_1()
 end
 
 function elevator_door()
-    return has("bbarge") or has_explosives() or has("grat") or has("arat")
+    return has("bbarge") or canShootEggs("geggs") or has("grat") or has("arat")
 end
 
 function F1_to_F2()
@@ -1030,6 +1044,18 @@ function F2_to_F1()
     else
         return (has("ggrab") or has("bbust")) and has("fflip")
     end
+end
+
+function F1_to_F5()
+    if logictype.CurrentStage <= 1 then
+        return gi_low_flight_pad_solo_kazooie()
+    else
+        return gi_low_flight_pad_solo_kazooie() or has("splitup") and has("clawbts") and leg_spring() and (wing_whack() or has("eggaim")) and has("fpad")
+    end
+end
+
+function gi_low_flight_pad_solo_kazooie()
+    return has("splitup") and has("fpad") and gi_flight_pad_switch() and ((has("tjump") or leg_spring()) and Tracker:FindObjectForCode("@Grunty Industries 1st Floor").AccessibilityLevel == 6 or leg_spring() and Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel == 6)
 end
 
 function floor_2_to_em_room()
@@ -1102,12 +1128,28 @@ function escape_floor_4_bk()
     end
 end
 
+function floor_3_to_floor_5()
+    return leg_spring() and has("fpad") and solo_kazooie_gi() and gi_flight_pad_switch()
+end
+
 function floor_4_to_floor_4_back()
     if logictype.CurrentStage <= 2 then
         return mumboGI() and has("tjump")
     else
-        return (mumboGI() and has("tjump")) or (has("tjump") and pack_whack()) or (clockworkWarp() and (springPad() or has("fflip")))
+        return (mumboGI() and has("tjump")) or (has("tjump") and pack_whack()) or (precise_clockwork_warp() and (springPad() or has("fflip")))
     end
+end
+
+function floor_4_to_floor_5()
+    if logictype.CurrentStage == 0 then
+        return false
+    else
+        return leg_spring() and has("fpad") and solo_kazooie_gi()
+    end
+end
+
+function floor_4_to_floor_3()
+    return escape_floor_4_bk() or leg_spring() and (canDoSmallElevation() or solo_kazooie_gi())
 end
 
 function floor_5_to_boiler_plant()
@@ -1172,8 +1214,18 @@ function pink_mystery_egg()
     return (canShootEggs("geggs") or (has("aireaim") and has("geggs"))) and has("fpad")
 end
 
+function notes_plateau_sign()
+    if logictype.CurrentStage == 0 then
+        return has("ggrab") and has("fflip")
+    elseif logictype.CurrentStage == 1 then
+            return (has("ggrab") or has("bbust")) and has("fflip") or leg_spring() or has("splitup") and has("tjump") or glide()
+    else
+        return ((has("ggrab") or has("bbust")) and has("fflip")) or clockwork_shot() or leg_spring() or has("splitup") and has("ggrab") or has("splitup") and has("tjump") or glide()
+    end
+end
+
 function check_hag1_options()
-    if (has("goal_hag1") and (has("openhag1_on") or has("jiggy, 70"))) or (has("goal_wwing") and has("mumbotoken, 32")) then
+    if (has("goal_hag1") and (has("openhag1_on") or has("jiggy, 70"))) or (has("goal_wwing") and has("mumbotoken", 32)) or (has("goal_bosshag1") and has("mumbotoken", bosshuntlength)) then
         if logictype.CurrentStage == 0 then
             return (pack_whack() or sack_pack() or shack_pack()) and has("bblaster") and canShootEggs("ceggs") and canShootLinearEgg() and (has("ttrot") and has("tjump"))
         elseif logictype.CurrentStage == 1 then
@@ -1242,6 +1294,14 @@ function prison_compound_open()
     return has_explosives() or has("mumbomt")
 end
 
+function glowbo_JSG()
+    if logictype.CurrentStage <= 2 then
+        return has("mumbomt")
+    else
+        return glitchedJSGAccess()
+    end
+end
+
 -- Glitter Gulch Mine
 
 function gm_jiggy10()
@@ -1260,7 +1320,7 @@ function jiggy_generator_cavern()
     elseif logictype.CurrentStage == 1 then
         return (longJump() and (has("fflip") or has("ttrot")) and (has_fire() or billDrill())) or has("fflip") and has("bbust") and has("climb") or GM_boulders() and leg_spring() and canShootEggs("feggs") or GM_boulders() and has("tjump") and pack_whack() and has("climb")
     else
-        return longJump() and (has("fflip") or has("ttrot")) or has("fflip") and has("bbust") and has("climb") or clockwork_shot() or GM_boulders() and has("tjump") and pack_whack() and has("climb") or GM_boulders() and leg_spring()
+        return (longJump() and (has("fflip") or has("ttrot"))) or has("fflip") and has("bbust") or clockwork_shot() or GM_boulders() and has("tjump") and pack_whack() and has("climb") or GM_boulders() and leg_spring() or has("bbust") and has("ggrab")
     end
 end
 
@@ -1283,7 +1343,7 @@ function ww_jiggy2()
         return humbaWW() and mumboWW()
     else
         if speedupminigames.CurrentStage == 0 then
-            return (humbaWW() and mumboWW()) or (clockworkWarp())
+            return (humbaWW() and mumboWW()) or (precise_clockwork_warp())
         else
             return humbaWW() and mumboWW()
         end
@@ -1356,11 +1416,11 @@ function jr_jiggy4()
     if logictype.CurrentStage == 0 then
         return HFP_hot_water_cooled() and jrl_waste_disposal() and has("fflip") and (has_explosives() or has("bbarge"))
     elseif logictype.CurrentStage == 1 then
-        return HFP_hot_water_cooled() and jrl_waste_disposal() and (has("fflip") or has("tjump") and has("bbust") or has("ttrot") and has("flutter") and has("bbust")) and (has_explosives() or has("bbarge"))
+        return HFP_hot_water_cooled() and jrl_waste_disposal() and (has("fflip") or has("tjump") and has("bbust") or has("ttrot") and has("flutter") and has("bbust")) and (has_explosives() or has("bbarge") or dragon_kazooie() and has("grat"))
     elseif logictype.CurrentStage == 2 then
-        return HFP_hot_water_cooled() and jrl_waste_disposal() and ((has("fflip") or has("tjump") and has("bbust") or has("ttrot") and has("flutter") and has("bbust") or has("tjump") and has("flutter") or extremelyLongJump()) and (has_explosives() or has("bbarge")) or clockwork_shot())
+        return HFP_hot_water_cooled() and jrl_waste_disposal() and ((has("fflip") or has("tjump") and has("bbust") or has("ttrot") and has("flutter") and has("bbust") or has("tjump") and has("flutter") or extremelyLongJump()) and (has_explosives() or has("bbarge") or dragon_kazooie() and has("grat")) or clockwork_shot())
     else
-        return HFP_hot_water_cooled() and jrl_waste_disposal() and ((has("fflip") or has("tjump") and has("bbust") or has("ttrot") and has("flutter") and has("bbust")) and (has_explosives() or has("bbarge")) or clockwork_shot())
+        return HFP_hot_water_cooled() and jrl_waste_disposal() and ((has("fflip") or has("tjump") and has("bbust") or has("ttrot") and has("flutter") and has("bbust")) and (has_explosives() or has("bbarge") or dragon_kazooie() and has("grat")) or clockwork_shot())
     end
 end
 
@@ -1412,8 +1472,8 @@ function td_jinjo2()
     end
 end
 
-function td_jiggy2() -- Need CCL access
-    return has("ttorp") and has("dive")
+function td_jiggy2()
+    return has("ttorp") and Tracker:FindObjectForCode("@Cloud Cuckooland - Outside").AccessibilityLevel == 6 and has("dive")
 end
 
 function td_jiggy8()
@@ -1508,6 +1568,24 @@ function access_oogle_boogle()
     end
 end
 
+function nest_mountain_underwater()
+    if logictype.CurrentStage == 0 then
+        return has("dive")
+    else
+        return has("dive") or humbaTDL()
+    end
+end
+
+function treble_tdl()
+    if logictype.CurrentStage == 0 then
+        return ((has("fflip") and has("ggrab")) or TDLFlightPad()) and billDrill()
+    elseif logictype.CurrentStage <= 2 then
+        return ((has("fflip") and (has("ggrab") or has("bbust"))) or TDLFlightPad()) and billDrill()
+    else
+        return ((has("fflip") and (has("ggrab") or has("bbust"))) or TDLFlightPad()) and (billDrill() or egg_barge() or has("grat")) or humbaTDL() and mumboTDL()
+    end
+end
+
 -- Grunty Industries
 
 function solo_kazooie_gi()
@@ -1556,17 +1634,17 @@ function jiggy_guarded()
     if logictype.CurrentStage == 0 then
         return has("splitup") and has("clawbts") and has("eggaim") and (canShootEggs("begg") or canShootEggs("feggs") or canShootEggs("geggs")) and (springPad() or wing_whack() or glide())
     elseif logictype.CurrentStage == 1 then
-        if Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel == 6 then
-            return has("splitup") and (springPad() or has("clawbts") and (wing_whack() or glide()) and (has("eggaim") or wing_whack())) and (canShootEggs("begg") or canShootEggs("feggs") or canShootEggs("geggs"))
-        else
-            return has("splitup") and (has("clawbts") and springPad() or has("clawbts") and (wing_whack() or glide()) and (has("eggaim") or wing_whack())) and (canShootEggs("begg") or canShootEggs("feggs") or canShootEggs("geggs"))
-        end
+        return has("splitup") and ((has("clawbts") or Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel == 6) and springPad() or has("clawbts") and (wing_whack() or glide()) and (has("eggaim") or wing_whack()) or leg_spring() and glide() and (has("eggaim") or wing_whack())) and (canShootEggs("begg") or canShootEggs("feggs") or canShootEggs("geggs"))
     else
-        if Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel == 6 then
-            return has("splitup") and (springPad() or has("clawbts") and (wing_whack() or glide()) and (has("eggaim") or wing_whack())) and (canShootEggs("begg") or canShootEggs("feggs") or canShootEggs("geggs")) or has("clawbts") and (springPad() or leg_spring()) and clockwork_shot()
-        else
-            return has("splitup") and (has("clawbts") and springPad() or has("clawbts") and (wing_whack() or glide()) and (has("eggaim") or wing_whack())) and (canShootEggs("begg") or canShootEggs("feggs") or canShootEggs("geggs")) or has("clawbts") and (springPad() or leg_spring()) and clockwork_shot()
-        end
+        return has("splitup") and ((has("clawbts") or Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel == 6) and springPad() or has("clawbts") and (wing_whack() or glide()) and (has("eggaim") or wing_whack()) or leg_spring() and glide() and (has("eggaim") or wing_whack())) and (canShootEggs("begg") or canShootEggs("feggs") or canShootEggs("geggs")) or (has("clawbts") or Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel == 6) and (springPad() or leg_spring()) and clockwork_shot()
+    end
+end
+
+function jiggy_clinkers()
+    if logictype.CurrentStage <= 2 then
+        return has("clawbts") and has("bblaster") and has("climb")
+    else
+        return has("clawbts") and has("bblaster") and (precise_clockwork_warp() and (springPad() or has("fflip")) or Tracker:FindObjectForCode("@Grunty Industries Elevator Shaft").AccessibilityLevel == 6 and elevator_shaft_to_floor_4() or has("climb"))
     end
 end
 
@@ -1849,27 +1927,11 @@ end
 
 function nest_funny_platform()
     if logictype.CurrentStage == 0 then
-        if Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel == 6 then
-            return has("clawbts") and has("fflip") and has("ggrab")
-        else
-            return false
-        end
+        return Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel == 6 and has("clawbts") and has("fflip") and has("ggrab")
     elseif logictype.CurrentStage == 1 then
-        if Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel == 6 and (has("clawbts") and has("fflip") and has("ggrab") or solo_kazooie_gi() and (leg_spring() or has("clawbts") and (canShootEggs() or wing_whack())) and glide()) then
-            return true
-        elseif Tracker:FindObjectForCode("@Grunty Industries 3rd Floor").AccessibilityLevel == 6 and (has("climb") and (veryLongJump() or (has("fflip") or has("tjump"))) and has("ggrab") or canDoSmallElevation() and has("splitup") and leg_spring() and glide()) then
-            return true
-        else
-            return false
-        end
+        return Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel == 6 and has("clawbts") and (has("fflip") and has("ggrab")) or Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel == 6 and solo_kazooie_gi() and (leg_spring() or has("clawbts") and (canShootEggs() or wing_whack())) and glide() or Tracker:FindObjectForCode("@Grunty Industries 3rd Floor").AccessibilityLevel == 6 and has("climb") and (veryLongJump() or has("fflip") or has("tjump")) and has("ggrab") or Tracker:FindObjectForCode("@Grunty Industries 3rd Floor").AccessibilityLevel == 6 and canDoSmallElevation() and has("splitup") and leg_spring() and glide()
     else
-        if Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel == 6 and (has("clawbts") and ((has("fflip") and has("ggrab")) or has("ttrot") and (has("flutter") or has("arat"))) or solo_kazooie_gi() and (leg_spring() or has("clawbts") and (canShootEggs() or wing_whack()))) then
-            return true
-        elseif Tracker:FindObjectForCode("@Grunty Industries 3rd Floor").AccessibilityLevel == 6 and (has("climb") and (veryLongJump() or (has("fflip") or has("tjump"))) and has("ggrab") or canDoSmallElevation() and has("splitup") and leg_spring() and glide()) then
-            return true
-        else
-            return clockwork_shot()
-        end
+        return Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel == 6 and has("clawbts") and ((has("fflip") and has("ggrab")) or has("ttrot") and (has("flutter") or has("arat"))) or Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel == 6 and solo_kazooie_gi() and (leg_spring() or has("clawbts") and (canShootEggs() or wing_whack())) and glide() or Tracker:FindObjectForCode("@Grunty Industries 3rd Floor").AccessibilityLevel == 6 and has("climb") and (veryLongJump() or has("fflip") or has("tjump")) and has("ggrab") or Tracker:FindObjectForCode("@Grunty Industries 3rd Floor").AccessibilityLevel == 6 and canDoSmallElevation() and has("splitup") and leg_spring() and glide() or clockwork_shot()
     end
 end
 
@@ -1918,6 +1980,26 @@ function jiggy_trash_compactor()
         return snooze_pack() or pack_whack() and has("tjump")
     else
         return snooze_pack() or pack_whack() and has("tjump") or (has("eggaim") and has("ceggs") and breegullBash() and has("ttrot"))
+    end
+end
+
+function glowbo_floor_3()
+    if logictype.CurrentStage <= 1 then
+        return canReachSlightlyElevatedLedge() or canDoSmallElevation() and leg_spring()
+    else
+        return canReachSlightlyElevatedLedge() or clockwork_shot() or canDoSmallElevation() and leg_spring()
+    end
+end
+
+function jiggy_quality_control()
+    if logictype.CurrentStage == 0 then
+        return has("geggs") and has("eggaim") and can_use_battery() and humbaGI() and has("climb")
+    elseif logictype.CurrentStage == 1 then
+        return has("geggs") and ((has("eggaim") and humbaGI() or leg_spring())) and can_use_battery() and has("climb")
+    elseif logictype.CurrentStage == 2 then
+        return has("geggs") and can_use_battery() and has("climb") and (has("tjump") or leg_spring() or humbaGI() and has("eggaim") or clockwork_shot())
+    else
+        return has("geggs") and can_use_battery() and has("climb") and (has("tjump") or leg_spring() or humbaGI() and has("eggaim") or clockwork_shot()) or precise_clockwork_warp()
     end
 end
 
@@ -2077,9 +2159,13 @@ end
 
 function nest_icy_side_train_station_hard()
     if logictype.CurrentStage == 0 and Tracker:FindObjectForCode("@Witchyworld - Main Area").AccessibilityLevel == 6 then
-        return can_beat_king_coal() and canShootEggs("geggs") and has("trainswhp1") and has("trainswhp2") and has("eggaim") and has("fpad") and has("dive")
-    elseif Tracker:FindObjectForCode("@Witchyworld - Main Area").AccessibilityLevel == 6 then
-        return can_beat_king_coal() and canShootEggs("geggs") and has("trainswhp1") and has("trainswhp2") and has("fpad") and (has("bbust") or has("dive"))
+        return can_beat_king_coal() and canShootEggs("geggs") and has("trainswhp1") and has("trainswhp2") and has("eggaim") and has("fpad") and has("climb") and has("bbust")
+    elseif logictype.CurrentStage == 1 and Tracker:FindObjectForCode("@Witchyworld - Main Area").AccessibilityLevel == 6 then
+        return can_beat_king_coal() and canShootEggs("geggs") and has("trainswhp1") and has("trainswhp2") and has("fpad") and has("climb") and has("bbust")
+    elseif logictype.CurrentStage == 2 and Tracker:FindObjectForCode("@Witchyworld - Main Area").AccessibilityLevel == 6 then
+        return can_beat_king_coal() and canShootEggs("geggs") and has("trainswhp1") and has("trainswhp2") and has("fpad") and has("bbust") and (has("climb") or clockwork_shot())
+    elseif logictype.CurrentStage == 3 then
+        return can_beat_king_coal() and canShootEggs("geggs") and has("trainswhp1") and has("trainswhp2") and Tracker:FindObjectForCode("@Witchyworld - Main Area").AccessibilityLevel == 6 and has("fpad") and has("bbust") and (has("climb") or clockwork_shot()) or (clockwork_shot() and canDoSmallElevation())
     else
         return false
     end
@@ -2158,10 +2244,10 @@ end
 -- Mayahem Temple Nests
 
 function nest_pillars()
-    if logictype.CurrentStage == 0 then
-        return has("dive") or has("fflip") and has("tjump") and prison_compound_open()
+    if logictype.CurrentStage <= 1 then
+        return (has("dive") or canReachSlightlyElevatedLedge() and has("tjump")) and prison_compound_open()
     else
-        return (has("dive") or has("fflip") or has("bbust")) and prison_compound_open()
+        return (has("dive") or canReachSlightlyElevatedLedge() or has("bbust") or clockwork_shot()) and prison_compound_open()
     end
 end
 
@@ -2317,7 +2403,7 @@ function nest_tdl_waterfall_alcove()
     elseif logictype.CurrentStage == 2 then
         return has("fflip") and has("ggrab") or has("flutter") or has("arat") or has("splitup") or humbaTDL() and has("roar") or clockwork_shot() or has("ttrot") or has("ttrain") or has("springb")
     else
-        return has("fflip") and has("ggrab") or has("flutter") or has("arat") or has("splitup") or humbaTDL() and has("roar") or clockwork_shot() or has("ttrot") or has("ttrain") or has("springb") or tdl_top()
+        return has("fflip") and has("ggrab") or has("flutter") or has("arat") or has("splitup") or humbaTDL() and has("roar") or clockwork_shot() or has("ttrot") or has("ttrain") or has("springb") or tdl_top() or humbaTDL() and mumboTDL()
     end 
 end
 
@@ -2441,7 +2527,7 @@ function nest_outside_QC()
     elseif logictype.CurrentStage == 2 then
         return has("climb") or pack_whack() and has("tjump") or has("splitup") and (leg_spring() or springPad())
     else
-        return has("climb") or pack_whack() and has("tjump") or has("splitup") and (leg_spring() or springPad()) or clockworkWarp() and (springPad() or has("fflip"))
+        return has("climb") or pack_whack() and has("tjump") or has("splitup") and (leg_spring() or springPad()) or precise_clockwork_warp() and (springPad() or has("fflip"))
     end
 end
 
@@ -2449,7 +2535,7 @@ function nest_quality_control()
     if logictype.CurrentStage <= 2 then
         return can_use_battery() and has("climb")
     else
-        return can_use_battery() and has("climb") or clockworkWarp() and (springPad() or has("fflip"))
+        return can_use_battery() and has("climb") or precise_clockwork_warp() and (springPad() or has("fflip"))
     end
 end
 
@@ -2561,11 +2647,11 @@ function nest_inside_trash_can()
     if logictype.CurrentStage == 0 then
         return has("fpad") and leg_spring()
     elseif logictype.CurrentStage == 1 then
-        return has("climb") and has("splitup") and shack_pack() and pack_whack() or (has("fpad") or glide() or (leg_spring() and wing_whack())) and leg_spring()
+        return has("climb") and shack_pack() and pack_whack() or has("splitup") and (has("fpad") or glide() or (leg_spring() and wing_whack())) and leg_spring()
     elseif logictype.CurrentStage == 2 then
-        return has("climb") and has("splitup") and shack_pack() and (pack_whack() or has("tjump") and has("ggrab")) or (has("fpad") or (has("splitup") and (glide() or leg_spring() and wing_whack()))) and (has("splitup") and (leg_spring() or has("tjump") and glide()) or clockwork_shot())
+        return has("climb") and shack_pack() and (pack_whack() or has("tjump") and has("ggrab")) or has("splitup") and (has("fpad") or glide() or (leg_spring() and wing_whack())) and (leg_spring() or (glide() and has("tjump") and has("ggrab") or clockwork_shot()))
     else
-        return has("climb") and has("splitup") and shack_pack() and (pack_whack() or has("tjump") and has("ggrab")) or (has("fpad") or (has("splitup") and (glide() or leg_spring() and wing_whack()))) and (has("splitup") and (leg_spring() or has("tjump") and glide()) or clockwork_shot()) or has("fpad") and clockworkWarp() and has("climb")
+        return has("climb") and shack_pack() and (pack_whack() or has("tjump") and has("ggrab")) or has("splitup") and (has("fpad") or glide() or (leg_spring() and wing_whack())) and (leg_spring() or (glide() and has("tjump") and has("ggrab") or clockwork_shot())) or has("fpad") and clockworkWarp() and has("climb")
     end
 end
 
@@ -2586,6 +2672,122 @@ function nest_pot_of_gold()
         return mumboCCL() and (has("fflip") or leg_spring() or has("fpad"))
     else
         return (mumboCCL() and (has("fflip") or leg_spring() or has("fpad")) or (leg_spring() or (has("splitup") and has("tjump"))) and has("fpad") and has("bbomb"))
+    end
+end
+
+-- Signposts
+
+function signpost_jiggywiggy_back()
+    if logictype.CurrentStage == 0 then
+        return canDoSmallElevation()
+    else
+        return canDoSmallElevation() or has("flutter") or has("arat") or has("bbust")
+    end
+end
+
+function signpost_code_chamber()
+    if logictype.CurrentStage <= 2 then
+        return has("mumbomt") and has("ggrab") and has("ttrot") and has("fflip")
+    else
+        return glitchedJSGAccess() and has("ggrab") and has("ttrot") and has("fflip")
+    end
+end
+
+function signpost_gloomy_cavern()
+    if logictype.CurrentStage == 0 then
+        return GM_boulders() and (canDoSmallElevation() or has("splitup"))
+    else
+        return GM_boulders()
+    end
+end
+
+function signpost_chuffy()
+    if logictype.CurrentStage == 0 then
+        return Tracker:FindObjectForCode("@Glitter Gulch Mine - Main Area").AccessibilityLevel == 6 and has("fflip") or Tracker:FindObjectForCode("@Witchyworld - Main Area").AccessibilityLevel == 6 and has("trainswww") and has("chuffy") or Tracker:FindObjectForCode("@Terrydactyland - Main Area").AccessibilityLevel == 6 and has("trainswtd") and has("chuffy") or Tracker:FindObjectForCode("@Grunty Industries 1st Floor").AccessibilityLevel == 6 and has("trainswgi") and has("chuffy") or Tracker:FindObjectForCode("@Cliff Top").AccessibilityLevel == 6 and has("trainswih") and has("chuffy")
+    else
+        return Tracker:FindObjectForCode("@Glitter Gulch Mine - Main Area").AccessibilityLevel == 6 and has("fflip") or Tracker:FindObjectForCode("@Witchyworld - Main Area").AccessibilityLevel == 6 and has("trainswww") and has("chuffy") or Tracker:FindObjectForCode("@Terrydactyland - Main Area").AccessibilityLevel == 6 and has("trainswtd") and has("chuffy") or Tracker:FindObjectForCode("@Grunty Industries 1st Floor").AccessibilityLevel == 6 and has("trainswgi") and has("chuffy") or Tracker:FindObjectForCode("@Cliff Top").AccessibilityLevel == 6 and has("trainswih") and has("chuffy") or Tracker:FindObjectForCode("@Hailfire Peaks - Lava Side").AccessibilityLevel == 6 and has("trainswhp1") and has("chuffy") and hfpTop() and (leg_spring() or has("tjump") and pack_whack() or has("fflip") or has("clawbts") or has("fpad"))
+    end
+end
+
+function signpost_pump_master()
+    return (has("fflip") or leg_spring() or has("splitup") and has("ggrab")) and has_explosives()
+end
+
+function signpost_gobi()
+    if logictype.CurrentStage == 0 then
+        return has("geggs") and has("eggaim")
+    else
+        return canShootEggs("geggs")
+    end
+end
+
+function signpost_smugglers()
+    return has_explosives() or has("dive")
+end
+
+function signpost_jrl_pipes()
+    if logictype.CurrentStage == 0 then
+        return (has_explosives() or billDrill()) and has("ggrab") and springPad() and has("ttrot")
+    else
+        return ((has_explosives() or billDrill()) and has("ggrab") and springPad() and has("ttrot")) or (has_explosives() and springPad() and (glide() or leg_spring()))
+    end
+end
+
+function signpost_trex()
+    if logictype.CurrentStage <= 2 then
+        return humbaTDL() and has("roar")
+    else
+        return humbaTDL() and has("roar") or clockworkWarp()
+    end
+end
+
+function signpost_mountain_top()
+    if logictype.CurrentStage == 0 then
+        return (has("tjump") or has("ggrab")) and has("fpad") or tdl_top()
+    else
+        return has("fpad") and (has("tjump") or has("ggrab") or has("bbust") or leg_spring() and glide() or tdl_top() and has("splitup")) or tdl_top()
+    end
+end
+
+function signpost_river_passage()
+    if logictype.CurrentStage == 0 then
+        return has("tjump") and has("ggrab")
+    elseif logictype.CurrentStage == 1 then
+        return has("tjump") and has("ggrab") or leg_spring() and glide() or pack_whack() and has("ggrab")
+    else
+        return has("tjump") and has("ggrab") or leg_spring() and glide() or pack_whack() and has("ggrab") or sack_pack() and has("tjump")
+    end
+end
+
+function signpost_gi_outside()
+    if logictype.CurrentStage == 0 then
+        return Tracker:FindObjectForCode("@Outside Grunty Industries").AccessibilityLevel == 6 and outside_gi_to_outside_back() or Tracker:FindObjectForCode("@Outside Grunty Industries - Behind the building").AccessibilityLevel == 6 and has("climb")
+    else
+        return Tracker:FindObjectForCode("@Outside Grunty Industries").AccessibilityLevel == 6 and outside_gi_to_outside_back() or Tracker:FindObjectForCode("@Outside Grunty Industries - Behind the building").AccessibilityLevel == 6 and has("climb") or Tracker:FindObjectForCode("@Grunty Industries 1st Floor").AccessibilityLevel == 6 and (has("splitup") and has("tjump") or leg_spring()) or Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel == 6 and (floor_2_split_up() and (has("tjump") or leg_spring())) or Tracker:FindObjectForCode("@Grunty Industries Roof").AccessibilityLevel == 6
+    end
+end
+
+function signpost_elevator_shaft()
+    if logictype.CurrentStage == 0 then
+        return has("climb") and has("tjump") and (has("flutter") or has("arat"))
+    else
+        return canShootEggs("climb") and (has("flutter") or has("arat") or has("tjump") and has("bbust"))
+    end
+end
+
+function signpost_ccl_underwater()
+    if logictype.CurrentStage == 0 then
+        return has("dive")
+    else
+        return has("dive") or shack_pack()
+    end
+end
+
+function signpost_pool_rim()
+    if logictype.CurrentStage == 0 then
+        return has("fflip") and has("ggrab")
+    else
+        return true
     end
 end
 

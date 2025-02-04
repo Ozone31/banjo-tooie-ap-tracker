@@ -318,6 +318,10 @@
           {
             "ref": "Jinjo Village/Bottles' House/Bottles' House Feather Nest 2",
             "name": "IoH: Bottles' House Feather Nest 2"
+          },
+          {
+            "ref": "Jinjo Village/IoH: Grey Jinjo Family House Signpost/Signpost",
+            "name": "IoH: Grey Jinjo Family House Signpost"
           }
         ],
         "map_locations": [
@@ -382,6 +386,58 @@
           {
             "ref": "Wooded Hollow/IoH: Wooded Hollow Outside Bottles' House Feather Nests/Feather Nest 2",
             "name": "IoH: Wooded Hollow Outside Bottles' House Feather Nest 2"
+          },
+          {
+            "ref": "Wooded Hollow/IoH: Outside Heggy's Egg Shed Signpost/Signpost",
+            "name": "IoH: Outside Heggy's Egg Shed Signpost"
+          },
+          {
+            "ref": "Wooded Hollow/IoH: Behind Jiggywiggy's Temple Signposts/Signpost 1",
+            "name": "IoH: Behind Jiggywiggy's Temple Signpost 1"
+          },
+          {
+            "ref": "Wooded Hollow/IoH: Behind Jiggywiggy's Temple Signposts/Signpost 2",
+            "name": "IoH: Behind Jiggywiggy's Temple Signpost 2"
+          },
+          {
+            "ref": "Wooded Hollow/IoH: Behind Jiggywiggy's Temple Signposts/Signpost 3",
+            "name": "IoH: Behind Jiggywiggy's Temple Signpost 3"
+          },
+          {
+            "ref": "Wooded Hollow/IoH: Wooded Hollow Path to Plateau Signpost/Signpost",
+            "name": "IoH: Wooded Hollow Path to Plateau Signpost"
+          },
+          {
+            "ref": "Wooded Hollow/Jiggywiggy's Temple/Signpost 1",
+            "name": "IoH: Jiggywiggy's Temple Signpost 1"
+          },
+          {
+            "ref": "Wooded Hollow/Jiggywiggy's Temple/Signpost 2",
+            "name": "IoH: Jiggywiggy's Temple Signpost 2"
+          },
+          {
+            "ref": "Wooded Hollow/Jiggywiggy's Temple/Signpost 3",
+            "name": "IoH: Jiggywiggy's Temple Signpost 3"
+          },
+          {
+            "ref": "Wooded Hollow/Jiggywiggy's Temple/Signpost 4",
+            "name": "IoH: Jiggywiggy's Temple Signpost 4"
+          },
+          {
+            "ref": "Wooded Hollow/Jiggywiggy's Temple/Signpost 5",
+            "name": "IoH: Jiggywiggy's Temple Signpost 5"
+          },
+          {
+            "ref": "Wooded Hollow/Jiggywiggy's Temple/Signpost 6",
+            "name": "IoH: Jiggywiggy's Temple Signpost 6"
+          },
+          {
+            "ref": "Wooded Hollow/Jiggywiggy's Temple/Signpost 7",
+            "name": "IoH: Jiggywiggy's Temple Signpost 7"
+          },
+          {
+            "ref": "Wooded Hollow/Jiggywiggy's Temple/Signpost 8",
+            "name": "IoH: Jiggywiggy's Temple Signpost 8"
           }
         ],
         "map_locations": [
@@ -534,6 +590,18 @@
           {
             "ref": "Pine Grove/Wumba's Wigwam/Egg Nest 2",
             "name": "IoH: Wumba's Wigwam Egg Nest 2"
+          },
+          {
+            "ref": "Pine Grove/IoH: Pine Grove Signposts/Signpost 1",
+            "name": "IoH: Pine Grove Signpost 1"
+          },
+          {
+            "ref": "Pine Grove/IoH: Pine Grove Signposts/Signpost 2",
+            "name": "IoH: Pine Grove Signpost 2"
+          },
+          {
+            "ref": "Pine Grove/IoH: Pine Grove Signposts/Signpost 3",
+            "name": "IoH: Pine Grove Signpost 3"
           }
         ],
         "map_locations": [
@@ -606,6 +674,10 @@
           {
             "ref": "Cliff Top/IoH: Cliff Top Near JRL Egg Nest/Egg Nest",
             "name": "IoH: Cliff Top Near JRL Egg Nest"
+          },
+          {
+            "ref": "Cliff Top/IoH: Cliff Top Signpost/Signpost",
+            "name": "IoH: Cliff Top Signpost"
           }
         ],
         "map_locations": [
@@ -674,6 +746,10 @@
           {
             "ref": "Wasteland/IoH: Wasteland Near Digger Tunnel Egg Nests/Egg Nest 3",
             "name": "IoH: Wasteland Near Digger Tunnel Egg Nest 3"
+          },
+          {
+            "ref": "Wasteland/IoH: Wasteland Signpost/Signpost",
+            "name": "IoH: Wasteland Signpost"
           },
           {
             "ref": "Wasteland/IoH: Another Digger Tunnel Egg Nests/Egg Nest 1",
@@ -794,6 +870,42 @@
           {
             "ref": "Mayahem Temple - Main Area/MT: Egg Aim Silo/Silo",
             "name": "MT: Egg Aim Silo"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/Mumbo's Skull/Signpost",
+            "name": "MT: Mumbo's Skull Signpost"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/MT: Golden Goliath Signpost/Signpost",
+            "name": "MT: Golden Goliath Signpost"
+          },
+          {
+            "ref": "Mayahem Temple - Prison Compound/MT: Pillars Signpost/Signpost",
+            "name": "MT: Pillars Signpost"
+          },
+          {
+            "ref": "Mayahem Temple - Prison Compound/MT: Prison Compound Quicksand Signpost/Signpost",
+            "name": "MT: Prison Compound Quicksand Signpost"
+          },
+          {
+            "ref": "Mayahem Temple - Jade Snake Grove/MT: Jade Snake Grove Quicksand Signpost 1/Signpost",
+            "name": "MT: Jade Snake Grove Quicksand Signpost 1"
+          },
+          {
+            "ref": "Mayahem Temple - Jade Snake Grove/MT: Jade Snake Grove Quicksand Signpost 2/Signpost",
+            "name": "MT: Jade Snake Grove Quicksand Signpost 2"
+          },
+          {
+            "ref": "Mayahem Temple - Jade Snake Grove/MT: Left of Code Chamber Signpost/Signpost",
+            "name": "MT: Left of Code Chamber Signpost"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple Signpost 1/Signpost",
+            "name": "MT: Targitzan's Temple Signpost 1"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple Signpost 2/Signpost",
+            "name": "MT: Targitzan's Temple Signpost 2"
           },
           {
             "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan Jiggy/Mumbo Token",
@@ -1186,6 +1298,22 @@
           {
             "ref": "Glitter Gulch Mine - Main Area/Ordnance Storage/Beak Bayonet Silo",
             "name": "GGM: Beak Bayonet Silo"
+          },
+          {
+            "ref": "Glitter Gulch Mine - Gloomy Caverns/GGM: Gloomy Cavern Signpost/Signpost",
+            "name": "GGM: Gloomy Cavern Signpost"
+          },
+          {
+            "ref": "Glitter Gulch Mine - Gloomy Caverns/Generator Cavern/Signpost",
+            "name": "GGM: Generator Cavern Signpost"
+          },
+          {
+            "ref": "Glitter Gulch Mine - Main Area/Toxic Gas Cave/Signpost",
+            "name": "GGM: Toxic Gas Cave Signpost"
+          },
+          {
+            "ref": "Glitter Gulch Mine - Main Area/Inside Chuffy's Wagon/Signpost",
+            "name": "GGM: Inside Chuffy's Wagon Signpost"
           },
           {
             "ref": "Glitter Gulch Mine - Main Area/GGM: Crushing Shed Jiggy Chunks/Jiggy Chunk 1",
@@ -1588,6 +1716,38 @@
             "name": "WW: Train Switch"
           },
           {
+            "ref": "Witchyworld - Main Area/WW: Dodgem Dome Signpost/Signpost",
+            "name": "WW: Dodgem Dome Signpost"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Madame Grunty Signpost/Signpost",
+            "name": "WW: Madame Grunty Signpost"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Burger Stand Signpost/Signpost",
+            "name": "WW: Burger Stand Signpost"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Fries Stand Signpost/Signpost",
+            "name": "WW: Fries Stand Signpost"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Cactus of Strength Signpost/Signpost",
+            "name": "WW: Cactus of Strength Signpost"
+          },
+          {
+            "ref": "Witchyworld - Crazy Castle Stockade/Crazy Castle Pump Room/Signpost",
+            "name": "WW: Pump Room Signpost"
+          },
+          {
+            "ref": "Witchyworld - The Haunted Cavern/Cave of Horrors/Gobi Cage Signpost",
+            "name": "WW: Gobi Cage Signpost"
+          },
+          {
+            "ref": "Witchyworld - The Haunted Cavern/WW: The Haunted Caverns Signpost/Signpost",
+            "name": "WW: The Haunted Caverns Signpost"
+          },
+          {
             "ref": "Witchyworld - Main Area/Big Top Interior/Mr. Patch Mumbo Token",
             "name": "WW: Mr. Patch Mumbo Token"
           },
@@ -1808,11 +1968,11 @@
             "name": "WW: Crazy Castle Stockade Egg Nest 2"
           },
           {
-            "ref": "Witchyworld - Crazy Castle Stockade/WW: Pump Room Feather Nests/Feather Nest 1",
+            "ref": "Witchyworld - Crazy Castle Stockade/Crazy Castle Pump Room/Feather Nest 1",
             "name": "WW: Pump Room Feather Nest 1"
           },
           {
-            "ref": "Witchyworld - Crazy Castle Stockade/WW: Pump Room Feather Nests/Feather Nest 2",
+            "ref": "Witchyworld - Crazy Castle Stockade/Crazy Castle Pump Room/Feather Nest 2",
             "name": "WW: Pump Room Feather Nest 2"
           },
           {
@@ -1994,6 +2154,22 @@
           {
             "ref": "Jolly Roger's Lagoon - Main Area/Jolly's/Sub-Aqua Egg Aiming Silo",
             "name": "JRL: Sub-Aqua Egg Aiming Silo"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Seaweed Sanctum/JRL: Seaweed Sanctum Signpost/Signpost",
+            "name": "JRL: Seaweed Sanctum Signpost"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Blubber's Waveracer Hire/Signpost",
+            "name": "JRL: Blubber's Signpost"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Smuggler's Cavern/Signpost",
+            "name": "JRL: Smuggler's Cavern Signpost"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Waste Pipe Alcove Signpost/Signpost",
+            "name": "JRL: Waste Pipe Alcove Signpost"
           },
           {
             "ref": "Jolly Roger's Lagoon - Sea Bottom/Lord Woo Fak Fak/Mumbo Token",
@@ -2520,6 +2696,22 @@
             "name": "TDL: Train Switch"
           },
           {
+            "ref": "Terrydactyland - Main Area/TDL: Roar Cage Signpost/Signpost",
+            "name": "TDL: Roar Cage Signpost"
+          },
+          {
+            "ref": "Terrydactyland - Inside the Mountain/TDL: Inside The Mountain Near Cheato Page Signpost/Signpost",
+            "name": "TDL: Inside The Mountain Near Cheato Page Signpost"
+          },
+          {
+            "ref": "Terrydactyland - Inside the Mountain/TDL: Inside The Mountain Near Top Signpost/Signpost",
+            "name": "TDL: Inside The Mountain Near Top Signpost"
+          },
+          {
+            "ref": "Terrydactyland - River Passage/TDL: River Passage Signpost/Signpost",
+            "name": "TDL: River Passage Signpost"
+          },
+          {
             "ref": "Terrydactyland - Main Area/Styracosaurus Family Cave/Scrut (Lost)",
             "name": "TDL: Scrut (Lost)"
           },
@@ -2986,6 +3178,22 @@
           {
             "ref": "Outside Grunty Industries - Behind the building/GI Outside: Train Switch/Train Switch",
             "name": "GI Outside: Train Switch"
+          },
+          {
+            "ref": "Outside Grunty Industries/GI Outside: Signpost/Signpost",
+            "name": "GI Outside: Signpost"
+          },
+          {
+            "ref": "Grunty Industries 1st Floor/Workers' Quarters/Signpost",
+            "name": "GI Floor 1: Workers Quarters Signpost"
+          },
+          {
+            "ref": "Grunty Industries Elevator Shaft/Elevator Shaft/Signpost 1",
+            "name": "GI Elevator Shaft: Signpost 1"
+          },
+          {
+            "ref": "Grunty Industries Elevator Shaft/Elevator Shaft/Signpost 2",
+            "name": "GI Elevator Shaft: Signpost 2"
           },
           {
             "ref": "Grunty Industries 1st Floor/Repair Depot/Weldar Mumbo Token",
@@ -3536,6 +3744,26 @@
             "name": "HFP: Icy Side Train Switch"
           },
           {
+            "ref": "Hailfire Peaks - Lava Side/HFP: Bottom Hot Pool Signpost/Signpost",
+            "name": "HFP: Bottom Hot Pool Signpost"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/HFP: Top Hot Pool Signpost/Signpost",
+            "name": "HFP: Top Hot Pool Signpost"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/Inside the Volcano/Signpost 1",
+            "name": "HFP: Volcano Signpost 1"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/Inside the Volcano/Signpost 2",
+            "name": "HFP: Volcano Signpost 2"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/Inside the Volcano/Signpost 3",
+            "name": "HFP: Volcano Signpost 3"
+          },
+          {
             "ref": "Hailfire Peaks - Lava Side/Dragon Brothers/Mumbo Token",
             "name": "HFP: Dragon Brothers Mumbo Token"
           },
@@ -3916,6 +4144,22 @@
             "name": "CCL: Sack Pack Silo"
           },
           {
+            "ref": "Cloud Cuckooland - Central Cavern/CCL: Indoors Pool Underwater Signpost/Signpost",
+            "name": "CCL: Indoors Pool Underwater Signpost"
+          },
+          {
+            "ref": "Cloud Cuckooland - Central Cavern/Sack Pack Silo/Signpost",
+            "name": "CCL: Sack Pack Silo Signpost"
+          },
+          {
+            "ref": "Cloud Cuckooland - Central Cavern/CCL: On Rim of Glowbo Pool Signpost/Signpost",
+            "name": "CCL: On Rim of Glowbo Pool Signpost"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/Wumba's Wigwam/Signpost",
+            "name": "CCL: Wumba's Wigwam Signpost"
+          },
+          {
             "ref": "Cloud Cuckooland - Outside/Mumbo's Skull/Mingy Jongo Mumbo Token",
             "name": "CCL: Mingy Jongo Mumbo Token"
           },
@@ -4290,7 +4534,7 @@
       },
       {
         "name": "Cauldron Keep",
-        "visibility_rules": [ "goal_hag1", "goal_wwing" ],
+        "visibility_rules": [ "goal_hag1", "goal_wwing", "goal_bosshag1" ],
         "access_rules": [
           "$load_mt_ck, mta",
           "$load_ggm_ck, @Plateau, $PL_to_GGM",
@@ -5152,6 +5396,24 @@
             "y": 168
           }
         ]
+      },
+      {
+        "name": "IoH: Grey Jinjo Family House Signpost",
+        "chest_unopened_img": "/images/locations/signpost.png",
+        "chest_opened_img": "/images/locations/signpost2.png",
+        "visibility_rules": ["signposts_on"],
+        "sections": [
+          {
+            "name": "Signpost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jv",
+            "x": 500,
+            "y": 155
+          }
+        ]
       }
     ]
   },
@@ -5198,6 +5460,24 @@
             "map": "wh",
             "x": 540,
             "y": 430
+          }
+        ]
+      },
+      {
+        "name": "IoH: Outside Heggy's Egg Shed Signpost",
+        "chest_unopened_img": "/images/locations/signpost.png",
+        "chest_opened_img": "/images/locations/signpost2.png",
+        "visibility_rules": ["signposts_on"],
+        "sections": [
+          {
+            "name": "Signpost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wh",
+            "x": 580,
+            "y": 450
           }
         ]
       },
@@ -5264,6 +5544,70 @@
         ]
       },
       {
+        "name": "IoH: Behind Jiggywiggy's Temple Signposts",
+        "chest_unopened_img": "/images/locations/signpost.png",
+        "chest_opened_img": "/images/locations/signpost2.png",
+        "visibility_rules": ["signposts_on"],
+        "access_rules": ["$signpost_jiggywiggy_back"],
+        "sections": [
+          {
+            "name": "Signpost 1"
+          },
+          {
+            "name": "Signpost 2"
+          },
+          {
+            "name": "Signpost 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wh",
+            "x": 90,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Jiggywiggy's Temple",
+        "chest_unopened_img": "/images/locations/signpost.png",
+        "chest_opened_img": "/images/locations/signpost2.png",
+        "visibility_rules": ["signposts_on"],
+        "sections": [
+          {
+            "name": "Signpost 1"
+          },
+          {
+            "name": "Signpost 2"
+          },
+          {
+            "name": "Signpost 3"
+          },
+          {
+            "name": "Signpost 4"
+          },
+          {
+            "name": "Signpost 5"
+          },
+          {
+            "name": "Signpost 6"
+          },
+          {
+            "name": "Signpost 7"
+          },
+          {
+            "name": "Signpost 8"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wh",
+            "x": 152,
+            "y": 70
+          }
+        ]
+      },
+      {
         "name": "IoH: Wooded Hollow Outside Bottles' House Feather Nests",
         "chest_unopened_img": "/images/locations/feathernest.png",
         "chest_opened_img": "/images/locations/feathernest2.png",
@@ -5302,6 +5646,24 @@
             "map": "wh",
             "x": 490,
             "y": 430
+          }
+        ]
+      },
+      {
+        "name": "IoH: Wooded Hollow Path to Plateau Signpost",
+        "chest_unopened_img": "/images/locations/signpost.png",
+        "chest_opened_img": "/images/locations/signpost2.png",
+        "visibility_rules": ["signposts_on"],
+        "sections": [
+          {
+            "name": "Signpost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wh",
+            "x": 600,
+            "y": 180
           }
         ]
       }
@@ -5387,12 +5749,7 @@
         "name": "IoH: Plateau GGM Sign Notes",
         "chest_unopened_img": "/images/locations/note.png",
         "chest_opened_img": "/images/locations/note2.png",
-        "access_rules": [ 
-              "logictype_b, ggrab, fflip",
-              "logictype_n, ggrab, fflip", "logictype_n, bbust, fflip", "logictype_n, $leg_spring", "logictype_n, splitup, ggrab", "logictype_n, splitup, tjump", "logictype_n, splitup, glide", 
-              "logictype_a, ggrab, fflip", "logictype_a, bbust, fflip", "logictype_a, $clockwork_shot", "logictype_a, $leg_spring", "logictype_a, splitup, ggrab", "logictype_a, splitup, tjump", "logictype_a, splitup, glide",
-              "logictype_g, ggrab, fflip", "logictype_g, bbust, fflip", "logictype_g, $clockwork_shot", "logictype_g, $leg_spring", "logictype_g, splitup, ggrab", "logictype_g, splitup, tjump", "logictype_g, splitup, glide"
-             ],
+        "access_rules": [ "$notes_plateau_sign" ],
         "sections": [
           {
             "name": "Note 1"
@@ -5694,6 +6051,30 @@
             "y": 235
           }
         ]
+      },
+      {
+        "name": "IoH: Pine Grove Signposts",
+        "chest_unopened_img": "/images/locations/signpost.png",
+        "chest_opened_img": "/images/locations/signpost2.png",
+        "visibility_rules": ["signposts_on"],
+        "sections": [
+          {
+            "name": "Signpost 1"
+          },
+          {
+            "name": "Signpost 2"
+          },
+          {
+            "name": "Signpost 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pg",
+            "x": 172,
+            "y": 90
+          }
+        ]
       }
     ]
   },
@@ -5818,6 +6199,24 @@
             "map": "ct",
             "x": 535,
             "y": 60
+          }
+        ]
+      },
+      {
+        "name": "IoH: Cliff Top Signpost",
+        "chest_unopened_img": "/images/locations/signpost.png",
+        "chest_opened_img": "/images/locations/signpost2.png",
+        "visibility_rules": ["signposts_on"],
+        "sections": [
+          {
+            "name": "Signpost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ct",
+            "x": 535,
+            "y": 80
           }
         ]
       },
@@ -6085,6 +6484,23 @@
             "y": 450
           }
         ]
+      },{
+        "name": "IoH: Wasteland Signpost",
+        "chest_unopened_img": "/images/locations/signpost.png",
+        "chest_opened_img": "/images/locations/signpost2.png",
+        "visibility_rules": ["signposts_on"],
+        "sections": [
+          {
+            "name": "Signpost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wl",
+            "x": 25,
+            "y": 470
+          }
+        ]
       },
       {
         "name": "Terrydactyland Entrance",
@@ -6322,9 +6738,9 @@
             "name": "Left Feather Nest",
             "access_rules": [
               "logictype_b, $canDoSmallElevation",
-              "logictype_n, $canDoSmallElevation", "logictype_n, arat",
-              "logictype_a, $canDoSmallElevation", "logictype_a, arat", "logictype_a, $clockwork_shot",
-              "logictype_g, $canDoSmallElevation", "logictype_g, arat", "logictype_g, $clockwork_shot"
+              "logictype_n, $canDoSmallElevation", "logictype_n, arat", "logictype_n, bbust",
+              "logictype_a, $canDoSmallElevation", "logictype_a, arat", "logictype_a, $clockwork_shot", "logictype_a, bbust",
+              "logictype_g, $canDoSmallElevation", "logictype_g, arat", "logictype_g, $clockwork_shot", "logictype_g, bbust"
             ]
           },
           {
@@ -6334,9 +6750,9 @@
             "name": "High Feather Nest",
             "access_rules": [
               "logictype_b, $canDoSmallElevation",
-              "logictype_n, $canDoSmallElevation",
-              "logictype_a, $canDoSmallElevation", "logictype_a, $clockwork_shot",
-              "logictype_g, $canDoSmallElevation", "logictype_g, $clockwork_shot"
+              "logictype_n, $canDoSmallElevation", "logictype_n, bbust",
+              "logictype_a, $canDoSmallElevation", "logictype_a, $clockwork_shot", "logictype_a, bbust",
+              "logictype_g, $canDoSmallElevation", "logictype_g, $clockwork_shot", "logictype_g, bbust"
             ]
           }
         ],
@@ -6473,6 +6889,12 @@
             "chest_unopened_img": "/images/locations/eggnest.png",
             "chest_opened_img": "/images/locations/eggnest2.png",
             "visibility_rules": ["nestsanity_on"]
+          },
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"]
           }
         ],
         "map_locations": [
@@ -6846,6 +7268,14 @@
           {
             "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple Golden Egg Nest/Egg Nest",
             "name": "Targitzan's Temple Golden Egg Nest"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple Signpost 1/Signpost",
+            "name": "MT: Targitzan's Temple Signpost 1"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple Signpost 2/Signpost",
+            "name": "MT: Targitzan's Temple Signpost 2"
           }
         ],
         "map_locations": [
@@ -7026,6 +7456,24 @@
         ]
       },
       {
+        "name": "MT: Golden Goliath Signpost",
+        "sections": [
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt1",
+            "x": 250,
+            "y": 265
+          }
+        ]
+      },
+      {
         "name": "Jade Snake Grove",
         "sections": [
           {
@@ -7071,6 +7519,18 @@
           {
             "ref": "Mayahem Temple - Jade Snake Grove/MT: Jade Snake Grove Near Warp Pad Egg Nests/Egg Nest 2",
             "name": "Near Warp Pad Egg Nest 2"
+          },
+          {
+            "ref": "Mayahem Temple - Jade Snake Grove/MT: Jade Snake Grove Quicksand Signpost 1/Signpost",
+            "name": "MT: Jade Snake Grove Quicksand Signpost 1"
+          },
+          {
+            "ref": "Mayahem Temple - Jade Snake Grove/MT: Jade Snake Grove Quicksand Signpost 2/Signpost",
+            "name": "MT: Jade Snake Grove Quicksand Signpost 2"
+          },
+          {
+            "ref": "Mayahem Temple - Jade Snake Grove/MT: Left of Code Chamber Signpost/Signpost",
+            "name": "MT: Left of Code Chamber Signpost"
           }
         ],
         "map_locations": [
@@ -7123,6 +7583,14 @@
           {
             "ref": "Mayahem Temple - Prison Compound/MT: Prison Compound Top of Prison Cell Feather Nests/Feather Left Nest",
             "name": "Top of Prison Cell Feather Left Nest"
+          },
+          {
+            "ref": "Mayahem Temple - Prison Compound/MT: Pillars Signpost/Signpost",
+            "name": "MT: Pillars Signpost"
+          },
+          {
+            "ref": "Mayahem Temple - Prison Compound/MT: Prison Compound Quicksand Signpost/Signpost",
+            "name": "MT: Prison Compound Quicksand Signpost"
           }
         ],
         "map_locations": [
@@ -7352,6 +7820,42 @@
             "y": 155
           }
         ]
+      },
+      {
+        "name": "MT: Targitzan's Temple Signpost 1",
+        "chest_unopened_img": "/images/locations/signpost.png",
+        "chest_opened_img": "/images/locations/signpost2.png",
+        "visibility_rules": ["signposts_on"],
+        "sections": [
+          {
+            "name": "Signpost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt5",
+            "x": 600,
+            "y": 860
+          }
+        ]
+      },
+      {
+        "name": "MT: Targitzan's Temple Signpost 2",
+        "chest_unopened_img": "/images/locations/signpost.png",
+        "chest_opened_img": "/images/locations/signpost2.png",
+        "visibility_rules": ["signposts_on"],
+        "sections": [
+          {
+            "name": "Signpost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt5",
+            "x": 425,
+            "y": 860
+          }
+        ]
       }
     ]
   },
@@ -7484,6 +7988,44 @@
             "y": 125
           }
         ]
+      },
+      {
+        "name": "MT: Pillars Signpost",
+        "sections": [
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"],
+            "access_rules": ["$nest_pillars"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt2",
+            "x": 480,
+            "y": 75
+          }
+        ]
+      },
+      {
+        "name": "MT: Prison Compound Quicksand Signpost",
+        "sections": [
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"],
+            "access_rules": ["$prison_compound_open"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt2",
+            "x": 350,
+            "y": 600
+          }
+        ]
       }
     ]
   },
@@ -7520,6 +8062,7 @@
         "name": "MT: Jade Snake Grove Glowbo",
         "chest_unopened_img": "/images/locations/glowbo.png",
         "chest_opened_img": "/images/locations/glowbo2.png",
+        "access_rules": ["$glowbo_JSG"],
         "sections": [
           {
             "name": "Glowbo"
@@ -7675,6 +8218,63 @@
             "map": "mt3",
             "x": 265,
             "y": 170
+          }
+        ]
+      },
+      {
+        "name": "MT: Jade Snake Grove Quicksand Signpost 1",
+        "sections": [
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"],
+            "access_rules": ["$glowbo_JSG"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt3",
+            "x": 195,
+            "y": 580
+          }
+        ]
+      },
+      {
+        "name": "MT: Jade Snake Grove Quicksand Signpost 2",
+        "sections": [
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"],
+            "access_rules": ["$glowbo_JSG"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt3",
+            "x": 135,
+            "y": 365
+          }
+        ]
+      },
+      {
+        "name": "MT: Left of Code Chamber Signpost",
+        "sections": [
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"],
+            "access_rules": ["$signpost_code_chamber"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt3",
+            "x": 85,
+            "y": 55
           }
         ]
       }
@@ -8034,6 +8634,12 @@
             "chest_opened_img": "/images/locations/feathernest2.png",
             "visibility_rules": ["nestsanity_on"],
             "access_rules": ["$nest_toxic_gas_cave"]
+          },
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"]
           }
         ],
         "map_locations": [
@@ -8414,6 +9020,14 @@
           {
             "ref": "Glitter Gulch Mine - Gloomy Caverns/Power Hut/Feather Nest",
             "name": "Power Hut Feather Nest"
+          },
+          {
+            "ref": "Glitter Gulch Mine - Gloomy Caverns/GGM: Gloomy Cavern Signpost/Signpost",
+            "name": "Gloomy Cavern Signpost"
+          },
+          {
+            "ref": "Glitter Gulch Mine - Gloomy Caverns/Generator Cavern/Signpost",
+            "name": "Generator Cavern Signpost"
           }
         ],
         "map_locations": [
@@ -8491,6 +9105,37 @@
             "map": "ggm1",
             "x": 855,
             "y": 87
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Inside Chuffy's Wagon",
+    "chest_unopened_img": "/images/items/signpost.png",
+    "chest_opened_img": "/images/items/signpost2.png",
+    "access_rules": [ 
+      "@Glitter Gulch Mine - Main Area, $can_beat_king_coal, $ggm_to_chuffy",
+      "@Witchyworld - Main Area, chuffy, $can_beat_king_coal, $ww_to_chuffy",
+      "@Terrydactyland - Main Area, chuffy, $can_beat_king_coal, $tdl_to_chuffy",
+      "@Hailfire Peaks - Lava Side, chuffy, $can_beat_king_coal, $hfp_to_chuffy",
+      "@Cliff Top, chuffy, $can_beat_king_coal, $ioh_to_chuffy",
+      "@Grunty Industries 1st Floor, chuffy, $can_beat_king_coal, $gi_to_chuffy"
+    ],
+    "children": [
+      {
+        "name": "Inside Chuffy's Wagon",
+        "sections": [
+          {
+            "name": "Signpost",
+            "visibility_rules": ["signposts_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ggm1",
+            "x": 855,
+            "y": 100
           }
         ]
       }
@@ -8675,6 +9320,25 @@
         ]
       },
       {
+        "name": "GGM: Gloomy Cavern Signpost",
+        "chest_unopened_img": "/images/locations/signpost.png",
+        "chest_opened_img": "/images/locations/signpost2.png",
+        "visibility_rules": ["signposts_on"],
+        "access_rules": ["$signpost_gloomy_cavern"],
+        "sections": [
+          {
+            "name": "Signpost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ggm2",
+            "x": 355,
+            "y": 220
+          }
+        ]
+      },
+      {
         "name": "Power Hut",
         "sections": [
           {
@@ -8718,6 +9382,12 @@
             "chest_unopened_img": "/images/locations/eggnest.png",
             "chest_opened_img": "/images/locations/eggnest2.png",
             "visibility_rules": ["nestsanity_on"]
+          },
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"]
           }
         ],
         "map_locations": [
@@ -9893,6 +10563,96 @@
         ]
       },
       {
+        "name": "WW: Dodgem Dome Signpost",
+        "sections": [
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 195,
+            "y": 150
+          }
+        ]
+      },
+      {
+        "name": "WW: Madame Grunty Signpost",
+        "sections": [
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 536,
+            "y": 245
+          }
+        ]
+      },
+      {
+        "name": "WW: Burger Stand Signpost",
+        "sections": [
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 340,
+            "y": 225
+          }
+        ]
+      },
+      {
+        "name": "WW: Fries Stand Signpost",
+        "sections": [
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 525,
+            "y": 470
+          }
+        ]
+      },
+      {
+        "name": "WW: Cactus of Strength Signpost",
+        "sections": [
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 315,
+            "y": 585
+          }
+        ]
+      },
+      {
         "name": "Crazy Castle Stockade",
         "sections": [
           {
@@ -9928,12 +10688,16 @@
             "name": "Egg Nest 2"
           },
           {
-            "ref": "Witchyworld - Crazy Castle Stockade/WW: Pump Room Feather Nests/Feather Nest 1",
+            "ref": "Witchyworld - Crazy Castle Stockade/Crazy Castle Pump Room/Feather Nest 1",
             "name": "Pump Room Feather Nest 1"
           },
           {
-            "ref": "Witchyworld - Crazy Castle Stockade/WW: Pump Room Feather Nests/Feather Nest 2",
+            "ref": "Witchyworld - Crazy Castle Stockade/Crazy Castle Pump Room/Feather Nest 2",
             "name": "Pump Room Feather Nest 2"
+          },
+          {
+            "ref": "Witchyworld - Crazy Castle Stockade/Crazy Castle Pump Room/Signpost",
+            "name": "Pump Room Signpost"
           }
         ],
         "map_locations": [
@@ -10002,6 +10766,14 @@
           {
             "ref": "Witchyworld - The Haunted Cavern/WW: The Haunted Cavern Egg Nests/Egg Nest 3",
             "name": "Egg Nest 3"
+          },
+          {
+            "ref": "Witchyworld - The Haunted Cavern/Cave of Horrors/Gobi Cage Signpost",
+            "name": "Gobi Cage Signpost"
+          },
+          {
+            "ref": "Witchyworld - The Haunted Cavern/WW: The Haunted Caverns Signpost/Signpost",
+            "name": "The Haunted Caverns Signpost"
           }
         ],
         "map_locations": [
@@ -10156,17 +10928,28 @@
         ]
       },
       {
-        "name": "WW: Pump Room Feather Nests",
-        "chest_unopened_img": "/images/locations/feathernest.png",
-        "chest_opened_img": "/images/locations/feathernest2.png",
-        "visibility_rules": ["nestsanity_on"],
-        "access_rules": ["$nest_pump_room"],
+        "name": "Crazy Castle Pump Room",
         "sections": [
           {
-            "name": "Feather Nest 1"
+            "name": "Feather Nest 1",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["$nest_pump_room"]
           },
           {
-            "name": "Feather Nest 2"
+            "name": "Feather Nest 2",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["$nest_pump_room"]
+          },
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"],
+            "access_rules": ["$signpost_pump_master"]
           }
         ],
         "map_locations": [
@@ -10277,6 +11060,13 @@
               "logictype_a, $canShootEggs|geggs",
               "logictype_g, $canShootEggs|geggs"
             ]
+          },
+          {
+            "name": "Gobi Cage Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"],
+            "access_rules": ["$signpost_gobi"]
           }
         ],
         "map_locations": [
@@ -10284,6 +11074,24 @@
             "map": "ww3",
             "x": 348,
             "y": 40
+          }
+        ]
+      },
+      {
+        "name": "WW: The Haunted Caverns Signpost",
+        "chest_unopened_img": "/images/locations/signpost.png",
+        "chest_opened_img": "/images/locations/signpost2.png",
+        "visibility_rules": ["signposts_on"],
+        "sections": [
+          {
+            "name": "Signpost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww3",
+            "x": 307,
+            "y": 60
           }
         ]
       },
@@ -10481,6 +11289,25 @@
             "map": "jrl1",
             "x": 770,
             "y": 370
+          }
+        ]
+      },
+      {
+        "name": "JRL: Waste Pipe Alcove Signpost",
+        "sections": [
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"],
+            "access_rules": ["$signpost_jrl_pipes"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 705,
+            "y": 385
           }
         ]
       },
@@ -11114,6 +11941,12 @@
             "name": "Note 3",
             "chest_unopened_img": "/images/locations/note.png",
             "chest_opened_img": "/images/locations/note2.png"
+          },
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"]
           }
         ],
         "map_locations": [
@@ -11137,6 +11970,13 @@
               "logictype_a, $has_explosives, splitup, glide", "logictype_a, $clockwork_shot",
               "logictype_g, $has_explosives, splitup, glide", "logictype_g, $clockwork_shot"
             ]
+          },
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"],
+            "access_rules": ["$signpost_smugglers"]
           }
         ],
         "map_locations": [
@@ -11576,6 +12416,10 @@
           {
             "ref": "Jolly Roger's Lagoon - Seaweed Sanctum/JRL: Seaweed Sanctum Second Floor Egg Nest 2/Egg Nest",
             "name": "Second Floor Egg Nest 2"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Seaweed Sanctum/JRL: Seaweed Sanctum Signpost/Signpost",
+            "name": "Signpost"
           }
         ],
         "map_locations": [
@@ -11753,6 +12597,24 @@
             "map": "jrl3",
             "x": 172,
             "y": 160
+          }
+        ]
+      },
+      {
+        "name": "JRL: Seaweed Sanctum Signpost",
+        "chest_unopened_img": "/images/locations/signpost.png",
+        "chest_opened_img": "/images/locations/signpost2.png",
+        "visibility_rules": ["signposts_on"],
+        "sections": [
+          {
+            "name": "Signpost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl3",
+            "x": 142,
+            "y": 760
           }
         ]
       },
@@ -12183,9 +13045,9 @@
             "name": "Silo",
             "access_rules": [
               "logictype_b, $springb_count, fflip, ggrab", "logictype_b, $springb_count, $TDLFlightPad",
-              "logictype_n, $springb_count, fflip, ggrab", "logictype_n, $springb_count, fflip, bbust", "logictype_n, $springb_count, $TDLFlightPad", "logictype_n, $springb_count, $veryLongJump", "logictype_n, $springb_count, ttrain", "logictype_n, $springb_count, springb",
-              "logictype_a, $springb_count, fflip, ggrab", "logictype_a, $springb_count, fflip, bbust", "logictype_a, $springb_count, $TDLFlightPad", "logictype_a, $springb_count, $veryLongJump", "logictype_a, $springb_count, ttrain", "logictype_a, $springb_count, springb",
-              "logictype_g, $springb_count, fflip, ggrab", "logictype_g, $springb_count, fflip, bbust", "logictype_g, $springb_count, $TDLFlightPad", "logictype_g, $springb_count, $veryLongJump", "logictype_g, $springb_count, ttrain", "logictype_g, $springb_count, springb"
+              "logictype_n, $springb_count, fflip, ggrab", "logictype_n, $springb_count, fflip, bbust", "logictype_n, $springb_count, $TDLFlightPad", "logictype_n, $springb_count, $veryLongJump", "logictype_n, $springb_count, ttrain",
+              "logictype_a, $springb_count, fflip, ggrab", "logictype_a, $springb_count, fflip, bbust", "logictype_a, $springb_count, $TDLFlightPad", "logictype_a, $springb_count, $veryLongJump", "logictype_a, $springb_count, ttrain",
+              "logictype_g, $springb_count, fflip, ggrab", "logictype_g, $springb_count, fflip, bbust", "logictype_g, $springb_count, $TDLFlightPad", "logictype_g, $springb_count, $veryLongJump", "logictype_g, $springb_count, ttrain"
             ]
           }
         ],
@@ -12332,6 +13194,30 @@
         ]
       },
       {
+        "name": "TDL: Roar Cage Signpost",
+        "sections": [
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"],
+            "access_rules": [
+              "logictype_b, $longJump", "logictype_b, springb", "logictype_b, $TDLFlightPad", "logictype_b, $humbaTDL, roar",
+              "logictype_n, $longJump", "logictype_n, springb", "logictype_n, $TDLFlightPad", "logictype_n, $humbaTDL, roar", "logictype_n, splitup",
+              "logictype_a, $longJump", "logictype_a, springb", "logictype_a, $TDLFlightPad", "logictype_a, $humbaTDL, roar", "logictype_a, splitup",
+              "logictype_g, $longJump", "logictype_g, springb", "logictype_g, $TDLFlightPad", "logictype_g, $humbaTDL, roar", "logictype_g, splitup"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 302,
+            "y": 485
+          }
+        ]
+      },
+      {
         "name": "TDL: Roar Cage Path Notes",
         "chest_unopened_img": "/images/locations/note.png",
         "chest_opened_img": "/images/locations/note2.png",
@@ -12445,12 +13331,7 @@
         "sections": [
           {
             "name": "Treble Clef",
-            "access_rules": [
-              "logictype_b, fflip, ggrab, $billDrill", "logictype_b, $TDLFlightPad, $billDrill",
-              "logictype_n, fflip, ggrab, $billDrill", "logictype_n, fflip, bbust, $billDrill", "logictype_n, $TDLFlightPad, $billDrill",
-              "logictype_a, fflip, ggrab, $billDrill", "logictype_a, fflip, bbust, $billDrill", "logictype_a, $TDLFlightPad, $billDrill",
-              "logictype_g, fflip, ggrab, $billDrill", "logictype_g, fflip, ggrab, $egg_barge", "logictype_g, fflip, bbust, $billDrill", "logictype_g, fflip, bbust, $egg_barge", "logictype_g, $TDLFlightPad, $billDrill", "logictype_g, $TDLFlightPad, $egg_barge", "logictype_g, $TDLFlightPad, grat"
-            ]
+            "access_rules": [ "$treble_tdl" ]
           }
         ],
         "map_locations": [
@@ -13073,6 +13954,14 @@
           {
             "ref": "Terrydactyland - Inside the Mountain/TDL: Inside the Mountain Egg Nests/Egg Nest 2",
             "name": "Egg Nest 2"
+          },
+          {
+            "ref": "Terrydactyland - Inside the Mountain/TDL: Inside The Mountain Near Cheato Page Signpost/Signpost",
+            "name": "Near Cheato Page Signpost"
+          },
+          {
+            "ref": "Terrydactyland - Inside the Mountain/TDL: Inside The Mountain Near Top Signpost/Signpost",
+            "name": "Near Top Signpost"
           }
         ],
         "map_locations": [
@@ -13113,6 +14002,10 @@
           {
             "ref": "Terrydactyland - River Passage/TDL: River Passage Feather Nest/Feather Nest",
             "name": "Feather Nest"
+          },
+          {
+            "ref": "Terrydactyland - River Passage/TDL: River Passage Signpost/Signpost",
+            "name": "Signpost"
           }
         ],
         "map_locations": [
@@ -13197,6 +14090,44 @@
         ]
       },
       {
+        "name": "TDL: Inside The Mountain Near Cheato Page Signpost",
+        "sections": [
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"],
+            "access_rules": ["$signpost_trex"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl2",
+            "x": 40,
+            "y": 425
+          }
+        ]
+      },
+      {
+        "name": "TDL: Inside The Mountain Near Top Signpost",
+        "sections": [
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"],
+            "access_rules": ["$signpost_mountain_top"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl2",
+            "x": 660,
+            "y": 345
+          }
+        ]
+      },
+      {
         "name": "Chompas Belly",
         "access_rules": [
               "logictype_b, bblaster, tjump, fpad", "logictype_b, bblaster, ggrab, fpad", "logictype_b, bblaster, eggaim, $has_explosives, springb",
@@ -13252,7 +14183,7 @@
         "chest_unopened_img": "/images/locations/eggnest.png",
         "chest_opened_img": "/images/locations/eggnest2.png",
         "visibility_rules": ["nestsanity_on"],
-        "access_rules": ["dive"],
+        "access_rules": ["$nest_mountain_underwater"],
         "sections": [
           {
             "name": "Egg Nest 1"
@@ -13453,6 +14384,25 @@
             "map": "tdl4",
             "x": 470,
             "y": 253
+          }
+        ]
+      },
+      {
+        "name": "TDL: River Passage Signpost",
+        "chest_unopened_img": "/images/locations/signpost.png",
+        "chest_opened_img": "/images/locations/signpost2.png",
+        "visibility_rules": ["signposts_on"],
+        "access_rules": ["$signpost_river_passage"],
+        "sections": [
+          {
+            "name": "Signpost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl4",
+            "x": 455,
+            "y": 20
           }
         ]
       }
@@ -13780,6 +14730,25 @@
         ]
       },
       {
+        "name": "GI Outside: Signpost",
+        "chest_unopened_img": "/images/locations/signpost.png",
+        "chest_opened_img": "/images/locations/signpost2.png",
+        "visibility_rules": ["signposts_on"],
+        "access_rules": ["$signpost_gi_outside"],
+        "sections": [
+          {
+            "name": "Signpost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi1",
+            "x": 360,
+            "y": 520
+          }
+        ]
+      },
+      {
         "name": "GI Outside: Left Side of Building Feather Nest",
         "chest_unopened_img": "/images/locations/feathernest.png",
         "chest_opened_img": "/images/locations/feathernest2.png",
@@ -13805,7 +14774,7 @@
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
     "access_rules": [
-      "@Outside Grunty Industries, $outside_gi_to_outside_back",
+      "@Outside Grunty Industries, climb",
       "@Grunty Industries 2nd Floor",
       "@Grunty Industries 3rd Floor, $floor_3_to_outside_back",
       "@Grunty Industries 4th Floor, $floor_4_to_outside_back"
@@ -13856,33 +14825,47 @@
       "@Grunty Industries 1st Floor",
       "@Grunty Industries 2nd Floor - Electromagnetic Chamber, $floor_2_em_room_to_elevator_shaft",
       "@Grunty Industries 3rd Floor - Boiler Plant, $elevator_door",
-      "@Grunty Industries 4th Floor - Past the Crushers, climb, $elevator_door",
-      "@Grunty Industries 4th Floor - Past the Crushers, logictype_g, @Grunty Industries 4th Floor, $clockworkWarp, $springPad",
-      "@Grunty Industries 4th Floor - Past the Crushers, logictype_g, @Grunty Industries 4th Floor, $clockworkWarp, fflip",
+      "@Grunty Industries 4th Floor - Past the Crushers, $floor_4_back_to_elevator_shaft",
       "@Grunty Industries Roof, $floor_5_to_foor_1"
     ],
     "children": [
       {
         "name": "Elevator Shaft",
-        "visibility_rules": ["nestsanity_on"],
         "sections": [
           {
             "name": "Floor 2 Egg Nest",
             "chest_unopened_img": "/images/locations/eggnest.png",
             "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
             "access_rules": ["$nest_elevator_shaft_floor2"]
           },
           {
             "name": "Floor 3 Egg Nest",
             "chest_unopened_img": "/images/locations/eggnest.png",
             "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
             "access_rules": ["$nest_elevator_shaft_floor3"]
           },
           {
             "name": "Floor 4 Egg Nest",
             "chest_unopened_img": "/images/locations/eggnest.png",
             "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
             "access_rules": ["$nest_elevator_shaft_floor4"]
+          },
+          {
+            "name": "Signpost 1",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"],
+            "access_rules": ["$signpost_elevator_shaft"]
+          },
+          {
+            "name": "Signpost 2",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"],
+            "access_rules": ["$signpost_elevator_shaft"]
           }
         ],
         "map_locations": [
@@ -13918,15 +14901,8 @@
       "trainswgi, @Inside Chuffy",
       "@Outside Grunty Industries, $outside_gi_to_floor1",
       "@Grunty Industries Elevator Shaft, $elevator_shaft_to_floor_1",
-      "@Grunty Industries Elevator Shaft, logictype_a, @Grunty Industries 2nd Floor - Electromagnetic Chamber, $em_chamber_to_elevator_shaft",
-      "@Grunty Industries Elevator Shaft, logictype_a, @Grunty Industries 3rd Floor - Boiler Plant, $health_7, $boiler_plant_to_elevator_shaft",
-      "@Grunty Industries Elevator Shaft, logictype_a, @Grunty Industries 4th Floor - Past the Crushers, $health_10, $floor_4_back_to_elevator_shaft",
-      "@Grunty Industries Elevator Shaft, logictype_g, @Grunty Industries 2nd Floor - Electromagnetic Chamber, $em_chamber_to_elevator_shaft",
-      "@Grunty Industries Elevator Shaft, logictype_g, @Grunty Industries 3rd Floor - Boiler Plant, $health_7, $boiler_plant_to_elevator_shaft",
-      "@Grunty Industries Elevator Shaft, logictype_g, @Grunty Industries 4th Floor - Past the Crushers, $health_10, $floor_4_back_to_elevator_shaft",
-      "@Grunty Industries Elevator Shaft, logictype_g, @Grunty Industries 4th Floor - Past the Crushers, $health_10, @Grunty Industries 4th Floor, $clockworkWarp, $springPad",
-      "@Grunty Industries Elevator Shaft, logictype_g, @Grunty Industries 4th Floor - Past the Crushers, $health_10, @Grunty Industries 4th Floor, $clockworkWarp, fflip",
-      "@Grunty Industries 2nd Floor, $F2_to_F1"
+      "@Grunty Industries 2nd Floor, $F2_to_F1",
+      "@Grunty Industries Roof, $floor_5_to_floor_1"
     ],
     "children": [
       {
@@ -14109,6 +15085,12 @@
             "chest_unopened_img": "/images/locations/feathernest.png",
             "chest_opened_img": "/images/locations/feathernest2.png",
             "visibility_rules": ["nestsanity_on"]
+          },
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"]
           }
         ],
         "map_locations": [
@@ -14401,16 +15383,9 @@
     "chest_opened_img": "/images/items/honeycombcheck2.png",
     "access_rules": [
       "@Outside Grunty Industries - Behind the building, $outside_gi_back_to_floor2",
-      "@Grunty Industries Elevator Shaft, $elevator_shaft_to_em",
-      "@Grunty Industries Elevator Shaft, logictype_g, @Grunty Industries 3rd Floor - Boiler Plant, $boiler_plant_to_elevator_shaft, $breegullBash",
-      "@Grunty Industries Elevator Shaft, logictype_g, @Grunty Industries 4th Floor - Past the Crushers, $health_10, $floor_4_back_to_elevator_shaft, $breegullBash",
-      "@Grunty Industries Elevator Shaft, logictype_g, @Grunty Industries 4th Floor - Past the Crushers, $health_10, @Grunty Industries 4th Floor, $clockworkWarp, $springPad, $breegullBash",
-      "@Grunty Industries Elevator Shaft, logictype_g, @Grunty Industries 4th Floor - Past the Crushers, $health_10, @Grunty Industries 4th Floor, $clockworkWarp, fflip, $breegullBash",
-      "@Grunty Industries Elevator Shaft, logictype_g, @Grunty Industries 4th Floor - Past the Crushers, bbust, $floor_4_back_to_elevator_shaft, $breegullBash",
-      "@Grunty Industries Elevator Shaft, logictype_g, @Grunty Industries 4th Floor - Past the Crushers, bbust, @Grunty Industries 4th Floor, $clockworkWarp, $springPad, $breegullBash",
-      "@Grunty Industries Elevator Shaft, logictype_g, @Grunty Industries 4th Floor - Past the Crushers, bbust, @Grunty Industries 4th Floor, $clockworkWarp, fflip, $breegullBash",
       "@Grunty Industries 1st Floor, $F1_to_F2",
-      "@Grunty Industries 3rd Floor, $F3_to_F2"
+      "@Grunty Industries 3rd Floor, $F3_to_F2",
+      "@Grunty Industries 2nd Floor - Electromagnetic Chamber"
     ],
     "children": [
       {
@@ -14629,7 +15604,8 @@
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
     "access_rules": [
-      "@Grunty Industries 2nd Floor, $floor_2_to_em_room"
+      "@Grunty Industries 2nd Floor, $floor_2_to_em_room",
+      "@Grunty Industries Elevator Shaft, $elevator_shaft_to_em"
     ],
     "children": [
       {
@@ -14680,18 +15656,9 @@
     "chest_opened_img": "/images/items/honeycombcheck2.png",
     "access_rules": [
       "@Outside Grunty Industries - Behind the building, $outside_gi_back_to_floor_3",
-      "@Grunty Industries Elevator Shaft, $elevator_shaft_to_boiler_plant",
-      "@Grunty Industries Elevator Shaft, logictype_g, @Grunty Industries 4th Floor - Past the Crushers, $floor_4_back_to_elevator_shaft, $breegullBash",
-      "@Grunty Industries Elevator Shaft, logictype_g, @Grunty Industries 4th Floor - Past the Crushers, @Grunty Industries 4th Floor, $clockworkWarp, $springPad, $breegullBash",
-      "@Grunty Industries Elevator Shaft, logictype_g, @Grunty Industries 4th Floor - Past the Crushers, @Grunty Industries 4th Floor, $clockworkWarp, fflip, $breegullBash",
       "@Grunty Industries 2nd Floor, $F2_to_F3",
       "@Grunty Industries 3rd Floor - Boiler Plant",
-      "@Grunty Industries 4th Floor, $escape_floor_4_bk",
-      "@Grunty Industries 4th Floor, $leg_spring, $canDoSmallElevation",
-      "@Grunty Industries 4th Floor, $leg_spring, @Grunty Industries 1st Floor",
-      "@Grunty Industries 4th Floor, $leg_spring, @Grunty Industries 2nd Floor, $floor_2_split_up",
-      "@Grunty Industries 4th Floor, $leg_spring, @Grunty Industries 3rd Floor, $canDoSmallElevation, tjump",
-      "@Grunty Industries 4th Floor, $leg_spring, @Grunty Industries 3rd Floor, $canDoSmallElevation",
+      "@Grunty Industries 4th Floor, $floor_4_to_floor_3",
       "@Grunty Industries Roof"
     ],
     "children": [
@@ -14722,6 +15689,7 @@
         "name": "GI Floor 3: Glowbo",
         "chest_unopened_img": "/images/locations/glowbo.png",
         "chest_opened_img": "/images/locations/glowbo2.png",
+        "access_rules": [ "$glowbo_floor_3" ],
         "sections": [
           {
             "name": "Glowbo"
@@ -14846,7 +15814,8 @@
     "chest_opened_img": "/images/items/honeycombcheck2.png",
     "access_rules": [
       "@Grunty Industries 3rd Floor, $floor_3_to_boiler_plant",
-      "@Grunty Industries Roof, $floor_5_to_boiler_plant"
+      "@Grunty Industries Roof, $floor_5_to_boiler_plant",
+      "@Grunty Industries Elevator Shaft, $elevator_shaft_to_boiler_plant"
     ],
     "children": [
       {
@@ -14900,7 +15869,6 @@
     "chest_opened_img": "/images/items/honeycombcheck2.png",
     "access_rules": [
       "@Outside Grunty Industries - Behind the building, $outside_gi_back_to_floor_4",
-      "@Grunty Industries Elevator Shaft, $elevator_shaft_to_floor_4",
       "@Grunty Industries 3rd Floor, $F3_to_F4",
       "@Grunty Industries 4th Floor - Past the Crushers",
       "@Grunty Industries Roof"
@@ -14978,17 +15946,13 @@
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
     "access_rules": [
-      "@Grunty Industries 4th Floor, $floor_4_to_floor_4_back, @Grunty Industries 3rd Floor"
+      "@Grunty Industries 4th Floor, $floor_4_to_floor_4_back",
+      "@Grunty Industries Elevator Shaft, $elevator_shaft_to_floor_4"
     ],
     "children": [
       {
         "name": "Clinker's Cavern",
-        "access_rules": [
-              "logictype_b, clawbts, bblaster, climb",
-              "logictype_n, clawbts, bblaster, climb",
-              "logictype_a, clawbts, bblaster, climb",
-              "logictype_g, clawbts, bblaster, $clockworkWarp, $springPad", "logictype_g, clawbts, bblaster, $clockworkWarp, fflip", "logictype_g, clawbts, bblaster, @Grunty Industries Elevator Shaft, $elevator_shaft_to_floor_4", "logictype_g, clawbts, bblaster, climb"
-            ],
+        "access_rules": [ "$jiggy_clinkers" ],
         "sections": [
           {
             "name": "Jiggy",
@@ -15098,12 +16062,7 @@
             "name": "Jiggy",
             "chest_unopened_img": "/images/locations/jiggy.png",
             "chest_opened_img": "/images/locations/jiggy2.png",
-            "access_rules": [
-              "logictype_b, geggs, eggaim, $can_use_battery, humbagi, @Grunty Industries 2nd Floor, climb",
-              "logictype_n, $canShootEggs|geggs, eggaim, humbagi, @Grunty Industries 2nd Floor, $can_use_battery, climb", "logictype_n, $canShootEggs|geggs, $leg_spring, $can_use_battery, climb",
-              "logictype_a, $canShootEggs|geggs, $can_use_battery, climb, tjump", "logictype_a, $canShootEggs|geggs, $can_use_battery, climb, $leg_spring", "logictype_a, $canShootEggs|geggs, $can_use_battery, climb, humbagi, @Grunty Industries 2nd Floor, eggaim", "logictype_a, $canShootEggs|geggs, $can_use_battery, climb, $clockwork_shot",
-              "logictype_a, $canShootEggs|geggs, $can_use_battery, climb, tjump", "logictype_a, $canShootEggs|geggs, $can_use_battery, climb, $leg_spring", "logictype_a, $canShootEggs|geggs, $can_use_battery, climb, humbagi, @Grunty Industries 2nd Floor, eggaim", "logictype_a, $canShootEggs|geggs, $can_use_battery, climb, $clockwork_shot", "logictype_g, $canShootEggs|geggs, $can_use_battery, climb, $clockworkWarp"
-            ]
+            "access_rules": [ "$jiggy_quality_control"]
           },
           {
             "name": "Egg Nest 1",
@@ -15166,34 +16125,11 @@
     "chest_unopened_img": "/images/items/honeycombcheck.png",
     "chest_opened_img": "/images/items/honeycombcheck2.png",
     "access_rules": [
-      "@Outside Grunty Industries, $outside_gi_to_floor_5, @Grunty Industries 4th Floor",
-      "@Outside Grunty Industries, $outside_gi_to_floor_5, humbagi, @Grunty Industries 2nd Floor",
-      "@Outside Grunty Industries - Behind the building, $outside_gi_back_to_floor_5, @Grunty Industries 4th Floor",
-      "@Outside Grunty Industries - Behind the building, $outside_gi_back_to_floor_5, humbagi, @Grunty Industries 2nd Floor",
-      "@Grunty Industries 1st Floor, splitup, fpad, @Grunty Industries 4th Floor, tjump",
-      "@Grunty Industries 1st Floor, splitup, fpad, humbagi, @Grunty Industries 2nd Floor, tjump",
-      "@Grunty Industries 1st Floor, splitup, fpad, @Grunty Industries 4th Floor, $leg_spring",
-      "@Grunty Industries 1st Floor, splitup, fpad, humbagi, @Grunty Industries 2nd Floor, $leg_spring",
-      "@Grunty Industries 1st Floor, splitup, fpad, @Grunty Industries 4th Floor, $leg_spring, @Grunty Industries 2nd Floor",
-      "@Grunty Industries 1st Floor, logictype_a, splitup, clawbts, $leg_spring, $wing_whack, fpad",
-      "@Grunty Industries 1st Floor, logictype_a, splitup, clawbts, $leg_spring, eggaim, fpad",
-      "@Grunty Industries 1st Floor, logictype_g, splitup, clawbts, $leg_spring, $wing_whack, fpad",
-      "@Grunty Industries 1st Floor, logictype_g, splitup, clawbts, $leg_spring, eggaim, fpad",
-      "@Grunty Industries 3rd Floor, $leg_spring, fpad, @Grunty Industries 1st Floor, @Grunty Industries 4th Floor",
-      "@Grunty Industries 3rd Floor, $leg_spring, fpad, @Grunty Industries 1st Floor, humbagi, @Grunty Industries 2nd Floor",
-      "@Grunty Industries 3rd Floor, $leg_spring, fpad, @Grunty Industries 2nd Floor, $floor_2_split_up, @Grunty Industries 4th Floor",
-      "@Grunty Industries 3rd Floor, $leg_spring, fpad, @Grunty Industries 2nd Floor, $floor_2_split_up, humbagi, @Grunty Industries 2nd Floor",
-      "@Grunty Industries 3rd Floor, $leg_spring, fpad, $canDoSmallElevation, tjump, @Grunty Industries 4th Floor",
-      "@Grunty Industries 3rd Floor, $leg_spring, fpad, $canDoSmallElevation, tjump, humbagi, @Grunty Industries 2nd Floor",
-      "@Grunty Industries 3rd Floor, $leg_spring, fpad, $canDoSmallElevation, @Grunty Industries 4th Floor",
-      "@Grunty Industries 3rd Floor, $leg_spring, fpad, $canDoSmallElevation, humbagi, @Grunty Industries 2nd Floor",
-      "@Grunty Industries 3rd Floor, $leg_spring, fpad, $canDoSmallElevation, @Grunty Industries 4th Floor",
-      "@Grunty Industries 3rd Floor, $leg_spring, fpad, @Grunty Industries 4th Floor, $canDoSmallElevation, humbagi, @Grunty Industries 2nd Floor",
-      "@Grunty Industries 4th Floor, $leg_spring, fpad, @Grunty Industries 1st Floor",
-      "@Grunty Industries 4th Floor, $leg_spring, fpad, @Grunty Industries 2nd Floor, $floor_2_split_up",
-      "@Grunty Industries 4th Floor, $leg_spring, fpad, @Grunty Industries 3rd Floor, $canDoSmallElevation, tjump",
-      "@Grunty Industries 4th Floor, $leg_spring, fpad, @Grunty Industries 3rd Floor, $canDoSmallElevation",
-      "@Grunty Industries 4th Floor, $leg_spring, fpad, $canDoSmallElevation"
+      "@Outside Grunty Industries, $outside_gi_to_floor_5",
+      "@Outside Grunty Industries - Behind the building, $outside_gi_back_to_floor_5",
+      "@Grunty Industries 1st Floor, $F1_to_F5",
+      "@Grunty Industries 3rd Floor, $floor_3_to_floor_5",
+      "@Grunty Industries 4th Floor, $floor_4_to_floor_5"
     ],
     "children": [
       {
@@ -15496,6 +16432,25 @@
         ]
       },
       {
+        "name": "HFP: Top Hot Pool Signpost",
+        "sections": [
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"],
+            "access_rules": ["$hfpTop"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp1",
+            "x": 210,
+            "y": 100
+          }
+        ]
+      },
+      {
         "name": "HFP: Near Top Hot Pool Egg Nests",
         "chest_unopened_img": "/images/locations/eggnest.png",
         "chest_opened_img": "/images/locations/eggnest2.png",
@@ -15763,6 +16718,36 @@
             "chest_unopened_img": "/images/locations/honey.png",
             "chest_opened_img": "/images/locations/honey2.png",
             "access_rules": ["$honeycomb_volcano"]
+          },
+          {
+            "name": "Signpost 1",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"],
+            "access_rules": [
+              "$longJump, $hfpTop",
+              "logictype_n, splitup", "logictype_a, splitup", "logictype_g, splitup"
+            ]
+          },
+          {
+            "name": "Signpost 2",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"],
+            "access_rules": [
+              "$longJump, $hfpTop",
+              "logictype_n, splitup", "logictype_a, splitup", "logictype_g, splitup"
+            ]
+          },
+          {
+            "name": "Signpost 3",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"],
+            "access_rules": [
+              "$longJump, $hfpTop",
+              "logictype_n, splitup", "logictype_a, splitup", "logictype_g, splitup"
+            ]
           }
         ],
         "map_locations": [
@@ -15873,7 +16858,25 @@
           {
             "map": "hfp1",
             "x": 420,
-            "y": 400
+            "y": 405
+          }
+        ]
+      },
+      {
+        "name": "HFP: Bottom Hot Pool Signpost",
+        "chest_unopened_img": "/images/locations/signpost.png",
+        "chest_opened_img": "/images/locations/signpost2.png",
+        "visibility_rules": ["signposts_on"],
+        "sections": [
+          {
+            "name": "Signpost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp1",
+            "x": 420,
+            "y": 388
           }
         ]
       },
@@ -16186,14 +17189,14 @@
             "chest_unopened_img": "/images/locations/feathernest.png",
             "chest_opened_img": "/images/locations/feathernest2.png",
             "visibility_rules": ["nestsanity_on"],
-            "access_rules": ["$nest_icy_side_train_station_hard"]
+            "access_rules": ["$jiggy_ice_station"]
           },
           {
             "name": "Egg Nest",
             "chest_unopened_img": "/images/locations/eggnest.png",
             "chest_opened_img": "/images/locations/eggnest2.png",
             "visibility_rules": ["nestsanity_on"],
-            "access_rules": ["$jiggy_ice_station"]
+            "access_rules": ["$nest_icy_side_train_station_hard"]
           }
         ],
         "map_locations": [
@@ -16841,6 +17844,12 @@
             "chest_unopened_img": "/images/locations/eggnest.png",
             "chest_opened_img": "/images/locations/eggnest2.png",
             "visibility_rules": ["nestsanity_on"]
+          },
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"]
           }
         ],
         "map_locations": [
@@ -16934,7 +17943,7 @@
             "chest_opened_img": "/images/locations/glowbo2.png",
             "access_rules": [
               "logictype_b, dive",
-              "logictype_n, dive",
+              "logictype_n, dive", "logictype_n, bbust",
               "logictype_a", "logictype_g"
             ]
           }
@@ -17450,6 +18459,25 @@
         ]
       },
       {
+        "name": "CCL: On Rim of Glowbo Pool Signpost",
+        "sections": [
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"],
+            "access_rules": ["$signpost_pool_rim"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl2",
+            "x": 345,
+            "y": 167
+          }
+        ]
+      },
+      {
         "name": "Sack Pack Silo",
         "sections": [
           {
@@ -17477,6 +18505,13 @@
               "logictype_a, $shack_pack", "logictype_a, $canShootEggs|ceggs",
               "logictype_g, $shack_pack", "logictype_g, $canShootEggs|ceggs"
             ]
+          },
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"],
+            "access_rules": ["$shack_pack"]
           }
         ],
         "map_locations": [
@@ -17604,6 +18639,25 @@
         ]
       },
       {
+        "name": "CCL: Indoors Pool Underwater Signpost",
+        "chest_unopened_img": "/images/locations/signpost.png",
+        "chest_opened_img": "/images/locations/signpost2.png",
+        "visibility_rules": ["signposts_on"],
+        "access_rules": ["$signpost_ccl_underwater"],
+        "sections": [
+          {
+            "name": "Signpost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl2",
+            "x": 160,
+            "y": 495
+          }
+        ]
+      },
+      {
         "name": "CCL: Dippy Pool Note",
         "chest_unopened_img": "/images/locations/note.png",
         "chest_opened_img": "/images/locations/note2.png",
@@ -17612,9 +18666,8 @@
             "name": "Note",
             "access_rules": [
               "logictype_b, dive",
-              "logictype_n, dive", "logictype_n, $shack_pack",
-              "logictype_a, dive", "logictype_a, $shack_pack",
-              "logictype_g, dive", "logictype_g, $shack_pack"
+              "logictype_n, dive", "logictype_n, $shack_pack", "logictype_n, bbust",
+              "logictype_a", "logictype_g"
             ]
           }
         ],

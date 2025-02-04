@@ -2208,5 +2208,2675 @@
         "name": "cc_note16",
         "type": "toggle",
         "codes": "cc_note16"
+    },
+    {
+        "name": "sm_nest1",
+        "type": "toggle",
+        "codes": "sm_nest1"
+    },
+    {
+        "name": "sm_nest2",
+        "type": "toggle",
+        "codes": "sm_nest2"
+    },
+    {
+        "name": "sm_nest3",
+        "type": "toggle",
+        "codes": "sm_nest3"
+    },
+    {
+        "name": "sm_nest4",
+        "type": "toggle",
+        "codes": "sm_nest4"
+    },
+    {
+        "name": "sm_nest5",
+        "type": "toggle",
+        "codes": "sm_nest5"
+    },
+    {
+        "name": "sm_nest6",
+        "type": "toggle",
+        "codes": "sm_nest6"
+    },
+    {
+        "name": "sm_nest7",
+        "type": "toggle",
+        "codes": "sm_nest7"
+    },
+    {
+        "name": "sm_nest8",
+        "type": "toggle",
+        "codes": "sm_nest8"
+    },
+    {
+        "name": "sm_nest9",
+        "type": "toggle",
+        "codes": "sm_nest9"
+    },
+    {
+        "name": "sm_nest10",
+        "type": "toggle",
+        "codes": "sm_nest10"
+    },
+    {
+        "name": "sm_nest11",
+        "type": "toggle",
+        "codes": "sm_nest11"
+    },
+    {
+        "name": "sm_nest12",
+        "type": "toggle",
+        "codes": "sm_nest12"
+    },
+    {
+        "name": "sm_nest13",
+        "type": "toggle",
+        "codes": "sm_nest13"
+    },
+    {
+        "name": "sm_nest14",
+        "type": "toggle",
+        "codes": "sm_nest14"
+    },
+    {
+        "name": "sm_nest15",
+        "type": "toggle",
+        "codes": "sm_nest15"
+    },
+    {
+        "name": "sm_nest16",
+        "type": "toggle",
+        "codes": "sm_nest16"
+    },
+    {
+        "name": "sm_nest17",
+        "type": "toggle",
+        "codes": "sm_nest17"
+    },
+    {
+        "name": "sm_nest18",
+        "type": "toggle",
+        "codes": "sm_nest18"
+    },
+    {
+        "name": "sm_nest19",
+        "type": "toggle",
+        "codes": "sm_nest19"
+    },
+    {
+        "name": "sm_nest20",
+        "type": "toggle",
+        "codes": "sm_nest20"
+    },
+    {
+        "name": "sm_nest21",
+        "type": "toggle",
+        "codes": "sm_nest21"
+    },
+    {
+        "name": "sm_nest22",
+        "type": "toggle",
+        "codes": "sm_nest22"
+    },
+    {
+        "name": "sm_nest23",
+        "type": "toggle",
+        "codes": "sm_nest23"
+    },
+    {
+        "name": "sm_nest24",
+        "type": "toggle",
+        "codes": "sm_nest24"
+    },
+    {
+        "name": "sm_nest25",
+        "type": "toggle",
+        "codes": "sm_nest25"
+    },
+    {
+        "name": "ih_nest1",
+        "type": "toggle",
+        "codes": "ih_nest1"
+    },
+    {
+        "name": "ih_nest2",
+        "type": "toggle",
+        "codes": "ih_nest2"
+    },
+    {
+        "name": "ih_nest3",
+        "type": "toggle",
+        "codes": "ih_nest3"
+    },
+    {
+        "name": "ih_nest4",
+        "type": "toggle",
+        "codes": "ih_nest4"
+    },
+    {
+        "name": "ih_nest5",
+        "type": "toggle",
+        "codes": "ih_nest5"
+    },
+    {
+        "name": "ih_nest6",
+        "type": "toggle",
+        "codes": "ih_nest6"
+    },
+    {
+        "name": "ih_nest7",
+        "type": "toggle",
+        "codes": "ih_nest7"
+    },
+    {
+        "name": "ih_nest8",
+        "type": "toggle",
+        "codes": "ih_nest8"
+    },
+    {
+        "name": "ih_nest9",
+        "type": "toggle",
+        "codes": "ih_nest9"
+    },
+    {
+        "name": "ih_nest10",
+        "type": "toggle",
+        "codes": "ih_nest10"
+    },
+    {
+        "name": "ih_nest11",
+        "type": "toggle",
+        "codes": "ih_nest11"
+    },
+    {
+        "name": "ih_nest12",
+        "type": "toggle",
+        "codes": "ih_nest12"
+    },
+    {
+        "name": "ih_nest13",
+        "type": "toggle",
+        "codes": "ih_nest13"
+    },
+    {
+        "name": "ih_nest14",
+        "type": "toggle",
+        "codes": "ih_nest14"
+    },
+    {
+        "name": "ih_nest15",
+        "type": "toggle",
+        "codes": "ih_nest15"
+    },
+    {
+        "name": "ih_nest16",
+        "type": "toggle",
+        "codes": "ih_nest16"
+    },
+    {
+        "name": "ih_nest17",
+        "type": "toggle",
+        "codes": "ih_nest17"
+    },
+    {
+        "name": "ih_sign1",
+        "type": "toggle",
+        "codes": "ih_sign1"
+    },
+    {
+        "name": "ih_nest18",
+        "type": "toggle",
+        "codes": "ih_nest18"
+    },
+    {
+        "name": "ih_nest19",
+        "type": "toggle",
+        "codes": "ih_nest19"
+    },
+    {
+        "name": "ih_nest20",
+        "type": "toggle",
+        "codes": "ih_nest20"
+    },
+    {
+        "name": "ih_nest21",
+        "type": "toggle",
+        "codes": "ih_nest21"
+    },
+    {
+        "name": "ih_nest22",
+        "type": "toggle",
+        "codes": "ih_nest22"
+    },
+    {
+        "name": "ih_nest23",
+        "type": "toggle",
+        "codes": "ih_nest23"
+    },
+    {
+        "name": "ih_nest24",
+        "type": "toggle",
+        "codes": "ih_nest24"
+    },
+    {
+        "name": "ih_nest25",
+        "type": "toggle",
+        "codes": "ih_nest25"
+    },
+    {
+        "name": "ih_nest26",
+        "type": "toggle",
+        "codes": "ih_nest26"
+    },
+    {
+        "name": "ih_sign2",
+        "type": "toggle",
+        "codes": "ih_sign2"
+    },
+    {
+        "name": "ih_sign3",
+        "type": "toggle",
+        "codes": "ih_sign3"
+    },
+    {
+        "name": "ih_sign4",
+        "type": "toggle",
+        "codes": "ih_sign4"
+    },
+    {
+        "name": "ih_sign5",
+        "type": "toggle",
+        "codes": "ih_sign5"
+    },
+    {
+        "name": "ih_sign6",
+        "type": "toggle",
+        "codes": "ih_sign6"
+    },
+    {
+        "name": "ih_sign7",
+        "type": "toggle",
+        "codes": "ih_sign7"
+    },
+    {
+        "name": "ih_sign8",
+        "type": "toggle",
+        "codes": "ih_sign8"
+    },
+    {
+        "name": "ih_sign9",
+        "type": "toggle",
+        "codes": "ih_sign9"
+    },
+    {
+        "name": "ih_sign10",
+        "type": "toggle",
+        "codes": "ih_sign10"
+    },
+    {
+        "name": "ih_sign11",
+        "type": "toggle",
+        "codes": "ih_sign11"
+    },
+    {
+        "name": "ih_sign12",
+        "type": "toggle",
+        "codes": "ih_sign12"
+    },
+    {
+        "name": "ih_sign13",
+        "type": "toggle",
+        "codes": "ih_sign13"
+    },
+    {
+        "name": "ih_sign14",
+        "type": "toggle",
+        "codes": "ih_sign14"
+    },
+    {
+        "name": "ih_nest27",
+        "type": "toggle",
+        "codes": "ih_nest27"
+    },
+    {
+        "name": "ih_nest28",
+        "type": "toggle",
+        "codes": "ih_nest28"
+    },
+    {
+        "name": "ih_nest29",
+        "type": "toggle",
+        "codes": "ih_nest29"
+    },
+    {
+        "name": "ih_nest30",
+        "type": "toggle",
+        "codes": "ih_nest30"
+    },
+    {
+        "name": "ih_nest31",
+        "type": "toggle",
+        "codes": "ih_nest31"
+    },
+    {
+        "name": "ih_nest32",
+        "type": "toggle",
+        "codes": "ih_nest32"
+    },
+    {
+        "name": "ih_nest33",
+        "type": "toggle",
+        "codes": "ih_nest33"
+    },
+    {
+        "name": "ih_nest34",
+        "type": "toggle",
+        "codes": "ih_nest34"
+    },
+    {
+        "name": "ih_nest35",
+        "type": "toggle",
+        "codes": "ih_nest35"
+    },
+    {
+        "name": "ih_nest36",
+        "type": "toggle",
+        "codes": "ih_nest36"
+    },
+    {
+        "name": "ih_nest37",
+        "type": "toggle",
+        "codes": "ih_nest37"
+    },
+    {
+        "name": "ih_nest38",
+        "type": "toggle",
+        "codes": "ih_nest38"
+    },
+    {
+        "name": "ih_nest39",
+        "type": "toggle",
+        "codes": "ih_nest39"
+    },
+    {
+        "name": "ih_nest46",
+        "type": "toggle",
+        "codes": "ih_nest46"
+    },
+    {
+        "name": "ih_nest47",
+        "type": "toggle",
+        "codes": "ih_nest47"
+    },
+    {
+        "name": "ih_sign15",
+        "type": "toggle",
+        "codes": "ih_sign15"
+    },
+    {
+        "name": "ih_sign16",
+        "type": "toggle",
+        "codes": "ih_sign16"
+    },
+    {
+        "name": "ih_sign17",
+        "type": "toggle",
+        "codes": "ih_sign17"
+    },
+    {
+        "name": "ih_nest40",
+        "type": "toggle",
+        "codes": "ih_nest40"
+    },
+    {
+        "name": "ih_nest41",
+        "type": "toggle",
+        "codes": "ih_nest41"
+    },
+    {
+        "name": "ih_nest42",
+        "type": "toggle",
+        "codes": "ih_nest42"
+    },
+    {
+        "name": "ih_nest43",
+        "type": "toggle",
+        "codes": "ih_nest43"
+    },
+    {
+        "name": "ih_nest44",
+        "type": "toggle",
+        "codes": "ih_nest44"
+    },
+    {
+        "name": "ih_nest45",
+        "type": "toggle",
+        "codes": "ih_nest45"
+    },
+    {
+        "name": "ih_nest64",
+        "type": "toggle",
+        "codes": "ih_nest64"
+    },
+    {
+        "name": "ih_sign18",
+        "type": "toggle",
+        "codes": "ih_sign18"
+    },
+    {
+        "name": "ih_nest48",
+        "type": "toggle",
+        "codes": "ih_nest48"
+    },
+    {
+        "name": "ih_nest49",
+        "type": "toggle",
+        "codes": "ih_nest49"
+    },
+    {
+        "name": "ih_nest50",
+        "type": "toggle",
+        "codes": "ih_nest50"
+    },
+    {
+        "name": "ih_nest51",
+        "type": "toggle",
+        "codes": "ih_nest51"
+    },
+    {
+        "name": "ih_nest52",
+        "type": "toggle",
+        "codes": "ih_nest52"
+    },
+    {
+        "name": "ih_nest53",
+        "type": "toggle",
+        "codes": "ih_nest53"
+    },
+    {
+        "name": "ih_nest54",
+        "type": "toggle",
+        "codes": "ih_nest54"
+    },
+    {
+        "name": "ih_nest55",
+        "type": "toggle",
+        "codes": "ih_nest55"
+    },
+    {
+        "name": "ih_sign19",
+        "type": "toggle",
+        "codes": "ih_sign19"
+    },
+    {
+        "name": "ih_nest56",
+        "type": "toggle",
+        "codes": "ih_nest56"
+    },
+    {
+        "name": "ih_nest57",
+        "type": "toggle",
+        "codes": "ih_nest57"
+    },
+    {
+        "name": "ih_nest58",
+        "type": "toggle",
+        "codes": "ih_nest58"
+    },
+    {
+        "name": "ih_nest59",
+        "type": "toggle",
+        "codes": "ih_nest59"
+    },
+    {
+        "name": "ih_nest60",
+        "type": "toggle",
+        "codes": "ih_nest60"
+    },
+    {
+        "name": "ih_nest61",
+        "type": "toggle",
+        "codes": "ih_nest61"
+    },
+    {
+        "name": "ih_nest62",
+        "type": "toggle",
+        "codes": "ih_nest62"
+    },
+    {
+        "name": "ih_nest63",
+        "type": "toggle",
+        "codes": "ih_nest63"
+    },
+    {
+        "name": "mt_sign1",
+        "type": "toggle",
+        "codes": "mt_sign1"
+    },
+    {
+        "name": "mt_sign2",
+        "type": "toggle",
+        "codes": "mt_sign2"
+    },
+    {
+        "name": "mt_sign3",
+        "type": "toggle",
+        "codes": "mt_sign3"
+    },
+    {
+        "name": "mt_sign4",
+        "type": "toggle",
+        "codes": "mt_sign4"
+    },
+    {
+        "name": "mt_sign5",
+        "type": "toggle",
+        "codes": "mt_sign5"
+    },
+    {
+        "name": "mt_sign6",
+        "type": "toggle",
+        "codes": "mt_sign6"
+    },
+    {
+        "name": "mt_sign7",
+        "type": "toggle",
+        "codes": "mt_sign7"
+    },
+    {
+        "name": "mt_sign8",
+        "type": "toggle",
+        "codes": "mt_sign8"
+    },
+    {
+        "name": "mt_sign9",
+        "type": "toggle",
+        "codes": "mt_sign9"
+    },
+    {
+        "name": "mt_nest1",
+        "type": "toggle",
+        "codes": "mt_nest1"
+    },
+    {
+        "name": "mt_nest2",
+        "type": "toggle",
+        "codes": "mt_nest2"
+    },
+    {
+        "name": "mt_nest3",
+        "type": "toggle",
+        "codes": "mt_nest3"
+    },
+    {
+        "name": "mt_nest4",
+        "type": "toggle",
+        "codes": "mt_nest4"
+    },
+    {
+        "name": "mt_nest5",
+        "type": "toggle",
+        "codes": "mt_nest5"
+    },
+    {
+        "name": "mt_nest6",
+        "type": "toggle",
+        "codes": "mt_nest6"
+    },
+    {
+        "name": "mt_nest7",
+        "type": "toggle",
+        "codes": "mt_nest7"
+    },
+    {
+        "name": "mt_nest8",
+        "type": "toggle",
+        "codes": "mt_nest8"
+    },
+    {
+        "name": "mt_nest9",
+        "type": "toggle",
+        "codes": "mt_nest9"
+    },
+    {
+        "name": "mt_nest10",
+        "type": "toggle",
+        "codes": "mt_nest10"
+    },
+    {
+        "name": "mt_nest11",
+        "type": "toggle",
+        "codes": "mt_nest11"
+    },
+    {
+        "name": "mt_nest12",
+        "type": "toggle",
+        "codes": "mt_nest12"
+    },
+    {
+        "name": "mt_nest13",
+        "type": "toggle",
+        "codes": "mt_nest13"
+    },
+    {
+        "name": "mt_nest14",
+        "type": "toggle",
+        "codes": "mt_nest14"
+    },
+    {
+        "name": "mt_nest15",
+        "type": "toggle",
+        "codes": "mt_nest15"
+    },
+    {
+        "name": "mt_nest16",
+        "type": "toggle",
+        "codes": "mt_nest16"
+    },
+    {
+        "name": "mt_nest17",
+        "type": "toggle",
+        "codes": "mt_nest17"
+    },
+    {
+        "name": "mt_nest18",
+        "type": "toggle",
+        "codes": "mt_nest18"
+    },
+    {
+        "name": "mt_nest19",
+        "type": "toggle",
+        "codes": "mt_nest19"
+    },
+    {
+        "name": "mt_nest20",
+        "type": "toggle",
+        "codes": "mt_nest20"
+    },
+    {
+        "name": "mt_nest21",
+        "type": "toggle",
+        "codes": "mt_nest21"
+    },
+    {
+        "name": "mt_nest22",
+        "type": "toggle",
+        "codes": "mt_nest22"
+    },
+    {
+        "name": "mt_nest23",
+        "type": "toggle",
+        "codes": "mt_nest23"
+    },
+    {
+        "name": "mt_nest24",
+        "type": "toggle",
+        "codes": "mt_nest24"
+    },
+    {
+        "name": "mt_nest25",
+        "type": "toggle",
+        "codes": "mt_nest25"
+    },
+    {
+        "name": "mt_nest26",
+        "type": "toggle",
+        "codes": "mt_nest26"
+    },
+    {
+        "name": "mt_nest27",
+        "type": "toggle",
+        "codes": "mt_nest27"
+    },
+    {
+        "name": "mt_nest28",
+        "type": "toggle",
+        "codes": "mt_nest28"
+    },
+    {
+        "name": "mt_nest29",
+        "type": "toggle",
+        "codes": "mt_nest29"
+    },
+    {
+        "name": "mt_nest30",
+        "type": "toggle",
+        "codes": "mt_nest30"
+    },
+    {
+        "name": "mt_nest31",
+        "type": "toggle",
+        "codes": "mt_nest31"
+    },
+    {
+        "name": "mt_nest32",
+        "type": "toggle",
+        "codes": "mt_nest32"
+    },
+    {
+        "name": "mt_nest33",
+        "type": "toggle",
+        "codes": "mt_nest33"
+    },
+    {
+        "name": "mt_nest34",
+        "type": "toggle",
+        "codes": "mt_nest34"
+    },
+    {
+        "name": "mt_nest35",
+        "type": "toggle",
+        "codes": "mt_nest35"
+    },
+    {
+        "name": "mt_nest36",
+        "type": "toggle",
+        "codes": "mt_nest36"
+    },
+    {
+        "name": "mt_nest37",
+        "type": "toggle",
+        "codes": "mt_nest37"
+    },
+    {
+        "name": "mt_nest38",
+        "type": "toggle",
+        "codes": "mt_nest38"
+    },
+    {
+        "name": "mt_nest39",
+        "type": "toggle",
+        "codes": "mt_nest39"
+    },
+    {
+        "name": "mt_nest40",
+        "type": "toggle",
+        "codes": "mt_nest40"
+    },
+    {
+        "name": "mt_nest41",
+        "type": "toggle",
+        "codes": "mt_nest41"
+    },
+    {
+        "name": "gm_sign1",
+        "type": "toggle",
+        "codes": "gm_sign1"
+    },
+    {
+        "name": "gm_sign2",
+        "type": "toggle",
+        "codes": "gm_sign2"
+    },
+    {
+        "name": "gm_sign3",
+        "type": "toggle",
+        "codes": "gm_sign3"
+    },
+    {
+        "name": "gm_sign4",
+        "type": "toggle",
+        "codes": "gm_sign4"
+    },
+    {
+        "name": "gm_nest1",
+        "type": "toggle",
+        "codes": "gm_nest1"
+    },
+    {
+        "name": "gm_nest2",
+        "type": "toggle",
+        "codes": "gm_nest2"
+    },
+    {
+        "name": "gm_nest3",
+        "type": "toggle",
+        "codes": "gm_nest3"
+    },
+    {
+        "name": "gm_nest4",
+        "type": "toggle",
+        "codes": "gm_nest4"
+    },
+    {
+        "name": "gm_nest5",
+        "type": "toggle",
+        "codes": "gm_nest5"
+    },
+    {
+        "name": "gm_nest6",
+        "type": "toggle",
+        "codes": "gm_nest6"
+    },
+    {
+        "name": "gm_nest7",
+        "type": "toggle",
+        "codes": "gm_nest7"
+    },
+    {
+        "name": "gm_nest8",
+        "type": "toggle",
+        "codes": "gm_nest8"
+    },
+    {
+        "name": "gm_nest9",
+        "type": "toggle",
+        "codes": "gm_nest9"
+    },
+    {
+        "name": "gm_nest10",
+        "type": "toggle",
+        "codes": "gm_nest10"
+    },
+    {
+        "name": "gm_nest11",
+        "type": "toggle",
+        "codes": "gm_nest11"
+    },
+    {
+        "name": "gm_nest12",
+        "type": "toggle",
+        "codes": "gm_nest12"
+    },
+    {
+        "name": "gm_nest13",
+        "type": "toggle",
+        "codes": "gm_nest13"
+    },
+    {
+        "name": "gm_nest14",
+        "type": "toggle",
+        "codes": "gm_nest14"
+    },
+    {
+        "name": "gm_nest15",
+        "type": "toggle",
+        "codes": "gm_nest15"
+    },
+    {
+        "name": "gm_nest16",
+        "type": "toggle",
+        "codes": "gm_nest16"
+    },
+    {
+        "name": "gm_nest17",
+        "type": "toggle",
+        "codes": "gm_nest17"
+    },
+    {
+        "name": "gm_nest18",
+        "type": "toggle",
+        "codes": "gm_nest18"
+    },
+    {
+        "name": "gm_nest19",
+        "type": "toggle",
+        "codes": "gm_nest19"
+    },
+    {
+        "name": "gm_nest20",
+        "type": "toggle",
+        "codes": "gm_nest20"
+    },
+    {
+        "name": "gm_nest21",
+        "type": "toggle",
+        "codes": "gm_nest21"
+    },
+    {
+        "name": "gm_nest22",
+        "type": "toggle",
+        "codes": "gm_nest22"
+    },
+    {
+        "name": "gm_nest23",
+        "type": "toggle",
+        "codes": "gm_nest23"
+    },
+    {
+        "name": "gm_nest24",
+        "type": "toggle",
+        "codes": "gm_nest24"
+    },
+    {
+        "name": "gm_nest25",
+        "type": "toggle",
+        "codes": "gm_nest25"
+    },
+    {
+        "name": "gm_nest26",
+        "type": "toggle",
+        "codes": "gm_nest26"
+    },
+    {
+        "name": "gm_nest27",
+        "type": "toggle",
+        "codes": "gm_nest27"
+    },
+    {
+        "name": "gm_nest28",
+        "type": "toggle",
+        "codes": "gm_nest28"
+    },
+    {
+        "name": "gm_nest29",
+        "type": "toggle",
+        "codes": "gm_nest29"
+    },
+    {
+        "name": "gm_nest30",
+        "type": "toggle",
+        "codes": "gm_nest30"
+    },
+    {
+        "name": "gm_nest31",
+        "type": "toggle",
+        "codes": "gm_nest31"
+    },
+    {
+        "name": "gm_nest32",
+        "type": "toggle",
+        "codes": "gm_nest32"
+    },
+    {
+        "name": "gm_nest33",
+        "type": "toggle",
+        "codes": "gm_nest33"
+    },
+    {
+        "name": "gm_nest34",
+        "type": "toggle",
+        "codes": "gm_nest34"
+    },
+    {
+        "name": "gm_nest35",
+        "type": "toggle",
+        "codes": "gm_nest35"
+    },
+    {
+        "name": "gm_nest36",
+        "type": "toggle",
+        "codes": "gm_nest36"
+    },
+    {
+        "name": "gm_nest37",
+        "type": "toggle",
+        "codes": "gm_nest37"
+    },
+    {
+        "name": "gm_nest38",
+        "type": "toggle",
+        "codes": "gm_nest38"
+    },
+    {
+        "name": "ww_sign1",
+        "type": "toggle",
+        "codes": "ww_sign1"
+    },
+    {
+        "name": "ww_sign2",
+        "type": "toggle",
+        "codes": "ww_sign2"
+    },
+    {
+        "name": "ww_sign3",
+        "type": "toggle",
+        "codes": "ww_sign3"
+    },
+    {
+        "name": "ww_sign4",
+        "type": "toggle",
+        "codes": "ww_sign4"
+    },
+    {
+        "name": "ww_sign5",
+        "type": "toggle",
+        "codes": "ww_sign5"
+    },
+    {
+        "name": "ww_sign6",
+        "type": "toggle",
+        "codes": "ww_sign6"
+    },
+    {
+        "name": "ww_sign7",
+        "type": "toggle",
+        "codes": "ww_sign7"
+    },
+    {
+        "name": "ww_sign8",
+        "type": "toggle",
+        "codes": "ww_sign8"
+    },
+    {
+        "name": "ww_nest1",
+        "type": "toggle",
+        "codes": "ww_nest1"
+    },
+    {
+        "name": "ww_nest2",
+        "type": "toggle",
+        "codes": "ww_nest2"
+    },
+    {
+        "name": "ww_nest3",
+        "type": "toggle",
+        "codes": "ww_nest3"
+    },
+    {
+        "name": "ww_nest4",
+        "type": "toggle",
+        "codes": "ww_nest4"
+    },
+    {
+        "name": "ww_nest5",
+        "type": "toggle",
+        "codes": "ww_nest5"
+    },
+    {
+        "name": "ww_nest6",
+        "type": "toggle",
+        "codes": "ww_nest6"
+    },
+    {
+        "name": "ww_nest7",
+        "type": "toggle",
+        "codes": "ww_nest7"
+    },
+    {
+        "name": "ww_nest8",
+        "type": "toggle",
+        "codes": "ww_nest8"
+    },
+    {
+        "name": "ww_nest9",
+        "type": "toggle",
+        "codes": "ww_nest9"
+    },
+    {
+        "name": "ww_nest10",
+        "type": "toggle",
+        "codes": "ww_nest10"
+    },
+    {
+        "name": "ww_nest11",
+        "type": "toggle",
+        "codes": "ww_nest11"
+    },
+    {
+        "name": "ww_nest12",
+        "type": "toggle",
+        "codes": "ww_nest12"
+    },
+    {
+        "name": "ww_nest13",
+        "type": "toggle",
+        "codes": "ww_nest13"
+    },
+    {
+        "name": "ww_nest14",
+        "type": "toggle",
+        "codes": "ww_nest14"
+    },
+    {
+        "name": "ww_nest15",
+        "type": "toggle",
+        "codes": "ww_nest15"
+    },
+    {
+        "name": "ww_nest16",
+        "type": "toggle",
+        "codes": "ww_nest16"
+    },
+    {
+        "name": "ww_nest17",
+        "type": "toggle",
+        "codes": "ww_nest17"
+    },
+    {
+        "name": "ww_nest18",
+        "type": "toggle",
+        "codes": "ww_nest18"
+    },
+    {
+        "name": "ww_nest19",
+        "type": "toggle",
+        "codes": "ww_nest19"
+    },
+    {
+        "name": "ww_nest20",
+        "type": "toggle",
+        "codes": "ww_nest20"
+    },
+    {
+        "name": "ww_nest21",
+        "type": "toggle",
+        "codes": "ww_nest21"
+    },
+    {
+        "name": "ww_nest22",
+        "type": "toggle",
+        "codes": "ww_nest22"
+    },
+    {
+        "name": "ww_nest23",
+        "type": "toggle",
+        "codes": "ww_nest23"
+    },
+    {
+        "name": "ww_nest24",
+        "type": "toggle",
+        "codes": "ww_nest24"
+    },
+    {
+        "name": "ww_nest25",
+        "type": "toggle",
+        "codes": "ww_nest25"
+    },
+    {
+        "name": "ww_nest26",
+        "type": "toggle",
+        "codes": "ww_nest26"
+    },
+    {
+        "name": "ww_nest27",
+        "type": "toggle",
+        "codes": "ww_nest27"
+    },
+    {
+        "name": "ww_nest28",
+        "type": "toggle",
+        "codes": "ww_nest28"
+    },
+    {
+        "name": "ww_nest29",
+        "type": "toggle",
+        "codes": "ww_nest29"
+    },
+    {
+        "name": "ww_nest30",
+        "type": "toggle",
+        "codes": "ww_nest30"
+    },
+    {
+        "name": "ww_nest31",
+        "type": "toggle",
+        "codes": "ww_nest31"
+    },
+    {
+        "name": "ww_nest32",
+        "type": "toggle",
+        "codes": "ww_nest32"
+    },
+    {
+        "name": "ww_nest33",
+        "type": "toggle",
+        "codes": "ww_nest33"
+    },
+    {
+        "name": "ww_nest34",
+        "type": "toggle",
+        "codes": "ww_nest34"
+    },
+    {
+        "name": "ww_nest35",
+        "type": "toggle",
+        "codes": "ww_nest35"
+    },
+    {
+        "name": "ww_nest36",
+        "type": "toggle",
+        "codes": "ww_nest36"
+    },
+    {
+        "name": "ww_nest37",
+        "type": "toggle",
+        "codes": "ww_nest37"
+    },
+    {
+        "name": "ww_nest38",
+        "type": "toggle",
+        "codes": "ww_nest38"
+    },
+    {
+        "name": "ww_nest39",
+        "type": "toggle",
+        "codes": "ww_nest39"
+    },
+    {
+        "name": "ww_nest40",
+        "type": "toggle",
+        "codes": "ww_nest40"
+    },
+    {
+        "name": "ww_nest41",
+        "type": "toggle",
+        "codes": "ww_nest41"
+    },
+    {
+        "name": "ww_nest42",
+        "type": "toggle",
+        "codes": "ww_nest42"
+    },
+    {
+        "name": "jr_sign1",
+        "type": "toggle",
+        "codes": "jr_sign1"
+    },
+    {
+        "name": "jr_sign2",
+        "type": "toggle",
+        "codes": "jr_sign2"
+    },
+    {
+        "name": "jr_sign3",
+        "type": "toggle",
+        "codes": "jr_sign3"
+    },
+    {
+        "name": "jr_sign4",
+        "type": "toggle",
+        "codes": "jr_sign4"
+    },
+    {
+        "name": "jr_nest1",
+        "type": "toggle",
+        "codes": "jr_nest1"
+    },
+    {
+        "name": "jr_nest2",
+        "type": "toggle",
+        "codes": "jr_nest2"
+    },
+    {
+        "name": "jr_nest3",
+        "type": "toggle",
+        "codes": "jr_nest3"
+    },
+    {
+        "name": "jr_nest4",
+        "type": "toggle",
+        "codes": "jr_nest4"
+    },
+    {
+        "name": "jr_nest5",
+        "type": "toggle",
+        "codes": "jr_nest5"
+    },
+    {
+        "name": "jr_nest6",
+        "type": "toggle",
+        "codes": "jr_nest6"
+    },
+    {
+        "name": "jr_nest7",
+        "type": "toggle",
+        "codes": "jr_nest7"
+    },
+    {
+        "name": "jr_nest8",
+        "type": "toggle",
+        "codes": "jr_nest8"
+    },
+    {
+        "name": "jr_nest9",
+        "type": "toggle",
+        "codes": "jr_nest9"
+    },
+    {
+        "name": "jr_nest10",
+        "type": "toggle",
+        "codes": "jr_nest10"
+    },
+    {
+        "name": "jr_nest11",
+        "type": "toggle",
+        "codes": "jr_nest11"
+    },
+    {
+        "name": "jr_nest12",
+        "type": "toggle",
+        "codes": "jr_nest12"
+    },
+    {
+        "name": "jr_nest13",
+        "type": "toggle",
+        "codes": "jr_nest13"
+    },
+    {
+        "name": "jr_nest14",
+        "type": "toggle",
+        "codes": "jr_nest14"
+    },
+    {
+        "name": "jr_nest15",
+        "type": "toggle",
+        "codes": "jr_nest15"
+    },
+    {
+        "name": "jr_nest16",
+        "type": "toggle",
+        "codes": "jr_nest16"
+    },
+    {
+        "name": "jr_nest17",
+        "type": "toggle",
+        "codes": "jr_nest17"
+    },
+    {
+        "name": "jr_nest18",
+        "type": "toggle",
+        "codes": "jr_nest18"
+    },
+    {
+        "name": "jr_nest19",
+        "type": "toggle",
+        "codes": "jr_nest19"
+    },
+    {
+        "name": "jr_nest20",
+        "type": "toggle",
+        "codes": "jr_nest20"
+    },
+    {
+        "name": "jr_nest21",
+        "type": "toggle",
+        "codes": "jr_nest21"
+    },
+    {
+        "name": "jr_nest22",
+        "type": "toggle",
+        "codes": "jr_nest22"
+    },
+    {
+        "name": "jr_nest23",
+        "type": "toggle",
+        "codes": "jr_nest23"
+    },
+    {
+        "name": "jr_nest24",
+        "type": "toggle",
+        "codes": "jr_nest24"
+    },
+    {
+        "name": "jr_nest25",
+        "type": "toggle",
+        "codes": "jr_nest25"
+    },
+    {
+        "name": "jr_nest26",
+        "type": "toggle",
+        "codes": "jr_nest26"
+    },
+    {
+        "name": "jr_nest27",
+        "type": "toggle",
+        "codes": "jr_nest27"
+    },
+    {
+        "name": "jr_nest28",
+        "type": "toggle",
+        "codes": "jr_nest28"
+    },
+    {
+        "name": "jr_nest29",
+        "type": "toggle",
+        "codes": "jr_nest29"
+    },
+    {
+        "name": "jr_nest30",
+        "type": "toggle",
+        "codes": "jr_nest30"
+    },
+    {
+        "name": "jr_nest31",
+        "type": "toggle",
+        "codes": "jr_nest31"
+    },
+    {
+        "name": "jr_nest32",
+        "type": "toggle",
+        "codes": "jr_nest32"
+    },
+    {
+        "name": "jr_nest33",
+        "type": "toggle",
+        "codes": "jr_nest33"
+    },
+    {
+        "name": "jr_nest34",
+        "type": "toggle",
+        "codes": "jr_nest34"
+    },
+    {
+        "name": "jr_nest35",
+        "type": "toggle",
+        "codes": "jr_nest35"
+    },
+    {
+        "name": "jr_nest36",
+        "type": "toggle",
+        "codes": "jr_nest36"
+    },
+    {
+        "name": "jr_nest37",
+        "type": "toggle",
+        "codes": "jr_nest37"
+    },
+    {
+        "name": "jr_nest38",
+        "type": "toggle",
+        "codes": "jr_nest38"
+    },
+    {
+        "name": "jr_nest39",
+        "type": "toggle",
+        "codes": "jr_nest39"
+    },
+    {
+        "name": "jr_nest40",
+        "type": "toggle",
+        "codes": "jr_nest40"
+    },
+    {
+        "name": "td_sign1",
+        "type": "toggle",
+        "codes": "td_sign1"
+    },
+    {
+        "name": "td_sign2",
+        "type": "toggle",
+        "codes": "td_sign2"
+    },
+    {
+        "name": "td_sign3",
+        "type": "toggle",
+        "codes": "td_sign3"
+    },
+    {
+        "name": "td_sign4",
+        "type": "toggle",
+        "codes": "td_sign4"
+    },
+    {
+        "name": "td_nest1",
+        "type": "toggle",
+        "codes": "td_nest1"
+    },
+    {
+        "name": "td_nest2",
+        "type": "toggle",
+        "codes": "td_nest2"
+    },
+    {
+        "name": "td_nest3",
+        "type": "toggle",
+        "codes": "td_nest3"
+    },
+    {
+        "name": "td_nest4",
+        "type": "toggle",
+        "codes": "td_nest4"
+    },
+    {
+        "name": "td_nest5",
+        "type": "toggle",
+        "codes": "td_nest5"
+    },
+    {
+        "name": "td_nest6",
+        "type": "toggle",
+        "codes": "td_nest6"
+    },
+    {
+        "name": "td_nest7",
+        "type": "toggle",
+        "codes": "td_nest7"
+    },
+    {
+        "name": "td_nest8",
+        "type": "toggle",
+        "codes": "td_nest8"
+    },
+    {
+        "name": "td_nest9",
+        "type": "toggle",
+        "codes": "td_nest9"
+    },
+    {
+        "name": "td_nest10",
+        "type": "toggle",
+        "codes": "td_nest10"
+    },
+    {
+        "name": "td_nest11",
+        "type": "toggle",
+        "codes": "td_nest11"
+    },
+    {
+        "name": "td_nest12",
+        "type": "toggle",
+        "codes": "td_nest12"
+    },
+    {
+        "name": "td_nest13",
+        "type": "toggle",
+        "codes": "td_nest13"
+    },
+    {
+        "name": "td_nest14",
+        "type": "toggle",
+        "codes": "td_nest14"
+    },
+    {
+        "name": "td_nest15",
+        "type": "toggle",
+        "codes": "td_nest15"
+    },
+    {
+        "name": "td_nest16",
+        "type": "toggle",
+        "codes": "td_nest16"
+    },
+    {
+        "name": "td_nest17",
+        "type": "toggle",
+        "codes": "td_nest17"
+    },
+    {
+        "name": "td_nest18",
+        "type": "toggle",
+        "codes": "td_nest18"
+    },
+    {
+        "name": "td_nest19",
+        "type": "toggle",
+        "codes": "td_nest19"
+    },
+    {
+        "name": "td_nest20",
+        "type": "toggle",
+        "codes": "td_nest20"
+    },
+    {
+        "name": "td_nest21",
+        "type": "toggle",
+        "codes": "td_nest21"
+    },
+    {
+        "name": "td_nest22",
+        "type": "toggle",
+        "codes": "td_nest22"
+    },
+    {
+        "name": "td_nest23",
+        "type": "toggle",
+        "codes": "td_nest23"
+    },
+    {
+        "name": "td_nest24",
+        "type": "toggle",
+        "codes": "td_nest24"
+    },
+    {
+        "name": "td_nest25",
+        "type": "toggle",
+        "codes": "td_nest25"
+    },
+    {
+        "name": "td_nest26",
+        "type": "toggle",
+        "codes": "td_nest26"
+    },
+    {
+        "name": "td_nest27",
+        "type": "toggle",
+        "codes": "td_nest27"
+    },
+    {
+        "name": "td_nest28",
+        "type": "toggle",
+        "codes": "td_nest28"
+    },
+    {
+        "name": "td_nest29",
+        "type": "toggle",
+        "codes": "td_nest29"
+    },
+    {
+        "name": "td_nest30",
+        "type": "toggle",
+        "codes": "td_nest30"
+    },
+    {
+        "name": "td_nest31",
+        "type": "toggle",
+        "codes": "td_nest31"
+    },
+    {
+        "name": "td_nest32",
+        "type": "toggle",
+        "codes": "td_nest32"
+    },
+    {
+        "name": "td_nest33",
+        "type": "toggle",
+        "codes": "td_nest33"
+    },
+    {
+        "name": "td_nest34",
+        "type": "toggle",
+        "codes": "td_nest34"
+    },
+    {
+        "name": "td_nest35",
+        "type": "toggle",
+        "codes": "td_nest35"
+    },
+    {
+        "name": "td_nest36",
+        "type": "toggle",
+        "codes": "td_nest36"
+    },
+    {
+        "name": "td_nest37",
+        "type": "toggle",
+        "codes": "td_nest37"
+    },
+    {
+        "name": "td_nest38",
+        "type": "toggle",
+        "codes": "td_nest38"
+    },
+    {
+        "name": "td_nest39",
+        "type": "toggle",
+        "codes": "td_nest39"
+    },
+    {
+        "name": "td_nest40",
+        "type": "toggle",
+        "codes": "td_nest40"
+    },
+    {
+        "name": "td_nest41",
+        "type": "toggle",
+        "codes": "td_nest41"
+    },
+    {
+        "name": "td_nest42",
+        "type": "toggle",
+        "codes": "td_nest42"
+    },
+    {
+        "name": "td_nest43",
+        "type": "toggle",
+        "codes": "td_nest43"
+    },
+    {
+        "name": "td_nest44",
+        "type": "toggle",
+        "codes": "td_nest44"
+    },
+    {
+        "name": "td_nest45",
+        "type": "toggle",
+        "codes": "td_nest45"
+    },
+    {
+        "name": "td_nest46",
+        "type": "toggle",
+        "codes": "td_nest46"
+    },
+    {
+        "name": "td_nest47",
+        "type": "toggle",
+        "codes": "td_nest47"
+    },
+    {
+        "name": "td_nest48",
+        "type": "toggle",
+        "codes": "td_nest48"
+    },
+    {
+        "name": "td_nest49",
+        "type": "toggle",
+        "codes": "td_nest49"
+    },
+    {
+        "name": "td_nest50",
+        "type": "toggle",
+        "codes": "td_nest50"
+    },
+    {
+        "name": "td_nest51",
+        "type": "toggle",
+        "codes": "td_nest51"
+    },
+    {
+        "name": "td_nest52",
+        "type": "toggle",
+        "codes": "td_nest52"
+    },
+    {
+        "name": "td_nest53",
+        "type": "toggle",
+        "codes": "td_nest53"
+    },
+    {
+        "name": "td_nest54",
+        "type": "toggle",
+        "codes": "td_nest54"
+    },
+    {
+        "name": "td_nest55",
+        "type": "toggle",
+        "codes": "td_nest55"
+    },
+    {
+        "name": "gi_sign1",
+        "type": "toggle",
+        "codes": "gi_sign1"
+    },
+    {
+        "name": "gi_sign2",
+        "type": "toggle",
+        "codes": "gi_sign2"
+    },
+    {
+        "name": "gi_sign3",
+        "type": "toggle",
+        "codes": "gi_sign3"
+    },
+    {
+        "name": "gi_sign4",
+        "type": "toggle",
+        "codes": "gi_sign4"
+    },
+    {
+        "name": "gi_nest1",
+        "type": "toggle",
+        "codes": "gi_nest1"
+    },
+    {
+        "name": "gi_nest2",
+        "type": "toggle",
+        "codes": "gi_nest2"
+    },
+    {
+        "name": "gi_nest3",
+        "type": "toggle",
+        "codes": "gi_nest3"
+    },
+    {
+        "name": "gi_nest4",
+        "type": "toggle",
+        "codes": "gi_nest4"
+    },
+    {
+        "name": "gi_nest5",
+        "type": "toggle",
+        "codes": "gi_nest5"
+    },
+    {
+        "name": "gi_nest6",
+        "type": "toggle",
+        "codes": "gi_nest6"
+    },
+    {
+        "name": "gi_nest7",
+        "type": "toggle",
+        "codes": "gi_nest7"
+    },
+    {
+        "name": "gi_nest8",
+        "type": "toggle",
+        "codes": "gi_nest8"
+    },
+    {
+        "name": "gi_nest9",
+        "type": "toggle",
+        "codes": "gi_nest9"
+    },
+    {
+        "name": "gi_nest10",
+        "type": "toggle",
+        "codes": "gi_nest10"
+    },
+    {
+        "name": "gi_nest11",
+        "type": "toggle",
+        "codes": "gi_nest11"
+    },
+    {
+        "name": "gi_nest12",
+        "type": "toggle",
+        "codes": "gi_nest12"
+    },
+    {
+        "name": "gi_nest13",
+        "type": "toggle",
+        "codes": "gi_nest13"
+    },
+    {
+        "name": "gi_nest14",
+        "type": "toggle",
+        "codes": "gi_nest14"
+    },
+    {
+        "name": "gi_nest15",
+        "type": "toggle",
+        "codes": "gi_nest15"
+    },
+    {
+        "name": "gi_nest16",
+        "type": "toggle",
+        "codes": "gi_nest16"
+    },
+    {
+        "name": "gi_nest17",
+        "type": "toggle",
+        "codes": "gi_nest17"
+    },
+    {
+        "name": "gi_nest18",
+        "type": "toggle",
+        "codes": "gi_nest18"
+    },
+    {
+        "name": "gi_nest19",
+        "type": "toggle",
+        "codes": "gi_nest19"
+    },
+    {
+        "name": "gi_nest20",
+        "type": "toggle",
+        "codes": "gi_nest20"
+    },
+    {
+        "name": "gi_nest21",
+        "type": "toggle",
+        "codes": "gi_nest21"
+    },
+    {
+        "name": "gi_nest22",
+        "type": "toggle",
+        "codes": "gi_nest22"
+    },
+    {
+        "name": "gi_nest23",
+        "type": "toggle",
+        "codes": "gi_nest23"
+    },
+    {
+        "name": "gi_nest24",
+        "type": "toggle",
+        "codes": "gi_nest24"
+    },
+    {
+        "name": "gi_nest25",
+        "type": "toggle",
+        "codes": "gi_nest25"
+    },
+    {
+        "name": "gi_nest26",
+        "type": "toggle",
+        "codes": "gi_nest26"
+    },
+    {
+        "name": "gi_nest27",
+        "type": "toggle",
+        "codes": "gi_nest27"
+    },
+    {
+        "name": "gi_nest28",
+        "type": "toggle",
+        "codes": "gi_nest28"
+    },
+    {
+        "name": "gi_nest29",
+        "type": "toggle",
+        "codes": "gi_nest29"
+    },
+    {
+        "name": "gi_nest30",
+        "type": "toggle",
+        "codes": "gi_nest30"
+    },
+    {
+        "name": "gi_nest31",
+        "type": "toggle",
+        "codes": "gi_nest31"
+    },
+    {
+        "name": "gi_nest32",
+        "type": "toggle",
+        "codes": "gi_nest32"
+    },
+    {
+        "name": "gi_nest33",
+        "type": "toggle",
+        "codes": "gi_nest33"
+    },
+    {
+        "name": "gi_nest34",
+        "type": "toggle",
+        "codes": "gi_nest34"
+    },
+    {
+        "name": "gi_nest35",
+        "type": "toggle",
+        "codes": "gi_nest35"
+    },
+    {
+        "name": "gi_nest36",
+        "type": "toggle",
+        "codes": "gi_nest36"
+    },
+    {
+        "name": "gi_nest37",
+        "type": "toggle",
+        "codes": "gi_nest37"
+    },
+    {
+        "name": "gi_nest38",
+        "type": "toggle",
+        "codes": "gi_nest38"
+    },
+    {
+        "name": "gi_nest39",
+        "type": "toggle",
+        "codes": "gi_nest39"
+    },
+    {
+        "name": "gi_nest40",
+        "type": "toggle",
+        "codes": "gi_nest40"
+    },
+    {
+        "name": "gi_nest41",
+        "type": "toggle",
+        "codes": "gi_nest41"
+    },
+    {
+        "name": "gi_nest42",
+        "type": "toggle",
+        "codes": "gi_nest42"
+    },
+    {
+        "name": "gi_nest43",
+        "type": "toggle",
+        "codes": "gi_nest43"
+    },
+    {
+        "name": "gi_nest44",
+        "type": "toggle",
+        "codes": "gi_nest44"
+    },
+    {
+        "name": "gi_nest45",
+        "type": "toggle",
+        "codes": "gi_nest45"
+    },
+    {
+        "name": "gi_nest46",
+        "type": "toggle",
+        "codes": "gi_nest46"
+    },
+    {
+        "name": "gi_nest47",
+        "type": "toggle",
+        "codes": "gi_nest47"
+    },
+    {
+        "name": "gi_nest48",
+        "type": "toggle",
+        "codes": "gi_nest48"
+    },
+    {
+        "name": "gi_nest49",
+        "type": "toggle",
+        "codes": "gi_nest49"
+    },
+    {
+        "name": "gi_nest50",
+        "type": "toggle",
+        "codes": "gi_nest50"
+    },
+    {
+        "name": "gi_nest51",
+        "type": "toggle",
+        "codes": "gi_nest51"
+    },
+    {
+        "name": "gi_nest52",
+        "type": "toggle",
+        "codes": "gi_nest52"
+    },
+    {
+        "name": "gi_nest53",
+        "type": "toggle",
+        "codes": "gi_nest53"
+    },
+    {
+        "name": "gi_nest54",
+        "type": "toggle",
+        "codes": "gi_nest54"
+    },
+    {
+        "name": "gi_nest55",
+        "type": "toggle",
+        "codes": "gi_nest55"
+    },
+    {
+        "name": "gi_nest56",
+        "type": "toggle",
+        "codes": "gi_nest56"
+    },
+    {
+        "name": "gi_nest57",
+        "type": "toggle",
+        "codes": "gi_nest57"
+    },
+    {
+        "name": "gi_nest58",
+        "type": "toggle",
+        "codes": "gi_nest58"
+    },
+    {
+        "name": "gi_nest59",
+        "type": "toggle",
+        "codes": "gi_nest59"
+    },
+    {
+        "name": "gi_nest60",
+        "type": "toggle",
+        "codes": "gi_nest60"
+    },
+    {
+        "name": "gi_nest61",
+        "type": "toggle",
+        "codes": "gi_nest61"
+    },
+    {
+        "name": "gi_nest62",
+        "type": "toggle",
+        "codes": "gi_nest62"
+    },
+    {
+        "name": "gi_nest63",
+        "type": "toggle",
+        "codes": "gi_nest63"
+    },
+    {
+        "name": "gi_nest64",
+        "type": "toggle",
+        "codes": "gi_nest64"
+    },
+    {
+        "name": "gi_nest65",
+        "type": "toggle",
+        "codes": "gi_nest65"
+    },
+    {
+        "name": "gi_nest66",
+        "type": "toggle",
+        "codes": "gi_nest66"
+    },
+    {
+        "name": "gi_nest67",
+        "type": "toggle",
+        "codes": "gi_nest67"
+    },
+    {
+        "name": "gi_nest68",
+        "type": "toggle",
+        "codes": "gi_nest68"
+    },
+    {
+        "name": "gi_nest69",
+        "type": "toggle",
+        "codes": "gi_nest69"
+    },
+    {
+        "name": "gi_nest70",
+        "type": "toggle",
+        "codes": "gi_nest70"
+    },
+    {
+        "name": "gi_nest71",
+        "type": "toggle",
+        "codes": "gi_nest71"
+    },
+    {
+        "name": "gi_nest72",
+        "type": "toggle",
+        "codes": "gi_nest72"
+    },
+    {
+        "name": "gi_nest73",
+        "type": "toggle",
+        "codes": "gi_nest73"
+    },
+    {
+        "name": "gi_nest74",
+        "type": "toggle",
+        "codes": "gi_nest74"
+    },
+    {
+        "name": "gi_nest75",
+        "type": "toggle",
+        "codes": "gi_nest75"
+    },
+    {
+        "name": "gi_nest76",
+        "type": "toggle",
+        "codes": "gi_nest76"
+    },
+    {
+        "name": "gi_nest77",
+        "type": "toggle",
+        "codes": "gi_nest77"
+    },
+    {
+        "name": "gi_nest78",
+        "type": "toggle",
+        "codes": "gi_nest78"
+    },
+    {
+        "name": "hp_sign1",
+        "type": "toggle",
+        "codes": "hp_sign1"
+    },
+    {
+        "name": "hp_sign2",
+        "type": "toggle",
+        "codes": "hp_sign2"
+    },
+    {
+        "name": "hp_sign3",
+        "type": "toggle",
+        "codes": "hp_sign3"
+    },
+    {
+        "name": "hp_sign4",
+        "type": "toggle",
+        "codes": "hp_sign4"
+    },
+    {
+        "name": "hp_sign5",
+        "type": "toggle",
+        "codes": "hp_sign5"
+    },
+    {
+        "name": "hp_nest1",
+        "type": "toggle",
+        "codes": "hp_nest1"
+    },
+    {
+        "name": "hp_nest2",
+        "type": "toggle",
+        "codes": "hp_nest2"
+    },
+    {
+        "name": "hp_nest3",
+        "type": "toggle",
+        "codes": "hp_nest3"
+    },
+    {
+        "name": "hp_nest4",
+        "type": "toggle",
+        "codes": "hp_nest4"
+    },
+    {
+        "name": "hp_nest5",
+        "type": "toggle",
+        "codes": "hp_nest5"
+    },
+    {
+        "name": "hp_nest6",
+        "type": "toggle",
+        "codes": "hp_nest6"
+    },
+    {
+        "name": "hp_nest7",
+        "type": "toggle",
+        "codes": "hp_nest7"
+    },
+    {
+        "name": "hp_nest8",
+        "type": "toggle",
+        "codes": "hp_nest8"
+    },
+    {
+        "name": "hp_nest9",
+        "type": "toggle",
+        "codes": "hp_nest9"
+    },
+    {
+        "name": "hp_nest10",
+        "type": "toggle",
+        "codes": "hp_nest10"
+    },
+    {
+        "name": "hp_nest11",
+        "type": "toggle",
+        "codes": "hp_nest11"
+    },
+    {
+        "name": "hp_nest12",
+        "type": "toggle",
+        "codes": "hp_nest12"
+    },
+    {
+        "name": "hp_nest13",
+        "type": "toggle",
+        "codes": "hp_nest13"
+    },
+    {
+        "name": "hp_nest14",
+        "type": "toggle",
+        "codes": "hp_nest14"
+    },
+    {
+        "name": "hp_nest15",
+        "type": "toggle",
+        "codes": "hp_nest15"
+    },
+    {
+        "name": "hp_nest16",
+        "type": "toggle",
+        "codes": "hp_nest16"
+    },
+    {
+        "name": "hp_nest17",
+        "type": "toggle",
+        "codes": "hp_nest17"
+    },
+    {
+        "name": "hp_nest18",
+        "type": "toggle",
+        "codes": "hp_nest18"
+    },
+    {
+        "name": "hp_nest19",
+        "type": "toggle",
+        "codes": "hp_nest19"
+    },
+    {
+        "name": "hp_nest20",
+        "type": "toggle",
+        "codes": "hp_nest20"
+    },
+    {
+        "name": "hp_nest21",
+        "type": "toggle",
+        "codes": "hp_nest21"
+    },
+    {
+        "name": "hp_nest22",
+        "type": "toggle",
+        "codes": "hp_nest22"
+    },
+    {
+        "name": "hp_nest23",
+        "type": "toggle",
+        "codes": "hp_nest23"
+    },
+    {
+        "name": "hp_nest24",
+        "type": "toggle",
+        "codes": "hp_nest24"
+    },
+    {
+        "name": "hp_nest25",
+        "type": "toggle",
+        "codes": "hp_nest25"
+    },
+    {
+        "name": "hp_nest26",
+        "type": "toggle",
+        "codes": "hp_nest26"
+    },
+    {
+        "name": "hp_nest27",
+        "type": "toggle",
+        "codes": "hp_nest27"
+    },
+    {
+        "name": "hp_nest28",
+        "type": "toggle",
+        "codes": "hp_nest28"
+    },
+    {
+        "name": "hp_nest29",
+        "type": "toggle",
+        "codes": "hp_nest29"
+    },
+    {
+        "name": "hp_nest30",
+        "type": "toggle",
+        "codes": "hp_nest30"
+    },
+    {
+        "name": "hp_nest31",
+        "type": "toggle",
+        "codes": "hp_nest31"
+    },
+    {
+        "name": "hp_nest32",
+        "type": "toggle",
+        "codes": "hp_nest32"
+    },
+    {
+        "name": "hp_nest33",
+        "type": "toggle",
+        "codes": "hp_nest33"
+    },
+    {
+        "name": "hp_nest34",
+        "type": "toggle",
+        "codes": "hp_nest34"
+    },
+    {
+        "name": "hp_nest35",
+        "type": "toggle",
+        "codes": "hp_nest35"
+    },
+    {
+        "name": "hp_nest36",
+        "type": "toggle",
+        "codes": "hp_nest36"
+    },
+    {
+        "name": "hp_nest37",
+        "type": "toggle",
+        "codes": "hp_nest37"
+    },
+    {
+        "name": "hp_nest38",
+        "type": "toggle",
+        "codes": "hp_nest38"
+    },
+    {
+        "name": "hp_nest39",
+        "type": "toggle",
+        "codes": "hp_nest39"
+    },
+    {
+        "name": "hp_nest40",
+        "type": "toggle",
+        "codes": "hp_nest40"
+    },
+    {
+        "name": "cc_sign1",
+        "type": "toggle",
+        "codes": "cc_sign1"
+    },
+    {
+        "name": "cc_sign2",
+        "type": "toggle",
+        "codes": "cc_sign2"
+    },
+    {
+        "name": "cc_sign3",
+        "type": "toggle",
+        "codes": "cc_sign3"
+    },
+    {
+        "name": "cc_sign4",
+        "type": "toggle",
+        "codes": "cc_sign4"
+    },
+    {
+        "name": "cc_nest1",
+        "type": "toggle",
+        "codes": "cc_nest1"
+    },
+    {
+        "name": "cc_nest2",
+        "type": "toggle",
+        "codes": "cc_nest2"
+    },
+    {
+        "name": "cc_nest3",
+        "type": "toggle",
+        "codes": "cc_nest3"
+    },
+    {
+        "name": "cc_nest4",
+        "type": "toggle",
+        "codes": "cc_nest4"
+    },
+    {
+        "name": "cc_nest5",
+        "type": "toggle",
+        "codes": "cc_nest5"
+    },
+    {
+        "name": "cc_nest6",
+        "type": "toggle",
+        "codes": "cc_nest6"
+    },
+    {
+        "name": "cc_nest7",
+        "type": "toggle",
+        "codes": "cc_nest7"
+    },
+    {
+        "name": "cc_nest8",
+        "type": "toggle",
+        "codes": "cc_nest8"
+    },
+    {
+        "name": "cc_nest9",
+        "type": "toggle",
+        "codes": "cc_nest9"
+    },
+    {
+        "name": "cc_nest10",
+        "type": "toggle",
+        "codes": "cc_nest10"
+    },
+    {
+        "name": "cc_nest11",
+        "type": "toggle",
+        "codes": "cc_nest11"
+    },
+    {
+        "name": "cc_nest12",
+        "type": "toggle",
+        "codes": "cc_nest12"
+    },
+    {
+        "name": "cc_nest13",
+        "type": "toggle",
+        "codes": "cc_nest13"
+    },
+    {
+        "name": "cc_nest14",
+        "type": "toggle",
+        "codes": "cc_nest14"
+    },
+    {
+        "name": "cc_nest15",
+        "type": "toggle",
+        "codes": "cc_nest15"
+    },
+    {
+        "name": "cc_nest16",
+        "type": "toggle",
+        "codes": "cc_nest16"
+    },
+    {
+        "name": "cc_nest17",
+        "type": "toggle",
+        "codes": "cc_nest17"
+    },
+    {
+        "name": "cc_nest18",
+        "type": "toggle",
+        "codes": "cc_nest18"
+    },
+    {
+        "name": "cc_nest19",
+        "type": "toggle",
+        "codes": "cc_nest19"
+    },
+    {
+        "name": "cc_nest20",
+        "type": "toggle",
+        "codes": "cc_nest20"
+    },
+    {
+        "name": "cc_nest21",
+        "type": "toggle",
+        "codes": "cc_nest21"
+    },
+    {
+        "name": "cc_nest22",
+        "type": "toggle",
+        "codes": "cc_nest22"
+    },
+    {
+        "name": "cc_nest23",
+        "type": "toggle",
+        "codes": "cc_nest23"
+    },
+    {
+        "name": "cc_nest24",
+        "type": "toggle",
+        "codes": "cc_nest24"
+    },
+    {
+        "name": "cc_nest25",
+        "type": "toggle",
+        "codes": "cc_nest25"
+    },
+    {
+        "name": "cc_nest26",
+        "type": "toggle",
+        "codes": "cc_nest26"
+    },
+    {
+        "name": "cc_nest27",
+        "type": "toggle",
+        "codes": "cc_nest27"
+    },
+    {
+        "name": "cc_nest28",
+        "type": "toggle",
+        "codes": "cc_nest28"
+    },
+    {
+        "name": "cc_nest29",
+        "type": "toggle",
+        "codes": "cc_nest29"
+    },
+    {
+        "name": "cc_nest30",
+        "type": "toggle",
+        "codes": "cc_nest30"
+    },
+    {
+        "name": "cc_nest31",
+        "type": "toggle",
+        "codes": "cc_nest31"
+    },
+    {
+        "name": "cc_nest32",
+        "type": "toggle",
+        "codes": "cc_nest32"
+    },
+    {
+        "name": "cc_nest33",
+        "type": "toggle",
+        "codes": "cc_nest33"
+    },
+    {
+        "name": "cc_nest34",
+        "type": "toggle",
+        "codes": "cc_nest34"
+    },
+    {
+        "name": "cc_nest35",
+        "type": "toggle",
+        "codes": "cc_nest35"
+    },
+    {
+        "name": "cc_nest36",
+        "type": "toggle",
+        "codes": "cc_nest36"
+    },
+    {
+        "name": "cc_nest37",
+        "type": "toggle",
+        "codes": "cc_nest37"
+    },
+    {
+        "name": "cc_nest38",
+        "type": "toggle",
+        "codes": "cc_nest38"
+    },
+    {
+        "name": "cc_nest39",
+        "type": "toggle",
+        "codes": "cc_nest39"
+    },
+    {
+        "name": "cc_nest40",
+        "type": "toggle",
+        "codes": "cc_nest40"
+    },
+    {
+        "name": "cc_nest41",
+        "type": "toggle",
+        "codes": "cc_nest41"
+    },
+    {
+        "name": "cc_nest42",
+        "type": "toggle",
+        "codes": "cc_nest42"
+    },
+    {
+        "name": "cc_nest43",
+        "type": "toggle",
+        "codes": "cc_nest43"
+    },
+    {
+        "name": "cc_nest44",
+        "type": "toggle",
+        "codes": "cc_nest44"
+    },
+    {
+        "name": "cc_nest45",
+        "type": "toggle",
+        "codes": "cc_nest45"
+    },
+    {
+        "name": "cc_nest46",
+        "type": "toggle",
+        "codes": "cc_nest46"
+    },
+    {
+        "name": "cc_nest47",
+        "type": "toggle",
+        "codes": "cc_nest47"
+    },
+    {
+        "name": "cc_nest48",
+        "type": "toggle",
+        "codes": "cc_nest48"
+    },
+    {
+        "name": "cc_nest49",
+        "type": "toggle",
+        "codes": "cc_nest49"
+    },
+    {
+        "name": "cc_nest50",
+        "type": "toggle",
+        "codes": "cc_nest50"
     }
 ]

@@ -283,6 +283,10 @@
                 {
                   "name": "IoH: Bottles' House Feather Nest 2 (Hint)",
                   "visibility_rules": ["ih_nest17"]
+                },
+                {
+                  "name": "IoH: Grey Jinjo Family House Signpost (Hint)",
+                  "visibility_rules": ["ih_sign1"]
                 }
               ],
               "map_locations": [
@@ -347,6 +351,58 @@
                 {
                   "name": "IoH: Wooded Hollow Outside Bottles' House Feather Nest 2 (Hint)",
                   "visibility_rules": ["ih_nest26"]
+                },
+                {
+                  "name": "IoH: Outside Heggy's Egg Shed Signpost (Hint)",
+                  "visibility_rules": ["ih_sign2"]
+                },
+                {
+                  "name": "IoH: Behind Jiggywiggy's Temple Signpost 1 (Hint)",
+                  "visibility_rules": ["ih_sign3"]
+                },
+                {
+                  "name": "IoH: Behind Jiggywiggy's Temple Signpost 2 (Hint)",
+                  "visibility_rules": ["ih_sign4"]
+                },
+                {
+                  "name": "IoH: Behind Jiggywiggy's Temple Signpost 3 (Hint)",
+                  "visibility_rules": ["ih_sign5"]
+                },
+                {
+                  "name": "IoH: Wooded Hollow Path to Plateau Signpost (Hint)",
+                  "visibility_rules": ["ih_sign6"]
+                },
+                {
+                  "name": "IoH: Jiggywiggy's Temple Signpost 1 (Hint)",
+                  "visibility_rules": ["ih_sign7"]
+                },
+                {
+                  "name": "IoH: Jiggywiggy's Temple Signpost 2 (Hint)",
+                  "visibility_rules": ["ih_sign8"]
+                },
+                {
+                  "name": "IoH: Jiggywiggy's Temple Signpost 3 (Hint)",
+                  "visibility_rules": ["ih_sign9"]
+                },
+                {
+                  "name": "IoH: Jiggywiggy's Temple Signpost 4 (Hint)",
+                  "visibility_rules": ["ih_sign10"]
+                },
+                {
+                  "name": "IoH: Jiggywiggy's Temple Signpost 5 (Hint)",
+                  "visibility_rules": ["ih_sign11"]
+                },
+                {
+                  "name": "IoH: Jiggywiggy's Temple Signpost 6 (Hint)",
+                  "visibility_rules": ["ih_sign12"]
+                },
+                {
+                  "name": "IoH: Jiggywiggy's Temple Signpost 7 (Hint)",
+                  "visibility_rules": ["ih_sign13"]
+                },
+                {
+                  "name": "IoH: Jiggywiggy's Temple Signpost 8 (Hint)",
+                  "visibility_rules": ["ih_sign14"]
                 }
               ],
               "map_locations": [
@@ -499,6 +555,18 @@
                 {
                   "name": "IoH: Wumba's Wigwam Egg Nest 2 (Hint)",
                   "visibility_rules": ["ih_nest47"]
+                },
+                {
+                  "name": "IoH: Pine Grove Signpost 1 (Hint)",
+                  "visibility_rules": ["ih_sign15"]
+                },
+                {
+                  "name": "IoH: Pine Grove Signpost 2 (Hint)",
+                  "visibility_rules": ["ih_sign16"]
+                },
+                {
+                  "name": "IoH: Pine Grove Signpost 3 (Hint)",
+                  "visibility_rules": ["ih_sign17"]
                 }
               ],
               "map_locations": [
@@ -571,6 +639,10 @@
                 {
                   "name": "IoH: Cliff Top Near JRL Egg Nest (Hint)",
                   "visibility_rules": ["ih_nest64"]
+                },
+                {
+                  "name": "IoH: Cliff Top Signpost (Hint)",
+                  "visibility_rules": ["ih_sign18"]
                 }
               ],
               "map_locations": [
@@ -639,6 +711,10 @@
                 {
                   "name": "IoH: Wasteland Near Digger Tunnel Egg Nest 3 (Hint)",
                   "visibility_rules": ["ih_nest55"]
+                },
+                {
+                  "name": "IoH: Wasteland Signpost (Hint)",
+                  "visibility_rules": ["ih_sign19"]
                 },
                 {
                   "name": "IoH: Another Digger Tunnel Egg Nest 1 (Hint)",
@@ -759,6 +835,42 @@
                 {
                   "name": "MT: Egg Aim Silo (Hint)",
                   "visibility_rules": ["mt_eggaimsilo"]
+                },
+                {
+                  "name": "MT: Mumbo's Skull Signpost (Hint)",
+                  "visibility_rules": ["mt_sign1"]
+                },
+                {
+                  "name": "MT: Golden Goliath Signpost (Hint)",
+                  "visibility_rules": ["mt_sign2"]
+                },
+                {
+                  "name": "MT: Pillars Signpost (Hint)",
+                  "visibility_rules": ["mt_sign3"]
+                },
+                {
+                  "name": "MT: Prison Compound Quicksand Signpost (Hint)",
+                  "visibility_rules": ["mt_sign4"]
+                },
+                {
+                  "name": "MT: Jade Snake Grove Quicksand Signpost 1 (Hint)",
+                  "visibility_rules": ["mt_sign5"]
+                },
+                {
+                  "name": "MT: Jade Snake Grove Quicksand Signpost 2 (Hint)",
+                  "visibility_rules": ["mt_sign6"]
+                },
+                {
+                  "name": "MT: Left of Code Chamber Signpost (Hint)",
+                  "visibility_rules": ["mt_sign7"]
+                },
+                {
+                  "name": "MT: Targitzan's Temple Signpost 1 (Hint)",
+                  "visibility_rules": ["mt_sign8"]
+                },
+                {
+                  "name": "MT: Targitzan's Temple Signpost 2 (Hint)",
+                  "visibility_rules": ["mt_sign9"]
                 }
               ],
               "map_locations": [
@@ -1143,6 +1255,22 @@
                 {
                   "name": "GGM: Beak Bayonet Silo (Hint)",
                   "visibility_rules": ["gm_bbayonetsilo"]
+                },
+                {
+                  "name": "GGM: Gloomy Cavern Signpost (Hint)",
+                  "visibility_rules": ["gm_sign1"]
+                },
+                {
+                  "name": "GGM: Generator Cavern Signpost (Hint)",
+                  "visibility_rules": ["gm_sign2"]
+                },
+                {
+                  "name": "GGM: Toxic Gas Cave Signpost (Hint)",
+                  "visibility_rules": ["gm_sign3"]
+                },
+                {
+                  "name": "GGM: Inside Chuffy's Wagon Signpost (Hint)",
+                  "visibility_rules": ["gm_sign4"]
                 },
                 {
                   "name": "GGM: Crushing Shed Jiggy Chunk 1 (Hint)",
@@ -1535,6 +1663,38 @@
                 {
                   "name": "WW: Train Switch (Hint)",
                   "visibility_rules": ["ww_trainsw"]
+                },
+                {
+                  "name": "WW: Dodgem Dome Signpost (Hint)",
+                  "visibility_rules": ["ww_sign1"]
+                },
+                {
+                  "name": "WW: Madame Grunty Signpost (Hint)",
+                  "visibility_rules": ["ww_sign2"]
+                },
+                {
+                  "name": "WW: Burger Stand Signpost (Hint)",
+                  "visibility_rules": ["ww_sign3"]
+                },
+                {
+                  "name": "WW: Fries Stand Signpost (Hint)",
+                  "visibility_rules": ["ww_sign4"]
+                },
+                {
+                  "name": "WW: Cactus of Strength Signpost (Hint)",
+                  "visibility_rules": ["ww_sign5"]
+                },
+                {
+                  "name": "WW: Pump Room Signpost (Hint)",
+                  "visibility_rules": ["ww_sign6"]
+                },
+                {
+                  "name": "WW: Gobi Cage Signpost (Hint)",
+                  "visibility_rules": ["ww_sign7"]
+                },
+                {
+                  "name": "WW: The Haunted Caverns Signpost (Hint)",
+                  "visibility_rules": ["ww_sign8"]
                 }
               ],
               "map_locations": [
@@ -1923,6 +2083,22 @@
                 {
                   "name": "JRL: Sub-Aqua Egg Aiming Silo (Hint)",
                   "visibility_rules": ["jr_auqaimsilo"]
+                },
+                {
+                  "name": "JRL: Seaweed Sanctum Signpost (Hint)",
+                  "visibility_rules": ["jr_sign1"]
+                },
+                {
+                  "name": "JRL: Blubber's Signpost (Hint)",
+                  "visibility_rules": ["jr_sign2"]
+                },
+                {
+                  "name": "JRL: Smuggler's Cavern Signpost (Hint)",
+                  "visibility_rules": ["jr_sign3"]
+                },
+                {
+                  "name": "JRL: Waste Pipe Alcove Signpost (Hint)",
+                  "visibility_rules": ["jr_sign4"]
                 }
               ],
               "map_locations": [
@@ -2441,6 +2617,22 @@
                   "visibility_rules": ["td_trainsw"]
                 },
                 {
+                  "name": "TDL: Roar Cage Signpost (Hint)",
+                  "visibility_rules": ["td_sign1"]
+                },
+                {
+                  "name": "TDL: Inside The Mountain Near Cheato Page Signpost (Hint)",
+                  "visibility_rules": ["td_sign2"]
+                },
+                {
+                  "name": "TDL: Inside The Mountain Near Top Signpost (Hint)",
+                  "visibility_rules": ["td_sign3"]
+                },
+                {
+                  "name": "TDL: River Passage Signpost (Hint)",
+                  "visibility_rules": ["td_sign4"]
+                },
+                {
                   "name": "TDL: Scrut (Lost) (Hint)",
                   "visibility_rules": ["td_scrut"]
                 },
@@ -2899,6 +3091,22 @@
                 {
                   "name": "GI Outside: Train Switch (Hint)",
                   "visibility_rules": ["gi_trainsw"]
+                },
+                {
+                  "name": "GI Outside: Signpost (Hint)",
+                  "visibility_rules": ["gi_sign1"]
+                },
+                {
+                  "name": "GI Floor 1: Workers Quarters Signpost (Hint)",
+                  "visibility_rules": ["gi_sign2"]
+                },
+                {
+                  "name": "GI Elevator Shaft: Signpost 1 (Hint)",
+                  "visibility_rules": ["gi_sign3"]
+                },
+                {
+                  "name": "GI Elevator Shaft: Signpost 2 (Hint)",
+                  "visibility_rules": ["gi_sign4"]
                 }
               ],
               "map_locations": [
@@ -3435,6 +3643,26 @@
                 {
                   "name": "HFP: Icy Side Train Switch (Hint)",
                   "visibility_rules": ["hp_trainsw2"]
+                },
+                {
+                  "name": "HFP: Bottom Hot Pool Signpost (Hint)",
+                  "visibility_rules": ["hp_sign1"]
+                },
+                {
+                  "name": "HFP: Top Hot Pool Signpost (Hint)",
+                  "visibility_rules": ["hp_sign2"]
+                },
+                {
+                  "name": "HFP: Volcano Signpost 1 (Hint)",
+                  "visibility_rules": ["hp_sign3"]
+                },
+                {
+                  "name": "HFP: Volcano Signpost 2 (Hint)",
+                  "visibility_rules": ["hp_sign4"]
+                },
+                {
+                  "name": "HFP: Volcano Signpost 3 (Hint)",
+                  "visibility_rules": ["hp_sign5"]
                 }
               ],
               "map_locations": [
@@ -3807,6 +4035,22 @@
                 {
                   "name": "CCL: Sack Pack Silo (Hint)",
                   "visibility_rules": ["cc_sapacksilo"]
+                },
+                {
+                  "name": "CCL: Indoors Pool Underwater Signpost (Hint)",
+                  "visibility_rules": ["cc_sign1"]
+                },
+                {
+                  "name": "CCL: Sack Pack Silo Signpost (Hint)",
+                  "visibility_rules": ["cc_sign2"]
+                },
+                {
+                  "name": "CCL: On Rim of Glowbo Pool Signpost (Hint)",
+                  "visibility_rules": ["cc_sign3"]
+                },
+                {
+                  "name": "CCL: Wumba's Wigwam Signpost (Hint)",
+                  "visibility_rules": ["cc_sign4"]
                 }
               ],
               "map_locations": [
