@@ -404,7 +404,7 @@
             "name": "IoH: Behind Jiggywiggy's Temple Signpost 3"
           },
           {
-            "ref": "Wooded Hollow/IoH: Wooded Hollow Path to Plateau Signpost/Signpost",
+            "ref": "Plateau/IoH: Wooded Hollow Path to Plateau Signpost/Signpost",
             "name": "IoH: Wooded Hollow Path to Plateau Signpost"
           },
           {
@@ -5648,24 +5648,6 @@
             "y": 430
           }
         ]
-      },
-      {
-        "name": "IoH: Wooded Hollow Path to Plateau Signpost",
-        "chest_unopened_img": "/images/locations/signpost.png",
-        "chest_opened_img": "/images/locations/signpost2.png",
-        "visibility_rules": ["signposts_on"],
-        "sections": [
-          {
-            "name": "Signpost"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "wh",
-            "x": 600,
-            "y": 180
-          }
-        ]
       }
     ]
   },
@@ -5907,6 +5889,24 @@
             "map": "pl",
             "x": 652,
             "y": 295
+          }
+        ]
+      },
+      {
+        "name": "IoH: Wooded Hollow Path to Plateau Signpost",
+        "chest_unopened_img": "/images/locations/signpost.png",
+        "chest_opened_img": "/images/locations/signpost2.png",
+        "visibility_rules": ["signposts_on"],
+        "sections": [
+          {
+            "name": "Signpost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wh",
+            "x": 600,
+            "y": 180
           }
         ]
       }
