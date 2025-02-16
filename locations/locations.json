@@ -9112,8 +9112,8 @@
   },
   {
     "name": "Inside Chuffy's Wagon",
-    "chest_unopened_img": "/images/items/signpost.png",
-    "chest_opened_img": "/images/items/signpost2.png",
+    "chest_unopened_img": "/images/locations/signpost.png",
+    "chest_opened_img": "/images/locations/signpost2.png",
     "access_rules": [ 
       "@Glitter Gulch Mine - Main Area, $can_beat_king_coal, $ggm_to_chuffy",
       "@Witchyworld - Main Area, chuffy, $can_beat_king_coal, $ww_to_chuffy",
