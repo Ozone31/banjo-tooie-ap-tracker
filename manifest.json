@@ -1,9 +1,9 @@
 {
     "name": "Banjo-Tooie",
     "game_name": "Banjo-Tooie",
-    "package_version": "0.8.1",
+    "package_version": "0.9.0",
     "package_uid": "ap_banjotooie",
-    "author": "Ozone",
+    "author": "Ozone, MiaSchemes",
     "variants": {
         "standard": {
             "display_name": "Map Tracker",

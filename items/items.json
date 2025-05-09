@@ -93,26 +93,61 @@
     "codes": "pmegg"
   },
   {
+    "name": "Mystery Eggs",
+    "type": "composite_toggle",
+    "codes": "meggs",
+    "item_left": "bmegg",
+    "item_right": "pmegg",
+    "images": [
+        {
+            "left": false, "right": false,
+            "img": "/images/items/meggs.png",
+			"img_mods": "@disabled"
+        },
+        {
+            "left": true, "right": false,
+            "img": "/images/items/bmegg.png"
+        },
+        {
+            "left": false, "right": true,
+            "img": "/images/items/pmegg.png"
+        },
+        {
+            "left": true, "right": true,
+            "img": "/images/items/meggs.png"
+        }
+    ]
+  },
+  {
     "name": "Mumbo Token",
     "type": "consumable",
-    "max_quantity": 32,
+    "max_quantity": 100,
     "overlay_background": "#000000",
     "img": "/images/items/mumbotoken.png",
     "codes": "mumbotoken"
   },
   {
-    "name": "Big-O Pants",
+    "name": "Health Upgrade",
     "type": "consumable",
+    "max_quantity": 5,
     "overlay_background": "#000000",
-    "img": "/images/items/bigopants.png",
-    "codes": "none"
+    "img": "/images/items/maxhealth.png",
+    "codes": "maxhealth"
   },
-  {
-    "name": "Jinjo Multiplayer Character (Nothing)",
-    "type": "toggle",
-    "img": "/images/items/jinjo_mp.png",
-    "codes": "jnone"
-  },
+  // NOT TRACKING THESE ANYMORE
+  // {
+  //   "name": "Big-O Pants",
+  //   "type": "consumable",
+  //   "overlay_background": "#000000",
+  //   "img": "/images/items/bigopants.png",
+  //   "codes": "none"
+  // },
+  // {
+  //   "name": "Jinjo Multiplayer Character (Nothing)",
+  //   "type": "toggle",
+  //   "img": "/images/items/jinjo_mp.png",
+  //   "codes": "jnone"
+  // },
 
   // JINJOS
   {
@@ -352,12 +387,6 @@
     "codes": "bbash"
   },
   {
-    "name": "Homing Eggs Toggle",
-    "type": "toggle",
-    "img": "/images/movesmagic/homingeggs.png",
-    "codes": "homingeggs"
-  },
-  {
     "name": "Amaze-O-Gaze",
     "type": "toggle",
     "img": "/images/movesmagic/amazeogaze.png",
@@ -368,6 +397,45 @@
     "type": "toggle",
     "img": "/images/movesmagic/roar.png",
     "codes": "roar"
+  },
+  
+  // CHEATO CHEATS
+  
+  {
+    "name": "Homing Eggs Toggle",
+    "type": "toggle",
+    "img": "/images/movesmagic/homingeggs.png",
+    "codes": "homingeggs"
+  },
+  {
+    "name": "Cheato Reward: Feathers",
+    "type": "toggle",
+    "img": "/images/movesmagic/cheatfeather.png",
+    "codes": "cheatfeather"
+  },
+  {
+    "name": "Cheato Reward: Eggs",
+    "type": "toggle",
+    "img": "/images/movesmagic/cheategg.png",
+    "codes": "cheategg"
+  },
+  {
+    "name": "Cheato Reward: Fallproof",
+    "type": "toggle",
+    "img": "/images/movesmagic/cheatfall.png",
+    "codes": "cheatfall"
+  },
+  {
+    "name": "Cheato Reward: Honeyback",
+    "type": "toggle",
+    "img": "/images/movesmagic/cheathoney.png",
+    "codes": "cheathoney"
+  },
+  {
+    "name": "Cheato Reward: Jukebox",
+    "type": "toggle",
+    "img": "/images/movesmagic/cheatjuke.png",
+    "codes": "cheatjuke"
   },
 
   // BK MOVES
@@ -941,6 +1009,1482 @@
     "codes": "trainswww"
   },
 
+  // WARP SILOS
+  {
+    "name": "IoH: Jinjo Village Warp Silo",
+    "type": "toggle",
+    "img": "/images/access/siloiohjv.png",
+    "codes": "siloiohjv"
+  },
+  {
+    "name": "IoH: Wooded Hollow Warp Silo",
+    "type": "toggle",
+    "img": "/images/access/siloiohwh.png",
+    "codes": "siloiohwh"
+  },
+  {
+    "name": "IoH: Plateau Warp Silo",
+    "type": "toggle",
+    "img": "/images/access/siloiohpl.png",
+    "codes": "siloiohpl"
+  },
+  {
+    "name": "IoH: Pine Grove Warp Silo",
+    "type": "toggle",
+    "img": "/images/access/siloiohpg.png",
+    "codes": "siloiohpg"
+  },
+  {
+    "name": "IoH: Cliff Top Warp Silo",
+    "type": "toggle",
+    "img": "/images/access/siloiohct.png",
+    "codes": "siloiohct"
+  },
+  {
+    "name": "IoH: Wasteland Warp Silo",
+    "type": "toggle",
+    "img": "/images/access/siloiohwl.png",
+    "codes": "siloiohwl"
+  },
+  {
+    "name": "IoH: Quagmire Warp Silo",
+    "type": "toggle",
+    "img": "/images/access/siloiohqm.png",
+    "codes": "siloiohqm"
+  },
+  
+  // WARP PADS
+  {
+    "name": "MT: World Entry and Exit Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_mt.png",
+    "codes": "warpmt1"
+  },
+  {
+    "name": "MT: Outside Mumbo's Skull Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_mt.png",
+    "codes": "warpmt2"
+  },
+  {
+    "name": "MT: Prison Compound Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_mt.png",
+    "codes": "warpmt3"
+  },
+  {
+    "name": "MT: Near Wumba's Wigwam Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_mt.png",
+    "codes": "warpmt4"
+  },
+  {
+    "name": "MT: Kickball Stadium Lobby Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_mt.png",
+    "codes": "warpmt5"
+  },
+  {
+    "name": "GGM: World Entry and Exit Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_mt.png",
+    "codes": "warpgm1"
+  },
+  {
+    "name": "GGM: Outside Mumbo's Skull Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_mt.png",
+    "codes": "warpgm2"
+  },
+  {
+    "name": "GGM: Inside Wumba's Wigwam Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_mt.png",
+    "codes": "warpgm3"
+  },
+  {
+    "name": "GGM: Outside the Crushing Shed Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_mt.png",
+    "codes": "warpgm4"
+  },
+  {
+    "name": "GGM: Near the Train Station Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_mt.png",
+    "codes": "warpgm5"
+  },
+  {
+    "name": "WW: World Entry and Exit Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_mt.png",
+    "codes": "warpww1"
+  },
+  {
+    "name": "WW: Behind the Big Top Tent Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_mt.png",
+    "codes": "warpww2"
+  },
+  {
+    "name": "WW: Space Zone Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_mt.png",
+    "codes": "warpww3"
+  },
+  {
+    "name": "WW: Outside Wumba's Wigwam Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_mt.png",
+    "codes": "warpww4"
+  },
+  {
+    "name": "WW: Outside Mumbo's Skull Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_mt.png",
+    "codes": "warpww5"
+  },
+  {
+    "name": "JRL: Town Center Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_mt.png",
+    "codes": "warpjr1"
+  },
+  {
+    "name": "JRL: Atlantis Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_mt.png",
+    "codes": "warpjr2"
+  },
+  {
+    "name": "JRL: Sunken Ship Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_mt.png",
+    "codes": "warpjr3"
+  },
+  {
+    "name": "JRL: Big Fish Cavern Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_mt.png",
+    "codes": "warpjr4"
+  },
+  {
+    "name": "JRL: Lockers Cavern Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_mt.png",
+    "codes": "warpjr5"
+  },
+  {
+    "name": "TDL: World Entry and Exit Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_mt.png",
+    "codes": "warptl1"
+  },
+  {
+    "name": "TDL: Stomping Plains Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_mt.png",
+    "codes": "warptl2"
+  },
+  {
+    "name": "TDL: Outside Mumbo's Skull Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_mt.png",
+    "codes": "warptl3"
+  },
+  {
+    "name": "TDL: Outside Wumba's Wigwam Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_mt.png",
+    "codes": "warptl4"
+  },
+  {
+    "name": "TDL: Top of the Mountain Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_mt.png",
+    "codes": "warptl5"
+  },
+  {
+    "name": "GI Floor 1: Entrance Door Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_mt.png",
+    "codes": "warpgi1"
+  },
+  {
+    "name": "GI Floor 2: Outside Wumba's Wigwam Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_mt.png",
+    "codes": "warpgi2"
+  },
+  {
+    "name": "GI Floor 3: Outside Mumbo's Skull Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_mt.png",
+    "codes": "warpgi3"
+  },
+  {
+    "name": "GI Floor 4: Near the Crushers Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_mt.png",
+    "codes": "warpgi4"
+  },
+  {
+    "name": "GI Outside: On the Roof Outside Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_mt.png",
+    "codes": "warpgi5"
+  },
+  {
+    "name": "HFP: Fire Side - Lower Area (Mumbo) Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_mt.png",
+    "codes": "warphp1"
+  },
+  {
+    "name": "HFP: Fire Side - Upper Area Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_mt.png",
+    "codes": "warphp2"
+  },
+  {
+    "name": "HFP: Ice Side - Upper Area Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_mt.png",
+    "codes": "warphp3"
+  },
+  {
+    "name": "HFP: Ice Side - Lower Area (Wumba) Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_mt.png",
+    "codes": "warphp4"
+  },
+  {
+    "name": "HFP: Ice Side - Inside Icicle Grotto Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_mt.png",
+    "codes": "warphp5"
+  },
+  {
+    "name": "CCL: World Entry and Exit Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_mt.png",
+    "codes": "warpcc1"
+  },
+  {
+    "name": "CCL: Central Cavern Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_mt.png",
+    "codes": "warpcc2"
+  },
+  {
+    "name": "CK: Bottom of the Tower Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_mt.png",
+    "codes": "warpck1"
+  },
+  {
+    "name": "CK: Top of the Tower Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_mt.png",
+    "codes": "warpck2"
+  },
+  {
+    "name": "Mayahem Temple Warps",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": true,
+	"codes": "warpsmt",
+    "stages": [
+      {
+		// 1, x, x, x, x     - 1
+		"img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, x, x, x     - 2
+		"img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, 3, x, x     - 3
+		"img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, x, 4, x     - 4
+		"img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, x, x, 5     - 5
+		"img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, x, x, x     - 6
+		"img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, 3, x, x     - 7
+		"img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, x, 4, x     - 8
+		"img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, x, x, 5     - 9
+		"img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, 3, x, x     - 10
+		"img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, x, 4, x     - 11
+		"img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, x, x, 5     - 12
+		"img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, 3, 4, x     - 13
+		"img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, 3, x, 5     - 14
+		"img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, x, 4, 5     - 15
+		"img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, 3, x, x     - 16
+		"img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, x, 4, x     - 17
+		"img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, x, x, 5     - 18
+		"img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, 3, 4, x     - 19
+		"img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, 3, x, 5     - 20
+		"img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, x, 4, 5     - 21
+		"img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, 3, 4, x     - 22
+		"img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, 3, x, 5     - 23
+		"img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, x, 4, 5     - 24
+		"img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, 3, 4, 5     - 25
+		"img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, 3, 4, x     - 26
+		"img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, 3, x, 5     - 27
+		"img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, x, 4, 5     - 28
+		"img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, 3, 4, 5     - 29
+		"img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, 3, 4, 5     - 30
+		"img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, 3, 4, 5     - 31
+		"img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Glitter Gulch Mine Warps",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": true,
+	"codes": "warpsgm",
+    "stages": [
+      {
+		// 1, x, x, x, x     - 1
+		"img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, x, x, x     - 2
+		"img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, 3, x, x     - 3
+		"img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, x, 4, x     - 4
+		"img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, x, x, 5     - 5
+		"img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, x, x, x     - 6
+		"img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, 3, x, x     - 7
+		"img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, x, 4, x     - 8
+		"img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, x, x, 5     - 9
+		"img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, 3, x, x     - 10
+		"img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, x, 4, x     - 11
+		"img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, x, x, 5     - 12
+		"img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, 3, 4, x     - 13
+		"img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, 3, x, 5     - 14
+		"img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, x, 4, 5     - 15
+		"img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, 3, x, x     - 16
+		"img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, x, 4, x     - 17
+		"img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, x, x, 5     - 18
+		"img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, 3, 4, x     - 19
+		"img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, 3, x, 5     - 20
+		"img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, x, 4, 5     - 21
+		"img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, 3, 4, x     - 22
+		"img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, 3, x, 5     - 23
+		"img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, x, 4, 5     - 24
+		"img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, 3, 4, 5     - 25
+		"img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, 3, 4, x     - 26
+		"img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, 3, x, 5     - 27
+		"img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, x, 4, 5     - 28
+		"img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, 3, 4, 5     - 29
+		"img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, 3, 4, 5     - 30
+		"img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, 3, 4, 5     - 31
+		"img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Witchyworld Warps",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": true,
+	"codes": "warpsww",
+    "stages": [
+      {
+		// 1, x, x, x, x     - 1
+		"img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, x, x, x     - 2
+		"img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, 3, x, x     - 3
+		"img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, x, 4, x     - 4
+		"img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, x, x, 5     - 5
+		"img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, x, x, x     - 6
+		"img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, 3, x, x     - 7
+		"img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, x, 4, x     - 8
+		"img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, x, x, 5     - 9
+		"img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, 3, x, x     - 10
+		"img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, x, 4, x     - 11
+		"img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, x, x, 5     - 12
+		"img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, 3, 4, x     - 13
+		"img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, 3, x, 5     - 14
+		"img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, x, 4, 5     - 15
+		"img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, 3, x, x     - 16
+		"img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, x, 4, x     - 17
+		"img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, x, x, 5     - 18
+		"img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, 3, 4, x     - 19
+		"img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, 3, x, 5     - 20
+		"img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, x, 4, 5     - 21
+		"img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, 3, 4, x     - 22
+		"img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, 3, x, 5     - 23
+		"img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, x, 4, 5     - 24
+		"img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, 3, 4, 5     - 25
+		"img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, 3, 4, x     - 26
+		"img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, 3, x, 5     - 27
+		"img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, x, 4, 5     - 28
+		"img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, 3, 4, 5     - 29
+		"img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, 3, 4, 5     - 30
+		"img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, 3, 4, 5     - 31
+		"img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Jolly Roger's Lagoon Warps",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": true,
+	"codes": "warpsjr",
+    "stages": [
+      {
+		// 1, x, x, x, x     - 1
+		"img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, x, x, x     - 2
+		"img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, 3, x, x     - 3
+		"img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, x, 4, x     - 4
+		"img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, x, x, 5     - 5
+		"img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, x, x, x     - 6
+		"img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, 3, x, x     - 7
+		"img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, x, 4, x     - 8
+		"img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, x, x, 5     - 9
+		"img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, 3, x, x     - 10
+		"img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, x, 4, x     - 11
+		"img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, x, x, 5     - 12
+		"img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, 3, 4, x     - 13
+		"img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, 3, x, 5     - 14
+		"img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, x, 4, 5     - 15
+		"img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, 3, x, x     - 16
+		"img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, x, 4, x     - 17
+		"img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, x, x, 5     - 18
+		"img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, 3, 4, x     - 19
+		"img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, 3, x, 5     - 20
+		"img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, x, 4, 5     - 21
+		"img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, 3, 4, x     - 22
+		"img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, 3, x, 5     - 23
+		"img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, x, 4, 5     - 24
+		"img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, 3, 4, 5     - 25
+		"img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, 3, 4, x     - 26
+		"img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, 3, x, 5     - 27
+		"img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, x, 4, 5     - 28
+		"img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, 3, 4, 5     - 29
+		"img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, 3, 4, 5     - 30
+		"img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, 3, 4, 5     - 31
+		"img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Terrydactyland Warps",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": true,
+	"codes": "warpstl",
+    "stages": [
+      {
+		// 1, x, x, x, x     - 1
+		"img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, x, x, x     - 2
+		"img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, 3, x, x     - 3
+		"img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, x, 4, x     - 4
+		"img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, x, x, 5     - 5
+		"img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, x, x, x     - 6
+		"img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, 3, x, x     - 7
+		"img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, x, 4, x     - 8
+		"img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, x, x, 5     - 9
+		"img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, 3, x, x     - 10
+		"img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, x, 4, x     - 11
+		"img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, x, x, 5     - 12
+		"img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, 3, 4, x     - 13
+		"img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, 3, x, 5     - 14
+		"img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, x, 4, 5     - 15
+		"img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, 3, x, x     - 16
+		"img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, x, 4, x     - 17
+		"img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, x, x, 5     - 18
+		"img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, 3, 4, x     - 19
+		"img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, 3, x, 5     - 20
+		"img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, x, 4, 5     - 21
+		"img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, 3, 4, x     - 22
+		"img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, 3, x, 5     - 23
+		"img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, x, 4, 5     - 24
+		"img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, 3, 4, 5     - 25
+		"img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, 3, 4, x     - 26
+		"img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, 3, x, 5     - 27
+		"img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, x, 4, 5     - 28
+		"img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, 3, 4, 5     - 29
+		"img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, 3, 4, 5     - 30
+		"img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, 3, 4, 5     - 31
+		"img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Grunty Industries Warps",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": true,
+	"codes": "warpsgi",
+    "stages": [
+      {
+		// 1, x, x, x, x     - 1
+		"img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, x, x, x     - 2
+		"img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, 3, x, x     - 3
+		"img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, x, 4, x     - 4
+		"img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, x, x, 5     - 5
+		"img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, x, x, x     - 6
+		"img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, 3, x, x     - 7
+		"img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, x, 4, x     - 8
+		"img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, x, x, 5     - 9
+		"img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, 3, x, x     - 10
+		"img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, x, 4, x     - 11
+		"img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, x, x, 5     - 12
+		"img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, 3, 4, x     - 13
+		"img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, 3, x, 5     - 14
+		"img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, x, 4, 5     - 15
+		"img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, 3, x, x     - 16
+		"img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, x, 4, x     - 17
+		"img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, x, x, 5     - 18
+		"img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, 3, 4, x     - 19
+		"img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, 3, x, 5     - 20
+		"img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, x, 4, 5     - 21
+		"img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, 3, 4, x     - 22
+		"img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, 3, x, 5     - 23
+		"img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, x, 4, 5     - 24
+		"img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, 3, 4, 5     - 25
+		"img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, 3, 4, x     - 26
+		"img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, 3, x, 5     - 27
+		"img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, x, 4, 5     - 28
+		"img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, 3, 4, 5     - 29
+		"img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, 3, 4, 5     - 30
+		"img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, 3, 4, 5     - 31
+		"img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Hailfire Peaks Warps",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": true,
+	"codes": "warpshp",
+    "stages": [
+      {
+		// 1, x, x, x, x     - 1
+		"img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, x, x, x     - 2
+		"img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, 3, x, x     - 3
+		"img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, x, 4, x     - 4
+		"img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, x, x, 5     - 5
+		"img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, x, x, x     - 6
+		"img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, 3, x, x     - 7
+		"img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, x, 4, x     - 8
+		"img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, x, x, 5     - 9
+		"img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, 3, x, x     - 10
+		"img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, x, 4, x     - 11
+		"img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, x, x, 5     - 12
+		"img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, 3, 4, x     - 13
+		"img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, 3, x, 5     - 14
+		"img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, x, 4, 5     - 15
+		"img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, 3, x, x     - 16
+		"img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, x, 4, x     - 17
+		"img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, x, x, 5     - 18
+		"img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, 3, 4, x     - 19
+		"img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, 3, x, 5     - 20
+		"img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, x, 4, 5     - 21
+		"img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, 3, 4, x     - 22
+		"img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, 3, x, 5     - 23
+		"img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, x, 4, 5     - 24
+		"img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+		// x, x, 3, 4, 5     - 25
+		"img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, 3, 4, x     - 26
+		"img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, 3, x, 5     - 27
+		"img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, x, 4, 5     - 28
+		"img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, x, 3, 4, 5     - 29
+		"img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, 3, 4, 5     - 30
+		"img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, 3, 4, 5     - 31
+		"img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Cloud Cuckooland Warps",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": true,
+	"codes": "warpscc",
+    "stages": [
+      {
+		// 1, x, x, x, x     - 1
+		"img": "/images/access/warps_cc.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, x, x, x     - 2
+		"img": "/images/access/warps_cc.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, x, x, x     - 3
+		"img": "/images/access/warps_cc.png",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Cauldron Keep Warps",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": true,
+	"codes": "warpsck",
+    "stages": [
+      {
+		// 1, x, x, x, x     - 1
+		"img": "/images/access/warps_ck.png",
+        "inherit_codes": false
+      },
+      {
+		// x, 2, x, x, x     - 2
+		"img": "/images/access/warps_ck.png",
+        "inherit_codes": false
+      },
+      {
+		// 1, 2, x, x, x     - 3
+		"img": "/images/access/warps_ck.png",
+        "inherit_codes": false
+      }
+    ]
+  },
+
   // SETTINGS
   {
     "name": "Randomize Moves",
@@ -1270,6 +2814,46 @@
     ]
   },
   {
+    "name": "Randomize Silos",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/silos_on.png",
+        "name": "Randomize Silos - On",
+        "codes": "randomizesilos,randomizesilos_on",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/silos_off.png",
+        "name": "Randomize Silos - Off",
+        "codes": "randomizesilos,randomizesilos_off",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Randomize Warp Pads",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/warps_on.png",
+        "name": "Randomize Warp Pads - On",
+        "codes": "randomizewarppads,randomizewarppads_on",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/warps_off.png",
+        "name": "Randomize Warp Pads - Off",
+        "codes": "randomizewarppads,randomizewarppads_off",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
     "name": "Logic Type",
     "type": "progressive",
     "loop": true,
@@ -1297,6 +2881,58 @@
         "img": "images/settings/logictype_g.png",
         "name": "Logic Type - Glitches",
         "codes": "logictype,logictype_g",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Sequence Break Logic",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/sequencebreaklogic_disabled.png",
+        "name": "Sequence Break Logic - Disabled",
+        "codes": "sequencebreaklogic,sequencebreaklogic_disabled",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/sequencebreaklogic_n.png",
+        "name": "Sequence Break Logic - Show Easy Tricks",
+        "codes": "sequencebreaklogic,sequencebreaklogic_n",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/sequencebreaklogic_a.png",
+        "name": "Sequence Break Logic - Show Hard Tricks",
+        "codes": "sequencebreaklogic,sequencebreaklogic_a",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/sequencebreaklogic_g.png",
+        "name": "Sequence Break Logic - Show Glitches",
+        "codes": "sequencebreaklogic,sequencebreaklogic_g",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Show New Tricks",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/shownewtricks_off.png",
+        "name": "Show New Tricks - Off",
+        "codes": "shownewtricks,shownewtricks_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/shownewtricks_on.png",
+        "name": "Show New Tricks - On",
+        "codes": "shownewtricks,shownewtricks_on",
         "inherit_codes": false
       }
     ]
@@ -1351,6 +2987,12 @@
         "inherit_codes": false
       }
     ]
+  },
+  {
+    "name": "Boss Hunt + HAG1 - Bosses Needed",
+    "type": "consumable",
+    "img": "/images/items/mumbotoken.png",
+    "codes": "bossesforhag1"
   },
   {
     "name": "Open Backdoors",
@@ -1447,6 +3089,44 @@
         "img": "images/settings/signposts_on.png",
         "name": "Randomize Signposts - On",
         "codes": "signposts,signposts_on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Mouse Pace",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/mousepace_off.png",
+        "name": "Mouse Pace - Off",
+        "codes": "mousepace,mousepace_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/mousepace_on.png",
+        "name": "Mouse Pace - On",
+        "codes": "mousepace,mousepace_on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Skip Klungo",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "name": "Skip Klungo - On",
+        "codes": "skipklungo,skipklungo_on",
+        "inherit_codes": false
+      },
+      {
+        "name": "Skip Klungo - Off",
+        "codes": "skipklungo,skipklungo_off",
         "inherit_codes": false
       }
     ]
@@ -2073,5 +3753,149 @@
         "inherit_codes": false
       }
     ]
+  },
+  {
+    "name": "Fire Eggs Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_feggs_tracking"
+  },
+  {
+    "name": "Grenade Eggs Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_geggs_tracking"
+  },
+  {
+    "name": "Ice Eggs Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_ieggs_tracking"
+  },
+  {
+    "name": "Clockwork Kazooie Eggs Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_ceggs_tracking"
+  },
+  {
+    "name": "Egg Aim Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_eggaim_tracking"
+  },
+  {
+    "name": "Breegull Blaster Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_bblaster_tracking"
+  },
+  {
+    "name": "Grip Grab Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_ggrab_tracking"
+  },
+  {
+    "name": "Bill Drill Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_bdrill_tracking"
+  },
+  {
+    "name": "Beak Bayonet Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_bbayonet_tracking"
+  },
+  {
+    "name": "Split Up Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_splitup_tracking"
+  },
+  {
+    "name": "Airborne Egg Aiming Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_aireaim_tracking"
+  },
+  {
+    "name": "Pack Whack Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_packWhack_tracking"
+  },
+  {
+    "name": "Sub-Aqua Egg Aiming Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_auqaim_tracking"
+  },
+  {
+    "name": "Wing Whack Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_wingWhack_tracking"
+  },
+  {
+    "name": "Talon Torpedo Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_ttorp_tracking"
+  },
+  {
+    "name": "Springy Step Shoes Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_springb_tracking"
+  },
+  {
+    "name": "Hatch Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_hatch_tracking"
+  },
+  {
+    "name": "Taxi Pack Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_taxiPack_tracking"
+  },
+  {
+    "name": "Claw Clamber Boots Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_clawbts_tracking"
+  },
+  {
+    "name": "Snooze Pack Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_snoozePack_tracking"
+  },
+  {
+    "name": "Leg Spring Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_legSpring_tracking"
+  },
+  {
+    "name": "Shack Pack Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_shackPack_tracking"
+  },
+  {
+    "name": "Glide Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_glide_tracking"
+  },
+  {
+    "name": "Sack Pack Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_sackPack_tracking"
   }
 ]

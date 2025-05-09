@@ -57,6 +57,27 @@
                                 "trainswgi",
                                 "trainswhp1",
                                 "trainswhp2"
+                            ],
+                            [
+                                "",
+                                "siloiohjv",
+                                "siloiohwh",
+                                "siloiohpl",
+                                "siloiohpg",
+                                "siloiohct",
+                                "siloiohwl",
+                                "siloiohqm"
+                            ],
+                            [
+                                "warpsmt",
+                                "warpsgm",
+                                "warpsww",
+                                "warpsjr",
+                                "warpstl",
+                                "warpsgi",
+                                "warpshp",
+                                "warpscc",
+                                "warpsck"
                             ]
                         ]
                     }
@@ -133,6 +154,27 @@
                                 "trainswgi",
                                 "trainswhp1",
                                 "trainswhp2"
+                            ],
+                            [
+                                "",
+                                "siloiohjv",
+                                "siloiohwh",
+                                "siloiohpl",
+                                "siloiohpg",
+                                "siloiohct",
+                                "siloiohwl",
+                                "siloiohqm"
+                            ],
+                            [
+                                "warpsmt",
+                                "warpsgm",
+                                "warpsww",
+                                "warpsjr",
+                                "warpstl",
+                                "warpsgi",
+                                "warpshp",
+                                "warpscc",
+                                "warpsck"
                             ]
                         ]
                     }
