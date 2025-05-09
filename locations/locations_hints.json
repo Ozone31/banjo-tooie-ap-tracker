@@ -160,10 +160,26 @@
                 "map_locations": [
                     {
                         "map": "overview",
-                        "x": 155,
-                        "y": 160
+                        "x": 250,
+                        "y": 170
                     }
                 ]
+            },
+            {
+              "name": "Isle O Hags - Jinjo Village Silo Hint",
+              "sections": [
+                {
+                  "name": "IoH: Jinjo Village Warp Silo (Hint)",
+                  "visibility_rules": ["jv_silo"]
+                }
+              ],
+              "map_locations": [
+                {
+                  "map": "overview",
+                  "x": 165,
+                  "y": 230
+                }
+              ]
             },
             {
               "name": "Isle O Hags - Jinjo Village Hints",
@@ -292,8 +308,24 @@
               "map_locations": [
                 {
                   "map": "overview",
-                  "x": 155,
-                  "y": 220
+                  "x": 250,
+                  "y": 230
+                }
+              ]
+            },
+            {
+              "name": "Isle O Hags - Wooded Hollow Silo Hint",
+              "sections": [
+                {
+                  "name": "IoH: Wooded Hollow Warp Silo (Hint)",
+                  "visibility_rules": ["wh_silo"]
+                }
+              ],
+              "map_locations": [
+                {
+                  "map": "overview",
+                  "x": 165,
+                  "y": 290
                 }
               ]
             },
@@ -408,8 +440,28 @@
               "map_locations": [
                 {
                   "map": "overview",
-                  "x": 155,
-                  "y": 280
+                  "x": 250,
+                  "y": 290
+                }
+              ]
+            },
+            {
+              "name": "Isle O Hags - Plateau Silo Hints",
+              "sections": [
+                {
+                  "name": "IoH: Plateau Warp Silo (Hint)",
+                  "visibility_rules": ["pl_silo"]
+                },
+                {
+                  "name": "IoH: Fire Eggs Silo (Hint)",
+                  "visibility_rules": ["pl_feggssilo"]
+                }
+              ],
+              "map_locations": [
+                {
+                  "map": "overview",
+                  "x": 165,
+                  "y": 350
                 }
               ]
             },
@@ -423,10 +475,6 @@
                 {
                   "name": "IoH: Plateau Honeycomb (Hint)",
                   "visibility_rules": ["pl_honey"]
-                },
-                {
-                  "name": "IoH: Fire Eggs Silo (Hint)",
-                  "visibility_rules": ["pl_feggssilo"]
                 },
                 {
                   "name": "IoH: Plateau GGM Sign Note 1 (Hint)",
@@ -496,18 +544,34 @@
               "map_locations": [
                 {
                   "map": "overview",
-                  "x": 155,
-                  "y": 340
+                  "x": 250,
+                  "y": 350
+                }
+              ]
+            },
+            {
+              "name": "Isle O Hags - Pine Grove Silo Hints",
+              "sections": [
+                {
+                  "name": "IoH: Pine Grove Warp Silo (Hint)",
+                  "visibility_rules": ["pg_silo"]
+                },
+                {
+                  "name": "IoH: Grenade Eggs Silo (Hint)",
+                  "visibility_rules": ["pg_geggssilo"]
+                }
+              ],
+              "map_locations": [
+                {
+                  "map": "overview",
+                  "x": 165,
+                  "y": 410
                 }
               ]
             },
             {
               "name": "Isle O Hags - Pine Grove Hints",
               "sections": [
-                {
-                  "name": "IoH: Grenade Eggs Silo (Hint)",
-                  "visibility_rules": ["pg_geggssilo"]
-                },
                 {
                   "name": "IoH: Pine Grove Note 1 (Hint)",
                   "visibility_rules": ["pg_note1"]
@@ -572,8 +636,28 @@
               "map_locations": [
                 {
                   "map": "overview",
-                  "x": 155,
-                  "y": 400
+                  "x": 250,
+                  "y": 410
+                }
+              ]
+            },
+            {
+              "name": "Isle O Hags - Cliff Top Silo Hints",
+              "sections": [
+                {
+                  "name": "IoH: Cliff Top Warp Silo (Hint)",
+                  "visibility_rules": ["ct_silo"]
+                },
+                {
+                  "name": "IoH: Ice Eggs Silo (Hint)",
+                  "visibility_rules": ["ct_ieggssilo"]
+                }
+              ],
+              "map_locations": [
+                {
+                  "map": "overview",
+                  "x": 165,
+                  "y": 470
                 }
               ]
             },
@@ -583,10 +667,6 @@
                 {
                   "name": "IoH: Cliff Top Jinjo (Hint)",
                   "visibility_rules": ["ct_jinjo"]
-                },
-                {
-                  "name": "IoH: Ice Eggs Silo (Hint)",
-                  "visibility_rules": ["ct_ieggssilo"]
                 },
                 {
                   "name": "IoH: Train Switch (Hint)",
@@ -648,8 +728,28 @@
               "map_locations": [
                 {
                   "map": "overview",
-                  "x": 155,
-                  "y": 460
+                  "x": 250,
+                  "y": 470
+                }
+              ]
+            },
+            {
+              "name": "Isle O Hags - Wasteland Silo Hints",
+              "sections": [
+                {
+                  "name": "IoH: Wasteland Warp Silo (Hint)",
+                  "visibility_rules": ["wl_silo"]
+                },
+                {
+                  "name": "IoH: Clockwork Kazooie Eggs Silo (Hint)",
+                  "visibility_rules": ["wl_ceggssilo"]
+                }
+              ],
+              "map_locations": [
+                {
+                  "map": "overview",
+                  "x": 165,
+                  "y": 530
                 }
               ]
             },
@@ -728,14 +828,34 @@
               "map_locations": [
                 {
                   "map": "overview",
-                  "x": 155,
-                  "y": 520
+                  "x": 250,
+                  "y": 530
+                }
+              ]
+            },
+            {
+              "name": "Isle O Hags - Quagmire Silo Hint",
+              "sections": [
+                {
+                  "name": "IoH: Quagmire Warp Silo (Hint)",
+                  "visibility_rules": ["qm_silo"]
+                }
+              ],
+              "map_locations": [
+                {
+                  "map": "overview",
+                  "x": 165,
+                  "y": 590
                 }
               ]
             },
             {
               "name": "Isle O Hags - Qugmire Hints",
               "sections": [
+                {
+                  "name": "IoH: Quagmire Warp Silo (Hint)",
+                  "visibility_rules": ["qm_silo"]
+                },
                 {
                   "name": "IoH: Quagmire Left Feather Nest (Hint)",
                   "visibility_rules": ["ih_nest58"]
@@ -764,66 +884,14 @@
               "map_locations": [
                 {
                   "map": "overview",
-                  "x": 155,
-                  "y": 580
+                  "x": 250,
+                  "y": 590
                 }
               ]
             },
             {
-              "name": "Mayahem Temple Hints",
+              "name": "Mayahem Temple - Silos Hints",
               "sections": [
-                {
-                  "name": "MT: Jade Snake Grove Jinjo (Hint)",
-                  "visibility_rules": ["mt_jinjo1"]
-                },
-                {
-                  "name": "MT: Stadium Jinjo (Hint)",
-                  "visibility_rules": ["mt_jinjo2"]
-                },
-                {
-                  "name": "MT: Targitzan Temple Jinjo (Hint)",
-                  "visibility_rules": ["mt_jinjo3"]
-                },
-                {
-                  "name": "MT: Water Pool Jinjo (Hint)",
-                  "visibility_rules": ["mt_jinjo4"]
-                },
-                {
-                  "name": "MT: Bridge Jinjo (Hint)",
-                  "visibility_rules": ["mt_jinjo5"]
-                },
-                {
-                  "name": "MT: Mumbo's Glowbo (Hint)",
-                  "visibility_rules": ["mt_glowbo1"]
-                },
-                {
-                  "name": "MT: Jade Snake Grove Glowbo (Hint)",
-                  "visibility_rules": ["mt_glowbo2"]
-                },
-                {
-                  "name": "MT: Entrance Honeycomb (Hint)",
-                  "visibility_rules": ["mt_honey1"]
-                },
-                {
-                  "name": "MT: Bovina Honeycomb (Hint)",
-                  "visibility_rules": ["mt_honey2"]
-                },
-                {
-                  "name": "MT: Treasure Chamber Honeycomb (Hint)",
-                  "visibility_rules": ["mt_honey3"]
-                },
-                {
-                  "name": "MT: Treasure Chamber Cheato Page (Hint)",
-                  "visibility_rules": ["mt_cheato1"]
-                },
-                {
-                  "name": "MT: Prison Compound Cheato Page (Hint)",
-                  "visibility_rules": ["mt_cheato2"]
-                },
-                {
-                  "name": "MT: Jade Snake Grove Cheato Page (Hint)",
-                  "visibility_rules": ["mt_cheato3"]
-                },
                 {
                   "name": "MT: Grip Grab Silo (Hint)",
                   "visibility_rules": ["mt_ggrabsilo"]
@@ -837,47 +905,31 @@
                   "visibility_rules": ["mt_eggaimsilo"]
                 },
                 {
-                  "name": "MT: Mumbo's Skull Signpost (Hint)",
-                  "visibility_rules": ["mt_sign1"]
+                  "name": "MT: Entrance Warp Pad (Hint)",
+                  "visibility_rules": ["mt_warp1"]
                 },
                 {
-                  "name": "MT: Golden Goliath Signpost (Hint)",
-                  "visibility_rules": ["mt_sign2"]
+                  "name": "MT: Mumbo's Skull Warp Pad (Hint)",
+                  "visibility_rules": ["mt_warp2"]
                 },
                 {
-                  "name": "MT: Pillars Signpost (Hint)",
-                  "visibility_rules": ["mt_sign3"]
+                  "name": "MT: Prison Compound Warp Pad (Hint)",
+                  "visibility_rules": ["mt_warp3"]
                 },
                 {
-                  "name": "MT: Prison Compound Quicksand Signpost (Hint)",
-                  "visibility_rules": ["mt_sign4"]
+                  "name": "MT: Humba's Wigwam Warp Pad (Hint)",
+                  "visibility_rules": ["mt_warp4"]
                 },
                 {
-                  "name": "MT: Jade Snake Grove Quicksand Signpost 1 (Hint)",
-                  "visibility_rules": ["mt_sign5"]
-                },
-                {
-                  "name": "MT: Jade Snake Grove Quicksand Signpost 2 (Hint)",
-                  "visibility_rules": ["mt_sign6"]
-                },
-                {
-                  "name": "MT: Left of Code Chamber Signpost (Hint)",
-                  "visibility_rules": ["mt_sign7"]
-                },
-                {
-                  "name": "MT: Targitzan's Temple Signpost 1 (Hint)",
-                  "visibility_rules": ["mt_sign8"]
-                },
-                {
-                  "name": "MT: Targitzan's Temple Signpost 2 (Hint)",
-                  "visibility_rules": ["mt_sign9"]
+                  "name": "MT: Kickball Stadium Warp Pad (Hint)",
+                  "visibility_rules": ["mt_warp5"]
                 }
               ],
               "map_locations": [
                 {
                   "map": "overview",
-                  "x": 375,
-                  "y": 160
+                  "x": 493,
+                  "y": 170
                 }
               ]
             },
@@ -928,8 +980,8 @@
               "map_locations": [
                 {
                   "map": "overview",
-                  "x": 462,
-                  "y": 160
+                  "x": 571,
+                  "y": 170
                 }
               ]
             },
@@ -1008,8 +1060,72 @@
               "map_locations": [
                 {
                   "map": "overview",
-                  "x": 545,
-                  "y": 160
+                  "x": 641,
+                  "y": 170
+                }
+              ]
+            },
+            {
+              "name": "Mayahem Temple - Other Hints",
+              "sections": [
+                {
+                  "name": "MT: Jade Snake Grove Jinjo (Hint)",
+                  "visibility_rules": ["mt_jinjo1"]
+                },
+                {
+                  "name": "MT: Stadium Jinjo (Hint)",
+                  "visibility_rules": ["mt_jinjo2"]
+                },
+                {
+                  "name": "MT: Targitzan Temple Jinjo (Hint)",
+                  "visibility_rules": ["mt_jinjo3"]
+                },
+                {
+                  "name": "MT: Water Pool Jinjo (Hint)",
+                  "visibility_rules": ["mt_jinjo4"]
+                },
+                {
+                  "name": "MT: Bridge Jinjo (Hint)",
+                  "visibility_rules": ["mt_jinjo5"]
+                },
+                {
+                  "name": "MT: Mumbo's Glowbo (Hint)",
+                  "visibility_rules": ["mt_glowbo1"]
+                },
+                {
+                  "name": "MT: Jade Snake Grove Glowbo (Hint)",
+                  "visibility_rules": ["mt_glowbo2"]
+                },
+                {
+                  "name": "MT: Entrance Honeycomb (Hint)",
+                  "visibility_rules": ["mt_honey1"]
+                },
+                {
+                  "name": "MT: Bovina Honeycomb (Hint)",
+                  "visibility_rules": ["mt_honey2"]
+                },
+                {
+                  "name": "MT: Treasure Chamber Honeycomb (Hint)",
+                  "visibility_rules": ["mt_honey3"]
+                },
+                {
+                  "name": "MT: Treasure Chamber Cheato Page (Hint)",
+                  "visibility_rules": ["mt_cheato1"]
+                },
+                {
+                  "name": "MT: Prison Compound Cheato Page (Hint)",
+                  "visibility_rules": ["mt_cheato2"]
+                },
+                {
+                  "name": "MT: Jade Snake Grove Cheato Page (Hint)",
+                  "visibility_rules": ["mt_cheato3"]
+                }
+              ],
+              "map_locations": [
+                {
+                  "map": "overview",
+                  "x": 711,
+                  "y": 170
                 }
               ]
             },
@@ -1184,13 +1300,245 @@
               "map_locations": [
                 {
                   "map": "overview",
-                  "x": 620,
-                  "y": 160
+                  "x": 790,
+                  "y": 170
                 }
               ]
             },
             {
-              "name": "Glitter Gulch Mine Hints",
+              "name": "Mayahem Temple - Signposts Hints",
+              "sections": [
+                {
+                  "name": "MT: Mumbo's Skull Signpost (Hint)",
+                  "visibility_rules": ["mt_sign1"]
+                },
+                {
+                  "name": "MT: Golden Goliath Signpost (Hint)",
+                  "visibility_rules": ["mt_sign2"]
+                },
+                {
+                  "name": "MT: Pillars Signpost (Hint)",
+                  "visibility_rules": ["mt_sign3"]
+                },
+                {
+                  "name": "MT: Prison Compound Quicksand Signpost (Hint)",
+                  "visibility_rules": ["mt_sign4"]
+                },
+                {
+                  "name": "MT: Jade Snake Grove Quicksand Signpost 1 (Hint)",
+                  "visibility_rules": ["mt_sign5"]
+                },
+                {
+                  "name": "MT: Jade Snake Grove Quicksand Signpost 2 (Hint)",
+                  "visibility_rules": ["mt_sign6"]
+                },
+                {
+                  "name": "MT: Left of Code Chamber Signpost (Hint)",
+                  "visibility_rules": ["mt_sign7"]
+                },
+                {
+                  "name": "MT: Targitzan's Temple Signpost 1 (Hint)",
+                  "visibility_rules": ["mt_sign8"]
+                },
+                {
+                  "name": "MT: Targitzan's Temple Signpost 2 (Hint)",
+                  "visibility_rules": ["mt_sign9"]
+                }
+              ],
+              "map_locations": [
+                {
+                  "map": "overview",
+                  "x": 869,
+                  "y": 170
+                }
+              ]
+            },
+            {
+              "name": "Glitter Gulch Mine - Silos Hints",
+              "sections": [
+                {
+                  "name": "GGM: Bill Drill Silo (Hint)",
+                  "visibility_rules": ["gm_bdrillsilo"]
+                },
+                {
+                  "name": "GGM: Beak Bayonet Silo (Hint)",
+                  "visibility_rules": ["gm_bbayonetsilo"]
+                },
+                {
+                  "name": "GGM: Entrance Warp Pad (Hint)",
+                  "visibility_rules": ["gm_warp1"]
+                },
+                {
+                  "name": "GGM: Mumbo's Skull Warp Pad (Hint)",
+                  "visibility_rules": ["gm_warp2"]
+                },
+                {
+                  "name": "GGM: Humba's Wigwam Warp Pad (Hint)",
+                  "visibility_rules": ["gm_warp3"]
+                },
+                {
+                  "name": "GGM: Crushing Shed Warp Pad (Hint)",
+                  "visibility_rules": ["gm_warp4"]
+                },
+                {
+                  "name": "GGM: Train Station Warp Pad (Hint)",
+                  "visibility_rules": ["gm_warp5"]
+                }
+              ],
+              "map_locations": [
+                {
+                  "map": "overview",
+                  "x": 493,
+                  "y": 230
+                }
+              ]
+            },
+            {
+              "name": "Glitter Gulch Mine - Jiggies Hints",
+              "sections": [
+                {
+                  "name": "GGM: Old King Coal Jiggy (Hint)",
+                  "visibility_rules": ["gm_jiggy1"]
+                },
+                {
+                  "name": "GGM: Canary Mary Jiggy (Hint)",
+                  "visibility_rules": ["gm_jiggy2"]
+                },
+                {
+                  "name": "GGM: Generator Cavern Jiggy (Hint)",
+                  "visibility_rules": ["gm_jiggy3"]
+                },
+                {
+                  "name": "GGM: Waterfall Cavern Jiggy (Hint)",
+                  "visibility_rules": ["gm_jiggy4"]
+                },
+                {
+                  "name": "GGM: Ordnance Storage Jiggy (Hint)",
+                  "visibility_rules": ["gm_jiggy5"]
+                },
+                {
+                  "name": "GGM: Dilberta Jiggy (Hint)",
+                  "visibility_rules": ["gm_jiggy6"]
+                },
+                {
+                  "name": "GGM: Crushing Shed Jiggy (Hint)",
+                  "visibility_rules": ["gm_jiggy7"]
+                },
+                {
+                  "name": "GGM: Waterfall Jiggy (Hint)",
+                  "visibility_rules": ["gm_jiggy8"]
+                },
+                {
+                  "name": "GGM: Power Hut Basement Jiggy (Hint)",
+                  "visibility_rules": ["gm_jiggy9"]
+                },
+                {
+                  "name": "GGM: Flooded Caves Jiggy (Hint)",
+                  "visibility_rules": ["gm_jiggy10"]
+                },
+                {
+                  "name": "GGM: Crushing Shed Jiggy Chunk 1 (Hint)",
+                  "visibility_rules": ["gm_chunk1"]
+                },
+                {
+                  "name": "GGM: Crushing Shed Jiggy Chunk 2 (Hint)",
+                  "visibility_rules": ["gm_chunk2"]
+                },
+                {
+                  "name": "GGM: Crushing Shed Jiggy Chunk 3 (Hint)",
+                  "visibility_rules": ["gm_chunk3"]
+                }
+              ],
+              "map_locations": [
+                {
+                  "map": "overview",
+                  "x": 571,
+                  "y": 230
+                }
+              ]
+            },
+            {
+              "name": "Glitter Gulch Mine - Notes Hints",
+              "sections": [
+                {
+                  "name": "GGM: Treble Clef (Hint)",
+                  "visibility_rules": ["gm_treble"]
+                },
+                {
+                  "name": "GGM: Hill by Crushing Shed Note 1 (Hint)",
+                  "visibility_rules": ["gm_note1"]
+                },
+                {
+                  "name": "GGM: Hill by Crushing Shed Note 2 (Hint)",
+                  "visibility_rules": ["gm_note2"]
+                },
+                {
+                  "name": "GGM: Hill by Crushing Shed Note 3 (Hint)",
+                  "visibility_rules": ["gm_note3"]
+                },
+                {
+                  "name": "GGM: Hill by Crushing Shed Note 4 (Hint)",
+                  "visibility_rules": ["gm_note4"]
+                },
+                {
+                  "name": "GGM: Near Prospector's Hut Bottom-Left Note (Hint)",
+                  "visibility_rules": ["gm_note5"]
+                },
+                {
+                  "name": "GGM: Near Prospector's Hut Top-Left Note (Hint)",
+                  "visibility_rules": ["gm_note6"]
+                },
+                {
+                  "name": "GGM: Near Prospector's Hut Top-Right Note (Hint)",
+                  "visibility_rules": ["gm_note7"]
+                },
+                {
+                  "name": "GGM: Near Prospector's Hut Middle-Right Note (Hint)",
+                  "visibility_rules": ["gm_note8"]
+                },
+                {
+                  "name": "GGM: Near Prospector's Hut Bottom-Right Note (Hint)",
+                  "visibility_rules": ["gm_note9"]
+                },
+                {
+                  "name": "GGM: Outside Mumbo's Skull Left Note (Hint)",
+                  "visibility_rules": ["gm_note10"]
+                },
+                {
+                  "name": "GGM: Outside Mumbo's Skull Bottom-Right Note (Hint)",
+                  "visibility_rules": ["gm_note11"]
+                },
+                {
+                  "name": "GGM: Outside Mumbo's Skull Top-Right Note (Hint)",
+                  "visibility_rules": ["gm_note12"]
+                },
+                {
+                  "name": "GGM: Fuel Depot Front-Left Note (Hint)",
+                  "visibility_rules": ["gm_note13"]
+                },
+                {
+                  "name": "GGM: Fuel Depot Back-Left Note (Hint)",
+                  "visibility_rules": ["gm_note14"]
+                },
+                {
+                  "name": "GGM: Fuel Depot Back-Right Note (Hint)",
+                  "visibility_rules": ["gm_note15"]
+                },
+                {
+                  "name": "GGM: Fuel Depot Front-Right Note (Hint)",
+                  "visibility_rules": ["gm_note16"]
+                }
+              ],
+              "map_locations": [
+                {
+                  "map": "overview",
+                  "x": 641,
+                  "y": 230
+                }
+              ]
+            },
+            {
+              "name": "Glitter Gulch Mine - Other Hints",
               "sections": [
                 {
                   "name": "GGM: Water Storage Jinjo (Hint)",
@@ -1249,42 +1597,6 @@
                   "visibility_rules": ["gm_cheato3"]
                 },
                 {
-                  "name": "GGM: Bill Drill Silo (Hint)",
-                  "visibility_rules": ["gm_bdrillsilo"]
-                },
-                {
-                  "name": "GGM: Beak Bayonet Silo (Hint)",
-                  "visibility_rules": ["gm_bbayonetsilo"]
-                },
-                {
-                  "name": "GGM: Gloomy Cavern Signpost (Hint)",
-                  "visibility_rules": ["gm_sign1"]
-                },
-                {
-                  "name": "GGM: Generator Cavern Signpost (Hint)",
-                  "visibility_rules": ["gm_sign2"]
-                },
-                {
-                  "name": "GGM: Toxic Gas Cave Signpost (Hint)",
-                  "visibility_rules": ["gm_sign3"]
-                },
-                {
-                  "name": "GGM: Inside Chuffy's Wagon Signpost (Hint)",
-                  "visibility_rules": ["gm_sign4"]
-                },
-                {
-                  "name": "GGM: Crushing Shed Jiggy Chunk 1 (Hint)",
-                  "visibility_rules": ["gm_chunk1"]
-                },
-                {
-                  "name": "GGM: Crushing Shed Jiggy Chunk 2 (Hint)",
-                  "visibility_rules": ["gm_chunk2"]
-                },
-                {
-                  "name": "GGM: Crushing Shed Jiggy Chunk 3 (Hint)",
-                  "visibility_rules": ["gm_chunk3"]
-                },
-                {
                   "name": "GGM: Chuffy (Hint)",
                   "visibility_rules": ["gm_chuffy"]
                 }
@@ -1292,140 +1604,8 @@
               "map_locations": [
                 {
                   "map": "overview",
-                  "x": 375,
-                  "y": 220
-                }
-              ]
-            },
-            {
-              "name": "Glitter Gulch Mine - Jiggies Hints",
-              "sections": [
-                {
-                  "name": "GGM: Old King Coal Jiggy (Hint)",
-                  "visibility_rules": ["gm_jiggy1"]
-                },
-                {
-                  "name": "GGM: Canary Mary Jiggy (Hint)",
-                  "visibility_rules": ["gm_jiggy2"]
-                },
-                {
-                  "name": "GGM: Generator Cavern Jiggy (Hint)",
-                  "visibility_rules": ["gm_jiggy3"]
-                },
-                {
-                  "name": "GGM: Waterfall Cavern Jiggy (Hint)",
-                  "visibility_rules": ["gm_jiggy4"]
-                },
-                {
-                  "name": "GGM: Ordnance Storage Jiggy (Hint)",
-                  "visibility_rules": ["gm_jiggy5"]
-                },
-                {
-                  "name": "GGM: Dilberta Jiggy (Hint)",
-                  "visibility_rules": ["gm_jiggy6"]
-                },
-                {
-                  "name": "GGM: Crushing Shed Jiggy (Hint)",
-                  "visibility_rules": ["gm_jiggy7"]
-                },
-                {
-                  "name": "GGM: Waterfall Jiggy (Hint)",
-                  "visibility_rules": ["gm_jiggy8"]
-                },
-                {
-                  "name": "GGM: Power Hut Basement Jiggy (Hint)",
-                  "visibility_rules": ["gm_jiggy9"]
-                },
-                {
-                  "name": "GGM: Flooded Caves Jiggy (Hint)",
-                  "visibility_rules": ["gm_jiggy10"]
-                }
-              ],
-              "map_locations": [
-                {
-                  "map": "overview",
-                  "x": 462,
-                  "y": 220
-                }
-              ]
-            },
-            {
-              "name": "Glitter Gulch Mine - Notes Hints",
-              "sections": [
-                {
-                  "name": "GGM: Treble Clef (Hint)",
-                  "visibility_rules": ["gm_treble"]
-                },
-                {
-                  "name": "GGM: Hill by Crushing Shed Note 1 (Hint)",
-                  "visibility_rules": ["gm_note1"]
-                },
-                {
-                  "name": "GGM: Hill by Crushing Shed Note 2 (Hint)",
-                  "visibility_rules": ["gm_note2"]
-                },
-                {
-                  "name": "GGM: Hill by Crushing Shed Note 3 (Hint)",
-                  "visibility_rules": ["gm_note3"]
-                },
-                {
-                  "name": "GGM: Hill by Crushing Shed Note 4 (Hint)",
-                  "visibility_rules": ["gm_note4"]
-                },
-                {
-                  "name": "GGM: Near Prospector's Hut Bottom-Left Note (Hint)",
-                  "visibility_rules": ["gm_note5"]
-                },
-                {
-                  "name": "GGM: Near Prospector's Hut Top-Left Note (Hint)",
-                  "visibility_rules": ["gm_note6"]
-                },
-                {
-                  "name": "GGM: Near Prospector's Hut Top-Right Note (Hint)",
-                  "visibility_rules": ["gm_note7"]
-                },
-                {
-                  "name": "GGM: Near Prospector's Hut Middle-Right Note (Hint)",
-                  "visibility_rules": ["gm_note8"]
-                },
-                {
-                  "name": "GGM: Near Prospector's Hut Bottom-Right Note (Hint)",
-                  "visibility_rules": ["gm_note9"]
-                },
-                {
-                  "name": "GGM: Outside Mumbo's Skull Note 1 (Hint)",
-                  "visibility_rules": ["gm_note10"]
-                },
-                {
-                  "name": "GGM: Outside Mumbo's Skull Note 2 (Hint)",
-                  "visibility_rules": ["gm_note11"]
-                },
-                {
-                  "name": "GGM: Outside Mumbo's Skull Note 3 (Hint)",
-                  "visibility_rules": ["gm_note12"]
-                },
-                {
-                  "name": "GGM: Fuel Depot Front-Left Note (Hint)",
-                  "visibility_rules": ["gm_note13"]
-                },
-                {
-                  "name": "GGM: Fuel Depot Back-Left Note (Hint)",
-                  "visibility_rules": ["gm_note14"]
-                },
-                {
-                  "name": "GGM: Fuel Depot Back-Right Note (Hint)",
-                  "visibility_rules": ["gm_note15"]
-                },
-                {
-                  "name": "GGM: Fuel Depot Front-Right Note (Hint)",
-                  "visibility_rules": ["gm_note16"]
-                }
-              ],
-              "map_locations": [
-                {
-                  "map": "overview",
-                  "x": 545,
-                  "y": 220
+                  "x": 711,
+                  "y": 230
                 }
               ]
             },
@@ -1588,66 +1768,42 @@
               "map_locations": [
                 {
                   "map": "overview",
-                  "x": 620,
-                  "y": 220
+                  "x": 790,
+                  "y": 230
                 }
               ]
             },
             {
-              "name": "Witchyworld Hints",
+              "name": "Glitter Gulch Mine - Signposts Hints",
               "sections": [
                 {
-                  "name": "WW: Big Top Jinjo (Hint)",
-                  "visibility_rules": ["ww_jinjo1"]
+                  "name": "GGM: Gloomy Cavern Signpost (Hint)",
+                  "visibility_rules": ["gm_sign1"]
                 },
                 {
-                  "name": "WW: Cave of Horrors Jinjo (Hint)",
-                  "visibility_rules": ["ww_jinjo2"]
+                  "name": "GGM: Generator Cavern Signpost (Hint)",
+                  "visibility_rules": ["gm_sign2"]
                 },
                 {
-                  "name": "WW: Van Door Jinjo (Hint)",
-                  "visibility_rules": ["ww_jinjo3"]
+                  "name": "GGM: Toxic Gas Cave Signpost (Hint)",
+                  "visibility_rules": ["gm_sign3"]
                 },
                 {
-                  "name": "WW: Dodgem Dome Jinjo (Hint)",
-                  "visibility_rules": ["ww_jinjo4"]
-                },
+                  "name": "GGM: Inside Chuffy's Wagon Signpost (Hint)",
+                  "visibility_rules": ["gm_sign4"]
+                }
+              ],
+              "map_locations": [
                 {
-                  "name": "WW: Cactus of Strength Jinjo (Hint)",
-                  "visibility_rules": ["ww_jinjo5"]
-                },
-                {
-                  "name": "WW: The Inferno Glowbo (Hint)",
-                  "visibility_rules": ["ww_glowbo1"]
-                },
-                {
-                  "name": "WW: Wumba's Glowbo (Hint)",
-                  "visibility_rules": ["ww_glowbo2"]
-                },
-                {
-                  "name": "WW: Space Zone Honeycomb (Hint)",
-                  "visibility_rules": ["ww_honey1"]
-                },
-                {
-                  "name": "WW: Mumbo Skull Honeycomb (Hint)",
-                  "visibility_rules": ["ww_honey2"]
-                },
-                {
-                  "name": "WW: Crazy Castle Honeycomb (Hint)",
-                  "visibility_rules": ["ww_honey3"]
-                },
-                {
-                  "name": "WW: The Haunted Cavern Cheato Page (Hint)",
-                  "visibility_rules": ["ww_cheato1"]
-                },
-                {
-                  "name": "WW: The Inferno Cheato Page (Hint)",
-                  "visibility_rules": ["ww_cheato2"]
-                },
-                {
-                  "name": "WW: Saucer of Peril Cheato Page (Hint)",
-                  "visibility_rules": ["ww_cheato3"]
-                },
+                  "map": "overview",
+                  "x": 869,
+                  "y": 230
+                }
+              ]
+            },
+            {
+              "name": "Witchyworld - Silos Hints",
+              "sections": [
                 {
                   "name": "WW: Airborne Egg Aiming Silo (Hint)",
                   "visibility_rules": ["ww_aireaimsilo"]
@@ -1661,47 +1817,31 @@
                   "visibility_rules": ["ww_packwhsilo"]
                 },
                 {
-                  "name": "WW: Train Switch (Hint)",
-                  "visibility_rules": ["ww_trainsw"]
+                  "name": "WW: Entrance Warp Pad (Hint)",
+                  "visibility_rules": ["ww_warp1"]
                 },
                 {
-                  "name": "WW: Dodgem Dome Signpost (Hint)",
-                  "visibility_rules": ["ww_sign1"]
+                  "name": "WW: Big Top Tent Warp Pad (Hint)",
+                  "visibility_rules": ["ww_warp2"]
                 },
                 {
-                  "name": "WW: Madame Grunty Signpost (Hint)",
-                  "visibility_rules": ["ww_sign2"]
+                  "name": "WW: Space Zone Warp Pad (Hint)",
+                  "visibility_rules": ["ww_warp3"]
                 },
                 {
-                  "name": "WW: Burger Stand Signpost (Hint)",
-                  "visibility_rules": ["ww_sign3"]
+                  "name": "WW: Humba's Wigwam Warp Pad (Hint)",
+                  "visibility_rules": ["ww_warp4"]
                 },
                 {
-                  "name": "WW: Fries Stand Signpost (Hint)",
-                  "visibility_rules": ["ww_sign4"]
-                },
-                {
-                  "name": "WW: Cactus of Strength Signpost (Hint)",
-                  "visibility_rules": ["ww_sign5"]
-                },
-                {
-                  "name": "WW: Pump Room Signpost (Hint)",
-                  "visibility_rules": ["ww_sign6"]
-                },
-                {
-                  "name": "WW: Gobi Cage Signpost (Hint)",
-                  "visibility_rules": ["ww_sign7"]
-                },
-                {
-                  "name": "WW: The Haunted Caverns Signpost (Hint)",
-                  "visibility_rules": ["ww_sign8"]
+                  "name": "WW: The Inferno Warp Pad (Hint)",
+                  "visibility_rules": ["ww_warp5"]
                 }
               ],
               "map_locations": [
                 {
                   "map": "overview",
-                  "x": 375,
-                  "y": 280
+                  "x": 493,
+                  "y": 290
                 }
               ]
             },
@@ -1752,8 +1892,8 @@
               "map_locations": [
                 {
                   "map": "overview",
-                  "x": 462,
-                  "y": 280
+                  "x": 571,
+                  "y": 290
                 }
               ]
             },
@@ -1832,8 +1972,88 @@
               "map_locations": [
                 {
                   "map": "overview",
-                  "x": 545,
-                  "y": 280
+                  "x": 641,
+                  "y": 290
+                }
+              ]
+            },
+            {
+              "name": "Witchyworld - Other Hints",
+              "sections": [
+                {
+                  "name": "WW: Big Top Jinjo (Hint)",
+                  "visibility_rules": ["ww_jinjo1"]
+                },
+                {
+                  "name": "WW: Cave of Horrors Jinjo (Hint)",
+                  "visibility_rules": ["ww_jinjo2"]
+                },
+                {
+                  "name": "WW: Van Door Jinjo (Hint)",
+                  "visibility_rules": ["ww_jinjo3"]
+                },
+                {
+                  "name": "WW: Dodgem Dome Jinjo (Hint)",
+                  "visibility_rules": ["ww_jinjo4"]
+                },
+                {
+                  "name": "WW: Cactus of Strength Jinjo (Hint)",
+                  "visibility_rules": ["ww_jinjo5"]
+                },
+                {
+                  "name": "WW: The Inferno Glowbo (Hint)",
+                  "visibility_rules": ["ww_glowbo1"]
+                },
+                {
+                  "name": "WW: Wumba's Glowbo (Hint)",
+                  "visibility_rules": ["ww_glowbo2"]
+                },
+                {
+                  "name": "WW: Space Zone Honeycomb (Hint)",
+                  "visibility_rules": ["ww_honey1"]
+                },
+                {
+                  "name": "WW: Mumbo Skull Honeycomb (Hint)",
+                  "visibility_rules": ["ww_honey2"]
+                },
+                {
+                  "name": "WW: Crazy Castle Honeycomb (Hint)",
+                  "visibility_rules": ["ww_honey3"]
+                },
+                {
+                  "name": "WW: The Haunted Cavern Cheato Page (Hint)",
+                  "visibility_rules": ["ww_cheato1"]
+                },
+                {
+                  "name": "WW: The Inferno Cheato Page (Hint)",
+                  "visibility_rules": ["ww_cheato2"]
+                },
+                {
+                  "name": "WW: Saucer of Peril Cheato Page (Hint)",
+                  "visibility_rules": ["ww_cheato3"]
+                },
+                {
+                  "name": "WW: Train Switch (Hint)",
+                  "visibility_rules": ["ww_trainsw"]
+                },
+                {
+                  "name": "WW: Moggy (Hint)",
+                  "visibility_rules": ["ww_moggy"]
+                },
+                {
+                  "name": "WW: Soggy (Hint)",
+                  "visibility_rules": ["ww_soggy"]
+                },
+                {
+                  "name": "WW: Groggy (Hint)",
+                  "visibility_rules": ["ww_groggy"]
+                }
+              ],
+              "map_locations": [
+                {
+                  "map": "overview",
+                  "x": 711,
+                  "y": 290
                 }
               ]
             },
@@ -2012,66 +2232,58 @@
               "map_locations": [
                 {
                   "map": "overview",
-                  "x": 620,
-                  "y": 280
+                  "x": 790,
+                  "y": 290
                 }
               ]
             },
             {
-              "name": "Jolly Roger's Lagoon Hints",
+              "name": "Witchyworld - Signposts Hints",
               "sections": [
                 {
-                  "name": "JRL: Lagoon Alcove Jinjo (Hint)",
-                  "visibility_rules": ["jr_jinjo1"]
+                  "name": "WW: Dodgem Dome Signpost (Hint)",
+                  "visibility_rules": ["ww_sign1"]
                 },
                 {
-                  "name": "JRL: Blubber Jinjo (Hint)",
-                  "visibility_rules": ["jr_jinjo2"]
+                  "name": "WW: Madame Grunty Signpost (Hint)",
+                  "visibility_rules": ["ww_sign2"]
                 },
                 {
-                  "name": "JRL: Big Fish Jinjo (Hint)",
-                  "visibility_rules": ["jr_jinjo3"]
+                  "name": "WW: Burger Stand Signpost (Hint)",
+                  "visibility_rules": ["ww_sign3"]
                 },
                 {
-                  "name": "JRL: Seaweed Sanctum Jinjo (Hint)",
-                  "visibility_rules": ["jr_jinjo4"]
+                  "name": "WW: Fries Stand Signpost (Hint)",
+                  "visibility_rules": ["ww_sign4"]
                 },
                 {
-                  "name": "JRL: Sunken Ship Jinjo (Hint)",
-                  "visibility_rules": ["jr_jinjo5"]
+                  "name": "WW: Cactus of Strength Signpost (Hint)",
+                  "visibility_rules": ["ww_sign5"]
                 },
                 {
-                  "name": "JRL: Pawno's Emporium Glowbo (Hint)",
-                  "visibility_rules": ["jr_glowbo1"]
+                  "name": "WW: Pump Room Signpost (Hint)",
+                  "visibility_rules": ["ww_sign6"]
                 },
                 {
-                  "name": "JRL: Under Wumba's Wigwam Glowbo (Hint)",
-                  "visibility_rules": ["jr_glowbo2"]
+                  "name": "WW: Gobi Cage Signpost (Hint)",
+                  "visibility_rules": ["ww_sign7"]
                 },
                 {
-                  "name": "JRL: Seemee Honeycomb (Hint)",
-                  "visibility_rules": ["jr_honey1"]
-                },
+                  "name": "WW: The Haunted Caverns Signpost (Hint)",
+                  "visibility_rules": ["ww_sign8"]
+                }
+              ],
+              "map_locations": [
                 {
-                  "name": "JRL: Atlantis Honeycomb (Hint)",
-                  "visibility_rules": ["jr_honey2"]
-                },
-                {
-                  "name": "JRL: Waste Pipe Honeycomb (Hint)",
-                  "visibility_rules": ["jr_honey3"]
-                },
-                {
-                  "name": "JRL: Pawno's Cheato Page (Hint)",
-                  "visibility_rules": ["jr_cheato1"]
-                },
-                {
-                  "name": "JRL: Seemee Cheato Page (Hint)",
-                  "visibility_rules": ["jr_cheato2"]
-                },
-                {
-                  "name": "JRL: Ancient Swimming Baths Cheato Page (Hint)",
-                  "visibility_rules": ["jr_cheato3"]
-                },
+                  "map": "overview",
+                  "x": 869,
+                  "y": 290
+                }
+              ]
+            },
+            {
+              "name": "Jolly Roger's Lagoon - Silos Hints",
+              "sections": [
                 {
                   "name": "JRL: Wing Whack Silo (Hint)",
                   "visibility_rules": ["jr_wwhacksilo"]
@@ -2085,27 +2297,31 @@
                   "visibility_rules": ["jr_auqaimsilo"]
                 },
                 {
-                  "name": "JRL: Seaweed Sanctum Signpost (Hint)",
-                  "visibility_rules": ["jr_sign1"]
+                  "name": "JRL: Town Center Warp Pad (Hint)",
+                  "visibility_rules": ["jr_warp1"]
                 },
                 {
-                  "name": "JRL: Blubber's Signpost (Hint)",
-                  "visibility_rules": ["jr_sign2"]
+                  "name": "JRL: Atlantis Warp Pad (Hint)",
+                  "visibility_rules": ["jr_warp2"]
                 },
                 {
-                  "name": "JRL: Smuggler's Cavern Signpost (Hint)",
-                  "visibility_rules": ["jr_sign3"]
+                  "name": "JRL: Sunken Ship Warp Pad (Hint)",
+                  "visibility_rules": ["jr_warp3"]
                 },
                 {
-                  "name": "JRL: Waste Pipe Alcove Signpost (Hint)",
-                  "visibility_rules": ["jr_sign4"]
+                  "name": "JRL: Big Fish Cavern Warp Pad (Hint)",
+                  "visibility_rules": ["jr_warp4"]
+                },
+                {
+                  "name": "JRL: Locker Cavern Warp Pad (Hint)",
+                  "visibility_rules": ["jr_warp5"]
                 }
               ],
               "map_locations": [
                 {
                   "map": "overview",
-                  "x": 375,
-                  "y": 340
+                  "x": 493,
+                  "y": 350
                 }
               ]
             },
@@ -2156,8 +2372,8 @@
               "map_locations": [
                 {
                   "map": "overview",
-                  "x": 462,
-                  "y": 340
+                  "x": 571,
+                  "y": 350
                 }
               ]
             },
@@ -2236,8 +2452,72 @@
               "map_locations": [
                 {
                   "map": "overview",
-                  "x": 545,
-                  "y": 340
+                  "x": 641,
+                  "y": 350
+                }
+              ]
+            },
+            {
+              "name": "Jolly Roger's Lagoon - Other Hints",
+              "sections": [
+                {
+                  "name": "JRL: Lagoon Alcove Jinjo (Hint)",
+                  "visibility_rules": ["jr_jinjo1"]
+                },
+                {
+                  "name": "JRL: Blubber Jinjo (Hint)",
+                  "visibility_rules": ["jr_jinjo2"]
+                },
+                {
+                  "name": "JRL: Big Fish Jinjo (Hint)",
+                  "visibility_rules": ["jr_jinjo3"]
+                },
+                {
+                  "name": "JRL: Seaweed Sanctum Jinjo (Hint)",
+                  "visibility_rules": ["jr_jinjo4"]
+                },
+                {
+                  "name": "JRL: Sunken Ship Jinjo (Hint)",
+                  "visibility_rules": ["jr_jinjo5"]
+                },
+                {
+                  "name": "JRL: Pawno's Emporium Glowbo (Hint)",
+                  "visibility_rules": ["jr_glowbo1"]
+                },
+                {
+                  "name": "JRL: Under Wumba's Wigwam Glowbo (Hint)",
+                  "visibility_rules": ["jr_glowbo2"]
+                },
+                {
+                  "name": "JRL: Seemee Honeycomb (Hint)",
+                  "visibility_rules": ["jr_honey1"]
+                },
+                {
+                  "name": "JRL: Atlantis Honeycomb (Hint)",
+                  "visibility_rules": ["jr_honey2"]
+                },
+                {
+                  "name": "JRL: Waste Pipe Honeycomb (Hint)",
+                  "visibility_rules": ["jr_honey3"]
+                },
+                {
+                  "name": "JRL: Pawno's Cheato Page (Hint)",
+                  "visibility_rules": ["jr_cheato1"]
+                },
+                {
+                  "name": "JRL: Seemee Cheato Page (Hint)",
+                  "visibility_rules": ["jr_cheato2"]
+                },
+                {
+                  "name": "JRL: Ancient Swimming Baths Cheato Page (Hint)",
+                  "visibility_rules": ["jr_cheato3"]
+                }
+              ],
+              "map_locations": [
+                {
+                  "map": "overview",
+                  "x": 711,
+                  "y": 350
                 }
               ]
             },
@@ -2397,19 +2677,47 @@
                   "visibility_rules": ["jr_nest38"]
                 },
                 {
-                  "name": "JRL: Locker Cavern Seemee Fish Feather Nest (Hint)",
+                  "name": "JRL: Sea Bottom Seemee Fish Feather Nest (Hint)",
                   "visibility_rules": ["jr_nest39"]
                 },
                 {
-                  "name": "JRL: Locker Cavern Seemee Fish Egg Nest (Hint)",
+                  "name": "JRL: Sea Bottom Seemee Fish Egg Nest (Hint)",
                   "visibility_rules": ["jr_nest40"]
                 }
               ],
               "map_locations": [
                 {
                   "map": "overview",
-                  "x": 620,
-                  "y": 340
+                  "x": 790,
+                  "y": 350
+                }
+              ]
+            },
+            {
+              "name": "Jolly Roger's Lagoon - Signposts Hints",
+              "sections": [
+                {
+                  "name": "JRL: Seaweed Sanctum Signpost (Hint)",
+                  "visibility_rules": ["jr_sign1"]
+                },
+                {
+                  "name": "JRL: Blubber's Signpost (Hint)",
+                  "visibility_rules": ["jr_sign2"]
+                },
+                {
+                  "name": "JRL: Smuggler's Cavern Signpost (Hint)",
+                  "visibility_rules": ["jr_sign3"]
+                },
+                {
+                  "name": "JRL: Waste Pipe Alcove Signpost (Hint)",
+                  "visibility_rules": ["jr_sign4"]
+                }
+              ],
+              "map_locations": [
+                {
+                  "map": "overview",
+                  "x": 869,
+                  "y": 350
                 }
               ]
             },
@@ -2540,66 +2848,14 @@
               "map_locations": [
                 {
                   "map": "overview",
-                  "x": 695,
-                  "y": 340
+                  "x": 939,
+                  "y": 350
                 }
               ]
             },
             {
-              "name": "Terrydactyland Hints",
+              "name": "Terrydactyland - Silos Hints",
               "sections": [
-                {
-                  "name": "TDL: Talon Torpedo Jinjo (Hint)",
-                  "visibility_rules": ["td_jinjo1"]
-                },
-                {
-                  "name": "TDL: Entrance Jinjo (Hint)",
-                  "visibility_rules": ["td_jinjo2"]
-                },
-                {
-                  "name": "TDL: Beside Rocknut Jinjo (Hint)",
-                  "visibility_rules": ["td_jinjo3"]
-                },
-                {
-                  "name": "TDL: Big T. Rex Jinjo (Hint)",
-                  "visibility_rules": ["td_jinjo4"]
-                },
-                {
-                  "name": "TDL: Stomping Plains Jinjo (Hint)",
-                  "visibility_rules": ["td_jinjo5"]
-                },
-                {
-                  "name": "TDL: Unga Bunga Cave Entrance Glowbo (Hint)",
-                  "visibility_rules": ["td_glowbo1"]
-                },
-                {
-                  "name": "TDL: Behind Mumbo's Skull Glowbo (Hint)",
-                  "visibility_rules": ["td_glowbo2"]
-                },
-                {
-                  "name": "TDL: Lakeside Honeycomb (Hint)",
-                  "visibility_rules": ["td_honey1"]
-                },
-                {
-                  "name": "TDL: Styracosaurus Cave Honeycomb (Hint)",
-                  "visibility_rules": ["td_honey2"]
-                },
-                {
-                  "name": "TDL: River Passage Honeycomb (Hint)",
-                  "visibility_rules": ["td_honey3"]
-                },
-                {
-                  "name": "TDL: Dippy's Pool Cheato Page (Hint)",
-                  "visibility_rules": ["td_cheato1"]
-                },
-                {
-                  "name": "TDL: Inside the Mountain Cheato Page (Hint)",
-                  "visibility_rules": ["td_cheato2"]
-                },
-                {
-                  "name": "TDL: Boulder Cheato Page (Hint)",
-                  "visibility_rules": ["td_cheato3"]
-                },
                 {
                   "name": "TDL: Springy Step Shoes Silo (Hint)",
                   "visibility_rules": ["td_springbsilo"]
@@ -2613,47 +2869,31 @@
                   "visibility_rules": ["td_hatchsilo"]
                 },
                 {
-                  "name": "TDL: Train Switch (Hint)",
-                  "visibility_rules": ["td_trainsw"]
+                  "name": "TDL: Entrance Warp Pad (Hint)",
+                  "visibility_rules": ["td_warp1"]
                 },
                 {
-                  "name": "TDL: Roar Cage Signpost (Hint)",
-                  "visibility_rules": ["td_sign1"]
+                  "name": "TDL: Stomping Plains Warp Pad (Hint)",
+                  "visibility_rules": ["td_warp2"]
                 },
                 {
-                  "name": "TDL: Inside The Mountain Near Cheato Page Signpost (Hint)",
-                  "visibility_rules": ["td_sign2"]
+                  "name": "TDL: Mumbo's Skull Warp Pad (Hint)",
+                  "visibility_rules": ["td_warp3"]
                 },
                 {
-                  "name": "TDL: Inside The Mountain Near Top Signpost (Hint)",
-                  "visibility_rules": ["td_sign3"]
+                  "name": "TDL: Humba's Wigwam Warp Pad (Hint)",
+                  "visibility_rules": ["td_warp4"]
                 },
                 {
-                  "name": "TDL: River Passage Signpost (Hint)",
-                  "visibility_rules": ["td_sign4"]
-                },
-                {
-                  "name": "TDL: Scrut (Lost) (Hint)",
-                  "visibility_rules": ["td_scrut"]
-                },
-                {
-                  "name": "TDL: Scrat (Sick) (Hint)",
-                  "visibility_rules": ["td_scrat"]
-                },
-                {
-                  "name": "TDL: Scrit (Small) (Hint)",
-                  "visibility_rules": ["td_scrit"]
-                },
-                {
-                  "name": "TDL: Baby T-Rex Roar (Hint)",
-                  "visibility_rules": ["td_roar"]
+                  "name": "TDL: Top of the Mountain Warp Pad (Hint)",
+                  "visibility_rules": ["td_warp5"]
                 }
               ],
               "map_locations": [
                 {
                   "map": "overview",
-                  "x": 375,
-                  "y": 400
+                  "x": 493,
+                  "y": 410
                 }
               ]
             },
@@ -2704,8 +2944,8 @@
               "map_locations": [
                 {
                   "map": "overview",
-                  "x": 462,
-                  "y": 400
+                  "x": 571,
+                  "y": 410
                 }
               ]
             },
@@ -2784,8 +3024,92 @@
               "map_locations": [
                 {
                   "map": "overview",
-                  "x": 545,
-                  "y": 400
+                  "x": 641,
+                  "y": 410
+                }
+              ]
+            },
+            {
+              "name": "Terrydactyland - Other Hints",
+              "sections": [
+                {
+                  "name": "TDL: Talon Torpedo Jinjo (Hint)",
+                  "visibility_rules": ["td_jinjo1"]
+                },
+                {
+                  "name": "TDL: Entrance Jinjo (Hint)",
+                  "visibility_rules": ["td_jinjo2"]
+                },
+                {
+                  "name": "TDL: Beside Rocknut Jinjo (Hint)",
+                  "visibility_rules": ["td_jinjo3"]
+                },
+                {
+                  "name": "TDL: Big T. Rex Jinjo (Hint)",
+                  "visibility_rules": ["td_jinjo4"]
+                },
+                {
+                  "name": "TDL: Stomping Plains Jinjo (Hint)",
+                  "visibility_rules": ["td_jinjo5"]
+                },
+                {
+                  "name": "TDL: Unga Bunga Cave Entrance Glowbo (Hint)",
+                  "visibility_rules": ["td_glowbo1"]
+                },
+                {
+                  "name": "TDL: Behind Mumbo's Skull Glowbo (Hint)",
+                  "visibility_rules": ["td_glowbo2"]
+                },
+                {
+                  "name": "TDL: Lakeside Honeycomb (Hint)",
+                  "visibility_rules": ["td_honey1"]
+                },
+                {
+                  "name": "TDL: Styracosaurus Cave Honeycomb (Hint)",
+                  "visibility_rules": ["td_honey2"]
+                },
+                {
+                  "name": "TDL: River Passage Honeycomb (Hint)",
+                  "visibility_rules": ["td_honey3"]
+                },
+                {
+                  "name": "TDL: Dippy's Pool Cheato Page (Hint)",
+                  "visibility_rules": ["td_cheato1"]
+                },
+                {
+                  "name": "TDL: Inside the Mountain Cheato Page (Hint)",
+                  "visibility_rules": ["td_cheato2"]
+                },
+                {
+                  "name": "TDL: Boulder Cheato Page (Hint)",
+                  "visibility_rules": ["td_cheato3"]
+                },
+                {
+                  "name": "TDL: Train Switch (Hint)",
+                  "visibility_rules": ["td_trainsw"]
+                },
+                {
+                  "name": "TDL: Scrut (Lost) (Hint)",
+                  "visibility_rules": ["td_scrut"]
+                },
+                {
+                  "name": "TDL: Scrat (Sick) (Hint)",
+                  "visibility_rules": ["td_scrat"]
+                },
+                {
+                  "name": "TDL: Scrit (Small) (Hint)",
+                  "visibility_rules": ["td_scrit"]
+                },
+                {
+                  "name": "TDL: Baby T-Rex Roar (Hint)",
+                  "visibility_rules": ["td_roar"]
+                }
+              ],
+              "map_locations": [
+                {
+                  "map": "overview",
+                  "x": 711,
+                  "y": 410
                 }
               ]
             },
@@ -3016,66 +3340,42 @@
               "map_locations": [
                 {
                   "map": "overview",
-                  "x": 620,
-                  "y": 400
+                  "x": 790,
+                  "y": 410
                 }
               ]
             },
             {
-              "name": "Grunty Industries Hints",
+              "name": "Terrydactyland - Signposts Hints",
               "sections": [
                 {
-                  "name": "GI Floor 5: Jinjo (Hint)",
-                  "visibility_rules": ["gi_jinjo1"]
+                  "name": "TDL: Roar Cage Signpost (Hint)",
+                  "visibility_rules": ["td_sign1"]
                 },
                 {
-                  "name": "GI Floor 2: Leg Spring Jinjo (Hint)",
-                  "visibility_rules": ["gi_jinjo2"]
+                  "name": "TDL: Inside The Mountain Near Cheato Page Signpost (Hint)",
+                  "visibility_rules": ["td_sign2"]
                 },
                 {
-                  "name": "GI Floor 1: Waste Disposal Plant Jinjo (Hint)",
-                  "visibility_rules": ["gi_jinjo3"]
+                  "name": "TDL: Inside The Mountain Near Top Signpost (Hint)",
+                  "visibility_rules": ["td_sign3"]
                 },
                 {
-                  "name": "GI Floor 3: Boiler Plant Jinjo (Hint)",
-                  "visibility_rules": ["gi_jinjo4"]
-                },
+                  "name": "TDL: River Passage Signpost (Hint)",
+                  "visibility_rules": ["td_sign4"]
+                }
+              ],
+              "map_locations": [
                 {
-                  "name": "GI Outside: Jinjo (Hint)",
-                  "visibility_rules": ["gi_jinjo5"]
-                },
-                {
-                  "name": "GI Floor 2: Glowbo (Hint)",
-                  "visibility_rules": ["gi_glowbo1"]
-                },
-                {
-                  "name": "GI Floor 3: Glowbo (Hint)",
-                  "visibility_rules": ["gi_glowbo2"]
-                },
-                {
-                  "name": "GI Floor 3: Honeycomb (Hint)",
-                  "visibility_rules": ["gi_honey1"]
-                },
-                {
-                  "name": "GI Floor 1: Train Station Honeycomb (Hint)",
-                  "visibility_rules": ["gi_honey2"]
-                },
-                {
-                  "name": "GI Outside: Chimney Honeycomb (Hint)",
-                  "visibility_rules": ["gi_honey3"]
-                },
-                {
-                  "name": "GI Floor 1: Loggo Cheato Page (Hint)",
-                  "visibility_rules": ["gi_cheato1"]
-                },
-                {
-                  "name": "GI Floor 2: Window Cheato Page (Hint)",
-                  "visibility_rules": ["gi_cheato2"]
-                },
-                {
-                  "name": "GI Floor 1: Repair Depot Cheato Page (Hint)",
-                  "visibility_rules": ["gi_cheato3"]
-                },
+                  "map": "overview",
+                  "x": 869,
+                  "y": 410
+                }
+              ]
+            },
+            {
+              "name": "Grunty Industries - Silos Hints",
+              "sections": [
                 {
                   "name": "GI Floor 1: Snooze Pack Silo (Hint)",
                   "visibility_rules": ["gi_snpacksilo"]
@@ -3089,31 +3389,31 @@
                   "visibility_rules": ["gi_clawbtssilo"]
                 },
                 {
-                  "name": "GI Outside: Train Switch (Hint)",
-                  "visibility_rules": ["gi_trainsw"]
+                  "name": "GI: 1st Floor Warp Pad (Hint)",
+                  "visibility_rules": ["gi_warp1"]
                 },
                 {
-                  "name": "GI Outside: Signpost (Hint)",
-                  "visibility_rules": ["gi_sign1"]
+                  "name": "GI: 2nd Floor Warp Pad (Hint)",
+                  "visibility_rules": ["gi_warp2"]
                 },
                 {
-                  "name": "GI Floor 1: Workers Quarters Signpost (Hint)",
-                  "visibility_rules": ["gi_sign2"]
+                  "name": "GI: 3rd Floor Warp Pad (Hint)",
+                  "visibility_rules": ["gi_warp3"]
                 },
                 {
-                  "name": "GI Elevator Shaft: Signpost 1 (Hint)",
-                  "visibility_rules": ["gi_sign3"]
+                  "name": "GI: 4th Floor Warp Pad (Hint)",
+                  "visibility_rules": ["gi_warp4"]
                 },
                 {
-                  "name": "GI Elevator Shaft: Signpost 2 (Hint)",
-                  "visibility_rules": ["gi_sign4"]
+                  "name": "GI: Roof Warp Pad (Hint)",
+                  "visibility_rules": ["gi_warp5"]
                 }
               ],
               "map_locations": [
                 {
                   "map": "overview",
-                  "x": 375,
-                  "y": 460
+                  "x": 493,
+                  "y": 470
                 }
               ]
             },
@@ -3164,8 +3464,8 @@
               "map_locations": [
                 {
                   "map": "overview",
-                  "x": 462,
-                  "y": 460
+                  "x": 571,
+                  "y": 470
                 }
               ]
             },
@@ -3244,8 +3544,100 @@
               "map_locations": [
                 {
                   "map": "overview",
-                  "x": 545,
-                  "y": 460
+                  "x": 641,
+                  "y": 470
+                }
+              ]
+            },
+            {
+              "name": "Grunty Industries - Other Hints",
+              "sections": [
+                {
+                  "name": "GI Floor 5: Jinjo (Hint)",
+                  "visibility_rules": ["gi_jinjo1"]
+                },
+                {
+                  "name": "GI Floor 2: Leg Spring Jinjo (Hint)",
+                  "visibility_rules": ["gi_jinjo2"]
+                },
+                {
+                  "name": "GI Floor 1: Waste Disposal Plant Jinjo (Hint)",
+                  "visibility_rules": ["gi_jinjo3"]
+                },
+                {
+                  "name": "GI Floor 3: Boiler Plant Jinjo (Hint)",
+                  "visibility_rules": ["gi_jinjo4"]
+                },
+                {
+                  "name": "GI Outside: Jinjo (Hint)",
+                  "visibility_rules": ["gi_jinjo5"]
+                },
+                {
+                  "name": "GI Floor 2: Glowbo (Hint)",
+                  "visibility_rules": ["gi_glowbo1"]
+                },
+                {
+                  "name": "GI Floor 3: Glowbo (Hint)",
+                  "visibility_rules": ["gi_glowbo2"]
+                },
+                {
+                  "name": "GI Floor 3: Honeycomb (Hint)",
+                  "visibility_rules": ["gi_honey1"]
+                },
+                {
+                  "name": "GI Floor 1: Train Station Honeycomb (Hint)",
+                  "visibility_rules": ["gi_honey2"]
+                },
+                {
+                  "name": "GI Outside: Chimney Honeycomb (Hint)",
+                  "visibility_rules": ["gi_honey3"]
+                },
+                {
+                  "name": "GI Floor 1: Loggo Cheato Page (Hint)",
+                  "visibility_rules": ["gi_cheato1"]
+                },
+                {
+                  "name": "GI Floor 2: Window Cheato Page (Hint)",
+                  "visibility_rules": ["gi_cheato2"]
+                },
+                {
+                  "name": "GI Floor 1: Repair Depot Cheato Page (Hint)",
+                  "visibility_rules": ["gi_cheato3"]
+                },
+                {
+                  "name": "GI Outside: Train Switch (Hint)",
+                  "visibility_rules": ["gi_trainsw"]
+                },
+                {
+                  "name": "GI Floor 1: Workers' Quarters Skivvy (Hint)",
+                  "visibility_rules": ["gi_skivwq"]
+                },
+                {
+                  "name": "GI Floor 1: Skivvy (Hint)",
+                  "visibility_rules": ["gi_skivf1"]
+                },
+                {
+                  "name": "GI Floor 2: Skivvy (Hint)",
+                  "visibility_rules": ["gi_skivf2"]
+                },
+                {
+                  "name": "GI Floor 3: Skivvy (Hint)",
+                  "visibility_rules": ["gi_skivf3"]
+                },
+                {
+                  "name": "GI Floor 5: Skivvy (Hint)",
+                  "visibility_rules": ["gi_skivf5"]
+                },
+                {
+                  "name": "GI Outside: Skivvy (Hint)",
+                  "visibility_rules": ["gi_skivou"]
+                }
+              ],
+              "map_locations": [
+                {
+                  "map": "overview",
+                  "x": 711,
+                  "y": 470
                 }
               ]
             },
@@ -3389,11 +3781,11 @@
                   "visibility_rules": ["gi_nest34"]
                 },
                 {
-                  "name": "GI Floor 3: On Boxes Egg Nest 1 (Hint)",
+                  "name": "GI Floor 3: On High Box Stack Egg Nest (Hint)",
                   "visibility_rules": ["gi_nest35"]
                 },
                 {
-                  "name": "GI Floor 3: On Boxes Egg Nest 2 (Hint)",
+                  "name": "GI Floor 3: On Boxes Under Notes Egg Nest (Hint)",
                   "visibility_rules": ["gi_nest36"]
                 },
                 {
@@ -3568,66 +3960,42 @@
               "map_locations": [
                 {
                   "map": "overview",
-                  "x": 620,
-                  "y": 460
+                  "x": 790,
+                  "y": 470
                 }
               ]
             },
             {
-              "name": "Hailfire Peaks Hints",
+              "name": "Grunty Industries - Signposts Hints",
               "sections": [
                 {
-                  "name": "HFP: Lava Waterfall Jinjo (Hint)",
-                  "visibility_rules": ["hp_jinjo1"]
+                  "name": "GI Outside: Signpost (Hint)",
+                  "visibility_rules": ["gi_sign1"]
                 },
                 {
-                  "name": "HFP: Boiling Hot Pool Jinjo (Hint)",
-                  "visibility_rules": ["hp_jinjo2"]
+                  "name": "GI Floor 1: Workers Quarters Signpost (Hint)",
+                  "visibility_rules": ["gi_sign2"]
                 },
                 {
-                  "name": "HFP: Windy Hole Jinjo (Hint)",
-                  "visibility_rules": ["hp_jinjo3"]
+                  "name": "GI Elevator Shaft: Signpost 1 (Hint)",
+                  "visibility_rules": ["gi_sign3"]
                 },
                 {
-                  "name": "HFP: Icicle Grotto Jinjo (Hint)",
-                  "visibility_rules": ["hp_jinjo4"]
-                },
+                  "name": "GI Elevator Shaft: Signpost 2 (Hint)",
+                  "visibility_rules": ["gi_sign4"]
+                }
+              ],
+              "map_locations": [
                 {
-                  "name": "HFP: Mildred Ice Cube Jinjo (Hint)",
-                  "visibility_rules": ["hp_jinjo5"]
-                },
-                {
-                  "name": "HFP: Lava Side Glowbo (Hint)",
-                  "visibility_rules": ["hp_glowbo1"]
-                },
-                {
-                  "name": "HFP: Icy Side Glowbo (Hint)",
-                  "visibility_rules": ["hp_glowbo2"]
-                },
-                {
-                  "name": "HFP: Inside the Volcano Honeycomb (Hint)",
-                  "visibility_rules": ["hp_honey1"]
-                },
-                {
-                  "name": "HFP: Train Station Honeycomb (Hint)",
-                  "visibility_rules": ["hp_honey2"]
-                },
-                {
-                  "name": "HFP: Lava Side Honeycomb (Hint)",
-                  "visibility_rules": ["hp_honey3"]
-                },
-                {
-                  "name": "HFP: Colosseum Cheato Page (Hint)",
-                  "visibility_rules": ["hp_cheato1"]
-                },
-                {
-                  "name": "HFP: Icicle Grotto Cheato Page (Hint)",
-                  "visibility_rules": ["hp_cheato2"]
-                },
-                {
-                  "name": "HFP: Icy Side Pillar Cheato Page (Hint)",
-                  "visibility_rules": ["hp_cheato3"]
-                },
+                  "map": "overview",
+                  "x": 869,
+                  "y": 470
+                }
+              ]
+            },
+            {
+              "name": "Hailfire Peaks - Silos Hints",
+              "sections": [
                 {
                   "name": "HFP: Shack Pack Silo (Hint)",
                   "visibility_rules": ["hp_shpacksilo"]
@@ -3637,39 +4005,31 @@
                   "visibility_rules": ["hp_glidesilo"]
                 },
                 {
-                  "name": "HFP: Lava Side Train Switch (Hint)",
-                  "visibility_rules": ["hp_trainsw1"]
+                  "name": "HFP: Lava Side Lower Warp Pad (Hint)",
+                  "visibility_rules": ["hp_warp1"]
                 },
                 {
-                  "name": "HFP: Icy Side Train Switch (Hint)",
-                  "visibility_rules": ["hp_trainsw2"]
+                  "name": "HFP: Lava Side Upper Warp Pad (Hint)",
+                  "visibility_rules": ["hp_warp2"]
                 },
                 {
-                  "name": "HFP: Bottom Hot Pool Signpost (Hint)",
-                  "visibility_rules": ["hp_sign1"]
+                  "name": "HFP: Icy Side Upper Warp Pad (Hint)",
+                  "visibility_rules": ["hp_warp3"]
                 },
                 {
-                  "name": "HFP: Top Hot Pool Signpost (Hint)",
-                  "visibility_rules": ["hp_sign2"]
+                  "name": "HFP: Icy Side Lower Warp Pad (Hint)",
+                  "visibility_rules": ["hp_warp4"]
                 },
                 {
-                  "name": "HFP: Volcano Signpost 1 (Hint)",
-                  "visibility_rules": ["hp_sign3"]
-                },
-                {
-                  "name": "HFP: Volcano Signpost 2 (Hint)",
-                  "visibility_rules": ["hp_sign4"]
-                },
-                {
-                  "name": "HFP: Volcano Signpost 3 (Hint)",
-                  "visibility_rules": ["hp_sign5"]
+                  "name": "HFP: Icicle Grotto Warp Pad (Hint)",
+                  "visibility_rules": ["hp_warp5"]
                 }
               ],
               "map_locations": [
                 {
                   "map": "overview",
-                  "x": 375,
-                  "y": 520
+                  "x": 493,
+                  "y": 530
                 }
               ]
             },
@@ -3720,8 +4080,8 @@
               "map_locations": [
                 {
                   "map": "overview",
-                  "x": 462,
-                  "y": 520
+                  "x": 571,
+                  "y": 530
                 }
               ]
             },
@@ -3800,8 +4160,92 @@
               "map_locations": [
                 {
                   "map": "overview",
-                  "x": 545,
-                  "y": 520
+                  "x": 641,
+                  "y": 530
+                }
+              ]
+            },
+            {
+              "name": "Hailfire Peaks - Other Hints",
+              "sections": [
+                {
+                  "name": "HFP: Lava Waterfall Jinjo (Hint)",
+                  "visibility_rules": ["hp_jinjo1"]
+                },
+                {
+                  "name": "HFP: Boiling Hot Pool Jinjo (Hint)",
+                  "visibility_rules": ["hp_jinjo2"]
+                },
+                {
+                  "name": "HFP: Windy Hole Jinjo (Hint)",
+                  "visibility_rules": ["hp_jinjo3"]
+                },
+                {
+                  "name": "HFP: Icicle Grotto Jinjo (Hint)",
+                  "visibility_rules": ["hp_jinjo4"]
+                },
+                {
+                  "name": "HFP: Mildred Ice Cube Jinjo (Hint)",
+                  "visibility_rules": ["hp_jinjo5"]
+                },
+                {
+                  "name": "HFP: Lava Side Glowbo (Hint)",
+                  "visibility_rules": ["hp_glowbo1"]
+                },
+                {
+                  "name": "HFP: Icy Side Glowbo (Hint)",
+                  "visibility_rules": ["hp_glowbo2"]
+                },
+                {
+                  "name": "HFP: Inside the Volcano Honeycomb (Hint)",
+                  "visibility_rules": ["hp_honey1"]
+                },
+                {
+                  "name": "HFP: Train Station Honeycomb (Hint)",
+                  "visibility_rules": ["hp_honey2"]
+                },
+                {
+                  "name": "HFP: Lava Side Honeycomb (Hint)",
+                  "visibility_rules": ["hp_honey3"]
+                },
+                {
+                  "name": "HFP: Colosseum Cheato Page (Hint)",
+                  "visibility_rules": ["hp_cheato1"]
+                },
+                {
+                  "name": "HFP: Icicle Grotto Cheato Page (Hint)",
+                  "visibility_rules": ["hp_cheato2"]
+                },
+                {
+                  "name": "HFP: Icy Side Pillar Cheato Page (Hint)",
+                  "visibility_rules": ["hp_cheato3"]
+                },
+                {
+                  "name": "HFP: Lava Side Train Switch (Hint)",
+                  "visibility_rules": ["hp_trainsw1"]
+                },
+                {
+                  "name": "HFP: Icy Side Train Switch (Hint)",
+                  "visibility_rules": ["hp_trainsw2"]
+                },
+                {
+                  "name": "HFP: Alphette (Hint)",
+                  "visibility_rules": ["hp_alphette"]
+                },
+                {
+                  "name": "HFP: Betette (Hint)",
+                  "visibility_rules": ["hp_betette"]
+                },
+                {
+                  "name": "HFP: Gamette (Hint)",
+                  "visibility_rules": ["hp_gamette"]
+                }
+              ],
+              "map_locations": [
+                {
+                  "map": "overview",
+                  "x": 711,
+                  "y": 530
                 }
               ]
             },
@@ -3972,92 +4416,64 @@
               "map_locations": [
                 {
                   "map": "overview",
-                  "x": 620,
-                  "y": 520
+                  "x": 790,
+                  "y": 530
                 }
               ]
             },
             {
-              "name": "Cloud Cuckooland Hints",
+              "name": "Hailfire Peaks - Signposts Hints",
               "sections": [
                 {
-                  "name": "CCL: Trash Can Jinjo (Hint)",
-                  "visibility_rules": ["cc_jinjo1"]
+                  "name": "HFP: Bottom Hot Pool Signpost (Hint)",
+                  "visibility_rules": ["hp_sign1"]
                 },
                 {
-                  "name": "CCL: Cheese Wedge Jinjo (Hint)",
-                  "visibility_rules": ["cc_jinjo2"]
+                  "name": "HFP: Top Hot Pool Signpost (Hint)",
+                  "visibility_rules": ["hp_sign2"]
                 },
                 {
-                  "name": "CCL: Central Cavern Jinjo (Hint)",
-                  "visibility_rules": ["cc_jinjo3"]
+                  "name": "HFP: Volcano Signpost 1 (Hint)",
+                  "visibility_rules": ["hp_sign3"]
                 },
                 {
-                  "name": "CCL: Fake Mumbo Skull Jinjo (Hint)",
-                  "visibility_rules": ["cc_jinjo4"]
+                  "name": "HFP: Volcano Signpost 2 (Hint)",
+                  "visibility_rules": ["hp_sign4"]
                 },
                 {
-                  "name": "CCL: Wumba Jinjo (Hint)",
-                  "visibility_rules": ["cc_jinjo5"]
-                },
-                {
-                  "name": "CCL: Outdoors Pool Glowbo (Hint)",
-                  "visibility_rules": ["cc_glowbo1"]
-                },
-                {
-                  "name": "CCL: Indoors Pool Glowbo (Hint)",
-                  "visibility_rules": ["cc_glowbo2"]
-                },
-                {
-                  "name": "CCL: Dirt Patch Honeycomb (Hint)",
-                  "visibility_rules": ["cc_honey1"]
-                },
-                {
-                  "name": "CCL: Trash Can Honeycomb (Hint)",
-                  "visibility_rules": ["cc_honey2"]
-                },
-                {
-                  "name": "CCL: Pot O' Gold Honeycomb (Hint)",
-                  "visibility_rules": ["cc_honey3"]
-                },
-                {
-                  "name": "CCL: Canary Mary Cheato Page (Hint)",
-                  "visibility_rules": ["cc_cheato1"]
-                },
-                {
-                  "name": "CCL: Pot O' Gold Cheato Page (Hint)",
-                  "visibility_rules": ["cc_cheato2"]
-                },
-                {
-                  "name": "CCL: Zubbas Cheato Page (Hint)",
-                  "visibility_rules": ["cc_cheato3"]
-                },
-                {
-                  "name": "CCL: Sack Pack Silo (Hint)",
-                  "visibility_rules": ["cc_sapacksilo"]
-                },
-                {
-                  "name": "CCL: Indoors Pool Underwater Signpost (Hint)",
-                  "visibility_rules": ["cc_sign1"]
-                },
-                {
-                  "name": "CCL: Sack Pack Silo Signpost (Hint)",
-                  "visibility_rules": ["cc_sign2"]
-                },
-                {
-                  "name": "CCL: On Rim of Glowbo Pool Signpost (Hint)",
-                  "visibility_rules": ["cc_sign3"]
-                },
-                {
-                  "name": "CCL: Wumba's Wigwam Signpost (Hint)",
-                  "visibility_rules": ["cc_sign4"]
+                  "name": "HFP: Volcano Signpost 3 (Hint)",
+                  "visibility_rules": ["hp_sign5"]
                 }
               ],
               "map_locations": [
                 {
                   "map": "overview",
-                  "x": 375,
-                  "y": 580
+                  "x": 869,
+                  "y": 530
+                }
+              ]
+            },
+            {
+              "name": "Cloud Cuckooland - Silos Hints",
+              "sections": [
+                {
+                  "name": "CCL: Sack Pack Silo (Hint)",
+                  "visibility_rules": ["cc_sapacksilo"]
+                },
+                {
+                  "name": "CCL: Entrance Warp Pad (Hint)",
+                  "visibility_rules": ["cc_warp1"]
+                },
+                {
+                  "name": "CCL: Central Cavern Warp Pad (Hint)",
+                  "visibility_rules": ["cc_warp2"]
+                }
+              ],
+              "map_locations": [
+                {
+                  "map": "overview",
+                  "x": 493,
+                  "y": 590
                 }
               ]
             },
@@ -4108,8 +4524,8 @@
               "map_locations": [
                 {
                   "map": "overview",
-                  "x": 462,
-                  "y": 580
+                  "x": 571,
+                  "y": 590
                 }
               ]
             },
@@ -4188,8 +4604,80 @@
               "map_locations": [
                 {
                   "map": "overview",
-                  "x": 545,
-                  "y": 580
+                  "x": 641,
+                  "y": 590
+                }
+              ]
+            },
+            {
+              "name": "Cloud Cuckooland - Other Hints",
+              "sections": [
+                {
+                  "name": "CCL: Trash Can Jinjo (Hint)",
+                  "visibility_rules": ["cc_jinjo1"]
+                },
+                {
+                  "name": "CCL: Cheese Wedge Jinjo (Hint)",
+                  "visibility_rules": ["cc_jinjo2"]
+                },
+                {
+                  "name": "CCL: Central Cavern Jinjo (Hint)",
+                  "visibility_rules": ["cc_jinjo3"]
+                },
+                {
+                  "name": "CCL: Fake Mumbo Skull Jinjo (Hint)",
+                  "visibility_rules": ["cc_jinjo4"]
+                },
+                {
+                  "name": "CCL: Wumba Jinjo (Hint)",
+                  "visibility_rules": ["cc_jinjo5"]
+                },
+                {
+                  "name": "CCL: Outdoors Pool Glowbo (Hint)",
+                  "visibility_rules": ["cc_glowbo1"]
+                },
+                {
+                  "name": "CCL: Indoors Pool Glowbo (Hint)",
+                  "visibility_rules": ["cc_glowbo2"]
+                },
+                {
+                  "name": "CCL: Dirt Patch Honeycomb (Hint)",
+                  "visibility_rules": ["cc_honey1"]
+                },
+                {
+                  "name": "CCL: Trash Can Honeycomb (Hint)",
+                  "visibility_rules": ["cc_honey2"]
+                },
+                {
+                  "name": "CCL: Pot O' Gold Honeycomb (Hint)",
+                  "visibility_rules": ["cc_honey3"]
+                },
+                {
+                  "name": "CCL: Canary Mary Cheato Page (Hint)",
+                  "visibility_rules": ["cc_cheato1"]
+                },
+                {
+                  "name": "CCL: Pot O' Gold Cheato Page (Hint)",
+                  "visibility_rules": ["cc_cheato2"]
+                },
+                {
+                  "name": "CCL: Zubbas Cheato Page (Hint)",
+                  "visibility_rules": ["cc_cheato3"]
+                },
+                {
+                  "name": "CCL: Mr. Fitt - High Jump (Hint)",
+                  "visibility_rules": ["cc_fitthj"]
+                },
+                {
+                  "name": "CCL: Mr. Fitt - Sack Race (Hint)",
+                  "visibility_rules": ["cc_fittsr"]
+                }
+              ],
+              "map_locations": [
+                {
+                  "map": "overview",
+                  "x": 711,
+                  "y": 590
                 }
               ]
             },
@@ -4400,8 +4888,56 @@
               "map_locations": [
                 {
                   "map": "overview",
-                  "x": 545,
-                  "y": 580
+                  "x": 790,
+                  "y": 590
+                }
+              ]
+            },
+            {
+              "name": "Cloud Cuckooland - Signposts Hints",
+              "sections": [
+                {
+                  "name": "CCL: Indoors Pool Underwater Signpost (Hint)",
+                  "visibility_rules": ["cc_sign1"]
+                },
+                {
+                  "name": "CCL: Sack Pack Silo Signpost (Hint)",
+                  "visibility_rules": ["cc_sign2"]
+                },
+                {
+                  "name": "CCL: On Rim of Glowbo Pool Signpost (Hint)",
+                  "visibility_rules": ["cc_sign3"]
+                },
+                {
+                  "name": "CCL: Wumba's Wigwam Signpost (Hint)",
+                  "visibility_rules": ["cc_sign4"]
+                }
+              ],
+              "map_locations": [
+                {
+                  "map": "overview",
+                  "x": 869,
+                  "y": 590
+                }
+              ]
+            },
+            {
+              "name": "Cauldron Keep - Silos Hints",
+              "sections": [
+                {
+                  "name": "CK: Bottom of the Tower Warp Pad (Hint)",
+                  "visibility_rules": ["ck_warp1"]
+                },
+                {
+                  "name": "CK: Top of the Tower Warp Pad (Hint)",
+                  "visibility_rules": ["ck_warp2"]
+                }
+              ],
+              "map_locations": [
+                {
+                  "map": "overview",
+                  "x": 493,
+                  "y": 650
                 }
               ]
             }

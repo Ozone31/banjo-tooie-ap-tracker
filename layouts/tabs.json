@@ -1,235 +1,242 @@
 {
-	"tabbed_maps": {
-		"type": "tabbed",
-		"tabs": [
-			{
-				"title": "Single Map View",
-				"content": {
-					"type": "tabbed",
-					"tabs": [
-						{
-							"title": "Overview",
-							"content": {
-								"type": "map",
-								"maps": ["overview"]
-							}
-						},
+    "tabbed_maps": {
+        "type": "tabbed",
+        "tabs": [
             {
-							"title": "Isle O' Hags",
-							"content": {
-								"type": "dock",
-								"content": {
-									"type": "layout",
-									"key": "maps_ioh"
-								}
-							}
-						},
+                "title": "Single Map View",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Overview",
+                            "content": {
+                                "type": "map",
+                                "maps": ["overview"]
+                            }
+                        },
+                        {
+                            "title": "Move Silos",
+                            "content": {
+                                "type": "layout",
+                                "key": "silos_tracker"
+                            }
+                        },
+                        {
+                            "title": "Isle O' Hags",
+                            "content": {
+                                "type": "dock",
+                                "content": {
+                                    "type": "layout",
+                                    "key": "maps_ioh"
+                                }
+                            }
+                        },
+                        {
+                            "title": "Mayahem Temple",
+                            "content": {
+                                "type": "dock",
+                                "content": {
+                                    "type": "layout",
+                                    "key": "maps_mt"
+                                }
+                            }
+                        },
+                        {
+                            "title": "Glitter Gulch Mine",
+                            "content": {
+                                "type": "dock",
+                                "content": {
+                                    "type": "layout",
+                                    "key": "maps_ggm"
+                                }
+                            }
+                        },
+                        {
+                            "title": "Witchyworld",
+                            "content": {
+                                "type": "dock",
+                                "content": {
+                                    "type": "layout",
+                                    "key": "maps_ww"
+                                }
+                            }
+                        },
+                        {
+                            "title": "Jolly Roger's Lagoon",
+                            "content": {
+                                "type": "dock",
+                                "content": {
+                                    "type": "layout",
+                                    "key": "maps_jrl"
+                                }
+                            }
+                        },
+                        {
+                            "title": "Terrydactyland",
+                            "content": {
+                                "type": "dock",
+                                "content": {
+                                    "type": "layout",
+                                    "key": "maps_tdl"
+                                }
+                            }
+                        },
+                        {
+                            "title": "Grunty Industries",
+                            "content": {
+                                "type": "dock",
+                                "content": {
+                                    "type": "layout",
+                                    "key": "maps_gi"
+                                }
+                            }
+                        },
+                        {
+                            "title": "Hailfire Peaks",
+                            "content": {
+                                "type": "dock",
+                                "content": {
+                                    "type": "layout",
+                                    "key": "maps_hfp"
+                                }
+                            }
+                        },
+                        {
+                            "title": "Cloud Cuckooland",
+                            "content": {
+                                "type": "dock",
+                                "content": {
+                                    "type": "layout",
+                                    "key": "maps_ccl"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
             {
-							"title": "Mayahem Temple",
-							"content": {
-								"type": "dock",
-								"content": {
-									"type": "layout",
-									"key": "maps_mt"
-								}
-							}
-						},
-            {
-							"title": "Glitter Gulch Mine",
-							"content": {
-								"type": "dock",
-								"content": {
-									"type": "layout",
-									"key": "maps_ggm"
-								}
-							}
-						},
-            {
-							"title": "Witchyworld",
-							"content": {
-								"type": "dock",
-								"content": {
-									"type": "layout",
-									"key": "maps_ww"
-								}
-							}
-						},
-            {
-							"title": "Jolly Roger's Lagoon",
-							"content": {
-								"type": "dock",
-								"content": {
-									"type": "layout",
-									"key": "maps_jrl"
-								}
-							}
-						},
-            {
-							"title": "Terrydactyland",
-							"content": {
-								"type": "dock",
-								"content": {
-									"type": "layout",
-									"key": "maps_tdl"
-								}
-							}
-						},
-            {
-							"title": "Grunty Industries",
-							"content": {
-								"type": "dock",
-								"content": {
-									"type": "layout",
-									"key": "maps_gi"
-								}
-							}
-						},
-            {
-							"title": "Hailfire Peaks",
-							"content": {
-								"type": "dock",
-								"content": {
-									"type": "layout",
-									"key": "maps_hfp"
-								}
-							}
-						},
-            {
-							"title": "Cloud Cuckooland",
-							"content": {
-								"type": "dock",
-								"content": {
-									"type": "layout",
-									"key": "maps_ccl"
-								}
-							}
-						}
-          ]
-        }
-			},
-			{
-				"title": "Split View",
-				"content": {
-					"type": "array",
-					"orientation": "horizontal",
-					"content": [
-            {
-							"type": "tabbed",
-							"tabs": [
-								{
-									"title": "~~~~~~~~~~~~~~~~~~~~~~Overview~~~~~~~~~~~~~~~~~~~~~~",
-									"content": {
-										"type": "map",
-										"maps": ["overview"]
-									}
-								}
-							]
-						},
-						{
-							"type": "tabbed",
-							"tabs": [
-								{
-									"title": "Isle O' Hags",
-									"content": {
-										"type": "dock",
-										"content": {
-											"type": "layout",
-											"key": "maps_ioh"
-										}
-									}
-								},
-                {
-									"title": "Mayahem Temple",
-									"content": {
-										"type": "dock",
-										"content": {
-											"type": "layout",
-											"key": "maps_mt"
-										}
-									}
-								}
-                ,
-                {
-									"title": "Glitter Gulch Mine",
-									"content": {
-										"type": "dock",
-										"content": {
-											"type": "layout",
-											"key": "maps_ggm"
-										}
-									}
-								}
-                ,
-                {
-									"title": "Witchyworld",
-									"content": {
-										"type": "dock",
-										"content": {
-											"type": "layout",
-											"key": "maps_ww"
-										}
-									}
-								}
-                ,
-                {
-									"title": "Jolly Roger's Lagoon",
-									"content": {
-										"type": "dock",
-										"content": {
-											"type": "layout",
-											"key": "maps_jrl"
-										}
-									}
-								}
-                ,
-                {
-									"title": "Terrydactyland",
-									"content": {
-										"type": "dock",
-										"content": {
-											"type": "layout",
-											"key": "maps_tdl"
-										}
-									}
-								}
-                ,
-                {
-									"title": "Grunty Industries",
-									"content": {
-										"type": "dock",
-										"content": {
-											"type": "layout",
-											"key": "maps_gi"
-										}
-									}
-								}
-                ,
-                {
-									"title": "Hailfire Peaks",
-									"content": {
-										"type": "dock",
-										"content": {
-											"type": "layout",
-											"key": "maps_hfp"
-										}
-									}
-								}
-                ,
-                {
-									"title": "Cloud Cuckooland",
-									"content": {
-										"type": "dock",
-										"content": {
-											"type": "layout",
-											"key": "maps_ccl"
-										}
-									}
-								}
-              ]
+                "title": "Split View",
+                "content": {
+                    "type": "array",
+                    "orientation": "horizontal",
+                    "content": [
+                        {
+                            "type": "tabbed",
+                            "tabs": [
+                                {
+                                    "title": "~~~~~~~~~~~~~~~ Overview ~~~~~~~~~~~~~~~",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["overview"]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tabbed",
+                            "tabs": [
+                                {
+                                    "title": "Move Silos",
+                                    "content": {
+                                        "type": "layout",
+                                        "key": "silos_tracker"
+                                    }
+                                },
+                                {
+                                    "title": "Isle O' Hags",
+                                    "content": {
+                                        "type": "dock",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "maps_ioh"
+                                        }
+                                    }
+                                },
+                                {
+                                    "title": "Mayahem Temple",
+                                    "content": {
+                                        "type": "dock",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "maps_mt"
+                                        }
+                                    }
+                                },
+                                {
+                                    "title": "Glitter Gulch Mine",
+                                    "content": {
+                                        "type": "dock",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "maps_ggm"
+                                        }
+                                    }
+                                },
+                                {
+                                    "title": "Witchyworld",
+                                    "content": {
+                                        "type": "dock",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "maps_ww"
+                                        }
+                                    }
+                                },
+                                {
+                                    "title": "Jolly Roger's Lagoon",
+                                    "content": {
+                                        "type": "dock",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "maps_jrl"
+                                        }
+                                    }
+                                },
+                                {
+                                    "title": "Terrydactyland",
+                                    "content": {
+                                        "type": "dock",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "maps_tdl"
+                                        }
+                                    }
+                                },
+                                {
+                                    "title": "Grunty Industries",
+                                    "content": {
+                                        "type": "dock",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "maps_gi"
+                                        }
+                                    }
+                                },
+                                {
+                                    "title": "Hailfire Peaks",
+                                    "content": {
+                                        "type": "dock",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "maps_hfp"
+                                        }
+                                    }
+                                },
+                                {
+                                    "title": "Cloud Cuckooland",
+                                    "content": {
+                                        "type": "dock",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "maps_ccl"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
             }
-					]
-				}
-			}
-		]
-	}
+        ]
+    }
 }

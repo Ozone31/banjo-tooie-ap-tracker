@@ -123,6 +123,25 @@ function onClear(slot_data)
 
     PLAYER_ID = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
+    PLAYER_NAME = Archipelago:GetPlayerAlias(PLAYER_ID) or " "
+    
+    --[[if PLAYER_NAME == "mia-threepie" or PLAYER_NAME == "Mia-Tooie" then
+        local obj = Tracker:FindObjectForCode("mousepace")
+        obj.CurrentStage = 1
+    else
+        local obj = Tracker:FindObjectForCode("mousepace")
+        obj.CurrentStage = 0
+    end--]]
+
+    if slot_data['skip_klungo'] then
+        local obj = Tracker:FindObjectForCode("skipklungo")
+        local stage = slot_data['skip_klungo']
+        if stage == 1 then
+            obj.CurrentStage = 0
+        elseif stage == 0 then
+            obj.CurrentStage = 1
+        end
+    end
 
     if slot_data['randomize_moves'] then
         local obj = Tracker:FindObjectForCode("randomizemoves")
@@ -270,6 +289,24 @@ function onClear(slot_data)
         if obj then
             obj.CurrentStage = stage
         end
+        
+        -- for now just assume users don't want to see & be confused by yellow marks on their poptracker, and disable these both
+        local obj2 = Tracker:FindObjectForCode("sequencebreaklogic")
+        if obj2 then
+            obj2.CurrentStage = 0
+        end
+        
+        local obj3 = Tracker:FindObjectForCode("shownewtricks")
+        if obj3 then
+            obj3.CurrentStage = 0
+        end
+    end
+
+    if slot_data['boss_hunt_length'] then
+        local count = slot_data['boss_hunt_length']
+        bosshuntlength = count
+        local obj = Tracker:FindObjectForCode("bossesforhag1")
+        obj.AcquiredCount = count
     end
 
     if slot_data['victory_condition'] then
@@ -325,8 +362,24 @@ function onClear(slot_data)
         end
     end
 
-    if slot_data['first_silo'] then
-        first_silo = slot_data['first_silo']
+    if slot_data['randomize_silos'] then
+        local obj = Tracker:FindObjectForCode("randomizesilos")
+        local stage = slot_data['randomize_silos']
+        if stage == 1 then
+            obj.CurrentStage = 0
+        elseif stage == 0 then
+            obj.CurrentStage = 1
+        end
+    end
+
+    if slot_data['randomize_warp_pads'] then
+        local obj = Tracker:FindObjectForCode("randomizewarppads")
+        local stage = slot_data['randomize_warp_pads']
+        if stage == 1 then
+            obj.CurrentStage = 0
+        elseif stage == 0 then
+            obj.CurrentStage = 1
+        end
     end
 
     if slot_data['loading_zones'] then
@@ -368,7 +421,7 @@ function onClear(slot_data)
             elseif k == "JRL: Sub-Aqua Egg Aiming Silo" then
                 silo_auqaim = v
             elseif k == "JRL: Talon Torpedo Silo" then
-                silo_ttrop = v
+                silo_ttorp = v
             elseif k == "TDL: Hatch Silo" then
                 silo_hatch = v
             elseif k == "GGM: Bill Drill Silo" then
@@ -435,11 +488,6 @@ function onClear(slot_data)
         else
             obj.CurrentStage = 0
         end
-    end
-
-    if slot_data['boss_hunt_length'] then
-        local count = slot_data['boss_hunt_length']
-        bosshuntlength = count
     end
 
     --print("MT: "..load_mt)

@@ -41,11 +41,17 @@
                 "backdoorsopen",
                 "nestsanity",
                 "signposts",
+                "randomizesilos"
+              ],
+              [
+                "randomizewarppads",
                 "goal"
               ],
               [
                 "automap",
-                "logictype"
+                "logictype",
+                "sequencebreaklogic",
+                "shownewtricks"
               ]
             ]
           }
