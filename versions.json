@@ -1,6 +1,34 @@
 {
 	"versions": [
 		{
+			"package_version": "0.9.1",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.9.1",
+			"sha256": "e90b71f5c5ed366f0487918b938de491d37d900e1893549c58e5ef18def606c7",
+			"changelog": [
+				"Added a Warp Pads tab which allows you to manually track/override warps. This is temporary until I come up with a less intrusive design.",
+				"Boggy's kids, Skivvy workers, alien kids, and Mr. Fitt race event checks now all properly show up on tracker even if Warp Pads aren't randomized.",
+				"Some checks requiring Mumbo in Witchyworld now properly check that you can get to him.",
+				"The Cheato Page inside the mountain in Terrydactyland now correctly shows whether or not it's inaccessible.",
+				"Hailfire Peaks checks involving access to the top of lava side now correctly show whether or not they're inaccessible.",
+				"Chuffy now properly shows as accessible from Grunty Industries.",
+				"Fixed a few checks not properly being marked off when collected."
+			]
+		},
+		{
+			"package_version": "0.9.0",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.9.0",
+			"sha256": "7f1f5805785d74e663789539a49579a3f8ae4ac475aa390c29ba452be2761c75",
+			"changelog": [
+				"Updated logic for v4.5 of Banjo-Tooie AP.",
+				"Added support for v4.5 features: new check locations (Boggy's Kids, Alien Kids, Skivvy Workers, and Mr. Fitt Events), Health Upgrades, and Cheato Cheats.",
+				"Added support for v4.4 features: Randomized Warp Pads & Randomized Warp Silos.",
+				"Move Silos tab: you can check the exact number of required notes of all move silos without traveling to them.",
+				"Sequence Breaking logic: you can set the difficulty of Sequence Breaking logic so that checks from higher logic difficulties can show up as yellow on your tracker (defaults to off).",
+				"Logic has been completely overhauled and should match with Banjo-Tooie AP's logic.",
+				"There are likely bugs still to be found, so please ping Mia if you find any!"
+			]
+		},
+		{
 			"package_version": "0.8.0",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.8.0",
 			"sha256": "7a4dcf164f232e86470d6866fbb232e94467969fba34825917de244a1c4afccd",
