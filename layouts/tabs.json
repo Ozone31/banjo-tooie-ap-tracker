@@ -22,6 +22,13 @@
                             }
                         },
                         {
+                            "title": "Warp Pads",
+                            "content": {
+                                "type": "layout",
+                                "key": "warps_tracker"
+                            }
+                        },
+                        {
                             "title": "Isle O' Hags",
                             "content": {
                                 "type": "dock",
@@ -140,6 +147,13 @@
                                     "content": {
                                         "type": "layout",
                                         "key": "silos_tracker"
+                                    }
+                                },
+                                {
+                                    "title": "Warp Pads",
+                                    "content": {
+                                        "type": "layout",
+                                        "key": "warps_tracker"
                                     }
                                 },
                                 {

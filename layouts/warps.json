@@ -1,0 +1,168 @@
+{
+    "warps_tracker": {
+        "type": "dock",
+        "content": [
+            {
+                "type": "group",
+                "header": " Mayahem Temple                    |      Glitter Gulch Mine",
+                "dock": "top",
+                "margin": "0,0,3,0",
+                "content": {
+                    "type": "array",
+                    "orientation": "vertical",
+                    "margin": "0,0",
+                    "content": [
+                        {
+                            "type": "array",
+                            "orientation": "horizontal",
+                            "margin": "0,0",
+                            "content": [
+                                {
+                                    "type": "itemgrid",
+                                    "item_margin": "2, 2",
+                                    "h_alignment": "left",
+                                    "rows": [
+                                        [
+                                            "warpmt1",
+                                            "warpmt2",
+                                            "warpmt3",
+                                            "warpmt4",
+                                            "warpmt5",
+                                            "",
+                                            "warpgm1",
+                                            "warpgm2",
+                                            "warpgm3",
+                                            "warpgm4",
+                                            "warpgm5"
+                                        ]
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "group",
+                "header": " Witchyworld                           |      Jolly Roger's Lagoon",
+                "dock": "top",
+                "margin": "0,0,3,0",
+                "content": {
+                    "type": "array",
+                    "orientation": "vertical",
+                    "margin": "0,0",
+                    "content": [
+                        {
+                            "type": "array",
+                            "orientation": "horizontal",
+                            "margin": "0,0",
+                            "content": [
+                                {
+                                    "type": "itemgrid",
+                                    "item_margin": "2, 2",
+                                    "h_alignment": "left",
+                                    "rows": [
+                                        [
+                                            "warpww1",
+                                            "warpww2",
+                                            "warpww3",
+                                            "warpww4",
+                                            "warpww5",
+                                            "",
+                                            "warpjr1",
+                                            "warpjr2",
+                                            "warpjr3",
+                                            "warpjr4",
+                                            "warpjr5"
+                                        ]
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "group",
+                "header": " Terrydactyland                        |      Grunty Industries",
+                "dock": "top",
+                "margin": "0,0,3,0",
+                "content": {
+                    "type": "array",
+                    "orientation": "vertical",
+                    "margin": "0,0",
+                    "content": [
+                        {
+                            "type": "array",
+                            "orientation": "horizontal",
+                            "margin": "0,0",
+                            "content": [
+                                {
+                                    "type": "itemgrid",
+                                    "item_margin": "2, 2",
+                                    "h_alignment": "left",
+                                    "rows": [
+                                        [
+                                            "warptl1",
+                                            "warptl2",
+                                            "warptl3",
+                                            "warptl4",
+                                            "warptl5",
+                                            "",
+                                            "warpgi1",
+                                            "warpgi2",
+                                            "warpgi3",
+                                            "warpgi4",
+                                            "warpgi5"
+                                        ]
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "group",
+                "header": " Hailfire Peaks                         |      Cloud Cuckooland   |   Cauldron Keep",
+                "dock": "top",
+                "margin": "0,0,3,0",
+                "content": {
+                    "type": "array",
+                    "orientation": "vertical",
+                    "margin": "0,0",
+                    "content": [
+                        {
+                            "type": "array",
+                            "orientation": "horizontal",
+                            "margin": "0,0",
+                            "content": [
+                                {
+                                    "type": "itemgrid",
+                                    "item_margin": "2, 2",
+                                    "h_alignment": "left",
+                                    "rows": [
+                                        [
+                                            "warphp1",
+                                            "warphp2",
+                                            "warphp3",
+                                            "warphp4",
+                                            "warphp5",
+                                            "",
+                                            "warpcc1",
+                                            "warpcc2",
+                                            "",
+                                            "",
+                                            "warpck1",
+                                            "warpck2"
+                                        ]
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

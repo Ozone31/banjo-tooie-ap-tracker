@@ -2220,11 +2220,11 @@
             "name": "WW: The Haunted Cavern Egg Nest 3"
           },
           {
-            "ref": "Witchyworld - Main Area/Train Station (Witchyworld) Egg Nests/Egg Nest 1",
+            "ref": "Witchyworld - Main Area/Train Station (Witchyworld)/Egg Nest 1",
             "name": "WW: Train Station Egg Nest 1"
           },
           {
-            "ref": "Witchyworld - Main Area/Train Station (Witchyworld) Egg Nests/Egg Nest 2",
+            "ref": "Witchyworld - Main Area/Train Station (Witchyworld)/Egg Nest 2",
             "name": "WW: Train Station Egg Nest 2"
           },
           {
@@ -3516,7 +3516,7 @@
             "name": "GI: Skivvy Workers Jiggy"
           },
           {
-            "ref": "Grunty Industries Roof/GI Floor 5: Jiggy/Jiggy",
+            "ref": "Grunty Industries 5th Floor/GI Floor 5: Jiggy/Jiggy",
             "name": "GI Floor 5: Jiggy"
           },
           {
@@ -3632,7 +3632,7 @@
         "name": "Grunty Industries - Other",
         "sections": [
           {
-            "ref": "Grunty Industries Roof/GI Floor 5: Jinjo/Jinjo",
+            "ref": "Grunty Industries 5th Floor/GI Floor 5: Jinjo/Jinjo",
             "name": "GI Floor 5: Jinjo"
           },
           {
@@ -3944,15 +3944,15 @@
             "name": "GI Floor 4: Quality Control Egg Nest 3"
           },
           {
-            "ref": "Grunty Industries Roof/GI Floor 5: Small Box Stack Egg Nest/Egg Nest",
+            "ref": "Grunty Industries 5th Floor/GI Floor 5: Small Box Stack Egg Nest/Egg Nest",
             "name": "GI Floor 5: Small Box Stack Egg Nest"
           },
           {
-            "ref": "Grunty Industries Roof/GI Floor 5: Box Egg Nest/Egg Nest",
+            "ref": "Grunty Industries 5th Floor/GI Floor 5: Box Egg Nest/Egg Nest",
             "name": "GI Floor 5: Box Egg Nest"
           },
           {
-            "ref": "Grunty Industries Roof/GI Floor 5: Big Box Stack Egg Nest/Egg Nest",
+            "ref": "Grunty Industries 5th Floor/GI Floor 5: Big Box Stack Egg Nest/Egg Nest",
             "name": "GI Floor 5: Big Box Stack Egg Nest"
           },
           {
@@ -5682,6 +5682,7 @@
       {
         "name": "Brown Jinjo Family House",
         "access_rules": [ "$has|brjinjo|4" ],
+        "visibility_rules": ["mousepace_off"],
         "sections": [
           {
             "name": "Brown Jinjo Family Jiggy",
@@ -5706,6 +5707,7 @@
       {
         "name": "Green Jinjo Family House",
         "access_rules": [ "$has|gjinjo|5" ],
+        "visibility_rules": ["mousepace_off"],
         "sections": [
           {
             "name": "Green Jinjo Family Jiggy",
@@ -7355,8 +7357,8 @@
         "map_locations": [
           {
             "map": "wl",
-            "x": 295,
-            "y": 180
+            "x": 280,
+            "y": 230
           }
         ]
       },
@@ -7373,8 +7375,8 @@
         "map_locations": [
           {
             "map": "wl",
-            "x": 280,
-            "y": 230
+            "x": 295,
+            "y": 180
           }
         ]
       },
@@ -7665,7 +7667,8 @@
             "name": "Jinjo",
             "chest_unopened_img": "/images/locations/jinjo.png",
             "chest_opened_img": "/images/locations/jinjo2.png",
-            "access_rules": [ "^$jinjo_MT_pool" ]
+            "access_rules": [ "^$jinjo_MT_pool" ],
+            "visibility_rules": ["mousepace_off"]
           }
         ],
         "map_locations": [
@@ -9028,7 +9031,8 @@
             "name": "Jiggy",
             "chest_unopened_img": "/images/locations/jiggy.png",
             "chest_opened_img": "/images/locations/jiggy2.png",
-            "access_rules": [ "^$jiggy_MT_ssslumber" ]
+            "access_rules": [ "^$jiggy_MT_ssslumber" ],
+            "visibility_rules": ["mousepace_off"]
           }
         ],
         "map_locations": [
@@ -10029,7 +10033,7 @@
       "@Terrydactyland - Main Area, ^$connector_TDL_to_Chuffy",
       "@Hailfire Peaks - Lava Side, ^$connector_HFP_to_Chuffy",
       "@Cliff Top, ^$connector_CT_to_Chuffy",
-      "@Grunty Industries 1st Floor, ^$connector_GI_to_Chuffy"
+      "@Grunty Industries 1st Floor, ^$connector_GIF1_to_Chuffy"
     ],
     "children": [
       {
@@ -10708,8 +10712,8 @@
             "name": "Moggy (Area 51, Cave of Horrors, or inside Dodgem Dome)",
             "chest_unopened_img": "/images/locations/honeycombcheck.png",
             "chest_opened_img": "/images/locations/honeycombcheck2.png",
-            "visibility_rules": ["randomizewarppads_on"],
-            "access_rules": ["^$other_WW_moggy"]
+            "access_rules": ["^$other_WW_moggy"],
+            "visibility_rules": ["mousepace_off"]
           }
         ],
         "map_locations": [
@@ -10727,8 +10731,8 @@
             "name": "Soggy (inside Star Spinner building, The Inferno, or by the Crazy Castle)",
             "chest_unopened_img": "/images/locations/honeycombcheck.png",
             "chest_opened_img": "/images/locations/honeycombcheck2.png",
-            "visibility_rules": ["randomizewarppads_on"],
-            "access_rules": ["^$other_WW_soggy"]
+            "access_rules": ["^$other_WW_soggy"],
+            "visibility_rules": ["mousepace_off"]
           }
         ],
         "map_locations": [
@@ -10746,8 +10750,8 @@
             "name": "Groggy (Train Station, The Inferno, or outside the Dodgem Dome)",
             "chest_unopened_img": "/images/locations/honeycombcheck.png",
             "chest_opened_img": "/images/locations/honeycombcheck2.png",
-            "visibility_rules": ["randomizewarppads_on"],
-            "access_rules": ["^$other_WW_groggy"]
+            "access_rules": ["^$other_WW_groggy"],
+            "visibility_rules": ["mousepace_off"]
           }
         ],
         "map_locations": [
@@ -10765,7 +10769,8 @@
             "name": "Jiggy",
             "chest_unopened_img": "/images/locations/jiggy.png",
             "chest_opened_img": "/images/locations/jiggy2.png",
-            "access_rules": ["^$jiggy_WW_mrsBoggy"]
+            "access_rules": ["^$jiggy_WW_mrsBoggy"],
+            "visibility_rules": ["mousepace_off"]
           }
         ],
         "map_locations": [
@@ -14775,8 +14780,7 @@
           },
           {
             "name": "Scrit (Small)",
-            "access_rules": [ "^$access_TDL_scrit" ],
-            "visibility_rules": ["mousepace_off"]
+            "access_rules": [ "^$access_TDL_scrit" ]
           },
           {
             "name": "Feather Nest 1",
@@ -14848,7 +14852,8 @@
             "name": "Oogle Boogle Tribe Jiggy",
             "chest_unopened_img": "/images/locations/jiggy.png",
             "chest_opened_img": "/images/locations/jiggy2.png",
-            "access_rules": ["^$jiggy_TDL_oogleBoogle"]
+            "access_rules": ["^$jiggy_TDL_oogleBoogle"],
+            "visibility_rules": ["mousepace_off"]
           },
           {
             "name": "Feather Nest 1",
@@ -15803,7 +15808,8 @@
             "name": "Terry's Kids Jiggy (Hatch Eggs Around Map)",
             "chest_unopened_img": "/images/locations/jiggy.png",
             "chest_opened_img": "/images/locations/jiggy2.png",
-            "access_rules": [ "^$jiggy_TDL_terrysKids" ]
+            "access_rules": [ "^$jiggy_TDL_terrysKids" ],
+            "visibility_rules": ["mousepace_off"]
           }
         ],
         "map_locations": [
@@ -16192,8 +16198,8 @@
             "name": "Skivvy",
             "chest_unopened_img": "/images/locations/honeycombcheck.png",
             "chest_opened_img": "/images/locations/honeycombcheck2.png",
-            "visibility_rules": ["randomizewarppads_on"],
-            "access_rules": ["^$other_GI_skivvyOutsideBack"]
+            "access_rules": ["^$other_GI_skivvyOutsideBack"],
+            "visibility_rules": ["mousepace_off"]
           }
         ],
         "map_locations": [
@@ -16399,8 +16405,8 @@
             "name": "Skivvy",
             "chest_unopened_img": "/images/locations/honeycombcheck.png",
             "chest_opened_img": "/images/locations/honeycombcheck2.png",
-            "visibility_rules": ["randomizewarppads_on"],
-            "access_rules": ["^$other_GI_skivvyFloor1"]
+            "access_rules": ["^$other_GI_skivvyFloor1"],
+            "visibility_rules": ["mousepace_off"]
           }
         ],
         "map_locations": [
@@ -16418,7 +16424,8 @@
             "name": "Jiggy",
             "chest_unopened_img": "/images/locations/jiggy.png",
             "chest_opened_img": "/images/locations/jiggy2.png",
-            "access_rules": ["^$jiggy_GI_underwaterWasteDisposal"]
+            "access_rules": ["^$jiggy_GI_underwaterWasteDisposal"],
+            "visibility_rules": ["mousepace_off"]
           }
         ],
         "map_locations": [
@@ -16477,7 +16484,8 @@
             "name": "Jiggy",
             "chest_unopened_img": "/images/locations/jiggy.png",
             "chest_opened_img": "/images/locations/jiggy2.png",
-            "access_rules": ["^$jiggy_GI_guarded"]
+            "access_rules": ["^$jiggy_GI_guarded"],
+            "visibility_rules": ["mousepace_off"]
           }
         ],
         "map_locations": [
@@ -16495,7 +16503,8 @@
             "name": "Jiggy",
             "chest_unopened_img": "/images/locations/jiggy.png",
             "chest_opened_img": "/images/locations/jiggy2.png",
-            "access_rules": ["^$jiggy_GI_trashCompactor"]
+            "access_rules": ["^$jiggy_GI_trashCompactor"],
+            "visibility_rules": ["mousepace_off"]
           },
           {
             "name": "Egg Nest 1",
@@ -16574,7 +16583,8 @@
             "name": "GI Floor 1: Workers' Quarters Skivvy",
             "chest_unopened_img": "/images/locations/honeycombcheck.png",
             "chest_opened_img": "/images/locations/honeycombcheck2.png",
-            "access_rules": ["^$other_GI_skivvyWorkersQuarters"]
+            "access_rules": ["^$other_GI_skivvyWorkersQuarters"],
+            "visibility_rules": ["mousepace_off"]
           },
           {
             "name": "Egg Nest",
@@ -16896,8 +16906,8 @@
             "name": "Skivvy",
             "chest_unopened_img": "/images/locations/honeycombcheck.png",
             "chest_opened_img": "/images/locations/honeycombcheck2.png",
-            "visibility_rules": ["randomizewarppads_on"],
-            "access_rules": ["^$other_GI_skivvyFloor2"]
+            "access_rules": ["^$other_GI_skivvyFloor2"],
+            "visibility_rules": ["mousepace_off"]
           }
         ],
         "map_locations": [
@@ -16986,7 +16996,8 @@
             "name": "Jiggy",
             "chest_unopened_img": "/images/locations/jiggy.png",
             "chest_opened_img": "/images/locations/jiggy2.png",
-            "access_rules": ["^$jiggy_GI_skivvy"]
+            "access_rules": ["^$jiggy_GI_skivvy"],
+            "visibility_rules": ["mousepace_off"]
           }
         ]
       },
@@ -17187,8 +17198,8 @@
             "name": "Skivvy",
             "chest_unopened_img": "/images/locations/honeycombcheck.png",
             "chest_opened_img": "/images/locations/honeycombcheck2.png",
-            "visibility_rules": ["randomizewarppads_on"],
-            "access_rules": ["^$other_GI_skivvyFloor3"]
+            "access_rules": ["^$other_GI_skivvyFloor3"],
+            "visibility_rules": ["mousepace_off"]
           }
         ],
         "map_locations": [
@@ -17489,7 +17500,7 @@
         "chest_unopened_img": "/images/locations/eggnest.png",
         "chest_opened_img": "/images/locations/eggnest2.png",
         "visibility_rules": ["nestsanity_on"],
-        "access_rules": ["^$nests_GI_floor4front"],
+        "access_rules": ["^$nests_GI_floor4nearFireEscape"],
         "sections": [
           {
             "name": "Egg Nest 1"
@@ -17540,49 +17551,57 @@
             "name": "Green Room Egg Nest 1",
             "chest_unopened_img": "/images/locations/eggnest.png",
             "chest_opened_img": "/images/locations/eggnest2.png",
-            "visibility_rules": ["nestsanity_on"]
+            "visibility_rules": ["nestsanity_on"],
+            "visibility_rules": ["mousepace_off"]
           },
           {
             "name": "Green Room Egg Nest 2",
             "chest_unopened_img": "/images/locations/eggnest.png",
             "chest_opened_img": "/images/locations/eggnest2.png",
-            "visibility_rules": ["nestsanity_on"]
+            "visibility_rules": ["nestsanity_on"],
+            "visibility_rules": ["mousepace_off"]
           },
           {
             "name": "Raising Scaffolding Room Bottom Egg Nest",
             "chest_unopened_img": "/images/locations/eggnest.png",
             "chest_opened_img": "/images/locations/eggnest2.png",
-            "visibility_rules": ["nestsanity_on"]
+            "visibility_rules": ["nestsanity_on"],
+            "visibility_rules": ["mousepace_off"]
           },
           {
             "name": "Valve Room Egg Nest",
             "chest_unopened_img": "/images/locations/eggnest.png",
             "chest_opened_img": "/images/locations/eggnest2.png",
-            "visibility_rules": ["nestsanity_on"]
+            "visibility_rules": ["nestsanity_on"],
+            "visibility_rules": ["mousepace_off"]
           },
           {
             "name": "Near Window Egg Nest",
             "chest_unopened_img": "/images/locations/eggnest.png",
             "chest_opened_img": "/images/locations/eggnest2.png",
-            "visibility_rules": ["nestsanity_on"]
+            "visibility_rules": ["nestsanity_on"],
+            "visibility_rules": ["mousepace_off"]
           },
           {
             "name": "Raising Scaffolding Room Top Egg Nest",
             "chest_unopened_img": "/images/locations/eggnest.png",
             "chest_opened_img": "/images/locations/eggnest2.png",
-            "visibility_rules": ["nestsanity_on"]
+            "visibility_rules": ["nestsanity_on"],
+            "visibility_rules": ["mousepace_off"]
           },
           {
             "name": "Orange Room Egg Nest",
             "chest_unopened_img": "/images/locations/eggnest.png",
             "chest_opened_img": "/images/locations/eggnest2.png",
-            "visibility_rules": ["nestsanity_on"]
+            "visibility_rules": ["nestsanity_on"],
+            "visibility_rules": ["mousepace_off"]
           },
           {
             "name": "Spiral Scaffolding Room Egg Nest",
             "chest_unopened_img": "/images/locations/eggnest.png",
             "chest_opened_img": "/images/locations/eggnest2.png",
-            "visibility_rules": ["nestsanity_on"]
+            "visibility_rules": ["nestsanity_on"],
+            "visibility_rules": ["mousepace_off"]
           }
         ],
         "map_locations": [
@@ -17636,21 +17655,24 @@
             "chest_unopened_img": "/images/locations/eggnest.png",
             "chest_opened_img": "/images/locations/eggnest2.png",
             "visibility_rules": ["nestsanity_on"],
-            "access_rules": ["^$nests_GI_qualityControl"]
+            "access_rules": ["^$nests_GI_qualityControl"],
+            "visibility_rules": ["mousepace_off"]
           },
           {
             "name": "Egg Nest 2",
             "chest_unopened_img": "/images/locations/eggnest.png",
             "chest_opened_img": "/images/locations/eggnest2.png",
             "visibility_rules": ["nestsanity_on"],
-            "access_rules": ["^$nests_GI_qualityControl"]
+            "access_rules": ["^$nests_GI_qualityControl"],
+            "visibility_rules": ["mousepace_off"]
           },
           {
             "name": "Egg Nest 3",
             "chest_unopened_img": "/images/locations/eggnest.png",
             "chest_opened_img": "/images/locations/eggnest2.png",
             "visibility_rules": ["nestsanity_on"],
-            "access_rules": ["^$nests_GI_qualityControl"]
+            "access_rules": ["^$nests_GI_qualityControl"],
+            "visibility_rules": ["mousepace_off"]
           }
         ],
         "map_locations": [
@@ -17791,8 +17813,8 @@
             "name": "Skivvy",
             "chest_unopened_img": "/images/locations/honeycombcheck.png",
             "chest_opened_img": "/images/locations/honeycombcheck2.png",
-            "visibility_rules": ["randomizewarppads_on"],
-            "access_rules": ["^$other_GI_skivvyFloor5"]
+            "access_rules": ["^$other_GI_skivvyFloor5"],
+            "visibility_rules": ["mousepace_off"]
           }
         ],
         "map_locations": [
@@ -18587,8 +18609,8 @@
             "name": "Alphette",
             "chest_unopened_img": "/images/locations/honeycombcheck.png",
             "chest_opened_img": "/images/locations/honeycombcheck2.png",
-            "visibility_rules": ["randomizewarppads_on"],
-            "access_rules": ["^$other_HFP_alphette"]
+            "access_rules": ["^$other_HFP_alphette"],
+            "visibility_rules": ["mousepace_off"]
           }
         ],
         "map_locations": [
@@ -18606,8 +18628,8 @@
             "name": "Betette",
             "chest_unopened_img": "/images/locations/honeycombcheck.png",
             "chest_opened_img": "/images/locations/honeycombcheck2.png",
-            "visibility_rules": ["randomizewarppads_on"],
-            "access_rules": ["^$other_HFP_betette"]
+            "access_rules": ["^$other_HFP_betette"],
+            "visibility_rules": ["mousepace_off"]
           }
         ],
         "map_locations": [
@@ -18625,8 +18647,8 @@
             "name": "Gamette",
             "chest_unopened_img": "/images/locations/honeycombcheck.png",
             "chest_opened_img": "/images/locations/honeycombcheck2.png",
-            "visibility_rules": ["randomizewarppads_on"],
-            "access_rules": ["^$other_HFP_gamette"]
+            "access_rules": ["^$other_HFP_gamette"],
+            "visibility_rules": ["mousepace_off"]
           }
         ],
         "map_locations": [
@@ -18799,13 +18821,13 @@
       },
       {
         "name": "Icy Train Station",
+        "visibility_rules": ["mousepace_off"],
         "sections": [
           {
             "name": "Jiggy",
             "chest_unopened_img": "/images/locations/jiggy.png",
             "chest_opened_img": "/images/locations/jiggy2.png",
-            "access_rules": ["^$jiggy_HFP_iceSideTrainStation"],
-            "visibility_rules": ["mousepace_off"]
+            "access_rules": ["^$jiggy_HFP_iceSideTrainStation"]
           },
           {
             "name": "Feather Nest",
@@ -19347,8 +19369,8 @@
             "name": "High Jump",
             "chest_unopened_img": "/images/locations/honeycombcheck.png",
             "chest_opened_img": "/images/locations/honeycombcheck2.png",
-            "visibility_rules": ["randomizewarppads_on"],
-            "access_rules": ["^$other_CCL_mrFittHighJump"]
+            "access_rules": ["^$other_CCL_mrFittHighJump"],
+            "visibility_rules": ["mousepace_off"]
           }
         ],
         "map_locations": [
@@ -19366,8 +19388,8 @@
             "name": "Sack Race",
             "chest_unopened_img": "/images/locations/honeycombcheck.png",
             "chest_opened_img": "/images/locations/honeycombcheck2.png",
-            "visibility_rules": ["randomizewarppads_on"],
-            "access_rules": ["^$other_CCL_mrFittSackRace"]
+            "access_rules": ["^$other_CCL_mrFittSackRace"],
+            "visibility_rules": ["mousepace_off"]
           }
         ],
         "map_locations": [
@@ -19667,7 +19689,8 @@
             "name": "Jiggy",
             "chest_unopened_img": "/images/locations/jiggy.png",
             "chest_opened_img": "/images/locations/jiggy2.png",
-            "access_rules": [ "humbacc" ]
+            "access_rules": [ "humbacc" ],
+            "visibility_rules": ["mousepace_off"]
           }
         ],
         "map_locations": [
@@ -19731,7 +19754,8 @@
             "name": "Jiggy",
             "chest_unopened_img": "/images/locations/jiggy.png",
             "chest_opened_img": "/images/locations/jiggy2.png",
-            "access_rules": [ "^$jiggy_CCL_mrFit" ]
+            "access_rules": [ "^$jiggy_CCL_mrFit" ],
+            "visibility_rules": ["mousepace_off"]
           }
         ],
         "map_locations": [
@@ -19835,14 +19859,16 @@
             "chest_unopened_img": "/images/locations/eggnest.png",
             "chest_opened_img": "/images/locations/eggnest2.png",
             "visibility_rules": ["nestsanity_on"],
-            "access_rules": ["^$nests_CCL_insidePotOGold"]
+            "access_rules": ["^$nests_CCL_insidePotOGold"],
+            "visibility_rules": ["mousepace_off"]
           },
           {
             "name": "Egg Nest 2",
             "chest_unopened_img": "/images/locations/eggnest.png",
             "chest_opened_img": "/images/locations/eggnest2.png",
             "visibility_rules": ["nestsanity_on"],
-            "access_rules": ["^$nests_CCL_insidePotOGold"]
+            "access_rules": ["^$nests_CCL_insidePotOGold"],
+            "visibility_rules": ["mousepace_off"]
           }
         ],
         "map_locations": [
@@ -19866,7 +19892,8 @@
             "name": "Jiggy",
             "chest_unopened_img": "/images/locations/jiggy.png",
             "chest_opened_img": "/images/locations/jiggy2.png",
-            "access_rules": ["^$jiggy_CCL_cheeseWedge"]
+            "access_rules": ["^$jiggy_CCL_cheeseWedge"],
+            "visibility_rules": ["mousepace_off"]
           },
           {
             "name": "Egg Nest 1",
@@ -20221,7 +20248,8 @@
             "name": "Jiggy",
             "chest_unopened_img": "/images/locations/jiggy.png",
             "chest_opened_img": "/images/locations/jiggy2.png",
-            "access_rules": ["^$jiggy_CCL_superStash"]
+            "access_rules": ["^$jiggy_CCL_superStash"],
+            "visibility_rules": ["mousepace_off"]
           }
         ],
         "map_locations": [

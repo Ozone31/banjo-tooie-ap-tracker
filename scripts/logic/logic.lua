@@ -3906,6 +3906,8 @@ function connector_GIOBack_to_GIF4(skip)
     
     if ( has("clawbts") and can_reachSmallElevation() and (has("flutter") or has("arat")) ) then
         logic = 1
+    elseif ( has("clawbts") and has("arat") ) then
+        logic = 7 -- FIXIT you don't need tall jump to get to floor 4 from the fire escape if you have arat
     end
     
     return convertLogic(logic, skip)
@@ -6846,12 +6848,10 @@ function access_GGM_mumbo(skip)
     self.small_elevation(state) and state.has(itemName.MUMBOGM, self.player)
     --]]
     
-    -- FIXIT does not account for GGMTrot
-    
     if ( can_reachSmallElevation() and has("mumbogm") ) then
         logic = 0
     elseif ( has("mumbogm") and access_GGM_ttrot(true) <= 7 ) then
-        logic = 7
+        logic = 7 -- FIXIT you can smuggle talon trot to get to him
     end
     
     return convertLogic(logic, skip)
@@ -7377,6 +7377,8 @@ function jiggy_GGM_floodedCaves(skip)
         logic = 2
     
     -- Sequence Breaking
+    elseif ( has("dive") and humba <= logictype.CurrentStage ) then
+        logic = 7 -- instant transform
     elseif ( has("dive") and (has("tjump") or has("ggrab") or has("bbust") or can_clockworkShot()) ) then
         local waterfallCavern = 99
         if ( (has("ttrot") or has("roll") and has("tjump")) and (has("flutter") or has("arat")) ) then
@@ -8263,9 +8265,9 @@ function cheato_GGM_waterStorage(skip)
     local canBreakBoulders = access_GGM_humba(true)
     
     -- Normal Logic
-    if ( has("ggrab") and has("fflap") and has("dive") and has("climb") ) then
+    if ( has("ggrab") and has("fflip") and has("dive") and has("climb") ) then
         logic = 0
-    elseif ( has("bbust") and has("fflap") and has("dive") and has("climb") or has("ggrab") and has("dive") and has("climb") and has("tjump") and has_packWhack() and canBreakBoulders <= logictype.CurrentStage ) then
+    elseif ( has("bbust") and has("fflip") and has("dive") and has("climb") or has("ggrab") and has("dive") and has("climb") and has("tjump") and has_packWhack() and canBreakBoulders <= logictype.CurrentStage ) then
         logic = 1
     elseif ( has("ggrab") and has("dive") and has("climb") and has("tjump") and has_packWhack() and canBreakBoulders < 3 ) then
         logic = canBreakBoulders -- Sequence Breaking
@@ -8321,11 +8323,11 @@ function access_WW_canOpenSaucerDoor(skip)
     else
         local explosives = can_shootExplosiveEggs(true)
     
-        if ( can_longJumpToGripGrab() and has("fflap") and has("climb") and (has("bbarge") or explosives <= logictype.CurrentStage) ) then
+        if ( can_longJumpToGripGrab() and has("fflip") and has("climb") and (has("bbarge") or explosives <= logictype.CurrentStage) ) then
             logic = 0
         elseif ( has("eggaim") and has("geggs") and has("amazeogaze") and has("climb") or has_legSpring() and has_glide() and explosives <= logictype.CurrentStage ) then
             logic = 1
-        elseif ( can_longJumpToGripGrab() and has("fflap") and has("climb") and explosives < 2 ) then
+        elseif ( can_longJumpToGripGrab() and has("fflip") and has("climb") and explosives < 2 ) then
             logic = explosives -- Sequence Breaking
         elseif ( can_clockworkShot() ) then
             logic = 2
@@ -8339,7 +8341,7 @@ function access_WW_canOpenSaucerDoor(skip)
             -- Sequence Breaking
             else
                 local withExplosives = 99
-                if ( can_longJumpToGripGrab() and has("fflap") and has("climb") or has_legSpring() and has_glide() ) then
+                if ( can_longJumpToGripGrab() and has("fflip") and has("climb") or has_legSpring() and has_glide() ) then
                     withExplosives = explosives
                 end
                 
@@ -8500,28 +8502,21 @@ function access_WW_mumbo(skip)
         )
      --]]
     
-    local wwiAccessibility = Tracker:FindObjectForCode("@Witchyworld - The Inferno").AccessibilityLevel
     local humba = access_WW_humba(true)
+    local infernoAccess = connector_WW_to_WWInferno(true)
     
     -- Normal Logic
-    if ( has("mumboww") and (wwiAccessibility == AccessibilityLevel.Normal or wwiAccessibility == AccessibilityLevel.Cleared) and (humba <= logictype.CurrentStage or has("warpww5") and (has("warpww1") or has("warpww2") or has("warpww3") or has("warpww4"))) ) then
+    if ( has("mumboww") and infernoAccess <= logictype.CurrentStage and (humba <= logictype.CurrentStage or has("warpww5") and (has("warpww1") or has("warpww2") or has("warpww3") or has("warpww4"))) ) then
         logic = 0
     
     -- Sequence Breaking
     elseif ( has("mumboww") ) then
         local warps = 99
-        if ( wwiAccessibility > AccessibilityLevel.None and has("warpww5") and (has("warpww1") or has("warpww2") or has("warpww3") or has("warpww4")) ) then
-            warps = logictype.CurrentStage + 1
+        if ( has("warpww5") and (has("warpww1") or has("warpww2") or has("warpww3") or has("warpww4")) ) then
+            warps = 0
         end
         
-        local van = 99
-        if ( wwiAccessibility == AccessibilityLevel.Normal or wwiAccessibility == AccessibilityLevel.Cleared ) then
-            van = humba
-        elseif ( wwiAccessibility > AccessibilityLevel.None ) then
-            van = math.max(humba, logictype.CurrentStage + 1)
-        end
-        
-        logic = math.min(warps, van)
+        logic = math.max(infernoAccess, math.min(warps, humba))
     end
     
     return convertLogic(logic, skip)
@@ -10005,6 +10000,11 @@ function silo_JRL_talonTorpedo(skip)
         logic = 0
     elseif ( ttorp_count() and has("bbust") and has("tjump") ) then
         logic = 1
+    elseif ( ttorp_count() ) then
+        local humba = access_JRL_humba(true)
+        if ( humba < 99 ) then
+            logic = 7 -- you can beach yourself on the ledge with the sub, and then instant transform
+        end
     end
     
     return convertLogic(logic, skip)
@@ -12269,6 +12269,8 @@ function nests_TDL_waterfallAlcove(skip)
                 or self.humbaTDL(state) and self.mumboTDL(state)
     --]]
     
+    -- FIXIT this should probably be in logic on easy tricks with the flight pad
+    
     local humba = access_TDL_humba(true)
     local tdltAccessibility = Tracker:FindObjectForCode("@Terrydactyland - Top").AccessibilityLevel
     local mumbo = access_TDL_mumbo(true)
@@ -12479,6 +12481,8 @@ function nests_TDL_riverPassageNearSilo(skip)
         logic = 1
     elseif ( can_clockworkShot() ) then
         logic = 2
+    elseif ( has("tjump") ) then
+        logic = 7 -- FIXIT you can tall jump and then beak buster or even damage boost off the wall enemy to get up, did it myself
     end
     
     return convertLogic(logic, skip)
@@ -13008,7 +13012,7 @@ function cheato_TDL_insideMountainWithTRex(skip)
         logic = 3 -- Normal Logic
     
     -- Sequence Breaking
-    else
+    elseif ( has("roar") ) then
         logic = humba
     end
     
@@ -13400,9 +13404,9 @@ function access_GI_humba(skip)
     state.has(itemName.HUMBAGI, self.player) and state.can_reach_region(regionName.GI2, self.player)
     --]]
     
-    local gi2Accessibility = Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel
-    
     if ( has("humbagi") ) then
+        local gi2Accessibility = Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel
+        
         -- Normal Logic
         if ( gi2Accessibility == AccessibilityLevel.Normal or gi2Accessibility == AccessibilityLevel.Cleared ) then
             logic = 0
@@ -15286,6 +15290,30 @@ function nests_GI_floor3nearMumbo(skip)
     return convertLogic(logic, skip)
 end
 
+function nests_GI_floor4nearFireEscape(skip)
+    local logic = 99
+    --[[        nest_floor4_front
+    if self.world.options.logic_type == LogicType.option_intended:
+        logic = self.small_elevation(state)
+    elif self.world.options.logic_type == LogicType.option_easy_tricks:
+        logic = self.small_elevation(state)
+    elif self.world.options.logic_type == LogicType.option_hard_tricks:
+        logic = self.small_elevation(state) or self.clockwork_shot(state)
+    elif self.world.options.logic_type == LogicType.option_glitches:
+        logic = self.small_elevation(state) or self.clockwork_shot(state)
+    --]]
+    
+    if ( can_reachSmallElevation() ) then
+        logic = 0
+    elseif ( can_clockworkShot() ) then
+        logic = 2
+    elseif ( has("arat") ) then
+        logic = 7 -- FIXIT you can get these without tall jump if you have arat
+    end
+    
+    return convertLogic(logic, skip)
+end
+
 function nests_GI_floor4front(skip)
     local logic = 99
     --[[        nest_floor4_front
@@ -16376,7 +16404,7 @@ function access_HFP_lavaSideTop(skip)
             chuffy = logictype.CurrentStage + 1
         end
         
-        logic = math.min(1, chuffy, explosives, dragonKazooie)
+        logic = math.max(1, math.min(chuffy, explosives, dragonKazooie))
     end
     
     return convertLogic(logic, skip)
@@ -19217,45 +19245,45 @@ ScriptHost:AddWatchForCode("basswatch", "bass", totalNotes)
 ScriptHost:AddWatchForCode("treblewatch", "treble", totalNotes)
 
 ----- Not sure how to do this in one line, so we've got a line for each for now
-ScriptHost:AddWatchForCode("warpswatch", "warpmt1", toggleWarps)
-ScriptHost:AddWatchForCode("warpswatch", "warpmt2", toggleWarps)
-ScriptHost:AddWatchForCode("warpswatch", "warpmt3", toggleWarps)
-ScriptHost:AddWatchForCode("warpswatch", "warpmt4", toggleWarps)
-ScriptHost:AddWatchForCode("warpswatch", "warpmt5", toggleWarps)
-ScriptHost:AddWatchForCode("warpswatch", "warpgm1", toggleWarps)
-ScriptHost:AddWatchForCode("warpswatch", "warpgm2", toggleWarps)
-ScriptHost:AddWatchForCode("warpswatch", "warpgm3", toggleWarps)
-ScriptHost:AddWatchForCode("warpswatch", "warpgm4", toggleWarps)
-ScriptHost:AddWatchForCode("warpswatch", "warpgm5", toggleWarps)
-ScriptHost:AddWatchForCode("warpswatch", "warpww1", toggleWarps)
-ScriptHost:AddWatchForCode("warpswatch", "warpww2", toggleWarps)
-ScriptHost:AddWatchForCode("warpswatch", "warpww3", toggleWarps)
-ScriptHost:AddWatchForCode("warpswatch", "warpww4", toggleWarps)
-ScriptHost:AddWatchForCode("warpswatch", "warpww5", toggleWarps)
-ScriptHost:AddWatchForCode("warpswatch", "warpjr1", toggleWarps)
-ScriptHost:AddWatchForCode("warpswatch", "warpjr2", toggleWarps)
-ScriptHost:AddWatchForCode("warpswatch", "warpjr3", toggleWarps)
-ScriptHost:AddWatchForCode("warpswatch", "warpjr4", toggleWarps)
-ScriptHost:AddWatchForCode("warpswatch", "warpjr5", toggleWarps)
-ScriptHost:AddWatchForCode("warpswatch", "warptl1", toggleWarps)
-ScriptHost:AddWatchForCode("warpswatch", "warptl2", toggleWarps)
-ScriptHost:AddWatchForCode("warpswatch", "warptl3", toggleWarps)
-ScriptHost:AddWatchForCode("warpswatch", "warptl4", toggleWarps)
-ScriptHost:AddWatchForCode("warpswatch", "warptl5", toggleWarps)
-ScriptHost:AddWatchForCode("warpswatch", "warpgi1", toggleWarps)
-ScriptHost:AddWatchForCode("warpswatch", "warpgi2", toggleWarps)
-ScriptHost:AddWatchForCode("warpswatch", "warpgi3", toggleWarps)
-ScriptHost:AddWatchForCode("warpswatch", "warpgi4", toggleWarps)
-ScriptHost:AddWatchForCode("warpswatch", "warpgi5", toggleWarps)
-ScriptHost:AddWatchForCode("warpswatch", "warphp1", toggleWarps)
-ScriptHost:AddWatchForCode("warpswatch", "warphp2", toggleWarps)
-ScriptHost:AddWatchForCode("warpswatch", "warphp3", toggleWarps)
-ScriptHost:AddWatchForCode("warpswatch", "warphp4", toggleWarps)
-ScriptHost:AddWatchForCode("warpswatch", "warphp5", toggleWarps)
-ScriptHost:AddWatchForCode("warpswatch", "warpcc1", toggleWarps)
-ScriptHost:AddWatchForCode("warpswatch", "warpcc2", toggleWarps)
-ScriptHost:AddWatchForCode("warpswatch", "warpck1", toggleWarps)
-ScriptHost:AddWatchForCode("warpswatch", "warpck2", toggleWarps)
+ScriptHost:AddWatchForCode("warpswatch1", "warpmt1", toggleWarps)
+ScriptHost:AddWatchForCode("warpswatch2", "warpmt2", toggleWarps)
+ScriptHost:AddWatchForCode("warpswatch3", "warpmt3", toggleWarps)
+ScriptHost:AddWatchForCode("warpswatch4", "warpmt4", toggleWarps)
+ScriptHost:AddWatchForCode("warpswatch5", "warpmt5", toggleWarps)
+ScriptHost:AddWatchForCode("warpswatch6", "warpgm1", toggleWarps)
+ScriptHost:AddWatchForCode("warpswatch7", "warpgm2", toggleWarps)
+ScriptHost:AddWatchForCode("warpswatch8", "warpgm3", toggleWarps)
+ScriptHost:AddWatchForCode("warpswatch9", "warpgm4", toggleWarps)
+ScriptHost:AddWatchForCode("warpswatch10", "warpgm5", toggleWarps)
+ScriptHost:AddWatchForCode("warpswatch11", "warpww1", toggleWarps)
+ScriptHost:AddWatchForCode("warpswatch12", "warpww2", toggleWarps)
+ScriptHost:AddWatchForCode("warpswatch13", "warpww3", toggleWarps)
+ScriptHost:AddWatchForCode("warpswatch14", "warpww4", toggleWarps)
+ScriptHost:AddWatchForCode("warpswatch15", "warpww5", toggleWarps)
+ScriptHost:AddWatchForCode("warpswatch16", "warpjr1", toggleWarps)
+ScriptHost:AddWatchForCode("warpswatch17", "warpjr2", toggleWarps)
+ScriptHost:AddWatchForCode("warpswatch18", "warpjr3", toggleWarps)
+ScriptHost:AddWatchForCode("warpswatch19", "warpjr4", toggleWarps)
+ScriptHost:AddWatchForCode("warpswatch20", "warpjr5", toggleWarps)
+ScriptHost:AddWatchForCode("warpswatch21", "warptl1", toggleWarps)
+ScriptHost:AddWatchForCode("warpswatch22", "warptl2", toggleWarps)
+ScriptHost:AddWatchForCode("warpswatch23", "warptl3", toggleWarps)
+ScriptHost:AddWatchForCode("warpswatch24", "warptl4", toggleWarps)
+ScriptHost:AddWatchForCode("warpswatch25", "warptl5", toggleWarps)
+ScriptHost:AddWatchForCode("warpswatch26", "warpgi1", toggleWarps)
+ScriptHost:AddWatchForCode("warpswatch27", "warpgi2", toggleWarps)
+ScriptHost:AddWatchForCode("warpswatch28", "warpgi3", toggleWarps)
+ScriptHost:AddWatchForCode("warpswatch29", "warpgi4", toggleWarps)
+ScriptHost:AddWatchForCode("warpswatch30", "warpgi5", toggleWarps)
+ScriptHost:AddWatchForCode("warpswatch31", "warphp1", toggleWarps)
+ScriptHost:AddWatchForCode("warpswatch32", "warphp2", toggleWarps)
+ScriptHost:AddWatchForCode("warpswatch33", "warphp3", toggleWarps)
+ScriptHost:AddWatchForCode("warpswatch34", "warphp4", toggleWarps)
+ScriptHost:AddWatchForCode("warpswatch35", "warphp5", toggleWarps)
+ScriptHost:AddWatchForCode("warpswatch36", "warpcc1", toggleWarps)
+ScriptHost:AddWatchForCode("warpswatch37", "warpcc2", toggleWarps)
+ScriptHost:AddWatchForCode("warpswatch38", "warpck1", toggleWarps)
+ScriptHost:AddWatchForCode("warpswatch39", "warpck2", toggleWarps)
 
 ---------------------------------------- 
 
@@ -19280,12 +19308,13 @@ list of moves/items that cannot under any circumstances be used without other mo
 
 Mia's List of Known Bugs in the AP Logic:
 
-- [Pine Grove Underwater to Pine Grove] The logic on easy tricks feels way too hard compared to most other easy tricks I've encountered
 - [Glitter Gulch Mine - Most Boulders] All boulders logic require the ability to get up a small elevation in order to bill drill them. However, every boulder in the toxic cave, plus the boulder near mumbo's, plus every boulder in the power hut area, can all be broken with just bill drill alone
 - [Glitter Gulch Mine - Anything that requires small elevation] There are a lot of checks that require small elevation, but the function for that does not account for smuggling talon trot
 - [Glitter Gulch Mine - Mumbo anything] Checks for small elevation but does not account for the fact that you can smuggle talon trot for that elevation on any difficulty
 - [Witchyworld - Pump Room Entrance Honeycomb] You don't need small elevation; you can jump up the barrel and then into the room without tall jump
 - [Terrydactyland - Taxi Pack Silo] erroneously has tall jump outside of the function brackets, accidentally making all tricks require it instead of only some
+- [Grunty Industries - Connector between outside back and floor 4] You don't need tall jump to make the jumps if you have arat
+- [Grunty Industries - egg nests by floor 4 fire escape] You can collect them with just arat
 - [Hailfire Peaks - Treble] you can get it with clockworks instead of grenade eggs for the clawbts strategy
 
 --]]
