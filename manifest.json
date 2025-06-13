@@ -1,19 +1,13 @@
 {
     "name": "Banjo-Tooie",
     "game_name": "Banjo-Tooie",
-    "package_version": "0.9.1",
+    "package_version": "0.9.2",
     "package_uid": "ap_banjotooie",
     "author": "Ozone, MiaSchemes",
     "variants": {
         "standard": {
             "display_name": "Map Tracker",
             "flags": ["ap"]
-        },
-        "var_entrancerando": {
-            "display_name": "Map Tracker (Randomized World Entrances)",
-            "flags": [
-                "ap"
-            ]
         }
     },
     "versions_url": "https://raw.githubusercontent.com/Ozone31/banjo-tooie-ap-tracker/versions/versions.json"

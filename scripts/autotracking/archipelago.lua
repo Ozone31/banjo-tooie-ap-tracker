@@ -125,9 +125,10 @@ function onClear(slot_data)
     TEAM_NUMBER = Archipelago.TeamNumber or 0
     PLAYER_NAME = Archipelago:GetPlayerAlias(PLAYER_ID) or " "
     
-    --[[if PLAYER_NAME == "mia-threepie" or PLAYER_NAME == "Mia-Tooie" then
+    --[[if PLAYER_NAME == "mia-threepie" or PLAYER_NAME == "Mia-Tooie" or PLAYER_NAME == "banjo-threepie" then
         local obj = Tracker:FindObjectForCode("mousepace")
         obj.CurrentStage = 1
+        Tracker:UiHint("ActivateTab", "Split View")
     else
         local obj = Tracker:FindObjectForCode("mousepace")
         obj.CurrentStage = 0
@@ -403,6 +404,14 @@ function onClear(slot_data)
             elseif k == "Cauldron Keep" then
                 load_ck = v
             end
+        end
+        
+        -- temporary hacky solution -- FIXIT in V4.6
+        local obj = Tracker:FindObjectForCode("entrancerando")
+        if ( load_mt == "Mayahem Temple" and load_ggm == "Glitter Gulch Mine" and load_ww == "Witchyworld" and load_jrl == "Jolly Roger's Lagoon - Town Center" and load_tdl == "Terrydactyland" and load_gi == "Outside Grunty Industries" and load_hfp == "Hailfire Peaks" and load_ccl == "Cloud Cuckooland" and load_ck == "Cauldron Keep" ) then
+            obj.CurrentStage = 0
+        else
+            obj.CurrentStage = 1
         end
     end
 

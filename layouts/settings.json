@@ -38,12 +38,13 @@
               ],
               [
                 "randomizeworlds",
+                "entrancerando",
                 "backdoorsopen",
                 "nestsanity",
-                "signposts",
-                "randomizesilos"
+                "signposts"
               ],
               [
+                "randomizesilos",
                 "randomizewarppads",
                 "goal"
               ],

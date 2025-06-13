@@ -2754,6 +2754,26 @@
     ]
   },
   {
+    "name": "Randomized World Entrances",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/entrancerando_off.png",
+        "name": "Randomized World Entrances - Off",
+        "codes": "entrancerando,entrancerando_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/entrancerando_on.png",
+        "name": "Randomized World Entrances - On",
+        "codes": "entrancerando,entrancerando_on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
     "name": "Speed Up Minigames",
     "type": "progressive",
     "loop": true,
@@ -3897,5 +3917,47 @@
     "type": "toggle",
     "img": "/images/locations/silo.png",
     "codes": "silo_sackPack_tracking"
+  },
+  {
+    "name": "Targitzan Moves",
+    "type": "toggle",
+    "img": "/images/access/Targitzan.png",
+    "codes": "bossmoves_targitzan"
+  },
+  {
+    "name": "Old King Coal Moves",
+    "type": "toggle",
+    "img": "/images/access/Old King Coal.png",
+    "codes": "bossmoves_oldkingcoal"
+  },
+  {
+    "name": "Mr. Patch Moves",
+    "type": "toggle",
+    "img": "/images/access/Mr Patch.png",
+    "codes": "bossmoves_mrpatch"
+  },
+  {
+    "name": "Lord Woo Fak Fak Moves",
+    "type": "toggle",
+    "img": "/images/access/Lord Woo Fak Fak.png",
+    "codes": "bossmoves_lordwoofakfak"
+  },
+  {
+    "name": "Terry Moves",
+    "type": "toggle",
+    "img": "/images/access/Terry.png",
+    "codes": "bossmoves_terry"
+  },
+  {
+    "name": "Dragon Brothers Moves",
+    "type": "toggle",
+    "img": "/images/access/Dragon Brothers.png",
+    "codes": "bossmoves_dragonbrothers"
+  },
+  {
+    "name": "Mingy Jongo Moves",
+    "type": "toggle",
+    "img": "/images/access/Mingy Jongo.png",
+    "codes": "bossmoves_mingyjongo"
   }
 ]

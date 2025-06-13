@@ -24,7 +24,7 @@
                         },
                         {
                             "type": "group",
-                            "header": "Moves",
+                            "header": "Moves & Abilities",
                             "dock": "left",
                             "margin": "0,0,3,0",
                             "content": {
@@ -36,7 +36,7 @@
                         },
                         {
                             "type": "group",
-                            "header": "Worlds, Magic, & Train Stations",
+                            "header": "Worlds, Magic, Train Stations, & Warps",
                             "dock": "left",
                             "margin": "0,0,3,0",
                             "content": {

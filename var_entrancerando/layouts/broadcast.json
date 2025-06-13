@@ -27,7 +27,7 @@
             "margin": "0,6",
             "item_margin": "1,2",
             "rows": [
-              [ "jiggy", "totalnote", "honey", "pages", "doubloon", "ikey", "bmegg", "pmegg", "mumbotoken" ],
+              [ "jiggy", "totalnote", "maxhealth", "honey", "pages", "doubloon", "ikey", "meggs", "mumbotoken" ],
               [ "wjinjo", "ojinjo", "yjinjo", "brjinjo", "gjinjo", "rjinjo", "bljinjo", "pjinjo", "bkjinjo" ]
             ]
           },
@@ -42,8 +42,7 @@
               [ "mumbomt", "mumbogm", "mumboww", "mumbojr", "mumbotd", "mumbogi", "mumbohp", "mumbocc", "mumboih" ],
               [ "humbamt", "humbagm", "humbaww", "humbajr", "humbatd", "humbagi", "humbahp", "humbacc", "humbaih" ],
               [ "", "chuffy", "trainswww", "trainswtd", "trainswgi", "trainswhp1", "trainswhp2", "trainswih" ],
-              [ "", "siloiohjv", "siloiohwh", "siloiohpl", "siloiohpg", "siloiohct", "siloiohwl", "siloiohqm" ],
-              [ "warpsmt", "warpsgm", "warpsww", "warpsjr", "warpstl", "warpsgi", "warpshp", "warpscc", "warpsck" ]
+              [ "", "siloiohjv", "siloiohwh", "siloiohpl", "siloiohpg", "siloiohct", "siloiohwl", "siloiohqm" ]
             ]
           }
         ]
