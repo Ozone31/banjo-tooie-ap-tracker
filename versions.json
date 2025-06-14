@@ -1,6 +1,21 @@
 {
 	"versions": [
 		{
+			"package_version": "0.9.2",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.9.2",
+			"sha256": "7a7e1a09f2add78eb47a9061696094d39b7549c47aaba407b059e9eabfeb71e6",
+			"changelog": [
+				"The Randomized World Entrances variant of the Poptracker has been removed. Instead, the settings tab on the Poptracker for Randomized World Entrances and Randomize Warp Pads now both dynamically switch the layout as needed.",
+				"The Warp Pads tracking- both in the Access section and the tab for manually overriding Warp Pads- now only show up if the Randomize Warp Pads setting is enabled.",
+				"There is a new button in the Settings section for manually enabling and disabling the Randomized World Entrances setting.",
+				"Several checks in Grunty Industries are now properly marked off when collected.",
+				"The Chimney Honeycomb in Grunty Industries now properly requires flight.",
+				"The Sabreman Jiggy in Hailfire Peaks now properly checks for Dragon Kazooie on Easy Tricks and above.",
+				"Many checks that could require some circular dependencies under certain conditions (eg. Honey B checks that required smuggling Claw Clamber Boots from Cliff Top) now function properly.",
+				"Several logical checks, which normally require multiple Warp Pads in the apworld logic, now account for being able to go and get the Warp Pads yourself if the Randomized Warp Pads setting is disabled."
+			]
+		},
+		{
 			"package_version": "0.9.1",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.9.1",
 			"sha256": "e90b71f5c5ed366f0487918b938de491d37d900e1893549c58e5ef18def606c7",
