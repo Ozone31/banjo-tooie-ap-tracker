@@ -41,7 +41,7 @@
       "@Region: Terrydactyland - Main Area, $load_ggm_tdl, ^$connector_GGM_to_PL",
       "@Region: Outside Grunty Industries, $load_ggm_gi, ^$connector_GGM_to_PL",
       "@Region: Hailfire Peaks - Lava Side, $load_ggm_hfp, ^$connector_GGM_to_PL",
-      "@Region: Cloud Cuckooland - Outside, $load_ggm_ccl, ^$connector_GGM_to_PL"
+      "@Region: Cloud Cuckooland, $load_ggm_ccl, ^$connector_GGM_to_PL"
     ]
   },
   {
@@ -57,7 +57,7 @@
       "@Region: Terrydactyland - Main Area, $load_ww_tdl, wwa",
       "@Region: Outside Grunty Industries, $load_ww_gi, wwa",
       "@Region: Hailfire Peaks - Lava Side, $load_ww_hfp, wwa",
-      "@Region: Cloud Cuckooland - Outside, $load_ww_ccl, wwa"
+      "@Region: Cloud Cuckooland, $load_ww_ccl, wwa"
     ]
   },
   {
@@ -81,7 +81,7 @@
       "@Region: Terrydactyland - Main Area, $load_jrl_tdl, ^$connector_JRL_to_CT",
       "@Region: Outside Grunty Industries, $load_jrl_gi, ^$connector_JRL_to_CT",
       "@Region: Hailfire Peaks - Lava Side, $load_jrl_hfp, ^$connector_JRL_to_CT",
-      "@Region: Cloud Cuckooland - Outside, $load_jrl_ccl, ^$connector_JRL_to_CT"
+      "@Region: Cloud Cuckooland, $load_jrl_ccl, ^$connector_JRL_to_CT"
     ]
   },
   {
@@ -95,7 +95,7 @@
       "@Region: Terrydactyland - Main Area, $load_hfp_tdl, ^$connector_HFP_to_CTHFP",
       "@Region: Outside Grunty Industries, $load_hfp_gi, ^$connector_HFP_to_CTHFP",
       "@Region: Hailfire Peaks - Lava Side, $load_hfp_hfp, ^$connector_HFP_to_CTHFP",
-      "@Region: Cloud Cuckooland - Outside, $load_hfp_ccl, ^$connector_HFP_to_CTHFP"
+      "@Region: Cloud Cuckooland, $load_hfp_ccl, ^$connector_HFP_to_CTHFP"
     ]
   },
   {
@@ -111,7 +111,7 @@
       "@Region: Terrydactyland - Main Area, $load_tdl_tdl, ^$connector_TDL_to_WL",
       "@Region: Outside Grunty Industries, $load_tdl_gi, ^$connector_TDL_to_WL",
       "@Region: Hailfire Peaks - Lava Side, $load_tdl_hfp, ^$connector_TDL_to_WL",
-      "@Region: Cloud Cuckooland - Outside, $load_tdl_ccl, ^$connector_TDL_to_WL",
+      "@Region: Cloud Cuckooland, $load_tdl_ccl, ^$connector_TDL_to_WL",
       "@Region: Mayahem Temple - Main Area, $load_ccl_mt, ^$connector_CCL_to_WL",
       "@Region: Glitter Gulch Mine - Main Area, ^$access_GGM_canLeave, $load_ccl_ggm, ^$connector_CCL_to_WL",
       "@Region: Witchyworld - Main Area, $load_ccl_ww, ^$connector_CCL_to_WL",
@@ -119,7 +119,7 @@
       "@Region: Terrydactyland - Main Area, $load_ccl_tdl, ^$connector_CCL_to_WL",
       "@Region: Outside Grunty Industries, $load_ccl_gi, ^$connector_CCL_to_WL",
       "@Region: Hailfire Peaks - Lava Side, $load_ccl_hfp, ^$connector_CCL_to_WL",
-      "@Region: Cloud Cuckooland - Outside, $load_ccl_ccl, ^$connector_CCL_to_WL"
+      "@Region: Cloud Cuckooland, $load_ccl_ccl, ^$connector_CCL_to_WL"
     ]
   },
   {
@@ -134,7 +134,7 @@
       "@Region: Terrydactyland - Main Area, $load_gi_tdl, gia",
       "@Region: Outside Grunty Industries, $load_gi_gi, gia",
       "@Region: Hailfire Peaks - Lava Side, $load_gi_hfp, gia",
-      "@Region: Cloud Cuckooland - Outside, $load_gi_ccl, gia",
+      "@Region: Cloud Cuckooland, $load_gi_ccl, gia",
       "@Region: Mayahem Temple - Main Area, $load_ck_mt, ^$connector_CK_to_QM",
       "@Region: Glitter Gulch Mine - Main Area, ^$access_GGM_canLeave, $load_ck_ggm, ^$connector_CK_to_QM",
       "@Region: Witchyworld - Main Area, $load_ck_ww, ^$connector_CK_to_QM",
@@ -142,7 +142,7 @@
       "@Region: Terrydactyland - Main Area, $load_ck_tdl, ^$connector_CK_to_QM",
       "@Region: Outside Grunty Industries, $load_ck_gi, ^$connector_CK_to_QM",
       "@Region: Hailfire Peaks - Lava Side, $load_ck_hfp, ^$connector_CK_to_QM",
-      "@Region: Cloud Cuckooland - Outside, $load_ck_ccl, ^$connector_CK_to_QM"
+      "@Region: Cloud Cuckooland, $load_ck_ccl, ^$connector_CK_to_QM"
     ]
   },
   
