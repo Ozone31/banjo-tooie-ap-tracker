@@ -1009,6 +1009,82 @@ function toggleWarps()
     setWarpState(warpObj, stringCode, true)
 end
 
+function toggleBossMoves()
+    local targitzanMoves = Tracker:FindObjectForCode('bossmoves_targitzan')
+    local oldKingCoalMoves = Tracker:FindObjectForCode('bossmoves_oldkingcoal')
+    local mrPatchMoves = Tracker:FindObjectForCode('bossmoves_mrpatch')
+    local lordWooFakFakMoves = Tracker:FindObjectForCode('bossmoves_lordwoofakfak')
+    local terryMoves = Tracker:FindObjectForCode('bossmoves_terry')
+    local dragonBrothersMoves = Tracker:FindObjectForCode('bossmoves_dragonbrothers')
+    local mingyJongoMoves = Tracker:FindObjectForCode('bossmoves_mingyjongo')
+    
+    if ( has("eggshoot") and has("amazeogaze") and has("eggaim") and has("bblaster") ) then
+        targitzanMoves.Active = true
+    else
+        targitzanMoves.Active = false
+    end
+    
+    if ( has("eggshoot") and has("chuffy") ) then
+        oldKingCoalMoves.Active = true
+    else
+        oldKingCoalMoves.Active = false
+    end
+    
+    if ( has("fpad") and has("aireaim") and has("eggaim") and has("geggs") ) then
+        mrPatchMoves.Active = true
+    else
+        mrPatchMoves.Active = false
+    end
+    
+    if ( has("dive") and has("humbajr") and has("auqaim") and has("geggs") ) then
+        lordWooFakFakMoves.Active = true
+    else
+        lordWooFakFakMoves.Active = false
+    end
+    
+    if ( has("springb") and has("eggaim") ) then
+        terryMoves.Active = true
+    else
+        terryMoves.Active = false
+    end
+    
+    if ( has("fpad") and has("clawbts") and has("ieggs") and has("feggs") ) then
+        dragonBrothersMoves.Active = true
+    else
+        dragonBrothersMoves.Active = false
+    end
+    
+    if ( has("cca") ) then
+        mingyJongoMoves.Active = true
+    else
+        mingyJongoMoves.Active = false
+    end
+end
+
+function overrideLayouts()
+    if ( has("entrancerando_off") and has("randomizewarppads_off") ) then
+        Tracker:AddLayouts("var_warpsanity_off/layouts/tracker.json")
+    elseif ( has("entrancerando_off") and has("randomizewarppads_on") ) then
+        Tracker:AddLayouts("layouts/tracker.json")
+    elseif ( has("entrancerando_on") and has("randomizewarppads_on") ) then
+        Tracker:AddLayouts("var_entrancerando_warpsanity/layouts/tracker.json")
+    elseif ( has("entrancerando_on") and has("randomizewarppads_off") ) then
+        Tracker:AddLayouts("var_entrancerando/layouts/tracker.json")
+    end
+    
+    if ( has("mousepace_on") ) then
+        Tracker:AddLayouts("layouts/broadcast - mousepace.json")
+    elseif ( has("entrancerando_off") and has("randomizewarppads_off") ) then
+        Tracker:AddLayouts("var_warpsanity_off/layouts/broadcast.json")
+    elseif ( has("entrancerando_off") and has("randomizewarppads_on") ) then
+        Tracker:AddLayouts("layouts/broadcast.json")
+    elseif ( has("entrancerando_on") and has("randomizewarppads_on") ) then
+        Tracker:AddLayouts("var_entrancerando_warpsanity/layouts/broadcast.json")
+    elseif ( has("entrancerando_on") and has("randomizewarppads_off") ) then
+        Tracker:AddLayouts("var_entrancerando/layouts/broadcast.json")
+    end
+end
+
 -- Loading Zone Rules
 
 function load_mt_mt()
@@ -1869,7 +1945,7 @@ function can_getDragonKazooie(skip)
     --]]
     
     if ( has("humbaih") and has("grat") ) then
-        local pgAccessibility = Tracker:FindObjectForCode("@Pine Grove").AccessibilityLevel
+        local pgAccessibility = Tracker:FindObjectForCode("@Region: Pine Grove").AccessibilityLevel
     
         -- Normal Logic
         if ( pgAccessibility == AccessibilityLevel.Normal or pgAccessibility == AccessibilityLevel.Cleared ) then
@@ -1924,6 +2000,8 @@ function chuffy_canEnterFromGGM(skip)
         logic = self.small_elevation(state) or self.climb(state) or self.beak_buster(state)
     --]]
     
+    local ggmTrot = access_GGM_ttrot(true)
+    
     -- Normal Logic
     if ( has("climb") and can_reachSmallElevation() ) then
         logic = 0
@@ -1931,6 +2009,8 @@ function chuffy_canEnterFromGGM(skip)
         logic = 1
     elseif ( has("bbust") ) then
         logic = 2
+    else
+        logic = math.max(7, ggmTrot)
     end
     
     return convertLogic(logic, skip)
@@ -2113,7 +2193,7 @@ function chuffy_canBeatKingCoal(skip)
     end
     
     if ( chuffyrandomized.CurrentStage == 0 ) then -- not randomized
-        local ggmAccessibility = Tracker:FindObjectForCode("@Glitter Gulch Mine - Main Area").AccessibilityLevel
+        local ggmAccessibility = Tracker:FindObjectForCode("@Region: Glitter Gulch Mine - Main Area").AccessibilityLevel
         local chuffyAccess = chuffy_canEnterFromGGM(true)
         
         -- Normal Logic
@@ -2166,18 +2246,8 @@ function health_canGetFromHoneyB(num, skip)
         honeyNeeded = 25
     end
     
-    local plAccessibility = Tracker:FindObjectForCode("@Plateau").AccessibilityLevel
-    local canReachHoneyB = access_PL_canReachHoneyB(true)
-    
-    -- Normal Logic
-    if ( (plAccessibility == AccessibilityLevel.Normal or plAccessibility == AccessibilityLevel.Cleared) and canReachHoneyB <= logictype.CurrentStage and has("honey", honeyNeeded) ) then
-        logic = 0
-        
-    -- Sequence Breaking
-    elseif ( (plAccessibility == AccessibilityLevel.Normal or plAccessibility == AccessibilityLevel.Cleared) and has("honey", honeyNeeded) ) then
-        logic = canReachHoneyB
-    elseif ( plAccessibility > AccessibilityLevel.None and has("honey", honeyNeeded) ) then
-        logic = math.max(logictype.CurrentStage + 1, canReachHoneyB)
+    if ( has("honey", honeyNeeded) ) then
+        logic = access_PL_canReachHoneyB(true)
     end
     
     return convertLogic(logic, skip)
@@ -2195,7 +2265,13 @@ function health_canGet6(skip)
     if ( has("honeybrewards_on") and has("maxhealth", 1) ) then
         logic = 0
     elseif ( has("honeybrewards_off") ) then
-        logic = health_canGetFromHoneyB(1, true)
+        local plAccessibility = Tracker:FindObjectForCode("@Region: Plateau").AccessibilityLevel
+        
+        if ( plAccessibility == AccessibilityLevel.Normal or plAccessibility == AccessibilityLevel.Cleared ) then
+            logic = health_canGetFromHoneyB(1, true)
+        elseif ( plAccessibility > AccessibilityLevel.None ) then
+            logic = math.max(logictype.CurrentStage + 1, health_canGetFromHoneyB(1, true))
+        end
     end
     
     return convertLogic(logic, skip)
@@ -2213,7 +2289,13 @@ function health_canGet7(skip)
     if ( has("honeybrewards_on") and has("maxhealth", 2) ) then
         logic = 0
     elseif ( has("honeybrewards_off") ) then
-        logic = health_canGetFromHoneyB(2, true)
+        local plAccessibility = Tracker:FindObjectForCode("@Region: Plateau").AccessibilityLevel
+        
+        if ( plAccessibility == AccessibilityLevel.Normal or plAccessibility == AccessibilityLevel.Cleared ) then
+            logic = health_canGetFromHoneyB(2, true)
+        elseif ( plAccessibility > AccessibilityLevel.None ) then
+            logic = math.max(logictype.CurrentStage + 1, health_canGetFromHoneyB(2, true))
+        end
     end
     
     return convertLogic(logic, skip)
@@ -2231,7 +2313,13 @@ function health_canGet8(skip)
     if ( has("honeybrewards_on") and has("maxhealth", 3) ) then
         logic = 0
     elseif ( has("honeybrewards_off") ) then
-        logic = health_canGetFromHoneyB(3, true)
+        local plAccessibility = Tracker:FindObjectForCode("@Region: Plateau").AccessibilityLevel
+        
+        if ( plAccessibility == AccessibilityLevel.Normal or plAccessibility == AccessibilityLevel.Cleared ) then
+            logic = health_canGetFromHoneyB(3, true)
+        elseif ( plAccessibility > AccessibilityLevel.None ) then
+            logic = math.max(logictype.CurrentStage + 1, health_canGetFromHoneyB(3, true))
+        end
     end
     
     return convertLogic(logic, skip)
@@ -2249,7 +2337,13 @@ function health_canGet9(skip)
     if ( has("honeybrewards_on") and has("maxhealth", 4) ) then
         logic = 0
     elseif ( has("honeybrewards_off") ) then
-        logic = health_canGetFromHoneyB(4, true)
+        local plAccessibility = Tracker:FindObjectForCode("@Region: Plateau").AccessibilityLevel
+        
+        if ( plAccessibility == AccessibilityLevel.Normal or plAccessibility == AccessibilityLevel.Cleared ) then
+            logic = health_canGetFromHoneyB(4, true)
+        elseif ( plAccessibility > AccessibilityLevel.None ) then
+            logic = math.max(logictype.CurrentStage + 1, health_canGetFromHoneyB(4, true))
+        end
     end
     
     return convertLogic(logic, skip)
@@ -2267,7 +2361,13 @@ function health_canGet10(skip)
     if ( has("honeybrewards_on") and has("maxhealth", 5) ) then
         logic = 0
     elseif ( has("honeybrewards_off") ) then
-        logic = health_canGetFromHoneyB(5, true)
+        local plAccessibility = Tracker:FindObjectForCode("@Region: Plateau").AccessibilityLevel
+        
+        if ( plAccessibility == AccessibilityLevel.Normal or plAccessibility == AccessibilityLevel.Cleared ) then
+            logic = health_canGetFromHoneyB(5, true)
+        elseif ( plAccessibility > AccessibilityLevel.None ) then
+            logic = math.max(logictype.CurrentStage + 1, health_canGetFromHoneyB(5, true))
+        end
     end
     
     return convertLogic(logic, skip)
@@ -2292,6 +2392,10 @@ end
 
 
 --------------- Regions
+
+
+
+--------------- Connectors
 
 function connector_SM_to_JV(skip)
     local logic = 99
@@ -2351,7 +2455,7 @@ end
 function connector_JVorWH_to_IOHWarps(skip)
     local logic = 99
     
-    if ( has("siloiohjv") or has("siloiohwh") ) then
+    if ( has("siloiohjv") or has("siloiohwh") or has("randomizesilos_off") ) then
         logic = 0
     end
     
@@ -2361,7 +2465,7 @@ end
 function connector_WH_to_IOHWarps(skip)
     local logic = 99
     
-    if ( has("siloiohwh") ) then
+    if ( has("siloiohwh") or has("randomizesilos_off") ) then
         logic = 0
     end
     
@@ -2522,6 +2626,16 @@ end
 function connector_PL_to_IOHWarps(skip)
     local logic = 99
     
+    if ( has("siloiohpl") or has("randomizesilos_off") ) then
+        logic = 0
+    end
+    
+    return convertLogic(logic, skip)
+end
+
+function connector_IOHWarps_to_PL(skip)
+    local logic = 99
+    
     if ( has("siloiohpl") ) then
         logic = 0
     end
@@ -2575,6 +2689,8 @@ function connector_PL_to_PG(skip)
         logic = 0
     elseif ( has("feggs") and has("eggshoot") and (has("ttrot") or has("splitup")) ) then
         logic = 1
+    elseif ( has("feggs") and has("eggshoot") and (has("siloiohjv") or has("siloiohwh") or has("siloiohpl")) and has("siloiohct") and has("clawbts") ) then
+        logic = 7 -- smuggle clawbts from cliff top
     end
     
     return convertLogic(logic, skip)
@@ -2697,6 +2813,16 @@ function connector_GGM_to_WW(skip)
 end
 
 function connector_PG_to_IOHWarps(skip)
+    local logic = 99
+    
+    if ( has("siloiohpg") or has("randomizesilos_off") ) then
+        logic = 0
+    end
+    
+    return convertLogic(logic, skip)
+end
+
+function connector_IOHWarps_to_PG(skip)
     local logic = 99
     
     if ( has("siloiohpg") ) then
@@ -2948,6 +3074,16 @@ function connector_WW_to_WWA51(skip)
 end
 
 function connector_CT_to_IOHWarps(skip)
+    local logic = 99
+    
+    if ( has("siloiohct") or has("randomizesilos_off") ) then
+        logic = 0
+    end
+    
+    return convertLogic(logic, skip)
+end
+
+function connector_IOHWarps_to_CT(skip)
     local logic = 99
     
     if ( has("siloiohct") ) then
@@ -3392,6 +3528,16 @@ end
 function connector_WL_to_IOHWarps(skip)
     local logic = 99
     
+    if ( has("siloiohwl") or has("randomizesilos_off") ) then
+        logic = 0
+    end
+    
+    return convertLogic(logic, skip)
+end
+
+function connector_IOHWarps_to_WL(skip)
+    local logic = 99
+    
     if ( has("siloiohwl") ) then
         logic = 0
     end
@@ -3517,7 +3663,7 @@ function connector_TDL_to_TDLHatch(skip)
                 or state.can_reach_region(regionName.TLTOP, self.player)
     --]]
     
-    local tdlTAccessibility = Tracker:FindObjectForCode("@Terrydactyland - Top").AccessibilityLevel
+    local tdlTAccessibility = Tracker:FindObjectForCode("@Region: Terrydactyland - Top").AccessibilityLevel
     local tdlFlightPad = access_TDL_flightPad(true)
     
     -- Normal Logic
@@ -3705,6 +3851,16 @@ function connector_TDLWarps_to_TDLStompingPlains(skip)
 end
 
 function connector_QM_to_IOHWarps(skip)
+    local logic = 99
+    
+    if ( has("siloiohqm") or has("randomizesilos_off") ) then
+        logic = 0
+    end
+    
+    return convertLogic(logic, skip)
+end
+
+function connector_IOHWarps_to_QM(skip)
     local logic = 99
     
     if ( has("siloiohqm") ) then
@@ -3958,9 +4114,9 @@ function connector_GIElevatorShaft_to_GIF1(skip)
     elseif ( has("bbust") ) then
         logic = 1
     else
-        local gi2emAccessibility = Tracker:FindObjectForCode("@Grunty Industries 2nd Floor - Electromagnetic Chamber").AccessibilityLevel
-        local gi3bpAccessibility = Tracker:FindObjectForCode("@Grunty Industries 3rd Floor - Boiler Plant").AccessibilityLevel
-        local gi4bAccessibility = Tracker:FindObjectForCode("@Grunty Industries 4th Floor - Past the Crushers").AccessibilityLevel
+        local gi2emAccessibility = Tracker:FindObjectForCode("@Region: Grunty Industries 2nd Floor - Electromagnetic Chamber").AccessibilityLevel
+        local gi3bpAccessibility = Tracker:FindObjectForCode("@Region: Grunty Industries 3rd Floor - Boiler Plant").AccessibilityLevel
+        local gi4bAccessibility = Tracker:FindObjectForCode("@Region: Grunty Industries 4th Floor - Past the Crushers").AccessibilityLevel
         local gif4BackToElevatorShaft = connector_GIF4Back_to_GIElevatorShaft(true)
         local hp7 = health_canGet7(true)
         local hp10 = health_canGet10(true)
@@ -4014,8 +4170,8 @@ function connector_GIElevatorShaft_to_GIF2ElectromagneticChamber(skip)
     if ( has_bregullBash() and has("climb") ) then
         logic = 3
     elseif ( has_bregullBash() ) then
-        local gi3bpAccessibility = Tracker:FindObjectForCode("@Grunty Industries 3rd Floor - Boiler Plant").AccessibilityLevel
-        local gi4bAccessibility = Tracker:FindObjectForCode("@Grunty Industries 4th Floor - Past the Crushers").AccessibilityLevel
+        local gi3bpAccessibility = Tracker:FindObjectForCode("@Region: Grunty Industries 3rd Floor - Boiler Plant").AccessibilityLevel
+        local gi4bAccessibility = Tracker:FindObjectForCode("@Region: Grunty Industries 4th Floor - Past the Crushers").AccessibilityLevel
         local gif4BackToElevatorShaft = connector_GIF4Back_to_GIElevatorShaft(true)
         local hp7 = health_canGet7(true)
         
@@ -4069,7 +4225,7 @@ function connector_GIElevatorShaft_to_GIF3BoilerPlant(skip)
     if ( has_bregullBash() and has("climb") ) then
         logic = 3
     elseif ( has_bregullBash() ) then
-        local gi4bAccessibility = Tracker:FindObjectForCode("@Grunty Industries 4th Floor - Past the Crushers").AccessibilityLevel
+        local gi4bAccessibility = Tracker:FindObjectForCode("@Region: Grunty Industries 4th Floor - Past the Crushers").AccessibilityLevel
         local gif4BackToElevatorShaft = connector_GIF4Back_to_GIElevatorShaft(true)
         
         if ( (gi4bAccessibility == AccessibilityLevel.Normal or gi4bAccessibility == AccessibilityLevel.Cleared) and gif4BackToElevatorShaft <= logictype.CurrentStage ) then
@@ -4495,15 +4651,15 @@ function connector_GIF4_to_GIF4Back(skip)
     
     local mumboGI = access_GI_mumbo(true)
     
-    if ( has("tjump") and has("warpgi3") and has("warpgi4") and mumboGI <= logictype.CurrentStage ) then
+    if ( has("tjump") and (has("warpgi3") and has("warpgi4") or has("randomizewarppads_off")) and mumboGI <= logictype.CurrentStage ) then
         logic = 0 -- Normal Logic
-    elseif ( has("tjump") and has("warpgi3") and has("warpgi4") and mumboGI < 3 ) then
+    elseif ( has("tjump") and (has("warpgi3") and has("warpgi4") or has("randomizewarppads_off")) and mumboGI < 3 ) then
         logic = mumboGI -- Sequence Breaking
     elseif ( has("tjump") and has_packWhack() or can_preciseClockworkWarp() and (has("tjump") or has("fflip")) ) then
         logic = 3 -- Normal Logic
     
     -- Sequence Breaking
-    elseif ( has("tjump") and has("warpgi3") and has("warpgi4") ) then
+    elseif ( has("tjump") and (has("warpgi3") and has("warpgi4") or has("randomizewarppads_off")) ) then
         logic = mumboGI
     end
     
@@ -4548,7 +4704,7 @@ function connector_GIF4Back_to_GIElevatorShaft(skip)
     if ( has("climb") and basic_GI_elevatorDoor() ) then
         logic = 0
     elseif ( can_clockworkWarp() and (has("tjump") or has("fflip")) ) then
-        local gi4Accessibility = Tracker:FindObjectForCode("@Grunty Industries 4th Floor").AccessibilityLevel
+        local gi4Accessibility = Tracker:FindObjectForCode("@Region: Grunty Industries 4th Floor").AccessibilityLevel
         
         if ( gi4Accessibility == AccessibilityLevel.Normal or gi4Accessibility == AccessibilityLevel.Cleared ) then
             logic = 3
@@ -5021,7 +5177,7 @@ function access_PL_top(skip)
                 or (state.can_reach_region(regionName.IOHCT, self.player) and self.claw_clamber_boots(state))
     --]]
     
-    local ctAccessibility = Tracker:FindObjectForCode("@Cliff Top").AccessibilityLevel
+    local ctAccessibility = Tracker:FindObjectForCode("@Region: Cliff Top").AccessibilityLevel
     
     -- Normal Logic
     if ( has("ttrot") or has("splitup") ) then
@@ -5055,26 +5211,29 @@ function access_PL_canReachHoneyB(skip)
                 or state.can_reach_region(regionName.IOHCT, self.player) and self.claw_clamber_boots(state)
     --]]
     
-    local ctAccessibility = Tracker:FindObjectForCode("@Cliff Top").AccessibilityLevel
-    local jrlAccessibility = Tracker:FindObjectForCode("@Jolly Roger's Lagoon - Main Area").AccessibilityLevel
-    local tdlAccessibility = Tracker:FindObjectForCode("@Terrydactyland - Main Area").AccessibilityLevel
-    local giAccessibility = Tracker:FindObjectForCode("@Grunty Industries 1st Floor").AccessibilityLevel
     
     -- Normal Logic
     if ( has("ttrot") ) then
         logic = 0
-    elseif ( has("clawbts") and (ctAccessibility == AccessibilityLevel.Normal or ctAccessibility == AccessibilityLevel.Cleared) ) then
-        logic = 1
+    else
+        local ctAccessibility = Tracker:FindObjectForCode("@Region: Cliff Top").AccessibilityLevel -- FIXIT I can't for the life of me get this to work if your only way to cliff top is split up. reminder to check the poptracker discord to see if anyone has suggestions
+        local jrlAccessibility = Tracker:FindObjectForCode("@Region: Jolly Roger's Lagoon - Main Area").AccessibilityLevel
+        local tdlAccessibility = Tracker:FindObjectForCode("@Region: Terrydactyland - Main Area").AccessibilityLevel
+        local giAccessibility = Tracker:FindObjectForCode("@Region: Grunty Industries 1st Floor").AccessibilityLevel
     
-    -- Sequence Breaking
-    elseif ( has("clawbts") and ctAccessibility > AccessibilityLevel.None ) then
-        logic = logictype.CurrentStage + 1 -- was already converted once by the json
-    elseif ( (load_jrl_jrl() or load_hfp_jrl() and ctAccessibility > AccessibilityLevel.None or load_ww_jrl() and has("wwa")) and jrlAccessibility > AccessibilityLevel.None and has("doubloon", 28) and has("ttrain") ) then
-        logic = 7 -- smuggle turbo trainers from JRL, technically requires 28 doubloons
-    elseif ( (load_jrl_tdl() or load_hfp_tdl() and ctAccessibility > AccessibilityLevel.None or load_ww_tdl() and has("wwa")) and tdlAccessibility > AccessibilityLevel.None and has("springb") ) then
-        logic = 7 -- smuggle springy step shoes from TDL, requires entrance rando
-    elseif ( (load_jrl_gi() or load_hfp_gi() and ctAccessibility > AccessibilityLevel.None or load_ww_gi() and has("wwa")) and giAccessibility > AccessibilityLevel.None and has("splitup") and has("clawbts") ) then
-        logic = 7 -- smuggle claw clambers from GI, requires entrance rando, first floor access and split up to get out
+        if ( has("clawbts") and (ctAccessibility == AccessibilityLevel.Normal or ctAccessibility == AccessibilityLevel.Cleared) ) then
+            logic = 1
+        
+        -- Sequence Breaking
+        elseif ( has("clawbts") and ctAccessibility > AccessibilityLevel.None ) then
+            logic = logictype.CurrentStage + 1 -- was already converted once by the json
+        elseif ( (load_jrl_jrl() or load_hfp_jrl() and ctAccessibility > AccessibilityLevel.None or load_ww_jrl() and has("wwa")) and jrlAccessibility > AccessibilityLevel.None and has("doubloon", 28) and has("ttrain") ) then
+            logic = 7 -- smuggle turbo trainers from JRL, technically requires 28 doubloons
+        elseif ( (load_jrl_tdl() or load_hfp_tdl() and ctAccessibility > AccessibilityLevel.None or load_ww_tdl() and has("wwa")) and tdlAccessibility > AccessibilityLevel.None and has("springb") ) then
+            logic = 7 -- smuggle springy step shoes from TDL, requires entrance rando
+        elseif ( (load_jrl_gi() or load_hfp_gi() and ctAccessibility > AccessibilityLevel.None or load_ww_gi() and has("wwa")) and giAccessibility > AccessibilityLevel.None and has("splitup") and has("clawbts") ) then
+            logic = 7 -- smuggle claw clambers from GI, requires entrance rando, first floor access and split up to get out
+        end
     end
     
     return convertLogic(logic, skip)
@@ -5299,6 +5458,8 @@ function nests_GL_lairTop(skip)
         logic = 1
     elseif ( has("arat") or has("flutter") or can_clockworkShot() ) then
         logic = 2
+    elseif ( has("wwing") ) then
+        logic = 7
     end
     
     return convertLogic(logic, skip)
@@ -5380,6 +5541,8 @@ function nests_JV_bottlesDresser(skip)
         logic = 0
     elseif ( can_clockworkShot() ) then
         logic = 2
+    elseif ( has("wwing") ) then
+        logic = 7
     end
     
     return convertLogic(logic, skip)
@@ -5420,6 +5583,8 @@ function nests_CT_difficultAlcove(skip)
         logic = 1
     elseif ( has("flutter") or can_clockworkShot() ) then
         logic = 2
+    elseif ( has("wwing") ) then
+        logic = 7
     end
     
     return convertLogic(logic, skip)
@@ -5466,6 +5631,8 @@ function nests_QM_mediumNearGI(skip)
         logic = 1
     elseif ( can_clockworkShot() ) then
         logic = 2
+    elseif ( has("wwing") ) then
+        logic = 7
     end
     
     return convertLogic(logic, skip)
@@ -5490,6 +5657,8 @@ function nests_QM_hardNearGI(skip)
         logic = 1
     elseif ( can_clockworkShot() ) then
         logic = 2
+    elseif ( has("wwing") ) then
+        logic = 7
     end
     
     return convertLogic(logic, skip)
@@ -5628,7 +5797,7 @@ function glowbo_CT(skip)
         logic = self.climb(state) or (self.clockwork_shot(state) and state.can_reach_region(regionName.IOHCT, self.player))
     --]]
     
-    local ctAccessibility = Tracker:FindObjectForCode("@Cliff Top").AccessibilityLevel
+    local ctAccessibility = Tracker:FindObjectForCode("@Region: Cliff Top").AccessibilityLevel
     
     -- Normal Logic
     if ( has("climb") ) then
@@ -5810,9 +5979,9 @@ function access_MT_prisonCompoundAsBanjo(skip)
     --]]
     
     local prisonCompoundOpen = connector_MT_to_MTPrisonCompound(true)
-    local hfpAccess = Tracker:FindObjectForCode("@Hailfire Peaks - Lava Side").AccessibilityLevel
+    local hfpAccess = Tracker:FindObjectForCode("@Region: Hailfire Peaks - Lava Side").AccessibilityLevel
     local hfpToMT = connector_HFP_to_MTKS(true)
-    local mtJSGAccess = Tracker:FindObjectForCode("@Mayahem Temple - Jade Snake Grove").AccessibilityLevel
+    local mtJSGAccess = Tracker:FindObjectForCode("@Region: Mayahem Temple - Jade Snake Grove").AccessibilityLevel
     
     -- Normal Logic
     if ( prisonCompoundOpen <= logictype.CurrentStage or has("warpmt3") and (has("warpmt1") or has("warpmt2")) or (hfpAccess == AccessibilityLevel.Normal or hfpAccess == AccessibilityLevel.Cleared) and hfpToMT <= logictype.CurrentStage and has("warpmt3") and has("warpmt5") or (mtJSGAccess == AccessibilityLevel.Normal or mtJSGAccess == AccessibilityLevel.Cleared) and has("warpmt3") and has("warpmt4") ) then
@@ -5878,13 +6047,14 @@ function access_MT_kickballStadiumAsBanjo(skip)
             )
     --]]
     
-    local hfpAccess = Tracker:FindObjectForCode("@Hailfire Peaks - Lava Side").AccessibilityLevel
+    local hfpAccess = Tracker:FindObjectForCode("@Region: Hailfire Peaks - Lava Side").AccessibilityLevel
     local hfpToMT = connector_HFP_to_MTKS(true)
     local prisonCompoundAsBanjo = access_MT_prisonCompoundAsBanjo(true)
-    local mtJSGAccess = Tracker:FindObjectForCode("@Mayahem Temple - Jade Snake Grove").AccessibilityLevel
+    local mtJSGAccess = Tracker:FindObjectForCode("@Region: Mayahem Temple - Jade Snake Grove").AccessibilityLevel
+    local humba = access_MT_humba(true)
     
     -- Normal Logic
-    if ( (hfpAccess == AccessibilityLevel.Normal or hfpAccess == AccessibilityLevel.Cleared) and hfpToMT <= logictype.CurrentStage or has("warpmt5") and (has("warpmt1") or has("warpmt2") or has("warpmt3") and prisonCompoundAsBanjo <= logictype.CurrentStage or has("warpmt4") and (mtJSGAccess == AccessibilityLevel.Normal or mtJSGAccess == AccessibilityLevel.Cleared)) ) then
+    if ( (hfpAccess == AccessibilityLevel.Normal or hfpAccess == AccessibilityLevel.Cleared) and hfpToMT <= logictype.CurrentStage or has("warpmt5") and (has("warpmt1") or has("warpmt2") or has("warpmt3") and prisonCompoundAsBanjo <= logictype.CurrentStage or has("warpmt4") and (mtJSGAccess == AccessibilityLevel.Normal or mtJSGAccess == AccessibilityLevel.Cleared)) or has("randomizewarppads_off") and humba <= logictype.CurrentStage ) then
         logic = 0
     
     -- Sequence Breaking
@@ -5911,7 +6081,12 @@ function access_MT_kickballStadiumAsBanjo(skip)
             instantTransform = 7
         end
         
-        logic = math.min(hfpLogic, pcLogic, jsgLogic, instantTransform)
+        local warpsNotRandomized = 99
+        if ( has("randomizewarppads_off") ) then
+            warpsNotRandomized = humba
+        end
+        
+        logic = math.min(hfpLogic, pcLogic, jsgLogic, instantTransform, warpsNotRandomized)
     end
     
     return convertLogic(logic, skip)
@@ -5973,16 +6148,7 @@ function access_MT_humba(skip)
     --]]
     
     if ( has("humbamt") ) then
-        local mtjsgAccessibility = Tracker:FindObjectForCode("@Mayahem Temple - Jade Snake Grove").AccessibilityLevel
-        
-        -- Normal Logic
-        if ( mtjsgAccessibility == AccessibilityLevel.Normal or mtjsgAccessibility == AccessibilityLevel.Cleared ) then
-            logic = 0
-            
-        -- Sequence Breaking
-        elseif ( mtjsgAccessibility > AccessibilityLevel.None ) then
-            logic = logictype.CurrentStage + 1 -- was already converted once by the json
-        end
+        logic = connector_MT_to_MTJadeSnakeGrove(true)
     end
     
     return convertLogic(logic, skip)
@@ -6145,7 +6311,7 @@ function jiggy_MT_treasureChamber(skip)
     
     -- FIXIT: I need to go look at this logic in game myself. it seems a little off, but I could be wrong
     
-    local ungaAccessibility = Tracker:FindObjectForCode("@Terrydactyland - Unga Bungas' Cave").AccessibilityLevel
+    local ungaAccessibility = Tracker:FindObjectForCode("@Region: Terrydactyland - Unga Bungas' Cave").AccessibilityLevel
     
     -- Normal Logic
     if ( has("eggaim") and (has("fflip") or can_reachSlightlyElevatedLedge()) and ((has("ggrab") and has("tjump") and has("fflip") and has("ttrot")) or basic_MT_canUseFlightPad()) ) then
@@ -6917,7 +7083,7 @@ function access_GGM_canReachWaterfallCavernGate(skip)
     -- Normal Logic
     if ( has("ttrain") ) then
         logic = 0
-    elseif ( ggmTrot <= logictype.CurrentStage or canBreakBoulders <= logictype.CurrentStage and has("splitup") or has("warpgm1") and has("warpgm5") ) then
+    elseif ( ggmTrot <= logictype.CurrentStage or canBreakBoulders <= logictype.CurrentStage and has("splitup") or has("warpgm1") and has("warpgm5") or has("randomizewarppads_off") ) then
         logic = 1
         
     -- Sequence Breaking
@@ -7086,6 +7252,8 @@ function warp_GGM_mumbo(skip)
         logic = 1
     elseif ( can_clockworkShot() ) then
         logic = 2
+    elseif ( has("wwing") ) then
+        logic = 7
         
     -- Sequence Breaking
     else
@@ -7468,7 +7636,7 @@ function notes_GGM_nearProspectorsHutEasy(skip)
         logic = True
     --]]
     
-    local mtpcAccessibility = Tracker:FindObjectForCode("@Mayahem Temple - Prison Compound").AccessibilityLevel
+    local mtpcAccessibility = Tracker:FindObjectForCode("@Region: Mayahem Temple - Prison Compound").AccessibilityLevel
     local slopes = access_GGM_slopes(true)
     local freeDilberta = access_MT_canFreeDilberta(true)
     
@@ -7494,7 +7662,7 @@ function notes_GGM_nearProspectorsHutHard(skip) -- FIXIT I need to test to make 
         logic = True
     --]]
     
-    local mtpcAccessibility = Tracker:FindObjectForCode("@Mayahem Temple - Prison Compound").AccessibilityLevel
+    local mtpcAccessibility = Tracker:FindObjectForCode("@Region: Mayahem Temple - Prison Compound").AccessibilityLevel
     local slopes = access_GGM_slopes(true)
     local freeDilberta = access_MT_canFreeDilberta(true)
     
@@ -7535,6 +7703,8 @@ function notes_GGM_nearMumboEasy(skip)
         logic = 1
     elseif ( can_clockworkShot() ) then
         logic = 2
+    elseif ( has("wwing") ) then
+        logic = 7
     
     -- Sequence Breaking
     else
@@ -7566,6 +7736,8 @@ function notes_GGM_nearMumboHard(skip)
         logic = 1
     elseif ( can_clockworkShot() ) then
         logic = 2
+    elseif ( has("wwing") ) then
+        logic = 7
     
     -- Sequence Breaking
     else
@@ -7619,6 +7791,8 @@ function notes_GGM_fuelDepotHard(skip)
         logic = 1
     elseif ( can_clockworkShot() or has("arat") ) then
         logic = 2
+    elseif ( has("wwing") ) then
+        logic = 7
     
     -- Sequence Breaking
     else
@@ -7964,12 +8138,12 @@ function signpost_GGM_chuffysWagon(skip)
                         or self.flight_pad(state))
     --]]
     
-    local ggmAccessibility = Tracker:FindObjectForCode("@Glitter Gulch Mine - Main Area").AccessibilityLevel
-    local wwAccessibility = Tracker:FindObjectForCode("@Witchyworld - Main Area").AccessibilityLevel
-    local tdlAccessibility = Tracker:FindObjectForCode("@Terrydactyland - Main Area").AccessibilityLevel
-    local gif1Accessibility = Tracker:FindObjectForCode("@Grunty Industries 1st Floor").AccessibilityLevel
-    local ctAccessibility = Tracker:FindObjectForCode("@Cliff Top").AccessibilityLevel
-    local hfpAccessibility = Tracker:FindObjectForCode("@Hailfire Peaks - Lava Side").AccessibilityLevel
+    local ggmAccessibility = Tracker:FindObjectForCode("@Region: Glitter Gulch Mine - Main Area").AccessibilityLevel
+    local wwAccessibility = Tracker:FindObjectForCode("@Region: Witchyworld - Main Area").AccessibilityLevel
+    local tdlAccessibility = Tracker:FindObjectForCode("@Region: Terrydactyland - Main Area").AccessibilityLevel
+    local gif1Accessibility = Tracker:FindObjectForCode("@Region: Grunty Industries 1st Floor").AccessibilityLevel
+    local ctAccessibility = Tracker:FindObjectForCode("@Region: Cliff Top").AccessibilityLevel
+    local hfpAccessibility = Tracker:FindObjectForCode("@Region: Hailfire Peaks - Lava Side").AccessibilityLevel
     local ggmAccessTrue = (ggmAccessibility == AccessibilityLevel.Normal or ggmAccessibility == AccessibilityLevel.Cleared)
     local wwAccessTrue = (wwAccessibility == AccessibilityLevel.Normal or wwAccessibility == AccessibilityLevel.Cleared)
     local tdlAccessTrue = (tdlAccessibility == AccessibilityLevel.Normal or tdlAccessibility == AccessibilityLevel.Cleared)
@@ -8332,7 +8506,7 @@ function access_WW_canOpenSaucerDoor(skip)
         elseif ( can_clockworkShot() ) then
             logic = 2
         else
-            local ggmAccessibility = Tracker:FindObjectForCode("@Glitter Gulch Mine - Main Area").AccessibilityLevel
+            local ggmAccessibility = Tracker:FindObjectForCode("@Region: Glitter Gulch Mine - Main Area").AccessibilityLevel
             local humba = access_GGM_humba(true)
             
             if ( (ggmAccessibility == AccessibilityLevel.Normal or ggmAccessibility == AccessibilityLevel.Cleared) and humba <= logictype.CurrentStage and can_reachSmallElevation() and can_shootEggs("ceggs") ) then
@@ -8371,7 +8545,7 @@ function access_WW_warpToHumba(skip)
         )
     --]]
 
-    local wwiAccessibility = Tracker:FindObjectForCode("@Witchyworld - The Inferno").AccessibilityLevel
+    local wwiAccessibility = Tracker:FindObjectForCode("@Region: Witchyworld - The Inferno").AccessibilityLevel
     
     if ( has("warpww4") ) then  
         -- Normal Logic
@@ -8739,7 +8913,7 @@ function jiggy_WW_saucerOfPeril(skip)
                 self.has_explosives(state)
     --]]
     
-    local ggmAccessibility = Tracker:FindObjectForCode("@Glitter Gulch Mine - Main Area").AccessibilityLevel
+    local ggmAccessibility = Tracker:FindObjectForCode("@Region: Glitter Gulch Mine - Main Area").AccessibilityLevel
     local humbaGGM = access_GGM_humba(true)
     local mumboWW = access_WW_mumbo(true)
     local saucerDoor = access_WW_canOpenSaucerDoor(true)
@@ -9210,10 +9384,9 @@ function signpost_WW_pumpRoom(skip)
         logic = 0
     elseif ( explosives <= logictype.CurrentStage and has_packWhack() and has("tjump") ) then
         logic = 1
-    end
     
     -- Sequence Breaking
-    if ( has("fflip") or has_legSpring() or has("splitup") and has("ggrab") or has_packWhack() and has("tjump") ) then
+    elseif ( has("fflip") or has_legSpring() or has("splitup") and has("ggrab") or has_packWhack() and has("tjump") ) then
         logic = math.max(1, explosives)
     end
     
@@ -9479,7 +9652,7 @@ function honeycomb_WW_topOfSpaceZone(skip)
                 or self.clockwork_shot(state) and (self.talon_trot(state) or self.split_up(state))
     --]]
     
-    local ggmfdAccessibility = Tracker:FindObjectForCode("@Glitter Gulch Mine - Fuel Depot Behind the Rocks").AccessibilityLevel
+    local ggmfdAccessibility = Tracker:FindObjectForCode("@Region: Glitter Gulch Mine - Fuel Depot Behind the Rocks").AccessibilityLevel
     local ggmToWW = connector_GGM_to_WW(true)
     
     -- Normal Logic
@@ -9686,7 +9859,7 @@ function other_WW_soggy(skip)
         logic = state.can_reach_region(regionName.WWI, self.player)
     --]]
     
-    local wwiAccessibility = Tracker:FindObjectForCode("@Witchyworld - The Inferno").AccessibilityLevel
+    local wwiAccessibility = Tracker:FindObjectForCode("@Region: Witchyworld - The Inferno").AccessibilityLevel
     
     -- Normal Logic
     if ( wwiAccessibility == AccessibilityLevel.Normal or wwiAccessibility == AccessibilityLevel.Cleared ) then
@@ -9724,7 +9897,7 @@ function other_WW_groggy(skip)
                 and (self.spring_pad(state) or self.leg_spring(state) or self.glide(state))
     --]]
     
-    local wwiAccessibility = Tracker:FindObjectForCode("@Witchyworld - The Inferno").AccessibilityLevel
+    local wwiAccessibility = Tracker:FindObjectForCode("@Region: Witchyworld - The Inferno").AccessibilityLevel
     
     -- Normal Logic
     if ( (wwiAccessibility == AccessibilityLevel.Normal or wwiAccessibility == AccessibilityLevel.Cleared) and has_taxiPack() and has("tjump") ) then
@@ -9753,7 +9926,7 @@ function basic_JRL_canGetAirFromWarping()
             or state.has(itemName.WARPJR4, self.player) and self.dive(state)
     --]]
     
-    return has("warpjr1") or has("warpjr2") and has("dive") or has("warpjr4") and has("dive")
+    return has("randomizewarppads_off") or has("warpjr1") or has("warpjr2") and has("dive") or has("warpjr4") and has("dive")
 end
 
 function access_JRL_canEnterGIWasteDisposal(skip)
@@ -9807,7 +9980,7 @@ function access_JRL_humba(skip)
     --]]
     
     if ( has("humbajr") ) then
-        local jrlAAccessibility = Tracker:FindObjectForCode("@Jolly Roger's Lagoon - Atlantis").AccessibilityLevel
+        local jrlAAccessibility = Tracker:FindObjectForCode("@Region: Jolly Roger's Lagoon - Atlantis").AccessibilityLevel
         
         -- Normal Logic
         if ( jrlAAccessibility == AccessibilityLevel.Normal or jrlAAccessibility == AccessibilityLevel.Cleared ) then
@@ -9876,9 +10049,9 @@ function access_JRL_canEscapeSunkenShip(skip)
     -- Normal Logic
     if ( has("ieggs") and has("mumbojr") and has("auqaim") or jrlHumba <= logictype.CurrentStage ) then
         logic = 0
-    elseif ( has("ieggs") and has("dair") and has("auqaim") and basic_JRL_canGetAirFromWarping() and has("warpjr3") or jrlHumba < 2 ) then
+    elseif ( has("ieggs") and has("dair") and has("auqaim") and basic_JRL_canGetAirFromWarping() and (has("warpjr3") or has("randomizewarppads_off")) or jrlHumba < 2 ) then
         logic = 1
-    elseif ( has("mumbojr") or basic_JRL_canGetAirFromWarping() and has("warpjr3") ) then
+    elseif ( has("mumbojr") or basic_JRL_canGetAirFromWarping() and (has("warpjr3") or has("randomizewarppads_off")) ) then
         logic = 2
         
     -- Sequence Breaking
@@ -9915,9 +10088,9 @@ function access_JRL_canEscapeFromLockerCavern(skip)
     -- Normal Logic
     if ( has("ieggs") and has("mumbojr") and has("auqaim") or jrlHumba <= logictype.CurrentStage ) then
         logic = 0
-    elseif ( has("ieggs") and has("dair") and has("auqaim") and basic_JRL_canGetAirFromWarping() and has("warpjr5") or jrlHumba < 2 ) then
+    elseif ( has("ieggs") and has("dair") and has("auqaim") and basic_JRL_canGetAirFromWarping() and (has("warpjr5") or has("randomizewarppads_off")) or jrlHumba < 2 ) then
         logic = 1
-    elseif ( has("mumbojr") or basic_JRL_canGetAirFromWarping() and has("warpjr5") ) then
+    elseif ( has("mumbojr") or basic_JRL_canGetAirFromWarping() and (has("warpjr5") or has("randomizewarppads_off")) ) then
         logic = 2
         
     -- Sequence Breaking
@@ -10469,6 +10642,8 @@ function notes_JRL_pawnos(skip)
         logic = 1
     elseif ( can_clockworkShot() ) then
         logic = 2
+    elseif ( has("wwing") ) then
+        logic = 7
         
     -- Sequence Breaking
     elseif ( has("splitup") ) then
@@ -10682,7 +10857,7 @@ function nests_JRL_seaweedSanctumOthers(skip)
                 )
      --]]
     
-    local jrlbfcAccessibility = Tracker:FindObjectForCode("@Jolly Roger's Lagoon - Big Fish Cavern").AccessibilityLevel
+    local jrlbfcAccessibility = Tracker:FindObjectForCode("@Region: Jolly Roger's Lagoon - Big Fish Cavern").AccessibilityLevel
     local canClimbSeaweedSanctum = access_JRL_canClimbSeaweedSanctum(true)
     
     -- Normal Logic
@@ -10738,7 +10913,7 @@ function nests_JRL_seaweedSanctumTop(skip)
                 )
      --]]
     
-    local jrlbfcAccessibility = Tracker:FindObjectForCode("@Jolly Roger's Lagoon - Big Fish Cavern").AccessibilityLevel
+    local jrlbfcAccessibility = Tracker:FindObjectForCode("@Region: Jolly Roger's Lagoon - Big Fish Cavern").AccessibilityLevel
     local canClimbSeaweedSanctum = access_JRL_canClimbSeaweedSanctum(true)
     
     -- Normal Logic
@@ -10998,7 +11173,7 @@ function jinjo_JRL_seaweedSanctum(skip)
                 )
      --]]
     
-    local jrlbfcAccessibility = Tracker:FindObjectForCode("@Jolly Roger's Lagoon - Big Fish Cavern").AccessibilityLevel
+    local jrlbfcAccessibility = Tracker:FindObjectForCode("@Region: Jolly Roger's Lagoon - Big Fish Cavern").AccessibilityLevel
     local canClimbSeaweedSanctum = access_JRL_canClimbSeaweedSanctum(true)
     
     -- Normal Logic
@@ -11177,7 +11352,7 @@ function access_TDL_terryFight(skip)
         return self.can_shoot_any_egg(state) and (self.flap_flip(state) or self.egg_aim(state)) and state.can_reach_region(regionName.TLTOP, self.player)
     --]]
     
-    local tdltAccessibility = Tracker:FindObjectForCode("@Terrydactyland - Top").AccessibilityLevel
+    local tdltAccessibility = Tracker:FindObjectForCode("@Region: Terrydactyland - Top").AccessibilityLevel
     
     -- Normal Logic
     if ( has("eggaim") and can_shootLinearEggs() and (tdltAccessibility == AccessibilityLevel.Normal or tdltAccessibility == AccessibilityLevel.Cleared) ) then
@@ -11322,7 +11497,7 @@ function access_TDL_oogleBoogle(skip)
                 or self.clockwork_warp(state)
     --]]
     
-    local wwAccessibility = Tracker:FindObjectForCode("@Witchyworld - Main Area").AccessibilityLevel
+    local wwAccessibility = Tracker:FindObjectForCode("@Region: Witchyworld - Main Area").AccessibilityLevel
     local oogleBooglesOpen = access_TDL_oogleBooglesOpen(true)
     local WW_to_TDL = connector_WW_to_TDL(true)
     
@@ -11387,7 +11562,7 @@ function access_TDL_humba(skip)
     --]]
     
     if ( has("humbatd") and can_reachSmallElevation() ) then
-        logic = 1
+        logic = 0
     elseif ( has("humbatd") ) then
         logic = 1
     end
@@ -11429,14 +11604,14 @@ function access_TDL_warpToMumbo(skip, infiniteLoopStopper)
     --]]
     
     if ( has("warptl3") ) then
-        local tdlSPAccessibility = Tracker:FindObjectForCode("@Terrydactyland - Stomping Plains").AccessibilityLevel
+        local tdlSPAccessibility = Tracker:FindObjectForCode("@Region: Terrydactyland - Stomping Plains").AccessibilityLevel
         local mumboWarp = 99
         if ( infiniteLoopStopper ) then
             mumboWarp = 99
         else
             mumboWarp = warp_TDL_mumbo(true, true)
         end
-        local tdlTAccessibility = Tracker:FindObjectForCode("@Terrydactyland - Top").AccessibilityLevel
+        local tdlTAccessibility = Tracker:FindObjectForCode("@Region: Terrydactyland - Top").AccessibilityLevel
         
         -- Normal Logic
         if ( has("warptl1") or has("warptl2") and (tdlSPAccessibility == AccessibilityLevel.Normal or tdlSPAccessibility == AccessibilityLevel.Cleared) or has("warptl4") and mumboWarp <= logictype.CurrentStage or has("warptl5") and (tdlTAccessibility == AccessibilityLevel.Normal or tdlTAccessibility == AccessibilityLevel.Cleared) ) then
@@ -11478,14 +11653,14 @@ function access_TDL_warpToHumba(skip, infiniteLoopStopper)
     --]]
     
     if ( has("warptl4") ) then
-        local tdlSPAccessibility = Tracker:FindObjectForCode("@Terrydactyland - Stomping Plains").AccessibilityLevel
+        local tdlSPAccessibility = Tracker:FindObjectForCode("@Region: Terrydactyland - Stomping Plains").AccessibilityLevel
         local humbaWarp = 99
         if ( infiniteLoopStopper ) then
             humbaWarp = 99
         else
             humbaWarp = warp_TDL_humba(true, true)
         end
-        local tdlTAccessibility = Tracker:FindObjectForCode("@Terrydactyland - Top").AccessibilityLevel
+        local tdlTAccessibility = Tracker:FindObjectForCode("@Region: Terrydactyland - Top").AccessibilityLevel
         
         -- Normal Logic
         if ( has("warptl1") or has("warptl2") and (tdlSPAccessibility == AccessibilityLevel.Normal or tdlSPAccessibility == AccessibilityLevel.Cleared) or has("warptl3") and humbaWarp <= logictype.CurrentStage or has("warptl5") and (tdlTAccessibility == AccessibilityLevel.Normal or tdlTAccessibility == AccessibilityLevel.Cleared) ) then
@@ -11727,7 +11902,7 @@ function jiggy_TDL_dippy(skip)
         logic = self.talon_torpedo(state) and state.can_reach_region(regionName.CC, self.player)
     --]]
     
-    local cclAccessibility = Tracker:FindObjectForCode("@Cloud Cuckooland - Outside").AccessibilityLevel
+    local cclAccessibility = Tracker:FindObjectForCode("@Region: Cloud Cuckooland").AccessibilityLevel
     
     -- Normal Logic
     if ( has("dive") and has("ttorp") and (cclAccessibility == AccessibilityLevel.Normal or cclAccessibility == AccessibilityLevel.Cleared) ) then
@@ -11942,6 +12117,8 @@ function jiggy_TDL_stompingPlainsAsDuo(skip)
         logic = 1
     elseif ( has("tjump") ) then
         logic = 2
+    elseif ( has("wwing") ) then
+        logic = 7
     end
     
     return convertLogic(logic, skip)
@@ -12087,6 +12264,8 @@ function notes_TDL_nearTrainStationRight(skip)
         logic = 1 -- Sequence Breaking
     elseif ( can_clockworkShot() ) then
         logic = 2
+    elseif ( has("wwing") ) then
+        logic = 7
     
     -- Sequence Breaking
     else
@@ -12272,7 +12451,7 @@ function nests_TDL_waterfallAlcove(skip)
     -- FIXIT this should probably be in logic on easy tricks with the flight pad
     
     local humba = access_TDL_humba(true)
-    local tdltAccessibility = Tracker:FindObjectForCode("@Terrydactyland - Top").AccessibilityLevel
+    local tdltAccessibility = Tracker:FindObjectForCode("@Region: Terrydactyland - Top").AccessibilityLevel
     local mumbo = access_TDL_mumbo(true)
     
     -- Normal Logic
@@ -12355,7 +12534,7 @@ function nests_TDL_trainStation(skip)
         logic = True
     --]]
     
-    local chuffyAccessibility = Tracker:FindObjectForCode("@Inside Chuffy").AccessibilityLevel
+    local chuffyAccessibility = Tracker:FindObjectForCode("@Region: Inside Chuffy").AccessibilityLevel
     
     -- Normal Logic
     if ( can_reachSmallElevation() or has("trainswtd") and (chuffyAccessibility == AccessibilityLevel.Normal or chuffyAccessibility == AccessibilityLevel.Cleared) ) then
@@ -12398,7 +12577,7 @@ function nests_TDL_insideMountainByFlightPad(skip)
                 or self.clockwork_shot(state)
     --]]
     
-    local tdltAccessibility = Tracker:FindObjectForCode("@Terrydactyland - Top").AccessibilityLevel
+    local tdltAccessibility = Tracker:FindObjectForCode("@Region: Terrydactyland - Top").AccessibilityLevel
     
     -- Normal Logic
     if ( has("tjump") or has("ggrab") ) then
@@ -12494,7 +12673,7 @@ function nests_TDL_ungaBungasCaveTop(skip)
     state.can_reach_region(regionName.MT, self.player) and self.jiggy_treasure_chamber(state) or self.small_elevation(state)
     --]]
     
-    local mtAccessibility = Tracker:FindObjectForCode("@Mayahem Temple - Main Area").AccessibilityLevel
+    local mtAccessibility = Tracker:FindObjectForCode("@Region: Mayahem Temple - Main Area").AccessibilityLevel
     local jiggyTreasureChamber = jiggy_MT_treasureChamber(true)
     
     -- Normal Logic
@@ -12534,6 +12713,8 @@ function nests_TDL_stompingPlainsFootprint(skip)
     
     if ( has("tjump") and has("splitup") or has_snoozePack() or has("ttrot") ) then
         logic = 0
+    elseif ( has("wwing") ) then
+        logic = 7
     end
     
     return convertLogic(logic, skip)
@@ -12606,7 +12787,7 @@ function signpost_TDL_insideTopOfMountain(skip)
                 or state.can_reach_region(regionName.TLTOP, self.player)
     --]]
     
-    local tdlTAccessibility = Tracker:FindObjectForCode("@Terrydactyland - Top").AccessibilityLevel
+    local tdlTAccessibility = Tracker:FindObjectForCode("@Region: Terrydactyland - Top").AccessibilityLevel
     
     -- Normal Logic
     if ( (has("tjump") or has("ggrab")) and has("fpad") or tdlTAccessibility == AccessibilityLevel.Normal or tdlTAccessibility == AccessibilityLevel.Cleared ) then
@@ -12818,6 +12999,8 @@ function glowbo_TDL_openLedge(skip)
         logic = 1 -- Sequence Breaking
     elseif ( can_clockworkShot() ) then
         logic = 2
+    elseif ( has("wwing") ) then
+        logic = 7
     
     -- Sequence Breaking
     else
@@ -12964,7 +13147,7 @@ function cheato_TDL_dippyPool(skip)
             and ((self.small_elevation(state) and self.springy_step_shoes(state)) or self.TDL_flight_pad(state))
     --]]
     
-    local ccAccessibility = Tracker:FindObjectForCode("@Cloud Cuckooland - Outside").AccessibilityLevel
+    local ccAccessibility = Tracker:FindObjectForCode("@Region: Cloud Cuckooland").AccessibilityLevel
     local dippyJiggy = jiggy_TDL_dippy(true)
     local flightPad = access_TDL_flightPad(true)
     
@@ -13043,7 +13226,7 @@ function cheato_TDL_boulderByMumbo(skip)
     --]]
     
     local flightPad = access_TDL_flightPad(true)
-    local tdltAccessibility = Tracker:FindObjectForCode("@Terrydactyland - Top").AccessibilityLevel
+    local tdltAccessibility = Tracker:FindObjectForCode("@Region: Terrydactyland - Top").AccessibilityLevel
     
     -- Normal Logic
     if ( has_billDrill() and has("fflip") and has("ggrab") ) then
@@ -13166,7 +13349,7 @@ function access_GI_flightPadSwitch(skip)
                 or self.humbaGI(state)
     --]]
     
-    local gi4Accessibility = Tracker:FindObjectForCode("@Grunty Industries 4th Floor").AccessibilityLevel
+    local gi4Accessibility = Tracker:FindObjectForCode("@Region: Grunty Industries 4th Floor").AccessibilityLevel
     local humba = access_GI_humba(true)
     
     -- Normal Logic
@@ -13261,9 +13444,9 @@ function access_GI_enterFloor3FromFireExit(skip)
             or state.can_reach_region(regionName.GIR, self.player) and self.roof_to_upper_floors(state)
     --]]
     
-    local giobAccessibility = Tracker:FindObjectForCode("@Outside Grunty Industries - Behind the building").AccessibilityLevel
-    local gi4Accessibility = Tracker:FindObjectForCode("@Grunty Industries 4th Floor").AccessibilityLevel
-    local girAccessibility = Tracker:FindObjectForCode("@Grunty Industries Roof").AccessibilityLevel
+    local giobAccessibility = Tracker:FindObjectForCode("@Region: Outside Grunty Industries - Behind the building").AccessibilityLevel
+    local gi4Accessibility = Tracker:FindObjectForCode("@Region: Grunty Industries 4th Floor").AccessibilityLevel
+    local girAccessibility = Tracker:FindObjectForCode("@Region: Grunty Industries Roof").AccessibilityLevel
     local giob = connector_GIOBack_to_GIF3(true)
     local gif4 = connector_GIF4_to_GIF3(true)
     local roof = connector_GIRoof_to_GIF3_or_GIF4(true)
@@ -13383,7 +13566,7 @@ function access_GI_mumbo(skip)
     --]]
     
     if ( has("mumbogi") and can_reachSmallElevation() ) then
-        local gi3Accessibility = Tracker:FindObjectForCode("@Grunty Industries 3rd Floor").AccessibilityLevel
+        local gi3Accessibility = Tracker:FindObjectForCode("@Region: Grunty Industries 3rd Floor").AccessibilityLevel
         
         -- Normal Logic
         if ( gi3Accessibility == AccessibilityLevel.Normal or gi3Accessibility == AccessibilityLevel.Cleared ) then
@@ -13405,7 +13588,7 @@ function access_GI_humba(skip)
     --]]
     
     if ( has("humbagi") ) then
-        local gi2Accessibility = Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel
+        local gi2Accessibility = Tracker:FindObjectForCode("@Region: Grunty Industries 2nd Floor").AccessibilityLevel
         
         -- Normal Logic
         if ( gi2Accessibility == AccessibilityLevel.Normal or gi2Accessibility == AccessibilityLevel.Cleared ) then
@@ -13456,17 +13639,17 @@ function access_GI_canBeatWeldar(skip)
     local extremelyLongJump = can_extremelyLongJump(true)
     
     -- Normal Logic
-    if ( basic_GI_canUseBattery() and mumbo <= logictype.CurrentStage and humba <= logictype.CurrentStage and can_shootEggs("geggs") and has_billDrill() and has("climb") and has("fflip") and has("ggrab") and has("warpgi2") and has("warpgi3") ) then
+    if ( basic_GI_canUseBattery() and mumbo <= logictype.CurrentStage and humba <= logictype.CurrentStage and can_shootEggs("geggs") and has_billDrill() and has("climb") and has("fflip") and has("ggrab") and (has("warpgi2") and has("warpgi3") or has("randomizewarppads_off")) ) then
         logic = 0
-    elseif ( basic_GI_canUseBattery() and mumbo <= logictype.CurrentStage and humba <= logictype.CurrentStage and can_shootEggs("geggs") and has_billDrill() and has("climb") and has("fflip") and has("warpgi2") and has("warpgi3") and has("tjump") and (has("flutter") or has("arat")) ) then
+    elseif ( basic_GI_canUseBattery() and mumbo <= logictype.CurrentStage and humba <= logictype.CurrentStage and can_shootEggs("geggs") and has_billDrill() and has("climb") and has("fflip") and (has("warpgi2") and has("warpgi3") or has("randomizewarppads_off")) and has("tjump") and (has("flutter") or has("arat")) ) then
         logic = 1
-    elseif ( basic_GI_canUseBattery() and mumbo < 2 and humba < 2 and can_shootEggs("geggs") and has_billDrill() and has("climb") and has("fflip") and has("ggrab") and has("warpgi2") and has("warpgi3") ) then
+    elseif ( basic_GI_canUseBattery() and mumbo < 2 and humba < 2 and can_shootEggs("geggs") and has_billDrill() and has("climb") and has("fflip") and has("ggrab") and (has("warpgi2") and has("warpgi3") or has("randomizewarppads_off")) ) then
         logic = 1 -- Sequence Breaking
-    elseif ( basic_GI_canUseBattery() and mumbo <= logictype.CurrentStage and humba <= logictype.CurrentStage and can_shootEggs("geggs") and has_billDrill() and has("climb") and has("fflip") and has("warpgi2") and has("warpgi3") and extremelyLongJump <= logictype.CurrentStage ) then
+    elseif ( basic_GI_canUseBattery() and mumbo <= logictype.CurrentStage and humba <= logictype.CurrentStage and can_shootEggs("geggs") and has_billDrill() and has("climb") and has("fflip") and (has("warpgi2") and has("warpgi3") or has("randomizewarppads_off")) and extremelyLongJump <= logictype.CurrentStage ) then
         logic = 2
     
     -- Sequence Breaking
-    elseif ( basic_GI_canUseBattery() and can_shootEggs("geggs") and has_billDrill() and has("climb") and has("fflip") and has("warpgi2") and has("warpgi3") ) then
+    elseif ( basic_GI_canUseBattery() and can_shootEggs("geggs") and has_billDrill() and has("climb") and has("fflip") and (has("warpgi2") and has("warpgi3") or has("randomizewarppads_off")) ) then
         local nonLongJump = 99
         if ( has("ggrab") or has("tjump") and (has("flutter") or has("arat")) ) then
             nonLongJump = 1
@@ -13512,8 +13695,8 @@ function access_GI_floor2SkivvySwitch(skip)
                         or self.small_elevation(state) and self.split_up(state) and self.leg_spring(state))
      --]]
    
-    local gi2Accessibility = Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel
-    local gi3Accessibility = Tracker:FindObjectForCode("@Grunty Industries 3rd Floor").AccessibilityLevel
+    local gi2Accessibility = Tracker:FindObjectForCode("@Region: Grunty Industries 2nd Floor").AccessibilityLevel
+    local gi3Accessibility = Tracker:FindObjectForCode("@Region: Grunty Industries 3rd Floor").AccessibilityLevel
     local gi2Accessible = (gi2Accessibility == AccessibilityLevel.Normal or gi2Accessibility == AccessibilityLevel.Cleared)
     local gi3Accessible = (gi3Accessibility == AccessibilityLevel.Normal or gi3Accessibility == AccessibilityLevel.Cleared)
     local floor2SplitUp = access_GI_floor2SplitUp(true)
@@ -13642,7 +13825,7 @@ function warp_GI_floor1(skip)
     --]]
     
     local giwAccessibility = Tracker:FindObjectForCode("@Grunty Industries Warps").AccessibilityLevel
-    local gioAccessibility = Tracker:FindObjectForCode("@Outside Grunty Industries").AccessibilityLevel
+    local gioAccessibility = Tracker:FindObjectForCode("@Region: Outside Grunty Industries").AccessibilityLevel
     
     if ( has("splitup") or has("warpgi1") and (giwAccessibility == AccessibilityLevel.Normal or giwAccessibility == AccessibilityLevel.Cleared) ) then
         logic = 0 -- Normal Logic
@@ -13740,7 +13923,7 @@ function jiggy_GI_clinkers(skip)
                     or self.climb(state))
     --]]
     
-    local giesAccessibility = Tracker:FindObjectForCode("@Grunty Industries Elevator Shaft").AccessibilityLevel
+    local giesAccessibility = Tracker:FindObjectForCode("@Region: Grunty Industries Elevator Shaft").AccessibilityLevel
     local elevatorShaftToF4 = connector_GIElevatorShaft_to_GIF4Back(true)
     
     -- Normal Logic
@@ -13902,7 +14085,7 @@ function jiggy_GI_guarded(skip)
                 or (self.claw_clamber_boots(state) or state.can_reach_region(regionName.GI2, self.player)) and (self.spring_pad(state) or self.leg_spring(state)) and self.clockwork_shot(state)
     --]]
     
-    local gi2Accessibility = Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel
+    local gi2Accessibility = Tracker:FindObjectForCode("@Region: Grunty Industries 2nd Floor").AccessibilityLevel
     
     -- Normal Logic
     if ( has("splitup") and has("clawbts") and has("eggaim") and (can_shootEggs("begg") or can_shootEggs("feggs") or can_shootEggs("geggs")) and (has("tjump") or has_wingWhack() or has_glide()) ) then
@@ -13973,7 +14156,7 @@ function jiggy_GI_twinkly(skip)
                     or self.turbo_trainers(state))
     --]]
     
-    local gifAccessibility = Tracker:FindObjectForCode("@Grunty Industries Flight").AccessibilityLevel
+    local gifAccessibility = Tracker:FindObjectForCode("@Region: Grunty Industries Flight").AccessibilityLevel
     local flightToBoilerPlant = connector_GIFlight_to_GIF3BoilerPlant(true)
     
     -- Normal Logic
@@ -14046,8 +14229,8 @@ function treble_GI(skip)
                 or self.clockwork_shot(state)
     --]]
     
-    local gi1Accessibility = Tracker:FindObjectForCode("@Grunty Industries 1st Floor").AccessibilityLevel
-    local gifAccessibility = Tracker:FindObjectForCode("@Grunty Industries Flight").AccessibilityLevel
+    local gi1Accessibility = Tracker:FindObjectForCode("@Region: Grunty Industries 1st Floor").AccessibilityLevel
+    local gifAccessibility = Tracker:FindObjectForCode("@Region: Grunty Industries Flight").AccessibilityLevel
     
     -- Normal Logic
     if ( (gi1Accessibility == AccessibilityLevel.Normal or gi1Accessibility == AccessibilityLevel.Cleared) and has("splitup") and has("clawbts") or (gifAccessibility == AccessibilityLevel.Normal or gifAccessibility == AccessibilityLevel.Cleared) ) then
@@ -14368,11 +14551,11 @@ function nests_GI_outsideRight(skip)
                 or self.clockwork_shot(state)
     --]]
     
-    local gioAccessibility = Tracker:FindObjectForCode("@Outside Grunty Industries").AccessibilityLevel
-    local giobAccessibility = Tracker:FindObjectForCode("@Outside Grunty Industries - Behind the building").AccessibilityLevel
-    local gi1Accessibility = Tracker:FindObjectForCode("@Grunty Industries 1st Floor").AccessibilityLevel
-    local gi2Accessibility = Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel
-    local gifAccessibility = Tracker:FindObjectForCode("@Grunty Industries Flight").AccessibilityLevel
+    local gioAccessibility = Tracker:FindObjectForCode("@Region: Outside Grunty Industries").AccessibilityLevel
+    local giobAccessibility = Tracker:FindObjectForCode("@Region: Outside Grunty Industries - Behind the building").AccessibilityLevel
+    local gi1Accessibility = Tracker:FindObjectForCode("@Region: Grunty Industries 1st Floor").AccessibilityLevel
+    local gi2Accessibility = Tracker:FindObjectForCode("@Region: Grunty Industries 2nd Floor").AccessibilityLevel
+    local gifAccessibility = Tracker:FindObjectForCode("@Region: Grunty Industries Flight").AccessibilityLevel
     local outsideToBack = connector_GIO_to_GIOBack(true)
     local floor2SplitUp = access_GI_floor2SplitUp(true)
     
@@ -14449,10 +14632,10 @@ function nests_GI_outsideLeft(skip)
                 or self.clockwork_shot(state)
     --]]
     
-    local giobAccessibility = Tracker:FindObjectForCode("@Outside Grunty Industries - Behind the building").AccessibilityLevel
-    local gi1Accessibility = Tracker:FindObjectForCode("@Grunty Industries 1st Floor").AccessibilityLevel
-    local gi2Accessibility = Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel
-    local gifAccessibility = Tracker:FindObjectForCode("@Grunty Industries Flight").AccessibilityLevel
+    local giobAccessibility = Tracker:FindObjectForCode("@Region: Outside Grunty Industries - Behind the building").AccessibilityLevel
+    local gi1Accessibility = Tracker:FindObjectForCode("@Region: Grunty Industries 1st Floor").AccessibilityLevel
+    local gi2Accessibility = Tracker:FindObjectForCode("@Region: Grunty Industries 2nd Floor").AccessibilityLevel
+    local gifAccessibility = Tracker:FindObjectForCode("@Region: Grunty Industries Flight").AccessibilityLevel
     local outsideToBack = connector_GIO_to_GIOBack(true)
     local floor2SplitUp = access_GI_floor2SplitUp(true)
     
@@ -14513,7 +14696,7 @@ function nests_GI_floor1TopPipe(skip)
                     or self.claw_clamber_boots(state) and (self.wing_whack(state) or self.glide(state)) and (self.egg_aim(state) or self.wing_whack(state)))
     --]]
     
-    local gi2Accessibility = Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel
+    local gi2Accessibility = Tracker:FindObjectForCode("@Region: Grunty Industries 2nd Floor").AccessibilityLevel
     local outsideToBack = connector_GIO_to_GIOBack(true)
     local floor2SplitUp = access_GI_floor2SplitUp(true)
     
@@ -14550,7 +14733,7 @@ function nests_GI_floor1HighPipe(skip)
                 or self.claw_clamber_boots(state) and (self.wing_whack(state) or self.glide(state)) and (self.egg_aim(state) or self.wing_whack(state))
     --]]
     
-    local gi2Accessibility = Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel
+    local gi2Accessibility = Tracker:FindObjectForCode("@Region: Grunty Industries 2nd Floor").AccessibilityLevel
     local f2tof1 = connector_GIF2_to_GIF1(true)
     local floor2SplitUp = access_GI_floor2SplitUp(true)
     
@@ -14759,9 +14942,9 @@ function nests_GI_elevatorShaftF2(skip)
                 or state.can_reach_region(regionName.GI4B, self.player) and (self.health_upgrades(state, 2) or self.beak_buster(state)) and self.floor_4_back_to_elevator_shaft(state)
      --]]
     
-    local gi2emAccessibility = Tracker:FindObjectForCode("@Grunty Industries 2nd Floor - Electromagnetic Chamber").AccessibilityLevel
-    local gi3bpAccessibility = Tracker:FindObjectForCode("@Grunty Industries 3rd Floor - Boiler Plant").AccessibilityLevel
-    local gi4bAccessibility = Tracker:FindObjectForCode("@Grunty Industries 4th Floor - Past the Crushers").AccessibilityLevel
+    local gi2emAccessibility = Tracker:FindObjectForCode("@Region: Grunty Industries 2nd Floor - Electromagnetic Chamber").AccessibilityLevel
+    local gi3bpAccessibility = Tracker:FindObjectForCode("@Region: Grunty Industries 3rd Floor - Boiler Plant").AccessibilityLevel
+    local gi4bAccessibility = Tracker:FindObjectForCode("@Region: Grunty Industries 4th Floor - Past the Crushers").AccessibilityLevel
     local f2emToES = connector_GIF2ElectromagneticChamber_to_GIElevatorShaft(true)
     local f3bpToES = connector_GIF3BoilerPlant_to_GIElevatorShaft(true)
     local f4bToES = connector_GIF4Back_to_GIElevatorShaft(true)
@@ -14833,8 +15016,8 @@ function nests_GI_elevatorShaftF3(skip)
                 or state.can_reach_region(regionName.GI4B, self.player) and self.floor_4_back_to_elevator_shaft(state)
     --]]
     
-    local gi3bpAccessibility = Tracker:FindObjectForCode("@Grunty Industries 3rd Floor - Boiler Plant").AccessibilityLevel
-    local gi4bAccessibility = Tracker:FindObjectForCode("@Grunty Industries 4th Floor - Past the Crushers").AccessibilityLevel
+    local gi3bpAccessibility = Tracker:FindObjectForCode("@Region: Grunty Industries 3rd Floor - Boiler Plant").AccessibilityLevel
+    local gi4bAccessibility = Tracker:FindObjectForCode("@Region: Grunty Industries 4th Floor - Past the Crushers").AccessibilityLevel
     local f3bpToES = connector_GIF3BoilerPlant_to_GIElevatorShaft(true)
     local f4bToES = connector_GIF4Back_to_GIElevatorShaft(true)
     
@@ -14887,7 +15070,7 @@ function nests_GI_elevatorShaftF4(skip)
                 or state.can_reach_region(regionName.GI4B, self.player) and self.floor_4_back_to_elevator_shaft(state)
     --]]
     
-    local gi4bAccessibility = Tracker:FindObjectForCode("@Grunty Industries 4th Floor - Past the Crushers").AccessibilityLevel
+    local gi4bAccessibility = Tracker:FindObjectForCode("@Region: Grunty Industries 4th Floor - Past the Crushers").AccessibilityLevel
     local f4bToES = connector_GIF4Back_to_GIElevatorShaft(true)
     
     -- Normal Logic
@@ -14944,8 +15127,8 @@ function nests_GI_floor2OnScaffolding(skip)
                 or self.clockwork_shot(state)
     --]]
     
-    local gi2Accessibility = Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel
-    local gi3Accessibility = Tracker:FindObjectForCode("@Grunty Industries 3rd Floor").AccessibilityLevel
+    local gi2Accessibility = Tracker:FindObjectForCode("@Region: Grunty Industries 2nd Floor").AccessibilityLevel
+    local gi3Accessibility = Tracker:FindObjectForCode("@Region: Grunty Industries 3rd Floor").AccessibilityLevel
     local floor2SplitUp = access_GI_floor2SplitUp(true)
     
     -- Normal Logic
@@ -15029,7 +15212,7 @@ function nests_GI_floor2emChamber(skip)
                 or self.clockwork_shot(state)
     --]]
     
-    local gi2Accessibility = Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel
+    local gi2Accessibility = Tracker:FindObjectForCode("@Region: Grunty Industries 2nd Floor").AccessibilityLevel
     local f2ToEM = connector_GIF2_to_GIF2ElectromagneticChamber(true)
     
     -- Normal Logic
@@ -15355,7 +15538,7 @@ function nests_GI_floor4outsideQC(skip)
                 or state.can_reach_region(regionName.GIES, self.player) and self.elevator_shaft_to_floor_4(state)
     --]]
     
-    local giesAccessibility = Tracker:FindObjectForCode("@Grunty Industries Elevator Shaft").AccessibilityLevel
+    local giesAccessibility = Tracker:FindObjectForCode("@Region: Grunty Industries Elevator Shaft").AccessibilityLevel
     local esToF4B = connector_GIElevatorShaft_to_GIF4Back(true)
     
     -- Normal Logic
@@ -15581,7 +15764,7 @@ function nests_GI_sewerEntrance(skip)
                 or self.climb(state))
     --]]
     
-    local giesAccessibility = Tracker:FindObjectForCode("@Grunty Industries Elevator Shaft").AccessibilityLevel
+    local giesAccessibility = Tracker:FindObjectForCode("@Region: Grunty Industries Elevator Shaft").AccessibilityLevel
     local esToF4B = connector_GIElevatorShaft_to_GIF4Back(true)
     
     -- Normal Logic
@@ -15628,11 +15811,11 @@ function signs_GI_outside(skip)
                 or state.can_reach_region(regionName.GIF, self.player)
     --]]
     
-    local gioAccessibility = Tracker:FindObjectForCode("@Outside Grunty Industries").AccessibilityLevel
-    local giobAccessibility = Tracker:FindObjectForCode("@Outside Grunty Industries - Behind the building").AccessibilityLevel
-    local gi1Accessibility = Tracker:FindObjectForCode("@Grunty Industries 1st Floor").AccessibilityLevel
-    local gi2Accessibility = Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel
-    local gifAccessibility = Tracker:FindObjectForCode("@Grunty Industries Flight").AccessibilityLevel
+    local gioAccessibility = Tracker:FindObjectForCode("@Region: Outside Grunty Industries").AccessibilityLevel
+    local giobAccessibility = Tracker:FindObjectForCode("@Region: Outside Grunty Industries - Behind the building").AccessibilityLevel
+    local gi1Accessibility = Tracker:FindObjectForCode("@Region: Grunty Industries 1st Floor").AccessibilityLevel
+    local gi2Accessibility = Tracker:FindObjectForCode("@Region: Grunty Industries 2nd Floor").AccessibilityLevel
+    local gifAccessibility = Tracker:FindObjectForCode("@Region: Grunty Industries Flight").AccessibilityLevel
     local outsideToBack = connector_GIO_to_GIOBack(true)
     local floor2SplitUp = access_GI_floor2SplitUp(true)
     
@@ -15783,16 +15966,15 @@ function jinjo_GI_boiler(skip)
                 or self.clockwork_shot(state)
     --]]
     
-    local gifAccessibility = Tracker:FindObjectForCode("@Grunty Industries Flight").AccessibilityLevel
-    local gi3Accessibility = Tracker:FindObjectForCode("@Grunty Industries 3rd Floor").AccessibilityLevel
+    local gifAccessibility = Tracker:FindObjectForCode("@Region: Grunty Industries Flight").AccessibilityLevel
     local flightToBoilerPlant = connector_GIFlight_to_GIF3BoilerPlant(true)
     
     -- Normal Logic
     if ( (gifAccessibility == AccessibilityLevel.Normal or gifAccessibility == AccessibilityLevel.Cleared) and flightToBoilerPlant <= logictype.CurrentStage ) then
         logic = 0
-    elseif ( (gi3Accessibility == AccessibilityLevel.Normal or gi3Accessibility == AccessibilityLevel.Cleared) and can_reachSmallElevation() and has_legSpring() and has_glide() ) then
+    elseif ( can_reachSmallElevation() and has_legSpring() and has_glide() ) then
         logic = 1
-    elseif ( (gifAccessibility == AccessibilityLevel.Normal or gifAccessibility == AccessibilityLevel.Cleared) and flightToBoilerPlant < 2 or logictype.CurrentStage == 0 and gifAccessibility > AccessibilityLevel.None and flightToBoilerPlant < 2 ) then
+    elseif ( (gifAccessibility == AccessibilityLevel.Normal or gifAccessibility == AccessibilityLevel.Cleared or logictype.CurrentStage == 0 and gifAccessibility > AccessibilityLevel.None) and flightToBoilerPlant < 2 ) then
         logic = 1 -- Sequence Breaking
     elseif ( can_clockworkShot() ) then
         logic = 2
@@ -15806,12 +15988,7 @@ function jinjo_GI_boiler(skip)
             flight = math.max(flightToBoilerPlant, logictype.CurrentStage + 1)
         end
         
-        local f3 = 99
-        if ( gi3Accessibility > AccessibilityLevel.None and can_reachSmallElevation() and has_legSpring() and has_glide() ) then
-            f3 = logictype.CurrentStage + 1
-        end
-        
-        logic = math.max(1, math.min(flight, f3))
+        logic = math.max(1, flight)
     end
     
     return convertLogic(logic, skip)
@@ -15839,9 +16016,9 @@ function jinjo_GI_outside(skip)
                 or (state.can_reach_region(regionName.GIOB, self.player) and self.claw_clamber_boots(state) or state.can_reach_region(regionName.GIR, self.player)) and self.egg_barge(state)
      --]]
     
-    local gi2Accessibility = Tracker:FindObjectForCode("@Grunty Industries 2nd Floor").AccessibilityLevel
-    local girAccessibility = Tracker:FindObjectForCode("@Grunty Industries Roof").AccessibilityLevel
-    local giobAccessibility = Tracker:FindObjectForCode("@Outside Grunty Industries - Behind the building").AccessibilityLevel
+    local gi2Accessibility = Tracker:FindObjectForCode("@Region: Grunty Industries 2nd Floor").AccessibilityLevel
+    local girAccessibility = Tracker:FindObjectForCode("@Region: Grunty Industries Roof").AccessibilityLevel
+    local giobAccessibility = Tracker:FindObjectForCode("@Region: Outside Grunty Industries - Behind the building").AccessibilityLevel
     local floor2SplitUp = access_GI_floor2SplitUp(true)
     
     -- Normal Logic
@@ -15933,7 +16110,7 @@ function glowbo_GI_floor3(skip)
                 or self.tall_jump(state) and (self.wing_whack(state) or self.glide(state))
      --]]
      
-    local gi3bpAccessibility = Tracker:FindObjectForCode("@Grunty Industries 3rd Floor - Boiler Plant").AccessibilityLevel
+    local gi3bpAccessibility = Tracker:FindObjectForCode("@Region: Grunty Industries 3rd Floor - Boiler Plant").AccessibilityLevel
     local floor3SplitUp = access_GI_floor3SplitUp(true)
     
     -- Normal Logic
@@ -16116,8 +16293,8 @@ function cheato_GI_window(skip)
                 or self.clockwork_shot(state)
     --]]
     
-    local gifAccessibility = Tracker:FindObjectForCode("@Grunty Industries Flight").AccessibilityLevel
-    local gi1Accessibility = Tracker:FindObjectForCode("@Grunty Industries 1st Floor").AccessibilityLevel
+    local gifAccessibility = Tracker:FindObjectForCode("@Region: Grunty Industries Flight").AccessibilityLevel
+    local gi1Accessibility = Tracker:FindObjectForCode("@Region: Grunty Industries 1st Floor").AccessibilityLevel
     
     -- Normal Logic
     if ( (gifAccessibility == AccessibilityLevel.Normal or gifAccessibility == AccessibilityLevel.Cleared) and (has("eggaim") or has("aireaim") or has("bbomb")) ) then
@@ -16187,7 +16364,7 @@ function other_GI_skivvyFloor1(skip)
                     or self.egg_aim(state))
     --]]
     
-    local gifAccessibility = Tracker:FindObjectForCode("@Grunty Industries Flight").AccessibilityLevel
+    local gifAccessibility = Tracker:FindObjectForCode("@Region: Grunty Industries Flight").AccessibilityLevel
     local humba = access_GI_humba(true)
     local skivvySwitch = access_GI_floor2SkivvySwitch(true)
     
@@ -16311,7 +16488,7 @@ function access_HFP_canCoolHotWater(skip)
     --]]
     
     if ( has("splitup") and (has("dive") or has_shackPack()) ) then
-        local hfpAccessibility = Tracker:FindObjectForCode("@Hailfire Peaks - Lava Side").AccessibilityLevel
+        local hfpAccessibility = Tracker:FindObjectForCode("@Region: Hailfire Peaks - Lava Side").AccessibilityLevel
         
         if ( has("backdoorsopen_on") ) then
             -- Normal Logic
@@ -16323,7 +16500,7 @@ function access_HFP_canCoolHotWater(skip)
                 logic = logictype.CurrentStage + 1 -- was already converted once by the json
             end
         else
-            local ccAccessibility = Tracker:FindObjectForCode("@Cloud Cuckooland - Outside").AccessibilityLevel
+            local ccAccessibility = Tracker:FindObjectForCode("@Region: Cloud Cuckooland").AccessibilityLevel
             
             -- Normal Logic
             if ( (hfpAccessibility == AccessibilityLevel.Normal or hfpAccessibility == AccessibilityLevel.Cleared) and (ccAccessibility == AccessibilityLevel.Normal or ccAccessibility == AccessibilityLevel.Cleared) ) then
@@ -16383,7 +16560,7 @@ function access_HFP_lavaSideTop(skip)
         )
     --]]
     
-    local chuffyAccessibility = Tracker:FindObjectForCode("@Inside Chuffy").AccessibilityLevel
+    local chuffyAccessibility = Tracker:FindObjectForCode("@Region: Inside Chuffy").AccessibilityLevel
     local explosives = can_shootExplosiveEggs(true)
     local dragonKazooie = can_getDragonKazooie(true)
     
@@ -16497,7 +16674,7 @@ function access_HFP_icySideTrainStation(skip)
                 and (self.claw_clamber_boots(state) or self.flight_pad(state))
      --]]
     
-    local wwAccessibility = Tracker:FindObjectForCode("@Witchyworld - Main Area").AccessibilityLevel
+    local wwAccessibility = Tracker:FindObjectForCode("@Region: Witchyworld - Main Area").AccessibilityLevel
     local canBeatKingCoal = chuffy_canBeatKingCoal(true)
     
     -- Normal Logic
@@ -16740,14 +16917,17 @@ function jiggy_HFP_sabreman(skip)
     --]]
     
     local top = access_HFP_lavaSideTop(true)
+    local hasFire = can_useFire(true)
     
     -- Normal Logic
     if ( has("mumbohp") and can_shootEggs("feggs") and has_taxiPack() and has("tjump") and top <= logictype.CurrentStage ) then
         logic = 0
+    elseif ( has("mumbohp") and hasFire <= logictype.CurrentStage and has_taxiPack() and has("tjump") and top <= logictype.CurrentStage ) then
+        logic = 1
     
     -- Sequence Breaking
-    elseif ( has("mumbohp") and can_shootEggs("feggs") and has_taxiPack() and has("tjump") ) then
-        logic = top
+    elseif ( has("mumbohp") and has_taxiPack() and has("tjump") ) then
+        logic = math.max(1, hasFire, top)
     end
     
     return convertLogic(logic, skip)
@@ -16874,7 +17054,7 @@ function jiggy_HFP_fromStompingPlains(skip)
                         or self.flap_flip(state)))
     --]]
     
-    local hfpAccessibility = Tracker:FindObjectForCode("@Hailfire Peaks - Lava Side").AccessibilityLevel
+    local hfpAccessibility = Tracker:FindObjectForCode("@Region: Hailfire Peaks - Lava Side").AccessibilityLevel
     
     -- Normal Logic
     if ( has_snoozePack() and has("tjump") ) then
@@ -17247,6 +17427,8 @@ function notes_HFP_icySideBoggy(skip)
         logic = 0
     elseif ( top <= logictype.CurrentStage and (pairCube <= logictype.CurrentStage and has("bbust") or soloKazooieCube <= logictype.CurrentStage and (has_legSpring() or has("tjump")) or has("mumbohp") and has("tjump") or has_packWhack() or humba <= logictype.CurrentStage) ) then
         logic = 1
+    elseif ( has("wwing") ) then
+        logic = 7
     
     -- Sequence Breaking
     else
@@ -17786,6 +17968,8 @@ function glowbo_HFP_icySide(skip)
         logic = 0
     elseif ( hfpTop <= logictype.CurrentStage ) then
         logic = 2
+    elseif ( has("wwing") ) then
+        logic = 7
         
     -- Sequence Breaking
     else
@@ -18370,7 +18554,7 @@ function jiggy_CCL_canaryMary(skip)
     self.canary_mary_free(state) and state.can_reach_region(regionName.GM, self.player)
     --]]
     
-    local ggmAccessibility = Tracker:FindObjectForCode("@Glitter Gulch Mine - Main Area").AccessibilityLevel
+    local ggmAccessibility = Tracker:FindObjectForCode("@Region: Glitter Gulch Mine - Main Area").AccessibilityLevel
     local canaryMary = jiggy_GGM_canFreeCanaryMary(true)
     
     -- Normal Logic
@@ -18514,7 +18698,7 @@ function notes_CCL_sackPackSilo(skip)
             or self.clockwork_eggs(state)
     --]]
     
-    if ( has_shackPack() and (basic_CCL_canUseFloatus() or has("warpcc1") and has("warpcc2")) ) then
+    if ( has_shackPack() and (basic_CCL_canUseFloatus() or has("randomizewarppads_off") or has("warpcc1") and has("warpcc2")) ) then
         logic = 0
     elseif ( can_shootEggs("ceggs") ) then
         logic = 1
@@ -18879,7 +19063,7 @@ function signs_CCL_sackPackSilo(skip)
             )
     --]]
     
-    if ( has_shackPack() and (basic_CCL_canUseFloatus() or has("warpcc1") and has("warpcc2")) ) then
+    if ( has_shackPack() and (basic_CCL_canUseFloatus() or has("randomizewarppads_off") or has("warpcc1") and has("warpcc2")) ) then
         logic = 0
     end
     
@@ -19285,6 +19469,27 @@ ScriptHost:AddWatchForCode("warpswatch37", "warpcc2", toggleWarps)
 ScriptHost:AddWatchForCode("warpswatch38", "warpck1", toggleWarps)
 ScriptHost:AddWatchForCode("warpswatch39", "warpck2", toggleWarps)
 
+-- mousepace stuff
+ScriptHost:AddWatchForCode("bosswatch1", "eggshoot", toggleBossMoves)
+ScriptHost:AddWatchForCode("bosswatch2", "amazeogaze", toggleBossMoves)
+ScriptHost:AddWatchForCode("bosswatch3", "eggaim", toggleBossMoves)
+ScriptHost:AddWatchForCode("bosswatch4", "bblaster", toggleBossMoves)
+ScriptHost:AddWatchForCode("bosswatch5", "fpad", toggleBossMoves)
+ScriptHost:AddWatchForCode("bosswatch6", "aireaim", toggleBossMoves)
+ScriptHost:AddWatchForCode("bosswatch7", "geggs", toggleBossMoves)
+ScriptHost:AddWatchForCode("bosswatch8", "dive", toggleBossMoves)
+ScriptHost:AddWatchForCode("bosswatch9", "humbajr", toggleBossMoves)
+ScriptHost:AddWatchForCode("bosswatch10", "auqaim", toggleBossMoves)
+ScriptHost:AddWatchForCode("bosswatch11", "springb", toggleBossMoves)
+ScriptHost:AddWatchForCode("bosswatch12", "clawbts", toggleBossMoves)
+ScriptHost:AddWatchForCode("bosswatch13", "ieggs", toggleBossMoves)
+ScriptHost:AddWatchForCode("bosswatch14", "feggs", toggleBossMoves)
+ScriptHost:AddWatchForCode("bosswatch15", "cca", toggleBossMoves)
+
+-- layout override stuff
+ScriptHost:AddWatchForCode("layoutoverride1", "entrancerando", overrideLayouts)
+ScriptHost:AddWatchForCode("layoutoverride2", "randomizewarppads", overrideLayouts)
+
 ---------------------------------------- 
 
 --[[
@@ -19304,12 +19509,16 @@ list of moves/items that cannot under any circumstances be used without other mo
 
 --]]
 
+-- FIXIT list
+-- JRL "underwater - here" section has a seemee that should be in the smuggler's cavern areas instead
+
 --[[
 
 Mia's List of Known Bugs in the AP Logic:
 
+- [Mayahem Temple] In both the Prison Compound and Jade Snake Grove, if you can warp to those areas, the basic checks there are not in logic (the connectors don't account for warping, only the harder to acquire checks do)
 - [Glitter Gulch Mine - Most Boulders] All boulders logic require the ability to get up a small elevation in order to bill drill them. However, every boulder in the toxic cave, plus the boulder near mumbo's, plus every boulder in the power hut area, can all be broken with just bill drill alone
-- [Glitter Gulch Mine - Anything that requires small elevation] There are a lot of checks that require small elevation, but the function for that does not account for smuggling talon trot
+- [Glitter Gulch Mine - Anything that requires small elevation] There are a lot of checks that require small elevation, but the function for that does not account for smuggling talon trot (this includes entering Chuffy!)
 - [Glitter Gulch Mine - Mumbo anything] Checks for small elevation but does not account for the fact that you can smuggle talon trot for that elevation on any difficulty
 - [Witchyworld - Pump Room Entrance Honeycomb] You don't need small elevation; you can jump up the barrel and then into the room without tall jump
 - [Terrydactyland - Taxi Pack Silo] erroneously has tall jump outside of the function brackets, accidentally making all tricks require it instead of only some

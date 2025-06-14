@@ -43,7 +43,7 @@
                                 "type": "layout",
                                 "h_alignment": "center",
                                 "v_alignment": "center",
-                                "key": "access_grid_ws"
+                                "key": "access_grid"
                             }
                         },
                         {
@@ -62,12 +62,10 @@
                 },
                 {
                     "type": "dock",
-                    "content": [
-                        {
-                            "type": "layout",
-                            "key": "tabbed_maps_ws"
-                        }
-                    ]
+                    "content": {
+                        "type": "layout",
+                        "key": "tabbed_maps"
+                    }
                 }
             ]
         }
