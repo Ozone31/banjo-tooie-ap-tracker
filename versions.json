@@ -1,6 +1,14 @@
 {
 	"versions": [
 		{
+			"package_version": "0.9.3",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.9.3",
+			"sha256": "91d74d7b8c5efc9db5f88c1b3553361f9993247a86682a62a58014a48e2840e2",
+			"changelog": [
+				"Fixed a mistyping of Cloud Cuckooland's region name, which was causing any Isle o' Hags locations connected to it to be considered accessible."
+			]
+		},
+		{
 			"package_version": "0.9.2",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.9.2",
 			"sha256": "7a7e1a09f2add78eb47a9061696094d39b7549c47aaba407b059e9eabfeb71e6",
