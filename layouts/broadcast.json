@@ -18,7 +18,8 @@
               [ "fpad", "bbomb", "dive", "dair", "fswim", "ttorp", "", "bblaster", "bbayonet" ],
               [ "eggshoot", "eggaim", "aireaim", "auqaim", "begg", "feggs", "geggs", "ieggs", "ceggs" ],
               [ "packwh", "taxpack", "snpack", "shpack", "sapack", "wwhack", "hatch", "lspring", "glide" ],
-              [ "splitup", "amazeogaze", "roar", "homingeggs", "cheatfeather", "cheategg", "cheatfall", "cheathoney", "cheatjuke" ]
+              [ "splitup", "amazeogaze", "roar", "homingeggs", "cheatfeather", "cheategg", "cheatfall", "cheathoney", "" ],
+              [ "", "chuffy", "trainswww", "trainswtd", "trainswgi", "trainswhp1", "trainswhp2", "trainswih", "" ]
             ]
           },
           {
@@ -40,9 +41,8 @@
               [ "mta", "gga", "wwa", "jra", "tda", "gia", "hfa", "cca", "cka" ],
               [ "mumbomt", "mumbogm", "mumboww", "mumbojr", "mumbotd", "mumbogi", "mumbohp", "mumbocc", "mumboih" ],
               [ "humbamt", "humbagm", "humbaww", "humbajr", "humbatd", "humbagi", "humbahp", "humbacc", "humbaih" ],
-              [ "", "chuffy", "trainswww", "trainswtd", "trainswgi", "trainswhp1", "trainswhp2", "trainswih" ],
-              [ "", "siloiohjv", "siloiohwh", "siloiohpl", "siloiohpg", "siloiohct", "siloiohwl", "siloiohqm" ],
-              [ "warpsmt", "warpsgm", "warpsww", "warpsjr", "warpstl", "warpsgi", "warpshp", "warpscc", "warpsck" ]
+              [ "warpsmt", "warpsgm", "warpsww", "warpsjr", "warpstl", "warpsgi", "warpshp", "warpscc", "warpsck" ],
+              [ "", "siloiohjv", "siloiohwh", "siloiohpl", "siloiohpg", "siloiohct", "siloiohwl", "siloiohqm" ]
             ]
           }
         ]

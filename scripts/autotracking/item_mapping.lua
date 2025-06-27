@@ -166,5 +166,8 @@ ITEM_MAPPING = {
     [1230918] = {"cheategg", "toggle"},
     [1230919] = {"cheatfall", "toggle"},
     [1230920] = {"cheathoney", "toggle"},
-    [1230921] = {"cheatjuke", "toggle"}
+    [1230921] = {"cheatjuke", "toggle"},
+    [1230922] = {"ticket", "consumable"},
+    [1230923] = {"greenrelic", "consumable"},
+    [1230924] = {"bean", "consumable"}
 }

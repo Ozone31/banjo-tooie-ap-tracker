@@ -1,0 +1,2191 @@
+[
+  {
+    "name": "Overworld - Witchyworld",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "children": [
+      {
+        "name": "Witchyworld - Silos & Warps",
+        "sections": [
+          {
+            "ref": "Witchyworld - Main Area/WW: Airborne Egg Aiming Silo/Silo",
+            "name": "WW: Airborne Egg Aiming Silo"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Split Up Silo/Silo",
+            "name": "WW: Split Up Silo"
+          },
+          {
+            "ref": "Witchyworld - Crazy Castle Stockade/WW: Pack Whack Silo/Silo",
+            "name": "WW: Pack Whack Silo"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Entrance Warp Pad/Warp Pad",
+            "name": "WW: Entrance Warp Pad"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Big Top Tent Warp Pad/Warp Pad",
+            "name": "WW: Big Top Tent Warp Pad"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Space Zone Warp Pad/Warp Pad",
+            "name": "WW: Space Zone Warp Pad"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Humba's Wigwam Warp Pad/Warp Pad",
+            "name": "WW: Humba's Wigwam Warp Pad"
+          },
+          {
+            "ref": "Witchyworld - The Inferno/WW: The Inferno Warp Pad/Warp Pad",
+            "name": "WW: The Inferno Warp Pad"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 473,
+            "y": 290
+          }
+        ]
+      },
+      {
+        "name": "Witchyworld - Jiggies",
+        "sections": [
+          {
+            "ref": "Witchyworld - Crazy Castle Stockade/Crazy Castle/Hoop Hurry Jiggy",
+            "name": "WW: Hoop Hurry Jiggy"
+          },
+          {
+            "ref": "Witchyworld - Main Area/Dodgem Dome/Jiggy",
+            "name": "WW: Dodgem Dome Jiggy"
+          },
+          {
+            "ref": "Boss Arena - Mr. Patch/Big Top Interior/Mr. Patch Jiggy",
+            "name": "WW: Mr. Patch Jiggy"
+          },
+          {
+            "ref": "Witchyworld - Saucer of Peril/Saucer of Peril/Jiggy",
+            "name": "WW: Saucer of Peril Jiggy"
+          },
+          {
+            "ref": "Witchyworld - Crazy Castle Stockade/Crazy Castle/Balloon Burst Jiggy",
+            "name": "WW: Balloon Burst Jiggy"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Dive of Death Jiggy/Jiggy",
+            "name": "WW: Dive of Death Jiggy"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Mrs. Boggy Jiggy/Jiggy",
+            "name": "WW: Mrs. Boggy Jiggy"
+          },
+          {
+            "ref": "Witchyworld - Main Area/Star Spinner Jiggy/Jiggy",
+            "name": "WW: Star Spinner Jiggy"
+          },
+          {
+            "ref": "Witchyworld - The Inferno/WW: The Inferno Jiggy/Jiggy",
+            "name": "WW: The Inferno Jiggy"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Cactus of Strength Jiggy/Jiggy",
+            "name": "WW: Cactus of Strength Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 551,
+            "y": 290
+          }
+        ]
+      },
+      {
+        "name": "Witchyworld - Notes",
+        "sections": [
+          {
+            "ref": "Witchyworld - Main Area/WW: Treble Clef/Treble Clef",
+            "name": "WW: Treble Clef"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Around the Tent Note 1/Note",
+            "name": "WW: Around the Tent Note 1"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Around the Tent Note 2/Note",
+            "name": "WW: Around the Tent Note 2"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Around the Tent Note 3/Note",
+            "name": "WW: Around the Tent Note 3"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Around the Tent Note 4/Note",
+            "name": "WW: Around the Tent Note 4"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Around the Tent Note 5/Note",
+            "name": "WW: Around the Tent Note 5"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Around the Tent Note 6/Note",
+            "name": "WW: Around the Tent Note 6"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Around the Tent Note 7/Note",
+            "name": "WW: Around the Tent Note 7"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Around the Tent Note 8/Note",
+            "name": "WW: Around the Tent Note 8"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Area 51 Gate Notes/Left Note",
+            "name": "WW: Area 51 Gate Left Note"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Area 51 Gate Notes/Right Note",
+            "name": "WW: Area 51 Gate Right Note"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Outside Dodgem Dome Notes/Note 1",
+            "name": "WW: Outside Dodgem Dome Note 1"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Outside Dodgem Dome Notes/Note 2",
+            "name": "WW: Outside Dodgem Dome Note 2"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Dive of Death Notes/Note 1",
+            "name": "WW: Dive of Death Note 1"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Dive of Death Notes/Note 2",
+            "name": "WW: Dive of Death Note 2"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Crazy Castle Entrance Notes/Note 1",
+            "name": "WW: Crazy Castle Entrance Note 1"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Crazy Castle Entrance Notes/Note 2",
+            "name": "WW: Crazy Castle Entrance Note 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 621,
+            "y": 290
+          }
+        ]
+      },
+      {
+        "name": "Witchyworld - Other",
+        "sections": [
+          {
+            "ref": "Witchyworld - Main Area/WW: Big Top Jinjo/Jinjo",
+            "name": "WW: Big Top Jinjo"
+          },
+          {
+            "ref": "Witchyworld - The Haunted Cavern/Cave of Horrors/Jinjo (Grenade Eggs)",
+            "name": "WW: Cave of Horrors Jinjo"
+          },
+          {
+            "ref": "Witchyworld - Area 51 Egg Nests/WW: Van Door Jinjo/Jinjo",
+            "name": "WW: Van Door Jinjo"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Dodgem Dome Jinjo/Jinjo",
+            "name": "WW: Dodgem Dome Jinjo"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Cactus of Strength Jinjo/Jinjo",
+            "name": "WW: Cactus of Strength Jinjo"
+          },
+          {
+            "ref": "Witchyworld - The Inferno/WW: The Inferno Glowbo/Glowbo",
+            "name": "WW: The Inferno Glowbo"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Wumba's Glowbo/Glowbo",
+            "name": "WW: Wumba's Glowbo"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Space Zone Honeycomb/Honeycomb",
+            "name": "WW: Space Zone Honeycomb"
+          },
+          {
+            "ref": "Witchyworld - The Inferno/Mumbo's Skull/Honeycomb",
+            "name": "WW: Mumbo Skull Honeycomb"
+          },
+          {
+            "ref": "Witchyworld - Crazy Castle Stockade/WW: Crazy Castle Honeycomb/Honeycomb",
+            "name": "WW: Crazy Castle Honeycomb"
+          },
+          {
+            "ref": "Witchyworld - The Haunted Cavern/WW: The Haunted Cavern Cheato Page/Cheato Page",
+            "name": "WW: The Haunted Cavern Cheato Page"
+          },
+          {
+            "ref": "Witchyworld - The Inferno/WW: The Inferno Cheato Page/Cheato Page",
+            "name": "WW: The Inferno Cheato Page"
+          },
+          {
+            "ref": "Witchyworld - Saucer of Peril/Saucer of Peril/Cheato Page",
+            "name": "WW: Saucer of Peril Cheato Page"
+          },
+          {
+            "ref": "Witchyworld - Main Area/Train Station (Witchyworld)/Train Switch",
+            "name": "WW: Train Switch"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Moggy/Moggy (Area 51, Cave of Horrors, or inside Dodgem Dome)",
+            "name": "WW: Moggy"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Soggy/Soggy (inside Star Spinner building, The Inferno, or by the Crazy Castle)",
+            "name": "WW: Soggy"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Groggy/Groggy (Train Station, The Inferno, or outside the Dodgem Dome)",
+            "name": "WW: Groggy"
+          },
+          {
+            "ref": "Boss Arena - Mr. Patch/Big Top Interior/Mr. Patch Mumbo Token",
+            "name": "WW: Mr. Patch Mumbo Token"
+          },
+          {
+            "ref": "Witchyworld - Crazy Castle Stockade/Crazy Castle/Hoop Hurry Mumbo Token",
+            "name": "WW: Hoop Hurry Mumbo Token"
+          },
+          {
+            "ref": "Witchyworld - Main Area/Dodgem Dome/Mumbo Token",
+            "name": "WW: Dodgem Dome Mumbo Token"
+          },
+          {
+            "ref": "Witchyworld - Saucer of Peril/Saucer of Peril/Mumbo Token",
+            "name": "WW: Saucer of Peril Mumbo Token"
+          },
+          {
+            "ref": "Witchyworld - Crazy Castle Stockade/Crazy Castle/Balloon Burst Mumbo Token",
+            "name": "WW: Balloon Burst Mumbo Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 691,
+            "y": 290
+          }
+        ]
+      },
+      {
+        "name": "Witchyworld - Nests",
+        "sections": [
+          {
+            "ref": "Witchyworld - Main Area/WW: Near Mrs Boggy Egg Nests/Egg Nest 1",
+            "name": "WW: Near Mrs Boggy Egg Nest 1"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Near Mrs Boggy Egg Nests/Egg Nest 2",
+            "name": "WW: Near Mrs Boggy Egg Nest 2"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Outside Star Spinner Egg Nests 1/Egg Nest 1",
+            "name": "WW: Outside Star Spinner Egg Nest 1"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Outside Star Spinner Egg Nests 2/Egg Nest 2",
+            "name": "WW: Outside Star Spinner Egg Nest 2"
+          },
+          {
+            "ref": "Witchyworld - Area 51 Egg Nests/WW: Area 51 Egg Nests/Egg Nest 1",
+            "name": "WW: Area 51 Egg Nest 1"
+          },
+          {
+            "ref": "Witchyworld - Area 51 Egg Nests/WW: Area 51 Egg Nests/Egg Nest 2",
+            "name": "WW: Area 51 Egg Nest 2"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: On Big Top Support Feather Nest 1/Feather Nest",
+            "name": "WW: On Big Top Support Feather Nest 1"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: On Big Top Support Feather Nest 2/Feather Nest",
+            "name": "WW: On Big Top Support Feather Nest 2"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: On Big Top Support Feather Nest 3/Feather Nest",
+            "name": "WW: On Big Top Support Feather Nest 3"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: On Big Top Support Feather Nest 4/Feather Nest",
+            "name": "WW: On Big Top Support Feather Nest 4"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: On Big Top Support Feather Nest 5/Feather Nest",
+            "name": "WW: On Big Top Support Feather Nest 5"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: On Big Top Support Feather Nest 6/Feather Nest",
+            "name": "WW: On Big Top Support Feather Nest 6"
+          },
+          {
+            "ref": "Witchyworld - Crazy Castle Stockade/WW: Crazy Castle Stockade Egg Nests/Egg Nest 1",
+            "name": "WW: Crazy Castle Stockade Egg Nest 1"
+          },
+          {
+            "ref": "Witchyworld - Crazy Castle Stockade/WW: Crazy Castle Stockade Egg Nests/Egg Nest 1",
+            "name": "WW: Crazy Castle Stockade Egg Nest 2"
+          },
+          {
+            "ref": "Witchyworld - Crazy Castle Stockade/Crazy Castle Pump Room/Feather Nest 1",
+            "name": "WW: Pump Room Feather Nest 1"
+          },
+          {
+            "ref": "Witchyworld - Crazy Castle Stockade/Crazy Castle Pump Room/Feather Nest 2",
+            "name": "WW: Pump Room Feather Nest 2"
+          },
+          {
+            "ref": "Witchyworld - Main Area/Star Spinner Nests/Egg Nest",
+            "name": "WW: Star Spinner Egg Nest"
+          },
+          {
+            "ref": "Witchyworld - Main Area/Star Spinner Nests/Feather Nest 1",
+            "name": "WW: Star Spinner Feather Nest 1"
+          },
+          {
+            "ref": "Witchyworld - Main Area/Star Spinner Nests/Feather Nest 2",
+            "name": "WW: Star Spinner Feather Nest 2"
+          },
+          {
+            "ref": "Witchyworld - The Inferno/WW: Inferno Egg Nests/Egg Nest 1",
+            "name": "WW: Inferno Egg Nest 1"
+          },
+          {
+            "ref": "Witchyworld - The Inferno/WW: Inferno Egg Nests/Egg Nest 2",
+            "name": "WW: Inferno Egg Nest 2"
+          },
+          {
+            "ref": "Witchyworld - The Haunted Cavern/WW: The Haunted Cavern Egg Nests/Egg Nest 1",
+            "name": "WW: The Haunted Cavern Egg Nest 1"
+          },
+          {
+            "ref": "Witchyworld - The Haunted Cavern/WW: The Haunted Cavern Egg Nests/Egg Nest 2",
+            "name": "WW: The Haunted Cavern Egg Nest 2"
+          },
+          {
+            "ref": "Witchyworld - The Haunted Cavern/WW: The Haunted Cavern Egg Nests/Egg Nest 3",
+            "name": "WW: The Haunted Cavern Egg Nest 3"
+          },
+          {
+            "ref": "Witchyworld - Main Area/Train Station (Witchyworld)/Egg Nest 1",
+            "name": "WW: Train Station Egg Nest 1"
+          },
+          {
+            "ref": "Witchyworld - Main Area/Train Station (Witchyworld)/Egg Nest 2",
+            "name": "WW: Train Station Egg Nest 2"
+          },
+          {
+            "ref": "Boss Arena - Mr. Patch/Big Top Interior/Left Pack Feather Nest 1",
+            "name": "WW: Big Top Left Pack Feather Nest 1"
+          },
+          {
+            "ref": "Boss Arena - Mr. Patch/Big Top Interior/Left Pack Egg Nest 1",
+            "name": "WW: Big Top Left Pack Egg Nest 1"
+          },
+          {
+            "ref": "Boss Arena - Mr. Patch/Big Top Interior/Right Pack Feather Nest 1",
+            "name": "WW: Big Top Right Pack Feather Nest 1"
+          },
+          {
+            "ref": "Boss Arena - Mr. Patch/Big Top Interior/Right Pack Egg Nest 1",
+            "name": "WW: Big Top Right Pack Egg Nest 1"
+          },
+          {
+            "ref": "Boss Arena - Mr. Patch/Big Top Interior/Right Pack Feather Nest 2",
+            "name": "WW: Big Top Right Pack Feather Nest 2"
+          },
+          {
+            "ref": "Boss Arena - Mr. Patch/Big Top Interior/Left Pack Feather Nest 2",
+            "name": "WW: Big Top Left Pack Feather Nest 2"
+          },
+          {
+            "ref": "Boss Arena - Mr. Patch/Big Top Interior/Left Pack Egg Nest 2",
+            "name": "WW: Big Top Left Pack Egg Nest 2"
+          },
+          {
+            "ref": "Boss Arena - Mr. Patch/Big Top Interior/Right Pack Egg Nest 2",
+            "name": "WW: Big Top Right Pack Egg Nest 2"
+          },
+          {
+            "ref": "Boss Arena - Mr. Patch/Big Top Interior/Back Pack Feather Nest 1",
+            "name": "WW: Big Top Back Pack Feather Nest 1"
+          },
+          {
+            "ref": "Boss Arena - Mr. Patch/Big Top Interior/Back Pack Egg Nest 1",
+            "name": "WW: Big Top Back Pack Egg Nest 1"
+          },
+          {
+            "ref": "Boss Arena - Mr. Patch/Big Top Interior/Back Pack Egg Nest 2",
+            "name": "WW: Big Top Back Pack Egg Nest 2"
+          },
+          {
+            "ref": "Boss Arena - Mr. Patch/Big Top Interior/Back Pack Feather Nest 2",
+            "name": "WW: Big Top Back Pack Feather Nest 2"
+          },
+          {
+            "ref": "Boss Arena - Mr. Patch/Big Top Interior/Front Pack Egg Nest 1",
+            "name": "WW: Big Top Front Pack Egg Nest 1"
+          },
+          {
+            "ref": "Boss Arena - Mr. Patch/Big Top Interior/Front Pack Feather Nest 1",
+            "name": "WW: Big Top Front Pack Feather Nest 1"
+          },
+          {
+            "ref": "Boss Arena - Mr. Patch/Big Top Interior/Front Pack Feather Nest 2",
+            "name": "WW: Big Top Front Pack Feather Nest 2"
+          },
+          {
+            "ref": "Boss Arena - Mr. Patch/Big Top Interior/Front Pack Egg Nest 2",
+            "name": "WW: Big Top Front Pack Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 770,
+            "y": 290
+          }
+        ]
+      },
+      {
+        "name": "Witchyworld - Signposts",
+        "sections": [
+          {
+            "ref": "Witchyworld - Main Area/WW: Dodgem Dome Signpost/Signpost",
+            "name": "WW: Dodgem Dome Signpost"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Madame Grunty Signpost/Signpost",
+            "name": "WW: Madame Grunty Signpost"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Burger Stand Signpost/Signpost",
+            "name": "WW: Burger Stand Signpost"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Fries Stand Signpost/Signpost",
+            "name": "WW: Fries Stand Signpost"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Cactus of Strength Signpost/Signpost",
+            "name": "WW: Cactus of Strength Signpost"
+          },
+          {
+            "ref": "Witchyworld - Crazy Castle Stockade/Crazy Castle Pump Room/Signpost",
+            "name": "WW: Pump Room Signpost"
+          },
+          {
+            "ref": "Witchyworld - The Haunted Cavern/Cave of Horrors/Gobi Cage Signpost (Grenade Eggs)",
+            "name": "WW: Gobi Cage Signpost"
+          },
+          {
+            "ref": "Witchyworld - The Haunted Cavern/WW: The Haunted Caverns Signpost/Signpost",
+            "name": "WW: The Haunted Caverns Signpost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 849,
+            "y": 290
+          }
+        ]
+      },
+      {
+        "name": "Witchyworld - Big Top Tickets",
+        "sections": [
+          {
+            "ref": "Witchyworld - Main Area/WW: Around the Tent Note 1/Entrance Big Top Ticket",
+            "name": "WW: Entrance Big Top Ticket"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Around the Tent Note 3/Space Zone Big Top Ticket",
+            "name": "WW: Space Zone Big Top Ticket"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Around the Tent Note 5/Spooky Big Top Ticket",
+            "name": "WW: Spooky Big Top Ticket"
+          },
+          {
+            "ref": "Witchyworld - Main Area/WW: Around the Tent Note 7/Western Big Top Ticket",
+            "name": "WW: Western Big Top Ticket"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 919,
+            "y": 290
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Witchyworld - Main Area",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Region: Witchyworld - Main Area" ],
+    "children": [
+      {
+        "name": "WW: Entrance Warp Pad",
+        "sections": [
+          {
+            "name": "Warp Pad",
+            "chest_unopened_img": "/images/locations/warp.png",
+            "chest_opened_img": "/images/locations/warp2.png",
+            "visibility_rules": ["randomizewarppads_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 105,
+            "y": 315
+          }
+        ]
+      },
+      {
+        "name": "WW: Big Top Tent Warp Pad",
+        "sections": [
+          {
+            "name": "Warp Pad",
+            "chest_unopened_img": "/images/locations/warp.png",
+            "chest_opened_img": "/images/locations/warp2.png",
+            "visibility_rules": ["randomizewarppads_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 480,
+            "y": 375
+          }
+        ]
+      },
+      {
+        "name": "WW: Space Zone Warp Pad",
+        "sections": [
+          {
+            "name": "Warp Pad",
+            "chest_unopened_img": "/images/locations/warp.png",
+            "chest_opened_img": "/images/locations/warp2.png",
+            "visibility_rules": ["randomizewarppads_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 360,
+            "y": 70
+          }
+        ]
+      },
+      {
+        "name": "WW: Humba's Wigwam Warp Pad",
+        "sections": [
+          {
+            "name": "Warp Pad",
+            "chest_unopened_img": "/images/locations/warp.png",
+            "chest_opened_img": "/images/locations/warp2.png",
+            "visibility_rules": ["randomizewarppads_on"],
+            "access_rules": ["^$warp_WW_humba"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 500,
+            "y": 608
+          }
+        ]
+      },
+      {
+        "name": "WW: Moggy",
+        "sections": [
+          {
+            "name": "Moggy (Area 51, Cave of Horrors, or inside Dodgem Dome)",
+            "chest_unopened_img": "/images/locations/honeycombcheck.png",
+            "chest_opened_img": "/images/locations/honeycombcheck2.png",
+            "access_rules": ["^$other_WW_moggy"],
+            "visibility_rules": ["mousepace_off"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 50,
+            "y": 60
+          }
+        ]
+      },
+      {
+        "name": "WW: Soggy",
+        "sections": [
+          {
+            "name": "Soggy (inside Star Spinner building, The Inferno, or by the Crazy Castle)",
+            "chest_unopened_img": "/images/locations/honeycombcheck.png",
+            "chest_opened_img": "/images/locations/honeycombcheck2.png",
+            "access_rules": ["^$other_WW_soggy"],
+            "visibility_rules": ["mousepace_off"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 50,
+            "y": 75
+          }
+        ]
+      },
+      {
+        "name": "WW: Groggy",
+        "sections": [
+          {
+            "name": "Groggy (Train Station, The Inferno, or outside the Dodgem Dome)",
+            "chest_unopened_img": "/images/locations/honeycombcheck.png",
+            "chest_opened_img": "/images/locations/honeycombcheck2.png",
+            "access_rules": ["^$other_WW_groggy"],
+            "visibility_rules": ["mousepace_off"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 50,
+            "y": 90
+          }
+        ]
+      },
+      {
+        "name": "WW: Mrs. Boggy Jiggy",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": ["^$jiggy_WW_mrsBoggy"],
+            "visibility_rules": ["mousepace_off"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 175,
+            "y": 285
+          }
+        ]
+      },
+      {
+        "name": "WW: Cactus of Strength Jiggy",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": ["^$jiggy_WW_cactusOfStrength"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 320,
+            "y": 560
+          }
+        ]
+      },
+      {
+        "name": "WW: Cactus of Strength Jinjo",
+        "sections": [
+          {
+            "name": "Jinjo",
+            "chest_unopened_img": "/images/locations/jinjo.png",
+            "chest_opened_img": "/images/locations/jinjo2.png",
+            "access_rules": ["^$jinjo_WW_nearCactusOfStrength"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 350,
+            "y": 630
+          }
+        ]
+      },
+      {
+        "name": "WW: Big Top Jinjo",
+        "sections": [
+          {
+            "name": "Jinjo",
+            "chest_unopened_img": "/images/locations/jinjo.png",
+            "chest_opened_img": "/images/locations/jinjo2.png",
+            "access_rules": ["^$jinjo_WW_onBigTop"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 417,
+            "y": 322
+          }
+        ]
+      },
+      {
+        "name": "WW: Dodgem Dome Jinjo",
+        "sections": [
+          {
+            "name": "Jinjo",
+            "chest_unopened_img": "/images/locations/jinjo.png",
+            "chest_opened_img": "/images/locations/jinjo2.png",
+            "access_rules": ["^$jinjo_WW_onDodgemDome"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 190,
+            "y": 80
+          }
+        ]
+      },
+      {
+        "name": "WW: Wumba's Glowbo",
+        "sections": [
+          {
+            "name": "Glowbo",
+            "chest_unopened_img": "/images/locations/glowbo.png",
+            "chest_opened_img": "/images/locations/glowbo2.png",
+            "access_rules": ["^$glowbo_WW_humbasWigwam"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 545,
+            "y": 608
+          }
+        ]
+      },
+      {
+        "name": "WW: Split Up Silo",
+        "sections": [
+          {
+            "name": "Silo",
+            "chest_unopened_img": "/images/locations/silo.png",
+            "chest_opened_img": "/images/locations/silo2.png",
+            "access_rules": [ "^$silo_WW_splitUp" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 465,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "WW: Airborne Egg Aiming Silo",
+        "chest_unopened_img": "/images/locations/silo.png",
+        "chest_opened_img": "/images/locations/silo2.png",
+        "sections": [
+          {
+            "name": "Silo",
+            "access_rules": [ "^$silo_WW_airborneEggAiming" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 290,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "WW: Treble Clef",
+        "chest_unopened_img": "/images/locations/treble.png",
+        "chest_opened_img": "/images/locations/treble2.png",
+        "sections": [
+          {
+            "name": "Treble Clef",
+            "access_rules": [ "^$treble_WW" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 495,
+            "y": 95
+          }
+        ]
+      },
+      {
+        "name": "WW: Dive of Death Jiggy",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": ["^$jiggy_WW_diveOfDeath"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 680,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Star Spinner Jiggy",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": ["^$jiggy_WW_starSpinner"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 420,
+            "y": 70
+          }
+        ]
+      },
+      {
+        "name": "Star Spinner Nests",
+        "sections": [
+          {
+            "name": "Egg Nest",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"]
+          },
+          {
+            "name": "Feather Nest 1",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png",
+            "visibility_rules": ["nestsanity_on"]
+          },
+          {
+            "name": "Feather Nest 2",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png",
+            "visibility_rules": ["nestsanity_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 420,
+            "y": 85
+          }
+        ]
+      },
+      {
+        "name": "Dodgem Dome",
+        "access_rules": [ "^$jiggy_WW_dodgem" ],
+        "visibility_rules": ["mousepace_off"],
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png"
+          },
+          {
+            "name": "Mumbo Token",
+            "chest_unopened_img": "/images/locations/mumbotoken.png",
+            "chest_opened_img": "/images/locations/mumbotoken2.png",
+            "visibility_rules": [ "goal_minigame", "goal_wwing" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 245,
+            "y": 90
+          }
+        ]
+      },
+      {
+        "name": "Train Station (Witchyworld)",
+        "sections": [
+          {
+            "name": "Train Switch",
+            "chest_unopened_img": "/images/locations/tswitch.png",
+            "chest_opened_img": "/images/locations/tswitch2.png",
+            "access_rules": ["^$trainSwitch_WW"]
+          },
+          {
+            "name": "Egg Nest 1",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"]
+          },
+          {
+            "name": "Egg Nest 2",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 700,
+            "y": 420
+          }
+        ]
+      },
+      {
+        "name": "WW: Around the Tent Note 1",
+        "sections": [
+          {
+            "name": "Note",
+            "chest_unopened_img": "/images/locations/note.png",
+            "chest_opened_img": "/images/locations/note2.png"
+          },
+          {
+            "name": "Entrance Big Top Ticket",
+            "chest_unopened_img": "/images/items/big_top_ticket.png",
+            "chest_opened_img": "/images/locations/big_top_ticket2.png",
+            "visibility_rules": ["bossentranceitems_tickets", "bossentranceitems_both"],
+            "access_rules": ["^$other_WW_tickets"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 312,
+            "y": 358
+          }
+        ]
+      },
+      {
+        "name": "WW: Around the Tent Note 8",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "sections": [
+          {
+            "name": "Note"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 330,
+            "y": 470
+          }
+        ]
+      },
+      {
+        "name": "WW: Around the Tent Note 7",
+        "sections": [
+          {
+            "name": "Note",
+            "chest_unopened_img": "/images/locations/note.png",
+            "chest_opened_img": "/images/locations/note2.png"
+          },
+          {
+            "name": "Western Big Top Ticket",
+            "chest_unopened_img": "/images/items/big_top_ticket.png",
+            "chest_opened_img": "/images/locations/big_top_ticket2.png",
+            "visibility_rules": ["bossentranceitems_tickets", "bossentranceitems_both"],
+            "access_rules": ["^$other_WW_tickets"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 418,
+            "y": 505
+          }
+        ]
+      },
+      {
+        "name": "WW: Around the Tent Note 6",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "sections": [
+          {
+            "name": "Note"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 498,
+            "y": 470
+          }
+        ]
+      },
+      {
+        "name": "WW: Around the Tent Note 5",
+        "sections": [
+          {
+            "name": "Note",
+            "chest_unopened_img": "/images/locations/note.png",
+            "chest_opened_img": "/images/locations/note2.png"
+          },
+          {
+            "name": "Spooky Big Top Ticket",
+            "chest_unopened_img": "/images/items/big_top_ticket.png",
+            "chest_opened_img": "/images/locations/big_top_ticket2.png",
+            "visibility_rules": ["bossentranceitems_tickets", "bossentranceitems_both"],
+            "access_rules": ["^$other_WW_tickets"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 520,
+            "y": 358
+          }
+        ]
+      },
+      {
+        "name": "WW: Around the Tent Note 4",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "sections": [
+          {
+            "name": "Note"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 498,
+            "y": 250
+          }
+        ]
+      },
+      {
+        "name": "WW: Around the Tent Note 3",
+        "sections": [
+          {
+            "name": "Note",
+            "chest_unopened_img": "/images/locations/note.png",
+            "chest_opened_img": "/images/locations/note2.png"
+          },
+          {
+            "name": "Space Zone Big Top Ticket",
+            "chest_unopened_img": "/images/items/big_top_ticket.png",
+            "chest_opened_img": "/images/locations/big_top_ticket2.png",
+            "visibility_rules": ["bossentranceitems_tickets", "bossentranceitems_both"],
+            "access_rules": ["^$other_WW_tickets"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 418,
+            "y": 208
+          }
+        ]
+      },
+      {
+        "name": "WW: Around the Tent Note 2",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "sections": [
+          {
+            "name": "Note"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 330,
+            "y": 250
+          }
+        ]
+      },
+      {
+        "name": "WW: Dive of Death Notes",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "access_rules": ["^$notes_WW_diveOfDeath"],
+        "sections": [
+          {
+            "name": "Note 1"
+          },
+          {
+            "name": "Note 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 633,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "WW: Area 51 Gate Notes",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "sections": [
+          {
+            "name": "Left Note",
+            "access_rules": ["^$notes_WW_area51OnFencePostLeft"]
+          },
+          {
+            "name": "Right Note",
+            "access_rules": ["^$notes_WW_area51OnFencePostRight"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 160,
+            "y": 420
+          }
+        ]
+      },
+      {
+        "name": "WW: Crazy Castle Entrance Notes",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "sections": [
+          {
+            "name": "Note 1"
+          },
+          {
+            "name": "Note 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 414,
+            "y": 645
+          }
+        ]
+      },
+      {
+        "name": "WW: Outside Dodgem Dome Notes",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "sections": [
+          {
+            "name": "Note 1"
+          },
+          {
+            "name": "Note 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 270,
+            "y": 90
+          }
+        ]
+      },
+      {
+        "name": "WW: Near Mrs Boggy Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 200,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "WW: On Big Top Support Feather Nest 1",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Feather Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 352,
+            "y": 393
+          }
+        ]
+      },
+      {
+        "name": "WW: On Big Top Support Feather Nest 2",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Feather Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 352,
+            "y": 322
+          }
+        ]
+      },
+      {
+        "name": "WW: On Big Top Support Feather Nest 3",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Feather Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 415,
+            "y": 258
+          }
+        ]
+      },
+      {
+        "name": "WW: On Big Top Support Feather Nest 4",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Feather Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 481,
+            "y": 322
+          }
+        ]
+      },
+      {
+        "name": "WW: On Big Top Support Feather Nest 5",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Feather Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 481,
+            "y": 393
+          }
+        ]
+      },
+      {
+        "name": "WW: On Big Top Support Feather Nest 6",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Feather Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 415,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "WW: Outside Star Spinner Egg Nest 1",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 465,
+            "y": 55
+          }
+        ]
+      },
+      {
+        "name": "WW: Outside Star Spinner Egg Nest 2",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 375,
+            "y": 55
+          }
+        ]
+      },
+      {
+        "name": "WW: Dodgem Dome Signpost",
+        "sections": [
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 195,
+            "y": 150
+          }
+        ]
+      },
+      {
+        "name": "WW: Madame Grunty Signpost",
+        "sections": [
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 536,
+            "y": 245
+          }
+        ]
+      },
+      {
+        "name": "WW: Burger Stand Signpost",
+        "sections": [
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 340,
+            "y": 225
+          }
+        ]
+      },
+      {
+        "name": "WW: Fries Stand Signpost",
+        "sections": [
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 525,
+            "y": 470
+          }
+        ]
+      },
+      {
+        "name": "WW: Cactus of Strength Signpost",
+        "sections": [
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 315,
+            "y": 585
+          }
+        ]
+      },
+      {
+        "name": "Crazy Castle Stockade",
+        "sections": [
+          {
+            "ref": "Witchyworld - Crazy Castle Stockade/WW: Crazy Castle Honeycomb/Honeycomb",
+            "name": "Honeycomb"
+          },
+          {
+            "ref": "Witchyworld - Crazy Castle Stockade/WW: Pack Whack Silo/Silo",
+            "name": "Pack Whack Silo"
+          },
+          {
+            "ref": "Witchyworld - Crazy Castle Stockade/Crazy Castle/Hoop Hurry Jiggy",
+            "name": "Hoop Hurry Jiggy"
+          },
+          {
+            "ref": "Witchyworld - Crazy Castle Stockade/Crazy Castle/Hoop Hurry Mumbo Token",
+            "name": "Hoop Hurry Mumbo Token"
+          },
+          {
+            "ref": "Witchyworld - Crazy Castle Stockade/Crazy Castle/Balloon Burst Jiggy",
+            "name": "Balloon Burst Jiggy"
+          },
+          {
+            "ref": "Witchyworld - Crazy Castle Stockade/Crazy Castle/Balloon Burst Mumbo Token",
+            "name": "Balloon Burst Mumbo Token"
+          },
+          {
+            "ref": "Witchyworld - Crazy Castle Stockade/WW: Crazy Castle Stockade Egg Nests/Egg Nest 1",
+            "name": "Egg Nest 1"
+          },
+          {
+            "ref": "Witchyworld - Crazy Castle Stockade/WW: Crazy Castle Stockade Egg Nests/Egg Nest 1",
+            "name": "Egg Nest 2"
+          },
+          {
+            "ref": "Witchyworld - Crazy Castle Stockade/Crazy Castle Pump Room/Feather Nest 1",
+            "name": "Pump Room Feather Nest 1"
+          },
+          {
+            "ref": "Witchyworld - Crazy Castle Stockade/Crazy Castle Pump Room/Feather Nest 2",
+            "name": "Pump Room Feather Nest 2"
+          },
+          {
+            "ref": "Witchyworld - Crazy Castle Stockade/Crazy Castle Pump Room/Signpost",
+            "name": "Pump Room Signpost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 414,
+            "y": 660
+          }
+        ]
+      },
+      {
+        "name": "The Inferno",
+        "sections": [
+          {
+            "ref": "Witchyworld - The Inferno/WW: The Inferno Warp Pad/Warp Pad",
+            "name": "Warp Pad"
+          },
+          {
+            "ref": "Witchyworld - The Inferno/WW: The Inferno Glowbo/Glowbo",
+            "name": "Glowbo"
+          },
+          {
+            "ref": "Witchyworld - The Inferno/WW: The Inferno Cheato Page/Cheato Page",
+            "name": "Cheato Page"
+          },
+          {
+            "ref": "Witchyworld - The Inferno/Mumbo's Skull/Honeycomb",
+            "name": "Mumbo Skull Honeycomb"
+          },
+          {
+            "ref": "Witchyworld - The Inferno/WW: The Inferno Jiggy/Jiggy",
+            "name": "Jiggy"
+          },
+          {
+            "ref": "Witchyworld - The Inferno/WW: Inferno Egg Nests/Egg Nest 1",
+            "name": "Egg Nest 1"
+          },
+          {
+            "ref": "Witchyworld - The Inferno/WW: Inferno Egg Nests/Egg Nest 2",
+            "name": "Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 730,
+            "y": 364
+          }
+        ]
+      },
+      {
+        "name": "The Haunted Cavern",
+        "sections": [
+          {
+            "ref": "Witchyworld - The Haunted Cavern/WW: The Haunted Cavern Egg Nests/Egg Nest 1",
+            "name": "Egg Nest 1"
+          },
+          {
+            "ref": "Witchyworld - The Haunted Cavern/WW: The Haunted Cavern Egg Nests/Egg Nest 2",
+            "name": "Egg Nest 2"
+          },
+          {
+            "ref": "Witchyworld - The Haunted Cavern/WW: The Haunted Cavern Egg Nests/Egg Nest 3",
+            "name": "Egg Nest 3"
+          },
+          {
+            "ref": "Witchyworld - The Haunted Cavern/WW: The Haunted Caverns Signpost/Signpost",
+            "name": "The Haunted Caverns Signpost"
+          },
+          {
+            "ref": "Witchyworld - The Haunted Cavern/WW: The Haunted Cavern Cheato Page/Cheato Page",
+            "name": "Cheato Page"
+          },
+          {
+            "ref": "Witchyworld - The Haunted Cavern/Cave of Horrors/Jinjo (Grenade Eggs)",
+            "name": "Cave of Horrors Jinjo (Grenade Eggs)"
+          },
+          {
+            "ref": "Witchyworld - The Haunted Cavern/Cave of Horrors/Gobi Cage Signpost (Grenade Eggs)",
+            "name": "Gobi Cage Signpost (Grenade Eggs)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 700,
+            "y": 300
+          }
+        ]
+      },
+      {
+        "name": "WW: Space Zone Honeycomb",
+        "sections": [
+          {
+            "name": "Honeycomb",
+            "chest_unopened_img": "/images/locations/honey.png",
+            "chest_opened_img": "/images/locations/honey2.png",
+            "access_rules": ["^$honeycomb_WW_topOfSpaceZone"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 425,
+            "y": 35
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Witchyworld - Area 51 Egg Nests",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Region: Witchyworld - Area 51 Egg Nests" ],
+    "children": [
+      {
+        "name": "WW: Area 51 Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 190,
+            "y": 590
+          }
+        ]
+      },
+      {
+        "name": "WW: Van Door Jinjo",
+        "sections": [
+          {
+            "name": "Jinjo",
+            "chest_unopened_img": "/images/locations/jinjo.png",
+            "chest_opened_img": "/images/locations/jinjo2.png",
+            "access_rules": ["^$jinjo_WW_area51VanDoor"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 77,
+            "y": 500
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Witchyworld - Saucer of Peril",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": ["^$jiggy_WW_saucerOfPeril"],
+    "visibility_rules": ["mousepace_off"],
+    "children": [
+      {
+        "name": "Saucer of Peril",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png"
+          },
+          {
+            "name": "Cheato Page",
+            "chest_unopened_img": "/images/locations/page.png",
+            "chest_opened_img": "/images/locations/page2.png"
+          },
+          {
+            "name": "Mumbo Token",
+            "chest_unopened_img": "/images/locations/mumbotoken.png",
+            "chest_opened_img": "/images/locations/mumbotoken2.png",
+            "visibility_rules": [ "goal_minigame", "goal_wwing" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 520,
+            "y": 90
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Witchyworld - Crazy Castle Stockade",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Region: Witchyworld - Main Area" ],
+    "children": [
+      {
+        "name": "WW: Pack Whack Silo",
+        "chest_unopened_img": "/images/locations/silo.png",
+        "chest_opened_img": "/images/locations/silo2.png",
+        "sections": [
+          {
+            "name": "Silo",
+            "access_rules": [ "^$silo_WW_packWhack" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww2",
+            "x": 58,
+            "y": 315
+          }
+        ]
+      },
+      {
+        "name": "WW: Crazy Castle Honeycomb",
+        "sections": [
+          {
+            "name": "Honeycomb",
+            "chest_unopened_img": "/images/locations/honey.png",
+            "chest_opened_img": "/images/locations/honey2.png",
+            "access_rules": ["^$honeycomb_WW_pumpRoomEntrance"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww2",
+            "x": 312,
+            "y": 60
+          }
+        ]
+      },
+      {
+        "name": "Crazy Castle Pump Room",
+        "sections": [
+          {
+            "name": "Feather Nest 1",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_WW_pumpRoom"]
+          },
+          {
+            "name": "Feather Nest 2",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_WW_pumpRoom"]
+          },
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"],
+            "access_rules": ["^$signpost_WW_pumpRoom"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww2",
+            "x": 312,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "WW: Crazy Castle Stockade Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww2",
+            "x": 322,
+            "y": 535
+          }
+        ]
+      },
+      {
+        "name": "Crazy Castle",
+        "visibility_rules": ["mousepace_off"],
+        "sections": [
+          {
+            "name": "Hoop Hurry Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": ["^$jiggy_WW_hoopHurry"]
+          },
+          {
+            "name": "Hoop Hurry Mumbo Token",
+            "chest_unopened_img": "/images/locations/mumbotoken.png",
+            "chest_opened_img": "/images/locations/mumbotoken2.png",
+            "access_rules": ["^$jiggy_WW_hoopHurry"],
+            "visibility_rules": [ "goal_minigame", "goal_wwing" ]
+          },
+          {
+            "name": "Balloon Burst Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": ["^$jiggy_WW_balloonBurst"]
+          },
+          {
+            "name": "Balloon Burst Mumbo Token",
+            "chest_unopened_img": "/images/locations/mumbotoken.png",
+            "chest_opened_img": "/images/locations/mumbotoken2.png",
+            "access_rules": ["^$jiggy_WW_balloonBurst"],
+            "visibility_rules": [ "goal_minigame", "goal_wwing" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww2",
+            "x": 317,
+            "y": 308
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Witchyworld - The Haunted Cavern",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Region: Witchyworld - Main Area" ],
+    "children": [
+      {
+        "name": "Cave of Horrors",
+        "sections": [
+          {
+            "name": "Jinjo (Grenade Eggs)",
+            "chest_unopened_img": "/images/locations/jinjo.png",
+            "chest_opened_img": "/images/locations/jinjo2.png",
+            "access_rules": ["^$jinjo_WW_caveOfHorrors"]
+          },
+          {
+            "name": "Gobi Cage Signpost (Grenade Eggs)",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"],
+            "access_rules": ["^$signpost_WW_inGobisCell"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww3",
+            "x": 348,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "WW: The Haunted Caverns Signpost",
+        "chest_unopened_img": "/images/locations/signpost.png",
+        "chest_opened_img": "/images/locations/signpost2.png",
+        "visibility_rules": ["signposts_on"],
+        "sections": [
+          {
+            "name": "Signpost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww3",
+            "x": 307,
+            "y": 60
+          }
+        ]
+      },
+      {
+        "name": "WW: The Haunted Cavern Cheato Page",
+        "sections": [
+          {
+            "name": "Cheato Page",
+            "chest_unopened_img": "/images/locations/page.png",
+            "chest_opened_img": "/images/locations/page2.png",
+            "access_rules": ["^$cheato_WW_hauntedCavern"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww3",
+            "x": 140,
+            "y": 560
+          }
+        ]
+      },
+      {
+        "name": "WW: The Haunted Cavern Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          },
+          {
+            "name": "Egg Nest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww3",
+            "x": 80,
+            "y": 330
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Witchyworld - The Inferno",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Region: Witchyworld - The Inferno" ],
+    "children": [
+      {
+        "name": "WW: The Inferno Warp Pad",
+        "sections": [
+          {
+            "name": "Warp Pad",
+            "chest_unopened_img": "/images/locations/warp.png",
+            "chest_opened_img": "/images/locations/warp2.png",
+            "visibility_rules": ["randomizewarppads_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww4",
+            "x": 500,
+            "y": 270
+          }
+        ]
+      },
+      {
+        "name": "WW: The Inferno Glowbo",
+        "chest_unopened_img": "/images/locations/glowbo.png",
+        "chest_opened_img": "/images/locations/glowbo2.png",
+        "sections": [
+          {
+            "name": "Glowbo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww4",
+            "x": 180,
+            "y": 90
+          }
+        ]
+      },
+      {
+        "name": "WW: The Inferno Cheato Page",
+        "access_rules": [ "^$cheato_WW_inferno" ],
+        "sections": [
+          {
+            "name": "Cheato Page",
+            "chest_unopened_img": "/images/locations/page.png",
+            "chest_opened_img": "/images/locations/page2.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww4",
+            "x": 37,
+            "y": 447
+          }
+        ]
+      },
+      {
+        "name": "Mumbo's Skull",
+        "sections": [
+          {
+            "name": "Honeycomb",
+            "chest_unopened_img": "/images/locations/honey.png",
+            "chest_opened_img": "/images/locations/honey2.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww4",
+            "x": 540,
+            "y": 100
+          }
+        ]
+      },
+      {
+        "name": "WW: The Inferno Jiggy",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": ["^$jiggy_WW_topOfInferno"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww4",
+            "x": 323,
+            "y": 342
+          }
+        ]
+      },
+      {
+        "name": "WW: Inferno Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww4",
+            "x": 630,
+            "y": 460
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Boss Arena - Mr. Patch",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Region: Boss Arena - Mr. Patch" ],
+    "children": [
+      {
+        "name": "Big Top Interior",
+        "sections": [
+          {
+            "name": "Mr. Patch Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": [ "^$jiggy_WW_mrPatch" ]
+          },
+          {
+            "name": "Mr. Patch Mumbo Token",
+            "chest_unopened_img": "/images/locations/mumbotoken.png",
+            "chest_opened_img": "/images/locations/mumbotoken2.png",
+            "visibility_rules": [ "goal_boss", "goal_wwing" ],
+            "access_rules": [ "^$jiggy_WW_mrPatch" ]
+          },
+          {
+            "name": "Left Pack Feather Nest 1",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_WW_bigTop"]
+          },
+          {
+            "name": "Left Pack Egg Nest 1",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_WW_bigTop"]
+          },
+          {
+            "name": "Left Pack Feather Nest 2",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_WW_bigTop"]
+          },
+          {
+            "name": "Left Pack Egg Nest 2",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_WW_bigTop"]
+          },
+          {
+            "name": "Right Pack Feather Nest 1",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_WW_bigTop"]
+          },
+          {
+            "name": "Right Pack Egg Nest 1",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_WW_bigTop"]
+          },
+          {
+            "name": "Right Pack Feather Nest 2",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_WW_bigTop"]
+          },
+          {
+            "name": "Right Pack Egg Nest 2",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_WW_bigTop"]
+          },
+          {
+            "name": "Back Pack Feather Nest 1",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_WW_bigTop"]
+          },
+          {
+            "name": "Back Pack Egg Nest 1",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_WW_bigTop"]
+          },
+          {
+            "name": "Back Pack Egg Nest 2",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_WW_bigTop"]
+          },
+          {
+            "name": "Back Pack Feather Nest 2",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_WW_bigTop"]
+          },
+          {
+            "name": "Front Pack Egg Nest 1",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_WW_bigTop"]
+          },
+          {
+            "name": "Front Pack Feather Nest 1",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_WW_bigTop"]
+          },
+          {
+            "name": "Front Pack Feather Nest 2",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_WW_bigTop"]
+          },
+          {
+            "name": "Front Pack Egg Nest 2",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_WW_bigTop"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ww1",
+            "x": 380,
+            "y": 358
+          }
+        ]
+      }
+    ]
+  }
+]

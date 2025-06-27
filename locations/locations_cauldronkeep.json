@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Overworld - Cauldron Keep",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "children": [
+      {
+        "name": "Cauldron Keep - Silos & Warps",
+        "sections": [
+          {
+            "ref": "Cauldron Keep/Cauldron Keep/CK: Bottom of the Tower Warp Pad",
+            "name": "CK: Bottom of the Tower Warp Pad"
+          },
+          {
+            "ref": "Cauldron Keep/Cauldron Keep/CK: Top of the Tower Warp Pad",
+            "name": "CK: Top of the Tower Warp Pad"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 473,
+            "y": 650
+          }
+        ]
+      },
+      {
+        "name": "Cauldron Keep - Other",
+        "sections": [
+          {
+            "ref": "Cauldron Keep/Cauldron Keep/Hag 1 Defeated",
+            "name": "CK: Hag 1 Defeated"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 691,
+            "y": 650
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cauldron Keep",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Region: Cauldron Keep" ],
+    "children": [
+      {
+        "name": "Cauldron Keep",
+        "sections": [
+          {
+            "name": "CK: Bottom of the Tower Warp Pad",
+            "chest_unopened_img": "/images/locations/warp.png",
+            "chest_opened_img": "/images/locations/warp2.png",
+            "visibility_rules": ["randomizewarppads_on"]
+          },
+          {
+            "name": "CK: Top of the Tower Warp Pad",
+            "chest_unopened_img": "/images/locations/warp.png",
+            "chest_opened_img": "/images/locations/warp2.png",
+            "visibility_rules": ["randomizewarppads_on"],
+            "access_rules": ["^$warp_CK_top"]
+          },
+          {
+            "name": "Hag 1 Defeated",
+            "visibility_rules": [ "goal_hag1", "goal_wwing", "goal_bosshag1" ],
+            "access_rules": ["^$connector_CK_to_Hag1"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "qm",
+            "x": 723,
+            "y": 218
+          }
+        ]
+      }
+    ]
+  }
+]

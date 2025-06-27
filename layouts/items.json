@@ -43,6 +43,11 @@
                                 "bljinjo",
                                 "pjinjo",
                                 "bkjinjo"
+                            ],
+                            [
+                                "greenrelic",
+                                "ticket",
+                                "bean"
                             ]
                         ]
                     }

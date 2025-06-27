@@ -1,0 +1,2635 @@
+[
+  {
+    "name": "Overworld - Jolly Roger's Lagoon",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "children": [
+      {
+        "name": "Jolly Roger's Lagoon - Silos & Warps",
+        "sections": [
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Wing Whack Silo/Silo",
+            "name": "JRL: Wing Whack Silo"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Atlantis/Electric Eel's Lair/Talon Torpedo Silo",
+            "name": "JRL: Talon Torpedo Silo"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Jolly's - Rented Room/Sub-Aqua Egg Aiming Silo",
+            "name": "JRL: Sub-Aqua Egg Aiming Silo"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Town Center Warp Pad/Warp Pad",
+            "name": "JRL: Town Center Warp Pad"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Atlantis/JRL: Atlantis Warp Pad/Warp Pad",
+            "name": "JRL: Atlantis Warp Pad"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Sunken Ship/JRL: Sunken Ship Warp Pad/Warp Pad",
+            "name": "JRL: Sunken Ship Warp Pad"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Big Fish Cavern/JRL: Big Fish Cavern Warp Pad/Warp Pad",
+            "name": "JRL: Big Fish Cavern Warp Pad"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Locker Cavern/JRL: Locker Cavern Warp Pad/Warp Pad",
+            "name": "JRL: Locker Cavern Warp Pad"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 473,
+            "y": 350
+          }
+        ]
+      },
+      {
+        "name": "Jolly Roger's Lagoon - Jiggies",
+        "sections": [
+          {
+            "ref": "Jolly Roger's Lagoon - Locker Cavern/Mini-Sub Challenge/Jiggy",
+            "name": "JRL: Mini-Sub Challenge Jiggy"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Tiptup Jiggy/Jiggy",
+            "name": "JRL: Tiptup Jiggy"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Atlantis/Temple of the Fishes/Chris P. Bacon Jiggy",
+            "name": "JRL: Chris P. Bacon Jiggy"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Pig Pool Jiggy/Jiggy",
+            "name": "JRL: Pig Pool Jiggy"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Smuggler's Cavern/Jiggy",
+            "name": "JRL: Smuggler's Cavern Jiggy"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Big Fish Cavern/Inside the Big Fish/Merry Maggie Jiggy",
+            "name": "JRL: Merry Maggie Jiggy"
+          },
+          {
+            "ref": "Boss Arena - Lord Woo Fak Fak/Lord Woo Fak Fak/Jiggy",
+            "name": "JRL: Woo Fak Fak Jiggy"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Atlantis/JRL: Seemee Jiggy (Moves Around)/Jiggy",
+            "name": "JRL: Seemee Jiggy"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Pawno's Emporium - Purchases/Jiggy",
+            "name": "JRL: Pawno Jiggy"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Underwater/UFO/Jiggy",
+            "name": "JRL: UFO Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 551,
+            "y": 350
+          }
+        ]
+      },
+      {
+        "name": "Jolly Roger's Lagoon - Notes",
+        "sections": [
+          {
+            "ref": "Jolly Roger's Lagoon - Atlantis/JRL: Treble Clef/Treble Clef",
+            "name": "JRL: Treble Clef"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Outside Jolly's Note/Note",
+            "name": "JRL: Outside Jolly's Note"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Outside Pawno's Note/Note",
+            "name": "JRL: Outside Pawno's Note"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Outside Blubber's Note/Note",
+            "name": "JRL: Outside Blubber's Note"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Underwater/Blubbul Notes/Note 1",
+            "name": "JRL: Blubbul Note 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Underwater/Blubbul Notes/Note 2",
+            "name": "JRL: Blubbul Note 2"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Atlantis/Electric Eel's Lair Entrance Notes/Note 1",
+            "name": "JRL: Electric Eel's Lair Entrance Note 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Atlantis/Electric Eel's Lair Entrance Notes/Note 2",
+            "name": "JRL: Electric Eel's Lair Entrance Note 2"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Blubber's Waveracer Hire/Note 1",
+            "name": "JRL: Blubber's Hire Note 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Blubber's Waveracer Hire/Note 2",
+            "name": "JRL: Blubber's Hire Note 2"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Blubber's Waveracer Hire/Note 3",
+            "name": "JRL: Blubber's Hire Note 3"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Pawno's Emporium/Note 1",
+            "name": "JRL: Pawno's Emporium Note 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Pawno's Emporium/Note 2",
+            "name": "JRL: Pawno's Emporium Note 2"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Pawno's Emporium/Note 3",
+            "name": "JRL: Pawno's Emporium Note 3"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Jolly's/Note 1",
+            "name": "JRL: Jolly's Note 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Jolly's/Note 2",
+            "name": "JRL: Jolly's Note 2"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Jolly's/Note 3",
+            "name": "JRL: Jolly's Note 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 621,
+            "y": 350
+          }
+        ]
+      },
+      {
+        "name": "Jolly Roger's Lagoon - Other",
+        "sections": [
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Lagoon Alcove/Jinjo",
+            "name": "JRL: Lagoon Alcove Jinjo"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Blubber's Waveracer Hire/Jinjo",
+            "name": "JRL: Blubber Jinjo"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Big Fish Cavern/Inside the Big Fish/Jinjo",
+            "name": "JRL: Big Fish Jinjo"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Seaweed Sanctum/JRL: Seaweed Sanctum Jinjo/Jinjo",
+            "name": "JRL: Seaweed Sanctum Jinjo"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Sunken Ship/JRL: Sunken Ship Jinjo/Jinjo",
+            "name": "JRL: Sunken Ship Jinjo"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Pawno's Emporium/Glowbo",
+            "name": "JRL: Pawno's Emporium Glowbo"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Atlantis/JRL: Under Wumba's Wigwam Glowbo/Glowbo",
+            "name": "JRL: Under Wumba's Wigwam Glowbo"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Big Fish Cavern/JRL: Seemee Honeycomb (Moves Around)/Honeycomb",
+            "name": "JRL: Seemee Honeycomb"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Atlantis/JRL: Atlantis Honeycomb/Honeycomb",
+            "name": "JRL: Atlantis Honeycomb"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Waste Pipe Honeycomb/Honeycomb",
+            "name": "JRL: Waste Pipe Honeycomb"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Pawno's Emporium - Purchases/Cheato Page",
+            "name": "JRL: Pawno's Cheato Page"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Underwater/JRL: Seemee Cheato Page/Cheato Page",
+            "name": "JRL: Seemee Cheato Page"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Atlantis/Ancient Swimming Baths/Cheato Page",
+            "name": "JRL: Ancient Swimming Baths Cheato Page"
+          },
+          {
+            "ref": "Boss Arena - Lord Woo Fak Fak/Lord Woo Fak Fak/Mumbo Token",
+            "name": "JRL: Woo Fak Fak Mumbo Token"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Locker Cavern/Mini-Sub Challenge/Mumbo Token",
+            "name": "JRL: Mini-Sub Challenge Mumbo Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 691,
+            "y": 350
+          }
+        ]
+      },
+      {
+        "name": "Jolly Roger's Lagoon - Nests",
+        "sections": [
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Jolly's - Captain Blackeye's Room/Near Blackeye Egg Nest 1",
+            "name": "JRL: Jolly's Near Blackeye Egg Nest 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Jolly's - Captain Blackeye's Room/Near Blackeye Egg Nest 2",
+            "name": "JRL: Jolly's Near Blackeye Egg Nest 2"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Jolly's - Rented Room/Near Sub-Aqua Egg Aiming Silo Feather Nest 1",
+            "name": "JRL: Jolly's Near Sub-Aqua Egg Aiming Silo Feather Nest 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Jolly's - Rented Room/Near Sub-Aqua Egg Aiming Silo Feather Nest 2",
+            "name": "JRL: Jolly's Near Sub-Aqua Egg Aiming Silo Feather Nest 2"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Jolly's - Storage Area/Gunpowder Feather Nest 1",
+            "name": "JRL: Jolly's Gunpowder Feather Nest 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Jolly's - Storage Area/Gunpowder Feather Nest 2",
+            "name": "JRL: Jolly's Gunpowder Feather Nest 2"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Pawno's Emporium/Egg Nest 1",
+            "name": "JRL: Pawno's Emporium Egg Nest 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Pawno's Emporium/Egg Nest 2",
+            "name": "JRL: Pawno's Emporium Egg Nest 2"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Pawno's Emporium/Egg Nest 3",
+            "name": "JRL: Pawno's Emporium Egg Nest 3"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Seaweed Sanctum/JRL: Seaweed Sanctum Bottom Floor Feather Nest/Feather Nest",
+            "name": "JRL: Seaweed Sanctum Bottom Floor Feather Nest"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Seaweed Sanctum/JRL: Seaweed Sanctum Second Floor Egg Nest 1/Egg Nest",
+            "name": "JRL: Seaweed Sanctum Second Floor Egg Nest 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Seaweed Sanctum/JRL: Seaweed Sanctum Top Floor Feather Nest/Feather Nest",
+            "name": "JRL: Seaweed Sanctum Top Floor Feather Nest"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Seaweed Sanctum/JRL: Seaweed Sanctum Second Floor Egg Nest 2/Egg Nest",
+            "name": "JRL: Seaweed Sanctum Second Floor Egg Nest 2"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Big Fish Cavern/Inside the Big Fish/Feather Nest 1",
+            "name": "JRL: Inside the Big Fish Feather Nest 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Big Fish Cavern/Inside the Big Fish/Feather Nest 2",
+            "name": "JRL: Inside the Big Fish Feather Nest 2"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Atlantis/Temple of the Fishes/Egg Nest 1",
+            "name": "JRL: Temple of the Fishes Egg Nest 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Atlantis/Temple of the Fishes/Egg Nest 2",
+            "name": "JRL: Temple of the Fishes Egg Nest 2"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Atlantis/Temple of the Fishes/Egg Nest 3",
+            "name": "JRL: Temple of the Fishes Egg Nest 3"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Atlantis/Temple of the Fishes/Egg Nest 4",
+            "name": "JRL: Temple of the Fishes Egg Nest 4"
+          },
+          {
+            "ref": "Boss Arena - Lord Woo Fak Fak/Lord Woo Fak Fak/Davie Jones Locker Egg Nest 1",
+            "name": "JRL: Davie Jones Locker Egg Nest 1"
+          },
+          {
+            "ref": "Boss Arena - Lord Woo Fak Fak/Lord Woo Fak Fak/Davie Jones Locker Egg Nest 2",
+            "name": "JRL: Davie Jones Locker Egg Nest 2"
+          },
+          {
+            "ref": "Boss Arena - Lord Woo Fak Fak/Lord Woo Fak Fak/Davie Jones Locker Egg Nest 3",
+            "name": "JRL: Davie Jones Locker Egg Nest 3"
+          },
+          {
+            "ref": "Boss Arena - Lord Woo Fak Fak/Lord Woo Fak Fak/Davie Jones Locker Egg Nest 4",
+            "name": "JRL: Davie Jones Locker Egg Nest 4"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Atlantis/Wumba's Wigwam/Feather Nest",
+            "name": "JRL: Wumba's Wigwam Feather Nest"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Underwater/JRL: Smuggler's Cavern Egg Nests/Egg Nest 1",
+            "name": "JRL: Smuggler's Cavern Egg Nest 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Underwater/JRL: Smuggler's Cavern Egg Nests/Egg Nest 2",
+            "name": "JRL: Smuggler's Cavern Egg Nest 2"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Underwater/JRL: Town Center Blubbul Egg Nest/Egg Nest",
+            "name": "JRL: Town Center Blubbul Egg Nest"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Atlantis/JRL: Atlantis Egg Nests/Egg Nest 1",
+            "name": "JRL: Atlantis Egg Nest 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Atlantis/JRL: Atlantis Egg Nests/Egg Nest 2",
+            "name": "JRL: Atlantis Egg Nest 2"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Atlantis/JRL: Atlantis Egg Nests/Egg Nest 3",
+            "name": "JRL: Atlantis Egg Nest 3"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Sunken Ship/JRL: Sunken Ship Egg Nest 1/Egg Nest 1",
+            "name": "JRL: Sunken Ship Egg Nest 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Sunken Ship/JRL: Sunken Ship Egg Nest 2/Egg Nest 2",
+            "name": "JRL: Sunken Ship Egg Nest 2"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Atlantis/JRL: Atlantis Seemee Fish Egg Nest/Egg Nest",
+            "name": "JRL: Atlantis Seemee Fish Egg Nest"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Locker Cavern/JRL: Lockers Egg Nests/Egg Nest 1",
+            "name": "JRL: Lockers Egg Nest 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Locker Cavern/JRL: Lockers Egg Nests/Egg Nest 2",
+            "name": "JRL: Lockers Egg Nest 2"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Locker Cavern/JRL: Lockers Egg Nests/Egg Nest 3",
+            "name": "JRL: Lockers Egg Nest 3"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Big Fish Cavern/JRL: Near Big Fish Warp Pad Egg Nests/Egg Nest 1",
+            "name": "JRL: Near Big Fish Warp Pad Egg Nest 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Big Fish Cavern/JRL: Near Big Fish Warp Pad Egg Nests/Egg Nest 2",
+            "name": "JRL: Near Big Fish Warp Pad Egg Nest 2"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Locker Cavern/JRL: Sea Bottom Seemee Fish Feather Nest (Moves Around)/Feather Nest",
+            "name": "JRL: Locker Cavern Seemee Fish Feather Nest"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Locker Cavern/JRL: Sea Bottom Seemee Fish Egg Nest (Moves Around)/Egg Nest",
+            "name": "JRL: Locker Cavern Seemee Fish Egg Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 770,
+            "y": 350
+          }
+        ]
+      },
+      {
+        "name": "Jolly Roger's Lagoon - Signposts",
+        "sections": [
+          {
+            "ref": "Jolly Roger's Lagoon - Seaweed Sanctum/JRL: Seaweed Sanctum Signpost/Signpost",
+            "name": "JRL: Seaweed Sanctum Signpost"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Blubber's Waveracer Hire/Signpost",
+            "name": "JRL: Blubber's Signpost"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Smuggler's Cavern/Signpost",
+            "name": "JRL: Smuggler's Cavern Signpost"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Waste Pipe Alcove Signpost/Signpost",
+            "name": "JRL: Waste Pipe Alcove Signpost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 849,
+            "y": 350
+          }
+        ]
+      },
+      {
+        "name": "Jolly Roger's Lagoon - Doubloons",
+        "sections": [
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Town Center Pole Doubloon 1/Doubloon",
+            "name": "JRL: Town Center Pole Doubloon 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Town Center Pole Doubloon 2/Doubloon",
+            "name": "JRL: Town Center Pole Doubloon 2"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Town Center Pole Doubloon 3/Doubloon",
+            "name": "JRL: Town Center Pole Doubloon 3"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Town Center Pole Doubloon 4/Doubloon",
+            "name": "JRL: Town Center Pole Doubloon 4"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Town Center Pole Doubloon 5/Doubloon",
+            "name": "JRL: Town Center Pole Doubloon 5"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Town Center Pole Doubloon 6/Doubloon",
+            "name": "JRL: Town Center Pole Doubloon 6"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Wing Whack Silo/Doubloon 1",
+            "name": "JRL: Silo Doubloon 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Wing Whack Silo/Doubloon 2",
+            "name": "JRL: Silo Doubloon 2"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Wing Whack Silo/Doubloon 3",
+            "name": "JRL: Silo Doubloon 3"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Wing Whack Silo/Doubloon 4",
+            "name": "JRL: Silo Doubloon 4"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Toxic Pool/Doubloon 1",
+            "name": "JRL: Toxic Pool Doubloon 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Toxic Pool/Doubloon 2",
+            "name": "JRL: Toxic Pool Doubloon 2"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Toxic Pool/Doubloon 3",
+            "name": "JRL: Toxic Pool Doubloon 3"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Toxic Pool/Doubloon 4",
+            "name": "JRL: Toxic Pool Doubloon 4"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Mumbo's Skull/Doubloon 1",
+            "name": "JRL: Mumbo Skull Doubloon 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Mumbo's Skull/Doubloon 2",
+            "name": "JRL: Mumbo Skull Doubloon 2"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Mumbo's Skull/Doubloon 3",
+            "name": "JRL: Mumbo Skull Doubloon 3"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Mumbo's Skull/Doubloon 4",
+            "name": "JRL: Mumbo Skull Doubloon 4"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Underground Doubloon 1/Doubloon",
+            "name": "JRL: Underground Doubloon 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Underground Doubloon 2/Doubloon",
+            "name": "JRL: Underground Doubloon 2"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/JRL: Underground Doubloon 3/Doubloon",
+            "name": "JRL: Underground Doubloon 3"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Alcove/Doubloon 1",
+            "name": "JRL: Alcove Doubloon 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Alcove/Doubloon 2",
+            "name": "JRL: Alcove Doubloon 2"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Alcove/Doubloon 3",
+            "name": "JRL: Alcove Doubloon 3"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Jolly's - Captain Blackeye's Room/Captain Blackeye Doubloon 1",
+            "name": "JRL: Captain Blackeye Doubloon 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Jolly's - Captain Blackeye's Room/Captain Blackeye Doubloon 2",
+            "name": "JRL: Captain Blackeye Doubloon 2"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Lagoon Alcove/Doubloon 1",
+            "name": "JRL: Near Alcove Jinjo Doubloon 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Lagoon Alcove/Doubloon 2",
+            "name": "JRL: Near Alcove Jinjo Doubloon 2"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Lagoon Alcove/Doubloon 3",
+            "name": "JRL: Near Alcove Jinjo Doubloon 3"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/Lagoon Alcove/Doubloon 4",
+            "name": "JRL: Near Alcove Jinjo Doubloon 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 919,
+            "y": 350
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Jolly Roger's Lagoon - Main Area",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Region: Jolly Roger's Lagoon - Main Area" ],
+    "children": [
+      {
+        "name": "JRL: Town Center Warp Pad",
+        "sections": [
+          {
+            "name": "Warp Pad",
+            "chest_unopened_img": "/images/locations/warp.png",
+            "chest_opened_img": "/images/locations/warp2.png",
+            "visibility_rules": ["randomizewarppads_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 483,
+            "y": 380
+          }
+        ]
+      },
+      {
+        "name": "JRL: Waste Pipe Honeycomb",
+        "sections": [
+          {
+            "name": "Honeycomb",
+            "chest_unopened_img": "/images/locations/honey.png",
+            "chest_opened_img": "/images/locations/honey2.png",
+            "access_rules": ["^$honeycomb_JRL_wastePipes"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 770,
+            "y": 370
+          }
+        ]
+      },
+      {
+        "name": "JRL: Waste Pipe Alcove Signpost",
+        "sections": [
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"],
+            "access_rules": ["^$signpost_JRL_wastePipeAlcove"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 705,
+            "y": 385
+          }
+        ]
+      },
+      {
+        "name": "JRL: Outside Pawno's Note",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "sections": [
+          {
+            "name": "Note"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 423,
+            "y": 500
+          }
+        ]
+      },
+      {
+        "name": "JRL: Outside Jolly's Note",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "sections": [
+          {
+            "name": "Note"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 580,
+            "y": 440
+          }
+        ]
+      },
+      {
+        "name": "JRL: Outside Blubber's Note",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "sections": [
+          {
+            "name": "Note"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 370,
+            "y": 285
+          }
+        ]
+      },
+      {
+        "name": "JRL: Pig Pool Jiggy",
+        "visibility_rules": ["mousepace_off"],
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": ["^$jiggy_JRL_pigPool"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 650,
+            "y": 300
+          }
+        ]
+      },
+      {
+        "name": "JRL: Tiptup Jiggy",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": [ "^$jiggy_JRL_tiptup" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 55,
+            "y": 400
+          }
+        ]
+      },
+      {
+        "name": "JRL: Underground Doubloon 2",
+        "sections": [
+          {
+            "name": "Doubloon",
+            "chest_unopened_img": "/images/locations/doubloon.png",
+            "chest_opened_img": "/images/locations/doubloon2.png",
+            "access_rules": [ "^$doubloons_JRL_dirtPatches" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 420,
+            "y": 448
+          }
+        ]
+      },
+      {
+        "name": "JRL: Underground Doubloon 1",
+        "sections": [
+          {
+            "name": "Doubloon",
+            "chest_unopened_img": "/images/locations/doubloon.png",
+            "chest_opened_img": "/images/locations/doubloon2.png",
+            "access_rules": [ "^$doubloons_JRL_dirtPatches" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 505,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "JRL: Underground Doubloon 3",
+        "sections": [
+          {
+            "name": "Doubloon",
+            "chest_unopened_img": "/images/locations/doubloon.png",
+            "chest_opened_img": "/images/locations/doubloon2.png",
+            "access_rules": [ "^$doubloons_JRL_dirtPatches" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 538,
+            "y": 385
+          }
+        ]
+      },
+      {
+        "name": "JRL: Town Center Pole Doubloon 6",
+        "sections": [
+          {
+            "name": "Doubloon",
+            "chest_unopened_img": "/images/locations/doubloon.png",
+            "chest_opened_img": "/images/locations/doubloon2.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 391,
+            "y": 250
+          }
+        ]
+      },
+      {
+        "name": "JRL: Town Center Pole Doubloon 5",
+        "sections": [
+          {
+            "name": "Doubloon",
+            "chest_unopened_img": "/images/locations/doubloon.png",
+            "chest_opened_img": "/images/locations/doubloon2.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 435,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "JRL: Town Center Pole Doubloon 4",
+        "sections": [
+          {
+            "name": "Doubloon",
+            "chest_unopened_img": "/images/locations/doubloon.png",
+            "chest_opened_img": "/images/locations/doubloon2.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 530,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "JRL: Town Center Pole Doubloon 3",
+        "sections": [
+          {
+            "name": "Doubloon",
+            "chest_unopened_img": "/images/locations/doubloon.png",
+            "chest_opened_img": "/images/locations/doubloon2.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 580,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "JRL: Town Center Pole Doubloon 2",
+        "sections": [
+          {
+            "name": "Doubloon",
+            "chest_unopened_img": "/images/locations/doubloon.png",
+            "chest_opened_img": "/images/locations/doubloon2.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 627,
+            "y": 250
+          }
+        ]
+      },
+      {
+        "name": "JRL: Town Center Pole Doubloon 1",
+        "sections": [
+          {
+            "name": "Doubloon",
+            "chest_unopened_img": "/images/locations/doubloon.png",
+            "chest_opened_img": "/images/locations/doubloon2.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 630,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Toxic Pool",
+        "chest_unopened_img": "/images/locations/doubloon.png",
+        "chest_opened_img": "/images/locations/doubloon2.png",
+        "access_rules": [ "^$doubloons_JRL_underwater" ],
+        "sections": [
+          {
+            "name": "Doubloon 1"
+          },
+          {
+            "name": "Doubloon 2"
+          },
+          {
+            "name": "Doubloon 3"
+          },
+          {
+            "name": "Doubloon 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 718,
+            "y": 322
+          }
+        ]
+      },
+      {
+        "name": "Wing Whack Silo",
+        "chest_unopened_img": "/images/locations/silo.png",
+        "chest_opened_img": "/images/locations/silo2.png",
+        "sections": [
+          {
+            "name": "Silo",
+            "access_rules": [ "^$silo_JRL_wingWhack" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 225,
+            "y": 220
+          }
+        ]
+      },
+      {
+        "name": "Wing Whack Silo Doubloons",
+        "sections": [
+          {
+            "name": "Doubloon 1",
+            "chest_unopened_img": "/images/locations/doubloon.png",
+            "chest_opened_img": "/images/locations/doubloon2.png"
+          },
+          {
+            "name": "Doubloon 2",
+            "chest_unopened_img": "/images/locations/doubloon.png",
+            "chest_opened_img": "/images/locations/doubloon2.png"
+          },
+          {
+            "name": "Doubloon 3",
+            "chest_unopened_img": "/images/locations/doubloon.png",
+            "chest_opened_img": "/images/locations/doubloon2.png"
+          },
+          {
+            "name": "Doubloon 4",
+            "chest_unopened_img": "/images/locations/doubloon.png",
+            "chest_opened_img": "/images/locations/doubloon2.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 240,
+            "y": 220
+          }
+        ]
+      },
+      {
+        "name": "Alcove",
+        "chest_unopened_img": "/images/locations/doubloon.png",
+        "chest_opened_img": "/images/locations/doubloon2.png",
+        "access_rules": [ "^$doubloons_JRL_ledgeAlcove" ],
+        "sections": [
+          {
+            "name": "Doubloon 1"
+          },
+          {
+            "name": "Doubloon 2"
+          },
+          {
+            "name": "Doubloon 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 365,
+            "y": 390
+          }
+        ]
+      },
+      {
+        "name": "Lagoon Alcove",
+        "sections": [
+          {
+            "name": "Jinjo",
+            "chest_unopened_img": "/images/locations/jinjo.png",
+            "chest_opened_img": "/images/locations/jinjo2.png",
+            "access_rules": ["^$jinjo_JRL_alcove"]
+          },
+          {
+            "name": "Doubloon 1",
+            "chest_unopened_img": "/images/locations/doubloon.png",
+            "chest_opened_img": "/images/locations/doubloon2.png",
+            "access_rules": [ "^$doubloons_JRL_underwater" ]
+          },
+          {
+            "name": "Doubloon 2",
+            "chest_unopened_img": "/images/locations/doubloon.png",
+            "chest_opened_img": "/images/locations/doubloon2.png",
+            "access_rules": [ "^$doubloons_JRL_underwater" ]
+          },
+          {
+            "name": "Doubloon 3",
+            "chest_unopened_img": "/images/locations/doubloon.png",
+            "chest_opened_img": "/images/locations/doubloon2.png",
+            "access_rules": [ "^$doubloons_JRL_underwater" ]
+          },
+          {
+            "name": "Doubloon 4",
+            "chest_unopened_img": "/images/locations/doubloon.png",
+            "chest_opened_img": "/images/locations/doubloon2.png",
+            "access_rules": [ "^$doubloons_JRL_underwater" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 477,
+            "y": 50
+          }
+        ]
+      },
+      {
+        "name": "Mumbo's Skull",
+        "chest_unopened_img": "/images/locations/doubloon.png",
+        "chest_opened_img": "/images/locations/doubloon2.png",
+        "sections": [
+          {
+            "name": "Doubloon 1"
+          },
+          {
+            "name": "Doubloon 2"
+          },
+          {
+            "name": "Doubloon 3"
+          },
+          {
+            "name": "Doubloon 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 320,
+            "y": 450
+          }
+        ]
+      },
+      {
+        "name": "Jolly's",
+        "sections": [
+          {
+            "ref": "Jolly Roger's Lagoon - Big Fish Cavern/Inside the Big Fish/Merry Maggie Jiggy",
+            "name": "Merry Maggie Jiggy (from Inside the Big Fish)"
+          },
+          {
+            "name": "Note 1",
+            "chest_unopened_img": "/images/locations/note.png",
+            "chest_opened_img": "/images/locations/note2.png",
+            "access_rules": ["^$notes_JRL_jollys"]
+          },
+          {
+            "name": "Note 2",
+            "chest_unopened_img": "/images/locations/note.png",
+            "chest_opened_img": "/images/locations/note2.png",
+            "access_rules": ["^$notes_JRL_jollys"]
+          },
+          {
+            "name": "Note 3",
+            "chest_unopened_img": "/images/locations/note.png",
+            "chest_opened_img": "/images/locations/note2.png",
+            "access_rules": ["^$notes_JRL_jollys"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 610,
+            "y": 440
+          }
+        ]
+      },
+      {
+        "name": "Jolly's - Storage Area",
+        "sections": [
+          {
+            "name": "Gunpowder Feather Nest 1",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_JRL_gunpowderRoom"]
+          },
+          {
+            "name": "Gunpowder Feather Nest 2",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_JRL_gunpowderRoom"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 610,
+            "y": 400
+          }
+        ]
+      },
+      {
+        "name": "Jolly's - Rented Room",
+        "sections": [
+          {
+            "name": "Sub-Aqua Egg Aiming Silo",
+            "chest_unopened_img": "/images/locations/silo.png",
+            "chest_opened_img": "/images/locations/silo2.png",
+            "access_rules": [ "^$silo_JRL_subAquaEggAiming" ]
+          },
+          {
+            "name": "Near Sub-Aqua Egg Aiming Silo Feather Nest 1",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_JRL_rentedRoom"]
+          },
+          {
+            "name": "Near Sub-Aqua Egg Aiming Silo Feather Nest 2",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_JRL_rentedRoom"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 610,
+            "y": 455
+          }
+        ]
+      },
+      {
+        "name": "Jolly's - Captain Blackeye's Room",
+        "sections": [
+          {
+            "name": "Captain Blackeye Doubloon 1",
+            "chest_unopened_img": "/images/locations/doubloon.png",
+            "chest_opened_img": "/images/locations/doubloon2.png"
+          },
+          {
+            "name": "Captain Blackeye Doubloon 2",
+            "chest_unopened_img": "/images/locations/doubloon.png",
+            "chest_opened_img": "/images/locations/doubloon2.png"
+          },
+          {
+            "name": "Near Blackeye Egg Nest 1",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"]
+          },
+          {
+            "name": "Near Blackeye Egg Nest 2",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 610,
+            "y": 469
+          }
+        ]
+      },
+      {
+        "name": "Pawno's Emporium",
+        "sections": [
+          {
+            "name": "Glowbo",
+            "chest_unopened_img": "/images/locations/glowbo.png",
+            "chest_opened_img": "/images/locations/glowbo2.png",
+            "access_rules": ["^$notes_JRL_pawnos"]
+          },
+          {
+            "name": "Note 1",
+            "chest_unopened_img": "/images/locations/note.png",
+            "chest_opened_img": "/images/locations/note2.png",
+            "access_rules": ["^$notes_JRL_pawnos"]
+          },
+          {
+            "name": "Note 2",
+            "chest_unopened_img": "/images/locations/note.png",
+            "chest_opened_img": "/images/locations/note2.png",
+            "access_rules": ["^$notes_JRL_pawnos"]
+          },
+          {
+            "name": "Note 3",
+            "chest_unopened_img": "/images/locations/note.png",
+            "chest_opened_img": "/images/locations/note2.png",
+            "access_rules": ["^$notes_JRL_pawnos"]
+          },
+          {
+            "name": "Egg Nest 1",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"]
+          },
+          {
+            "name": "Egg Nest 2",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"]
+          },
+          {
+            "name": "Egg Nest 3",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 405,
+            "y": 530
+          }
+        ]
+      },
+      {
+        "name": "Pawno's Emporium - Purchases",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": [ "^$jiggy_JRL_pawno" ],
+            "visibility_rules": ["mousepace_off"]
+          },
+          {
+            "name": "Cheato Page",
+            "chest_unopened_img": "/images/locations/page.png",
+            "chest_opened_img": "/images/locations/page2.png",
+            "access_rules": ["^$cheato_JRL_pawno"],
+            "visibility_rules": ["mousepace_off"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 420,
+            "y": 530
+          }
+        ]
+      },
+      {
+        "name": "Blubber's Waveracer Hire",
+        "sections": [
+          {
+            "name": "Jinjo",
+            "chest_unopened_img": "/images/locations/jinjo.png",
+            "chest_opened_img": "/images/locations/jinjo2.png",
+            "access_rules": ["^$jinjo_JRL_atBlubbers"]
+          },
+          {
+            "name": "Note 1",
+            "chest_unopened_img": "/images/locations/note.png",
+            "chest_opened_img": "/images/locations/note2.png"
+          },
+          {
+            "name": "Note 2",
+            "chest_unopened_img": "/images/locations/note.png",
+            "chest_opened_img": "/images/locations/note2.png"
+          },
+          {
+            "name": "Note 3",
+            "chest_unopened_img": "/images/locations/note.png",
+            "chest_opened_img": "/images/locations/note2.png"
+          },
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 345,
+            "y": 295
+          }
+        ]
+      },
+      {
+        "name": "Smuggler's Cavern",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": ["^$jiggy_JRL_smugglersCavern"]
+          },
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"],
+            "access_rules": ["^$signpost_JRL_smugglersCavern"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 625,
+            "y": 393
+          }
+        ]
+      },
+      {
+        "name": "Smuggler's Cavern - Underwater",
+        "sections": [
+          {
+            "ref": "Jolly Roger's Lagoon - Underwater/JRL: Seemee Cheato Page/Cheato Page",
+            "name": "Seemee Cheato Page"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Underwater/JRL: Smuggler's Cavern Egg Nests/Egg Nest 1",
+            "name": "Smuggler's Cavern Egg Nest 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Underwater/JRL: Smuggler's Cavern Egg Nests/Egg Nest 2",
+            "name": "Smuggler's Cavern Egg Nest 2"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Underwater/GI Floor 1: Waste Disposal Plant Jinjo/Jinjo",
+            "name": "GI Floor 1: Waste Disposal Plant Jinjo"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Underwater/GI Floor 1: Waste Disposal Plant Jinjo/Tank Egg Nest 1",
+            "name": "GI Floor 1: Waste Disposal Plant Tank Egg Nest 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Underwater/GI Floor 1: Waste Disposal Plant Jinjo/Tank Egg Nest 2",
+            "name": "GI Floor 1: Waste Disposal Plant Tank Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 625,
+            "y": 407
+          },
+          {
+            "map": "jrl1",
+            "x": 490,
+            "y": 180
+          }
+        ]
+      },
+      {
+        "name": "Underwater - Here",
+        "sections": [
+          {
+            "ref": "Jolly Roger's Lagoon - Underwater/UFO/Jiggy",
+            "name": "UFO Jiggy"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Underwater/Blubbul Notes/Note 1",
+            "name": "Blubbul Note 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Underwater/Blubbul Notes/Note 2",
+            "name": "Blubbul Note 2"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Underwater/JRL: Town Center Blubbul Egg Nest/Egg Nest",
+            "name": "Town Center Blubbul Egg Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 476,
+            "y": 180
+          }
+        ]
+      },
+      {
+        "name": "Underwater - Atlantis",
+        "sections": [
+          {
+            "ref": "Jolly Roger's Lagoon - Atlantis/JRL: Atlantis Warp Pad/Warp Pad",
+            "name": "Atlantis Warp Pad"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Atlantis/Electric Eel's Lair/Talon Torpedo Silo",
+            "name": "Electric Eel's Lair - Talon Torpedo Silo"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Atlantis/JRL: Seemee Jiggy (Moves Around)/Jiggy",
+            "name": "Seemee Jiggy (Moves Around)"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Atlantis/JRL: Atlantis Honeycomb/Honeycomb",
+            "name": "Atlantis Honeycomb"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Atlantis/JRL: Under Wumba's Wigwam Glowbo/Glowbo",
+            "name": "Glowbo Under Wumba's Wigwam"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Atlantis/Ancient Swimming Baths/Cheato Page",
+            "name": "Swimming Baths Cheato Page"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Atlantis/JRL: Treble Clef/Treble Clef",
+            "name": "Treble Clef"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Atlantis/Electric Eel's Lair Entrance Notes/Note 1",
+            "name": "Note 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Atlantis/Electric Eel's Lair Entrance Notes/Note 2",
+            "name": "Note 2"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Atlantis/Wumba's Wigwam/Feather Nest",
+            "name": "Wumba's Wigwam Feather Nest"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Atlantis/JRL: Atlantis Egg Nests/Egg Nest 1",
+            "name": "Egg Nest 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Atlantis/JRL: Atlantis Egg Nests/Egg Nest 2",
+            "name": "Egg Nest 2"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Atlantis/JRL: Atlantis Egg Nests/Egg Nest 3",
+            "name": "Egg Nest 3"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Atlantis/JRL: Atlantis Seemee Fish Egg Nest/Egg Nest",
+            "name": "Seemee Fish Egg Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 462,
+            "y": 180
+          }
+        ]
+      },
+      {
+        "name": "Underwater - Temple of the Fishes",
+        "sections": [
+          {
+            "ref": "Jolly Roger's Lagoon - Atlantis/Temple of the Fishes/Chris P. Bacon Jiggy",
+            "name": "Temple of the Fishes - Chris P. Bacon Jiggy"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Atlantis/Temple of the Fishes/Egg Nest 1",
+            "name": "Temple of the Fishes Egg Nest 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Atlantis/Temple of the Fishes/Egg Nest 2",
+            "name": "Temple of the Fishes Egg Nest 2"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Atlantis/Temple of the Fishes/Egg Nest 3",
+            "name": "Temple of the Fishes Egg Nest 3"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Atlantis/Temple of the Fishes/Egg Nest 4",
+            "name": "Temple of the Fishes Egg Nest 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 462,
+            "y": 166
+          }
+        ]
+      },
+      {
+        "name": "Seaweed Sanctum",
+        "sections": [
+          {
+            "ref": "Jolly Roger's Lagoon - Seaweed Sanctum/JRL: Seaweed Sanctum Jinjo/Jinjo",
+            "name": "Jinjo"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Seaweed Sanctum/JRL: Seaweed Sanctum Bottom Floor Feather Nest/Feather Nest",
+            "name": "Bottom Floor Feather Nest"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Seaweed Sanctum/JRL: Seaweed Sanctum Second Floor Egg Nest 1/Egg Nest",
+            "name": "Second Floor Egg Nest 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Seaweed Sanctum/JRL: Seaweed Sanctum Top Floor Feather Nest/Feather Nest",
+            "name": "Top Floor Feather Nest"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Seaweed Sanctum/JRL: Seaweed Sanctum Second Floor Egg Nest 2/Egg Nest",
+            "name": "Second Floor Egg Nest 2"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Seaweed Sanctum/JRL: Seaweed Sanctum Signpost/Signpost",
+            "name": "Signpost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 462,
+            "y": 194
+          }
+        ]
+      },
+      {
+        "name": "Underwater - Sunken Ship",
+        "sections": [
+          {
+            "ref": "Jolly Roger's Lagoon - Sunken Ship/JRL: Sunken Ship Warp Pad/Warp Pad",
+            "name": "Sunken Ship Warp Pad"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Sunken Ship/JRL: Sunken Ship Jinjo/Jinjo",
+            "name": "Sunken Ship Jinjo"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Sunken Ship/JRL: Sunken Ship Egg Nest 1/Egg Nest 1",
+            "name": "Nest 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Sunken Ship/JRL: Sunken Ship Egg Nest 2/Egg Nest 2",
+            "name": "Egg Nest 2"
+          },
+          {
+            "ref": "Glitter Gulch Mine - Water Storage Jinjo/GGM: Water Storage Jinjo/Jinjo (from JRL)",
+            "name": "GGM: Water Storage Jinjo"
+          },
+          {
+            "ref": "Glitter Gulch Mine - Water Storage Jinjo/GGM: Water Storage Jinjo Tank Egg Nest/Egg Nest (from JRL)",
+            "name": "GGM: Water Storage Egg Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 448,
+            "y": 180
+          }
+        ]
+      },
+      {
+        "name": "Underwater - Big Fish Cavern",
+        "sections": [
+          {
+            "ref": "Jolly Roger's Lagoon - Big Fish Cavern/JRL: Big Fish Cavern Warp Pad/Warp Pad",
+            "name": "JRL: Big Fish Cavern Warp Pad"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Big Fish Cavern/Inside the Big Fish/Jinjo",
+            "name": "Inside the Big Fish Jinjo"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Big Fish Cavern/JRL: Seemee Honeycomb (Moves Around)/Honeycomb",
+            "name": "Seemee Honeycomb (Moves Around)"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Big Fish Cavern/JRL: Near Big Fish Warp Pad Egg Nests/Egg Nest 1",
+            "name": "Big Fish Warp Pad Egg Nest 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Big Fish Cavern/JRL: Near Big Fish Warp Pad Egg Nests/Egg Nest 2",
+            "name": "Big Fish Warp Pad Egg Nest 2"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Big Fish Cavern/Inside the Big Fish/Feather Nest 1",
+            "name": "Inside the Big Fish Feather Nest 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Big Fish Cavern/Inside the Big Fish/Feather Nest 2",
+            "name": "Inside the Big Fish Feather Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 434,
+            "y": 166
+          }
+        ]
+      },
+      {
+        "name": "Underwater - Locker Cavern",
+        "sections": [
+          {
+            "ref": "Jolly Roger's Lagoon - Locker Cavern/JRL: Locker Cavern Warp Pad/Warp Pad",
+            "name": "Locker Cavern Warp Pad"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Locker Cavern/Mini-Sub Challenge/Jiggy",
+            "name": "Mini-Sub Challenge Jiggy"
+          },
+          {
+            "ref": "Boss Arena - Lord Woo Fak Fak/Lord Woo Fak Fak/Jiggy",
+            "name": "Lord Woo Fak Fak Jiggy"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Locker Cavern/JRL: Lockers Egg Nests/Egg Nest 1",
+            "name": "Lockers Egg Nest 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Locker Cavern/JRL: Lockers Egg Nests/Egg Nest 2",
+            "name": "Lockers Egg Nest 2"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Locker Cavern/JRL: Lockers Egg Nests/Egg Nest 3",
+            "name": "Lockers Egg Nest 3"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Locker Cavern/JRL: Sea Bottom Seemee Fish Feather Nest (Moves Around)/Feather Nest",
+            "name": "Seemee Fish Feather Nest (Moves Around)"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Locker Cavern/JRL: Sea Bottom Seemee Fish Egg Nest (Moves Around)/Egg Nest",
+            "name": "Seemee Fish Egg Nest (Moves Around)"
+          },
+          {
+            "ref": "Boss Arena - Lord Woo Fak Fak/Lord Woo Fak Fak/Davie Jones Locker Egg Nest 1",
+            "name": "Lord Woo Fak Fak Egg Nest 1"
+          },
+          {
+            "ref": "Boss Arena - Lord Woo Fak Fak/Lord Woo Fak Fak/Davie Jones Locker Egg Nest 2",
+            "name": "Lord Woo Fak Fak Egg Nest 2"
+          },
+          {
+            "ref": "Boss Arena - Lord Woo Fak Fak/Lord Woo Fak Fak/Davie Jones Locker Egg Nest 3",
+            "name": "Lord Woo Fak Fak Egg Nest 3"
+          },
+          {
+            "ref": "Boss Arena - Lord Woo Fak Fak/Lord Woo Fak Fak/Davie Jones Locker Egg Nest 4",
+            "name": "Lord Woo Fak Fak Egg Nest 4"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Locker Cavern/Mini-Sub Challenge/Mumbo Token",
+            "name": "Mini-Sub Challenge Mumbo Token"
+          },
+          {
+            "ref": "Boss Arena - Lord Woo Fak Fak/Lord Woo Fak Fak/Mumbo Token",
+            "name": "Lord Woo Fak Fak Mumbo Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl1",
+            "x": 434,
+            "y": 180
+          }
+        ]
+      },
+      {
+        "name": "GI Floor 1: Waste Disposal Water Pump Nests",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_GI_wasteDisposalWaterPump"],
+        "sections": [
+          {
+            "name": "Egg Nest",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png"
+          },
+          {
+            "name": "Feather Nest",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi5",
+            "x": 144,
+            "y": 166
+          },
+          {
+            "map": "jrl1",
+            "x": 690,
+            "y": 360
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Jolly Roger's Lagoon - Underwater",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Region: Jolly Roger's Lagoon - Underwater" ],
+    "children": [
+      {
+        "name": "Blubbul Notes",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "access_rules": [ "^$notes_JRL_blubbuls" ],
+        "sections": [
+          {
+            "name": "Note 1"
+          },
+          {
+            "name": "Note 2"
+          }
+        ]
+      },
+      {
+        "name": "JRL: Seemee Cheato Page",
+        "access_rules": [ "ttorp" ],
+        "sections": [
+          {
+            "name": "Cheato Page",
+            "chest_unopened_img": "/images/locations/page.png",
+            "chest_opened_img": "/images/locations/page2.png"
+          }
+        ]
+      },
+      {
+        "name": "UFO",
+        "visibility_rules": ["mousepace_off"],
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": [ "^$jiggy_JRL_ufo" ]
+          }
+        ]
+      },
+      {
+        "name": "JRL: Town Center Blubbul Egg Nest",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$notes_JRL_blubbuls"],
+        "sections": [
+          {
+            "name": "Egg Nest"
+          }
+        ]
+      },
+      {
+        "name": "JRL: Smuggler's Cavern Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          }
+        ]
+      },
+      {
+        "name": "GI Floor 1: Waste Disposal Plant Jinjo",
+        "chest_unopened_img": "/images/locations/jinjo.png",
+        "chest_opened_img": "/images/locations/jinjo2.png",
+        "access_rules": ["^$jinjo_GI_wasteDisposalPlant"],
+        "sections": [
+          {
+            "name": "Jinjo"
+          },
+          {
+            "name": "Tank Egg Nest 1",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"]
+          },
+          {
+            "name": "Tank Egg Nest 2",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi5",
+            "x": 640,
+            "y": 200
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Jolly Roger's Lagoon - Atlantis",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Region: Jolly Roger's Lagoon - Atlantis" ],
+    "children": [
+      {
+        "name": "JRL: Atlantis Warp Pad",
+        "sections": [
+          {
+            "name": "Warp Pad",
+            "chest_unopened_img": "/images/locations/warp.png",
+            "chest_opened_img": "/images/locations/warp2.png",
+            "visibility_rules": ["randomizewarppads_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl2",
+            "x": 427,
+            "y": 231
+          }
+        ]
+      },
+      {
+        "name": "JRL: Treble Clef",
+        "chest_unopened_img": "/images/locations/treble.png",
+        "chest_opened_img": "/images/locations/treble2.png",
+        "sections": [
+          {
+            "name": "Treble Clef",
+            "access_rules": ["^$treble_JRL"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl2",
+            "x": 210,
+            "y": 275
+          }
+        ]
+      },
+      {
+        "name": "Sunken Ship",
+        "sections": [
+          {
+            "ref": "Jolly Roger's Lagoon - Sunken Ship/JRL: Sunken Ship Warp Pad/Warp Pad",
+            "name": "JRL: Sunken Ship Warp Pad"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Sunken Ship/JRL: Sunken Ship Jinjo/Jinjo",
+            "name": "JRL: Sunken Ship Jinjo"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Sunken Ship/JRL: Sunken Ship Egg Nest 1/Egg Nest 1",
+            "name": "JRL: Sunken Ship Egg Nest 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Sunken Ship/JRL: Sunken Ship Egg Nest 2/Egg Nest 2",
+            "name": "JRL: Sunken Ship Egg Nest 2"
+          },
+          {
+            "ref": "Glitter Gulch Mine - Water Storage Jinjo/GGM: Water Storage Jinjo/Jinjo (from JRL)",
+            "name": "GGM: Water Storage Jinjo"
+          },
+          {
+            "ref": "Glitter Gulch Mine - Water Storage Jinjo/GGM: Water Storage Jinjo Tank Egg Nest/Egg Nest (from JRL)",
+            "name": "GGM: Water Storage Egg Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl2",
+            "x": 73,
+            "y": 343
+          },
+          {
+            "map": "jrl4",
+            "x": 810,
+            "y": 680
+          }
+        ]
+      },
+      {
+        "name": "JRL: Atlantis Honeycomb",
+        "chest_unopened_img": "/images/locations/honey.png",
+        "chest_opened_img": "/images/locations/honey2.png",
+        "sections": [
+          {
+            "name": "Honeycomb"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl2",
+            "x": 416,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "JRL: Seemee Jiggy (Moves Around)",
+        "visibility_rules": ["mousepace_off"],
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": [ "^$jiggy_JRL_seemee" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl2",
+            "x": 275,
+            "y": 255
+          }
+        ]
+      },
+      {
+        "name": "JRL: Under Wumba's Wigwam Glowbo",
+        "chest_unopened_img": "/images/locations/glowbo.png",
+        "chest_opened_img": "/images/locations/glowbo2.png",
+        "sections": [
+          {
+            "name": "Glowbo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl2",
+            "x": 860,
+            "y": 315
+          }
+        ]
+      },
+      {
+        "name": "Electric Eel's Lair Entrance Notes",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "sections": [
+          {
+            "name": "Note 1"
+          },
+          {
+            "name": "Note 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl2",
+            "x": 470,
+            "y": 255
+          }
+        ]
+      },
+      {
+        "name": "Electric Eel's Lair",
+        "sections": [
+          {
+            "name": "Talon Torpedo Silo",
+            "chest_unopened_img": "/images/locations/silo.png",
+            "chest_opened_img": "/images/locations/silo2.png",
+            "access_rules": [ "^$silo_JRL_talonTorpedo" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl2",
+            "x": 490,
+            "y": 240
+          }
+        ]
+      },
+      {
+        "name": "Temple of the Fishes",
+        "visibility_rules": ["mousepace_off"],
+        "sections": [
+          {
+            "name": "Chris P. Bacon Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": ["^$jiggy_JRL_chrisPBacon"]
+          },
+          {
+            "name": "Egg Nest 1",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_JRL_templeOfTheFishes"]
+          },
+          {
+            "name": "Egg Nest 2",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_JRL_templeOfTheFishes"]
+          },
+          {
+            "name": "Egg Nest 3",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_JRL_templeOfTheFishes"]
+          },
+          {
+            "name": "Egg Nest 4",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_JRL_templeOfTheFishes"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl2",
+            "x": 325,
+            "y": 170
+          }
+        ]
+      },
+      {
+        "name": "Ancient Swimming Baths",
+        "sections": [
+          {
+            "name": "Cheato Page",
+            "chest_unopened_img": "/images/locations/page.png",
+            "chest_opened_img": "/images/locations/page2.png",
+            "access_rules": ["^$cheato_JRL_ancientSwimmingBaths"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl2",
+            "x": 220,
+            "y": 385
+          }
+        ]
+      },
+      {
+        "name": "Seaweed Sanctum",
+        "sections": [
+          {
+            "ref": "Jolly Roger's Lagoon - Seaweed Sanctum/JRL: Seaweed Sanctum Jinjo/Jinjo",
+            "name": "Jinjo"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Seaweed Sanctum/JRL: Seaweed Sanctum Bottom Floor Feather Nest/Feather Nest",
+            "name": "Bottom Floor Feather Nest"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Seaweed Sanctum/JRL: Seaweed Sanctum Second Floor Egg Nest 1/Egg Nest",
+            "name": "Second Floor Egg Nest 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Seaweed Sanctum/JRL: Seaweed Sanctum Top Floor Feather Nest/Feather Nest",
+            "name": "Top Floor Feather Nest"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Seaweed Sanctum/JRL: Seaweed Sanctum Second Floor Egg Nest 2/Egg Nest",
+            "name": "Second Floor Egg Nest 2"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Seaweed Sanctum/JRL: Seaweed Sanctum Signpost/Signpost",
+            "name": "Signpost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl2",
+            "x": 460,
+            "y": 395
+          }
+        ]
+      },
+      {
+        "name": "JRL: Atlantis Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          },
+          {
+            "name": "Egg Nest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl2",
+            "x": 332,
+            "y": 310
+          }
+        ]
+      },
+      {
+        "name": "JRL: Atlantis Seemee Fish Egg Nest",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["ttorp"],
+        "sections": [
+          {
+            "name": "Egg Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl2",
+            "x": 880,
+            "y": 340
+          }
+        ]
+      },
+      {
+        "name": "Wumba's Wigwam",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Feather Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl2",
+            "x": 877,
+            "y": 295
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Jolly Roger's Lagoon - Sunken Ship",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Region: Jolly Roger's Lagoon - Sunken Ship" ],
+    "children": [
+      {
+        "name": "JRL: Sunken Ship Warp Pad",
+        "chest_unopened_img": "/images/locations/warp.png",
+        "chest_opened_img": "/images/locations/warp2.png",
+        "visibility_rules": ["randomizewarppads_on"],
+        "sections": [
+          {
+            "name": "Warp Pad"
+          }
+        ]
+      },
+      {
+        "name": "JRL: Sunken Ship Jinjo",
+        "chest_unopened_img": "/images/locations/jinjo.png",
+        "chest_opened_img": "/images/locations/jinjo2.png",
+        "access_rules": ["^$jinjo_JRL_sunkenShip"],
+        "sections": [
+          {
+            "name": "Jinjo"
+          }
+        ]
+      },
+      {
+        "name": "JRL: Sunken Ship Egg Nest 1",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          }
+        ]
+      },
+      {
+        "name": "JRL: Sunken Ship Egg Nest 2",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Jolly Roger's Lagoon - Seaweed Sanctum",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Region: Jolly Roger's Lagoon - Seaweed Sanctum" ],
+    "children": [
+      {
+        "name": "JRL: Seaweed Sanctum Jinjo",
+        "chest_unopened_img": "/images/locations/jinjo.png",
+        "chest_opened_img": "/images/locations/jinjo2.png",
+        "access_rules": ["^$jinjo_JRL_seaweedSanctum"],
+        "sections": [
+          {
+            "name": "Jinjo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl3",
+            "x": 735,
+            "y": 300
+          }
+        ]
+      },
+      {
+        "name": "JRL: Seaweed Sanctum Bottom Floor Feather Nest",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_JRL_seaweedSanctumBottom"],
+        "sections": [
+          {
+            "name": "Feather Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl3",
+            "x": 715,
+            "y": 700
+          }
+        ]
+      },
+      {
+        "name": "JRL: Seaweed Sanctum Second Floor Egg Nest 1",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_JRL_seaweedSanctumOthers"],
+        "sections": [
+          {
+            "name": "Egg Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl3",
+            "x": 625,
+            "y": 340
+          }
+        ]
+      },
+      {
+        "name": "JRL: Seaweed Sanctum Second Floor Egg Nest 2",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_JRL_seaweedSanctumOthers"],
+        "sections": [
+          {
+            "name": "Egg Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl3",
+            "x": 140,
+            "y": 397
+          }
+        ]
+      },
+      {
+        "name": "JRL: Seaweed Sanctum Top Floor Feather Nest",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_JRL_seaweedSanctumTop"],
+        "sections": [
+          {
+            "name": "Feather Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl3",
+            "x": 172,
+            "y": 160
+          }
+        ]
+      },
+      {
+        "name": "JRL: Seaweed Sanctum Signpost",
+        "chest_unopened_img": "/images/locations/signpost.png",
+        "chest_opened_img": "/images/locations/signpost2.png",
+        "visibility_rules": ["signposts_on"],
+        "sections": [
+          {
+            "name": "Signpost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl3",
+            "x": 142,
+            "y": 760
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Jolly Roger's Lagoon - Locker Cavern",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Region: Jolly Roger's Lagoon - Locker Cavern" ],
+    "children": [
+      {
+        "name": "JRL: Locker Cavern Warp Pad",
+        "sections": [
+          {
+            "name": "Warp Pad",
+            "chest_unopened_img": "/images/locations/warp.png",
+            "chest_opened_img": "/images/locations/warp2.png",
+            "visibility_rules": ["randomizewarppads_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl4",
+            "x": 170,
+            "y": 550
+          }
+        ]
+      },
+      {
+        "name": "JRL: Lockers Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          },
+          {
+            "name": "Egg Nest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl4",
+            "x": 347,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "JRL: Sea Bottom Seemee Fish Egg Nest (Moves Around)",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["ttorp"],
+        "sections": [
+          {
+            "name": "Egg Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl4",
+            "x": 1038,
+            "y": 330
+          }
+        ]
+      },
+      {
+        "name": "JRL: Sea Bottom Seemee Fish Feather Nest (Moves Around)",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["ttorp"],
+        "sections": [
+          {
+            "name": "Feather Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl4",
+            "x": 351,
+            "y": 575
+          }
+        ]
+      },
+      {
+        "name": "Mini-Sub Challenge",
+        "access_rules": ["^$jiggy_JRL_subChallenge"],
+        "visibility_rules": ["mousepace_off"],
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png"
+          },
+          {
+            "name": "Mumbo Token",
+            "chest_unopened_img": "/images/locations/mumbotoken.png",
+            "chest_opened_img": "/images/locations/mumbotoken2.png",
+            "visibility_rules": ["goal_minigame", "goal_wwing"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl4",
+            "x": 180,
+            "y": 703
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Jolly Roger's Lagoon - Big Fish Cavern",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Region: Jolly Roger's Lagoon - Big Fish Cavern" ],
+    "children": [
+      {
+        "name": "JRL: Big Fish Cavern Warp Pad",
+        "sections": [
+          {
+            "name": "Warp Pad",
+            "chest_unopened_img": "/images/locations/warp.png",
+            "chest_opened_img": "/images/locations/warp2.png",
+            "visibility_rules": ["randomizewarppads_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl4",
+            "x": 870,
+            "y": 522
+          }
+        ]
+      },
+      {
+        "name": "JRL: Near Big Fish Warp Pad Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl4",
+            "x": 1152,
+            "y": 600
+          }
+        ]
+      },
+      {
+        "name": "Inside the Big Fish",
+        "visibility_rules": ["mousepace_off"],
+        "access_rules": ["^$jiggy_JRL_merryMaggie"],
+        "sections": [
+          {
+            "name": "Jinjo",
+            "chest_unopened_img": "/images/locations/jinjo.png",
+            "chest_opened_img": "/images/locations/jinjo2.png"
+          },
+          {
+            "name": "Merry Maggie Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png"
+          },
+          {
+            "name": "Feather Nest 1",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png",
+            "visibility_rules": ["nestsanity_on"]
+          },
+          {
+            "name": "Feather Nest 2",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png",
+            "visibility_rules": ["nestsanity_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl4",
+            "x": 980,
+            "y": 340
+          }
+        ]
+      },
+      {
+        "name": "JRL: Seemee Honeycomb (Moves Around)",
+        "chest_unopened_img": "/images/locations/honey.png",
+        "chest_opened_img": "/images/locations/honey2.png",
+        "access_rules": ["ttorp"],
+        "sections": [
+          {
+            "name": "Honeycomb"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl4",
+            "x": 200,
+            "y": 470
+          }
+        ]
+      },
+      {
+        "name": "Seaweed Sanctum",
+        "sections": [
+          {
+            "ref": "Jolly Roger's Lagoon - Seaweed Sanctum/JRL: Seaweed Sanctum Jinjo/Jinjo",
+            "name": "Jinjo"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Seaweed Sanctum/JRL: Seaweed Sanctum Bottom Floor Feather Nest/Feather Nest",
+            "name": "Bottom Floor Feather Nest"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Seaweed Sanctum/JRL: Seaweed Sanctum Second Floor Egg Nest 1/Egg Nest",
+            "name": "Second Floor Egg Nest 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Seaweed Sanctum/JRL: Seaweed Sanctum Top Floor Feather Nest/Feather Nest",
+            "name": "Top Floor Feather Nest"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Seaweed Sanctum/JRL: Seaweed Sanctum Second Floor Egg Nest 2/Egg Nest",
+            "name": "Second Floor Egg Nest 2"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Seaweed Sanctum/JRL: Seaweed Sanctum Signpost/Signpost",
+            "name": "Signpost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl4",
+            "x": 1162,
+            "y": 690
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Boss Arena - Lord Woo Fak Fak",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Region: Boss Arena - Lord Woo Fak Fak" ],
+    "children": [
+      {
+        "name": "Lord Woo Fak Fak",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": ["^$jiggy_JRL_lordWooFakFak"]
+          },
+          {
+            "name": "Mumbo Token",
+            "chest_unopened_img": "/images/locations/mumbotoken.png",
+            "chest_opened_img": "/images/locations/mumbotoken2.png",
+            "visibility_rules": ["goal_boss", "goal_wwing"],
+            "access_rules": ["^$jiggy_JRL_lordWooFakFak"]
+          },
+          {
+            "name": "Davie Jones Locker Egg Nest 1",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_JRL_lordWooFakFak"]
+          },
+          {
+            "name": "Davie Jones Locker Egg Nest 2",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_JRL_lordWooFakFak"]
+          },
+          {
+            "name": "Davie Jones Locker Egg Nest 3",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_JRL_lordWooFakFak"]
+          },
+          {
+            "name": "Davie Jones Locker Egg Nest 4",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_JRL_lordWooFakFak"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jrl4",
+            "x": 300,
+            "y": 567
+          }
+        ]
+      }
+    ]
+  }
+]

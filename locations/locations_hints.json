@@ -1354,6 +1354,118 @@
               ]
             },
             {
+              "name": "Mayahem Temple - Relic Hints",
+              "sections": [
+                {
+                  "name": "MT: Right Entrance Relic (Hint)",
+                  "visibility_rules": ["mt_relicer"]
+                },
+                {
+                  "name": "MT: Left Entrance Relic (Hint)",
+                  "visibility_rules": ["mt_relicel"]
+                },
+                {
+                  "name": "MT: Blue Pillar Room Relic 1 (Hint)",
+                  "visibility_rules": ["mt_relicb1"]
+                },
+                {
+                  "name": "MT: Blue Pillar Room Relic 2 (Hint)",
+                  "visibility_rules": ["mt_relicb2"]
+                },
+                {
+                  "name": "MT: Blue Pillar Room Relic 3 (Hint)",
+                  "visibility_rules": ["mt_relicb3"]
+                },
+                {
+                  "name": "MT: Near Sput Sput Relic 1 (Hint)",
+                  "visibility_rules": ["mt_relicx1"]
+                },
+                {
+                  "name": "MT: Near Sput Sput Relic 2 (Hint)",
+                  "visibility_rules": ["mt_relicx2"]
+                },
+                {
+                  "name": "MT: Near Sput Sput Relic 3 (Hint)",
+                  "visibility_rules": ["mt_relicx3"]
+                },
+                {
+                  "name": "MT: Near Sput Sput Relic 4 (Hint)",
+                  "visibility_rules": ["mt_relicx4"]
+                },
+                {
+                  "name": "MT: Near Sput Sput Relic 5 (Hint)",
+                  "visibility_rules": ["mt_relicx5"]
+                },
+                {
+                  "name": "MT: Green Pillar Room Relic 1 (Hint)",
+                  "visibility_rules": ["mt_relicg1"]
+                },
+                {
+                  "name": "MT: Green Pillar Room Relic 2 (Hint)",
+                  "visibility_rules": ["mt_relicg2"]
+                },
+                {
+                  "name": "MT: Green Pillar Room Relic 3 (Hint)",
+                  "visibility_rules": ["mt_relicg3"]
+                },
+                {
+                  "name": "MT: Green Pillar Room Relic 4 (Hint)",
+                  "visibility_rules": ["mt_relicg4"]
+                },
+                {
+                  "name": "MT: Green Pillar Room Relic 5 (Hint)",
+                  "visibility_rules": ["mt_relicg5"]
+                },
+                {
+                  "name": "MT: Near Sacred Chambers Relic 1 (Hint)",
+                  "visibility_rules": ["mt_relicj1"]
+                },
+                {
+                  "name": "MT: Near Sacred Chambers Relic 2 (Hint)",
+                  "visibility_rules": ["mt_relicj2"]
+                },
+                {
+                  "name": "MT: Secret Passage Near Sacred Chambers Relic 1 (Hint)",
+                  "visibility_rules": ["mt_relics1"]
+                },
+                {
+                  "name": "MT: Secret Passage Near Sacred Chambers Relic 2 (Hint)",
+                  "visibility_rules": ["mt_relics2"]
+                },
+                {
+                  "name": "MT: Secret Passage Near Sacred Chambers Relic 3 (Hint)",
+                  "visibility_rules": ["mt_relics3"]
+                },
+                {
+                  "name": "MT: Secret Passage Near Entrance Relic 1 (Hint)",
+                  "visibility_rules": ["mt_relice1"]
+                },
+                {
+                  "name": "MT: Secret Passage Near Entrance Relic 2 (Hint)",
+                  "visibility_rules": ["mt_relice2"]
+                },
+                {
+                  "name": "MT: Red Pillar Room Relic 1 (Hint)",
+                  "visibility_rules": ["mt_relicr1"]
+                },
+                {
+                  "name": "MT: Red Pillar Room Relic 2 (Hint)",
+                  "visibility_rules": ["mt_relicr2"]
+                },
+                {
+                  "name": "MT: Red Pillar Room Relic 3 (Hint)",
+                  "visibility_rules": ["mt_relicr3"]
+                }
+              ],
+              "map_locations": [
+                {
+                  "map": "overview",
+                  "x": 939,
+                  "y": 170
+                }
+              ]
+            },
+            {
               "name": "Glitter Gulch Mine - Silos Hints",
               "sections": [
                 {
@@ -2277,6 +2389,34 @@
                 {
                   "map": "overview",
                   "x": 869,
+                  "y": 290
+                }
+              ]
+            },
+            {
+              "name": "Witchyworld - Ticket Hints",
+              "sections": [
+                {
+                  "name": "WW: Entrance Big Top Ticket (Hint)",
+                  "visibility_rules": ["ww_tickete"]
+                },
+                {
+                  "name": "WW: Space Zone Big Top Ticket (Hint)",
+                  "visibility_rules": ["ww_ticketz"]
+                },
+                {
+                  "name": "WW: Spooky Big Top Ticket (Hint)",
+                  "visibility_rules": ["ww_ticketh"]
+                },
+                {
+                  "name": "WW: Western Big Top Ticket (Hint)",
+                  "visibility_rules": ["ww_ticketw"]
+                }
+              ],
+              "map_locations": [
+                {
+                  "map": "overview",
+                  "x": 939,
                   "y": 290
                 }
               ]
@@ -4917,6 +5057,26 @@
                 {
                   "map": "overview",
                   "x": 869,
+                  "y": 590
+                }
+              ]
+            },
+            {
+              "name": "Cloud Cuckooland - Bean Hints",
+              "sections": [
+                {
+                  "name": "CCL: Dirt Patch Bean 1 (Hint)",
+                  "visibility_rules": ["cc_bean1"]
+                },
+                {
+                  "name": "CCL: Dirt Patch Bean 2 (Hint)",
+                  "visibility_rules": ["cc_bean2"]
+                }
+              ],
+              "map_locations": [
+                {
+                  "map": "overview",
+                  "x": 939,
                   "y": 590
                 }
               ]
