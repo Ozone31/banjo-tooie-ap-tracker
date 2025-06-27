@@ -1,6 +1,24 @@
 {
 	"versions": [
 		{
+			"package_version": "0.10.0",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.10.0",
+			"sha256": "eee74debc1ed0107679d57095d3672322b94164b50f5a1faf2ff6c8ef28b57b5",
+			"changelog": [
+				"Updated logic for v4.6 of Banjo-Tooie AP.",
+				"Added support for v4.6 features: new check locations when their associated settings are enabled (Targitzan Relics, Big Top Tickets, and Beans), and Boss Entrance Rando.",
+				"Chuffy and Train Stations buttons have been moved to make room for the new Boss Entrance Rando buttons.",
+				"Several settings buttons have been combined to save space for future development.",
+				"Cheato Reward: Jukebox is no longer displayed on the tracker.",
+				"A new button has been added to override Entrance Rando and Boss Entrance Rando logic. Using it forces the Poptracker logic to pull from what you have set as your entrances in the tracker, rather than what was read from the ROM. This is useful for debugging or if you want to go in without Poptracker accidentally spoiling any of your entrances!",
+				"No longer incorrectly assumes you can kill Old King Coal when you don't have any attacking moves.",
+				"Fixed some egg and feather nests being visible even with Nestsanity disabled.",
+				"The Jade Snake Grove above the code chamber egg nest no longer shows as accessible on Intended without Talon Trot.",
+				"The Smuggler's Cavern Seemee is now displayed in the correct location.",
+				"Several Mayahem Temple checks now correctly show as accessible when you can warp to their locations."
+			]
+		},
+		{
 			"package_version": "0.9.3",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.9.3",
 			"sha256": "91d74d7b8c5efc9db5f88c1b3553361f9993247a86682a62a58014a48e2840e2",
