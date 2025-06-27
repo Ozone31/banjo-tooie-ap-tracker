@@ -1,0 +1,3328 @@
+[
+  {
+    "name": "Overworld - Isle O Hags",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "children": [
+      {
+        "name": "Spiral Mountain",
+        "sections": [
+          {
+            "ref": "Spiral Mountain/SM: Cheato Page/Cheato Page",
+            "name": "SM: Cheato Page"
+          },
+          {
+            "ref": "Spiral Mountain/SM: Jinjo/Jinjo",
+            "name": "SM: Jinjo"
+          },
+          {
+            "ref": "Spiral Mountain/SM: Roysten Rewards/Reward 1",
+            "name": "SM: Roysten Reward 1"
+          },
+          {
+            "ref": "Spiral Mountain/SM: Roysten Rewards/Reward 2",
+            "name": "SM: Roysten Reward 2"
+          },
+          {
+            "ref": "Spiral Mountain/SM: Pink Mystery Egg/Pink Mystery Egg",
+            "name": "SM: Pink Mystery Egg"
+          },
+          {
+            "ref": "Spiral Mountain/SM: Blue Mystery Egg/Blue Mystery Egg",
+            "name": "SM: Blue Mystery Egg"
+          },
+          {
+            "ref": "Gruntilda's Lair/SM: Cheato Rewards/Reward 1",
+            "name": "SM: Cheato Reward 1"
+          },
+          {
+            "ref": "Gruntilda's Lair/SM: Cheato Rewards/Reward 2",
+            "name": "SM: Cheato Reward 2"
+          },
+          {
+            "ref": "Gruntilda's Lair/SM: Cheato Rewards/Reward 3",
+            "name": "SM: Cheato Reward 3"
+          },
+          {
+            "ref": "Gruntilda's Lair/SM: Cheato Rewards/Reward 4",
+            "name": "SM: Cheato Reward 4"
+          },
+          {
+            "ref": "Gruntilda's Lair/SM: Cheato Rewards/Reward 5",
+            "name": "SM: Cheato Reward 5"
+          },
+          {
+            "ref": "Gruntilda's Lair/Gruntilda's Lair/Feather Nest 1",
+            "name": "SM: Gruntilda's Lair Feather Nest 1"
+          },
+          {
+            "ref": "Gruntilda's Lair/Gruntilda's Lair/Feather Nest 2",
+            "name": "SM: Gruntilda's Lair Feather Nest 2"
+          },
+          {
+            "ref": "Gruntilda's Lair/Gruntilda's Lair/Egg Nest 1",
+            "name": "SM: Gruntilda's Lair Egg Nest 1"
+          },
+          {
+            "ref": "Gruntilda's Lair/Gruntilda's Lair/Egg Nest 2",
+            "name": "SM: Gruntilda's Lair Egg Nest 2"
+          },
+          {
+            "ref": "Gruntilda's Lair/Gruntilda's Lair/Egg Nest 3",
+            "name": "SM: Gruntilda's Lair Egg Nest 3"
+          },
+          {
+            "ref": "Gruntilda's Lair/Gruntilda's Lair/Egg Nest 4",
+            "name": "SM: Gruntilda's Lair Egg Nest 4"
+          },
+          {
+            "ref": "Gruntilda's Lair/Gruntilda's Lair/Feather Nest 3",
+            "name": "SM: Gruntilda's Lair Feather Nest 3"
+          },
+          {
+            "ref": "Spiral Mountain/SM: Base of Spiral Mountain Feather Nests/Feather Nest 1",
+            "name": "SM: Base of Spiral Mountain Feather Nest 1"
+          },
+          {
+            "ref": "Spiral Mountain/SM: Bottom of Attack Tutorial Field Egg Nests/Egg Nest 1",
+            "name": "SM: Bottom of Attack Tutorial Field Egg Nest 1"
+          },
+          {
+            "ref": "Spiral Mountain/SM: Bottom of Attack Tutorial Field Egg Nests/Egg Nest 2",
+            "name": "SM: Bottom of Attack Tutorial Field Egg Nest 2"
+          },
+          {
+            "ref": "Spiral Mountain/SM: Attack Tutorial Field Feather Nests/Feather Nest 1",
+            "name": "SM: Attack Tutorial Field Feather Nest 1"
+          },
+          {
+            "ref": "Spiral Mountain/SM: Spiral Mountain Feather Nests/Feather Nest 1",
+            "name": "SM: Spiral Mountain Feather Nest 1"
+          },
+          {
+            "ref": "Spiral Mountain/SM: Spiral Mountain Feather Nests/Feather Nest 2",
+            "name": "SM: Spiral Mountain Feather Nest 2"
+          },
+          {
+            "ref": "Spiral Mountain/SM: Base of Spiral Mountain Feather Nests/Feather Nest 2",
+            "name": "SM: Base of Spiral Mountain Feather Nest 2"
+          },
+          {
+            "ref": "Spiral Mountain/SM: Base of Spiral Mountain Feather Nests/Feather Nest 3",
+            "name": "SM: Base of Spiral Mountain Feather Nest 3"
+          },
+          {
+            "ref": "Spiral Mountain/SM: Attack Tutorial Field Feather Nests/Feather Nest 2",
+            "name": "SM: Attack Tutorial Field Feather Nest 2"
+          },
+          {
+            "ref": "Spiral Mountain/SM: Spiral Mountain Feather Nests/Feather Nest 3",
+            "name": "SM: Spiral Mountain Feather Nest 3"
+          },
+          {
+            "ref": "Spiral Mountain/SM: Bottom of Attack Tutorial Field Egg Nests/Egg Nest 3",
+            "name": "SM: Bottom of Attack Tutorial Field Egg Nest 3"
+          },
+          {
+            "ref": "Spiral Mountain/SM: Near Digger Tunnel Feather Nests/Feather Nest 1",
+            "name": "SM: Near Digger Tunnel Feather Nest 1"
+          },
+          {
+            "ref": "Spiral Mountain/SM: Near Digger Tunnel Feather Nests/Feather Nest 2",
+            "name": "SM: Near Digger Tunnel Feather Nest 2"
+          },
+          {
+            "ref": "Spiral Mountain/SM: Near Digger Tunnel Feather Nests/Feather Nest 3",
+            "name": "SM: Near Digger Tunnel Feather Nest 3"
+          },
+          {
+            "ref": "Spiral Mountain/SM: Top-Right of Waterfall Feather Nest/Feather Nest",
+            "name": "SM: Top-Right of Waterfall Feather Nest"
+          },
+          {
+            "ref": "Spiral Mountain/SM: Platform Left of Waterfall Feather Nests/Feather Nest 1",
+            "name": "SM: Platform Left of Waterfall Feather Nest 1"
+          },
+          {
+            "ref": "Spiral Mountain/SM: Platform Left of Waterfall Feather Nests/Feather Nest 2",
+            "name": "SM: Platform Left of Waterfall Feather Nest 2"
+          },
+          {
+            "ref": "Spiral Mountain/SM: Attack Tutorial Field Feather Nests/Feather Nest 3",
+            "name": "SM: Attack Tutorial Field Feather Nest 3"
+          },
+          {
+            "ref": "Spiral Mountain/IoH: Inside the Digger Tunnel Egg Nest/Egg Nest",
+            "name": "IoH: Inside the Digger Tunnel Egg Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 230,
+            "y": 170
+          }
+        ]
+      },
+      {
+        "name": "Isle O Hags - Jinjo Village Silo",
+        "sections": [
+          {
+            "ref": "Jinjo Village/IoH: Jinjo Village Warp Silo/Warp Silo",
+            "name": "IoH: Jinjo Village Warp Silo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 145,
+            "y": 230
+          }
+        ]
+      },
+      {
+        "name": "Isle O Hags - Jinjo Village",
+        "sections": [
+          {
+            "ref": "Jinjo Village/King Jingaling's Throne Room/King Jingaling Jiggy",
+            "name": "IoH: King Jingaling Jiggy"
+          },
+          {
+            "ref": "Jinjo Village/Red Jinjo Family House/Treble Clef",
+            "name": "IoH: Treble Clef"
+          },
+          {
+            "ref": "Jinjo Village/IoH: Ice Key/Ice Key",
+            "name": "IoH: Ice Key"
+          },
+          {
+            "ref": "Jinjo Village/Bottles' House/Amaze-O-Gaze Goggles",
+            "name": "IoH: Amaze-O-Gaze Goggles"
+          },
+          {
+            "ref": "Jinjo Village/White Jinjo Family House/White Jinjo Family Jiggy",
+            "name": "IoH: White Jinjo Family Jiggy"
+          },
+          {
+            "ref": "Jinjo Village/Orange Jinjo Family House/Orange Jinjo Family Jiggy",
+            "name": "IoH: Orange Jinjo Family Jiggy"
+          },
+          {
+            "ref": "Jinjo Village/Yellow Jinjo Family House/Yellow Jinjo Family Jiggy",
+            "name": "IoH: Yellow Jinjo Family Jiggy"
+          },
+          {
+            "ref": "Jinjo Village/Brown Jinjo Family House/Brown Jinjo Family Jiggy",
+            "name": "IoH: Brown Jinjo Family Jiggy"
+          },
+          {
+            "ref": "Jinjo Village/Green Jinjo Family House/Green Jinjo Family Jiggy",
+            "name": "IoH: Green Jinjo Family Jiggy"
+          },
+          {
+            "ref": "Jinjo Village/Red Jinjo Family House/Red Jinjo Family Jiggy",
+            "name": "IoH: Red Jinjo Family Jiggy"
+          },
+          {
+            "ref": "Jinjo Village/Blue Jinjo Family House/Blue Jinjo Family Jiggy",
+            "name": "IoH: Blue Jinjo Family Jiggy"
+          },
+          {
+            "ref": "Jinjo Village/Purple Jinjo Family House/Purple Jinjo Family Jiggy",
+            "name": "IoH: Purple Jinjo Family Jiggy"
+          },
+          {
+            "ref": "Jinjo Village/Black Jinjo Family House/Black Jinjo Family Jiggy",
+            "name": "IoH: Black Jinjo Family Jiggy"
+          },
+          {
+            "ref": "Jinjo Village/White Jinjo Family House/White Jinjo Family Mumbo Token",
+            "name": "IoH: White Jinjo Family Mumbo Token"
+          },
+          {
+            "ref": "Jinjo Village/Orange Jinjo Family House/Orange Jinjo Family Mumbo Token",
+            "name": "IoH: Orange Jinjo Family Mumbo Token"
+          },
+          {
+            "ref": "Jinjo Village/Yellow Jinjo Family House/Yellow Jinjo Family Mumbo Token",
+            "name": "IoH: Yellow Jinjo Family Mumbo Token"
+          },
+          {
+            "ref": "Jinjo Village/Brown Jinjo Family House/Brown Jinjo Family Mumbo Token",
+            "name": "IoH: Brown Jinjo Family Mumbo Token"
+          },
+          {
+            "ref": "Jinjo Village/Green Jinjo Family House/Green Jinjo Family Mumbo Token",
+            "name": "IoH: Green Jinjo Family Mumbo Token"
+          },
+          {
+            "ref": "Jinjo Village/Red Jinjo Family House/Red Jinjo Family Mumbo Token",
+            "name": "IoH: Red Jinjo Family Mumbo Token"
+          },
+          {
+            "ref": "Jinjo Village/Blue Jinjo Family House/Blue Jinjo Family Mumbo Token",
+            "name": "IoH: Blue Jinjo Family Mumbo Token"
+          },
+          {
+            "ref": "Jinjo Village/Purple Jinjo Family House/Purple Jinjo Family Mumbo Token",
+            "name": "IoH: Purple Jinjo Family Mumbo Token"
+          },
+          {
+            "ref": "Jinjo Village/Black Jinjo Family House/Black Jinjo Family Mumbo Token",
+            "name": "IoH: Black Jinjo Family Mumbo Token"
+          },
+          {
+            "ref": "Jinjo Village/IoH: Jinjo Village Warp Silo/Feather Nest 1",
+            "name": "IoH: Jinjo Village By Silo Feather Nest 1"
+          },
+          {
+            "ref": "Jinjo Village/IoH: Jinjo Village Warp Silo/Egg Nest 1",
+            "name": "IoH: Jinjo Village By Silo Egg Nest 1"
+          },
+          {
+            "ref": "Jinjo Village/IoH: Jinjo Village Warp Silo/Feather Nest 2",
+            "name": "IoH: Jinjo Village By Silo Feather Nest 2"
+          },
+          {
+            "ref": "Jinjo Village/IoH: Jinjo Village Warp Silo/Egg Nest 2",
+            "name": "IoH: Jinjo Village By Silo Egg Nest 2"
+          },
+          {
+            "ref": "Jinjo Village/IoH: Jinjo Village Top Row of Houses - Egg Nest 1/Egg Nest 1",
+            "name": "IoH: Jinjo Village Top Row of Houses Egg Nest 1"
+          },
+          {
+            "ref": "Jinjo Village/IoH: Jinjo Village Top Row of Houses - Feather Nest 1/Feather Nest 1",
+            "name": "IoH: Jinjo Village Top Row of Houses Feather Nest 1"
+          },
+          {
+            "ref": "Jinjo Village/IoH: Jinjo Village Outside Bottles' House Feather Nests/Feather Nest 1",
+            "name": "IoH: Jinjo Village Outside Bottle's House Feather Nest 1"
+          },
+          {
+            "ref": "Jinjo Village/IoH: Jinjo Village Outside Bottles' House Feather Nests/Feather Nest 2",
+            "name": "IoH: Jinjo Village Outside Bottle's House Feather Nest 2"
+          },
+          {
+            "ref": "Jinjo Village/IoH: Jinjo Village Near Shortcut Egg Nests/Egg Nest 1",
+            "name": "IoH: Jinjo Village Near Shortcut Egg Nest 1"
+          },
+          {
+            "ref": "Jinjo Village/IoH: Jinjo Village Near Shortcut Egg Nests/Egg Nest 2",
+            "name": "IoH: Jinjo Village Near Shortcut Egg Nest 2"
+          },
+          {
+            "ref": "Jinjo Village/IoH: Jinjo Village Top Row of Houses - Feather Nest 2/Feather Nest 2",
+            "name": "IoH: Jinjo Village Top Row of Houses Feather Nest 2"
+          },
+          {
+            "ref": "Jinjo Village/IoH: Jinjo Village Top Row of Houses - Egg Nest 2/Egg Nest 2",
+            "name": "IoH: Jinjo Village Top Row of Houses Egg Nest 2"
+          },
+          {
+            "ref": "Jinjo Village/Bottles' House/Bottles' House Egg Nest 1",
+            "name": "IoH: Bottles' House Egg Nest 1"
+          },
+          {
+            "ref": "Jinjo Village/Bottles' House/Bottles' House Egg Nest 2",
+            "name": "IoH: Bottles' House Egg Nest 2"
+          },
+          {
+            "ref": "Jinjo Village/Bottles' House/Bottles' House Feather Nest 1",
+            "name": "IoH: Bottles' House Feather Nest 1"
+          },
+          {
+            "ref": "Jinjo Village/Bottles' House/Bottles' House Feather Nest 2",
+            "name": "IoH: Bottles' House Feather Nest 2"
+          },
+          {
+            "ref": "Jinjo Village/IoH: Grey Jinjo Family House Signpost/Signpost",
+            "name": "IoH: Grey Jinjo Family House Signpost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 230,
+            "y": 230
+          }
+        ]
+      },
+      {
+        "name": "Isle O Hags - Wooded Hollow Silo",
+        "sections": [
+          {
+            "ref": "Wooded Hollow/IoH: Wooded Hollow Warp Silo/Warp Silo",
+            "name": "IoH: Wooded Hollow Warp Silo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 145,
+            "y": 290
+          }
+        ]
+      },
+      {
+        "name": "Isle O Hags - Wooded Hollow",
+        "sections": [
+          {
+            "ref": "Wooded Hollow/IoH: Wooded Hollow Jinjo/Jinjo",
+            "name": "IoH: Wooded Hollow Jinjo"
+          },
+          {
+            "ref": "Wooded Hollow/Heggy's Egg Shed/Yellow Mystery Egg Hatched",
+            "name": "IoH: Yellow Mystery Egg Hatched"
+          },
+          {
+            "ref": "Wooded Hollow/Heggy's Egg Shed/Pink Mystery Egg Hatched",
+            "name": "IoH: Pink Mystery Egg Hatched"
+          },
+          {
+            "ref": "Wooded Hollow/Heggy's Egg Shed/Blue Mystery Egg Hatched",
+            "name": "IoH: Blue Mystery Egg Hatched"
+          },
+          {
+            "ref": "Wooded Hollow/IoH: Wooded Hollow Outside Heggy's Egg Shed Egg Nests/Egg Nest 1",
+            "name": "IoH: Wooded Hollow Outside Heggy's Egg Shed Egg Nest 1"
+          },
+          {
+            "ref": "Wooded Hollow/IoH: Wooded Hollow Outside Heggy's Egg Shed Egg Nests/Egg Nest 2",
+            "name": "IoH: Wooded Hollow Outside Heggy's Egg Shed Egg Nest 2"
+          },
+          {
+            "ref": "Wooded Hollow/IoH: Wooded Hollow Left of Jiggywiggy's Temple Feather Nests/Feather Nest 1",
+            "name": "IoH: Wooded Hollow Left of Jiggywiggy's Temple Feather Nest 1"
+          },
+          {
+            "ref": "Wooded Hollow/IoH: Wooded Hollow Left of Jiggywiggy's Temple Feather Nests/Feather Nest 2",
+            "name": "IoH: Wooded Hollow Left of Jiggywiggy's Temple Feather Nest 2"
+          },
+          {
+            "ref": "Wooded Hollow/IoH: Wooded Hollow Left of Jiggywiggy's Temple Feather Nests/Feather Nest 3",
+            "name": "IoH: Wooded Hollow Left of Jiggywiggy's Temple Feather Nest 3"
+          },
+          {
+            "ref": "Wooded Hollow/IoH: Wooded Hollow Right of Jiggywiggy's Temple Egg Nests/Egg Nest 1",
+            "name": "IoH: Wooded Hollow Right of Jiggywiggy's Temple Egg Nest 1"
+          },
+          {
+            "ref": "Wooded Hollow/IoH: Wooded Hollow Right of Jiggywiggy's Temple Egg Nests/Egg Nest 2",
+            "name": "IoH: Wooded Hollow Right of Jiggywiggy's Temple Egg Nest 2"
+          },
+          {
+            "ref": "Wooded Hollow/IoH: Wooded Hollow Outside Bottles' House Feather Nests/Feather Nest 1",
+            "name": "IoH: Wooded Hollow Outside Bottles' House Feather Nest 1"
+          },
+          {
+            "ref": "Wooded Hollow/IoH: Wooded Hollow Outside Bottles' House Feather Nests/Feather Nest 2",
+            "name": "IoH: Wooded Hollow Outside Bottles' House Feather Nest 2"
+          },
+          {
+            "ref": "Wooded Hollow/IoH: Outside Heggy's Egg Shed Signpost/Signpost",
+            "name": "IoH: Outside Heggy's Egg Shed Signpost"
+          },
+          {
+            "ref": "Wooded Hollow/IoH: Behind Jiggywiggy's Temple Signposts/Signpost 1",
+            "name": "IoH: Behind Jiggywiggy's Temple Signpost 1"
+          },
+          {
+            "ref": "Wooded Hollow/IoH: Behind Jiggywiggy's Temple Signposts/Signpost 2",
+            "name": "IoH: Behind Jiggywiggy's Temple Signpost 2"
+          },
+          {
+            "ref": "Wooded Hollow/IoH: Behind Jiggywiggy's Temple Signposts/Signpost 3",
+            "name": "IoH: Behind Jiggywiggy's Temple Signpost 3"
+          },
+          {
+            "ref": "Plateau/IoH: Wooded Hollow Path to Plateau Signpost/Signpost",
+            "name": "IoH: Wooded Hollow Path to Plateau Signpost"
+          },
+          {
+            "ref": "Wooded Hollow/Jiggywiggy's Temple/Signpost 1",
+            "name": "IoH: Jiggywiggy's Temple Signpost 1"
+          },
+          {
+            "ref": "Wooded Hollow/Jiggywiggy's Temple/Signpost 2",
+            "name": "IoH: Jiggywiggy's Temple Signpost 2"
+          },
+          {
+            "ref": "Wooded Hollow/Jiggywiggy's Temple/Signpost 3",
+            "name": "IoH: Jiggywiggy's Temple Signpost 3"
+          },
+          {
+            "ref": "Wooded Hollow/Jiggywiggy's Temple/Signpost 4",
+            "name": "IoH: Jiggywiggy's Temple Signpost 4"
+          },
+          {
+            "ref": "Wooded Hollow/Jiggywiggy's Temple/Signpost 5",
+            "name": "IoH: Jiggywiggy's Temple Signpost 5"
+          },
+          {
+            "ref": "Wooded Hollow/Jiggywiggy's Temple/Signpost 6",
+            "name": "IoH: Jiggywiggy's Temple Signpost 6"
+          },
+          {
+            "ref": "Wooded Hollow/Jiggywiggy's Temple/Signpost 7",
+            "name": "IoH: Jiggywiggy's Temple Signpost 7"
+          },
+          {
+            "ref": "Wooded Hollow/Jiggywiggy's Temple/Signpost 8",
+            "name": "IoH: Jiggywiggy's Temple Signpost 8"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 230,
+            "y": 290
+          }
+        ]
+      },
+      {
+        "name": "Isle O Hags - Plateau Silos & Warps",
+        "sections": [
+          {
+            "ref": "Plateau/IoH: Fire Eggs Silo/Silo",
+            "name": "IoH: Fire Eggs Silo"
+          },
+          {
+            "ref": "Plateau/IoH: Plateau Warp Silo/Warp Silo",
+            "name": "IoH: Plateau Warp Silo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 145,
+            "y": 350
+          }
+        ]
+      },
+      {
+        "name": "Isle O Hags - Plateau",
+        "sections": [
+          {
+            "ref": "Plateau/IoH: Plateau Jinjo/Jinjo",
+            "name": "IoH: Plateau Jinjo"
+          },
+          {
+            "ref": "Plateau/IoH: Plateau Honeycomb/Honeycomb",
+            "name": "IoH: Plateau Honeycomb"
+          },
+          {
+            "ref": "Plateau/IoH: Plateau GGM Sign Notes/Note 1",
+            "name": "IoH: Plateau GGM Sign Note 1"
+          },
+          {
+            "ref": "Plateau/IoH: Plateau GGM Sign Notes/Note 2",
+            "name": "IoH: Plateau GGM Sign Note 2"
+          },
+          {
+            "ref": "Plateau/IoH: Plateau Honey B. Note 1/Note 1",
+            "name": "IoH: Plateau Honey B. Note 1"
+          },
+          {
+            "ref": "Plateau/IoH: Plateau Honey B. Note 2/Note 2",
+            "name": "IoH: Plateau Honey B. Note 2"
+          },
+          {
+            "ref": "Plateau/IoH: Honey B's Rewards/Reward 1",
+            "name": "IoH: Honey B's Reward 1"
+          },
+          {
+            "ref": "Plateau/IoH: Honey B's Rewards/Reward 2",
+            "name": "IoH: Honey B's Reward 2"
+          },
+          {
+            "ref": "Plateau/IoH: Honey B's Rewards/Reward 3",
+            "name": "IoH: Honey B's Reward 3"
+          },
+          {
+            "ref": "Plateau/IoH: Honey B's Rewards/Reward 4",
+            "name": "IoH: Honey B's Reward 4"
+          },
+          {
+            "ref": "Plateau/IoH: Honey B's Rewards/Reward 5",
+            "name": "IoH: Honey B's Reward 5"
+          },
+          {
+            "ref": "Plateau/IoH: Plateau Near GGM Entrance Egg Nest 1/Egg Nest 1",
+            "name": "IoH: Plateau Near GGM Entrance Egg Nest 1"
+          },
+          {
+            "ref": "Plateau/IoH: Plateau Near GGM Entrance Egg Nest 2/Egg Nest 2",
+            "name": "IoH: Plateau Near GGM Entrance Egg Nest 2"
+          },
+          {
+            "ref": "Plateau/IoH: Plateau Near Cliff Top Entrance Feather Nest/Feather Nest",
+            "name": "IoH: Plateau Near Cliff Top Entrance Feather Nest"
+          },
+          {
+            "ref": "Plateau/IoH: Plateau Near GGM Entrance Egg Nest 3/Egg Nest 3",
+            "name": "IoH: Plateau Near GGM Entrance Egg Nest 3"
+          },
+          {
+            "ref": "Plateau/IoH: Plateau Near GGM Entrance Egg Nest 4/Egg Nest 4",
+            "name": "IoH: Plateau Near GGM Entrance Egg Nest 4"
+          },
+          {
+            "ref": "Plateau/IoH: Plateau Dirt Pile Feather Nests/Feather Nest 1",
+            "name": "IoH: Plateau Dirt Pile Feather Nest 1"
+          },
+          {
+            "ref": "Plateau/IoH: Plateau Dirt Pile Feather Nests/Feather Nest 2",
+            "name": "IoH: Plateau Dirt Pile Feather Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 230,
+            "y": 350
+          }
+        ]
+      },
+      {
+        "name": "Isle O Hags - Pine Grove Silos & Warps",
+        "sections": [
+          {
+            "ref": "Pine Grove/IoH: Grenade Eggs Silo/Silo",
+            "name": "IoH: Grenade Eggs Silo"
+          },
+          {
+            "ref": "Pine Grove/IoH: Pine Grove Warp Silo/Warp Silo",
+            "name": "IoH: Pine Grove Warp Silo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 145,
+            "y": 410
+          }
+        ]
+      },
+      {
+        "name": "Isle O Hags - Pine Grove",
+        "sections": [
+          {
+            "ref": "Pine Grove/IoH: Pine Grove Notes/Note 1",
+            "name": "IoH: Pine Grove Note 1"
+          },
+          {
+            "ref": "Pine Grove/IoH: Pine Grove Notes/Note 2",
+            "name": "IoH: Pine Grove Note 2"
+          },
+          {
+            "ref": "Pine Grove Underwater/IoH: Pine Grove Underwater Notes/Note 1",
+            "name": "IoH: Pine Grove Underwater Note 1"
+          },
+          {
+            "ref": "Pine Grove Underwater/IoH: Pine Grove Underwater Notes/Note 2",
+            "name": "IoH: Pine Grove Underwater Note 2"
+          },
+          {
+            "ref": "Pine Grove/IoH: Pine Grove Feather Nests/Feather Nest 1",
+            "name": "IoH: Pine Grove Feather Nest 1"
+          },
+          {
+            "ref": "Pine Grove/IoH: Pine Grove Feather Nests/Feather Nest 2",
+            "name": "IoH: Pine Grove Feather Nest 2"
+          },
+          {
+            "ref": "Pine Grove/IoH: Pine Grove Feather Nests/Feather Nest 3",
+            "name": "IoH: Pine Grove Feather Nest 3"
+          },
+          {
+            "ref": "Pine Grove/IoH: Pine Grove Egg Nests/Egg Nest 1",
+            "name": "IoH: Pine Grove Egg Nest 1"
+          },
+          {
+            "ref": "Pine Grove/IoH: Pine Grove Egg Nests/Egg Nest 2",
+            "name": "IoH: Pine Grove Egg Nest 2"
+          },
+          {
+            "ref": "Pine Grove/IoH: Pine Grove Egg Nests/Egg Nest 3",
+            "name": "IoH: Pine Grove Egg Nest 3"
+          },
+          {
+            "ref": "Pine Grove/Wumba's Wigwam/Egg Nest 1",
+            "name": "IoH: Wumba's Wigwam Egg Nest 1"
+          },
+          {
+            "ref": "Pine Grove/Wumba's Wigwam/Egg Nest 2",
+            "name": "IoH: Wumba's Wigwam Egg Nest 2"
+          },
+          {
+            "ref": "Pine Grove/IoH: Pine Grove Signposts/Signpost 1",
+            "name": "IoH: Pine Grove Signpost 1"
+          },
+          {
+            "ref": "Pine Grove/IoH: Pine Grove Signposts/Signpost 2",
+            "name": "IoH: Pine Grove Signpost 2"
+          },
+          {
+            "ref": "Pine Grove/IoH: Pine Grove Signposts/Signpost 3",
+            "name": "IoH: Pine Grove Signpost 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 230,
+            "y": 410
+          }
+        ]
+      },
+      {
+        "name": "Isle O Hags - Cliff Top Silos & Warps",
+        "sections": [
+          {
+            "ref": "Cliff Top/IoH: Ice Eggs Silo/Silo",
+            "name": "IoH: Ice Eggs Silo"
+          },
+          {
+            "ref": "Cliff Top/IoH: Cliff Top Warp Silo/Warp Silo",
+            "name": "IoH: Cliff Top Warp Silo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 145,
+            "y": 470
+          }
+        ]
+      },
+      {
+        "name": "Isle O Hags - Cliff Top",
+        "sections": [
+          {
+            "ref": "Cliff Top/IoH: Cliff Top Jinjo/Jinjo",
+            "name": "IoH: Cliff Top Jinjo"
+          },
+          {
+            "ref": "Cliff Top/IoH: Train Switch/Train Switch",
+            "name": "IoH: Train Switch"
+          },
+          {
+            "ref": "Cliff Top - HFP Entrance/IoH: Glowbo Outside HFP/Cliff Top Glowbo",
+            "name": "IoH: Cliff Top Glowbo"
+          },
+          {
+            "ref": "Cliff Top - HFP Entrance/IoH: Outside HFP Note 1/Note 1",
+            "name": "IoH: Outside HFP Note 1"
+          },
+          {
+            "ref": "Cliff Top - HFP Entrance/IoH: Outside HFP Note 2/Note 2",
+            "name": "IoH: Outside HFP Note 2"
+          },
+          {
+            "ref": "Cliff Top - HFP Entrance/IoH: Outside HFP Note 3/Note 3",
+            "name": "IoH: Outside HFP Note 3"
+          },
+          {
+            "ref": "Cliff Top - HFP Entrance/IoH: Outside HFP Note 4/Note 4",
+            "name": "IoH: Outside HFP Note 4"
+          },
+          {
+            "ref": "Cliff Top/IoH: Cliff Top Near Path to Plateau Egg Nests/Egg Nest 1",
+            "name": "IoH: Cliff Top Near Path to Plateau Egg Nest 1"
+          },
+          {
+            "ref": "Cliff Top/IoH: Cliff Top Feather Nests/Feather Nest 1",
+            "name": "IoH: Cliff Top Feather Nest 1"
+          },
+          {
+            "ref": "Cliff Top/IoH: Cliff Top Feather Nests/Feather Nest 2",
+            "name": "IoH: Cliff Top Feather Nest 2"
+          },
+          {
+            "ref": "Cliff Top/IoH: Cliff Top Feather Nests/Feather Nest 3",
+            "name": "IoH: Cliff Top Feather Nest 3"
+          },
+          {
+            "ref": "Cliff Top/IoH: Cliff Top Feather Nests/Feather Nest 4",
+            "name": "IoH: Cliff Top Feather Nest 4"
+          },
+          {
+            "ref": "Cliff Top/IoH: Cliff Top Near Path to Plateau Egg Nests/Egg Nest 2",
+            "name": "IoH: Cliff Top Near Path to Plateau Egg Nest 2"
+          },
+          {
+            "ref": "Cliff Top/IoH: Cliff Top Near JRL Egg Nest/Egg Nest",
+            "name": "IoH: Cliff Top Near JRL Egg Nest"
+          },
+          {
+            "ref": "Cliff Top/IoH: Cliff Top Signpost/Signpost",
+            "name": "IoH: Cliff Top Signpost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 230,
+            "y": 470
+          }
+        ]
+      },
+      {
+        "name": "Isle O Hags - Wasteland Silos & Warps",
+        "sections": [
+          {
+            "ref": "Wasteland/IoH: Clockwork Kazooie Eggs Silo/Silo",
+            "name": "IoH: Clockwork Kazooie Eggs Silo"
+          },
+          {
+            "ref": "Wasteland/IoH: Wasteland Warp Silo/Warp Silo",
+            "name": "IoH: Wasteland Warp Silo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 145,
+            "y": 530
+          }
+        ]
+      },
+      {
+        "name": "Isle O Hags - Wasteland",
+        "sections": [
+          {
+            "ref": "Wasteland/IoH: Wasteland Jinjo/Jinjo",
+            "name": "IoH: Wasteland Jinjo"
+          },
+          {
+            "ref": "Wasteland/IoH: Clockwork Silo Bottom Note/Note 1",
+            "name": "IoH: Clockwork Silo Bottom Note"
+          },
+          {
+            "ref": "Wasteland/IoH: Clockwork Silo Top Note/Note 2",
+            "name": "IoH: Clockwork Silo Top Note"
+          },
+          {
+            "ref": "Wasteland/IoH: Wasteland CCL Area Notes/Note 1",
+            "name": "IoH: Wasteland CCL Area Note 1"
+          },
+          {
+            "ref": "Wasteland/IoH: Wasteland CCL Area Notes/Note 2",
+            "name": "IoH: Wasteland CCL Area Note 2"
+          },
+          {
+            "ref": "Wasteland/IoH: Wasteland Next to Quagmire Entrance Feather Nest/Feather Nest",
+            "name": "IoH: Wasteland Next to Quagmire Entrance Feather Nest"
+          },
+          {
+            "ref": "Wasteland/IoH: Wasteland TDL Entrance Feather Nest 1/Feather Nest 1",
+            "name": "IoH: Wasteland TDL Entrance Feather Nest 1"
+          },
+          {
+            "ref": "Wasteland/IoH: Wasteland TDL Entrance Feather Nest 2/Feather Nest 2",
+            "name": "IoH: Wasteland TDL Entrance Feather Nest 2"
+          },
+          {
+            "ref": "Wasteland/IoH: Wasteland Behind CCL Bubble Feather Nest/Feather Nest",
+            "name": "IoH: Wasteland Behind CCL Bubble Feather Nest"
+          },
+          {
+            "ref": "Wasteland/IoH: Wasteland Near Crevice to CCL Feather Nest/Feather Nest",
+            "name": "IoH: Wasteland Near Crevice to CCL Feather Nest"
+          },
+          {
+            "ref": "Wasteland/IoH: Wasteland Near Digger Tunnel Egg Nests/Egg Nest 1",
+            "name": "IoH: Wasteland Near Digger Tunnel Egg Nest 1"
+          },
+          {
+            "ref": "Wasteland/IoH: Wasteland Near Digger Tunnel Egg Nests/Egg Nest 2",
+            "name": "IoH: Wasteland Near Digger Tunnel Egg Nest 2"
+          },
+          {
+            "ref": "Wasteland/IoH: Wasteland Near Digger Tunnel Egg Nests/Egg Nest 3",
+            "name": "IoH: Wasteland Near Digger Tunnel Egg Nest 3"
+          },
+          {
+            "ref": "Wasteland/IoH: Wasteland Signpost/Signpost",
+            "name": "IoH: Wasteland Signpost"
+          },
+          {
+            "ref": "Wasteland/IoH: Another Digger Tunnel Egg Nests/Egg Nest 1",
+            "name": "IoH: Another Digger Tunnel Egg Nest 1"
+          },
+          {
+            "ref": "Wasteland/IoH: Another Digger Tunnel Egg Nests/Egg Nest 2",
+            "name": "IoH: Another Digger Tunnel Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 230,
+            "y": 530
+          }
+        ]
+      },
+      {
+        "name": "Isle O Hags - Quagmire Silo",
+        "sections": [
+          {
+            "ref": "Quagmire/IoH: Quagmire Warp Silo/Warp Silo",
+            "name": "IoH: Quagmire Warp Silo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 145,
+            "y": 590
+          }
+        ]
+      },
+      {
+        "name": "Isle O Hags - Quagmire",
+        "sections": [
+          {
+            "ref": "Quagmire/IoH: Quagmire Feather Nests/Left Feather Nest",
+            "name": "IoH: Quagmire Left Feather Nest"
+          },
+          {
+            "ref": "Quagmire/IoH: Quagmire Feather Nests/Back Feather Nest",
+            "name": "IoH: Quagmire Back Feather Nest"
+          },
+          {
+            "ref": "Quagmire/IoH: Quagmire Feather Nests/High Feather Nest",
+            "name": "IoH: Quagmire High Feather Nest"
+          },
+          {
+            "ref": "Quagmire/IoH: Quagmire Egg Nests/Egg Nest 1",
+            "name": "IoH: Quagmire Egg Nest 1"
+          },
+          {
+            "ref": "Quagmire/IoH: Quagmire Egg Nests/Egg Nest 2",
+            "name": "IoH: Quagmire Egg Nest 2"
+          },
+          {
+            "ref": "Quagmire/IoH: Quagmire Egg Nests/Egg Nest 3",
+            "name": "IoH: Quagmire Egg Nest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 230,
+            "y": 590
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Spiral Mountain",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": ["@Region: Spiral Mountain"],
+    "children": [
+      {
+        "name": "SM: Cheato Page",
+        "sections": [
+          {
+            "name": "Cheato Page",
+            "chest_unopened_img": "/images/locations/page.png",
+            "chest_opened_img": "/images/locations/page2.png",
+            "access_rules": [ "^$cheato_SM" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sm",
+            "x": 218,
+            "y": 207
+          }
+        ]
+      },
+      {
+        "name": "SM: Jinjo",
+        "sections": [
+          {
+            "name": "Jinjo",
+            "chest_unopened_img": "/images/locations/jinjo.png",
+            "chest_opened_img": "/images/locations/jinjo2.png",
+            "access_rules": [ "^$jinjo_SM" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sm",
+            "x": 115,
+            "y": 310
+          }
+        ]
+      },
+      {
+        "name": "SM: Pink Mystery Egg",
+        "chest_unopened_img": "/images/locations/pmegg.png",
+        "chest_opened_img": "/images/locations/pmegg2.png",
+        "sections": [
+          {
+            "name": "Pink Mystery Egg",
+            "access_rules": ["^$other_SM_pinkMysteryEgg"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sm",
+            "x": 525,
+            "y": 525
+          }
+        ]
+      },
+      {
+        "name": "SM: Blue Mystery Egg",
+        "chest_unopened_img": "/images/locations/bmegg.png",
+        "chest_opened_img": "/images/locations/bmegg2.png",
+        "sections": [
+          {
+            "name": "Blue Mystery Egg",
+            "access_rules": ["^$other_SM_blueMysteryEgg"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sm",
+            "x": 70,
+            "y": 388
+          }
+        ]
+      },
+      {
+        "name": "SM: Roysten Rewards",
+        "access_rules": [ "^$silo_SM_roystenBoulder" ],
+        "sections": [
+          {
+            "name": "Reward 1"
+          },
+          {
+            "name": "Reward 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sm",
+            "x": 603,
+            "y": 365
+          }
+        ]
+      },
+      {
+        "name": "SM: Bottom of Attack Tutorial Field Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          },
+          {
+            "name": "Egg Nest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sm",
+            "x": 518,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "SM: Attack Tutorial Field Feather Nests",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Feather Nest 1"
+          },
+          {
+            "name": "Feather Nest 2"
+          },
+          {
+            "name": "Feather Nest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sm",
+            "x": 630,
+            "y": 270
+          }
+        ]
+      },
+      {
+        "name": "SM: Base of Spiral Mountain Feather Nests",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Feather Nest 1"
+          },
+          {
+            "name": "Feather Nest 2"
+          },
+          {
+            "name": "Feather Nest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sm",
+            "x": 388,
+            "y": 219
+          }
+        ]
+      },
+      {
+        "name": "SM: Near Digger Tunnel Feather Nests",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Feather Nest 1"
+          },
+          {
+            "name": "Feather Nest 2"
+          },
+          {
+            "name": "Feather Nest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sm",
+            "x": 312,
+            "y": 347
+          }
+        ]
+      },
+      {
+        "name": "SM: Platform Left of Waterfall Feather Nests",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": [ "^$nests_SM_waterfallPlatform" ],
+        "sections": [
+          {
+            "name": "Feather Nest 1"
+          },
+          {
+            "name": "Feather Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sm",
+            "x": 168,
+            "y": 395
+          }
+        ]
+      },
+      {
+        "name": "SM: Spiral Mountain Feather Nests",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Feather Nest 1"
+          },
+          {
+            "name": "Feather Nest 2"
+          },
+          {
+            "name": "Feather Nest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sm",
+            "x": 415,
+            "y": 275
+          }
+        ]
+      },
+      {
+        "name": "SM: Top-Right of Waterfall Feather Nest",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_SM_waterfallTop"],
+        "sections": [
+          {
+            "name": "Feather Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sm",
+            "x": 70,
+            "y": 345
+          }
+        ]
+      },
+      {
+        "name": "IoH: Inside the Digger Tunnel Egg Nest",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sm",
+            "x": 315,
+            "y": 440
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Gruntilda's Lair",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": ["@Region: Gruntilda's Lair"],
+    "children": [
+      {
+        "name": "SM: Cheato Rewards",
+        "access_rules": [ "fpad", "fflip, climb" ],
+        "visibility_rules": [ "cheatocontent_rewards", "cheatocontent_both" ],
+        "sections": [
+          {
+            "name": "Reward 1",
+            "access_rules": [ "$has|pages|5" ]
+          },
+          {
+            "name": "Reward 2",
+            "access_rules": [ "$has|pages|10" ]
+          },
+          {
+            "name": "Reward 3",
+            "access_rules": [ "$has|pages|15" ]
+          },
+          {
+            "name": "Reward 4",
+            "access_rules": [ "$has|pages|20" ]
+          },
+          {
+            "name": "Reward 5",
+            "access_rules": [ "$has|pages|25" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sm",
+            "x": 360,
+            "y": 150
+          }
+        ]
+      },
+      {
+        "name": "Gruntilda's Lair",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png"
+          },
+          {
+            "name": "Egg Nest 2",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "access_rules": ["^$nests_GL_lairTop"]
+          },
+          {
+            "name": "Egg Nest 3",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "access_rules": ["^$nests_GL_lairTop"]
+          },
+          {
+            "name": "Egg Nest 4",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "access_rules": ["^$nests_GL_lairTop"]
+          },
+          {
+            "name": "Feather Nest 1",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png"
+          },
+          {
+            "name": "Feather Nest 2",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png"
+          },
+          {
+            "name": "Feather Nest 3",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sm",
+            "x": 345,
+            "y": 150
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Jinjo Village",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": ["@Region: Jinjo Village"],
+    "children": [
+      {
+        "name": "King Jingaling's Throne Room",
+        "visibility_rules": ["mousepace_off"],
+        "sections": [
+          {
+            "name": "King Jingaling Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jv",
+            "x": 256,
+            "y": 300
+          }
+        ]
+      },
+      {
+        "name": "IoH: Jinjo Village Warp Silo",
+        "sections": [
+          {
+            "name": "Warp Silo",
+            "visibility_rules": ["randomizesilos_on"],
+            "chest_unopened_img": "/images/locations/silo.png",
+            "chest_opened_img": "/images/locations/silo2.png"
+          },
+          {
+            "name": "Feather Nest 1",
+            "visibility_rules": ["nestsanity_on"],
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png"
+          },
+          {
+            "name": "Feather Nest 2",
+            "visibility_rules": ["nestsanity_on"],
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png"
+          },
+          {
+            "name": "Egg Nest 1",
+            "visibility_rules": ["nestsanity_on"],
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png"
+          },
+          {
+            "name": "Egg Nest 2",
+            "visibility_rules": ["nestsanity_on"],
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jv",
+            "x": 434,
+            "y": 195
+          }
+        ]
+      },
+      {
+        "name": "IoH: Ice Key",
+        "chest_unopened_img": "/images/locations/ikey.png",
+        "chest_opened_img": "/images/locations/ikey2.png",
+        "access_rules": [ "^$other_JV_iceKey" ],
+        "sections": [
+          {
+            "name": "Ice Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jv",
+            "x": 660,
+            "y": 300
+          }
+        ]
+      },
+      {
+        "name": "Bottles' House",
+        "sections": [
+          {
+            "name": "Amaze-O-Gaze Goggles"
+          },
+          {
+            "name": "Bottles' House Egg Nest 1",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"]
+          },
+          {
+            "name": "Bottles' House Egg Nest 2",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"]
+          },
+          {
+            "name": "Bottles' House Feather Nest 1",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": [ "^$nests_JV_bottlesDresser" ]
+          },
+          {
+            "name": "Bottles' House Feather Nest 2",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": [ "^$nests_JV_bottlesDresser" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jv",
+            "x": 256,
+            "y": 150
+          }
+        ]
+      },
+      {
+        "name": "Red Jinjo Family House",
+        "sections": [
+          {
+            "name": "Treble Clef",
+            "chest_unopened_img": "/images/locations/treble.png",
+            "chest_opened_img": "/images/locations/treble2.png",
+            "access_rules": [ "^$treble_JV" ]
+          },
+          {
+            "name": "Red Jinjo Family Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "visibility_rules": ["mousepace_off"],
+            "access_rules": [ "$has|rjinjo|6" ]
+          },
+          {
+            "name": "Red Jinjo Family Mumbo Token",
+            "chest_unopened_img": "/images/locations/mumbotoken.png",
+            "chest_opened_img": "/images/locations/mumbotoken2.png",
+            "visibility_rules": [ "goal_jinjo", "goal_wwing" ],
+            "access_rules": [ "$has|rjinjo|6" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jv",
+            "x": 383,
+            "y": 164
+          }
+        ]
+      },
+      {
+        "name": "White Jinjo Family House",
+        "access_rules": [ "wjinjo" ],
+        "sections": [
+          {
+            "name": "White Jinjo Family Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png"
+          },
+          {
+            "name": "White Jinjo Family Mumbo Token",
+            "chest_unopened_img": "/images/locations/mumbotoken.png",
+            "chest_opened_img": "/images/locations/mumbotoken2.png",
+            "visibility_rules": [ "goal_jinjo", "goal_wwing" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jv",
+            "x": 39,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Orange Jinjo Family House",
+        "access_rules": [ "$has|ojinjo|2" ],
+        "sections": [
+          {
+            "name": "Orange Jinjo Family Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png"
+          },
+          {
+            "name": "Orange Jinjo Family Mumbo Token",
+            "chest_unopened_img": "/images/locations/mumbotoken.png",
+            "chest_opened_img": "/images/locations/mumbotoken2.png",
+            "visibility_rules": [ "goal_jinjo", "goal_wwing" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jv",
+            "x": 438,
+            "y": 252
+          }
+        ]
+      },
+      {
+        "name": "Yellow Jinjo Family House",
+        "access_rules": [ "$has|yjinjo|3" ],
+        "sections": [
+          {
+            "name": "Yellow Jinjo Family Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png"
+          },
+          {
+            "name": "Yellow Jinjo Family Mumbo Token",
+            "chest_unopened_img": "/images/locations/mumbotoken.png",
+            "chest_opened_img": "/images/locations/mumbotoken2.png",
+            "visibility_rules": [ "goal_jinjo", "goal_wwing" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jv",
+            "x": 75,
+            "y": 165
+          }
+        ]
+      },
+      {
+        "name": "Brown Jinjo Family House",
+        "access_rules": [ "$has|brjinjo|4" ],
+        "visibility_rules": ["mousepace_off"],
+        "sections": [
+          {
+            "name": "Brown Jinjo Family Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png"
+          },
+          {
+            "name": "Brown Jinjo Family Mumbo Token",
+            "chest_unopened_img": "/images/locations/mumbotoken.png",
+            "chest_opened_img": "/images/locations/mumbotoken2.png",
+            "visibility_rules": [ "goal_jinjo", "goal_wwing" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jv",
+            "x": 321,
+            "y": 455
+          }
+        ]
+      },
+      {
+        "name": "Green Jinjo Family House",
+        "access_rules": [ "$has|gjinjo|5" ],
+        "visibility_rules": ["mousepace_off"],
+        "sections": [
+          {
+            "name": "Green Jinjo Family Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png"
+          },
+          {
+            "name": "Green Jinjo Family Mumbo Token",
+            "chest_unopened_img": "/images/locations/mumbotoken.png",
+            "chest_opened_img": "/images/locations/mumbotoken2.png",
+            "visibility_rules": [ "goal_jinjo", "goal_wwing" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jv",
+            "x": 488,
+            "y": 220
+          }
+        ]
+      },
+      {
+        "name": "Blue Jinjo Family House",
+        "access_rules": [ "$has|bljinjo|7" ],
+        "visibility_rules": ["mousepace_off"],
+        "sections": [
+          {
+            "name": "Blue Jinjo Family Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png"
+          },
+          {
+            "name": "Blue Jinjo Family Mumbo Token",
+            "chest_unopened_img": "/images/locations/mumbotoken.png",
+            "chest_opened_img": "/images/locations/mumbotoken2.png",
+            "visibility_rules": [ "goal_jinjo", "goal_wwing" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jv",
+            "x": 258,
+            "y": 455
+          }
+        ]
+      },
+      {
+        "name": "Purple Jinjo Family House",
+        "access_rules": [ "$has|pjinjo|8" ],
+        "visibility_rules": ["mousepace_off"],
+        "sections": [
+          {
+            "name": "Purple Jinjo Family Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png"
+          },
+          {
+            "name": "Purple Jinjo Family Mumbo Token",
+            "chest_unopened_img": "/images/locations/mumbotoken.png",
+            "chest_opened_img": "/images/locations/mumbotoken2.png",
+            "visibility_rules": [ "goal_jinjo", "goal_wwing" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jv",
+            "x": 200,
+            "y": 463
+          }
+        ]
+      },
+      {
+        "name": "Black Jinjo Family House",
+        "access_rules": [ "$has|bkjinjo|9" ],
+        "visibility_rules": ["mousepace_off"],
+        "sections": [
+          {
+            "name": "Black Jinjo Family Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png"
+          },
+          {
+            "name": "Black Jinjo Family Mumbo Token",
+            "chest_unopened_img": "/images/locations/mumbotoken.png",
+            "chest_opened_img": "/images/locations/mumbotoken2.png",
+            "visibility_rules": [ "goal_jinjo", "goal_wwing" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jv",
+            "x": 434,
+            "y": 132
+          }
+        ]
+      },
+      {
+        "name": "IoH: Inside the Digger Tunnel Egg Nest",
+        "sections": [
+          {
+            "ref": "Spiral Mountain/IoH: Inside the Digger Tunnel Egg Nest/Egg Nest",
+            "name": "Egg Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jv",
+            "x": 475,
+            "y": 320
+          }
+        ]
+      },
+      {
+        "name": "IoH: Jinjo Village Top Row of Houses - Feather Nest 1",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Feather Nest 1",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jv",
+            "x": 232,
+            "y": 460
+          }
+        ]
+      },
+      {
+        "name": "IoH: Jinjo Village Top Row of Houses - Feather Nest 2",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Feather Nest 2",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jv",
+            "x": 350,
+            "y": 450
+          }
+        ]
+      },
+      {
+        "name": "IoH: Jinjo Village Top Row of Houses - Egg Nest 1",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jv",
+            "x": 292,
+            "y": 455
+          }
+        ]
+      },
+      {
+        "name": "IoH: Jinjo Village Top Row of Houses - Egg Nest 2",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 2",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jv",
+            "x": 175,
+            "y": 462
+          }
+        ]
+      },
+      {
+        "name": "IoH: Jinjo Village Near Shortcut Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jv",
+            "x": 72,
+            "y": 220
+          }
+        ]
+      },
+      {
+        "name": "IoH: Jinjo Village Outside Bottles' House Feather Nests",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Feather Nest 1"
+          },
+          {
+            "name": "Feather Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jv",
+            "x": 256,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "IoH: Grey Jinjo Family House Signpost",
+        "chest_unopened_img": "/images/locations/signpost.png",
+        "chest_opened_img": "/images/locations/signpost2.png",
+        "visibility_rules": ["signposts_on"],
+        "sections": [
+          {
+            "name": "Signpost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "jv",
+            "x": 500,
+            "y": 155
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Wooded Hollow",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": ["@Region: Wooded Hollow"],
+    "children": [
+      {
+        "name": "IoH: Wooded Hollow Warp Silo",
+        "sections": [
+          {
+            "name": "Warp Silo",
+            "visibility_rules": ["randomizesilos_on"],
+            "chest_unopened_img": "/images/locations/silo.png",
+            "chest_opened_img": "/images/locations/silo2.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wh",
+            "x": 362,
+            "y": 215
+          }
+        ]
+      },
+      {
+        "name": "IoH: Wooded Hollow Jinjo",
+        "chest_unopened_img": "/images/locations/jinjo.png",
+        "chest_opened_img": "/images/locations/jinjo2.png",
+        "sections": [
+          {
+            "name": "Jinjo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wh",
+            "x": 100,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Heggy's Egg Shed",
+        "sections": [
+          {
+            "name": "Yellow Mystery Egg Hatched",
+            "access_rules": [ "^$other_WH_yellowMysteryEgg" ]
+          },
+          {
+            "name": "Pink Mystery Egg Hatched",
+            "access_rules": [ "pmegg" ]
+          },
+          {
+            "name": "Blue Mystery Egg Hatched",
+            "access_rules": [ "bmegg" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wh",
+            "x": 540,
+            "y": 430
+          }
+        ]
+      },
+      {
+        "name": "IoH: Outside Heggy's Egg Shed Signpost",
+        "chest_unopened_img": "/images/locations/signpost.png",
+        "chest_opened_img": "/images/locations/signpost2.png",
+        "visibility_rules": ["signposts_on"],
+        "sections": [
+          {
+            "name": "Signpost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wh",
+            "x": 580,
+            "y": 450
+          }
+        ]
+      },
+      {
+        "name": "Mayahem Temple Entrance",
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "mta" ],
+            "hosted_item": "mta"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wh",
+            "x": 362,
+            "y": 110
+          }
+        ]
+      },
+      {
+        "name": "IoH: Wooded Hollow Left of Jiggywiggy's Temple Feather Nests",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Feather Nest 1"
+          },
+          {
+            "name": "Feather Nest 2"
+          },
+          {
+            "name": "Feather Nest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wh",
+            "x": 60,
+            "y": 60
+          }
+        ]
+      },
+      {
+        "name": "IoH: Wooded Hollow Right of Jiggywiggy's Temple Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wh",
+            "x": 180,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "IoH: Behind Jiggywiggy's Temple Signposts",
+        "chest_unopened_img": "/images/locations/signpost.png",
+        "chest_opened_img": "/images/locations/signpost2.png",
+        "visibility_rules": ["signposts_on"],
+        "access_rules": ["^$signs_WH_jiggywiggyBack"],
+        "sections": [
+          {
+            "name": "Signpost 1"
+          },
+          {
+            "name": "Signpost 2"
+          },
+          {
+            "name": "Signpost 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wh",
+            "x": 90,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Jiggywiggy's Temple",
+        "chest_unopened_img": "/images/locations/signpost.png",
+        "chest_opened_img": "/images/locations/signpost2.png",
+        "visibility_rules": ["signposts_on"],
+        "sections": [
+          {
+            "name": "Signpost 1"
+          },
+          {
+            "name": "Signpost 2"
+          },
+          {
+            "name": "Signpost 3"
+          },
+          {
+            "name": "Signpost 4"
+          },
+          {
+            "name": "Signpost 5"
+          },
+          {
+            "name": "Signpost 6"
+          },
+          {
+            "name": "Signpost 7"
+          },
+          {
+            "name": "Signpost 8"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wh",
+            "x": 152,
+            "y": 70
+          }
+        ]
+      },
+      {
+        "name": "IoH: Wooded Hollow Outside Bottles' House Feather Nests",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Feather Nest 1"
+          },
+          {
+            "name": "Feather Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wh",
+            "x": 635,
+            "y": 285
+          }
+        ]
+      },
+      {
+        "name": "IoH: Wooded Hollow Outside Heggy's Egg Shed Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wh",
+            "x": 490,
+            "y": 430
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Plateau",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": ["@Region: Plateau"],
+    "children": [
+      {
+        "name": "IoH: Plateau Warp Silo",
+        "sections": [
+          {
+            "name": "Warp Silo",
+            "visibility_rules": ["randomizesilos_on"],
+            "chest_unopened_img": "/images/locations/silo.png",
+            "chest_opened_img": "/images/locations/silo2.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pl",
+            "x": 250,
+            "y": 415
+          }
+        ]
+      },
+      {
+        "name": "IoH: Wooded Hollow Path to Plateau Signpost",
+        "chest_unopened_img": "/images/locations/signpost.png",
+        "chest_opened_img": "/images/locations/signpost2.png",
+        "visibility_rules": ["signposts_on"],
+        "sections": [
+          {
+            "name": "Signpost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wh",
+            "x": 600,
+            "y": 180
+          }
+        ]
+      },
+      {
+        "name": "IoH: Plateau Jinjo",
+        "sections": [
+          {
+            "name": "Jinjo",
+            "chest_unopened_img": "/images/locations/jinjo.png",
+            "chest_opened_img": "/images/locations/jinjo2.png",
+            "access_rules": [ "^$jinjo_PL" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pl",
+            "x": 427,
+            "y": 377
+          }
+        ]
+      },
+      {
+        "name": "IoH: Plateau Honeycomb",
+        "chest_unopened_img": "/images/locations/honey.png",
+        "chest_opened_img": "/images/locations/honey2.png",
+        "sections": [
+          {
+            "name": "Honeycomb",
+            "access_rules": [ "^$access_PL_top" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pl",
+            "x": 665,
+            "y": 115
+          }
+        ]
+      },
+      {
+        "name": "IoH: Fire Eggs Silo",
+        "chest_unopened_img": "/images/locations/silo.png",
+        "chest_opened_img": "/images/locations/silo2.png",
+        "sections": [
+          {
+            "name": "Silo",
+            "access_rules": [ "^$silo_PL_fireEggs" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pl",
+            "x": 402,
+            "y": 240
+          }
+        ]
+      },
+      {
+        "name": "IoH: Plateau GGM Sign Notes",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "access_rules": [ "^$notes_PL_sign" ],
+        "sections": [
+          {
+            "name": "Note 1"
+          },
+          {
+            "name": "Note 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pl",
+            "x": 368,
+            "y": 514
+          }
+        ]
+      },
+      {
+        "name": "IoH: Plateau Honey B. Note 1",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "access_rules": [ "^$access_PL_top" ],
+        "sections": [
+          {
+            "name": "Note 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pl",
+            "x": 540,
+            "y": 125
+          }
+        ]
+      },
+      {
+        "name": "IoH: Plateau Honey B. Note 2",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "access_rules": [ "^$access_PL_top" ],
+        "sections": [
+          {
+            "name": "Note 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pl",
+            "x": 625,
+            "y": 175
+          }
+        ]
+      },
+      {
+        "name": "IoH: Honey B's Rewards",
+        "visibility_rules": [ "honeybcontent_rewards", "honeybcontent_both" ],
+        "sections": [
+          {
+            "name": "Reward 1",
+            "access_rules": [ "^$health_honeyBCheck1" ]
+          },
+          {
+            "name": "Reward 2",
+            "access_rules": [ "^$health_honeyBCheck2" ]
+          },
+          {
+            "name": "Reward 3",
+            "access_rules": [ "^$health_honeyBCheck3" ]
+          },
+          {
+            "name": "Reward 4",
+            "access_rules": [ "^$health_honeyBCheck4" ]
+          },
+          {
+            "name": "Reward 5",
+            "access_rules": [ "^$health_honeyBCheck5" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pl",
+            "x": 595,
+            "y": 130
+          }
+        ]
+      },
+      {
+        "name": "Glitter Gulch Mine Entrance",
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "^$connector_PL_to_GGM" ],
+            "hosted_item": "gga"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pl",
+            "x": 325,
+            "y": 225
+          }
+        ]
+      },
+      {
+        "name": "IoH: Plateau Dirt Pile Feather Nests",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": [ "^$access_PL_top" ],
+        "sections": [
+          {
+            "name": "Feather Nest 1"
+          },
+          {
+            "name": "Feather Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pl",
+            "x": 90,
+            "y": 220
+          }
+        ]
+      },
+      {
+        "name": "IoH: Plateau Near GGM Entrance Egg Nest 1",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pl",
+            "x": 355,
+            "y": 160
+          }
+        ]
+      },
+      {
+        "name": "IoH: Plateau Near GGM Entrance Egg Nest 2",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pl",
+            "x": 305,
+            "y": 160
+          }
+        ]
+      },
+      {
+        "name": "IoH: Plateau Near GGM Entrance Egg Nest 3",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pl",
+            "x": 395,
+            "y": 180
+          }
+        ]
+      },
+      {
+        "name": "IoH: Plateau Near GGM Entrance Egg Nest 4",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pl",
+            "x": 220,
+            "y": 175
+          }
+        ]
+      },
+      {
+        "name": "IoH: Plateau Near Cliff Top Entrance Feather Nest",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Feather Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pl",
+            "x": 652,
+            "y": 295
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pine Grove",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": ["@Region: Pine Grove"],
+    "children": [
+      {
+        "name": "IoH: Pine Grove Warp Silo",
+        "sections": [
+          {
+            "name": "Warp Silo",
+            "visibility_rules": ["randomizesilos_on"],
+            "chest_unopened_img": "/images/locations/silo.png",
+            "chest_opened_img": "/images/locations/silo2.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pg",
+            "x": 235,
+            "y": 250
+          }
+        ]
+      },
+      {
+        "name": "IoH: Grenade Eggs Silo",
+        "chest_unopened_img": "/images/locations/silo.png",
+        "chest_opened_img": "/images/locations/silo2.png",
+        "sections": [
+          {
+            "name": "Silo",
+            "access_rules": [ "^$silo_PG_grenadeEggs" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pg",
+            "x": 425,
+            "y": 180
+          }
+        ]
+      },
+      {
+        "name": "IoH: Pine Grove Notes",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "sections": [
+          {
+            "name": "Note 1"
+          },
+          {
+            "name": "Note 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pg",
+            "x": 313,
+            "y": 210
+          }
+        ]
+      },
+      {
+        "name": "Witchyworld Entrance",
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "wwa" ],
+            "hosted_item": "wwa"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pg",
+            "x": 245,
+            "y": 80
+          }
+        ]
+      },
+      {
+        "name": "IoH: Pine Grove Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          },
+          {
+            "name": "Egg Nest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pg",
+            "x": 415,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "IoH: Pine Grove Feather Nests",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Feather Nest 1"
+          },
+          {
+            "name": "Feather Nest 2"
+          },
+          {
+            "name": "Feather Nest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pg",
+            "x": 40,
+            "y": 235
+          }
+        ]
+      },
+      {
+        "name": "Wumba's Wigwam",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pg",
+            "x": 70,
+            "y": 235
+          }
+        ]
+      },
+      {
+        "name": "IoH: Pine Grove Signposts",
+        "chest_unopened_img": "/images/locations/signpost.png",
+        "chest_opened_img": "/images/locations/signpost2.png",
+        "visibility_rules": ["signposts_on"],
+        "sections": [
+          {
+            "name": "Signpost 1"
+          },
+          {
+            "name": "Signpost 2"
+          },
+          {
+            "name": "Signpost 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pg",
+            "x": 172,
+            "y": 90
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pine Grove Underwater",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": ["@Region: Pine Grove Underwater"],
+    "children": [
+      {
+        "name": "IoH: Pine Grove Underwater Notes",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "sections": [
+          {
+            "name": "Note 1"
+          },
+          {
+            "name": "Note 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pg",
+            "x": 510,
+            "y": 205
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cliff Top",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": ["@Region: Cliff Top"],
+    "children": [
+      {
+        "name": "IoH: Cliff Top Warp Silo",
+        "sections": [
+          {
+            "name": "Warp Silo",
+            "visibility_rules": ["randomizesilos_on"],
+            "chest_unopened_img": "/images/locations/silo.png",
+            "chest_opened_img": "/images/locations/silo2.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ct",
+            "x": 590,
+            "y": 270
+          }
+        ]
+      },
+      {
+        "name": "IoH: Ice Eggs Silo",
+        "chest_unopened_img": "/images/locations/silo.png",
+        "chest_opened_img": "/images/locations/silo2.png",
+        "sections": [
+          {
+            "name": "Silo",
+            "access_rules": [ "^$silo_CT_iceEggs" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ct",
+            "x": 108,
+            "y": 220
+          }
+        ]
+      },
+      {
+        "name": "IoH: Train Switch",
+        "sections": [
+          {
+            "name": "Train Switch",
+            "chest_unopened_img": "/images/locations/tswitch.png",
+            "chest_opened_img": "/images/locations/tswitch2.png",
+            "access_rules": [ "^$other_CT_trainSwitch" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ct",
+            "x": 50,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "IoH: Cliff Top Jinjo",
+        "sections": [
+          {
+            "name": "Jinjo",
+            "chest_unopened_img": "/images/locations/jinjo.png",
+            "chest_opened_img": "/images/locations/jinjo2.png",
+            "access_rules": [ "^$jinjo_CT" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ct",
+            "x": 520,
+            "y": 205
+          }
+        ]
+      },
+      {
+        "name": "Jolly Roger's Lagoon Entrance",
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "jra" ],
+            "hosted_item": "jra"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ct",
+            "x": 535,
+            "y": 60
+          }
+        ]
+      },
+      {
+        "name": "IoH: Cliff Top Signpost",
+        "chest_unopened_img": "/images/locations/signpost.png",
+        "chest_opened_img": "/images/locations/signpost2.png",
+        "visibility_rules": ["signposts_on"],
+        "sections": [
+          {
+            "name": "Signpost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ct",
+            "x": 535,
+            "y": 80
+          }
+        ]
+      },
+      {
+        "name": "IoH: Cliff Top Near Path to Plateau Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ct",
+            "x": 190,
+            "y": 215
+          }
+        ]
+      },
+      {
+        "name": "IoH: Cliff Top Feather Nest 1",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Feather Nest 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ct",
+            "x": 420,
+            "y": 285
+          }
+        ]
+      },
+      {
+        "name": "IoH: Cliff Top Feather Nest 2",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Feather Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ct",
+            "x": 390,
+            "y": 295
+          }
+        ]
+      },
+      {
+        "name": "IoH: Cliff Top Feather Nest 3",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": [ "^$nests_CT_difficultAlcove" ],
+        "sections": [
+          {
+            "name": "Feather Nest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ct",
+            "x": 275,
+            "y": 295
+          }
+        ]
+      },
+      {
+        "name": "IoH: Cliff Top Feather Nest 4",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Feather Nest 4",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ct",
+            "x": 240,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "IoH: Cliff Top Near JRL Egg Nest",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ct",
+            "x": 555,
+            "y": 60
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cliff Top - HFP Entrance",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": ["@Region: Cliff Top - HFP Entrance"],
+    "children": [
+      {
+        "name": "IoH: Glowbo Outside HFP",
+        "access_rules": [ "^$glowbo_CT" ],
+        "sections": [
+          {
+            "name": "Cliff Top Glowbo",
+            "chest_unopened_img": "/images/locations/glowbo.png",
+            "chest_opened_img": "/images/locations/glowbo2.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ct",
+            "x": 608,
+            "y": 525
+          }
+        ]
+      },
+      {
+        "name": "IoH: Outside HFP Note 1",
+        "sections": [
+          {
+            "name": "Note 1",
+            "chest_unopened_img": "/images/locations/note.png",
+            "chest_opened_img": "/images/locations/note2.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ct",
+            "x": 575,
+            "y": 550
+          }
+        ]
+      },
+      {
+        "name": "IoH: Outside HFP Note 2",
+        "sections": [
+          {
+            "name": "Note 2",
+            "chest_unopened_img": "/images/locations/note.png",
+            "chest_opened_img": "/images/locations/note2.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ct",
+            "x": 635,
+            "y": 550
+          }
+        ]
+      },
+      {
+        "name": "IoH: Outside HFP Note 3",
+        "sections": [
+          {
+            "name": "Note 3",
+            "chest_unopened_img": "/images/locations/note.png",
+            "chest_opened_img": "/images/locations/note2.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ct",
+            "x": 575,
+            "y": 495
+          }
+        ]
+      },
+      {
+        "name": "IoH: Outside HFP Note 4",
+        "sections": [
+          {
+            "name": "Note 4",
+            "chest_unopened_img": "/images/locations/note.png",
+            "chest_opened_img": "/images/locations/note2.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ct",
+            "x": 635,
+            "y": 495
+          }
+        ]
+      },
+      {
+        "name": "Hailfire Peaks Entrance",
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "hfa" ],
+            "hosted_item": "hfa"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ct",
+            "x": 608,
+            "y": 490
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Wasteland",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": ["@Region: Wasteland"],
+    "children": [
+      {
+        "name": "IoH: Wasteland Warp Silo",
+        "sections": [
+          {
+            "name": "Warp Silo",
+            "visibility_rules": ["randomizesilos_on"],
+            "chest_unopened_img": "/images/locations/silo.png",
+            "chest_opened_img": "/images/locations/silo2.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wl",
+            "x": 340,
+            "y": 295
+          }
+        ]
+      },
+      {
+        "name": "IoH: Clockwork Kazooie Eggs Silo",
+        "chest_unopened_img": "/images/locations/silo.png",
+        "chest_opened_img": "/images/locations/silo2.png",
+        "sections": [
+          {
+            "name": "Silo",
+            "access_rules": [ "^$silo_WL_clockworkEggs" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wl",
+            "x": 440,
+            "y": 320
+          }
+        ]
+      },
+      {
+        "name": "IoH: Wasteland Jinjo",
+        "sections": [
+          {
+            "name": "Jinjo",
+            "chest_unopened_img": "/images/locations/jinjo.png",
+            "chest_opened_img": "/images/locations/jinjo2.png",
+            "access_rules": [ "^$jinjo_WL" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wl",
+            "x": 490,
+            "y": 425
+          }
+        ]
+      },
+      {
+        "name": "IoH: Clockwork Silo Bottom Note",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "access_rules": [ "^$notes_WL_bottomNearClockworkSilo" ],
+        "sections": [
+          {
+            "name": "Note 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wl",
+            "x": 437,
+            "y": 390
+          }
+        ]
+      },
+      {
+        "name": "IoH: Clockwork Silo Top Note",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "access_rules": [ "^$notes_WL_topNearClockworkSilo" ],
+        "sections": [
+          {
+            "name": "Note 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wl",
+            "x": 430,
+            "y": 425
+          }
+        ]
+      },
+      {
+        "name": "IoH: Wasteland CCL Area Notes",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "sections": [
+          {
+            "name": "Note 1"
+          },
+          {
+            "name": "Note 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wl",
+            "x": 108,
+            "y": 450
+          }
+        ]
+      },{
+        "name": "IoH: Wasteland Signpost",
+        "chest_unopened_img": "/images/locations/signpost.png",
+        "chest_opened_img": "/images/locations/signpost2.png",
+        "visibility_rules": ["signposts_on"],
+        "sections": [
+          {
+            "name": "Signpost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wl",
+            "x": 25,
+            "y": 470
+          }
+        ]
+      },
+      {
+        "name": "Terrydactyland Entrance",
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "tda" ],
+            "hosted_item": "tda"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wl",
+            "x": 285,
+            "y": 208
+          }
+        ]
+      },
+      {
+        "name": "Cloud Cuckooland Entrance",
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "cca" ],
+            "hosted_item": "cca"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wl",
+            "x": 39,
+            "y": 490
+          }
+        ]
+      },
+      {
+        "name": "IoH: Another Digger Tunnel Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": [ "^$nests_WL_anotherDiggerTunnel" ],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wl",
+            "x": 605,
+            "y": 315
+          },
+          {
+            "map": "pg",
+            "x": 630,
+            "y": 180
+          }
+        ]
+      },
+      {
+        "name": "IoH: Wasteland TDL Entrance Feather Nest 1",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Feather Nest 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wl",
+            "x": 280,
+            "y": 230
+          }
+        ]
+      },
+      {
+        "name": "IoH: Wasteland TDL Entrance Feather Nest 2",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Feather Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wl",
+            "x": 295,
+            "y": 180
+          }
+        ]
+      },
+      {
+        "name": "IoH: Wasteland Behind CCL Bubble Feather Nest",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Feather Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wl",
+            "x": 15,
+            "y": 505
+          }
+        ]
+      },
+      {
+        "name": "IoH: Wasteland Near Crevice to CCL Feather Nest",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Feather Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wl",
+            "x": 240,
+            "y": 305
+          }
+        ]
+      },
+      {
+        "name": "IoH: Wasteland Near Digger Tunnel Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          },
+          {
+            "name": "Egg Nest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wl",
+            "x": 530,
+            "y": 165
+          }
+        ]
+      },
+      {
+        "name": "IoH: Wasteland Next to Quagmire Entrance Feather Nest",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Feather Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wl",
+            "x": 305,
+            "y": 50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Quagmire",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": ["@Region: Quagmire"],
+    "children": [
+      {
+        "name": "IoH: Quagmire Warp Silo",
+        "sections": [
+          {
+            "name": "Warp Silo",
+            "visibility_rules": ["randomizesilos_on"],
+            "chest_unopened_img": "/images/locations/silo.png",
+            "chest_opened_img": "/images/locations/silo2.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "qm",
+            "x": 305,
+            "y": 345
+          }
+        ]
+      },
+      {
+        "name": "Grunty Industries Entrance",
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "gia" ],
+            "hosted_item": "gia"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "qm",
+            "x": 105,
+            "y": 110
+          }
+        ]
+      },
+      {
+        "name": "Cauldron Keep Entrance",
+        "sections": [
+          {
+            "name": "Entrance Open", 
+            "access_rules": [ "^$connector_QM_to_CK" ],
+            "hosted_item": "cka"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "qm",
+            "x": 708,
+            "y": 218
+          }
+        ]
+      },
+      {
+        "name": "IoH: Quagmire Feather Nests",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Left Feather Nest",
+            "access_rules": [ "^$nests_QM_mediumNearGI" ]
+          },
+          {
+            "name": "Back Feather Nest"
+          },
+          {
+            "name": "High Feather Nest",
+            "access_rules": [ "^$nests_QM_hardNearGI" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "qm",
+            "x": 35,
+            "y": 130
+          }
+        ]
+      },
+      {
+        "name": "IoH: Quagmire Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          },
+          {
+            "name": "Egg Nest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "qm",
+            "x": 600,
+            "y": 165
+          }
+        ]
+      }
+    ]
+  }
+]

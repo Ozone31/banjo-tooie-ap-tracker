@@ -1,0 +1,821 @@
+[
+  {
+    "name": "Region: Spiral Mountain"
+  },
+  {
+    "name": "Region: Gruntilda's Lair",
+    "access_rules": ["^$connector_SM_to_GL"]
+  },
+  {
+    "name": "Region: Jinjo Village",
+    "access_rules": ["^$connector_SM_to_JV"]
+  },
+  {
+    "name": "Isle o' Hags Warps",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+        "@Region: Jinjo Village, ^$connector_JVorWH_to_IOHWarps",
+        "@Region: Plateau, ^$connector_PL_to_IOHWarps",
+        "@Region: Pine Grove, ^$connector_PG_to_IOHWarps",
+        "@Region: Cliff Top, ^$connector_CT_to_IOHWarps",
+        "@Region: Wasteland, ^$connector_WL_to_IOHWarps",
+        "@Region: Quagmire, ^$connector_QM_to_IOHWarps"
+    ]
+  },
+  {
+    "name": "Region: Wooded Hollow",
+    "access_rules": ["@Region: Jinjo Village"]
+  },
+  {
+    "name": "Region: Plateau",
+    "access_rules": [
+      "@Region: Wooded Hollow, ^$connector_WH_to_PL",
+      "@Isle o' Hags Warps, ^$connector_IOHWarps_to_PL",
+      "@Region: Pine Grove, ^$connector_PGorCT_to_PL",
+      "@Region: Cliff Top, ^$connector_PGorCT_to_PL",
+      "@Region: Mayahem Temple - Main Area, $load_ggm_mt, ^$connector_GGM_to_PL",
+      "@Region: Glitter Gulch Mine - Main Area, ^$access_GGM_canLeave, $load_ggm_ggm, ^$connector_GGM_to_PL",
+      "@Region: Witchyworld - Main Area, $load_ggm_ww, ^$connector_GGM_to_PL",
+      "@Region: Jolly Roger's Lagoon - Main Area, $load_ggm_jrl, ^$connector_GGM_to_PL",
+      "@Region: Terrydactyland - Main Area, $load_ggm_tdl, ^$connector_GGM_to_PL",
+      "@Region: Outside Grunty Industries, $load_ggm_gi, ^$connector_GGM_to_PL",
+      "@Region: Hailfire Peaks - Lava Side, $load_ggm_hfp, ^$connector_GGM_to_PL",
+      "@Region: Cloud Cuckooland, $load_ggm_ccl, ^$connector_GGM_to_PL"
+    ]
+  },
+  {
+    "name": "Region: Pine Grove",
+    "access_rules": [
+      "@Isle o' Hags Warps, ^$connector_IOHWarps_to_PG",
+      "@Region: Plateau, ^$connector_PL_to_PG",
+      "@Region: Pine Grove Underwater, ^$connector_PGU_to_PG",
+      "@Region: Mayahem Temple - Main Area, $load_ww_mt, wwa",
+      "@Region: Glitter Gulch Mine - Main Area, ^$access_GGM_canLeave, $load_ww_ggm, wwa",
+      "@Region: Witchyworld - Main Area, $load_ww_ww, wwa",
+      "@Region: Jolly Roger's Lagoon - Main Area, $load_ww_jrl, wwa",
+      "@Region: Terrydactyland - Main Area, $load_ww_tdl, wwa",
+      "@Region: Outside Grunty Industries, $load_ww_gi, wwa",
+      "@Region: Hailfire Peaks - Lava Side, $load_ww_hfp, wwa",
+      "@Region: Cloud Cuckooland, $load_ww_ccl, wwa"
+    ]
+  },
+  {
+    "name": "Region: Pine Grove Underwater",
+    "access_rules": [
+      "@Region: Pine Grove, ^$connector_PG_to_PGU",
+      "@Region: Wasteland, ^$connector_WL_to_PGU"
+    ]
+  },
+  {
+    "name": "Region: Cliff Top",
+    "access_rules": [
+      "@Isle o' Hags Warps, ^$connector_IOHWarps_to_CT",
+      "@Region: Plateau, ^$connector_PL_to_CT",
+      "@Region: Cliff Top - HFP Entrance, ^$connector_CTHFP_to_CT",
+      "@Region: Inside Chuffy, ^$connector_Chuffy_to_CT",
+      "@Region: Mayahem Temple - Main Area, $load_jrl_mt, ^$connector_JRL_to_CT",
+      "@Region: Glitter Gulch Mine - Main Area, ^$access_GGM_canLeave, $load_jrl_ggm, ^$connector_JRL_to_CT",
+      "@Region: Witchyworld - Main Area, $load_jrl_ww, ^$connector_JRL_to_CT",
+      "@Region: Jolly Roger's Lagoon - Main Area, $load_jrl_jrl, ^$connector_JRL_to_CT",
+      "@Region: Terrydactyland - Main Area, $load_jrl_tdl, ^$connector_JRL_to_CT",
+      "@Region: Outside Grunty Industries, $load_jrl_gi, ^$connector_JRL_to_CT",
+      "@Region: Hailfire Peaks - Lava Side, $load_jrl_hfp, ^$connector_JRL_to_CT",
+      "@Region: Cloud Cuckooland, $load_jrl_ccl, ^$connector_JRL_to_CT"
+    ]
+  },
+  {
+    "name": "Region: Cliff Top - HFP Entrance",
+    "access_rules": [
+      "@Region: Cliff Top",
+      "@Region: Mayahem Temple - Main Area, $load_hfp_mt, ^$connector_HFP_to_CTHFP",
+      "@Region: Glitter Gulch Mine - Main Area, ^$access_GGM_canLeave, $load_hfp_ggm, ^$connector_HFP_to_CTHFP",
+      "@Region: Witchyworld - Main Area, $load_hfp_ww, ^$connector_HFP_to_CTHFP",
+      "@Region: Jolly Roger's Lagoon - Main Area, $load_hfp_jrl, ^$connector_HFP_to_CTHFP",
+      "@Region: Terrydactyland - Main Area, $load_hfp_tdl, ^$connector_HFP_to_CTHFP",
+      "@Region: Outside Grunty Industries, $load_hfp_gi, ^$connector_HFP_to_CTHFP",
+      "@Region: Hailfire Peaks - Lava Side, $load_hfp_hfp, ^$connector_HFP_to_CTHFP",
+      "@Region: Cloud Cuckooland, $load_hfp_ccl, ^$connector_HFP_to_CTHFP"
+    ]
+  },
+  {
+    "name": "Region: Wasteland",
+    "access_rules": [
+      "@Isle o' Hags Warps, ^$connector_IOHWarps_to_WL",
+      "@Region: Pine Grove Underwater, ^$connector_PGU_to_WL",
+      "@Region: Quagmire, ^$connector_QM_to_WL",
+      "@Region: Mayahem Temple - Main Area, $load_tdl_mt, ^$connector_TDL_to_WL",
+      "@Region: Glitter Gulch Mine - Main Area, ^$access_GGM_canLeave, $load_tdl_ggm, ^$connector_TDL_to_WL",
+      "@Region: Witchyworld - Main Area, $load_tdl_ww, ^$connector_TDL_to_WL",
+      "@Region: Jolly Roger's Lagoon - Main Area, $load_tdl_jrl, ^$connector_TDL_to_WL",
+      "@Region: Terrydactyland - Main Area, $load_tdl_tdl, ^$connector_TDL_to_WL",
+      "@Region: Outside Grunty Industries, $load_tdl_gi, ^$connector_TDL_to_WL",
+      "@Region: Hailfire Peaks - Lava Side, $load_tdl_hfp, ^$connector_TDL_to_WL",
+      "@Region: Cloud Cuckooland, $load_tdl_ccl, ^$connector_TDL_to_WL",
+      "@Region: Mayahem Temple - Main Area, $load_ccl_mt, ^$connector_CCL_to_WL",
+      "@Region: Glitter Gulch Mine - Main Area, ^$access_GGM_canLeave, $load_ccl_ggm, ^$connector_CCL_to_WL",
+      "@Region: Witchyworld - Main Area, $load_ccl_ww, ^$connector_CCL_to_WL",
+      "@Region: Jolly Roger's Lagoon - Main Area, $load_ccl_jrl, ^$connector_CCL_to_WL",
+      "@Region: Terrydactyland - Main Area, $load_ccl_tdl, ^$connector_CCL_to_WL",
+      "@Region: Outside Grunty Industries, $load_ccl_gi, ^$connector_CCL_to_WL",
+      "@Region: Hailfire Peaks - Lava Side, $load_ccl_hfp, ^$connector_CCL_to_WL",
+      "@Region: Cloud Cuckooland, $load_ccl_ccl, ^$connector_CCL_to_WL"
+    ]
+  },
+  {
+    "name": "Region: Quagmire",
+    "access_rules": [
+      "@Isle o' Hags Warps, ^$connector_IOHWarps_to_QM",
+      "@Region: Wasteland, ^$connector_WL_to_QM",
+      "@Region: Mayahem Temple - Main Area, $load_gi_mt, gia",
+      "@Region: Glitter Gulch Mine - Main Area, ^$access_GGM_canLeave, $load_gi_ggm, gia",
+      "@Region: Witchyworld - Main Area, $load_gi_ww, gia",
+      "@Region: Jolly Roger's Lagoon - Main Area, $load_gi_jrl, gia",
+      "@Region: Terrydactyland - Main Area, $load_gi_tdl, gia",
+      "@Region: Outside Grunty Industries, $load_gi_gi, gia",
+      "@Region: Hailfire Peaks - Lava Side, $load_gi_hfp, gia",
+      "@Region: Cloud Cuckooland, $load_gi_ccl, gia",
+      "@Region: Mayahem Temple - Main Area, $load_ck_mt, ^$connector_CK_to_QM",
+      "@Region: Glitter Gulch Mine - Main Area, ^$access_GGM_canLeave, $load_ck_ggm, ^$connector_CK_to_QM",
+      "@Region: Witchyworld - Main Area, $load_ck_ww, ^$connector_CK_to_QM",
+      "@Region: Jolly Roger's Lagoon - Main Area, $load_ck_jrl, ^$connector_CK_to_QM",
+      "@Region: Terrydactyland - Main Area, $load_ck_tdl, ^$connector_CK_to_QM",
+      "@Region: Outside Grunty Industries, $load_ck_gi, ^$connector_CK_to_QM",
+      "@Region: Hailfire Peaks - Lava Side, $load_ck_hfp, ^$connector_CK_to_QM",
+      "@Region: Cloud Cuckooland, $load_ck_ccl, ^$connector_CK_to_QM"
+    ]
+  },
+  
+  
+  
+  {
+    "name": "Region: Mayahem Temple - Main Area",
+    "access_rules": [
+      "$load_mt_mt, mta",
+      "$load_ggm_mt, @Region: Plateau, ^$connector_PL_to_GGM",
+      "$load_ww_mt, @Region: Pine Grove, wwa",
+      "$load_jrl_mt, @Region: Cliff Top, jra",
+      "$load_hfp_mt, @Region: Cliff Top, hfa",
+      "$load_tdl_mt, @Region: Wasteland, tda",
+      "$load_ccl_mt, @Region: Wasteland, cca",
+      "$load_gi_mt, @Region: Quagmire, gia",
+      "$load_ck_mt, @Region: Quagmire, ^$connector_QM_to_CK",
+      "@Region: Mayahem Temple - Kickball Stadium",
+      "@Mayahem Temple Warps, ^$connector_MTWarps_to_MT",
+      "@Region: Mayahem Temple - Inside Targitzan's Temple"
+    ]
+  },
+  {
+    "name": "Mayahem Temple Warps",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+        "@Region: Mayahem Temple - Main Area, ^$connector_MT_to_MTWarps",
+        "@Region: Mayahem Temple - Kickball Stadium, ^$connector_MTKS_to_MTWarps",
+        "@Region: Mayahem Temple - Prison Compound, ^$connector_MTPC_to_MTWarps",
+        "@Region: Mayahem Temple - Jade Snake Grove, ^$connector_MTJSG_to_MTWarps"
+    ]
+  },
+  {
+    "name": "Region: Mayahem Temple - Kickball Stadium",
+    "access_rules": [
+        "@Region: Mayahem Temple - Main Area, ^$connector_MT_to_MTKickballStadium",
+        "@Region: Hailfire Peaks - Lava Side, ^$connector_HFP_to_MTKS",
+        "@Mayahem Temple Warps, ^$connector_MTWarps_to_MTKS"
+    ]
+  },
+  {
+    "name": "Region: Mayahem Temple - Targitzan's Temple Lobby",
+    "access_rules": ["@Region: Mayahem Temple - Main Area"]
+  },
+  {
+    "name": "Region: Mayahem Temple - Inside Targitzan's Temple",
+    "access_rules": [
+      "@Region: Mayahem Temple - Main Area, bblaster",
+      "@Region: Mayahem Temple - Boss"
+    ]
+  },
+  {
+    "name": "Region: Mayahem Temple - Prison Compound",
+    "access_rules": [
+        "@Region: Mayahem Temple - Main Area, ^$connector_MT_to_MTPrisonCompound",
+        "@Mayahem Temple Warps, ^$connector_MTWarps_to_MTPC"
+    ]
+  },
+  {
+    "name": "Region: Mayahem Temple - Jade Snake Grove",
+    "access_rules": [
+        "@Region: Mayahem Temple - Main Area, ^$connector_MT_to_MTJadeSnakeGrove",
+        "@Mayahem Temple Warps, ^$connector_MTWarps_to_MTJSG"
+    ]
+  },
+  
+  {
+    "name": "Region: Glitter Gulch Mine - Main Area",
+    "access_rules": [
+      "$load_mt_ggm, mta",
+      "$load_ggm_ggm, @Region: Plateau, ^$connector_PL_to_GGM",
+      "$load_ww_ggm, @Region: Pine Grove, wwa",
+      "$load_jrl_ggm, @Region: Cliff Top, jra",
+      "$load_hfp_ggm, @Region: Cliff Top, hfa",
+      "$load_tdl_ggm, @Region: Wasteland, tda",
+      "$load_ccl_ggm, @Region: Wasteland, cca",
+      "$load_gi_ggm, @Region: Quagmire, gia",
+      "$load_ck_ggm, @Region: Quagmire, ^$connector_QM_to_CK",
+      "@Region: Inside Chuffy, ^$chuffy_canBeatKingCoal",
+      "@Region: Mayahem Temple - Prison Compound, ^$connector_MTPrisonCompound_to_GGM",
+      "@Region: Glitter Gulch Mine - Water Storage"
+    ]
+  },
+  {
+    "name": "Region: Inside Chuffy",
+    "access_rules": [ 
+      "@Region: Glitter Gulch Mine - Main Area, ^$chuffy_canEnterFromGGM",
+      "@Region: Witchyworld - Main Area, ^$chuffy_canEnterFromWW",
+      "@Region: Terrydactyland - Main Area, ^$chuffy_canEnterFromTDL",
+      "@Region: Hailfire Peaks - Lava Side, ^$chuffy_canEnterFromHFP",
+      "@Region: Cliff Top, ^$chuffy_canEnterFromIOH",
+      "@Region: Grunty Industries 1st Floor, ^$chuffy_canEnterFromGI",
+      "@Region: Glitter Gulch Mine - Boss"
+    ]
+  },
+  {
+    "name": "Region: Glitter Gulch Mine - Fuel Depot Behind the Rocks",
+    "access_rules": [
+      "@Region: Glitter Gulch Mine - Main Area, ^$connector_GGM_to_GGMFuelDepot",
+      "@Region: Witchyworld - Main Area, ^$connector_WW_to_GGMFuelDepot"
+    ]
+  },
+  {
+    "name": "Region: Glitter Gulch Mine - Water Storage",
+    "access_rules": [
+      "@Region: Glitter Gulch Mine - Main Area",
+      "@Region: Glitter Gulch Mine - Water Storage Jinjo"
+    ]
+  },
+  {
+    "name": "Region: Glitter Gulch Mine - Water Storage Jinjo",
+    "access_rules": [
+      "@Region: Glitter Gulch Mine - Main Area, ^$connector_GGM_to_GGMWaterStorageJinjo",
+      "@Region: Jolly Roger's Lagoon - Atlantis, ^$connector_JRLSunkenShip_to_GGMWaterStorageJinjo"
+    ]
+  },
+  
+  {
+    "name": "Region: Witchyworld - Main Area",
+    "access_rules": [
+      "$load_mt_ww, mta",
+      "$load_ggm_ww, @Region: Plateau, ^$connector_PL_to_GGM",
+      "$load_ww_ww, @Region: Pine Grove, wwa",
+      "$load_jrl_ww, @Region: Cliff Top, jra",
+      "$load_hfp_ww, @Region: Cliff Top, hfa",
+      "$load_tdl_ww, @Region: Wasteland, tda",
+      "$load_ccl_ww, @Region: Wasteland, cca",
+      "$load_gi_ww, @Region: Quagmire, gia",
+      "$load_ck_ww, @Region: Quagmire, ^$connector_QM_to_CK",
+      "@Region: Inside Chuffy, ^$connector_Chuffy_to_WW",
+      "@Region: Glitter Gulch Mine - Main Area, ^$connector_GGM_to_WW",
+      "@Region: Terrydactyland - Main Area, ^$connector_TDL_to_WW",
+      "@Region: Witchyworld - Boss"
+    ]
+  },
+  {
+    "name": "Region: Witchyworld - Area 51 Egg Nests",
+    "access_rules": [
+      "@Region: Witchyworld - Main Area, ^$connector_WW_to_WWA51",
+      "@Region: Terrydactyland - Main Area, ^$connector_TDL_to_WWA51"
+    ]
+  },
+  {
+    "name": "Region: Witchyworld - The Inferno",
+    "access_rules": [ "@Region: Witchyworld - Main Area, ^$connector_WW_to_WWInferno" ]
+  },
+  
+  {
+    "name": "Region: Jolly Roger's Lagoon - Main Area",
+    "access_rules": [
+      "$load_mt_jrl, mta",
+      "$load_ggm_jrl, @Region: Plateau, ^$connector_PL_to_GGM",
+      "$load_ww_jrl, @Region: Pine Grove, wwa",
+      "$load_jrl_jrl, @Region: Cliff Top, jra",
+      "$load_hfp_jrl, @Region: Cliff Top, hfa",
+      "$load_tdl_jrl, @Region: Wasteland, tda",
+      "$load_ccl_jrl, @Region: Wasteland, cca",
+      "$load_gi_jrl, @Region: Quagmire, gia",
+      "$load_ck_jrl, @Region: Quagmire, ^$connector_QM_to_CK",
+      "@Region: Hailfire Peaks - Lava Side, ^$connector_HFP_to_JRL"
+    ]
+  },
+  {
+    "name": "Jolly Roger's Lagoon Warps",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+        "@Region: Jolly Roger's Lagoon - Main Area, ^$connector_JRL_to_JRLWarps",
+        "@Region: Jolly Roger's Lagoon - Atlantis, ^$connector_JRLAtlantis_to_JRLWarps",
+        "@Region: Jolly Roger's Lagoon - Sunken Ship, ^$connector_JRLSunkenShip_to_JRLWarps",
+        "@Region: Jolly Roger's Lagoon - Locker Cavern, ^$connector_JRLLockerCavern_to_JRLWarps",
+        "@Region: Jolly Roger's Lagoon - Big Fish Cavern, ^$connector_JRLBigFishCavern_to_JRLWarps"
+    ]
+  },
+  {
+    "name": "Region: Jolly Roger's Lagoon - Underwater",
+    "access_rules": [
+      "@Region: Jolly Roger's Lagoon - Main Area, ^$connector_JRL_to_JRLU",
+      "@Region: Jolly Roger's Lagoon - Atlantis, ^$connector_JRLAtlantis_to_JRLU"
+    ]
+  },
+  {
+    "name": "Region: Jolly Roger's Lagoon - Atlantis",
+    "access_rules": [
+      "@Region: Jolly Roger's Lagoon - Underwater, ^$connector_JRLU_to_JRLAtlantis",
+      "@Region: Jolly Roger's Lagoon - Sunken Ship, ^$connector_JRLSunkenShip_to_JRLAtlantis",
+      "@Region: Jolly Roger's Lagoon - Seaweed Sanctum, ^$connector_JRLSeaweedSanctum_to_JRLAtlantis",
+      "@Jolly Roger's Lagoon Warps, ^$connector_JRLWarps_to_JRLAtlantis"
+    ]
+  },
+  {
+    "name": "Region: Jolly Roger's Lagoon - Sunken Ship",
+    "access_rules": [
+        "@Region: Jolly Roger's Lagoon - Atlantis, ^$connector_JRLAtlantis_to_JRLSunkenShip",
+        "@Region: Jolly Roger's Lagoon - Locker Cavern, ^$connector_JRLLockerCavern_to_JRLSunkenShip",
+        "@Jolly Roger's Lagoon Warps, ^$connector_JRLWarps_to_JRLSunkenShip"
+    ]
+  },
+  {
+    "name": "Region: Jolly Roger's Lagoon - Seaweed Sanctum",
+    "access_rules": [
+        "@Region: Jolly Roger's Lagoon - Atlantis",
+        "@Region: Jolly Roger's Lagoon - Big Fish Cavern"
+    ]
+  },
+  {
+    "name": "Region: Jolly Roger's Lagoon - Locker Cavern",
+    "access_rules": [
+        "@Region: Jolly Roger's Lagoon - Sunken Ship, ^$connector_JRLSunkenShip_to_JRLLockerCavern",
+        "@Region: Jolly Roger's Lagoon - Big Fish Cavern, ^$connector_JRLBigFishCavern_to_JRLLockerCavern",
+        "@Jolly Roger's Lagoon Warps, ^$connector_JRLWarps_to_JRLLockerCavern",
+        "@Region: Jolly Roger's Lagoon - Boss"
+    ]
+  },
+  {
+    "name": "Region: Jolly Roger's Lagoon - Big Fish Cavern",
+    "access_rules": [
+        "@Region: Jolly Roger's Lagoon - Seaweed Sanctum, ^$connector_JRLSeaweedSanctum_to_JRLBigFishCavern",
+        "@Region: Jolly Roger's Lagoon - Locker Cavern, ^$connector_JRLLockerCavern_to_JRLBigFishCavern",
+        "@Jolly Roger's Lagoon Warps, ^$connector_JRLWarps_to_JRLBigFishCavern"
+    ]
+  },
+  
+  {
+    "name": "Region: Terrydactyland - Main Area",
+    "access_rules": [
+      "$load_mt_tdl, mta",
+      "$load_ggm_tdl, @Region: Plateau, ^$connector_PL_to_GGM",
+      "$load_ww_tdl, @Region: Pine Grove, wwa",
+      "$load_jrl_tdl, @Region: Cliff Top, jra",
+      "$load_hfp_tdl, @Region: Cliff Top, hfa",
+      "$load_tdl_tdl, @Region: Wasteland, tda",
+      "$load_ccl_tdl, @Region: Wasteland, cca",
+      "$load_gi_tdl, @Region: Quagmire, gia",
+      "$load_ck_tdl, @Region: Quagmire, ^$connector_QM_to_CK",
+      "@Region: Inside Chuffy, ^$connector_Chuffy_to_TDL",
+      "@Region: Terrydactyland - Unga Bungas' Cave, ^$connector_TDLHatch_to_TDL",
+      "@Region: Witchyworld - Main Area, ^$connector_WW_to_TDL",
+      "@Region: Terrydactyland - Inside the Mountain Top"
+    ]
+  },
+  {
+    "name": "Terrydactyland Warps",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+        "@Region: Terrydactyland - Main Area, ^$connector_TDL_to_TDLWarps",
+        "@Region: Terrydactyland - Top, ^$connector_TDLTop_to_TDLWarps",
+        "@Region: Terrydactyland - Stomping Plains, ^$connector_TDLStompingPlains_to_TDLWarps"
+    ]
+  },
+  {
+    "name": "Region: Terrydactyland - Unga Bungas' Cave",
+    "access_rules": [
+      "@Region: Terrydactyland - Main Area, ^$connector_TDL_to_TDLHatch",
+      "@Region: Mayahem Temple - Main Area, ^$connector_MT_to_TDLHatch"
+    ]
+  },
+  {
+    "name": "Region: Terrydactyland - Inside the Mountain Top",
+    "access_rules": [
+        "@Region: Terrydactyland - Main Area, ^$connector_TDL_to_TDLIMTop",
+        "@Region: Boss Arena - Terry"
+    ]
+  },
+  {
+    "name": "Region: Terrydactyland - Top",
+    "access_rules": [
+        "@Region: Terrydactyland - Main Area, ^$connector_TDL_to_TDLTop",
+        "@Region: Terrydactyland - Stomping Plains, ^$connector_TDLTop_and_TDLStompingPlains",
+        "@Terrydactyland Warps, ^$connector_TDLWarps_to_TDLTop",
+        "@Region: Terrydactyland - Boss"
+    ]
+  },
+  {
+    "name": "Region: Terrydactyland - Stomping Plains",
+    "access_rules": [
+        "@Region: Terrydactyland - Top, ^$connector_TDLTop_and_TDLStompingPlains",
+        "@Terrydactyland Warps, ^$connector_TDLWarps_to_TDLStompingPlains"
+    ]
+  },
+  
+  {
+    "name": "Region: Outside Grunty Industries",
+    "access_rules": [
+      "$load_mt_gi, mta",
+      "$load_ggm_gi, @Region: Plateau, ^$connector_PL_to_GGM",
+      "$load_ww_gi, @Region: Pine Grove, wwa",
+      "$load_jrl_gi, @Region: Cliff Top, jra",
+      "$load_hfp_gi, @Region: Cliff Top, hfa",
+      "$load_tdl_gi, @Region: Wasteland, tda",
+      "$load_ccl_gi, @Region: Wasteland, cca",
+      "$load_gi_gi, @Region: Quagmire, gia",
+      "$load_ck_gi, @Region: Quagmire, ^$connector_QM_to_CK",
+      "@Region: Outside Grunty Industries - Behind the building, ^$connector_GIOBack_to_GIO",
+      "@Region: Grunty Industries 1st Floor, ^$connector_GIF1_to_GIO",
+      "@Region: Grunty Industries Roof, ^$connector_GIRoof_to_GIO_or_GIOB",
+      "@Region: Grunty Industries Flight"
+    ]
+  },
+  {
+    "name": "Region: Outside Grunty Industries - Behind the building",
+    "access_rules": [
+      "@Region: Outside Grunty Industries, ^$connector_GIO_to_GIOBack",
+      "@Region: Grunty Industries 2nd Floor",
+      "@Region: Grunty Industries 3rd Floor, ^$connector_GIF3_to_GIOBack",
+      "@Region: Grunty Industries 4th Floor, ^$connector_GIF4_to_GIOBack",
+      "@Region: Grunty Industries Roof, ^$connector_GIRoof_to_GIO_or_GIOB",
+      "@Region: Grunty Industries Flight"
+    ]
+  },
+  {
+    "name": "Region: Grunty Industries Flight",
+    "access_rules": [
+        "@Region: Outside Grunty Industries, ^$connector_GIO_to_GIFlight",
+        "@Region: Outside Grunty Industries - Behind the building, ^$connector_GIOBack_to_GIFlight",
+        "@Region: Grunty Industries Roof, ^$connector_GIRoof_to_GIFlight"
+    ]
+  },
+  {
+    "name": "Region: Grunty Industries Elevator Shaft",
+    "access_rules": [
+      "@Region: Grunty Industries 1st Floor",
+      "@Region: Grunty Industries 2nd Floor - Electromagnetic Chamber, ^$connector_GIF2ElectromagneticChamber_to_GIElevatorShaft",
+      "@Region: Grunty Industries 3rd Floor - Boiler Plant, ^$connector_GIF3BoilerPlant_to_GIElevatorShaft",
+      "@Region: Grunty Industries 4th Floor - Past the Crushers, ^$connector_GIF4Back_to_GIElevatorShaft"
+    ]
+  },
+  {
+    "name": "Region: Grunty Industries 1st Floor",
+    "access_rules": [
+      "@Region: Inside Chuffy, ^$connector_Chuffy_to_GIF1",
+      "@Region: Outside Grunty Industries, ^$connector_GIO_to_GIF1",
+      "@Region: Grunty Industries Elevator Shaft, ^$connector_GIElevatorShaft_to_GIF1",
+      "@Region: Grunty Industries 2nd Floor, ^$connector_GIF2_to_GIF1",
+      "@Region: Grunty Industries Flight, ^$connector_GIFlight_to_GIF1",
+      "@Region: Grunty Industries - Boss"
+    ]
+  },
+  {
+    "name": "Grunty Industries Warps",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [
+        "@Region: Grunty Industries 1st Floor, ^$connector_GIF1_to_GIWarps",
+        "@Region: Grunty Industries 2nd Floor, ^$connector_GIF2_to_GIWarps",
+        "@Region: Grunty Industries 3rd Floor, ^$connector_GIF3_to_GIWarps",
+        "@Region: Grunty Industries 4th Floor, ^$connector_GIF4_to_GIWarps",
+        "@Region: Grunty Industries Roof, ^$connector_GIRoof_to_GIWarps"
+    ]
+  },
+  {
+    "name": "Region: Grunty Industries 2nd Floor",
+    "access_rules": [
+      "@Region: Outside Grunty Industries - Behind the building, ^$connector_GIOBack_to_GIF2",
+      "@Region: Grunty Industries 1st Floor, ^$connector_GIF1_to_GIF2",
+      "@Region: Grunty Industries 3rd Floor, ^$connector_GIF3_to_GIF2",
+      "@Grunty Industries Warps, ^$connector_GIWarps_to_GIF2"
+    ]
+  },
+  {
+    "name": "Region: Grunty Industries 2nd Floor - Electromagnetic Chamber",
+    "access_rules": [
+      "@Region: Grunty Industries 2nd Floor, ^$connector_GIF2_to_GIF2ElectromagneticChamber",
+      "@Region: Grunty Industries Elevator Shaft, ^$connector_GIElevatorShaft_to_GIF2ElectromagneticChamber"
+    ]
+  },
+  {
+    "name": "Region: Grunty Industries 3rd Floor",
+    "access_rules": [
+      "@Region: Outside Grunty Industries - Behind the building, ^$connector_GIOBack_to_GIF3",
+      "@Region: Grunty Industries 2nd Floor, ^$connector_GIF2_to_GIF3",
+      "@Region: Grunty Industries 3rd Floor - Boiler Plant",
+      "@Region: Grunty Industries 4th Floor, ^$connector_GIF4_to_GIF3",
+      "@Region: Grunty Industries Flight",
+      "@Region: Grunty Industries Roof, ^$connector_GIRoof_to_GIF3_or_GIF4",
+      "@Grunty Industries Warps, ^$connector_GIWarps_to_GIF3"
+    ]
+  },
+  {
+    "name": "Region: Grunty Industries 3rd Floor - Boiler Plant",
+    "access_rules": [
+      "@Region: Grunty Industries 3rd Floor, ^$connector_GIF3_to_GIF3BoilerPlant",
+      "@Region: Grunty Industries Flight, ^$connector_GIFlight_to_GIF3BoilerPlant",
+      "@Region: Grunty Industries Elevator Shaft, ^$connector_GIElevatorShaft_to_GIF3BoilerPlant"
+    ]
+  },
+  {
+    "name": "Region: Grunty Industries 4th Floor",
+    "access_rules": [
+      "@Region: Outside Grunty Industries - Behind the building, ^$connector_GIOBack_to_GIF4",
+      "@Region: Grunty Industries 3rd Floor, ^$connector_GIF3_to_GIF4",
+      "@Region: Grunty Industries 4th Floor - Past the Crushers",
+      "@Region: Grunty Industries Flight",
+      "@Region: Grunty Industries Roof, ^$connector_GIRoof_to_GIF3_or_GIF4",
+      "@Grunty Industries Warps, ^$connector_GIWarps_to_GIF4"
+    ]
+  },
+  {
+    "name": "Region: Grunty Industries 4th Floor - Past the Crushers",
+    "access_rules": [
+      "@Region: Grunty Industries 4th Floor, ^$connector_GIF4_to_GIF4Back",
+      "@Region: Grunty Industries Elevator Shaft, ^$connector_GIElevatorShaft_to_GIF4Back"
+    ]
+  },
+  {
+    "name": "Region: Grunty Industries Roof",
+    "access_rules": [
+      "@Region: Grunty Industries Flight",
+      "@Grunty Industries Warps, ^$connector_GIWarps_to_GIRoof"
+    ]
+  },
+  {
+    "name": "Region: Grunty Industries 5th Floor",
+    "access_rules": [
+      "@Region: Grunty Industries Flight",
+      "@Region: Grunty Industries Roof, ^$connector_GIRoof_to_GIF5"
+    ]
+  },
+  
+  {
+    "name": "Region: Hailfire Peaks - Lava Side",
+    "access_rules": [
+      "$load_mt_hfp, mta",
+      "$load_ggm_hfp, @Region: Plateau, ^$connector_PL_to_GGM",
+      "$load_ww_hfp, @Region: Pine Grove, wwa",
+      "$load_jrl_hfp, @Region: Cliff Top, jra",
+      "$load_hfp_hfp, @Region: Cliff Top, hfa",
+      "$load_tdl_hfp, @Region: Wasteland, tda",
+      "$load_ccl_hfp, @Region: Wasteland, cca",
+      "$load_gi_hfp, @Region: Quagmire, gia",
+      "$load_ck_hfp, @Region: Quagmire, ^$connector_QM_to_CK",
+      "@Region: Inside Chuffy, ^$connector_Chuffy_to_HFP",
+      "@Region: Mayahem Temple - Main Area, ^$connector_MTKickballStadium_to_HFP",
+      "@Region: Hailfire Peaks - Lava Side Boss",
+      "@Region: Hailfire Peaks - Icy Side Boss"
+    ]
+  },
+  {
+    "name": "Region: Hailfire Peaks - Icy Side",
+    "access_rules": [
+      "@Region: Hailfire Peaks - Lava Side",
+      "@Region: Hailfire Peaks - Icy Side Boss"
+    ]
+  },
+  {
+    "name": "Region: Hailfire Peaks - Icicle Grotto",
+    "access_rules": [ "@Region: Hailfire Peaks - Lava Side" ]
+  },
+  
+  {
+    "name": "Region: Cloud Cuckooland",
+    "access_rules": [
+      "$load_mt_ccl, mta",
+      "$load_ggm_ccl, @Region: Plateau, ^$connector_PL_to_GGM",
+      "$load_ww_ccl, @Region: Pine Grove, wwa",
+      "$load_jrl_ccl, @Region: Cliff Top, jra",
+      "$load_hfp_ccl, @Region: Cliff Top, hfa",
+      "$load_tdl_ccl, @Region: Wasteland, tda",
+      "$load_ccl_ccl, @Region: Wasteland, cca",
+      "$load_gi_ccl, @Region: Quagmire, gia",
+      "$load_ck_ccl, @Region: Quagmire, ^$connector_QM_to_CK",
+      "@Region: Cloud Cuckooland - Boss"
+   ]
+  },
+  
+  {
+    "name": "Region: Cauldron Keep",
+    "access_rules": [
+      "$load_mt_ck, mta",
+      "$load_ggm_ck, @Region: Plateau, ^$connector_PL_to_GGM",
+      "$load_ww_ck, @Region: Pine Grove, wwa",
+      "$load_jrl_ck, @Region: Cliff Top, jra",
+      "$load_hfp_ck, @Region: Cliff Top, hfa",
+      "$load_tdl_ck, @Region: Wasteland, tda",
+      "$load_ccl_ck, @Region: Wasteland, cca",
+      "$load_gi_ck, @Region: Quagmire, gia",
+      "$load_ck_ck, @Region: Quagmire, ^$connector_QM_to_CK, cka"
+    ]
+  },
+  
+  
+  
+  {
+    "name": "Region: Mayahem Temple - Boss",
+    "access_rules": [
+      "@Region: Mayahem Temple - Inside Targitzan's Temple, ^$connector_MTTT_to_MTBoss",
+      "$load_boss_tdl_mt, @Region: Boss Arena - Terry, ^$connector_Terry_to_MTBoss"
+    ]
+  },
+  {
+    "name": "Region: Glitter Gulch Mine - Boss",
+    "access_rules": [
+      "@Region: Inside Chuffy",
+      "$load_boss_tdl_ggm, @Region: Boss Arena - Terry, ^$connector_Terry_to_GGMBoss"
+    ]
+  },
+  {
+    "name": "Region: Witchyworld - Boss",
+    "access_rules": [
+      "@Region: Witchyworld - Main Area",
+      "$load_boss_tdl_ww, @Region: Boss Arena - Terry"
+    ]
+  },
+  {
+    "name": "Region: Jolly Roger's Lagoon - Boss",
+    "access_rules": [
+      "@Region: Jolly Roger's Lagoon - Locker Cavern, ^$connector_JRLLC_to_JRLBoss",
+      "$load_boss_tdl_jrl, @Region: Boss Arena - Terry"
+    ]
+  },
+  {
+    "name": "Region: Terrydactyland - Boss",
+    "access_rules": [
+      "@Region: Terrydactyland - Top",
+      "$load_boss_tdl_tdl, @Region: Boss Arena - Terry"
+    ]
+  },
+  {
+    "name": "Region: Grunty Industries - Boss",
+    "access_rules": [
+      "@Region: Grunty Industries 1st Floor, ^$connector_GIF1_to_GIBoss",
+      "$load_boss_tdl_gi, @Region: Boss Arena - Terry"
+    ]
+  },
+  {
+    "name": "Region: Hailfire Peaks - Lava Side Boss",
+    "access_rules": [
+      "@Region: Hailfire Peaks - Lava Side, ^$connector_HFPL_to_HFPLBoss",
+      "$load_boss_tdl_hfpl, @Region: Boss Arena - Terry"
+    ]
+  },
+  {
+    "name": "Region: Hailfire Peaks - Icy Side Boss",
+    "access_rules": [
+      "@Region: Hailfire Peaks - Icy Side, ^$connector_HFPI_to_HFPIBoss",
+      "$load_boss_tdl_hfpi, @Region: Boss Arena - Terry"
+    ]
+  },
+  {
+    "name": "Region: Cloud Cuckooland - Boss",
+    "access_rules": [
+      "@Region: Cloud Cuckooland",
+      "$load_boss_tdl_ccl, @Region: Boss Arena - Terry"
+    ]
+  },
+  
+  {
+    "name": "Region: Boss Arena - Targitzan",
+    "access_rules": [
+      "$load_boss_mt_mt, @Region: Mayahem Temple - Boss, ^$connector_to_Targitzan",
+      "$load_boss_ggm_mt, @Region: Glitter Gulch Mine - Boss, ^$connector_to_Targitzan",
+      "$load_boss_ww_mt, @Region: Witchyworld - Boss, ^$connector_to_Targitzan",
+      "$load_boss_jrl_mt, @Region: Jolly Roger's Lagoon - Boss, ^$connector_to_Targitzan",
+      "$load_boss_tdl_mt, @Region: Terrydactyland - Boss, ^$connector_to_Targitzan",
+      "$load_boss_gi_mt, @Region: Grunty Industries - Boss, ^$connector_to_Targitzan",
+      "$load_boss_hfpl_mt, @Region: Hailfire Peaks - Lava Side Boss, ^$connector_to_Targitzan",
+      "$load_boss_hfpi_mt, @Region: Hailfire Peaks - Icy Side Boss, ^$connector_to_Targitzan",
+      "$load_boss_ccl_mt, @Region: Cloud Cuckooland - Boss, ^$connector_to_Targitzan"
+    ]
+  },
+  {
+    "name": "Region: Boss Arena - Old King Coal",
+    "access_rules": [
+      "$load_boss_mt_ggm, @Region: Mayahem Temple - Boss",
+      "$load_boss_ggm_ggm, @Region: Glitter Gulch Mine - Boss",
+      "$load_boss_ww_ggm, @Region: Witchyworld - Boss",
+      "$load_boss_jrl_ggm, @Region: Jolly Roger's Lagoon - Boss",
+      "$load_boss_tdl_ggm, @Region: Terrydactyland - Boss",
+      "$load_boss_gi_ggm, @Region: Grunty Industries - Boss",
+      "$load_boss_hfpl_ggm, @Region: Hailfire Peaks - Lava Side Boss",
+      "$load_boss_hfpi_ggm, @Region: Hailfire Peaks - Icy Side Boss",
+      "$load_boss_ccl_ggm, @Region: Cloud Cuckooland - Boss"
+    ]
+  },
+  {
+    "name": "Region: Boss Arena - Mr. Patch",
+    "access_rules": [
+      "$load_boss_mt_ww, @Region: Mayahem Temple - Boss, ^$connector_to_MrPatch",
+      "$load_boss_ggm_ww, @Region: Glitter Gulch Mine - Boss, ^$connector_to_MrPatch",
+      "$load_boss_ww_ww, @Region: Witchyworld - Boss, ^$connector_to_MrPatch",
+      "$load_boss_jrl_ww, @Region: Jolly Roger's Lagoon - Boss, ^$connector_to_MrPatch",
+      "$load_boss_tdl_ww, @Region: Terrydactyland - Boss, ^$connector_to_MrPatch",
+      "$load_boss_gi_ww, @Region: Grunty Industries - Boss, ^$connector_to_MrPatch",
+      "$load_boss_hfpl_ww, @Region: Hailfire Peaks - Lava Side Boss, ^$connector_to_MrPatch",
+      "$load_boss_hfpi_ww, @Region: Hailfire Peaks - Icy Side Boss, ^$connector_to_MrPatch",
+      "$load_boss_ccl_ww, @Region: Cloud Cuckooland - Boss, ^$connector_to_MrPatch"
+    ]
+  },
+  {
+    "name": "Region: Boss Arena - Lord Woo Fak Fak",
+    "access_rules": [
+      "$load_boss_mt_jrl, @Region: Mayahem Temple - Boss, ^$connector_to_LordWooFakFak",
+      "$load_boss_ggm_jrl, @Region: Glitter Gulch Mine - Boss, ^$connector_to_LordWooFakFak",
+      "$load_boss_ww_jrl, @Region: Witchyworld - Boss, ^$connector_to_LordWooFakFak",
+      "$load_boss_jrl_jrl, @Region: Jolly Roger's Lagoon - Boss, ^$connector_to_LordWooFakFak",
+      "$load_boss_tdl_jrl, @Region: Terrydactyland - Boss, ^$connector_to_LordWooFakFak",
+      "$load_boss_gi_jrl, @Region: Grunty Industries - Boss, ^$connector_to_LordWooFakFak",
+      "$load_boss_hfpl_jrl, @Region: Hailfire Peaks - Lava Side Boss, ^$connector_to_LordWooFakFak",
+      "$load_boss_hfpi_jrl, @Region: Hailfire Peaks - Icy Side Boss, ^$connector_to_LordWooFakFak",
+      "$load_boss_ccl_jrl, @Region: Cloud Cuckooland - Boss, ^$connector_to_LordWooFakFak"
+    ]
+  },
+  {
+    "name": "Region: Boss Arena - Terry",
+    "access_rules": [
+      "$load_boss_mt_tdl, @Region: Mayahem Temple - Boss",
+      "$load_boss_ggm_tdl, @Region: Glitter Gulch Mine - Boss",
+      "$load_boss_ww_tdl, @Region: Witchyworld - Boss",
+      "$load_boss_jrl_tdl, @Region: Jolly Roger's Lagoon - Boss",
+      "$load_boss_tdl_tdl, @Region: Terrydactyland - Boss",
+      "$load_boss_gi_tdl, @Region: Grunty Industries - Boss",
+      "$load_boss_hfpl_tdl, @Region: Hailfire Peaks - Lava Side Boss",
+      "$load_boss_hfpi_tdl, @Region: Hailfire Peaks - Icy Side Boss",
+      "$load_boss_ccl_tdl, @Region: Cloud Cuckooland - Boss",
+      "@Region: Terrydactyland - Inside the Mountain Top, ^$connector_TDLIMTop_to_Terry"
+    ]
+  },
+  {
+    "name": "Region: Boss Arena - Weldar",
+    "access_rules": [
+      "$load_boss_mt_gi, @Region: Mayahem Temple - Boss, ^$connector_to_Weldar",
+      "$load_boss_ggm_gi, @Region: Glitter Gulch Mine - Boss, ^$connector_to_Weldar",
+      "$load_boss_ww_gi, @Region: Witchyworld - Boss, ^$connector_to_Weldar",
+      "$load_boss_jrl_gi, @Region: Jolly Roger's Lagoon - Boss, ^$connector_to_Weldar",
+      "$load_boss_tdl_gi, @Region: Terrydactyland - Boss, ^$connector_to_Weldar",
+      "$load_boss_gi_gi, @Region: Grunty Industries - Boss, ^$connector_to_Weldar",
+      "$load_boss_hfpl_gi, @Region: Hailfire Peaks - Lava Side Boss, ^$connector_to_Weldar",
+      "$load_boss_hfpi_gi, @Region: Hailfire Peaks - Icy Side Boss, ^$connector_to_Weldar",
+      "$load_boss_ccl_gi, @Region: Cloud Cuckooland - Boss, ^$connector_to_Weldar"
+    ]
+  },
+  {
+    "name": "Region: Boss Arena - Chilli Billi",
+    "access_rules": [
+      "$load_boss_mt_hfpl, @Region: Mayahem Temple - Boss, ^$connector_to_ChilliBilli",
+      "$load_boss_ggm_hfpl, @Region: Glitter Gulch Mine - Boss, ^$connector_to_ChilliBilli",
+      "$load_boss_ww_hfpl, @Region: Witchyworld - Boss, ^$connector_to_ChilliBilli",
+      "$load_boss_jrl_hfpl, @Region: Jolly Roger's Lagoon - Boss, ^$connector_to_ChilliBilli",
+      "$load_boss_tdl_hfpl, @Region: Terrydactyland - Boss, ^$connector_to_ChilliBilli",
+      "$load_boss_gi_hfpl, @Region: Grunty Industries - Boss, ^$connector_to_ChilliBilli",
+      "$load_boss_hfpl_hfpl, @Region: Hailfire Peaks - Lava Side Boss, ^$connector_to_ChilliBilli",
+      "$load_boss_hfpi_hfpl, @Region: Hailfire Peaks - Icy Side Boss, ^$connector_to_ChilliBilli",
+      "$load_boss_ccl_hfpl, @Region: Cloud Cuckooland - Boss, ^$connector_to_ChilliBilli"
+    ]
+  },
+  {
+    "name": "Region: Boss Arena - Chilly Willy",
+    "access_rules": [
+      "$load_boss_mt_hfpi, @Region: Mayahem Temple - Boss",
+      "$load_boss_ggm_hfpi, @Region: Glitter Gulch Mine - Boss",
+      "$load_boss_ww_hfpi, @Region: Witchyworld - Boss",
+      "$load_boss_jrl_hfpi, @Region: Jolly Roger's Lagoon - Boss",
+      "$load_boss_tdl_hfpi, @Region: Terrydactyland - Boss",
+      "$load_boss_gi_hfpi, @Region: Grunty Industries - Boss",
+      "$load_boss_hfpl_hfpi, @Region: Hailfire Peaks - Lava Side Boss",
+      "$load_boss_hfpi_hfpi, @Region: Hailfire Peaks - Icy Side Boss",
+      "$load_boss_ccl_hfpi, @Region: Cloud Cuckooland - Boss"
+    ]
+  },
+  {
+    "name": "Region: Boss Arena - Mingy Jongo",
+    "access_rules": [
+      "$load_boss_mt_ccl, @Region: Mayahem Temple - Boss",
+      "$load_boss_ggm_ccl, @Region: Glitter Gulch Mine - Boss",
+      "$load_boss_ww_ccl, @Region: Witchyworld - Boss",
+      "$load_boss_jrl_ccl, @Region: Jolly Roger's Lagoon - Boss",
+      "$load_boss_tdl_ccl, @Region: Terrydactyland - Boss",
+      "$load_boss_gi_ccl, @Region: Grunty Industries - Boss",
+      "$load_boss_hfpl_ccl, @Region: Hailfire Peaks - Lava Side Boss",
+      "$load_boss_hfpi_ccl, @Region: Hailfire Peaks - Icy Side Boss",
+      "$load_boss_ccl_ccl, @Region: Cloud Cuckooland - Boss"
+    ]
+  }
+]

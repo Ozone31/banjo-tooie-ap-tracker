@@ -20,6 +20,16 @@ load_hfp = "Hailfire Peaks"
 load_ccl = "Cloud Cuckooland"
 load_ck = "Cauldron Keep"
 
+load_boss_mt = "Targitzan's Really Sacred Chamber"
+load_boss_ggm = "Inside Chuffy's Boiler"
+load_boss_ww = "Big Top Interior"
+load_boss_jrl = "Davy Jones' Locker"
+load_boss_tdl = "Terry's Nest"
+load_boss_gi = "Repair Depot"
+load_boss_hfpl = "Chilli Billi Crater"
+load_boss_hfpi = "Chilli Willy Crater"
+load_boss_ccl = "Mingy Jongo Skull"
+
 silo_eggaim = 25
 silo_bblaster = 30
 silo_ggrab = 35
@@ -144,9 +154,9 @@ function onClear(slot_data)
         end
     end
 
-    if slot_data['randomize_moves'] then
+    if slot_data['randomize_bt_moves'] then
         local obj = Tracker:FindObjectForCode("randomizemoves")
-        local stage = slot_data['randomize_moves']
+        local stage = slot_data['randomize_bt_moves']
         if stage == 1 then
             obj.CurrentStage = 0
         elseif stage == 0 then
@@ -174,33 +184,48 @@ function onClear(slot_data)
         end
     end
 
-    if slot_data['randomize_cheato'] then
-        local obj = Tracker:FindObjectForCode("randomizecheato")
-        local stage = slot_data['randomize_cheato']
-        if stage == 1 then
-            obj.CurrentStage = 0
-        elseif stage == 0 then
+    if slot_data['randomize_cheato'] and slot_data['cheato_rewards'] then
+        local obj = Tracker:FindObjectForCode("cheatocontent")
+        local stageP = slot_data['randomize_cheato']
+        local stageR = slot_data['cheato_rewards']
+        if stageR == 1 and stageP == 1 then
+            obj.CurrentStage = 3
+        elseif stageR == 1 and stageP == 0 then
+            obj.CurrentStage = 2
+        elseif stageR == 0 and stageP == 1 then
             obj.CurrentStage = 1
+        else
+            obj.CurrentStage = 0
         end
     end
 
-    if slot_data['randomize_honeycombs'] then
-        local obj = Tracker:FindObjectForCode("randomizehoneycomb")
-        local stage = slot_data['randomize_honeycombs']
-        if stage == 1 then
-            obj.CurrentStage = 0
-        elseif stage == 0 then
+    if slot_data['randomize_honeycombs'] and slot_data['honeyb_rewards'] then
+        local obj = Tracker:FindObjectForCode("honeybcontent")
+        local stageC = slot_data['randomize_honeycombs']
+        local stageR = slot_data['honeyb_rewards']
+        if stageR == 1 and stageC == 1 then
+            obj.CurrentStage = 3
+        elseif stageR == 1 and stageC == 0 then
+            obj.CurrentStage = 2
+        elseif stageR == 0 and stageC == 1 then
             obj.CurrentStage = 1
+        else
+            obj.CurrentStage = 0
         end
     end
 
-    if slot_data['randomize_treble'] then
-        local obj = Tracker:FindObjectForCode("randomizetrebleclef")
-        local stage = slot_data['randomize_treble']
-        if stage == 1 then
-            obj.CurrentStage = 0
-        elseif stage == 0 then
+    if slot_data['randomize_notes'] and slot_data['randomize_treble'] then
+        local obj = Tracker:FindObjectForCode("notecontent")
+        local stageN = slot_data['randomize_notes']
+        local stageT = slot_data['randomize_treble']
+        if stageN == 1 and stageT == 1 then
+            obj.CurrentStage = 3
+        elseif stageN == 1 and stageT == 0 then
+            obj.CurrentStage = 2
+        elseif stageN == 0 and stageT == 1 then
             obj.CurrentStage = 1
+        else
+            obj.CurrentStage = 0
         end
     end
 
@@ -227,16 +252,6 @@ function onClear(slot_data)
     if slot_data['randomize_chuffy'] then
         local obj = Tracker:FindObjectForCode("randomizechuffy")
         local stage = slot_data['randomize_chuffy']
-        if stage == 1 then
-            obj.CurrentStage = 1
-        elseif stage == 0 then
-            obj.CurrentStage = 0
-        end
-    end
-
-    if slot_data['randomize_notes'] then
-        local obj = Tracker:FindObjectForCode("randomizenotes")
-        local stage = slot_data['randomize_notes']
         if stage == 1 then
             obj.CurrentStage = 1
         elseif stage == 0 then
@@ -333,26 +348,6 @@ function onClear(slot_data)
         end
     end
 
-    if slot_data['cheato_rewards'] then
-        local obj = Tracker:FindObjectForCode("cheatorewards")
-        local stage = slot_data['cheato_rewards']
-        if stage == 1 then
-            obj.CurrentStage = 0
-        elseif stage == 0 then
-            obj.CurrentStage = 1
-        end
-    end
-
-    if slot_data['honeyb_rewards'] then
-        local obj = Tracker:FindObjectForCode("honeybrewards")
-        local stage = slot_data['honeyb_rewards']
-        if stage == 1 then
-            obj.CurrentStage = 0
-        elseif stage == 0 then
-            obj.CurrentStage = 1
-        end
-    end
-
     if slot_data['randomize_bk_moves'] ~= 0 and slot_data['worlds'] == "true" then
         local j = 100
         for k,v in pairs(slot_data.world_order) do
@@ -403,15 +398,25 @@ function onClear(slot_data)
                 load_ccl = v
             elseif k == "Cauldron Keep" then
                 load_ck = v
+            elseif k == "Targitzan's Really Sacred Chamber" then
+                load_boss_mt = v
+            elseif k == "Inside Chuffy's Boiler" then
+                load_boss_ggm = v
+            elseif k == "Big Top Interior" then
+                load_boss_ww = v
+            elseif k == "Davy Jones' Locker" then
+                load_boss_jrl = v
+            elseif k == "Terry's Nest" then
+                load_boss_tdl = v
+            elseif k == "Repair Depot" then
+                load_boss_gi = v
+            elseif k == "Chilli Billi Crater" then
+                load_boss_hfpl = v
+            elseif k == "Chilli Willy Crater" then
+                load_boss_hfpi = v
+            elseif k == "Mingy Jongo Skull" then
+                load_boss_cck = v
             end
-        end
-        
-        -- temporary hacky solution -- FIXIT in V4.6
-        local obj = Tracker:FindObjectForCode("entrancerando")
-        if ( load_mt == "Mayahem Temple" and load_ggm == "Glitter Gulch Mine" and load_ww == "Witchyworld" and load_jrl == "Jolly Roger's Lagoon - Town Center" and load_tdl == "Terrydactyland" and load_gi == "Outside Grunty Industries" and load_hfp == "Hailfire Peaks" and load_ccl == "Cloud Cuckooland" and load_ck == "Cauldron Keep" ) then
-            obj.CurrentStage = 0
-        else
-            obj.CurrentStage = 1
         end
     end
 
@@ -492,6 +497,61 @@ function onClear(slot_data)
     if slot_data['randomize_signposts'] then
         local obj = Tracker:FindObjectForCode("signposts")
         local stage = slot_data['randomize_signposts']
+        if stage == 1 then
+            obj.CurrentStage = 1
+        else
+            obj.CurrentStage = 0
+        end
+    end
+
+    if slot_data['open_gi_frontdoor'] then
+        local obj = Tracker:FindObjectForCode("opengi")
+        local stage = slot_data['open_gi_frontdoor']
+        if stage == 1 then
+            obj.CurrentStage = 1
+        else
+            obj.CurrentStage = 0
+        end
+    end
+
+    if slot_data['randomize_beans'] then
+        local obj = Tracker:FindObjectForCode("randomizebeans")
+        local stage = slot_data['randomize_beans']
+        if stage == 1 then
+            obj.CurrentStage = 1
+        else
+            obj.CurrentStage = 0
+        end
+    end
+
+    if slot_data['randomize_tickets'] and slot_data['randomize_green_relics'] then
+        local obj = Tracker:FindObjectForCode("bossentranceitems")
+        local stageT = slot_data['randomize_tickets']
+        local stageG = slot_data['randomize_green_relics']
+        if stageT == 1 and stageG == 1 then
+            obj.CurrentStage = 3
+        elseif stageT == 1 and stageG == 0 then
+            obj.CurrentStage = 2
+        elseif stageT == 0 and stageG == 1 then
+            obj.CurrentStage = 1
+        else
+            obj.CurrentStage = 0
+        end
+    end
+
+    if slot_data['randomize_world_loading_zone'] then
+        local obj = Tracker:FindObjectForCode("entrancerando")
+        local stage = slot_data['randomize_world_loading_zone']
+        if stage == 1 then
+            obj.CurrentStage = 1
+        else
+            obj.CurrentStage = 0
+        end
+    end
+
+    if slot_data['randomize_boss_loading_zone'] then
+        local obj = Tracker:FindObjectForCode("randomizebossentrances")
+        local stage = slot_data['randomize_boss_loading_zone']
         if stage == 1 then
             obj.CurrentStage = 1
         else

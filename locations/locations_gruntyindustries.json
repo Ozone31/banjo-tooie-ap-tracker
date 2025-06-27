@@ -1,0 +1,2407 @@
+[
+  {
+    "name": "Overworld - Grunty Industries",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "children": [
+      {
+        "name": "Grunty Industries - Silos & Warps",
+        "sections": [
+          {
+            "ref": "Grunty Industries 1st Floor/GI Floor 1: Snooze Pack Silo/Silo",
+            "name": "GI Floor 1: Snooze Pack Silo"
+          },
+          {
+            "ref": "Grunty Industries 2nd Floor/GI Floor 2: Leg Spring Silo/Silo",
+            "name": "GI Floor 2: Leg Spring Silo"
+          },
+          {
+            "ref": "Grunty Industries 1st Floor/GI Floor 1: Claw Clamber Boots Silo/Silo",
+            "name": "GI Floor 1: Claw Clamber Boots Silo"
+          },
+          {
+            "ref": "Grunty Industries 1st Floor/GI: 1st Floor Warp Pad/Warp Pad",
+            "name": "GI: 1st Floor Warp Pad"
+          },
+          {
+            "ref": "Grunty Industries 2nd Floor/GI: 2nd Floor Warp Pad/Warp Pad",
+            "name": "GI: 2nd Floor Warp Pad"
+          },
+          {
+            "ref": "Grunty Industries 3rd Floor/GI: 3rd Floor Warp Pad/Warp Pad",
+            "name": "GI: 3rd Floor Warp Pad"
+          },
+          {
+            "ref": "Grunty Industries 4th Floor/GI: 4th Floor Warp Pad/Warp Pad",
+            "name": "GI: 4th Floor Warp Pad"
+          },
+          {
+            "ref": "Grunty Industries Roof/GI: Roof Warp Pad/Warp Pad",
+            "name": "GI: Roof Warp Pad"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 473,
+            "y": 470
+          }
+        ]
+      },
+      {
+        "name": "Grunty Industries - Jiggies",
+        "sections": [
+          {
+            "ref": "Grunty Industries 1st Floor/GI Floor 1: Underwater Waste Disposal Plant Jiggy/Jiggy",
+            "name": "GI Floor 1: Underwater Waste Disposal Plant Jiggy"
+          },
+          {
+            "ref": "Grunty Industries 1st Floor/Repair Depot/Weldar Jiggy",
+            "name": "GI Floor 1: Weldar Jiggy"
+          },
+          {
+            "ref": "Grunty Industries 4th Floor - Past the Crushers/Clinker's Cavern/Jiggy",
+            "name": "GI Floor 4: Clinker's Cavern Jiggy"
+          },
+          {
+            "ref": "Grunty Industries 2nd Floor/GI: Skivvy Workers Jiggy/Jiggy",
+            "name": "GI: Skivvy Workers Jiggy"
+          },
+          {
+            "ref": "Grunty Industries 5th Floor/GI Floor 5: Jiggy/Jiggy",
+            "name": "GI Floor 5: Jiggy"
+          },
+          {
+            "ref": "Grunty Industries 4th Floor - Past the Crushers/Quality Control/Jiggy",
+            "name": "GI Floor 4: Quality Control Jiggy"
+          },
+          {
+            "ref": "Grunty Industries 1st Floor/GI Floor 1: Guarded Jiggy/Jiggy",
+            "name": "GI Floor 1: Guarded Jiggy"
+          },
+          {
+            "ref": "Grunty Industries 1st Floor/Trash Compactor/Jiggy",
+            "name": "GI Floor 1: Trash Compactor Jiggy"
+          },
+          {
+            "ref": "Grunty Industries 3rd Floor - Boiler Plant/Boiler Plant, Packing Room/Twinkly Packing Jiggy",
+            "name": "GI Floor 3: Twinkly Packing Jiggy"
+          },
+          {
+            "ref": "Grunty Industries 1st Floor/GI Floor 1: Waste Disposal Plant Box Jiggy/Jiggy",
+            "name": "GI Floor 1: Waste Disposal Plant Box Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 551,
+            "y": 470
+          }
+        ]
+      },
+      {
+        "name": "Grunty Industries - Notes",
+        "sections": [
+          {
+            "ref": "Outside Grunty Industries/GI Outside: Treble Clef/Treble Clef",
+            "name": "GI Outside: Treble Clef"
+          },
+          {
+            "ref": "Grunty Industries 1st Floor/Train Station (Grunty Industries)/Note 1",
+            "name": "GI Floor 1: Train Station Note 1"
+          },
+          {
+            "ref": "Grunty Industries 1st Floor/Train Station (Grunty Industries)/Note 2",
+            "name": "GI Floor 1: Train Station Note 2"
+          },
+          {
+            "ref": "Grunty Industries 1st Floor/Train Station (Grunty Industries)/Note 3",
+            "name": "GI Floor 1: Train Station Note 3"
+          },
+          {
+            "ref": "Grunty Industries 1st Floor/Floor 1 on AC Unit Notes/Note 1",
+            "name": "GI Floor 1: Floor 1 on AC Unit Note 1"
+          },
+          {
+            "ref": "Grunty Industries 1st Floor/Floor 1 on AC Unit Notes/Note 2",
+            "name": "GI Floor 1: Floor 1 on AC Unit Note 2"
+          },
+          {
+            "ref": "Grunty Industries 2nd Floor/Leg Spring Room Notes/Note 1",
+            "name": "GI Floor 2: Leg Spring Room Note 1"
+          },
+          {
+            "ref": "Grunty Industries 2nd Floor/Leg Spring Room Notes/Note 2",
+            "name": "GI Floor 2: Leg Spring Room Note 2"
+          },
+          {
+            "ref": "Grunty Industries 2nd Floor/Leg Spring Room Notes/Note 3",
+            "name": "GI Floor 2: Leg Spring Room Note 3"
+          },
+          {
+            "ref": "Grunty Industries 2nd Floor/GI Floor 2: Box Room Notes/Taller Stack Note",
+            "name": "GI Floor 2: Box Room Taller Stack Note"
+          },
+          {
+            "ref": "Grunty Industries 2nd Floor/GI Floor 2: Box Room Notes/Shorter Stack Note",
+            "name": "GI Floor 2: Box Room Shorter Stack Note"
+          },
+          {
+            "ref": "Grunty Industries 1st Floor/Waste Disposal Plant Notes/Note 1",
+            "name": "GI Floor 1: Waste Disposal Plant Note 1"
+          },
+          {
+            "ref": "Grunty Industries 1st Floor/Waste Disposal Plant Notes/Note 2",
+            "name": "GI Floor 1: Waste Disposal Plant Note 2"
+          },
+          {
+            "ref": "Grunty Industries 1st Floor/Air Conditioning Plant/Air Conditioning Plant Note 1",
+            "name": "GI Floor 1: Air Conditioning Plant Note 1"
+          },
+          {
+            "ref": "Grunty Industries 1st Floor/Air Conditioning Plant/Air Conditioning Plant Note 2",
+            "name": "GI Floor 1: Air Conditioning Plant Note 2"
+          },
+          {
+            "ref": "Grunty Industries 3rd Floor/Floor 3 Notes/Note 1",
+            "name": "GI Floor 3: Note 1"
+          },
+          {
+            "ref": "Grunty Industries 3rd Floor/Floor 3 Notes/Note 2",
+            "name": "GI Floor 3: Note 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 621,
+            "y": 470
+          }
+        ]
+      },
+      {
+        "name": "Grunty Industries - Other",
+        "sections": [
+          {
+            "ref": "Grunty Industries 5th Floor/GI Floor 5: Jinjo/Jinjo",
+            "name": "GI Floor 5: Jinjo"
+          },
+          {
+            "ref": "Grunty Industries 2nd Floor/GI Floor 2: Leg Spring Jinjo/Jinjo",
+            "name": "GI Floor 2: Leg Spring Jinjo"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Underwater/GI Floor 1: Waste Disposal Plant Jinjo/Jinjo",
+            "name": "GI Floor 1: Waste Disposal Plant Jinjo"
+          },
+          {
+            "ref": "Grunty Industries 3rd Floor - Boiler Plant/Boiler Plant, Packing Room/Boiler Plant Jinjo",
+            "name": "GI Floor 3: Boiler Plant Jinjo"
+          },
+          {
+            "ref": "Outside Grunty Industries - Behind the building/GI Outside: Jinjo/Jinjo",
+            "name": "GI Outside: Jinjo"
+          },
+          {
+            "ref": "Grunty Industries 2nd Floor/GI Floor 2: Glowbo/Glowbo",
+            "name": "GI Floor 2: Glowbo"
+          },
+          {
+            "ref": "Grunty Industries 3rd Floor/GI Floor 3: Glowbo/Glowbo",
+            "name": "GI Floor 3: Glowbo"
+          },
+          {
+            "ref": "Grunty Industries 3rd Floor/GI Floor 3: Honeycomb/Honeycomb",
+            "name": "GI Floor 3: Honeycomb"
+          },
+          {
+            "ref": "Grunty Industries 1st Floor/Train Station (Grunty Industries)/Honeycomb",
+            "name": "GI Floor 1: Train Station Honeycomb"
+          },
+          {
+            "ref": "Grunty Industries Flight/GI Outside: Chimney Honeycomb/Honeycomb",
+            "name": "GI Outside: Chimney Honeycomb"
+          },
+          {
+            "ref": "Grunty Industries 1st Floor/Workers' Quarters/Loggo Cheato Page",
+            "name": "GI Floor 1: Loggo Cheato Page"
+          },
+          {
+            "ref": "Grunty Industries 2nd Floor/GI Floor 2: Window Cheato Page/Cheato Page",
+            "name": "GI Floor 2: Window Cheato Page"
+          },
+          {
+            "ref": "Boss Arena - Weldar/Repair Depot/Repair Depot Cheato Page",
+            "name": "GI Floor 1: Repair Depot Cheato Page"
+          },
+          {
+            "ref": "Outside Grunty Industries - Behind the building/GI Outside: Train Switch/Train Switch",
+            "name": "GI Outside: Train Switch"
+          },
+          {
+            "ref": "Grunty Industries 1st Floor/Workers' Quarters/GI Floor 1: Workers' Quarters Skivvy",
+            "name": "GI Floor 1: Workers' Quarters Skivvy"
+          },
+          {
+            "ref": "Grunty Industries 1st Floor/GI Floor 1: Skivvy/Skivvy",
+            "name": "GI Floor 1: Skivvy"
+          },
+          {
+            "ref": "Grunty Industries 2nd Floor/GI Floor 2: Skivvy/Skivvy",
+            "name": "GI Floor 2: Skivvy"
+          },
+          {
+            "ref": "Grunty Industries 3rd Floor/GI Floor 3: Skivvy/Skivvy",
+            "name": "GI Floor 3: Skivvy"
+          },
+          {
+            "ref": "Grunty Industries 5th Floor/GI Floor 5: Skivvy/Skivvy",
+            "name": "GI Floor 5: Skivvy"
+          },
+          {
+            "ref": "Outside Grunty Industries - Behind the building/GI Outside: Skivvy/Skivvy",
+            "name": "GI Outside: Skivvy"
+          },
+          {
+            "ref": "Boss Arena - Weldar/Repair Depot/Weldar Mumbo Token",
+            "name": "GI Floor 1: Weldar Mumbo Token"
+          },
+          {
+            "ref": "Grunty Industries 4th Floor - Past the Crushers/Clinker's Cavern/Mumbo Token",
+            "name": "GI Floor 4: Clinker's Cavern Mumbo Token"
+          },
+          {
+            "ref": "Grunty Industries 3rd Floor - Boiler Plant/Boiler Plant, Packing Room/Twinkly Packing Mumbo Token",
+            "name": "GI Floor 3: Twinkly Packing Mumbo Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 691,
+            "y": 470
+          }
+        ]
+      },
+      {
+        "name": "Grunty Industries - Nests",
+        "sections": [
+          {
+            "ref": "Grunty Industries Roof/GI Outside: Roof Feather Nests/Feather Nest 1",
+            "name": "GI Outside: Roof Feather Nest 1"
+          },
+          {
+            "ref": "Grunty Industries Roof/GI Outside: Roof Feather Nests/Feather Nest 2",
+            "name": "GI Outside: Roof Feather Nest 2"
+          },
+          {
+            "ref": "Grunty Industries Roof/GI Outside: Roof Feather Nests/Feather Nest 3",
+            "name": "GI Outside: Roof Feather Nest 3"
+          },
+          {
+            "ref": "Outside Grunty Industries/GI Outside: Right Side of Building Feather Nest/Feather Nest",
+            "name": "GI Outside: Right Side of Building Feather Nest"
+          },
+          {
+            "ref": "Outside Grunty Industries/GI Outside: Left Side of Building Feather Nest/Feather Nest",
+            "name": "GI Outside: Left Side of Building Feather Nest"
+          },
+          {
+            "ref": "Grunty Industries 1st Floor/GI Floor 1: Top Pipe Egg Nest/Egg Nest",
+            "name": "GI Floor 1: Top Pipe Egg Nest"
+          },
+          {
+            "ref": "Grunty Industries 1st Floor/GI Floor 1: High Pipe Egg Nests/Egg Nest 1",
+            "name": "GI Floor 1: High Pipe Egg Nest 1"
+          },
+          {
+            "ref": "Grunty Industries 1st Floor/GI Floor 1: Near Waste Disposal Feather Nests/Feather Nest 1",
+            "name": "GI Floor 1: Near Waste Disposal Feather Nest 1"
+          },
+          {
+            "ref": "Grunty Industries 1st Floor/GI Floor 1: Near Waste Disposal Feather Nests/Feather Nest 2",
+            "name": "GI Floor 1: Near Waste Disposal Feather Nest 2"
+          },
+          {
+            "ref": "Grunty Industries 1st Floor/GI Floor 1: High Pipe Egg Nests/Egg Nest 2",
+            "name": "GI Floor 1: High Pipe Egg Nest 2"
+          },
+          {
+            "ref": "Grunty Industries 1st Floor/GI Floor 1: Top of Trash Compactor Feather Nest/Feather Nest",
+            "name": "GI Floor 1: Top of Trash Compactor Feather Nest"
+          },
+          {
+            "ref": "Grunty Industries 1st Floor/Train Station (Grunty Industries)/Big Box Egg Nest",
+            "name": "GI Floor 1: Train Station Big Box Egg Nest"
+          },
+          {
+            "ref": "Grunty Industries 1st Floor/Train Station (Grunty Industries)/Small Box Egg Nest",
+            "name": "GI Floor 1: Train Station Small Box Egg Nest"
+          },
+          {
+            "ref": "Grunty Industries 1st Floor/Train Station (Grunty Industries)/Medium Box Egg Nest",
+            "name": "GI Floor 1: Train Station Medium Box Egg Nest"
+          },
+          {
+            "ref": "Grunty Industries 1st Floor/Workers' Quarters/Egg Nest",
+            "name": "GI Floor 1: Workers' Quarters Egg Nest"
+          },
+          {
+            "ref": "Grunty Industries 1st Floor/Workers' Quarters/Feather Nest",
+            "name": "GI Floor 1: Workers' Quarters Feather Nest"
+          },
+          {
+            "ref": "Grunty Industries 1st Floor/Trash Compactor/Egg Nest 1",
+            "name": "GI Floor 1: Trash Compactor Egg Nest 1"
+          },
+          {
+            "ref": "Grunty Industries 1st Floor/Trash Compactor/Egg Nest 2",
+            "name": "GI Floor 1: Trash Compactor Egg Nest 2"
+          },
+          {
+            "ref": "Grunty Industries Elevator Shaft/Elevator Shaft/Floor 2 Egg Nest",
+            "name": "GI Elevator Shaft: Floor 2 Egg Nest"
+          },
+          {
+            "ref": "Grunty Industries Elevator Shaft/Elevator Shaft/Floor 3 Egg Nest",
+            "name": "GI Elevator Shaft: Floor 3 Egg Nest"
+          },
+          {
+            "ref": "Grunty Industries Elevator Shaft/Elevator Shaft/Floor 4 Egg Nest",
+            "name": "GI Elevator Shaft: Floor 4 Egg Nest"
+          },
+          {
+            "ref": "Grunty Industries 2nd Floor/GI Floor 2: In a Box Egg Nests/Egg Nest 1",
+            "name": "GI Floor 2: In a Box Egg Nest 1"
+          },
+          {
+            "ref": "Grunty Industries 2nd Floor/GI Floor 2: On Scaffolding Egg Nests/Egg Nest 1",
+            "name": "GI Floor 2: On Scaffolding Egg Nest 1"
+          },
+          {
+            "ref": "Grunty Industries 2nd Floor/GI Floor 2: Near Floor 1 Tunnel Egg Nest/Egg Nest",
+            "name": "GI Floor 2: Near Floor 1 Tunnel Egg Nest"
+          },
+          {
+            "ref": "Grunty Industries 2nd Floor/GI Floor 2: In a Box Egg Nests/Egg Nest 2",
+            "name": "GI Floor 2: In a Box Egg Nest 2"
+          },
+          {
+            "ref": "Grunty Industries Roof/GI Floor 2: Near Cheato Page Feather Nest/Feather Nest",
+            "name": "GI Floor 2: Near Cheato Page Feather Nest"
+          },
+          {
+            "ref": "Grunty Industries 2nd Floor/GI Floor 2: On Scaffolding Egg Nests/Egg Nest 2",
+            "name": "GI Floor 2: On Scaffolding Egg Nest 2"
+          },
+          {
+            "ref": "Grunty Industries 2nd Floor/GI Floor 2: On Scaffolding Egg Nests/Egg Nest 3",
+            "name": "GI Floor 2: On Scaffolding Egg Nest 3"
+          },
+          {
+            "ref": "Grunty Industries 2nd Floor/GI Floor 2: On Scaffolding Egg Nests/Egg Nest 4",
+            "name": "GI Floor 2: On Scaffolding Egg Nest 4"
+          },
+          {
+            "ref": "Grunty Industries 2nd Floor/GI Floor 2: On Scaffolding Egg Nests/Egg Nest 5",
+            "name": "GI Floor 2: On Scaffolding Egg Nest 5"
+          },
+          {
+            "ref": "Grunty Industries Roof/GI Floor 2: Near Unscrewable Platform Feather Nest/Feather Nest",
+            "name": "GI Floor 2: Near Unscrewable Platform Feather Nest"
+          },
+          {
+            "ref": "Grunty Industries 2nd Floor - Electromagnetic Chamber/Electromagnetic Chamber/Feather Nest",
+            "name": "GI Floor 2: Electromagnetic Chamber Feather Nest"
+          },
+          {
+            "ref": "Grunty Industries 2nd Floor - Electromagnetic Chamber/Electromagnetic Chamber/Egg Nest 1",
+            "name": "GI Floor 2: Electromagnetic Chamber Egg Nest 1"
+          },
+          {
+            "ref": "Grunty Industries 2nd Floor - Electromagnetic Chamber/Electromagnetic Chamber/Egg Nest 2",
+            "name": "GI Floor 2: Electromagnetic Chamber Egg Nest 2"
+          },
+          {
+            "ref": "Grunty Industries 3rd Floor/GI Floor 3: On High Box Stack Egg Nest/Egg Nest",
+            "name": "GI Floor 3: On Boxes Egg Nest 1"
+          },
+          {
+            "ref": "Grunty Industries 3rd Floor/GI Floor 3: On Boxes Under Notes Egg Nest/Egg Nest",
+            "name": "GI Floor 3: On Boxes Egg Nest 2"
+          },
+          {
+            "ref": "Grunty Industries 3rd Floor/GI Floor 3: Near Mumbo's Skull Egg Nest/Egg Nest",
+            "name": "GI Floor 3: Near Mumbo's Skull Egg Nest"
+          },
+          {
+            "ref": "Grunty Industries 3rd Floor/GI Floor 3: On Crate Egg Nest/Egg Nest",
+            "name": "GI Floor 3: On Crate Egg Nest"
+          },
+          {
+            "ref": "Grunty Industries 3rd Floor/GI Floor 3: On Boxes Feather Nests/Feather Nest 1",
+            "name": "GI Floor 3: On Boxes Feather Nest 1"
+          },
+          {
+            "ref": "Grunty Industries 3rd Floor/GI Floor 3: On Boxes Feather Nests/Feather Nest 2",
+            "name": "GI Floor 3: On Boxes Feather Nest 2"
+          },
+          {
+            "ref": "Grunty Industries 3rd Floor - Boiler Plant/Boiler Plant, Packing Room/Boiler Plant Left Egg Nest",
+            "name": "GI Floor 3: Boiler Plant Left Egg Nest"
+          },
+          {
+            "ref": "Grunty Industries 3rd Floor - Boiler Plant/Boiler Plant, Packing Room/Boiler Plant Right Egg Nest",
+            "name": "GI Floor 3: Boiler Plant Right Egg Nest"
+          },
+          {
+            "ref": "Grunty Industries 4th Floor/GI Floor 4: Near Fire Exit Egg Nests/Egg Nest 1",
+            "name": "GI Floor 4: Near Fire Exit Egg Nest 1"
+          },
+          {
+            "ref": "Grunty Industries 4th Floor/GI Floor 4: Near Fire Exit Egg Nests/Egg Nest 2",
+            "name": "GI Floor 4: Near Fire Exit Egg Nest 2"
+          },
+          {
+            "ref": "Grunty Industries 4th Floor/GI Floor 4: Near Fire Exit Egg Nests/Egg Nest 3",
+            "name": "GI Floor 4: Near Fire Exit Egg Nest 3"
+          },
+          {
+            "ref": "Grunty Industries 4th Floor/GI Floor 4: Box Near Crushers Egg Nest/Egg Nest",
+            "name": "GI Floor 4: Box Near Crushers Egg Nest"
+          },
+          {
+            "ref": "Grunty Industries 4th Floor/GI Floor 4: Near Service Elevator Feather Nests/Feather Nest 1",
+            "name": "GI Floor 4: Near Service Elevator Feather Nest 1"
+          },
+          {
+            "ref": "Grunty Industries 4th Floor/GI Floor 4: Near Service Elevator Feather Nests/Feather Nest 2",
+            "name": "GI Floor 4: Near Service Elevator Feather Nest 2"
+          },
+          {
+            "ref": "Grunty Industries 4th Floor - Past the Crushers/GI Floor 4: Near Battery Door Egg Nest/Egg Nest",
+            "name": "GI Floor 4: Near Battery Door Egg Nest"
+          },
+          {
+            "ref": "Grunty Industries 4th Floor - Past the Crushers/Quality Control/Egg Nest 1",
+            "name": "GI Floor 4: Quality Control Egg Nest 1"
+          },
+          {
+            "ref": "Grunty Industries 4th Floor - Past the Crushers/Quality Control/Egg Nest 2",
+            "name": "GI Floor 4: Quality Control Egg Nest 2"
+          },
+          {
+            "ref": "Grunty Industries 4th Floor - Past the Crushers/Quality Control/Egg Nest 3",
+            "name": "GI Floor 4: Quality Control Egg Nest 3"
+          },
+          {
+            "ref": "Grunty Industries 5th Floor/GI Floor 5: Small Box Stack Egg Nest/Egg Nest",
+            "name": "GI Floor 5: Small Box Stack Egg Nest"
+          },
+          {
+            "ref": "Grunty Industries 5th Floor/GI Floor 5: Box Egg Nest/Egg Nest",
+            "name": "GI Floor 5: Box Egg Nest"
+          },
+          {
+            "ref": "Grunty Industries 5th Floor/GI Floor 5: Big Box Stack Egg Nest/Egg Nest",
+            "name": "GI Floor 5: Big Box Stack Egg Nest"
+          },
+          {
+            "ref": "Grunty Industries 1st Floor/Air Conditioning Plant/Near Repair Depot Egg Nest 1",
+            "name": "GI Floor 1: Air Conditioning Plant Near Repair Depot Egg Nest 1"
+          },
+          {
+            "ref": "Grunty Industries 1st Floor/Air Conditioning Plant/In Front of Fan Feather Nest 1",
+            "name": "GI Floor 1: Air Conditioning Plant In Front of Fan Feather Nest 1"
+          },
+          {
+            "ref": "Grunty Industries 1st Floor/Air Conditioning Plant/In Front of Fan Feather Nest 2",
+            "name": "GI Floor 1: Air Conditioning Plant In Front of Fan Feather Nest 2"
+          },
+          {
+            "ref": "Grunty Industries 1st Floor/Air Conditioning Plant/Near Waste Disposal Egg Nest",
+            "name": "GI Floor 1: Air Conditioning Plant Near Waste Disposal Egg Nest"
+          },
+          {
+            "ref": "Grunty Industries 1st Floor/Air Conditioning Plant/Near Repair Depot Egg Nest 2",
+            "name": "GI Floor 1: Air Conditioning Plant Near Repair Depot Egg Nest 2"
+          },
+          {
+            "ref": "Boss Arena - Weldar/Repair Depot/Egg Nest 1",
+            "name": "GI Floor 1: Repair Depot Egg Nest 1"
+          },
+          {
+            "ref": "Boss Arena - Weldar/Repair Depot/Egg Nest 2",
+            "name": "GI Floor 1: Repair Depot Egg Nest 2"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/GI Floor 1: Waste Disposal Water Pump Nests/Egg Nest",
+            "name": "GI Floor 1: Waste Disposal Water Pump Egg Nest"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Underwater/GI Floor 1: Waste Disposal Plant Jinjo/Tank Egg Nest 1",
+            "name": "GI Floor 1: Waste Disposal Jinjo Tank Egg Nest 1"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Underwater/GI Floor 1: Waste Disposal Plant Jinjo/Tank Egg Nest 2",
+            "name": "GI Floor 1: Waste Disposal Jinjo Tank Egg Nest 2"
+          },
+          {
+            "ref": "Jolly Roger's Lagoon - Main Area/GI Floor 1: Waste Disposal Water Pump Nests/Feather Nest",
+            "name": "GI Floor 1: Waste Disposal Water Pump Feather Nest"
+          },
+          {
+            "ref": "Grunty Industries 4th Floor - Past the Crushers/Clinker's Cavern/Green Room Egg Nest 1",
+            "name": "GI Floor 4: Clinker's Cavern Green Room Egg Nest 1"
+          },
+          {
+            "ref": "Grunty Industries 4th Floor - Past the Crushers/Clinker's Cavern/Green Room Egg Nest 2",
+            "name": "GI Floor 4: Clinker's Cavern Green Room Egg Nest 2"
+          },
+          {
+            "ref": "Grunty Industries 4th Floor - Past the Crushers/Clinker's Cavern/Raising Scaffolding Room Bottom Egg Nest",
+            "name": "GI Floor 4: Clinker's Cavern Raising Scaffolding Room Bottom Egg Nest"
+          },
+          {
+            "ref": "Grunty Industries 4th Floor - Past the Crushers/Clinker's Cavern/Valve Room Egg Nest",
+            "name": "GI Floor 4: Clinker's Cavern Valve Room Egg Nest"
+          },
+          {
+            "ref": "Grunty Industries 4th Floor - Past the Crushers/Clinker's Cavern/Near Window Egg Nest",
+            "name": "GI Floor 4: Clinker's Cavern Near Window Egg Nest"
+          },
+          {
+            "ref": "Grunty Industries 4th Floor - Past the Crushers/Clinker's Cavern/Raising Scaffolding Room Top Egg Nest",
+            "name": "GI Floor 4: Clinker's Cavern Raising Scaffolding Room Top Egg Nest"
+          },
+          {
+            "ref": "Grunty Industries 4th Floor - Past the Crushers/Clinker's Cavern/Orange Room Egg Nest",
+            "name": "GI Floor 4: Clinker's Cavern Orange Room Egg Nest"
+          },
+          {
+            "ref": "Grunty Industries 4th Floor - Past the Crushers/Clinker's Cavern/Spiral Scaffolding Room Egg Nest",
+            "name": "GI Floor 4: Clinker's Cavern Spiral Scaffolding Room Egg Nest"
+          },
+          {
+            "ref": "Grunty Industries 4th Floor - Past the Crushers/Sewer Entrance/Left Egg Nest 1",
+            "name": "GI Floor 4: Sewer Entrance Left Egg Nest 1"
+          },
+          {
+            "ref": "Grunty Industries 4th Floor - Past the Crushers/Sewer Entrance/Left Egg Nest 2",
+            "name": "GI Floor 4: Sewer Entrance Left Egg Nest 2"
+          },
+          {
+            "ref": "Grunty Industries 4th Floor - Past the Crushers/Sewer Entrance/Right Egg Nest 1",
+            "name": "GI Floor 4: Sewer Entrance Right Egg Nest 1"
+          },
+          {
+            "ref": "Grunty Industries 4th Floor - Past the Crushers/Sewer Entrance/Right Egg Nest 2",
+            "name": "GI Floor 4: Sewer Entrance Right Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 770,
+            "y": 470
+          }
+        ]
+      },
+      {
+        "name": "Grunty Industries - Signposts",
+        "sections": [
+          {
+            "ref": "Outside Grunty Industries/GI Outside: Signpost/Signpost",
+            "name": "GI Outside: Signpost"
+          },
+          {
+            "ref": "Grunty Industries 1st Floor/Workers' Quarters/Signpost",
+            "name": "GI Floor 1: Workers Quarters Signpost"
+          },
+          {
+            "ref": "Grunty Industries Elevator Shaft/Elevator Shaft/Signpost 1",
+            "name": "GI Elevator Shaft: Signpost 1"
+          },
+          {
+            "ref": "Grunty Industries Elevator Shaft/Elevator Shaft/Signpost 2",
+            "name": "GI Elevator Shaft: Signpost 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 849,
+            "y": 470
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Outside Grunty Industries",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Region: Outside Grunty Industries" ],
+    "children": [
+      {
+        "name": "GI Outside: Treble Clef",
+        "chest_unopened_img": "/images/locations/treble.png",
+        "chest_opened_img": "/images/locations/treble2.png",
+        "sections": [
+          {
+            "name": "Treble Clef",
+            "access_rules": ["^$treble_GI"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi1",
+            "x": 190,
+            "y": 420
+          }
+        ]
+      },
+      {
+        "name": "GI Outside: Right Side of Building Feather Nest",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_GI_outsideRight"],
+        "sections": [
+          {
+            "name": "Feather Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi1",
+            "x": 360,
+            "y": 443
+          }
+        ]
+      },
+      {
+        "name": "GI Outside: Signpost",
+        "chest_unopened_img": "/images/locations/signpost.png",
+        "chest_opened_img": "/images/locations/signpost2.png",
+        "visibility_rules": ["signposts_on"],
+        "access_rules": ["^$signs_GI_outside"],
+        "sections": [
+          {
+            "name": "Signpost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi1",
+            "x": 360,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "GI Outside: Left Side of Building Feather Nest",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_GI_outsideLeft"],
+        "sections": [
+          {
+            "name": "Feather Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi1",
+            "x": 327,
+            "y": 130
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Outside Grunty Industries - Behind the building",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Region: Outside Grunty Industries - Behind the building" ],
+    "children": [
+      {
+        "name": "GI Outside: Train Switch",
+        "chest_unopened_img": "/images/locations/tswitch.png",
+        "chest_opened_img": "/images/locations/tswitch2.png",
+        "sections": [
+          {
+            "name": "Train Switch"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi1",
+            "x": 400,
+            "y": 463
+          }
+        ]
+      },
+      {
+        "name": "GI Outside: Skivvy",
+        "sections": [
+          {
+            "name": "Skivvy",
+            "chest_unopened_img": "/images/locations/honeycombcheck.png",
+            "chest_opened_img": "/images/locations/honeycombcheck2.png",
+            "access_rules": ["^$other_GI_skivvyOutsideBack"],
+            "visibility_rules": ["mousepace_off"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi1",
+            "x": 600,
+            "y": 50
+          }
+        ]
+      },
+      {
+        "name": "GI Outside: Jinjo",
+        "sections": [
+          {
+            "name": "Jinjo",
+            "chest_unopened_img": "/images/locations/jinjo.png",
+            "chest_opened_img": "/images/locations/jinjo2.png",
+            "access_rules": ["^$jinjo_GI_outside"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi1",
+            "x": 405,
+            "y": 145
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Grunty Industries Flight",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Region: Grunty Industries Flight" ],
+    "children":[
+      {
+        "name": "GI Outside: Chimney Honeycomb",
+        "chest_unopened_img": "/images/locations/honey.png",
+        "chest_opened_img": "/images/locations/honey2.png",
+        "sections": [
+          {
+            "name": "Honeycomb"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi1",
+            "x": 227,
+            "y": 362
+          }
+        ]
+      },
+      {
+        "name": "GI Floor 2: Near Unscrewable Platform Feather Nest",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_GI_floor2ButFromFlight"],
+        "sections": [
+          {
+            "name": "Feather Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi3",
+            "x": 275,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "GI Floor 2: Near Cheato Page Feather Nest",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$cheato_GI_window"],
+        "sections": [
+          {
+            "name": "Feather Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi3",
+            "x": 760,
+            "y": 145
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Grunty Industries Elevator Shaft",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Region: Grunty Industries Elevator Shaft" ],
+    "children": [
+      {
+        "name": "Elevator Shaft",
+        "sections": [
+          {
+            "name": "Floor 2 Egg Nest",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_GI_elevatorShaftF2"]
+          },
+          {
+            "name": "Floor 3 Egg Nest",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_GI_elevatorShaftF3"]
+          },
+          {
+            "name": "Floor 4 Egg Nest",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_GI_elevatorShaftF4"]
+          },
+          {
+            "name": "Signpost 1",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"],
+            "access_rules": ["^$signs_GI_elevatorShaft"]
+          },
+          {
+            "name": "Signpost 2",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"],
+            "access_rules": ["^$signs_GI_elevatorShaft"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi2",
+            "x": 272,
+            "y": 450
+          },
+          {
+            "map": "gi3",
+            "x": 638,
+            "y": 252
+          },
+          {
+            "map": "gi4",
+            "x": 483,
+            "y": 355
+          },
+          {
+            "map": "gi7",
+            "x": 50,
+            "y": 212
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Grunty Industries 1st Floor",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Region: Grunty Industries 1st Floor" ],
+    "children": [
+      {
+        "name": "GI: 1st Floor Warp Pad",
+        "sections": [
+          {
+            "name": "Warp Pad",
+            "chest_unopened_img": "/images/locations/warp.png",
+            "chest_opened_img": "/images/locations/warp2.png",
+            "visibility_rules": ["randomizewarppads_on"],
+            "access_rules": ["^$warp_GI_floor1"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi2",
+            "x": 58,
+            "y": 515
+          }
+        ]
+      },
+      {
+        "name": "GI Floor 1: Skivvy",
+        "sections": [
+          {
+            "name": "Skivvy",
+            "chest_unopened_img": "/images/locations/honeycombcheck.png",
+            "chest_opened_img": "/images/locations/honeycombcheck2.png",
+            "access_rules": ["^$other_GI_skivvyFloor1"],
+            "visibility_rules": ["mousepace_off"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi2",
+            "x": 205,
+            "y": 115
+          }
+        ]
+      },
+      {
+        "name": "GI Floor 1: Underwater Waste Disposal Plant Jiggy",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": ["^$jiggy_GI_underwaterWasteDisposal"],
+            "visibility_rules": ["mousepace_off"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi5",
+            "x": 372,
+            "y": 260
+          }
+        ]
+      },
+      {
+        "name": "Repair Depot",
+        "access_rules": [ "^$access_GI_canBeatWeldar" ],
+        "sections": [
+          {
+            "name": "Weldar Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi0",
+            "x": 110,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "GI Floor 1: Guarded Jiggy",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": ["^$jiggy_GI_guarded"],
+            "visibility_rules": ["mousepace_off"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi2",
+            "x": 281,
+            "y": 252
+          }
+        ]
+      },
+      {
+        "name": "Trash Compactor",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": ["^$jiggy_GI_trashCompactor"],
+            "visibility_rules": ["mousepace_off"]
+          },
+          {
+            "name": "Egg Nest 1",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_GI_trashCompactor"]
+          },
+          {
+            "name": "Egg Nest 2",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_GI_trashCompactor"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi2",
+            "x": 160,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "GI Floor 1: Top of Trash Compactor Feather Nest",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_GI_outsideTrashCompactor"],
+        "sections": [
+          {
+            "name": "Feather Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi2",
+            "x": 160,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "GI Floor 1: Waste Disposal Plant Box Jiggy",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": ["^$jiggy_GI_wasteDisposalBox"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi5",
+            "x": 270,
+            "y": 169
+          }
+        ]
+      },
+      {
+        "name": "Workers' Quarters",
+        "sections": [
+          {
+            "name": "Loggo Cheato Page",
+            "chest_unopened_img": "/images/locations/page.png",
+            "chest_opened_img": "/images/locations/page2.png",
+            "access_rules": ["^$cheato_GI_loggo"]
+          },
+          {
+            "ref": "Grunty Industries 2nd Floor/GI: Skivvy Workers Jiggy/Jiggy",
+            "name": "Skivvy Workers Jiggy (All Around the Map)"
+          },
+          {
+            "name": "GI Floor 1: Workers' Quarters Skivvy",
+            "chest_unopened_img": "/images/locations/honeycombcheck.png",
+            "chest_opened_img": "/images/locations/honeycombcheck2.png",
+            "access_rules": ["^$other_GI_skivvyWorkersQuarters"],
+            "visibility_rules": ["mousepace_off"]
+          },
+          {
+            "name": "Egg Nest",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"]
+          },
+          {
+            "name": "Feather Nest",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png",
+            "visibility_rules": ["nestsanity_on"]
+          },
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi2",
+            "x": 285,
+            "y": 65
+          }
+        ]
+      },
+      {
+        "name": "Train Station (Grunty Industries)",
+        "sections": [
+          {
+            "name": "Honeycomb",
+            "chest_unopened_img": "/images/locations/honey.png",
+            "chest_opened_img": "/images/locations/honey2.png",
+            "access_rules": ["^$honeycomb_GI_trainStation"]
+          },
+          {
+            "name": "Note 1",
+            "chest_unopened_img": "/images/locations/note.png",
+            "chest_opened_img": "/images/locations/note2.png",
+            "access_rules": [ "^$notes_GI_trainStationHard" ]
+          },
+          {
+            "name": "Note 2",
+            "chest_unopened_img": "/images/locations/note.png",
+            "chest_opened_img": "/images/locations/note2.png",
+            "access_rules": [ "^$notes_GI_trainStationEasy" ]
+          },
+          {
+            "name": "Note 3",
+            "chest_unopened_img": "/images/locations/note.png",
+            "chest_opened_img": "/images/locations/note2.png",
+            "access_rules": [ "^$notes_GI_trainStationEasy" ]
+          },
+          {
+            "name": "Big Box Egg Nest",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"]
+          },
+          {
+            "name": "Small Box Egg Nest",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_GI_trainStationSmallBox"]
+          },
+          {
+            "name": "Medium Box Egg Nest",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_GI_trainStationMediumBox"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi2",
+            "x": 430,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "GI Floor 1: Snooze Pack Silo",
+        "chest_unopened_img": "/images/locations/silo.png",
+        "chest_opened_img": "/images/locations/silo2.png",
+        "sections": [
+          {
+            "name": "Silo",
+            "access_rules": [ "^$silo_GI_snoozePack" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi5",
+            "x": 665,
+            "y": 169
+          }
+        ]
+      },
+      {
+        "name": "GI Floor 1: Claw Clamber Boots Silo",
+        "chest_unopened_img": "/images/locations/silo.png",
+        "chest_opened_img": "/images/locations/silo2.png",
+        "sections": [
+          {
+            "name": "Silo",
+            "access_rules": [ "^$silo_GI_clawClamberBoots" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi2",
+            "x": 272,
+            "y": 347
+          }
+        ]
+      },
+      {
+        "name": "Floor 1 on AC Unit Notes",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "access_rules": ["^$notes_GI_F1"],
+        "sections": [
+          {
+            "name": "Note 1"
+          },
+          {
+            "name": "Note 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi2",
+            "x": 455,
+            "y": 303
+          }
+        ]
+      },
+      {
+        "name": "Waste Disposal Plant Notes",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "access_rules": ["^$notes_GI_wasteDisposal"],
+        "sections": [
+          {
+            "name": "Note 1"
+          },
+          {
+            "name": "Note 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi5",
+            "x": 480,
+            "y": 169
+          }
+        ]
+      },
+      {
+        "name": "Air Conditioning Plant",
+        "sections": [
+          {
+            "name": "Air Conditioning Plant Note 1",
+            "chest_unopened_img": "/images/locations/note.png",
+            "chest_opened_img": "/images/locations/note2.png",
+            "access_rules": [ "^$notes_GI_airConditioningPlantHard" ]
+          },
+          {
+            "name": "Air Conditioning Plant Note 2",
+            "chest_unopened_img": "/images/locations/note.png",
+            "chest_opened_img": "/images/locations/note2.png"
+          },
+          {
+            "name": "Near Repair Depot Egg Nest 1",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_GI_outsideRepairDepot"]
+          },
+          {
+            "name": "In Front of Fan Feather Nest 1",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_GI_fanEasy"]
+          },
+          {
+            "name": "In Front of Fan Feather Nest 2",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_GI_fanEasy"]
+          },
+          {
+            "name": "Near Waste Disposal Egg Nest",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_GI_fanHard"]
+          },
+          {
+            "name": "Near Repair Depot Egg Nest 2",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_GI_outsideRepairDepot"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi2",
+            "x": 125,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "GI Floor 1: Near Waste Disposal Feather Nests",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_GI_outsideWasteDisposal"],
+        "sections": [
+          {
+            "name": "Feather Nest 1"
+          },
+          {
+            "name": "Feather Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi2",
+            "x": 450,
+            "y": 383
+          }
+        ]
+      },
+      {
+        "name": "GI Floor 1: High Pipe Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_GI_floor1HighPipe"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi2",
+            "x": 370,
+            "y": 250
+          }
+        ]
+      },
+      {
+        "name": "GI Floor 1: Top Pipe Egg Nest",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_GI_floor1TopPipe"],
+        "sections": [
+          {
+            "name": "Egg Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi2",
+            "x": 128,
+            "y": 65
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Grunty Industries 2nd Floor",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Region: Grunty Industries 2nd Floor" ],
+    "children": [
+      {
+        "name": "GI: 2nd Floor Warp Pad",
+        "sections": [
+          {
+            "name": "Warp Pad",
+            "chest_unopened_img": "/images/locations/warp.png",
+            "chest_opened_img": "/images/locations/warp2.png",
+            "visibility_rules": ["randomizewarppads_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi3",
+            "x": 415,
+            "y": 430
+          }
+        ]
+      },
+      {
+        "name": "GI Floor 2: Skivvy",
+        "sections": [
+          {
+            "name": "Skivvy",
+            "chest_unopened_img": "/images/locations/honeycombcheck.png",
+            "chest_opened_img": "/images/locations/honeycombcheck2.png",
+            "access_rules": ["^$other_GI_skivvyFloor2"],
+            "visibility_rules": ["mousepace_off"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi3",
+            "x": 180,
+            "y": 275
+          }
+        ]
+      },
+      {
+        "name": "GI Floor 2: Window Cheato Page",
+        "sections": [
+          {
+            "name": "Cheato Page",
+            "chest_unopened_img": "/images/locations/page.png",
+            "chest_opened_img": "/images/locations/page2.png",
+            "access_rules": ["^$cheato_GI_window"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi3",
+            "x": 735,
+            "y": 125
+          }
+        ]
+      },
+      {
+        "name": "GI Floor 2: Glowbo",
+        "chest_unopened_img": "/images/locations/glowbo.png",
+        "chest_opened_img": "/images/locations/glowbo2.png",
+        "sections": [
+          {
+            "name": "Glowbo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi3",
+            "x": 385,
+            "y": 485
+          }
+        ]
+      },
+      {
+        "name": "GI Floor 2: Leg Spring Silo",
+        "chest_unopened_img": "/images/locations/silo.png",
+        "chest_opened_img": "/images/locations/silo2.png",
+        "sections": [
+          {
+            "name": "Silo",
+            "access_rules": [ "^$silo_GI_legSpring" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi3",
+            "x": 475,
+            "y": 100
+          }
+        ]
+      },
+      {
+        "name": "GI Floor 2: Leg Spring Jinjo",
+        "sections": [
+          {
+            "name": "Jinjo",
+            "chest_unopened_img": "/images/locations/jinjo.png",
+            "chest_opened_img": "/images/locations/jinjo2.png",
+            "access_rules": ["^$jinjo_GI_legSpring"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi3",
+            "x": 625,
+            "y": 30
+          }
+        ]
+      },
+      {
+        "name": "GI: Skivvy Workers Jiggy",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": ["^$jiggy_GI_skivvy"],
+            "visibility_rules": ["mousepace_off"]
+          }
+        ]
+      },
+      {
+        "name": "Leg Spring Room Notes",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "access_rules": ["^$notes_GI_legSpringRoom"],
+        "sections": [
+          {
+            "name": "Note 1"
+          },
+          {
+            "name": "Note 2"
+          },
+          {
+            "name": "Note 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi3",
+            "x": 630,
+            "y": 125
+          }
+        ]
+      },
+      {
+        "name": "GI Floor 2: Box Room Notes",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "sections": [
+          {
+            "name": "Taller Stack Note",
+            "access_rules": ["^$notes_GI_boxRoomTallerStack"]
+          },
+          {
+            "name": "Shorter Stack Note"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi3",
+            "x": 380,
+            "y": 250
+          }
+        ]
+      },
+      {
+        "name": "GI Floor 2: In a Box Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi3",
+            "x": 394,
+            "y": 250
+          }
+        ]
+      },
+      {
+        "name": "GI Floor 2: Near Floor 1 Tunnel Egg Nest",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi3",
+            "x": 228,
+            "y": 385
+          }
+        ]
+      },
+      {
+        "name": "GI Floor 2: On Scaffolding Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_GI_floor2OnScaffolding"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          },
+          {
+            "name": "Egg Nest 3"
+          },
+          {
+            "name": "Egg Nest 4"
+          },
+          {
+            "name": "Egg Nest 5"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi3",
+            "x": 47,
+            "y": 300
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Grunty Industries 2nd Floor - Electromagnetic Chamber",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Region: Grunty Industries 2nd Floor - Electromagnetic Chamber" ],
+    "children": [
+      {
+        "name": "Electromagnetic Chamber",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Feather Nest",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png"
+          },
+          {
+            "name": "Egg Nest 1",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "access_rules": ["^$nests_GI_floor2emChamber"]
+          },
+          {
+            "name": "Egg Nest 2",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "access_rules": ["^$nests_GI_floor2emChamber"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi3",
+            "x": 638,
+            "y": 240
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Grunty Industries 3rd Floor",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Region: Grunty Industries 3rd Floor" ],
+    "children": [
+      {
+        "name": "GI: 3rd Floor Warp Pad",
+        "sections": [
+          {
+            "name": "Warp Pad",
+            "chest_unopened_img": "/images/locations/warp.png",
+            "chest_opened_img": "/images/locations/warp2.png",
+            "visibility_rules": ["randomizewarppads_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi4",
+            "x": 171,
+            "y": 470
+          }
+        ]
+      },
+      {
+        "name": "GI Floor 3: Skivvy",
+        "sections": [
+          {
+            "name": "Skivvy",
+            "chest_unopened_img": "/images/locations/honeycombcheck.png",
+            "chest_opened_img": "/images/locations/honeycombcheck2.png",
+            "access_rules": ["^$other_GI_skivvyFloor3"],
+            "visibility_rules": ["mousepace_off"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi4",
+            "x": 470,
+            "y": 210
+          }
+        ]
+      },
+      {
+        "name": "GI Floor 3: Honeycomb",
+        "sections": [
+          {
+            "name": "Honeycomb",
+            "chest_unopened_img": "/images/locations/honey.png",
+            "chest_opened_img": "/images/locations/honey2.png",
+            "access_rules": ["^$honeycomb_GI_floor3"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi4",
+            "x": 452,
+            "y": 185
+          }
+        ]
+      },
+      {
+        "name": "GI Floor 3: Glowbo",
+        "chest_unopened_img": "/images/locations/glowbo.png",
+        "chest_opened_img": "/images/locations/glowbo2.png",
+        "access_rules": [ "^$glowbo_GI_floor3" ],
+        "sections": [
+          {
+            "name": "Glowbo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi4",
+            "x": 444,
+            "y": 465
+          }
+        ]
+      },
+      {
+        "name": "Floor 3 Notes",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "access_rules": ["^$notes_GI_F3"],
+        "sections": [
+          {
+            "name": "Note 1"
+          },
+          {
+            "name": "Note 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi4",
+            "x": 302,
+            "y": 165
+          }
+        ]
+      },
+      {
+        "name": "GI Floor 3: Near Mumbo's Skull Egg Nest",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_GI_floor3nearMumbo"],
+        "sections": [
+          {
+            "name": "Egg Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi4",
+            "x": 171,
+            "y": 412
+          }
+        ]
+      },
+      {
+        "name": "GI Floor 3: On Crate Egg Nest",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_GI_floor3cornerBox"],
+        "sections": [
+          {
+            "name": "Egg Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi4",
+            "x": 117,
+            "y": 300
+          }
+        ]
+      },
+      {
+        "name": "GI Floor 3: On Boxes Under Notes Egg Nest",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_GI_floor3BoxUnderNotes"],
+        "sections": [
+          {
+            "name": "Egg Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi4",
+            "x": 235,
+            "y": 165
+          }
+        ]
+      },
+      {
+        "name": "GI Floor 3: On High Box Stack Egg Nest",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_GI_floor3HighBox"],
+        "sections": [
+          {
+            "name": "Egg Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi4",
+            "x": 285,
+            "y": 300
+          }
+        ]
+      },
+      {
+        "name": "GI Floor 3: On Boxes Feather Nests",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$glowbo_GI_floor3"],
+        "sections": [
+          {
+            "name": "Feather Nest 1"
+          },
+          {
+            "name": "Feather Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi4",
+            "x": 444,
+            "y": 285
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Grunty Industries 3rd Floor - Boiler Plant",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Region: Grunty Industries 3rd Floor - Boiler Plant" ],
+    "children": [
+      {
+        "name": "Boiler Plant, Packing Room",
+        "sections": [
+          {
+            "name": "Boiler Plant Jinjo",
+            "chest_unopened_img": "/images/locations/jinjo.png",
+            "chest_opened_img": "/images/locations/jinjo2.png",
+            "access_rules": ["^$jinjo_GI_boiler"]
+          },
+          {
+            "name": "Twinkly Packing Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": ["^$jiggy_GI_twinkly"],
+            "visibility_rules": ["mousepace_off"]
+          },
+          {
+            "name": "Twinkly Packing Mumbo Token",
+            "chest_unopened_img": "/images/locations/mumbotoken.png",
+            "chest_opened_img": "/images/locations/mumbotoken2.png",
+            "access_rules": ["^$jiggy_GI_twinkly"],
+            "visibility_rules": [ "goal_minigame", "goal_wwing" ]
+          },
+          {
+            "name": "Boiler Plant Left Egg Nest",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"]
+          },
+          {
+            "name": "Boiler Plant Right Egg Nest",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi4",
+            "x": 470,
+            "y": 355
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Grunty Industries 4th Floor",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Region: Grunty Industries 4th Floor" ],
+    "children": [
+      {
+        "name": "GI: 4th Floor Warp Pad",
+        "sections": [
+          {
+            "name": "Warp Pad",
+            "chest_unopened_img": "/images/locations/warp.png",
+            "chest_opened_img": "/images/locations/warp2.png",
+            "visibility_rules": ["randomizewarppads_on"],
+            "access_rules": ["^$warp_GI_floor4"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi7",
+            "x": 595,
+            "y": 100
+          }
+        ]
+      },
+      {
+        "name": "GI Floor 4: Box Near Crushers Egg Nest",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_GI_floor4front"],
+        "sections": [
+          {
+            "name": "Egg Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi7",
+            "x": 595,
+            "y": 47
+          }
+        ]
+      },
+      {
+        "name": "GI Floor 4: Near Service Elevator Feather Nests",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Feather Nest 1"
+          },
+          {
+            "name": "Feather Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi7",
+            "x": 750,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "GI Floor 4: Near Fire Exit Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_GI_floor4nearFireEscape"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          },
+          {
+            "name": "Egg Nest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi7",
+            "x": 655,
+            "y": 375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Grunty Industries 4th Floor - Past the Crushers",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Region: Grunty Industries 4th Floor - Past the Crushers" ],
+    "children": [
+      {
+        "name": "Clinker's Cavern",
+        "access_rules": [ "^$jiggy_GI_clinkers" ],
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "visibility_rules": ["mousepace_off"]
+          },
+          {
+            "name": "Mumbo Token",
+            "chest_unopened_img": "/images/locations/mumbotoken.png",
+            "chest_opened_img": "/images/locations/mumbotoken2.png",
+            "visibility_rules": [ "goal_minigame", "goal_wwing" ]
+          },
+          {
+            "name": "Green Room Egg Nest 1",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on, mousepace_off"]
+          },
+          {
+            "name": "Green Room Egg Nest 2",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on, mousepace_off"]
+          },
+          {
+            "name": "Raising Scaffolding Room Bottom Egg Nest",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on, mousepace_off"]
+          },
+          {
+            "name": "Valve Room Egg Nest",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on, mousepace_off"]
+          },
+          {
+            "name": "Near Window Egg Nest",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on, mousepace_off"]
+          },
+          {
+            "name": "Raising Scaffolding Room Top Egg Nest",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on, mousepace_off"]
+          },
+          {
+            "name": "Orange Room Egg Nest",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on, mousepace_off"]
+          },
+          {
+            "name": "Spiral Scaffolding Room Egg Nest",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on, mousepace_off"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi7",
+            "x": 215,
+            "y": 212
+          }
+        ]
+      },
+      {
+        "name": "Sewer Entrance",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_GI_sewerEntrance"],
+        "sections": [
+          {
+            "name": "Left Egg Nest 1"
+          },
+          {
+            "name": "Left Egg Nest 2"
+          },
+          {
+            "name": "Right Egg Nest 1"
+          },
+          {
+            "name": "Right Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi7",
+            "x": 200,
+            "y": 212
+          }
+        ]
+      },
+      {
+        "name": "Quality Control",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": [ "^$jiggy_GI_qualityControl" ],
+            "visibility_rules": ["mousepace_off"]
+          },
+          {
+            "name": "Egg Nest 1",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on, mousepace_off"],
+            "access_rules": ["^$nests_GI_qualityControl"]
+          },
+          {
+            "name": "Egg Nest 2",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on, mousepace_off"],
+            "access_rules": ["^$nests_GI_qualityControl"]
+          },
+          {
+            "name": "Egg Nest 3",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on, mousepace_off"],
+            "access_rules": ["^$nests_GI_qualityControl"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi7",
+            "x": 540,
+            "y": 375
+          },
+          {
+            "map": "gi7",
+            "x": 260,
+            "y": 365
+          }
+        ]
+      },
+      {
+        "name": "GI Floor 4: Near Battery Door Egg Nest",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_GI_floor4outsideQC"],
+        "sections": [
+          {
+            "name": "Egg Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi7",
+            "x": 195,
+            "y": 390
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Grunty Industries Roof",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Region: Grunty Industries Roof" ],
+    "children": [
+      {
+        "name": "GI: Roof Warp Pad",
+        "sections": [
+          {
+            "name": "Warp Pad",
+            "chest_unopened_img": "/images/locations/warp.png",
+            "chest_opened_img": "/images/locations/warp2.png",
+            "visibility_rules": ["randomizewarppads_on"],
+            "access_rules": ["^$warp_GI_floor4"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi1",
+            "x": 285,
+            "y": 285
+          }
+        ]
+      },
+      {
+        "name": "GI Outside: Roof Feather Nests",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Feather Nest 1"
+          },
+          {
+            "name": "Feather Nest 2"
+          },
+          {
+            "name": "Feather Nest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi1",
+            "x": 227,
+            "y": 285
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Grunty Industries 5th Floor",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Region: Grunty Industries 5th Floor" ],
+    "children": [
+      {
+        "name": "GI Floor 5: Jinjo",
+        "sections": [
+          {
+            "name": "Jinjo",
+            "chest_unopened_img": "/images/locations/jinjo.png",
+            "chest_opened_img": "/images/locations/jinjo2.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi6",
+            "x": 355,
+            "y": 365
+          }
+        ]
+      },
+      {
+        "name": "GI Floor 5: Skivvy",
+        "sections": [
+          {
+            "name": "Skivvy",
+            "chest_unopened_img": "/images/locations/honeycombcheck.png",
+            "chest_opened_img": "/images/locations/honeycombcheck2.png",
+            "access_rules": ["^$other_GI_skivvyFloor5"],
+            "visibility_rules": ["mousepace_off"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi6",
+            "x": 285,
+            "y": 245
+          }
+        ]
+      },
+      {
+        "name": "GI Floor 5: Jiggy",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": ["^$jiggy_GI_floor5"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi6",
+            "x": 183,
+            "y": 110
+          }
+        ]
+      },
+      {
+        "name": "GI Floor 5: Box Egg Nest",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi6",
+            "x": 65,
+            "y": 365
+          }
+        ]
+      },
+      {
+        "name": "GI Floor 5: Small Box Stack Egg Nest",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_GI_floor5smallStack"],
+        "sections": [
+          {
+            "name": "Egg Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi6",
+            "x": 65,
+            "y": 65
+          }
+        ]
+      },
+      {
+        "name": "GI Floor 5: Big Box Stack Egg Nest",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi6",
+            "x": 238,
+            "y": 296
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Boss Arena - Weldar",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Region: Boss Arena - Weldar" ],
+    "children": [
+      {
+        "name": "Repair Depot",
+        "access_rules": [ "^$access_GI_canBeatWeldar" ],
+        "sections": [
+          {
+            "name": "Repair Depot Cheato Page",
+            "chest_unopened_img": "/images/locations/page.png",
+            "chest_opened_img": "/images/locations/page2.png"
+          },
+          {
+            "ref": "Grunty Industries 1st Floor/Repair Depot/Weldar Jiggy",
+            "name": "GI Floor 1: Weldar Jiggy"
+          },
+          {
+            "name": "Weldar Mumbo Token",
+            "chest_unopened_img": "/images/locations/mumbotoken.png",
+            "chest_opened_img": "/images/locations/mumbotoken2.png",
+            "visibility_rules": [ "goal_boss", "goal_wwing" ]
+          },
+          {
+            "name": "Egg Nest 1",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"]
+          },
+          {
+            "name": "Egg Nest 2",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "gi2",
+            "x": 110,
+            "y": 280
+          }
+        ]
+      }
+    ]
+  }
+]

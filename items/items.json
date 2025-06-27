@@ -134,6 +134,30 @@
     "img": "/images/items/maxhealth.png",
     "codes": "maxhealth"
   },
+  {
+    "name": "Green Relic",
+    "type": "consumable",
+    "max_quantity": 25,
+    "overlay_background": "#000000",
+    "img": "/images/items/green_relic.png",
+    "codes": "greenrelic"
+  },
+  {
+    "name": "Big Top Ticket",
+    "type": "consumable",
+    "max_quantity": 4,
+    "overlay_background": "#000000",
+    "img": "/images/items/big_top_ticket.png",
+    "codes": "ticket"
+  },
+  {
+    "name": "Bean",
+    "type": "consumable",
+    "max_quantity": 2,
+    "overlay_background": "#000000",
+    "img": "/images/items/bean.png",
+    "codes": "bean"
+  },
   // NOT TRACKING THESE ANYMORE
   // {
   //   "name": "Big-O Pants",
@@ -2594,6 +2618,59 @@
     ]
   },
   {
+    "name": "Randomize Cheato Rewards",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/cheator_on.png",
+        "name": "Randomize Cheato Rewards - On",
+        "codes": "cheatorewards,cheatorewards_on",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/cheator_off.png",
+        "name": "Randomize Cheato Rewards - Off",
+        "codes": "cheatorewards,cheatorewards_off",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Randomize Cheato Content",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/settings/cheato_off.png",
+        "name": "Randomize Cheato Content - Off",
+        "codes": "cheatocontent,cheatocontent_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/cheato_on.png",
+        "name": "Randomize Cheato Content - Pages Only",
+        "codes": "cheatocontent,cheatocontent_pages",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/cheator_on.png",
+        "name": "Randomize Cheato Content - Rewards Only",
+        "codes": "cheatocontent,cheatocontent_rewards",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/cheato_both.png",
+        "name": "Randomize Cheato Content - Pages and Rewards",
+        "codes": "cheatocontent,cheatocontent_both",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
     "name": "Randomize Honeycombs",
     "type": "progressive",
     "loop": true,
@@ -2609,6 +2686,59 @@
         "img": "images/settings/honey_off.png",
         "name": "Randomize Honeycombs - Off",
         "codes": "randomizehoneycomb,randomizehoneycomb_off",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Randomize Honey B Rewards",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/honeybr_on.png",
+        "name": "Randomize Honey B Rewards - On",
+        "codes": "honeybrewards,honeybrewards_on",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/honeybr_off.png",
+        "name": "Randomize Honey B Rewards - Off",
+        "codes": "honeybrewards,honeybrewards_off",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Randomize Honey B Content",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/settings/honey_off.png",
+        "name": "Randomize Honey B Content - Off",
+        "codes": "honeybcontent,honeybcontent_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/honey_on.png",
+        "name": "Randomize Honey B Content - Empty Honeycombs Only",
+        "codes": "honeybcontent,honeybcontent_honeycombs",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/honeybr_on.png",
+        "name": "Randomize Honey B Content - Honey B Rewards Only",
+        "codes": "honeybcontent,honeybcontent_rewards",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/honey_both.png",
+        "name": "Randomize Honey B Content - Empty Honeycombs and Honey B Rewards",
+        "codes": "honeybcontent,honeybcontent_both",
         "inherit_codes": false
       }
     ]
@@ -2654,6 +2784,59 @@
     ]
   },
   {
+    "name": "Randomize Note Nests",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/notes_off.png",
+        "name": "Randomize Note Nests - Off",
+        "codes": "randomizenotes,randomizenotes_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/notes_on.png",
+        "name": "Randomize Note Nests - On",
+        "codes": "randomizenotes,randomizenotes_on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Randomize Note Content",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/settings/notes_off.png",
+        "name": "Randomize Note Content - Off",
+        "codes": "notecontent,notecontent_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/notes_on.png",
+        "name": "Randomize Note Content - Notes Only",
+        "codes": "notecontent,notecontent_notes",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/treble_on.png",
+        "name": "Randomize Note Content - Treble Clefs Only",
+        "codes": "notecontent,notecontent_trebles",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/notes_both.png",
+        "name": "Randomize Note Content - Notes and Treble Clefs",
+        "codes": "notecontent,notecontent_both",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
     "name": "Randomize Train Station Switches",
     "type": "progressive",
     "loop": true,
@@ -2689,26 +2872,6 @@
         "img": "images/settings/chuffy_on.png",
         "name": "Randomize Chuffy - On",
         "codes": "randomizechuffy,randomizechuffy_on",
-        "inherit_codes": false
-      }
-    ]
-  },
-  {
-    "name": "Randomize Note Nests",
-    "type": "progressive",
-    "loop": true,
-    "allow_disabled": false,
-    "stages": [
-      {
-        "img": "images/settings/notes_off.png",
-        "name": "Randomize Note Nests - Off",
-        "codes": "randomizenotes,randomizenotes_off",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/settings/notes_on.png",
-        "name": "Randomize Note Nests - On",
-        "codes": "randomizenotes,randomizenotes_on",
         "inherit_codes": false
       }
     ]
@@ -2789,46 +2952,6 @@
         "img": "images/settings/speedupmini_off.png",
         "name": "Speed Up Minigames - Off",
         "codes": "speedupmini,speedupmini_off",
-        "inherit_codes": false
-      }
-    ]
-  },
-  {
-    "name": "Randomize Cheato Rewards",
-    "type": "progressive",
-    "loop": true,
-    "allow_disabled": false,
-    "stages": [
-      {
-        "img": "images/settings/cheator_on.png",
-        "name": "Randomize Cheato Rewards - On",
-        "codes": "cheatorewards,cheatorewards_on",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/settings/cheator_off.png",
-        "name": "Randomize Cheato Rewards - Off",
-        "codes": "cheatorewards,cheatorewards_off",
-        "inherit_codes": false
-      }
-    ]
-  },
-  {
-    "name": "Randomize Honey B Rewards",
-    "type": "progressive",
-    "loop": true,
-    "allow_disabled": false,
-    "stages": [
-      {
-        "img": "images/settings/honeybr_on.png",
-        "name": "Randomize Honey B Rewards - On",
-        "codes": "honeybrewards,honeybrewards_on",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/settings/honeybr_off.png",
-        "name": "Randomize Honey B Rewards - Off",
-        "codes": "honeybrewards,honeybrewards_off",
         "inherit_codes": false
       }
     ]
@@ -3074,6 +3197,27 @@
     ]
   },
   {
+    "name": "Boss Entrance & Entrance Randomizer Manual Logic Override",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/settings/ber_er_manualoverride_on.png",
+        "name": "Boss Entrance & Entrance Randomizer Manual Logic Override - On",
+        "codes": "ber_er_manualoverride,ber_er_manualoverride_on",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/ber_er_manualoverride_off.png",
+        "name": "Boss Entrance & Entrance Randomizer Manual Logic Override - Off",
+        "codes": "ber_er_manualoverride,ber_er_manualoverride_off",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
     "name": "Nestsanity",
     "type": "progressive",
     "loop": true,
@@ -3140,13 +3284,108 @@
     "allow_disabled": false,
     "stages": [
       {
+        "img": "images/settings/skipklungo_on.png",
         "name": "Skip Klungo - On",
         "codes": "skipklungo,skipklungo_on",
         "inherit_codes": false
       },
       {
+        "img": "images/settings/skipklungo_off.png",
         "name": "Skip Klungo - Off",
         "codes": "skipklungo,skipklungo_off",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Open GI",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/opengi_off.png",
+        "name": "Open GI - Off",
+        "codes": "opengi,opengi_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/opengi_on.png",
+        "name": "Open GI - On",
+        "codes": "opengi,opengi_on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Randomize Boss Entrances",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/randomizebossentrances_off.png",
+        "name": "Randomize Boss Entrances - Off",
+        "codes": "randomizebossentrances,randomizebossentrances_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/randomizebossentrances_on.png",
+        "name": "Randomize Boss Entrances - On",
+        "codes": "randomizebossentrances,randomizebossentrances_on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Randomize Boss Entrance Items",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/settings/bossentranceitems_off.png",
+        "name": "Randomize Boss Entrance Items - Off",
+        "codes": "bossentranceitems,bossentranceitems_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/green_relic.png",
+        "name": "Randomize Boss Entrance Items - Green Relics On, Big Top Tickets Off",
+        "codes": "bossentranceitems,bossentranceitems_greenrelics",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/big_top_ticket.png",
+        "name": "Randomize Boss Entrance Items - Green Relics Off, Big Top Tickets On",
+        "codes": "bossentranceitems,bossentranceitems_tickets",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/bossentranceitems_both.png",
+        "name": "Randomize Boss Entrance Items - On",
+        "codes": "bossentranceitems,bossentranceitems_both",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Randomize Beans",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/randomizebeans_off.png",
+        "name": "Randomize Beans - Off",
+        "codes": "randomizebeans,randomizebeans_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/bean.png",
+        "name": "Randomize Beans - On",
+        "codes": "randomizebeans,randomizebeans_on",
         "inherit_codes": false
       }
     ]
@@ -3774,6 +4013,632 @@
       }
     ]
   },
+
+  // RANDOMIZED BOSS ENTRANCE TRACKING
+  {
+    "name": "MT Boss",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/access/Unknown.png",
+        "name": "MT Boss - Unknown",
+        "codes": "mtb,mtb_uk",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Targitzan.png",
+        "name": "MT Boss - Targitzan",
+        "codes": "mtb,mtb_mt",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Old King Coal.png",
+        "name": "MT Boss - Old King Coal",
+        "codes": "mtb,mtb_gg",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Mr Patch.png",
+        "name": "MT Boss - Mr Patch",
+        "codes": "mtb,mtb_ww",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Lord Woo Fak Fak.png",
+        "name": "MT Boss - Lord Woo Fak Fak",
+        "codes": "mtb,mtb_jr",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Terry.png",
+        "name": "MT Boss - Terry",
+        "codes": "mtb,mtb_td",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Weldar.png",
+        "name": "MT Boss - Weldar",
+        "codes": "mtb,mtb_gi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Chilli Billi.png",
+        "name": "MT Boss - Chilli Billi",
+        "codes": "mtb,mtb_hl",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Chilly Willy.png",
+        "name": "MT Boss - Chilly Willy",
+        "codes": "mtb,mtb_hi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Mingy Jongo.png",
+        "name": "MT Boss - Mingy Jongo",
+        "codes": "mtb,mtb_cc",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "GGM Boss",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/access/Unknown.png",
+        "name": "GGM Boss - Unknown",
+        "codes": "ggb,ggb_uk",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Targitzan.png",
+        "name": "GGM Boss - Targitzan",
+        "codes": "ggb,ggb_mt",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Old King Coal.png",
+        "name": "GGM Boss - Old King Coal",
+        "codes": "ggb,ggb_gg",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Mr Patch.png",
+        "name": "GGM Boss - Mr Patch",
+        "codes": "ggb,ggb_ww",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Lord Woo Fak Fak.png",
+        "name": "GGM Boss - Lord Woo Fak Fak",
+        "codes": "ggb,ggb_jr",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Terry.png",
+        "name": "GGM Boss - Terry",
+        "codes": "ggb,ggb_td",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Weldar.png",
+        "name": "GGM Boss - Weldar",
+        "codes": "ggb,ggb_gi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Chilli Billi.png",
+        "name": "GGM Boss - Chilli Billi",
+        "codes": "ggb,ggb_hl",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Chilly Willy.png",
+        "name": "GGM Boss - Chilly Willy",
+        "codes": "ggb,ggb_hi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Mingy Jongo.png",
+        "name": "GGM Boss - Mingy Jongo",
+        "codes": "ggb,ggb_cc",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "WW Boss",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/access/Unknown.png",
+        "name": "WW Boss - Unknown",
+        "codes": "wwb,wwb_uk",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Targitzan.png",
+        "name": "WW Boss - Targitzan",
+        "codes": "wwb,wwb_mt",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Old King Coal.png",
+        "name": "WW Boss - Old King Coal",
+        "codes": "wwb,wwb_gg",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Mr Patch.png",
+        "name": "WW Boss - Mr Patch",
+        "codes": "wwb,wwb_ww",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Lord Woo Fak Fak.png",
+        "name": "WW Boss - Lord Woo Fak Fak",
+        "codes": "wwb,wwb_jr",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Terry.png",
+        "name": "WW Boss - Terry",
+        "codes": "wwb,wwb_td",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Weldar.png",
+        "name": "WW Boss - Weldar",
+        "codes": "wwb,wwb_gi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Chilli Billi.png",
+        "name": "WW Boss - Chilli Billi",
+        "codes": "wwb,wwb_hl",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Chilly Willy.png",
+        "name": "WW Boss - Chilly Willy",
+        "codes": "wwb,wwb_hi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Mingy Jongo.png",
+        "name": "WW Boss - Mingy Jongo",
+        "codes": "wwb,wwb_cc",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "JRL Boss",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/access/Unknown.png",
+        "name": "JRL Boss - Unknown",
+        "codes": "jrb,jrb_uk",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Targitzan.png",
+        "name": "JRL Boss - Targitzan",
+        "codes": "jrb,jrb_mt",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Old King Coal.png",
+        "name": "JRL Boss - Old King Coal",
+        "codes": "jrb,jrb_gg",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Mr Patch.png",
+        "name": "JRL Boss - Mr Patch",
+        "codes": "jrb,jrb_ww",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Lord Woo Fak Fak.png",
+        "name": "JRL Boss - Lord Woo Fak Fak",
+        "codes": "jrb,jrb_jr",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Terry.png",
+        "name": "JRL Boss - Terry",
+        "codes": "jrb,jrb_td",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Weldar.png",
+        "name": "JRL Boss - Weldar",
+        "codes": "jrb,jrb_gi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Chilli Billi.png",
+        "name": "JRL Boss - Chilli Billi",
+        "codes": "jrb,jrb_hl",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Chilly Willy.png",
+        "name": "JRL Boss - Chilly Willy",
+        "codes": "jrb,jrb_hi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Mingy Jongo.png",
+        "name": "JRL Boss - Mingy Jongo",
+        "codes": "jrb,jrb_cc",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "TDL Boss",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/access/Unknown.png",
+        "name": "TDL Boss - Unknown",
+        "codes": "tdb,tdb_uk",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Targitzan.png",
+        "name": "TDL Boss - Targitzan",
+        "codes": "tdb,tdb_mt",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Old King Coal.png",
+        "name": "TDL Boss - Old King Coal",
+        "codes": "tdb,tdb_gg",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Mr Patch.png",
+        "name": "TDL Boss - Mr Patch",
+        "codes": "tdb,tdb_ww",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Lord Woo Fak Fak.png",
+        "name": "TDL Boss - Lord Woo Fak Fak",
+        "codes": "tdb,tdb_jr",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Terry.png",
+        "name": "TDL Boss - Terry",
+        "codes": "tdb,tdb_td",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Weldar.png",
+        "name": "TDL Boss - Weldar",
+        "codes": "tdb,tdb_gi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Chilli Billi.png",
+        "name": "TDL Boss - Chilli Billi",
+        "codes": "tdb,tdb_hl",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Chilly Willy.png",
+        "name": "TDL Boss - Chilly Willy",
+        "codes": "tdb,tdb_hi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Mingy Jongo.png",
+        "name": "TDL Boss - Mingy Jongo",
+        "codes": "tdb,tdb_cc",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "GI Boss",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/access/Unknown.png",
+        "name": "GI Boss - Unknown",
+        "codes": "gib,gib_uk",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Targitzan.png",
+        "name": "GI Boss - Targitzan",
+        "codes": "gib,gib_mt",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Old King Coal.png",
+        "name": "GI Boss - Old King Coal",
+        "codes": "gib,gib_gg",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Mr Patch.png",
+        "name": "GI Boss - Mr Patch",
+        "codes": "gib,gib_ww",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Lord Woo Fak Fak.png",
+        "name": "GI Boss - Lord Woo Fak Fak",
+        "codes": "gib,gib_jr",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Terry.png",
+        "name": "GI Boss - Terry",
+        "codes": "gib,gib_td",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Weldar.png",
+        "name": "GI Boss - Weldar",
+        "codes": "gib,gib_gi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Chilli Billi.png",
+        "name": "GI Boss - Chilli Billi",
+        "codes": "gib,gib_hl",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Chilly Willy.png",
+        "name": "GI Boss - Chilly Willy",
+        "codes": "gib,gib_hi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Mingy Jongo.png",
+        "name": "GI Boss - Mingy Jongo",
+        "codes": "gib,gib_cc",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "HFP Lava Side Boss",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/access/Unknown.png",
+        "name": "HFP Lava Side Boss - Unknown",
+        "codes": "hlb,hlb_uk",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Targitzan.png",
+        "name": "HFP Lava Side Boss - Targitzan",
+        "codes": "hlb,hlb_mt",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Old King Coal.png",
+        "name": "HFP Lava Side Boss - Old King Coal",
+        "codes": "hlb,hlb_gg",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Mr Patch.png",
+        "name": "HFP Lava Side Boss - Mr Patch",
+        "codes": "hlb,hlb_ww",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Lord Woo Fak Fak.png",
+        "name": "HFP Lava Side Boss - Lord Woo Fak Fak",
+        "codes": "hlb,hlb_jr",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Terry.png",
+        "name": "HFP Lava Side Boss - Terry",
+        "codes": "hlb,hlb_td",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Weldar.png",
+        "name": "HFP Lava Side Boss - Weldar",
+        "codes": "hlb,hlb_gi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Chilli Billi.png",
+        "name": "HFP Lava Side Boss - Chilli Billi",
+        "codes": "hlb,hlb_hl",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Chilly Willy.png",
+        "name": "HFP Lava Side Boss - Chilly Willy",
+        "codes": "hlb,hlb_hi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Mingy Jongo.png",
+        "name": "HFP Lava Side Boss - Mingy Jongo",
+        "codes": "hlb,hlb_cc",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "HFP Icy Side Boss",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/access/Unknown.png",
+        "name": "HFP Icy Side Boss - Unknown",
+        "codes": "hib,hib_uk",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Targitzan.png",
+        "name": "HFP Icy Side Boss - Targitzan",
+        "codes": "hib,hib_mt",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Old King Coal.png",
+        "name": "HFP Icy Side Boss - Old King Coal",
+        "codes": "hib,hib_gg",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Mr Patch.png",
+        "name": "HFP Icy Side Boss - Mr Patch",
+        "codes": "hib,hib_ww",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Lord Woo Fak Fak.png",
+        "name": "HFP Icy Side Boss - Lord Woo Fak Fak",
+        "codes": "hib,hib_jr",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Terry.png",
+        "name": "HFP Icy Side Boss - Terry",
+        "codes": "hib,hib_td",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Weldar.png",
+        "name": "HFP Icy Side Boss - Weldar",
+        "codes": "hib,hib_gi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Chilli Billi.png",
+        "name": "HFP Icy Side Boss - Chilli Billi",
+        "codes": "hib,hib_hl",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Chilly Willy.png",
+        "name": "HFP Icy Side Boss - Chilly Willy",
+        "codes": "hib,hib_hi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Mingy Jongo.png",
+        "name": "HFP Icy Side Boss - Mingy Jongo",
+        "codes": "hib,hib_cc",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "CCL Boss",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/access/Unknown.png",
+        "name": "CCL Boss - Unknown",
+        "codes": "ccb,ccb_uk",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Targitzan.png",
+        "name": "CCL Boss - Targitzan",
+        "codes": "ccb,ccb_mt",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Old King Coal.png",
+        "name": "CCL Boss - Old King Coal",
+        "codes": "ccb,ccb_gg",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Mr Patch.png",
+        "name": "CCL Boss - Mr Patch",
+        "codes": "ccb,ccb_ww",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Lord Woo Fak Fak.png",
+        "name": "CCL Boss - Lord Woo Fak Fak",
+        "codes": "ccb,ccb_jr",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Terry.png",
+        "name": "CCL Boss - Terry",
+        "codes": "ccb,ccb_td",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Weldar.png",
+        "name": "CCL Boss - Weldar",
+        "codes": "ccb,ccb_gi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Chilli Billi.png",
+        "name": "CCL Boss - Chilli Billi",
+        "codes": "ccb,ccb_hl",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Chilly Willy.png",
+        "name": "CCL Boss - Chilly Willy",
+        "codes": "ccb,ccb_hi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Mingy Jongo.png",
+        "name": "CCL Boss - Mingy Jongo",
+        "codes": "ccb,ccb_cc",
+        "inherit_codes": false
+      }
+    ]
+  },
+  
+  
+  
   {
     "name": "Fire Eggs Silo",
     "type": "toggle",

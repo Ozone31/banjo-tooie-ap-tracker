@@ -19,40 +19,50 @@
                 "randomizemoves",
                 "randomizebkmoves",
                 "randomizejinjos",
-                "randomizecheato",
-                "randomizehoneycomb"
+                "cheatocontent",
+                "honeybcontent"
               ],
               [
-                "randomizetrebleclef",
+                "notecontent",
                 "randomizeglowbos",
                 "speedupmini",
-                "cheatorewards",
-                "honeybrewards"
+                "randomizedoubloons",
+                "randomizestopnswop"
               ],
               [
-                "randomizedoubloons",
                 "randomizestations",
                 "randomizechuffy",
-                "randomizenotes",
-                "randomizestopnswop"
+                "nestsanity",
+                "signposts",
+                "skipklungo"
               ],
               [
                 "randomizeworlds",
                 "entrancerando",
                 "backdoorsopen",
-                "nestsanity",
-                "signposts"
+                "opengi",
+                "randomizebossentrances"
               ],
               [
                 "randomizesilos",
                 "randomizewarppads",
+                "bossentranceitems",
+                "randomizebeans",
                 "goal"
               ],
               [
-                "automap",
                 "logictype",
                 "sequencebreaklogic",
-                "shownewtricks"
+                "shownewtricks",
+                "automap",
+                "ber_er_manualoverride"
+              ],
+              [
+                "",
+                "",
+                "",
+                "",
+                "" 
               ]
             ]
           }
