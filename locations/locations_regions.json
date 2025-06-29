@@ -585,8 +585,7 @@
   {
     "name": "Region: Hailfire Peaks - Icy Side",
     "access_rules": [
-      "@Region: Hailfire Peaks - Lava Side",
-      "@Region: Hailfire Peaks - Icy Side Boss"
+      "@Region: Hailfire Peaks - Lava Side"
     ]
   },
   {
@@ -631,28 +630,28 @@
     "name": "Region: Mayahem Temple - Boss",
     "access_rules": [
       "@Region: Mayahem Temple - Inside Targitzan's Temple, ^$connector_MTTT_to_MTBoss",
-      "$load_boss_tdl_mt, @Region: Boss Arena - Terry, ^$connector_Terry_to_MTBoss"
+      "$load_boss_mt_tdl, @Region: Boss Arena - Terry, ^$connector_Terry_to_MTBoss"
     ]
   },
   {
     "name": "Region: Glitter Gulch Mine - Boss",
     "access_rules": [
       "@Region: Inside Chuffy",
-      "$load_boss_tdl_ggm, @Region: Boss Arena - Terry, ^$connector_Terry_to_GGMBoss"
+      "$load_boss_ggm_tdl, @Region: Boss Arena - Terry, ^$connector_Terry_to_GGMBoss"
     ]
   },
   {
     "name": "Region: Witchyworld - Boss",
     "access_rules": [
       "@Region: Witchyworld - Main Area",
-      "$load_boss_tdl_ww, @Region: Boss Arena - Terry"
+      "$load_boss_ww_tdl, @Region: Boss Arena - Terry"
     ]
   },
   {
     "name": "Region: Jolly Roger's Lagoon - Boss",
     "access_rules": [
       "@Region: Jolly Roger's Lagoon - Locker Cavern, ^$connector_JRLLC_to_JRLBoss",
-      "$load_boss_tdl_jrl, @Region: Boss Arena - Terry"
+      "$load_boss_jrl_tdl, @Region: Boss Arena - Terry"
     ]
   },
   {
@@ -666,28 +665,28 @@
     "name": "Region: Grunty Industries - Boss",
     "access_rules": [
       "@Region: Grunty Industries 1st Floor, ^$connector_GIF1_to_GIBoss",
-      "$load_boss_tdl_gi, @Region: Boss Arena - Terry"
+      "$load_boss_gi_tdl, @Region: Boss Arena - Terry"
     ]
   },
   {
     "name": "Region: Hailfire Peaks - Lava Side Boss",
     "access_rules": [
       "@Region: Hailfire Peaks - Lava Side, ^$connector_HFPL_to_HFPLBoss",
-      "$load_boss_tdl_hfpl, @Region: Boss Arena - Terry"
+      "$load_boss_hfpl_tdl, @Region: Boss Arena - Terry"
     ]
   },
   {
     "name": "Region: Hailfire Peaks - Icy Side Boss",
     "access_rules": [
       "@Region: Hailfire Peaks - Icy Side, ^$connector_HFPI_to_HFPIBoss",
-      "$load_boss_tdl_hfpi, @Region: Boss Arena - Terry"
+      "$load_boss_hfpi_tdl, @Region: Boss Arena - Terry"
     ]
   },
   {
     "name": "Region: Cloud Cuckooland - Boss",
     "access_rules": [
       "@Region: Cloud Cuckooland",
-      "$load_boss_tdl_ccl, @Region: Boss Arena - Terry"
+      "$load_boss_ccl_tdl, @Region: Boss Arena - Terry"
     ]
   },
   

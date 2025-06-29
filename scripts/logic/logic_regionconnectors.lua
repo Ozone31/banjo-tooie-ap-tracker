@@ -1674,15 +1674,17 @@ function connector_GIOBack_to_GIF4(skip)
     elif self.world.options.logic_type == LogicType.option_easy_tricks:
         logic = self.claw_clamber_boots(state) and (self.flutter(state) or self.air_rat_a_tat_rap(state)) and self.small_elevation(state)
     elif self.world.options.logic_type == LogicType.option_hard_tricks:
-        logic = self.claw_clamber_boots(state) and (self.flutter(state) or self.air_rat_a_tat_rap(state)) and self.small_elevation(state)
+        logic = self.claw_clamber_boots(state) and (self.flutter(state) or self.air_rat_a_tat_rap(state) and self.small_elevation(state))
     elif self.world.options.logic_type == LogicType.option_glitches:
-        logic = self.claw_clamber_boots(state) and (self.flutter(state) or self.air_rat_a_tat_rap(state)) and self.small_elevation(state)
+        logic = self.claw_clamber_boots(state) and (self.flutter(state) or self.air_rat_a_tat_rap(state) and self.small_elevation(state))
     --]]
     
     if ( has("clawbts") and can_reachSmallElevation() and (has("flutter") or has("arat")) ) then
         logic = 1
+    elseif ( has("clawbts") and has("flutter") ) then
+        logic = 2
     elseif ( has("clawbts") and has("arat") ) then
-        logic = 7 -- FIXIT you don't need tall jump to get to floor 4 from the fire escape if you have arat
+        logic = 7 -- apparently you don't need it with arat either
     end
     
     return convertLogic(logic, skip)

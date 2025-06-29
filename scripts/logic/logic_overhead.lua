@@ -2192,5 +2192,6 @@ Mia's List of Known Bugs in the AP Logic:
 - [Grunty Industries - Connector between outside back and floor 4] You don't need tall jump to make the jumps if you have arat
 - [Grunty Industries - egg nests by floor 4 fire escape] You can collect them with just arat
 - [Hailfire Peaks - Treble] you can get it with clockworks instead of grenade eggs for the clawbts strategy
+- [Hailfire Peaks - Stomping Plains Jiggy] you don't need tall jump if you have pack whack
 
 --]]

@@ -72,19 +72,15 @@ end
 function access_GGM_canBreakBoulders(skip)
     local logic = 99
     --[[        GM_boulders
-    return (self.bill_drill(state) and self.small_elevation(state)) or self.humbaGGM(state)
-    --]]
-    
-    -- FIXIT absolutely none of the boulders need small elevation
+     return self.bill_drill(state) or self.humbaGGM(state)
+     --]]
     -- FIXIT also every single if statement in glitter gulch mine that checks for small elevation should check for alternatives (eg. smuggling springy step shoes)
     
     local humba = access_GGM_humba(true)
     
     -- Normal Logic
-    if ( has_billDrill() and can_reachSmallElevation() or humba <= logictype.CurrentStage ) then
+    if ( has_billDrill() or humba <= logictype.CurrentStage ) then
         logic = 0
-    elseif ( has_billDrill() ) then
-        logic = 7
     
     -- Sequence Breaking
     else

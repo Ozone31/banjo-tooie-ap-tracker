@@ -589,10 +589,10 @@ function jiggy_WW_topOfInferno(skip)
         logic = self.split_up(state) and (self.tall_jump(state) or self.leg_spring(state))\
                 or self.flap_flip(state) and (self.talon_trot(state) or self.turbo_trainers(state))
     elif self.world.options.logic_type == LogicType.option_hard_tricks:
-        logic = self.split_up(state) and (self.tall_jump(state) or self.leg_spring(state))\
+        logic = self.split_up(state)\
                 or self.flap_flip(state) and (self.talon_trot(state) or self.turbo_trainers(state))
     elif self.world.options.logic_type == LogicType.option_glitches:
-        logic = self.split_up(state) and (self.tall_jump(state) or self.leg_spring(state))\
+        logic = self.split_up(state)\
                 or self.flap_flip(state) and (self.talon_trot(state) or self.turbo_trainers(state))
      --]]
     
@@ -601,7 +601,7 @@ function jiggy_WW_topOfInferno(skip)
     elseif ( has_legSpring() or has("fflip") and (has("ttrot") or has("ttrain")) ) then
         logic = 1
     elseif ( has("splitup") ) then
-        logic = 7
+        logic = 2
     end
     
     return convertLogic(logic, skip)
@@ -813,14 +813,14 @@ function nests_WW_pumpRoom(skip)
                 or self.leg_spring(state)\
                 or self.split_up(state) and self.grip_grab(state)\
                 or self.pack_whack(state) and self.tall_jump(state)\
-                or self.clockwork_shot(state) and self.small_elevation(state)
+                or self.clockwork_shot(state) and (self.small_elevation(state) or self.grip_grab(state) or self.beak_buster(state))
                 ) and self.has_explosives(state)
     elif self.world.options.logic_type == LogicType.option_glitches:
         logic = (self.flap_flip(state)\
                 or self.leg_spring(state)\
                 or self.split_up(state) and self.grip_grab(state)\
                 or self.pack_whack(state) and self.tall_jump(state)\
-                or self.clockwork_shot(state) and self.small_elevation(state)
+                or self.clockwork_shot(state) and (self.small_elevation(state) or self.grip_grab(state) or self.beak_buster(state))
                 ) and self.has_explosives(state)
     --]]
     
@@ -831,14 +831,12 @@ function nests_WW_pumpRoom(skip)
         logic = 0
     elseif ( explosives <= logictype.CurrentStage and has_packWhack() and has("tjump") ) then
         logic = 1
-    elseif ( explosives <= logictype.CurrentStage and can_clockworkShot() and can_reachSmallElevation() ) then
+    elseif ( can_clockworkShot() and (can_reachSmallElevation() or has("bbust") or has("ggrab")) ) then
         logic = 2
     
     -- Sequence Breaking
-    elseif ( has("fflip") or has_legSpring() or has("splitup") and has("ggrab") or has_packWhack() and has("tjump") or can_clockworkShot() and can_reachSmallElevation() ) then
-        logic = math.max(2, explosives)
-    elseif ( can_clockworkShot() and (has("bbust") or has("ggrab")) ) then
-        logic = 7 -- FIXIT you can reach the pump room without tall jump if you hug the barrel
+    elseif ( has("fflip") or has_legSpring() or has("splitup") and has("ggrab") or has_packWhack() and has("tjump") ) then
+        logic = math.max(1, explosives)
     end
     
     return convertLogic(logic, skip)
@@ -1206,9 +1204,9 @@ function honeycomb_WW_pumpRoomEntrance(skip)
     elif self.world.options.logic_type == LogicType.option_easy_tricks:
         logic = self.has_explosives(state) and (self.small_elevation(state) or self.split_up(state))
     elif self.world.options.logic_type == LogicType.option_hard_tricks:
-        logic = (self.has_explosives(state) and (self.small_elevation(state) or self.split_up(state))) or self.clockwork_shot(state)
+        logic = (self.has_explosives(state) and (self.small_elevation(state) or self.split_up(state) or self.grip_grab(state) or self.beak_buster(state))) or self.clockwork_shot(state)
     elif self.world.options.logic_type == LogicType.option_glitches:
-        logic = (self.has_explosives(state) and (self.small_elevation(state) or self.split_up(state)))\
+        logic = (self.has_explosives(state) and (self.small_elevation(state) or self.split_up(state) or self.grip_grab(state) or self.beak_buster(state)))\
                 or self.clockwork_shot(state)\
                 or self.pack_whack(state)
     --]]
@@ -1219,7 +1217,7 @@ function honeycomb_WW_pumpRoomEntrance(skip)
         logic = 0 -- Normal Logic
     elseif ( explosives < 2 and (can_reachSmallElevation() or has("splitup")) ) then
         logic = explosives -- Sequence Breaking
-    elseif ( can_clockworkShot() ) then
+    elseif ( can_clockworkShot() or explosives <= logictype.CurrentStage and (has("ggrab") or has("bbust")) ) then
         logic = 2 -- Normal Logic
     elseif ( has_packWhack() ) then
         logic = 3
@@ -1227,8 +1225,6 @@ function honeycomb_WW_pumpRoomEntrance(skip)
     -- Sequence Breaking
     elseif ( can_reachSmallElevation() or has("splitup") ) then
         logic = explosives
-    elseif ( explosives <= 7 and (has("bbust") or has("ggrab")) ) then
-        logic = 7 -- FIXIT you don't need small elevation; you can jump up the barrel and then into the room without tall jump
     end
     
     return convertLogic(logic, skip)
