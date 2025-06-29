@@ -1,6 +1,15 @@
 {
 	"versions": [
 		{
+			"package_version": "0.10.1",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.10.1",
+			"sha256": "e00eacbe8f7792c007368c940db08c20d3c5a3f4204c7f7d57c471466749719f",
+			"changelog": [
+				"Updated logic for v4.6.1 of Banjo-Tooie AP.",
+				"Backtracking from Terry's nest is now properly accounted for instead of spitting you out into an incorrect world."
+			]
+		},
+		{
 			"package_version": "0.10.0",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.10.0",
 			"sha256": "eee74debc1ed0107679d57095d3672322b94164b50f5a1faf2ff6c8ef28b57b5",
