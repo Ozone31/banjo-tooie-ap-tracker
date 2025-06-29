@@ -307,12 +307,12 @@ function warp_HFP_icicleGrotto(skip)
                 or self.warp_to_icicle_grotto(state)
     elif self.world.options.logic_type == LogicType.option_hard_tricks:
         logic = self.split_up(state) and (self.tall_jump(state) or self.wing_whack(state) or self.glide(state) or self.leg_spring(state))\
-                or self.hfp_top(state) and self.spring_pad(state) and self.talon_trot(state)\
+                or self.hfp_top(state) and (self.talon_trot(state) or self.claw_clamber_boots(state))\
                 or (self.extremelyLongJump(state) and self.clockwork_shot(state))\
                 or self.warp_to_icicle_grotto(state)
     elif self.world.options.logic_type == LogicType.option_glitches:
         logic = self.split_up(state) and (self.tall_jump(state) or self.wing_whack(state) or self.glide(state) or self.leg_spring(state))\
-                or self.hfp_top(state) and self.spring_pad(state) and self.talon_trot(state)\
+                or self.hfp_top(state) and (self.talon_trot(state) or self.claw_clamber_boots(state))\
                 or (self.extremelyLongJump(state) and self.clockwork_shot(state))\
                 or self.warp_to_icicle_grotto(state)
     --]]
@@ -328,14 +328,14 @@ function warp_HFP_icicleGrotto(skip)
         logic = 1
     elseif ( top < 2 and has("tjump") and (has("ttrot") or has("splitup")) or warpToGrotto < 2 ) then
         logic = 1 -- Sequence Breaking
-    elseif ( extremelyLongJump <= logictype.CurrentStage and can_clockworkShot() ) then
+    elseif ( extremelyLongJump <= logictype.CurrentStage and can_clockworkShot() or top <= logictype.CurrentStage and (has("ttrot") or has("clawbts")) ) then
         logic = 2
     
     -- Sequence Breaking
     else
         local fromTop = 99
-        if ( has("tjump") and has("ttrot") or has("tjump") and has("splitup") or has("warphp5") and (has("warphp2") or has("warphp3") or has("warphp4")) ) then
-            fromTop = top
+        if ( has("ttrot") or has("clawbts") ) then
+            fromTop = math.max(2, top)
         end
         
         local clockwork = 99
@@ -343,12 +343,7 @@ function warp_HFP_icicleGrotto(skip)
             clockwork = math.max(2, extremelyLongJump)
         end
         
-        local newTrick = 99
-        if ( top <= 7 and has("ttrot") ) then
-            newTrick = 7 -- jump up using icicles
-        end
-        
-        logic = math.min(fromTop, clockwork, newTrick)
+        logic = math.min(fromTop, clockwork)
     end
     
     return convertLogic(logic, skip)
@@ -428,12 +423,12 @@ function jiggy_HFP_dragonBrothers(skip)
     
     local hfpiAccessibility = Tracker:FindObjectForCode("@Region: Hailfire Peaks - Icy Side").AccessibilityLevel
     
-    if ( has("feggs") and has("ieggs") and has("clawbts") and has("fpad") and has("eggshoot") and has("climb") and (has("tjump") or has("ttrot")) and (hfpiAccessibility == AccessibilityLevel.Normal or hfpiAccessibility == AccessibilityLevel.Cleared) ) then
+    if ( has("feggs") and has("ieggs") and has("eggshoot") and has("climb") and (has("tjump") or has("ttrot")) and (hfpiAccessibility == AccessibilityLevel.Normal or hfpiAccessibility == AccessibilityLevel.Cleared) ) then
         logic = 0
-    elseif ( has("feggs") and has("ieggs") and has("clawbts") and has("fpad") and has("eggshoot") and (has("fflip") or has("ggrab")) and (has("tjump") or has("ttrot")) and (hfpiAccessibility == AccessibilityLevel.Normal or hfpiAccessibility == AccessibilityLevel.Cleared) ) then
+    elseif ( has("feggs") and has("ieggs") and has("eggshoot") and (has("fflip") or has("ggrab")) and (has("tjump") or has("ttrot")) and (hfpiAccessibility == AccessibilityLevel.Normal or hfpiAccessibility == AccessibilityLevel.Cleared) ) then
         logic = 1
     elseif ( has("randomizebossentrances_off") and has("feggs") and has("ieggs") and has("fpad") and has("eggshoot") and has_packWhack() and (has("tjump") or has("ttrot")) and (has("climb") or has("fflip") or has("ggrab")) and (has("clawbts") or (has("tjump") and has("roll") or has("ttrot")) and (has("flutter") or has("arat")) and has("ggrab")) ) then
-        logic = 2  -- I don't think this if statement will ever be hit
+        logic = 2
     end
     
     return convertLogic(logic, skip)
@@ -632,6 +627,8 @@ function jiggy_HFP_fromStompingPlains(skip)
         logic = 2
     elseif ( (hfpAccessibility == AccessibilityLevel.Normal or hfpAccessibility == AccessibilityLevel.Cleared) and can_clockworkShot() and (has("ttrot") or has("splitup") or has("fflip")) ) then
         logic = 3
+    elseif ( has("splitup") and has_packWhack() ) then
+        logic = 7 -- pack whack replaces tall jump
     
     -- Sequence Breaking
     elseif ( hfpAccessibility > AccessibilityLevel.None and can_clockworkShot() and (has("ttrot") or has("splitup") or has("fflip")) ) then
@@ -1285,7 +1282,7 @@ function nests_HFP_icicleGrottoSpringPad(skip)
                 )
     elif self.world.options.logic_type == LogicType.option_hard_tricks:
         logic = (self.split_up(state) and self.ice_cube_kazooie(state) and (self.tall_jump(state) or self.wing_whack(state) or self.glide(state) or self.leg_spring(state)))\
-                or (self.hfp_top(state) and (self.spring_pad(state) and self.ice_cube_BK(state) or self.clockwork_shot(state)) and self.talon_trot(state))\
+                or (self.hfp_top(state) and (self.ice_cube_BK(state) or self.clockwork_shot(state)) and (self.talon_trot(state) or self.claw_clamber_boots(state)))\            -- redundant to check for clockwork shot here because ice_cube_BK accounts for it already
                 or (self.extremelyLongJump(state) and self.clockwork_shot(state))\
                 or self.warp_to_icicle_grotto(state) and (
                     self.ice_cube_BK(state)\
@@ -1293,7 +1290,7 @@ function nests_HFP_icicleGrottoSpringPad(skip)
                 )
     elif self.world.options.logic_type == LogicType.option_glitches:
         logic = (self.split_up(state) and self.ice_cube_kazooie(state) and (self.tall_jump(state) or self.wing_whack(state) or self.glide(state) or self.leg_spring(state)))\
-                or (self.hfp_top(state) and (self.spring_pad(state) and self.ice_cube_BK(state) or self.clockwork_shot(state)) and self.talon_trot(state))\
+                or (self.hfp_top(state) and (self.ice_cube_BK(state) or self.clockwork_shot(state)) and (self.talon_trot(state) or self.claw_clamber_boots(state)))\
                 or (self.extremelyLongJump(state) and self.clockwork_shot(state))\
                 or self.warp_to_icicle_grotto(state) and (
                     self.ice_cube_BK(state)\
@@ -1314,7 +1311,7 @@ function nests_HFP_icicleGrottoSpringPad(skip)
         logic = 1
     elseif ( top < 2 and has("tjump") and (has("ttrot") and pairCube < 2 or kazooieCube < 2) or warpToGrotto < 2 and (pairCube < 2 or kazooieCube < 2) ) then
         logic = 1 -- Sequence Breaking
-    elseif ( can_clockworkShot() and (top <= logictype.CurrentStage and has("ttrot") or extremelyLongJump <= logictype.CurrentStage) ) then
+    elseif ( top <= logictype.CurrentStage and pairCube <= logictype.CurrentStage and (has("ttrot") or has("clawbts")) or can_clockworkShot() and extremelyLongJump <= logictype.CurrentStage ) then
         logic = 2
     
     -- Sequence Breaking
@@ -1330,13 +1327,8 @@ function nests_HFP_icicleGrottoSpringPad(skip)
         end
         
         local pair = 99
-        if ( has("tjump") and has("ttrot") ) then
-            pair = math.max(top, pairCube)
-        end
-        
-        local clockworkTop = 99
-        if ( can_clockworkShot() and has("ttrot") ) then
-            clockworkTop = math.max(2, top)
+        if ( has("ttrot") or has("clawbts") ) then
+            pair = math.max(2, top, pairCube)
         end
         
         local clockworkJump = 99
@@ -1344,12 +1336,7 @@ function nests_HFP_icicleGrottoSpringPad(skip)
             clockworkJump = math.max(2, extremelyLongJump)
         end
         
-        local newTrick = 99
-        if ( top <= 7 and pairCube <= 7 and has("ttrot") ) then
-            newTrick = 7 -- jump up using icicles
-        end
-        
-        logic = math.max(2, math.min(topKazooie, soloKazooie, pair, clockworkTop, clockworkJump, math.max(warpToGrotto, pairCube), math.max(warpToGrotto, kazooieCube), newTrick))
+        logic = math.max(2, math.min(topKazooie, soloKazooie, pair, clockworkJump, math.max(warpToGrotto, pairCube), math.max(warpToGrotto, kazooieCube)))
     end
     
     return convertLogic(logic, skip)
@@ -1888,8 +1875,7 @@ function trainSwitch_HFP_lava(skip)
                     and (self.flutter(state) or self.air_rat_a_tat_rap(state))\
                 or self.flight_pad(state)\
                 or self.leg_spring(state)\
-                or self.split_up(state) and self.tall_jump(state)\
-             or self.talon_trot(state) and self.flutter(state)
+                or self.split_up(state) and self.tall_jump(state)
     elif self.world.options.logic_type == LogicType.option_hard_tricks:
         logic = self.grip_grab(state)\
                     and (self.tall_jump(state) or self.talon_trot(state))\
@@ -1910,8 +1896,10 @@ function trainSwitch_HFP_lava(skip)
     
     if ( has("ggrab") and (has("tjump") or has("ttrot")) and (has("flutter") or has("arat")) ) then
         logic = 0
-    elseif ( has("fpad") or has_legSpring() or has("splitup") and has("tjump") or has("ttrot") and has("flutter") ) then
+    elseif ( has("fpad") or has_legSpring() or has("splitup") and has("tjump") ) then
         logic = 1
+    elseif ( has("ttrot") and has("flutter") ) then
+        logic = 2
     end
     
     return convertLogic(logic, skip)

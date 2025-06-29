@@ -523,40 +523,47 @@ end
 function jiggy_JRL_lordWooFakFak(skip)
     local logic = 99
     --[[        jiggy_lord_woo
-    if self.world.options.logic_type == LogicType.option_intended:
-        logic = self.sub_aqua_egg_aiming(state) and self.grenade_eggs(state)\
-                    and (self.humbaJRL(state) or self.check_mumbo_magic(state, itemName.MUMBOJR))
+     if self.world.options.logic_type == LogicType.option_intended:
+        logic = state.can_reach_region(regionName.JR, self.player) and (
+                    self.sub_aqua_egg_aiming(state) and self.grenade_eggs(state)\
+                    and (self.humbaJRL(state) or state.has(itemName.MUMBOJR, self.player))
+                )
     elif self.world.options.logic_type == LogicType.option_easy_tricks:
-        logic = self.sub_aqua_egg_aiming(state) and self.grenade_eggs(state)\
-                    and (self.humbaJRL(state) or self.check_mumbo_magic(state, itemName.MUMBOJR))
+        logic = state.can_reach_region(regionName.JR, self.player) and (
+                    self.sub_aqua_egg_aiming(state) and self.grenade_eggs(state)\
+                    and (self.humbaJRL(state) or state.has(itemName.MUMBOJR, self.player))
+                )
     elif self.world.options.logic_type == LogicType.option_hard_tricks:
         logic = self.grenade_eggs(state) and self.sub_aqua_egg_aiming(state) and (
                     self.talon_torpedo(state) and self.doubleAir(state)\
-                    or self.check_mumbo_magic(state, itemName.MUMBOJR)\
-                    or self.humbaJRL(state)
+                    or state.can_reach_region(regionName.JR, self.player)\
+                    and (self.humbaJRL(state) or state.has(itemName.MUMBOJR, self.player))
                 )
     elif self.world.options.logic_type == LogicType.option_glitches:
         logic = self.grenade_eggs(state) and self.sub_aqua_egg_aiming(state) and (
                     self.talon_torpedo(state) and self.doubleAir(state)\
-                    or self.check_mumbo_magic(state, itemName.MUMBOJR)\
-                    or self.humbaJRL(state)
+                    or state.can_reach_region(regionName.JR, self.player)\
+                    and (self.humbaJRL(state) or state.has(itemName.MUMBOJR, self.player))
                 )
-    --]]
+     --]]
     
     -- Normal Logic
     if ( has("auqaim") and has("geggs") ) then
+		local jrlAccessibility = Tracker:FindObjectForCode("@Region: Jolly Roger's Lagoon - Main Area").AccessibilityLevel
         local humba = access_JRL_humba(true)
     
-        if ( humba <= logictype.CurrentStage or has("mumbojr") ) then
+        if ( (jrlAccessibility == AccessibilityLevel.Normal or jrlAccessibility == AccessibilityLevel.Cleared) and (humba <= logictype.CurrentStage or has("mumbojr")) ) then
             logic = 0
-        elseif ( humba < 2 ) then
+        elseif ( (jrlAccessibility == AccessibilityLevel.Normal or jrlAccessibility == AccessibilityLevel.Cleared or jrlAccessibility > AccessibilityLevel.None and logictype.CurrentStage == 0) and humba < 2 ) then
             logic = 1 -- Sequence Breaking
         elseif ( has("ttorp") and has("dair") ) then
             logic = 2
         
         -- Sequence Breaking
-        else
+        elseif ( jrlAccessibility == AccessibilityLevel.Normal or jrlAccessibility == AccessibilityLevel.Cleared ) then
             logic = humba
+        elseif ( jrlAccessibility > AccessibilityLevel.None ) then
+            logic = math.max(humba, logictype.CurrentStage + 1)
         end
     end
     

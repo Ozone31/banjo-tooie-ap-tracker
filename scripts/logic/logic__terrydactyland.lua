@@ -715,7 +715,7 @@ function jiggy_TDL_chompa(skip)
         )
     elif self.world.options.logic_type == LogicType.option_easy_tricks:
         logic = self.breegull_blaster(state) and (
-            ((self.tall_jump(state) or self.grip_grab(state)) and self.flight_pad(state)
+            ((self.tall_jump(state) or self.grip_grab(state) or self.beak_buster(state)) and self.flight_pad(state)
              or (self.egg_aim(state) and self.has_explosives(state) and self.springy_step_shoes(state))
              or (self.springy_step_shoes(state) and self.veryLongJump(state)))
         )
@@ -739,7 +739,7 @@ function jiggy_TDL_chompa(skip)
         -- Normal Logic
         if ( (has("tjump") or has("ggrab")) and has("fpad") or has("springb") and has("eggaim") and explosives <= logictype.CurrentStage ) then
             logic = 0
-        elseif ( has("springb") and can_veryLongJump() ) then
+        elseif ( has("springb") and can_veryLongJump() or has("bbust") and has("fpad") ) then
             logic = 1
         elseif ( has("springb") and has("eggaim") and explosives < 2 ) then
             logic = 1 -- Sequence Breaking
@@ -1216,29 +1216,30 @@ end
 function nests_TDL_trainStation(skip)
     local logic = 99
     --[[        enter_tdl_train_station
-    if self.world.options.logic_type == LogicType.option_intended:
+     if self.world.options.logic_type == LogicType.option_intended:
         logic = self.small_elevation(state)\
-                or state.can_reach_region(regionName.CHUFFY, self.player) and state.has(itemName.CHUFFY, self.player) and state.has(itemName.TRAINSWTD, self.player)
+                or state.can_reach_region(regionName.CHUFFY, self.player) and state.has(itemName.TRAINSWTD, self.player) and self.can_beat_king_coal(state)
     elif self.world.options.logic_type == LogicType.option_easy_tricks:
         logic = self.small_elevation(state)\
                 or self.turbo_trainers(state)\
                 or self.springy_step_shoes(state)\
                 or self.beak_buster(state)\
-                or state.can_reach_region(regionName.CHUFFY, self.player) and state.has(itemName.CHUFFY, self.player) and state.has(itemName.TRAINSWTD, self.player)
+                or state.can_reach_region(regionName.CHUFFY, self.player) and state.has(itemName.TRAINSWTD, self.player) and self.can_beat_king_coal(state)
     elif self.world.options.logic_type == LogicType.option_hard_tricks:
         logic = True
     elif self.world.options.logic_type == LogicType.option_glitches:
         logic = True
-    --]]
+     --]]
     
     local chuffyAccessibility = Tracker:FindObjectForCode("@Region: Inside Chuffy").AccessibilityLevel
+    local canBeatKingCoal = chuffy_canBeatKingCoal(true)
     
     -- Normal Logic
-    if ( can_reachSmallElevation() or has("trainswtd") and (chuffyAccessibility == AccessibilityLevel.Normal or chuffyAccessibility == AccessibilityLevel.Cleared) ) then
+    if ( can_reachSmallElevation() or has("trainswtd") and (chuffyAccessibility == AccessibilityLevel.Normal or chuffyAccessibility == AccessibilityLevel.Cleared) and canBeatKingCoal <= logictype.CurrentStage ) then
         logic = 0
     elseif ( has("ttrain") or has("springb") or has("bbust") ) then
         logic = 1
-    elseif ( logictype.CurrentStage == 0 and chuffyAccessibility > AccessibilityLevel.None ) then
+    elseif ( has("trainswtd") and logictype.CurrentStage == 0 and chuffyAccessibility > AccessibilityLevel.None and canBeatKingCoal < 2 ) then
         logic = 1 -- Sequence Breaking
     else
         logic = 2

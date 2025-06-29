@@ -82,22 +82,17 @@ function access_GI_floor2SplitUp(skip)
         logic = 0 -- Normal Logic
     elseif ( has("splitup") and explosives < 2 ) then
         logic = 1 -- Sequence Breaking
-    elseif ( has("clawbts") and extremelyLongJump <= logictype.CurrentStage ) then
+    elseif ( has("splitup") and has("clawbts") and extremelyLongJump <= logictype.CurrentStage ) then
         logic = 2 -- Normal Logic
     
     -- Sequence Breaking
-    elseif ( has("splitup") or has("clawbts") ) then
-        local splitup = 99
-        if ( has("splitup") ) then
-            splitup = explosives
-        end
-        
+    elseif ( has("splitup") ) then
         local clawbts = 99
         if ( has("splitup") ) then
             clawbts = extremelyLongJump
         end
         
-        logic = math.min(splitup, clawbts)
+        logic = math.min(explosives, clawbts)
     end
     
     return convertLogic(logic, skip)
@@ -731,7 +726,7 @@ function jiggy_GI_guarded(skip)
                 and (self.spring_pad(state) or self.wing_whack(state) or self.glide(state))\
                 and (self.tall_jump(state) or self.leg_spring(state))
     elif self.world.options.logic_type == LogicType.option_easy_tricks:
-        logic = self.split_up(state) and\
+        logic = self.split_up(state) and (self.tall_jump(state) or self.leg_spring(state)) and\
                 ((self.claw_clamber_boots(state) or state.can_reach_region(regionName.GI2, self.player)) and self.spring_pad(state)\
                     or self.claw_clamber_boots(state) and (self.wing_whack(state) or self.glide(state)) and (self.egg_aim(state) or self.wing_whack(state))\
                     or self.leg_spring(state) and self.glide(state) and (self.egg_aim(state) or self.wing_whack(state)))\
@@ -1347,7 +1342,7 @@ end
 function nests_GI_floor1TopPipe(skip)
     local logic = 99
     --[[        nest_gi_floor1_top_pipe
-    if self.world.options.logic_type == LogicType.option_intended:
+     if self.world.options.logic_type == LogicType.option_intended:
         logic = self.split_up(state) and self.claw_clamber_boots(state) and (self.spring_pad(state) or self.wing_whack(state) or (self.egg_aim(state) and self.glide(state)))
     elif self.world.options.logic_type == LogicType.option_easy_tricks:
         logic = self.split_up(state) and\
@@ -1355,16 +1350,13 @@ function nests_GI_floor1TopPipe(skip)
                     or self.claw_clamber_boots(state) and (self.wing_whack(state) or self.glide(state)) and (self.egg_aim(state) or self.wing_whack(state)))
     elif self.world.options.logic_type == LogicType.option_hard_tricks:
         logic = self.split_up(state) and\
-                ((self.claw_clamber_boots(state) or state.can_reach_region(regionName.GI2, self.player)) and self.spring_pad(state)\
-                    or self.claw_clamber_boots(state) and (self.wing_whack(state) or self.glide(state)) and (self.egg_aim(state) or self.wing_whack(state)))
+                (self.claw_clamber_boots(state) or state.can_reach_region(regionName.GI2, self.player) and self.floor_2_split_up(state))
     elif self.world.options.logic_type == LogicType.option_glitches:
         logic = self.split_up(state) and\
-                ((self.claw_clamber_boots(state) or state.can_reach_region(regionName.GI2, self.player)) and self.spring_pad(state)\
-                    or self.claw_clamber_boots(state) and (self.wing_whack(state) or self.glide(state)) and (self.egg_aim(state) or self.wing_whack(state)))
-    --]]
+                (self.claw_clamber_boots(state) or state.can_reach_region(regionName.GI2, self.player) and self.floor_2_split_up(state))
+     --]]
     
     local gi2Accessibility = Tracker:FindObjectForCode("@Region: Grunty Industries 2nd Floor").AccessibilityLevel
-    local outsideToBack = connector_GIO_to_GIOBack(true)
     local floor2SplitUp = access_GI_floor2SplitUp(true)
     
     -- Normal Logic
@@ -1372,10 +1364,14 @@ function nests_GI_floor1TopPipe(skip)
         logic = 0
     elseif ( has("splitup") and has("tjump") and (gi2Accessibility == AccessibilityLevel.Normal or gi2Accessibility == AccessibilityLevel.Cleared) ) then
         logic = 1
+    elseif ( has("splitup") and (has("clawbts") or (gi2Accessibility == AccessibilityLevel.Normal or gi2Accessibility == AccessibilityLevel.Cleared) and floor2SplitUp <= logictype.CurrentStage) ) then
+        logic = 2
     
     -- Sequence Breaking
-    elseif ( has("splitup") and has("tjump") and gi2Accessibility > AccessibilityLevel.None ) then
-        logic = logictype.CurrentStage + 1
+    elseif ( has("splitup") and (gi2Accessibility == AccessibilityLevel.Normal or gi2Accessibility == AccessibilityLevel.Cleared) ) then
+        logic = math.max(2, floor2SplitUp)
+    elseif ( has("splitup") and gi2Accessibility > AccessibilityLevel.None ) then
+        logic = math.max(2, floor2SplitUp, logictype.CurrentStage + 1)
     end
     
     return convertLogic(logic, skip)
@@ -1391,11 +1387,11 @@ function nests_GI_floor1HighPipe(skip)
                 or state.can_reach_region(regionName.GI2, self.player) and (self.floor_2_split_up(state) and self.leg_spring(state) or self.F2_to_F1(state) and self.spring_pad(state))\
                 or self.claw_clamber_boots(state) and (self.wing_whack(state) or self.glide(state)) and (self.egg_aim(state) or self.wing_whack(state))
     elif self.world.options.logic_type == LogicType.option_hard_tricks:
-        logic = self.claw_clamber_boots(state) and (self.leg_spring(state) or self.spring_pad(state) or self.clockwork_shot(state))\
+        logic = self.claw_clamber_boots(state)\
                 or state.can_reach_region(regionName.GI2, self.player) and (self.floor_2_split_up(state) and self.leg_spring(state) or self.F2_to_F1(state) and (self.spring_pad(state) or self.clockwork_shot(state)))\
                 or self.claw_clamber_boots(state) and (self.wing_whack(state) or self.glide(state)) and (self.egg_aim(state) or self.wing_whack(state))
     elif self.world.options.logic_type == LogicType.option_glitches:
-        logic = self.claw_clamber_boots(state) and (self.leg_spring(state) or self.spring_pad(state) or self.clockwork_shot(state))\
+        logic = self.claw_clamber_boots(state)\
                 or state.can_reach_region(regionName.GI2, self.player) and (self.floor_2_split_up(state) and self.leg_spring(state) or self.F2_to_F1(state) and (self.spring_pad(state) or self.clockwork_shot(state)))\
                 or self.claw_clamber_boots(state) and (self.wing_whack(state) or self.glide(state)) and (self.egg_aim(state) or self.wing_whack(state))
     --]]
@@ -1409,6 +1405,8 @@ function nests_GI_floor1HighPipe(skip)
         logic = 0
     elseif ( (gi2Accessibility == AccessibilityLevel.Normal or gi2Accessibility == AccessibilityLevel.Cleared) and (floor2SplitUp <= logictype.CurrentStage and has_legSpring() or f2tof1 <= logictype.CurrentStage and has("tjump")) or has("clawbts") and (has_wingWhack() or has_glide() and has("eggaim")) ) then
         logic = 1
+	elseif ( has("clawbts") ) then
+        logic = 2
     
     -- Sequence Breaking
     elseif ( gi2Accessibility == AccessibilityLevel.Normal or gi2Accessibility == AccessibilityLevel.Cleared ) then
