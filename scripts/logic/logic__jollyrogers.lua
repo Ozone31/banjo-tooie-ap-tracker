@@ -702,6 +702,8 @@ function notes_JRL_jollys(skip)
         logic = 1
     elseif ( can_clockworkShot() ) then
         logic = 2
+	elseif ( has("bbust") ) then
+		logic = 7 -- FIXIT tricky but doable
     end
     
     return convertLogic(logic, skip)
@@ -732,7 +734,7 @@ function notes_JRL_pawnos(skip)
         logic = 1
     elseif ( can_clockworkShot() ) then
         logic = 2
-    elseif ( has("wwing") ) then
+    elseif ( has("wwing") or has("bbust") ) then
         logic = 7
         
     -- Sequence Breaking

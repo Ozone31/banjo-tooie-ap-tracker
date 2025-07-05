@@ -16,25 +16,25 @@
             "h_alignment": "left",
             "rows": [
               [
-                "randomizemoves",
-                "randomizebkmoves",
-                "randomizejinjos",
                 "cheatocontent",
-                "honeybcontent"
-              ],
-              [
+                "honeybcontent",
                 "notecontent",
-                "randomizeglowbos",
-                "speedupmini",
-                "randomizedoubloons",
-                "randomizestopnswop"
+                "randomizesilos",
+                "randomizewarppads"
               ],
               [
+                "randomizejinjos",
+                "randomizeglowbos",
+                "randomizedoubloons",
                 "randomizestations",
-                "randomizechuffy",
+                "randomizechuffy"
+              ],
+              [
+                "randomizestopnswop",
                 "nestsanity",
                 "signposts",
-                "skipklungo"
+                "bossentranceitems",
+                "randomizebeans"
               ],
               [
                 "randomizeworlds",
@@ -44,10 +44,8 @@
                 "randomizebossentrances"
               ],
               [
-                "randomizesilos",
-                "randomizewarppads",
-                "bossentranceitems",
-                "randomizebeans",
+                "skipklungo",
+                "speedupmini",
                 "goal"
               ],
               [

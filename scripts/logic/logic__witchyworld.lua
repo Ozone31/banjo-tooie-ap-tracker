@@ -698,7 +698,7 @@ function notes_WW_area51OnFencePostLeft(skip)
     -- Normal Logic
     if ( explosives <= logictype.CurrentStage and has("tjump") and can_longJump() ) then
         logic = 0
-    elseif ( can_legSpring() or can_glide() ) then
+    elseif ( has_legSpring() or has_glide() ) then
         logic = 1
     elseif ( has("tjump") and can_longJump() and explosives < 2 ) then
         logic = 1 -- Sequence Breaking
@@ -739,7 +739,7 @@ function notes_WW_area51OnFencePostRight(skip)
     -- Normal Logic
     if ( explosives <= logictype.CurrentStage and has("tjump") ) then
         logic = 0
-    elseif ( can_legSpring() or can_glide() ) then
+    elseif ( has_legSpring() or has_glide() ) then
         logic = 1
     elseif ( has("tjump") and explosives < 2 ) then
         logic = 1 -- Sequence Breaking

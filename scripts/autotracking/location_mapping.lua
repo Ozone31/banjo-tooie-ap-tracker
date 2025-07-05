@@ -995,7 +995,7 @@ LOCATION_MAPPING = {
     [1231526] = {"@Jolly Roger's Lagoon - Main Area/JRL: Waste Pipe Alcove Signpost/Signpost", "@Overworld Hints/Jolly Roger's Lagoon Hints/JRL: Waste Pipe Alcove Signpost (Hint)"},
     [1231527] = {"@Terrydactyland - Main Area/TDL: Roar Cage Signpost/Signpost", "@Overworld Hints/Terrydactyland Hints/TDL: Roar Cage Signpost (Hint)"},
     [1231528] = {"@Terrydactyland - Inside the Mountain/TDL: Inside The Mountain Near Cheato Page Signpost/Signpost", "@Overworld Hints/Terrydactyland Hints/TDL: Inside The Mountain Near Cheato Page Signpost (Hint)"},
-    [1231529] = {"@Terrydactyland - Inside the Mountain/TDL: Inside The Mountain Near Top Signpost/Signpost", "@Overworld Hints/Terrydactyland Hints/TDL: Inside The Mountain Near Top Signpost (Hint)"},
+    [1231529] = {"@Terrydactyland - Inside the Mountain Top/TDL: Inside The Mountain Near Top Signpost/Signpost", "@Overworld Hints/Terrydactyland Hints/TDL: Inside The Mountain Near Top Signpost (Hint)"},
     [1231530] = {"@Terrydactyland - River Passage/TDL: River Passage Signpost/Signpost", "@Overworld Hints/Terrydactyland Hints/TDL: River Passage Signpost (Hint)"},
     [1231531] = {"@Outside Grunty Industries/GI Outside: Signpost/Signpost", "@Overworld Hints/Grunty Industries Hints/GI Outside: Signpost (Hint)"},
     [1231532] = {"@Grunty Industries 1st Floor/Workers' Quarters/Signpost", "@Overworld Hints/Grunty Industries Hints/GI Floor 1: Workers Quarters Signpost (Hint)"},
@@ -1099,6 +1099,6 @@ LOCATION_MAPPING = {
     [1231636] = {"@Mayahem Temple - Inside Targitzan's Temple/Red Pillar Room Relic 1/Relic", "@Mayahem Temple - Relic Hints/MT: Red Pillar Room Relic 1 (Hint)"},
     [1231637] = {"@Mayahem Temple - Inside Targitzan's Temple/Red Pillar Room Relic 2/Relic", "@Mayahem Temple - Relic Hints/MT: Red Pillar Room Relic 2 (Hint)"},
     [1231638] = {"@Mayahem Temple - Inside Targitzan's Temple/Red Pillar Room Relic 3/Relic", "@Mayahem Temple - Relic Hints/MT: Red Pillar Room Relic 3 (Hint)"},
-    [1231639] = {"@Cloud Cuckooland - Outside/Dirt Patches/Bean 1", "@Cloud Cuckooland - Bean Hints/CCL: Dirt Patch Bean 1 (Hint)"},
-    [1231640] = {"@Cloud Cuckooland - Outside/Dirt Patches/Bean 2", "@Cloud Cuckooland - Bean Hints/CCL: Dirt Patch Bean 2 (Hint)"}
+    [1231639] = {"@Cloud Cuckooland - Outside/CCL: Dirt Patches/Bean 1", "@Cloud Cuckooland - Bean Hints/CCL: Dirt Patch Bean 1 (Hint)"},
+    [1231640] = {"@Cloud Cuckooland - Outside/CCL: Dirt Patches/Bean 2", "@Cloud Cuckooland - Bean Hints/CCL: Dirt Patch Bean 2 (Hint)"}
 }
