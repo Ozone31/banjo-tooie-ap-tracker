@@ -418,14 +418,14 @@ function toggleBKMoves()
         Tracker:FindObjectForCode('ttrain').Active = true
         Tracker:FindObjectForCode('bbomb').Active = true
     elseif Tracker:FindObjectForCode('randomizebkmoves').CurrentStage == 1 then
-        Tracker:FindObjectForCode('dive').Active = false
+        --[[Tracker:FindObjectForCode('dive').Active = false
         Tracker:FindObjectForCode('fpad').Active = false
         Tracker:FindObjectForCode('fflip').Active = false
         Tracker:FindObjectForCode('eggshoot').Active = false
-        Tracker:FindObjectForCode('roll').Active = false
+        Tracker:FindObjectForCode('roll').Active = false--]]
         Tracker:FindObjectForCode('ttrot').Active = true
         Tracker:FindObjectForCode('tjump').Active = true
-        Tracker:FindObjectForCode('climb').Active = false
+        --[[Tracker:FindObjectForCode('climb').Active = false
         Tracker:FindObjectForCode('flutter').Active = false
         Tracker:FindObjectForCode('wwing').Active = false
         Tracker:FindObjectForCode('grat').Active = false
@@ -435,9 +435,9 @@ function toggleBKMoves()
         Tracker:FindObjectForCode('bbust').Active = false
         Tracker:FindObjectForCode('sstride').Active = false
         Tracker:FindObjectForCode('ttrain').Active = false
-        Tracker:FindObjectForCode('bbomb').Active = false
+        Tracker:FindObjectForCode('bbomb').Active = false--]]
     elseif Tracker:FindObjectForCode('randomizebkmoves').CurrentStage == 2 then
-        Tracker:FindObjectForCode('dive').Active = false
+        --[[Tracker:FindObjectForCode('dive').Active = false
         Tracker:FindObjectForCode('fpad').Active = false
         Tracker:FindObjectForCode('fflip').Active = false
         Tracker:FindObjectForCode('eggshoot').Active = false
@@ -454,7 +454,7 @@ function toggleBKMoves()
         Tracker:FindObjectForCode('bbust').Active = false
         Tracker:FindObjectForCode('sstride').Active = false
         Tracker:FindObjectForCode('ttrain').Active = false
-        Tracker:FindObjectForCode('bbomb').Active = false
+        Tracker:FindObjectForCode('bbomb').Active = false--]]
     end
 end
 
@@ -984,7 +984,7 @@ end
 
 ---------------------------------------- 
 
-ScriptHost:AddWatchForCode("bkmovewatch", "randomizebkmoves", toggleBKMoves)
+-- ScriptHost:AddWatchForCode("bkmovewatch", "randomizebkmoves", toggleBKMoves)
 ScriptHost:AddWatchForCode("peggswatch", "peggs", togglePEggs)
 ScriptHost:AddWatchForCode("pbbustwatch", "pbbust", togglePBBust)
 ScriptHost:AddWatchForCode("pshoeswatch", "pshoes", togglePShoes)

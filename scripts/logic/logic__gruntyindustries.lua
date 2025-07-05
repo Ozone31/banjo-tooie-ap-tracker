@@ -1799,7 +1799,7 @@ function nests_GI_floor2OnScaffolding(skip)
     -- Normal Logic
     if ( (gi2Accessibility == AccessibilityLevel.Normal or gi2Accessibility == AccessibilityLevel.Cleared) and has("clawbts") and has("fflip") and has("ggrab") ) then
         logic = 0
-    elseif ( (gi2Accessibility == AccessibilityLevel.Normal or gi2Accessibility == AccessibilityLevel.Cleared) and floor2SplitUp <= logictype.CurrentStage and has_glide() and (has_legSpring() or has("clawbts") and (can_shootEggs() or has_wingWhack())) or (gi3Accessibility == AccessibilityLevel.Normal or gi3Accessibility == AccessibilityLevel.Cleared) and (has("climb") and (can_veryLongJump() or has("fflip") or has("tjump")and has("ggrab")) or can_reachSmallElevation() and has_legSpring() and has_glide()) ) then
+    elseif ( (gi2Accessibility == AccessibilityLevel.Normal or gi2Accessibility == AccessibilityLevel.Cleared) and floor2SplitUp <= logictype.CurrentStage and has_glide() and (has_legSpring() or has("clawbts") and (can_shootEggs() or has_wingWhack())) or (gi3Accessibility == AccessibilityLevel.Normal or gi3Accessibility == AccessibilityLevel.Cleared) and (has("climb") and has("ggrab") and (can_veryLongJump() or has("fflip") or has("tjump")) or can_reachSmallElevation() and has_legSpring() and has_glide()) ) then
         logic = 1
     elseif ( logictype.CurrentStage == 0 and gi2Accessibility > AccessibilityLevel.None and has("clawbts") and has("fflip") and has("ggrab") ) then
         logic = 1 -- Sequence Breaking

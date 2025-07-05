@@ -1674,17 +1674,15 @@ function connector_GIOBack_to_GIF4(skip)
     elif self.world.options.logic_type == LogicType.option_easy_tricks:
         logic = self.claw_clamber_boots(state) and (self.flutter(state) or self.air_rat_a_tat_rap(state)) and self.small_elevation(state)
     elif self.world.options.logic_type == LogicType.option_hard_tricks:
-        logic = self.claw_clamber_boots(state) and (self.flutter(state) or self.air_rat_a_tat_rap(state) and self.small_elevation(state))
+        logic = self.claw_clamber_boots(state) and (self.flutter(state) or self.air_rat_a_tat_rap(state))
     elif self.world.options.logic_type == LogicType.option_glitches:
-        logic = self.claw_clamber_boots(state) and (self.flutter(state) or self.air_rat_a_tat_rap(state) and self.small_elevation(state))
+        logic = self.claw_clamber_boots(state) and (self.flutter(state) or self.air_rat_a_tat_rap(state))
     --]]
     
     if ( has("clawbts") and can_reachSmallElevation() and (has("flutter") or has("arat")) ) then
         logic = 1
-    elseif ( has("clawbts") and has("flutter") ) then
+    elseif ( has("clawbts") and (has("flutter") or has("arat")) ) then
         logic = 2
-    elseif ( has("clawbts") and has("arat") ) then
-        logic = 7 -- apparently you don't need it with arat either
     end
     
     return convertLogic(logic, skip)
@@ -2777,14 +2775,8 @@ function connector_TDLIMTop_to_Terry(skip)
      
     -- This function is *only* used by the Terry region to see if you can go from Inside the Mountain Top to Terry, which is unnecessary if coming *from* Terry (at least as far as Poptracker is concerned).
     
-    local soloBanjoToTerry = access_TDL_soloBanjoToTerry(true)
-    
-    if ( soloBanjoToTerry <= 3 ) then
-        logic = math.max(1, soloBanjoToTerry)
-    elseif ( can_clockworkWarp() or has("fpad") and has("bbomb") and (has("tjump") or has("bbust") or has("ggrab")) ) then
+    if ( can_clockworkWarp() or has("fpad") and has("bbomb") and (has("tjump") or has("bbust") or has("ggrab")) ) then
         logic = 3
-    else
-        logic = math.max(3, soloBanjoToTerry)
     end
     
     return convertLogic(logic, skip)
