@@ -1,6 +1,22 @@
 {
 	"versions": [
 		{
+			"package_version": "0.10.2",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.10.2",
+			"sha256": "fca4c06da1a1d10e2724fee90d4c617aae3078e886c14f2433528b7df9c72236",
+			"changelog": [
+				"Updated logic for v4.6.2 of Banjo-Tooie AP.",
+				"Removed the Randomize Moves and Randomize BK Moves settings from the tracker UI.",
+				"Fixed Inside The Mountain Near Top Signpost not correctly auto-tracking when checked.",
+				"Fixed Beans locations not correctly auto-tracking when checked.",
+				"Fixed Area 51 Notes not properly showing as accessible with either Leg Spring or Glide.",
+				"Fixed some BK moves not auto-tracking properly upon initial load if they were in the starting inventory.",
+				"Fixed auto-tracking of 'randomize_world_entrance_loading_zone' setting.",
+				"Fixed some nests in Grunty Industries Floor 2 showing as accessible without Grip Grab.",
+				"Fixed Slightly Sacred Chamber and Targitzan's Chamber not properly acknowledging when you have 10 or 20 green relics."
+			]
+		},
+		{
 			"package_version": "0.10.1",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.10.1",
 			"sha256": "e00eacbe8f7792c007368c940db08c20d3c5a3f4204c7f7d57c471466749719f",
