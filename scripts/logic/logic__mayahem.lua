@@ -252,7 +252,7 @@ function jiggy_MT_slightlySacredChamber(skip)
         logic = self.has_green_relics(state, 10)
      --]]
     
-    if ( has("bossentranceitems_off") or has("bossentranceitems_tickets") or has("green_relic", 10) ) then
+    if ( has("bossentranceitems_off") or has("bossentranceitems_tickets") or has("greenrelic", 10) ) then
         logic = 0
     end
     
