@@ -2788,7 +2788,7 @@ function connector_MTTT_to_MTBoss(skip)
      rules.has_green_relics(state, 20)
      --]]
     
-    if ( has("bossentranceitems_off") or has("bossentranceitems_tickets") or has("green_relic", 20) ) then
+    if ( has("bossentranceitems_off") or has("bossentranceitems_tickets") or has("greenrelic", 20) ) then
         logic = 0
     end
     
