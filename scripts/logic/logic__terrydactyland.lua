@@ -169,7 +169,7 @@ function access_TDL_oogleBoogle(skip)
     elseif ( oogleBooglesOpen < 2 or (wwAccessibility == AccessibilityLevel.Normal or wwAccessibility == AccessibilityLevel.Cleared) and WW_to_TDL < 2 ) then
         logic = 1 -- Sequence Breaking
     elseif ( can_clockworkWarp() ) then
-        logic = 2 -- Normal Logic
+        logic = 3 -- Normal Logic
     elseif ( wwAccessibility == AccessibilityLevel.Normal or wwAccessibility == AccessibilityLevel.Cleared ) then
         logic = math.min(oogleBooglesOpen, WW_to_TDL) -- Sequence Breaking
     elseif ( wwAccessibility > AccessibilityLevel.None ) then
