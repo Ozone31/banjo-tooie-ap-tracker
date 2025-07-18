@@ -1,6 +1,17 @@
 {
 	"versions": [
 		{
+			"package_version": "0.10.3",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.10.3",
+			"sha256": "7089416290b1ce3f8a94b0503ac32a6a1168a2f847e8b88e1e495784af2bf781",
+			"changelog": [
+				"Updated logic for v4.8 of Banjo-Tooie AP.",
+				"Fixed the region connection logic from TDL's main area to the top of the inside of the mountain.",
+				"Fixed the Dragon Brothers Jiggy incorrectly checking for HFP Icy Side access instead of access to Chilly Willy's arena.",
+				"Fixed the nests at the top of Icicle Grotto checking for the Treble Clef logic instead of their own."
+			]
+		},
+		{
 			"package_version": "0.10.2",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.10.2",
 			"sha256": "fca4c06da1a1d10e2724fee90d4c617aae3078e886c14f2433528b7df9c72236",
