@@ -206,6 +206,15 @@ function access_TDL_flightPad(skip)
     -- Sequence Breaking
     elseif ( has("fpad") and (has("springb") or has("ttrot") and has("flutter")) ) then
         logic = canBeatTerry
+    elseif ( has("fpad") and (has("ttrain") and has("flutter")) ) then
+        logic = math.max(7, canBeatTerry) -- smuggle talon trot
+    elseif ( has("fpad") and has("flutter") ) then
+        -- other various talon trot smugglings
+        if ( has("clawbts") and (load_jrl_tdl() and has("jra") or load_hfp_tdl() and has("hfa") or load_ggm_tdl() and has("gga") or connector_PL_to_PG(true) <= 7 and load_ww_tdl() and has("wwa")) ) then
+            logic = 7 -- smuggle clawbts from cliff top into jrl entrance, hfp entrance, ggm entrance, or ww entrance
+        elseif ( has("clawbts") and (load_gi_tdl() and has("gia") or load_ck_tdl() and has("cka")) ) then
+            logic = 7 -- smuggle clawbts from quagmire if GI or CK take you to TDL
+        end
     end
     
     return convertLogic(logic, skip)
@@ -815,6 +824,13 @@ function jiggy_TDL_stompingPlainsAsDuo(skip)
         logic = 2
     elseif ( has("wwing") or (has("randomizewarppads_off") or has("warptl2") and (has("warptl1") or has("warptl3") or has("warptl4"))) and (has("springb") or has("ttrain")) ) then
         logic = 7 -- wonderwing, or smuggling talon trot
+    elseif ( has("randomizewarppads_off") or has("warptl2") and (has("warptl1") or has("warptl3") or has("warptl4")) ) then
+        -- other various talon trot smugglings
+        if ( has("clawbts") and (load_jrl_tdl() and has("jra") or load_hfp_tdl() and has("hfa") or load_ggm_tdl() and has("gga") or connector_PL_to_PG(true) <= 7 and load_ww_tdl() and has("wwa")) ) then
+            logic = 7 -- smuggle clawbts from cliff top into jrl entrance, hfp entrance, ggm entrance, or ww entrance
+        elseif ( has("clawbts") and (load_gi_tdl() and has("gia") or load_ck_tdl() and has("cka")) ) then
+            logic = 7 -- smuggle clawbts from quagmire if GI or CK take you to TDL
+        end
     end
     
     return convertLogic(logic, skip)
@@ -1101,8 +1117,15 @@ function nests_TDL_wallWithHoles(skip)
         logic = 2
     
     -- Sequence Breaking
-    else
+    elseif ( humba <= 7 ) then
         logic = math.max(1, humba)
+    else
+        -- other various talon trot smugglings
+        if ( has("clawbts") and (load_jrl_tdl() and has("jra") or load_hfp_tdl() and has("hfa") or load_ggm_tdl() and has("gga") or connector_PL_to_PG(true) <= 7 and load_ww_tdl() and has("wwa")) ) then
+            logic = 7 -- smuggle clawbts from cliff top into jrl entrance, hfp entrance, ggm entrance, or ww entrance
+        elseif ( has("clawbts") and (load_gi_tdl() and has("gia") or load_ck_tdl() and has("cka")) ) then
+            logic = 7 -- smuggle clawbts from quagmire if GI or CK take you to TDL
+        end
     end
     
     return convertLogic(logic, skip)
@@ -1391,28 +1414,39 @@ end
 function nests_TDL_stompingPlainsFootprint(skip)
     local logic = 99
     --[[        nest_stomping_plains_footprint
-    if self.world.options.logic_type == LogicType.option_intended:
+     if self.intended_logic(state):
         logic = self.tall_jump(state) and self.split_up(state)\
                 or self.snooze_pack(state)\
                 or self.talon_trot(state)
-    elif self.world.options.logic_type == LogicType.option_easy_tricks:
+    elif self.easy_tricks_logic(state):
         logic = self.tall_jump(state) and self.split_up(state)\
                 or self.snooze_pack(state)\
                 or self.talon_trot(state)
-    elif self.world.options.logic_type == LogicType.option_hard_tricks:
-        logic = self.tall_jump(state) and self.split_up(state)\
+    elif self.hard_tricks_logic(state):
+        logic = self.tall_jump(state)\
                 or self.snooze_pack(state)\
                 or self.talon_trot(state)
-    elif self.world.options.logic_type == LogicType.option_glitches:
-        logic = self.tall_jump(state) and self.split_up(state)\
+    elif self.glitches_logic(state):
+        logic = self.tall_jump(state)\
                 or self.snooze_pack(state)\
                 or self.talon_trot(state)
-    --]]
+     --]]
     
     if ( has("tjump") and has("splitup") or has_snoozePack() or has("ttrot") ) then
         logic = 0
+    elseif ( has("tjump") ) then
+        logic = 2
     elseif ( has("wwing") ) then
         logic = 7
+    elseif ( has("springb") and (has("randomizewarppads_off") or has("warptl2") and (has("warptl1") or has("warptl3") or has("warptl4"))) ) then
+        logic = 7 -- smuggle talon trot
+    elseif ( has("randomizewarppads_off") or has("warptl2") and (has("warptl1") or has("warptl3") or has("warptl4")) ) then
+        -- other various talon trot smugglings
+        if ( has("clawbts") and (load_jrl_tdl() and has("jra") or load_hfp_tdl() and has("hfa") or load_ggm_tdl() and has("gga") or connector_PL_to_PG(true) <= 7 and load_ww_tdl() and has("wwa")) ) then
+            logic = 7 -- smuggle clawbts from cliff top into jrl entrance, hfp entrance, ggm entrance, or ww entrance
+        elseif ( has("clawbts") and (load_gi_tdl() and has("gia") or load_ck_tdl() and has("cka")) ) then
+            logic = 7 -- smuggle clawbts from quagmire if GI or CK take you to TDL
+        end
     end
     
     return convertLogic(logic, skip)
@@ -1647,7 +1681,7 @@ function jinjo_TDL_stompingPlains(skip)
     if ( has("splitup") and has("tjump") ) then
         logic = 0
     elseif ( can_eggBarge() and (has("tjump") or has("ttrot") or has("springb") or has("ttrain")) ) then
-        logic = 3
+        logic = 3 -- FIXIT this assumes you can warp springb to stomping plains
     end
     
     return convertLogic(logic, skip)

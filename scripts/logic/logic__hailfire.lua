@@ -421,11 +421,11 @@ function jiggy_HFP_dragonBrothers(skip)
                     )
      --]]
     
-    local hfpiAccessibility = Tracker:FindObjectForCode("@Region: Hailfire Peaks - Icy Side").AccessibilityLevel
+    local chillyWillyAccessibility = Tracker:FindObjectForCode("@Region: Boss Arena - Chilly Willy").AccessibilityLevel
     
-    if ( has("feggs") and has("ieggs") and has("eggshoot") and has("climb") and (has("tjump") or has("ttrot")) and (hfpiAccessibility == AccessibilityLevel.Normal or hfpiAccessibility == AccessibilityLevel.Cleared) ) then
+    if ( has("feggs") and has("ieggs") and has("eggshoot") and has("climb") and (has("tjump") or has("ttrot")) and (chillyWillyAccessibility == AccessibilityLevel.Normal or chillyWillyAccessibility == AccessibilityLevel.Cleared) ) then
         logic = 0
-    elseif ( has("feggs") and has("ieggs") and has("eggshoot") and (has("fflip") or has("ggrab")) and (has("tjump") or has("ttrot")) and (hfpiAccessibility == AccessibilityLevel.Normal or hfpiAccessibility == AccessibilityLevel.Cleared) ) then
+    elseif ( has("feggs") and has("ieggs") and has("eggshoot") and (has("fflip") or has("ggrab")) and (has("tjump") or has("ttrot")) and (chillyWillyAccessibility == AccessibilityLevel.Normal or chillyWillyAccessibility == AccessibilityLevel.Cleared) ) then
         logic = 1
     elseif ( has("randomizebossentrances_off") and has("feggs") and has("ieggs") and has("fpad") and has("eggshoot") and has_packWhack() and (has("tjump") or has("ttrot")) and (has("climb") or has("fflip") or has("ggrab")) and (has("clawbts") or (has("tjump") and has("roll") or has("ttrot")) and (has("flutter") or has("arat")) and has("ggrab")) ) then
         logic = 2
@@ -437,27 +437,27 @@ end
 function jiggy_HFP_volcano(skip)
     local logic = 99
     --[[        jiggy_volcano
-    if self.world.options.logic_type == LogicType.option_intended:
+     if self.intended_logic(state):
         logic = self.long_jump(state) and self.hfp_top(state)
-    elif self.world.options.logic_type == LogicType.option_easy_tricks:
-        logic = self.long_jump(state) and self.hfp_top(state) or self.split_up(state)
-    elif self.world.options.logic_type == LogicType.option_hard_tricks:
-        logic = self.long_jump(state) and self.hfp_top(state) or self.split_up(state)
-    elif self.world.options.logic_type == LogicType.option_glitches:
-        logic = self.long_jump(state) and self.hfp_top(state) or self.split_up(state)
-    --]]
+    elif self.easy_tricks_logic(state):
+        logic = (self.long_jump(state) or self.tall_jump(state)) and self.hfp_top(state) or self.split_up(state)
+    elif self.hard_tricks_logic(state):
+        logic = (self.long_jump(state) or self.tall_jump(state)) and self.hfp_top(state) or self.split_up(state)
+    elif self.glitches_logic(state):
+        logic = (self.long_jump(state) or self.tall_jump(state)) and self.hfp_top(state) or self.split_up(state)
+     --]]
     
     local top = access_HFP_lavaSideTop(true)
     
     -- Normal Logic
     if ( can_longJump() and top <= logictype.CurrentStage ) then
         logic = 0
-    elseif ( has("splitup") ) then
+    elseif ( has("splitup") or has("tjump") and top <= logictype.CurrentStage ) then
         logic = 1
     
     -- Sequence Breaking
-    elseif ( can_longJump() ) then
-        logic = top
+    elseif ( can_longJump() or has("tjump") ) then
+        logic = math.max(1, top)
     end
     
     return convertLogic(logic, skip)
@@ -1019,72 +1019,6 @@ function notes_HFP_icySideBoggy(skip)
     return convertLogic(logic, skip)
 end
 
-function notes_HFP_icicleGrottoTop(skip)
-    local logic = 99
-    --[[        nest_icicle_grotto_top
-    if self.world.options.logic_type == LogicType.option_intended:
-        logic = self.hfp_top(state) and self.grenade_eggs(state) and self.egg_aim(state) and self.spring_pad(state) and (self.talon_trot(state) or self.split_up(state))
-    elif self.world.options.logic_type == LogicType.option_easy_tricks:
-        logic = (self.split_up(state) and self.ice_cube_kazooie(state) and (self.tall_jump(state) or self.wing_whack(state) or self.glide(state) or self.leg_spring(state)))\           -- checking for split up is redundant when ice_cube_kazooie requires it
-                or (self.hfp_top(state) and self.grenade_eggs(state) and self.egg_aim(state) and self.spring_pad(state) and (self.talon_trot(state) or self.split_up(state)))\
-                or self.claw_clamber_boots(state) and self.grenade_eggs(state) and self.egg_aim(state)
-    elif self.world.options.logic_type == LogicType.option_hard_tricks:
-        logic = (self.split_up(state) and self.ice_cube_kazooie(state) and (self.tall_jump(state) or self.wing_whack(state) or self.glide(state) or self.leg_spring(state)))\
-                or (self.hfp_top(state) and (self.grenade_eggs(state) or self.clockwork_shot(state))\
-                    and self.egg_aim(state) and self.spring_pad(state) and (self.talon_trot(state) or self.split_up(state)))\
-                or (self.extremelyLongJump(state) and self.clockwork_shot(state))\
-                or self.claw_clamber_boots(state) and self.ice_cube_BK(state)
-    elif self.world.options.logic_type == LogicType.option_glitches:
-        logic = (self.split_up(state) and self.ice_cube_kazooie(state) and (self.tall_jump(state) or self.wing_whack(state) or self.glide(state) or self.leg_spring(state)))\
-                or (self.hfp_top(state) and (self.grenade_eggs(state) or self.clockwork_shot(state))\
-                    and self.egg_aim(state) and self.spring_pad(state) and (self.talon_trot(state) or self.split_up(state)))\
-                or (self.extremelyLongJump(state) and self.clockwork_shot(state))\
-                or self.claw_clamber_boots(state) and self.ice_cube_BK(state)
-     --]]
-    
-    local top = access_HFP_lavaSideTop(true)
-    local soloKazooieCube = access_HFP_canBreakIceCubesAsSoloKazooie(true)
-    local extremelyLongJump = can_extremelyLongJump(true)
-    local pairCube = access_HFP_canBreakIceCubesAsPair(true)
-    
-    -- Normal Logic
-    if ( top <= logictype.CurrentStage and can_shootEggs("geggs") and has("eggaim") and has("tjump") and (has("ttrot") or has("splitup")) ) then
-        logic = 0
-    elseif ( soloKazooieCube <= logictype.CurrentStage and (has("tjump") or has_wingWhack() or has_glide() or has_legSpring()) or has("clawbts") and can_shootEggs("geggs") and has("eggaim") ) then
-        logic = 1
-    elseif ( top < 2 and can_shootEggs("geggs") and has("eggaim") and has("tjump") and (has("ttrot") or has("splitup")) ) then
-        logic = 1 -- Sequence Breaking
-    elseif ( top <= logictype.CurrentStage and can_clockworkShot() and has("tjump") and (has("ttrot") or has("splitup")) or extremelyLongJump <= logictype.CurrentStage and can_clockworkShot() or has("clawbts") and pairCube <= logictype.CurrentStage ) then
-        logic = 2
-    
-    -- Sequence Breaking
-    else
-        local fromTop = 99
-        if ( (can_shootEggs("geggs") and has("eggaim") or can_clockworkShot()) and has("tjump") and (has("ttrot") or has("splitup")) ) then
-            fromTop = math.max(2, top)
-        end
-        
-        local clockworkJump = 99
-        if ( can_clockworkShot() ) then
-            clockworkJump = math.max(2, extremelyLongJump)
-        end
-        
-        local soloKazooie = 99
-        if ( has("tjump") or has_wingWhack() or has_glide() or has_legSpring() ) then
-            soloKazooie = math.max(1, soloKazooieCube)
-        end
-        
-        local clawbts = 99
-        if ( has("clawbts") ) then
-            clawbts = math.max(2, pairCube)
-        end
-        
-        logic = math.min(fromTop, clockworkJump, soloKazooie, clawbts)
-    end
-    
-    return convertLogic(logic, skip)
-end
-
 ----- Nests
 
 function nests_HFP_lavaSideOnShelterAtEntrance(skip)
@@ -1153,51 +1087,6 @@ function nests_HFP_icySideTrainStationHard(skip)
     -- Sequence Breaking
     else
         logic = accessIcyTrainStation
-    end
-    
-    return convertLogic(logic, skip)
-end
-
-function nests_HFP_lavaSideChillyBilli(skip)
-    local logic = 99
-    --[[
-    self.flight_pad(state) and self.ice_eggs_item(state)
-    --]]
-    
-    if ( has("fpad") and has("ieggs") ) then
-        logic = 0
-    end
-    
-    return convertLogic(logic, skip)
-end
-
-function nests_HFP_icySideChillyWilly(skip)
-    local logic = 99
-    --[[
-    if self.world.options.logic_type == LogicType.option_intended:
-        logic = self.fire_eggs(state) and self.claw_clamber_boots(state)
-    elif self.world.options.logic_type == LogicType.option_easy_tricks:
-        logic = self.fire_eggs(state) and self.claw_clamber_boots(state)
-    elif self.world.options.logic_type == LogicType.option_hard_tricks:
-        # In case people go for the damage boost for Chilly Willy then die before getting the jiggy, we also require Pack Whack to prevent softlocks.
-        logic = self.claw_clamber_boots(state)\
-                 or (self.pack_whack(state) and self.tall_jump(state) and self.flutter(state) and \
-                     (self.talon_trot(state) or self.flap_flip(state)))
-    elif self.world.options.logic_type == LogicType.option_glitches:
-        # In case people go for the damage boost for Chilly Willy then die before getting the jiggy, we also require Pack Whack to prevent softlocks.
-        logic = self.claw_clamber_boots(state)\
-                 or (self.pack_whack(state) and self.tall_jump(state) and self.flutter(state) and \
-                     (self.talon_trot(state) or self.flap_flip(state)))
-    --]]
-    
-    -- Normal Logic
-    if ( can_shootEggs("feggs") and has("clawbts") ) then
-        logic = 0
-    elseif ( has("clawbts") or has_packWhack() and has("tjump") and has("flutter") and (has("ttrot") or has("fflip")) ) then
-        logic = 2
-        
-    -- Sequence Breaking
-        
     end
     
     return convertLogic(logic, skip)
@@ -1342,6 +1231,74 @@ function nests_HFP_icicleGrottoSpringPad(skip)
     return convertLogic(logic, skip)
 end
 
+function nests_HFP_icicleGrottoTop(skip)
+    local logic = 99
+    --[[        nest_icicle_grotto_top
+    if self.world.options.logic_type == LogicType.option_intended:
+        logic = self.hfp_top(state) and self.grenade_eggs(state) and self.egg_aim(state) and self.spring_pad(state) and (self.talon_trot(state) or self.split_up(state))
+    elif self.world.options.logic_type == LogicType.option_easy_tricks:
+        logic = (self.split_up(state) and self.ice_cube_kazooie(state) and (self.tall_jump(state) or self.wing_whack(state) or self.glide(state) or self.leg_spring(state)))\           -- checking for split up is redundant when ice_cube_kazooie requires it
+                or (self.hfp_top(state) and self.grenade_eggs(state) and self.egg_aim(state) and self.spring_pad(state) and (self.talon_trot(state) or self.split_up(state)))\
+                or self.claw_clamber_boots(state) and self.grenade_eggs(state) and self.egg_aim(state)
+    elif self.world.options.logic_type == LogicType.option_hard_tricks:
+        logic = (self.split_up(state) and self.ice_cube_kazooie(state) and (self.tall_jump(state) or self.wing_whack(state) or self.glide(state) or self.leg_spring(state)))\
+                or (self.hfp_top(state) and (self.grenade_eggs(state) or self.clockwork_shot(state))\
+                    and self.egg_aim(state) and self.spring_pad(state) and (self.talon_trot(state) or self.split_up(state)))\
+                or (self.extremelyLongJump(state) and self.clockwork_shot(state))\
+                or self.claw_clamber_boots(state) and self.ice_cube_BK(state)
+    elif self.world.options.logic_type == LogicType.option_glitches:
+        logic = (self.split_up(state) and self.ice_cube_kazooie(state) and (self.tall_jump(state) or self.wing_whack(state) or self.glide(state) or self.leg_spring(state)))\
+                or (self.hfp_top(state) and (self.grenade_eggs(state) or self.clockwork_shot(state))\
+                    and self.egg_aim(state) and self.spring_pad(state) and (self.talon_trot(state) or self.split_up(state)))\
+                or (self.extremelyLongJump(state) and self.clockwork_shot(state))\
+                or self.claw_clamber_boots(state) and self.ice_cube_BK(state)
+     --]]
+    
+    local top = access_HFP_lavaSideTop(true)
+    local soloKazooieCube = access_HFP_canBreakIceCubesAsSoloKazooie(true)
+    local extremelyLongJump = can_extremelyLongJump(true)
+    local pairCube = access_HFP_canBreakIceCubesAsPair(true)
+    
+    -- Normal Logic
+    if ( top <= logictype.CurrentStage and can_shootEggs("geggs") and has("eggaim") and has("tjump") and (has("ttrot") or has("splitup")) ) then
+        logic = 0
+    elseif ( soloKazooieCube <= logictype.CurrentStage and (has("tjump") or has_wingWhack() or has_glide() or has_legSpring()) or has("clawbts") and can_shootEggs("geggs") and has("eggaim") ) then
+        logic = 1
+    elseif ( top < 2 and can_shootEggs("geggs") and has("eggaim") and has("tjump") and (has("ttrot") or has("splitup")) ) then
+        logic = 1 -- Sequence Breaking
+    elseif ( top <= logictype.CurrentStage and can_clockworkShot() and has("tjump") and (has("ttrot") or has("splitup")) or extremelyLongJump <= logictype.CurrentStage and can_clockworkShot() or has("clawbts") and pairCube <= logictype.CurrentStage ) then
+        logic = 2
+    
+    -- Sequence Breaking
+    else
+        local fromTop = 99
+        if ( (can_shootEggs("geggs") and has("eggaim") or can_clockworkShot()) and has("tjump") and (has("ttrot") or has("splitup")) ) then
+            fromTop = math.max(2, top)
+        end
+        
+        local clockworkJump = 99
+        if ( can_clockworkShot() ) then
+            clockworkJump = math.max(2, extremelyLongJump)
+        end
+        
+        local soloKazooie = 99
+        if ( has("tjump") or has_wingWhack() or has_glide() or has_legSpring() ) then
+            soloKazooie = math.max(1, soloKazooieCube)
+        elseif ( has("clawbts") ) then
+            soloKazooie = math.max(7, soloKazooieCube)
+        end
+        
+        local clawbts = 99
+        if ( has("clawbts") ) then
+            clawbts = math.max(2, pairCube)
+        end
+        
+        logic = math.min(fromTop, clockworkJump, soloKazooie, clawbts)
+    end
+    
+    return convertLogic(logic, skip)
+end
+
 ----- Signs
 
 ----- Other - Jinjos
@@ -1448,6 +1405,8 @@ function jinjo_HFP_icicleGrotto(skip)
         logic = 1
     elseif ( has_legSpring() or can_clockworkShot() and has("tjump") and (has("splitup") or has("ttrot")) ) then
         logic = 2
+	elseif ( can_clockworkhot() and warp_HFP_icicleGrotto(true) <= 7 ) then
+		logic = 7 -- if you can get to the warp pad and can clockwork shot, you can do this
     end
     
     return convertLogic(logic, skip)

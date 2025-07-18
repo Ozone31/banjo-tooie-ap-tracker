@@ -1405,7 +1405,7 @@ function nests_GI_floor1HighPipe(skip)
         logic = 0
     elseif ( (gi2Accessibility == AccessibilityLevel.Normal or gi2Accessibility == AccessibilityLevel.Cleared) and (floor2SplitUp <= logictype.CurrentStage and has_legSpring() or f2tof1 <= logictype.CurrentStage and has("tjump")) or has("clawbts") and (has_wingWhack() or has_glide() and has("eggaim")) ) then
         logic = 1
-	elseif ( has("clawbts") ) then
+    elseif ( has("clawbts") ) then
         logic = 2
     
     -- Sequence Breaking
@@ -2872,20 +2872,18 @@ end
 function honeycomb_GI_trainStation(skip)
     local logic = 99
     --[[        honeycomb_gi_station
-    if self.world.options.logic_type == LogicType.option_intended:
+     if self.intended_logic(state):
         logic = self.grip_grab(state) and self.ground_attack(state) and self.spring_pad(state)
-    elif self.world.options.logic_type == LogicType.option_easy_tricks:
-        logic = self.ground_attack(state) and self.spring_pad(state)
-    elif self.world.options.logic_type == LogicType.option_hard_tricks:
+    elif self.easy_tricks_logic(state):
+        logic = self.ground_attack(state) and self.spring_pad(state) and self.grip_grab(state)
+    elif self.hard_tricks_logic(state):
         logic = (self.ground_attack(state) and self.spring_pad(state)) or self.clockwork_shot(state) or self.leg_spring(state)
-    elif self.world.options.logic_type == LogicType.option_glitches:
+    elif self.glitches_logic(state):
         logic = (self.ground_attack(state) and self.spring_pad(state)) or self.clockwork_shot(state) or self.leg_spring(state)
-    --]]
+     --]]
     
     if ( has("ggrab") and can_groundAttack() and has("tjump") ) then
         logic = 0
-    elseif ( can_groundAttack() and has("tjump") ) then
-        logic = 1
     elseif ( can_clockworkShot() or has_legSpring() ) then
         logic = 2
     end

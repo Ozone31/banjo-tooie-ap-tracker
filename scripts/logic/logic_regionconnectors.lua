@@ -1386,7 +1386,7 @@ function connector_TDL_to_TDLIMTop(skip)
                 and (self.tall_jump(state) or self.beak_buster(state) or self.grip_grab(state))
      --]]
     
-    if ( has("fpad") and (has("warptl3") or has("ggrab")) ) then
+    if ( has("fpad") and (has("tjump") or has("ggrab")) ) then
         logic = 0
     elseif ( has("fpad") and has("bbust") ) then
         logic = 1
