@@ -1800,7 +1800,7 @@
         "chest_unopened_img": "/images/locations/eggnest.png",
         "chest_opened_img": "/images/locations/eggnest2.png",
         "visibility_rules": ["nestsanity_on"],
-        "access_rules": ["^$treble_HFP"],
+        "access_rules": ["^$nests_HFP_icicleGrottoTop"],
         "sections": [
           {
             "name": "Egg Nest 1"

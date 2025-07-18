@@ -262,22 +262,25 @@ end
 function jiggy_MT_targitzan(skip)
     local logic = 99
     --[[        jiggy_targitzan
-     if self.world.options.logic_type == LogicType.option_intended:
+     if self.intended_logic(state):
       logic = self.blue_eggs_item(state) or self.fire_eggs_item(state) or self.grenade_eggs_item(state)
-    elif self.world.options.logic_type == LogicType.option_easy_tricks:
-      logic = (self.blue_eggs_item(state) or self.fire_eggs_item(state) or self.grenade_eggs_item(state))\
-                or (self.ice_eggs_item(state) and self.beak_bayonet(state))
-    elif self.world.options.logic_type == LogicType.option_hard_tricks:
-      logic = (self.blue_eggs_item(state) or self.fire_eggs_item(state) or self.grenade_eggs_item(state))\
-                or (self.ice_eggs_item(state) and self.beak_bayonet(state))
-    elif self.world.options.logic_type == LogicType.option_glitches:
-      logic = (self.blue_eggs_item(state) or self.fire_eggs_item(state) or self.grenade_eggs_item(state))\
-                or (self.ice_eggs_item(state) and self.beak_bayonet(state))
+    elif self.easy_tricks_logic(state):
+      logic = (self.blue_eggs_item(state) or self.fire_eggs_item(state))\
+                or (self.ice_eggs_item(state) and self.beak_bayonet(state))\
+                or (self.grenade_eggs_item(state) and (self.ice_eggs_item(state) or self.beak_bayonet(state)))
+    elif self.hard_tricks_logic(state):
+      logic = (self.blue_eggs_item(state) or self.fire_eggs_item(state))\
+                or (self.ice_eggs_item(state) and self.beak_bayonet(state))\
+                or (self.grenade_eggs_item(state) and (self.ice_eggs_item(state) or self.beak_bayonet(state)))
+    elif self.glitches_logic(state):
+      logic = (self.blue_eggs_item(state) or self.fire_eggs_item(state))\
+                or (self.ice_eggs_item(state) and self.beak_bayonet(state))\
+                or (self.grenade_eggs_item(state) and (self.ice_eggs_item(state) or self.beak_bayonet(state)))
      --]]
     
-    if ( has("begg") or has("feggs") or has("geggs") ) then
+    if ( has("begg") or has("feggs") or has("geggs") and logictype.CurrentStage == 0 ) then -- FIXIT this is a bug! intended should not be fine with just grenade eggs
         logic = 0
-    elseif ( has("ieggs") and has("bbayonet") ) then
+    elseif ( has("ieggs") and (has("bbayonet") or has("geggs")) ) then
         logic = 1
     end
     
@@ -686,6 +689,12 @@ function signs_MT_nearCodeChamber(skip)
     
     if ( has("ttrot") and has("ggrab") and has("fflip") ) then
         logic = 0
+    elseif ( has("ttrain") and load_mt_mt() and has("mta") ) then
+        logic = 7 -- smuggle ttrain from spiral mountain
+    elseif ( has("clawbts") and (load_jrl_mt() and has("jra") or load_hfp_mt() and has("hfa") or load_ggm_mt() and has("gga") or connector_PL_to_PG(true) <= 7 and load_ww_mt() and has("wwa")) ) then
+        logic = 7 -- smuggle clawbts from cliff top into jrl entrance, hfp entrance, ggm entrance, or ww entrance
+    elseif ( has("clawbts") and (load_gi_mt() and has("gia") or load_ck_mt() and has("cka")) or has("springb") and (load_tdl_mt() and has("tda") or load_ccl_mt() and has("cca")) ) then
+        logic = 7 -- smuggle clawbts from quagmire if GI or CK take you to JRL, or springb from wasteland if either TDL or CCL take you to JRL, or ttrain from spiral mountain if MT takes you to JRL
     end
     
     return convertLogic(logic, skip)
@@ -879,6 +888,15 @@ function honeycomb_MT_treasureChamber(skip)
         logic = 1
     elseif ( can_clockworkShot() ) then
         logic = 2
+    elseif ( has("eggaim") or basic_MT_canUseFlightPad() and can_shootEggs() ) then
+        -- various talon trot smugglings
+        if ( has("ttrain") and load_mt_mt() and has("mta") ) then
+            logic = 7 -- smuggle ttrain from spiral mountain
+        elseif ( has("clawbts") and (load_jrl_mt() and has("jra") or load_hfp_mt() and has("hfa") or load_ggm_mt() and has("gga") or connector_PL_to_PG(true) <= 7 and load_ww_mt() and has("wwa")) ) then
+            logic = 7 -- smuggle clawbts from cliff top into jrl entrance, hfp entrance, ggm entrance, or ww entrance
+        elseif ( has("clawbts") and (load_gi_mt() and has("gia") or load_ck_mt() and has("cka")) or has("springb") and (load_tdl_mt() and has("tda") or load_ccl_mt() and has("cca")) ) then
+            logic = 7 -- smuggle clawbts from quagmire if GI or CK take you to JRL, or springb from wasteland if either TDL or CCL take you to JRL, or ttrain from spiral mountain if MT takes you to JRL
+        end
     end
     
     return convertLogic(logic, skip)
@@ -966,6 +984,15 @@ function cheato_MT_jadeSnakeGrove(skip)
         logic = 0
     elseif ( can_clockworkShot() ) then
         logic = 2
+    elseif ( has("ggrab") and has("fflip") ) then
+        -- various talon trot smugglings
+        if ( has("ttrain") and load_mt_mt() and has("mta") ) then
+            logic = 7 -- smuggle ttrain from spiral mountain
+        elseif ( has("clawbts") and (load_jrl_mt() and has("jra") or load_hfp_mt() and has("hfa") or load_ggm_mt() and has("gga") or connector_PL_to_PG(true) <= 7 and load_ww_mt() and has("wwa")) ) then
+            logic = 7 -- smuggle clawbts from cliff top into jrl entrance, hfp entrance, ggm entrance, or ww entrance
+        elseif ( has("clawbts") and (load_gi_mt() and has("gia") or load_ck_mt() and has("cka")) or has("springb") and (load_tdl_mt() and has("tda") or load_ccl_mt() and has("cca")) ) then
+            logic = 7 -- smuggle clawbts from quagmire if GI or CK take you to MT, or springb from wasteland if either TDL or CCL take you to MT, or ttrain from spiral mountain if MT takes you to MT
+        end
     end
     
     return convertLogic(logic, skip)

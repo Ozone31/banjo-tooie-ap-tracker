@@ -32,6 +32,20 @@ function access_PL_top(skip)
     -- Sequence Breaking
     elseif ( has("clawbts") and ctAccessibility > AccessibilityLevel.None ) then
         logic = logictype.CurrentStage + 1 -- was already converted once by the json
+    else
+        -- various talon trot smugglings
+        local wwiAccessibility = Tracker:FindObjectForCode("@Region: Witchyworld - The Inferno").AccessibilityLevel
+        local ctAccessibility = Tracker:FindObjectForCode("@Region: Cliff Top").AccessibilityLevel
+        local jrlAccessibility = Tracker:FindObjectForCode("@Region: Jolly Roger's Lagoon - Main Area").AccessibilityLevel
+        local tdlAccessibility = Tracker:FindObjectForCode("@Region: Terrydactyland - Main Area").AccessibilityLevel
+        
+        if ( wwiAccessibility > AccessibilityLevel.None and has("ttrain") and (load_ww_ww() and has("wwa") or load_jrl_ww() or load_hfp_ww() and (connector_CTHFP_to_CT(true) or ctAccessibility > AccessibilityLevel.None)) ) then
+            logic = 7 -- ttrain from WW
+        elseif ( jrlAccessibility > AccessibilityLevel.None and has("ttrain") and has("doubloon", 28) and (load_ww_jrl() and has("wwa") or load_jrl_jrl() or load_hfp_jrl() and (connector_CTHFP_to_CT(true) or ctAccessibility > AccessibilityLevel.None)) ) then
+            logic = 7 -- ttrain from JRL
+        elseif ( tdlAccessibility > AccessibilityLevel.None and has("springb") and (load_ww_tdl() and has("wwa") or load_jrl_tdl() or load_hfp_tdl() and (connector_CTHFP_to_CT(true) or ctAccessibility > AccessibilityLevel.None)) ) then
+            logic = 7 -- springb from TDL
+        end
     end
     
     return convertLogic(logic, skip)
@@ -53,28 +67,30 @@ function access_PL_canReachHoneyB(skip)
                 or state.can_reach_region(regionName.IOHCT, self.player) and self.claw_clamber_boots(state)
     --]]
     
+    local ctAccessibility = Tracker:FindObjectForCode("@Region: Cliff Top").AccessibilityLevel
     
     -- Normal Logic
     if ( has("ttrot") ) then
         logic = 0
+    elseif ( has("clawbts") and (ctAccessibility == AccessibilityLevel.Normal or ctAccessibility == AccessibilityLevel.Cleared) ) then
+        logic = 1
+    
+    -- Sequence Breaking
+    elseif ( has("clawbts") and ctAccessibility > AccessibilityLevel.None ) then
+        logic = logictype.CurrentStage + 1 -- was already converted once by the json
     else
-        local ctAccessibility = Tracker:FindObjectForCode("@Region: Cliff Top").AccessibilityLevel -- FIXIT I can't for the life of me get this to work if your only way to cliff top is split up. reminder to check the poptracker discord to see if anyone has suggestions
+        -- various talon trot smugglings
+        local wwiAccessibility = Tracker:FindObjectForCode("@Region: Witchyworld - The Inferno").AccessibilityLevel
+        local ctAccessibility = Tracker:FindObjectForCode("@Region: Cliff Top").AccessibilityLevel
         local jrlAccessibility = Tracker:FindObjectForCode("@Region: Jolly Roger's Lagoon - Main Area").AccessibilityLevel
         local tdlAccessibility = Tracker:FindObjectForCode("@Region: Terrydactyland - Main Area").AccessibilityLevel
-        local giAccessibility = Tracker:FindObjectForCode("@Region: Grunty Industries 1st Floor").AccessibilityLevel
-    
-        if ( has("clawbts") and (ctAccessibility == AccessibilityLevel.Normal or ctAccessibility == AccessibilityLevel.Cleared) ) then
-            logic = 1
         
-        -- Sequence Breaking
-        elseif ( has("clawbts") and ctAccessibility > AccessibilityLevel.None ) then
-            logic = logictype.CurrentStage + 1 -- was already converted once by the json
-        elseif ( (load_jrl_jrl() or load_hfp_jrl() and ctAccessibility > AccessibilityLevel.None or load_ww_jrl() and has("wwa")) and jrlAccessibility > AccessibilityLevel.None and has("doubloon", 28) and has("ttrain") ) then
-            logic = 7 -- smuggle turbo trainers from JRL, technically requires 28 doubloons
-        elseif ( (load_jrl_tdl() or load_hfp_tdl() and ctAccessibility > AccessibilityLevel.None or load_ww_tdl() and has("wwa")) and tdlAccessibility > AccessibilityLevel.None and has("springb") ) then
-            logic = 7 -- smuggle springy step shoes from TDL, requires entrance rando
-        elseif ( (load_jrl_gi() or load_hfp_gi() and ctAccessibility > AccessibilityLevel.None or load_ww_gi() and has("wwa")) and giAccessibility > AccessibilityLevel.None and has("splitup") and has("clawbts") ) then
-            logic = 7 -- smuggle claw clambers from GI, requires entrance rando, first floor access and split up to get out
+        if ( wwiAccessibility > AccessibilityLevel.None and has("ttrain") and (load_ww_ww() and has("wwa") or load_jrl_ww() or load_hfp_ww() and (connector_CTHFP_to_CT(true) or ctAccessibility > AccessibilityLevel.None)) ) then
+            logic = 7 -- ttrain from WW
+        elseif ( jrlAccessibility > AccessibilityLevel.None and has("ttrain") and has("doubloon", 28) and (load_ww_jrl() and has("wwa") or load_jrl_jrl() or load_hfp_jrl() and (connector_CTHFP_to_CT(true) or ctAccessibility > AccessibilityLevel.None)) ) then
+            logic = 7 -- ttrain from JRL
+        elseif ( tdlAccessibility > AccessibilityLevel.None and has("springb") and (load_ww_tdl() and has("wwa") or load_jrl_tdl() or load_hfp_tdl() and (connector_CTHFP_to_CT(true) or ctAccessibility > AccessibilityLevel.None)) ) then
+            logic = 7 -- springb from TDL
         end
     end
     
@@ -264,6 +280,8 @@ function notes_WL_topNearClockworkSilo(skip)
         logic = 0
     elseif ( can_clockworkShot() ) then
         logic = 2
+    elseif ( has("springb") and has("flutter") ) then
+        logic = 7 -- smuggle talon trot
     end
     
     return convertLogic(logic, skip)

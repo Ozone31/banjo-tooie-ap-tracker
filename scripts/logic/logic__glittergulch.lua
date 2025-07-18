@@ -44,6 +44,21 @@ function access_GGM_ttrot(skip)
         logic = 0
     elseif ( has("ttrain") or has("springb") ) then
         logic = 1
+    else
+        -- this is truly cursed, but doable! smuggling talon trot into MT and bringing them to GGM through the prospector's hut
+        local mtpcAccessibility = Tracker:FindObjectForCode("@Region: Mayahem Temple - Prison Compound").AccessibilityLevel
+        
+        if ( mtpcAccessibility > AccessibilityLevel.None ) then
+            if ( has("ttrain") and has("mta") and load_mt_mt() ) then
+                logic = 7 -- smuggle ttrain from spiral mountain
+            elseif ( has("clawbts") and (has("jra") and load_jrl_mt() or has("hfa") and load_hfp_mt() or has("gga") and load_ggm_mt() or connector_PL_to_PG(true) <= 7 and load_ww_mt() and has("wwa")) ) then
+                logic = 7 -- smuggle clawbts from cliff top
+            elseif ( has("springb") and (has("tda") and load_tdl_mt() or has("cca") and load_ccl_mt()) ) then
+                logic = 7 -- smuggle springb from wasteland
+            elseif ( has("clawbts") and (has("gia") and load_gi_mt() or has("cka") and load_ck_mt()) ) then
+                logic = 7 -- smuggle clawbts from quagmire
+            end
+        end
     end
     
     return convertLogic(logic, skip)
@@ -422,6 +437,8 @@ function jiggy_GGM_generatorCavern(skip)
     -- Sequence Breaking
     elseif ( has_legSpring() or has("tjump") and has_packWhack() and has("climb") ) then
         logic = math.max(1, canBreakBoulders)
+    else
+        logic = math.max(7, access_GGM_ttrot(true)) -- smuggling talon trot is all you need
     end
     
     return convertLogic(logic, skip)
@@ -1039,6 +1056,8 @@ function nests_GGM_outsidePowerHut(skip)
     -- Sequence Breaking
     elseif ( has("bbust") or has("ttrain") or has("splitup") or clockwork_shot() ) then
         logic = math.max(2, canBreakBoulders)
+    else
+        logic = math.max(7, canBreakBoulders, access_GGM_ttrot(true)) -- smuggling talon trot is enough if you can get past the boulders
     end
     
     return convertLogic(logic, skip)
@@ -1063,6 +1082,8 @@ function nests_GGM_mumbo(skip)
         logic = 1
     elseif ( can_clockworkShot() ) then
         logic = 2
+    else
+        logic = math.max(7, access_GGM_ttrot(true)) -- smuggle talon trot
     end
     
     return convertLogic(logic, skip)
@@ -1123,6 +1144,8 @@ function nests_GGM_canaryCaveHigh(skip)
     -- Sequence Breaking
     elseif ( can_reachSmallElevation() or has("ggrab") or can_clockworkShot() ) then
         logic = math.max(2, humba)
+    else
+        logic = math.max(7, humba, access_GGM_ttrot(true)) -- again, smuggle talon trot
     end
     
     return convertLogic(logic, skip)

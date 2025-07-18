@@ -15,35 +15,35 @@ end
 function access_JRL_canEnterGIWasteDisposal(skip)
     local logic = 99
     --[[        jrl_waste_disposal
-    if self.world.options.logic_type == LogicType.option_intended:
+     if self.intended_logic(state):
         logic = (self.has_explosives(state) or self.bill_drill(state))\
                     and (self.talon_trot(state)\
-                         or self.tall_jump(state) and self.roll(state) and self.flutter(state)
+                         or self.tall_jump(state) and (self.flutter(state) or self.air_rat_a_tat_rap(state))
                     )
-    elif self.world.options.logic_type == LogicType.option_easy_tricks:
+    elif self.easy_tricks_logic(state):
         logic = (self.has_explosives(state) or self.bill_drill(state))\
                 and (self.talon_trot(state)\
-                    or self.tall_jump(state) and self.roll(state) and self.flutter(state)\
+                    or self.tall_jump(state) and (self.flutter(state) or self.air_rat_a_tat_rap(state))\
                     or state.has(itemName.DOUBLOON, self.player, 28) and self.turbo_trainers(state)
                 )
-    elif self.world.options.logic_type == LogicType.option_hard_tricks:
+    elif self.hard_tricks_logic(state):
         logic = (self.has_explosives(state) or self.bill_drill(state))\
                 and (self.talon_trot(state)\
-                    or self.tall_jump(state) and self.roll(state) and self.flutter(state)\
+                    or self.tall_jump(state) and (self.flutter(state) or self.air_rat_a_tat_rap(state))\
                     or state.has(itemName.DOUBLOON, self.player, 28) and self.turbo_trainers(state)
                 )
-    elif self.world.options.logic_type == LogicType.option_glitches:
+    elif self.glitches_logic(state):
         logic = (self.has_explosives(state) or self.bill_drill(state))\
                 and (self.talon_trot(state)\
-                    or self.tall_jump(state) and self.roll(state) and self.flutter(state)\
+                    or self.tall_jump(state) and (self.flutter(state) or self.air_rat_a_tat_rap(state))\
                     or state.has(itemName.DOUBLOON, self.player, 28) and self.turbo_trainers(state)
                 )
-    --]]
+     --]]
     
     explosives = can_shootExplosiveEggs(true)
     
     -- Normal Logic
-    if ( (explosives <= logictype.CurrentStage or has_billDrill()) and (has("ttrot") or has("tjump") and has("roll") and has("flutter")) ) then
+    if ( (explosives <= logictype.CurrentStage or has_billDrill()) and (has("ttrot") or has("tjump") and (has("flutter") or has("arat"))) ) then
         logic = 0
     elseif ( (explosives <= logictype.CurrentStage or has_billDrill()) and has("doubloon", 28) and has("ttrain") ) then
         logic = 1
@@ -51,6 +51,12 @@ function access_JRL_canEnterGIWasteDisposal(skip)
     -- Sequence Breaking
     elseif ( has("ttrot") or has("tjump") and has("roll") and has("flutter") or has("doubloon", 28) and has("ttrain") ) then
         logic = math.max(1, explosives)
+    elseif ( (explosives <= 7 or has_billDrill()) and has("clawbts") and load_jrl_jrl() and has("jra") ) then
+        logic = 7 -- smuggle clawbts from cliff top
+    elseif ( (explosives <= 7 or has_billDrill()) and has("clawbts") and (load_hfp_jrl() and has("hfa") or load_ggm_jrl() and has("gga") or connector_PL_to_PG(true) <= 7 and load_ww_jrl() and has("wwa")) ) then
+        logic = 7 -- smuggle clawbts from cliff top into hfp entrance, ggm entrance, or ww entrance
+    elseif ( (explosives <= 7 or has_billDrill()) and (has("clawbts") and (load_gi_jrl() and has("gia") or load_ck_jrl() and has("cka")) or has("springb") and (load_tdl_jrl() and has("tda") or load_ccl_jrl() and has("cca")) or has("ttrain") and load_mt_jrl() and has("mta")) ) then
+        logic = 7 -- smuggle clawbts from quagmire if GI or CK take you to JRL, or springb from wasteland if either TDL or CCL take you to JRL, or ttrain from spiral mountain if MT takes you to JRL
     end
     
     return convertLogic(logic, skip)
@@ -549,7 +555,7 @@ function jiggy_JRL_lordWooFakFak(skip)
     
     -- Normal Logic
     if ( has("auqaim") and has("geggs") ) then
-		local jrlAccessibility = Tracker:FindObjectForCode("@Region: Jolly Roger's Lagoon - Main Area").AccessibilityLevel
+        local jrlAccessibility = Tracker:FindObjectForCode("@Region: Jolly Roger's Lagoon - Main Area").AccessibilityLevel
         local humba = access_JRL_humba(true)
     
         if ( (jrlAccessibility == AccessibilityLevel.Normal or jrlAccessibility == AccessibilityLevel.Cleared) and (humba <= logictype.CurrentStage or has("mumbojr")) ) then
@@ -702,8 +708,16 @@ function notes_JRL_jollys(skip)
         logic = 1
     elseif ( can_clockworkShot() ) then
         logic = 2
-	elseif ( has("bbust") ) then
-		logic = 7 -- FIXIT tricky but doable
+    elseif ( has("bbust") ) then
+        logic = 7 -- FIXIT tricky but doable
+    elseif ( has("doubloon", 28) and has("ttrain") ) then
+        logic = 7 -- smuggle talon trot from JRL
+    elseif ( has("clawbts") and load_jrl_jrl() and has("jra") ) then
+        logic = 7 -- smuggle clawbts from cliff top
+    elseif ( has("clawbts") and (load_hfp_jrl() and has("hfa") or load_ggm_jrl() and has("gga") or connector_PL_to_PG(true) <= 7 and load_ww_jrl() and has("wwa")) ) then
+        logic = 7 -- smuggle clawbts from cliff top into hfp entrance, ggm entrance, or ww entrance
+    elseif ( has("clawbts") and (load_gi_jrl() and has("gia") or load_ck_jrl() and has("cka")) or has("springb") and (load_tdl_jrl() and has("tda") or load_ccl_jrl() and has("cca")) or has("ttrain") and load_mt_jrl() and has("mta") ) then
+        logic = 7 -- smuggle clawbts from quagmire if GI or CK take you to JRL, or springb from wasteland if either TDL or CCL take you to JRL, or ttrain from spiral mountain if MT takes you to JRL
     end
     
     return convertLogic(logic, skip)
@@ -906,21 +920,23 @@ end
 function nests_JRL_seaweedSanctumBottom(skip)
     local logic = 99
     --[[        nest_seaweed_bottom
-    if self.world.options.logic_type == LogicType.option_intended:
+     if self.intended_logic(state):
         logic = self.flap_flip(state)
-    elif self.world.options.logic_type == LogicType.option_easy_tricks:
+    elif self.easy_tricks_logic(state):
         logic = self.flap_flip(state)
-    elif self.world.options.logic_type == LogicType.option_hard_tricks:
+    elif self.hard_tricks_logic(state):
         logic = self.flap_flip(state)\
-                or self.clockwork_shot(state)
-    elif self.world.options.logic_type == LogicType.option_glitches:
+                or self.clockwork_shot(state)\
+                or self.tall_jump(state) and self.beak_buster(state)
+    elif self.glitches_logic(state):
         logic = self.flap_flip(state)\
-                or self.clockwork_shot(state)
-    --]]
+                or self.clockwork_shot(state)\
+                or self.tall_jump(state) and self.beak_buster(state)
+     --]]
     
     if ( has("fflip") ) then
         logic = 0
-    elseif ( can_clockworkShot() ) then
+    elseif ( can_clockworkShot() or has("tjump") and has("bbust") ) then
         logic = 2
     end
     
