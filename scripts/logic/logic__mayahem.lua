@@ -188,7 +188,11 @@ function access_MT_humba(skip)
     --]]
     
     if ( has("humbamt") ) then
-        logic = connector_MT_to_MTJadeSnakeGrove(true)
+        if ( (has("warpmt1") or has("warpmt2")) and has("warpmt4") ) then
+            logic = 0
+        else
+            logic = connector_MT_to_MTJadeSnakeGrove(true)
+        end
     end
     
     return convertLogic(logic, skip)
@@ -337,6 +341,8 @@ function jiggy_MT_bovina(skip)
         logic = 1
     elseif ( has("fflip") and has("bbust") or basic_MT_canUseFlightPad() and has("bbomb") ) then
         logic = 2
+    elseif ( has("ttrot") and has("arat") ) then
+        logic = 7
     end
     
     return convertLogic(logic, skip)

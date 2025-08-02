@@ -127,8 +127,8 @@ end
 function access_TDL_oogleBooglesOpen(skip)
     local logic = 99
     --[[        oogle_boogles_open
-    self.humbaTDL(state) and self.mumboTDL(state)
-    --]]
+     self.humbaTDL(state) and self.mumboTDL(state)
+     --]]
     
     local humba = access_TDL_humba(true)
     local mumbo = access_TDL_mumbo(true)
@@ -1923,7 +1923,7 @@ function cheato_TDL_insideMountainWithTRex(skip)
         logic = 0 -- Normal Logic
     elseif ( humba < 3 and has("roar") ) then
         logic = humba -- Sequence Breaking
-    elseif ( logictype.CurrentStage > 2 and can_shootEggs("ceggs") ) then
+    elseif ( can_shootEggs("ceggs") ) then
         logic = 3 -- Normal Logic
     
     -- Sequence Breaking
