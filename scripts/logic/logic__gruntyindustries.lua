@@ -752,7 +752,7 @@ function jiggy_GI_guarded(skip)
     -- Normal Logic
     if ( has("splitup") and has("clawbts") and has("eggaim") and (can_shootEggs("begg") or can_shootEggs("feggs") or can_shootEggs("geggs")) and (has("tjump") or has_legSpring() and (has_wingWhack() or has_glide())) ) then
         logic = 0
-    elseif ( has("splitup") and (has("tjump") and (has("clawbts") or (gi2Accessibility == AccessibilityLevel.Normal or gi2Accessibility == AccessibilityLevel.Cleared)) or has("clawbts") and (has_wingWhack() or has_glide()) and (has("eggaim") or has_wingWhack())) and (can_shootEggs("begg") or can_shootEggs("feggs") or can_shootEggs("geggs")) ) then
+    elseif ( has("splitup") and (has("tjump") and (has("clawbts") or (gi2Accessibility == AccessibilityLevel.Normal or gi2Accessibility == AccessibilityLevel.Cleared)) or has_legSpring() and has_glide() and (has("eggaim") or has_wingWhack())) and (can_shootEggs("begg") or can_shootEggs("feggs") or can_shootEggs("geggs")) ) then
         logic = 1
     elseif ( (has("clawbts") or (gi2Accessibility == AccessibilityLevel.Normal or gi2Accessibility == AccessibilityLevel.Cleared)) and (has("tjump") or has_legSpring()) and can_clockworkShot() ) then
         logic = 2
@@ -2353,7 +2353,7 @@ function nests_GI_fanHard(skip)
         logic = 0 -- Normal Logic
     elseif ( canBeatWeldar < 2 ) then
         logic = 1 -- Sequence Breaking
-    elseif ( has("climb") or has_legSpring() and (has_wingWhack() or has_glide()) and can_clockworkShot() ) then
+    elseif ( can_clockworkShot() and (has("climb") or has_legSpring() and (has_wingWhack() or has_glide())) ) then
         logic = 2 -- Normal Logic
     
     -- Sequence Breaking

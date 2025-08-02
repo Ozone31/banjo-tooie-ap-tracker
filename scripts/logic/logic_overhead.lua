@@ -126,7 +126,7 @@ end
 function load_mt_mt()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_mt == "Mayahem Temple" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("mte_mt") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("mte_mt") then
         return true
     else
         return false
@@ -136,7 +136,7 @@ end
 function load_mt_ggm()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_mt == "Glitter Gulch Mine" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("mte_gg") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("mte_gg") then
         return true
     else
         return false
@@ -146,7 +146,7 @@ end
 function load_mt_ww()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_mt == "Witchyworld" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("mte_ww") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("mte_ww") then
         return true
     else
         return false
@@ -156,7 +156,7 @@ end
 function load_mt_jrl()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_mt == "Jolly Roger's Lagoon - Town Center" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("mte_jr") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("mte_jr") then
         return true
     else
         return false
@@ -166,7 +166,7 @@ end
 function load_mt_tdl()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_mt == "Terrydactyland" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("mte_td") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("mte_td") then
         return true
     else
         return false
@@ -176,7 +176,7 @@ end
 function load_mt_gi()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_mt == "Outside Grunty Industries" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("mte_gi") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("mte_gi") then
         return true
     else
         return false
@@ -186,7 +186,7 @@ end
 function load_mt_hfp()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_mt == "Hailfire Peaks" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("mte_hf") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("mte_hf") then
         return true
     else
         return false
@@ -196,7 +196,7 @@ end
 function load_mt_ccl()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_mt == "Cloud Cuckooland" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("mte_cc") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("mte_cc") then
         return true
     else
         return false
@@ -206,7 +206,7 @@ end
 function load_mt_ck()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_mt == "Cauldron Keep" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("mte_ck") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("mte_ck") then
         return true
     else
         return false
@@ -216,7 +216,7 @@ end
 function load_ggm_mt()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_ggm == "Mayahem Temple" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("gge_mt") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("gge_mt") then
         return true
     else
         return false
@@ -226,7 +226,7 @@ end
 function load_ggm_ggm()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_ggm == "Glitter Gulch Mine" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("gge_gg") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("gge_gg") then
         return true
     else
         return false
@@ -236,7 +236,7 @@ end
 function load_ggm_ww()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_ggm == "Witchyworld" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("gge_ww") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("gge_ww") then
         return true
     else
         return false
@@ -246,7 +246,7 @@ end
 function load_ggm_jrl()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_ggm == "Jolly Roger's Lagoon - Town Center" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("gge_jr") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("gge_jr") then
         return true
     else
         return false
@@ -256,7 +256,7 @@ end
 function load_ggm_tdl()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_ggm == "Terrydactyland" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("gge_td") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("gge_td") then
         return true
     else
         return false
@@ -266,7 +266,7 @@ end
 function load_ggm_gi()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_ggm == "Outside Grunty Industries" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("gge_gi") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("gge_gi") then
         return true
     else
         return false
@@ -276,7 +276,7 @@ end
 function load_ggm_hfp()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_ggm == "Hailfire Peaks" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("gge_hf") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("gge_hf") then
         return true
     else
         return false
@@ -286,7 +286,7 @@ end
 function load_ggm_ccl()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_ggm == "Cloud Cuckooland" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("gge_cc") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("gge_cc") then
         return true
     else
         return false
@@ -296,7 +296,7 @@ end
 function load_ggm_ck()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_ggm == "Cauldron Keep" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("gge_ck") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("gge_ck") then
         return true
     else
         return false
@@ -306,7 +306,7 @@ end
 function load_ww_mt()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_ww == "Mayahem Temple" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("wwe_mt") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("wwe_mt") then
         return true
     else
         return false
@@ -316,7 +316,7 @@ end
 function load_ww_ggm()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_ww == "Glitter Gulch Mine" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("wwe_gg") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("wwe_gg") then
         return true
     else
         return false
@@ -326,7 +326,7 @@ end
 function load_ww_ww()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_ww == "Witchyworld" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("wwe_ww") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("wwe_ww") then
         return true
     else
         return false
@@ -336,7 +336,7 @@ end
 function load_ww_jrl()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_ww == "Jolly Roger's Lagoon - Town Center" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("wwe_jr") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("wwe_jr") then
         return true
     else
         return false
@@ -346,7 +346,7 @@ end
 function load_ww_tdl()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_ww == "Terrydactyland" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("wwe_td") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("wwe_td") then
         return true
     else
         return false
@@ -356,7 +356,7 @@ end
 function load_ww_gi()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_ww == "Outside Grunty Industries" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("wwe_gi") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("wwe_gi") then
         return true
     else
         return false
@@ -366,7 +366,7 @@ end
 function load_ww_hfp()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_ww == "Hailfire Peaks" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("wwe_hf") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("wwe_hf") then
         return true
     else
         return false
@@ -376,7 +376,7 @@ end
 function load_ww_ccl()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_ww == "Cloud Cuckooland" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("wwe_cc") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("wwe_cc") then
         return true
     else
         return false
@@ -386,7 +386,7 @@ end
 function load_ww_ck()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_ww == "Cauldron Keep" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("wwe_ck") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("wwe_ck") then
         return true
     else
         return false
@@ -396,7 +396,7 @@ end
 function load_jrl_mt()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_jrl == "Mayahem Temple" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("jre_mt") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("jre_mt") then
         return true
     else
         return false
@@ -406,7 +406,7 @@ end
 function load_jrl_ggm()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_jrl == "Glitter Gulch Mine" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("jre_gg") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("jre_gg") then
         return true
     else
         return false
@@ -416,7 +416,7 @@ end
 function load_jrl_ww()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_jrl == "Witchyworld" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("jre_ww") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("jre_ww") then
         return true
     else
         return false
@@ -426,7 +426,7 @@ end
 function load_jrl_jrl()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_jrl == "Jolly Roger's Lagoon - Town Center" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("jre_jr") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("jre_jr") then
         return true
     else
         return false
@@ -436,7 +436,7 @@ end
 function load_jrl_tdl()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_jrl == "Terrydactyland" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("jre_td") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("jre_td") then
         return true
     else
         return false
@@ -446,7 +446,7 @@ end
 function load_jrl_gi()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_jrl == "Outside Grunty Industries" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("jre_gi") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("jre_gi") then
         return true
     else
         return false
@@ -456,7 +456,7 @@ end
 function load_jrl_hfp()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_jrl == "Hailfire Peaks" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("jre_hf") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("jre_hf") then
         return true
     else
         return false
@@ -466,7 +466,7 @@ end
 function load_jrl_ccl()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_jrl == "Cloud Cuckooland" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("jre_cc") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("jre_cc") then
         return true
     else
         return false
@@ -476,7 +476,7 @@ end
 function load_jrl_ck()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_jrl == "Cauldron Keep" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("jre_ck") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("jre_ck") then
         return true
     else
         return false
@@ -486,7 +486,7 @@ end
 function load_hfp_mt()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_hfp == "Mayahem Temple" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("hfe_mt") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("hfe_mt") then
         return true
     else
         return false
@@ -496,7 +496,7 @@ end
 function load_hfp_ggm()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_hfp == "Glitter Gulch Mine" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("hfe_gg") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("hfe_gg") then
         return true
     else
         return false
@@ -506,7 +506,7 @@ end
 function load_hfp_ww()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_hfp == "Witchyworld" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("hfe_ww") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("hfe_ww") then
         return true
     else
         return false
@@ -516,7 +516,7 @@ end
 function load_hfp_jrl()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_hfp == "Jolly Roger's Lagoon - Town Center" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("hfe_jr") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("hfe_jr") then
         return true
     else
         return false
@@ -526,7 +526,7 @@ end
 function load_hfp_tdl()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_hfp == "Terrydactyland" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("hfe_td") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("hfe_td") then
         return true
     else
         return false
@@ -536,7 +536,7 @@ end
 function load_hfp_gi()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_hfp == "Outside Grunty Industries" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("hfe_gi") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("hfe_gi") then
         return true
     else
         return false
@@ -546,7 +546,7 @@ end
 function load_hfp_hfp()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_hfp == "Hailfire Peaks" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("hfe_hf") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("hfe_hf") then
         return true
     else
         return false
@@ -556,7 +556,7 @@ end
 function load_hfp_ccl()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_hfp == "Cloud Cuckooland" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("hfe_cc") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("hfe_cc") then
         return true
     else
         return false
@@ -566,7 +566,7 @@ end
 function load_hfp_ck()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_hfp == "Cauldron Keep" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("hfe_ck") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("hfe_ck") then
         return true
     else
         return false
@@ -576,7 +576,7 @@ end
 function load_tdl_mt()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_tdl == "Mayahem Temple" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("tde_mt") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("tde_mt") then
         return true
     else
         return false
@@ -586,7 +586,7 @@ end
 function load_tdl_ggm()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_tdl == "Glitter Gulch Mine" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("tde_gg") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("tde_gg") then
         return true
     else
         return false
@@ -596,7 +596,7 @@ end
 function load_tdl_ww()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_tdl == "Witchyworld" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("tde_ww") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("tde_ww") then
         return true
     else
         return false
@@ -606,7 +606,7 @@ end
 function load_tdl_jrl()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_tdl == "Jolly Roger's Lagoon - Town Center" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("tde_jr") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("tde_jr") then
         return true
     else
         return false
@@ -616,7 +616,7 @@ end
 function load_tdl_tdl()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_tdl == "Terrydactyland" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("tde_td") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("tde_td") then
         return true
     else
         return false
@@ -626,7 +626,7 @@ end
 function load_tdl_gi()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_tdl == "Outside Grunty Industries" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("tde_gi") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("tde_gi") then
         return true
     else
         return false
@@ -636,7 +636,7 @@ end
 function load_tdl_hfp()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_tdl == "Hailfire Peaks" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("tde_hf") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("tde_hf") then
         return true
     else
         return false
@@ -646,7 +646,7 @@ end
 function load_tdl_ccl()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_tdl == "Cloud Cuckooland" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("tde_cc") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("tde_cc") then
         return true
     else
         return false
@@ -656,7 +656,7 @@ end
 function load_tdl_ck()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_tdl == "Cauldron Keep" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("tde_ck") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("tde_ck") then
         return true
     else
         return false
@@ -666,7 +666,7 @@ end
 function load_ccl_mt()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_ccl == "Mayahem Temple" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("cce_mt") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("cce_mt") then
         return true
     else
         return false
@@ -676,7 +676,7 @@ end
 function load_ccl_ggm()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_ccl == "Glitter Gulch Mine" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("cce_gg") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("cce_gg") then
         return true
     else
         return false
@@ -686,7 +686,7 @@ end
 function load_ccl_ww()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_ccl == "Witchyworld" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("cce_ww") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("cce_ww") then
         return true
     else
         return false
@@ -696,7 +696,7 @@ end
 function load_ccl_jrl()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_ccl == "Jolly Roger's Lagoon - Town Center" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("cce_jr") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("cce_jr") then
         return true
     else
         return false
@@ -706,7 +706,7 @@ end
 function load_ccl_tdl()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_ccl == "Terrydactyland" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("cce_td") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("cce_td") then
         return true
     else
         return false
@@ -716,7 +716,7 @@ end
 function load_ccl_gi()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_ccl == "Outside Grunty Industries" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("cce_gi") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("cce_gi") then
         return true
     else
         return false
@@ -726,7 +726,7 @@ end
 function load_ccl_hfp()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_ccl == "Hailfire Peaks" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("cce_hf") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("cce_hf") then
         return true
     else
         return false
@@ -736,7 +736,7 @@ end
 function load_ccl_ccl()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_ccl == "Cloud Cuckooland" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("cce_cc") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("cce_cc") then
         return true
     else
         return false
@@ -746,7 +746,7 @@ end
 function load_ccl_ck()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_ccl == "Cauldron Keep" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("cce_ck") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("cce_ck") then
         return true
     else
         return false
@@ -756,7 +756,7 @@ end
 function load_gi_mt()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_gi == "Mayahem Temple" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("gie_mt") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("gie_mt") then
         return true
     else
         return false
@@ -766,7 +766,7 @@ end
 function load_gi_ggm()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_gi == "Glitter Gulch Mine" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("gie_gg") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("gie_gg") then
         return true
     else
         return false
@@ -776,7 +776,7 @@ end
 function load_gi_ww()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_gi == "Witchyworld" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("gie_ww") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("gie_ww") then
         return true
     else
         return false
@@ -786,7 +786,7 @@ end
 function load_gi_jrl()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_gi == "Jolly Roger's Lagoon - Town Center" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("gie_jr") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("gie_jr") then
         return true
     else
         return false
@@ -796,7 +796,7 @@ end
 function load_gi_tdl()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_gi == "Terrydactyland" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("gie_td") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("gie_td") then
         return true
     else
         return false
@@ -806,7 +806,7 @@ end
 function load_gi_gi()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_gi == "Outside Grunty Industries" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("gie_gi") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("gie_gi") then
         return true
     else
         return false
@@ -816,7 +816,7 @@ end
 function load_gi_hfp()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_gi == "Hailfire Peaks" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("gie_hf") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("gie_hf") then
         return true
     else
         return false
@@ -826,7 +826,7 @@ end
 function load_gi_ccl()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_gi == "Cloud Cuckooland" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("gie_cc") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("gie_cc") then
         return true
     else
         return false
@@ -836,7 +836,7 @@ end
 function load_gi_ck()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_gi == "Cauldron Keep" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("gie_ck") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("gie_ck") then
         return true
     else
         return false
@@ -846,7 +846,7 @@ end
 function load_ck_mt()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_ck == "Mayahem Temple" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("cke_mt") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("cke_mt") then
         return true
     else
         return false
@@ -856,7 +856,7 @@ end
 function load_ck_ggm()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_ck == "Glitter Gulch Mine" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("cke_gg") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("cke_gg") then
         return true
     else
         return false
@@ -866,7 +866,7 @@ end
 function load_ck_ww()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_ck == "Witchyworld" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("cke_ww") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("cke_ww") then
         return true
     else
         return false
@@ -876,7 +876,7 @@ end
 function load_ck_jrl()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_ck == "Jolly Roger's Lagoon - Town Center" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("cke_jr") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("cke_jr") then
         return true
     else
         return false
@@ -886,7 +886,7 @@ end
 function load_ck_tdl()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_ck == "Terrydactyland" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("cke_td") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("cke_td") then
         return true
     else
         return false
@@ -896,7 +896,7 @@ end
 function load_ck_gi()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_ck == "Outside Grunty Industries" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("cke_gi") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("cke_gi") then
         return true
     else
         return false
@@ -906,7 +906,7 @@ end
 function load_ck_hfp()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_ck == "Hailfire Peaks" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("cke_hf") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("cke_hf") then
         return true
     else
         return false
@@ -916,7 +916,7 @@ end
 function load_ck_ccl()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_ck == "Cloud Cuckooland" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("cke_cc") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("cke_cc") then
         return true
     else
         return false
@@ -926,7 +926,7 @@ end
 function load_ck_ck()
     if (has("ber_er_manualoverride_off") or has("entrancerando_off")) and load_ck == "Cauldron Keep" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("cke_ck") then
+    elseif has("ber_er_manualoverride_on") and has("entrancerando_on") and has("cke_ck") then
         return true
     else
         return false
@@ -938,7 +938,7 @@ end
 function load_boss_mt_mt()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_mt == "Targitzan's Really Sacred Chamber" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("mtb_mt") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("mtb_mt") then
         return true
     else
         return false
@@ -948,7 +948,7 @@ end
 function load_boss_mt_ggm()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_mt == "Inside Chuffy's Boiler" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("mtb_gg") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("mtb_gg") then
         return true
     else
         return false
@@ -958,7 +958,7 @@ end
 function load_boss_mt_ww()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_mt == "Big Top Interior" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("mtb_ww") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("mtb_ww") then
         return true
     else
         return false
@@ -968,7 +968,7 @@ end
 function load_boss_mt_jrl()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_mt == "Davy Jones' Locker" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("mtb_jr") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("mtb_jr") then
         return true
     else
         return false
@@ -978,7 +978,7 @@ end
 function load_boss_mt_tdl()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_mt == "Terry's Nest" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("mtb_td") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("mtb_td") then
         return true
     else
         return false
@@ -988,7 +988,7 @@ end
 function load_boss_mt_gi()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_mt == "Repair Depot" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("mtb_gi") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("mtb_gi") then
         return true
     else
         return false
@@ -998,7 +998,7 @@ end
 function load_boss_mt_hfpl()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_mt == "Chilli Billi Crater" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("mtb_hl") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("mtb_hl") then
         return true
     else
         return false
@@ -1008,7 +1008,7 @@ end
 function load_boss_mt_hfpi()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_mt == "Chilli Willy Crater" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("mtb_hi") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("mtb_hi") then
         return true
     else
         return false
@@ -1018,7 +1018,7 @@ end
 function load_boss_mt_ccl()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_mt == "Mingy Jongo Skull" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("mtb_cc") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("mtb_cc") then
         return true
     else
         return false
@@ -1028,7 +1028,7 @@ end
 function load_boss_ggm_mt()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_ggm == "Targitzan's Really Sacred Chamber" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("ggb_mt") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("ggb_mt") then
         return true
     else
         return false
@@ -1038,7 +1038,7 @@ end
 function load_boss_ggm_ggm()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_ggm == "Inside Chuffy's Boiler" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("ggb_gg") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("ggb_gg") then
         return true
     else
         return false
@@ -1048,7 +1048,7 @@ end
 function load_boss_ggm_ww()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_ggm == "Big Top Interior" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("ggb_ww") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("ggb_ww") then
         return true
     else
         return false
@@ -1058,7 +1058,7 @@ end
 function load_boss_ggm_jrl()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_ggm == "Davy Jones' Locker" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("ggb_jr") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("ggb_jr") then
         return true
     else
         return false
@@ -1068,7 +1068,7 @@ end
 function load_boss_ggm_tdl()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_ggm == "Terry's Nest" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("ggb_td") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("ggb_td") then
         return true
     else
         return false
@@ -1078,7 +1078,7 @@ end
 function load_boss_ggm_gi()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_ggm == "Repair Depot" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("ggb_gi") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("ggb_gi") then
         return true
     else
         return false
@@ -1088,7 +1088,7 @@ end
 function load_boss_ggm_hfpl()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_ggm == "Chilli Billi Crater" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("ggb_hl") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("ggb_hl") then
         return true
     else
         return false
@@ -1098,7 +1098,7 @@ end
 function load_boss_ggm_hfpi()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_ggm == "Chilli Willy Crater" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("ggb_hi") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("ggb_hi") then
         return true
     else
         return false
@@ -1108,7 +1108,7 @@ end
 function load_boss_ggm_ccl()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_ggm == "Mingy Jongo Skull" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("ggb_cc") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("ggb_cc") then
         return true
     else
         return false
@@ -1118,7 +1118,7 @@ end
 function load_boss_ww_mt()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_ww == "Targitzan's Really Sacred Chamber" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("wwb_mt") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("wwb_mt") then
         return true
     else
         return false
@@ -1128,7 +1128,7 @@ end
 function load_boss_ww_ggm()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_ww == "Inside Chuffy's Boiler" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("wwb_gg") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("wwb_gg") then
         return true
     else
         return false
@@ -1138,7 +1138,7 @@ end
 function load_boss_ww_ww()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_ww == "Big Top Interior" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("wwb_ww") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("wwb_ww") then
         return true
     else
         return false
@@ -1148,7 +1148,7 @@ end
 function load_boss_ww_jrl()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_ww == "Davy Jones' Locker" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("wwb_jr") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("wwb_jr") then
         return true
     else
         return false
@@ -1158,7 +1158,7 @@ end
 function load_boss_ww_tdl()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_ww == "Terry's Nest" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("wwb_td") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("wwb_td") then
         return true
     else
         return false
@@ -1168,7 +1168,7 @@ end
 function load_boss_ww_gi()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_ww == "Repair Depot" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("wwb_gi") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("wwb_gi") then
         return true
     else
         return false
@@ -1178,7 +1178,7 @@ end
 function load_boss_ww_hfpl()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_ww == "Chilli Billi Crater" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("wwb_hl") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("wwb_hl") then
         return true
     else
         return false
@@ -1188,7 +1188,7 @@ end
 function load_boss_ww_hfpi()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_ww == "Chilli Willy Crater" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("wwb_hi") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("wwb_hi") then
         return true
     else
         return false
@@ -1198,7 +1198,7 @@ end
 function load_boss_ww_ccl()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_ww == "Mingy Jongo Skull" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("wwb_cc") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("wwb_cc") then
         return true
     else
         return false
@@ -1208,7 +1208,7 @@ end
 function load_boss_jrl_mt()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_jrl == "Targitzan's Really Sacred Chamber" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("jrb_mt") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("jrb_mt") then
         return true
     else
         return false
@@ -1218,7 +1218,7 @@ end
 function load_boss_jrl_ggm()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_jrl == "Inside Chuffy's Boiler" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("jrb_gg") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("jrb_gg") then
         return true
     else
         return false
@@ -1228,7 +1228,7 @@ end
 function load_boss_jrl_ww()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_jrl == "Big Top Interior" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("jrb_ww") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("jrb_ww") then
         return true
     else
         return false
@@ -1238,7 +1238,7 @@ end
 function load_boss_jrl_jrl()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_jrl == "Davy Jones' Locker" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("jrb_jr") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("jrb_jr") then
         return true
     else
         return false
@@ -1248,7 +1248,7 @@ end
 function load_boss_jrl_tdl()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_jrl == "Terry's Nest" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("jrb_td") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("jrb_td") then
         return true
     else
         return false
@@ -1258,7 +1258,7 @@ end
 function load_boss_jrl_gi()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_jrl == "Repair Depot" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("jrb_gi") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("jrb_gi") then
         return true
     else
         return false
@@ -1268,7 +1268,7 @@ end
 function load_boss_jrl_hfpl()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_jrl == "Chilli Billi Crater" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("jrb_hl") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("jrb_hl") then
         return true
     else
         return false
@@ -1278,7 +1278,7 @@ end
 function load_boss_jrl_hfpi()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_jrl == "Chilli Willy Crater" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("jrb_hi") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("jrb_hi") then
         return true
     else
         return false
@@ -1288,7 +1288,7 @@ end
 function load_boss_jrl_ccl()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_jrl == "Mingy Jongo Skull" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("jrb_cc") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("jrb_cc") then
         return true
     else
         return false
@@ -1298,7 +1298,7 @@ end
 function load_boss_hfpl_mt()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_hfpl == "Targitzan's Really Sacred Chamber" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("hlb_mt") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("hlb_mt") then
         return true
     else
         return false
@@ -1308,7 +1308,7 @@ end
 function load_boss_hfpl_ggm()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_hfpl == "Inside Chuffy's Boiler" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("hlb_gg") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("hlb_gg") then
         return true
     else
         return false
@@ -1318,7 +1318,7 @@ end
 function load_boss_hfpl_ww()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_hfpl == "Big Top Interior" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("hlb_ww") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("hlb_ww") then
         return true
     else
         return false
@@ -1328,7 +1328,7 @@ end
 function load_boss_hfpl_jrl()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_hfpl == "Davy Jones' Locker" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("hlb_jr") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("hlb_jr") then
         return true
     else
         return false
@@ -1338,7 +1338,7 @@ end
 function load_boss_hfpl_tdl()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_hfpl == "Terry's Nest" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("hlb_td") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("hlb_td") then
         return true
     else
         return false
@@ -1348,7 +1348,7 @@ end
 function load_boss_hfpl_gi()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_hfpl == "Repair Depot" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("hlb_gi") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("hlb_gi") then
         return true
     else
         return false
@@ -1358,7 +1358,7 @@ end
 function load_boss_hfpl_hfpl()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_hfpl == "Chilli Billi Crater" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("hlb_hl") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("hlb_hl") then
         return true
     else
         return false
@@ -1368,7 +1368,7 @@ end
 function load_boss_hfpl_hfpi()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_hfpl == "Chilli Willy Crater" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("hlb_hi") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("hlb_hi") then
         return true
     else
         return false
@@ -1378,7 +1378,7 @@ end
 function load_boss_hfpl_ccl()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_hfpl == "Mingy Jongo Skull" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("hlb_cc") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("hlb_cc") then
         return true
     else
         return false
@@ -1388,7 +1388,7 @@ end
 function load_boss_tdl_mt()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_tdl == "Targitzan's Really Sacred Chamber" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("tdb_mt") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("tdb_mt") then
         return true
     else
         return false
@@ -1398,7 +1398,7 @@ end
 function load_boss_tdl_ggm()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_tdl == "Inside Chuffy's Boiler" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("tdb_gg") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("tdb_gg") then
         return true
     else
         return false
@@ -1408,7 +1408,7 @@ end
 function load_boss_tdl_ww()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_tdl == "Big Top Interior" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("tdb_ww") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("tdb_ww") then
         return true
     else
         return false
@@ -1418,7 +1418,7 @@ end
 function load_boss_tdl_jrl()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_tdl == "Davy Jones' Locker" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("tdb_jr") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("tdb_jr") then
         return true
     else
         return false
@@ -1428,7 +1428,7 @@ end
 function load_boss_tdl_tdl()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_tdl == "Terry's Nest" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("tdb_td") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("tdb_td") then
         return true
     else
         return false
@@ -1438,7 +1438,7 @@ end
 function load_boss_tdl_gi()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_tdl == "Repair Depot" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("tdb_gi") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("tdb_gi") then
         return true
     else
         return false
@@ -1448,7 +1448,7 @@ end
 function load_boss_tdl_hfpl()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_tdl == "Chilli Billi Crater" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("tdb_hl") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("tdb_hl") then
         return true
     else
         return false
@@ -1458,7 +1458,7 @@ end
 function load_boss_tdl_hfpi()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_tdl == "Chilli Willy Crater" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("tdb_hi") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("tdb_hi") then
         return true
     else
         return false
@@ -1468,7 +1468,7 @@ end
 function load_boss_tdl_ccl()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_tdl == "Mingy Jongo Skull" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("tdb_cc") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("tdb_cc") then
         return true
     else
         return false
@@ -1478,7 +1478,7 @@ end
 function load_boss_hfpi_mt()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_hfpi == "Targitzan's Really Sacred Chamber" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("hib_mt") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("hib_mt") then
         return true
     else
         return false
@@ -1488,7 +1488,7 @@ end
 function load_boss_hfpi_ggm()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_hfpi == "Inside Chuffy's Boiler" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("hib_gg") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("hib_gg") then
         return true
     else
         return false
@@ -1498,7 +1498,7 @@ end
 function load_boss_hfpi_ww()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_hfpi == "Big Top Interior" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("hib_ww") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("hib_ww") then
         return true
     else
         return false
@@ -1508,7 +1508,7 @@ end
 function load_boss_hfpi_jrl()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_hfpi == "Davy Jones' Locker" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("hib_jr") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("hib_jr") then
         return true
     else
         return false
@@ -1518,7 +1518,7 @@ end
 function load_boss_hfpi_tdl()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_hfpi == "Terry's Nest" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("hib_td") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("hib_td") then
         return true
     else
         return false
@@ -1528,7 +1528,7 @@ end
 function load_boss_hfpi_gi()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_hfpi == "Repair Depot" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("hib_gi") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("hib_gi") then
         return true
     else
         return false
@@ -1538,7 +1538,7 @@ end
 function load_boss_hfpi_hfpl()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_hfpi == "Chilli Billi Crater" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("hib_hl") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("hib_hl") then
         return true
     else
         return false
@@ -1548,7 +1548,7 @@ end
 function load_boss_hfpi_hfpi()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_hfpi == "Chilli Willy Crater" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("hib_hi") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("hib_hi") then
         return true
     else
         return false
@@ -1558,7 +1558,7 @@ end
 function load_boss_hfpi_ccl()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_hfpi == "Mingy Jongo Skull" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("hib_cc") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("hib_cc") then
         return true
     else
         return false
@@ -1568,7 +1568,7 @@ end
 function load_boss_gi_mt()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_gi == "Targitzan's Really Sacred Chamber" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("gib_mt") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("gib_mt") then
         return true
     else
         return false
@@ -1578,7 +1578,7 @@ end
 function load_boss_gi_ggm()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_gi == "Inside Chuffy's Boiler" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("gib_gg") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("gib_gg") then
         return true
     else
         return false
@@ -1588,7 +1588,7 @@ end
 function load_boss_gi_ww()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_gi == "Big Top Interior" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("gib_ww") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("gib_ww") then
         return true
     else
         return false
@@ -1598,7 +1598,7 @@ end
 function load_boss_gi_jrl()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_gi == "Davy Jones' Locker" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("gib_jr") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("gib_jr") then
         return true
     else
         return false
@@ -1608,7 +1608,7 @@ end
 function load_boss_gi_tdl()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_gi == "Terry's Nest" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("gib_td") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("gib_td") then
         return true
     else
         return false
@@ -1618,7 +1618,7 @@ end
 function load_boss_gi_gi()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_gi == "Repair Depot" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("gib_gi") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("gib_gi") then
         return true
     else
         return false
@@ -1628,7 +1628,7 @@ end
 function load_boss_gi_hfpl()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_gi == "Chilli Billi Crater" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("gib_hl") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("gib_hl") then
         return true
     else
         return false
@@ -1638,7 +1638,7 @@ end
 function load_boss_gi_hfpi()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_gi == "Chilli Willy Crater" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("gib_hi") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("gib_hi") then
         return true
     else
         return false
@@ -1648,7 +1648,7 @@ end
 function load_boss_gi_ccl()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_gi == "Mingy Jongo Skull" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("gib_cc") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("gib_cc") then
         return true
     else
         return false
@@ -1658,7 +1658,7 @@ end
 function load_boss_ccl_mt()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_ccl == "Targitzan's Really Sacred Chamber" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("ccb_mt") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("ccb_mt") then
         return true
     else
         return false
@@ -1668,7 +1668,7 @@ end
 function load_boss_ccl_ggm()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_ccl == "Inside Chuffy's Boiler" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("ccb_gg") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("ccb_gg") then
         return true
     else
         return false
@@ -1678,7 +1678,7 @@ end
 function load_boss_ccl_ww()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_ccl == "Big Top Interior" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("ccb_ww") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("ccb_ww") then
         return true
     else
         return false
@@ -1688,7 +1688,7 @@ end
 function load_boss_ccl_jrl()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_ccl == "Davy Jones' Locker" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("ccb_jr") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("ccb_jr") then
         return true
     else
         return false
@@ -1698,7 +1698,7 @@ end
 function load_boss_ccl_tdl()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_ccl == "Terry's Nest" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("ccb_td") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("ccb_td") then
         return true
     else
         return false
@@ -1708,7 +1708,7 @@ end
 function load_boss_ccl_gi()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_ccl == "Repair Depot" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("ccb_gi") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("ccb_gi") then
         return true
     else
         return false
@@ -1718,7 +1718,7 @@ end
 function load_boss_ccl_hfpl()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_ccl == "Chilli Billi Crater" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("ccb_hl") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("ccb_hl") then
         return true
     else
         return false
@@ -1728,7 +1728,7 @@ end
 function load_boss_ccl_hfpi()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_ccl == "Chilli Willy Crater" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("ccb_hi") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("ccb_hi") then
         return true
     else
         return false
@@ -1738,7 +1738,7 @@ end
 function load_boss_ccl_ccl()
     if (has("ber_er_manualoverride_off") or has("randomizebossentrances_off")) and load_boss_ccl == "Mingy Jongo Skull" then
         return true
-    elseif has("ber_er_manualoverride_on") and has("ccb_cc") then
+    elseif has("ber_er_manualoverride_on") and has("randomizebossentrances_on") and has("ccb_cc") then
         return true
     else
         return false

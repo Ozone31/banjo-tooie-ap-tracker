@@ -238,6 +238,8 @@ function chuffy_canEnterFromHFP(skip)
      --]]
     
     if ( has("trainswhp1") ) then
+        local canCallTrain = chuffy_canCallTrain(true)
+        
         if ( has("climb") and can_reachSmallElevation() and canCallTrain <= logictype.CurrentStage ) then
             logic = 0
         elseif ( has("climb") and has("bbust") or has("ttrot") ) then
