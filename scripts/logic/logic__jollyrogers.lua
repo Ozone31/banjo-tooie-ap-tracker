@@ -1244,7 +1244,7 @@ function jinjo_JRL_atBlubbers(skip)
         logic = 2
     
     -- Sequence Breaking
-    else
+    elseif ( has_legSpring() ) then
         logic = math.max(1, explosives)
     end
     
@@ -1432,7 +1432,7 @@ function cheato_JRL_ancientSwimmingBaths(skip)
         logic = 3
     
     -- Sequence Breaking
-    elseif ( has("ttorp") and has_wingWhack() ) then
+    elseif ( has("ttorp") and has_wingWhack() or has("ttorp") and can_clockworkShot() ) then
         logic = 7
     end
     

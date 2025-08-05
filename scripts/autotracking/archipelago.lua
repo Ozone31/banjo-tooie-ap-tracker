@@ -409,7 +409,7 @@ function onClear(slot_data)
             elseif k == "Chilli Willy Crater" then
                 load_boss_hfpi = v
             elseif k == "Mingy Jongo Skull" then
-                load_boss_cck = v
+                load_boss_ccl = v
             end
         end
     end
