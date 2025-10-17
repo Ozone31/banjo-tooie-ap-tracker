@@ -1163,7 +1163,8 @@ function honeycomb_WW_topOfSpaceZone(skip)
     if self.world.options.logic_type == LogicType.option_intended:
         logic = self.grip_grab(state) and self.climb(state) and self.flap_flip(state)
     elif self.world.options.logic_type == LogicType.option_easy_tricks:
-        logic = self.grip_grab(state) and self.climb(state) and self.flap_flip(state)
+        logic = self.grip_grab(state) and self.climb(state) and self.flap_flip(state)\
+                or self.leg_spring(state) and self.glide(state)
     elif self.world.options.logic_type == LogicType.option_hard_tricks:
         logic = (self.grip_grab(state) or self.beak_buster(state)) and self.climb(state) and self.flap_flip(state)\
                 or self.leg_spring(state) and self.glide(state)\
@@ -1181,7 +1182,9 @@ function honeycomb_WW_topOfSpaceZone(skip)
     -- Normal Logic
     if ( has("ggrab") and has("climb") and has("fflip") ) then
         logic = 0
-    elseif ( (has("ggrab") or has("bbust")) and has("climb") and has("fflip") or has_legSpring() and has_glide() or can_clockworkShot() and (has("ttrot") or has("splitup")) ) then
+    elseif ( has_legSpring() and has_glide() ) then
+        logic = 1
+    elseif ( (has("ggrab") or has("bbust")) and has("climb") and has("fflip") or can_clockworkShot() and (has("ttrot") or has("splitup")) ) then
         logic = 2
     elseif ( can_clockworkShot() and (ggmfdAccessibility == AccessibilityLevel.Normal or ggmfdAccessibility == AccessibilityLevel.Cleared) and ggmToWW <= logictype.CurrentStage ) then
         logic = 3
@@ -1437,24 +1440,20 @@ end
 function other_WW_tickets(skip)
     local logic = 99
     --[[        can_kill_fruity
-     return state.can_reach_region(regionName.WW, self.player) and (
+    return state.can_reach_region(regionName.WW, self.player) and (
                 self.has_explosives(state)\
                 or self.humbaWW(state)\
+                or self.bill_drill(state)\
+                or self.mumboWW(state) and self.escape_inferno_as_mumbo(state)\
                 or self.ice_eggs(state) and ( # Freezing these enemies severely weakens them.
-                    self.blue_eggs(state)\
-                    or self.fire_eggs(state)\
-                    or self.grenade_eggs(state)\            -- no need to check this, because if you can shoot ice eggs and have grenade eggs, you have explosives (on all difficulties)
-                    or self.clockwork_eggs(state)\
-                    or self.beak_barge(state)\
-                    or self.roll(state)\
+                    self.beak_barge(state)\
                     or self.air_rat_a_tat_rap(state)\
                     or self.ground_rat_a_tat_rap(state)\
                     or self.beak_buster(state)\
-                    or self.breegull_bash(state)\
-                    or self.wonderwing(state)
+                    or self.wing_whack(state)
                 )
            )
-     --]]
+    --]]
     
     local wwAccessible = 99
     if ( load_boss_ww_ww() ) then
@@ -1469,14 +1468,15 @@ function other_WW_tickets(skip)
     end
     local explosives = can_shootExplosiveEggs(true)
     local humba = access_WW_humba(true)
+    local mumbo = access_WW_mumbo(true)
     
     -- Normal Logic
-    if ( wwAccessible <= logictype.CurrentStage and (explosives <= logictype.CurrentStage or humba <= logictype.CurrentStage or can_shootEggs("ieggs") and (has("begg") or has("feggs") or has("ceggs") or has("bbarge") or has("roll") or has("arat") or has("grat") or has("bbust") or has("wwing"))) ) then
+    if ( wwAccessible <= logictype.CurrentStage and (explosives <= logictype.CurrentStage or humba <= logictype.CurrentStage or mumbo <= logictype.CurrentStage or has_billDrill() or can_shootEggs("ieggs") and (has("bbarge") or has("arat") or has("grat") or has("bbust") or has_wingWhack())) ) then
         logic = 0
     
     -- Sequence Breaking
     else
-        logic = math.max(wwAccessible, math.min(explosives, humba))
+        logic = math.max(wwAccessible, math.min(explosives, humba, mumbo))
     end
     
     return convertLogic(logic, skip)

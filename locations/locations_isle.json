@@ -1204,7 +1204,6 @@
     "children": [
       {
         "name": "SM: Cheato Rewards",
-        "access_rules": [ "fpad", "fflip, climb" ],
         "visibility_rules": [ "cheatocontent_rewards", "cheatocontent_both" ],
         "sections": [
           {

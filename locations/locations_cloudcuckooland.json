@@ -1356,7 +1356,7 @@
             "chest_unopened_img": "/images/locations/signpost.png",
             "chest_opened_img": "/images/locations/signpost2.png",
             "visibility_rules": ["signposts_on"],
-            "access_rules": ["^$signs_CCL_sackPackSilo"]
+            "access_rules": ["$basic_CCL_canReachSackPackSilo"]
           }
         ],
         "map_locations": [

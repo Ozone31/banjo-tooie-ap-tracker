@@ -69,27 +69,33 @@ end
 function access_TDL_scrat(skip)
     local logic = 99
     --[[
-    if self.world.options.logic_type == LogicType.option_intended:
-        logic = self.can_beat_king_coal(state) and state.has(itemName.TRAINSWIH, self.player) and state.has(itemName.TRAINSWTD, self.player) and self.taxi_pack(state) and self.check_mumbo_magic(state, itemName.MUMBOIH) and (self.tall_jump(state) or self.talon_trot(state))
-    elif self.world.options.logic_type == LogicType.option_easy_tricks:
-        logic = self.can_beat_king_coal(state) and state.has(itemName.TRAINSWIH, self.player) and state.has(itemName.TRAINSWTD, self.player) and self.taxi_pack(state) and self.check_mumbo_magic(state, itemName.MUMBOIH)
-    elif self.world.options.logic_type == LogicType.option_hard_tricks:
-        logic = self.can_beat_king_coal(state) and state.has(itemName.TRAINSWIH, self.player) and state.has(itemName.TRAINSWTD, self.player) and self.taxi_pack(state) and self.check_mumbo_magic(state, itemName.MUMBOIH)
-    elif self.world.options.logic_type == LogicType.option_glitches:
-        logic = self.can_beat_king_coal(state) and state.has(itemName.TRAINSWIH, self.player) and state.has(itemName.TRAINSWTD, self.player) and self.taxi_pack(state) and self.check_mumbo_magic(state, itemName.MUMBOIH)
+    if self.intended_logic(state):
+        logic = self.can_beat_king_coal(state) and state.has(itemName.TRAINSWIH, self.player) and state.has(itemName.TRAINSWTD, self.player)\
+                and self.taxi_pack(state) and state.has(itemName.MUMBOIH, self.player) and (self.tall_jump(state) or self.talon_trot(state))\
+                and self.train_raised(state)
+    elif self.easy_tricks_logic(state):
+        logic = self.can_beat_king_coal(state) and state.has(itemName.TRAINSWIH, self.player) and state.has(itemName.TRAINSWTD, self.player)\
+                and self.taxi_pack(state) and state.has(itemName.MUMBOIH, self.player) and self.train_raised(state)
+    elif self.hard_tricks_logic(state):
+        logic = self.can_beat_king_coal(state) and state.has(itemName.TRAINSWIH, self.player) and state.has(itemName.TRAINSWTD, self.player)\
+                and self.taxi_pack(state) and state.has(itemName.MUMBOIH, self.player) and self.train_raised(state)
+    elif self.glitches_logic(state):
+        logic = self.can_beat_king_coal(state) and state.has(itemName.TRAINSWIH, self.player) and state.has(itemName.TRAINSWTD, self.player)\
+                and self.taxi_pack(state) and state.has(itemName.MUMBOIH, self.player) and self.train_raised(state)
     --]]
     
     local canBeatKingCoal = chuffy_canBeatKingCoal(true)
+    local trainRaised = chuffy_trainRaised(true)
     
     -- Normal Logic
-    if ( canBeatKingCoal <= logictype.CurrentStage and has("trainswih") and has("trainswtd") and has_taxiPack() and has("mumboih") and (has("tjump") or has("ttrot")) ) then
+    if ( canBeatKingCoal <= logictype.CurrentStage and trainRaised <= logictype.CurrentStage and has("trainswih") and has("trainswtd") and has_taxiPack() and has("mumboih") and (has("tjump") or has("ttrot")) ) then
         logic = 0
-    elseif ( canBeatKingCoal <= logictype.CurrentStage and has("trainswih") and has("trainswtd") and has_taxiPack() and has("mumboih") ) then
+    elseif ( canBeatKingCoal <= logictype.CurrentStage and trainRaised <= logictype.CurrentStage and has("trainswih") and has("trainswtd") and has_taxiPack() and has("mumboih") ) then
         logic = 1
     
     -- Sequence Breaking
     elseif ( has("trainswih") and has("trainswtd") and has_taxiPack() and has("mumboih") ) then
-        logic = math.max(1, canBeatKingCoal)
+        logic = math.max(1, math.min(canBeatKingCoal, trainRaised))
     end
     
     return convertLogic(logic, skip)
@@ -98,27 +104,32 @@ end
 function access_TDL_scrut(skip)
     local logic = 99
     --[[
-    if self.world.options.logic_type == LogicType.option_intended:
-        logic = self.can_beat_king_coal(state) and state.has(itemName.TRAINSWTD, self.player) and state.has(itemName.TRAINSWWW, self.player) and self.grenade_eggs(state) and self.egg_aim(state)
-    elif self.world.options.logic_type == LogicType.option_easy_tricks:
-        logic = self.can_beat_king_coal(state) and state.has(itemName.TRAINSWTD, self.player) and state.has(itemName.TRAINSWWW, self.player) and self.grenade_eggs(state)
-    elif self.world.options.logic_type == LogicType.option_hard_tricks:
-        logic = self.can_beat_king_coal(state) and state.has(itemName.TRAINSWTD, self.player) and state.has(itemName.TRAINSWWW, self.player) and self.grenade_eggs(state)
-    elif self.world.options.logic_type == LogicType.option_glitches:
-        logic = self.can_beat_king_coal(state) and state.has(itemName.TRAINSWTD, self.player) and state.has(itemName.TRAINSWWW, self.player) and self.grenade_eggs(state)
+    if self.intended_logic(state):
+        logic = self.can_beat_king_coal(state) and state.has(itemName.TRAINSWTD, self.player) and state.has(itemName.TRAINSWWW, self.player)\
+                and self.train_raised(state) and self.grenade_eggs(state) and self.egg_aim(state)
+    elif self.easy_tricks_logic(state):
+        logic = self.can_beat_king_coal(state) and state.has(itemName.TRAINSWTD, self.player) and state.has(itemName.TRAINSWWW, self.player)\
+                and self.train_raised(state) and self.grenade_eggs(state)
+    elif self.hard_tricks_logic(state):
+        logic = self.can_beat_king_coal(state) and state.has(itemName.TRAINSWTD, self.player) and state.has(itemName.TRAINSWWW, self.player)\
+                and self.train_raised(state) and self.grenade_eggs(state)
+    elif self.glitches_logic(state):
+        logic = self.can_beat_king_coal(state) and state.has(itemName.TRAINSWTD, self.player) and state.has(itemName.TRAINSWWW, self.player)\
+                and self.train_raised(state) and self.grenade_eggs(state)
     --]]
     
     local canBeatKingCoal = chuffy_canBeatKingCoal(true)
+    local trainRaised = chuffy_trainRaised(true)
     
     -- Normal Logic
-    if ( canBeatKingCoal <= logictype.CurrentStage and has("trainswtd") and has("trainswww") and can_shootEggs("geggs") and has("eggaim") ) then
+    if ( canBeatKingCoal <= logictype.CurrentStage and trainRaised <= logictype.CurrentStage and has("trainswtd") and has("trainswww") and can_shootEggs("geggs") and has("eggaim") ) then
         logic = 0
-    elseif ( canBeatKingCoal <= logictype.CurrentStage and has("trainswtd") and has("trainswww") and can_shootEggs("geggs") ) then
+    elseif ( canBeatKingCoal <= logictype.CurrentStage and trainRaised <= logictype.CurrentStage and has("trainswtd") and has("trainswww") and can_shootEggs("geggs") ) then
         logic = 1
     
     -- Sequence Breaking
     elseif ( has("trainswtd") and has("trainswww") and can_shootEggs("geggs") ) then
-        logic = math.max(1, canBeatKingCoal)
+        logic = math.max(1, math.min(canBeatKingCoal, trainRaised))
     end
     
     return convertLogic(logic, skip)
@@ -449,34 +460,32 @@ function silo_TDL_taxiPack(skip)
     --[[
     self.can_access_taxi_pack_silo(state) and self.check_notes(state, locationName.TAXPACK)
     
-    if self.world.options.logic_type == LogicType.option_intended:
-        return self.split_up(state) and (self.tall_jump(state) and (self.grip_grab(state) or self.sack_pack(state)))
-    elif self.world.options.logic_type == LogicType.option_easy_tricks:
-        return self.split_up(state) and\
-                    (self.tall_jump(state) and (self.grip_grab(state) or
-                    self.pack_whack(state) and self.tall_jump(state)\                       -- checking for tall jump here is redundant because it's also outside of the brackets
-                    or self.pack_whack(state) and self.grip_grab(state)\
-                    or self.sack_pack(state)))
-    elif self.world.options.logic_type == LogicType.option_hard_tricks:
-        return self.split_up(state) and\
-                    (self.tall_jump(state) and (self.grip_grab(state)\
-                    or self.pack_whack(state) and self.tall_jump(state)\
-                    or self.pack_whack(state) and self.grip_grab(state)\
-                    or self.sack_pack(state)))
-    elif self.world.options.logic_type == LogicType.option_glitches:
-        return self.split_up(state) and\
-                    (self.tall_jump(state) and (self.grip_grab(state) or
+    if self.intended_logic(state):
+        logic = self.split_up(state) and (self.tall_jump(state) and (self.grip_grab(state) or self.sack_pack(state)))
+    elif self.easy_tricks_logic(state):
+        logic = self.split_up(state) and\
+                    (self.tall_jump(state) and self.grip_grab(state) or
                     self.pack_whack(state) and self.tall_jump(state)\
                     or self.pack_whack(state) and self.grip_grab(state)\
-                    or self.sack_pack(state)))
+                    or self.sack_pack(state))
+    elif self.hard_tricks_logic(state):
+        logic = self.split_up(state) and\
+                    (self.tall_jump(state) and self.grip_grab(state)\
+                    or self.pack_whack(state) and self.tall_jump(state)\
+                    or self.pack_whack(state) and self.grip_grab(state)\
+                    or self.sack_pack(state))
+    elif self.glitches_logic(state):
+        logic = self.split_up(state) and\
+                    (self.tall_jump(state) and self.grip_grab(state) or
+                    self.pack_whack(state) and self.tall_jump(state)\
+                    or self.pack_whack(state) and self.grip_grab(state)\
+                    or self.sack_pack(state))
     --]]
-    
-    -- FIXIT - needs testing - you probably do not need tall jump with pack whack if you have grip grab
     
     if ( taxpack_count() and has("splitup") ) then
         if ( has("tjump") and (has("ggrab") or has_sackPack()) ) then
             logic = 0
-        elseif ( has("tjump") and has_packWhack() ) then
+        elseif ( has("tjump") and has_packWhack() or has("ggrab") and has_packWhack() or has_sackPack() ) then
             logic = 1
         end
     end
@@ -600,7 +609,7 @@ function jiggy_TDL_dippy(skip)
     if self.world.options.logic_type == LogicType.option_intended:
         logic = self.talon_torpedo(state) and state.can_reach_region(regionName.CC, self.player) and self.dive(state)
     elif self.world.options.logic_type == LogicType.option_easy_tricks:
-        logic = self.talon_torpedo(state) and state.can_reach_region(regionName.CC, self.player) and (self.dive(state) or self.beak_buster(state))
+        logic = self.talon_torpedo(state) and state.can_reach_region(regionName.CC, self.player) and self.dive(state)
     elif self.world.options.logic_type == LogicType.option_hard_tricks:
         logic = self.talon_torpedo(state) and state.can_reach_region(regionName.CC, self.player)
     elif self.world.options.logic_type == LogicType.option_glitches:
@@ -612,14 +621,14 @@ function jiggy_TDL_dippy(skip)
     -- Normal Logic
     if ( has("dive") and has("ttorp") and (cclAccessibility == AccessibilityLevel.Normal or cclAccessibility == AccessibilityLevel.Cleared) ) then
         logic = 0
-    elseif ( has("bbust") and has("ttorp") and (cclAccessibility == AccessibilityLevel.Normal or cclAccessibility == AccessibilityLevel.Cleared) ) then
-        logic = 1
     elseif ( has("ttorp") and (cclAccessibility == AccessibilityLevel.Normal or cclAccessibility == AccessibilityLevel.Cleared) ) then
         logic = 2
         
     -- Sequence Breaking
+    elseif ( has("dive") and has("ttorp") and cclAccessibility > AccessibilityLevel.None ) then
+        logic = logictype.CurrentStage + 1 -- was already converted once by the json
     elseif ( has("ttorp") and cclAccessibility > AccessibilityLevel.None ) then
-        logic = math.max(2, logictype.CurrentStage + 1) -- was already converted once by the json
+        logic = math.max(2, logictype.CurrentStage + 1)
     end
     
     return convertLogic(logic, skip)

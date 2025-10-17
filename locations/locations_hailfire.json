@@ -702,7 +702,7 @@
             "name": "Colosseum Cheato Page",
             "chest_unopened_img": "/images/locations/page.png",
             "chest_opened_img": "/images/locations/page2.png",
-            "access_rules": ["^$cheato_HFP_lavaSideAboveHotPool"]
+            "access_rules": ["^$cheato_HFP_colosseum"]
           }
         ],
         "map_locations": [

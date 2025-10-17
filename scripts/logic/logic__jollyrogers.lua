@@ -151,45 +151,6 @@ function access_JRL_canEscapeSunkenShip(skip)
     return convertLogic(logic, skip)
 end
 
-function access_JRL_canEscapeFromLockerCavern(skip)
-    local logic = 99
-    --[[        can_escape_from_locker_cavern
-    if self.world.options.logic_type == LogicType.option_intended:
-        return self.ice_eggs_item(state) and self.check_mumbo_magic(state, itemName.MUMBOJR) and self.sub_aqua_egg_aiming(state)\
-                or self.humbaJRL(state)
-    elif self.world.options.logic_type == LogicType.option_easy_tricks:
-        return self.ice_eggs_item(state) and self.check_mumbo_magic(state, itemName.MUMBOJR) and self.sub_aqua_egg_aiming(state)\
-                or self.ice_eggs_item(state) and self.doubleAir(state) and self.sub_aqua_egg_aiming(state)\
-                    and self.air_pit_from_jrl_warp_pads(state) and state.has(itemName.WARPJR5, self.player)\
-                or self.humbaJRL(state)
-    elif self.world.options.logic_type == LogicType.option_hard_tricks:
-        return self.check_mumbo_magic(state, itemName.MUMBOJR)\
-                or self.air_pit_from_jrl_warp_pads(state) and state.has(itemName.WARPJR5, self.player)\
-                or self.humbaJRL(state)
-    elif self.world.options.logic_type == LogicType.option_glitches:
-        return self.check_mumbo_magic(state, itemName.MUMBOJR)\
-                or self.air_pit_from_jrl_warp_pads(state) and state.has(itemName.WARPJR5, self.player)\
-                or self.humbaJRL(state)
-    --]]
-    
-    jrlHumba = access_JRL_humba(true)
-    
-    -- Normal Logic
-    if ( has("ieggs") and has("mumbojr") and has("auqaim") or jrlHumba <= logictype.CurrentStage ) then
-        logic = 0
-    elseif ( has("ieggs") and has("dair") and has("auqaim") and basic_JRL_canGetAirFromWarping() and (has("warpjr5") or has("randomizewarppads_off")) or jrlHumba < 2 ) then
-        logic = 1
-    elseif ( has("mumbojr") or basic_JRL_canGetAirFromWarping() and (has("warpjr5") or has("randomizewarppads_off")) ) then
-        logic = 2
-        
-    -- Sequence Breaking
-    else
-        logic = jrlHumba
-    end
-    
-    return convertLogic(logic, skip)
-end
-
 function access_JRL_canClimbSeaweedSanctum(skip)
     local logic = 99
     --[[        can_climb_seaweed
@@ -353,15 +314,15 @@ function jiggy_JRL_chrisPBacon(skip)
     local humba = access_JRL_humba(true)
     
     -- Normal Logic
-    if ( has("auqaim") and can_shootLinearEggs() and has("mumbojr") ) then
+    if ( has("auqaim") and has_linearEgg() and has("mumbojr") ) then
         logic = 0
-    elseif ( has("auqaim") and can_shootLinearEggs() and has("dair") ) then
+    elseif ( has("auqaim") and has_linearEgg() and has("dair") ) then
         logic = 1
-    elseif ( has("auqaim") and can_shootLinearEggs() or humba <= logictype.CurrentStage and has("eggaim") and can_shootLinearEggs() ) then
+    elseif ( has("auqaim") and has_linearEgg() or humba <= logictype.CurrentStage and has("eggaim") and has_linearEgg() ) then
         logic = 2
     
     -- Sequence Breaking
-    elseif ( has("eggaim") and can_shootLinearEggs() ) then
+    elseif ( has("eggaim") and has_linearEgg() ) then
         logic = math.max(2, humba)
     end
     
@@ -923,7 +884,8 @@ function nests_JRL_seaweedSanctumBottom(skip)
      if self.intended_logic(state):
         logic = self.flap_flip(state)
     elif self.easy_tricks_logic(state):
-        logic = self.flap_flip(state)
+        logic = self.flap_flip(state)\
+                or self.tall_jump(state) and self.beak_buster(state)
     elif self.hard_tricks_logic(state):
         logic = self.flap_flip(state)\
                 or self.clockwork_shot(state)\
@@ -936,7 +898,9 @@ function nests_JRL_seaweedSanctumBottom(skip)
     
     if ( has("fflip") ) then
         logic = 0
-    elseif ( can_clockworkShot() or has("tjump") and has("bbust") ) then
+    elseif ( has("tjump") and has("bbust") ) then
+        logic = 1
+    elseif ( can_clockworkShot() ) then
         logic = 2
     end
     
@@ -1141,24 +1105,33 @@ end
 function signpost_JRL_wastePipeAlcove(skip)
     local logic = 99
     --[[        signpost_jrl_pipes
-    if self.world.options.logic_type == LogicType.option_intended:
+    if self.intended_logic(state):
         logic = (self.has_explosives(state) or self.bill_drill(state)) and \
                 self.grip_grab(state) and self.spring_pad(state) and self.talon_trot(state)
-    elif self.world.options.logic_type == LogicType.option_easy_tricks:
-        logic = ((self.has_explosives(state) or self.bill_drill(state))\
-                    and self.grip_grab(state) and self.spring_pad(state) and self.talon_trot(state))\
-                or (self.has_explosives(state) and self.spring_pad(state)\
-                    and (self.glide(state) or self.leg_spring(state)))
-    elif self.world.options.logic_type == LogicType.option_hard_tricks:
-        logic = ((self.has_explosives(state) or self.bill_drill(state))\
-                    and self.grip_grab(state) and self.spring_pad(state) and self.talon_trot(state))\
-                or (self.has_explosives(state) and self.spring_pad(state)\
-                    and (self.glide(state) or self.leg_spring(state)))
-    elif self.world.options.logic_type == LogicType.option_glitches:
-        logic = ((self.has_explosives(state) or self.bill_drill(state))\
-                    and self.grip_grab(state) and self.spring_pad(state) and self.talon_trot(state))\
-                or (self.has_explosives(state) and self.spring_pad(state)\
-                    and (self.glide(state) or self.leg_spring(state)))
+    elif self.easy_tricks_logic(state):
+        logic = (self.has_explosives(state) or self.bill_drill(state))\
+                    and self.grip_grab(state) and self.spring_pad(state) and self.talon_trot(state)\
+                or self.has_explosives(state) and (
+                    self.split_up(state) and self.spring_pad(state)
+                    or self.leg_spring(state)
+                    or self.glide(state)
+                )
+    elif self.hard_tricks_logic(state):
+        logic = (self.has_explosives(state) or self.bill_drill(state))\
+                    and self.grip_grab(state) and self.spring_pad(state) and self.talon_trot(state)\
+                or self.has_explosives(state) and (
+                    self.split_up(state) and self.spring_pad(state)
+                    or self.leg_spring(state)
+                    or self.glide(state)
+                )
+    elif self.glitches_logic(state):
+        logic = (self.has_explosives(state) or self.bill_drill(state))\
+                    and self.grip_grab(state) and self.spring_pad(state) and self.talon_trot(state)\
+                or self.has_explosives(state) and (
+                    self.split_up(state) and self.spring_pad(state)
+                    or self.leg_spring(state)
+                    or self.glide(state)
+                )
     --]]
     
     local explosives = can_shootExplosiveEggs(true)
@@ -1166,11 +1139,11 @@ function signpost_JRL_wastePipeAlcove(skip)
     -- Normal Logic
     if ( has("ggrab") and has("tjump") and has("ttrot") and (has_billDrill() or explosives <= logictype.CurrentStage) ) then
         logic = 0
-    elseif ( explosives <= logictype.CurrentStage and has("tjump") and (has_glide() or has_legSpring()) ) then
+    elseif ( explosives <= logictype.CurrentStage and (has("splitup") and has("tjump") or has_glide() or has_legSpring()) ) then
         logic = 1
     
     -- Sequence Breaking
-    elseif ( has("tjump") and (has("ggrab") and has("ttrot") or has_glide() or has_legSpring()) ) then
+    elseif ( has("tjump") and (has("ggrab") and has("ttrot") or has_glide()) or has_legSpring() ) then
         logic = math.max(1, explosives)
     end
     
@@ -1182,22 +1155,36 @@ end
 function jinjo_JRL_alcove(skip)
     local logic = 99
     --[[        jinjo_alcove
-    if self.world.options.logic_type == LogicType.option_intended:
+    if self.intended_logic(state):
         logic = state.has(itemName.DOUBLOON, self.player, 28) and self.turbo_trainers(state)
-    elif self.world.options.logic_type == LogicType.option_easy_tricks:
+    elif self.easy_tricks_logic(state):
         logic = (state.has(itemName.DOUBLOON, self.player, 28) and self.turbo_trainers(state))\
-                or (self.has_explosives(state) and (self.pack_whack(state) or self.sack_pack(state)\
-                        or (self.leg_spring(state) and self.glide(state))))
-    elif self.world.options.logic_type == LogicType.option_hard_tricks:
+                or (self.has_explosives(state) and (
+                        self.pack_whack(state) and self.tall_jump(state)
+                        or self.sack_pack(state)
+                        or (self.leg_spring(state) and self.glide(state))
+                    )
+                )
+    elif self.hard_tricks_logic(state):
         logic = (state.has(itemName.DOUBLOON, self.player, 28) and self.turbo_trainers(state))\
-                or (self.has_explosives(state) and (self.pack_whack(state) or self.sack_pack(state)\
-                    or (self.leg_spring(state) and self.glide(state))))\
+                or (
+                    self.has_explosives(state) and (
+                        self.pack_whack(state)
+                        or self.sack_pack(state)
+                        or (self.leg_spring(state) and self.glide(state))
+                    )
+                )\
                 or self.tall_jump(state) and (self.flutter(state) or self.air_rat_a_tat_rap(state))\
                 or self.clockwork_shot(state)
-    elif self.world.options.logic_type == LogicType.option_glitches:
+    elif self.glitches_logic(state):
         logic = (state.has(itemName.DOUBLOON, self.player, 28) and self.turbo_trainers(state))\
-                or (self.has_explosives(state) and (self.pack_whack(state) or self.sack_pack(state)\
-                    or (self.leg_spring(state) and self.glide(state))))\
+                or (
+                    self.has_explosives(state) and (
+                        self.pack_whack(state)
+                        or self.sack_pack(state)
+                        or (self.leg_spring(state) and self.glide(state))
+                    )
+                )\
                 or self.tall_jump(state) and (self.flutter(state) or self.air_rat_a_tat_rap(state))\
                 or self.clockwork_shot(state)
     --]]
@@ -1207,14 +1194,14 @@ function jinjo_JRL_alcove(skip)
     -- Normal Logic
     if ( has("doubloon", 28) and has("ttrain") ) then
         logic = 0
-    elseif ( explosives <= logictype.CurrentStage and (has_packWhack() or has_sackPack() or has_glide() and has_legSpring()) ) then
+    elseif ( explosives <= logictype.CurrentStage and (has_packWhack() and has("tjump") or has_sackPack() or has_glide() and has_legSpring()) ) then
         logic = 1
-    elseif ( can_clockworkShot() or has("tjump") and (has("flutter") or has("arat")) ) then
+    elseif ( explosives <= logictype.CurrentStage and has_packWhack() or can_clockworkShot() or has("tjump") and (has("flutter") or has("arat")) ) then
         logic = 2
     
     -- Sequence Breaking
     elseif ( has_packWhack() or has_sackPack() or has_glide() and has_legSpring() ) then
-        logic = math.max(1, explosives)
+        logic = math.max(2, explosives)
     end
     
     return convertLogic(logic, skip)
@@ -1413,10 +1400,12 @@ function cheato_JRL_ancientSwimmingBaths(skip)
     elif self.world.options.logic_type == LogicType.option_hard_tricks:
         logic = self.talon_torpedo(state) and ((self.glide(state) and self.tall_jump(state)) or self.leg_spring(state) or
                 self.wing_whack(state) or
+                self.clockwork_shot(state) or
                 (self.pack_whack(state) and self.grip_grab(state)))
     elif self.world.options.logic_type == LogicType.option_glitches:
         logic = self.talon_torpedo(state) and ((self.glide(state) and self.tall_jump(state)) or self.leg_spring(state) or
                 self.wing_whack(state) or
+                self.clockwork_shot(state) or
                 (self.check_solo_moves(state, itemName.WWING) and self.tall_jump(state)) or
                 (self.tall_jump(state) and self.pack_whack(state) and self.grip_grab(state)))
     --]]
@@ -1426,14 +1415,10 @@ function cheato_JRL_ancientSwimmingBaths(skip)
         logic = 0
     elseif ( has("ttorp") and (has("ggrab") and has_packWhack() or has_legSpring()) ) then
         logic = 1
-    elseif ( has("ttorp") and has_wingWhack() ) then
+    elseif ( has("ttorp") and (has_wingWhack() or can_clockworkShot()) ) then
         logic = 2
     elseif ( has("tjump") and has("wwing") ) then
         logic = 3
-    
-    -- Sequence Breaking
-    elseif ( has("ttorp") and has_wingWhack() or has("ttorp") and can_clockworkShot() ) then
-        logic = 7
     end
     
     return convertLogic(logic, skip)

@@ -171,13 +171,68 @@ function connector_MT_to_MTKickballStadium(skip)
     return convertLogic(logic, skip)
 end
 
-function connector_MT_to_TDLHatch(skip)
+function connector_MT_to_TDL(skip)
     local logic = 99
-    --[[
-    rules.jiggy_treasure_chamber(state)
+    --[[        mt_tdl_backdoor
+    if self.intended_logic(state):
+        logic = self.egg_aim(state) and\
+            (self.grip_grab(state) and self.spring_pad(state) and self.flap_flip(state) and self.talon_trot(state) or self.MT_flight_pad(state)) and\
+               self.backdoors_enabled(state)
+    elif self.easy_tricks_logic(state):
+        logic = (self.grip_grab(state) and self.spring_pad(state) and self.flap_flip(state) and self.egg_aim(state) and self.talon_trot(state)\
+                or self.MT_flight_pad(state) and self.can_shoot_any_egg(state)) and\
+               self.backdoors_enabled(state)
+    elif self.hard_tricks_logic(state):
+        logic = (self.grip_grab(state) and self.spring_pad(state) and self.flap_flip(state) and self.egg_aim(state) and self.talon_trot(state)\
+                or self.MT_flight_pad(state) and self.can_shoot_any_egg(state)) and\
+               self.backdoors_enabled(state)
+    elif self.glitches_logic(state):
+        logic = (self.grip_grab(state) and self.spring_pad(state) and self.flap_flip(state) and self.egg_aim(state) and self.talon_trot(state)\
+                or self.MT_flight_pad(state) and self.can_shoot_any_egg(state)) and\
+               self.backdoors_enabled(state)
     --]]
     
-    logic = jiggy_MT_treasureChamber(true)
+    if ( has("eggaim") and (has("ggrab") and has("tjump") and has("fflip") and has("ttrot") or basic_MT_canUseFlightPad()) and has("backdoorsopen_on") ) then
+        logic = 0
+    elseif ( basic_MT_canUseFlightPad() and can_shootEggs() and has("backdoorsopen_on") ) then
+        logic = 1
+    end
+    
+    return convertLogic(logic, skip)
+end
+
+function connector_MT_to_TDLHatch(skip)
+    local logic = 99
+    --[[        mt_to_hatch_region
+    if self.intended_logic(state):
+        logic = self.egg_aim(state) and\
+            (self.flap_flip(state) or self.slightly_elevated_ledge(state)) and\
+              ((self.grip_grab(state) and self.spring_pad(state) and self.flap_flip(state) and self.talon_trot(state)) or self.MT_flight_pad(state))
+    elif self.easy_tricks_logic(state):
+        logic = (self.flap_flip(state) or self.slightly_elevated_ledge(state))\
+                and ((self.grip_grab(state) and self.spring_pad(state) and self.flap_flip(state) and self.egg_aim(state) and self.talon_trot(state))\
+                    or (self.MT_flight_pad(state) and self.can_shoot_any_egg(state))\
+                    or state.can_reach_region(regionName.TL_HATCH, self.player))\
+                and (self.MT_flight_pad(state) and self.can_shoot_any_egg(state) or self.egg_aim(state))                -- this makes the entire previous section redundant
+    elif self.hard_tricks_logic(state):
+        logic = (self.flap_flip(state) or self.slightly_elevated_ledge(state))\
+                and ((self.grip_grab(state) and self.spring_pad(state) and self.flap_flip(state) and self.egg_aim(state) and self.talon_trot(state))\
+                    or (self.MT_flight_pad(state) and self.can_shoot_any_egg(state))\
+                    or state.can_reach_region(regionName.TL_HATCH, self.player))\
+                and (self.MT_flight_pad(state) and self.can_shoot_any_egg(state) or self.egg_aim(state))
+    elif self.glitches_logic(state):
+        logic = (self.flap_flip(state) or self.slightly_elevated_ledge(state))\
+                and ((self.grip_grab(state) and self.spring_pad(state) and self.flap_flip(state) and self.egg_aim(state) and self.talon_trot(state))\
+                    or (self.MT_flight_pad(state) and self.can_shoot_any_egg(state))\
+                    or state.can_reach_region(regionName.TL_HATCH, self.player))\
+                and (self.MT_flight_pad(state) and self.can_shoot_any_egg(state) or self.egg_aim(state))
+    --]]
+    
+    if ( has("eggaim") and (has("fflip") or can_reachSlightlyElevatedLedge()) and (has("ggrab") and has("tjump") and has("fflip") and has("ttrot") or basic_MT_canUseFlightPad()) ) then
+        logic = 0
+    elseif ( (has("fflip") or can_reachSlightlyElevatedLedge()) and basic_MT_canUseFlightPad() and can_shootEggs() ) then
+        logic = 1
+    end
     
     return convertLogic(logic, skip)
 end
@@ -925,24 +980,76 @@ end
 
 function connector_JRLLockerCavern_to_JRLSunkenShip(skip)
     local logic = 99
-    --[[
-    rules.can_escape_from_locker_cavern(state)
+    --[[        locker_cavern_to_sunken_ship
+    if self.intended_logic(state):
+        logic = self.ice_eggs_item(state) and state.has(itemName.MUMBOJR, self.player) and self.sub_aqua_egg_aiming(state)\
+                or self.humbaJRL(state)
+    elif self.easy_tricks_logic(state):
+        logic = self.ice_eggs_item(state) and state.has(itemName.MUMBOJR, self.player) and self.sub_aqua_egg_aiming(state)\
+                or self.ice_eggs_item(state) and self.doubleAir(state) and self.sub_aqua_egg_aiming(state)\
+                    and self.air_pit_from_jrl_warp_pads(state) and state.has(itemName.WARPJR5, self.player)\
+                or self.humbaJRL(state)
+    elif self.hard_tricks_logic(state):
+        logic = state.has(itemName.MUMBOJR, self.player)\
+                or self.air_pit_from_jrl_warp_pads(state) and state.has(itemName.WARPJR5, self.player)\
+                or self.humbaJRL(state)
+    elif self.glitches_logic(state):
+        logic = state.has(itemName.MUMBOJR, self.player)\
+                or self.air_pit_from_jrl_warp_pads(state) and state.has(itemName.WARPJR5, self.player)\
+                or self.humbaJRL(state)
     --]]
     
-    logic = access_JRL_canEscapeFromLockerCavern(true)
+    jrlHumba = access_JRL_humba(true)
     
-    return convertLogic(logic, skip)
+    -- Normal Logic
+    if ( has("ieggs") and has("mumbojr") and has("auqaim") or jrlHumba <= logictype.CurrentStage ) then
+        logic = 0
+    elseif ( has("ieggs") and has("dair") and has("auqaim") and basic_JRL_canGetAirFromWarping() and (has("warpjr5") or has("randomizewarppads_off")) or jrlHumba < 2 ) then
+        logic = 1
+    elseif ( has("mumbojr") or basic_JRL_canGetAirFromWarping() and (has("warpjr5") or has("randomizewarppads_off")) ) then
+        logic = 2
+        
+    -- Sequence Breaking
+    else
+        logic = jrlHumba
+    end
 end
 
 function connector_JRLLockerCavern_to_JRLBigFishCavern(skip)
     local logic = 99
-    --[[
-    rules.can_escape_from_locker_cavern(state)
+    --[[        locker_cavern_to_big_fish_cavern
+    if self.intended_logic(state):
+        logic = self.ice_eggs_item(state) and state.has(itemName.MUMBOJR, self.player) and self.sub_aqua_egg_aiming(state)\
+                or self.humbaJRL(state)
+    elif self.easy_tricks_logic(state):
+        logic = self.ice_eggs_item(state) and state.has(itemName.MUMBOJR, self.player) and self.sub_aqua_egg_aiming(state)\
+                or self.ice_eggs_item(state) and self.doubleAir(state) and self.sub_aqua_egg_aiming(state)\
+                    and self.air_pit_from_jrl_warp_pads(state) and state.has(itemName.WARPJR5, self.player)\
+                or self.humbaJRL(state)
+    elif self.hard_tricks_logic(state):
+        logic = state.has(itemName.MUMBOJR, self.player)\
+                or self.air_pit_from_jrl_warp_pads(state) and state.has(itemName.WARPJR5, self.player)\
+                or self.humbaJRL(state)
+    elif self.glitches_logic(state):
+        logic = state.has(itemName.MUMBOJR, self.player)\
+                or self.air_pit_from_jrl_warp_pads(state) and state.has(itemName.WARPJR5, self.player)\
+                or self.humbaJRL(state)
     --]]
     
-    logic = access_JRL_canEscapeFromLockerCavern(true)
+    jrlHumba = access_JRL_humba(true)
     
-    return convertLogic(logic, skip)
+    -- Normal Logic
+    if ( has("ieggs") and has("mumbojr") and has("auqaim") or jrlHumba <= logictype.CurrentStage ) then
+        logic = 0
+    elseif ( has("ieggs") and has("dair") and has("auqaim") and basic_JRL_canGetAirFromWarping() and (has("warpjr5") or has("randomizewarppads_off")) or jrlHumba < 2 ) then
+        logic = 1
+    elseif ( has("mumbojr") or basic_JRL_canGetAirFromWarping() and (has("warpjr5") or has("randomizewarppads_off")) ) then
+        logic = 2
+        
+    -- Sequence Breaking
+    else
+        logic = jrlHumba
+    end
 end
 
 function connector_JRLLockerCavern_to_JRLWarps(skip)
@@ -957,7 +1064,7 @@ end
 
 function connector_JRLBigFishCavern_to_JRLLockerCavern(skip)
     local logic = 99
-    --[[        can_escape_big_fish_cave_from_water
+    --[[        big_fish_cave_to_locker_cavern
     if self.world.options.logic_type == LogicType.option_intended:
         return self.ice_eggs_item(state) and self.check_mumbo_magic(state, itemName.MUMBOJR) and self.sub_aqua_egg_aiming(state)\
                 or self.humbaJRL(state)
@@ -986,9 +1093,9 @@ function connector_JRLBigFishCavern_to_JRLLockerCavern(skip)
     -- Normal Logic
     if ( has("ieggs") and has("mumbojr") and has("auqaim") or jrlHumba <= logictype.CurrentStage ) then
         logic = 0
-    elseif ( has("ieggs") and has("dair") and has("auqaim") and (basic_JRL_canGetAirFromWarping() and has("warpjr4") or has("dive")) or jrlHumba < 2 ) then
+    elseif ( has("ieggs") and has("dair") and has("auqaim") and (has("warpjr1") and has("warpjr4") or has("dive")) or jrlHumba < 2 ) then
         logic = 1
-    elseif ( has("mumbojr") or basic_JRL_canGetAirFromWarping() and has("warpjr4") or has("dive") ) then
+    elseif ( has("mumbojr") or has("warpjr1") and has("warpjr4") or has("dive") ) then
         logic = 2
         
     -- Sequence Breaking
@@ -1519,13 +1626,13 @@ function connector_QM_to_CK(skip)
     elif self.world.options.logic_type == LogicType.option_hard_tricks:
         logic = self.claw_clamber_boots(state) and self.ck_jiggy(state)
     elif self.world.options.logic_type == LogicType.option_glitches:
-        logic = (self.clockwork_warp(state) and self.talon_trot(state) or self.claw_clamber_boots(state))\
+        logic = (self.clockwork_warp(state) and self.talon_trot(state) and self.climb(state) and self.beak_buster(state) or self.claw_clamber_boots(state))\
                 and (self.ck_jiggy(state) or (self.climb(state) and self.tall_jump(state) and self.beak_buster(state) and (self.flutter(state) or self.air_rat_a_tat_rap(state))))
     --]]
     
     if ( has("cka") and has("clawbts") ) then
         logic = 0
-    elseif ( (has("clawbts") or has("ttrot") and can_clockworkWarp()) and (has("cka") or has("climb") and has("tjump") and has("bbust") and (has("flutter") or has("arat"))) ) then
+    elseif ( (has("clawbts") or has("ttrot") and has("climb") and has("bbust") and can_clockworkWarp()) and (has("cka") or has("climb") and has("tjump") and has("bbust") and (has("flutter") or has("arat"))) ) then
         logic = 3
     end
     
@@ -1919,10 +2026,10 @@ end
 function connector_GIF1_to_GIWarps(skip)
     local logic = 99
     --[[
-    rules.split_up(state) and state.has(itemName.WARPGI1, player)
+    (rules.split_up(state) or self.options.open_gi_frontdoor) and state.has(itemName.WARPGI1, player)
     --]]
     
-    if ( has("splitup") and has("warpgi1") ) then
+    if ( (has("splitup") or has("opengi_on")) and has("warpgi1") ) then
         logic = 0
     end
     
@@ -2272,7 +2379,7 @@ function connector_GIF4_to_GIWarps(skip)
     rules.warp_pad_floor_4(state) and state.has(itemName.WARPGI4, player)
     --]]
     
-    local warpPadF4 = access_GI_warpPadF4(true)
+    local warpPadF4 = warp_GI_floor4(true)
     
     -- Normal Logic
     if ( has("warpgi4") and warpPadF4 <= logictype.CurrentStage ) then
@@ -2757,7 +2864,7 @@ end
 function connector_TDLIMTop_to_Terry(skip)
     local logic = 99
     --[[        inside_the_mountain_to_terry
-     if self.world.options.logic_type == LogicType.option_intended:
+    if self.world.options.logic_type == LogicType.option_intended:
         logic = state.can_reach_region(regionName.TLBOSS, self.player)
     elif self.world.options.logic_type == LogicType.option_easy_tricks:
         logic =  state.can_reach_region(regionName.TLBOSS, self.player) or self.solo_banjo_to_terry(state)
@@ -2771,12 +2878,29 @@ function connector_TDLIMTop_to_Terry(skip)
                     self.flight_pad(state) and self.beak_bomb(state)\
                     and (self.tall_jump(state) or self.beak_buster(state) or self.grip_grab(state))
                 )
-     --]]
-     
-    -- This function is *only* used by the Terry region to see if you can go from Inside the Mountain Top to Terry, which is unnecessary if coming *from* Terry (at least as far as Poptracker is concerned).
     
-    if ( can_clockworkWarp() or has("fpad") and has("bbomb") and (has("tjump") or has("bbust") or has("ggrab")) ) then
+    
+    return self.split_up(state) and state.has(itemName.WARPTL5, self.player) and (
+                    state.has(itemName.WARPTL1, self.player) and state.can_reach_region(regionName.TL, self.player)\
+                    or state.has(itemName.WARPTL2, self.player) and state.can_reach_region(regionName.TLSP, self.player)\
+                    or state.has(itemName.WARPTL3, self.player) and not self.intended_logic(state)\
+                        and state.can_reach_region(regionName.TL, self.player)\
+                    or state.has(itemName.WARPTL4, self.player) and state.can_reach_region(regionName.TL, self.player)\
+                )
+    --]]
+    
+    local tdlAccessibility = Tracker:FindObjectForCode("@Region: Terrydactyland - Main Area").AccessibilityLevel
+    local spAccessibility = Tracker:FindObjectForCode("@Region: Terrydactyland - Stomping Plains").AccessibilityLevel
+    
+    -- Normal Logic
+    if ( has("splitup") and has("randomizewarppads_off") and (tdlAccessibility == AccessibilityLevel.Normal or tdlAccessibility == AccessibilityLevel.Cleared) or has("splitup") and has("warptl5") and ((has("warptl1") or has("warptl3") or has("warptl4")) and (tdlAccessibility == AccessibilityLevel.Normal or tdlAccessibility == AccessibilityLevel.Cleared) or has("warptl2") and (spAccessibility == AccessibilityLevel.Normal or spAccessibility == AccessibilityLevel.Cleared)) ) then
+        logic = 1
+    elseif ( can_clockworkWarp() or has("fpad") and has("bbomb") and (has("tjump") or has("bbust") or has("ggrab")) ) then
         logic = 3
+    
+    -- Sequence Breaking
+    elseif ( has("splitup") and has("randomizewarppads_off") and tdlAccessibility > AccessibilityLevel.None or has("splitup") and has("warptl5") and ((has("warptl1") or has("warptl3") or has("warptl4")) and tdlAccessibility > AccessibilityLevel.None or has("warptl2") and spAccessibility > AccessibilityLevel.None) ) then
+        logic = logictype.CurrentStage + 1
     end
     
     return convertLogic(logic, skip)

@@ -4824,5 +4824,149 @@
     "type": "toggle",
     "img": "/images/access/Mingy Jongo.png",
     "codes": "bossmoves_mingyjongo"
+  },
+  {
+    "name": "Mayahem Temple Access",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_mta.png",
+    "codes": "mp_mta"
+  },
+  {
+    "name": "Third-Person Egg Shooting",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_eggshoot.png",
+    "codes": "mp_eggshoot"
+  },
+  {
+    "name": "Targitzan Eggs",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_targitzaneggs.png",
+    "codes": "mp_targitzaneggs"
+  },
+  {
+    "name": "Breegull Blaster",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_bblaster.png",
+    "codes": "mp_bblast"
+  },
+  {
+    "name": "Chuffy",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_chuffy.png",
+    "codes": "mp_chuffy"
+  },
+  {
+    "name": "Train Access",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_trainstation.png",
+    "codes": "mp_trainaccess"
+  },
+  {
+    "name": "Chuffy Attack",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_chuffyattack.png",
+    "codes": "mp_chuffyattack"
+  },
+  {
+    "name": "Witchyworld Access",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_wwa.png",
+    "codes": "mp_wwa"
+  },
+  {
+    "name": "Flight",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_flight.png",
+    "codes": "mp_flight"
+  },
+  {
+    "name": "Airborne Egg Aiming",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_aireaim.png",
+    "codes": "mp_aireaim"
+  },
+  {
+    "name": "Grenade Eggs",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_geggs.png",
+    "codes": "mp_geggs"
+  },
+  {
+    "name": "Jolly Roger's Lagoon Access",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_jra.png",
+    "codes": "mp_jra"
+  },
+  {
+    "name": "Dive & Sub-Aqua Egg Aiming",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_diveauqaim.png",
+    "codes": "mp_diveauqaim"
+  },
+  {
+    "name": "Humba: Sub",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_sub.png",
+    "codes": "mp_sub"
+  },
+  {
+    "name": "Terrydactyland Access",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_tda.png",
+    "codes": "mp_tda"
+  },
+  {
+    "name": "Springy Step shoes",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_springb.png",
+    "codes": "mp_springb"
+  },
+  {
+    "name": "First-Person Egg Aim",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_eggaim.png",
+    "codes": "mp_eggaim"
+  },
+  {
+    "name": "Terry Eggs",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_terryeggs.png",
+    "codes": "mp_terryeggs"
+  },
+  {
+    "name": "Hailfire Peaks Access",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_hfa.png",
+    "codes": "mp_hfa"
+  },
+  {
+    "name": "Flight + Claw Clamber Boots",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_dragonaccess.png",
+    "codes": "mp_fpadclawb"
+  },
+  {
+    "name": "Talon Trot",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_ttrot.png",
+    "codes": "mp_ttrot"
+  },
+  {
+    "name": "Fire Eggs + Ice Eggs + Third-Person Egg Shooting",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_dragoneggs.png",
+    "codes": "mp_dragoneggs"
+  },
+  {
+    "name": "Cloud Cuckooland Access",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_cca.png",
+    "codes": "mp_cca"
+  },
+  {
+    "name": "Mingy Jongo Attack",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_mingyjongoattack.png",
+    "codes": "mp_mingyjongoattack"
   }
 ]

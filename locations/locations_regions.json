@@ -380,7 +380,7 @@
       "$load_gi_tdl, @Region: Quagmire, gia",
       "$load_ck_tdl, @Region: Quagmire, ^$connector_QM_to_CK",
       "@Region: Inside Chuffy, ^$connector_Chuffy_to_TDL",
-      "@Region: Terrydactyland - Unga Bungas' Cave, ^$connector_TDLHatch_to_TDL",
+      "@Region: Mayahem Temple - Main Area, ^$connector_MT_to_TDL",
       "@Region: Witchyworld - Main Area, ^$connector_WW_to_TDL",
       "@Region: Terrydactyland - Inside the Mountain Top"
     ]

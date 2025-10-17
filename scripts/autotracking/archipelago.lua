@@ -337,8 +337,8 @@ function onClear(slot_data)
         local obj = Tracker:FindObjectForCode("randomizebkmoves")
         local stage = slot_data['randomize_bk_moves']
         if stage then
-			obj.CurrentStage = stage
-			toggleBKMoves()
+            obj.CurrentStage = stage
+            toggleBKMoves()
         end
     end
 
@@ -533,9 +533,9 @@ function onClear(slot_data)
         end
     end
 
-    if slot_data['randomize_world_entrance_loading_zone'] then
+    if slot_data['randomize_world_entrance_loading_zones'] then
         local obj = Tracker:FindObjectForCode("entrancerando")
-        local stage = slot_data['randomize_world_entrance_loading_zone']
+        local stage = slot_data['randomize_world_entrance_loading_zones']
         if stage == 1 then
             obj.CurrentStage = 1
         else
@@ -543,9 +543,9 @@ function onClear(slot_data)
         end
     end
 
-    if slot_data['randomize_boss_loading_zone'] then
+    if slot_data['randomize_boss_loading_zones'] then
         local obj = Tracker:FindObjectForCode("randomizebossentrances")
-        local stage = slot_data['randomize_boss_loading_zone']
+        local stage = slot_data['randomize_boss_loading_zones']
         if stage == 1 then
             obj.CurrentStage = 1
         else
