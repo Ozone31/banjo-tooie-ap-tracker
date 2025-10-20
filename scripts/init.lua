@@ -18,9 +18,9 @@ ScriptHost:LoadScript("scripts/logic/logic__terrydactyland.lua")
 ScriptHost:LoadScript("scripts/logic/logic__gruntyindustries.lua")
 ScriptHost:LoadScript("scripts/logic/logic__hailfire.lua")
 ScriptHost:LoadScript("scripts/logic/logic__cloudcuckooland.lua")
-Tracker:AddMaps("maps/maps.json")
 
 -- Maps
+Tracker:AddMaps("maps/maps.json")
 
 -- Locations
 Tracker:AddLocations("locations/locations_regions.json")

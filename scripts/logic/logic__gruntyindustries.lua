@@ -296,15 +296,13 @@ function access_GI_canBeatWeldar(skip)
                 and state.can_reach_region(regionName.GIBOSS, self.player)
     elif self.world.options.logic_type == LogicType.option_easy_tricks:
         logic = self.grenade_eggs(state) and \
-                (self.tall_jump(state) and (self.flutter(state) or self.air_rat_a_tat_rap(state)))\
+                (self.tall_jump(state) or self.talon_trot(state))\
                 and state.can_reach_region(regionName.GIBOSS, self.player)
     elif self.world.options.logic_type == LogicType.option_hard_tricks:
         logic = self.grenade_eggs(state) and \
-                (self.tall_jump(state) and (self.flutter(state) or self.air_rat_a_tat_rap(state)))\
                 and state.can_reach_region(regionName.GIBOSS, self.player)
     elif self.world.options.logic_type == LogicType.option_glitches:
         logic = self.grenade_eggs(state) and \
-                (self.tall_jump(state) and (self.flutter(state) or self.air_rat_a_tat_rap(state)))\
                 and state.can_reach_region(regionName.GIBOSS, self.player)
      --]]
     
@@ -313,10 +311,16 @@ function access_GI_canBeatWeldar(skip)
     -- Normal Logic
     if ( can_shootEggs("geggs") and has("tjump") and (has("flutter") or has("arat")) and (bawAccessibility == AccessibilityLevel.Normal or bawAccessibility == AccessibilityLevel.Cleared) ) then
         logic = 0
+    elseif ( can_shootEggs("geggs") and (has("tjump") or has("ttrot")) and (bawAccessibility == AccessibilityLevel.Normal or bawAccessibility == AccessibilityLevel.Cleared) ) then
+        logic = 1
+    elseif ( can_shootEggs("geggs") and (bawAccessibility == AccessibilityLevel.Normal or bawAccessibility == AccessibilityLevel.Cleared) ) then
+        logic = 2
     
     -- Sequence Breaking
-    elseif ( can_shootEggs("geggs") and has("tjump") and (has("flutter") or has("arat")) and bawAccessibility > AccessibilityLevel.None ) then
+    elseif ( can_shootEggs("geggs") and (has("tjump") or has("ttrot")) and bawAccessibility > AccessibilityLevel.None ) then
         logic = logictype.CurrentStage + 1
+    elseif ( can_shootEggs("geggs") and bawAccessibility > AccessibilityLevel.None ) then
+        logic = math.max(2, logictype.CurrentStage + 1)
     end
     
     return convertLogic(logic, skip)
@@ -388,35 +392,6 @@ function access_GI_floor2SkivvySwitch(skip)
     return convertLogic(logic, skip)
 end
 
-function access_GI_warpPadF4(skip)
-    local logic = 99
-    --[[        warp_pad_floor_4
-    if self.world.options.logic_type == LogicType.option_intended:
-        logic = self.small_elevation(state)\
-                or state.can_reach_region(regionName.GIWARP, self.player) and state.has(itemName.WARPGI4, self.player)
-    elif self.world.options.logic_type == LogicType.option_easy_tricks:
-        logic = self.small_elevation(state)\
-                or state.can_reach_region(regionName.GIWARP, self.player) and state.has(itemName.WARPGI4, self.player)
-    elif self.world.options.logic_type == LogicType.option_hard_tricks:
-        logic = True
-    elif self.world.options.logic_type == LogicType.option_glitches:
-        logic = True
-    --]]
-    
-    local giWAccessibility = Tracker:FindObjectForCode("@Grunty Industries Warps").AccessibilityLevel
-    
-    
-    if ( can_reachSmallElevation() or has("warpgi4") and (giWAccessibility == AccessibilityLevel.Normal or giWAccessibility == AccessibilityLevel.Cleared) ) then
-        logic = 0 -- Normal Logic
-    elseif ( logictype.CurrentStage < 1 and has("warpgi4") and giWAccessibility > AccessibilityLevel.None ) then
-        logic = 1 -- Sequence Breaking
-    else
-        logic = 2
-    end
-    
-    return convertLogic(logic, skip)
-end
-
 ----- Silos
 
 function silo_GI_snoozePack(skip)
@@ -470,34 +445,42 @@ end
 function warp_GI_floor1(skip)
     local logic = 99
     --[[        warp_pad_floor_1
-    if self.world.options.logic_type == LogicType.option_intended:
-        logic = self.split_up(state)\
-                or state.can_reach_region(regionName.GIWARP, self.player) and state.has(itemName.WARPGI1, self.player)
-    elif self.world.options.logic_type == LogicType.option_easy_tricks:
-        logic = self.split_up(state)\
-                or state.can_reach_region(regionName.GIWARP, self.player) and state.has(itemName.WARPGI1, self.player)
-    elif self.world.options.logic_type == LogicType.option_hard_tricks:
-        logic = self.split_up(state)\
-                or state.can_reach_region(regionName.GIWARP, self.player) and state.has(itemName.WARPGI1, self.player)
-    elif self.world.options.logic_type == LogicType.option_glitches:
+    if self.intended_logic(state):
         logic = self.split_up(state)\
                 or state.can_reach_region(regionName.GIWARP, self.player) and state.has(itemName.WARPGI1, self.player)\
-                or state.can_reach_region(regionName.GIO, self.player) and self.clockwork_shot(state)
+                or self.world.options.open_gi_frontdoor
+    elif self.easy_tricks_logic(state):
+        logic = self.split_up(state)\
+                or state.can_reach_region(regionName.GIWARP, self.player) and state.has(itemName.WARPGI1, self.player)\
+                or self.world.options.open_gi_frontdoor
+    elif self.hard_tricks_logic(state):
+        logic = self.split_up(state)\
+                or state.can_reach_region(regionName.GIWARP, self.player) and state.has(itemName.WARPGI1, self.player)\
+                or self.world.options.open_gi_frontdoor
+    elif self.glitches_logic(state):
+        logic = self.split_up(state)\
+                or state.can_reach_region(regionName.GIWARP, self.player) and state.has(itemName.WARPGI1, self.player)\
+                or state.can_reach_region(regionName.GIO, self.player) and self.clockwork_shot(state)\
+                or self.world.options.open_gi_frontdoor
     --]]
     
-    local giwAccessibility = Tracker:FindObjectForCode("@Grunty Industries Warps").AccessibilityLevel
-    local gioAccessibility = Tracker:FindObjectForCode("@Region: Outside Grunty Industries").AccessibilityLevel
-    
-    if ( has("splitup") or has("warpgi1") and (giwAccessibility == AccessibilityLevel.Normal or giwAccessibility == AccessibilityLevel.Cleared) ) then
-        logic = 0 -- Normal Logic
-    elseif ( logictype.CurrentStage < 2 and has("warpgi1") and giwAccessibility > AccessibilityLevel.None ) then
-        logic = logictype.CurrentStage + 1 -- Sequence Breaking
-    elseif ( can_clockworkShot() and (gioAccessibility == AccessibilityLevel.Normal or gioAccessibility == AccessibilityLevel.Cleared) ) then
-        logic = 3 -- Normal Logic
-    
-    -- Sequence Breaking
-    elseif ( has("warpgi1") and giwAccessibility > AccessibilityLevel.None or can_clockworkShot() and gioAccessibility > AccessibilityLevel.None ) then
-        logic = logictype.CurrentStage + 1
+    if ( has("opengi_on") ) then
+        logic = 0
+    else
+        local giwAccessibility = Tracker:FindObjectForCode("@Grunty Industries Warps").AccessibilityLevel
+        local gioAccessibility = Tracker:FindObjectForCode("@Region: Outside Grunty Industries").AccessibilityLevel
+        
+        if ( has("splitup") or has("warpgi1") and (giwAccessibility == AccessibilityLevel.Normal or giwAccessibility == AccessibilityLevel.Cleared) ) then
+            logic = 0 -- Normal Logic
+        elseif ( logictype.CurrentStage < 2 and has("warpgi1") and giwAccessibility > AccessibilityLevel.None ) then
+            logic = logictype.CurrentStage + 1 -- Sequence Breaking
+        elseif ( can_clockworkShot() and (gioAccessibility == AccessibilityLevel.Normal or gioAccessibility == AccessibilityLevel.Cleared) ) then
+            logic = 3 -- Normal Logic
+        
+        -- Sequence Breaking
+        elseif ( has("warpgi1") and giwAccessibility > AccessibilityLevel.None or can_clockworkShot() and gioAccessibility > AccessibilityLevel.None ) then
+            logic = logictype.CurrentStage + 1
+        end
     end
     
     return convertLogic(logic, skip)
@@ -533,18 +516,67 @@ end
 
 ----- Jiggies
 
+function jiggy_GI_weldar(skip)
+    local logic = 99
+    --[[        jiggy_weldar
+    if self.intended_logic(state):
+        logic = self.flap_flip(state) and self.climb(state) and self.grip_grab(state) and self.can_beat_weldar(state)
+    elif self.easy_tricks_logic(state):
+        logic = self.can_beat_weldar(state) and (
+                    self.flap_flip(state) and self.climb(state) and (self.grip_grab(state)\
+                        or (self.tall_jump(state) and (self.flutter(state) or self.air_rat_a_tat_rap(state))))\
+                )
+
+    elif self.hard_tricks_logic(state):
+        logic = self.can_beat_weldar(state) and (
+                    self.flap_flip(state) and self.climb(state) and (self.grip_grab(state)\
+                        or (self.tall_jump(state) and (self.flutter(state) or self.air_rat_a_tat_rap(state))))\
+                    or self.leg_spring(state) and (self.glide(state) or self.wing_whack(state))
+                )
+    elif self.glitches_logic(state):
+        logic = self.can_beat_weldar(state) and (
+                    self.flap_flip(state) and self.climb(state) and (self.grip_grab(state)\
+                        or (self.tall_jump(state) and (self.flutter(state) or self.air_rat_a_tat_rap(state))))\
+                    or self.leg_spring(state) and (self.glide(state) or self.wing_whack(state))
+                )\
+                or self.clockwork_shot(state)
+    --]]
+    
+    local canBeatWeldar = access_GI_canBeatWeldar(true)
+    
+    if ( has("fflip") and has("climb") and has("ggrab") and canBeatWeldar <= logictype.CurrentStage ) then
+        logic = 0 -- Normal Logic
+    elseif ( has("fflip") and has("climb") and has("tjump") and has("arat") and canBeatWeldar <= logictype.CurrentStage ) then
+        logic = 1 -- Normal Logic
+    elseif ( has("fflip") and has("climb") and has("ggrab") and canBeatWeldar < 2 ) then
+        logic = 1 -- Sequence Breaking
+    elseif ( has_legSpring() and (has_glide() or has_wingWhack()) and canBeatWeldar <= logictype.CurrentStage ) then
+        logic = 2 -- Normal Logic
+    elseif ( has("fflip") and has("climb") and has("tjump") and has("arat") and canBeatWeldar < 3 ) then
+        logic = 2 -- Sequence Breaking
+    elseif ( can_clockworkShot() ) then
+        logic = 3 -- Normal Logic
+    
+    -- Sequence Breaking
+    elseif ( has("fflip") and has("climb") and (has("ggrab") or has("tjump") and has("arat")) or has_legSpring() and (has_glide() or has_wingWhack()) ) then
+        logic = math.max(3, canBeatWeldar)
+    end
+    
+    return convertLogic(logic, skip)
+end
+
 function jiggy_GI_underwaterWasteDisposal(skip)
     local logic = 99
     --[[        jiggy_underwater_waste_disposal
     if self.world.options.logic_type == LogicType.option_intended:
-        logic = self.can_beat_weldar(state) and self.shack_pack(state)
+        logic = self.can_beat_weldar(state) and self.shack_pack(state) and self.climb(state)
     elif self.world.options.logic_type == LogicType.option_easy_tricks:
-        logic = self.can_beat_weldar(state) and self.shack_pack(state)
+        logic = self.can_beat_weldar(state) and self.shack_pack(state) and self.climb(state)
     elif self.world.options.logic_type == LogicType.option_hard_tricks:
-        logic = self.can_beat_weldar(state) and self.shack_pack(state)
+        logic = self.can_beat_weldar(state) and self.shack_pack(state) and self.climb(state)
     elif self.world.options.logic_type == LogicType.option_glitches:
         # Getting the jiggy from waste disposal through the wall.
-        logic = (self.can_beat_weldar(state) and (self.shack_pack(state) or self.leg_spring(state)))\
+        logic = (self.can_beat_weldar(state) and (self.shack_pack(state) and self.climb(state) or self.leg_spring(state)))\
                 or self.can_use_battery(state) and (
                     (self.climb(state) and self.flap_flip(state) and self.talon_torpedo(state)\
                      and self.dive(state) and self.wonderwing(state))
@@ -553,15 +585,15 @@ function jiggy_GI_underwaterWasteDisposal(skip)
     
     local canBeatWeldar = access_GI_canBeatWeldar(true)
     
-    if ( canBeatWeldar <= logictype.CurrentStage and has_shackPack() ) then
+    if ( canBeatWeldar <= logictype.CurrentStage and has_shackPack() and has("climb") ) then
         logic = 0 -- Normal Logic
-    elseif ( canBeatWeldar < 3 and has_shackPack() ) then
+    elseif ( canBeatWeldar < 3 and has_shackPack() and has("climb") ) then
         logic = canBeatWeldar -- Sequence Breaking
     elseif ( canBeatWeldar <= logictype.CurrentStage and has_legSpring() or basic_GI_canUseBattery() and (has("climb") and has("fflip") and has("ttorp") and has("dive") and has("wwing") or has_shackPack() and has("climb") and has("ggrab")) ) then
         logic = 3
     
     -- Sequence Breaking
-    elseif ( has_shackPack() or has_legSpring() ) then
+    elseif ( has_shackPack() and has("climb") or has_legSpring() ) then
         logic = math.max(3, canBeatWeldar)
     end
     
@@ -2335,30 +2367,35 @@ end
 function nests_GI_fanHard(skip)
     local logic = 99
     --[[        nest_egg_fan_hard
-    if self.world.options.logic_type == LogicType.option_intended:
-        logic = self.can_beat_weldar(state)
-    elif self.world.options.logic_type == LogicType.option_easy_tricks:
-        logic = self.can_beat_weldar(state)
-    elif self.world.options.logic_type == LogicType.option_hard_tricks:
-        logic = self.can_beat_weldar(state)\
-                or (self.climb(state) or self.leg_spring(state) and (self.wing_whack(state) or self.glide(state))) and self.clockwork_shot(state)
-    elif self.world.options.logic_type == LogicType.option_glitches:
-        logic = self.can_beat_weldar(state)\
-                or (self.climb(state) or self.leg_spring(state) and (self.wing_whack(state) or self.glide(state))) and self.clockwork_shot(state)
+    if self.intended_logic(state):
+        logic = self.can_beat_weldar(state) and self.climb(state)
+    elif self.easy_tricks_logic(state):
+        logic = self.can_beat_weldar(state) and self.climb(state)
+    elif self.hard_tricks_logic(state):
+        logic = self.can_beat_weldar(state) and (
+                    self.climb(state)\
+                    or self.leg_spring(state) and (self.wing_whack(state) or self.glide(state))
+                )\
+                or self.climb(state) and self.clockwork_shot(state)
+    elif self.glitches_logic(state):
+        logic = self.can_beat_weldar(state) and (
+                    self.climb(state)\
+                    or self.leg_spring(state) and (self.wing_whack(state) or self.glide(state))
+                )\
+                or self.climb(state) and self.clockwork_shot(state)
     --]]
     
     local canBeatWeldar = access_GI_canBeatWeldar(true)
     
-    if ( canBeatWeldar <= logictype.CurrentStage ) then
-        logic = 0 -- Normal Logic
-    elseif ( canBeatWeldar < 2 ) then
-        logic = 1 -- Sequence Breaking
-    elseif ( can_clockworkShot() and (has("climb") or has_legSpring() and (has_wingWhack() or has_glide())) ) then
-        logic = 2 -- Normal Logic
+    -- Normal Logic
+    if ( canBeatWeldar <= logictype.CurrentStage and has("climb") ) then
+        logic = 0 
+    elseif ( can_clockworkShot() and has("climb") or has_legSpring() and (has_wingWhack() or has_glide()) and canBeatWeldar <= logictype.CurrentStage ) then
+        logic = 2
     
     -- Sequence Breaking
-    else
-        logic = canBeatWeldar
+    elseif ( has("climb") )
+        logic = math.max(1, canBeatWeldar)
     end
     
     return convertLogic(logic, skip)
@@ -2733,74 +2770,85 @@ end
 function glowbo_GI_floor3(skip)
     local logic = 99
     --[[        glowbo_floor_3
-    if self.world.options.logic_type == LogicType.option_intended:
-        logic = self.flap_flip(state) and self.grip_grab(state)\
-                or self.climb(state) and (
+    if self.intended_logic(state):
+        logic = self.flap_flip(state) and self.grip_grab(state) and self.spring_pad(state)\
+                or self.climb(state) and self.spring_pad(state) and (
+                    self.tall_jump(state) and self.grip_grab(state)\
+                    or self.talon_trot(state) and self.flutter(state) and self.grip_grab(state)             -- redundant, both tall jump (spring pad) and grip grab are needed to even get into this brackets section
+                )\
+                or self.floor_3_split_up(state) and self.leg_spring(state) and (
+                    self.can_shoot_any_egg(state)
+                    or self.wing_whack(state)
+                )
+    elif self.easy_tricks_logic(state):
+        logic = self.flap_flip(state) and (self.grip_grab(state) or self.beak_buster(state)) and self.spring_pad(state)\
+                or self.climb(state) and self.spring_pad(state) and (
                     self.tall_jump(state) and self.grip_grab(state)\
                     or self.talon_trot(state) and self.flutter(state) and self.grip_grab(state)
                 )\
-                or self.floor_3_split_up(state) and self.leg_spring(state)
-    elif self.world.options.logic_type == LogicType.option_easy_tricks:
-        logic = self.flap_flip(state) and (self.grip_grab(state) or self.beak_buster(state))\
-                or self.climb(state) and (
+                or self.floor_3_split_up(state) and self.leg_spring(state) and (
+                    self.can_shoot_any_egg(state)
+                    or self.wing_whack(state)
+                )
+    elif self.hard_tricks_logic(state):
+        logic = self.flap_flip(state) and (self.grip_grab(state) or self.beak_buster(state)) and self.spring_pad(state)\
+                or self.climb(state) and self.spring_pad(state) and (
                     self.tall_jump(state) and self.grip_grab(state)\
                     or self.talon_trot(state) and self.flutter(state) and self.grip_grab(state)
                 )\
-                or self.floor_3_split_up(state) and self.leg_spring(state)\
-                or self.pack_whack(state) and self.floor_3_split_up(state) and self.tall_jump(state)\
-                or state.can_reach_region(regionName.GI3B, self.player)
-    elif self.world.options.logic_type == LogicType.option_hard_tricks:
-        logic = self.flap_flip(state) and (self.grip_grab(state) or self.beak_buster(state))\
-                or self.climb(state) and (
+                or self.floor_3_split_up(state) and (
+                    self.leg_spring(state) and (
+                        self.can_shoot_any_egg(state)
+                        or self.wing_whack(state)
+                    )
+                    or self.tall_jump(state) and (
+                            self.wing_whack(state)
+                            or self.glide(state)
+                        )
+                        and (
+                            self.can_shoot_any_egg(state)
+                            or self.wing_whack(state)
+                        )
+                )\
+                or self.clockwork_shot(state)
+    elif self.glitches_logic(state):
+        logic = self.flap_flip(state) and (self.grip_grab(state) or self.beak_buster(state)) and self.spring_pad(state)\
+                or self.climb(state) and self.spring_pad(state) and (
                     self.tall_jump(state) and self.grip_grab(state)\
                     or self.talon_trot(state) and self.flutter(state) and self.grip_grab(state)
                 )\
-                or self.floor_3_split_up(state) and self.leg_spring(state)\
-                or self.pack_whack(state) and self.floor_3_split_up(state) and self.tall_jump(state)\
-                or state.can_reach_region(regionName.GI3B, self.player)\
-                or self.clockwork_shot(state)\
-                or self.sack_pack(state)\
-                or self.tall_jump(state) and (self.wing_whack(state) or self.glide(state))
-    elif self.world.options.logic_type == LogicType.option_glitches:
-        logic = self.flap_flip(state) and (self.grip_grab(state) or self.beak_buster(state))\
-                or self.climb(state) and (
-                    self.tall_jump(state) and self.grip_grab(state)\
-                    or self.talon_trot(state) and self.flutter(state) and self.grip_grab(state)
+                or self.floor_3_split_up(state) and (
+                    self.leg_spring(state) and (
+                        self.can_shoot_any_egg(state)
+                        or self.wing_whack(state)
+                    )
+                    or self.tall_jump(state) and (
+                            self.wing_whack(state)
+                            or self.glide(state)
+                        )
+                        and (
+                            self.can_shoot_any_egg(state)
+                            or self.wing_whack(state)
+                        )
                 )\
-                or self.floor_3_split_up(state) and self.leg_spring(state)\
-                or self.pack_whack(state) and self.floor_3_split_up(state) and self.tall_jump(state)\
-                or state.can_reach_region(regionName.GI3B, self.player)\
-                or self.clockwork_shot(state)\
-                or self.sack_pack(state)\
-                or self.tall_jump(state) and (self.wing_whack(state) or self.glide(state))
+                or self.clockwork_shot(state)
      --]]
      
-    local gi3bpAccessibility = Tracker:FindObjectForCode("@Region: Grunty Industries 3rd Floor - Boiler Plant").AccessibilityLevel
     local floor3SplitUp = access_GI_floor3SplitUp(true)
     
     -- Normal Logic
-    if ( has("fflip") and has("ggrab") or has("climb") and has("ggrab") and (has("tjump") or has("ttrot") and has("flutter")) or floor3SplitUp <= logictype.CurrentStage and has_legSpring() ) then
+    if ( has("ggrab") and has("tjump") and (has("fflip") or has("climb")) or floor3SplitUp <= logictype.CurrentStage and has_legSpring() and (can_shootEggs() or has_wingWhack()) ) then
         logic = 0
-    elseif ( has("fflip") and has("bbust") or floor3SplitUp <= logictype.CurrentStage and has_packWhack() and has("tjump") or (gi3bpAccessibility == AccessibilityLevel.Normal or gi3bpAccessibility == AccessibilityLevel.Cleared) ) then
+    elseif ( has("fflip") and has("tjump") and (has("ggrab") or has("bbust")) ) then
         logic = 1
-    elseif ( floor3SplitUp < 2 and has_legSpring() ) then
+    elseif ( floor3SplitUp < 2 and has_legSpring() and (can_shootEggs() or has_wingWhack()) ) then
         logic = 1 -- Sequence Breaking
-    elseif ( can_clockworkShot() or has_sackPack() or has("tjump") and (has_wingWhack() or has_glide()) ) then
+    elseif ( can_clockworkShot() or floor3SplitUp <= logictype.CurrentStage and has("tjump") and (has_wingWhack() or has_glide()) and (can_shootEggs() or has_wingWhack()) ) then
         logic = 2
     
     -- Sequence Breaking
-    else
-        local f3SU = 99
-        if ( has_legSpring() or has_packWhack() and has("tjump") ) then
-            f3SU = math.max(1, floor3SplitUp)
-        end
-        
-        local gi3bp = 99
-        if ( gi3bpAccessibility > AccessibilityLevel.None ) then
-            gi3bp = logictype.CurrentStage + 1
-        end
-        
-        logic = math.min(f3SU, gi3bp)
+    elseif ( (can_shootEggs() or has_wingWhack()) and (has_legSpring() or has("tjump") and (has_wingWhack() or has_glide())) ) then
+        logic = math.max(2, floor3SplitUp)
     end
     
     return convertLogic(logic, skip)
@@ -2808,44 +2856,70 @@ end
 
 ----- Other - Honeycombs
 
-function honeycomb_GI_floor3(skip)
+function honeycomb_GI_floor3(skip) -- FIXIT this function needs to be updated, but Rules.py has a bug in the function that makes it not worth updating until it's fixed
     local logic = 99
     --[[        honeycomb_floor3
-    if self.world.options.logic_type == LogicType.option_intended:
+    if self.intended_logic(state):
         logic = self.flap_flip(state) and self.grip_grab(state) and self.spring_pad(state)\
                 or self.climb(state) and self.spring_pad(state) and (
                     self.tall_jump(state) and self.grip_grab(state)\
-                    or self.talon_trot(state) and self.flutter(state) and self.grip_grab(state)                     -- this is redundant; both sides need grip grab and tall jump is already a requirement for spring pad
+                    or self.talon_trot(state) and self.flutter(state) and self.grip_grab(state)
                 )\
-                or self.floor_3_split_up(state) and self.leg_spring(state)
-    elif self.world.options.logic_type == LogicType.option_easy_tricks:
+                or self.floor_3_split_up(state) and self.leg_spring(state) and (
+                    self.can_shoot_any_egg(state)
+                    or self.wing_whack(state)
+                )
+    elif self.easy_tricks_logic(state):
         logic = self.flap_flip(state) and (self.grip_grab(state) or self.beak_buster(state)) and self.spring_pad(state)\
                 or self.climb(state) and self.spring_pad(state) and (
                     self.tall_jump(state) and self.grip_grab(state)\
                     or self.talon_trot(state) and self.flutter(state) and self.grip_grab(state)
                 )\
-                or self.pack_whack(state) and self.floor_3_split_up(state) and self.tall_jump(state)\
-                or self.floor_3_split_up(state) and self.leg_spring(state)
-
-    elif self.world.options.logic_type == LogicType.option_hard_tricks:
+                or self.floor_3_split_up(state) and self.leg_spring(state) and (
+                    self.can_shoot_any_egg(state)
+                    or self.wing_whack(state)
+                )
+    elif self.hard_tricks_logic(state):
         logic = self.flap_flip(state) and (self.grip_grab(state) or self.beak_buster(state)) and self.spring_pad(state)\
                 or self.climb(state) and self.spring_pad(state) and (
                     self.tall_jump(state) and self.grip_grab(state)\
                     or self.talon_trot(state) and self.flutter(state) and self.grip_grab(state)
                 )\
-                or self.pack_whack(state) and self.floor_3_split_up(state) and self.tall_jump(state)\
-                or self.floor_3_split_up(state) and self.leg_spring(state)\
-                or self.floor_3_split_up(state) and self.tall_jump(state) and (self.wing_whack(state) or self.glide(state))\
+                or self.floor_3_split_up(state) and (
+                    self.leg_spring(state) and (
+                        self.can_shoot_any_egg(state)
+                        or self.wing_whack(state)
+                    )
+                    or self.tall_jump(state) and (
+                            self.wing_whack(state)
+                            or self.glide(state)
+                        )
+                        and (
+                            self.can_shoot_any_egg(state)
+                            or self.wing_whack(state)
+                        )
+                )\
                 or self.clockwork_shot(state)
-    elif self.world.options.logic_type == LogicType.option_glitches:
+    elif self.glitches_logic(state):
         logic = self.flap_flip(state) and (self.grip_grab(state) or self.beak_buster(state)) and self.spring_pad(state)\
                 or self.climb(state) and self.spring_pad(state) and (
                     self.tall_jump(state) and self.grip_grab(state)\
                     or self.talon_trot(state) and self.flutter(state) and self.grip_grab(state)
                 )\
-                or self.pack_whack(state) and self.floor_3_split_up(state) and self.tall_jump(state)\
-                or self.floor_3_split_up(state) and self.leg_spring(state)\
-                or self.floor_3_split_up(state) and self.tall_jump(state) and (self.wing_whack(state) or self.glide(state))\
+                or self.floor_3_split_up(state) and (
+                    self.leg_spring(state) and (
+                        self.can_shoot_any_egg(state)
+                        or self.wing_whack(state)
+                    )
+                    or self.tall_jump(state) and (
+                            self.wing_whack(state)
+                            or self.glide(state)
+                        )
+                        and (
+                            self.can_shoot_any_egg(state)
+                            or self.wing_whack(state)
+                        )
+                )\
                 or self.clockwork_shot(state)
      --]]
      

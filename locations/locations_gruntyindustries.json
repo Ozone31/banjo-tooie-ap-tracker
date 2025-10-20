@@ -981,7 +981,7 @@
       },
       {
         "name": "Repair Depot",
-        "access_rules": [ "^$access_GI_canBeatWeldar" ],
+        "access_rules": [ "^$jiggy_GI_weldar" ],
         "sections": [
           {
             "name": "Weldar Jiggy",

@@ -1,0 +1,27 @@
+﻿//sets the layout for the broadcast view
+{
+    "tracker_broadcast": {
+        "type": "array",
+        "orientation": "vertical",
+        "h_alignment": "center",
+        "margin": "5,5",
+        "background": "#212121",
+        "content": [
+          {
+            "type": "itemgrid",
+            "h_alignment": "left",
+            "margin": "0,0",
+            "item_margin": "1,2",
+            "rows": [
+              [ "bossmoves_targitzan", "mp_mta", "mp_eggshoot", "mp_targitzaneggs", "mp_bblast" ],
+              [ "bossmoves_oldkingcoal", "mp_chuffy", "mp_trainaccess", "mp_chuffyattack" ],
+              [ "bossmoves_mrpatch", "mp_wwa", "mp_flight", "mp_aireaim", "mp_geggs" ],
+              [ "bossmoves_lordwoofakfak", "mp_jra", "mp_diveauqaim", "mp_sub", "mp_geggs" ],
+              [ "bossmoves_terry", "mp_tda", "mp_springb", "mp_eggaim", "mp_terryeggs" ],
+              [ "bossmoves_dragonbrothers", "mp_hfa", "mp_fpadclawb", "mp_ttrot", "mp_dragoneggs" ],
+              [ "bossmoves_mingyjongo", "mp_cca", "mp_mingyjongoattack" ]
+            ]
+          }
+        ]
+    }
+}

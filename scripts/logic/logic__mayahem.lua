@@ -351,42 +351,49 @@ end
 function jiggy_MT_treasureChamber(skip)
     local logic = 99
     --[[        jiggy_treasure_chamber
-    if self.world.options.logic_type == LogicType.option_intended:
+    if self.intended_logic(state):
         logic = self.egg_aim(state) and\
             (self.flap_flip(state) or self.slightly_elevated_ledge(state)) and\
               ((self.grip_grab(state) and self.spring_pad(state) and self.flap_flip(state) and self.talon_trot(state)) or self.MT_flight_pad(state))
-    elif self.world.options.logic_type == LogicType.option_easy_tricks:
-        logic = (self.flap_flip(state) or self.slightly_elevated_ledge(state))\
+    elif self.easy_tricks_logic(state):
+        logic = (self.flap_flip(state)
+                    or self.tall_jump(state) and (self.grip_grab(state) or self.beak_buster(state))
+                    or self.talon_trot(state) and self.flutter(state) and (self.grip_grab(state) or self.beak_buster(state))
+                )\
                 and ((self.grip_grab(state) and self.spring_pad(state) and self.flap_flip(state) and self.egg_aim(state) and self.talon_trot(state))\
                     or (self.MT_flight_pad(state) and self.can_shoot_any_egg(state))\
                     or state.can_reach_region(regionName.TL_HATCH, self.player))\
                 and (self.MT_flight_pad(state) and self.can_shoot_any_egg(state) or self.egg_aim(state))
-    elif self.world.options.logic_type == LogicType.option_hard_tricks:
-        logic = (self.flap_flip(state) or self.slightly_elevated_ledge(state))\
+    elif self.hard_tricks_logic(state):
+        logic = (self.flap_flip(state)
+                    or self.tall_jump(state) and (self.grip_grab(state) or self.beak_buster(state))
+                    or self.talon_trot(state) and self.flutter(state) and (self.grip_grab(state) or self.beak_buster(state))
+                )\
                 and ((self.grip_grab(state) and self.spring_pad(state) and self.flap_flip(state) and self.egg_aim(state) and self.talon_trot(state))\
                     or (self.MT_flight_pad(state) and self.can_shoot_any_egg(state))\
                     or state.can_reach_region(regionName.TL_HATCH, self.player))\
                 and (self.MT_flight_pad(state) and self.can_shoot_any_egg(state) or self.egg_aim(state))
-    elif self.world.options.logic_type == LogicType.option_glitches:
-        logic = (self.flap_flip(state) or self.slightly_elevated_ledge(state))\
+    elif self.glitches_logic(state):
+        logic = (self.flap_flip(state)
+                    or self.tall_jump(state) and (self.grip_grab(state) or self.beak_buster(state))
+                    or self.talon_trot(state) and self.flutter(state) and (self.grip_grab(state) or self.beak_buster(state))
+                )\
                 and ((self.grip_grab(state) and self.spring_pad(state) and self.flap_flip(state) and self.egg_aim(state) and self.talon_trot(state))\
                     or (self.MT_flight_pad(state) and self.can_shoot_any_egg(state))\
                     or state.can_reach_region(regionName.TL_HATCH, self.player))\
                 and (self.MT_flight_pad(state) and self.can_shoot_any_egg(state) or self.egg_aim(state))
     --]]
     
-    -- FIXIT: I need to go look at this logic in game myself. it seems a little off, but I could be wrong
-    
     local ungaAccessibility = Tracker:FindObjectForCode("@Region: Terrydactyland - Unga Bungas' Cave").AccessibilityLevel
     
     -- Normal Logic
     if ( has("eggaim") and (has("fflip") or can_reachSlightlyElevatedLedge()) and ((has("ggrab") and has("tjump") and has("fflip") and has("ttrot")) or basic_MT_canUseFlightPad()) ) then
         logic = 0
-    elseif ( (has("fflip") or can_reachSlightlyElevatedLedge()) and (has("ggrab") and has("tjump") and has("fflip") and has("eggaim") and has("ttrot") or basic_MT_canUseFlightPad() and can_shootEggs() or (ungaAccessibility == AccessibilityLevel.Normal or ungaAccessibility == AccessibilityLevel.Cleared)) and (basic_MT_canUseFlightPad() and can_shootEggs() or has("eggaim")) ) then
+    elseif ( (has("fflip") or has("tjump") and (has("ggrab") or has("bbust")) or has("ttrot") and has("flutter") and (has("ggrab") or has("bbust"))) and (has("ggrab") and has("tjump") and has("fflip") and has("eggaim") and has("ttrot") or basic_MT_canUseFlightPad() and can_shootEggs() or ungaAccessibility == AccessibilityLevel.Normal or ungaAccessibility == AccessibilityLevel.Cleared) and (basic_MT_canUseFlightPad() and can_shootEggs() or has("eggaim")) ) then
         logic = 1
     
     -- Sequence Breaking
-    elseif ( (has("fflip") or can_reachSlightlyElevatedLedge()) and ungaAccessibility > AccessibilityLevel.None and (basic_MT_canUseFlightPad() and can_shootEggs() or has("eggaim")) ) then
+    elseif ( (has("fflip") or has("tjump") and (has("ggrab") or has("bbust")) or has("ttrot") and has("flutter") and (has("ggrab") or has("bbust"))) and (ungaAccessibility > AccessibilityLevel.None) and (basic_MT_canUseFlightPad() and can_shootEggs() or has("eggaim")) ) then
         logic = logictype.CurrentStage + 1 -- was already converted once by the json
     end
     

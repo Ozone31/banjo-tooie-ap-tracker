@@ -896,44 +896,205 @@ function toggleBossMoves()
     local terryMoves = Tracker:FindObjectForCode('bossmoves_terry')
     local dragonBrothersMoves = Tracker:FindObjectForCode('bossmoves_dragonbrothers')
     local mingyJongoMoves = Tracker:FindObjectForCode('bossmoves_mingyjongo')
+	
+	-- Area accessibility
+    local mtAccessibility = Tracker:FindObjectForCode("@Region: Mayahem Temple - Main Area").AccessibilityLevel
+    local chuffyAccessibility = Tracker:FindObjectForCode("@Region: Inside Chuffy").AccessibilityLevel
+    local wwAccessibility = Tracker:FindObjectForCode("@Region: Witchyworld - Main Area").AccessibilityLevel
+    local jrlAccessibility = Tracker:FindObjectForCode("@Region: Jolly Roger's Lagoon - Main Area").AccessibilityLevel
+    local tdlAccessibility = Tracker:FindObjectForCode("@Region: Terrydactyland - Main Area").AccessibilityLevel
+    local hfpAccessibility = Tracker:FindObjectForCode("@Region: Hailfire Peaks - Lava Side").AccessibilityLevel
     
-    if ( has("eggshoot") and has("amazeogaze") and has("eggaim") and has("bblaster") ) then
+	-- Broadcast tracker moves
+    local mp_mta = Tracker:FindObjectForCode('mp_mta')
+    if ( mtAccessibility == AccessibilityLevel.Normal or mtAccessibility == AccessibilityLevel.Cleared ) then
+        mp_mta.Active = true
+    else
+        mp_mta.Active = false
+    end
+    local mp_eggshoot = Tracker:FindObjectForCode('mp_eggshoot')
+	if ( has("eggshoot") ) then
+        mp_eggshoot.Active = true
+    else
+        mp_eggshoot.Active = false
+    end
+    local mp_targitzaneggs = Tracker:FindObjectForCode('mp_targitzaneggs')
+	if ( has("begg") or has("feggs") or has("geggs") ) then
+        mp_targitzaneggs.Active = true
+    else
+        mp_targitzaneggs.Active = false
+    end
+    local mp_bblast = Tracker:FindObjectForCode('mp_bblast')
+	if ( has("bblaster") ) then
+        mp_bblast.Active = true
+    else
+        mp_bblast.Active = false
+    end
+	
+    local mp_chuffy = Tracker:FindObjectForCode('mp_chuffy')
+	if ( has("chuffy") ) then
+        mp_chuffy.Active = true
+    else
+        mp_chuffy.Active = false
+    end
+    local mp_trainaccess = Tracker:FindObjectForCode('mp_trainaccess')
+    if ( chuffyAccessibility == AccessibilityLevel.Normal or chuffyAccessibility == AccessibilityLevel.Cleared ) then
+        mp_trainaccess.Active = true
+    else
+        mp_trainaccess.Active = false
+    end
+    local mp_chuffyattack = Tracker:FindObjectForCode('mp_chuffyattack')
+	if ( has("eggshoot") and (has("begg") or has("ieggs") or has("geggs")) or has("arat") or has("roll") ) then
+        mp_chuffyattack.Active = true
+    else
+        mp_chuffyattack.Active = false
+    end
+	
+    local mp_wwa = Tracker:FindObjectForCode('mp_wwa')
+    if ( wwAccessibility == AccessibilityLevel.Normal or wwAccessibility == AccessibilityLevel.Cleared ) then
+        mp_wwa.Active = true
+    else
+        mp_wwa.Active = false
+    end
+    local mp_flight = Tracker:FindObjectForCode('mp_flight')
+	if ( has("fpad") ) then
+        mp_flight.Active = true
+    else
+        mp_flight.Active = false
+    end
+    local mp_aireaim = Tracker:FindObjectForCode('mp_aireaim')
+	if ( has("eggaim") and has("aireaim") ) then
+        mp_aireaim.Active = true
+    else
+        mp_aireaim.Active = false
+    end
+    local mp_geggs = Tracker:FindObjectForCode('mp_geggs')
+	if ( has("geggs") ) then
+        mp_geggs.Active = true
+    else
+        mp_geggs.Active = false
+    end
+	
+    local mp_jra = Tracker:FindObjectForCode('mp_jra')
+    if ( jrlAccessibility == AccessibilityLevel.Normal or jrlAccessibility == AccessibilityLevel.Cleared ) then
+        mp_jra.Active = true
+    else
+        mp_jra.Active = false
+    end
+    local mp_diveauqaim = Tracker:FindObjectForCode('mp_diveauqaim')
+	if ( has("dive") and has("auqaim") ) then
+        mp_diveauqaim.Active = true
+    else
+        mp_diveauqaim.Active = false
+    end
+    local mp_sub = Tracker:FindObjectForCode('mp_sub')
+	if ( has("humbajr") ) then
+        mp_sub.Active = true
+    else
+        mp_sub.Active = false
+    end
+	
+    local mp_tda = Tracker:FindObjectForCode('mp_tda')
+    if ( tdlAccessibility == AccessibilityLevel.Normal or tdlAccessibility == AccessibilityLevel.Cleared ) then
+        mp_tda.Active = true
+    else
+        mp_tda.Active = false
+    end
+    local mp_springb = Tracker:FindObjectForCode('mp_springb')
+	if ( has("springb") ) then
+        mp_springb.Active = true
+    else
+        mp_springb.Active = false
+    end
+    local mp_eggaim = Tracker:FindObjectForCode('mp_eggaim')
+	if ( has("eggaim") ) then
+        mp_eggaim.Active = true
+    else
+        mp_eggaim.Active = false
+    end
+    local mp_terryeggs = Tracker:FindObjectForCode('mp_terryeggs')
+	if ( has("ieggs") or has("geggs") ) then
+        mp_terryeggs.Active = true
+    else
+        mp_terryeggs.Active = false
+    end
+	
+    local mp_hfa = Tracker:FindObjectForCode('mp_hfa')
+    if ( hfpAccessibility == AccessibilityLevel.Normal or hfpAccessibility == AccessibilityLevel.Cleared ) then
+        mp_hfa.Active = true
+    else
+        mp_hfa.Active = false
+    end
+    local mp_fpadclawb = Tracker:FindObjectForCode('mp_fpadclawb')
+	if ( has("fpad") and has("clawbts") ) then
+        mp_fpadclawb.Active = true
+    else
+        mp_fpadclawb.Active = false
+    end
+    local mp_ttrot = Tracker:FindObjectForCode('mp_ttrot')
+	if ( has("ttrot") ) then
+        mp_ttrot.Active = true
+    else
+        mp_ttrot.Active = false
+    end
+    local mp_dragoneggs = Tracker:FindObjectForCode('mp_dragoneggs')
+	if ( has("ieggs") and has("feggs") and has("eggshoot") ) then
+        mp_dragoneggs.Active = true
+    else
+        mp_dragoneggs.Active = false
+    end
+	
+    local mp_cca = Tracker:FindObjectForCode('mp_cca')
+	if ( has("cca") ) then
+        mp_cca.Active = true
+    else
+        mp_cca.Active = false
+    end
+    local mp_mingyjongoattack = Tracker:FindObjectForCode('mp_mingyjongoattack')
+	if ( has("arat") or has("eggshoot") and has("geggs") ) then
+        mp_mingyjongoattack.Active = true
+    else
+        mp_mingyjongoattack.Active = false
+    end
+	
+	-- Broadcast tracker bosses
+    if ( has("mp_mta") and has("mp_eggshoot") and has("mp_targitzaneggs") and has("mp_bblast") ) then
         targitzanMoves.Active = true
     else
         targitzanMoves.Active = false
     end
     
-    if ( has("eggshoot") and has("chuffy") ) then
+    if ( has("mp_chuffy") and has("mp_trainaccess") and has("mp_chuffyattack") ) then
         oldKingCoalMoves.Active = true
     else
         oldKingCoalMoves.Active = false
     end
     
-    if ( has("fpad") and has("aireaim") and has("eggaim") and has("geggs") ) then
+    if ( has("mp_wwa") and has("mp_flight") and has("mp_aireaim") and has("mp_geggs") ) then
         mrPatchMoves.Active = true
     else
         mrPatchMoves.Active = false
     end
     
-    if ( has("dive") and has("humbajr") and has("auqaim") and has("geggs") ) then
+    if ( has("mp_jra") and has("mp_diveauqaim") and has("mp_sub") and has("mp_geggs") ) then
         lordWooFakFakMoves.Active = true
     else
         lordWooFakFakMoves.Active = false
     end
     
-    if ( has("springb") and has("eggaim") ) then
+    if ( has("mp_tda") and has("mp_springb") and has("mp_eggaim") and has("mp_terryeggs") ) then
         terryMoves.Active = true
     else
         terryMoves.Active = false
     end
     
-    if ( has("fpad") and has("clawbts") and has("ieggs") and has("feggs") ) then
+    if ( has("mp_hfa") and has("mp_fpadclawb") and has("mp_ttrot") and has("mp_dragoneggs") ) then
         dragonBrothersMoves.Active = true
     else
         dragonBrothersMoves.Active = false
     end
     
-    if ( has("cca") ) then
+    if ( has("mp_cca") and has("mp_mingyjongoattack") ) then
         mingyJongoMoves.Active = true
     else
         mingyJongoMoves.Active = false
@@ -960,7 +1121,7 @@ function overrideLayouts()
     end
     
     if ( has("mousepace_on") ) then
-        Tracker:AddLayouts("layouts/broadcast - mousepace.json")
+        Tracker:AddLayouts("layouts/broadcast - mousepace2.json")
     elseif ( has("entrancerando_off") and has("randomizewarppads_off") and has("randomizebossentrances_off") ) then
         Tracker:AddLayouts("tracker_variants/var_warpsanity_off/layouts/broadcast.json")
     elseif ( has("entrancerando_off") and has("randomizewarppads_on") and has("randomizebossentrances_off") ) then
@@ -1055,8 +1216,35 @@ ScriptHost:AddWatchForCode("bosswatch12", "clawbts", toggleBossMoves)
 ScriptHost:AddWatchForCode("bosswatch13", "ieggs", toggleBossMoves)
 ScriptHost:AddWatchForCode("bosswatch14", "feggs", toggleBossMoves)
 ScriptHost:AddWatchForCode("bosswatch15", "cca", toggleBossMoves)
+ScriptHost:AddWatchForCode("bosswatch16", "peggs", toggleBossMoves)
+ScriptHost:AddWatchForCode("bosswatch17", "mta", toggleBossMoves)
+ScriptHost:AddWatchForCode("bosswatch18", "chuffy", toggleBossMoves)
+ScriptHost:AddWatchForCode("bosswatch19", "gga", toggleBossMoves)
+ScriptHost:AddWatchForCode("bosswatch20", "trainswww", toggleBossMoves)
+ScriptHost:AddWatchForCode("bosswatch21", "trainswtd", toggleBossMoves)
+ScriptHost:AddWatchForCode("bosswatch22", "trainswgi", toggleBossMoves)
+ScriptHost:AddWatchForCode("bosswatch23", "trainswih", toggleBossMoves)
+ScriptHost:AddWatchForCode("bosswatch24", "trainswhp1", toggleBossMoves)
+ScriptHost:AddWatchForCode("bosswatch25", "arat", toggleBossMoves)
+ScriptHost:AddWatchForCode("bosswatch26", "begg", toggleBossMoves)
+ScriptHost:AddWatchForCode("bosswatch27", "wwa", toggleBossMoves)
+ScriptHost:AddWatchForCode("bosswatch28", "jra", toggleBossMoves)
+ScriptHost:AddWatchForCode("bosswatch29", "tda", toggleBossMoves)
+ScriptHost:AddWatchForCode("bosswatch30", "hpa", toggleBossMoves)
+ScriptHost:AddWatchForCode("bosswatch31", "ttrot", toggleBossMoves)
+ScriptHost:AddWatchForCode("bosswatch32", "ceggs", toggleBossMoves)
+ScriptHost:AddWatchForCode("bosswatch33", "mumbohp", toggleBossMoves)
+ScriptHost:AddWatchForCode("bosswatch34", "humbagm", toggleBossMoves)
+ScriptHost:AddWatchForCode("bosswatch35", "humbatd", toggleBossMoves)
+ScriptHost:AddWatchForCode("bosswatch36", "mumbotd", toggleBossMoves)
+ScriptHost:AddWatchForCode("bosswatch37", "splitup", toggleBossMoves)
+ScriptHost:AddWatchForCode("bosswatch38", "mumbomt", toggleBossMoves)
+ScriptHost:AddWatchForCode("bosswatch39", "humbamt", toggleBossMoves)
+ScriptHost:AddWatchForCode("bosswatch40", "pbbust", toggleBossMoves)
+ScriptHost:AddWatchForCode("bosswatch41", "gia", toggleBossMoves)
 
 -- layout override stuff
 ScriptHost:AddWatchForCode("layoutoverride1", "entrancerando", overrideLayouts)
 ScriptHost:AddWatchForCode("layoutoverride2", "randomizewarppads", overrideLayouts)
 ScriptHost:AddWatchForCode("layoutoverride3", "randomizebossentrances", overrideLayouts)
+ScriptHost:AddWatchForCode("layoutoverride4", "mousepace_on", overrideLayouts)

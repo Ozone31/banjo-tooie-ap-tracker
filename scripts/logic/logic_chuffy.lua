@@ -1,43 +1,49 @@
 --------------- Chuffy
 
+function chuffy_trainRaised(skip)
+    local logic = 99
+    --[[        train_raised
+    return state.has(itemName.CHUFFY, self.player)\
+			if self.world.options.randomize_chuffy\
+			else self.mumboGGM(state)
+    --]]
+    
+    if ( chuffyrandomized.CurrentStage == 0 ) then
+        logic = access_GGM_mumbo(true)
+    elseif ( chuffyrandomized.CurrentStage == 1 and has("chuffy") ) then
+        logic = 0
+    end
+    
+    return convertLogic(logic, skip)
+end
+
 function chuffy_canEnterFromGGM(skip)
     local logic = 99
     --[[        ggm_to_chuffy
-     if self.world.options.logic_type == LogicType.option_intended:
-        logic = self.train_raised(state) and (
-                    self.climb(state) and self.small_elevation(state)\
-                )
-    elif self.world.options.logic_type == LogicType.option_easy_tricks:
-        logic = self.train_raised(state) and (
-                    self.small_elevation(state)\
-                    or self.climb(state)
-                )
-    elif self.world.options.logic_type == LogicType.option_hard_tricks:
-        logic = self.train_raised(state) and (
-                    self.small_elevation(state)\
-                    or self.climb(state)\
-                    or self.beak_buster(state)\
-                )
-    elif self.world.options.logic_type == LogicType.option_glitches:
-        logic = self.train_raised(state) and (
-                    self.small_elevation(state)\
-                    or self.climb(state)\
-                    or self.beak_buster(state)\
-                )
+    if self.intended_logic(state):
+		logic = self.train_raised(state) and (
+					self.climb(state) and self.small_elevation(state)\
+				)
+	elif self.easy_tricks_logic(state):
+		logic = self.train_raised(state) and (
+					self.small_elevation(state)\
+					or self.climb(state)
+				)
+	elif self.hard_tricks_logic(state):
+		logic = self.train_raised(state) and (
+					self.small_elevation(state)\
+					or self.climb(state)\
+					or self.beak_buster(state)\
+				)
+	elif self.glitches_logic(state):
+		logic = self.train_raised(state) and (
+					self.small_elevation(state)\
+					or self.climb(state)\
+					or self.beak_buster(state)\
+				)
+    --]]
     
-    
-    
-     return state.has(itemName.CHUFFY, self.player)\
-                if self.world.options.randomize_chuffy\
-                else self.mumboGGM(state)
-     --]]
-    
-    local trainRaised = 99
-    if ( chuffyrandomized.CurrentStage == 0 ) then
-        trainRaised = access_GGM_mumbo(true)
-    elseif ( chuffyrandomized.CurrentStage == 1 and has("chuffy") ) then
-        trainRaised = 0
-    end
+    local trainRaised = chuffy_trainRaised(true)
     
     local canGetInside = 99
     if ( has("climb") and can_reachSmallElevation() ) then

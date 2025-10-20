@@ -2186,9 +2186,9 @@ list of moves/items that cannot under any circumstances be used without other mo
 
 Mia's List of Known Bugs in the AP Logic:
 
+- [Mayahem Temple - Targitzan's Temple] (needs testing) supposedly getting 20 relics gives you access to the temple from Mayahem even without the moves required
 - [Glitter Gulch Mine - Anything that requires small elevation] There are a lot of checks that require small elevation, but the function for that does not account for smuggling talon trot (this includes entering Chuffy!)
 - [Glitter Gulch Mine - Mumbo anything] Checks for small elevation but does not account for the fact that you can smuggle talon trot for that elevation on any difficulty
-- [Terrydactyland - Taxi Pack Silo] erroneously has tall jump outside of the function brackets, accidentally making all tricks require it instead of only some
 - [Grunty Industries - Connector between outside back and floor 4] You don't need tall jump to make the jumps if you have arat
 - [Grunty Industries - egg nests by floor 4 fire escape] You can collect them with just arat
 - [Hailfire Peaks - Treble] you can get it with clockworks instead of grenade eggs for the clawbts strategy

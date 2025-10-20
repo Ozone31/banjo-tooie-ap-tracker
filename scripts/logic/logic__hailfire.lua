@@ -180,43 +180,48 @@ end
 
 function access_HFP_icySideTrainStation(skip)
     local logic = 99
-    --[[        access_ice_train_station
-    if self.world.options.logic_type == LogicType.option_intended:
+    --[[        access_icy_side_train_station
+    if self.intended_logic(state):
         logic = self.can_beat_king_coal(state) and self.grenade_eggs(state) and \
                 state.has(itemName.TRAINSWHP1, self.player) and state.has(itemName.TRAINSWHP2, self.player) and \
                 self.egg_aim(state) and state.can_reach_region(regionName.WW, self.player)\
                 and self.beak_buster(state)\
-                and (self.claw_clamber_boots(state) or self.flight_pad(state))
-    elif self.world.options.logic_type == LogicType.option_easy_tricks:
+                and (self.claw_clamber_boots(state) or self.flight_pad(state))\
+                and self.train_raised(state) and state.can_reach_region(regionName.CHUFFY, self.player)         -- don't need to check if the train is raised if we're also checking region access to chuffy. it's impossible to get in without raising it, since the boiler room is a different region
+    elif self.easy_tricks_logic(state):
         logic = self.can_beat_king_coal(state) and self.grenade_eggs(state) and \
                 state.has(itemName.TRAINSWHP1, self.player) and state.has(itemName.TRAINSWHP2, self.player) and \
                 state.can_reach_region(regionName.WW, self.player) and self.beak_buster(state)\
-                and (self.claw_clamber_boots(state) or self.flight_pad(state))
-    elif self.world.options.logic_type == LogicType.option_hard_tricks:
+                and (self.claw_clamber_boots(state) or self.flight_pad(state))\
+                and self.train_raised(state) and state.can_reach_region(regionName.CHUFFY, self.player)
+    elif self.hard_tricks_logic(state):
         logic = self.can_beat_king_coal(state) and self.grenade_eggs(state) and \
                 state.has(itemName.TRAINSWHP1, self.player) and state.has(itemName.TRAINSWHP2, self.player) and \
                 state.can_reach_region(regionName.WW, self.player) and self.beak_buster(state)\
-                and (self.claw_clamber_boots(state) or self.flight_pad(state))
-    elif self.world.options.logic_type == LogicType.option_glitches:
+                and (self.claw_clamber_boots(state) or self.flight_pad(state))\
+                and self.train_raised(state) and state.can_reach_region(regionName.CHUFFY, self.player)
+    elif self.glitches_logic(state):
         logic = self.can_beat_king_coal(state) and self.grenade_eggs(state) and \
                 state.has(itemName.TRAINSWHP1, self.player) and state.has(itemName.TRAINSWHP2, self.player) and \
                 state.can_reach_region(regionName.WW, self.player) and self.beak_buster(state)\
-                and (self.claw_clamber_boots(state) or self.flight_pad(state))
-     --]]
+                and (self.claw_clamber_boots(state) or self.flight_pad(state))\
+                and self.train_raised(state) and state.can_reach_region(regionName.CHUFFY, self.player)
+    --]]
     
     local wwAccessibility = Tracker:FindObjectForCode("@Region: Witchyworld - Main Area").AccessibilityLevel
     local canBeatKingCoal = chuffy_canBeatKingCoal(true)
+    local chuffyAccessibility = Tracker:FindObjectForCode("@Region: Inside Chuffy").AccessibilityLevel
     
     -- Normal Logic
-    if ( canBeatKingCoal <= logictype.CurrentStage and can_shootEggs("geggs") and has("trainswhp1") and has("trainswhp2") and has("eggaim") and (wwAccessibility == AccessibilityLevel.Normal or wwAccessibility == AccessibilityLevel.Cleared) and has("bbust") and (has("clawbts") or has("fpad")) ) then
+    if ( canBeatKingCoal <= logictype.CurrentStage and can_shootEggs("geggs") and has("trainswhp1") and has("trainswhp2") and has("eggaim") and (wwAccessibility == AccessibilityLevel.Normal or wwAccessibility == AccessibilityLevel.Cleared) and has("bbust") and (has("clawbts") or has("fpad")) and (chuffyAccessibility == AccessibilityLevel.Normal or chuffyAccessibility == AccessibilityLevel.Cleared) ) then
         logic = 0
     elseif ( canBeatKingCoal <= logictype.CurrentStage and can_shootEggs("geggs") and has("trainswhp1") and has("trainswhp2") and (wwAccessibility == AccessibilityLevel.Normal or wwAccessibility == AccessibilityLevel.Cleared) and has("bbust") and (has("clawbts") or has("fpad")) ) then
         logic = 1
     
     -- Sequence Breaking
-    elseif ( can_shootEggs("geggs") and has("trainswhp1") and has("trainswhp2") and (wwAccessibility == AccessibilityLevel.Normal or wwAccessibility == AccessibilityLevel.Cleared) and has("bbust") and (has("clawbts") or has("fpad")) ) then
+    elseif ( can_shootEggs("geggs") and has("trainswhp1") and has("trainswhp2") and (wwAccessibility == AccessibilityLevel.Normal or wwAccessibility == AccessibilityLevel.Cleared) and has("bbust") and (has("clawbts") or has("fpad")) and (chuffyAccessibility == AccessibilityLevel.Normal or chuffyAccessibility == AccessibilityLevel.Cleared) ) then
         logic = math.max(1, canBeatKingCoal)
-    elseif ( can_shootEggs("geggs") and has("trainswhp1") and has("trainswhp2") and wwAccessibility > AccessibilityLevel.None and has("bbust") and (has("clawbts") or has("fpad")) ) then
+    elseif ( can_shootEggs("geggs") and has("trainswhp1") and has("trainswhp2") and wwAccessibility > AccessibilityLevel.None and has("bbust") and (has("clawbts") or has("fpad")) and chuffyAccessibility > AccessibilityLevel.None ) then
         logic = math.max(logictype.CurrentStage + 1, canBeatKingCoal)
     end
     
@@ -532,32 +537,35 @@ end
 
 function jiggy_HFP_iceSideTrainStation(skip)
     local logic = 99
-    --[[        jiggy_ice_station
-     if self.world.options.logic_type == LogicType.option_intended:
-        logic = self.access_ice_train_station(state) and self.climb(state)
-    elif self.world.options.logic_type == LogicType.option_easy_tricks:
-        logic = self.access_ice_train_station(state) and self.climb(state)
-    elif self.world.options.logic_type == LogicType.option_hard_tricks:
-        logic = self.access_ice_train_station(state) and self.climb(state)\
-                    and (self.climb(state) or self.clockwork_shot(state))           -- Checking for climb here is redundant. is that an error? -- FIXIT
-    elif self.world.options.logic_type == LogicType.option_glitches:
-        logic = self.access_ice_train_station(state) and self.climb(state)\
+    --[[        jiggy_icy_side_station
+    if self.intended_logic(state):
+        logic = self.access_icy_side_train_station(state) and self.climb(state)
+    elif self.easy_tricks_logic(state):
+        logic = self.access_icy_side_train_station(state) and self.climb(state)
+    elif self.hard_tricks_logic(state):
+        logic = self.access_icy_side_train_station(state)\
+                    and (self.climb(state) or self.clockwork_shot(state))
+    elif self.glitches_logic(state):
+        logic = self.access_icy_side_train_station(state)\
                     and (self.climb(state) or self.clockwork_shot(state))\
                 or (self.clockwork_shot(state) and self.small_elevation(state))
-     --]]
+    return logic
+    --]]
     
     local canReachIcyTrainStation = access_HFP_icySideTrainStation(true)
     
     if ( canReachIcyTrainStation <= logictype.CurrentStage and has("climb") ) then
         logic = 0 -- Normal Logic
+    elseif ( canReachIcyTrainStation <= logictype.CurrentStage and can_clockworkShot() ) then
+        logic = 2 -- Normal Logic
     elseif ( canReachIcyTrainStation < 3 and has("climb") ) then
         logic = canReachIcyTrainStation -- Sequence Breaking
     elseif ( can_clockworkShot() and can_reachSmallElevation() ) then
         logic = 3 -- Normal Logic
     
     -- Sequence Breaking
-    elseif ( has("climb") ) then
-        logic = canReachIcyTrainStation
+    elseif ( has("climb") or can_clockworkShot() ) then
+        logic = math.max(2, canReachIcyTrainStation)
     end
     
     return convertLogic(logic, skip)
@@ -1405,8 +1413,8 @@ function jinjo_HFP_icicleGrotto(skip)
         logic = 1
     elseif ( has_legSpring() or can_clockworkShot() and has("tjump") and (has("splitup") or has("ttrot")) ) then
         logic = 2
-	elseif ( can_clockworkhot() and warp_HFP_icicleGrotto(true) <= 7 ) then
-		logic = 7 -- if you can get to the warp pad and can clockwork shot, you can do this
+    elseif ( can_clockworkhot() and warp_HFP_icicleGrotto(true) <= 7 ) then
+        logic = 7 -- if you can get to the warp pad and can clockwork shot, you can do this
     end
     
     return convertLogic(logic, skip)
@@ -1683,7 +1691,7 @@ end
 
 ----- Other - Cheato Pages
 
-function cheato_HFP_lavaSideAboveHotPool(skip)
+function cheato_HFP_colosseum(skip)
     local logic = 99
     --[[        cheato_colosseum
     if self.world.options.logic_type == LogicType.option_intended:

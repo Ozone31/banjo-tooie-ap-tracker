@@ -18,6 +18,11 @@ function basic_CCL_hasEnoughBeans()
     return has_billDrill() and has("randomizebeans_off") or has("bean", 2)
 end
 
+function basic_CCL_canReachSackPackSilo()
+    return has_shackPack() and (has("randomizewarppads_off") or has("warpcc1") and has("warpcc2") or basic_CCL_canUseFloatus())
+end
+
+
 ----- Silos
 
 function silo_CCL_sackPack(skip)
@@ -26,15 +31,8 @@ function silo_CCL_sackPack(skip)
     self.can_access_sack_pack_silo(state) and self.check_notes(state, locationName.SAPACK)
     --]]
     
-    local signAtSackPack = signs_CCL_sackPackSilo(true)
-    
-    -- Normal Logic
-    if ( signAtSackPack <= logictype.CurrentStage and sapack_count() ) then
+    if ( basic_CCL_canReachSackPackSilo() and sapack_count() ) then
         logic = 0
-        
-    -- Sequence Breaking
-    elseif ( sapack_count() ) then
-        logic = signAtSackPack
     end
     
     return convertLogic(logic, skip)
@@ -261,32 +259,20 @@ end
 function notes_CCL_sackPackSilo(skip)
     local logic = 99
     --[[        notes_ccl_silo
-    if self.world.options.logic_type == LogicType.option_intended:
-        logic = self.shack_pack(state) and (
-                state.has(itemName.WARPCC1, self.player) and state.has(itemName.WARPCC2, self.player)\
-                or self.can_use_floatus(state)
-            )
-    elif self.world.options.logic_type == LogicType.option_easy_tricks:
-        logic = self.shack_pack(state) and (
-                state.has(itemName.WARPCC1, self.player) and state.has(itemName.WARPCC2, self.player)\
-                or self.can_use_floatus(state)
-            )\
-            or self.clockwork_eggs(state)
-    elif self.world.options.logic_type == LogicType.option_hard_tricks:
-        logic = self.shack_pack(state) and (
-                state.has(itemName.WARPCC1, self.player) and state.has(itemName.WARPCC2, self.player)\
-                or self.can_use_floatus(state)
-            )\
-            or self.clockwork_eggs(state)
-    elif self.world.options.logic_type == LogicType.option_glitches:
-        logic = self.shack_pack(state) and (
-                state.has(itemName.WARPCC1, self.player) and state.has(itemName.WARPCC2, self.player)\
-                or self.can_use_floatus(state)
-            )\
-            or self.clockwork_eggs(state)
+    if self.intended_logic(state):
+        logic = self.can_access_sack_pack_silo(state)
+    elif self.easy_tricks_logic(state):
+        logic = self.can_access_sack_pack_silo(state)\
+                or self.clockwork_eggs(state)
+    elif self.hard_tricks_logic(state):
+        logic = self.can_access_sack_pack_silo(state)\
+                or self.clockwork_eggs(state)
+    elif self.glitches_logic(state):
+        logic = self.can_access_sack_pack_silo(state)\
+                or self.clockwork_eggs(state)
     --]]
     
-    if ( has_shackPack() and (basic_CCL_canUseFloatus() or has("randomizewarppads_off") or has("warpcc1") and has("warpcc2")) ) then
+    if ( basic_CCL_canReachSackPackSilo() ) then
         logic = 0
     elseif ( can_shootEggs("ceggs") ) then
         logic = 1
@@ -339,7 +325,7 @@ function notes_CCL_dippyPoolExit(skip)
     if self.world.options.logic_type == LogicType.option_intended:
         logic = self.dive(state)
     elif self.world.options.logic_type == LogicType.option_easy_tricks:
-        logic = self.dive(state) or self.shack_pack(state) or self.beak_buster(state)
+        logic = self.dive(state) or self.shack_pack(state)
     elif self.world.options.logic_type == LogicType.option_hard_tricks:
         logic = True
     elif self.world.options.logic_type == LogicType.option_glitches:
@@ -348,7 +334,7 @@ function notes_CCL_dippyPoolExit(skip)
     
     if ( has("dive") ) then
         logic = 0
-    elseif ( has("bbust") or has_shackPack() ) then
+    elseif ( has_shackPack() ) then
         logic = 1
     else
         logic = 2
@@ -626,38 +612,6 @@ function signs_CCL_underwater(skip)
     return convertLogic(logic, skip)
 end
 
-function signs_CCL_sackPackSilo(skip)
-    local logic = 99
-    --[[        can_access_sack_pack_silo
-    if self.world.options.logic_type == LogicType.option_intended:
-        logic = self.shack_pack(state) and (
-                state.has(itemName.WARPCC1, self.player) and state.has(itemName.WARPCC2, self.player)\
-                or self.can_use_floatus(state)
-            )
-    elif self.world.options.logic_type == LogicType.option_easy_tricks:
-        logic = self.shack_pack(state) and (
-                state.has(itemName.WARPCC1, self.player) and state.has(itemName.WARPCC2, self.player)\
-                or self.can_use_floatus(state)
-            )
-    elif self.world.options.logic_type == LogicType.option_hard_tricks:
-        logic = self.shack_pack(state) and (
-                state.has(itemName.WARPCC1, self.player) and state.has(itemName.WARPCC2, self.player)\
-                or self.can_use_floatus(state)
-            )
-    elif self.world.options.logic_type == LogicType.option_glitches:
-        logic = self.shack_pack(state) and (
-                state.has(itemName.WARPCC1, self.player) and state.has(itemName.WARPCC2, self.player)\
-                or self.can_use_floatus(state)
-            )
-    --]]
-    
-    if ( has_shackPack() and (basic_CCL_canUseFloatus() or has("randomizewarppads_off") or has("warpcc1") and has("warpcc2")) ) then
-        logic = 0
-    end
-    
-    return convertLogic(logic, skip)
-end
-
 function signs_CCL_onCentralCavernPoolRim(skip)
     local logic = 99
     --[[        signpost_pool_rim
@@ -914,21 +868,27 @@ end
 function other_CCL_mrFittHighJump(skip)
     local logic = 99
     --[[        mr_fit_high_jump
-    if self.world.options.logic_type == LogicType.option_intended:
+    if self.intended_logic(state):
         logic = self.springy_step_shoes(state) and self.bill_drill(state)
-    elif self.world.options.logic_type == LogicType.option_easy_tricks:
-        logic = (self.springy_step_shoes(state) and self.bill_drill(state)) or self.flight_pad(state)
-    elif self.world.options.logic_type == LogicType.option_hard_tricks:
-        logic = (self.springy_step_shoes(state) and self.bill_drill(state)) or self.flight_pad(state) or self.clockwork_shot(state)
-    elif self.world.options.logic_type == LogicType.option_glitches:
-        logic = (self.springy_step_shoes(state) and self.bill_drill(state)) or self.flight_pad(state) or self.clockwork_shot(state)
+    elif self.easy_tricks_logic(state):
+        logic = self.springy_step_shoes(state) and self.bill_drill(state) or state.has(itemName.HUMBACC, self.player)
+    elif self.hard_tricks_logic(state):
+        logic = (self.springy_step_shoes(state) and self.bill_drill(state))\
+                or self.flight_pad(state)\
+                or self.clockwork_shot(state)\
+                or state.has(itemName.HUMBACC, self.player)
+    elif self.glitches_logic(state):
+        logic = (self.springy_step_shoes(state) and self.bill_drill(state))\
+                or self.flight_pad(state)\
+                or self.clockwork_shot(state)\
+                or state.has(itemName.HUMBACC, self.player)
     --]]
     
     if ( has("springb") and has_billDrill() ) then
         logic = 0
-    elseif ( has("fpad") ) then
+    elseif ( has("humbacc") ) then
         logic = 1
-    elseif ( can_clockworkShot() ) then
+    elseif ( has("fpad") or can_clockworkShot() ) then
         logic = 2
     end
     
