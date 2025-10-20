@@ -1,6 +1,17 @@
 {
 	"versions": [
 		{
+			"package_version": "0.10.6",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.10.6",
+			"sha256": "c019344e2f76cc0103b6f4f099c714bfda1a32da3045b2bf18fa4c5f0c659684",
+			"changelog": [
+				"Updated logic for v4.10.2 of Banjo-Tooie AP.",
+				"Cheato Rewards checks now properly check all methods of logical access to Grunty's Lair.",
+				"Chris P Bacon jiggy no longer erroneously checks for third-person egg shooting.",
+				"Now properly checks for using solo Banjo to get to Terry with randomized boss entrances."
+			]
+		},
+		{
 			"package_version": "0.10.5",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.10.5",
 			"sha256": "c019344e2f76cc0103b6f4f099c714bfda1a32da3045b2bf18fa4c5f0c659684",
