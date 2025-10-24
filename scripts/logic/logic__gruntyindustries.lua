@@ -2394,7 +2394,7 @@ function nests_GI_fanHard(skip)
         logic = 2
     
     -- Sequence Breaking
-    elseif ( has("climb") )
+    elseif ( has("climb") ) then
         logic = math.max(1, canBeatWeldar)
     end
     
