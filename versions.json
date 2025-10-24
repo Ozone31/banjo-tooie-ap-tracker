@@ -1,6 +1,14 @@
 {
 	"versions": [
 		{
+			"package_version": "0.10.7",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.10.7",
+			"sha256": "92f0ea03707a6075de4b6730e2e309d43ea662f645611bb68bc7dfcd20828763",
+			"changelog": [
+				"Fixed the logic script for Grunty Industries crashing and thus showing all checks in the world as unobtainable."
+			]
+		},
+		{
 			"package_version": "0.10.6",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.10.6",
 			"sha256": "72dc4d4e0a43b0935cfc5e01a0c181b58ee0d5c495b49dcbbb587d02aa49954d",
