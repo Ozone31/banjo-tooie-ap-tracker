@@ -1,6 +1,15 @@
 {
 	"versions": [
 		{
+			"package_version": "0.10.8",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.10.8",
+			"sha256": "22e8323831aed34a4e03d8563ea8c60f8871339ae64e486675bdcb86368d0d79",
+			"changelog": [
+				"Updated logic for v4.11.0 of Banjo-Tooie AP.",
+				"Show New Tricks now also considers smuggling Turbo Trainers to reach the upper nests in Bottles' house."
+			]
+		},
+		{
 			"package_version": "0.10.7",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v0.10.7",
 			"sha256": "92f0ea03707a6075de4b6730e2e309d43ea662f645611bb68bc7dfcd20828763",
