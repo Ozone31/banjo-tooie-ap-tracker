@@ -950,28 +950,28 @@ end
 function connector_JRLSeaweedSanctum_to_JRLBigFishCavern(skip)
     local logic = 99
     --[[        seaweed_to_bfc
-    if self.world.options.logic_type == LogicType.option_intended:
-        return self.tall_jump(state) and self.grip_grab(state) and self.dive(state)
-    elif self.world.options.logic_type == LogicType.option_easy_tricks:
-        return self.dive(state)\
-                and (self.slightly_elevated_ledge(state) or self.flap_flip(state))\
+    if self.intended_logic(state):
+        logic = self.tall_jump(state) and self.grip_grab(state) and self.flap_flip(state) and self.dive(state)
+    elif self.easy_tricks_logic(state):
+        logic = self.dive(state)\
+                and self.flap_flip(state)\
                 and self.tall_jump(state)\
                 and (self.beak_buster(state) or self.grip_grab(state))
-    elif self.world.options.logic_type == LogicType.option_hard_tricks:
-        return self.dive(state)\
-                and (self.slightly_elevated_ledge(state) or self.flap_flip(state))\
+    elif self.hard_tricks_logic(state):
+        logic = self.dive(state)\
+                and self.flap_flip(state)\
                 and self.tall_jump(state)\
                 and (self.beak_buster(state) or self.grip_grab(state))
-    elif self.world.options.logic_type == LogicType.option_glitches:
-        return self.dive(state)\
-                and (self.slightly_elevated_ledge(state) or self.flap_flip(state))\
+    elif self.glitches_logic(state):
+        logic = self.dive(state)\
+                and self.flap_flip(state)\
                 and self.tall_jump(state)\
                 and (self.beak_buster(state) or self.grip_grab(state))
     --]]
     
-    if ( has("tjump") and has("ggrab") and has("dive") ) then
+    if ( has("tjump") and has("dive") and has("fflip") and has("ggrab") ) then
         logic = 0
-    elseif ( has("dive") and has("tjump") and (has("fflip") or can_reachSlightlyElevatedLedge()) and (has("bbust") or has("ggrab")) ) then
+    elseif ( has("tjump") and has("dive") and has("fflip") and has("bbust") ) then
         logic = 1
     end
     
