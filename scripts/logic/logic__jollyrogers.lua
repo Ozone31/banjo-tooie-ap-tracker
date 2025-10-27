@@ -154,28 +154,25 @@ end
 function access_JRL_canClimbSeaweedSanctum(skip)
     local logic = 99
     --[[        can_climb_seaweed
-     if self.world.options.logic_type == LogicType.option_intended:
-        return self.tall_jump(state) and self.grip_grab(state) and self.dive(state) and self.flap_flip(state)
-    elif self.world.options.logic_type == LogicType.option_easy_tricks:
-        return self.dive(state)\
-                and self.flap_flip(state)\
+    if self.intended_logic(state):
+        logic = self.tall_jump(state) and self.grip_grab(state) and self.flap_flip(state)
+    elif self.easy_tricks_logic(state):
+        logic = self.flap_flip(state)\
                 and self.tall_jump(state)\
                 and (self.beak_buster(state) or self.grip_grab(state))
-    elif self.world.options.logic_type == LogicType.option_hard_tricks:
-        return self.dive(state)\
-                and self.flap_flip(state)\
+    elif self.hard_tricks_logic(state):
+        logic = self.flap_flip(state)\
                 and self.tall_jump(state)\
                 and (self.beak_buster(state) or self.grip_grab(state))
-    elif self.world.options.logic_type == LogicType.option_glitches:
-        return self.dive(state)\
-                and self.flap_flip(state)\
+    elif self.glitches_logic(state):
+        logic = self.flap_flip(state)\
                 and self.tall_jump(state)\
                 and (self.beak_buster(state) or self.grip_grab(state))
-     --]]
+    --]]
     
-    if ( has("tjump") and has("ggrab") and has("dive") and has("fflip") ) then
+    if ( has("tjump") and has("ggrab") and has("fflip") ) then
         logic = 0
-    elseif ( has("tjump") and has("bbust") and has("dive") and has("fflip") ) then
+    elseif ( has("tjump") and has("bbust") and has("fflip") ) then
         logic = 1
     end
     
@@ -1068,6 +1065,33 @@ function nests_JRL_lordWooFakFak(skip)
         logic = 1 -- Sequence Breaking
     elseif ( has("auqaim") and has("geggs") ) then
         logic = 2
+    end
+    
+    return convertLogic(logic, skip)
+end
+
+function nests_JRL_bigFishWarpPad(skip)
+    local logic = 99
+    --[[
+    self.can_climb_seaweed(state) or state.can_reach_region(regionName.JRBFC, self.player)
+    --]]
+    
+    local jrlbfcAccessibility = Tracker:FindObjectForCode("@Region: Jolly Roger's Lagoon - Big Fish Cavern").AccessibilityLevel
+    local canClimbSeaweedSanctum = access_JRL_canClimbSeaweedSanctum(true)
+    
+    -- Normal Logic
+    if ( canClimbSeaweedSanctum <= logictype.CurrentStage or jrlbfcAccessibility == AccessibilityLevel.Normal or jrlbfcAccessibility == AccessibilityLevel.Cleared ) then
+        logic = 0
+    
+    -- Sequence Breaking
+    else
+        local bfc = 99
+        
+        if ( jrlbfcAccessibility > AccessibilityLevel.None ) then
+            bfc = logictype.CurrentStage + 1
+        end
+    
+        logic = math.min(canClimbSeaweedSanctum, bfc)
     end
     
     return convertLogic(logic, skip)

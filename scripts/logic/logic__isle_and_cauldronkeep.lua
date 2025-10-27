@@ -403,7 +403,7 @@ function nests_JV_bottlesDresser(skip)
         logic = 0
     elseif ( can_clockworkShot() ) then
         logic = 2
-    elseif ( has("wwing") ) then
+    elseif ( has("wwing") or has("ttrain") ) then -- smuggle from spiral mountain
         logic = 7
     end
     
