@@ -23,7 +23,7 @@ function connector_SM_to_JV(skip)
     if ( has("skipklungo_on") ) then
         logic = 0
     else
-        if ( has("eggshoot") or has("bbarge") or has("roll") or has("arat") or has("wwing") ) then
+        if ( can_shootEggs() or has("bbarge") or has("roll") or has("arat") or has("wwing") ) then
             logic = 0
         elseif ( can_groundAttack() ) then
             logic = 2
@@ -1013,6 +1013,8 @@ function connector_JRLLockerCavern_to_JRLSunkenShip(skip)
     else
         logic = jrlHumba
     end
+
+    return convertLogic(logic, skip)
 end
 
 function connector_JRLLockerCavern_to_JRLBigFishCavern(skip)
@@ -1050,6 +1052,8 @@ function connector_JRLLockerCavern_to_JRLBigFishCavern(skip)
     else
         logic = jrlHumba
     end
+    
+    return convertLogic(logic, skip)
 end
 
 function connector_JRLLockerCavern_to_JRLWarps(skip)
