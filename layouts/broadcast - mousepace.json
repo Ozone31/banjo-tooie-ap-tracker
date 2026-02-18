@@ -1,0 +1,27 @@
+﻿//sets the layout for the broadcast view
+{
+    "tracker_broadcast": {
+        "type": "array",
+        "orientation": "vertical",
+        "h_alignment": "center",
+        "margin": "5,5",
+        "background": "#212121",
+        "content": [
+          {
+            "type": "itemgrid",
+            "h_alignment": "left",
+            "margin": "0,0",
+            "item_margin": "1,2",
+            "rows": [
+              [ "bossmoves_targitzan", "eggshoot", "amazeogaze", "eggaim", "bblaster" ],
+              [ "bossmoves_oldkingcoal", "eggshoot", "chuffy" ],
+              [ "bossmoves_mrpatch", "fpad", "aireaim", "eggaim", "geggs" ],
+              [ "bossmoves_lordwoofakfak", "dive", "humbajr", "auqaim", "geggs" ],
+              [ "bossmoves_terry", "springb", "eggaim" ],
+              [ "bossmoves_dragonbrothers", "fpad", "clawbts", "ieggs", "feggs" ],
+              [ "bossmoves_mingyjongo", "cca" ]
+            ]
+          }
+        ]
+    }
+}

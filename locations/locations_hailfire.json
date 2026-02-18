@@ -1,0 +1,1903 @@
+[
+  {
+    "name": "Overworld - Hailfire Peaks",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "children": [
+      {
+        "name": "Hailfire Peaks - Silos & Warps",
+        "sections": [
+          {
+            "ref": "Hailfire Peaks - Lava Side/HFP: Shack Pack Silo/Silo",
+            "name": "HFP: Shack Pack Silo"
+          },
+          {
+            "ref": "Hailfire Peaks - Icy Side/HFP: Glide Silo/Silo",
+            "name": "HFP: Glide Silo"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/HFP: Lava Side Lower Warp Pad/Warp Pad",
+            "name": "HFP: Lava Side Lower Warp Pad"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/HFP: Lava Side Upper Warp Pad/Warp Pad",
+            "name": "HFP: Lava Side Upper Warp Pad"
+          },
+          {
+            "ref": "Hailfire Peaks - Icy Side/HFP: Icy Side Upper Warp Pad/Warp Pad",
+            "name": "HFP: Icy Side Upper Warp Pad"
+          },
+          {
+            "ref": "Hailfire Peaks - Icy Side/HFP: Icy Side Lower Warp Pad/Warp Pad",
+            "name": "HFP: Icy Side Lower Warp Pad"
+          },
+          {
+            "ref": "Hailfire Peaks - Icicle Grotto/HFP: Icicle Grotto Warp Pad/Warp Pad",
+            "name": "HFP: Icicle Grotto Warp Pad"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 473,
+            "y": 530
+          }
+        ]
+      },
+      {
+        "name": "Hailfire Peaks - Jiggies",
+        "sections": [
+          {
+            "ref": "Boss Arena - Chilli Billi/Dragon Brothers/Jiggy",
+            "name": "HFP: Dragon Brothers Jiggy"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/Inside the Volcano/Jiggy",
+            "name": "HFP: Inside the Volcano Jiggy"
+          },
+          {
+            "ref": "Hailfire Peaks - Icy Side/HFP: Sabreman Jiggy/Jiggy",
+            "name": "HFP: Sabreman Jiggy"
+          },
+          {
+            "ref": "Hailfire Peaks - Icy Side/HFP: Boggy Jiggy/Jiggy",
+            "name": "HFP: Boggy Jiggy"
+          },
+          {
+            "ref": "Hailfire Peaks - Icy Side/Icy Train Station/Jiggy",
+            "name": "HFP: Icy Side Station Jiggy"
+          },
+          {
+            "ref": "Hailfire Peaks - Icy Side/HFP: Oil Drill Jiggy/Jiggy",
+            "name": "HFP: Oil Drill Jiggy"
+          },
+          {
+            "ref": "Terrydactyland - Stomping Plains/HFP: Stomping Plains Jiggy/HFP Jiggy",
+            "name": "HFP: Stomping Plains Jiggy"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/Colosseum Kickball Stadium/Kickball Jiggy",
+            "name": "HFP: Kickball Jiggy"
+          },
+          {
+            "ref": "Hailfire Peaks - Icy Side/HFP: Aliens Jiggy/Jiggy",
+            "name": "HFP: Aliens Jiggy"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/HFP: Colosseum Split-Up Jiggy/Jiggy",
+            "name": "HFP: Colosseum Split-Up Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 551,
+            "y": 530
+          }
+        ]
+      },
+      {
+        "name": "Hailfire Peaks - Notes",
+        "sections": [
+          {
+            "ref": "Hailfire Peaks - Icicle Grotto/HFP: Treble Clef/Treble Clef",
+            "name": "HFP: Treble Clef"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/Path to Shack Pack Notes/Note 1",
+            "name": "HFP: Path to Shack Pack Note 1"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/Path to Shack Pack Notes/Note 2",
+            "name": "HFP: Path to Shack Pack Note 2"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/Path to Mumbo's Skull Notes/Note 1",
+            "name": "HFP: Path to Mumbo's Skull Note 1"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/Path to Mumbo's Skull Notes/Note 2",
+            "name": "HFP: Path to Mumbo's Skull Note 2"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/Top Path Notes/Note 1",
+            "name": "HFP: Lava Side: Top Path Note 1"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/Top Path Notes/Note 2",
+            "name": "HFP: Lava Side: Top Path Note 2"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/Near Ladder Notes/Note 1",
+            "name": "HFP: Lava Side: Near Ladder Note 1"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/Near Ladder Notes/Note 2",
+            "name": "HFP: Lava Side: Near Ladder Note 2"
+          },
+          {
+            "ref": "Hailfire Peaks - Icy Side/Oil Drill Notes/Note 1",
+            "name": "HFP: Oil Drill Note 1"
+          },
+          {
+            "ref": "Hailfire Peaks - Icy Side/Oil Drill Notes/Note 2",
+            "name": "HFP: Oil Drill Note 2"
+          },
+          {
+            "ref": "Hailfire Peaks - Icy Side/Upper Icy Side Warp Pad Notes/Note 1",
+            "name": "HFP: Upper Icy Side Warp Pad Note 1"
+          },
+          {
+            "ref": "Hailfire Peaks - Icy Side/Upper Icy Side Warp Pad Notes/Note 2",
+            "name": "HFP: Upper Icy Side Warp Pad Note 2"
+          },
+          {
+            "ref": "Hailfire Peaks - Icy Side/Boggy's Igloo Notes/Note 1",
+            "name": "HFP: Boggy's Igloo Note 1"
+          },
+          {
+            "ref": "Hailfire Peaks - Icy Side/Boggy's Igloo Notes/Note 2",
+            "name": "HFP: Boggy's Igloo Note 2"
+          },
+          {
+            "ref": "Hailfire Peaks - Icy Side/Lower Icy Side Warp Pad Notes/Note 1",
+            "name": "HFP: Lower Icy Side Warp Pad Note 1"
+          },
+          {
+            "ref": "Hailfire Peaks - Icy Side/Lower Icy Side Warp Pad Notes/Note 2",
+            "name": "HFP: Lower Icy Side Warp Pad Note 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 621,
+            "y": 530
+          }
+        ]
+      },
+      {
+        "name": "Hailfire Peaks - Other",
+        "sections": [
+          {
+            "ref": "Hailfire Peaks - Lava Side/HFP: Lava Waterfall Jinjo/Jinjo",
+            "name": "HFP: Lava Waterfall Jinjo"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/HFP: Boiling Hot Pool Jinjo/Jinjo",
+            "name": "HFP: Boiling Hot Pool Jinjo"
+          },
+          {
+            "ref": "Hailfire Peaks - Icy Side/HFP: Windy Hole Jinjo/Jinjo",
+            "name": "HFP: Windy Hole Jinjo"
+          },
+          {
+            "ref": "Hailfire Peaks - Icicle Grotto/HFP: Icicle Grotto Jinjo/Jinjo",
+            "name": "HFP: Icicle Grotto Jinjo"
+          },
+          {
+            "ref": "Hailfire Peaks - Icy Side/HFP: Mildred Ice Cube Jinjo/Jinjo",
+            "name": "HFP: Mildred Ice Cube Jinjo"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/HFP: Lava Side Glowbo/Glowbo",
+            "name": "HFP: Lava Side Glowbo"
+          },
+          {
+            "ref": "Hailfire Peaks - Icy Side/HFP: Icy Side Glowbo/Glowbo",
+            "name": "HFP: Icy Side Glowbo"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/Inside the Volcano/Honeycomb",
+            "name": "HFP: Inside the Volcano Honeycomb"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/Lava Train Station/Train Station Honeycomb",
+            "name": "HFP: Train Station Honeycomb"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/HFP: Lava Side Honeycomb/Honeycomb",
+            "name": "HFP: Lava Side Honeycomb"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/Colosseum Kickball Stadium Exit/Colosseum Cheato Page",
+            "name": "HFP: Colosseum Cheato Page"
+          },
+          {
+            "ref": "Hailfire Peaks - Icicle Grotto/HFP: Icicle Grotto Cheato Page/Cheato Page",
+            "name": "HFP: Icicle Grotto Cheato Page"
+          },
+          {
+            "ref": "Hailfire Peaks - Icy Side/HFP: Icy Side Pillar Cheato Page/Cheato Page",
+            "name": "HFP: Icy Side Pillar Cheato Page"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/HFP: Lava Side Train Switch/Train Switch",
+            "name": "HFP: Lava Side Train Switch"
+          },
+          {
+            "ref": "Hailfire Peaks - Icy Side/HFP: Icy Side Train Switch/Train Switch",
+            "name": "HFP: Icy Side Train Switch"
+          },
+          {
+            "ref": "Hailfire Peaks - Icy Side/HFP: Alphette (Alien Kid Near Glowbo)/Alphette",
+            "name": "HFP: Alphette"
+          },
+          {
+            "ref": "Hailfire Peaks - Icy Side/HFP: Betette (Alien Kid Near Dad)/Betette",
+            "name": "HFP: Betette"
+          },
+          {
+            "ref": "Hailfire Peaks - Icy Side/HFP: Gamette (Alien Kid Above Split-Up Pads)/Gamette",
+            "name": "HFP: Gamette"
+          },
+          {
+            "ref": "Boss Arena - Chilli Billi/Dragon Brothers/Mumbo Token",
+            "name": "HFP: Dragon Brothers Mumbo Token"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/Colosseum Kickball Stadium/Kickball Mumbo Token",
+            "name": "HFP: Kickball Mumbo Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 691,
+            "y": 530
+          }
+        ]
+      },
+      {
+        "name": "Hailfire Peaks - Nests",
+        "sections": [
+          {
+            "ref": "Hailfire Peaks - Lava Side/HFP: By Lava Side Train Switch Egg Nest/Egg Nest",
+            "name": "HFP: By Lava Side Train Switch Egg Nest"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/HFP: Sabreman Tent Egg Nest/Egg Nest",
+            "name": "HFP: Sabreman Tent Egg Nest"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/HFP: By Flight Pad Feather Nests/Feather Nest 1",
+            "name": "HFP: By Flight Pad Feather Nest 1"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/HFP: By Flight Pad Feather Nests/Feather Nest 2",
+            "name": "HFP: By Flight Pad Feather Nest 2"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/HFP: By Flight Pad Feather Nests/Feather Nest 3",
+            "name": "HFP: By Flight Pad Feather Nest 3"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/HFP: By Flight Pad Feather Nests/Feather Nest 4",
+            "name": "HFP: By Flight Pad Feather Nest 4"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/HFP: Lava Side Lower Warp Pad Egg Nests/Egg Nest 1",
+            "name": "HFP: Lava Side Lower Warp Pad Egg Nest 1"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/HFP: Lava Side Lower Warp Pad Egg Nests/Egg Nest 2",
+            "name": "HFP: Lava Side Lower Warp Pad Egg Nest 2"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/HFP: On Shelter Near Entrance Feather Nest/Feather Nest",
+            "name": "HFP: On Shelter Near Entrance Feather Nest"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/HFP: Near Top Hot Pool Egg Nests/Egg Nest 1",
+            "name": "HFP: Near Top Hot Pool Egg Nest 1"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/HFP: Near Top Hot Pool Egg Nests/Egg Nest 2",
+            "name": "HFP: Near Top Hot Pool Egg Nest 2"
+          },
+          {
+            "ref": "Hailfire Peaks - Icy Side/HFP: By Sabreman Egg Nests/Egg Nest 1",
+            "name": "HFP: By Sabreman Egg Nest 1"
+          },
+          {
+            "ref": "Hailfire Peaks - Icy Side/HFP: By Sabreman Egg Nests/Egg Nest 2",
+            "name": "HFP: By Sabreman Egg Nest 2"
+          },
+          {
+            "ref": "Hailfire Peaks - Icy Side/HFP: Icy Side Lower Warp Pad Egg Nest/Egg Nest",
+            "name": "HFP: Icy Side Lower Warp Pad Egg Nest"
+          },
+          {
+            "ref": "Hailfire Peaks - Icy Side/HFP: Near Icy Side Pillar Egg Nests/Egg Nest 1",
+            "name": "HFP: Near Icy Side Pillar Egg Nest 1"
+          },
+          {
+            "ref": "Hailfire Peaks - Icy Side/HFP: Near Bottom Icicle Grotto Entrance Feather Nests/Feather Nest 1",
+            "name": "HFP: Near Bottom Icicle Grotto Entrance Feather Nest 1"
+          },
+          {
+            "ref": "Hailfire Peaks - Icy Side/HFP: Near Bottom Icicle Grotto Entrance Feather Nests/Feather Nest 2",
+            "name": "HFP: Near Bottom Icicle Grotto Entrance Feather Nest 2"
+          },
+          {
+            "ref": "Hailfire Peaks - Icy Side/HFP: Near Icy Side Pillar Egg Nests/Egg Nest 2",
+            "name": "HFP: Near Icy Side Pillar Egg Nest 2"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/Lava Train Station/Egg Nest 1",
+            "name": "HFP: Lava Side Train Station Egg Nest 1"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/Lava Train Station/Egg Nest 2",
+            "name": "HFP: Lava Side Train Station Egg Nest 2"
+          },
+          {
+            "ref": "Hailfire Peaks - Icy Side/Icy Train Station/Feather Nest",
+            "name": "HFP: Icy Side Train Station Feather Nest"
+          },
+          {
+            "ref": "Hailfire Peaks - Icy Side/Icy Train Station/Egg Nest",
+            "name": "HFP: Icy Side Train Station Egg Nest"
+          },
+          {
+            "ref": "Boss Arena - Chilli Billi/HFP: Chilli Billi Crater Egg Nest/Egg Nest",
+            "name": "HFP: Chilli Billi Crater Egg Nest"
+          },
+          {
+            "ref": "Boss Arena - Chilly Willy/HFP: Chilly Willy Crater Egg Nest/Egg Nest",
+            "name": "HFP: Chilly Willy Crater Egg Nest"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/Colosseum Kickball Stadium/Egg Nest 1",
+            "name": "HFP: Kickball Colosseum Egg Nest 1"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/Colosseum Kickball Stadium/Egg Nest 2",
+            "name": "HFP: Kickball Colosseum Egg Nest 2"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/Colosseum Kickball Stadium/Egg Nest 3",
+            "name": "HFP: Kickball Colosseum Egg Nest 3"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/Colosseum Kickball Stadium/Egg Nest 4",
+            "name": "HFP: Kickball Colosseum Egg Nest 4"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/Colosseum Kickball Stadium/Feather Nest 1",
+            "name": "HFP: Kickball Colosseum Feather Nest 1"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/Colosseum Kickball Stadium/Feather Nest 2",
+            "name": "HFP: Kickball Colosseum Feather Nest 2"
+          },
+          {
+            "ref": "Hailfire Peaks - Icicle Grotto/HFP: Icicle Grotto Bottom Egg Nests/Egg Nest 1",
+            "name": "HFP: Icicle Grotto Bottom Egg Nest 1"
+          },
+          {
+            "ref": "Hailfire Peaks - Icicle Grotto/HFP: Icicle Grotto Bottom Egg Nests/Egg Nest 2",
+            "name": "HFP: Icicle Grotto Bottom Egg Nest 2"
+          },
+          {
+            "ref": "Hailfire Peaks - Icicle Grotto/HFP: Icicle Grotto Bottom Egg Nests/Egg Nest 3",
+            "name": "HFP: Icicle Grotto Bottom Egg Nest 3"
+          },
+          {
+            "ref": "Hailfire Peaks - Icicle Grotto/HFP: Icicle Grotto Shock Spring Pad Egg Nest/Egg Nest",
+            "name": "HFP: Icicle Grotto Shock Spring Pad Egg Nest"
+          },
+          {
+            "ref": "Hailfire Peaks - Icicle Grotto/HFP: Icicle Grotto Top Egg Nests/Egg Nest 1",
+            "name": "HFP: Icicle Grotto Top Egg Nest 1"
+          },
+          {
+            "ref": "Hailfire Peaks - Icicle Grotto/HFP: Icicle Grotto Top Egg Nests/Egg Nest 2",
+            "name": "HFP: Icicle Grotto Top Egg Nest 2"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/Mumbo's Skull/Feather Nest 1",
+            "name": "HFP: Mumbo's Skull Feather Nest 1"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/Mumbo's Skull/Feather Nest 2",
+            "name": "HFP: Mumbo's Skull Feather Nest 2"
+          },
+          {
+            "ref": "Hailfire Peaks - Icy Side/Wumba's Wigwam/Feather Nest 1",
+            "name": "HFP: Wumba's Wigwam Feather Nest 1"
+          },
+          {
+            "ref": "Hailfire Peaks - Icy Side/Wumba's Wigwam/Feather Nest 2",
+            "name": "HFP: Wumba's Wigwam Feather Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 770,
+            "y": 530
+          }
+        ]
+      },
+      {
+        "name": "Hailfire Peaks - Signposts",
+        "sections": [
+          {
+            "ref": "Hailfire Peaks - Lava Side/HFP: Bottom Hot Pool Signpost/Signpost",
+            "name": "HFP: Bottom Hot Pool Signpost"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/HFP: Top Hot Pool Signpost/Signpost",
+            "name": "HFP: Top Hot Pool Signpost"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/Inside the Volcano/Signpost 1",
+            "name": "HFP: Volcano Signpost 1"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/Inside the Volcano/Signpost 2",
+            "name": "HFP: Volcano Signpost 2"
+          },
+          {
+            "ref": "Hailfire Peaks - Lava Side/Inside the Volcano/Signpost 3",
+            "name": "HFP: Volcano Signpost 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 849,
+            "y": 530
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hailfire Peaks - Lava Side",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Region: Hailfire Peaks - Lava Side" ],
+    "children": [
+      {
+        "name": "HFP: Lava Side Lower Warp Pad",
+        "sections": [
+          {
+            "name": "Warp Pad",
+            "chest_unopened_img": "/images/locations/warp.png",
+            "chest_opened_img": "/images/locations/warp2.png",
+            "visibility_rules": ["randomizewarppads_on"]
+          },
+          {
+            "name": "Egg Nest 1",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"]
+          },
+          {
+            "name": "Egg Nest 2",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp1",
+            "x": 420,
+            "y": 405
+          }
+        ]
+      },
+      {
+        "name": "HFP: Lava Side Upper Warp Pad",
+        "sections": [
+          {
+            "name": "Warp Pad",
+            "chest_unopened_img": "/images/locations/warp.png",
+            "chest_opened_img": "/images/locations/warp2.png",
+            "visibility_rules": ["randomizewarppads_on"],
+            "access_rules": ["^$access_HFP_lavaSideTop"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp1",
+            "x": 380,
+            "y": 150
+          }
+        ]
+      },
+      {
+        "name": "HFP: Lava Waterfall Jinjo",
+        "sections": [
+          {
+            "name": "Jinjo",
+            "chest_unopened_img": "/images/locations/jinjo.png",
+            "chest_opened_img": "/images/locations/jinjo2.png",
+            "access_rules": ["^$jinjo_HFP_colosseumHotWaterfall"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp1",
+            "x": 690,
+            "y": 450
+          }
+        ]
+      },
+      {
+        "name": "HFP: Lava Side Train Switch",
+        "sections": [
+          {
+            "name": "Train Switch",
+            "chest_unopened_img": "/images/locations/tswitch.png",
+            "chest_opened_img": "/images/locations/tswitch2.png",
+            "access_rules": ["^$trainSwitch_HFP_lava"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp1",
+            "x": 650,
+            "y": 362
+          }
+        ]
+      },
+      {
+        "name": "HFP: Shack Pack Silo",
+        "chest_unopened_img": "/images/locations/silo.png",
+        "chest_opened_img": "/images/locations/silo2.png",
+        "sections": [
+          {
+            "name": "Silo",
+            "access_rules": [ "^$silo_HFP_shackPack" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp1",
+            "x": 535,
+            "y": 320
+          }
+        ]
+      },
+      {
+        "name": "HFP: Lava Side Honeycomb",
+        "sections": [
+          {
+            "name": "Honeycomb",
+            "chest_unopened_img": "/images/locations/honey.png",
+            "chest_opened_img": "/images/locations/honey2.png",
+            "access_rules": ["^$honeycomb_HFP_lavaSideAboveHotPool"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp1",
+            "x": 125,
+            "y": 33
+          }
+        ]
+      },
+      {
+        "name": "HFP: Boiling Hot Pool Jinjo",
+        "sections": [
+          {
+            "name": "Jinjo",
+            "chest_unopened_img": "/images/locations/jinjo.png",
+            "chest_opened_img": "/images/locations/jinjo2.png",
+            "access_rules": ["^$jinjo_HFP_hotPool"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp1",
+            "x": 127,
+            "y": 80
+          }
+        ]
+      },
+      {
+        "name": "HFP: Top Hot Pool Signpost",
+        "sections": [
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"],
+            "access_rules": ["^$access_HFP_lavaSideTop"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp1",
+            "x": 210,
+            "y": 100
+          }
+        ]
+      },
+      {
+        "name": "HFP: Near Top Hot Pool Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$access_HFP_lavaSideTop"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp1",
+            "x": 205,
+            "y": 175
+          }
+        ]
+      },
+      {
+        "name": "HFP: Lava Side Glowbo",
+        "chest_unopened_img": "/images/locations/glowbo.png",
+        "chest_opened_img": "/images/locations/glowbo2.png",
+        "sections": [
+          {
+            "name": "Glowbo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp1",
+            "x": 150,
+            "y": 290
+          }
+        ]
+      },
+      {
+        "name": "HFP: Colosseum Split-Up Jiggy",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": ["^$jiggy_HFP_colosseumSplitUp"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp1",
+            "x": 595,
+            "y": 335
+          }
+        ]
+      },
+      {
+        "name": "Colosseum Kickball Stadium Exit",
+        "sections": [
+          {
+            "name": "Colosseum Cheato Page",
+            "chest_unopened_img": "/images/locations/page.png",
+            "chest_opened_img": "/images/locations/page2.png",
+            "access_rules": ["^$cheato_HFP_colosseum"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp1",
+            "x": 615,
+            "y": 355
+          }
+        ]
+      },
+      {
+        "name": "Colosseum Kickball Stadium",
+        "sections": [
+          {
+            "name": "Kickball Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": ["^$jiggy_HFP_kickball"],
+            "visibility_rules": ["mousepace_off"]
+          },
+          {
+            "name": "Kickball Mumbo Token",
+            "chest_unopened_img": "/images/locations/mumbotoken.png",
+            "chest_opened_img": "/images/locations/mumbotoken2.png",
+            "access_rules": ["^$jiggy_HFP_kickball"],
+            "visibility_rules": [ "goal_minigame", "goal_wwing" ]
+          },
+          {
+            "name": "Egg Nest 1",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_HFP_lavaSideKickballEggNests"]
+          },
+          {
+            "name": "Egg Nest 2",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_HFP_lavaSideKickballEggNests"]
+          },
+          {
+            "name": "Egg Nest 3",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_HFP_lavaSideKickballEggNests"]
+          },
+          {
+            "name": "Egg Nest 4",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_HFP_lavaSideKickballEggNests"]
+          },
+          {
+            "name": "Feather Nest 1",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_HFP_lavaSideKickballFeatherNests"]
+          },
+          {
+            "name": "Feather Nest 2",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_HFP_lavaSideKickballFeatherNests"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp1",
+            "x": 630,
+            "y": 377
+          }
+        ]
+      },
+      {
+        "name": "Lava Train Station",
+        "sections": [
+          {
+            "name": "Train Station Honeycomb",
+            "chest_unopened_img": "/images/locations/honey.png",
+            "chest_opened_img": "/images/locations/honey2.png",
+            "access_rules": ["^$honeycomb_HFP_lavaSideStation"]
+          },
+          {
+            "name": "Egg Nest 1",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$access_HFP_lavaSideTop"]
+          },
+          {
+            "name": "Egg Nest 2",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$access_HFP_lavaSideTop"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp1",
+            "x": 625,
+            "y": 217
+          }
+        ]
+      },
+      {
+        "name": "Inside the Volcano",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": ["^$jiggy_HFP_volcano"]
+          },
+          {
+            "name": "Honeycomb",
+            "chest_unopened_img": "/images/locations/honey.png",
+            "chest_opened_img": "/images/locations/honey2.png",
+            "access_rules": ["^$honeycomb_HFP_volcano"]
+          },
+          {
+            "name": "Signpost 1",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"],
+            "access_rules": ["^$jiggy_HFP_volcano"]
+          },
+          {
+            "name": "Signpost 2",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"],
+            "access_rules": ["^$jiggy_HFP_volcano"]
+          },
+          {
+            "name": "Signpost 3",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"],
+            "access_rules": ["^$jiggy_HFP_volcano"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp1",
+            "x": 410,
+            "y": 190
+          }
+        ]
+      },
+      {
+        "name": "Near Ladder Notes",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "access_rules": ["^$notes_HFP_lavaSideLadder"],
+        "sections": [
+          {
+            "name": "Note 1"
+          },
+          {
+            "name": "Note 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp1",
+            "x": 460,
+            "y": 310
+          },
+          {
+            "map": "hfp1",
+            "x": 500,
+            "y": 170
+          }
+        ]
+      },
+      {
+        "name": "Path to Shack Pack Notes",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "access_rules": ["^$access_HFP_lavaSideTop"],
+        "sections": [
+          {
+            "name": "Note 1"
+          },
+          {
+            "name": "Note 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp1",
+            "x": 480,
+            "y": 260
+          }
+        ]
+      },
+      {
+        "name": "Path to Mumbo's Skull Notes",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "sections": [
+          {
+            "name": "Note 1"
+          },
+          {
+            "name": "Note 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp1",
+            "x": 210,
+            "y": 300
+          }
+        ]
+      },
+      {
+        "name": "Top Path Notes",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "access_rules": ["^$access_HFP_lavaSideTop"],
+        "sections": [
+          {
+            "name": "Note 1"
+          },
+          {
+            "name": "Note 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp1",
+            "x": 380,
+            "y": 165
+          }
+        ]
+      },
+      {
+        "name": "HFP: Bottom Hot Pool Signpost",
+        "chest_unopened_img": "/images/locations/signpost.png",
+        "chest_opened_img": "/images/locations/signpost2.png",
+        "visibility_rules": ["signposts_on"],
+        "sections": [
+          {
+            "name": "Signpost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp1",
+            "x": 420,
+            "y": 388
+          }
+        ]
+      },
+      {
+        "name": "HFP: On Shelter Near Entrance Feather Nest",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_HFP_lavaSideOnShelterAtEntrance"],
+        "sections": [
+          {
+            "name": "Feather Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp1",
+            "x": 421,
+            "y": 539
+          }
+        ]
+      },
+      {
+        "name": "HFP: Sabreman Tent Egg Nest",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp1",
+            "x": 338,
+            "y": 453
+          }
+        ]
+      },
+      {
+        "name": "HFP: By Flight Pad Feather Nests",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Feather Nest 1"
+          },
+          {
+            "name": "Feather Nest 2"
+          },
+          {
+            "name": "Feather Nest 3"
+          },
+          {
+            "name": "Feather Nest 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp1",
+            "x": 85,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Mumbo's Skull",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Feather Nest 1"
+          },
+          {
+            "name": "Feather Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp1",
+            "x": 175,
+            "y": 265
+          }
+        ]
+      },
+      {
+        "name": "HFP: By Lava Side Train Switch Egg Nest",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$trainSwitch_HFP_lava"],
+        "sections": [
+          {
+            "name": "Egg Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp1",
+            "x": 623,
+            "y": 314
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hailfire Peaks - Icy Side",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Region: Hailfire Peaks - Icy Side" ],
+    "children": [
+      {
+        "name": "HFP: Icy Side Upper Warp Pad",
+        "sections": [
+          {
+            "name": "Warp Pad",
+            "chest_unopened_img": "/images/locations/warp.png",
+            "chest_opened_img": "/images/locations/warp2.png",
+            "visibility_rules": ["randomizewarppads_on"],
+            "access_rules": ["^$access_HFP_lavaSideTop"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 325,
+            "y": 180
+          }
+        ]
+      },
+      {
+        "name": "HFP: Icy Side Lower Warp Pad",
+        "sections": [
+          {
+            "name": "Warp Pad",
+            "chest_unopened_img": "/images/locations/warp.png",
+            "chest_opened_img": "/images/locations/warp2.png",
+            "visibility_rules": ["randomizewarppads_on"],
+            "access_rules": ["^$access_HFP_lavaSideTop"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 282,
+            "y": 480
+          }
+        ]
+      },
+      {
+        "name": "HFP: Alphette (Alien Kid Near Glowbo)",
+        "sections": [
+          {
+            "name": "Alphette",
+            "chest_unopened_img": "/images/locations/honeycombcheck.png",
+            "chest_opened_img": "/images/locations/honeycombcheck2.png",
+            "access_rules": ["^$other_HFP_alphette"],
+            "visibility_rules": ["mousepace_off"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 517,
+            "y": 522
+          }
+        ]
+      },
+      {
+        "name": "HFP: Betette (Alien Kid Near Dad)",
+        "sections": [
+          {
+            "name": "Betette",
+            "chest_unopened_img": "/images/locations/honeycombcheck.png",
+            "chest_opened_img": "/images/locations/honeycombcheck2.png",
+            "access_rules": ["^$other_HFP_betette"],
+            "visibility_rules": ["mousepace_off"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 402,
+            "y": 354
+          }
+        ]
+      },
+      {
+        "name": "HFP: Gamette (Alien Kid Above Split-Up Pads)",
+        "sections": [
+          {
+            "name": "Gamette",
+            "chest_unopened_img": "/images/locations/honeycombcheck.png",
+            "chest_opened_img": "/images/locations/honeycombcheck2.png",
+            "access_rules": ["^$other_HFP_gamette"],
+            "visibility_rules": ["mousepace_off"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 270,
+            "y": 255
+          }
+        ]
+      },
+      {
+        "name": "HFP: Icy Side Train Switch",
+        "sections": [
+          {
+            "name": "Train Switch",
+            "chest_unopened_img": "/images/locations/tswitch.png",
+            "chest_opened_img": "/images/locations/tswitch2.png",
+            "access_rules": ["^$access_HFP_humba"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 280,
+            "y": 370
+          }
+        ]
+      },
+      {
+        "name": "HFP: Mildred Ice Cube Jinjo",
+        "sections": [
+          {
+            "name": "Jinjo",
+            "chest_unopened_img": "/images/locations/jinjo.png",
+            "chest_opened_img": "/images/locations/jinjo2.png",
+            "access_rules": ["^$jinjo_HFP_inMildred"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 75,
+            "y": 447
+          }
+        ]
+      },
+      {
+        "name": "HFP: Windy Hole Jinjo",
+        "sections": [
+          {
+            "name": "Jinjo",
+            "chest_unopened_img": "/images/locations/jinjo.png",
+            "chest_opened_img": "/images/locations/jinjo2.png",
+            "access_rules": ["^$jinjo_HFP_windTunnel"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 202,
+            "y": 115
+          }
+        ]
+      },
+      {
+        "name": "HFP: Glide Silo",
+        "chest_unopened_img": "/images/locations/silo.png",
+        "chest_opened_img": "/images/locations/silo2.png",
+        "sections": [
+          {
+            "name": "Silo",
+            "access_rules": ["^$silo_HFP_glide"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 208,
+            "y": 60
+          }
+        ]
+      },
+      {
+        "name": "HFP: Icy Side Pillar Cheato Page",
+        "sections": [
+          {
+            "name": "Cheato Page",
+            "chest_unopened_img": "/images/locations/page.png",
+            "chest_opened_img": "/images/locations/page2.png",
+            "access_rules": ["^$cheato_HFP_icySideOnPillar"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 135,
+            "y": 175
+          }
+        ]
+      },
+      {
+        "name": "HFP: Icy Side Glowbo",
+        "sections": [
+          {
+            "name": "Glowbo",
+            "chest_unopened_img": "/images/locations/glowbo.png",
+            "chest_opened_img": "/images/locations/glowbo2.png",
+            "access_rules": ["^$glowbo_HFP_icySide"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 512,
+            "y": 540
+          }
+        ]
+      },
+      {
+        "name": "HFP: Mega Glowbo (Access from GGM)",
+        "sections": [
+          {
+            "ref": "Glitter Gulch Mine - Waterfall Cavern/HFP: Mega Glowbo/Mega Glowbo",
+            "name": "Mega Glowbo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 75,
+            "y": 563
+          }
+        ]
+      },
+      {
+        "name": "HFP: Sabreman Jiggy",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": ["^$jiggy_HFP_sabreman"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 125,
+            "y": 570
+          }
+        ]
+      },
+      {
+        "name": "HFP: Boggy Jiggy",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": ["^$jiggy_HFP_boggy"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 105,
+            "y": 482
+          }
+        ]
+      },
+      {
+        "name": "Icy Train Station",
+        "visibility_rules": ["mousepace_off"],
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": ["^$jiggy_HFP_iceSideTrainStation"]
+          },
+          {
+            "name": "Feather Nest",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$jiggy_HFP_iceSideTrainStation"]
+          },
+          {
+            "name": "Egg Nest",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_HFP_icySideTrainStationHard"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 127,
+            "y": 460
+          }
+        ]
+      },
+      {
+        "name": "HFP: Oil Drill Jiggy",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": ["^$jiggy_HFP_oilDrill"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 553,
+            "y": 175
+          }
+        ]
+      },
+      {
+        "name": "HFP: Aliens Jiggy",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": ["^$jiggy_HFP_aliens"],
+            "visibility_rules": ["mousepace_off"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 352,
+            "y": 422
+          }
+        ]
+      },
+      {
+        "name": "HFP: Stomping Plains Jiggy (Access from TDL)",
+        "sections": [
+          {
+            "ref": "Terrydactyland - Stomping Plains/HFP: Stomping Plains Jiggy/HFP Jiggy",
+            "name": "Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 355,
+            "y": 100
+          }
+        ]
+      },
+      {
+        "name": "Icicle Grotto",
+        "sections": [
+          {
+            "ref": "Hailfire Peaks - Icicle Grotto/HFP: Icicle Grotto Warp Pad/Warp Pad",
+            "name": "Warp Pad"
+          },
+          {
+            "ref": "Hailfire Peaks - Icicle Grotto/HFP: Treble Clef/Treble Clef",
+            "name": "Treble Clef"
+          },
+          {
+            "ref": "Hailfire Peaks - Icicle Grotto/HFP: Icicle Grotto Jinjo/Jinjo",
+            "name": "Jinjo"
+          },
+          {
+            "ref": "Hailfire Peaks - Icicle Grotto/HFP: Icicle Grotto Cheato Page/Cheato Page",
+            "name": "Cheato Page"
+          },
+          {
+            "ref": "Hailfire Peaks - Icicle Grotto/HFP: Icicle Grotto Bottom Egg Nests/Egg Nest 1",
+            "name": "Bottom Egg Nest 1"
+          },
+          {
+            "ref": "Hailfire Peaks - Icicle Grotto/HFP: Icicle Grotto Bottom Egg Nests/Egg Nest 2",
+            "name": "Bottom Egg Nest 2"
+          },
+          {
+            "ref": "Hailfire Peaks - Icicle Grotto/HFP: Icicle Grotto Bottom Egg Nests/Egg Nest 3",
+            "name": "Bottom Egg Nest 3"
+          },
+          {
+            "ref": "Hailfire Peaks - Icicle Grotto/HFP: Icicle Grotto Shock Spring Pad Egg Nest/Egg Nest",
+            "name": "Shock Spring Pad Egg Nest"
+          },
+          {
+            "ref": "Hailfire Peaks - Icicle Grotto/HFP: Icicle Grotto Top Egg Nests/Egg Nest 1",
+            "name": "Top Egg Nest 1"
+          },
+          {
+            "ref": "Hailfire Peaks - Icicle Grotto/HFP: Icicle Grotto Top Egg Nests/Egg Nest 2",
+            "name": "Top Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 403,
+            "y": 95
+          },
+          {
+            "map": "hfp2",
+            "x": 230,
+            "y": 30
+          },
+          {
+            "map": "hfp1",
+            "x": 427,
+            "y": 190
+          }
+        ]
+      },
+      {
+        "name": "Lower Icy Side Warp Pad Notes",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "access_rules": ["^$notes_HFP_icySide"],
+        "sections": [
+          {
+            "name": "Note 1"
+          },
+          {
+            "name": "Note 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 308,
+            "y": 463
+          }
+        ]
+      },
+      {
+        "name": "Boggy's Igloo Notes",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "access_rules": ["^$notes_HFP_icySideBoggy"],
+        "sections": [
+          {
+            "name": "Note 1"
+          },
+          {
+            "name": "Note 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 80,
+            "y": 400
+          }
+        ]
+      },
+      {
+        "name": "Oil Drill Notes",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "access_rules": ["^$notes_HFP_icySideOilDrill"],
+        "sections": [
+          {
+            "name": "Note 1"
+          },
+          {
+            "name": "Note 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 400,
+            "y": 225
+          }
+        ]
+      },
+      {
+        "name": "Upper Icy Side Warp Pad Notes",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "access_rules": ["^$notes_HFP_icySide"],
+        "sections": [
+          {
+            "name": "Note 1"
+          },
+          {
+            "name": "Note 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 203,
+            "y": 268
+          }
+        ]
+      },
+      {
+        "name": "HFP: Near Bottom Icicle Grotto Entrance Feather Nests",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$notes_HFP_icySide"],
+        "sections": [
+          {
+            "name": "Feather Nest 1"
+          },
+          {
+            "name": "Feather Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 450,
+            "y": 110
+          }
+        ]
+      },
+      {
+        "name": "Wumba's Wigwam",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": [ "^$access_HFP_lavaSideTop" ],
+        "sections": [
+          {
+            "name": "Feather Nest 1"
+          },
+          {
+            "name": "Feather Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 474,
+            "y": 470
+          }
+        ]
+      },
+      {
+        "name": "HFP: Near Icy Side Pillar Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$notes_HFP_icySide"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 121,
+            "y": 210
+          }
+        ]
+      },
+      {
+        "name": "HFP: By Sabreman Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$notes_HFP_icySide"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 100,
+            "y": 570
+          }
+        ]
+      },
+      {
+        "name": "HFP: Icy Side Lower Warp Pad Egg Nest",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$notes_HFP_icySide"],
+        "sections": [
+          {
+            "name": "Egg Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 325,
+            "y": 465
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hailfire Peaks - Icicle Grotto",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Region: Hailfire Peaks - Icicle Grotto" ],
+    "children": [
+      {
+        "name": "HFP: Icicle Grotto Warp Pad",
+        "sections": [
+          {
+            "name": "Warp Pad",
+            "chest_unopened_img": "/images/locations/warp.png",
+            "chest_opened_img": "/images/locations/warp2.png",
+            "visibility_rules": ["randomizewarppads_on"],
+            "access_rules": ["^$warp_HFP_icicleGrotto"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp3",
+            "x": 448,
+            "y": 500
+          }
+        ]
+      },
+      {
+        "name": "HFP: Treble Clef",
+        "chest_unopened_img": "/images/locations/treble.png",
+        "chest_opened_img": "/images/locations/treble2.png",
+        "access_rules": ["^$treble_HFP"],
+        "sections": [
+          {
+            "name": "Treble Clef"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp3",
+            "x": 122,
+            "y": 515
+          }
+        ]
+      },
+      {
+        "name": "HFP: Icicle Grotto Cheato Page",
+        "chest_unopened_img": "/images/locations/page.png",
+        "chest_opened_img": "/images/locations/page2.png",
+        "access_rules": ["^$cheato_HFP_icicleGrotto"],
+        "sections": [
+          {
+            "name": "Cheato Page"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp3",
+            "x": 852,
+            "y": 513
+          }
+        ]
+      },
+      {
+        "name": "HFP: Icicle Grotto Jinjo",
+        "chest_unopened_img": "/images/locations/jinjo.png",
+        "chest_opened_img": "/images/locations/jinjo2.png",
+        "access_rules": ["^$jinjo_HFP_icicleGrotto"],
+        "sections": [
+          {
+            "name": "Jinjo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp3",
+            "x": 267,
+            "y": 760
+          }
+        ]
+      },
+      {
+        "name": "HFP: Icicle Grotto Bottom Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$notes_HFP_icySide"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          },
+          {
+            "name": "Egg Nest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp3",
+            "x": 1010,
+            "y": 575
+          }
+        ]
+      },
+      {
+        "name": "HFP: Icicle Grotto Shock Spring Pad Egg Nest",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_HFP_icicleGrottoSpringPad"],
+        "sections": [
+          {
+            "name": "Egg Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp3",
+            "x": 500,
+            "y": 475
+          }
+        ]
+      },
+      {
+        "name": "HFP: Icicle Grotto Top Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_HFP_icicleGrottoTop"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp3",
+            "x": 250,
+            "y": 280
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Boss Arena - Chilli Billi",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": ["@Region: Boss Arena - Chilli Billi"],
+    "children": [
+      {
+        "name": "Dragon Brothers",
+        "access_rules": [ "^$jiggy_HFP_dragonBrothers" ],
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png"
+          },
+          {
+            "name": "Mumbo Token",
+            "chest_unopened_img": "/images/locations/mumbotoken.png",
+            "chest_opened_img": "/images/locations/mumbotoken2.png",
+            "visibility_rules": [ "goal_boss", "goal_wwing" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp1",
+            "x": 370,
+            "y": 70
+          },
+          {
+            "map": "hfp2",
+            "x": 345,
+            "y": 65
+          }
+        ]
+      },
+      {
+        "name": "HFP: Chilli Billi Crater Egg Nest",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp1",
+            "x": 387,
+            "y": 70
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Boss Arena - Chilly Willy",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": ["@Region: Boss Arena - Chilly Willy"],
+    "children": [
+      {
+        "name": "HFP: Chilly Willy Crater Egg Nest",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hfp2",
+            "x": 360,
+            "y": 65
+          }
+        ]
+      }
+    ]
+  }
+]

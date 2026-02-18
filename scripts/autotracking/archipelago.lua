@@ -20,6 +20,16 @@ load_hfp = "Hailfire Peaks"
 load_ccl = "Cloud Cuckooland"
 load_ck = "Cauldron Keep"
 
+load_boss_mt = "Targitzan's Really Sacred Chamber"
+load_boss_ggm = "Inside Chuffy's Boiler"
+load_boss_ww = "Big Top Interior"
+load_boss_jrl = "Davy Jones' Locker"
+load_boss_tdl = "Terry's Nest"
+load_boss_gi = "Repair Depot"
+load_boss_hfpl = "Chilli Billi Crater"
+load_boss_hfpi = "Chilli Willy Crater"
+load_boss_ccl = "Mingy Jongo Skull"
+
 silo_eggaim = 25
 silo_bblaster = 30
 silo_ggrab = 35
@@ -123,10 +133,30 @@ function onClear(slot_data)
 
     PLAYER_ID = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
+    PLAYER_NAME = Archipelago:GetPlayerAlias(PLAYER_ID) or " "
+    
+    --[[if PLAYER_NAME == "mia-threepie" or PLAYER_NAME == "Mia-Tooie" or PLAYER_NAME == "banjo-threepie" or PLAYER_NAME == "wildthreep" then
+        local obj = Tracker:FindObjectForCode("mousepace")
+        obj.CurrentStage = 1
+        Tracker:UiHint("ActivateTab", "Split View")
+    else
+        local obj = Tracker:FindObjectForCode("mousepace")
+        obj.CurrentStage = 0
+    end--]]
 
-    if slot_data['randomize_moves'] then
+    if slot_data['options']['skip_klungo'] then
+        local obj = Tracker:FindObjectForCode("skipklungo")
+        local stage = slot_data['options']['skip_klungo']
+        if stage == 1 then
+            obj.CurrentStage = 0
+        elseif stage == 0 then
+            obj.CurrentStage = 1
+        end
+    end
+
+    if slot_data['options']['randomize_bt_moves'] then
         local obj = Tracker:FindObjectForCode("randomizemoves")
-        local stage = slot_data['randomize_moves']
+        local stage = slot_data['options']['randomize_bt_moves']
         if stage == 1 then
             obj.CurrentStage = 0
         elseif stage == 0 then
@@ -134,9 +164,9 @@ function onClear(slot_data)
         end
     end
 
-    if slot_data['randomize_jinjos'] then
+    if slot_data['options']['randomize_jinjos'] then
         local obj = Tracker:FindObjectForCode("randomizejinjos")
-        local stage = slot_data['randomize_jinjos']
+        local stage = slot_data['options']['randomize_jinjos']
         if stage == 1 then
             obj.CurrentStage = 0
         elseif stage == 0 then
@@ -144,9 +174,9 @@ function onClear(slot_data)
         end
     end
 
-    if slot_data['randomize_doubloons'] then
+    if slot_data['options']['randomize_doubloons'] then
         local obj = Tracker:FindObjectForCode("randomizedoubloons")
-        local stage = slot_data['randomize_doubloons']
+        local stage = slot_data['options']['randomize_doubloons']
         if stage == 1 then
             obj.CurrentStage = 1
         elseif stage == 0 then
@@ -154,39 +184,54 @@ function onClear(slot_data)
         end
     end
 
-    if slot_data['randomize_cheato'] then
-        local obj = Tracker:FindObjectForCode("randomizecheato")
-        local stage = slot_data['randomize_cheato']
-        if stage == 1 then
-            obj.CurrentStage = 0
-        elseif stage == 0 then
+    if slot_data['options']['randomize_cheato'] and slot_data['options']['cheato_rewards'] then
+        local obj = Tracker:FindObjectForCode("cheatocontent")
+        local stageP = slot_data['options']['randomize_cheato']
+        local stageR = slot_data['options']['cheato_rewards']
+        if stageR == 1 and stageP == 1 then
+            obj.CurrentStage = 3
+        elseif stageR == 1 and stageP == 0 then
+            obj.CurrentStage = 2
+        elseif stageR == 0 and stageP == 1 then
             obj.CurrentStage = 1
+        else
+            obj.CurrentStage = 0
         end
     end
 
-    if slot_data['randomize_honeycombs'] then
-        local obj = Tracker:FindObjectForCode("randomizehoneycomb")
-        local stage = slot_data['randomize_honeycombs']
-        if stage == 1 then
-            obj.CurrentStage = 0
-        elseif stage == 0 then
+    if slot_data['options']['randomize_honeycombs'] and slot_data['options']['honeyb_rewards'] then
+        local obj = Tracker:FindObjectForCode("honeybcontent")
+        local stageC = slot_data['options']['randomize_honeycombs']
+        local stageR = slot_data['options']['honeyb_rewards']
+        if stageR == 1 and stageC == 1 then
+            obj.CurrentStage = 3
+        elseif stageR == 1 and stageC == 0 then
+            obj.CurrentStage = 2
+        elseif stageR == 0 and stageC == 1 then
             obj.CurrentStage = 1
+        else
+            obj.CurrentStage = 0
         end
     end
 
-    if slot_data['randomize_treble'] then
-        local obj = Tracker:FindObjectForCode("randomizetrebleclef")
-        local stage = slot_data['randomize_treble']
-        if stage == 1 then
-            obj.CurrentStage = 0
-        elseif stage == 0 then
+    if slot_data['options']['randomize_notes'] and slot_data['options']['randomize_treble'] then
+        local obj = Tracker:FindObjectForCode("notecontent")
+        local stageN = slot_data['options']['randomize_notes']
+        local stageT = slot_data['options']['randomize_treble']
+        if stageN == 1 and stageT == 1 then
+            obj.CurrentStage = 3
+        elseif stageN == 1 and stageT == 0 then
+            obj.CurrentStage = 2
+        elseif stageN == 0 and stageT == 1 then
             obj.CurrentStage = 1
+        else
+            obj.CurrentStage = 0
         end
     end
 
-    if slot_data['randomize_glowbos'] then
+    if slot_data['options']['randomize_glowbos'] then
         local obj = Tracker:FindObjectForCode("randomizeglowbos")
-        local stage = slot_data['randomize_glowbos']
+        local stage = slot_data['options']['randomize_glowbos']
         if stage == 1 then
             obj.CurrentStage = 0
         elseif stage == 0 then
@@ -194,9 +239,9 @@ function onClear(slot_data)
         end
     end
 
-    if slot_data['randomize_stations'] then
+    if slot_data['options']['randomize_stations'] then
         local obj = Tracker:FindObjectForCode("randomizestations")
-        local stage = slot_data['randomize_stations']
+        local stage = slot_data['options']['randomize_stations']
         if stage == 1 then
             obj.CurrentStage = 1
         elseif stage == 0 then
@@ -204,9 +249,9 @@ function onClear(slot_data)
         end
     end
 
-    if slot_data['randomize_chuffy'] then
+    if slot_data['options']['randomize_chuffy'] then
         local obj = Tracker:FindObjectForCode("randomizechuffy")
-        local stage = slot_data['randomize_chuffy']
+        local stage = slot_data['options']['randomize_chuffy']
         if stage == 1 then
             obj.CurrentStage = 1
         elseif stage == 0 then
@@ -214,19 +259,9 @@ function onClear(slot_data)
         end
     end
 
-    if slot_data['randomize_notes'] then
-        local obj = Tracker:FindObjectForCode("randomizenotes")
-        local stage = slot_data['randomize_notes']
-        if stage == 1 then
-            obj.CurrentStage = 1
-        elseif stage == 0 then
-            obj.CurrentStage = 0
-        end
-    end
-
-    if slot_data['randomize_stop_n_swap'] then
+    if slot_data['options']['randomize_stop_n_swap'] then
         local obj = Tracker:FindObjectForCode("randomizestopnswop")
-        local stage = slot_data['randomize_stop_n_swap']
+        local stage = slot_data['options']['randomize_stop_n_swap']
         if stage == 1 then
             obj.CurrentStage = 1
         elseif stage == 0 then
@@ -234,9 +269,9 @@ function onClear(slot_data)
         end
     end
 
-    if slot_data['worlds'] then
+    if slot_data['options']['world_requirements'] then
         local obj = Tracker:FindObjectForCode("randomizeworlds")
-        local stage = slot_data['worlds']
+        local stage = slot_data['options']['world_requirements']
         if stage == "true" then
             obj.CurrentStage = 1
         elseif stage == "false" then
@@ -244,9 +279,9 @@ function onClear(slot_data)
         end
     end
 
-    if slot_data['speed_up_minigames'] then
+    if slot_data['options']['speed_up_minigames'] then
         local obj = Tracker:FindObjectForCode("speedupmini")
-        local stage = slot_data['speed_up_minigames']
+        local stage = slot_data['options']['speed_up_minigames']
         if stage == 1 then
             obj.CurrentStage = 0
         elseif stage == 0 then
@@ -254,9 +289,9 @@ function onClear(slot_data)
         end
     end
 
-    if slot_data['open_hag1'] then
+    if slot_data['options']['open_hag1'] then
         local obj = Tracker:FindObjectForCode("openhag1")
-        local stage = slot_data['open_hag1']
+        local stage = slot_data['options']['open_hag1']
         if stage == 1 then
             obj.CurrentStage = 0
         elseif stage == 0 then
@@ -264,60 +299,52 @@ function onClear(slot_data)
         end
     end
 
-    if slot_data['logic_type'] then
+    if slot_data['options']['logic_type'] then
         local obj = Tracker:FindObjectForCode("logictype")
-        local stage = slot_data['logic_type']
+        local stage = slot_data['options']['logic_type']
         if obj then
             obj.CurrentStage = stage
         end
+        
+        -- for now just assume users don't want to see & be confused by yellow marks on their poptracker, and disable these both
+        local obj2 = Tracker:FindObjectForCode("sequencebreaklogic")
+        if obj2 then
+            obj2.CurrentStage = 0
+        end
+        
+        local obj3 = Tracker:FindObjectForCode("shownewtricks")
+        if obj3 then
+            obj3.CurrentStage = 0
+        end
     end
 
-    if slot_data['victory_condition'] then
+    if slot_data['options']['boss_hunt_length'] then
+        local count = slot_data['options']['boss_hunt_length']
+        bosshuntlength = count
+        local obj = Tracker:FindObjectForCode("bossesforhag1")
+        obj.AcquiredCount = count
+    end
+
+    if slot_data['options']['victory_condition'] then
         local obj = Tracker:FindObjectForCode("goal")
-        local stage = slot_data['victory_condition']
+        local stage = slot_data['options']['victory_condition']
         if stage then
             obj.CurrentStage = stage
         end
     end
 
-    if slot_data['randomize_bk_moves'] then
+    if slot_data['options']['randomize_bk_moves'] then
         local obj = Tracker:FindObjectForCode("randomizebkmoves")
-        local stage = slot_data['randomize_bk_moves']
+        local stage = slot_data['options']['randomize_bk_moves']
         if stage then
-            if obj.CurrentStage == stage then
-                -- we need to manually call toggleBKMoves
-                -- because onClear will reset the bk moves to off via item mappings
-                -- and "randomizebkmoves" change does not change
-                toggleBKMoves()
-            else
-                obj.CurrentStage = stage
-            end
+            obj.CurrentStage = stage
+            toggleBKMoves()
         end
     end
 
-    if slot_data['cheato_rewards'] then
-        local obj = Tracker:FindObjectForCode("cheatorewards")
-        local stage = slot_data['cheato_rewards']
-        if stage == 1 then
-            obj.CurrentStage = 0
-        elseif stage == 0 then
-            obj.CurrentStage = 1
-        end
-    end
-
-    if slot_data['honeyb_rewards'] then
-        local obj = Tracker:FindObjectForCode("honeybrewards")
-        local stage = slot_data['honeyb_rewards']
-        if stage == 1 then
-            obj.CurrentStage = 0
-        elseif stage == 0 then
-            obj.CurrentStage = 1
-        end
-    end
-
-    if slot_data['randomize_bk_moves'] ~= 0 and slot_data['worlds'] == "true" then
+    if slot_data['options']['randomize_bk_moves'] ~= 0 and slot_data['custom_bt_data']['world_requirements'] == "true" then
         local j = 100
-        for k,v in pairs(slot_data.world_order) do
+        for k,v in pairs(slot_data.custom_bt_data.world_order) do
             if v < 4 and v < j then
                 j = v
                 first_level = k
@@ -325,12 +352,28 @@ function onClear(slot_data)
         end
     end
 
-    if slot_data['first_silo'] then
-        first_silo = slot_data['first_silo']
+    if slot_data['options']['randomize_silos'] then
+        local obj = Tracker:FindObjectForCode("randomizesilos")
+        local stage = slot_data['options']['randomize_silos']
+        if stage == 1 then
+            obj.CurrentStage = 0
+        elseif stage == 0 then
+            obj.CurrentStage = 1
+        end
     end
 
-    if slot_data['loading_zones'] then
-        for k,v in pairs(slot_data.loading_zones) do
+    if slot_data['options']['randomize_warp_pads'] then
+        local obj = Tracker:FindObjectForCode("randomizewarppads")
+        local stage = slot_data['options']['randomize_warp_pads']
+        if stage == 1 then
+            obj.CurrentStage = 0
+        elseif stage == 0 then
+            obj.CurrentStage = 1
+        end
+    end
+
+    if slot_data['custom_bt_data']['loading_zones'] then
+        for k,v in pairs(slot_data.custom_bt_data.loading_zones) do
             if k == "Mayahem Temple" then
                 load_mt = v
             elseif k == "Glitter Gulch Mine" then
@@ -349,12 +392,30 @@ function onClear(slot_data)
                 load_ccl = v
             elseif k == "Cauldron Keep" then
                 load_ck = v
+            elseif k == "Targitzan's Really Sacred Chamber" then
+                load_boss_mt = v
+            elseif k == "Inside Chuffy's Boiler" then
+                load_boss_ggm = v
+            elseif k == "Big Top Interior" then
+                load_boss_ww = v
+            elseif k == "Davy Jones' Locker" then
+                load_boss_jrl = v
+            elseif k == "Terry's Nest" then
+                load_boss_tdl = v
+            elseif k == "Repair Depot" then
+                load_boss_gi = v
+            elseif k == "Chilli Billi Crater" then
+                load_boss_hfpl = v
+            elseif k == "Chilli Willy Crater" then
+                load_boss_hfpi = v
+            elseif k == "Mingy Jongo Skull" then
+                load_boss_ccl = v
             end
         end
     end
 
-    if slot_data['jamjars_siloname_costs'] then
-        for k,v in pairs(slot_data.jamjars_siloname_costs) do
+    if slot_data['custom_bt_data']['jamjars_siloname_costs'] then
+        for k,v in pairs(slot_data.custom_bt_data.jamjars_siloname_costs) do
             if k == "IoH: Ice Eggs Silo" then
                 silo_ieggs = v
             elseif k == "GI Floor 1: Snooze Pack Silo" then
@@ -368,7 +429,7 @@ function onClear(slot_data)
             elseif k == "JRL: Sub-Aqua Egg Aiming Silo" then
                 silo_auqaim = v
             elseif k == "JRL: Talon Torpedo Silo" then
-                silo_ttrop = v
+                silo_ttorp = v
             elseif k == "TDL: Hatch Silo" then
                 silo_hatch = v
             elseif k == "GGM: Bill Drill Silo" then
@@ -407,9 +468,9 @@ function onClear(slot_data)
         end
     end
 
-    if slot_data['backdoors'] then
+    if slot_data['options']['backdoors'] then
         local obj = Tracker:FindObjectForCode("backdoorsopen")
-        local stage = slot_data['backdoors']
+        local stage = slot_data['options']['backdoors']
         if stage == 1 then
             obj.CurrentStage = 1
         else
@@ -417,9 +478,9 @@ function onClear(slot_data)
         end
     end
 
-    if slot_data['nestsanity'] then
+    if slot_data['options']['nestsanity'] then
         local obj = Tracker:FindObjectForCode("nestsanity")
-        local stage = slot_data['nestsanity']
+        local stage = slot_data['options']['nestsanity']
         if stage == 1 then
             obj.CurrentStage = 1
         else
@@ -427,9 +488,9 @@ function onClear(slot_data)
         end
     end
 
-    if slot_data['randomize_signposts'] then
+    if slot_data['options']['randomize_signposts'] then
         local obj = Tracker:FindObjectForCode("signposts")
-        local stage = slot_data['randomize_signposts']
+        local stage = slot_data['options']['randomize_signposts']
         if stage == 1 then
             obj.CurrentStage = 1
         else
@@ -437,9 +498,59 @@ function onClear(slot_data)
         end
     end
 
-    if slot_data['boss_hunt_length'] then
-        local count = slot_data['boss_hunt_length']
-        bosshuntlength = count
+    if slot_data['options']['open_gi_frontdoor'] then
+        local obj = Tracker:FindObjectForCode("opengi")
+        local stage = slot_data['options']['open_gi_frontdoor']
+        if stage == 1 then
+            obj.CurrentStage = 1
+        else
+            obj.CurrentStage = 0
+        end
+    end
+
+    if slot_data['options']['randomize_beans'] then
+        local obj = Tracker:FindObjectForCode("randomizebeans")
+        local stage = slot_data['options']['randomize_beans']
+        if stage == 1 then
+            obj.CurrentStage = 1
+        else
+            obj.CurrentStage = 0
+        end
+    end
+
+    if slot_data['options']['randomize_tickets'] and slot_data['options']['randomize_green_relics'] then
+        local obj = Tracker:FindObjectForCode("bossentranceitems")
+        local stageT = slot_data['options']['randomize_tickets']
+        local stageG = slot_data['options']['randomize_green_relics']
+        if stageT == 1 and stageG == 1 then
+            obj.CurrentStage = 3
+        elseif stageT == 1 and stageG == 0 then
+            obj.CurrentStage = 2
+        elseif stageT == 0 and stageG == 1 then
+            obj.CurrentStage = 1
+        else
+            obj.CurrentStage = 0
+        end
+    end
+
+    if slot_data['options']['randomize_world_entrance_loading_zones'] then
+        local obj = Tracker:FindObjectForCode("entrancerando")
+        local stage = slot_data['options']['randomize_world_entrance_loading_zones']
+        if stage == 1 then
+            obj.CurrentStage = 1
+        else
+            obj.CurrentStage = 0
+        end
+    end
+
+    if slot_data['options']['randomize_boss_loading_zones'] then
+        local obj = Tracker:FindObjectForCode("randomizebossentrances")
+        local stage = slot_data['options']['randomize_boss_loading_zones']
+        if stage == 1 then
+            obj.CurrentStage = 1
+        else
+            obj.CurrentStage = 0
+        end
     end
 
     --print("MT: "..load_mt)

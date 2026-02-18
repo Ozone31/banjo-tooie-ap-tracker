@@ -1,0 +1,2237 @@
+[
+  {
+    "name": "Overworld - Terrydactyland",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "children": [
+      {
+        "name": "Terrydactyland - Silos & Warps",
+        "sections": [
+          {
+            "ref": "Terrydactyland - Main Area/TDL: Springy Step Shoes Silo/Silo",
+            "name": "TDL: Springy Step Shoes Silo"
+          },
+          {
+            "ref": "Terrydactyland - River Passage/TDL: Taxi Pack Silo/Silo",
+            "name": "TDL: Taxi Pack Silo"
+          },
+          {
+            "ref": "Terrydactyland - Unga Bungas' Cave/TDL: Hatch Silo/Silo",
+            "name": "TDL: Hatch Silo"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/TDL: Entrance Warp Pad/Warp Pad",
+            "name": "TDL: Entrance Warp Pad"
+          },
+          {
+            "ref": "Terrydactyland - Stomping Plains/TDL: Stomping Plains Warp Pad/Warp Pad",
+            "name": "TDL: Stomping Plains Warp Pad"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/TDL: Mumbo's Skull Warp Pad/Warp Pad",
+            "name": "TDL: Mumbo's Skull Warp Pad"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/TDL: Humba's Wigwam Warp Pad/Warp Pad",
+            "name": "TDL: Humba's Wigwam Warp Pad"
+          },
+          {
+            "ref": "Terrydactyland - Top/Top of the Mountain/TDL: Top of the Mountain Warp Pad",
+            "name": "TDL: Top of the Mountain Warp Pad"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 473,
+            "y": 410
+          }
+        ]
+      },
+      {
+        "name": "Terrydactyland - Jiggies",
+        "sections": [
+          {
+            "ref": "Boss Arena - Terry/TDL: Under Terry's Nest Jiggy/Jiggy",
+            "name": "TDL: Under Terry's Nest Jiggy"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/TDL: Dippy Jiggy/Jiggy",
+            "name": "TDL: Dippy Jiggy"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/Styracosaurus Family Cave/Scrotty Jiggy",
+            "name": "TDL: Scrotty Jiggy"
+          },
+          {
+            "ref": "Boss Arena - Terry/Terry/Terry Jiggy",
+            "name": "TDL: Terry Jiggy"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/Oogle Boogles' Cave/Oogle Boogle Tribe Jiggy",
+            "name": "TDL: Oogle Boogle Tribe Jiggy"
+          },
+          {
+            "ref": "Terrydactyland - Inside the Mountain/Chompas Belly/Jiggy",
+            "name": "TDL: Chompas Belly Jiggy"
+          },
+          {
+            "ref": "Boss Arena - Terry/Terry/Terry's Kids Jiggy (Hatch Eggs Around Map)",
+            "name": "TDL: Terry's Kids Jiggy"
+          },
+          {
+            "ref": "Terrydactyland - Stomping Plains/TDL: Stomping Plains Jiggy/TDL Jiggy",
+            "name": "TDL: Stomping Plains Jiggy"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/TDL: Rocknut Tribe Jiggy (Defeat 5 Around the Map)/Jiggy",
+            "name": "TDL: Rocknut Tribe Jiggy"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/TDL: Code of the Dinosaurs Jiggy/Jiggy",
+            "name": "TDL: Code of the Dinosaurs Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 551,
+            "y": 410
+          }
+        ]
+      },
+      {
+        "name": "Terrydactyland - Notes",
+        "sections": [
+          {
+            "ref": "Terrydactyland - Main Area/TDL: Treble Clef/Treble Clef",
+            "name": "TDL: Treble Clef"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/TDL: Train Station Notes/Right Note",
+            "name": "TDL: Train Station Right Note"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/TDL: Train Station Notes/Middle Note",
+            "name": "TDL: Train Station Middle Note"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/TDL: Train Station Notes/Left Note",
+            "name": "TDL: Train Station Left Note"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/TDL: Lakeside Notes/Note 1",
+            "name": "TDL: Lakeside Note 1"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/TDL: Lakeside Notes/Note 2",
+            "name": "TDL: Lakeside Note 2"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/TDL: Lakeside Notes/Note 3",
+            "name": "TDL: Lakeside Note 3"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/TDL: Zig-Zag Path Notes/Note 1",
+            "name": "TDL: Zig-Zag Path Note 1"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/TDL: Zig-Zag Path Notes/Note 2",
+            "name": "TDL: Zig-Zag Path Note 2"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/TDL: Zig-Zag Path Notes/Note 3",
+            "name": "TDL: Zig-Zag Path Note 3"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/TDL: Roar Cage Path Notes/Note 1",
+            "name": "TDL: Roar Cage Path Note 1"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/TDL: Roar Cage Path Notes/Note 2",
+            "name": "TDL: Roar Cage Path Note 2"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/TDL: Roar Cage Path Notes/Note 3",
+            "name": "TDL: Roar Cage Path Note 3"
+          },
+          {
+            "ref": "Terrydactyland - River Passage/River Passage Notes/Note 1",
+            "name": "TDL: River Passage Note 1"
+          },
+          {
+            "ref": "Terrydactyland - River Passage/River Passage Notes/Note 2",
+            "name": "TDL: River Passage Note 2"
+          },
+          {
+            "ref": "Terrydactyland - River Passage/River Passage Notes/Note 3",
+            "name": "TDL: River Passage Note 3"
+          },
+          {
+            "ref": "Terrydactyland - River Passage/River Passage Notes/Note 4",
+            "name": "TDL: River Passage Note 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 621,
+            "y": 410
+          }
+        ]
+      },
+      {
+        "name": "Terrydactyland - Other",
+        "sections": [
+          {
+            "ref": "Terrydactyland - Main Area/TDL: Talon Torpedo Jinjo/Jinjo",
+            "name": "TDL: Talon Torpedo Jinjo"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/TDL: Entrance Jinjo/Jinjo",
+            "name": "TDL: Entrance Jinjo"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/TDL: Beside Rocknut Jinjo/Jinjo",
+            "name": "TDL: Beside Rocknut Jinjo"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/TDL: Big T. Rex Jinjo/Jinjo",
+            "name": "TDL: Big T. Rex Jinjo"
+          },
+          {
+            "ref": "Terrydactyland - Stomping Plains/TDL: Stomping Plains Jinjo/Jinjo",
+            "name": "TDL: Stomping Plains Jinjo"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/TDL: Unga Bunga Cave Entrance Glowbo/Glowbo",
+            "name": "TDL: Unga Bunga Cave Entrance Glowbo"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/TDL: Behind Mumbo's Skull Glowbo/Glowbo",
+            "name": "TDL: Behind Mumbo's Skull Glowbo"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/TDL: Lakeside Honeycomb/Honeycomb",
+            "name": "TDL: Lakeside Honeycomb"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/Styracosaurus Family Cave/Styracosaurus Cave Honeycomb",
+            "name": "TDL: Styracosaurus Cave Honeycomb"
+          },
+          {
+            "ref": "Terrydactyland - River Passage/TDL: River Passage Honeycomb/Honeycomb",
+            "name": "TDL: River Passage Honeycomb"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/TDL: Dippy's Pool Cheato Page/Cheato Page",
+            "name": "TDL: Dippy's Pool Cheato Page"
+          },
+          {
+            "ref": "Terrydactyland - Inside the Mountain/TDL: Inside the Mountain Cheato Page/Cheato Page",
+            "name": "TDL: Inside the Mountain Cheato Page"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/TDL: Boulder Cheato Page/Cheato Page",
+            "name": "TDL: Boulder Cheato Page"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/TDL: Train Switch/Train Switch",
+            "name": "TDL: Train Switch"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/Styracosaurus Family Cave/Scrut (Lost)",
+            "name": "TDL: Scrut (Lost)"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/Styracosaurus Family Cave/Scrat (Sick)",
+            "name": "TDL: Scrat (Sick)"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/Styracosaurus Family Cave/Scrit (Small)",
+            "name": "TDL: Scrit (Small)"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/TDL: Baby T-Rex Roar/Learn Roar",
+            "name": "TDL: Baby T-Rex Roar"
+          },
+          {
+            "ref": "Boss Arena - Terry/Terry/Terry Mumbo Token",
+            "name": "TDL: Terry Mumbo Token"
+          },
+          {
+            "ref": "Terrydactyland - Inside the Mountain/Chompas Belly/Mumbo Token",
+            "name": "TDL: Chompas Belly Mumbo Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 691,
+            "y": 410
+          }
+        ]
+      },
+      {
+        "name": "Terrydactyland - Nests",
+        "sections": [
+          {
+            "ref": "Terrydactyland - Main Area/TDL: Flight Pad Pillar Feather Nests/Feather Nest 1",
+            "name": "TDL: Flight Pad Pillar Feather Nest 1"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/TDL: Flight Pad Pillar Feather Nests/Feather Nest 2",
+            "name": "TDL: Flight Pad Pillar Feather Nest 2"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/TDL: Flight Pad Pillar Feather Nests/Feather Nest 3",
+            "name": "TDL: Flight Pad Pillar Feather Nest 3"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/TDL: Alcove Near Waterfall Egg Nests/Egg Nest 1",
+            "name": "TDL: Alcove Near Waterfall Egg Nest 1"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/TDL: Alcove Near Waterfall Egg Nests/Egg Nest 2",
+            "name": "TDL: Alcove Near Waterfall Egg Nest 2"
+          },
+          {
+            "ref": "Terrydactyland - Top/Top of the Mountain/TDL: Top of the Mountain Egg Nest",
+            "name": "TDL: Top of the Mountain Egg Nest"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/TDL: Entrance Egg Nest/Egg Nest",
+            "name": "TDL: Entrance Egg Nest"
+          },
+          {
+            "ref": "Terrydactyland - Top/TDL: Path to Terry Nests/Egg Nest 1",
+            "name": "TDL: Path to Terry Egg Nest 1"
+          },
+          {
+            "ref": "Terrydactyland - Top/TDL: Path to Terry Nests/Feather Nest 1",
+            "name": "TDL: Path to Terry Feather Nest 1"
+          },
+          {
+            "ref": "Terrydactyland - Top/TDL: Path to Terry Nests/Egg Nest 2",
+            "name": "TDL: Path to Terry Egg Nest 2"
+          },
+          {
+            "ref": "Terrydactyland - Top/TDL: Path to Terry Nests/Feather Nest 2",
+            "name": "TDL: Path to Terry Feather Nest 2"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/TDL: Left of Wall with Holes Egg Nests/Egg Nest 1",
+            "name": "TDL: Left of Wall with Holes Egg Nest 1"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/TDL: Left of Wall with Holes Egg Nests/Egg Nest 2",
+            "name": "TDL: Left of Wall with Holes Egg Nest 2"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/TDL: Right of Wall with Holes Egg Nests/Egg Nest 1",
+            "name": "TDL: Right of Wall with Holes Egg Nest 1"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/TDL: Right of Wall with Holes Egg Nests/Egg Nest 2",
+            "name": "TDL: Right of Wall with Holes Egg Nest 2"
+          },
+          {
+            "ref": "Terrydactyland - Top/TDL: Near Shock Spring Pad Up the Mountain Egg Nests/Egg Nest 1",
+            "name": "TDL: Near Shock Spring Pad Up the Mountain Egg Nest 1"
+          },
+          {
+            "ref": "Terrydactyland - Top/TDL: Near Shock Spring Pad Up the Mountain Egg Nests/Egg Nest 2",
+            "name": "TDL: Near Shock Spring Pad Up the Mountain Egg Nest 2"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/TDL: Near River Passage Entrance Egg Nest/Egg Nest",
+            "name": "TDL: Near River Passage Entrance Egg Nest"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/TDL: Right of Scrotty Cave Egg Nests/Egg Nest 1",
+            "name": "TDL: Right of Scrotty Cave Egg Nest 1"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/TDL: Right of Scrotty Cave Egg Nests/Egg Nest 2",
+            "name": "TDL: Right of Scrotty Cave Egg Nest 2"
+          },
+          {
+            "ref": "Boss Arena - Terry/TDL: Terry's Nest Egg Nest 1/Egg Nest",
+            "name": "TDL: Terry's Nest Egg Nest 1"
+          },
+          {
+            "ref": "Boss Arena - Terry/TDL: Terry's Nest Egg Nest 2/Egg Nest",
+            "name": "TDL: Terry's Nest Egg Nest 2"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/Train Station (Terrydactyland)/Egg Nest 1",
+            "name": "TDL: Train Station Egg Nest 1"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/Train Station (Terrydactyland)/Egg Nest 2",
+            "name": "TDL: Train Station Egg Nest 2"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/Train Station (Terrydactyland)/Feather Nest 1",
+            "name": "TDL: Train Station Feather Nest 1"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/Train Station (Terrydactyland)/Feather Nest 2",
+            "name": "TDL: Train Station Feather Nest 2"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/Oogle Boogles' Cave/Feather Nest 1",
+            "name": "TDL: Oogle Boogle Feather Nest 1"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/Oogle Boogles' Cave/Feather Nest 2",
+            "name": "TDL: Oogle Boogle Feather Nest 2"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/Oogle Boogles' Cave/Egg Nest 1",
+            "name": "TDL: Oogle Boogle Egg Nest 1"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/Oogle Boogles' Cave/Egg Nest 2",
+            "name": "TDL: Oogle Boogle Egg Nest 2"
+          },
+          {
+            "ref": "Terrydactyland - Inside the Mountain/TDL: Inside the Mountain Feather Nests/Feather Nest 1",
+            "name": "TDL: Inside the Mountain Feather Nest 1"
+          },
+          {
+            "ref": "Terrydactyland - Inside the Mountain/TDL: Inside the Mountain Feather Nests/Feather Nest 2",
+            "name": "TDL: Inside the Mountain Feather Nest 2"
+          },
+          {
+            "ref": "Terrydactyland - Inside the Mountain/TDL: Inside the Mountain Egg Nests/Egg Nest 1",
+            "name": "TDL: Inside the Mountain Egg Nest 1"
+          },
+          {
+            "ref": "Terrydactyland - Inside the Mountain/TDL: Inside the Mountain Egg Nests/Egg Nest 2",
+            "name": "TDL: Inside the Mountain Egg Nest 2"
+          },
+          {
+            "ref": "Terrydactyland - River Passage/TDL: River Passage Feather Nest/Feather Nest",
+            "name": "TDL: River Passage Feather Nest"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/Styracosaurus Family Cave/Feather Nest 1",
+            "name": "TDL: Styracosaurus Family Cave Feather Nest 1"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/Styracosaurus Family Cave/Feather Nest 2",
+            "name": "TDL: Styracosaurus Family Cave Feather Nest 2"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/Styracosaurus Family Cave/Feather Nest 3",
+            "name": "TDL: Styracosaurus Family Cave Feather Nest 3"
+          },
+          {
+            "ref": "Terrydactyland - Unga Bungas' Cave/TDL: Unga Bunga's Cave Feather Nests/Feather Nest 1",
+            "name": "TDL: Unga Bunga's Cave Feather Nest 1"
+          },
+          {
+            "ref": "Terrydactyland - Unga Bungas' Cave/TDL: Unga Bunga's Cave Feather Nests/Feather Nest 2",
+            "name": "TDL: Unga Bunga's Cave Feather Nest 2"
+          },
+          {
+            "ref": "Terrydactyland - Unga Bungas' Cave/TDL: Unga Bunga's Cave Feather Nests/Feather Nest 3",
+            "name": "TDL: Unga Bunga's Cave Feather Nest 3"
+          },
+          {
+            "ref": "Terrydactyland - Unga Bungas' Cave/TDL: Unga Bunga's Cave Egg Nests/Egg Nest 1",
+            "name": "TDL: Unga Bunga's Cave Egg Nest 1"
+          },
+          {
+            "ref": "Terrydactyland - Unga Bungas' Cave/TDL: Unga Bunga's Cave Egg Nests/Egg Nest 2",
+            "name": "TDL: Unga Bunga's Cave Egg Nest 2"
+          },
+          {
+            "ref": "Terrydactyland - Unga Bungas' Cave/TDL: Unga Bunga's Cave Egg Nests/Egg Nest 3",
+            "name": "TDL: Unga Bunga's Cave Egg Nest 3"
+          },
+          {
+            "ref": "Terrydactyland - Stomping Plains/TDL: Stomping Plains Middle Path Feather Nest/Feather Nest",
+            "name": "TDL: Stomping Plains Middle Path Feather Nest"
+          },
+          {
+            "ref": "Terrydactyland - Stomping Plains/TDL: Stomping Plains Near Entrance Feather Nest/Feather Nest",
+            "name": "TDL: Stomping Plains Near Entrance Feather Nest"
+          },
+          {
+            "ref": "Terrydactyland - Stomping Plains/TDL: Stomping Plains Left Path Feather Nests/Feather Nest 1",
+            "name": "TDL: Stomping Plains Left Path Feather Nest 1"
+          },
+          {
+            "ref": "Terrydactyland - Stomping Plains/TDL: Stomping Plains Left Path Feather Nests/Feather Nest 2",
+            "name": "TDL: Stomping Plains Left Path Feather Nest 2"
+          },
+          {
+            "ref": "Terrydactyland - Stomping Plains/TDL: Stomping Plains Right Path Feather Nests/Feather Nest 1",
+            "name": "TDL: Stomping Plains Right Path Feather Nest 1"
+          },
+          {
+            "ref": "Terrydactyland - Stomping Plains/TDL: Stomping Plains Right Path Feather Nests/Feather Nest 2",
+            "name": "TDL: Stomping Plains Right Path Feather Nest 2"
+          },
+          {
+            "ref": "Terrydactyland - Stomping Plains/TDL: Stomping Plains Second Footprint Feather Nest/Feather Nest",
+            "name": "TDL: Stomping Plains Second Footprint Feather Nest"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/Bonfire Cavern/Entrance Feather Nest",
+            "name": "TDL: Bonfire Cavern Entrance Feather Nest"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/Bonfire Cavern/Exit Feather Nest",
+            "name": "TDL: Bonfire Cavern Exit Feather Nest"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/Mumbo's Skull/Feather Nest 1",
+            "name": "TDL: Mumbo's Skull Feather Nest 1"
+          },
+          {
+            "ref": "Terrydactyland - Main Area/Mumbo's Skull/Feather Nest 2",
+            "name": "TDL: Mumbo's Skull Feather Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 770,
+            "y": 410
+          }
+        ]
+      },
+      {
+        "name": "Terrydactyland - Signposts",
+        "sections": [
+          {
+            "ref": "Terrydactyland - Main Area/TDL: Roar Cage Signpost/Signpost",
+            "name": "TDL: Roar Cage Signpost"
+          },
+          {
+            "ref": "Terrydactyland - Inside the Mountain/TDL: Inside The Mountain Near Cheato Page Signpost/Signpost",
+            "name": "TDL: Inside The Mountain Near Cheato Page Signpost"
+          },
+          {
+            "ref": "Terrydactyland - Inside the Mountain Top/TDL: Inside The Mountain Near Top Signpost/Signpost",
+            "name": "TDL: Inside The Mountain Near Top Signpost"
+          },
+          {
+            "ref": "Terrydactyland - River Passage/TDL: River Passage Signpost/Signpost",
+            "name": "TDL: River Passage Signpost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 849,
+            "y": 410
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Terrydactyland - Main Area",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Region: Terrydactyland - Main Area" ],
+    "children": [
+      {
+        "name": "TDL: Entrance Warp Pad",
+        "sections": [
+          {
+            "name": "Warp Pad",
+            "chest_unopened_img": "/images/locations/warp.png",
+            "chest_opened_img": "/images/locations/warp2.png",
+            "visibility_rules": ["randomizewarppads_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 375,
+            "y": 655
+          }
+        ]
+      },
+      {
+        "name": "TDL: Mumbo's Skull Warp Pad",
+        "sections": [
+          {
+            "name": "Warp Pad",
+            "chest_unopened_img": "/images/locations/warp.png",
+            "chest_opened_img": "/images/locations/warp2.png",
+            "visibility_rules": ["randomizewarppads_on"],
+            "access_rules": ["^$warp_TDL_mumbo"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 60,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "TDL: Humba's Wigwam Warp Pad",
+        "sections": [
+          {
+            "name": "Warp Pad",
+            "chest_unopened_img": "/images/locations/warp.png",
+            "chest_opened_img": "/images/locations/warp2.png",
+            "visibility_rules": ["randomizewarppads_on"],
+            "access_rules": ["^$warp_TDL_humba"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 325,
+            "y": 270
+          }
+        ]
+      },
+      {
+        "name": "TDL: Train Switch",
+        "sections": [
+          {
+            "name": "Train Switch",
+            "chest_unopened_img": "/images/locations/tswitch.png",
+            "chest_opened_img": "/images/locations/tswitch2.png",
+            "access_rules": ["^$trainSwitch_TDL"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 337,
+            "y": 155
+          }
+        ]
+      },
+      {
+        "name": "TDL: Boulder Cheato Page",
+        "sections": [
+          {
+            "name": "Cheato Page",
+            "chest_unopened_img": "/images/locations/page.png",
+            "chest_opened_img": "/images/locations/page2.png",
+            "access_rules": ["^$cheato_TDL_boulderByMumbo"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 60,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "TDL: Springy Step Shoes Silo",
+        "chest_unopened_img": "/images/locations/silo.png",
+        "chest_opened_img": "/images/locations/silo2.png",
+        "sections": [
+          {
+            "name": "Silo",
+            "access_rules": ["^$silo_TDL_springyStepShoes"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 380,
+            "y": 567
+          }
+        ]
+      },
+      {
+        "name": "TDL: Train Station Notes",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "sections": [
+          {
+            "name": "Right Note",
+            "access_rules": ["^$notes_TDL_nearTrainStationRight"]
+          },
+          {
+            "name": "Middle Note"
+          },
+          {
+            "name": "Left Note"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 410,
+            "y": 560
+          }
+        ]
+      },
+      {
+        "name": "TDL: Entrance Jinjo",
+        "sections": [
+          {
+            "name": "Jinjo",
+            "chest_unopened_img": "/images/locations/jinjo.png",
+            "chest_opened_img": "/images/locations/jinjo2.png",
+            "access_rules": [ "^$jinjo_TDL_entrance" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 335,
+            "y": 540
+          }
+        ]
+      },
+      {
+        "name": "TDL: Lakeside Notes",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "sections": [
+          {
+            "name": "Note 1"
+          },
+          {
+            "name": "Note 2"
+          },
+          {
+            "name": "Note 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 260,
+            "y": 530
+          }
+        ]
+      },
+      {
+        "name": "TDL: Zig-Zag Path Notes",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "sections": [
+          {
+            "name": "Note 1"
+          },
+          {
+            "name": "Note 2"
+          },
+          {
+            "name": "Note 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 415,
+            "y": 505
+          }
+        ]
+      },
+      {
+        "name": "TDL: Talon Torpedo Jinjo",
+        "sections": [
+          {
+            "name": "Jinjo",
+            "chest_unopened_img": "/images/locations/jinjo.png",
+            "chest_opened_img": "/images/locations/jinjo2.png",
+            "access_rules": [ "^$jinjo_TDL_underwaterCage" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 170,
+            "y": 485
+          }
+        ]
+      },
+      {
+        "name": "TDL: Code of the Dinosaurs Jiggy",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": ["^$jiggy_TDL_roarCage"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 280,
+            "y": 490
+          }
+        ]
+      },
+      {
+        "name": "TDL: Roar Cage Signpost",
+        "sections": [
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"],
+            "access_rules": ["^$notes_TDL_nearRoarCage"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 295,
+            "y": 490
+          }
+        ]
+      },
+      {
+        "name": "TDL: Roar Cage Path Notes",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "access_rules": ["^$notes_TDL_nearRoarCage"],
+        "sections": [
+          {
+            "name": "Note 1"
+          },
+          {
+            "name": "Note 2"
+          },
+          {
+            "name": "Note 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 250,
+            "y": 485
+          }
+        ]
+      },
+      {
+        "name": "TDL: Baby T-Rex Roar",
+        "access_rules": [ "^$access_TDL_humba" ],
+        "sections": [
+          {
+            "name": "Learn Roar"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 370,
+            "y": 230
+          }
+        ]
+      },
+      {
+        "name": "TDL: Beside Rocknut Jinjo",
+        "sections": [
+          {
+            "name": "Jinjo",
+            "chest_unopened_img": "/images/locations/jinjo.png",
+            "chest_opened_img": "/images/locations/jinjo2.png",
+            "access_rules": [ "^$jinjo_TDL_wallWithHoles" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 610,
+            "y": 435
+          }
+        ]
+      },
+      {
+        "name": "TDL: Lakeside Honeycomb",
+        "sections": [
+          {
+            "name": "Honeycomb",
+            "chest_unopened_img": "/images/locations/honey.png",
+            "chest_opened_img": "/images/locations/honey2.png",
+            "access_rules": ["^$honeycomb_TDL_lakeside"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 182,
+            "y": 530
+          }
+        ]
+      },
+      {
+        "name": "TDL: Behind Mumbo's Skull Glowbo",
+        "sections": [
+          {
+            "name": "Glowbo",
+            "chest_unopened_img": "/images/locations/glowbo.png",
+            "chest_opened_img": "/images/locations/glowbo2.png",
+            "access_rules": ["^$glowbo_TDL_mumbo"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 20,
+            "y": 250
+          }
+        ]
+      },
+      {
+        "name": "TDL: Treble Clef",
+        "chest_unopened_img": "/images/locations/treble.png",
+        "chest_opened_img": "/images/locations/treble2.png",
+        "sections": [
+          {
+            "name": "Treble Clef",
+            "access_rules": [ "^$treble_TDL" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 192,
+            "y": 243
+          }
+        ]
+      },
+      {
+        "name": "TDL: Dippy's Pool Cheato Page",
+        "sections": [
+          {
+            "name": "Cheato Page",
+            "chest_unopened_img": "/images/locations/page.png",
+            "chest_opened_img": "/images/locations/page2.png",
+            "access_rules": [ "^$cheato_TDL_dippyPool" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 337,
+            "y": 130
+          }
+        ]
+      },
+      {
+        "name": "TDL: Big T. Rex Jinjo",
+        "sections": [
+          {
+            "name": "Jinjo",
+            "chest_unopened_img": "/images/locations/jinjo.png",
+            "chest_opened_img": "/images/locations/jinjo2.png",
+            "access_rules": ["^$jinjo_TDL_bigTRexSwitch"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 423,
+            "y": 164
+          }
+        ]
+      },
+      {
+        "name": "Styracosaurus Family Cave",
+        "sections": [
+          {
+            "name": "Styracosaurus Cave Honeycomb",
+            "chest_unopened_img": "/images/locations/honey.png",
+            "chest_opened_img": "/images/locations/honey2.png",
+            "access_rules": ["^$honeycomb_TDL_styracosaurusCaveAlcove"]
+          },
+          {
+            "name": "Scrotty Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": [ "^$jiggy_TDL_scrotty" ],
+            "visibility_rules": ["mousepace_off"]
+          },
+          {
+            "name": "Scrut (Lost)",
+            "access_rules": [ "^$access_TDL_scrut" ]
+          },
+          {
+            "name": "Scrat (Sick)",
+            "access_rules": [ "^$access_TDL_scrat" ],
+            "visibility_rules": ["mousepace_off"]
+          },
+          {
+            "name": "Scrit (Small)",
+            "access_rules": [ "^$access_TDL_scrit" ]
+          },
+          {
+            "name": "Feather Nest 1",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png",
+            "visibility_rules": ["nestsanity_on"]
+          },
+          {
+            "name": "Feather Nest 2",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png",
+            "visibility_rules": ["nestsanity_on"]
+          },
+          {
+            "name": "Feather Nest 3",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png",
+            "visibility_rules": ["nestsanity_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 455,
+            "y": 415
+          }
+        ]
+      },
+      {
+        "name": "TDL: Unga Bunga Cave Entrance Glowbo",
+        "sections": [
+          {
+            "name": "Glowbo",
+            "chest_unopened_img": "/images/locations/glowbo.png",
+            "chest_opened_img": "/images/locations/glowbo2.png",
+            "access_rules": ["^$glowbo_TDL_openLedge"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 425,
+            "y": 415
+          }
+        ]
+      },
+      {
+        "name": "TDL: Rocknut Tribe Jiggy (Defeat 5 Around the Map)",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": ["^$jiggy_TDL_rocknutTribe"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 340,
+            "y": 410
+          }
+        ]
+      },
+      {
+        "name": "Oogle Boogles' Cave",
+        "sections": [
+          {
+            "name": "Oogle Boogle Tribe Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": ["^$jiggy_TDL_oogleBoogle"],
+            "visibility_rules": ["mousepace_off"]
+          },
+          {
+            "name": "Feather Nest 1",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$access_TDL_oogleBoogle"]
+          },
+          {
+            "name": "Feather Nest 2",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$access_TDL_oogleBoogle"]
+          },
+          {
+            "name": "Egg Nest 1",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$access_TDL_oogleBoogle"]
+          },
+          {
+            "name": "Egg Nest 2",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$access_TDL_oogleBoogle"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 515,
+            "y": 550
+          }
+        ]
+      },
+      {
+        "name": "TDL: Entrance Egg Nest",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest"
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 307,
+            "y": 655
+          }
+        ]
+      },
+      {
+        "name": "Train Station (Terrydactyland)",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_TDL_trainStation"],
+        "sections": [
+          {
+            "name": "Egg Nest 1",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png"
+          },
+          {
+            "name": "Egg Nest 2",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png"
+          },
+          {
+            "name": "Feather Nest 1",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png"
+          },
+          {
+            "name": "Feather Nest 2",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 430,
+            "y": 580
+          }
+        ]
+      },
+      {
+        "name": "TDL: Flight Pad Pillar Feather Nests",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Feather Nest 1"
+          },
+          {
+            "name": "Feather Nest 2"
+          },
+          {
+            "name": "Feather Nest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 510,
+            "y": 460
+          }
+        ]
+      },
+      {
+        "name": "TDL: Right of Wall with Holes Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_TDL_wallWithHoles"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 588,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "TDL: Left of Wall with Holes Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_TDL_wallWithHoles"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 585,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "TDL: Right of Scrotty Cave Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 503,
+            "y": 340
+          }
+        ]
+      },
+      {
+        "name": "Mumbo's Skull",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Feather Nest 1"
+          },
+          {
+            "name": "Feather Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 35,
+            "y": 262
+          }
+        ]
+      },
+      {
+        "name": "TDL: Near River Passage Entrance Egg Nest",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_TDL_nearRiverPassage"],
+        "sections": [
+          {
+            "name": "Egg Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 505,
+            "y": 275
+          }
+        ]
+      },
+      {
+        "name": "Stomping Plains",
+        "sections": [
+          {
+            "ref": "Terrydactyland - Stomping Plains/TDL: Stomping Plains Warp Pad/Warp Pad",
+            "name": "Warp Pad"
+          },
+          {
+            "ref": "Terrydactyland - Stomping Plains/TDL: Stomping Plains Jinjo/Jinjo",
+            "name": "Jinjo"
+          },
+          {
+            "ref": "Terrydactyland - Stomping Plains/TDL: Stomping Plains Jiggy/TDL Jiggy",
+            "name": "TDL Jiggy"
+          },
+          {
+            "ref": "Terrydactyland - Stomping Plains/HFP: Stomping Plains Jiggy/HFP Jiggy",
+            "name": "HFP Jiggy"
+          },
+          {
+            "ref": "Terrydactyland - Stomping Plains/TDL: Stomping Plains Middle Path Feather Nest/Feather Nest",
+            "name": "Middle Path Feather Nest"
+          },
+          {
+            "ref": "Terrydactyland - Stomping Plains/TDL: Stomping Plains Near Entrance Feather Nest/Feather Nest",
+            "name": "Near Entrance Feather Nest"
+          },
+          {
+            "ref": "Terrydactyland - Stomping Plains/TDL: Stomping Plains Left Path Feather Nests/Feather Nest 1",
+            "name": "Left Path Feather Nest 1"
+          },
+          {
+            "ref": "Terrydactyland - Stomping Plains/TDL: Stomping Plains Left Path Feather Nests/Feather Nest 2",
+            "name": "Left Path Feather Nest 2"
+          },
+          {
+            "ref": "Terrydactyland - Stomping Plains/TDL: Stomping Plains Right Path Feather Nests/Feather Nest 1",
+            "name": "Right Path Feather Nest 1"
+          },
+          {
+            "ref": "Terrydactyland - Stomping Plains/TDL: Stomping Plains Right Path Feather Nests/Feather Nest 2",
+            "name": "Right Path Feather Nest 2"
+          },
+          {
+            "ref": "Terrydactyland - Stomping Plains/TDL: Stomping Plains Second Footprint Feather Nest/Feather Nest",
+            "name": "Second Footprint Feather Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 25,
+            "y": 455
+          }
+        ]
+      },
+      {
+        "name": "Bonfire Cavern",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Entrance Feather Nest",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png",
+            "access_rules": ["@Terrydactyland - Top"]
+          },
+          {
+            "name": "Exit Feather Nest",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png",
+            "access_rules": ["@Terrydactyland - Stomping Plains"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 40,
+            "y": 455
+          }
+        ]
+      },
+      {
+        "name": "TDL: Alcove Near Waterfall Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_TDL_waterfallAlcove"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 285,
+            "y": 530
+          }
+        ]
+      },
+      {
+        "name": "Inside the Mountain",
+        "sections": [
+          {
+            "ref": "Terrydactyland - Inside the Mountain/TDL: Inside the Mountain Cheato Page/Cheato Page",
+            "name": "Cheato Page"
+          },
+          {
+            "ref": "Terrydactyland - Inside the Mountain/Chompas Belly/Jiggy",
+            "name": "Chompas Belly Jiggy"
+          },
+          {
+            "ref": "Terrydactyland - Inside the Mountain/Chompas Belly/Mumbo Token",
+            "name": "Chompas Belly Mumbo Token"
+          },
+          {
+            "ref": "Terrydactyland - Inside the Mountain/TDL: Inside the Mountain Feather Nests/Feather Nest 1",
+            "name": "Feather Nest 1"
+          },
+          {
+            "ref": "Terrydactyland - Inside the Mountain/TDL: Inside the Mountain Feather Nests/Feather Nest 2",
+            "name": "Feather Nest 2"
+          },
+          {
+            "ref": "Terrydactyland - Inside the Mountain/TDL: Inside the Mountain Egg Nests/Egg Nest 1",
+            "name": "Egg Nest 1"
+          },
+          {
+            "ref": "Terrydactyland - Inside the Mountain/TDL: Inside the Mountain Egg Nests/Egg Nest 2",
+            "name": "Egg Nest 2"
+          },
+          {
+            "ref": "Terrydactyland - Inside the Mountain/TDL: Inside The Mountain Near Cheato Page Signpost/Signpost",
+            "name": "Near Cheato Page Signpost"
+          },
+          {
+            "ref": "Terrydactyland - Inside the Mountain Top/TDL: Inside The Mountain Near Top Signpost/Signpost",
+            "name": "Near Top Signpost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 340,
+            "y": 424
+          }
+        ]
+      },
+      {
+        "name": "River Passage",
+        "sections": [
+          {
+            "ref": "Terrydactyland - River Passage/TDL: River Passage Honeycomb/Honeycomb",
+            "name": "Honeycomb"
+          },
+          {
+            "ref": "Terrydactyland - River Passage/TDL: Taxi Pack Silo/Silo",
+            "name": "Taxi Pack Silo"
+          },
+          {
+            "ref": "Terrydactyland - River Passage/River Passage Notes/Note 1",
+            "name": "Note 1"
+          },
+          {
+            "ref": "Terrydactyland - River Passage/River Passage Notes/Note 2",
+            "name": "Note 2"
+          },
+          {
+            "ref": "Terrydactyland - River Passage/River Passage Notes/Note 3",
+            "name": "Note 3"
+          },
+          {
+            "ref": "Terrydactyland - River Passage/River Passage Notes/Note 4",
+            "name": "Note 4"
+          },
+          {
+            "ref": "Terrydactyland - River Passage/TDL: River Passage Feather Nest/Feather Nest",
+            "name": "Feather Nest"
+          },
+          {
+            "ref": "Terrydactyland - River Passage/TDL: River Passage Signpost/Signpost",
+            "name": "Signpost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 210,
+            "y": 490
+          },
+          {
+            "map": "tdl1",
+            "x": 440,
+            "y": 320
+          }
+        ]
+      },
+      {
+        "name": "Unga Bunga's Cave",
+        "sections": [
+          {
+            "ref": "Terrydactyland - Unga Bungas' Cave/TDL: Hatch Silo/Silo",
+            "name": "Hatch Silo"
+          },
+          {
+            "ref": "Terrydactyland - Unga Bungas' Cave/TDL: Unga Bunga's Cave Feather Nests/Feather Nest 1",
+            "name": "Feather Nest 1"
+          },
+          {
+            "ref": "Terrydactyland - Unga Bungas' Cave/TDL: Unga Bunga's Cave Feather Nests/Feather Nest 2",
+            "name": "Feather Nest 2"
+          },
+          {
+            "ref": "Terrydactyland - Unga Bungas' Cave/TDL: Unga Bunga's Cave Feather Nests/Feather Nest 3",
+            "name": "Feather Nest 3"
+          },
+          {
+            "ref": "Terrydactyland - Unga Bungas' Cave/TDL: Unga Bunga's Cave Egg Nests/Egg Nest 1",
+            "name": "Egg Nest 1"
+          },
+          {
+            "ref": "Terrydactyland - Unga Bungas' Cave/TDL: Unga Bunga's Cave Egg Nests/Egg Nest 2",
+            "name": "Egg Nest 2"
+          },
+          {
+            "ref": "Terrydactyland - Unga Bungas' Cave/TDL: Unga Bunga's Cave Egg Nests/Egg Nest 3",
+            "name": "Egg Nest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 412,
+            "y": 483
+          },
+          {
+            "map": "tdl1",
+            "x": 282,
+            "y": 365
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Terrydactyland - Inside the Mountain",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Region: Terrydactyland - Main Area" ],
+    "children": [
+      {
+        "name": "TDL: Inside the Mountain Cheato Page",
+        "sections": [
+          {
+            "name": "Cheato Page",
+            "chest_unopened_img": "/images/locations/page.png",
+            "chest_opened_img": "/images/locations/page2.png",
+            "access_rules": ["^$cheato_TDL_insideMountainWithTRex"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl2",
+            "x": 55,
+            "y": 425
+          }
+        ]
+      },
+      {
+        "name": "TDL: Inside The Mountain Near Cheato Page Signpost",
+        "sections": [
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"],
+            "access_rules": ["^$signpost_TDL_insideMountainWithTRex"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl2",
+            "x": 40,
+            "y": 425
+          }
+        ]
+      },
+      {
+        "name": "Chompas Belly",
+        "access_rules": ["^$jiggy_TDL_chompa"],
+        "visibility_rules": ["mousepace_off"],
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png"
+          },
+          {
+            "name": "Mumbo Token",
+            "chest_unopened_img": "/images/locations/mumbotoken.png",
+            "chest_opened_img": "/images/locations/mumbotoken2.png",
+            "visibility_rules": [ "goal_minigame", "goal_wwing" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl2",
+            "x": 251,
+            "y": 286
+          }
+        ]
+      },
+      {
+        "name": "TDL: Inside the Mountain Feather Nests",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_TDL_insideMountainByFlightPad"],
+        "sections": [
+          {
+            "name": "Feather Nest 1"
+          },
+          {
+            "name": "Feather Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl2",
+            "x": 85,
+            "y": 110
+          }
+        ]
+      },
+      {
+        "name": "TDL: Inside the Mountain Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_TDL_insideMountainUnderwater"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl2",
+            "x": 460,
+            "y": 300
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Terrydactyland - Inside the Mountain Top",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Region: Terrydactyland - Inside the Mountain Top" ],
+    "children": [
+      {
+        "name": "TDL: Inside The Mountain Near Top Signpost",
+        "sections": [
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"],
+            "access_rules": ["^$signpost_TDL_insideTopOfMountain"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl2",
+            "x": 660,
+            "y": 345
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Terrydactyland - Unga Bungas' Cave",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Region: Terrydactyland - Unga Bungas' Cave" ],
+    "children": [
+      {
+        "name": "TDL: Hatch Silo",
+        "chest_unopened_img": "/images/locations/silo.png",
+        "chest_opened_img": "/images/locations/silo2.png",
+        "sections": [
+          {
+            "name": "Silo",
+            "access_rules": [ "^$silo_TDL_hatch" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl3",
+            "x": 183,
+            "y": 350
+          }
+        ]
+      },
+      {
+        "name": "TDL: Unga Bunga's Cave Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_TDL_ungaBungasCaveTop"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          },
+          {
+            "name": "Egg Nest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl3",
+            "x": 273,
+            "y": 205
+          }
+        ]
+      },
+      {
+        "name": "TDL: Unga Bunga's Cave Feather Nests",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Feather Nest 1"
+          },
+          {
+            "name": "Feather Nest 2"
+          },
+          {
+            "name": "Feather Nest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl3",
+            "x": 205,
+            "y": 305
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Terrydactyland - River Passage",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Region: Terrydactyland - Main Area" ],
+    "children": [
+      {
+        "name": "TDL: River Passage Honeycomb",
+        "sections": [
+          {
+            "name": "Honeycomb",
+            "chest_unopened_img": "/images/locations/honey.png",
+            "chest_opened_img": "/images/locations/honey2.png",
+            "access_rules": ["^$honeycomb_TDL_riverPassage"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl4",
+            "x": 30,
+            "y": 162
+          }
+        ]
+      },
+      {
+        "name": "TDL: Taxi Pack Silo",
+        "chest_unopened_img": "/images/locations/silo.png",
+        "chest_opened_img": "/images/locations/silo2.png",
+        "sections": [
+          {
+            "name": "Silo",
+            "access_rules": ["^$silo_TDL_taxiPack"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl4",
+            "x": 475,
+            "y": 235
+          }
+        ]
+      },
+      {
+        "name": "River Passage Notes",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "access_rules": ["^$notes_TDL_riverPassage"],
+        "sections": [
+          {
+            "name": "Note 1"
+          },
+          {
+            "name": "Note 2"
+          },
+          {
+            "name": "Note 3"
+          },
+          {
+            "name": "Note 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl4",
+            "x": 500,
+            "y": 145
+          }
+        ]
+      },
+      {
+        "name": "TDL: River Passage Feather Nest",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_TDL_riverPassageNearSilo"],
+        "sections": [
+          {
+            "name": "Feather Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl4",
+            "x": 470,
+            "y": 253
+          }
+        ]
+      },
+      {
+        "name": "TDL: River Passage Signpost",
+        "chest_unopened_img": "/images/locations/signpost.png",
+        "chest_opened_img": "/images/locations/signpost2.png",
+        "visibility_rules": ["signposts_on"],
+        "access_rules": ["^$signpost_TDL_riverPassage"],
+        "sections": [
+          {
+            "name": "Signpost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl4",
+            "x": 455,
+            "y": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Terrydactyland - Top",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Region: Terrydactyland - Top" ],
+    "children": [
+      {
+        "name": "Top of the Mountain",
+        "sections": [
+          {
+            "name": "TDL: Top of the Mountain Warp Pad",
+            "chest_unopened_img": "/images/locations/warp.png",
+            "chest_opened_img": "/images/locations/warp2.png",
+            "visibility_rules": ["randomizewarppads_on"]
+          },
+          {
+            "name": "TDL: Top of the Mountain Egg Nest",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 283,
+            "y": 425
+          }
+        ]
+      },
+      {
+        "name": "TDL: Path to Terry Nests",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png"
+          },
+          {
+            "name": "Egg Nest 2",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png"
+          },
+          {
+            "name": "Feather Nest 1",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png"
+          },
+          {
+            "name": "Feather Nest 2",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 269,
+            "y": 439
+          }
+        ]
+      },
+      {
+        "name": "TDL: Near Shock Spring Pad Up the Mountain Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 283,
+            "y": 439
+          }
+        ]
+      },
+      {
+        "name": "Terry's Nest",
+        "sections": [
+          {
+            "ref": "Boss Arena - Terry/Terry/Terry Jiggy",
+            "name": "Terry Jiggy"
+          },
+          {
+            "ref": "Boss Arena - Terry/Terry/Terry Mumbo Token",
+            "name": "Terry Mumbo Token"
+          },
+          {
+            "ref": "Boss Arena - Terry/Terry/Terry's Kids Jiggy (Hatch Eggs Around Map)",
+            "name": "Terry's Kids Jiggy (Hatch Eggs Around Map)"
+          },
+          {
+            "ref": "Boss Arena - Terry/TDL: Under Terry's Nest Jiggy/Jiggy",
+            "name": "Under Terry's Nest Jiggy"
+          },
+          {
+            "ref": "Boss Arena - Terry/TDL: Terry's Nest Egg Nest 1/Egg Nest",
+            "name": "Egg Nest 1"
+          },
+          {
+            "ref": "Boss Arena - Terry/TDL: Terry's Nest Egg Nest 2/Egg Nest",
+            "name": "Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 269,
+            "y": 425
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Boss Arena - Terry",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Region: Boss Arena - Terry" ],
+    "children": [
+      {
+        "name": "Terry",
+        "sections": [
+          {
+            "name": "Terry Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": [ "^$access_TDL_terryFight" ]
+          },
+          {
+            "name": "Terry Mumbo Token",
+            "chest_unopened_img": "/images/locations/mumbotoken.png",
+            "chest_opened_img": "/images/locations/mumbotoken2.png",
+            "access_rules": [ "^$access_TDL_terryFight" ],
+            "visibility_rules": [ "goal_boss", "goal_wwing" ]
+          },
+          {
+            "name": "Terry's Kids Jiggy (Hatch Eggs Around Map)",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": [ "^$jiggy_TDL_terrysKids" ],
+            "visibility_rules": ["mousepace_off"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl5",
+            "x": 500,
+            "y": 125
+          }
+        ]
+      },
+      {
+        "name": "TDL: Under Terry's Nest Jiggy",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": ["^$jiggy_TDL_terrysNest"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl5",
+            "x": 330,
+            "y": 350
+          },
+          {
+            "map": "tdl2",
+            "x": 400,
+            "y": 286
+          }
+        ]
+      },
+      {
+        "name": "TDL: Terry's Nest Egg Nest 1",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl5",
+            "x": 180,
+            "y": 190
+          }
+        ]
+      },
+      {
+        "name": "TDL: Terry's Nest Egg Nest 2",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl5",
+            "x": 500,
+            "y": 500
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Terrydactyland - Stomping Plains",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Region: Terrydactyland - Stomping Plains" ],
+    "children": [
+      {
+        "name": "TDL: Stomping Plains Warp Pad",
+        "sections": [
+          {
+            "name": "Warp Pad",
+            "chest_unopened_img": "/images/locations/warp.png",
+            "chest_opened_img": "/images/locations/warp2.png",
+            "visibility_rules": ["randomizewarppads_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl6",
+            "x": 685,
+            "y": 325
+          }
+        ]
+      },
+      {
+        "name": "TDL: Stomping Plains Jiggy",
+        "access_rules": [ "^$jiggy_TDL_stompingPlainsAsDuo" ],
+        "sections": [
+          {
+            "name": "TDL Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl6",
+            "x": 75,
+            "y": 290
+          }
+        ]
+      },
+      {
+        "name": "TDL: Stomping Plains Jinjo",
+        "sections": [
+          {
+            "name": "Jinjo",
+            "chest_unopened_img": "/images/locations/jinjo.png",
+            "chest_opened_img": "/images/locations/jinjo2.png",
+            "access_rules": ["^$jinjo_TDL_stompingPlains"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl6",
+            "x": 100,
+            "y": 450
+          }
+        ]
+      },
+      {
+        "name": "HFP: Stomping Plains Jiggy",
+        "sections": [
+          {
+            "name": "HFP Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": ["^$jiggy_HFP_fromStompingPlains"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl6",
+            "x": 10,
+            "y": 380
+          }
+        ]
+      },
+      {
+        "name": "TDL: Stomping Plains Near Entrance Feather Nest",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Feather Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl6",
+            "x": 745,
+            "y": 380
+          }
+        ]
+      },
+      {
+        "name": "TDL: Stomping Plains Second Footprint Feather Nest",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_TDL_stompingPlainsFootprint"],
+        "sections": [
+          {
+            "name": "Feather Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl6",
+            "x": 505,
+            "y": 380
+          }
+        ]
+      },
+      {
+        "name": "TDL: Stomping Plains Left Path Feather Nests",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_TDL_stompingPlainsFootprint"],
+        "sections": [
+          {
+            "name": "Feather Nest 1"
+          },
+          {
+            "name": "Feather Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl6",
+            "x": 415,
+            "y": 445
+          }
+        ]
+      },
+      {
+        "name": "TDL: Stomping Plains Middle Path Feather Nest",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_TDL_stompingPlainsFootprint"],
+        "sections": [
+          {
+            "name": "Feather Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl6",
+            "x": 308,
+            "y": 255
+          }
+        ]
+      },
+      {
+        "name": "TDL: Stomping Plains Right Path Feather Nests",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_TDL_stompingPlainsFootprint"],
+        "sections": [
+          {
+            "name": "Feather Nest 1"
+          },
+          {
+            "name": "Feather Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl6",
+            "x": 262,
+            "y": 140
+          }
+        ]
+      }
+    ]
+  }
+]

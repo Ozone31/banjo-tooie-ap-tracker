@@ -1,0 +1,2505 @@
+[
+  {
+    "name": "Overworld - Mayahem Temple",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "children": [
+      {
+        "name": "Mayahem Temple - Silos & Warps",
+        "sections": [
+          {
+            "ref": "Mayahem Temple - Jade Snake Grove/MT: Grip Grab Silo/Silo",
+            "name": "MT: Grip Grab Silo"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/MT: Breegull Blaster Silo/Silo",
+            "name": "MT: Breegull Blaster Silo"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/MT: Egg Aim Silo/Silo",
+            "name": "MT: Egg Aim Silo"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/MT: Entrance Warp Pad/Warp Pad",
+            "name": "MT: Entrance Warp Pad"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/MT: Mumbo's Skull Warp Pad/Warp Pad",
+            "name": "MT: Mumbo's Skull Warp Pad"
+          },
+          {
+            "ref": "Mayahem Temple - Prison Compound/MT: Prison Compound Warp Pad/Warp Pad",
+            "name": "MT: Prison Compound Warp Pad"
+          },
+          {
+            "ref": "Mayahem Temple - Jade Snake Grove/MT: Humba's Wigwam Warp Pad/Warp Pad",
+            "name": "MT: Humba's Wigwam Warp Pad"
+          },
+          {
+            "ref": "Mayahem Temple - Kickball Stadium/Inside the Stadium/MT: Kickball Stadium Warp Pad",
+            "name": "MT: Kickball Stadium Warp Pad"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 473,
+            "y": 170
+          }
+        ]
+      },
+      {
+        "name": "Mayahem Temple - Jiggies",
+        "sections": [
+          {
+            "ref": "Boss Arena - Targitzan/MT: Targitzan Jiggy/Jiggy",
+            "name": "MT: Targitzan Jiggy"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Slightly Sacred Chamber Jiggy/Jiggy",
+            "name": "MT: Slightly Sacred Chamber Jiggy"
+          },
+          {
+            "ref": "Mayahem Temple - Kickball Stadium/Inside the Stadium/Kickball Jiggy",
+            "name": "MT: Kickball Jiggy"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/MT: Bovina Jiggy/Jiggy",
+            "name": "MT: Bovina Jiggy"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/Treasure Chamber/Treasure Chamber Jiggy",
+            "name": "MT: Treasure Chamber Jiggy"
+          },
+          {
+            "ref": "Mayahem Temple - Jade Snake Grove/MT: Golden Goliath Jiggy/Jiggy",
+            "name": "MT: Golden Goliath Jiggy"
+          },
+          {
+            "ref": "Mayahem Temple - Prison Compound/MT: Prison Compound Quicksand Jiggy/Jiggy",
+            "name": "MT: Prison Compound Quicksand Jiggy"
+          },
+          {
+            "ref": "Mayahem Temple - Prison Compound/MT: Pillars Jiggy/Jiggy",
+            "name": "MT: Pillars Jiggy"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/MT: Top of Temple Jiggy/Jiggy",
+            "name": "MT: Top of Temple Jiggy"
+          },
+          {
+            "ref": "Mayahem Temple - Jade Snake Grove/MT: Ssslumber Jiggy/Jiggy",
+            "name": "MT: Ssslumber Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 551,
+            "y": 170
+          }
+        ]
+      },
+      {
+        "name": "Mayahem Temple - Notes",
+        "sections": [
+          {
+            "ref": "Mayahem Temple - Main Area/MT: Treble Clef/Treble Clef",
+            "name": "MT: Treble Clef"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/MT: First Stairs Notes/Note 1",
+            "name": "MT: First Stairs Note 1"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/MT: First Stairs Notes/Note 2",
+            "name": "MT: First Stairs Note 2"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/MT: First Stairs Notes/Note 3",
+            "name": "MT: First Stairs Note 3"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/MT: First Stairs Notes/Note 4",
+            "name": "MT: First Stairs Note 4"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/MT: Second Stairs Notes/Note 1",
+            "name": "MT: Second Stairs Note 1"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/MT: Second Stairs Notes/Note 2",
+            "name": "MT: Second Stairs Note 2"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/MT: Second Stairs Notes/Note 3",
+            "name": "MT: Second Stairs Note 3"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/MT: Second Stairs Notes/Note 4",
+            "name": "MT: Second Stairs Note 4"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/MT: Third Stairs Notes/Note 1",
+            "name": "MT: Third Stairs Note 1"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/MT: Third Stairs Notes/Note 2",
+            "name": "MT: Third Stairs Note 2"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/MT: Third Stairs Notes/Note 3",
+            "name": "MT: Third Stairs Note 3"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/MT: Third Stairs Notes/Note 4",
+            "name": "MT: Third Stairs Note 4"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/MT: Top Stairs Notes/Note 1",
+            "name": "MT: Top Stairs Note 1"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/MT: Top Stairs Notes/Note 2",
+            "name": "MT: Top Stairs Note 2"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/MT: Top Stairs Notes/Note 3",
+            "name": "MT: Top Stairs Note 3"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/MT: Outside Mumbo's Skull Note/Note",
+            "name": "MT: Outside Mumbo's Skull Note"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 621,
+            "y": 170
+          }
+        ]
+      },
+      {
+        "name": "Mayahem Temple - Other",
+        "sections": [
+          {
+            "ref": "Mayahem Temple - Jade Snake Grove/MT: Jade Snake Grove Jinjo/Jinjo",
+            "name": "MT: Jade Snake Grove Jinjo"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/MT: Stadium Jinjo/Jinjo",
+            "name": "MT: Stadium Jinjo"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan Temple Jinjo/Jinjo",
+            "name": "MT: Targitzan Temple Jinjo"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/MT: Water Pool Jinjo/Jinjo",
+            "name": "MT: Water Pool Jinjo"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/MT: Bridge Jinjo/Jinjo",
+            "name": "MT: Bridge Jinjo"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/Mumbo's Skull/Mumbo's Glowbo",
+            "name": "MT: Mumbo's Glowbo"
+          },
+          {
+            "ref": "Mayahem Temple - Jade Snake Grove/MT: Jade Snake Grove Glowbo/Glowbo",
+            "name": "MT: Jade Snake Grove Glowbo"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/MT: Entrance Honeycomb/Honeycomb",
+            "name": "MT: Entrance Honeycomb"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/MT: Bovina Honeycomb/Honeycomb",
+            "name": "MT: Bovina Honeycomb"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/Treasure Chamber/Treasure Chamber Honeycomb",
+            "name": "MT: Treasure Chamber Honeycomb"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/MT: Treasure Chamber Cheato Page/Cheato Page",
+            "name": "MT: Treasure Chamber Cheato Page"
+          },
+          {
+            "ref": "Mayahem Temple - Prison Compound/MT: Prison Compound Cheato Page/Cheato Page",
+            "name": "MT: Prison Compound Cheato Page"
+          },
+          {
+            "ref": "Mayahem Temple - Jade Snake Grove/MT: Jade Snake Grove Cheato Page/Cheato Page",
+            "name": "MT: Jade Snake Grove Cheato Page"
+          },
+          {
+            "ref": "Boss Arena - Targitzan/MT: Targitzan Jiggy/Mumbo Token",
+            "name": "MT: Targitzan Mumbo Token"
+          },
+          {
+            "ref": "Mayahem Temple - Kickball Stadium/Inside the Stadium/Kickball Mumbo Token",
+            "name": "MT: Kickball Mumbo Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 691,
+            "y": 170
+          }
+        ]
+      },
+      {
+        "name": "Mayahem Temple - Nests",
+        "sections": [
+          {
+            "ref": "Mayahem Temple - Jade Snake Grove/Wumba's Wigwam/Feather Nest 1",
+            "name": "MT: Wumba's Wigwam Feather Nest 1"
+          },
+          {
+            "ref": "Mayahem Temple - Jade Snake Grove/Wumba's Wigwam/Feather Nest 1",
+            "name": "MT: Wumba's Wigwam Feather Nest 2"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/Mumbo's Skull/Egg Nest 1",
+            "name": "MT: Mumbo's Skull Egg Nest 1"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/Mumbo's Skull/Egg Nest 2",
+            "name": "MT: Mumbo's Skull Egg Nest 2"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/MT: In Front of Prison Compound Egg Nests/Egg Nest 1",
+            "name": "MT: In Front of Prison Compound Egg Nest 1"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/MT: In Front of Prison Compound Egg Nests/Egg Nest 2",
+            "name": "MT: In Front of Prison Compound Egg Nest 2"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/MT: Outside Treasure Chamber Egg Nests/Egg Nest 1",
+            "name": "MT: Outside Treasure Chamber Egg Nest 1"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/MT: In Front of Jade Snake Grove Feather Nests/Feather Nest 1",
+            "name": "MT: In Front of Jade Snake Grove Feather Nest 1"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/MT: In Front of Jade Snake Grove Feather Nests/Feather Nest 2",
+            "name": "MT: In Front of Jade Snake Grove Feather Nest 2"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/MT: Outside Treasure Chamber Egg Nests/Egg Nest 2",
+            "name": "MT: Outside Treasure Chamber Egg Nest 2"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/MT: Kickball Stadium Feather Nest 1/Feather Nest 1",
+            "name": "MT: Kickball Stadium Feather Nest 1"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/MT: Kickball Stadium Feather Nest 2/Feather Nest 2",
+            "name": "MT: Kickball Stadium Feather Nest 2"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/MT: Bovina Egg Nests/Egg Nest 1",
+            "name": "MT: Bovina Egg Nest 1"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/MT: Bovina Egg Nests/Egg Nest 2",
+            "name": "MT: Bovina Egg Nest 2"
+          },
+          {
+            "ref": "Mayahem Temple - Prison Compound/MT: Prison Compound Pillars Egg Nests/Egg Nest 1",
+            "name": "MT: Prison Compound Pillars Egg Nest 1"
+          },
+          {
+            "ref": "Mayahem Temple - Prison Compound/MT: Prison Compound Pillars Egg Nests/Egg Nest 2",
+            "name": "MT: Prison Compound Pillars Egg Nest 2"
+          },
+          {
+            "ref": "Mayahem Temple - Prison Compound/MT: Prison Compound Pillars Egg Nests/Egg Nest 3",
+            "name": "MT: Prison Compound Pillars Egg Nest 3"
+          },
+          {
+            "ref": "Mayahem Temple - Prison Compound/MT: Prison Compound Top of Prison Cell Feather Nests/Feather Right Nest",
+            "name": "MT: Prison Compound Top of Prison Cell Feather Right Nest"
+          },
+          {
+            "ref": "Mayahem Temple - Prison Compound/MT: Prison Compound Entrance Egg Nests/Egg Nest 1",
+            "name": "MT: Prison Compound Entrance Egg Nest 1"
+          },
+          {
+            "ref": "Mayahem Temple - Prison Compound/MT: Prison Compound Entrance Egg Nests/Egg Nest 2",
+            "name": "MT: Prison Compound Entrance Egg Nest 2"
+          },
+          {
+            "ref": "Mayahem Temple - Prison Compound/MT: Prison Compound Top of Prison Cell Feather Nests/Feather Left Nest",
+            "name": "MT: Prison Compound Top of Prison Cell Feather Left Nest"
+          },
+          {
+            "ref": "Mayahem Temple - Jade Snake Grove/MT: Jade Snake Grove Above Code Chamber Egg Nest/Egg Nest",
+            "name": "MT: Jade Snake Grove Above Code Chamber Egg Nest"
+          },
+          {
+            "ref": "Mayahem Temple - Jade Snake Grove/MT: Jade Snake Grove Near Warp Pad Egg Nests/Egg Nest 1",
+            "name": "MT: Jade Snake Grove Near Warp Pad Egg Nest 1"
+          },
+          {
+            "ref": "Mayahem Temple - Jade Snake Grove/MT: Jade Snake Grove Near Warp Pad Egg Nests/Egg Nest 2",
+            "name": "MT: Jade Snake Grove Near Warp Pad Egg Nest 2"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple Raising Slope Room Egg Nests/Egg Nest 1",
+            "name": "MT: Targitzan's Temple Raising Slope Room Egg Nest 1"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple Raising Slope Room Egg Nests/Egg Nest 2",
+            "name": "MT: Targitzan's Temple Raising Slope Room Egg Nest 2"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple 4-Way Room Egg Nests/Egg Nest 1",
+            "name": "MT: Targitzan's Temple 4-Way Room Egg Nest 1"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple 4-Way Room Egg Nests/Egg Nest 2",
+            "name": "MT: Targitzan's Temple 4-Way Room Egg Nest 2"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple 4-Way Room Egg Nests/Egg Nest 3",
+            "name": "MT: Targitzan's Temple 4-Way Room Egg Nest 3"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple 4-Way Room Egg Nests/Egg Nest 4",
+            "name": "MT: Targitzan's Temple 4-Way Room Egg Nest 4"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple Pillar Maze Egg Nests/Egg Nest 1",
+            "name": "MT: Targitzan's Temple Pillar Maze Egg Nest 1"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple Pillar Maze Egg Nests/Egg Nest 2",
+            "name": "MT: Targitzan's Temple Pillar Maze Egg Nest 2"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple Pillar Maze Egg Nests/Egg Nest 3",
+            "name": "MT: Targitzan's Temple Pillar Maze Egg Nest 3"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple Raising Slope Room Egg Nests/Egg Nest 3",
+            "name": "MT: Targitzan's Temple Raising Slope Room Egg Nest 3"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple Golden Egg Nest/Egg Nest",
+            "name": "MT: Targitzan's Temple Golden Egg Nest"
+          },
+          {
+            "ref": "Mayahem Temple - Targitzan's Temple Lobby/MT: Targitzan Temple Lobby Left Egg Nests/Egg Nest 1",
+            "name": "MT: Targitzan's Temple Lobby Left Egg Nest 1"
+          },
+          {
+            "ref": "Mayahem Temple - Targitzan's Temple Lobby/MT: Targitzan Temple Lobby Left Egg Nests/Egg Nest 2",
+            "name": "MT: Targitzan's Temple Lobby Left Egg Nest 2"
+          },
+          {
+            "ref": "Mayahem Temple - Targitzan's Temple Lobby/MT: Targitzan Temple Lobby Left Egg Nests/Egg Nest 3",
+            "name": "MT: Targitzan's Temple Lobby Left Egg Nest 3"
+          },
+          {
+            "ref": "Mayahem Temple - Targitzan's Temple Lobby/MT: Targitzan Temple Lobby Right Egg Nests/Egg Nest 1",
+            "name": "MT: Targitzan's Temple Lobby Right Egg Nest 1"
+          },
+          {
+            "ref": "Mayahem Temple - Targitzan's Temple Lobby/MT: Targitzan Temple Lobby Right Egg Nests/Egg Nest 2",
+            "name": "MT: Targitzan's Temple Lobby Right Egg Nest 2"
+          },
+          {
+            "ref": "Mayahem Temple - Targitzan's Temple Lobby/MT: Targitzan Temple Lobby Right Egg Nests/Egg Nest 3",
+            "name": "MT: Targitzan's Temple Lobby Right Egg Nest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 770,
+            "y": 170
+          }
+        ]
+      },
+      {
+        "name": "Mayahem Temple - Signposts",
+        "sections": [
+          {
+            "ref": "Mayahem Temple - Main Area/Mumbo's Skull/Signpost",
+            "name": "MT: Mumbo's Skull Signpost"
+          },
+          {
+            "ref": "Mayahem Temple - Main Area/MT: Golden Goliath Signpost/Signpost",
+            "name": "MT: Golden Goliath Signpost"
+          },
+          {
+            "ref": "Mayahem Temple - Prison Compound/MT: Pillars Signpost/Signpost",
+            "name": "MT: Pillars Signpost"
+          },
+          {
+            "ref": "Mayahem Temple - Prison Compound/MT: Prison Compound Quicksand Signpost/Signpost",
+            "name": "MT: Prison Compound Quicksand Signpost"
+          },
+          {
+            "ref": "Mayahem Temple - Jade Snake Grove/MT: Jade Snake Grove Quicksand Signpost 1/Signpost",
+            "name": "MT: Jade Snake Grove Quicksand Signpost 1"
+          },
+          {
+            "ref": "Mayahem Temple - Jade Snake Grove/MT: Jade Snake Grove Quicksand Signpost 2/Signpost",
+            "name": "MT: Jade Snake Grove Quicksand Signpost 2"
+          },
+          {
+            "ref": "Mayahem Temple - Jade Snake Grove/MT: Left of Code Chamber Signpost/Signpost",
+            "name": "MT: Left of Code Chamber Signpost"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple Signpost 1/Signpost",
+            "name": "MT: Targitzan's Temple Signpost 1"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple Signpost 2/Signpost",
+            "name": "MT: Targitzan's Temple Signpost 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 849,
+            "y": 170
+          }
+        ]
+      },
+      {
+        "name": "Mayahem Temple - Green Relics",
+        "sections": [
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/Right Entrance Relic/Relic",
+            "name": "MT: Right Entrance Relic"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/Left Entrance Relic/Relic",
+            "name": "MT: Left Entrance Relic"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/Blue Pillar Room Relic 1/Relic",
+            "name": "MT: Blue Pillar Room Relic 1"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/Blue Pillar Room Relic 2/Relic",
+            "name": "MT: Blue Pillar Room Relic 2"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/Blue Pillar Room Relic 3/Relic",
+            "name": "MT: Blue Pillar Room Relic 3"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/Near Sput Sput Relics/Relic 1/Relic",
+            "name": "MT: Near Sput Sput Relic 1"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/Near Sput Sput Relics/Relic 2/Relic",
+            "name": "MT: Near Sput Sput Relic 2"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/Near Sput Sput Relics/Relic 3/Relic",
+            "name": "MT: Near Sput Sput Relic 3"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/Near Sput Sput Relics/Relic 4/Relic",
+            "name": "MT: Near Sput Sput Relic 4"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/Near Sput Sput Relics/Relic 5/Relic",
+            "name": "MT: Near Sput Sput Relic 5"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/Green Pillar Room Relic 1/Relic",
+            "name": "MT: Green Pillar Room Relic 1"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/Green Pillar Room Relic 2/Relic",
+            "name": "MT: Green Pillar Room Relic 2"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/Green Pillar Room Relic 3/Relic",
+            "name": "MT: Green Pillar Room Relic 3"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/Green Pillar Room Relic 4/Relic",
+            "name": "MT: Green Pillar Room Relic 4"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/Green Pillar Room Relic 5/Relic",
+            "name": "MT: Green Pillar Room Relic 5"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/Near Sacred Chambers Relic 1/Relic",
+            "name": "MT: Near Sacred Chambers Relic 1"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/Near Sacred Chambers Relic 2/Relic",
+            "name": "MT: Near Sacred Chambers Relic 2"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/Secret Passage Near Sacred Chambers Relics/Relic 1",
+            "name": "MT: Secret Passage Near Sacred Chambers Relic 1"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/Secret Passage Near Sacred Chambers Relics/Relic 2",
+            "name": "MT: Secret Passage Near Sacred Chambers Relic 2"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/Secret Passage Near Sacred Chambers Relics/Relic 3",
+            "name": "MT: Secret Passage Near Sacred Chambers Relic 3"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/Secret Passage Near Entrance Relics/Relic 1",
+            "name": "MT: Secret Passage Near Entrance Relic 1"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/Secret Passage Near Entrance Relics/Relic 2",
+            "name": "MT: Secret Passage Near Entrance Relic 2"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/Red Pillar Room Relic 1/Relic",
+            "name": "MT: Red Pillar Room Relic 1"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/Red Pillar Room Relic 2/Relic",
+            "name": "MT: Red Pillar Room Relic 2"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/Red Pillar Room Relic 3/Relic",
+            "name": "MT: Red Pillar Room Relic 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 919,
+            "y": 170
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mayahem Temple - Main Area",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": ["@Region: Mayahem Temple - Main Area"],
+    "children": [
+      {
+        "name": "MT: Entrance Warp Pad",
+        "sections": [
+          {
+            "name": "Warp Pad",
+            "chest_unopened_img": "/images/locations/warp.png",
+            "chest_opened_img": "/images/locations/warp2.png",
+            "visibility_rules": ["randomizewarppads_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt1",
+            "x": 155,
+            "y": 580
+          }
+        ]
+      },
+      {
+        "name": "MT: Mumbo's Skull Warp Pad",
+        "sections": [
+          {
+            "name": "Warp Pad",
+            "chest_unopened_img": "/images/locations/warp.png",
+            "chest_opened_img": "/images/locations/warp2.png",
+            "visibility_rules": ["randomizewarppads_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt1",
+            "x": 510,
+            "y": 580
+          }
+        ]
+      },
+      {
+        "name": "MT: Stadium Jinjo",
+        "sections": [
+          {
+            "name": "Jinjo",
+            "chest_unopened_img": "/images/locations/jinjo.png",
+            "chest_opened_img": "/images/locations/jinjo2.png",
+            "access_rules": [ "^$access_MT_getOnKickballStadium" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt1",
+            "x": 58,
+            "y": 70
+          }
+        ]
+      },
+      {
+        "name": "MT: Water Pool Jinjo",
+        "sections": [
+          {
+            "name": "Jinjo",
+            "chest_unopened_img": "/images/locations/jinjo.png",
+            "chest_opened_img": "/images/locations/jinjo2.png",
+            "access_rules": [ "^$jinjo_MT_pool" ],
+            "visibility_rules": ["mousepace_off"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt1",
+            "x": 250,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "MT: Bridge Jinjo",
+        "chest_unopened_img": "/images/locations/jinjo.png",
+        "chest_opened_img": "/images/locations/jinjo2.png",
+        "sections": [
+          {
+            "name": "Jinjo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt1",
+            "x": 441,
+            "y": 212
+          }
+        ]
+      },
+      {
+        "name": "Mumbo's Skull",
+        "sections": [
+          {
+            "name": "Mumbo's Glowbo",
+            "chest_unopened_img": "/images/locations/glowbo.png",
+            "chest_opened_img": "/images/locations/glowbo2.png"
+          },
+          {
+            "name": "Egg Nest 1",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"]
+          },
+          {
+            "name": "Egg Nest 2",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"]
+          },
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt1",
+            "x": 505,
+            "y": 625
+          }
+        ]
+      },
+      {
+        "name": "MT: Entrance Honeycomb",
+        "chest_unopened_img": "/images/locations/honey.png",
+        "chest_opened_img": "/images/locations/honey2.png",
+        "sections": [
+          {
+            "name": "Honeycomb",
+            "access_rules": [ "^$honeycomb_MT_entrance" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt1",
+            "x": 155,
+            "y": 770
+          }
+        ]
+      },
+      {
+        "name": "MT: Bovina Honeycomb",
+        "chest_unopened_img": "/images/locations/honey.png",
+        "chest_opened_img": "/images/locations/honey2.png",
+        "sections": [
+          {
+            "name": "Honeycomb",
+            "access_rules": [ "^$honeycomb_MT_bovina" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt1",
+            "x": 620,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MT: Treasure Chamber Cheato Page",
+        "sections": [
+          {
+            "name": "Cheato Page",
+            "chest_unopened_img": "/images/locations/page.png",
+            "chest_opened_img": "/images/locations/page2.png",
+            "access_rules": [ "^$cheato_MT_topOutsideTreasureChamber" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt1",
+            "x": 850,
+            "y": 465
+          }
+        ]
+      },
+      {
+        "name": "MT: Breegull Blaster Silo",
+        "chest_unopened_img": "/images/locations/silo.png",
+        "chest_opened_img": "/images/locations/silo2.png",
+        "sections": [
+          {
+            "name": "Silo",
+            "access_rules": [ "^$silo_MT_breegullBlaster" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt1",
+            "x": 308,
+            "y": 557
+          }
+        ]
+      },
+      {
+        "name": "MT: Egg Aim Silo",
+        "chest_unopened_img": "/images/locations/silo.png",
+        "chest_opened_img": "/images/locations/silo2.png",
+        "sections": [
+          {
+            "name": "Silo",
+            "access_rules": [ "^$silo_MT_eggAim" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt1",
+            "x": 553,
+            "y": 225
+          }
+        ]
+      },
+      {
+        "name": "MT: Bovina Jiggy",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": [ "^$jiggy_MT_bovina" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt1",
+            "x": 555,
+            "y": 85
+          }
+        ]
+      },
+      {
+        "name": "MT: Top of Temple Jiggy",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": [ "^$jiggy_MT_topOfTemple" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt1",
+            "x": 315,
+            "y": 345
+          }
+        ]
+      },
+      {
+        "name": "MT: Treble Clef",
+        "chest_unopened_img": "/images/locations/treble.png",
+        "chest_opened_img": "/images/locations/treble2.png",
+        "sections": [
+          {
+            "name": "Treble Clef"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt1",
+            "x": 280,
+            "y": 300
+          }
+        ]
+      },
+      {
+        "name": "MT: First Stairs Notes",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "sections": [
+          {
+            "name": "Note 1"
+          },
+          {
+            "name": "Note 2"
+          },
+          {
+            "name": "Note 3"
+          },
+          {
+            "name": "Note 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt1",
+            "x": 178,
+            "y": 350
+          }
+        ]
+      },
+      {
+        "name": "MT: Second Stairs Notes",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "sections": [
+          {
+            "name": "Note 1"
+          },
+          {
+            "name": "Note 2"
+          },
+          {
+            "name": "Note 3"
+          },
+          {
+            "name": "Note 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt1",
+            "x": 305,
+            "y": 180
+          }
+        ]
+      },
+      {
+        "name": "MT: Third Stairs Notes",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "sections": [
+          {
+            "name": "Note 1"
+          },
+          {
+            "name": "Note 2"
+          },
+          {
+            "name": "Note 3"
+          },
+          {
+            "name": "Note 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt1",
+            "x": 533,
+            "y": 348
+          }
+        ]
+      },
+      {
+        "name": "MT: Top Stairs Notes",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "sections": [
+          {
+            "name": "Note 1"
+          },
+          {
+            "name": "Note 2"
+          },
+          {
+            "name": "Note 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt1",
+            "x": 475,
+            "y": 470
+          }
+        ]
+      },
+      {
+        "name": "MT: Outside Mumbo's Skull Note",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "sections": [
+          {
+            "name": "Note"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt1",
+            "x": 545,
+            "y": 555
+          }
+        ]
+      },
+      {
+        "name": "Targitzan's Temple Lobby",
+        "sections": [
+          {
+            "ref": "Mayahem Temple - Targitzan's Temple Lobby/MT: Targitzan Temple Lobby Left Egg Nests/Egg Nest 1",
+            "name": "Targitzan's Temple Lobby Left Egg Nest 1"
+          },
+          {
+            "ref": "Mayahem Temple - Targitzan's Temple Lobby/MT: Targitzan Temple Lobby Left Egg Nests/Egg Nest 2",
+            "name": "Targitzan's Temple Lobby Left Egg Nest 2"
+          },
+          {
+            "ref": "Mayahem Temple - Targitzan's Temple Lobby/MT: Targitzan Temple Lobby Left Egg Nests/Egg Nest 3",
+            "name": "Targitzan's Temple Lobby Left Egg Nest 3"
+          },
+          {
+            "ref": "Mayahem Temple - Targitzan's Temple Lobby/MT: Targitzan Temple Lobby Right Egg Nests/Egg Nest 1",
+            "name": "Targitzan's Temple Lobby Right Egg Nest 1"
+          },
+          {
+            "ref": "Mayahem Temple - Targitzan's Temple Lobby/MT: Targitzan Temple Lobby Right Egg Nests/Egg Nest 2",
+            "name": "Targitzan's Temple Lobby Right Egg Nest 2"
+          },
+          {
+            "ref": "Mayahem Temple - Targitzan's Temple Lobby/MT: Targitzan Temple Lobby Right Egg Nests/Egg Nest 3",
+            "name": "Targitzan's Temple Lobby Right Egg Nest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt1",
+            "x": 325,
+            "y": 365
+          }
+        ]
+      },
+      {
+        "name": "Targitzan's Temple",
+        "sections": [
+          {
+            "ref": "Boss Arena - Targitzan/MT: Targitzan Jiggy/Jiggy",
+            "name": "Targitzan Jiggy"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Slightly Sacred Chamber Jiggy/Jiggy",
+            "name": "Slightly Sacred Chamber Jiggy"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan Temple Jinjo/Jinjo",
+            "name": "Targitzan Temple Jinjo"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan Jiggy/Mumbo Token",
+            "name": "Targitzan Mumbo Token"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple Raising Slope Room Egg Nests/Egg Nest 1",
+            "name": "Targitzan's Temple Raising Slope Room Egg Nest 1"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple Raising Slope Room Egg Nests/Egg Nest 2",
+            "name": "Targitzan's Temple Raising Slope Room Egg Nest 2"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple Raising Slope Room Egg Nests/Egg Nest 3",
+            "name": "Targitzan's Temple Raising Slope Room Egg Nest 3"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple 4-Way Room Egg Nests/Egg Nest 1",
+            "name": "Targitzan's Temple 4-Way Room Egg Nest 1"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple 4-Way Room Egg Nests/Egg Nest 2",
+            "name": "Targitzan's Temple 4-Way Room Egg Nest 2"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple 4-Way Room Egg Nests/Egg Nest 3",
+            "name": "Targitzan's Temple 4-Way Room Egg Nest 3"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple 4-Way Room Egg Nests/Egg Nest 4",
+            "name": "Targitzan's Temple 4-Way Room Egg Nest 4"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple Pillar Maze Egg Nests/Egg Nest 1",
+            "name": "Targitzan's Temple Pillar Maze Egg Nest 1"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple Pillar Maze Egg Nests/Egg Nest 2",
+            "name": "Targitzan's Temple Pillar Maze Egg Nest 2"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple Pillar Maze Egg Nests/Egg Nest 3",
+            "name": "Targitzan's Temple Pillar Maze Egg Nest 3"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple Golden Egg Nest/Egg Nest",
+            "name": "Targitzan's Temple Golden Egg Nest"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple Signpost 1/Signpost",
+            "name": "MT: Targitzan's Temple Signpost 1"
+          },
+          {
+            "ref": "Mayahem Temple - Inside Targitzan's Temple/MT: Targitzan's Temple Signpost 2/Signpost",
+            "name": "MT: Targitzan's Temple Signpost 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt1",
+            "x": 340,
+            "y": 365
+          }
+        ]
+      },
+      {
+        "name": "Treasure Chamber",
+        "sections": [
+          {
+            "name": "Treasure Chamber Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": ["^$jiggy_MT_treasureChamber"],
+            "visibility_rules": ["mousepace_off"]
+          },
+          {
+            "name": "Treasure Chamber Honeycomb",
+            "chest_unopened_img": "/images/locations/honey.png",
+            "chest_opened_img": "/images/locations/honey2.png",
+            "access_rules": [ "^$honeycomb_MT_treasureChamber" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt1",
+            "x": 800,
+            "y": 455
+          }
+        ]
+      },
+      {
+        "name": "MT: In Front of Jade Snake Grove Feather Nests",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Feather Nest 1"
+          },
+          {
+            "name": "Feather Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt1",
+            "x": 60,
+            "y": 515
+          }
+        ]
+      },
+      {
+        "name": "MT: Kickball Stadium Feather Nest 1",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": [ "^$access_MT_getOnKickballStadium" ],
+        "sections": [
+          {
+            "name": "Feather Nest 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt1",
+            "x": 30,
+            "y": 90
+          }
+        ]
+      },
+      {
+        "name": "MT: Kickball Stadium Feather Nest 2",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": [ "^$access_MT_getOnKickballStadium" ],
+        "sections": [
+          {
+            "name": "Feather Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt1",
+            "x": 75,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "MT: In Front of Prison Compound Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt1",
+            "x": 487,
+            "y": 165
+          }
+        ]
+      },
+      {
+        "name": "MT: Outside Treasure Chamber Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt1",
+            "x": 833,
+            "y": 415
+          }
+        ]
+      },
+      {
+        "name": "MT: Bovina Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt1",
+            "x": 600,
+            "y": 25
+          }
+        ]
+      },
+      {
+        "name": "MT: Golden Goliath Signpost",
+        "sections": [
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt1",
+            "x": 250,
+            "y": 265
+          }
+        ]
+      },
+      {
+        "name": "Jade Snake Grove",
+        "sections": [
+          {
+            "ref": "Mayahem Temple - Jade Snake Grove/MT: Humba's Wigwam Warp Pad/Warp Pad",
+            "name": "Warp Pad"
+          },
+          {
+            "ref": "Mayahem Temple - Jade Snake Grove/MT: Jade Snake Grove Jinjo/Jinjo",
+            "name": "Jinjo"
+          },
+          {
+            "ref": "Mayahem Temple - Jade Snake Grove/MT: Jade Snake Grove Glowbo/Glowbo",
+            "name": "Glowbo"
+          },
+          {
+            "ref": "Mayahem Temple - Jade Snake Grove/MT: Jade Snake Grove Cheato Page/Cheato Page",
+            "name": "Cheato Page"
+          },
+          {
+            "ref": "Mayahem Temple - Jade Snake Grove/MT: Grip Grab Silo/Silo",
+            "name": "Grip Grab Silo"
+          },
+          {
+            "ref": "Mayahem Temple - Jade Snake Grove/MT: Golden Goliath Jiggy/Jiggy",
+            "name": "Golden Goliath Jiggy"
+          },
+          {
+            "ref": "Mayahem Temple - Jade Snake Grove/MT: Ssslumber Jiggy/Jiggy",
+            "name": "Ssslumber Jiggy"
+          },
+          {
+            "ref": "Mayahem Temple - Jade Snake Grove/Wumba's Wigwam/Feather Nest 1",
+            "name": "Wumba's Wigwam Feather Nest 1"
+          },
+          {
+            "ref": "Mayahem Temple - Jade Snake Grove/Wumba's Wigwam/Feather Nest 1",
+            "name": "Wumba's Wigwam Feather Nest 2"
+          },
+          {
+            "ref": "Mayahem Temple - Jade Snake Grove/MT: Jade Snake Grove Above Code Chamber Egg Nest/Egg Nest",
+            "name": "Above Code Chamber Egg Nest"
+          },
+          {
+            "ref": "Mayahem Temple - Jade Snake Grove/MT: Jade Snake Grove Near Warp Pad Egg Nests/Egg Nest 1",
+            "name": "Near Warp Pad Egg Nest 1"
+          },
+          {
+            "ref": "Mayahem Temple - Jade Snake Grove/MT: Jade Snake Grove Near Warp Pad Egg Nests/Egg Nest 2",
+            "name": "Near Warp Pad Egg Nest 2"
+          },
+          {
+            "ref": "Mayahem Temple - Jade Snake Grove/MT: Jade Snake Grove Quicksand Signpost 1/Signpost",
+            "name": "MT: Jade Snake Grove Quicksand Signpost 1"
+          },
+          {
+            "ref": "Mayahem Temple - Jade Snake Grove/MT: Jade Snake Grove Quicksand Signpost 2/Signpost",
+            "name": "MT: Jade Snake Grove Quicksand Signpost 2"
+          },
+          {
+            "ref": "Mayahem Temple - Jade Snake Grove/MT: Left of Code Chamber Signpost/Signpost",
+            "name": "MT: Left of Code Chamber Signpost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt1",
+            "x": 40,
+            "y": 515
+          }
+        ]
+      },
+      {
+        "name": "Prison Compound",
+        "sections": [
+          {
+            "ref": "Mayahem Temple - Prison Compound/MT: Prison Compound Warp Pad/Warp Pad",
+            "name": "Warp Pad"
+          },
+          {
+            "ref": "Mayahem Temple - Prison Compound/MT: Prison Compound Cheato Page/Cheato Page",
+            "name": "Cheato Page"
+          },
+          {
+            "ref": "Mayahem Temple - Prison Compound/MT: Prison Compound Quicksand Jiggy/Jiggy",
+            "name": "Quicksand Jiggy"
+          },
+          {
+            "ref": "Mayahem Temple - Prison Compound/MT: Pillars Jiggy/Jiggy",
+            "name": "Pillars Jiggy"
+          },
+          {
+            "ref": "Glitter Gulch Mine - Prospector's Hut/Prospector's Hut/Dilberta Jiggy",
+            "name": "GGM: Dilberta Jiggy"
+          },
+          {
+            "ref": "Mayahem Temple - Prison Compound/MT: Prison Compound Pillars Egg Nests/Egg Nest 1",
+            "name": "Pillars Egg Nest 1"
+          },
+          {
+            "ref": "Mayahem Temple - Prison Compound/MT: Prison Compound Pillars Egg Nests/Egg Nest 2",
+            "name": "Pillars Egg Nest 2"
+          },
+          {
+            "ref": "Mayahem Temple - Prison Compound/MT: Prison Compound Pillars Egg Nests/Egg Nest 3",
+            "name": "Pillars Egg Nest 3"
+          },
+          {
+            "ref": "Mayahem Temple - Prison Compound/MT: Prison Compound Top of Prison Cell Feather Nests/Feather Right Nest",
+            "name": "Top of Prison Cell Feather Right Nest"
+          },
+          {
+            "ref": "Mayahem Temple - Prison Compound/MT: Prison Compound Entrance Egg Nests/Egg Nest 1",
+            "name": "Entrance Egg Nest 1"
+          },
+          {
+            "ref": "Mayahem Temple - Prison Compound/MT: Prison Compound Entrance Egg Nests/Egg Nest 2",
+            "name": "Entrance Egg Nest 2"
+          },
+          {
+            "ref": "Mayahem Temple - Prison Compound/MT: Prison Compound Top of Prison Cell Feather Nests/Feather Left Nest",
+            "name": "Top of Prison Cell Feather Left Nest"
+          },
+          {
+            "ref": "Mayahem Temple - Prison Compound/MT: Pillars Signpost/Signpost",
+            "name": "MT: Pillars Signpost"
+          },
+          {
+            "ref": "Mayahem Temple - Prison Compound/MT: Prison Compound Quicksand Signpost/Signpost",
+            "name": "MT: Prison Compound Quicksand Signpost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt1",
+            "x": 503,
+            "y": 150
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mayahem Temple - Kickball Stadium",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": ["@Region: Mayahem Temple - Kickball Stadium"],
+    "children": [
+      {
+        "name": "Inside the Stadium",
+        "sections": [
+          {
+            "name": "MT: Kickball Stadium Warp Pad",
+            "chest_unopened_img": "/images/locations/warp.png",
+            "chest_opened_img": "/images/locations/warp2.png",
+            "visibility_rules": ["randomizewarppads_on"]
+          },
+          {
+            "name": "Kickball Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": [ "^$jiggy_MT_mayahemKickball" ],
+            "visibility_rules": ["mousepace_off"]
+          },
+          {
+            "name": "Kickball Mumbo Token",
+            "chest_unopened_img": "/images/locations/mumbotoken.png",
+            "chest_opened_img": "/images/locations/mumbotoken2.png",
+            "access_rules": [ "^$jiggy_MT_mayahemKickball" ],
+            "visibility_rules": [ "goal_minigame", "goal_wwing" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt1",
+            "x": 78,
+            "y": 93
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mayahem Temple - Targitzan's Temple Lobby",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": ["@Region: Mayahem Temple - Targitzan's Temple Lobby"],
+    "children": [
+      {
+        "name": "MT: Targitzan Temple Lobby Left Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          },
+          {
+            "name": "Egg Nest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt4",
+            "x": 95,
+            "y": 320
+          }
+        ]
+      },
+      {
+        "name": "MT: Targitzan Temple Lobby Right Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          },
+          {
+            "name": "Egg Nest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt4",
+            "x": 400,
+            "y": 320
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mayahem Temple - Inside Targitzan's Temple",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": ["@Region: Mayahem Temple - Inside Targitzan's Temple"],
+    "children": [
+      {
+        "name": "MT: Targitzan Temple Jinjo",
+        "chest_unopened_img": "/images/locations/jinjo.png",
+        "chest_opened_img": "/images/locations/jinjo2.png",
+        "sections": [
+          {
+            "name": "Jinjo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt5",
+            "x": 171,
+            "y": 310
+          }
+        ]
+      },
+      {
+        "name": "MT: Slightly Sacred Chamber Jiggy",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": ["^$jiggy_MT_slightlySacredChamber"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt5",
+            "x": 45,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "MT: Targitzan's Temple Raising Slope Room Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          },
+          {
+            "name": "Egg Nest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt5",
+            "x": 785,
+            "y": 645
+          }
+        ]
+      },
+      {
+        "name": "MT: Targitzan's Temple 4-Way Room Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          },
+          {
+            "name": "Egg Nest 3"
+          },
+          {
+            "name": "Egg Nest 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt5",
+            "x": 268,
+            "y": 578
+          }
+        ]
+      },
+      {
+        "name": "MT: Targitzan's Temple Golden Egg Nest",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt5",
+            "x": 65,
+            "y": 583
+          }
+        ]
+      },
+      {
+        "name": "MT: Targitzan's Temple Pillar Maze Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          },
+          {
+            "name": "Egg Nest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt5",
+            "x": 360,
+            "y": 155
+          }
+        ]
+      },
+      {
+        "name": "MT: Targitzan's Temple Signpost 1",
+        "chest_unopened_img": "/images/locations/signpost.png",
+        "chest_opened_img": "/images/locations/signpost2.png",
+        "visibility_rules": ["signposts_on"],
+        "sections": [
+          {
+            "name": "Signpost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt5",
+            "x": 425,
+            "y": 860
+          }
+        ]
+      },
+      {
+        "name": "MT: Targitzan's Temple Signpost 2",
+        "chest_unopened_img": "/images/locations/signpost.png",
+        "chest_opened_img": "/images/locations/signpost2.png",
+        "visibility_rules": ["signposts_on"],
+        "sections": [
+          {
+            "name": "Signpost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt5",
+            "x": 600,
+            "y": 860
+          }
+        ]
+      },
+      {
+        "name": "Right Entrance Relic",
+        "chest_unopened_img": "/images/items/green_relic.png",
+        "chest_opened_img": "/images/locations/green_relic2.png",
+        "visibility_rules": ["bossentranceitems_greenrelics", "bossentranceitems_both"],
+        "sections": [
+          {
+            "name": "Relic"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt5",
+            "x": 560,
+            "y": 980
+          }
+        ]
+      },
+      {
+        "name": "Left Entrance Relic",
+        "chest_unopened_img": "/images/items/green_relic.png",
+        "chest_opened_img": "/images/locations/green_relic2.png",
+        "visibility_rules": ["bossentranceitems_greenrelics", "bossentranceitems_both"],
+        "sections": [
+          {
+            "name": "Relic"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt5",
+            "x": 465,
+            "y": 980
+          }
+        ]
+      },
+      {
+        "name": "Blue Pillar Room Relic 1",
+        "chest_unopened_img": "/images/items/green_relic.png",
+        "chest_opened_img": "/images/locations/green_relic2.png",
+        "visibility_rules": ["bossentranceitems_greenrelics", "bossentranceitems_both"],
+        "sections": [
+          {
+            "name": "Relic"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt5",
+            "x": 230,
+            "y": 900
+          }
+        ]
+      },
+      {
+        "name": "Blue Pillar Room Relic 2",
+        "chest_unopened_img": "/images/items/green_relic.png",
+        "chest_opened_img": "/images/locations/green_relic2.png",
+        "visibility_rules": ["bossentranceitems_greenrelics", "bossentranceitems_both"],
+        "sections": [
+          {
+            "name": "Relic"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt5",
+            "x": 230,
+            "y": 850
+          }
+        ]
+      },
+      {
+        "name": "Blue Pillar Room Relic 3",
+        "chest_unopened_img": "/images/items/green_relic.png",
+        "chest_opened_img": "/images/locations/green_relic2.png",
+        "visibility_rules": ["bossentranceitems_greenrelics", "bossentranceitems_both"],
+        "sections": [
+          {
+            "name": "Relic"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt5",
+            "x": 230,
+            "y": 800
+          }
+        ]
+      },
+      {
+        "name": "Near Sput Sput Relics",
+        "chest_unopened_img": "/images/items/green_relic.png",
+        "chest_opened_img": "/images/locations/green_relic2.png",
+        "visibility_rules": ["bossentranceitems_greenrelics", "bossentranceitems_both"],
+        "sections": [
+          {
+            "name": "Relic 1"
+          },
+          {
+            "name": "Relic 2"
+          },
+          {
+            "name": "Relic 3"
+          },
+          {
+            "name": "Relic 4"
+          },
+          {
+            "name": "Relic 5"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt5",
+            "x": 466,
+            "y": 640
+          }
+        ]
+      },
+      {
+        "name": "Green Pillar Room Relic 5",
+        "chest_unopened_img": "/images/items/green_relic.png",
+        "chest_opened_img": "/images/locations/green_relic2.png",
+        "visibility_rules": ["bossentranceitems_greenrelics", "bossentranceitems_both"],
+        "sections": [
+          {
+            "name": "Relic"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt5",
+            "x": 290,
+            "y": 265
+          }
+        ]
+      },
+      {
+        "name": "Green Pillar Room Relic 4",
+        "chest_unopened_img": "/images/items/green_relic.png",
+        "chest_opened_img": "/images/locations/green_relic2.png",
+        "visibility_rules": ["bossentranceitems_greenrelics", "bossentranceitems_both"],
+        "sections": [
+          {
+            "name": "Relic"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt5",
+            "x": 335,
+            "y": 310
+          }
+        ]
+      },
+      {
+        "name": "Green Pillar Room Relic 3",
+        "chest_unopened_img": "/images/items/green_relic.png",
+        "chest_opened_img": "/images/locations/green_relic2.png",
+        "visibility_rules": ["bossentranceitems_greenrelics", "bossentranceitems_both"],
+        "sections": [
+          {
+            "name": "Relic"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt5",
+            "x": 380,
+            "y": 355
+          }
+        ]
+      },
+      {
+        "name": "Green Pillar Room Relic 2",
+        "chest_unopened_img": "/images/items/green_relic.png",
+        "chest_opened_img": "/images/locations/green_relic2.png",
+        "visibility_rules": ["bossentranceitems_greenrelics", "bossentranceitems_both"],
+        "sections": [
+          {
+            "name": "Relic"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt5",
+            "x": 425,
+            "y": 400
+          }
+        ]
+      },
+      {
+        "name": "Green Pillar Room Relic 1",
+        "chest_unopened_img": "/images/items/green_relic.png",
+        "chest_opened_img": "/images/locations/green_relic2.png",
+        "visibility_rules": ["bossentranceitems_greenrelics", "bossentranceitems_both"],
+        "sections": [
+          {
+            "name": "Relic"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt5",
+            "x": 470,
+            "y": 445
+          }
+        ]
+      },
+      {
+        "name": "Near Sacred Chambers Relic 2",
+        "chest_unopened_img": "/images/items/green_relic.png",
+        "chest_opened_img": "/images/locations/green_relic2.png",
+        "visibility_rules": ["bossentranceitems_greenrelics", "bossentranceitems_both"],
+        "sections": [
+          {
+            "name": "Relic"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt5",
+            "x": 135,
+            "y": 269
+          }
+        ]
+      },
+      {
+        "name": "Near Sacred Chambers Relic 1",
+        "chest_unopened_img": "/images/items/green_relic.png",
+        "chest_opened_img": "/images/locations/green_relic2.png",
+        "visibility_rules": ["bossentranceitems_greenrelics", "bossentranceitems_both"],
+        "sections": [
+          {
+            "name": "Relic"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt5",
+            "x": 135,
+            "y": 188
+          }
+        ]
+      },
+      {
+        "name": "Secret Passage Near Sacred Chambers Relics",
+        "chest_unopened_img": "/images/items/green_relic.png",
+        "chest_opened_img": "/images/locations/green_relic2.png",
+        "visibility_rules": ["bossentranceitems_greenrelics", "bossentranceitems_both"],
+        "sections": [
+          {
+            "name": "Relic 1"
+          },
+          {
+            "name": "Relic 2"
+          },
+          {
+            "name": "Relic 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt5",
+            "x": 74,
+            "y": 425
+          }
+        ]
+      },
+      {
+        "name": "Secret Passage Near Entrance Relics",
+        "chest_unopened_img": "/images/items/green_relic.png",
+        "chest_opened_img": "/images/locations/green_relic2.png",
+        "visibility_rules": ["bossentranceitems_greenrelics", "bossentranceitems_both"],
+        "sections": [
+          {
+            "name": "Relic 1"
+          },
+          {
+            "name": "Relic 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt5",
+            "x": 720,
+            "y": 820
+          }
+        ]
+      },
+      {
+        "name": "Red Pillar Room Relic 3",
+        "chest_unopened_img": "/images/items/green_relic.png",
+        "chest_opened_img": "/images/locations/green_relic2.png",
+        "visibility_rules": ["bossentranceitems_greenrelics", "bossentranceitems_both"],
+        "sections": [
+          {
+            "name": "Relic"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt5",
+            "x": 565,
+            "y": 80
+          }
+        ]
+      },
+      {
+        "name": "Red Pillar Room Relic 2",
+        "chest_unopened_img": "/images/items/green_relic.png",
+        "chest_opened_img": "/images/locations/green_relic2.png",
+        "visibility_rules": ["bossentranceitems_greenrelics", "bossentranceitems_both"],
+        "sections": [
+          {
+            "name": "Relic"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt5",
+            "x": 645,
+            "y": 80
+          }
+        ]
+      },
+      {
+        "name": "Red Pillar Room Relic 1",
+        "chest_unopened_img": "/images/items/green_relic.png",
+        "chest_opened_img": "/images/locations/green_relic2.png",
+        "visibility_rules": ["bossentranceitems_greenrelics", "bossentranceitems_both"],
+        "sections": [
+          {
+            "name": "Relic"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt5",
+            "x": 645,
+            "y": 165
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Boss Arena - Targitzan",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": ["@Region: Boss Arena - Targitzan"],
+    "children": [
+      {
+        "name": "MT: Targitzan Jiggy",
+        "access_rules": [ "^$jiggy_MT_targitzan" ],
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png"
+          },
+          {
+            "name": "Mumbo Token",
+            "chest_unopened_img": "/images/locations/mumbotoken.png",
+            "chest_opened_img": "/images/locations/mumbotoken2.png",
+            "visibility_rules": [ "goal_boss", "goal_wwing" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt5",
+            "x": 45,
+            "y": 183
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mayahem Temple - Prison Compound",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": ["@Region: Mayahem Temple - Prison Compound"],
+    "children": [
+      {
+        "name": "MT: Prison Compound Warp Pad",
+        "sections": [
+          {
+            "name": "Warp Pad",
+            "chest_unopened_img": "/images/locations/warp.png",
+            "chest_opened_img": "/images/locations/warp2.png",
+            "visibility_rules": ["randomizewarppads_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt2",
+            "x": 429,
+            "y": 570
+          }
+        ]
+      },
+      {
+        "name": "MT: Prison Compound Cheato Page",
+        "sections": [
+          {
+            "name": "Cheato Page",
+            "chest_unopened_img": "/images/locations/page.png",
+            "chest_opened_img": "/images/locations/page2.png",
+            "access_rules": ["^$cheato_MT_prisonCompound"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt2",
+            "x": 703,
+            "y": 245
+          }
+        ]
+      },
+      {
+        "name": "MT: Prison Compound Quicksand Jiggy",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": ["^$jiggy_MT_quicksandInPrisonCompound"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt2",
+            "x": 71,
+            "y": 530
+          }
+        ]
+      },
+      {
+        "name": "MT: Pillars Jiggy",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": [ "^$jiggy_MT_pillars" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt2",
+            "x": 637,
+            "y": 132
+          }
+        ]
+      },
+      {
+        "name": "GGM: Dilberta Jiggy",
+        "sections": [
+          {
+            "ref": "Glitter Gulch Mine - Prospector's Hut/Prospector's Hut/Dilberta Jiggy",
+            "name": "GGM: Dilberta Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt2",
+            "x": 485,
+            "y": 415
+          }
+        ]
+      },
+      {
+        "name": "MT: Prison Compound Entrance Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt2",
+            "x": 460,
+            "y": 660
+          }
+        ]
+      },
+      {
+        "name": "MT: Prison Compound Top of Prison Cell Feather Nests",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Feather Right Nest",
+            "access_rules": ["^$nests_MT_topOfPrisonCellRight"]
+          },
+          {
+            "name": "Feather Left Nest",
+            "access_rules": ["^$nests_MT_topOfPrisonCellLeft"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt2",
+            "x": 460,
+            "y": 460
+          }
+        ]
+      },
+      {
+        "name": "MT: Prison Compound Pillars Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_MT_pillars"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          },
+          {
+            "name": "Egg Nest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt2",
+            "x": 540,
+            "y": 125
+          }
+        ]
+      },
+      {
+        "name": "MT: Pillars Signpost",
+        "sections": [
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"],
+            "access_rules": ["^$signs_MT_pillars"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt2",
+            "x": 480,
+            "y": 75
+          }
+        ]
+      },
+      {
+        "name": "MT: Prison Compound Quicksand Signpost",
+        "sections": [
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt2",
+            "x": 350,
+            "y": 600
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mayahem Temple - Jade Snake Grove",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": ["@Region: Mayahem Temple - Jade Snake Grove"],
+    "children": [
+      {
+        "name": "MT: Humba's Wigwam Warp Pad",
+        "sections": [
+          {
+            "name": "Warp Pad",
+            "chest_unopened_img": "/images/locations/warp.png",
+            "chest_opened_img": "/images/locations/warp2.png",
+            "visibility_rules": ["randomizewarppads_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt3",
+            "x": 434,
+            "y": 523
+          }
+        ]
+      },
+      {
+        "name": "MT: Jade Snake Grove Jinjo",
+        "sections": [
+          {
+            "name": "Jinjo",
+            "chest_unopened_img": "/images/locations/jinjo.png",
+            "chest_opened_img": "/images/locations/jinjo2.png",
+            "access_rules": [ "^$jinjo_MT_jadeSnakeGrove" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt3",
+            "x": 260,
+            "y": 530
+          }
+        ]
+      },
+      {
+        "name": "MT: Jade Snake Grove Glowbo",
+        "chest_unopened_img": "/images/locations/glowbo.png",
+        "chest_opened_img": "/images/locations/glowbo2.png",
+        "sections": [
+          {
+            "name": "Glowbo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt3",
+            "x": 600,
+            "y": 540
+          }
+        ]
+      },
+      {
+        "name": "MT: Jade Snake Grove Cheato Page",
+        "sections": [
+          {
+            "name": "Cheato Page",
+            "chest_unopened_img": "/images/locations/page.png",
+            "chest_opened_img": "/images/locations/page2.png",
+            "access_rules": [ "^$cheato_MT_jadeSnakeGrove" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt3",
+            "x": 440,
+            "y": 55
+          }
+        ]
+      },
+      {
+        "name": "MT: Grip Grab Silo",
+        "chest_unopened_img": "/images/locations/silo.png",
+        "chest_opened_img": "/images/locations/silo2.png",
+        "sections": [
+          {
+            "name": "Silo",
+            "access_rules": [ "^$silo_MT_gripGrab" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt3",
+            "x": 260,
+            "y": 555
+          }
+        ]
+      },
+      {
+        "name": "MT: Golden Goliath Jiggy",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": [ "^$jiggy_MT_goldenGoliath" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt3",
+            "x": 63,
+            "y": 515
+          }
+        ]
+      },
+      {
+        "name": "MT: Ssslumber Jiggy",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": [ "^$jiggy_MT_ssslumber" ],
+            "visibility_rules": ["mousepace_off"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt3",
+            "x": 275,
+            "y": 30
+          }
+        ]
+      },
+      {
+        "name": "MT: Jade Snake Grove Near Warp Pad Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt3",
+            "x": 440,
+            "y": 580
+          }
+        ]
+      },
+      {
+        "name": "Wumba's Wigwam",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Feather Nest 1"
+          },
+          {
+            "name": "Feather Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt3",
+            "x": 575,
+            "y": 530
+          }
+        ]
+      },
+      {
+        "name": "MT: Jade Snake Grove Above Code Chamber Egg Nest",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_MT_onCodeChamber"],
+        "sections": [
+          {
+            "name": "Egg Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt3",
+            "x": 265,
+            "y": 170
+          }
+        ]
+      },
+      {
+        "name": "MT: Jade Snake Grove Quicksand Signpost 1",
+        "sections": [
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt3",
+            "x": 195,
+            "y": 580
+          }
+        ]
+      },
+      {
+        "name": "MT: Jade Snake Grove Quicksand Signpost 2",
+        "sections": [
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt3",
+            "x": 135,
+            "y": 365
+          }
+        ]
+      },
+      {
+        "name": "MT: Left of Code Chamber Signpost",
+        "sections": [
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"],
+            "access_rules": ["^$signs_MT_nearCodeChamber"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt3",
+            "x": 85,
+            "y": 55
+          }
+        ]
+      }
+    ]
+  }
+]

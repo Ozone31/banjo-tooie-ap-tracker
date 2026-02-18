@@ -1,0 +1,322 @@
+{
+    "silos_tracker": {
+        "type": "dock",
+        "content": [
+            {
+                "type": "group",
+                "header": "IoH",
+                "dock": "left",
+                "margin": "0,0,3,0",
+                "content": {
+                    "type": "array",
+                    "orientation": "vertical",
+                    "margin": "0,0",
+                    "content": [
+                        {
+                            "type": "array",
+                            "orientation": "horizontal",
+                            "margin": "0,0",
+                            "content": [
+                                {
+                                    "type": "itemgrid",
+                                    "item_margin": "2, 2",
+                                    "h_alignment": "left",
+                                    "rows": [
+                                        [
+                                            "silo_feggs_tracking"
+                                        ],
+                                        [
+                                            "silo_geggs_tracking"
+                                        ],
+                                        [
+                                            "silo_ieggs_tracking"
+                                        ],
+                                        [
+                                            "silo_ceggs_tracking"
+                                        ]
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "group",
+                "header": "MT",
+                "dock": "left",
+                "margin": "0,0,3,0",
+                "content": {
+                    "type": "array",
+                    "orientation": "vertical",
+                    "margin": "0,0",
+                    "content": [
+                        {
+                            "type": "array",
+                            "orientation": "horizontal",
+                            "margin": "0,0",
+                            "content": [
+                                {
+                                    "type": "itemgrid",
+                                    "item_margin": "2, 2",
+                                    "h_alignment": "left",
+                                    "rows": [
+                                        [
+                                            "silo_eggaim_tracking"
+                                        ],
+                                        [
+                                            "silo_bblaster_tracking"
+                                        ],
+                                        [
+                                            "silo_ggrab_tracking"
+                                        ]
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "group",
+                "header": "GGM",
+                "dock": "left",
+                "margin": "0,0,3,0",
+                "content": {
+                    "type": "array",
+                    "orientation": "vertical",
+                    "margin": "0,0",
+                    "content": [
+                        {
+                            "type": "array",
+                            "orientation": "horizontal",
+                            "margin": "0,0",
+                            "content": [
+                                {
+                                    "type": "itemgrid",
+                                    "item_margin": "2, 2",
+                                    "h_alignment": "left",
+                                    "rows": [
+                                        [
+                                            "silo_bdrill_tracking"
+                                        ],
+                                        [
+                                            "silo_bbayonet_tracking"
+                                        ]
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "group",
+                "header": "WW",
+                "dock": "left",
+                "margin": "0,0,3,0",
+                "content": {
+                    "type": "array",
+                    "orientation": "vertical",
+                    "margin": "0,0",
+                    "content": [
+                        {
+                            "type": "array",
+                            "orientation": "horizontal",
+                            "margin": "0,0",
+                            "content": [
+                                {
+                                    "type": "itemgrid",
+                                    "item_margin": "2, 2",
+                                    "h_alignment": "left",
+                                    "rows": [
+                                        [
+                                            "silo_splitup_tracking"
+                                        ],
+                                        [
+                                            "silo_aireaim_tracking"
+                                        ],
+                                        [
+                                            "silo_packWhack_tracking"
+                                        ]
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "group",
+                "header": "JRL",
+                "dock": "left",
+                "margin": "0,0,3,0",
+                "content": {
+                    "type": "array",
+                    "orientation": "vertical",
+                    "margin": "0,0",
+                    "content": [
+                        {
+                            "type": "array",
+                            "orientation": "horizontal",
+                            "margin": "0,0",
+                            "content": [
+                                {
+                                    "type": "itemgrid",
+                                    "item_margin": "2, 2",
+                                    "h_alignment": "left",
+                                    "rows": [
+                                        [
+                                            "silo_auqaim_tracking"
+                                        ],
+                                        [
+                                            "silo_wingWhack_tracking"
+                                        ],
+                                        [
+                                            "silo_ttorp_tracking"
+                                        ]
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "group",
+                "header": "TDL",
+                "dock": "left",
+                "margin": "0,0,3,0",
+                "content": {
+                    "type": "array",
+                    "orientation": "vertical",
+                    "margin": "0,0",
+                    "content": [
+                        {
+                            "type": "array",
+                            "orientation": "horizontal",
+                            "margin": "0,0",
+                            "content": [
+                                {
+                                    "type": "itemgrid",
+                                    "item_margin": "2, 2",
+                                    "h_alignment": "left",
+                                    "rows": [
+                                        [
+                                            "silo_springb_tracking"
+                                        ],
+                                        [
+                                            "silo_hatch_tracking"
+                                        ],
+                                        [
+                                            "silo_taxiPack_tracking"
+                                        ]
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "group",
+                "header": "GI",
+                "dock": "left",
+                "margin": "0,0,3,0",
+                "content": {
+                    "type": "array",
+                    "orientation": "vertical",
+                    "margin": "0,0",
+                    "content": [
+                        {
+                            "type": "array",
+                            "orientation": "horizontal",
+                            "margin": "0,0",
+                            "content": [
+                                {
+                                    "type": "itemgrid",
+                                    "item_margin": "2, 2",
+                                    "h_alignment": "left",
+                                    "rows": [
+                                        [
+                                            "silo_clawbts_tracking"
+                                        ],
+                                        [
+                                            "silo_snoozePack_tracking"
+                                        ],
+                                        [
+                                            "silo_legSpring_tracking"
+                                        ]
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "group",
+                "header": "HFP",
+                "dock": "left",
+                "margin": "0,0,3,0",
+                "content": {
+                    "type": "array",
+                    "orientation": "vertical",
+                    "margin": "0,0",
+                    "content": [
+                        {
+                            "type": "array",
+                            "orientation": "horizontal",
+                            "margin": "0,0",
+                            "content": [
+                                {
+                                    "type": "itemgrid",
+                                    "item_margin": "2, 2",
+                                    "h_alignment": "left",
+                                    "rows": [
+                                        [
+                                            "silo_shackPack_tracking"
+                                        ],
+                                        [
+                                            "silo_glide_tracking"
+                                        ]
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "group",
+                "header": "CCL",
+                "dock": "left",
+                "margin": "0,0,3,0",
+                "content": {
+                    "type": "array",
+                    "orientation": "vertical",
+                    "margin": "0,0",
+                    "content": [
+                        {
+                            "type": "array",
+                            "orientation": "horizontal",
+                            "margin": "0,0",
+                            "content": [
+                                {
+                                    "type": "itemgrid",
+                                    "item_margin": "2, 2",
+                                    "h_alignment": "left",
+                                    "rows": [
+                                        [
+                                            "silo_sackPack_tracking"
+                                        ]
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

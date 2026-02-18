@@ -24,7 +24,7 @@
                         },
                         {
                             "type": "group",
-                            "header": "Moves",
+                            "header": "Moves, Abilities, & Train Stations",
                             "dock": "left",
                             "margin": "0,0,3,0",
                             "content": {
@@ -36,14 +36,14 @@
                         },
                         {
                             "type": "group",
-                            "header": "Worlds, Magic, & Train Stations",
+                            "header": "Worlds, Magic, & Warps",
                             "dock": "left",
                             "margin": "0,0,3,0",
                             "content": {
                                 "type": "layout",
                                 "h_alignment": "center",
                                 "v_alignment": "center",
-                                "key": "access_grid"
+                                "key": "access_grid_ws"
                             }
                         },
                         {
@@ -62,10 +62,12 @@
                 },
                 {
                     "type": "dock",
-                    "content": {
-                        "type": "layout",
-                        "key": "tabbed_maps"
-                    }
+                    "content": [
+                        {
+                            "type": "layout",
+                            "key": "tabbed_maps_ws"
+                        }
+                    ]
                 }
             ]
         }

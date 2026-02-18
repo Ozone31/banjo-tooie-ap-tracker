@@ -16,36 +16,51 @@
             "h_alignment": "left",
             "rows": [
               [
-                "randomizemoves",
-                "randomizebkmoves",
+                "cheatocontent",
+                "honeybcontent",
+                "notecontent",
+                "randomizesilos",
+                "randomizewarppads"
+              ],
+              [
                 "randomizejinjos",
-                "randomizecheato",
-                "randomizehoneycomb"
-              ],
-              [
-                "randomizetrebleclef",
                 "randomizeglowbos",
-                "speedupmini",
-                "cheatorewards",
-                "honeybrewards"
-              ],
-              [
                 "randomizedoubloons",
                 "randomizestations",
-                "randomizechuffy",
-                "randomizenotes",
-                "randomizestopnswop"
+                "randomizechuffy"
+              ],
+              [
+                "randomizestopnswop",
+                "nestsanity",
+                "signposts",
+                "bossentranceitems",
+                "randomizebeans"
               ],
               [
                 "randomizeworlds",
+                "entrancerando",
                 "backdoorsopen",
-                "nestsanity",
-                "signposts",
+                "opengi",
+                "randomizebossentrances"
+              ],
+              [
+                "skipklungo",
+                "speedupmini",
                 "goal"
               ],
               [
+                "logictype",
+                "sequencebreaklogic",
+                "shownewtricks",
                 "automap",
-                "logictype"
+                "ber_er_manualoverride"
+              ],
+              [
+                "",
+                "",
+                "",
+                "",
+                "" 
               ]
             ]
           }

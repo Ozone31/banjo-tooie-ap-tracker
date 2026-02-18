@@ -1,0 +1,1742 @@
+[
+  {
+    "name": "Overworld - Cloud Cuckooland",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "children": [
+      {
+        "name": "Cloud Cuckooland - Silos & Warps",
+        "sections": [
+          {
+            "ref": "Cloud Cuckooland - Central Cavern/Sack Pack Silo/Silo",
+            "name": "CCL: Sack Pack Silo"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/CCL: Entrance Warp Pad/Warp Pad",
+            "name": "CCL: Entrance Warp Pad"
+          },
+          {
+            "ref": "Cloud Cuckooland - Central Cavern/CCL: Central Cavern Warp Pad/Warp Pad",
+            "name": "CCL: Central Cavern Warp Pad"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 473,
+            "y": 590
+          }
+        ]
+      },
+      {
+        "name": "Cloud Cuckooland - Jiggies",
+        "sections": [
+          {
+            "ref": "Boss Arena - Mingy Jongo/Mumbo's Skull/Mingy Jongo Jiggy",
+            "name": "CCL: Mingy Jongo Jiggy"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/CCL: Mr Fit Jiggy/Jiggy",
+            "name": "CCL: Mr Fit Jiggy"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/Inside the Pot O' Gold/Jiggy",
+            "name": "CCL: Pot O' Gold Jiggy"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/Canary Mary (Purple Platform)/Jiggy",
+            "name": "CCL: Canary Mary Jiggy"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/Zubbas' Nest/Jiggy",
+            "name": "CCL: Zubbas Jiggy"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/CCL: Jiggium Plant Jiggy (All Around Map)/Jiggy",
+            "name": "CCL: Jiggium Plant Jiggy"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/Inside the Cheese Wedge/Jiggy",
+            "name": "CCL: Cheese Wedge Jiggy"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/Inside the Trash Can/Jiggy",
+            "name": "CCL: Trash Can Jiggy"
+          },
+          {
+            "ref": "Cloud Cuckooland - Central Cavern/CCL: Superstash Jiggy/Jiggy",
+            "name": "CCL: Superstash Jiggy"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/Jelly Castle/Jiggy",
+            "name": "CCL: Jelly Castle Jiggy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 551,
+            "y": 590
+          }
+        ]
+      },
+      {
+        "name": "Cloud Cuckooland - Notes",
+        "sections": [
+          {
+            "ref": "Cloud Cuckooland - Central Cavern/CCL: Treble Clef (Top Path)/Treble Clef",
+            "name": "CCL: Treble Clef"
+          },
+          {
+            "ref": "Cloud Cuckooland - Central Cavern/CCL: Main Entrance Note/Note",
+            "name": "CCL: Main Entrance Note"
+          },
+          {
+            "ref": "Cloud Cuckooland - Central Cavern/CCL: Blue Skull Exit Note/Note",
+            "name": "CCL: Blue Skull Exit Note"
+          },
+          {
+            "ref": "Cloud Cuckooland - Central Cavern/Sack Pack Silo/Note 1",
+            "name": "CCL: Sack Pack Silo Note 1"
+          },
+          {
+            "ref": "Cloud Cuckooland - Central Cavern/Sack Pack Silo/Note 2",
+            "name": "CCL: Sack Pack Silo Note 2"
+          },
+          {
+            "ref": "Cloud Cuckooland - Central Cavern/CCL: Cheese Wedge Exit Note/Note",
+            "name": "CCL: Cheese Wedge Exit Note"
+          },
+          {
+            "ref": "Cloud Cuckooland - Central Cavern/CCL: Pot o' Gold Exit Note/Note",
+            "name": "CCL: Pot o' Gold Exit Note"
+          },
+          {
+            "ref": "Cloud Cuckooland - Central Cavern/CCL: Dippy Pool Note/Note",
+            "name": "CCL: Dippy Pool Note"
+          },
+          {
+            "ref": "Cloud Cuckooland - Central Cavern/CCL: Mr. Fit Footrace Track Note/Note",
+            "name": "CCL: Mr. Fit Footrace Track Note"
+          },
+          {
+            "ref": "Cloud Cuckooland - Central Cavern/CCL: Red Skull Exit Note/Note",
+            "name": "CCL: Red Skull Exit Note"
+          },
+          {
+            "ref": "Cloud Cuckooland - Central Cavern/CCL: Mr. Fit Sack Race Exit Note/Note",
+            "name": "CCL: Mr. Fit Sack Race Exit Note"
+          },
+          {
+            "ref": "Cloud Cuckooland - Central Cavern/CCL: Top Entrance Note/Note",
+            "name": "CCL: Top Entrance Note"
+          },
+          {
+            "ref": "Cloud Cuckooland - Central Cavern/CCL: Top Superstash Switch Note/Note",
+            "name": "CCL: Top Superstash Switch Note"
+          },
+          {
+            "ref": "Cloud Cuckooland - Central Cavern/CCL: Glowbo Pool Note/Note",
+            "name": "CCL: Glowbo Pool Note"
+          },
+          {
+            "ref": "Cloud Cuckooland - Central Cavern/Cloud Cuckooland - Central Cavern/CCL: Central Cavern Warp Pad/Central Notes 1",
+            "name": "CCL: Central Note 1"
+          },
+          {
+            "ref": "Cloud Cuckooland - Central Cavern/Cloud Cuckooland - Central Cavern/CCL: Central Cavern Warp Pad/Central Notes 2",
+            "name": "CCL: Central Note 2"
+          },
+          {
+            "ref": "Cloud Cuckooland - Central Cavern/Cloud Cuckooland - Central Cavern/CCL: Central Cavern Warp Pad/Central Notes 3",
+            "name": "CCL: Central Note 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 621,
+            "y": 590
+          }
+        ]
+      },
+      {
+        "name": "Cloud Cuckooland - Other",
+        "sections": [
+          {
+            "ref": "Cloud Cuckooland - Outside/Inside the Trash Can/Jinjo",
+            "name": "CCL: Trash Can Jinjo"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/Inside the Cheese Wedge/Jinjo",
+            "name": "CCL: Cheese Wedge Jinjo"
+          },
+          {
+            "ref": "Cloud Cuckooland - Central Cavern/CCL: Central Cavern Jinjo/Jinjo",
+            "name": "CCL: Central Cavern Jinjo"
+          },
+          {
+            "ref": "Boss Arena - Mingy Jongo/Mumbo's Skull/Fake Mumbo Skull Jinjo",
+            "name": "CCL: Fake Mumbo Skull Jinjo"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/Wumba's Wigwam/Jinjo (Climb)",
+            "name": "CCL: Wumba Jinjo"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/CCL: Outdoors Pool Glowbo/Glowbo",
+            "name": "CCL: Outdoors Pool Glowbo"
+          },
+          {
+            "ref": "Cloud Cuckooland - Central Cavern/CCL: Indoors Pool Glowbo/Glowbo",
+            "name": "CCL: Indoors Pool Glowbo"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/CCL: Dirt Patches/Honeycomb",
+            "name": "CCL: Dirt Patch Honeycomb"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/CCL: Trash Can Honeycomb (On Top)/Honeycomb",
+            "name": "CCL: Trash Can Honeycomb"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/CCL: Pot O' Gold Honeycomb (Behind)/Honeycomb",
+            "name": "CCL: Pot O' Gold Honeycomb"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/Canary Mary (Purple Platform)/Cheato Page",
+            "name": "CCL: Canary Mary Cheato Page"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/Inside the Pot O' Gold/Cheato Page",
+            "name": "CCL: Pot O' Gold Cheato Page"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/Zubbas' Nest/Cheato Page",
+            "name": "CCL: Zubbas Cheato Page"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/CCL: Mr. Fitt - High Jump/High Jump",
+            "name": "CCL: Mr. Fitt - High Jump"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/CCL: Mr. Fitt - Sack Race/Sack Race",
+            "name": "CCL: Mr. Fitt - Sack Race"
+          },
+          {
+            "ref": "Boss Arena - Mingy Jongo/Mumbo's Skull/Mingy Jongo Mumbo Token",
+            "name": "CCL: Mingy Jongo Mumbo Token"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/Inside the Pot O' Gold/Mumbo Token",
+            "name": "CCL: Pot O' Gold Mumbo Token"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/Zubbas' Nest/Mumbo Token",
+            "name": "CCL: Zubbas Mumbo Token"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/Inside the Trash Can/Mumbo Token",
+            "name": "CCL: Trash Can Mumbo Token"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/Canary Mary (Purple Platform)/Mumbo Token",
+            "name": "CCL: Canary Mary Mumbo Token"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 691,
+            "y": 590
+          }
+        ]
+      },
+      {
+        "name": "Cloud Cuckooland - Nests",
+        "sections": [
+          {
+            "ref": "Cloud Cuckooland - Outside/CCL: Outside Cheese Wedge Feather Nests/Feather Nest 1",
+            "name": "CCL: Outside Cheese Wedge Feather Nest 1"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/CCL: Outside Cheese Wedge Feather Nests/Feather Nest 2",
+            "name": "CCL: Outside Cheese Wedge Feather Nest 2"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/CCL: Outside Cheese Wedge Feather Nests/Feather Nest 3",
+            "name": "CCL: Outside Cheese Wedge Feather Nest 3"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/CCL: Outside Cheese Wedge Feather Nests/Feather Nest 4",
+            "name": "CCL: Outside Cheese Wedge Feather Nest 4"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/CCL: Near Blue Skull Feather Nests/Feather Nest 1",
+            "name": "CCL: Near Blue Skull Feather Nest 1"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/CCL: Near Blue Skull Feather Nests/Feather Nest 2",
+            "name": "CCL: Near Blue Skull Feather Nest 2"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/CCL: Near Blue Skull Feather Nests/Feather Nest 3",
+            "name": "CCL: Near Blue Skull Feather Nest 3"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/Jelly Castle/Egg Nest 1",
+            "name": "CCL: Jelly Castle Egg Nest 1"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/Jelly Castle/Egg Nest 2",
+            "name": "CCL: Jelly Castle Egg Nest 2"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/Jelly Castle/Egg Nest 3",
+            "name": "CCL: Jelly Castle Egg Nest 3"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/Jelly Castle/Egg Nest 4",
+            "name": "CCL: Jelly Castle Egg Nest 4"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/CCL: Dippy Pool Feather Nests/Feather Nest 1",
+            "name": "CCL: Dippy Pool Feather Nest 1"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/CCL: Dippy Pool Feather Nests/Feather Nest 2",
+            "name": "CCL: Dippy Pool Feather Nest 2"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/CCL: Dippy Pool Feather Nests/Feather Nest 3",
+            "name": "CCL: Dippy Pool Feather Nest 3"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/CCL: Dippy Pool Feather Nests/Feather Nest 4",
+            "name": "CCL: Dippy Pool Feather Nest 4"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/CCL: Top Entrance Feather Nests/Feather Nest 1",
+            "name": "CCL: Top Entrance Feather Nest 1"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/CCL: Top Entrance Feather Nests/Feather Nest 2",
+            "name": "CCL: Top Entrance Feather Nest 2"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/CCL: Near Top Superstash Switch Feather Nests/Feather Nest 1",
+            "name": "CCL: Near Top Superstash Switch Feather Nest 1"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/CCL: Near Top Superstash Switch Feather Nests/Feather Nest 2",
+            "name": "CCL: Near Top Superstash Switch Feather Nest 2"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/CCL: By George Feather Nests/Feather Nest 1",
+            "name": "CCL: By George Feather Nest 1"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/CCL: By George Feather Nests/Feather Nest 2",
+            "name": "CCL: By George Feather Nest 2"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/CCL: By George Feather Nests/Feather Nest 3",
+            "name": "CCL: By George Feather Nest 3"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/CCL: By George Feather Nests/Feather Nest 4",
+            "name": "CCL: By George Feather Nest 4"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/CCL: Near Blue Skull Feather Nests/Feather Nest 4",
+            "name": "CCL: Near Blue Skull Feather Nest 4"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/CCL: Behind the Trash Can Feather Nests/Feather Nest 1",
+            "name": "CCL: Behind the Trash Can Feather Nest 1"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/CCL: Behind the Trash Can Feather Nests/Feather Nest 2",
+            "name": "CCL: Behind the Trash Can Feather Nest 2"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/CCL: Behind the Trash Can Feather Nests/Feather Nest 3",
+            "name": "CCL: Behind the Trash Can Feather Nest 3"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/CCL: Behind the Trash Can Feather Nests/Feather Nest 4",
+            "name": "CCL: Behind the Trash Can Feather Nest 4"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/CCL: High Jump Event Feather Nest/Feather Nest",
+            "name": "CCL: High Jump Event Feather Nest"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/CCL: Near Red Skull Feather Nests/Feather Nest 1",
+            "name": "CCL: Near Red Skull Feather Nest 1"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/CCL: Near Red Skull Feather Nests/Feather Nest 2",
+            "name": "CCL: Near Red Skull Feather Nest 2"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/CCL: Near Red Skull Feather Nests/Feather Nest 3",
+            "name": "CCL: Near Red Skull Feather Nest 3"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/CCL: Near Red Skull Feather Nests/Feather Nest 4",
+            "name": "CCL: Near Red Skull Feather Nest 4"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/CCL: Dirt Patches/Feather Nest",
+            "name": "CCL: Dirt Patch Feather Nest"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/CCL: Dirt Patches/Egg Nest",
+            "name": "CCL: Dirt Patch Egg Nest"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/Inside the Trash Can/Egg Nest 1",
+            "name": "CCL: Trash Can Egg Nest 1"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/Inside the Trash Can/Egg Nest 2",
+            "name": "CCL: Trash Can Egg Nest 2"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/Inside the Cheese Wedge/Egg Nest 1",
+            "name": "CCL: Inside Cheese Wedge Egg Nest 1"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/Inside the Cheese Wedge/Egg Nest 2",
+            "name": "CCL: Inside Cheese Wedge Egg Nest 2"
+          },
+          {
+            "ref": "Cloud Cuckooland - Central Cavern/CCL: Central Cavern on Steps Near Main Entrance Egg Nest/Egg Nest",
+            "name": "CCL: Central Cavern on Steps Near Main Entrance Egg Nest"
+          },
+          {
+            "ref": "Cloud Cuckooland - Central Cavern/CCL: Central Cavern Under Cheese Wedge Exit Egg Nests/Egg Nest 1",
+            "name": "CCL: Central Cavern Under Cheese Wedge Exit Egg Nest 1"
+          },
+          {
+            "ref": "Cloud Cuckooland - Central Cavern/CCL: Central Cavern Top Path Egg Nests/Egg Nest 1",
+            "name": "CCL: Central Cavern Top Path Egg Nest 1"
+          },
+          {
+            "ref": "Cloud Cuckooland - Central Cavern/CCL: Central Cavern Top Path Egg Nests/Egg Nest 2",
+            "name": "CCL: Central Cavern Top Path Egg Nest 2"
+          },
+          {
+            "ref": "Cloud Cuckooland - Central Cavern/CCL: Top-Left of Superstash Egg Nests/Egg Nest 1",
+            "name": "CCL: Top-Left of Superstash Egg Nest 1"
+          },
+          {
+            "ref": "Cloud Cuckooland - Central Cavern/CCL: Top-Left of Superstash Egg Nests/Egg Nest 2",
+            "name": "CCL: Top-Left of Superstash Egg Nest 2"
+          },
+          {
+            "ref": "Cloud Cuckooland - Central Cavern/CCL: Central Cavern Under Cheese Wedge Exit Egg Nests/Egg Nest 2",
+            "name": "CCL: Central Cavern Under Cheese Wedge Exit Egg Nest 2"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/Inside the Pot O' Gold/Egg Nest 1",
+            "name": "CCL: Pot o' Gold Egg Nest 1"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/Inside the Pot O' Gold/Egg Nest 2",
+            "name": "CCL: Pot o' Gold Egg Nest 2"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/Wumba's Wigwam/Egg Nest 1",
+            "name": "CCL: Wumba's Wigwam Egg Nest 1"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/Wumba's Wigwam/Egg Nest 2",
+            "name": "CCL: Wumba's Wigwam Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 770,
+            "y": 590
+          }
+        ]
+      },
+      {
+        "name": "Cloud Cuckooland - Signposts",
+        "sections": [
+          {
+            "ref": "Cloud Cuckooland - Central Cavern/CCL: Indoors Pool Underwater Signpost/Signpost",
+            "name": "CCL: Indoors Pool Underwater Signpost"
+          },
+          {
+            "ref": "Cloud Cuckooland - Central Cavern/Sack Pack Silo/Signpost",
+            "name": "CCL: Sack Pack Silo Signpost"
+          },
+          {
+            "ref": "Cloud Cuckooland - Central Cavern/CCL: On Rim of Glowbo Pool Signpost/Signpost",
+            "name": "CCL: On Rim of Glowbo Pool Signpost"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/Wumba's Wigwam/Signpost (Behind her seat)",
+            "name": "CCL: Wumba's Wigwam Signpost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 849,
+            "y": 590
+          }
+        ]
+      },
+      {
+        "name": "Cloud Cuckooland - Beans",
+        "sections": [
+          {
+            "ref": "Cloud Cuckooland - Outside/CCL: Dirt Patches/Bean 1",
+            "name": "CCL: Dirt Patch Bean 1"
+          },
+          {
+            "ref": "Cloud Cuckooland - Outside/CCL: Dirt Patches/Bean 2",
+            "name": "CCL: Dirt Patch Bean 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overview",
+            "x": 919,
+            "y": 590
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cloud Cuckooland - Outside",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Region: Cloud Cuckooland" ],
+    "children": [
+      {
+        "name": "CCL: Entrance Warp Pad",
+        "sections": [
+          {
+            "name": "Warp Pad",
+            "chest_unopened_img": "/images/locations/warp.png",
+            "chest_opened_img": "/images/locations/warp2.png",
+            "visibility_rules": ["randomizewarppads_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl1",
+            "x": 347,
+            "y": 605
+          }
+        ]
+      },
+      {
+        "name": "CCL: Mr. Fitt - High Jump",
+        "sections": [
+          {
+            "name": "High Jump",
+            "chest_unopened_img": "/images/locations/honeycombcheck.png",
+            "chest_opened_img": "/images/locations/honeycombcheck2.png",
+            "access_rules": ["^$other_CCL_mrFittHighJump"],
+            "visibility_rules": ["mousepace_off"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl1",
+            "x": 347,
+            "y": 650
+          }
+        ]
+      },
+      {
+        "name": "CCL: Mr. Fitt - Sack Race",
+        "sections": [
+          {
+            "name": "Sack Race",
+            "chest_unopened_img": "/images/locations/honeycombcheck.png",
+            "chest_opened_img": "/images/locations/honeycombcheck2.png",
+            "access_rules": ["^$other_CCL_mrFittSackRace"],
+            "visibility_rules": ["mousepace_off"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl1",
+            "x": 318,
+            "y": 165
+          }
+        ]
+      },
+      {
+        "name": "TDL: Dippy Jiggy",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": [ "^$jiggy_TDL_dippy" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tdl1",
+            "x": 337,
+            "y": 20
+          },
+          {
+            "map": "ccl1",
+            "x": 425,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "CCL: Dippy Pool Feather Nests",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_CCL_dippy"],
+        "sections": [
+          {
+            "name": "Feather Nest 1"
+          },
+          {
+            "name": "Feather Nest 2"
+          },
+          {
+            "name": "Feather Nest 3"
+          },
+          {
+            "name": "Feather Nest 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl1",
+            "x": 397,
+            "y": 97
+          }
+        ]
+      },
+      {
+        "name": "CCL: Dirt Patches",
+        "access_rules": [ "$has_billDrill" ],
+        "sections": [
+          {
+            "name": "Honeycomb",
+            "chest_unopened_img": "/images/locations/honey.png",
+            "chest_opened_img": "/images/locations/honey2.png"
+          },
+          {
+            "name": "Feather Nest",
+            "chest_unopened_img": "/images/locations/feathernest.png",
+            "chest_opened_img": "/images/locations/feathernest2.png",
+            "visibility_rules": ["nestsanity_on"]
+          },
+          {
+            "name": "Egg Nest",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"]
+          },
+          {
+            "name": "Bean 1",
+            "chest_unopened_img": "/images/items/bean.png",
+            "chest_opened_img": "/images/locations/bean2.png",
+            "visibility_rules": ["randomizebeans_on"]
+          },
+          {
+            "name": "Bean 2",
+            "chest_unopened_img": "/images/items/bean.png",
+            "chest_opened_img": "/images/locations/bean2.png",
+            "visibility_rules": ["randomizebeans_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl1",
+            "x": 362,
+            "y": 490
+          }
+        ]
+      },
+      {
+        "name": "CCL: Top Entrance Feather Nests",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_CCL_flight"],
+        "sections": [
+          {
+            "name": "Feather Nest 1"
+          },
+          {
+            "name": "Feather Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl1",
+            "x": 298,
+            "y": 380
+          }
+        ]
+      },
+      {
+        "name": "CCL: Near Top Superstash Switch Feather Nests",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_CCL_flight"],
+        "sections": [
+          {
+            "name": "Feather Nest 1"
+          },
+          {
+            "name": "Feather Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl1",
+            "x": 392,
+            "y": 287
+          }
+        ]
+      },
+      {
+        "name": "Wumba's Wigwam",
+        "sections": [
+          {
+            "name": "Jinjo (Climb)",
+            "chest_unopened_img": "/images/locations/jinjo.png",
+            "chest_opened_img": "/images/locations/jinjo2.png",
+            "access_rules": ["^$jinjo_CCL_inHumbasWigwam"]
+          },
+          {
+            "name": "Egg Nest 1",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"]
+          },
+          {
+            "name": "Egg Nest 2",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"]
+          },
+          {
+            "name": "Signpost (Behind her seat)",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl1",
+            "x": 73,
+            "y": 436
+          }
+        ]
+      },
+      {
+        "name": "CCL: Pot O' Gold Honeycomb (Behind)",
+        "sections": [
+          {
+            "name": "Honeycomb",
+            "chest_unopened_img": "/images/locations/honey.png",
+            "chest_opened_img": "/images/locations/honey2.png",
+            "access_rules": ["^$honeycomb_CCL_behindPotOGold"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl1",
+            "x": 580,
+            "y": 100
+          }
+        ]
+      },
+      {
+        "name": "CCL: Trash Can Honeycomb (On Top)",
+        "sections": [
+          {
+            "name": "Honeycomb",
+            "chest_unopened_img": "/images/locations/honey.png",
+            "chest_opened_img": "/images/locations/honey2.png",
+            "access_rules": ["^$honeycomb_CCL_onTrashCan"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl1",
+            "x": 45,
+            "y": 230
+          }
+        ]
+      },
+      {
+        "name": "CCL: Behind the Trash Can Feather Nests",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_CCL_outsideTrashCan"],
+        "sections": [
+          {
+            "name": "Feather Nest 1"
+          },
+          {
+            "name": "Feather Nest 2"
+          },
+          {
+            "name": "Feather Nest 3"
+          },
+          {
+            "name": "Feather Nest 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl1",
+            "x": 45,
+            "y": 210
+          }
+        ]
+      },
+      {
+        "name": "CCL: Outdoors Pool Glowbo",
+        "sections": [
+          {
+            "name": "Glowbo",
+            "chest_unopened_img": "/images/locations/glowbo.png",
+            "chest_opened_img": "/images/locations/glowbo2.png",
+            "access_rules": ["^$glowbo_CCL_outdoorPool"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl1",
+            "x": 240,
+            "y": 430
+          }
+        ]
+      },
+      {
+        "name": "CCL: By George Feather Nests",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Feather Nest 1"
+          },
+          {
+            "name": "Feather Nest 2"
+          },
+          {
+            "name": "Feather Nest 3"
+          },
+          {
+            "name": "Feather Nest 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl1",
+            "x": 225,
+            "y": 405
+          }
+        ]
+      },
+      {
+        "name": "CCL: Jiggium Plant Jiggy (All Around Map)",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": [ "humbacc" ],
+            "visibility_rules": ["mousepace_off"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl1",
+            "x": 30,
+            "y": 30
+          }
+        ]
+      },
+      {
+        "name": "Jelly Castle",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": [ "^$jiggy_CCL_jellyCastle" ]
+          },
+          {
+            "name": "Egg Nest 1",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_CCL_jellyCastle"]
+          },
+          {
+            "name": "Egg Nest 2",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_CCL_jellyCastle"]
+          },
+          {
+            "name": "Egg Nest 3",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_CCL_jellyCastle"]
+          },
+          {
+            "name": "Egg Nest 4",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_CCL_jellyCastle"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl1",
+            "x": 523,
+            "y": 517
+          }
+        ]
+      },
+      {
+        "name": "CCL: Mr Fit Jiggy",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": [ "^$jiggy_CCL_mrFit" ],
+            "visibility_rules": ["mousepace_off"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl1",
+            "x": 347,
+            "y": 635
+          }
+        ]
+      },
+      {
+        "name": "CCL: High Jump Event Feather Nest",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Feather Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl1",
+            "x": 347,
+            "y": 665
+          }
+        ]
+      },
+      {
+        "name": "Inside the Trash Can",
+        "sections": [
+          {
+            "name": "Jinjo",
+            "chest_unopened_img": "/images/locations/jinjo.png",
+            "chest_opened_img": "/images/locations/jinjo2.png",
+            "access_rules": ["^$jinjo_CCL_trashCan"]
+          },
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": ["^$jiggy_CCL_trashCan"],
+            "visibility_rules": ["mousepace_off"]
+          },
+          {
+            "name": "Mumbo Token",
+            "chest_unopened_img": "/images/locations/mumbotoken.png",
+            "chest_opened_img": "/images/locations/mumbotoken2.png",
+            "access_rules": ["^$jiggy_CCL_trashCan"],
+            "visibility_rules": [ "goal_minigame", "goal_wwing" ]
+          },
+          {
+            "name": "Egg Nest 1",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_CCL_insideTrashCan"]
+          },
+          {
+            "name": "Egg Nest 2",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_CCL_insideTrashCan"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl1",
+            "x": 95,
+            "y": 255
+          }
+        ]
+      },
+      {
+        "name": "Inside the Pot O' Gold",
+        "sections": [
+          {
+            "name": "Cheato Page",
+            "chest_unopened_img": "/images/locations/page.png",
+            "chest_opened_img": "/images/locations/page2.png",
+            "access_rules": [ "^$jiggy_CCL_potOfGold" ],
+            "visibility_rules": ["mousepace_off"]
+          },
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": [ "^$jiggy_CCL_potOfGold" ],
+            "visibility_rules": ["mousepace_off"]
+          },
+          {
+            "name": "Mumbo Token",
+            "chest_unopened_img": "/images/locations/mumbotoken.png",
+            "chest_opened_img": "/images/locations/mumbotoken2.png",
+            "access_rules": [ "^$jiggy_CCL_potOfGold" ],
+            "visibility_rules": [ "goal_minigame", "goal_wwing" ]
+          },
+          {
+            "name": "Egg Nest 1",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on, mousepace_off"],
+            "access_rules": ["^$nests_CCL_insidePotOGold"]
+          },
+          {
+            "name": "Egg Nest 2",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on, mousepace_off"],
+            "access_rules": ["^$nests_CCL_insidePotOGold"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl1",
+            "x": 537,
+            "y": 150
+          }
+        ]
+      },
+      {
+        "name": "Inside the Cheese Wedge",
+        "sections": [
+          {
+            "name": "Jinjo",
+            "chest_unopened_img": "/images/locations/jinjo.png",
+            "chest_opened_img": "/images/locations/jinjo2.png",
+            "access_rules": ["^$jinjo_CCL_cheeseWedge"]
+          },
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": ["^$jiggy_CCL_cheeseWedge"],
+            "visibility_rules": ["mousepace_off"]
+          },
+          {
+            "name": "Egg Nest 1",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_CCL_insideCheeseWedge"]
+          },
+          {
+            "name": "Egg Nest 2",
+            "chest_unopened_img": "/images/locations/eggnest.png",
+            "chest_opened_img": "/images/locations/eggnest2.png",
+            "visibility_rules": ["nestsanity_on"],
+            "access_rules": ["^$nests_CCL_insideCheeseWedge"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl1",
+            "x": 695,
+            "y": 315
+          }
+        ]
+      },
+      {
+        "name": "CCL: Outside Cheese Wedge Feather Nests",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_CCL_flight"],
+        "sections": [
+          {
+            "name": "Feather Nest 1"
+          },
+          {
+            "name": "Feather Nest 2"
+          },
+          {
+            "name": "Feather Nest 3"
+          },
+          {
+            "name": "Feather Nest 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl1",
+            "x": 690,
+            "y": 283
+          }
+        ]
+      },
+      {
+        "name": "CCL: Near Blue Skull Feather Nests",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Feather Nest 1"
+          },
+          {
+            "name": "Feather Nest 2"
+          },
+          {
+            "name": "Feather Nest 3"
+          },
+          {
+            "name": "Feather Nest 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl1",
+            "x": 418,
+            "y": 428
+          }
+        ]
+      },
+      {
+        "name": "CCL: Near Red Skull Feather Nests",
+        "chest_unopened_img": "/images/locations/feathernest.png",
+        "chest_opened_img": "/images/locations/feathernest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Feather Nest 1"
+          },
+          {
+            "name": "Feather Nest 2"
+          },
+          {
+            "name": "Feather Nest 3"
+          },
+          {
+            "name": "Feather Nest 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl1",
+            "x": 300,
+            "y": 245
+          }
+        ]
+      },
+      {
+        "name": "Zubbas' Nest",
+        "access_rules": [ "humbacc" ],
+        "visibility_rules": ["mousepace_off"],
+        "sections": [
+          {
+            "name": "Cheato Page",
+            "chest_unopened_img": "/images/locations/page.png",
+            "chest_opened_img": "/images/locations/page2.png"
+          },
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png"
+          },
+          {
+            "name": "Mumbo Token",
+            "chest_unopened_img": "/images/locations/mumbotoken.png",
+            "chest_opened_img": "/images/locations/mumbotoken2.png",
+            "visibility_rules": [ "goal_minigame", "goal_wwing" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl1",
+            "x": 345,
+            "y": 370
+          }
+        ]
+      },
+      {
+        "name": "Canary Mary (Purple Platform)",
+        "visibility_rules": ["mousepace_off"],
+        "access_rules": [ "^$jiggy_CCL_canaryMary" ],
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png"
+          },
+          {
+            "name": "Cheato Page",
+            "chest_unopened_img": "/images/locations/page.png",
+            "chest_opened_img": "/images/locations/page2.png"
+          },
+          {
+            "name": "Mumbo Token",
+            "chest_unopened_img": "/images/locations/mumbotoken.png",
+            "chest_opened_img": "/images/locations/mumbotoken2.png",
+            "visibility_rules": [ "goal_minigame", "goal_wwing" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl1",
+            "x": 100,
+            "y": 470
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cloud Cuckooland - Central Cavern",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Region: Cloud Cuckooland" ],
+    "children": [
+      {
+        "name": "CCL: Central Cavern Warp Pad",
+        "sections": [
+          {
+            "name": "Warp Pad",
+            "chest_unopened_img": "/images/locations/warp.png",
+            "chest_opened_img": "/images/locations/warp2.png",
+            "visibility_rules": ["randomizewarppads_on"]
+          },
+          {
+            "name": "Central Notes 1",
+            "chest_unopened_img": "/images/locations/note.png",
+            "chest_opened_img": "/images/locations/note2.png"
+          },
+          {
+            "name": "Central Notes 2",
+            "chest_unopened_img": "/images/locations/note.png",
+            "chest_opened_img": "/images/locations/note2.png"
+          },
+          {
+            "name": "Central Notes 3",
+            "chest_unopened_img": "/images/locations/note.png",
+            "chest_opened_img": "/images/locations/note2.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl2",
+            "x": 357,
+            "y": 325
+          }
+        ]
+      },
+      {
+        "name": "CCL: Central Cavern Jinjo",
+        "sections": [
+          {
+            "name": "Jinjo",
+            "chest_unopened_img": "/images/locations/jinjo.png",
+            "chest_opened_img": "/images/locations/jinjo2.png",
+            "access_rules": [ "^$jinjo_CCL_centralCavern" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl2",
+            "x": 375,
+            "y": 500
+          }
+        ]
+      },
+      {
+        "name": "CCL: Indoors Pool Glowbo",
+        "sections": [
+          {
+            "name": "Glowbo",
+            "chest_unopened_img": "/images/locations/glowbo.png",
+            "chest_opened_img": "/images/locations/glowbo2.png",
+            "access_rules": ["^$glowbo_CCL_cavernPool"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl2",
+            "x": 412,
+            "y": 170
+          }
+        ]
+      },
+      {
+        "name": "CCL: On Rim of Glowbo Pool Signpost",
+        "sections": [
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"],
+            "access_rules": ["^$signs_CCL_onCentralCavernPoolRim"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl2",
+            "x": 345,
+            "y": 167
+          }
+        ]
+      },
+      {
+        "name": "Sack Pack Silo",
+        "chest_unopened_img": "/images/locations/silo.png",
+        "chest_opened_img": "/images/locations/silo2.png",
+        "sections": [
+          {
+            "name": "Silo",
+            "access_rules": [ "^$silo_CCL_sackPack" ]
+          },
+          {
+            "name": "Note 1",
+            "chest_unopened_img": "/images/locations/note.png",
+            "chest_opened_img": "/images/locations/note2.png",
+            "access_rules": ["^$notes_CCL_sackPackSilo"]
+          },
+          {
+            "name": "Note 2",
+            "chest_unopened_img": "/images/locations/note.png",
+            "chest_opened_img": "/images/locations/note2.png",
+            "access_rules": ["^$notes_CCL_sackPackSilo"]
+          },
+          {
+            "name": "Signpost",
+            "chest_unopened_img": "/images/locations/signpost.png",
+            "chest_opened_img": "/images/locations/signpost2.png",
+            "visibility_rules": ["signposts_on"],
+            "access_rules": ["$basic_CCL_canReachSackPackSilo"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl2",
+            "x": 305,
+            "y": 487
+          }
+        ]
+      },
+      {
+        "name": "CCL: Central Cavern on Steps Near Main Entrance Egg Nest",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl2",
+            "x": 250,
+            "y": 484
+          }
+        ]
+      },
+      {
+        "name": "CCL: Superstash Jiggy",
+        "sections": [
+          {
+            "name": "Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": ["^$jiggy_CCL_superStash"],
+            "visibility_rules": ["mousepace_off"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl2",
+            "x": 112,
+            "y": 230
+          }
+        ]
+      },
+      {
+        "name": "CCL: Top-Left of Superstash Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_CCL_nearSuperStash"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl2",
+            "x": 66,
+            "y": 320
+          }
+        ]
+      },
+      {
+        "name": "CCL: Main Entrance Note",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "sections": [
+          {
+            "name": "Note"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl2",
+            "x": 295,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "CCL: Blue Skull Exit Note",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "sections": [
+          {
+            "name": "Note"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl2",
+            "x": 395,
+            "y": 480
+          }
+        ]
+      },
+      {
+        "name": "CCL: Glowbo Pool Note",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "sections": [
+          {
+            "name": "Note",
+            "access_rules": [ "^$glowbo_CCL_outdoorPool" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl2",
+            "x": 70,
+            "y": 415
+          }
+        ]
+      },
+      {
+        "name": "CCL: Indoors Pool Underwater Signpost",
+        "chest_unopened_img": "/images/locations/signpost.png",
+        "chest_opened_img": "/images/locations/signpost2.png",
+        "visibility_rules": ["signposts_on"],
+        "access_rules": ["^$signs_CCL_underwater"],
+        "sections": [
+          {
+            "name": "Signpost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl2",
+            "x": 160,
+            "y": 495
+          }
+        ]
+      },
+      {
+        "name": "CCL: Dippy Pool Note",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "sections": [
+          {
+            "name": "Note",
+            "access_rules": ["^$notes_CCL_dippyPoolExit"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl2",
+            "x": 610,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "CCL: Mr. Fit Footrace Track Note",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "sections": [
+          {
+            "name": "Note"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl2",
+            "x": 437,
+            "y": 43
+          }
+        ]
+      },
+      {
+        "name": "CCL: Mr. Fit Sack Race Exit Note",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "sections": [
+          {
+            "name": "Note",
+            "access_rules": ["^$notes_CCL_mrFittSackRaceExit"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl2",
+            "x": 65,
+            "y": 114
+          }
+        ]
+      },
+      {
+        "name": "CCL: Pot o' Gold Exit Note",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "sections": [
+          {
+            "name": "Note"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl2",
+            "x": 514,
+            "y": 300
+          }
+        ]
+      },
+      {
+        "name": "CCL: Cheese Wedge Exit Note",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "sections": [
+          {
+            "name": "Note",
+            "access_rules": ["^$notes_CCL_cheeseWedgeExit"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl2",
+            "x": 565,
+            "y": 380
+          }
+        ]
+      },
+      {
+        "name": "CCL: Central Cavern Under Cheese Wedge Exit Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl2",
+            "x": 545,
+            "y": 370
+          }
+        ]
+      },
+      {
+        "name": "CCL: Red Skull Exit Note",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "sections": [
+          {
+            "name": "Note"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl2",
+            "x": 295,
+            "y": 145
+          }
+        ]
+      },
+      {
+        "name": "CCL: Top Entrance Note",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "sections": [
+          {
+            "name": "Note",
+            "access_rules": [ "^$notes_CCL_high" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl2",
+            "x": 111,
+            "y": 330
+          }
+        ]
+      },
+      {
+        "name": "CCL: Central Cavern Top Path Egg Nests",
+        "chest_unopened_img": "/images/locations/eggnest.png",
+        "chest_opened_img": "/images/locations/eggnest2.png",
+        "visibility_rules": ["nestsanity_on"],
+        "access_rules": ["^$nests_CCL_flight"],
+        "sections": [
+          {
+            "name": "Egg Nest 1"
+          },
+          {
+            "name": "Egg Nest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl2",
+            "x": 125,
+            "y": 330
+          }
+        ]
+      },
+      {
+        "name": "CCL: Treble Clef (Top Path)",
+        "chest_unopened_img": "/images/locations/treble.png",
+        "chest_opened_img": "/images/locations/treble2.png",
+        "sections": [
+          {
+            "name": "Treble Clef",
+            "access_rules": [ "^$notes_CCL_high" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl2",
+            "x": 412,
+            "y": 318
+          }
+        ]
+      },
+      {
+        "name": "CCL: Top Superstash Switch Note",
+        "chest_unopened_img": "/images/locations/note.png",
+        "chest_opened_img": "/images/locations/note2.png",
+        "sections": [
+          {
+            "name": "Note",
+            "access_rules": [ "^$notes_CCL_high" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl2",
+            "x": 630,
+            "y": 235
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Boss Arena - Mingy Jongo",
+    "chest_unopened_img": "/images/items/honeycombcheck.png",
+    "chest_opened_img": "/images/items/honeycombcheck2.png",
+    "access_rules": [ "@Region: Boss Arena - Mingy Jongo" ],
+    "children": [
+      {
+        "name": "Mumbo's Skull",
+        "sections": [
+          {
+            "name": "Fake Mumbo Skull Jinjo",
+            "chest_unopened_img": "/images/locations/jinjo.png",
+            "chest_opened_img": "/images/locations/jinjo2.png"
+          },
+          {
+            "name": "Mingy Jongo Jiggy",
+            "chest_unopened_img": "/images/locations/jiggy.png",
+            "chest_opened_img": "/images/locations/jiggy2.png",
+            "access_rules": ["^$jiggy_CCL_mingyJongo"]
+          },
+          {
+            "name": "Mingy Jongo Mumbo Token",
+            "chest_unopened_img": "/images/locations/mumbotoken.png",
+            "chest_opened_img": "/images/locations/mumbotoken2.png",
+            "access_rules": ["^$jiggy_CCL_mingyJongo"],
+            "visibility_rules": [ "goal_boss", "goal_wwing" ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ccl1",
+            "x": 470,
+            "y": 460
+          }
+        ]
+      }
+    ]
+  }
+]

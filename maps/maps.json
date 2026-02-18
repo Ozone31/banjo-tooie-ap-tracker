@@ -6,6 +6,12 @@
         "img": "images/maps/overview.png"
     },
     {
+        "name": "overview_compact",
+        "location_size": 35,
+        "location_border_thickness": 2,
+        "img": "images/maps/overview_compact.png"
+    },
+    {
         "name": "sm",
         "location_size": 12,
         "location_border_thickness": 2,

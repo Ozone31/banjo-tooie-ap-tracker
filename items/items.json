@@ -93,26 +93,85 @@
     "codes": "pmegg"
   },
   {
+    "name": "Mystery Eggs",
+    "type": "composite_toggle",
+    "codes": "meggs",
+    "item_left": "bmegg",
+    "item_right": "pmegg",
+    "images": [
+        {
+            "left": false, "right": false,
+            "img": "/images/items/meggs.png",
+            "img_mods": "@disabled"
+        },
+        {
+            "left": true, "right": false,
+            "img": "/images/items/bmegg.png"
+        },
+        {
+            "left": false, "right": true,
+            "img": "/images/items/pmegg.png"
+        },
+        {
+            "left": true, "right": true,
+            "img": "/images/items/meggs.png"
+        }
+    ]
+  },
+  {
     "name": "Mumbo Token",
     "type": "consumable",
-    "max_quantity": 32,
+    "max_quantity": 100,
     "overlay_background": "#000000",
     "img": "/images/items/mumbotoken.png",
     "codes": "mumbotoken"
   },
   {
-    "name": "Big-O Pants",
+    "name": "Health Upgrade",
     "type": "consumable",
+    "max_quantity": 5,
     "overlay_background": "#000000",
-    "img": "/images/items/bigopants.png",
-    "codes": "none"
+    "img": "/images/items/maxhealth.png",
+    "codes": "maxhealth"
   },
   {
-    "name": "Jinjo Multiplayer Character (Nothing)",
-    "type": "toggle",
-    "img": "/images/items/jinjo_mp.png",
-    "codes": "jnone"
+    "name": "Green Relic",
+    "type": "consumable",
+    "max_quantity": 25,
+    "overlay_background": "#000000",
+    "img": "/images/items/green_relic.png",
+    "codes": "greenrelic"
   },
+  {
+    "name": "Big Top Ticket",
+    "type": "consumable",
+    "max_quantity": 4,
+    "overlay_background": "#000000",
+    "img": "/images/items/big_top_ticket.png",
+    "codes": "ticket"
+  },
+  {
+    "name": "Bean",
+    "type": "consumable",
+    "max_quantity": 2,
+    "overlay_background": "#000000",
+    "img": "/images/items/bean.png",
+    "codes": "bean"
+  },
+  // NOT TRACKING THESE ANYMORE
+  // {
+  //   "name": "Big-O Pants",
+  //   "type": "consumable",
+  //   "overlay_background": "#000000",
+  //   "img": "/images/items/bigopants.png",
+  //   "codes": "none"
+  // },
+  // {
+  //   "name": "Jinjo Multiplayer Character (Nothing)",
+  //   "type": "toggle",
+  //   "img": "/images/items/jinjo_mp.png",
+  //   "codes": "jnone"
+  // },
 
   // JINJOS
   {
@@ -352,12 +411,6 @@
     "codes": "bbash"
   },
   {
-    "name": "Homing Eggs Toggle",
-    "type": "toggle",
-    "img": "/images/movesmagic/homingeggs.png",
-    "codes": "homingeggs"
-  },
-  {
     "name": "Amaze-O-Gaze",
     "type": "toggle",
     "img": "/images/movesmagic/amazeogaze.png",
@@ -368,6 +421,45 @@
     "type": "toggle",
     "img": "/images/movesmagic/roar.png",
     "codes": "roar"
+  },
+  
+  // CHEATO CHEATS
+  
+  {
+    "name": "Homing Eggs Toggle",
+    "type": "toggle",
+    "img": "/images/movesmagic/homingeggs.png",
+    "codes": "homingeggs"
+  },
+  {
+    "name": "Cheato Reward: Feathers",
+    "type": "toggle",
+    "img": "/images/movesmagic/cheatfeather.png",
+    "codes": "cheatfeather"
+  },
+  {
+    "name": "Cheato Reward: Eggs",
+    "type": "toggle",
+    "img": "/images/movesmagic/cheategg.png",
+    "codes": "cheategg"
+  },
+  {
+    "name": "Cheato Reward: Fallproof",
+    "type": "toggle",
+    "img": "/images/movesmagic/cheatfall.png",
+    "codes": "cheatfall"
+  },
+  {
+    "name": "Cheato Reward: Honeyback",
+    "type": "toggle",
+    "img": "/images/movesmagic/cheathoney.png",
+    "codes": "cheathoney"
+  },
+  {
+    "name": "Cheato Reward: Jukebox",
+    "type": "toggle",
+    "img": "/images/movesmagic/cheatjuke.png",
+    "codes": "cheatjuke"
   },
 
   // BK MOVES
@@ -941,6 +1033,1482 @@
     "codes": "trainswww"
   },
 
+  // WARP SILOS
+  {
+    "name": "IoH: Jinjo Village Warp Silo",
+    "type": "toggle",
+    "img": "/images/access/siloiohjv.png",
+    "codes": "siloiohjv"
+  },
+  {
+    "name": "IoH: Wooded Hollow Warp Silo",
+    "type": "toggle",
+    "img": "/images/access/siloiohwh.png",
+    "codes": "siloiohwh"
+  },
+  {
+    "name": "IoH: Plateau Warp Silo",
+    "type": "toggle",
+    "img": "/images/access/siloiohpl.png",
+    "codes": "siloiohpl"
+  },
+  {
+    "name": "IoH: Pine Grove Warp Silo",
+    "type": "toggle",
+    "img": "/images/access/siloiohpg.png",
+    "codes": "siloiohpg"
+  },
+  {
+    "name": "IoH: Cliff Top Warp Silo",
+    "type": "toggle",
+    "img": "/images/access/siloiohct.png",
+    "codes": "siloiohct"
+  },
+  {
+    "name": "IoH: Wasteland Warp Silo",
+    "type": "toggle",
+    "img": "/images/access/siloiohwl.png",
+    "codes": "siloiohwl"
+  },
+  {
+    "name": "IoH: Quagmire Warp Silo",
+    "type": "toggle",
+    "img": "/images/access/siloiohqm.png",
+    "codes": "siloiohqm"
+  },
+  
+  // WARP PADS
+  {
+    "name": "MT: World Entry and Exit Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_mt.png",
+    "codes": "warpmt1"
+  },
+  {
+    "name": "MT: Outside Mumbo's Skull Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_mt.png",
+    "codes": "warpmt2"
+  },
+  {
+    "name": "MT: Prison Compound Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_mt.png",
+    "codes": "warpmt3"
+  },
+  {
+    "name": "MT: Near Wumba's Wigwam Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_mt.png",
+    "codes": "warpmt4"
+  },
+  {
+    "name": "MT: Kickball Stadium Lobby Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_mt.png",
+    "codes": "warpmt5"
+  },
+  {
+    "name": "GGM: World Entry and Exit Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_gm.png",
+    "codes": "warpgm1"
+  },
+  {
+    "name": "GGM: Outside Mumbo's Skull Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_gm.png",
+    "codes": "warpgm2"
+  },
+  {
+    "name": "GGM: Inside Wumba's Wigwam Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_gm.png",
+    "codes": "warpgm3"
+  },
+  {
+    "name": "GGM: Outside the Crushing Shed Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_gm.png",
+    "codes": "warpgm4"
+  },
+  {
+    "name": "GGM: Near the Train Station Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_gm.png",
+    "codes": "warpgm5"
+  },
+  {
+    "name": "WW: World Entry and Exit Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_ww.png",
+    "codes": "warpww1"
+  },
+  {
+    "name": "WW: Behind the Big Top Tent Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_ww.png",
+    "codes": "warpww2"
+  },
+  {
+    "name": "WW: Space Zone Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_ww.png",
+    "codes": "warpww3"
+  },
+  {
+    "name": "WW: Outside Wumba's Wigwam Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_ww.png",
+    "codes": "warpww4"
+  },
+  {
+    "name": "WW: Outside Mumbo's Skull Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_ww.png",
+    "codes": "warpww5"
+  },
+  {
+    "name": "JRL: Town Center Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_jr.png",
+    "codes": "warpjr1"
+  },
+  {
+    "name": "JRL: Atlantis Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_jr.png",
+    "codes": "warpjr2"
+  },
+  {
+    "name": "JRL: Sunken Ship Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_jr.png",
+    "codes": "warpjr3"
+  },
+  {
+    "name": "JRL: Big Fish Cavern Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_jr.png",
+    "codes": "warpjr4"
+  },
+  {
+    "name": "JRL: Lockers Cavern Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_jr.png",
+    "codes": "warpjr5"
+  },
+  {
+    "name": "TDL: World Entry and Exit Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_td.png",
+    "codes": "warptl1"
+  },
+  {
+    "name": "TDL: Stomping Plains Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_td.png",
+    "codes": "warptl2"
+  },
+  {
+    "name": "TDL: Outside Mumbo's Skull Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_td.png",
+    "codes": "warptl3"
+  },
+  {
+    "name": "TDL: Outside Wumba's Wigwam Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_td.png",
+    "codes": "warptl4"
+  },
+  {
+    "name": "TDL: Top of the Mountain Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_td.png",
+    "codes": "warptl5"
+  },
+  {
+    "name": "GI Floor 1: Entrance Door Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_gi.png",
+    "codes": "warpgi1"
+  },
+  {
+    "name": "GI Floor 2: Outside Wumba's Wigwam Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_gi.png",
+    "codes": "warpgi2"
+  },
+  {
+    "name": "GI Floor 3: Outside Mumbo's Skull Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_gi.png",
+    "codes": "warpgi3"
+  },
+  {
+    "name": "GI Floor 4: Near the Crushers Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_gi.png",
+    "codes": "warpgi4"
+  },
+  {
+    "name": "GI Outside: On the Roof Outside Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_gi.png",
+    "codes": "warpgi5"
+  },
+  {
+    "name": "HFP: Fire Side - Lower Area (Mumbo) Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_hp.png",
+    "codes": "warphp1"
+  },
+  {
+    "name": "HFP: Fire Side - Upper Area Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_hp.png",
+    "codes": "warphp2"
+  },
+  {
+    "name": "HFP: Ice Side - Upper Area Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_hp.png",
+    "codes": "warphp3"
+  },
+  {
+    "name": "HFP: Ice Side - Lower Area (Wumba) Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_hp.png",
+    "codes": "warphp4"
+  },
+  {
+    "name": "HFP: Ice Side - Inside Icicle Grotto Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_hp.png",
+    "codes": "warphp5"
+  },
+  {
+    "name": "CCL: World Entry and Exit Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_cc.png",
+    "codes": "warpcc1"
+  },
+  {
+    "name": "CCL: Central Cavern Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_cc.png",
+    "codes": "warpcc2"
+  },
+  {
+    "name": "CK: Bottom of the Tower Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_ck.png",
+    "codes": "warpck1"
+  },
+  {
+    "name": "CK: Top of the Tower Warp Pad",
+    "type": "toggle",
+    "img": "/images/access/warps_ck.png",
+    "codes": "warpck2"
+  },
+  {
+    "name": "Mayahem Temple Warps",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": true,
+    "codes": "warpsmt",
+    "stages": [
+      {
+        // 1, x, x, x, x     - 1
+        "img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, x, x, x     - 2
+        "img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, 3, x, x     - 3
+        "img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, x, 4, x     - 4
+        "img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, x, x, 5     - 5
+        "img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, x, x, x     - 6
+        "img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, 3, x, x     - 7
+        "img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, x, 4, x     - 8
+        "img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, x, x, 5     - 9
+        "img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, 3, x, x     - 10
+        "img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, x, 4, x     - 11
+        "img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, x, x, 5     - 12
+        "img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, 3, 4, x     - 13
+        "img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, 3, x, 5     - 14
+        "img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, x, 4, 5     - 15
+        "img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, 3, x, x     - 16
+        "img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, x, 4, x     - 17
+        "img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, x, x, 5     - 18
+        "img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, 3, 4, x     - 19
+        "img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, 3, x, 5     - 20
+        "img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, x, 4, 5     - 21
+        "img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, 3, 4, x     - 22
+        "img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, 3, x, 5     - 23
+        "img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, x, 4, 5     - 24
+        "img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, 3, 4, 5     - 25
+        "img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, 3, 4, x     - 26
+        "img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, 3, x, 5     - 27
+        "img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, x, 4, 5     - 28
+        "img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, 3, 4, 5     - 29
+        "img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, 3, 4, 5     - 30
+        "img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, 3, 4, 5     - 31
+        "img": "/images/access/warps_mt.png",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Glitter Gulch Mine Warps",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": true,
+    "codes": "warpsgm",
+    "stages": [
+      {
+        // 1, x, x, x, x     - 1
+        "img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, x, x, x     - 2
+        "img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, 3, x, x     - 3
+        "img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, x, 4, x     - 4
+        "img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, x, x, 5     - 5
+        "img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, x, x, x     - 6
+        "img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, 3, x, x     - 7
+        "img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, x, 4, x     - 8
+        "img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, x, x, 5     - 9
+        "img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, 3, x, x     - 10
+        "img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, x, 4, x     - 11
+        "img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, x, x, 5     - 12
+        "img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, 3, 4, x     - 13
+        "img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, 3, x, 5     - 14
+        "img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, x, 4, 5     - 15
+        "img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, 3, x, x     - 16
+        "img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, x, 4, x     - 17
+        "img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, x, x, 5     - 18
+        "img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, 3, 4, x     - 19
+        "img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, 3, x, 5     - 20
+        "img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, x, 4, 5     - 21
+        "img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, 3, 4, x     - 22
+        "img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, 3, x, 5     - 23
+        "img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, x, 4, 5     - 24
+        "img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, 3, 4, 5     - 25
+        "img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, 3, 4, x     - 26
+        "img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, 3, x, 5     - 27
+        "img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, x, 4, 5     - 28
+        "img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, 3, 4, 5     - 29
+        "img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, 3, 4, 5     - 30
+        "img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, 3, 4, 5     - 31
+        "img": "/images/access/warps_gm.png",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Witchyworld Warps",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": true,
+    "codes": "warpsww",
+    "stages": [
+      {
+        // 1, x, x, x, x     - 1
+        "img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, x, x, x     - 2
+        "img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, 3, x, x     - 3
+        "img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, x, 4, x     - 4
+        "img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, x, x, 5     - 5
+        "img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, x, x, x     - 6
+        "img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, 3, x, x     - 7
+        "img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, x, 4, x     - 8
+        "img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, x, x, 5     - 9
+        "img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, 3, x, x     - 10
+        "img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, x, 4, x     - 11
+        "img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, x, x, 5     - 12
+        "img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, 3, 4, x     - 13
+        "img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, 3, x, 5     - 14
+        "img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, x, 4, 5     - 15
+        "img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, 3, x, x     - 16
+        "img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, x, 4, x     - 17
+        "img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, x, x, 5     - 18
+        "img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, 3, 4, x     - 19
+        "img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, 3, x, 5     - 20
+        "img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, x, 4, 5     - 21
+        "img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, 3, 4, x     - 22
+        "img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, 3, x, 5     - 23
+        "img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, x, 4, 5     - 24
+        "img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, 3, 4, 5     - 25
+        "img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, 3, 4, x     - 26
+        "img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, 3, x, 5     - 27
+        "img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, x, 4, 5     - 28
+        "img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, 3, 4, 5     - 29
+        "img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, 3, 4, 5     - 30
+        "img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, 3, 4, 5     - 31
+        "img": "/images/access/warps_ww.png",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Jolly Roger's Lagoon Warps",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": true,
+    "codes": "warpsjr",
+    "stages": [
+      {
+        // 1, x, x, x, x     - 1
+        "img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, x, x, x     - 2
+        "img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, 3, x, x     - 3
+        "img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, x, 4, x     - 4
+        "img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, x, x, 5     - 5
+        "img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, x, x, x     - 6
+        "img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, 3, x, x     - 7
+        "img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, x, 4, x     - 8
+        "img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, x, x, 5     - 9
+        "img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, 3, x, x     - 10
+        "img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, x, 4, x     - 11
+        "img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, x, x, 5     - 12
+        "img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, 3, 4, x     - 13
+        "img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, 3, x, 5     - 14
+        "img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, x, 4, 5     - 15
+        "img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, 3, x, x     - 16
+        "img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, x, 4, x     - 17
+        "img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, x, x, 5     - 18
+        "img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, 3, 4, x     - 19
+        "img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, 3, x, 5     - 20
+        "img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, x, 4, 5     - 21
+        "img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, 3, 4, x     - 22
+        "img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, 3, x, 5     - 23
+        "img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, x, 4, 5     - 24
+        "img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, 3, 4, 5     - 25
+        "img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, 3, 4, x     - 26
+        "img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, 3, x, 5     - 27
+        "img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, x, 4, 5     - 28
+        "img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, 3, 4, 5     - 29
+        "img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, 3, 4, 5     - 30
+        "img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, 3, 4, 5     - 31
+        "img": "/images/access/warps_jr.png",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Terrydactyland Warps",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": true,
+    "codes": "warpstl",
+    "stages": [
+      {
+        // 1, x, x, x, x     - 1
+        "img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, x, x, x     - 2
+        "img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, 3, x, x     - 3
+        "img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, x, 4, x     - 4
+        "img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, x, x, 5     - 5
+        "img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, x, x, x     - 6
+        "img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, 3, x, x     - 7
+        "img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, x, 4, x     - 8
+        "img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, x, x, 5     - 9
+        "img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, 3, x, x     - 10
+        "img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, x, 4, x     - 11
+        "img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, x, x, 5     - 12
+        "img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, 3, 4, x     - 13
+        "img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, 3, x, 5     - 14
+        "img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, x, 4, 5     - 15
+        "img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, 3, x, x     - 16
+        "img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, x, 4, x     - 17
+        "img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, x, x, 5     - 18
+        "img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, 3, 4, x     - 19
+        "img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, 3, x, 5     - 20
+        "img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, x, 4, 5     - 21
+        "img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, 3, 4, x     - 22
+        "img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, 3, x, 5     - 23
+        "img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, x, 4, 5     - 24
+        "img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, 3, 4, 5     - 25
+        "img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, 3, 4, x     - 26
+        "img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, 3, x, 5     - 27
+        "img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, x, 4, 5     - 28
+        "img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, 3, 4, 5     - 29
+        "img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, 3, 4, 5     - 30
+        "img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, 3, 4, 5     - 31
+        "img": "/images/access/warps_td.png",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Grunty Industries Warps",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": true,
+    "codes": "warpsgi",
+    "stages": [
+      {
+        // 1, x, x, x, x     - 1
+        "img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, x, x, x     - 2
+        "img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, 3, x, x     - 3
+        "img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, x, 4, x     - 4
+        "img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, x, x, 5     - 5
+        "img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, x, x, x     - 6
+        "img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, 3, x, x     - 7
+        "img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, x, 4, x     - 8
+        "img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, x, x, 5     - 9
+        "img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, 3, x, x     - 10
+        "img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, x, 4, x     - 11
+        "img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, x, x, 5     - 12
+        "img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, 3, 4, x     - 13
+        "img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, 3, x, 5     - 14
+        "img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, x, 4, 5     - 15
+        "img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, 3, x, x     - 16
+        "img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, x, 4, x     - 17
+        "img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, x, x, 5     - 18
+        "img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, 3, 4, x     - 19
+        "img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, 3, x, 5     - 20
+        "img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, x, 4, 5     - 21
+        "img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, 3, 4, x     - 22
+        "img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, 3, x, 5     - 23
+        "img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, x, 4, 5     - 24
+        "img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, 3, 4, 5     - 25
+        "img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, 3, 4, x     - 26
+        "img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, 3, x, 5     - 27
+        "img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, x, 4, 5     - 28
+        "img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, 3, 4, 5     - 29
+        "img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, 3, 4, 5     - 30
+        "img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, 3, 4, 5     - 31
+        "img": "/images/access/warps_gi.png",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Hailfire Peaks Warps",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": true,
+    "codes": "warpshp",
+    "stages": [
+      {
+        // 1, x, x, x, x     - 1
+        "img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, x, x, x     - 2
+        "img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, 3, x, x     - 3
+        "img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, x, 4, x     - 4
+        "img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, x, x, 5     - 5
+        "img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, x, x, x     - 6
+        "img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, 3, x, x     - 7
+        "img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, x, 4, x     - 8
+        "img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, x, x, 5     - 9
+        "img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, 3, x, x     - 10
+        "img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, x, 4, x     - 11
+        "img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, x, x, 5     - 12
+        "img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, 3, 4, x     - 13
+        "img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, 3, x, 5     - 14
+        "img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, x, 4, 5     - 15
+        "img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, 3, x, x     - 16
+        "img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, x, 4, x     - 17
+        "img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, x, x, 5     - 18
+        "img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, 3, 4, x     - 19
+        "img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, 3, x, 5     - 20
+        "img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, x, 4, 5     - 21
+        "img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, 3, 4, x     - 22
+        "img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, 3, x, 5     - 23
+        "img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, x, 4, 5     - 24
+        "img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+        // x, x, 3, 4, 5     - 25
+        "img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, 3, 4, x     - 26
+        "img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, 3, x, 5     - 27
+        "img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, x, 4, 5     - 28
+        "img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, x, 3, 4, 5     - 29
+        "img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, 3, 4, 5     - 30
+        "img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, 3, 4, 5     - 31
+        "img": "/images/access/warps_hp.png",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Cloud Cuckooland Warps",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": true,
+    "codes": "warpscc",
+    "stages": [
+      {
+        // 1, x, x, x, x     - 1
+        "img": "/images/access/warps_cc.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, x, x, x     - 2
+        "img": "/images/access/warps_cc.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, x, x, x     - 3
+        "img": "/images/access/warps_cc.png",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Cauldron Keep Warps",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": true,
+    "codes": "warpsck",
+    "stages": [
+      {
+        // 1, x, x, x, x     - 1
+        "img": "/images/access/warps_ck.png",
+        "inherit_codes": false
+      },
+      {
+        // x, 2, x, x, x     - 2
+        "img": "/images/access/warps_ck.png",
+        "inherit_codes": false
+      },
+      {
+        // 1, 2, x, x, x     - 3
+        "img": "/images/access/warps_ck.png",
+        "inherit_codes": false
+      }
+    ]
+  },
+
   // SETTINGS
   {
     "name": "Randomize Moves",
@@ -1050,6 +2618,59 @@
     ]
   },
   {
+    "name": "Randomize Cheato Rewards",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/cheator_on.png",
+        "name": "Randomize Cheato Rewards - On",
+        "codes": "cheatorewards,cheatorewards_on",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/cheator_off.png",
+        "name": "Randomize Cheato Rewards - Off",
+        "codes": "cheatorewards,cheatorewards_off",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Randomize Cheato Content",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/settings/cheato_off.png",
+        "name": "Randomize Cheato Content - Off",
+        "codes": "cheatocontent,cheatocontent_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/cheato_on.png",
+        "name": "Randomize Cheato Content - Pages Only",
+        "codes": "cheatocontent,cheatocontent_pages",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/cheator_on.png",
+        "name": "Randomize Cheato Content - Rewards Only",
+        "codes": "cheatocontent,cheatocontent_rewards",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/cheato_both.png",
+        "name": "Randomize Cheato Content - Pages and Rewards",
+        "codes": "cheatocontent,cheatocontent_both",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
     "name": "Randomize Honeycombs",
     "type": "progressive",
     "loop": true,
@@ -1065,6 +2686,59 @@
         "img": "images/settings/honey_off.png",
         "name": "Randomize Honeycombs - Off",
         "codes": "randomizehoneycomb,randomizehoneycomb_off",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Randomize Honey B Rewards",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/honeybr_on.png",
+        "name": "Randomize Honey B Rewards - On",
+        "codes": "honeybrewards,honeybrewards_on",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/honeybr_off.png",
+        "name": "Randomize Honey B Rewards - Off",
+        "codes": "honeybrewards,honeybrewards_off",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Randomize Honey B Content",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/settings/honey_off.png",
+        "name": "Randomize Honey B Content - Off",
+        "codes": "honeybcontent,honeybcontent_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/honey_on.png",
+        "name": "Randomize Honey B Content - Empty Honeycombs Only",
+        "codes": "honeybcontent,honeybcontent_honeycombs",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/honeybr_on.png",
+        "name": "Randomize Honey B Content - Honey B Rewards Only",
+        "codes": "honeybcontent,honeybcontent_rewards",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/honey_both.png",
+        "name": "Randomize Honey B Content - Empty Honeycombs and Honey B Rewards",
+        "codes": "honeybcontent,honeybcontent_both",
         "inherit_codes": false
       }
     ]
@@ -1110,6 +2784,59 @@
     ]
   },
   {
+    "name": "Randomize Note Nests",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/notes_off.png",
+        "name": "Randomize Note Nests - Off",
+        "codes": "randomizenotes,randomizenotes_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/notes_on.png",
+        "name": "Randomize Note Nests - On",
+        "codes": "randomizenotes,randomizenotes_on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Randomize Note Content",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/settings/notes_off.png",
+        "name": "Randomize Note Content - Off",
+        "codes": "notecontent,notecontent_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/notes_on.png",
+        "name": "Randomize Note Content - Notes Only",
+        "codes": "notecontent,notecontent_notes",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/treble_on.png",
+        "name": "Randomize Note Content - Treble Clefs Only",
+        "codes": "notecontent,notecontent_trebles",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/notes_both.png",
+        "name": "Randomize Note Content - Notes and Treble Clefs",
+        "codes": "notecontent,notecontent_both",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
     "name": "Randomize Train Station Switches",
     "type": "progressive",
     "loop": true,
@@ -1145,26 +2872,6 @@
         "img": "images/settings/chuffy_on.png",
         "name": "Randomize Chuffy - On",
         "codes": "randomizechuffy,randomizechuffy_on",
-        "inherit_codes": false
-      }
-    ]
-  },
-  {
-    "name": "Randomize Note Nests",
-    "type": "progressive",
-    "loop": true,
-    "allow_disabled": false,
-    "stages": [
-      {
-        "img": "images/settings/notes_off.png",
-        "name": "Randomize Note Nests - Off",
-        "codes": "randomizenotes,randomizenotes_off",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/settings/notes_on.png",
-        "name": "Randomize Note Nests - On",
-        "codes": "randomizenotes,randomizenotes_on",
         "inherit_codes": false
       }
     ]
@@ -1210,6 +2917,26 @@
     ]
   },
   {
+    "name": "Randomized World Entrances",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/entrancerando_off.png",
+        "name": "Randomized World Entrances - Off",
+        "codes": "entrancerando,entrancerando_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/entrancerando_on.png",
+        "name": "Randomized World Entrances - On",
+        "codes": "entrancerando,entrancerando_on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
     "name": "Speed Up Minigames",
     "type": "progressive",
     "loop": true,
@@ -1230,41 +2957,41 @@
     ]
   },
   {
-    "name": "Randomize Cheato Rewards",
+    "name": "Randomize Silos",
     "type": "progressive",
     "loop": true,
     "allow_disabled": false,
     "stages": [
       {
-        "img": "images/settings/cheator_on.png",
-        "name": "Randomize Cheato Rewards - On",
-        "codes": "cheatorewards,cheatorewards_on",
+        "img": "images/settings/silos_on.png",
+        "name": "Randomize Silos - On",
+        "codes": "randomizesilos,randomizesilos_on",
         "inherit_codes": false
       },
       {
-        "img": "images/settings/cheator_off.png",
-        "name": "Randomize Cheato Rewards - Off",
-        "codes": "cheatorewards,cheatorewards_off",
+        "img": "images/settings/silos_off.png",
+        "name": "Randomize Silos - Off",
+        "codes": "randomizesilos,randomizesilos_off",
         "inherit_codes": false
       }
     ]
   },
   {
-    "name": "Randomize Honey B Rewards",
+    "name": "Randomize Warp Pads",
     "type": "progressive",
     "loop": true,
     "allow_disabled": false,
     "stages": [
       {
-        "img": "images/settings/honeybr_on.png",
-        "name": "Randomize Honey B Rewards - On",
-        "codes": "honeybrewards,honeybrewards_on",
+        "img": "images/settings/warps_on.png",
+        "name": "Randomize Warp Pads - On",
+        "codes": "randomizewarppads,randomizewarppads_on",
         "inherit_codes": false
       },
       {
-        "img": "images/settings/honeybr_off.png",
-        "name": "Randomize Honey B Rewards - Off",
-        "codes": "honeybrewards,honeybrewards_off",
+        "img": "images/settings/warps_off.png",
+        "name": "Randomize Warp Pads - Off",
+        "codes": "randomizewarppads,randomizewarppads_off",
         "inherit_codes": false
       }
     ]
@@ -1297,6 +3024,58 @@
         "img": "images/settings/logictype_g.png",
         "name": "Logic Type - Glitches",
         "codes": "logictype,logictype_g",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Sequence Break Logic",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/sequencebreaklogic_disabled.png",
+        "name": "Sequence Break Logic - Disabled",
+        "codes": "sequencebreaklogic,sequencebreaklogic_disabled",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/sequencebreaklogic_n.png",
+        "name": "Sequence Break Logic - Show Easy Tricks",
+        "codes": "sequencebreaklogic,sequencebreaklogic_n",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/sequencebreaklogic_a.png",
+        "name": "Sequence Break Logic - Show Hard Tricks",
+        "codes": "sequencebreaklogic,sequencebreaklogic_a",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/sequencebreaklogic_g.png",
+        "name": "Sequence Break Logic - Show Glitches",
+        "codes": "sequencebreaklogic,sequencebreaklogic_g",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Show New Tricks",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/shownewtricks_off.png",
+        "name": "Show New Tricks - Off",
+        "codes": "shownewtricks,shownewtricks_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/shownewtricks_on.png",
+        "name": "Show New Tricks - On",
+        "codes": "shownewtricks,shownewtricks_on",
         "inherit_codes": false
       }
     ]
@@ -1351,6 +3130,12 @@
         "inherit_codes": false
       }
     ]
+  },
+  {
+    "name": "Boss Hunt + HAG1 - Bosses Needed",
+    "type": "consumable",
+    "img": "/images/items/mumbotoken.png",
+    "codes": "bossesforhag1"
   },
   {
     "name": "Open Backdoors",
@@ -1412,6 +3197,27 @@
     ]
   },
   {
+    "name": "Boss Entrance & Entrance Randomizer Manual Logic Override",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/settings/ber_er_manualoverride_on.png",
+        "name": "Boss Entrance & Entrance Randomizer Manual Logic Override - On",
+        "codes": "ber_er_manualoverride,ber_er_manualoverride_on",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/ber_er_manualoverride_off.png",
+        "name": "Boss Entrance & Entrance Randomizer Manual Logic Override - Off",
+        "codes": "ber_er_manualoverride,ber_er_manualoverride_off",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
     "name": "Nestsanity",
     "type": "progressive",
     "loop": true,
@@ -1447,6 +3253,139 @@
         "img": "images/settings/signposts_on.png",
         "name": "Randomize Signposts - On",
         "codes": "signposts,signposts_on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Mouse Pace",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/mousepace_off.png",
+        "name": "Mouse Pace - Off",
+        "codes": "mousepace,mousepace_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/mousepace_on.png",
+        "name": "Mouse Pace - On",
+        "codes": "mousepace,mousepace_on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Skip Klungo",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/skipklungo_on.png",
+        "name": "Skip Klungo - On",
+        "codes": "skipklungo,skipklungo_on",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/skipklungo_off.png",
+        "name": "Skip Klungo - Off",
+        "codes": "skipklungo,skipklungo_off",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Open GI",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/opengi_off.png",
+        "name": "Open GI - Off",
+        "codes": "opengi,opengi_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/opengi_on.png",
+        "name": "Open GI - On",
+        "codes": "opengi,opengi_on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Randomize Boss Entrances",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/randomizebossentrances_off.png",
+        "name": "Randomize Boss Entrances - Off",
+        "codes": "randomizebossentrances,randomizebossentrances_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/randomizebossentrances_on.png",
+        "name": "Randomize Boss Entrances - On",
+        "codes": "randomizebossentrances,randomizebossentrances_on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Randomize Boss Entrance Items",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/settings/bossentranceitems_off.png",
+        "name": "Randomize Boss Entrance Items - Off",
+        "codes": "bossentranceitems,bossentranceitems_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/green_relic.png",
+        "name": "Randomize Boss Entrance Items - Green Relics On, Big Top Tickets Off",
+        "codes": "bossentranceitems,bossentranceitems_greenrelics",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/big_top_ticket.png",
+        "name": "Randomize Boss Entrance Items - Green Relics Off, Big Top Tickets On",
+        "codes": "bossentranceitems,bossentranceitems_tickets",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/bossentranceitems_both.png",
+        "name": "Randomize Boss Entrance Items - On",
+        "codes": "bossentranceitems,bossentranceitems_both",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Randomize Beans",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/randomizebeans_off.png",
+        "name": "Randomize Beans - Off",
+        "codes": "randomizebeans,randomizebeans_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/bean.png",
+        "name": "Randomize Beans - On",
+        "codes": "randomizebeans,randomizebeans_on",
         "inherit_codes": false
       }
     ]
@@ -2073,5 +4012,961 @@
         "inherit_codes": false
       }
     ]
+  },
+
+  // RANDOMIZED BOSS ENTRANCE TRACKING
+  {
+    "name": "MT Boss",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/access/Unknown.png",
+        "name": "MT Boss - Unknown",
+        "codes": "mtb,mtb_uk",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Targitzan.png",
+        "name": "MT Boss - Targitzan",
+        "codes": "mtb,mtb_mt",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Old King Coal.png",
+        "name": "MT Boss - Old King Coal",
+        "codes": "mtb,mtb_gg",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Mr Patch.png",
+        "name": "MT Boss - Mr Patch",
+        "codes": "mtb,mtb_ww",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Lord Woo Fak Fak.png",
+        "name": "MT Boss - Lord Woo Fak Fak",
+        "codes": "mtb,mtb_jr",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Terry.png",
+        "name": "MT Boss - Terry",
+        "codes": "mtb,mtb_td",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Weldar.png",
+        "name": "MT Boss - Weldar",
+        "codes": "mtb,mtb_gi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Chilli Billi.png",
+        "name": "MT Boss - Chilli Billi",
+        "codes": "mtb,mtb_hl",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Chilly Willy.png",
+        "name": "MT Boss - Chilly Willy",
+        "codes": "mtb,mtb_hi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Mingy Jongo.png",
+        "name": "MT Boss - Mingy Jongo",
+        "codes": "mtb,mtb_cc",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "GGM Boss",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/access/Unknown.png",
+        "name": "GGM Boss - Unknown",
+        "codes": "ggb,ggb_uk",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Targitzan.png",
+        "name": "GGM Boss - Targitzan",
+        "codes": "ggb,ggb_mt",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Old King Coal.png",
+        "name": "GGM Boss - Old King Coal",
+        "codes": "ggb,ggb_gg",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Mr Patch.png",
+        "name": "GGM Boss - Mr Patch",
+        "codes": "ggb,ggb_ww",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Lord Woo Fak Fak.png",
+        "name": "GGM Boss - Lord Woo Fak Fak",
+        "codes": "ggb,ggb_jr",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Terry.png",
+        "name": "GGM Boss - Terry",
+        "codes": "ggb,ggb_td",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Weldar.png",
+        "name": "GGM Boss - Weldar",
+        "codes": "ggb,ggb_gi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Chilli Billi.png",
+        "name": "GGM Boss - Chilli Billi",
+        "codes": "ggb,ggb_hl",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Chilly Willy.png",
+        "name": "GGM Boss - Chilly Willy",
+        "codes": "ggb,ggb_hi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Mingy Jongo.png",
+        "name": "GGM Boss - Mingy Jongo",
+        "codes": "ggb,ggb_cc",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "WW Boss",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/access/Unknown.png",
+        "name": "WW Boss - Unknown",
+        "codes": "wwb,wwb_uk",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Targitzan.png",
+        "name": "WW Boss - Targitzan",
+        "codes": "wwb,wwb_mt",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Old King Coal.png",
+        "name": "WW Boss - Old King Coal",
+        "codes": "wwb,wwb_gg",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Mr Patch.png",
+        "name": "WW Boss - Mr Patch",
+        "codes": "wwb,wwb_ww",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Lord Woo Fak Fak.png",
+        "name": "WW Boss - Lord Woo Fak Fak",
+        "codes": "wwb,wwb_jr",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Terry.png",
+        "name": "WW Boss - Terry",
+        "codes": "wwb,wwb_td",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Weldar.png",
+        "name": "WW Boss - Weldar",
+        "codes": "wwb,wwb_gi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Chilli Billi.png",
+        "name": "WW Boss - Chilli Billi",
+        "codes": "wwb,wwb_hl",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Chilly Willy.png",
+        "name": "WW Boss - Chilly Willy",
+        "codes": "wwb,wwb_hi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Mingy Jongo.png",
+        "name": "WW Boss - Mingy Jongo",
+        "codes": "wwb,wwb_cc",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "JRL Boss",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/access/Unknown.png",
+        "name": "JRL Boss - Unknown",
+        "codes": "jrb,jrb_uk",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Targitzan.png",
+        "name": "JRL Boss - Targitzan",
+        "codes": "jrb,jrb_mt",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Old King Coal.png",
+        "name": "JRL Boss - Old King Coal",
+        "codes": "jrb,jrb_gg",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Mr Patch.png",
+        "name": "JRL Boss - Mr Patch",
+        "codes": "jrb,jrb_ww",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Lord Woo Fak Fak.png",
+        "name": "JRL Boss - Lord Woo Fak Fak",
+        "codes": "jrb,jrb_jr",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Terry.png",
+        "name": "JRL Boss - Terry",
+        "codes": "jrb,jrb_td",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Weldar.png",
+        "name": "JRL Boss - Weldar",
+        "codes": "jrb,jrb_gi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Chilli Billi.png",
+        "name": "JRL Boss - Chilli Billi",
+        "codes": "jrb,jrb_hl",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Chilly Willy.png",
+        "name": "JRL Boss - Chilly Willy",
+        "codes": "jrb,jrb_hi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Mingy Jongo.png",
+        "name": "JRL Boss - Mingy Jongo",
+        "codes": "jrb,jrb_cc",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "TDL Boss",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/access/Unknown.png",
+        "name": "TDL Boss - Unknown",
+        "codes": "tdb,tdb_uk",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Targitzan.png",
+        "name": "TDL Boss - Targitzan",
+        "codes": "tdb,tdb_mt",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Old King Coal.png",
+        "name": "TDL Boss - Old King Coal",
+        "codes": "tdb,tdb_gg",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Mr Patch.png",
+        "name": "TDL Boss - Mr Patch",
+        "codes": "tdb,tdb_ww",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Lord Woo Fak Fak.png",
+        "name": "TDL Boss - Lord Woo Fak Fak",
+        "codes": "tdb,tdb_jr",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Terry.png",
+        "name": "TDL Boss - Terry",
+        "codes": "tdb,tdb_td",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Weldar.png",
+        "name": "TDL Boss - Weldar",
+        "codes": "tdb,tdb_gi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Chilli Billi.png",
+        "name": "TDL Boss - Chilli Billi",
+        "codes": "tdb,tdb_hl",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Chilly Willy.png",
+        "name": "TDL Boss - Chilly Willy",
+        "codes": "tdb,tdb_hi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Mingy Jongo.png",
+        "name": "TDL Boss - Mingy Jongo",
+        "codes": "tdb,tdb_cc",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "GI Boss",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/access/Unknown.png",
+        "name": "GI Boss - Unknown",
+        "codes": "gib,gib_uk",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Targitzan.png",
+        "name": "GI Boss - Targitzan",
+        "codes": "gib,gib_mt",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Old King Coal.png",
+        "name": "GI Boss - Old King Coal",
+        "codes": "gib,gib_gg",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Mr Patch.png",
+        "name": "GI Boss - Mr Patch",
+        "codes": "gib,gib_ww",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Lord Woo Fak Fak.png",
+        "name": "GI Boss - Lord Woo Fak Fak",
+        "codes": "gib,gib_jr",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Terry.png",
+        "name": "GI Boss - Terry",
+        "codes": "gib,gib_td",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Weldar.png",
+        "name": "GI Boss - Weldar",
+        "codes": "gib,gib_gi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Chilli Billi.png",
+        "name": "GI Boss - Chilli Billi",
+        "codes": "gib,gib_hl",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Chilly Willy.png",
+        "name": "GI Boss - Chilly Willy",
+        "codes": "gib,gib_hi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Mingy Jongo.png",
+        "name": "GI Boss - Mingy Jongo",
+        "codes": "gib,gib_cc",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "HFP Lava Side Boss",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/access/Unknown.png",
+        "name": "HFP Lava Side Boss - Unknown",
+        "codes": "hlb,hlb_uk",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Targitzan.png",
+        "name": "HFP Lava Side Boss - Targitzan",
+        "codes": "hlb,hlb_mt",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Old King Coal.png",
+        "name": "HFP Lava Side Boss - Old King Coal",
+        "codes": "hlb,hlb_gg",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Mr Patch.png",
+        "name": "HFP Lava Side Boss - Mr Patch",
+        "codes": "hlb,hlb_ww",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Lord Woo Fak Fak.png",
+        "name": "HFP Lava Side Boss - Lord Woo Fak Fak",
+        "codes": "hlb,hlb_jr",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Terry.png",
+        "name": "HFP Lava Side Boss - Terry",
+        "codes": "hlb,hlb_td",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Weldar.png",
+        "name": "HFP Lava Side Boss - Weldar",
+        "codes": "hlb,hlb_gi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Chilli Billi.png",
+        "name": "HFP Lava Side Boss - Chilli Billi",
+        "codes": "hlb,hlb_hl",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Chilly Willy.png",
+        "name": "HFP Lava Side Boss - Chilly Willy",
+        "codes": "hlb,hlb_hi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Mingy Jongo.png",
+        "name": "HFP Lava Side Boss - Mingy Jongo",
+        "codes": "hlb,hlb_cc",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "HFP Icy Side Boss",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/access/Unknown.png",
+        "name": "HFP Icy Side Boss - Unknown",
+        "codes": "hib,hib_uk",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Targitzan.png",
+        "name": "HFP Icy Side Boss - Targitzan",
+        "codes": "hib,hib_mt",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Old King Coal.png",
+        "name": "HFP Icy Side Boss - Old King Coal",
+        "codes": "hib,hib_gg",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Mr Patch.png",
+        "name": "HFP Icy Side Boss - Mr Patch",
+        "codes": "hib,hib_ww",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Lord Woo Fak Fak.png",
+        "name": "HFP Icy Side Boss - Lord Woo Fak Fak",
+        "codes": "hib,hib_jr",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Terry.png",
+        "name": "HFP Icy Side Boss - Terry",
+        "codes": "hib,hib_td",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Weldar.png",
+        "name": "HFP Icy Side Boss - Weldar",
+        "codes": "hib,hib_gi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Chilli Billi.png",
+        "name": "HFP Icy Side Boss - Chilli Billi",
+        "codes": "hib,hib_hl",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Chilly Willy.png",
+        "name": "HFP Icy Side Boss - Chilly Willy",
+        "codes": "hib,hib_hi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Mingy Jongo.png",
+        "name": "HFP Icy Side Boss - Mingy Jongo",
+        "codes": "hib,hib_cc",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "CCL Boss",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/access/Unknown.png",
+        "name": "CCL Boss - Unknown",
+        "codes": "ccb,ccb_uk",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Targitzan.png",
+        "name": "CCL Boss - Targitzan",
+        "codes": "ccb,ccb_mt",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Old King Coal.png",
+        "name": "CCL Boss - Old King Coal",
+        "codes": "ccb,ccb_gg",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Mr Patch.png",
+        "name": "CCL Boss - Mr Patch",
+        "codes": "ccb,ccb_ww",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Lord Woo Fak Fak.png",
+        "name": "CCL Boss - Lord Woo Fak Fak",
+        "codes": "ccb,ccb_jr",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Terry.png",
+        "name": "CCL Boss - Terry",
+        "codes": "ccb,ccb_td",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Weldar.png",
+        "name": "CCL Boss - Weldar",
+        "codes": "ccb,ccb_gi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Chilli Billi.png",
+        "name": "CCL Boss - Chilli Billi",
+        "codes": "ccb,ccb_hl",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Chilly Willy.png",
+        "name": "CCL Boss - Chilly Willy",
+        "codes": "ccb,ccb_hi",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/access/Mingy Jongo.png",
+        "name": "CCL Boss - Mingy Jongo",
+        "codes": "ccb,ccb_cc",
+        "inherit_codes": false
+      }
+    ]
+  },
+  
+  
+  
+  {
+    "name": "Fire Eggs Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_feggs_tracking"
+  },
+  {
+    "name": "Grenade Eggs Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_geggs_tracking"
+  },
+  {
+    "name": "Ice Eggs Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_ieggs_tracking"
+  },
+  {
+    "name": "Clockwork Kazooie Eggs Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_ceggs_tracking"
+  },
+  {
+    "name": "Egg Aim Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_eggaim_tracking"
+  },
+  {
+    "name": "Breegull Blaster Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_bblaster_tracking"
+  },
+  {
+    "name": "Grip Grab Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_ggrab_tracking"
+  },
+  {
+    "name": "Bill Drill Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_bdrill_tracking"
+  },
+  {
+    "name": "Beak Bayonet Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_bbayonet_tracking"
+  },
+  {
+    "name": "Split Up Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_splitup_tracking"
+  },
+  {
+    "name": "Airborne Egg Aiming Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_aireaim_tracking"
+  },
+  {
+    "name": "Pack Whack Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_packWhack_tracking"
+  },
+  {
+    "name": "Sub-Aqua Egg Aiming Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_auqaim_tracking"
+  },
+  {
+    "name": "Wing Whack Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_wingWhack_tracking"
+  },
+  {
+    "name": "Talon Torpedo Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_ttorp_tracking"
+  },
+  {
+    "name": "Springy Step Shoes Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_springb_tracking"
+  },
+  {
+    "name": "Hatch Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_hatch_tracking"
+  },
+  {
+    "name": "Taxi Pack Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_taxiPack_tracking"
+  },
+  {
+    "name": "Claw Clamber Boots Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_clawbts_tracking"
+  },
+  {
+    "name": "Snooze Pack Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_snoozePack_tracking"
+  },
+  {
+    "name": "Leg Spring Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_legSpring_tracking"
+  },
+  {
+    "name": "Shack Pack Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_shackPack_tracking"
+  },
+  {
+    "name": "Glide Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_glide_tracking"
+  },
+  {
+    "name": "Sack Pack Silo",
+    "type": "toggle",
+    "img": "/images/locations/silo.png",
+    "codes": "silo_sackPack_tracking"
+  },
+  {
+    "name": "Targitzan Moves",
+    "type": "toggle",
+    "img": "/images/access/Targitzan.png",
+    "codes": "bossmoves_targitzan"
+  },
+  {
+    "name": "Old King Coal Moves",
+    "type": "toggle",
+    "img": "/images/access/Old King Coal.png",
+    "codes": "bossmoves_oldkingcoal"
+  },
+  {
+    "name": "Mr. Patch Moves",
+    "type": "toggle",
+    "img": "/images/access/Mr Patch.png",
+    "codes": "bossmoves_mrpatch"
+  },
+  {
+    "name": "Lord Woo Fak Fak Moves",
+    "type": "toggle",
+    "img": "/images/access/Lord Woo Fak Fak.png",
+    "codes": "bossmoves_lordwoofakfak"
+  },
+  {
+    "name": "Terry Moves",
+    "type": "toggle",
+    "img": "/images/access/Terry.png",
+    "codes": "bossmoves_terry"
+  },
+  {
+    "name": "Dragon Brothers Moves",
+    "type": "toggle",
+    "img": "/images/access/Dragon Brothers.png",
+    "codes": "bossmoves_dragonbrothers"
+  },
+  {
+    "name": "Mingy Jongo Moves",
+    "type": "toggle",
+    "img": "/images/access/Mingy Jongo.png",
+    "codes": "bossmoves_mingyjongo"
+  },
+  {
+    "name": "Mayahem Temple Access",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_mta.png",
+    "codes": "mp_mta"
+  },
+  {
+    "name": "Third-Person Egg Shooting",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_eggshoot.png",
+    "codes": "mp_eggshoot"
+  },
+  {
+    "name": "Targitzan Eggs",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_targitzaneggs.png",
+    "codes": "mp_targitzaneggs"
+  },
+  {
+    "name": "Breegull Blaster",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_bblaster.png",
+    "codes": "mp_bblast"
+  },
+  {
+    "name": "Chuffy",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_chuffy.png",
+    "codes": "mp_chuffy"
+  },
+  {
+    "name": "Train Access",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_trainstation.png",
+    "codes": "mp_trainaccess"
+  },
+  {
+    "name": "Chuffy Attack",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_chuffyattack.png",
+    "codes": "mp_chuffyattack"
+  },
+  {
+    "name": "Witchyworld Access",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_wwa.png",
+    "codes": "mp_wwa"
+  },
+  {
+    "name": "Flight",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_flight.png",
+    "codes": "mp_flight"
+  },
+  {
+    "name": "Airborne Egg Aiming",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_aireaim.png",
+    "codes": "mp_aireaim"
+  },
+  {
+    "name": "Grenade Eggs",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_geggs.png",
+    "codes": "mp_geggs"
+  },
+  {
+    "name": "Jolly Roger's Lagoon Access",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_jra.png",
+    "codes": "mp_jra"
+  },
+  {
+    "name": "Dive & Sub-Aqua Egg Aiming",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_diveauqaim.png",
+    "codes": "mp_diveauqaim"
+  },
+  {
+    "name": "Humba: Sub",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_sub.png",
+    "codes": "mp_sub"
+  },
+  {
+    "name": "Terrydactyland Access",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_tda.png",
+    "codes": "mp_tda"
+  },
+  {
+    "name": "Springy Step shoes",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_springb.png",
+    "codes": "mp_springb"
+  },
+  {
+    "name": "First-Person Egg Aim",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_eggaim.png",
+    "codes": "mp_eggaim"
+  },
+  {
+    "name": "Terry Eggs",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_terryeggs.png",
+    "codes": "mp_terryeggs"
+  },
+  {
+    "name": "Hailfire Peaks Access",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_hfa.png",
+    "codes": "mp_hfa"
+  },
+  {
+    "name": "Flight + Claw Clamber Boots",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_dragonaccess.png",
+    "codes": "mp_fpadclawb"
+  },
+  {
+    "name": "Talon Trot",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_ttrot.png",
+    "codes": "mp_ttrot"
+  },
+  {
+    "name": "Fire Eggs + Ice Eggs + Third-Person Egg Shooting",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_dragoneggs.png",
+    "codes": "mp_dragoneggs"
+  },
+  {
+    "name": "Cloud Cuckooland Access",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_cca.png",
+    "codes": "mp_cca"
+  },
+  {
+    "name": "Mingy Jongo Attack",
+    "type": "toggle",
+    "img": "/images/mousepace_temp/mousepace_mingyjongoattack.png",
+    "codes": "mp_mingyjongoattack"
   }
 ]

@@ -13,11 +13,13 @@
             "margin": "0,0",
             "item_margin": "1,2",
             "rows": [
-              [ "ggrab", "bbust", "bdrill", "bblaster", "bbayonet", "ttorp", "bbomb", "wwing", "bbash", "fpad" ],
-              [ "ttrot", "tjump", "roll", "grat", "arat", "bbarge", "climb", "fflip", "flutter", "splitup" ],
-              [ "dive", "dair", "fswim", "amazeogaze", "roar", "", "sstride", "ttrain", "springb", "clawbts" ],
-              [ "eggshoot", "eggaim","aireaim", "auqaim","homingeggs", "begg", "feggs", "geggs", "ieggs", "ceggs" ],
-              [ "packwh", "taxpack", "snpack", "shpack", "sapack", "", "wwhack", "hatch", "lspring", "glide"]
+              [ "tjump", "fflip", "ggrab", "climb", "ttrot", "sstride", "ttrain", "springb", "clawbts" ],
+              [ "bbust", "bdrill", "roll", "grat", "wwing", "bbarge", "bbash", "arat", "flutter" ],
+              [ "fpad", "bbomb", "dive", "dair", "fswim", "ttorp", "", "bblaster", "bbayonet" ],
+              [ "eggshoot", "eggaim", "aireaim", "auqaim", "begg", "feggs", "geggs", "ieggs", "ceggs" ],
+              [ "packwh", "taxpack", "snpack", "shpack", "sapack", "wwhack", "hatch", "lspring", "glide" ],
+              [ "splitup", "amazeogaze", "roar", "homingeggs", "cheatfeather", "cheategg", "cheatfall", "cheathoney", "" ],
+              [ "", "chuffy", "trainswww", "trainswtd", "trainswgi", "trainswhp1", "trainswhp2", "trainswih", "" ]
             ]
           },
           {
@@ -26,7 +28,7 @@
             "margin": "0,6",
             "item_margin": "1,2",
             "rows": [
-              [ "jiggy", "totalnote", "honey", "pages", "doubloon", "ikey", "bmegg", "pmegg", "mumbotoken" ],
+              [ "jiggy", "totalnote", "maxhealth", "honey", "pages", "doubloon", "ikey", "meggs", "mumbotoken" ],
               [ "wjinjo", "ojinjo", "yjinjo", "brjinjo", "gjinjo", "rjinjo", "bljinjo", "pjinjo", "bkjinjo" ]
             ]
           },
@@ -39,7 +41,8 @@
               [ "mta", "gga", "wwa", "jra", "tda", "gia", "hfa", "cca", "cka" ],
               [ "mumbomt", "mumbogm", "mumboww", "mumbojr", "mumbotd", "mumbogi", "mumbohp", "mumbocc", "mumboih" ],
               [ "humbamt", "humbagm", "humbaww", "humbajr", "humbatd", "humbagi", "humbahp", "humbacc", "humbaih" ],
-              [ "", "chuffy", "trainswww", "trainswtd", "trainswgi", "trainswhp1", "trainswhp2", "trainswih" ]
+              [ "warpsmt", "warpsgm", "warpsww", "warpsjr", "warpstl", "warpsgi", "warpshp", "warpscc", "warpsck" ],
+              [ "", "siloiohjv", "siloiohwh", "siloiohpl", "siloiohpg", "siloiohct", "siloiohwl", "siloiohqm" ]
             ]
           }
         ]
