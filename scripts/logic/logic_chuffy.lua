@@ -4,8 +4,8 @@ function chuffy_trainRaised(skip)
     local logic = 99
     --[[        train_raised
     return state.has(itemName.CHUFFY, self.player)\
-			if self.world.options.randomize_chuffy\
-			else self.mumboGGM(state)
+            if self.world.options.randomize_chuffy.value\
+            else self.mumboGGM(state)
     --]]
     
     if ( chuffyrandomized.CurrentStage == 0 ) then
@@ -145,33 +145,26 @@ end
 function chuffy_canEnterFromTDL(skip)
     local logic = 99
     --[[        tdl_to_chuffy
-     if self.world.options.logic_type == LogicType.option_intended:
-        logic = state.has(itemName.TRAINSWTD, self.player)\
+    if self.intended_logic(state):
+        return state.has(itemName.TRAINSWTD, self.player)\
                 and (self.climb(state) and self.small_elevation(state))\
                 and self.can_call_train(state)
-    elif self.world.options.logic_type == LogicType.option_easy_tricks:
-        logic = state.has(itemName.TRAINSWTD, self.player)\
-                and ((self.small_elevation(state) or self.beak_buster(state)) and self.climb(state)\
-                    or self.flap_flip(state) and self.beak_buster(state))\
+    elif self.easy_tricks_logic(state):
+        return state.has(itemName.TRAINSWTD, self.player)\
+                and ((self.small_elevation(state) or self.beak_buster(state)) and self.climb(state)
+                    or self.flap_flip(state) and self.beak_buster(state)
+                    or self.talon_trot(state))\
                 and self.can_call_train(state)
-    elif self.world.options.logic_type == LogicType.option_hard_tricks:
-        logic = state.has(itemName.TRAINSWTD, self.player)\
-                and (
-                    ((self.small_elevation(state) or self.beak_buster(state)) and self.climb(state))\
-                    or self.extremelyLongJump(state)\
-                    or self.flap_flip(state) and self.beak_buster(state)\
-                    or self.tall_jump(state) and self.beak_buster(state)
-                )\
-                and self.can_call_train(state)
-    elif self.world.options.logic_type == LogicType.option_glitches:
-        logic = state.has(itemName.TRAINSWTD, self.player)\
-                and (
-                    ((self.small_elevation(state) or self.beak_buster(state)) and self.climb(state))\
-                    or self.extremelyLongJump(state)\
-                    or self.flap_flip(state) and self.beak_buster(state)\
-                    or self.tall_jump(state) and self.beak_buster(state)
-                )\
-                and self.can_call_train(state)
+    else:
+        return state.has(itemName.TRAINSWTD, self.player)\
+               and (
+                   ((self.small_elevation(state) or self.beak_buster(state)) and self.climb(state))
+                   or self.extremelyLongJump(state)
+                   or self.flap_flip(state) and self.beak_buster(state)
+                   or self.tall_jump(state) and self.beak_buster(state)
+                   or self.talon_trot(state)
+               )\
+               and self.can_call_train(state)
      --]]
     
     if ( has("trainswtd") ) then
@@ -179,6 +172,8 @@ function chuffy_canEnterFromTDL(skip)
         
         if ( has("climb") and can_reachSmallElevation() and canCallTrain <= logictype.CurrentStage ) then
             logic = 0
+        elseif ( has("ttrot") and canCallTrain <= logictype.CurrentStage ) then
+            logic = 1
         elseif ( has("bbust") and (has("climb") or has("fflip")) ) then
             logic = math.max(1, canCallTrain)
         elseif ( has("bbust") and has("tjump") ) then

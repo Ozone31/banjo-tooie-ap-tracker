@@ -399,27 +399,20 @@ end
 function jiggy_GGM_generatorCavern(skip)
     local logic = 99
     --[[        jiggy_generator_cavern
-    if self.world.options.logic_type == LogicType.option_intended:
-      logic = self.fire_eggs(state) and self.egg_aim(state)\
+    if self.intended_logic(state):
+      return self.fire_eggs(state) and self.egg_aim(state)\
                  and self.long_jump(state) and (self.flap_flip(state) or self.talon_trot(state))
-    elif self.world.options.logic_type == LogicType.option_easy_tricks:
-      logic = (self.long_jump(state) and (self.flap_flip(state) or self.talon_trot(state)) and (self.has_fire(state) or self.bill_drill(state)))\
+    elif self.easy_tricks_logic(state):
+      return (self.long_jump(state) and (self.flap_flip(state) or self.talon_trot(state)) and self.has_fire(state))\
             or self.flap_flip(state) and self.beak_buster(state) and self.climb(state)\
-            or self.GM_boulders(state) and self.leg_spring(state) and self.fire_eggs(state)\
-            or self.GM_boulders(state) and self.tall_jump(state) and self.pack_whack(state) and self.climb(state)
-    elif self.world.options.logic_type == LogicType.option_hard_tricks:
-        logic = self.long_jump(state) and (self.flap_flip(state) or self.talon_trot(state))\
+            or self.ggm_boulders(state) and self.leg_spring(state) and self.fire_eggs(state)\
+            or self.ggm_boulders(state) and self.tall_jump(state) and self.pack_whack(state) and self.climb(state)
+    else:
+        return self.long_jump(state) and (self.flap_flip(state) or self.talon_trot(state))\
             or self.flap_flip(state) and self.beak_buster(state)\
             or self.clockwork_shot(state)\
-            or self.GM_boulders(state) and self.tall_jump(state) and self.pack_whack(state) and self.climb(state)\
-            or self.GM_boulders(state) and self.leg_spring(state)\
-            or self.beak_buster(state) and self.grip_grab(state)
-    elif self.world.options.logic_type == LogicType.option_glitches:
-        logic = (self.long_jump(state) and (self.flap_flip(state) or self.talon_trot(state)))\
-            or self.flap_flip(state) and self.beak_buster(state)\
-            or self.clockwork_shot(state)\
-            or self.GM_boulders(state) and self.tall_jump(state) and self.pack_whack(state) and self.climb(state)\
-            or self.GM_boulders(state) and self.leg_spring(state)\
+            or self.ggm_boulders(state) and self.tall_jump(state) and self.pack_whack(state) and self.climb(state)\
+            or self.ggm_boulders(state) and self.leg_spring(state)\
             or self.beak_buster(state) and self.grip_grab(state)
     --]]
     
@@ -429,7 +422,7 @@ function jiggy_GGM_generatorCavern(skip)
     -- Normal Logic
     if ( has("feggs") and has("eggaim") and can_longJump() and (has("fflip") or has("ttrot")) ) then
         logic = 0
-    elseif ( can_longJump() and (has("fflip") or has("ttrot")) and (has_billDrill() or hasFire <= logictype.CurrentStage) or has("fflip") and has("bbust") and has("climb") or canBreakBoulders <= logictype.CurrentStage and (has_legSpring() and can_shootEggs("feggs") or has("tjump") and has_packWhack() and has("climb")) ) then
+    elseif ( can_longJump() and (has("fflip") or has("ttrot")) and hasFire <= logictype.CurrentStage or has("fflip") and has("bbust") and has("climb") or canBreakBoulders <= logictype.CurrentStage and (has_legSpring() and can_shootEggs("feggs") or has("tjump") and has_packWhack() and has("climb")) ) then
         logic = 1
     elseif ( can_longJump() and (has("fflip") or has("ttrot")) or has("fflip") and has("bbust") or can_clockworkShot() or canBreakBoulders <= logictype.CurrentStage and has_legSpring() or has("ggrab") and has("bbust") ) then
         logic = 2
@@ -573,15 +566,13 @@ end
 function jiggy_GGM_powerHut(skip)
     local logic = 99
     --[[        jiggy_power_hut
-    if self.world.options.logic_type == LogicType.option_intended:
-        logic = self.GM_boulders(state) and self.split_up(state) and self.climb(state)
-    elif self.world.options.logic_type == LogicType.option_easy_tricks:
-        logic = self.GM_boulders(state) and\
-                ((self.split_up(state) and self.climb(state)) or self.has_fire(state) or self.bill_drill(state))
-    elif self.world.options.logic_type == LogicType.option_hard_tricks:
-        logic = self.GM_boulders(state)
-    elif self.world.options.logic_type == LogicType.option_glitches:
-        logic = self.GM_boulders(state)
+    if self.intended_logic(state):
+        return self.ggm_boulders(state) and self.split_up(state) and self.climb(state)
+    elif self.easy_tricks_logic(state):
+        return self.ggm_boulders(state) and\
+                ((self.split_up(state) and self.climb(state)) or self.has_fire(state))
+    else:
+        return self.ggm_boulders(state)
     --]]
     
     local canBreakBoulders = access_GGM_canBreakBoulders(true)
@@ -590,7 +581,7 @@ function jiggy_GGM_powerHut(skip)
     -- Normal Logic
     if ( canBreakBoulders <= logictype.CurrentStage and has("splitup") and has("climb") ) then
         logic = 0
-    elseif ( canBreakBoulders <= logictype.CurrentStage and (hasFire <= logictype.CurrentStage or has_billDrill()) ) then
+    elseif ( canBreakBoulders <= logictype.CurrentStage and hasFire <= logictype.CurrentStage ) then
         logic = 1
     elseif ( canBreakBoulders <= logictype.CurrentStage ) then
         logic = 2

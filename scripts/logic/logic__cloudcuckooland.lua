@@ -670,23 +670,22 @@ end
 function jinjo_CCL_cheeseWedge(skip)
     local logic = 99
     --[[        jinjo_cheese
-    if self.world.options.logic_type == LogicType.option_intended:
-        logic = self.flight_pad(state) and (self.sack_pack(state) and self.grow_beanstalk(state) and \              -- grow_beanstalk requires fpad
+    if self.intended_logic(state):
+        return self.flight_pad(state) and (self.sack_pack(state) and self.grow_beanstalk(state) and
                  self.can_use_floatus(state))
-    elif self.world.options.logic_type == LogicType.option_easy_tricks:
-        logic = self.flight_pad(state) and ((self.sack_pack(state) and self.grow_beanstalk(state) and \
-                 self.can_use_floatus(state)) or self.leg_spring(state))
-    elif self.world.options.logic_type == LogicType.option_hard_tricks:
-        logic = self.flight_pad(state) and ((self.sack_pack(state) and self.grow_beanstalk(state) and \
-                 self.can_use_floatus(state)) or self.clockwork_shot(state) or self.leg_spring(state))
-    elif self.world.options.logic_type == LogicType.option_glitches:
-        logic = self.flight_pad(state) and ((self.sack_pack(state) and self.grow_beanstalk(state) and \
-                 self.can_use_floatus(state)) or self.clockwork_shot(state) or self.leg_spring(state))
+    elif self.easy_tricks_logic(state):
+        return self.flight_pad(state) and ((self.sack_pack(state) and self.grow_beanstalk(state) and
+                 self.can_use_floatus(state)) or self.leg_spring(state)
+                 or (self.flap_flip(state) and self.beak_buster(state)))
+    else:
+        return self.flight_pad(state) and ((self.sack_pack(state) and self.grow_beanstalk(state) and
+                self.can_use_floatus(state)) or self.clockwork_shot(state) or self.leg_spring(state)
+                or (self.flap_flip(state) and self.beak_buster(state)))
     --]]
     
     if ( has_sackPack() and basic_CCL_canGrowBeanstalk() and basic_CCL_canUseFloatus() ) then
         logic = 0
-    elseif ( has("fpad") and has_legSpring() ) then
+    elseif ( has("fpad") and (has_legSpring() or has("fflip") and has("bbust")) ) then
         logic = 1
     elseif ( has("fpad") and can_clockworkShot() ) then
         logic = 2

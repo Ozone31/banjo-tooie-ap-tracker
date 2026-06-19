@@ -995,20 +995,20 @@ end
 function jinjo_WW_caveOfHorrors(skip)
     local logic = 99
     --[[        jinjo_cave_of_horrors
-    if self.world.options.logic_type == LogicType.option_intended:
-        logic = self.grenade_eggs(state) and self.egg_aim(state)
-    elif self.world.options.logic_type == LogicType.option_easy_tricks:
-        logic = self.grenade_eggs(state)
-    elif self.world.options.logic_type == LogicType.option_hard_tricks:
-        logic = self.grenade_eggs(state)
-    elif self.world.options.logic_type == LogicType.option_glitches:
-        logic = self.grenade_eggs(state)
+    if self.intended_logic(state):
+        return self.grenade_eggs(state) and self.egg_aim(state)
+    elif self.glitches_logic(state):
+        return self.grenade_eggs(state) or self.clockwork_eggs(state)
+    else:
+        return self.grenade_eggs(state)
     --]]
     
     if ( can_shootEggs("geggs") and has("eggaim") ) then
         logic = 0
     elseif ( can_shootEggs("geggs") ) then
         logic = 1
+    elseif ( can_shootEggs("ceggs") ) then
+        logic = 3
     end
     
     return convertLogic(logic, skip)

@@ -825,30 +825,15 @@ end
 ----- Warp Pads
 
 function warp_CK_top(skip)
+    local logic = 99
     --[[        warp_pad_ck_top
-    if self.world.options.logic_type == LogicType.option_intended:
-        return self.pack_whack(state)\
-                or self.sack_pack(state)\
-                or self.shack_pack(state)\
-                or state.has(itemName.WARPCK1, self.player) and state.has(itemName.WARPCK2, self.player)
-    elif self.world.options.logic_type == LogicType.option_easy_tricks:
-        return self.pack_whack(state)\
-                or self.sack_pack(state)\
-                or self.shack_pack(state)\
-                or state.has(itemName.WARPCK1, self.player) and state.has(itemName.WARPCK2, self.player)
-    elif self.world.options.logic_type == LogicType.option_hard_tricks:
-        return self.pack_whack(state)\
-                or self.sack_pack(state)\
-                or self.shack_pack(state)\
-                or state.has(itemName.WARPCK1, self.player) and state.has(itemName.WARPCK2, self.player)
-    elif self.world.options.logic_type == LogicType.option_glitches:
-        return self.pack_whack(state)\
-                or self.sack_pack(state)\
-                or self.shack_pack(state)\
-                or state.has(itemName.WARPCK1, self.player) and state.has(itemName.WARPCK2, self.player)
+    return self.pack_whack(state) and self.tall_jump(state)\
+           or self.sack_pack(state)\
+           or self.shack_pack(state)\
+           or state.has(itemName.WARPCK1, self.player) and state.has(itemName.WARPCK2, self.player)
     --]]
     
-    if ( has_packWhack() or has_sackPack() or has_shackPack() or has("warpck1") and has("warpck2") ) then
+    if ( has_packWhack() and has("tjump") or has_sackPack() or has_shackPack() or has("warpck1") and has("warpck2") ) then
         logic = 0
     end
     

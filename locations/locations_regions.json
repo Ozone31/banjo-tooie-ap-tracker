@@ -406,7 +406,7 @@
     "name": "Region: Terrydactyland - Inside the Mountain Top",
     "access_rules": [
         "@Region: Terrydactyland - Main Area, ^$connector_TDL_to_TDLIMTop",
-        "@Region: Boss Arena - Terry"
+        "@Region: Boss Arena - Terry, ^$connector_Terry_to_TDLIMTop"
     ]
   },
   {
