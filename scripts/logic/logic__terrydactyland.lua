@@ -256,20 +256,26 @@ end
 function access_TDL_mumbo(skip)
     local logic = 99
     --[[        mumboTDL
-    if self.world.options.logic_type == LogicType.option_intended:
-        logic = self.stilt_stride(state) and state.has(itemName.MUMBOTD, self.player)
-    elif self.world.options.logic_type == LogicType.option_easy_tricks:
-        logic = state.has(itemName.MUMBOTD, self.player)
-    elif self.world.options.logic_type == LogicType.option_hard_tricks:
-        logic = state.has(itemName.MUMBOTD, self.player)
-    elif self.world.options.logic_type == LogicType.option_glitches:
-        logic = state.has(itemName.MUMBOTD, self.player)
+    if self.intended_logic(state):
+        return self.stilt_stride(state) and state.has(itemName.MUMBOTD, self.player)
+    elif self.easy_tricks_logic(state):
+        return (
+                self.small_elevation(state)\
+                or self.beak_buster(state)\
+                or self.stilt_stride(state)\
+                or self.turbo_trainers(state)\
+                or self.springy_step_shoes(state)
+            ) and state.has(itemName.MUMBOTD, self.player)
+    else:
+        return state.has(itemName.MUMBOTD, self.player)
     --]]
     
     if ( has("mumbotd") and has("sstride") ) then
         logic = 0
-    elseif ( has("mumbotd") ) then
+    elseif ( has("mumbotd") and (can_reachSmallElevation() or has("bbust") or has("sstride") or has("ttrain") or has("springb")) ) then
         logic = 1
+    elseif ( has("mumbotd") ) then
+        logic = 2
     end
     
     return convertLogic(logic, skip)
@@ -410,29 +416,19 @@ end
 
 function silo_TDL_springyStepShoes(skip)
     local logic = 99
-    --[[
-    self.check_notes(state, locationName.SPRINGB) and self.silo_spring(state)
-    
-    if self.world.options.logic_type == LogicType.option_intended:
-        return self.flap_flip(state) and self.grip_grab(state)\
-                or self.TDL_flight_pad(state)
-    elif self.world.options.logic_type == LogicType.option_easy_tricks:
+    --[[        silo_springy_step_shoes / silo_spring
+    return self.check_notes(state, locationName.SPRINGB) and self.silo_spring(state)
+    if self.intended_logic(state):
+        return self.flap_flip(state) and self.grip_grab(state) or self.TDL_flight_pad(state)
+    elif self.easy_tricks_logic(state):
         return self.flap_flip(state) and (self.grip_grab(state) or self.beak_buster(state))\
                 or self.TDL_flight_pad(state)\
-                or self.veryLongJump(state)\
-                or self.turbo_trainers(state)\
-                or self.springy_step_shoes(state)
-
-    elif self.world.options.logic_type == LogicType.option_hard_tricks:
+                or self.very_long_jump(state)\
+                or (self.turbo_trainers(state) or self.springy_step_shoes(state)) and (self.flutter(state) or self.air_rat_a_tat_rap(state))
+    else:
         return self.flap_flip(state) and (self.grip_grab(state) or self.beak_buster(state))\
                 or self.TDL_flight_pad(state)\
-                or self.veryLongJump(state)\
-                or self.turbo_trainers(state)\
-                or self.springy_step_shoes(state)
-    elif self.world.options.logic_type == LogicType.option_glitches:
-        return self.flap_flip(state) and (self.grip_grab(state) or self.beak_buster(state))\
-                or self.TDL_flight_pad(state)\
-                or self.veryLongJump(state)\
+                or self.very_long_jump(state)\
                 or self.turbo_trainers(state)\
                 or self.springy_step_shoes(state)
     --]]
@@ -443,7 +439,7 @@ function silo_TDL_springyStepShoes(skip)
         -- Normal Logic
         if ( has("fflip") and has("ggrab") or flightPad <= logictype.CurrentStage ) then
             logic = 0
-        elseif ( has("fflip") and has("bbust") or can_veryLongJump() or has("ttrain") or has("springb") ) then
+        elseif ( has("fflip") and has("bbust") or can_veryLongJump() or (has("ttrain") or has("springb")) and (has("flutter") or has("arat")) ) then
             logic = 1
         
         -- Sequence Breaking
@@ -726,28 +722,16 @@ end
 function jiggy_TDL_chompa(skip)
     local logic = 99
     --[[        jiggy_chompa
-    if self.world.options.logic_type == LogicType.option_intended:
-        logic = self.breegull_blaster(state) and (
-            ((self.tall_jump(state) or self.grip_grab(state)) and self.flight_pad(state)
-             or (self.egg_aim(state) and self.has_explosives(state) and self.springy_step_shoes(state)))
-        )
-    elif self.world.options.logic_type == LogicType.option_easy_tricks:
-        logic = self.breegull_blaster(state) and (
-            ((self.tall_jump(state) or self.grip_grab(state) or self.beak_buster(state)) and self.flight_pad(state)
+    if self.intended_logic(state) or self.easy_tricks_logic(state):
+        return self.breegull_blaster(state) and (
+            (self.tall_jump(state) or self.grip_grab(state)) and self.flight_pad(state)
              or (self.egg_aim(state) and self.has_explosives(state) and self.springy_step_shoes(state))
-             or (self.springy_step_shoes(state) and self.veryLongJump(state)))
         )
-    elif self.world.options.logic_type == LogicType.option_hard_tricks:
-        logic = self.breegull_blaster(state) and (
-            ((self.tall_jump(state) or self.grip_grab(state) or self.beak_buster(state)) and self.flight_pad(state)
-             or (self.egg_aim(state) and self.has_explosives(state) and self.springy_step_shoes(state))
-             or (self.springy_step_shoes(state) and self.veryLongJump(state)))
-        )
-    elif self.world.options.logic_type == LogicType.option_glitches:
-        logic = self.breegull_blaster(state) and (
-            ((self.tall_jump(state) or self.grip_grab(state) or self.beak_buster(state)) and self.flight_pad(state)
-             or (self.egg_aim(state) and self.has_explosives(state) and self.springy_step_shoes(state))
-             or (self.springy_step_shoes(state) and self.veryLongJump(state)))
+    else:
+        return self.breegull_blaster(state) and (
+           (self.tall_jump(state) or self.grip_grab(state) or self.beak_buster(state)) and self.flight_pad(state)
+            or (self.egg_aim(state) and self.has_explosives(state) and self.springy_step_shoes(state))
+            or (state.can_reach_region(regionName.TLIMTOP, self.player) and self.very_long_jump(state))
         )
     --]]
     
@@ -757,10 +741,6 @@ function jiggy_TDL_chompa(skip)
         -- Normal Logic
         if ( (has("tjump") or has("ggrab")) and has("fpad") or has("springb") and has("eggaim") and explosives <= logictype.CurrentStage ) then
             logic = 0
-        elseif ( has("springb") and can_veryLongJump() or has("bbust") and has("fpad") ) then
-            logic = 1
-        elseif ( has("springb") and has("eggaim") and explosives < 2 ) then
-            logic = 1 -- Sequence Breaking
         elseif ( has("bbust") and has("fpad") ) then
             logic = 2
             
@@ -1234,9 +1214,9 @@ function nests_TDL_nearRiverPassage(skip)
                 or self.clockwork_shot(state)
     --]]
     
-    if ( has("tjump") and has("ggrab") ) then
+    if ( has("tjump") or has("ggrab") ) then
         logic = 0
-    elseif ( has("tjump") or has("ggrab") or has_packWhack() or has_wingWhack() or has_glide() ) then
+    elseif ( has_packWhack() or has_wingWhack() or has_glide() ) then
         logic = 1
     elseif ( can_clockworkShot() ) then
         logic = 2
@@ -1357,36 +1337,28 @@ end
 function nests_TDL_riverPassageNearSilo(skip)
     local logic = 99
     --[[        nest_river_passage
-    if self.world.options.logic_type == LogicType.option_intended:
-        logic = self.tall_jump(state) and self.grip_grab(state) and (self.flap_flip(state) or self.split_up(state))
-    elif self.world.options.logic_type == LogicType.option_easy_tricks:
-        logic = self.tall_jump(state) and self.grip_grab(state) and (self.flap_flip(state) or self.split_up(state))\
+    if self.intended_logic(state):
+        return self.tall_jump(state) and self.grip_grab(state) and (self.flap_flip(state) or self.split_up(state))
+    elif self.easy_tricks_logic(state):
+        return self.grip_grab(state) and (self.flap_flip(state) or self.split_up(state))\
                 or self.leg_spring(state) and self.glide(state)\
                 or self.pack_whack(state) and self.tall_jump(state)\
                 or self.pack_whack(state) and self.grip_grab(state)\
                 or self.sack_pack(state)\
-             or self.split_up(state) and self.tall_jump(state)
-    elif self.world.options.logic_type == LogicType.option_hard_tricks:
-        logic = self.tall_jump(state) and self.grip_grab(state) and (self.flap_flip(state) or self.split_up(state))\
-                or self.leg_spring(state) and self.glide(state)\
-                or self.pack_whack(state) and self.tall_jump(state)\
-                or self.pack_whack(state) and self.grip_grab(state)\
-                or self.sack_pack(state)\
-                or self.clockwork_shot(state)\
-             or self.split_up(state) and self.tall_jump(state)
-    elif self.world.options.logic_type == LogicType.option_glitches:
-        logic = self.tall_jump(state) and self.grip_grab(state) and (self.flap_flip(state) or self.split_up(state))\
-                or self.leg_spring(state) and self.glide(state)\
-                or self.pack_whack(state) and self.tall_jump(state)\
-                or self.pack_whack(state) and self.grip_grab(state)\
-                or self.sack_pack(state)\
-                or self.clockwork_shot(state)\
-             or self.split_up(state) and self.tall_jump(state)
+                or self.split_up(state) and self.tall_jump(state)
+    else:
+        return self.grip_grab(state) and (self.flap_flip(state) or self.split_up(state))\
+               or self.leg_spring(state) and self.glide(state)\
+               or self.pack_whack(state) and self.tall_jump(state)\
+               or self.pack_whack(state) and self.grip_grab(state)\
+               or self.sack_pack(state)\
+               or self.clockwork_shot(state)\
+               or self.split_up(state) and self.tall_jump(state)
     --]]
     
     if ( has("tjump") and has("ggrab") and (has("fflip") or has("splitup")) ) then
         logic = 0
-    elseif ( has_legSpring() and has_glide() or has_packWhack() and (has("ggrab") or has("tjump")) or has_sackPack() or has("splitup") and has("tjump") ) then
+    elseif ( has("ggrab") and (has("fflip") or has("splitup")) or has_legSpring() and has_glide() or has_packWhack() and (has("ggrab") or has("tjump")) or has_sackPack() or has("splitup") and has("tjump") ) then
         logic = 1
     elseif ( can_clockworkShot() ) then
         logic = 2

@@ -1579,37 +1579,31 @@ end
 function nests_GI_trashCompactor(skip)
     local logic = 99
     --[[        nest_trash_compactor
-    if self.world.options.logic_type == LogicType.option_intended:
-        logic = self.snooze_pack(state)
-    elif self.world.options.logic_type == LogicType.option_easy_tricks:
-        logic = self.snooze_pack(state)\
+    if self.intended_logic(state):
+        return self.snooze_pack(state)
+    elif self.easy_tricks_logic(state):
+        return self.snooze_pack(state)\
+                or self.talon_trot(state)\
                 or self.split_up(state) and self.tall_jump(state)\
                 or self.wing_whack(state)\
                 or self.glide(state)\
                 or self.leg_spring(state)\
                 or self.flap_flip(state)\
                 or self.clockwork_eggs(state)
-    elif self.world.options.logic_type == LogicType.option_hard_tricks:
-        logic = self.snooze_pack(state)\
-                or self.split_up(state) and self.tall_jump(state)\
-                or self.wing_whack(state)\
-                or self.glide(state)\
-                or self.leg_spring(state)\
-                or self.clockwork_eggs(state)\
-                or self.flap_flip(state)
-    elif self.world.options.logic_type == LogicType.option_glitches:
-        logic = self.snooze_pack(state)\
-                or self.split_up(state) and self.tall_jump(state)\
-                or self.wing_whack(state)\
-                or self.glide(state)\
-                or self.leg_spring(state)\
-                or self.clockwork_eggs(state)\
-                or self.flap_flip(state)
+    else:
+        return self.snooze_pack(state)\
+               or self.talon_trot(state)\
+               or self.split_up(state) and self.tall_jump(state)\
+               or self.wing_whack(state)\
+               or self.glide(state)\
+               or self.leg_spring(state)\
+               or self.clockwork_eggs(state)\
+               or self.flap_flip(state)
     --]]
     
     if ( has_snoozePack() ) then
         logic = 0
-    elseif ( has("splitup") and has("tjump") or has_wingWhack() or has_glide() or has_legSpring() or has("fflip") or can_shootEggs("ceggs") ) then
+    elseif ( has("ttrot") or has("splitup") and has("tjump") or has_wingWhack() or has_glide() or has_legSpring() or has("fflip") or can_shootEggs("ceggs") ) then
         logic = 1
     end
     
@@ -2928,15 +2922,15 @@ function honeycomb_GI_floor3(skip) -- FIXIT this function needs to be updated, b
     -- Normal Logic
     if ( has("tjump") and has("ggrab") and (has("fflip") or has("climb")) or floor3SplitUp <= logictype.CurrentStage and has_legSpring() ) then
         logic = 0
-    elseif ( has("tjump") and has("bbust") and has("fflip") or floor3SplitUp <= logictype.CurrentStage and has_packWhack() and has("tjump") ) then
+    elseif ( has("tjump") and has("bbust") and has("fflip") or floor3SplitUp <= logictype.CurrentStage and has_legSpring() ) then
         logic = 1
-    elseif ( floor3SplitUp < 2 and (has_legSpring() or has_packWhack() and has("tjump")) ) then
+    elseif ( floor3SplitUp < 2 and has_legSpring() ) then
         logic = 1 -- Sequence Breaking
     elseif ( can_clockworkShot() or floor3SplitUp <= logictype.CurrentStage and (has_wingWhack() or has_glide()) and has("tjump") ) then
         logic = 2
         
     -- Sequence Breaking
-    elseif ( has_legSpring() or has("tjump") and (has_packWhack() or has_wingWhack() or has_glide()) ) then
+    elseif ( has_legSpring() or has("tjump") and (has_wingWhack() or has_glide()) ) then
         logic = math.max(2, floor3SplitUp)
     end
     
